@@ -28,9 +28,9 @@ When submitting an issue, there's a few guidelines we'd ask you to respect to ma
     Please ensure you add screenshots or documentation references for bugs/changes so we can quickly ascertain if the request is suitable.
 
 In order to be 'assigned' an issue, please comment on the issue itself - we can then assign your GitHub account to that particular issue.
-Pull Requests
+### Pull Requests
 
-We welcome pull requests with fixes and improvements to the Sector File project. The features we really would like public support on are marked with "up-for-grabs" but other improvements are also welcome - please ensure you read over the pull work-flow below.
+We welcome pull requests with fixes and improvements to the Controller Pack. The features we really would like public support on are marked with "up-for-grabs" but other improvements are also welcome - please ensure you read over the pull work-flow below.
 
 If you wish to add a new feature or you spot a bug that you wish to fix, please open an issue for it first on the UK Sector File issue tracker.
 
