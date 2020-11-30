@@ -1,0 +1,38 @@
+PROFILE
+PROFILE:EGLL_N_APP:100:5
+ATIS2:"Heathrow Director"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_S_APP:100:5
+ATIS2:"Heathrow Director"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_F_APP:80:5
+ATIS2:"Heathrow Director"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_S_TWR:30:4
+ATIS2:"Heathrow Tower"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_N_TWR:30:4
+ATIS2:"Heathrow Tower"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_2_GND:20:3
+ATIS2:"Heathrow Ground"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_3_GND:20:3
+ATIS2:"Heathrow Ground"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_1_GND:20:3
+ATIS2:"Heathrow Ground"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLL_DEL:20:2
+ATIS2:"Heathrow Delivery"
+ATIS3:Pilot Brief - vats.im/lhrbrief
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

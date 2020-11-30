@@ -1,0 +1,14 @@
+PROFILE
+PROFILE:LTC_N_CTR:150:6
+ATIS2:"London Control"
+ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:LTC_NE_CTR:150:6
+ATIS2:"London Control"
+ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:LTC_NW_CTR:150:6
+ATIS2:"London Control"
+ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

@@ -1,0 +1,30 @@
+PROFILE
+PROFILE:EGCC_DEL:10:3
+ATIS2:Manchester Delivery
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_GND:20:3
+ATIS2:Manchester Ground
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_S_TWR:50:4
+ATIS2:Manchester Tower
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_N_TWR:50:4
+ATIS2:Manchester Tower
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_S_APP:100:5
+ATIS2:Manchester Radar
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_N_APP:100:5
+ATIS2:Manchester Radar
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGCC_F_APP:50:5
+ATIS2:Manchester Director
+ATIS3:Voice ATIS on 121.970
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

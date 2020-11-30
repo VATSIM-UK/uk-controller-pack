@@ -1,0 +1,24 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Heathrow\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Heathrow\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\ATM\ATM_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Local\Heathrow\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\ATM\ATM_General.txt
+Settings	SettingsfileARR	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\ATM\ATM_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
+Settings	sector	\..\Data\Sector\UK_2020_11.sct
+Settings	alias	\..\Data\Alias\Heathrow_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Heathrow\Heathrow ATM.asr
+RecentFiles	Recent2	\..\Data\ASR\Heathrow\Heathrow SMR.asr
+RecentFiles	Recent3	\..\Data\ASR\Heathrow\Heathrow SMR 2.asr
+ASRFastKeys	1	\..\Data\ASR\Heathrow\Heathrow ATM.asr
+ASRFastKeys	2	\..\Data\ASR\Heathrow\Heathrow SMR.asr
+ASRFastKeys	3	\..\Data\ASR\Heathrow\Heathrow SMR 2.asr

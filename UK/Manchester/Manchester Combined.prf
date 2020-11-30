@@ -1,0 +1,27 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Manchester\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Manchester\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\TC_APP\TC_APP_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General_5A.txt
+Settings	SettingsfileARR	\..\Data\Settings\TC_APP\TC_APP_AL.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\TC_APP\TC_APP_C.txt
+Settings	SettingsfileDEP	\..\Data\Settings\TC_APP\TC_APP_DL.txt
+Settings	SettingsfileFP	\..\Data\Settings\TC_APP\TC_APP_FPL.txt
+Settings	SettingsfileSEL	\..\Data\Settings\TC_APP\TC_APP_SEL.txt
+Settings	SettingsfileSIL	\..\Data\Settings\TC_APP\TC_APP_SIL.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Manchester\APP_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
+Settings	sector	\..\Data\Sector\UK_2020_11.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Manchester\Manchester Radar_2.asr
+RecentFiles	Recent2	\..\Data\ASR\Manchester\Manchester Radar_1.asr
+RecentFiles	Recent3	\..\Data\ASR\Manchester\Manchester Radar_3.asr
+RecentFiles	Recent4	\..\Data\ASR\Manchester\Manchester Radar_4.asr
+RecentFiles	Recent5	\..\Data\ASR\Manchester\Manchester SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Manchester\Manchester Radar_1.asr
+ASRFastKeys	2	\..\Data\ASR\Manchester\Manchester Radar_2.asr
+ASRFastKeys	3	\..\Data\ASR\Manchester\Manchester Radar_3.asr
+ASRFastKeys	4	\..\Data\ASR\Manchester\Manchester Radar_4.asr
+ASRFastKeys	5	\..\Data\ASR\Manchester\Manchester SMR.asr

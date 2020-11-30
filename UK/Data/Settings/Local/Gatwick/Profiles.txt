@@ -1,0 +1,22 @@
+PROFILE
+PROFILE:EGKK_DEL:10:2
+ATIS2:Gatwick Delivery
+ATIS3:Charts at tinyurl.com/kkcharts
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGKK_GND:20:3
+ATIS2:Gatwick Ground
+ATIS3:Charts at tinyurl.com/kkcharts
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGKK_TWR:50:4
+ATIS2:Gatwick Tower
+ATIS3:Charts at tinyurl.com/kkcharts
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGKK_APP:100:5
+ATIS2:Gatwick Director
+ATIS3:Charts at tinyurl.com/kkcharts
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGKK_F_APP:100:5
+ATIS2:Gatwick Director
+ATIS3:Charts at tinyurl.com/kkcharts
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

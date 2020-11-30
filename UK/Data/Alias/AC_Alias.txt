@@ -1,0 +1,257 @@
+========================================================
+Alias:    	London Control
+Created:     	2012-05-20
+Last Updated:	2016-03-20
+========================================================
+
+========================================================
+Generic
+========================================================
+
+.v Can you receive voice?
+.std Check Standard Pressure is set (1013 hPa)
+
+.rsn Report your stand number
+.rat Report your aircraft type
+.rcl Report your cleared level
+.rclat Report your cleared level and aircraft type
+.ratsn Report your aircraft type and stand number
+
+.rls Request release, $aircraft, $sid departure
+.release Request release, $aircraft, $sid departure
+
+.sq Squawk $squawk
+.sqwk Squawk $squawk
+.squawk Squawk $squawk
+.smc Squawk Mode Charlie
+.si Squawk Ident
+.sirpa Squawk Ident, report your passing altitude
+.sira Squawk Ident, report your passing altitude
+.rpa Report your passing altitude
+
+.qnh QNH $altim($1)
+
+========================================================
+Handoffs
+========================================================
+
+.ho Contact $radioname($1) ($atccallsign($1)) $freq($1)
+.ct Contact $radioname($1) $freq($1) ($atccallsign($1))
+.cso Contact $radioname($1) $freq($1) ($atccallsign($1)) callsign only
+.rh Report your heading to $radioname($1) ($atccallsign($1)) $freq($1)
+.rs Report your speed to $radioname($1) ($atccallsign($1)) $freq($1)
+.rhs Report your heading and speed to $radioname($1) ($atccallsign($1)) $freq($1)
+.fc Freecall $radioname($1) ($atccallsign($1)) $freq($1)
+.mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
+
+.uni No Further ATC available. Monitor Unicom 122.800
+.oma You are currently outside my airspace. Monitor Unicom 122.800
+.nso $1 is offline - monitor unicom 122.800
+
+========================================================
+Lateral
+========================================================
+
+.lh Leave $1 heading $2 degrees
+.tl Turn left heading $1 degrees
+.tr Turn right heading $1 degrees
+.fh Fly heading $1 degrees
+.cph Continue present heading
+.cphr Continue present heading, and report that heading
+
+.rd Route Direct $1
+.rnd Resume own navigation direct $1
+.rond Resume own navigation direct $1
+
+========================================================
+Vertical
+========================================================
+
+.sicnfl Squawk Ident, climb now FL$1
+.sicnta Squawk Ident, climb now to altitude $1ft
+.sicna Squawk Ident, climb now to altitude $1ft
+.sima Squawk Ident, maintain altitude $alt
+
+.cta Climb to altitude $1ft
+.cnta Climb now to altitude $1ft
+.cfl Climb FL$1
+.cnfl Climb now FL$1
+
+.dtaq Descend to altitude $1ft QNH $altim($arr)
+.dta Descend to altitude $1ft
+.dtalq Descend to altitude $1ft, London QNH $altim(EGLL)
+.dtamq Descend to altitude $1ft, Manchester QNH $altim(EGCC)
+.dtagq Descend to altitude $1ft, Glasgow QNH $altim(EGPF)
+.dfl Descend FL$1
+.wrdfl When ready, descend FL$1
+.dfllb Descend FL$1 level by $2
+.wrdfllb When ready, descend FL$1 level by $2
+.efllb Expect FL$1 level by $2
+.dflla Descend FL$1 level abeam $2
+
+.ed Expedite descent
+.edtfl Expedite descent through FL$1
+.edta Expedite descent through altitude $1ft
+.ectfl Expedite climb through FL$1
+.ecta Expedite climb through altitude $1ft
+
+========================================================
+Speed Control
+========================================================
+
+.s Speed $1 knots
+.m Mach $1
+.rias Report your indicated airspeed
+
+.s160 Speed 160 knots, maintain until 4DME
+.sdme Speed $1 knots, maintain until $2DME
+.sm Speed $1 knots, maintain until $2 miles
+
+========================================================
+Departure
+========================================================
+
+.sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)
+.sidrw Cleared to $arr, $sid departure, runway $deprwy($dep), squawk $squawk, QNH $altim($dep)
+.sidi Cleared to $arr, $sid departure, initial climb $temp, squawk $squawk, QNH $altim($dep)
+.sidrwi Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
+.sidirw Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
+
+.mcbpk Cleared to $arr via the Brookmans Park (BPK) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep). When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+.mccln Cleared to $arr via the Clacton (CLN) preferred departure route. After departure runway $deprwy($dep) turn on track Clacton (CLN), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
+.mcdvr Cleared to $arr via the Dover (DVR) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
+.mclyd Cleared to $arr via the Lydd (LYD) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
+.mcsam Cleared to $arr via the Southampton (SAM) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
+.mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep).  When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+
+.llcpt Cleared to $arr via CPT, then flight planned route. After departure runway $deprwy($dep) climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft QNH $altim(EGLL)hPa. Squawk $squawk
+
+.hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
+.hhc Cleared to $arr routing Southampton (SAM), $1. Climb to altitude 4000ft, squawk $squawk
+.hhthred Cleared to $arr routing THRED. Climb to altitude 4000ft, squawk $squawk
+
+.adsn Hold Position, after departure, standard noise abatement then turn $1 heading $2 degrees, climb to altitude $temp
+.adsa Hold Position, after departure fly straight ahead to altitude $temp then turn $1 heading $1 degrees
+.ad Hold Position, after departure $1
+
+.rc Readback correct
+.rcq Readback correct, QNH $altim($dep)
+.ready Readback correct, report ready
+.readyq Readback correct, QNH $altim($dep), report ready
+
+========================================================
+Ground Movement
+========================================================
+
+.taxi Taxi holding point $1 via $2
+.lltaxi Taxi via $1 hold at $2
+.stand Taxi stand $1, via $2
+.llstand Taxi via $1, stand $2
+
+.p Push and Start approved
+.push Push and Start approved
+.ps Push and Start approved, face South
+.pn Push and Start approved, face North
+.pe Push and Start approved, face East
+.pw Push and Start approved, face West
+
+.vr Vacate right
+.vl Vacate left
+.vrt Vacate right, taxi $1
+.vlt Vacate left, taxi $1
+
+========================================================
+Runway
+========================================================
+
+.cr Via $1, cross runway $2
+.bcr Behind the $1, cross runway $2
+.llcr At $1, cross runway $2
+.llbcr Behind the $1, at $2 cross runway $3 behind
+
+.lu Via $1, line up runway $deprwy($dep)
+.blu Behind the $1, line up runway $deprwy($dep) behind
+.bluv Behind the $1, via $2 line up runway $deprwy($dep) behind
+
+.lllu Line up runway $deprwy($dep) via $1
+.bt Via $1, enter backtrack, line up runway $deprwy($dep)
+.rrfd Report ready for departure
+
+.to Runway $deprwy($dep), cleared for takeoff, surface wind $wind($dep)
+.tof From $1, Runway $deprwy($dep), cleared for takeoff, surface wind $wind($dep)
+
+.cto Hold position, cancel take-off, I say again, cancel take-off acknowledge
+.stop Stop immediately, I say again, $callsign, stop immediately acknowledge
+
+.ca Continue approach runway $arrrwy($arr), surface wind $wind($arr)
+.land Cleared to land runway $arrrwy($arr), surface wind $wind($arr)
+.tg Cleared touch and go runway $arrrwy($arr), surface wind $wind($arr)
+.caclc Continue approach, cancel landing clearance, acknowledge
+.wind Surface Wind $wind($1)
+
+.ga Go around, I say again, go around, acknowledge
+
+========================================================
+Arrival
+========================================================
+
+.star $star arrival
+.stararr $star arrival, $arr
+.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
+.starrw $star arrival, landing runway $arrrwy($arr)
+.hold Hold at $1, delay $2 minutes
+.holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
+
+========================================================
+Approach Radar
+========================================================
+
+.ev Expect vectors for the $1 approach runway $arrrwy($arr)
+.lr Landing runway $arrrwy($arr)
+
+.trlgp Turn right heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.tllgp Turn left heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.weldgp When established on the localiser runway $arrrwy($arr), descend on the glidepath
+
+.trils Turn right heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.tlils Turn left heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.cils Cleared ILS approach runway $arrrwy($arr)
+.cva Cleared visual approach runway $arrrwy($arr)
+
+.rel Report established on the localiser runway $arrrwy($arr)
+
+.rnav Resume own navigation direct $1, cleared RNAV approach runway $arrrwy($arr)
+
+.dwp Descend with the procedure
+.dtafog Descend to altitude $1ft, further on the glidepath
+
+.fb The field is at your $oclock($1), $dist($1) miles. Report in sight
+
+========================================================
+Flight Information Service
+========================================================
+
+.bs Basic service
+.ts Traffic service
+.dc Deconfliction service
+.cteca Cleared to enter controlled airspace, $1
+.ctlcabd Cleared to leave controlled airspace by descent
+
+========================================================
+Auto-alias
+========================================================
+
+.autoproceed Resume own navigation direct $1
+.autoclearedils When established on the localiser runway $1, descend on the glidepath
+.autoclearedvisual Cleared visual approach runway $1
+.autoclimblevel Climb FL$1
+.autoclimbaltitude Climb to altitude $1 ft
+.autodescendlevel Descend FL$1
+.autodescendaltitude Descend to altitude $1 ft, QNH $altim($arr) hPa
+.autospeed Speed $1 kts
+.automach Fly mach $1
+.autonospeed No ATC speed restriction
+.autoturnleft Turn left heading $1 degrees
+.autoturnright Turn right heading $1 degrees
+.autocontact Contact $1 on $2
+.autosquawk Squawk $1

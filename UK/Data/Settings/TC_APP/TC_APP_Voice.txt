@@ -1,0 +1,3 @@
+VOICE
+AG:Example:121.000:uk.vatsim.net:egxx_gnd
+END

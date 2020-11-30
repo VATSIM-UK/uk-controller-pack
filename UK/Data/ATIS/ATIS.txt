@@ -1,0 +1,421 @@
+RECORD:-:minus.wav
+RECORD:,:SHORTSILENCE.WAV
+RECORD:.:decimal.wav
+RECORD:+:plus.wav
+RECORD:0:0.wav
+RECORD:0,:0,.wav
+RECORD:000:Thousand.wav
+RECORD:000,:Thousand,.wav
+RECORD:1:1.wav
+RECORD:1,:1,.wav
+RECORD:10km or more:10km_or_more.wav
+RECORD:2:2.wav
+RECORD:2,:2,.wav
+RECORD:3:3.wav
+RECORD:3,:3,.wav
+RECORD:4:4.wav
+RECORD:4,:4,.wav
+RECORD:5:5.wav
+RECORD:5,:5,.wav
+RECORD:6:6.wav
+RECORD:6,:6,.wav
+RECORD:7:7.wav
+RECORD:7,:7,.wav
+RECORD:8:8.wav
+RECORD:8,:8,.wav
+RECORD:9:9.wav
+RECORD:9,:9,.wav
+RECORD:A:A.wav
+RECORD:A_:A_.wav
+RECORD:Aberdeen:EGPD.wav
+RECORD:Acknowledge receipt of information:acknowledge.wav
+RECORD:Active:Active.wav
+RECORD:Aerodrome service only available on frequency 128.550:egbj_adi_only.wav
+RECORD:Air Traffic Control Service:ATC.wav
+RECORD:Airfield:Airfield.wav
+RECORD:Airfield Information:EGMC_AirfieldInfo.wav
+RECORD:Airfield Safeguarding Procedures are in force, Access & egress to the runway is not available via taxiways E & G:EGFF_Safegaurding.wav
+RECORD:Aldergrove:EGAA.wav
+RECORD:Alderney:egja.wav
+RECORD:All aircraft contact Shoreham Approach frequency 123.15:EGKA_Approach.wav
+RECORD:All aircraft contact Shoreham Tower frequency 123.15:EGKA_Tower.wav
+RECORD:All hold short instructions must be acknowledged and read back:EGCC_HoldShort.wav
+RECORD:All taxiways & holding points slippery due ice:slippery_ice.wav
+RECORD:and:and.wav
+RECORD:and advise aircraft type:advise_aircraft_type.wav
+RECORD:and advise aircraft type on first contact with Manchester Approach Radar:EGCC_Advise.wav
+RECORD:and report aircraft type and current QNH on first contact with Heathrow:advise_aircraft_type_egll.wav
+RECORD:Approach & Surveillance services not available:No_APP_APS.wav
+RECORD:Arrival Runway:arrivalrunway.wav
+RECORD:Arriving aircraft expect to join at 2000ft standard overhead join, left hand circuit:overhead_join.wav
+RECORD:at:at.wav
+RECORD:at FL:at_FL.wav
+RECORD:Automatic:automatic.wav
+RECORD:Automatic Weather Station:AWS.wav
+RECORD:B:B.wav
+RECORD:B_:B_.wav
+RECORD:Be advised moderate Micro-burst forecast:moderate_microburst_forecast.wav
+RECORD:Becoming:BECMG.wav
+RECORD:Belfast City:egac.wav
+RECORD:below:Below.wav
+RECORD:Below 100ft:below100ft.wav
+RECORD:Benbecula:egpl.wav
+RECORD:between:between.wav
+RECORD:Biggin Hill Information:EGKB.wav
+RECORD:Birmingham:egbb.wav
+RECORD:Blackpool:egnh.wav
+RECORD:Blowing:blowing.wav
+RECORD:Bournemouth:EGHH.wav
+RECORD:Bovingdon:BNN.wav
+RECORD:Braking Action:braking_action.wav
+RECORD:Bristol:eggd.wav
+RECORD:Broken:broken.wav
+RECORD:C:C.wav
+RECORD:C_:C_.wav
+RECORD:Calm:calm.wav
+RECORD:Cambridge Arrival & Departure Information:EGSC.wav
+RECORD:Cardiff:egff.wav
+RECORD:Carlisle:EGNC.wav
+RECORD:Caution grass cutting in vicinity of runway & taxiways:Grasscutting.wav
+RECORD:CAVOK:cavok.wav
+RECORD:centimetre:centimetre.wav
+RECORD:centre:centre.wav
+RECORD:Clear & Dry:CLRD.wav
+RECORD:Clearance Delivery frequency 121.95 is Closed, departing aircraft make initial contact on 121.8:EGKK_Del_Closed.wav
+RECORD:closed:closed.wav
+RECORD:Closed Due Clearance in Progress:snow_clearance.wav
+RECORD:Cloud type not available:no_cloud_type.wav
+RECORD:Compacted Snow:compacted_snow.wav
+RECORD:Coventry Information:EGBE.wav
+RECORD:Cumulonimbus:cumulonimbus.wav
+RECORD:currently:currently.wav
+RECORD:currently provided:Currently_provided.wav
+RECORD:D:D.wav
+RECORD:D_:D_.wav
+RECORD:Damp:damp.wav
+RECORD:Danger Area 044:Danger044.wav
+RECORD:Danger Area 141:Danger141.wav
+RECORD:Date:date.wav
+RECORD:decimal:decimal.wav
+RECORD:degrees:degrees.wav
+RECORD:Delivery and Ground Closed, for start clearance contact Tower on 118.5:EGLL_DEL_GND_closed.wav
+RECORD:Delivery is Closed:delivery_closed.wav
+RECORD:Delivery is Closed, for start clearance contact Ground on 121.7:EGLL_DEL_closed.wav
+RECORD:Delivery is Open:delivery_open.wav
+RECORD:Delivery, Ground and Tower Closed, for Start Clearance contact Approach on 119.725:EGLL_TWR_closed.wav
+RECORD:Departing aircraft contact Southend Approach on 130.775:EGMC_APP.wav
+RECORD:Departing aircraft contact Tower 122.9, Arriving aircraft contact Approach 128.550:egbj_twrapp.wav
+RECORD:Departing aircraft make initial contact on frequency:Dep_contact.wav
+RECORD:Departing aircraft should make first contact with Luton TWR on 132.550:EGGW_GND_closed.wav
+RECORD:Departing aircraft should make initial contact with Luton Delivery on 121.675:EGGW_DEL_open.wav
+RECORD:Departing aircraft should make initial contact with Luton Ground on 121.750:EGGW_GND_open.wav
+RECORD:Departure Runway:departurerunway.wav
+RECORD:Dew Point:dewpoint.wav
+RECORD:Doncaster:EGCN.wav
+RECORD:Down:Down.wav
+RECORD:Drifting:Drifting.wav
+RECORD:Drizzle:drizzle.wav
+RECORD:Dry:dry.wav
+RECORD:due work in progress:WIP.wav
+RECORD:Dundee:EGPN.wav
+RECORD:Dust:dust.wav
+RECORD:Dust devils:Dust_devils.wav
+RECORD:Duststorm:Duststorm.wav
+RECORD:Duxford broadcast:EGSU.wav
+RECORD:E:E.wav
+RECORD:E_:E_.wav
+RECORD:East:east.wav
+RECORD:East Midlands:egnx.wav
+RECORD:Edinburgh:EGPH.wav
+RECORD:Elevation:Elevation.wav
+RECORD:estimated:estimated.wav
+RECORD:Expect:Expect.wav
+RECORD:Expect an ILS Approach:EGGW_Expect_ILS.wav
+RECORD:Expect radar vectoring to an ILS Approach:radar_vectoring_ILS.wav
+RECORD:F:F.wav
+RECORD:F_:F_.wav
+RECORD:feet:feet.wav
+RECORD:few:few.wav
+RECORD:Flight Information Service:FIS.wav
+RECORD:Flight Level:flight_level.wav
+RECORD:fog:fog.wav
+RECORD:fog banks:fogbanks.wav
+RECORD:for landing:for_landing.wav
+RECORD:For start clearance contact Delivery on 121.975:EGLL_Del_open.wav
+RECORD:forecast:forecast.wav
+RECORD:freezing:freezing.wav
+RECORD:from:from.wav
+RECORD:Frozen Ruts or Ridges:frozen_ruts-ridges.wav
+RECORD:Funnel Cloud:funnel_cloud.wav
+RECORD:G:G.wav
+RECORD:G_:G_.wav
+RECORD:gain of:gain_of.wav
+RECORD:Gatwick:egkk.wav
+RECORD:Glasgow:EGPF.wav
+RECORD:Gloucester:EGBJ.wav
+RECORD:Good:good.wav
+RECORD:Ground is Closed:ground_closed.wav
+RECORD:Ground is Open:ground_open.wav
+RECORD:Ground Movement Control & Clearance Delivery are closed, ATC service continues on Tower frequency 124.225:EGKK_DEL_GND_Closed.wav
+RECORD:Ground Movement Control is closed:GMC_closed.wav
+RECORD:Guernsey:egjb.wav
+RECORD:gusting:gusting.wav
+RECORD:H:H.wav
+RECORD:H_:H_.wav
+RECORD:Hail:hail.wav
+RECORD:Haze:haze.wav
+RECORD:Heathrow:egll.wav
+RECORD:Heavy:heavy.wav
+RECORD:hectopascal:hectopascal.wav
+RECORD:hours:hours.wav
+RECORD:hrs:Hours_.wav
+RECORD:Humberside:egnj.wav
+RECORD:hundred:hundred.wav
+RECORD:I:I.wav
+RECORD:I_:I_.wav
+RECORD:Ice:ice.wav
+RECORD:Ice Crystals:ice_crystals.wav
+RECORD:Ice Pellets:ice_pellets.wav
+RECORD:Illuminated runway holding points in operation H24 pilots must not cross illuminated stop bars:EGCC_Stopbars.wav
+RECORD:ILS Approach to be Expected:ILS.wav
+RECORD:in the vicinity:vicinity.wav
+RECORD:Inbound aircraft contact Shoreham Approach 123.15, outbound aircraft contact Shoreham Tower 125.4:EGKA_TWR+APP.wav
+RECORD:Increased bird activity within the aerodrome boundary:BirdActivity.wav
+RECORD:Information:information.wav
+RECORD:International:International.wav
+RECORD:Inverness:EGPE.wav
+RECORD:is closed:is_closed.wav
+RECORD:is unserviceable:is_unserviceable.wav
+RECORD:J:J.wav
+RECORD:J_:J_.wav
+RECORD:Jersey:egjj.wav
+RECORD:K:K.wav
+RECORD:K_:K_.wav
+RECORD:Kilometres:kilometres.wav
+RECORD:Kirkwall:EGPA.wav
+RECORD:knots:knots.wav
+RECORD:L:L.wav
+RECORD:L_:L_.wav
+RECORD:Large flocks of birds have been observed within the vicinity of the aerodrome:Flocks_of_birds.wav
+RECORD:Leeds Bradford:egnm.wav
+RECORD:Left:left.wav
+RECORD:Left Hand Circuit:LH_Circuit.wav
+RECORD:Less than:Less_than.wav
+RECORD:Light:light.wav
+RECORD:Light Icing:light_icing.wav
+RECORD:Liverpool:eggp.wav
+RECORD:local:local.wav
+RECORD:London City:eglc.wav
+RECORD:loss of:loss_of.wav
+RECORD:Luton:eggw.wav
+RECORD:LVPs in Force:lvps_in_force.wav
+RECORD:LVPs in Force, CATIII holding points in use & taxiway C is not available:EGGW_LVPs.wav
+RECORD:Lydd:EGMD.wav
+RECORD:M:M.wav
+RECORD:M_:M_.wav
+RECORD:Manchester:egcc.wav
+RECORD:Manston Arrival & Departure Information:EGMH.wav
+RECORD:Medium:medium.wav
+RECORD:Medium/good:Medium_good.wav
+RECORD:Medium/poor:Medium_poor.wav
+RECORD:metres:metres.wav
+RECORD:millibars:millibars.wav
+RECORD:millimetre:millimetre.wav
+RECORD:Mist:mist.wav
+RECORD:Moderate:moderate.wav
+RECORD:more than:more_than.wav
+RECORD:N:N.wav
+RECORD:N_:N_.wav
+RECORD:Newcastle:egnt.wav
+RECORD:Newquay:eghq.eav
+RECORD:No cloud detected:ncd.wav
+RECORD:No Significant Cloud:nsc.wav
+RECORD:No Significant Weather:nsw.wav
+RECORD:Noise abatement procedures apply:noise_abatement.wav
+RECORD:North:north.wav
+RECORD:Norwich:egsh.wav
+RECORD:NOSIG:NOSIG.wav
+RECORD:Not less than:Not_less_than.wav
+RECORD:Not Measured:not_measured.wav
+RECORD:O:O.wav
+RECORD:O_:O_.wav
+RECORD:of:of.wav
+RECORD:Okta:Okta.wav
+RECORD:on first contact:on_first_contact.wav
+RECORD:on short final:On_short_final.wav
+RECORD:on test & not to be used:On_Test.wav
+RECORD:Open:Open.wav
+RECORD:or:Or.wav
+RECORD:otherwise:otherwise.wav
+RECORD:Overcast:overcast.wav
+RECORD:P:P.wav
+RECORD:P_:P_.wav
+RECORD:Partial:PR_.wav
+RECORD:Patches of:BC_.wav
+RECORD:Patches of fog:patchesoffog.wav
+RECORD:period:period.wav
+RECORD:Pilots are reminded that readback of ATC instructions & clearances is mandatory:EGLL_readback.wav
+RECORD:Pilots are requested not to ask for departure clearance until 10 minutes before start-up:DepartureClearance.wav
+RECORD:Pilots are to exercise caution when manoeuvring in the runway holding areas as wing-tip clearance is not assured:egll_warning.wav
+RECORD:Pilots should expect a change to:Runway_Change.wav
+RECORD:Pilots that are in receipt of Data-link clearances are reminded that they must contact Delivery on 121.975 when ready for start:EGLL_Datalink.wav  
+RECORD:Poor:Poor.wav
+RECORD:Prestwick:EGPK.wav
+RECORD:Q:Q.wav
+RECORD:Q_:Q_.wav
+RECORD:QFE:qfe.wav
+RECORD:QNH:qnh.wav
+RECORD:R:R.wav
+RECORD:R_:R_.wav
+RECORD:Rain:rain.wav
+RECORD:Rain and Snow:RASN.wav
+RECORD:Recent:recent.wav
+RECORD:Redhill:egkr.wav
+RECORD:reported in the vicinity of:reported_in_the_vicinity_of.wav
+RECORD:Right:right.wav
+RECORD:Right Hand Circuit:RH_Circuit.wav
+RECORD:Rime or Frost:Rime_or_Frost.wav
+RECORD:Roll:Roll.wav
+RECORD:Runway:runway.wav
+RECORD:Runway 09/27 is closed:rwy0927clsd.wav
+RECORD:Runway in Use:runway_in_use.wav
+RECORD:Runway Visual Range:rvr.wav
+RECORD:S:S.wav
+RECORD:S_:S_.wav
+RECORD:Sand:Sand.wav
+RECORD:Sandstorm:Sand_storm.wav
+RECORD:Scattered:scattered.wav
+RECORD:Shallow:MI_.wav
+RECORD:Shallow Fog:shallowfog.wav
+RECORD:Sheffield:EGSY.wav
+RECORD:Shoreham:egka.wav
+RECORD:Showers:showers.wav
+RECORD:Single Runway Operations:Single_Runway_Ops.wav
+RECORD:Sky clear:SKC.wav
+RECORD:Sky Obscured:sky_obscured.wav
+RECORD:Slush:slush.wav
+RECORD:Smoke:smoke.wav
+RECORD:Snow:snow.wav
+RECORD:Snow Grains:snow_grains.wav
+RECORD:Snow Warning in force:SnowWarning.wav
+RECORD:South:south.wav
+RECORD:Southampton:EGHI.wav
+RECORD:Southend Information:egmc.wav
+RECORD:Squall:Squall.wav
+RECORD:Stansted:egss.wav
+RECORD:Stornoway:egpo.wav
+RECORD:Strong Wind Warning in Force:StrongWindWarning.wav
+RECORD:Sumburgh:egpb.wav
+RECORD:Surface Wind:surface_wind.wav
+RECORD:Swansea:EGFH.wav
+RECORD:T:T.wav
+RECORD:T_:T_.wav
+RECORD:Taxiway:taxiway.wav
+RECORD:Temperature:temperature.wav
+RECORD:Temporary:TEMPO.wav
+RECORD:The Aerodrome is Closed due to Contamination of the Runways:SNOCLO.wav
+RECORD:The airfield is closed:Airfield_Closed.wav
+RECORD:The airfield is closed for snow clearance:snow_clearance.wav
+RECORD:The airfield is snow-closed:SNOCLO.wav
+RECORD:The airfield will close at:airfield_close_at.wav
+RECORD:The Glidepath:Glidepath.wav
+RECORD:The Primary Radar is Out of Service:PSR.wav
+RECORD:The VOR:VOR.wav
+RECORD:This is:This_is.wav
+RECORD:thousand:thousand.wav
+RECORD:Threshold:Threshold.wav
+RECORD:Thunderstorm:thunderstorm.wav
+RECORD:Thunderstorm Warning in Force:ThunderstormWarning.wav
+RECORD:Thunderstorm with:Thunderstorm_with.wav
+RECORD:Time:time.wav
+RECORD:to:to.wav
+RECORD:To the:tothe.wav
+RECORD:To the east:To_the_east.wav
+RECORD:To the north:To_the_north.wav
+RECORD:To the north-east:To_the_north-east.wav
+RECORD:To the north-west:To_the_north-west.wav
+RECORD:To the south:To_the_south.wav
+RECORD:To the south-east:To_the_south-east.wav
+RECORD:To the south-west:To_the_south-west.wav
+RECORD:To the west:To_the_west.wav
+RECORD:Today:today.wav
+RECORD:Tower & Approach frequencies are combined 128.550:egbj_combined.wav
+RECORD:Towering Cumulus:toweringcumulus.wav
+RECORD:Transition Level:transition_level.wav
+RECORD:Tripoli:HLLT.wav
+RECORD:Turbulence has been reported on final approach:turbulence.wav
+RECORD:Turbulence may be encountered in the final stages of the approach:Turbulence_final.wav
+RECORD:U:U.wav
+RECORD:U_:U_.wav
+RECORD:unavailable:unavailable.wav
+RECORD:unknown:unknown.wav
+RECORD:unofficial:unofficial.wav
+RECORD:unserviceable:unserviceable.wav
+RECORD:until:until.wav
+RECORD:unverified:unverified.wav
+RECORD:Up:Up.wav
+RECORD:Upon first contact with Gloucester readback altimeter setting in use:altimeter.wav
+RECORD:UTC:UTC.wav
+RECORD:V:V.wav
+RECORD:V_:V_.wav
+RECORD:Variable:variable.wav
+RECORD:Variable circuits:Variable_circuits.wav
+RECORD:Varying:varying.wav
+RECORD:Vectored ILS Approaches:vectored_ILS.wav
+RECORD:Vertical Visibility:vertical_visibility.wav
+RECORD:visibility:visibility.wav
+RECORD:Visual Approach to be expected:visual.wav
+RECORD:Visual or Surveillance Radar Approach to be Expected:VisualorSRA.wav
+RECORD:Volcanic ash:Volcanic_Ash.wav
+RECORD:W:W.wav
+RECORD:W_:W_.wav
+RECORD:Warton:EGNO.wav
+RECORD:Water patches:Water_patches.wav
+RECORD:Waterford:EIWF.wav
+RECORD:west:west.wav
+RECORD:wet:wet.wav
+RECORD:Wet or Water patches:Wet_Water_Patches.wav
+RECORD:Wick:egpc.wav
+RECORD:Windshear:windshear.wav
+RECORD:Windshear reported:windshear_reported.wav
+RECORD:with:with.wav
+RECORD:Wolverhampton arrival:EGBO.wav
+RECORD:X:X.wav
+RECORD:X_:X_.wav
+RECORD:Y:Y.wav
+RECORD:Y_:Y_.wav
+RECORD:Z:Z.wav
+RECORD:Z_:Z_.wav
+ITEM:Heathrow:XXX
+ITEM:information:XXX
+ITEM:B:
+ITEM:Time:XXX
+ITEM:192:
+ITEM:0,:XXX
+ITEM:Arrival runway:XXX
+ITEM:09L:
+ITEM:Departure runway:XXX
+ITEM:09R:
+ITEM:Surface wind:XXX
+ITEM:15:
+ITEM:0,:XXX
+ITEM:9:
+ITEM:knots:XXX
+ITEM:CAVOK:XXX
+ITEM:Temperature:XXX
+ITEM:+:
+ITEM:7,:XXX
+ITEM:Dew point:XXX
+ITEM:+:
+ITEM:2,:XXX
+ITEM:QNH:XXX
+ITEM:101:
+ITEM:0,:XXX
+ITEM:Transition Level:XXX
+ITEM:Flight Level:XXX
+ITEM:6:
+ITEM:5,:XXX
+ITEM:Pilots are to exercise caution when manoeuvring in the runway holding areas as wing-tip clearance is not assured:XXX
+ITEM:Acknowledge receipt of information:XXX
+ITEM:B:
+ITEM:and report aircraft type and current QNH on first contact with Heathrow:XXX

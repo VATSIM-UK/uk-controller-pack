@@ -1,0 +1,1027 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORTITLE:UK_2020_11.sct
+ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:BANBA_CTA:
+ARTCC high boundary:Caen Carpiquet CTLZ:
+ARTCC high boundary:Calais CTLZ:
+ARTCC high boundary:Cherbourg Maurpertus CTLZ:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:COTSWOLDNEW:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TCA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA Refso Delegated:
+ARTCC high boundary:Le Havre CTLZ:
+ARTCC high boundary:Le Touquet CTLZ:
+ARTCC high boundary:Lille TCA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Midlands CTA:
+ARTCC high boundart:Niton CTA:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC low boundary:EGAA Belfast CTA:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBE Coventry Corner:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCN Doncaster Sheffield CTA:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW Luton CTA:
+ARTCC low boundary:EGGW Luton CTLZ:
+ARTCC low boundary:EGGW Luton Gate:
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHG Yeovilton MATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLF Farnborough ATZ:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL Heathrow CTA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNM Leeds/Bradford CTA:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTR:
+ARTCC low boundary:EGNV Durham CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSS Stansted CTA:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:Solent CTA:
+ARTCC low boundary:XYLINE:
+Fixes:BEGAM:name
+Fixes:BEGAM:symbol
+Fixes:BURNI:name
+Fixes:BURNI:symbol
+Fixes:CROFT:name
+Fixes:CROFT:symbol
+Fixes:DAYNE:name
+Fixes:DAYNE:symbol
+Fixes:DESIG:name
+Fixes:DESIG:symbol
+Fixes:GASKO:name
+Fixes:GASKO:symbol
+Fixes:GOLES:name
+Fixes:GOLES:symbol
+Fixes:KEGUN:name
+Fixes:KEGUN:symbol
+Fixes:KELLY:name
+Fixes:KELLY:symbol
+Fixes:LAKEY:name
+Fixes:LAKEY:symbol
+Fixes:LESTA:name
+Fixes:LESTA:symbol
+Fixes:LIBSO:name
+Fixes:LIBSO:symbol
+Fixes:LISTO:name
+Fixes:LISTO:symbol
+Fixes:LYNAS:name
+Fixes:LYNAS:symbol
+Fixes:MALUD:name
+Fixes:MALUD:symbol
+Fixes:MIRSI:name
+Fixes:MIRSI:symbol
+Fixes:MONTY:name
+Fixes:MONTY:symbol
+Fixes:NANTI:name
+Fixes:NANTI:symbol
+Fixes:NOKIN:name
+Fixes:NOKIN:symbol
+Fixes:OTBED:name
+Fixes:OTBED:symbol
+Fixes:PEDIG:name
+Fixes:PEDIG:symbol
+Fixes:PENIL:name
+Fixes:PENIL:symbol
+Fixes:REXAM:name
+Fixes:REXAM:symbol
+Fixes:ROSUN:name
+Fixes:ROSUN:symbol
+Fixes:RUGER:name
+Fixes:RUGER:symbol
+Fixes:SANBA:name
+Fixes:SANBA:symbol
+Fixes:SETEL:name
+Fixes:SETEL:symbol
+Fixes:TILNI:name
+Fixes:TILNI:symbol
+Fixes:TIPOD:name
+Fixes:TIPOD:symbol
+Fixes:TORGO:name
+Fixes:TORGO:symbol
+Fixes:UPTON:name
+Fixes:UPTON:symbol
+Free Text:Airspace Bases\2000:freetext
+Free Text:Airspace Bases\2000:freetext
+Free Text:Airspace Bases\2000:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\3000:freetext
+Free Text:Airspace Bases\3000:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\3500:freetext
+Free Text:Airspace Bases\4000:freetext
+Free Text:Airspace Bases\4000:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\4500:freetext
+Free Text:Airspace Bases\5000:freetext
+Free Text:Airspace Bases\5000:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115:freetext
+Free Text:Airspace Bases\FL115*C:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145:freetext
+Free Text:Airspace Bases\FL145*C:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL165:freetext
+Free Text:Airspace Bases\FL165:freetext
+Free Text:Airspace Bases\FL165*C:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL195:freetext
+Free Text:Airspace Bases\FL35:freetext
+Free Text:Airspace Bases\FL45:freetext
+Free Text:Airspace Bases\FL45:freetext
+Free Text:Airspace Bases\FL45:freetext
+Free Text:Airspace Bases\FL45:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL75:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\SFC:freetext
+Free Text:Airspace Bases\SFC:freetext
+Free Text:EGCC Airspace Bases\2000':freetext
+Free Text:EGCC Airspace Bases\2500':freetext
+Free Text:EGCC Airspace Bases\2500':freetext
+Free Text:EGCC Airspace Bases\3000':freetext
+Free Text:EGCC Airspace Bases\3000':freetext
+Free Text:EGCC Airspace Bases\;CC-2500':freetext
+Geo:Merseyside Coastline:
+NDBs:AC:name
+NDBs:AC:symbol
+NDBs:ALD:name
+NDBs:ALD:symbol
+NDBs:AMB:name
+NDBs:AMB:symbol
+NDBs:AOS:name
+NDBs:AOS:symbol
+NDBs:ATF:name
+NDBs:ATF:symbol
+NDBs:BAE:name
+NDBs:BAE:symbol
+NDBs:BBA:name
+NDBs:BBA:symbol
+NDBs:BFD:name
+NDBs:BFD:symbol
+NDBs:BHX:name
+NDBs:BHX:symbol
+NDBs:BIA:name
+NDBs:BIA:symbol
+NDBs:BLK:name
+NDBs:BLK:symbol
+NDBs:BOU:name
+NDBs:BOU:symbol
+NDBs:BPL:name
+NDBs:BPL:symbol
+NDBs:BRI:name
+NDBs:BRI:symbol
+NDBs:BRR:name
+NDBs:BRR:symbol
+NDBs:BUR:name
+NDBs:BUR:symbol
+NDBs:BV:name
+NDBs:BV:symbol
+NDBs:BZ:name
+NDBs:BZ:symbol
+NDBs:CAE:name
+NDBs:CAE:symbol
+NDBs:CAM:name
+NDBs:CAM:symbol
+NDBs:CBN:name
+NDBs:CBN:symbol
+NDBs:CDF:name
+NDBs:CDF:symbol
+NDBs:CFN:name
+NDBs:CFN:symbol
+NDBs:CHT:name
+NDBs:CHT:symbol
+NDBs:CIT:name
+NDBs:CIT:symbol
+NDBs:CL:name
+NDBs:CL:symbol
+NDBs:CML:name
+NDBs:CML:symbol
+NDBs:CNL:name
+NDBs:CNL:symbol
+NDBs:COM:name
+NDBs:COM:symbol
+NDBs:CRN:name
+NDBs:CRN:symbol
+NDBs:CWL:name
+NDBs:CWL:symbol
+NDBs:DH:name
+NDBs:DH:symbol
+NDBs:DIK:name
+NDBs:DIK:symbol
+NDBs:DND:name
+NDBs:DND:symbol
+NDBs:EAS:name
+NDBs:EAS:symbol
+NDBs:EDN:name
+NDBs:EDN:symbol
+NDBs:EGT:name
+NDBs:EGT:symbol
+NDBs:EHN:name
+NDBs:EHN:symbol
+NDBs:EKN:name
+NDBs:EKN:symbol
+NDBs:ELU:name
+NDBs:ELU:symbol
+NDBs:EME:name
+NDBs:EME:symbol
+NDBs:EMW:name
+NDBs:EMW:symbol
+NDBs:ENS:name
+NDBs:ENS:symbol
+NDBs:EPM:name
+NDBs:EPM:symbol
+NDBs:EX:name
+NDBs:EX:symbol
+NDBs:FNL:name
+NDBs:FNL:symbol
+NDBs:FNY:name
+NDBs:FNY:symbol
+NDBs:FOS:name
+NDBs:FOS:symbol
+NDBs:FOY:name
+NDBs:FOY:symbol
+NDBs:GAR:name
+NDBs:GAR:symbol
+NDBs:GE:name
+NDBs:GE:symbol
+NDBs:GLG:name
+NDBs:GLG:symbol
+NDBs:GLW:name
+NDBs:GLW:symbol
+NDBs:GM:name
+NDBs:GM:symbol
+NDBs:GMN:name
+NDBs:GMN:symbol
+NDBs:GO:name
+NDBs:GO:symbol
+NDBs:GST:name
+NDBs:GST:symbol
+NDBs:GY:name
+NDBs:GY:symbol
+NDBs:HAV:name
+NDBs:HAV:symbol
+NDBs:HAW:name
+NDBs:HAW:symbol
+NDBs:HB:name
+NDBs:HB:symbol
+NDBs:HBR:name
+NDBs:HBR:symbol
+NDBs:HEN:name
+NDBs:HEN:symbol
+NDBs:HG:name
+NDBs:HG:symbol
+NDBs:HRW:name
+NDBs:HRW:symbol
+NDBs:ING:name
+NDBs:ING:symbol
+NDBs:IOF:name
+NDBs:IOF:symbol
+NDBs:IVR:name
+NDBs:IVR:symbol
+NDBs:IW:name
+NDBs:IW:symbol
+NDBs:JW:name
+NDBs:JW:symbol
+NDBs:KER:name
+NDBs:KER:symbol
+NDBs:KIM:name
+NDBs:KIM:symbol
+NDBs:KLY:name
+NDBs:KLY:symbol
+NDBs:KNK:name
+NDBs:KNK:symbol
+NDBs:KS:name
+NDBs:KS:symbol
+NDBs:KW:name
+NDBs:KW:symbol
+NDBs:LA:name
+NDBs:LA:symbol
+NDBs:LAA:name
+NDBs:LAA:symbol
+NDBs:LAY:name
+NDBs:LAY:symbol
+NDBs:LBA:name
+NDBs:LBA:symbol
+NDBs:LCY:name
+NDBs:LCY:symbol
+NDBs:LE:name
+NDBs:LE:symbol
+NDBs:LN:name
+NDBs:LN:symbol
+NDBs:LPL:name
+NDBs:LPL:symbol
+NDBs:LSH:name
+NDBs:LSH:symbol
+NDBs:LUT:name
+NDBs:LUT:symbol
+NDBs:LYX:name
+NDBs:LYX:symbol
+NDBs:MAK:name
+NDBs:MAK:symbol
+NDBs:MP:name
+NDBs:MP:symbol
+NDBs:MW:name
+NDBs:MW:symbol
+NDBs:ND:name
+NDBs:ND:symbol
+NDBs:NGY:name
+NDBs:NGY:symbol
+NDBs:NH:name
+NDBs:NH:symbol
+NDBs:NL:name
+NDBs:NL:symbol
+NDBs:NN:name
+NDBs:NN:symbol
+NDBs:NOT:name
+NDBs:NOT:symbol
+NDBs:NQY:name
+NDBs:NQY:symbol
+NDBs:NT:name
+NDBs:NT:symbol
+NDBs:NWI:name
+NDBs:NWI:symbol
+NDBs:OB:name
+NDBs:OB:symbol
+NDBs:OC:name
+NDBs:OC:symbol
+NDBs:OE:name
+NDBs:OE:symbol
+NDBs:OF:name
+NDBs:OF:symbol
+NDBs:OK:name
+NDBs:OK:symbol
+NDBs:OKT:name
+NDBs:OKT:symbol
+NDBs:OL:name
+NDBs:OL:symbol
+NDBs:ONC:name
+NDBs:ONC:symbol
+NDBs:ONL:name
+NDBs:ONL:symbol
+NDBs:ONO:name
+NDBs:ONO:symbol
+NDBs:ONW:name
+NDBs:ONW:symbol
+NDBs:OP:name
+NDBs:OP:symbol
+NDBs:OX:name
+NDBs:OX:symbol
+NDBs:OY:name
+NDBs:OY:symbol
+NDBs:PE:name
+NDBs:PE:symbol
+NDBs:PIK:name
+NDBs:PIK:symbol
+NDBs:PW:name
+NDBs:PW:symbol
+NDBs:RCH:name
+NDBs:RCH:symbol
+NDBs:RDL:name
+NDBs:RDL:symbol
+NDBs:RNR:name
+NDBs:RNR:symbol
+NDBs:ROT:name
+NDBs:ROT:symbol
+NDBs:RSH:name
+NDBs:RSH:symbol
+NDBs:RWY:name
+NDBs:RWY:symbol
+NDBs:S:name
+NDBs:S:symbol
+NDBs:SAY:name
+NDBs:SAY:symbol
+NDBs:SBH:name
+NDBs:SBH:symbol
+NDBs:SBL:name
+NDBs:SBL:symbol
+NDBs:SDM:name
+NDBs:SDM:symbol
+NDBs:SH:name
+NDBs:SH:symbol
+NDBs:SHM:name
+NDBs:SHM:symbol
+NDBs:SLG:name
+NDBs:SLG:symbol
+NDBs:SLV:name
+NDBs:SLV:symbol
+NDBs:SMF:name
+NDBs:SMF:symbol
+NDBs:SND:name
+NDBs:SND:symbol
+NDBs:SS:name
+NDBs:SS:symbol
+NDBs:SSD:name
+NDBs:SSD:symbol
+NDBs:STD:name
+NDBs:STD:symbol
+NDBs:STM:name
+NDBs:STM:symbol
+NDBs:SUB:name
+NDBs:SUB:symbol
+NDBs:SWN:name
+NDBs:SWN:symbol
+NDBs:TD:name
+NDBs:TD:symbol
+NDBs:TLA:name
+NDBs:TLA:symbol
+NDBs:TNL:name
+NDBs:TNL:symbol
+NDBs:TWN:name
+NDBs:TWN:symbol
+NDBs:UW:name
+NDBs:UW:symbol
+NDBs:WBA:name
+NDBs:WBA:symbol
+NDBs:WCO:name
+NDBs:WCO:symbol
+NDBs:WFD:name
+NDBs:WFD:symbol
+NDBs:WFR:name
+NDBs:WFR:symbol
+NDBs:WHI:name
+NDBs:WHI:symbol
+NDBs:WIK:name
+NDBs:WIK:symbol
+NDBs:WL:name
+NDBs:WL:symbol
+NDBs:WLU:name
+NDBs:WLU:symbol
+NDBs:WOD:name
+NDBs:WOD:symbol
+NDBs:WPL:name
+NDBs:WPL:symbol
+NDBs:WTD:name
+NDBs:WTD:symbol
+NDBs:WTN:name
+NDBs:WTN:symbol
+NDBs:WZ:name
+NDBs:WZ:symbol
+NDBs:YVL:name
+NDBs:YVL:symbol
+Regions:Coastline:polygon
+Runways:EGCC Manchester 05L-23R:extended centerline 1
+Runways:EGCC Manchester 05L-23R:extended centerline 1 left base
+Runways:EGCC Manchester 05L-23R:extended centerline 1 left ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 1 left vectoring
+Runways:EGCC Manchester 05L-23R:extended centerline 1 right base
+Runways:EGCC Manchester 05L-23R:extended centerline 1 right ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 1 right vectoring
+Runways:EGCC Manchester 05L-23R:extended centerline 2
+Runways:EGCC Manchester 05L-23R:extended centerline 2 left base
+Runways:EGCC Manchester 05L-23R:extended centerline 2 left ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 2 left vectoring
+Runways:EGCC Manchester 05L-23R:extended centerline 2 right base
+Runways:EGCC Manchester 05L-23R:extended centerline 2 right ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 2 right vectoring
+Runways:EGCC Manchester 05R-23L:extended centerline 2
+Runways:EGCC Manchester 05R-23L:extended centerline 2 left base
+Runways:EGCC Manchester 05R-23L:extended centerline 2 left ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 2 left vectoring
+Runways:EGCC Manchester 05R-23L:extended centerline 2 right base
+Runways:EGCC Manchester 05R-23L:extended centerline 2 right ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 2 right vectoring
+Stars:Manchester RMA Westerlies:
+VORs:ABB:name
+VORs:ABB:symbol
+VORs:ADN:name
+VORs:ADN:symbol
+VORs:AFI:name
+VORs:AFI:symbol
+VORs:AMB:name
+VORs:AMB:symbol
+VORs:AMS:name
+VORs:AMS:symbol
+VORs:ANT:name
+VORs:ANT:symbol
+VORs:ARE:name
+VORs:ARE:symbol
+VORs:BAL:name
+VORs:BAL:symbol
+VORs:BBE:name
+VORs:BBE:symbol
+VORs:BBL:name
+VORs:BBL:symbol
+VORs:BCN:name
+VORs:BCN:symbol
+VORs:BDN:name
+VORs:BDN:symbol
+VORs:BEL:name
+VORs:BEL:symbol
+VORs:BEN:name
+VORs:BEN:symbol
+VORs:BFS:name
+VORs:BFS:symbol
+VORs:BHD:name
+VORs:BHD:symbol
+VORs:BIG:name
+VORs:BIG:symbol
+VORs:BKY:name
+VORs:BKY:symbol
+VORs:BNE:name
+VORs:BNE:symbol
+VORs:BNN:name
+VORs:BNN:symbol
+VORs:BPK:name
+VORs:BPK:symbol
+VORs:BST:name
+VORs:BST:symbol
+VORs:BUB:name
+VORs:BUB:symbol
+VORs:BUN:name
+VORs:BUN:symbol
+VORs:BZN:name
+VORs:BZN:symbol
+VORs:CAN:name
+VORs:CAN:symbol
+VORs:CGY:name
+VORs:CGY:symbol
+VORs:CIV:name
+VORs:CIV:symbol
+VORs:CLM:name
+VORs:CLM:symbol
+VORs:CLN:name
+VORs:CLN:symbol
+VORs:CMB:name
+VORs:CMB:symbol
+VORs:COA:name
+VORs:COA:symbol
+VORs:CON:name
+VORs:CON:symbol
+VORs:CPT:name
+VORs:CPT:symbol
+VORs:CRK:name
+VORs:CRK:symbol
+VORs:CSL:name
+VORs:CSL:symbol
+VORs:CTM:name
+VORs:CTM:symbol
+VORs:CWZ:name
+VORs:CWZ:symbol
+VORs:DAP:name
+VORs:DAP:symbol
+VORs:DCS:name
+VORs:DCS:symbol
+VORs:DET:name
+VORs:DET:symbol
+VORs:DHE:name
+VORs:DHE:symbol
+VORs:DIK:name
+VORs:DIK:symbol
+VORs:DIN:name
+VORs:DIN:symbol
+VORs:DPE:name
+VORs:DPE:symbol
+VORs:DTY:name
+VORs:DTY:symbol
+VORs:DUB:name
+VORs:DUB:symbol
+VORs:DVL:name
+VORs:DVL:symbol
+VORs:DVR:name
+VORs:DVR:symbol
+VORs:EEL:name
+VORs:EEL:symbol
+VORs:EHV:name
+VORs:EHV:symbol
+VORs:EVX:name
+VORs:EVX:symbol
+VORs:FFA:name
+VORs:FFA:symbol
+VORs:FLO:name
+VORs:FLO:symbol
+VORs:GAM:name
+VORs:GAM:symbol
+VORs:GMN:name
+VORs:GMN:symbol
+VORs:GOW:name
+VORs:GOW:symbol
+VORs:GSY:name
+VORs:GSY:symbol
+VORs:GUR:name
+VORs:GUR:symbol
+VORs:GWC:name
+VORs:GWC:symbol
+VORs:HDR:name
+VORs:HDR:symbol
+VORs:HON:name
+VORs:HON:symbol
+VORs:HSD:name
+VORs:HSD:symbol
+VORs:HUL:name
+VORs:HUL:symbol
+VORs:INS:name
+VORs:INS:symbol
+VORs:IOM:name
+VORs:IOM:symbol
+VORs:JSY:name
+VORs:JSY:symbol
+VORs:KOK:name
+VORs:KOK:symbol
+VORs:KWL:name
+VORs:KWL:symbol
+VORs:LAM:name
+VORs:LAM:symbol
+VORs:LDV:name
+VORs:LDV:symbol
+VORs:LGE:name
+VORs:LGE:symbol
+VORs:LGL:name
+VORs:LGL:symbol
+VORs:LKH:name
+VORs:LKH:symbol
+VORs:LND:name
+VORs:LND:symbol
+VORs:LNO:name
+VORs:LNO:symbol
+VORs:LON:name
+VORs:LON:symbol
+VORs:LUX:name
+VORs:LUX:symbol
+VORs:LYD:name
+VORs:LYD:symbol
+VORs:LYE:name
+VORs:LYE:symbol
+VORs:MAM:name
+VORs:MAM:symbol
+VORs:MAS:name
+VORs:MAS:symbol
+VORs:MAY:name
+VORs:MAY:symbol
+VORs:MCT:name
+VORs:MCT:symbol
+VORs:MID:name
+VORs:MID:symbol
+VORs:MLD:name
+VORs:MLD:symbol
+VORs:MTD:name
+VORs:MTD:symbol
+VORs:NIK:name
+VORs:NIK:symbol
+VORs:OCK:name
+VORs:OCK:symbol
+VORs:ODH:name
+VORs:ODH:symbol
+VORs:OTR:name
+VORs:OTR:symbol
+VORs:PAM:name
+VORs:PAM:symbol
+VORs:POL:name
+VORs:POL:symbol
+VORs:PON:name
+VORs:PON:symbol
+VORs:PTH:name
+VORs:PTH:symbol
+VORs:QPR:name
+VORs:QPR:symbol
+VORs:REM:name
+VORs:REM:symbol
+VORs:REN:name
+VORs:REN:symbol
+VORs:RKN:name
+VORs:RKN:symbol
+VORs:ROU:name
+VORs:ROU:symbol
+VORs:RTM:name
+VORs:RTM:symbol
+VORs:SAB:name
+VORs:SAB:symbol
+VORs:SAM:name
+VORs:SAM:symbol
+VORs:SFD:name
+VORs:SFD:symbol
+VORs:SHA:name
+VORs:SHA:symbol
+VORs:SOL:name
+VORs:SOL:symbol
+VORs:SPI:name
+VORs:SPI:symbol
+VORs:SPL:name
+VORs:SPL:symbol
+VORs:SPY:name
+VORs:SPY:symbol
+VORs:STN:name
+VORs:STN:symbol
+VORs:STU:name
+VORs:STU:symbol
+VORs:SUM:name
+VORs:SUM:symbol
+VORs:SVA:name
+VORs:SVA:symbol
+VORs:SWB:name
+VORs:SWB:symbol
+VORs:TIR:name
+VORs:TIR:symbol
+VORs:TLA:name
+VORs:TLA:symbol
+VORs:TNT:name
+VORs:TNT:symbol
+VORs:TRN:name
+VORs:TRN:symbol
+VORs:VES:name
+VORs:VES:symbol
+VORs:VLN:name
+VORs:VLN:symbol
+VORs:WAL:name
+VORs:WAL:symbol
+VORs:WIK:name
+VORs:WIK:symbol
+VORs:WIT:name
+VORs:WIT:symbol
+VORs:WTZ:name
+VORs:WTZ:symbol
+SHOWC:1
+SHOWSB:1
+BELOW:290
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Traffic Monitor
+WINDOWAREA:52.978293:-3.404223:53.729196:-1.145677
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:57
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

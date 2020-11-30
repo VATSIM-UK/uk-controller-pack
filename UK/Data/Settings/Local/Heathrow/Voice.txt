@@ -1,0 +1,13 @@
+VOICE
+AG:LL INT N:119.720:uk.voice.vatsim.net:egll_n_app
+AG:LL FIN:120.400:uk.voice.vatsim.net:egll_f_app
+AG:LL INT S:134.970:uk.voice.vatsim.net:egll_s_app
+AG:LL AIR S:118.500:uk.voice.vatsim.net:egll_s_twr
+AG:LL AIR N:118.700:uk.voice.vatsim.net:egll_n_twr
+AG:LL GMC 1:121.900:uk.voice.vatsim.net:egll_1_gnd
+AG:LL GMC 2:121.700:uk.voice.vatsim.net:egll_2_gnd
+AG:LL GMC 3:121.850:uk.voice.vatsim.net:egll_3_gnd
+AG:LL GMP:121.970:uk.voice.vatsim.net:egll_del
+AG:LL PLN:121.470:uk.voice.vatsim.net:egll_p_gnd
+AG:Z LL ATIS:128.070:uk.voice.vatsim.net:egll_atis
+END

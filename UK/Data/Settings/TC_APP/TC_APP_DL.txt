@@ -1,0 +1,27 @@
+DEP
+m_Visible:1
+m_X:513
+m_Y:46
+m_LineNumber:10
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:AOBT:5:1:103:0:0:0:UK Controller Plugin:::3
+m_Column:EDT:5:0:102:0:0:0:UK Controller Plugin:::3
+m_Column:Slot:5:1:44:29:12:0::::4
+m_Column:STS:4:1:59:28:28:1::::4
+m_Column:C/S:7:0:9:0:1:1::::3
+m_Column:RT:2:0:80:32:0:1::::4
+m_Column:GS:3:1:40:0:0:0::::3
+m_Column:Dep:4:1:61:0:0:1::::3
+m_Column:AC:7:1:78:0:0:1::::3
+m_Column:SPad:8:1:19:29:29:1::::4
+m_Column:R:2:1:63:7:7:1::::3
+m_Column:Dest:4:1:17:7:7:1::::3
+m_Column:SID:7:0:56:17:17:1::::4
+m_Column:RWY:3:1:47:19:19:1::::4
+m_Column:Alt:4:1:20:11:0:1::::4
+m_Column:ASSR:5:1:60:9000:31:1::UK Controller Plugin::
+m_Column:C:1:1:58:27:0:1::::4
+m_Column:RFL:4:1:22:30:30:1::::3
+END

@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGGP_APP:100:5
+ATIS2:"Liverpool Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGGP_F_APP:100:5
+ATIS2:"Liverpool Director"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGGP_TWR:30:4
+ATIS2:"Liverpool Tower"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGGP_GND:10:4
+ATIS2:"Liverpool Ground"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+END

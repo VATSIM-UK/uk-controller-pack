@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGPF_APP:100:5
+ATIS2:"Glasgow Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPF_F_APP:100:5
+ATIS2:"Glasgow Director"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPF_TWR:30:4
+ATIS2:"Glasgow Tower"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPF_GND:10:4
+ATIS2:"Glasgow Ground"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+END

@@ -1,0 +1,22 @@
+PROFILE
+PROFILE:EGBB_APP:100:5
+ATIS2:"Birmingham Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGBB_F_APP:100:5
+ATIS2:"Birmingham Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGBB_TWR:30:4
+ATIS2:"Birmingham Tower"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGBB_GND:10:4
+ATIS2:"Birmingham Ground"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGBB_DEL:10:4
+ATIS2:"Birmingham Delivery"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+END

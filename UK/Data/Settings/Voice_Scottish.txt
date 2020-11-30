@@ -1,0 +1,75 @@
+VOICE
+AG:Area - Bandbox:135.520:old.voice.notused:sco_ctr
+AG:Area - East:121.320:old.voice.notused:sco_e_ctr
+AG:Area - West and DCS:133.200:old.voice.notused:sco_wd_ctr
+AG:Area - West:132.720:old.voice.notused:sco_w_ctr
+AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr
+AG:Area - Rathlin:129.100:old.voice.notused:sco_r_ctr
+AG:Area - TC:126.300:old.voice.notused:stc_ctr
+AG:Area - Antrim:123.770:old.voice.notused:stc_a_ctr
+AG:EGAA_GND:121.750:old.voice.notused:egaa_gnd
+AG:EGAA_TWR:118.300:old.voice.notused:egaa_twr
+AG:EGAA_R_APP:128.500:old.voice.notused:egaa_r_app
+AG:EGAA_APP:120.900:old.voice.notused:egaa_app
+AG:EGAA_ATIS:126.120:old.voice.notused:egaa_atis
+AG:EGAB_R_TWR:123.200:old.voice.notused:egab_r_twr
+AG:EGAC_TWR:122.820:old.voice.notused:egac_twr
+AG:EGAC_APP:130.850:old.voice.notused:egac_app
+AG:EGAC_F_APP:134.800:old.voice.notused:egac_f_app
+AG:EGAC_ATIS:124.570:old.voice.notused:egac_atis
+AG:EGAD_TWR:128.300:old.voice.notused:egad_twr
+AG:EGAE_TWR:134.150:old.voice.notused:egae_twr
+AG:EGAE_APP:123.620:old.voice.notused:egae_app
+AG:EGAE_ATIS:119.370:old.voice.notused:egae_atis
+AG:EGNC_APP:123.600:old.voice.notused:egnc_app
+AG:EGNC_TWR:123.600:old.voice.notused:egnc_twr
+AG:EGNC_ATIS:118.420:old.voice.notused:egnc_atis
+AG:EGPA_TWR:118.300:old.voice.notused:egpa_twr
+AG:EGPA_APP:118.300:old.voice.notused:egpa_app
+AG:EGPA_ATIS:108.600:old.voice.notused:egpa_atis
+AG:EGPB_TWR:118.250:old.voice.notused:egpb_twr
+AG:EGPB_APP:131.300:old.voice.notused:egpb_app
+AG:EGPB_F_APP:123.150:old.voice.notused:egpb_f_app
+AG:EGPB_ATIS:125.850:old.voice.notused:egpb_atis
+AG:EGPC_TWR:119.700:old.voice.notused:egpc_twr
+AG:EGPC_APP:119.700:old.voice.notused:egpc_app
+AG:EGPC_ATIS:113.600:old.voice.notused:egpc_atis
+AG:EGPD_GND:121.700:old.voice.notused:egpd_gnd
+AG:EGPD_TWR:118.100:old.voice.notused:egpd_twr
+AG:EGPD_APP:119.050:old.voice.notused:egpd_app
+AG:EGPD_F_APP:128.300:old.voice.notused:egpd_f_app
+AG:EGPD_ATIS:121.850:old.voice.notused:egpd_atis
+AG:EGPE_TWR:118.400:old.voice.notused:egpe_twr
+AG:EGPE_APP:122.600:old.voice.notused:egpe_app
+AG:EGPE_ATIS:124.700:old.voice.notused:egpe_atis
+AG:EGPF_GND:121.700:old.voice.notused:egpf_gnd
+AG:EGPF_TWR:118.800:old.voice.notused:egpf_twr
+AG:EGPF_APP:119.100:old.voice.notused:egpf_app
+AG:EGPF_F_APP:128.750:old.voice.notused:egpf_f_app
+AG:EGPF_ATIS:129.570:old.voice.notused:egpf_atis
+AG:EGPG_TWR:120.600:old.voice.notused:egpg_twr
+AG:EGPH_GND:121.750:old.voice.notused:egph_gnd
+AG:EGPH_TWR:118.700:old.voice.notused:egph_twr
+AG:EGPH_APP:121.200:old.voice.notused:egph_app
+AG:EGPH_F_APP:128.970:old.voice.notused:egph_f_app
+AG:EGPH_ATIS:131.350:old.voice.notused:egph_atis
+AG:EGPK_TWR:118.150:old.voice.notused:egpk_twr
+AG:EGPK_APP:129.450:old.voice.notused:egpk_app
+AG:EGPK_F_APP:124.620:old.voice.notused:egpk_f_app
+AG:EGPK_ATIS:121.120:old.voice.notused:egpk_atis
+AG:EGPL_TWR:119.200:old.voice.notused:egpl_twr
+AG:EGPL_APP:119.200:old.voice.notused:egpl_app
+AG:EGPL_ATIS:113.950:old.voice.notused:egpl_atis
+AG:EGPM_TWR:119.200:old.voice.notused:egpm_twr
+AG:EGPM_APP:122.400:old.voice.notused:egpm_app
+AG:EGPM_ATIS:128.500:old.voice.notused:egpm_atis
+AG:EGPN_TWR:122.900:old.voice.notused:egpn_twr
+AG:EGPN_APP:122.900:old.voice.notused:egpn_app
+AG:EGPN_ATIS:119.320:old.voice.notused:egpn_atis
+AG:EGPO_TWR:123.500:old.voice.notused:egpo_twr
+AG:EGPO_APP:123.500:old.voice.notused:egpo_app
+AG:EGPO_ATIS:115.100:old.voice.notused:egpo_atis
+AG:EGPR_ATIS:115.100:old.voice.notused:egpr_atis
+AG:EGPT_TWR:115.100:old.voice.notused:egpt_twr
+AG:EGPU_ATIS:122.700:old.voice.notused:egpu_atis
+END

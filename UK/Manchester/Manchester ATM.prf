@@ -1,0 +1,22 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Manchester\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Manchester\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\ATM\ATM_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\ATM\ATM_General_5A.txt
+Settings	SettingsfileARR	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Manchester\ATM_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
+Settings	sector	\..\Data\Sector\UK_2020_11.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Manchester\Manchester ATM.asr
+RecentFiles	Recent2	\..\Data\ASR\Manchester\Manchester SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Manchester\Manchester ATM.asr
+ASRFastKeys	2	\..\Data\ASR\Manchester\Manchester SMR.asr

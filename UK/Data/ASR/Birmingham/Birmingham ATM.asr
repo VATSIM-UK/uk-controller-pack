@@ -1,0 +1,180 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORTITLE:UK_2020_11.sct
+ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBE Coventry Corner:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+Fixes:ABBOT:symbol
+Fixes:ADMEX:symbol
+Fixes:AMPIT:symbol
+Fixes:BEGAM:symbol
+Fixes:BUZAD:symbol
+Fixes:CEDAR:symbol
+Fixes:CHASE:symbol
+Fixes:COWLY:symbol
+Fixes:CREWE:symbol
+Fixes:CROFT:symbol
+Fixes:GROVE:symbol
+Fixes:LONLO:symbol
+Fixes:MALUD:symbol
+Fixes:MAPLE:symbol
+Fixes:NOKIN:symbol
+Fixes:OLNEY:symbol
+Fixes:OSKOT:symbol
+Fixes:OVDOV:symbol
+Fixes:PEDIG:symbol
+Fixes:PEPUL:symbol
+Fixes:PIGOT:symbol
+Fixes:UNGAP:symbol
+Fixes:UPDUK:symbol
+Fixes:VEGAR:symbol
+Fixes:VELAG:symbol
+Fixes:WELIN:symbol
+Geo:Extended centrelines:
+NDBs:EME:symbol
+NDBs:EMW:symbol
+NDBs:NN:symbol
+NDBs:TNL:symbol
+VORs:ABB:symbol
+VORs:ADN:symbol
+VORs:AMB:symbol
+VORs:ARE:symbol
+VORs:BAL:symbol
+VORs:BCN:symbol
+VORs:BDN:symbol
+VORs:BEL:symbol
+VORs:BEN:symbol
+VORs:BHD:symbol
+VORs:BIG:symbol
+VORs:BKY:symbol
+VORs:BNE:symbol
+VORs:BNN:symbol
+VORs:BPK:symbol
+VORs:BST:symbol
+VORs:BZN:symbol
+VORs:CGY:symbol
+VORs:CLM:symbol
+VORs:CLN:symbol
+VORs:CMB:symbol
+VORs:COA:symbol
+VORs:CON:symbol
+VORs:CPT:symbol
+VORs:CRK:symbol
+VORs:CSL:symbol
+VORs:CTM:symbol
+VORs:CWZ:symbol
+VORs:DCS:symbol
+VORs:DET:symbol
+VORs:DHE:symbol
+VORs:DIN:symbol
+VORs:DPE:symbol
+VORs:DTY:symbol
+VORs:DUB:symbol
+VORs:DVL:symbol
+VORs:DVR:symbol
+VORs:EVX:symbol
+VORs:FFA:symbol
+VORs:GAM:symbol
+VORs:GOW:symbol
+VORs:GUR:symbol
+VORs:GWC:symbol
+VORs:HON:symbol
+VORs:IOM:symbol
+VORs:IWL:symbol
+VORs:JSY:symbol
+VORs:KOK:symbol
+VORs:KWL:symbol
+VORs:LAM:symbol
+VORs:LDV:symbol
+VORs:LGL:symbol
+VORs:LKH:symbol
+VORs:LND:symbol
+VORs:LON:symbol
+VORs:LYD:symbol
+VORs:LYE:symbol
+VORs:MAC:symbol
+VORs:MAM:symbol
+VORs:MAY:symbol
+VORs:MCT:symbol
+VORs:MID:symbol
+VORs:MLD:symbol
+VORs:MTD:symbol
+VORs:NIK:symbol
+VORs:OCK:symbol
+VORs:ODH:symbol
+VORs:OTR:symbol
+VORs:PAM:symbol
+VORs:POL:symbol
+VORs:PON:symbol
+VORs:PTH:symbol
+VORs:QPR:symbol
+VORs:REM:symbol
+VORs:REN:symbol
+VORs:ROU:symbol
+VORs:RTM:symbol
+VORs:SAB:symbol
+VORs:SAM:symbol
+VORs:SFD:symbol
+VORs:SHA:symbol
+VORs:SOL:symbol
+VORs:SPY:symbol
+VORs:STN:symbol
+VORs:STU:symbol
+VORs:SUM:symbol
+VORs:SVA:symbol
+VORs:SWB:symbol
+VORs:TIR:symbol
+VORs:TLA:symbol
+VORs:TNT:symbol
+VORs:TRN:symbol
+VORs:VES:symbol
+VORs:VLN:symbol
+VORs:WAL:symbol
+VORs:WIK:symbol
+VORs:WIT:symbol
+VORs:WTZ:symbol
+VORs:YVL:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:355
+ABOVE:0
+LEADER:3
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Traffic Monitor
+WINDOWAREA:51.972582:-3.257593:52.935129:-0.238463
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1306
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:52
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:69
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:213
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

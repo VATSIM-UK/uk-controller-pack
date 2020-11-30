@@ -1,0 +1,50 @@
+PROFILE
+PROFILE:ESSEX_APP:100:5
+ATIS2:Essex Radar
+ATIS3:Stansted Voice ATIS on 127.175
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSS_DEL:20:2
+ATIS2:Stansted Delivery
+ATIS3:Voice ATIS on 127.175
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSS_GND:20:3
+ATIS2:Stansted Ground
+ATIS3:Voice ATIS on 127.175
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSS_TWR:50:4
+ATIS2:Stansted Tower
+ATIS3:Voice ATIS on 127.175
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSS_APP:100:5
+ATIS2:Stansted Director
+ATIS3:Voice ATIS on 127.175
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGGW_TWR:50:4
+ATIS2:Luton Tower 
+ATIS3:Voice ATIS on 120.575
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGGW_GND:20:3
+ATIS2:Luton Ground
+ATIS3:Voice ATIS on 120.575
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGGW_DEL:20:2
+ATIS2:Luton Delivery
+ATIS3:Voice ATIS on 120.575
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGGW_APP:100:5
+ATIS2:Luton Radar
+ATIS3:Voice ATIS on 120.575
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSC_R_APP:100:5
+ATIS2:Cambridge Radar
+ATIS3:Voice ATIS on 134.600
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSC_APP:100:5
+ATIS2:Cambridge Approach (Non Radar)
+ATIS3:Voice ATIS on 134.600
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGSC_TWR:50:4
+ATIS2:Cambridge Tower
+ATIS3:Voice ATIS on 134.600
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

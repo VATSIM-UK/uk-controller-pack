@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGPH_APP:100:5
+ATIS2:"Edinburgh Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPH_F_APP:100:5
+ATIS2:"Edinburgh Radar"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPH_TWR:30:4
+ATIS2:"Edinburgh Tower"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+PROFILE:EGPH_GND:10:4
+ATIS2:"Edinburgh Ground"
+ATIS3:We love feedback! Submit some at vats.im/atcfb
+ATIS4:
+END

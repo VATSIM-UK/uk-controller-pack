@@ -1,0 +1,26 @@
+PROFILE
+PROFILE:EGKB_TWR:50:4
+ATIS2:Biggin Tower
+ATIS3:Voice ATIS on 135.675
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGKB_APP:50:5
+ATIS2:Biggin Approach
+ATIS3:Procedural Approach Service - Radar coverage by THAMES
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:THAMES_APP:100:5
+ATIS2:Thames Radar
+ATIS3:Radar and top-down cover for EGLC and EGKB
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLC_GND:20:3
+ATIS2:London City Ground
+ATIS3:Advise whether you have D and K, L, M. Voice ATIS on 118.400
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLC_TWR:50:4
+ATIS2:London City Tower
+ATIS3:Advise whether you have D and K, L, M. Voice ATIS on 118.400
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGLC_APP:50:5
+ATIS2:London City Radar
+ATIS3:Voice ATIS on 118.400
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

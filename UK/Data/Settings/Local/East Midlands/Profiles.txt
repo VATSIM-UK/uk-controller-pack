@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGNX_GND:20:3
+ATIS2:East Midlands Ground
+ATIS3:Voice ATIS on 128.220
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGNX_TWR:50:4
+ATIS2:East Midlands Tower
+ATIS3:Voice ATIS on 128.220
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGNX_APP:100:5
+ATIS2:East Midlands Radar
+ATIS3:Voice ATIS on 128.220
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+PROFILE:EGNX_R_APP:100:5
+ATIS2:East Midlands Radar
+ATIS3:Voice ATIS on 128.220
+ATIS4:We love feedback! Submit some at vats.im/atcfb
+END

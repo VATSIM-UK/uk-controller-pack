@@ -1,0 +1,21 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Birmingham\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Birmingham\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\ATM\ATM_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\ATM\ATM_General.txt
+Settings	SettingsfileARR	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Birmingham\ATM_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Midlands.txt
+Settings	sector	\..\Data\Sector\UK_2020_11.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
+RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
+ASRFastKeys	2	\..\Data\ASR\Birmingham\Birmingham SMR.asr

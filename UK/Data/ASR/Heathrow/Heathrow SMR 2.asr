@@ -1,0 +1,316 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORTITLE:UK_2020_11.sct
+Free Text:EGLL Old Holds\ AE2:freetext
+Free Text:EGLL Old Holds\ AW2:freetext
+Free Text:EGLL Old Holds\ LOMAN:freetext
+Free Text:EGLL Old Holds\A1:freetext
+Free Text:EGLL Old Holds\A10E:freetext
+Free Text:EGLL Old Holds\A10W:freetext
+Free Text:EGLL Old Holds\A11:freetext
+Free Text:EGLL Old Holds\A12:freetext
+Free Text:EGLL Old Holds\A13:freetext
+Free Text:EGLL Old Holds\A2:freetext
+Free Text:EGLL Old Holds\A3:freetext
+Free Text:EGLL Old Holds\A4:freetext
+Free Text:EGLL Old Holds\A5:freetext
+Free Text:EGLL Old Holds\A6:freetext
+Free Text:EGLL Old Holds\A7:freetext
+Free Text:EGLL Old Holds\A8:freetext
+Free Text:EGLL Old Holds\A9E:freetext
+Free Text:EGLL Old Holds\A9W:freetext
+Free Text:EGLL Old Holds\AY1:freetext
+Free Text:EGLL Old Holds\AY10:freetext
+Free Text:EGLL Old Holds\AY3:freetext
+Free Text:EGLL Old Holds\AY4:freetext
+Free Text:EGLL Old Holds\AY5:freetext
+Free Text:EGLL Old Holds\C1:freetext
+Free Text:EGLL Old Holds\C2:freetext
+Free Text:EGLL Old Holds\COBRA:freetext
+Free Text:EGLL Old Holds\D1:freetext
+Free Text:EGLL Old Holds\D2:freetext
+Free Text:EGLL Old Holds\DASSO:freetext
+Free Text:EGLL Old Holds\DINGO:freetext
+Free Text:EGLL Old Holds\E1:freetext
+Free Text:EGLL Old Holds\E2:freetext
+Free Text:EGLL Old Holds\ETTIV:freetext
+Free Text:EGLL Old Holds\F1:freetext
+Free Text:EGLL Old Holds\F2:freetext
+Free Text:EGLL Old Holds\HANLI:freetext
+Free Text:EGLL Old Holds\HORKA:freetext
+Free Text:EGLL Old Holds\L1:freetext
+Free Text:EGLL Old Holds\L2:freetext
+Free Text:EGLL Old Holds\LOKKI:freetext
+Free Text:EGLL Old Holds\M1:freetext
+Free Text:EGLL Old Holds\MORRA:freetext
+Free Text:EGLL Old Holds\N1:freetext
+Free Text:EGLL Old Holds\N10:freetext
+Free Text:EGLL Old Holds\N11:freetext
+Free Text:EGLL Old Holds\N2E:freetext
+Free Text:EGLL Old Holds\N2W:freetext
+Free Text:EGLL Old Holds\N3:freetext
+Free Text:EGLL Old Holds\N4E:freetext
+Free Text:EGLL Old Holds\N4W:freetext
+Free Text:EGLL Old Holds\N5E:freetext
+Free Text:EGLL Old Holds\N5W:freetext
+Free Text:EGLL Old Holds\N6:freetext
+Free Text:EGLL Old Holds\N7:freetext
+Free Text:EGLL Old Holds\N8:freetext
+Free Text:EGLL Old Holds\NEVIS:freetext
+Free Text:EGLL Old Holds\NY4:freetext
+Free Text:EGLL Old Holds\OSTER:freetext
+Free Text:EGLL Old Holds\PLUTO:freetext
+Free Text:EGLL Old Holds\RABIT:freetext
+Free Text:EGLL Old Holds\S11:freetext
+Free Text:EGLL Old Holds\S1N:freetext
+Free Text:EGLL Old Holds\S1S:freetext
+Free Text:EGLL Old Holds\S3:freetext
+Free Text:EGLL Old Holds\S4:freetext
+Free Text:EGLL Old Holds\S5:freetext
+Free Text:EGLL Old Holds\S6:freetext
+Free Text:EGLL Old Holds\S7:freetext
+Free Text:EGLL Old Holds\SATUN:freetext
+Free Text:EGLL Old Holds\SB1:freetext
+Free Text:EGLL Old Holds\SB7:freetext
+Free Text:EGLL Old Holds\SNAPA:freetext
+Free Text:EGLL Old Holds\SY6:freetext
+Free Text:EGLL Old Holds\TITAN:freetext
+Free Text:EGLL Old Holds\VIKAS:freetext
+Free Text:EGLL Old Stands\101:freetext
+Free Text:EGLL Old Stands\102:freetext
+Free Text:EGLL Old Stands\103:freetext
+Free Text:EGLL Old Stands\104:freetext
+Free Text:EGLL Old Stands\105:freetext
+Free Text:EGLL Old Stands\106:freetext
+Free Text:EGLL Old Stands\108:freetext
+Free Text:EGLL Old Stands\109:freetext
+Free Text:EGLL Old Stands\110:freetext
+Free Text:EGLL Old Stands\112:freetext
+Free Text:EGLL Old Stands\119:freetext
+Free Text:EGLL Old Stands\121:freetext
+Free Text:EGLL Old Stands\123:freetext
+Free Text:EGLL Old Stands\143:freetext
+Free Text:EGLL Old Stands\145:freetext
+Free Text:EGLL Old Stands\147:freetext
+Free Text:EGLL Old Stands\149:freetext
+Free Text:EGLL Old Stands\153:freetext
+Free Text:EGLL Old Stands\155:freetext
+Free Text:EGLL Old Stands\170:freetext
+Free Text:EGLL Old Stands\174:freetext
+Free Text:EGLL Old Stands\176:freetext
+Free Text:EGLL Old Stands\178:freetext
+Free Text:EGLL Old Stands\180:freetext
+Free Text:EGLL Old Stands\182:freetext
+Free Text:EGLL Old Stands\184:freetext
+Free Text:EGLL Old Stands\186:freetext
+Free Text:EGLL Old Stands\188:freetext
+Free Text:EGLL Old Stands\192:freetext
+Free Text:EGLL Old Stands\209:freetext
+Free Text:EGLL Old Stands\247:freetext
+Free Text:EGLL Old Stands\248:freetext
+Free Text:EGLL Old Stands\249:freetext
+Free Text:EGLL Old Stands\256:freetext
+Free Text:EGLL Old Stands\257:freetext
+Free Text:EGLL Old Stands\258:freetext
+Free Text:EGLL Old Stands\301:freetext
+Free Text:EGLL Old Stands\303:freetext
+Free Text:EGLL Old Stands\305:freetext
+Free Text:EGLL Old Stands\307:freetext
+Free Text:EGLL Old Stands\309:freetext
+Free Text:EGLL Old Stands\311:freetext
+Free Text:EGLL Old Stands\313:freetext
+Free Text:EGLL Old Stands\316:freetext
+Free Text:EGLL Old Stands\317:freetext
+Free Text:EGLL Old Stands\318:freetext
+Free Text:EGLL Old Stands\319:freetext
+Free Text:EGLL Old Stands\320:freetext
+Free Text:EGLL Old Stands\321:freetext
+Free Text:EGLL Old Stands\322:freetext
+Free Text:EGLL Old Stands\323:freetext
+Free Text:EGLL Old Stands\325:freetext
+Free Text:EGLL Old Stands\326:freetext
+Free Text:EGLL Old Stands\327:freetext
+Free Text:EGLL Old Stands\328:freetext
+Free Text:EGLL Old Stands\329:freetext
+Free Text:EGLL Old Stands\330:freetext
+Free Text:EGLL Old Stands\331:freetext
+Free Text:EGLL Old Stands\332:freetext
+Free Text:EGLL Old Stands\334:freetext
+Free Text:EGLL Old Stands\335:freetext
+Free Text:EGLL Old Stands\336:freetext
+Free Text:EGLL Old Stands\338:freetext
+Free Text:EGLL Old Stands\340:freetext
+Free Text:EGLL Old Stands\342:freetext
+Free Text:EGLL Old Stands\351:freetext
+Free Text:EGLL Old Stands\352:freetext
+Free Text:EGLL Old Stands\353:freetext
+Free Text:EGLL Old Stands\354:freetext
+Free Text:EGLL Old Stands\355:freetext
+Free Text:EGLL Old Stands\363:freetext
+Free Text:EGLL Old Stands\364:freetext
+Free Text:EGLL Old Stands\365:freetext
+Free Text:EGLL Old Stands\401:freetext
+Free Text:EGLL Old Stands\402:freetext
+Free Text:EGLL Old Stands\403:freetext
+Free Text:EGLL Old Stands\405:freetext
+Free Text:EGLL Old Stands\406:freetext
+Free Text:EGLL Old Stands\407:freetext
+Free Text:EGLL Old Stands\408:freetext
+Free Text:EGLL Old Stands\409:freetext
+Free Text:EGLL Old Stands\410:freetext
+Free Text:EGLL Old Stands\411:freetext
+Free Text:EGLL Old Stands\412:freetext
+Free Text:EGLL Old Stands\414:freetext
+Free Text:EGLL Old Stands\415:freetext
+Free Text:EGLL Old Stands\416:freetext
+Free Text:EGLL Old Stands\417:freetext
+Free Text:EGLL Old Stands\419:freetext
+Free Text:EGLL Old Stands\420:freetext
+Free Text:EGLL Old Stands\421:freetext
+Free Text:EGLL Old Stands\422:freetext
+Free Text:EGLL Old Stands\423:freetext
+Free Text:EGLL Old Stands\424:freetext
+Free Text:EGLL Old Stands\425:freetext
+Free Text:EGLL Old Stands\429:freetext
+Free Text:EGLL Old Stands\430:freetext
+Free Text:EGLL Old Stands\431:freetext
+Free Text:EGLL Old Stands\432:freetext
+Free Text:EGLL Old Stands\440:freetext
+Free Text:EGLL Old Stands\441:freetext
+Free Text:EGLL Old Stands\451:freetext
+Free Text:EGLL Old Stands\452:freetext
+Free Text:EGLL Old Stands\453:freetext
+Free Text:EGLL Old Stands\454:freetext
+Free Text:EGLL Old Stands\455:freetext
+Free Text:EGLL Old Stands\456:freetext
+Free Text:EGLL Old Stands\461:freetext
+Free Text:EGLL Old Stands\463:freetext
+Free Text:EGLL Old Stands\501:freetext
+Free Text:EGLL Old Stands\502:freetext
+Free Text:EGLL Old Stands\503:freetext
+Free Text:EGLL Old Stands\505:freetext
+Free Text:EGLL Old Stands\506:freetext
+Free Text:EGLL Old Stands\507:freetext
+Free Text:EGLL Old Stands\508:freetext
+Free Text:EGLL Old Stands\509:freetext
+Free Text:EGLL Old Stands\511:freetext
+Free Text:EGLL Old Stands\512:freetext
+Free Text:EGLL Old Stands\513:freetext
+Free Text:EGLL Old Stands\514:freetext
+Free Text:EGLL Old Stands\515:freetext
+Free Text:EGLL Old Stands\516:freetext
+Free Text:EGLL Old Stands\517:freetext
+Free Text:EGLL Old Stands\518:freetext
+Free Text:EGLL Old Stands\519:freetext
+Free Text:EGLL Old Stands\520:freetext
+Free Text:EGLL Old Stands\521:freetext
+Free Text:EGLL Old Stands\522:freetext
+Free Text:EGLL Old Stands\523:freetext
+Free Text:EGLL Old Stands\524:freetext
+Free Text:EGLL Old Stands\525:freetext
+Free Text:EGLL Old Stands\526:freetext
+Free Text:EGLL Old Stands\527:freetext
+Free Text:EGLL Old Stands\531:freetext
+Free Text:EGLL Old Stands\532:freetext
+Free Text:EGLL Old Stands\533:freetext
+Free Text:EGLL Old Stands\534:freetext
+Free Text:EGLL Old Stands\535:freetext
+Free Text:EGLL Old Stands\536:freetext
+Free Text:EGLL Old Stands\537:freetext
+Free Text:EGLL Old Stands\538:freetext
+Free Text:EGLL Old Stands\539:freetext
+Free Text:EGLL Old Stands\541:freetext
+Free Text:EGLL Old Stands\542:freetext
+Free Text:EGLL Old Stands\543:freetext
+Free Text:EGLL Old Stands\544:freetext
+Free Text:EGLL Old Stands\545:freetext
+Free Text:EGLL Old Stands\546:freetext
+Free Text:EGLL Old Stands\547:freetext
+Free Text:EGLL Old Stands\548:freetext
+Free Text:EGLL Old Stands\551:freetext
+Free Text:EGLL Old Stands\552:freetext
+Free Text:EGLL Old Stands\553:freetext
+Free Text:EGLL Old Stands\554:freetext
+Free Text:EGLL Old Stands\555:freetext
+Free Text:EGLL Old Stands\556:freetext
+Free Text:EGLL Old Stands\557:freetext
+Free Text:EGLL Old Stands\558:freetext
+Free Text:EGLL Old Stands\561:freetext
+Free Text:EGLL Old Stands\562:freetext
+Free Text:EGLL Old Stands\563:freetext
+Free Text:EGLL Old Stands\564:freetext
+Free Text:EGLL Old Stands\565:freetext
+Free Text:EGLL Old Stands\566:freetext
+Free Text:EGLL Old Stands\567:freetext
+Free Text:EGLL Old Stands\568:freetext
+Free Text:EGLL Old Stands\575:freetext
+Free Text:EGLL Old Stands\576:freetext
+Free Text:EGLL Old Stands\581:freetext
+Free Text:EGLL Old Stands\582:freetext
+Free Text:EGLL Old Stands\583:freetext
+Free Text:EGLL Old Stands\590:freetext
+Free Text:EGLL Old Stands\591:freetext
+Free Text:EGLL Old Stands\592:freetext
+Free Text:EGLL Old Stands\594:freetext
+Free Text:EGLL Old Stands\595:freetext
+Free Text:EGLL Old Stands\596:freetext
+Free Text:EGLL Old Stands\601:freetext
+Free Text:EGLL Old Stands\602:freetext
+Free Text:EGLL Old Stands\603:freetext
+Free Text:EGLL Old Stands\604:freetext
+Free Text:EGLL Old Stands\605:freetext
+Free Text:EGLL Old Stands\606:freetext
+Free Text:EGLL Old Stands\607:freetext
+Free Text:EGLL Old Stands\608:freetext
+Free Text:EGLL Old Stands\609:freetext
+Free Text:EGLL Old Stands\611:freetext
+Free Text:EGLL Old Stands\612:freetext
+Free Text:EGLL Old Stands\613:freetext
+Free Text:EGLL Old Stands\614:freetext
+Free Text:EGLL Old Stands\615:freetext
+Free Text:EGLL Old Stands\616:freetext
+Free Text:EGLL Old Stands\701:freetext
+Free Text:EGLL Old Stands\702:freetext
+Free Text:EGLL Old Stands\703:freetext
+Free Text:EGLL Old Stands\L35E:freetext
+Free Text:EGLL Old Stands\L35W:freetext
+Free Text:EGLL Old Stands\RS:freetext
+Geo:EGLL Heathrow Old:
+Regions:Heathrow Old:polygon
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:120
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:4
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.70000
+TAGFAMILY:Alternative
+WINDOWAREA:51.450560:-0.516242:51.488090:-0.403360
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1518
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
