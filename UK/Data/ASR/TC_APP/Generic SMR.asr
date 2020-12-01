@@ -1,7 +1,6 @@
-DisplayTypeName:Standard ES radar screen
-DisplayTypeNeedRadarContent:1
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:\..\Data\Sector\UK_2020_11.sct
 SECTORTITLE:UK_2020_11.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
