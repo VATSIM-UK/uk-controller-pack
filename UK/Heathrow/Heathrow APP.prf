@@ -23,5 +23,5 @@ RecentFiles	Recent1	\..\Data\ASR\Heathrow\Heathrow Radar_2.asr
 RecentFiles	Recent2	\..\Data\ASR\Heathrow\Heathrow Radar_1.asr
 RecentFiles	Recent3	\..\Data\ASR\Heathrow\Heathrow Radar_3.asr
 RecentFiles	Recent4	\..\Data\ASR\Heathrow\Heathrow Radar_4.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

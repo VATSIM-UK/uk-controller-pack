@@ -34,5 +34,5 @@ ASRFastKeys	5	\..\..\Data\ASR\AC_W\Cardiff SMR.asr
 ASRFastKeys	6	\..\..\Data\ASR\AC_W\Bristol SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_W\Jersey SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\AC_W\Guernsey SMR.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

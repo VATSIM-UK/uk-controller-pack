@@ -20,5 +20,5 @@ RecentFiles	Recent1	\..\Data\ASR\East Midlands\East Midlands ATM.asr
 RecentFiles	Recent2	\..\Data\ASR\East Midlands\East Midlands SMR.asr
 ASRFastKeys	1	\..\Data\ASR\East Midlands\East Midlands ATM.asr
 ASRFastKeys	2	\..\Data\ASR\East Midlands\East Midlands SMR.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

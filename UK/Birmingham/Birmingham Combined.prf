@@ -25,5 +25,5 @@ ASRFastKeys	2	\..\Data\ASR\Birmingham\Birmingham Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Birmingham\Birmingham Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\Birmingham\Birmingham Radar_4.asr
 ASRFastKeys	5	\..\Data\ASR\Birmingham\Birmingham SMR.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

@@ -22,5 +22,5 @@ RecentFiles	Recent3	\..\Data\ASR\Heathrow\Heathrow SMR 2.asr
 ASRFastKeys	1	\..\Data\ASR\Heathrow\Heathrow ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Heathrow\Heathrow SMR.asr
 ASRFastKeys	3	\..\Data\ASR\Heathrow\Heathrow SMR 2.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

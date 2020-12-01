@@ -34,5 +34,5 @@ ASRFastKeys	6	\..\..\Data\ASR\AC_BB\BBG2.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_BB\BBG3.asr
 ASRFastKeys	8	\..\..\Data\ASR\AC_BB\BBG4.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_BB\BBG5.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

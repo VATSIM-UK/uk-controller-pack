@@ -34,5 +34,5 @@ ASRFastKeys	6	\..\..\Data\ASR\LTC\Gatwick SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\LTC\City SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\LTC\Biggin SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\LTC\TCS_Ground.asr
-Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
