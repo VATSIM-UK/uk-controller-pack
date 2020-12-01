@@ -34,5 +34,5 @@ ASRFastKeys	6	\..\Data\ASR\PX_AC\ACG2.asr
 ASRFastKeys	7	\..\Data\ASR\PX_AC\ACG3.asr
 ASRFastKeys	8	\..\Data\ASR\PX_AC\ACG4.asr
 ASRFastKeys	9	\..\Data\ASR\PX_AC\ACG5.asr
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

@@ -19,5 +19,5 @@ RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
 RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

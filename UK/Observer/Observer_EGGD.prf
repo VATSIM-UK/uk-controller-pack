@@ -17,5 +17,5 @@ RecentFiles	Recent1	\..\Data\ASR\Observer\Observer EGGD SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Observer\Observer EGGD SMR.asr
 RecentFiles	Recent2	\..\Data\ASR\Observer\Radar.asr
 ASRFastKeys	2	\..\Data\ASR\Observer\Radar.asr
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

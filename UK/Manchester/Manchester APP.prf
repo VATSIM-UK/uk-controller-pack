@@ -23,5 +23,5 @@ ASRFastKeys	1	\..\Data\ASR\Manchester\Manchester Radar_1.asr
 ASRFastKeys	2	\..\Data\ASR\Manchester\Manchester Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Manchester\Manchester Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\Manchester\Manchester Radar_4.asr
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

@@ -20,5 +20,5 @@ RecentFiles	Recent1	\..\Data\ASR\Manchester\Manchester ATM.asr
 RecentFiles	Recent2	\..\Data\ASR\Manchester\Manchester SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Manchester\Manchester ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Manchester\Manchester SMR.asr
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
