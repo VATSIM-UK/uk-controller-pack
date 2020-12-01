@@ -23,3 +23,5 @@ ASRFastKeys	1	\..\Data\ASR\Thames\Thames Radar_1.asr
 ASRFastKeys	2	\..\Data\ASR\Thames\Thames Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Thames\Thames Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\Thames\Thames Radar_4.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

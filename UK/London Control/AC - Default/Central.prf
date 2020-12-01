@@ -34,5 +34,5 @@ ASRFastKeys	6	\..\..\Data\ASR\AC_C\Luton SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_C\Birmingham SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\AC_C\East Midlands SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_C\C_Ground.asr
-Plugins	Plugin0	\..\..\Data\Plugin\RDFPlugin.dll
-Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

@@ -25,3 +25,5 @@ ASRFastKeys	2	\..\Data\ASR\East Midlands\East Midlands Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\East Midlands\East Midlands Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\East Midlands\East Midlands Radar_4.asr
 ASRFastKeys	5	\..\Data\ASR\East Midlands\East Midlands SMR.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

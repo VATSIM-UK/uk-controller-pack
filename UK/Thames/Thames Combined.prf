@@ -27,3 +27,5 @@ RecentFiles	Recent5	\..\Data\ASR\Thames\Biggin SMR.asr
 ASRFastKeys	5	\..\Data\ASR\Thames\City SMR.asr
 RecentFiles	Recent6	\..\Data\ASR\Thames\City SMR.asr
 ASRFastKeys	6	\..\Data\ASR\Thames\Biggin SMR.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

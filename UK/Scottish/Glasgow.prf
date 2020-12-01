@@ -25,3 +25,5 @@ RecentFiles	Recent2	\..\Data\ASR\Glasgow\Glasgow Radar_1.asr
 RecentFiles	Recent3	\..\Data\ASR\Glasgow\Glasgow Radar_3.asr
 RecentFiles	Recent4	\..\Data\ASR\Glasgow\Glasgow Radar_4.asr
 RecentFiles	Recent5	\..\Data\ASR\Glasgow\Glasgow SMR.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

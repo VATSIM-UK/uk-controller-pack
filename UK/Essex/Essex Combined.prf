@@ -29,3 +29,5 @@ ASRFastKeys	4	\..\Data\ASR\Essex\Essex Radar_4.asr
 ASRFastKeys	5	\..\Data\ASR\Essex\Stansted SMR.asr
 ASRFastKeys	6	\..\Data\ASR\Essex\Luton SMR.asr
 ASRFastKeys	7	\..\Data\ASR\Essex\Cambridge SMR.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display

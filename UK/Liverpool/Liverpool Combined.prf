@@ -24,3 +24,5 @@ ASRFastKeys	2	\..\Data\ASR\Liverpool\Liverpool Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Liverpool\Liverpool Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\Liverpool\Liverpool Radar_4.asr
 ASRFastKeys	5	\..\Data\ASR\Liverpool\Liverpool SMR.asr
+Plugins	Plugin0	..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
