@@ -1,7 +1,7 @@
-DisplayTypeName:Standard ES radar screen
-DisplayTypeNeedRadarContent:1
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORTITLE:UK_2020_11.sct
+SECTORTITLE:UK_2020_13.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
 Free Text:SCT2\06 Grass:freetext
@@ -2421,7 +2421,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:4.00000
 TAGFAMILY:AC
-WINDOWAREA:53.325002:-2.878619:53.342908:-2.822454
+WINDOWAREA:53.324650:-2.878619:53.343260:-2.822454
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1513
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -2444,3 +2444,5 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:vSMR:Airport:EGGP
+PLUGIN:vSMR:GndTrailsDots:0

@@ -14,4 +14,6 @@ UK Controller Plugin:timer4Duration:120
 UK Controller Plugin:timer4Enabled:1
 UK Controller Plugin:timer5Duration:180
 UK Controller Plugin:timer5Enabled:1
+vSMR:cpdlc_logon:LONN
+vSMR:cpdlc_sound:1
 END

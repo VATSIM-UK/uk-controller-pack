@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\ACI_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_North.txt
-Settings	sector	\..\..\Data\Sector\UK_2020_11.sct
+Settings	sector	\..\..\Data\Sector\UK_2020_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
@@ -34,5 +34,7 @@ ASRFastKeys	6	\..\..\Data\ASR\AC_N\Liverpool SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_N\Leeds SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\AC_N\Newcastle SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_N\N_Ground.asr
-Plugins	Plugin0	\..\..\Data\Plugin\RDFPlugin.dll
-Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
