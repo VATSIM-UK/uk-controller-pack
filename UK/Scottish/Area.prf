@@ -38,3 +38,6 @@ Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin2Display1	SMR radar display

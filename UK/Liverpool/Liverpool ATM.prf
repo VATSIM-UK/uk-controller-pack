@@ -21,3 +21,6 @@ ASRFastKeys	1	\..\Data\ASR\Liverpool\Liverpool ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Liverpool\Liverpool SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
