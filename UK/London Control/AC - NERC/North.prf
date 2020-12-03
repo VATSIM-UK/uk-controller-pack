@@ -36,3 +36,5 @@ ASRFastKeys	8	\..\..\Data\ASR\AC_N\Newcastle SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_N\N_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
