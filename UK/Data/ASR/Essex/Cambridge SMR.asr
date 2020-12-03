@@ -1,7 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
 SECTORTITLE:UK_2020_13.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
@@ -2446,3 +2445,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:vSMR:Airport:EGSC
+PLUGIN:vSMR:GndTrailsDots:0
