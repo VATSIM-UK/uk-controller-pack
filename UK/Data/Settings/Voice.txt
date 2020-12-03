@@ -16,22 +16,38 @@ AG:Area - TC NE:118.820:old.voice.notused:ltc_ne_ctr
 AG:Area - TC NW:121.270:old.voice.notused:ltc_nw_ctr
 AG:Area - TC Bandbox:135.800:old.voice.notused:ltc_ctr
 AG:X Area - North (North Sea):128.120:old.voice.notused:lon_ne_ctr
-AG:X Area - Daventry (Soutbound):134.400:old.voice.notused:lon_cw_ctr
-AG:X Area - Daventry (Northbound):127.870:old.voice.notused:lon_ce_ctr
-AG:X Area - Daventry (Northbound Low):133.970:old.voice.notused:lon_cl_ctr
-AG:X Area - Clacton (Eastbound):133.950:old.voice.notused:lon_en_ctr
-AG:X Area - Clacton (Westbound):128.150:old.voice.notused:lon_es_ctr
-AG:X Area - TC Midlands:121.020:old.voice.notused:ltc_m_ctr
-AG:X Area - TC COWLY:133.070:old.voice.notused:ltc_mc_ctr
-AG:X Area - TC WELIN:130.920:old.voice.notused:ltc_mw_ctr
+AG:X Area - North (Lakes):135.570:old.voice.notused:lon_nw_ctr
+AG:X Area - North (Sector 4):132.870:old.voice.notused:lon_nu_ctr
+AG:X Area - Daventry (West):134.400:old.voice.notused:lon_cw_ctr
+AG:X Area - Daventry (East):127.870:old.voice.notused:lon_ce_ctr
+AG:X Area - Daventry (Low):133.970:old.voice.notused:lon_cl_ctr
+AG:X Area - Clacton (Sector 12):133.920:old.voice.notused:lon_en_ctr
+AG:X Area - Clacton (Sector 13):128.150:old.voice.notused:lon_es_ctr
+AG:X Area - West (Pembroke):133.220:old.voice.notused:lon_wp_ctr
+AG:X Area - West (Brecon):133.600:old.voice.notused:lon_wb_ctr
+AG:X Area - West (Bristol):134.750:old.voice.notused:lon_wr_ctr
+AG:X Area - West (Strumble):129.370:old.voice.notused:lon_wt_ctr
+AG:X Area - West (Exmor):128.820:old.voice.notused:lon_wx_ctr
+AG:X Area - West (Lands End):132.950:old.voice.notused:lon_wl_ctr
+AG:X Area - West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
+AG:X Area - TC Midlands:121.020:old.voice.notused:ltc_c_ctr
+AG:X Area - TC COWLY:133.070:old.voice.notused:ltc_co_ctr
+AG:X Area - TC WELIN:130.920:old.voice.notused:ltc_cw_ctr
 AG:X Area - TC REDFA:133.520:old.voice.notused:ltc_er_ctr
 AG:X Area - TC SABER:129.600:old.voice.notused:ltc_es_ctr
+AG:X Area - TC JACKO:135.420:old.voice.notused:ltc_ej_ctr
+AG:X Area - TC DAGGA:124.920:old.voice.notused:ltc_ed_ctr
+AG:X Area - TC LOREL:129.270:old.voice.notused:ltc_nl_ctr
+AG:X Area - TC LAM:123.900:old.voice.notused:ltc_n2_ctr
 AG:Area - PC Bandbox:133.200:old.voice.notused:man_ctr
 AG:Area - PC E:133.800:old.voice.notused:man_e_ctr
+AG:Area - PC NE:135.700:old.voice.notused:man_e_ctr
+AG:Area - PC SE:134.420:old.voice.notused:man_e_ctr
+AG:Area - PC TNT:119.520:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
-AG:X Area - PC S29:133.200:old.voice.notused:man_wu_ctr
-AG:X Area - PC Wal:125.950:old.voice.notused:man_wl_ctr
+AG:X Area - PC WAL:125.950:old.voice.notused:man_wl_ctr
 AG:X Area - PC IoM:133.050:old.voice.notused:man_wi_ctr
+AG:X Area - PC PENIL:128.050:old.voice.notused:man_wp_ctr
 AG:EGBB_APP:123.970:old.voice.notused:egbb_app
 AG:EGBB_F_APP:131.000:old.voice.notused:egbb_f_app
 AG:EGBB_TWR:118.300:old.voice.notused:egbb_twr
