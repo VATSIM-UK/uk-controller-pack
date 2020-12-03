@@ -4,82 +4,44 @@ DisplayTypeGeoReferenced:1
 SECTORTITLE:UK_2020_13.sct
 Airports:EGWU:symbol
 ARTCC low boundary:EGLL London Heathrow CTR:
-Geo:Extended centrelines:
+Fixes:KESAX:name
+Fixes:KESAX:symbol
 Low airways:H10:line
 Low airways:H2:line
 Low airways:H22:line
 Low airways:H3:line
+Low airways:H4:line
+Low airways:H5:line
+Low airways:H7:line
 Low airways:H9:line
-NDBs:BUR:symbol
-NDBs:CHT:symbol
-NDBs:EPM:symbol
-NDBs:WOD:symbol
 Runways:EGLL London Heathrow 09L-27R:centerline
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1 left ticks
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2 right ticks
 Runways:EGLL London Heathrow 09R-27L:centerline
-Stars:Heathrow RMA Westerlies:
-VORs:ADN:symbol
-VORs:BAL:symbol
-VORs:BCN:symbol
-VORs:BEL:symbol
-VORs:BEN:symbol
-VORs:BHD:symbol
-VORs:BIG:symbol
-VORs:BKY:symbol
-VORs:BNN:symbol
-VORs:BPK:symbol
-VORs:CLN:symbol
-VORs:CON:symbol
-VORs:CPT:symbol
-VORs:DCS:symbol
-VORs:DET:symbol
-VORs:DTY:symbol
-VORs:DUB:symbol
-VORs:DVR:symbol
-VORs:GAM:symbol
-VORs:GOW:symbol
-VORs:GWC:symbol
-VORs:HON:symbol
-VORs:INS:symbol
-VORs:IOM:symbol
-VORs:KWL:symbol
-VORs:LAM:symbol
-VORs:LND:symbol
-VORs:LYD:symbol
-VORs:MAC:symbol
-VORs:MAY:symbol
-VORs:MCT:symbol
-VORs:MID:symbol
-VORs:OCK:symbol
-VORs:OTR:symbol
-VORs:POL:symbol
-VORs:PTH:symbol
-VORs:QPR:symbol
-VORs:SAB:symbol
-VORs:SAM:symbol
-VORs:SFD:symbol
-VORs:STN:symbol
-VORs:STU:symbol
-VORs:SUM:symbol
-VORs:SVA:symbol
-VORs:VES:symbol
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1 right ticks
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2 left ticks
 SHOWC:1
 SHOWSB:0
-BELOW:150
-ABOVE:0
+BELOW:100
+ABOVE:14500
 LEADER:3
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:0
+HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Traffic Monitor
-WINDOWAREA:51.090261:-1.676004:51.864739:0.753227
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1315
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:51
+WINDOWAREA:51.019260:-0.936851:51.934302:0.018859
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:735
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:967
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
-PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
@@ -88,13 +50,14 @@ PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:15
-PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1412
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:24
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
