@@ -1,26 +1,26 @@
 PROFILE
 PROFILE:LON_S_CTR:250:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LON_D_CTR:250:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_CTR:150:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_S_CTR:150:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SE_CTR:150:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SW_CTR:150:6
 ATIS2:"London Control"
-ATIS3:Top-down when no local ATC for London FIR - vatsim.uk/operations/sectors
-ATIS4:We love feedback! Submit some at vats.im/atcfb
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 END
