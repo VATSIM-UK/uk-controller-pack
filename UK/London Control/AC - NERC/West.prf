@@ -12,24 +12,24 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_West.txt
-Settings	sector	\..\..\Data\Sector\UK_2020_13.sct
+Settings	sector	UK\Data\Sector\UK_2020_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\..\Data\ASR\AC_W\W2G.asr
-RecentFiles	Recent2	\..\..\Data\ASR\AC_W\W1G.asr
-RecentFiles	Recent3	\..\..\Data\ASR\AC_W\W3G.asr
-RecentFiles	Recent4	\..\..\Data\ASR\AC_W\W4G.asr
-RecentFiles	Recent9	\..\..\Data\ASR\AC_W\Jersey SMR.asr
+RecentFiles	Recent1	\..\..\Data\ASR\AC_W\Cardiff SMR.asr
+RecentFiles	Recent2	\..\..\Data\ASR\AC_W\Jersey SMR.asr
+RecentFiles	Recent3	\..\..\Data\ASR\AC_W\W_Ground.asr
+RecentFiles	Recent4	\..\..\Data\ASR\AC_W\Guernsey SMR.asr
+RecentFiles	Recent9	\..\..\Data\ASR\AC_W\W4G.asr
 ASRFastKeys	1	\..\..\Data\ASR\AC_W\W1G.asr
 ASRFastKeys	2	\..\..\Data\ASR\AC_W\W2G.asr
 ASRFastKeys	3	\..\..\Data\ASR\AC_W\W3G.asr
 ASRFastKeys	4	\..\..\Data\ASR\AC_W\W4G.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_W\W_Ground.asr
-RecentFiles	Recent5	\..\..\Data\ASR\AC_W\Cardiff SMR.asr
-RecentFiles	Recent6	\..\..\Data\ASR\AC_W\Bristol SMR.asr
-RecentFiles	Recent7	\..\..\Data\ASR\AC_W\W_Ground.asr
-RecentFiles	Recent8	\..\..\Data\ASR\AC_W\Guernsey SMR.asr
+RecentFiles	Recent5	\..\..\Data\ASR\AC_W\Bristol SMR.asr
+RecentFiles	Recent6	\..\..\Data\ASR\AC_W\W2G.asr
+RecentFiles	Recent7	\..\..\Data\ASR\AC_W\W1G.asr
+RecentFiles	Recent8	\..\..\Data\ASR\AC_W\W3G.asr
 ASRFastKeys	5	\..\..\Data\ASR\AC_W\Cardiff SMR.asr
 ASRFastKeys	6	\..\..\Data\ASR\AC_W\Bristol SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_W\Jersey SMR.asr

@@ -1,1 +1,3 @@
 PLUGINS
+vSMR:cpdlc_sound:1
+END

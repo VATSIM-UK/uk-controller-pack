@@ -1,6 +1,7 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Luke\Documents\GitHub\uk-controller-pack\UK\Observer\..\Data\Sector\UK_2020_13.sct
 SECTORTITLE:UK_2020_13.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
@@ -2433,7 +2434,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:12.50000
 TAGFAMILY:AC
-WINDOWAREA:55.932166:-3.408566:55.965810:-3.313432
+WINDOWAREA:55.935323:-3.404052:55.962238:-3.322822
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:72
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:44
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -2450,3 +2451,4 @@ PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:vSMR:Airport:EGPH

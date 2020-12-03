@@ -15,8 +15,8 @@ Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Midlands.txt
 Settings	sector	\..\Data\Sector\UK_2020_13.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
-RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
+RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham SMR.asr
+RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham ATM.asr
 ASRFastKeys	1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll

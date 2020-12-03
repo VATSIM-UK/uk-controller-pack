@@ -1,6 +1,7 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:
 SECTORTITLE:UK_2020_13.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
@@ -2421,7 +2422,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:49.427982:-2.623219:49.441402:-2.581126
+WINDOWAREA:49.427718:-2.623219:49.441666:-2.581126
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1513
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:56
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -2444,3 +2445,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:vSMR:Airport:EGJB
