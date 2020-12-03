@@ -177,15 +177,16 @@ Runway
 .bt Via $1, enter backtrack, line up runway $deprwy($dep)
 .rrfd Report ready for departure
 
-.to Runway $deprwy($dep), cleared for takeoff, surface wind $wind($dep)
-.tof From $1, Runway $deprwy($dep), cleared for takeoff, surface wind $wind($dep)
+.to Runway $deprwy($dep), surface wind $wind($dep), cleared for takeoff
+.tof From $1, Runway $deprwy($dep), surface wind $wind($dep), cleared for takeoff
 
 .cto Hold position, cancel take-off, I say again, cancel take-off acknowledge
 .stop Stop immediately, I say again, $callsign, stop immediately acknowledge
 
-.ca Continue approach runway $arrrwy($arr), surface wind $wind($arr)
-.land Cleared to land runway $arrrwy($arr), surface wind $wind($arr)
-.tg Cleared touch and go runway $arrrwy($arr), surface wind $wind($arr)
+.ca Runway $arrrwy($arr), surface wind $wind($arr), continue approach.
+.land Runway $arrrwy($arr), surface wind $wind($arr), cleared to land.
+.tg Runway $arrrwy($arr), surface wind $wind($arr), cleared touch & go.
+.cla Runway $arrrwy($arr), surface wind $wind($arr), cleared low approach.
 .caclc Continue approach, cancel landing clearance, acknowledge
 .wind Surface Wind $wind($1)
 
@@ -220,7 +221,7 @@ Approach Radar
 
 .rel Report established on the localiser runway $arrrwy($arr)
 
-.rnav Resume own navigation direct $1, cleared RNAV approach runway $arrrwy($arr)
+.rnp Resume own navigation direct $1, cleared RNP approach runway $arrrwy($arr)
 
 .dwp Descend with the procedure
 .dtafog Descend to altitude $1ft, further on the glidepath
