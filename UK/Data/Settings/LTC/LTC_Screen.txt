@@ -51,7 +51,7 @@ m_PlaneRangeRingsDistance4:0.0
 m_ShowTooltips:0
 m_OnTheGroundAltitude:5000
 m_OnTheGroundSpeed:50
-m_ShowCdtOnCflCheck:0
+m_ShowCdtOnCflCheck:1
 m_ShowTsVccsMiniControl:0
 ScenarioEditorX:0
 ScenarioEditorY:0
