@@ -1,7 +1,7 @@
 VOICE
 AG:Area - Bandbox:135.520:old.voice.notused:sco_ctr
 AG:Area - East:121.320:old.voice.notused:sco_e_ctr
-AG:Area - West and DCS:133.200:old.voice.notused:sco_wd_ctr
+AG:Area - West and DCS:133.870:old.voice.notused:sco_wd_ctr
 AG:Area - West:132.720:old.voice.notused:sco_w_ctr
 AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr
 AG:Area - Rathlin:129.100:old.voice.notused:sco_r_ctr

@@ -26,7 +26,7 @@ AG:X Area - TC COWLY:133.070:old.voice.notused:ltc_mc_ctr
 AG:X Area - TC WELIN:130.920:old.voice.notused:ltc_mw_ctr
 AG:X Area - TC REDFA:133.520:old.voice.notused:ltc_er_ctr
 AG:X Area - TC SABER:129.600:old.voice.notused:ltc_es_ctr
-AG:Area - PC Bandbox:118.770:old.voice.notused:man_ctr
+AG:Area - PC Bandbox:133.200:old.voice.notused:man_ctr
 AG:Area - PC E:133.800:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
 AG:X Area - PC S29:133.200:old.voice.notused:man_wu_ctr
@@ -139,7 +139,7 @@ AG:EGLL_P_GND:121.970:old.voice.notused:egll_p_gnd
 AG:EGLL_ATIS:128.070:old.voice.notused:egll_atis
 AG:EGLW_TWR:134.270:old.voice.notused:eglw_twr
 AG:EGMC_R_APP:130.770:old.voice.notused:egmc_r_app
-AG:EGMC_APP:132.450:old.voice.notused:egmc_app
+AG:EGMC_APP:128.950:old.voice.notused:egmc_app
 AG:EGMC_TWR:127.750:old.voice.notused:egmc_twr
 AG:EGMC_ATIS:136.050:old.voice.notused:egmc_atis
 AG:EGMD_APP:120.700:old.voice.notused:egmd_app
