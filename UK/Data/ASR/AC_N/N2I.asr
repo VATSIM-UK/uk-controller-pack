@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:\..\..\Data\Sector\UK_2020_11.sct
-SECTORTITLE:UK_2020_11.sct
+SECTORFILE:\..\..\Data\Sector\UK_2020_13.sct
+SECTORTITLE:UK_2020_13.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
