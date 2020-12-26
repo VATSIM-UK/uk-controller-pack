@@ -197,7 +197,7 @@ AG:EGNX_APP:134.170:old.voice.notused:egnx_app
 AG:EGNX_R_APP:120.120:old.voice.notused:egnx_r_app
 AG:EGNX_TWR:124.000:old.voice.notused:egnx_twr
 AG:EGNX_GND:121.900:old.voice.notused:egnx_gnd
-AG:EGNC_ATIS:122.670:old.voice.notused:egnx_atis
+AG:EGNX_ATIS:122.670:old.voice.notused:egnx_atis
 AG:EGSC_APP:120.970:old.voice.notused:egsc_app
 AG:EGSC_TWR:125.900:old.voice.notused:egsc_twr
 AG:EGSC_ATIS:134.600:old.voice.notused:egsc_atis
