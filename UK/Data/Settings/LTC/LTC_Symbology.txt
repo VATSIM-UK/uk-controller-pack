@@ -1,33 +1,33 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:11842560:1.4:0:0:7
+Airports:symbol:8951351:1.4:0:0:7
 Airports:name:7895040:3.2:0:0:2
-Low airways:line:11842560:2.5:2:0:7
+Low airways:line:8951351:2.5:2:0:7
 Low airways:name:7895040:2.5:0:0:8
 High airways:line:7895040:3.5:2:0:7
 High airways:name:7895040:3.5:0:0:8
-Fixes:symbol:11842560:1.4:0:0:7
+Fixes:symbol:8951351:1.4:0:0:7
 Fixes:name:7895040:3.2:0:0:2
-Sids:line:8568320:3.0:0:0:7
-Stars:line:11842560:3.0:0:0:7
-ARTCC high boundary:line:11842560:3.0:0:0:7
-ARTCC boundary:line:11842560:3.0:1:0:7
-ARTCC low boundary:line:11842560:3.0:2:0:7
-Geo:line:11842560:3.0:0:0:7
-VORs:symbol:11842560:1.4:0:0:7
+Sids:line:25700:3.0:0:0:7
+Stars:line:8951351:3.0:0:0:7
+ARTCC high boundary:line:8951351:3.0:0:0:7
+ARTCC boundary:line:128:3.0:1:0:7
+ARTCC low boundary:line:8951351:3.0:2:0:7
+Geo:line:8951351:3.0:0:0:7
+VORs:symbol:8951351:1.4:0:0:7
 VORs:name:7895040:3.2:0:0:2
 VORs:frequency:7895040:3.5:0:0:2
-NDBs:symbol:11842560:1.4:0:0:7
+NDBs:symbol:8951351:1.4:0:0:7
 NDBs:name:7895040:3.2:0:0:2
 NDBs:frequency:7895040:3.5:0:0:0
 Runways:centerline:7895040:3.5:0:0:7
-Runways:extended centerline:11842560:3.5:0:0:7
+Runways:extended centerline:8951351:3.5:0:0:7
 Runways:name:7895040:3.5:0:0:7
-Datablock:non concerned:8257460:3.2:0:0:7
-Datablock:notified:8257460:3.2:0:0:7
-Datablock:assumed:8257460:3.2:0:0:7
-Datablock:transfer to me initiated:55551:3.2:0:0:7
-Datablock:redundant:8257460:3.2:0:0:7
+Datablock:non concerned:2337594:3.2:0:0:7
+Datablock:notified:2003250:3.2:0:0:7
+Datablock:assumed:4184154:3.2:0:0:7
+Datablock:transfer to me initiated:14418140:3.2:0:0:7
+Datablock:redundant:2003250:3.2:0:0:7
 Datablock:information:14418140:3.2:0:0:7
 Datablock:even flight level:40960:3.2:0:0:7
 Datablock:odd flight level:40960:3.2:0:0:7
@@ -116,10 +116,10 @@ SYMBOLITEM:LINETO 4 4
 SYMBOLITEM:MOVETO 3 -3
 SYMBOLITEM:LINETO -4 4
 SYMBOL:3
-SYMBOLITEM:MOVETO 0 -2
-SYMBOLITEM:LINETO 0 3
-SYMBOLITEM:MOVETO -2 0
-SYMBOLITEM:LINETO 3 0
+SYMBOLITEM:MOVETO 0 -1
+SYMBOLITEM:LINETO 0 2
+SYMBOLITEM:MOVETO -1 0
+SYMBOLITEM:LINETO 2 0
 SYMBOL:4
 SYMBOLITEM:MOVETO 0 -1
 SYMBOLITEM:LINETO 0 2
@@ -289,5 +289,5 @@ SYMBOLITEM:LINETO 8 -9
 SYMBOLITEM:LINETO 2 -3
 SYMBOLITEM:LINETO 2 -11
 SYMBOLITEM:LINETO 0 -12
-m_ClipArea:15
+m_ClipArea:7
 END

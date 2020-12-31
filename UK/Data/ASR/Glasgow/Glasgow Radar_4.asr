@@ -1,7 +1,7 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORTITLE:UK_2020_13.sct
+SECTORTITLE:UK_2020_14.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -256,13 +256,21 @@ ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Conditional - N601(D) FL165-FL195:
+ARTCC high boundary:Conditional - N864 TLA-ASNUD:
+ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
 ARTCC high boundary:EGGX Shanwick FIR:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
 ARTCC high boundary:EHAA Amsterdam FIR:
 ARTCC high boundary:EHAA IBNOS Delegated:
 ARTCC high boundary:EHAA SASKI Delegated:
@@ -272,6 +280,7 @@ ARTCC high boundary:Holyhead CTA:
 ARTCC high boundary:Irish Sea CTA:
 ARTCC high boundary:La Manche Delegated:
 ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
@@ -283,6 +292,7 @@ ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -304,7 +314,6 @@ ARTCC low boundary:EGGW Luton Gate:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -316,25 +325,20 @@ ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
 ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLF Farnborough ATZ:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Durham Tees Valley CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK/EGQS Lossiemouth/Kinloss MATZ:
-ARTCC low boundary:EGQL Leuchars ATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -350,7 +354,6 @@ ARTCC low boundary:LFOH Le Havre CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Fixes:ABAPO:name
 Fixes:ABAPO:symbol
 Fixes:ABBOT:name
@@ -2275,7 +2278,30 @@ Fixes:XIDIL:name
 Fixes:XIDIL:symbol
 Fixes:ZEDDO:name
 Fixes:ZEDDO:symbol
+Free Text:EGPF VRPs\*Alexandria:freetext
+Free Text:EGPF VRPs\*Ardmore Point:freetext
+Free Text:EGPF VRPs\*Baillieston:freetext
+Free Text:EGPF VRPs\*Barrhead:freetext
+Free Text:EGPF VRPs\*Bishopton:freetext
+Free Text:EGPF VRPs\*Dumbarton:freetext
+Free Text:EGPF VRPs\*East Kilbride:freetext
+Free Text:EGPF VRPs\*Erskine Bridge:freetext
+Free Text:EGPF VRPs\*Greenock:freetext
+Free Text:EGPF VRPs\*Inverkip:freetext
+Free Text:EGPF VRPs\*Kilmalcolm:freetext
+Free Text:EGPF VRPs\*Kilmarnock:freetext
+Free Text:EGPF VRPs\*Kingston Bridge:freetext
 Geo:Extended centrelines:
+Regions:A-EastCoast:polygon
+Regions:A-Ireland:polygon
+Regions:A-NorthWest:polygon
+Regions:A-Scottish:polygon
+Regions:A-ScottishIslands:polygon
+Regions:A-SouthEast:polygon
+Regions:A-SouthWalesMidlands:polygon
+Regions:A-SouthWest:polygon
+Sids:EGPF Glasgow SMAA:
+Stars:Glasgow Local Area:
 Stars:Heathrow RMA Westerlies:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
@@ -2331,10 +2357,6 @@ VORs:CPT:name
 VORs:CPT:symbol
 VORs:CRK:name
 VORs:CRK:symbol
-VORs:CSL:name
-VORs:CSL:symbol
-VORs:CTM:name
-VORs:CTM:symbol
 VORs:CWZ:name
 VORs:CWZ:symbol
 VORs:DCS:name
@@ -2393,8 +2415,6 @@ VORs:LON:name
 VORs:LON:symbol
 VORs:LYD:name
 VORs:LYD:symbol
-VORs:LYE:name
-VORs:LYE:symbol
 VORs:MAC:name
 VORs:MAC:symbol
 VORs:MAM:name
@@ -2477,8 +2497,6 @@ VORs:WIT:name
 VORs:WIT:symbol
 VORs:WTZ:name
 VORs:WTZ:symbol
-VORs:YVL:name
-VORs:YVL:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -2491,8 +2509,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:TC
-WINDOWAREA:55.325020:-5.890074:56.381616:-2.575950
+TAGFAMILY:Approach
+WINDOWAREA:55.148004:-6.574357:56.520645:-2.431702
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1527
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -2509,9 +2527,30 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdFOYLEMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdFOYLEMinimised:1
+PLUGIN:UK Controller Plugin:holdFOYLEMinLevel:7000
+PLUGIN:UK Controller Plugin:holdFOYLEPositionX:443
+PLUGIN:UK Controller Plugin:holdFOYLEPositionY:160
+PLUGIN:UK Controller Plugin:holdFYNERMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdFYNERMinimised:1
+PLUGIN:UK Controller Plugin:holdFYNERMinLevel:7000
+PLUGIN:UK Controller Plugin:holdFYNERPositionX:443
+PLUGIN:UK Controller Plugin:holdFYNERPositionY:181
+PLUGIN:UK Controller Plugin:holdLANAKMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdLANAKMinimised:1
+PLUGIN:UK Controller Plugin:holdLANAKMinLevel:7000
+PLUGIN:UK Controller Plugin:holdLANAKPositionX:676
+PLUGIN:UK Controller Plugin:holdLANAKPositionY:181
+PLUGIN:UK Controller Plugin:holdSTIRAMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdSTIRAMinimised:1
+PLUGIN:UK Controller Plugin:holdSTIRAMinLevel:7000
+PLUGIN:UK Controller Plugin:holdSTIRAPositionX:676
+PLUGIN:UK Controller Plugin:holdSTIRAPositionY:160
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1411
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:55
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1587
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:107
+PLUGIN:UK Controller Plugin:selectedHolds:FOYLE;FYNER;LANAK;STIRA
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE

@@ -18,7 +18,7 @@ m_ShowTWRControllers:1
 m_ShowGNDControllers:1
 m_ShowATISControllers:1
 m_ShowOBSControllers:1
-m_ShowUnidentifiedControllers:1
+m_ShowUnidentifiedControllers:0
 m_ShowFreqUsers:1
 m_ShowAtisUsers:1
 m_ShowArrivalPlanes:1
@@ -27,7 +27,7 @@ m_ShowOverflightPlanes:1
 SET_ShowTrackingPlanes:1
 m_METARList:1
 m_ShowTitleMetar:1
-m_ConnectSELtoSIL:0
+m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
 m_ScreenNumber:0

@@ -11,6 +11,10 @@ Generic
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
 
+.sec You can check coverage at https://vats.im/uksectors/
+.cov You can check coverage at https://vats.im/uksectors/
+.charts Charts relevant to your flight can be found at https://chartfox.org/$1/
+
 .rsn Report your stand number
 .rat Report your aircraft type
 .rcl Report your cleared level
@@ -45,7 +49,7 @@ Handoffs
 .mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 
 .uni No Further ATC available. Monitor Unicom 122.800
-.oma You are currently outside my airspace. Monitor Unicom 122.800
+.oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vats.im/uksectors/)
 .nso $1 is offline - monitor unicom 122.800
 
 ========================================================
@@ -110,6 +114,11 @@ Speed Control
 ========================================================
 Departure
 ========================================================
+
+.pdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
+.npdc .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
+.pdci .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
+.npdci .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)
 .sidrw Cleared to $arr, $sid departure, runway $deprwy($dep), squawk $squawk, QNH $altim($dep)

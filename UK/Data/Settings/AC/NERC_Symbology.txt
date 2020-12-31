@@ -23,38 +23,38 @@ NDBs:frequency:9211020:3.5:0:0:0
 Runways:centerline:5263440:3.5:0:0:7
 Runways:extended centerline:5263440:3.5:0:0:7
 Runways:name:5263440:3.5:0:0:7
-Datablock:non concerned:9474192:3.1:0:0:7
-Datablock:notified:5103867:3.1:0:0:7
-Datablock:assumed:11007340:3.1:0:0:7
+Datablock:non concerned:9474192:3.2:0:0:7
+Datablock:notified:5103867:3.2:0:0:7
+Datablock:assumed:11007340:3.2:0:0:7
 Datablock:transfer to me initiated:16744703:3.2:0:0:7
-Datablock:redundant:2668584:3.1:0:0:7
-Datablock:information:4210943:3.1:0:0:7
-Datablock:even flight level:40960:3.1:0:0:7
-Datablock:odd flight level:40960:3.1:0:0:7
-Datablock:arrivals:42495:3.1:0:0:7
-Datablock:departures:16711680:3.1:0:0:7
-Datablock:user 1:16777215:3.1:0:0:7
-Datablock:user 2:1681407:3.1:0:0:7
-Datablock:user 3:1681407:3.1:0:0:7
-Datablock:user 4:16776960:3.1:0:0:7
-Datablock:user 5:5483007:3.1:0:0:7
-Datablock:user 6:16777215:3.1:0:0:7
-Datablock:emergency:3302655:3.1:0:0:7
+Datablock:redundant:2668584:3.2:0:0:7
+Datablock:information:4210943:3.2:0:0:7
+Datablock:even flight level:40960:3.2:0:0:7
+Datablock:odd flight level:40960:3.2:0:0:7
+Datablock:arrivals:42495:3.2:0:0:7
+Datablock:departures:16711680:3.2:0:0:7
+Datablock:user 1:16777215:3.2:0:0:7
+Datablock:user 2:1681407:3.2:0:0:7
+Datablock:user 3:1681407:3.2:0:0:7
+Datablock:user 4:16776960:3.2:0:0:7
+Datablock:user 5:5483007:3.2:0:0:7
+Datablock:user 6:16777215:3.2:0:0:7
+Datablock:emergency:3302655:3.2:0:0:7
 Datablock:ongoing requested by me:8404992:3.2:0:0:7
-Datablock:ongoing requested by other:16744448:3.5:0:0:7
-Datablock:ongoing accepted:40960:3.5:0:0:7
-Datablock:ongoing refused:128:3.5:0:0:7
-Datablock:detailed background:3156005:3.1:0:0:7
-Datablock:active item background:16777215:3.1:0:0:7
-Datablock:arrival background:1395241:3.5:0:0:7
-Datablock:departure background:4264977:3.5:0:0:7
-Datablock:AC list background:4605510:5.0:0:0:7
-Datablock:AC list selected background:3156005:2.8:0:0:7
-Datablock:dimmed at conflict detection:5263440:3.5:0:0:7
-Datablock:SCTA warning rectangle:3302655:3.5:0:0:7
-Datablock:SCTA CFL used warning rectangle:16777215:3.5:0:0:7
-Datablock:SCTA warning leader:3289855:3.5:0:3:7
-Datablock:SCTA CFL used warning leader:16777215:3.5:0:3:7
+Datablock:ongoing requested by other:16744448:3.2:0:0:7
+Datablock:ongoing accepted:40960:3.2:0:0:7
+Datablock:ongoing refused:128:3.2:0:0:7
+Datablock:detailed background:8192000:2.8:0:0:7
+Datablock:active item background:16777215:3.2:0:0:7
+Datablock:arrival background:1395241:3.2:0:0:7
+Datablock:departure background:4264977:3.2:0:0:7
+Datablock:AC list background:4605510:3.2:0:0:7
+Datablock:AC list selected background:3156005:3.2:0:0:7
+Datablock:dimmed at conflict detection:5263440:3.2:0:0:7
+Datablock:SCTA warning rectangle:3302655:3.2:0:0:7
+Datablock:SCTA CFL used warning rectangle:16777215:3.2:0:0:7
+Datablock:SCTA warning leader:3289855:3.2:0:3:7
+Datablock:SCTA CFL used warning leader:16777215:3.2:0:3:7
 Controller:normal:16777215:3.5:0:0:7
 Controller:breaking:10066431:3.5:0:0:7
 Controller:timeout:701695:3.5:0:0:7

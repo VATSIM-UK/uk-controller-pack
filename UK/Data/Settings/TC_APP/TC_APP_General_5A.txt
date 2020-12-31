@@ -7,9 +7,9 @@ m_ShowCalculatedHeading:1
 m_ShowSimulatedData:0
 m_TransitionAltitude:5000
 m_AllowConcernedACTagDown:1
-m_CenterlineDme:0.0
-m_CenterlineLength:20.0
-m_CenterlineTickDme:5.0
+m_CenterlineDme:2.0
+m_CenterlineLength:18.0
+m_CenterlineTickDme:2.0
 m_CenterlineTickInterval:1.0
 m_CenterlineTickLength:0.5
 m_CenterlineMarkerLength:1.0
@@ -97,7 +97,7 @@ m_AtisMessageLevel:0
 m_PrivateMessageLevel:4
 m_FreqMessageLevel:4
 m_MericUnits:0
-m_ShowCorrelatedInFpList:1
+m_ShowCorrelatedInFpList:0
 m_ShowUncorrelatedInFpList:1
 m_ShowVFRInFpList:1
 m_ShowIFRInFpList:1

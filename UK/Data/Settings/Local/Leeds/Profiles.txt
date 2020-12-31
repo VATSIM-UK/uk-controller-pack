@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGNM_DEL:20:2
+ATIS2:Leeds Delivery
+ATIS3:Voice ATIS on 118.020
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNM_TWR:50:4
+ATIS2:Leeds Tower
+ATIS3:Voice ATIS on 118.020
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNM_APP:100:5
+ATIS2:Leeds Radar
+ATIS3:Voice ATIS on 118.020
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNM_F_APP:100:5
+ATIS2:Leeds Director
+ATIS3:Voice ATIS on 118.020
+ATIS4:Submit feedback at vats.im/atcfb
+END
