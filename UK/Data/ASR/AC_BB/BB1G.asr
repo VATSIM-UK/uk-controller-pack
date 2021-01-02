@@ -1,7 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORTITLE:UK_2020_14.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -422,7 +421,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_MANCHESTER;ASR_HOLYHEAD;ASR_WESSEX;ASR_BARNSLEY;ASR_PORTLAND;ASR_CHATHAM
-
 Stars:DEXEN Buffer:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:

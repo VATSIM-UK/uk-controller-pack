@@ -1,7 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORTITLE:UK_2020_14.sct
 Airports:EGWU:symbol
 ARTCC low boundary:EGLL London Heathrow CTR:
 Fixes:KESAX:name

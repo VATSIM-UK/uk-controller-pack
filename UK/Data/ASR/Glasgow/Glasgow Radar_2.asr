@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:UK_2020_14.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -1484,4 +1482,3 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:107
 PLUGIN:UK Controller Plugin:selectedHolds:FOYLE;FYNER;LANAK;STIRA
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE
-

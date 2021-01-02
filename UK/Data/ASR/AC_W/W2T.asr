@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:UK_2020_14.sct
 ARTCC high boundary:AIRWAYS:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
