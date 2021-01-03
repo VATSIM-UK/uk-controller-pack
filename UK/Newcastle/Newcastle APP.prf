@@ -14,7 +14,7 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
 Settings	sector	UK\UK_2020_13.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	SectorFileProviderDescriptor	VATUK_SectorFileProviderDescriptor.txt
+Settings	SectorFileProviderDescriptor	UK\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Newcastle\Newcastle Radar_2.asr
 RecentFiles	Recent2	\..\Data\ASR\Newcastle\Newcastle Radar_1.asr
 RecentFiles	Recent3	\..\Data\ASR\Newcastle\Newcastle Radar_3.asr

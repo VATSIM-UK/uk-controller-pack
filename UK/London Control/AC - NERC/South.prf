@@ -15,7 +15,7 @@ Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_South.txt
 Settings	sector	UK\UK_2020_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
-Settings	SectorFileProviderDescriptor	VATUK_SectorFileProviderDescriptor.txt
+Settings	SectorFileProviderDescriptor	UK\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\AC_S\S_Ground.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_S\Southampton SMR.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_S\City SMR.asr

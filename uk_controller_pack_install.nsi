@@ -41,7 +41,7 @@ InstallDir "$DOCUMENTS\EuroScope"
 ShowInstDetails show
 
 Section "Sector File" SEC01
-  SetOutPath "$DOCUMENTS\EuroScope"
+  SetOutPath "$DOCUMENTS\EuroScope\UK"
   SetOverwrite ifnewer
   File "VATUK_SectorFileProviderDescriptor.txt"
   File "UK_2020_13.sct"
