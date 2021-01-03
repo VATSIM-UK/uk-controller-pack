@@ -14,6 +14,7 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
 Settings	sector	\..\Data\Sector\UK_2020_14.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Thames\Biggin SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Thames\Biggin SMR.asr
