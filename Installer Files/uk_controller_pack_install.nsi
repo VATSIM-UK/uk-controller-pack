@@ -15,7 +15,10 @@ SetCompressor lzma
 
 ; MUI Settings
 !define MUI_ABORTWARNING
-!define MUI_ICON "${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico"
+!define MUI_ICON "vatuk.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "sidebar.bmp"
+!define MUI_BGCOLOR "17375E"
+!define MUI_TEXTCOLOR "FFFFFF"
 
 ; Welcome page
 !insertmacro MUI_PAGE_WELCOME
