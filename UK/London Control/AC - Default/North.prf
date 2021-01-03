@@ -12,10 +12,10 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\ACI_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_North.txt
-Settings	sector	\..\..\Data\Sector\UK_2020_13.sct
+Settings	sector	UK_2020_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
-Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+Settings	SectorFileProviderDescriptor	VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\AC_N\N2I.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_N\N1I.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_N\N3I.asr
