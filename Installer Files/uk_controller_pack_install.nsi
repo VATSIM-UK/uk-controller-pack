@@ -22,6 +22,9 @@ SetCompressor lzma
 
 ; Welcome page
 !insertmacro MUI_PAGE_WELCOME
+!define MUI_WELCOMEPAGE_TITLE "Welcome to the UK Controller Pack Setup"
+!define MUI_WELCOMEPAGE_TEXT "This installer will now attempt to install the ${PRODUCT_VERSION} version of the UK Controller Pack.\r\nIf this is your first time installing this package, please install all the components and redistributables to ensure correct installation.\r\nFurther assistance/support can be found on the VATSIM UK Discord or community forums."
+!insertmacro MUI_LANGUAGE "English"
 ; License page
 !insertmacro MUI_PAGE_LICENSE "license.txt"
 ; Directory page

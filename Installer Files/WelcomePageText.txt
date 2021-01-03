@@ -1,0 +1,3 @@
+This installer will now attempt to install the ${PRODUCT_VERSION} version of the UK Controller Pack. \r\n
+If this is your first time installing this package, please install all the components and redistributables to ensure correct installation. \r\n
+Further assistance/support can be found on the VATSIM UK Discord or community forums.
