@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\TC_APP\TC_APP_SIL.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Newcastle\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
-Settings	sector	UK_2020_13.sct
+Settings	sector	UK\UK_2020_13.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Newcastle\Newcastle Radar_2.asr

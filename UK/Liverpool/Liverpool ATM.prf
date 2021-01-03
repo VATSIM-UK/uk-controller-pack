@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Liverpool\ATM_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
-Settings	sector	UK_2020_13.sct
+Settings	sector	UK\UK_2020_13.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 RecentFiles	Recent1	\..\Data\ASR\Liverpool\Liverpool ATM.asr

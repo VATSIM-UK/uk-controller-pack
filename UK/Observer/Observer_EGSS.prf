@@ -10,7 +10,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\Local\Observer\Settings.txt
 Settings	SettingsfileSIL	\..\Data\Settings\Local\Observer\Settings.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Observer\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK_2020_13.sct
+Settings	sector	UK\UK_2020_13.sct
 Settings	alias	\..\Data\Alias\demoAlias.txt
 Settings	SectorFileProviderDescriptor	VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Observer\Observer EGSS SMR.asr
