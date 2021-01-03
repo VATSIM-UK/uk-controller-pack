@@ -45,7 +45,7 @@ InstallDir "$DOCUMENTS\EuroScope"
 ShowInstDetails show
 
 Section "Profiles" SEC01
-  SetOverwrite try
+  SetOverwrite ifnewer
   SetOutPath "$INSTDIR\UK\Birmingham"
   File "..\UK\Birmingham\Birmingham ATM.prf"
   File "..\UK\Birmingham\Birmingham Combined.prf"
@@ -145,6 +145,7 @@ SectionEnd
 
 Section "Radar Displays" SEC03
   SetOutPath "$INSTDIR\UK\Data\ASR\AC_BB"
+  SetOverwrite ifnewer
   File "..\UK\Data\ASR\AC_BB\BB1G.asr"
   File "..\UK\Data\ASR\AC_BB\BB1I.asr"
   File "..\UK\Data\ASR\AC_BB\BB1T.asr"
@@ -390,6 +391,7 @@ SectionEnd
 
 Section "ATIS Files" SEC04
   SetOutPath "$INSTDIR\UK\Data\ATIS"
+  SetOverwrite ifnewer
   File "..\UK\Data\ATIS\0,.wav"
   File "..\UK\Data\ATIS\0.wav"
   File "..\UK\Data\ATIS\1,.wav"
@@ -783,8 +785,10 @@ Section "ATIS Files" SEC04
   File "..\UK\Data\ATIS\Z_.wav"
 SectionEnd
 
-Section "Plugins" SEC05
+SectionGroup /e "Plugins" SEC05
+Section "Plugins"
   SetOutPath "$INSTDIR\UK\Data\Plugin"
+  SetOverwrite ifnewer
   File "..\UK\Data\Plugin\RDFPlugin.dll"
   SetOutPath "$INSTDIR\UK\Data\Plugin\TopSky"
   File "..\UK\Data\Plugin\TopSky\arrowleft.cur"
@@ -822,8 +826,13 @@ Section "Plugins" SEC05
   SetOutPath "$INSTDIR\UK\Data\Plugin\vSMR"
   File "..\UK\Data\Plugin\vSMR\ICAO_Airlines.txt"
   File "..\UK\Data\Plugin\vSMR\vSMR.dll"
+  SectionEnd
+  Section "vSMR Profiles" SEC09
+  SetOutPath "$INSTDIR\UK\Data\Plugin\vSMR"
+  SetOverwrite ifnewer
   File "..\UK\Data\Plugin\vSMR\vSMR_Profiles.json"
-SectionEnd
+  SectionEnd
+SectionGroupEnd
 
 Section "Sector File" SEC06
   SetOutPath "$DOCUMENTS\EuroScope\UK"
@@ -837,7 +846,7 @@ SectionEnd
 
 Section "Settings" SEC07
   SetOutPath "$INSTDIR\UK\Data\Settings\AC"
-  SetOverwrite try
+  SetOverwrite ifnewer
   File "..\UK\Data\Settings\AC\AC3_Symbology.txt"
   File "..\UK\Data\Settings\AC\ACE_Symbology.txt"
   File "..\UK\Data\Settings\AC\ACI_Symbology.txt"
@@ -1004,4 +1013,5 @@ SectionEnd
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC06} "Sector File (recommended)"
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC07} "Settings Files (recommended for intial installation)"
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC08} "Runtime Distributable required for plugins to function (recommended for intial installation)"
+  !insertmacro MUI_DESCRIPTION_TEXT ${SEC09} "Profiles for the vSMR plugin (recommended)"
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
