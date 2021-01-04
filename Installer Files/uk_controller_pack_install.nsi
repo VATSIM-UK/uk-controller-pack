@@ -2,6 +2,12 @@
 
 Unicode True
 
+Var Dialog
+Var Label
+Var CID
+Var Name
+Var HoppieCode
+
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "UK Controller Pack"
 !define PRODUCT_VERSION "2020/14"
@@ -12,6 +18,7 @@ SetCompressor lzma
 
 ; MUI 1.67 compatible ------
 !include "MUI.nsh"
+!include "nsDialogs.nsh"
 
 ; MUI Settings
 !define MUI_ABORTWARNING
@@ -24,11 +31,13 @@ SetCompressor lzma
 !insertmacro MUI_PAGE_WELCOME
 !define MUI_WELCOMEPAGE_TITLE "Welcome to the UK Controller Pack Setup"
 !define MUI_WELCOMEPAGE_TEXT "This installer will now attempt to install the ${PRODUCT_VERSION} version of the UK Controller Pack.\r\nIf this is your first time installing this package, please install all the components and redistributables to ensure correct installation.\r\nFurther assistance/support can be found on the VATSIM UK Discord or community forums."
-!insertmacro MUI_LANGUAGE "English"
 ; License page
 !insertmacro MUI_PAGE_LICENSE "license.txt"
 ; Directory page
 !insertmacro MUI_PAGE_DIRECTORY
+;Unchangeable directory page to show user where Sectorfile will go.
+Page custom SCTDirectory
+Page custom DetailsEntry
 ; Components page
 !insertmacro MUI_PAGE_COMPONENTS
 ; Instfiles page
@@ -45,8 +54,8 @@ SetCompressor lzma
 
 ; MUI end ------
 
-Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-OutFile "..\..\..\NSIS\UK Controller Pack.exe"
+Name "${PRODUCT_NAME}"
+OutFile "UK Controller Pack.exe"
 InstallDir "$DOCUMENTS\EuroScope"
 ShowInstDetails show
 
@@ -1021,3 +1030,41 @@ SectionEnd
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC08} "Runtime Distributable required for plugins to function (recommended for intial installation)"
   !insertmacro MUI_DESCRIPTION_TEXT ${SEC09} "Profiles for the vSMR plugin (recommended)"
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
+
+Function SCTDirectory
+	nsDialogs::Create 1018
+	
+	Pop $Dialog
+
+	${If} $Dialog == error
+		Abort
+	${EndIf}
+
+	${NSD_CreateLabel} 0 0 100% 24u "To ensure EuroScope Sectorfile auto-update function works correctly, the UK Sector File will be installed in the following Directory. Moving the Sectorfile from this location could cause issues. Please take note of its location."
+	Pop $Label
+
+	${NSD_CreateText} 0 26u 100% 26u "$DOCUMENTS\EuroScope"
+	${NSD_Edit_SetReadOnly} control_HWND 1
+
+	nsDialogs::Show
+FunctionEnd
+Function DetailsEntry
+	nsDialogs::Create 1019
+	
+	Pop $Dialog
+
+	${If} $Dialog == error
+		Abort
+	${EndIf}
+
+	${NSD_CreateLabel} 0 0 100% 12u "Please enter the following details to pre-populate profiles and settings."
+	
+	${NSD_CreateText} 0 24u 100% 24u "CID"
+	Pop $CID
+	${NSD_CreateText} 0 26u 100% 26u "Name"
+	Pop $Name
+	${NSD_CreateText} 0 26u 100% 26u "Hoppie Code"
+	Pop $HoppieCode
+
+	nsDialogs::Show
+FunctionEnd
