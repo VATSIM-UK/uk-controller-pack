@@ -55,11 +55,12 @@ Page custom DetailsEntry
 Function DetailsEntry ;Function name defined with Page command
   !insertmacro INSTALLOPTIONS_DISPLAY "DetailsEntry.ini"
 FunctionEnd
-!insertmacro INSTALLOPTIONS_DISPLAY_RETURN
+
 ; File Installation Page
 !insertmacro MUI_PAGE_INSTFILES
 
 ; Finish page
+!define MUI_FINISHPAGE_RUN_TEXT "Install Visual C++ Redistributable Package"
 !define MUI_FINISHPAGE_RUN "$INSTDIR\vc_redist.x86.exe"
 !insertmacro MUI_PAGE_FINISH
 
@@ -1029,7 +1030,6 @@ SectionEnd
 
 Section "Redistributables" SEC08
   SetOutPath "$INSTDIR"
-  SetOverwrite ifnewer
   File "vc_redist.x86.exe"
   ExecWait "$INSTDIR\vcredist_x86.exe"
   Delete "$INSTDIR\vcredist_x86.exe"
