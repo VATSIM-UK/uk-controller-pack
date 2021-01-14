@@ -12,10 +12,10 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Which Profile?
+2. Where have you installed the pack to?
+3. Have you edited any settings from default?
+4. Do you have an up to date sector file?
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
