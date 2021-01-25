@@ -157,7 +157,7 @@ AG:EGLL_P_GND:121.970:old.voice.notused:egll_p_gnd
 AG:EGLL_ATIS:128.070:old.voice.notused:egll_atis
 AG:EGLW_TWR:134.270:old.voice.notused:eglw_twr
 AG:EGMC_APP:130.770:old.voice.notused:egmc_app
-AG:EGMC_F_APP:128.950:old.voice.notused:egmc_f_app
+AG:EGMC_L_APP:128.950:old.voice.notused:egmc_f_app
 AG:EGMC_TWR:127.750:old.voice.notused:egmc_twr
 AG:EGMC_ATIS:136.050:old.voice.notused:egmc_atis
 AG:EGMD_A_APP:120.700:old.voice.notused:egmd_a_app

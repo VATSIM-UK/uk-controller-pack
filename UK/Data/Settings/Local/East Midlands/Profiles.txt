@@ -11,8 +11,8 @@ PROFILE:EGNX_APP:100:5
 ATIS2:East Midlands Radar
 ATIS3:Voice ATIS on 128.220
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGNX_R_APP:100:5
-ATIS2:East Midlands Radar
+PROFILE:EGNX_F_APP:100:5
+ATIS2:East Midlands Director
 ATIS3:Voice ATIS on 128.220
 ATIS4:Submit feedback at vats.im/atcfb
 END

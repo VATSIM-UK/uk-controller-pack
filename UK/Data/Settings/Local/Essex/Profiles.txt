@@ -39,7 +39,7 @@ PROFILE:EGSC_R_APP:100:5
 ATIS2:Cambridge Radar
 ATIS3:Voice ATIS on 134.600
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGSC_APP:100:5
+PROFILE:EGSC_A_APP:100:5
 ATIS2:Cambridge Approach (Non Radar)
 ATIS3:Voice ATIS on 134.600
 ATIS4:Submit feedback at vats.im/atcfb
