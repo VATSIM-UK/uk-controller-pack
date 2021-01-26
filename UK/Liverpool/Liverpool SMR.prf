@@ -14,6 +14,7 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
 Settings	sector	\..\Data\Sector\UK_2020_14.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 ASRFastKeys	1	\..\Data\ASR\Liverpool\Liverpool SMR.asr
 RecentFiles	Recent1	\..\Data\ASR\Liverpool\Liverpool SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
