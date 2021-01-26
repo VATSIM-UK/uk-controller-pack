@@ -1,5 +1,5 @@
-Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Newcastle\Plugins.txt
-Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Newcastle\Profiles.txt
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Solent\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Solent\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\TC_APP\TC_APP_Screen.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
@@ -16,8 +16,8 @@ Settings	sector	\..\Data\Sector\UK_2020_14.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-ASRFastKeys	1	\..\Data\ASR\Newcastle\Newcastle SMR.asr
-RecentFiles	Recent1	\..\Data\ASR\Newcastle\Newcastle SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Solent\Southampton SMR.asr
+RecentFiles	Recent1	\..\Data\ASR\Solent\Southampton SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll

@@ -2280,6 +2280,28 @@ Fixes:XIDIL:name
 Fixes:XIDIL:symbol
 Fixes:ZEDDO:name
 Fixes:ZEDDO:symbol
+Free Text:EGHH VRPs\*Beaulieu:freetext
+Free Text:EGHH VRPs\*Hengistbury Head:freetext
+Free Text:EGHH VRPs\*Hurst Castle:freetext
+Free Text:EGHH VRPs\*Needles Lighthouse:freetext
+Free Text:EGHH VRPs\*Sandbanks:freetext
+Free Text:EGHH VRPs\*St Catherine’s Point:freetext
+Free Text:EGHH VRPs\*Stoney Cross:freetext
+Free Text:EGHH VRPs\*Tarrant Rushton:freetext
+Free Text:EGHI VRPs\*Beaulieu:freetext
+Free Text:EGHI VRPs\*Bishops Waltham:freetext
+Free Text:EGHI VRPs\*Butser Hill Mast:freetext
+Free Text:EGHI VRPs\*Calshot:freetext
+Free Text:EGHI VRPs\*Cowes:freetext
+Free Text:EGHI VRPs\*M27 Junction 2:freetext
+Free Text:EGHI VRPs\*Needles Lighthouse:freetext
+Free Text:EGHI VRPs\*New Alresford:freetext
+Free Text:EGHI VRPs\*Romsey:freetext
+Free Text:EGHI VRPs\*Spinnaker Tower:freetext
+Free Text:EGHI VRPs\*St Catherine's Point:freetext
+Free Text:EGHI VRPs\*Totton:freetext
+Free Text:EGHI VRPs\*West Meon Cross Roads:freetext
+Free Text:EGHI VRPs\*Wickham:freetext
 Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
