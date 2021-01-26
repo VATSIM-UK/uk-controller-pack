@@ -76,6 +76,8 @@ Free Text:SCT2\101:freetext
 Free Text:SCT2\101:freetext
 Free Text:SCT2\101:freetext
 Free Text:SCT2\101:freetext
+Free Text:SCT2\101:freetext
+Free Text:SCT2\101:freetext
 Free Text:SCT2\102:freetext
 Free Text:SCT2\102:freetext
 Free Text:SCT2\102:freetext
@@ -85,6 +87,8 @@ Free Text:SCT2\103:freetext
 Free Text:SCT2\103:freetext
 Free Text:SCT2\103:freetext
 Free Text:SCT2\103:freetext
+Free Text:SCT2\103:freetext
+Free Text:SCT2\104:freetext
 Free Text:SCT2\104:freetext
 Free Text:SCT2\104:freetext
 Free Text:SCT2\104:freetext
@@ -93,14 +97,19 @@ Free Text:SCT2\105:freetext
 Free Text:SCT2\105:freetext
 Free Text:SCT2\105:freetext
 Free Text:SCT2\105:freetext
+Free Text:SCT2\105:freetext
+Free Text:SCT2\106:freetext
 Free Text:SCT2\106:freetext
 Free Text:SCT2\106:freetext
 Free Text:SCT2\106:freetext
 Free Text:SCT2\106:freetext
 Free Text:SCT2\107:freetext
 Free Text:SCT2\107:freetext
+Free Text:SCT2\107:freetext
 Free Text:SCT2\108:freetext
 Free Text:SCT2\108:freetext
+Free Text:SCT2\108:freetext
+Free Text:SCT2\109:freetext
 Free Text:SCT2\109:freetext
 Free Text:SCT2\109:freetext
 Free Text:SCT2\109:freetext
@@ -130,15 +139,19 @@ Free Text:SCT2\11:freetext
 Free Text:SCT2\11:freetext
 Free Text:SCT2\11:freetext
 Free Text:SCT2\11:freetext
-Free Text:SCT2\11:freetext
+Free Text:SCT2\110:freetext
 Free Text:SCT2\110:freetext
 Free Text:SCT2\110:freetext
 Free Text:SCT2\110:freetext
 Free Text:SCT2\111:freetext
 Free Text:SCT2\111:freetext
+Free Text:SCT2\111:freetext
+Free Text:SCT2\112:freetext
 Free Text:SCT2\112:freetext
 Free Text:SCT2\112:freetext
 Free Text:SCT2\113:freetext
+Free Text:SCT2\113:freetext
+Free Text:SCT2\114:freetext
 Free Text:SCT2\114:freetext
 Free Text:SCT2\117:freetext
 Free Text:SCT2\119:freetext
@@ -447,12 +460,8 @@ Free Text:SCT2\214:freetext
 Free Text:SCT2\214:freetext
 Free Text:SCT2\215:freetext
 Free Text:SCT2\216:freetext
-Free Text:SCT2\216:freetext
-Free Text:SCT2\217:freetext
 Free Text:SCT2\217:freetext
 Free Text:SCT2\218:freetext
-Free Text:SCT2\218:freetext
-Free Text:SCT2\219:freetext
 Free Text:SCT2\219:freetext
 Free Text:SCT2\21A:freetext
 Free Text:SCT2\21B:freetext
@@ -532,12 +541,9 @@ Free Text:SCT2\242:freetext
 Free Text:SCT2\243:freetext
 Free Text:SCT2\243:freetext
 Free Text:SCT2\244:freetext
-Free Text:SCT2\245:freetext
 Free Text:SCT2\246:freetext
 Free Text:SCT2\247:freetext
-Free Text:SCT2\247:freetext
 Free Text:SCT2\248:freetext
-Free Text:SCT2\249:freetext
 Free Text:SCT2\249:freetext
 Free Text:SCT2\25:freetext
 Free Text:SCT2\25:freetext
@@ -1180,8 +1186,6 @@ Free Text:SCT2\72:freetext
 Free Text:SCT2\73:freetext
 Free Text:SCT2\73:freetext
 Free Text:SCT2\73:freetext
-Free Text:SCT2\73:freetext
-Free Text:SCT2\74:freetext
 Free Text:SCT2\74:freetext
 Free Text:SCT2\74:freetext
 Free Text:SCT2\74:freetext
@@ -1247,10 +1251,8 @@ Free Text:SCT2\84:freetext
 Free Text:SCT2\84L:freetext
 Free Text:SCT2\84R:freetext
 Free Text:SCT2\85:freetext
-Free Text:SCT2\85:freetext
 Free Text:SCT2\85L:freetext
 Free Text:SCT2\85R:freetext
-Free Text:SCT2\86:freetext
 Free Text:SCT2\86:freetext
 Free Text:SCT2\8C:freetext
 Free Text:SCT2\8L:freetext
@@ -1313,6 +1315,7 @@ Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
+Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
@@ -1610,6 +1613,7 @@ Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
+Free Text:SCT2\B1:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
@@ -1638,6 +1642,8 @@ Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
+Free Text:SCT2\B2:freetext
+Free Text:SCT2\B3:freetext
 Free Text:SCT2\B3:freetext
 Free Text:SCT2\B3:freetext
 Free Text:SCT2\B3:freetext
@@ -1735,6 +1741,7 @@ Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
+Free Text:SCT2\C1:freetext
 Free Text:SCT2\C2:freetext
 Free Text:SCT2\C2:freetext
 Free Text:SCT2\C2:freetext
@@ -1794,6 +1801,7 @@ Free Text:SCT2\D:freetext
 Free Text:SCT2\D:freetext
 Free Text:SCT2\D:freetext
 Free Text:SCT2\D0:freetext
+Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
@@ -1931,6 +1939,7 @@ Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
+Free Text:SCT2\E1:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
@@ -1991,6 +2000,7 @@ Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
+Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
@@ -2666,8 +2676,9 @@ Free Text:SCT2\Z1:freetext
 Free Text:SCT2\Z1:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
-Geo:EGNT Newcastle:
-Regions:Newcastle:polygon
+Free Text:SCT2\Z2:freetext
+Geo:EGFF Cardiff:
+Regions:Cardiff:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -2681,7 +2692,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:55.027451:-1.721461:55.048762:-1.660006
+WINDOWAREA:51.386413:-3.377106:51.407724:-3.315651
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
