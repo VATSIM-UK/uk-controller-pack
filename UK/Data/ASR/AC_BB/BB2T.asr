@@ -1224,8 +1224,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC-TopSky
 WINDOWAREA:48.015052:-15.257968:55.915790:9.523522
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases
-PLUGIN:TopSky plugin:HideMapData:FixLabels
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1521
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
 PLUGIN:UK Controller Plugin:DisplayCountdown:1

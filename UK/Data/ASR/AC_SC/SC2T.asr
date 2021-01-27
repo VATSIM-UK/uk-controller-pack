@@ -1247,5 +1247,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_PORTLAND
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases
-PLUGIN:TopSky plugin:HideMapData:FixLabels
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels
