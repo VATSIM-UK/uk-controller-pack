@@ -218,9 +218,4 @@ AG:EGTK_F_APP:119.970:old.voice.notused:egtk_f_app
 AG:EGTK_TWR:133.420:old.voice.notused:egtk_twr
 AG:EGTK_GND:121.950:old.voice.notused:egtk_gnd
 AG:EGTK_ATIS:136.220:old.voice.notused:egtk_atis
-AG:EGWU_APP:126.450:old.voice.notused:egwu_app
-AG:EGWU_R_APP:130.350:old.voice.notused:egwu_r_app
-AG:EGWU_TWR:120.670:old.voice.notused:egwu_twr
-AG:EGWU_GND:121.570:old.voice.notused:egwu_gnd
-AG:EGWU_ATIS:125.120:old.voice.notused:egwu_atis
 END

@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_West.txt
-Settings	sector	UK\Data\Sector\UK_2020_14.sct
+Settings	sector	\..\..\Data\Sector\UK_2020_14.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
@@ -41,3 +41,4 @@ Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
+Plugins	Plugin3	\..\Data\Plugin\AfvEuroScopeBridge.dll
