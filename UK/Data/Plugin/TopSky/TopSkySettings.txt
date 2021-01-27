@@ -1,14 +1,44 @@
+//For function of each setting, refer to the TopSky developer guide.
+
+//Scaling Settings, adjust these values to suit your screen and eyes!
+System_GUI_Scale_Windows=1.2
+System_GUI_Scale_Menus=1.2
+System_GUI_Scale_GlobalMenu=1.2
+System_GUI_Scale_Screen=1.1
+
+//System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
+Areas_NOTAM_Activation=1
+Track_HistoryDots=0
+System_MagModel_Type=2
+System_MagModel_Model=0
+System_MagModel_Year=2020
+System_RepHdg_Correction=2
+System_UseReportedGS=1
+System_RawVideo=0
+Label_Rev_Highlight_Delta_ETN=15
+MTCD_Distance_Holding=30
+Label_CFL_DefaultValue=1
+Label_DAPs=1
+Menu_DAPs=1
+Window_HoldList_MaxListItems=20
+FlightLeg_AutoShow=1
+FlightLeg_AssumeTime=2
+RwyAppLines_Auto=0
+
+//Airspace Related Settings
+Airspace_C_Flag=
+Airspace_No_DUPE_Codes=7000,2000,2620,0440,7045,4255,3737,3660,2677,5060,7366,6170,4607,4572,0010,7350,3727,4517,0013,7013,3636,5077,4572,5050,0011,7011,7012,0012
+AIW=1
+
+//Colour settings
 Color_Active_Map_Type_1=120,0,0
 Color_Active_Map_Type_2=80,162,74
 Color_Active_Map_Type_3=179,180,180
 Color_Active_Map_Type_4=200,53,18
 Color_Active_Map_Type_5=198,174,58
-// Color_Active_RD_Infill_Map = C_Active_Infill_Map ?
 Color_Active_RD_Infill_Map=90,90,90
-//Color_Active_RD_Map
-// Color_Active_Sector = C_Map_4
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=190,190,190
 Color_AIW_Intrusion=255,152,0
@@ -34,7 +64,6 @@ Color_CPDLC_UM_Clearance=30,250,250
 Color_CPDLC_Unable=170,78,39
 Color_CPDLC_Urgency=225,25,25
 Color_Datalink_Logged_On=145,145,145
-// Color_Deselected=95,95,96 Unknown color?
 Color_Field_Highlight=255,255,255
 Color_Flight_Highlight=0,0,125
 Color_Flight_Leg=170,231,197
@@ -42,7 +71,6 @@ Color_Foreground=255,255,255
 Color_Freq_Indicator=114,136,255
 Color_Global_Menu_Highlight=1,165,219
 Color_Heading_Vector=170,231,197
-// Color_Inactive_Sector = C_Radar_Win_Bg
 Color_Inactive_Sector=28,28,28
 Color_Info_Coord=1,255,255
 Color_Information=40,210,40
@@ -87,14 +115,12 @@ Color_SMW_Overlap_Box=207,207,207
 Color_SMW_Overshoot=239,224,41
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
-//Color_Text_Notes
 Color_TopShadow=155,158,159
 Color_Track_Default=210,210,210
 Color_Track_Highlight=255,255,255
 Color_Trough=97,99,97
 Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=200,53,18
-//Color_TSA_Filter
 Color_TSA_Preactive=132,142,139
 Color_Unconcerned=144,144,144
 Color_Unknown=239,224,42
@@ -114,37 +140,30 @@ Color_Proposition_Accepted=0,160,0
 Color_Proposition_In=0,128,125
 Color_Proposition_Out=0,64,128
 Color_Weather_Map=207,128,238 
-Track_HistoryDots=0
-Airspace_C_Flag=
-Airspace_No_DUPE_Codes=7000,2000,2620,0440,7045,4255,3737,3660,2677,5060,7366,6170,4607,4572,0010,7350,3727,4517,0013,7013,3636,5077,4572,5050,0011,7011,7012,0012
-AIW=1
+
+//CPDLC System Settings
 CPDLC_MinLevel=195
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-System_MagModel_Type=2
-System_MagModel_Model=0
-System_MagModel_Year=2020
-System_RepHdg_Correction=2
-System_UseReportedGS=1
-System_RawVideo=0
-Areas_NOTAM_Activation=1
+
+//MSAW System Settings
+MSAW_Buffer_IFR=100
+
+//APW System Settings
+APW_Buffer_Lat_SepLevel=24500
+APW_Buffer_Lat_U=2.5
+APW_Buffer_Lat_L_IFR=1.5
+APW_Buffer_Lat_L_VFR=0
+
+//Radio Direction Finder Settings
 RDF_Mode=2
 RDF_Accuracy=5
 RDF_Floor=2500
-Label_Rev_Highlight_Delta_ETN=15
-MTCD_Distance_Holding=30
-Label_CFL_DefaultValue=1
-Label_DAPs=1
-Menu_DAPs=1
-Window_HoldList_MaxListItems=20
-//ASSR_Type=0
-FlightLeg_AutoShow=1
-FlightLeg_AssumeTime=2
-RwyAppLines_Auto=0
-//WX Radar for UK
+
+//Weather Radar Settings
 WXR_Latitude=54.5
 WXR_Latitude_Max=61
 WXR_Latitude_Min=48
@@ -156,12 +175,6 @@ WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
-MSAW_Buffer_IFR=100
-APW_Buffer_Lat_SepLevel=24500
-APW_Buffer_Lat_U=2.5
-APW_Buffer_Lat_L_IFR=1.5
-APW_Buffer_Lat_L_VFR=0
-
 
 [_CTR]
 Window_CPDLC_Current=1,0,40
