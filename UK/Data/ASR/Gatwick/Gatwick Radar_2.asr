@@ -256,7 +256,15 @@ ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Conditional - Berry Head CTA:
+ARTCC high boundary:Conditional - Cotswold CTA:
+ARTCC high boundary:Conditional - N601(D) FL165-FL195:
+ARTCC high boundary:Conditional - N864 TLA-ASNUD:
+ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -274,6 +282,7 @@ ARTCC high boundary:Holyhead CTA:
 ARTCC high boundary:Irish Sea CTA:
 ARTCC high boundary:La Manche Delegated:
 ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
@@ -285,6 +294,7 @@ ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC low boundary:Channel Islands CTA:
