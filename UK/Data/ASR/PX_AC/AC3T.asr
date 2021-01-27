@@ -1745,3 +1745,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE;ASR_ORKNEY;ASR_TYNE
+PLUGIN:TopSky plugin:HideMapData:FixLabels
