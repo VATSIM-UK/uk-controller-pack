@@ -336,7 +336,6 @@ Fixes:BRIPO:name
 Fixes:BRUCE:symbol
 Fixes:BUDON:symbol
 Fixes:BUKUT:symbol
-Fixes:BUMUX:name
 Fixes:BUNAV:symbol
 Fixes:BURNI:symbol
 Fixes:BUSTA:name
@@ -628,7 +627,6 @@ Fixes:KONAN:symbol
 Fixes:KONEP:symbol
 Fixes:KOPUL:name
 Fixes:KOTEM:name
-Fixes:KOXOD:symbol
 Fixes:KUBAX:symbol
 Fixes:KUGUR:name
 Fixes:KUKIS:symbol
@@ -825,8 +823,6 @@ Fixes:NORLA:symbol
 Fixes:NORRY:name
 Fixes:NOSLO:name
 Fixes:NOTGI:symbol
-Fixes:NOTRO:symbol
-Fixes:NOVBA:symbol
 Fixes:NOVMA:name
 Fixes:NUBRI:name
 Fixes:NUGBO:symbol

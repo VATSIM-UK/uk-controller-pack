@@ -273,7 +273,6 @@ Fixes:BRUCE:symbol
 Fixes:BUDON:symbol
 Fixes:BUGUP:symbol
 Fixes:BUKUT:symbol
-Fixes:BUMUX:symbol
 Fixes:BURNI:symbol
 Fixes:BUSTA:symbol
 Fixes:BUZAD:symbol
@@ -522,7 +521,6 @@ Fixes:IPRIL:symbol
 Fixes:IPSAD:symbol
 Fixes:IPSET:symbol
 Fixes:IPSIR:symbol
-Fixes:IPZOL:symbol
 Fixes:IRKUM:symbol
 Fixes:IRKUN:symbol
 Fixes:ITJON:symbol
@@ -556,7 +554,6 @@ Fixes:KOLID:symbol
 Fixes:KONAN:symbol
 Fixes:KOPUL:symbol
 Fixes:KOTEM:symbol
-Fixes:KOXOD:symbol
 Fixes:KUBAX:symbol
 Fixes:KUGUR:symbol
 Fixes:KUKIS:symbol
@@ -1248,4 +1245,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGJJ;airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_HOLYHEAD;ASR_BARNSLEY;ASR_SCILLIES;ASR_WESSEX;ASR_COTSWOLD;ASR_PORTLAND
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels

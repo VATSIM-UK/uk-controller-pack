@@ -1,3 +1,10 @@
+//Fixes
+SYMBOL:FIX
+MOVETO:0:-2
+LINETO:0:3
+MOVETO:-2:0
+LINETO:3:0
+
 //History Dot
 
 SYMBOL:RPSH

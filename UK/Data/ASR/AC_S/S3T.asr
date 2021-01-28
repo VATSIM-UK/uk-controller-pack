@@ -272,7 +272,6 @@ Fixes:BRUCE:symbol
 Fixes:BUDON:symbol
 Fixes:BUGUP:symbol
 Fixes:BUKUT:symbol
-Fixes:BUMUX:symbol
 Fixes:BURNI:symbol
 Fixes:BUSTA:symbol
 Fixes:BUZAD:symbol
@@ -521,7 +520,6 @@ Fixes:IPRIL:symbol
 Fixes:IPSAD:symbol
 Fixes:IPSET:symbol
 Fixes:IPSIR:symbol
-Fixes:IPZOL:symbol
 Fixes:IRKUM:symbol
 Fixes:IRKUN:symbol
 Fixes:ITJON:symbol
@@ -555,7 +553,6 @@ Fixes:KOLID:symbol
 Fixes:KONAN:symbol
 Fixes:KOPUL:symbol
 Fixes:KOTEM:symbol
-Fixes:KOXOD:symbol
 Fixes:KUBAX:symbol
 Fixes:KUGUR:symbol
 Fixes:KUKIS:symbol
@@ -1653,3 +1650,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_PORTLAND;ASR_COTSWOLD
+PLUGIN:TopSky plugin:HideMapData:FixLabels
