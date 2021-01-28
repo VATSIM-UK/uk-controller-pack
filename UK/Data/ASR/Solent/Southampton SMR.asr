@@ -2,7 +2,7 @@ DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:
-SECTORTITLE:UK_2020_14.sct
+SECTORTITLE:UK_2021_01.sct
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
 Free Text:SCT2\06 Grass:freetext
