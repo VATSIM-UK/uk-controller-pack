@@ -375,8 +375,6 @@ Fixes:BIDVA:name
 Fixes:BIDVA:symbol
 Fixes:BIFIN:name
 Fixes:BIFIN:symbol
-Fixes:BIGNO:name
-Fixes:BIGNO:symbol
 Fixes:BILLY:name
 Fixes:BILLY:symbol
 Fixes:BILNI:name
@@ -429,8 +427,6 @@ Fixes:BUGUP:name
 Fixes:BUGUP:symbol
 Fixes:BUKUT:name
 Fixes:BUKUT:symbol
-Fixes:BUMUX:name
-Fixes:BUMUX:symbol
 Fixes:BURNI:name
 Fixes:BURNI:symbol
 Fixes:BUSTA:name
@@ -927,8 +923,6 @@ Fixes:IPSET:name
 Fixes:IPSET:symbol
 Fixes:IPSIR:name
 Fixes:IPSIR:symbol
-Fixes:IPZOL:name
-Fixes:IPZOL:symbol
 Fixes:IRKUM:name
 Fixes:IRKUM:symbol
 Fixes:IRKUN:name
@@ -995,8 +989,6 @@ Fixes:KOPUL:name
 Fixes:KOPUL:symbol
 Fixes:KOTEM:name
 Fixes:KOTEM:symbol
-Fixes:KOXOD:name
-Fixes:KOXOD:symbol
 Fixes:KUBAX:name
 Fixes:KUBAX:symbol
 Fixes:KUGUR:name
@@ -1345,8 +1337,6 @@ Fixes:NOSLO:name
 Fixes:NOSLO:symbol
 Fixes:NOTGI:name
 Fixes:NOTGI:symbol
-Fixes:NOTRO:name
-Fixes:NOTRO:symbol
 Fixes:NOVBA:name
 Fixes:NOVBA:symbol
 Fixes:NOVMA:name
