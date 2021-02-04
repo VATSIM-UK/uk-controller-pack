@@ -4,12 +4,12 @@ Welcome to the UK Controller Pack repository. Thank you for your interest in con
 
 ## Contributor license agreement
 
-By submitting code as an individual you agree that VATSIM UK can use your ammendments, fixes, patches, changes, modifications, submissions and creations in the production of the UK Sector File and that the ownership of your submissions transfers to VATSIM UK in their entirety.
+By submitting code as an individual you agree that VATSIM UK can use your ammendments, fixes, patches, changes, modifications, submissions and creations in the production of the UK Controller Pack and that the ownership of your submissions transfers to VATSIM UK in their entirety.
 Helping others
 
 Please help other users wherever you can (everybody starts somewhere). If you require assistance (or wish to provide additional assistance) you can find our contributors in the VATSIM UK Discord.
 
-To access Discord, you can visit https://www.vatsim.uk/discord and follow the registration instructions. Once you've logged in, find the channel "#sector_file".
+To access Discord, you can visit https://www.vatsim.uk/discord and follow the registration instructions. Once you've logged in, find the channel "#sector_file_development".
 I want to contribute!
 
 If you wish to contribute to the UK Controller Pack, there's many ways in which you can help out.
@@ -19,7 +19,7 @@ If you're just getting started with GitHub (and project contributions) then we s
 
 If you're comfortable with contributing to Open Source projects on GitHub please ensure you read our expectations for issue tracking, feature proposals and merge requests.
 
-If you require support with the Sector File or EuroScope, please utilise our Discord channels or the VATSIM UK Helpdesk. Issues regarding the features and functions of Euroscope or how to load the Sector File will not be handled. The issue tracker is for feature requests and bugs concerning the UK Sector File itself.
+If you require support with the Controller Pack or EuroScope, please utilise our Discord channels or the VATSIM UK Helpdesk. Issues regarding the features and functions of Euroscope or how to load the Controller Pack will not be handled. The issue tracker is for feature requests and bugs concerning the UK Controller Pack itself.
 
 When submitting an issue, there's a few guidelines we'd ask you to respect to make it easier to manage (and for others to understand):
 - Search the issue tracker before you submit your issue - it may already be present.
@@ -31,7 +31,7 @@ In order to be 'assigned' an issue, please comment on the issue itself - we can 
 
 We welcome pull requests with fixes and improvements to the Controller Pack. The features we really would like public support on are marked with "up-for-grabs" but other improvements are also welcome - please ensure you read over the pull work-flow below.
 
-If you wish to add a new feature or you spot a bug that you wish to fix, please open an issue for it first on the UK Sector File issue tracker.
+If you wish to add a new feature or you spot a bug that you wish to fix, please open an issue for it first on the UK Controller Pack issue tracker.
 
 The work-flow for submitting a new pull request is designed to be simple, but also to ensure consistency from all contributors:
 - Fork the project into your personal space on GitHub.com.
@@ -44,7 +44,7 @@ The work-flow for submitting a new pull request is designed to be simple, but al
 - Submit a pull request (PR) to the master branch.
 - The PR title should describe the change that has been made.
 - The PR description should confirm what changes have been made and how you know they're correct (with references).
-- Please include any relevant screenshots to prove the changes work - this is particularly important for SMRs.
+- Please include any relevant screenshots to prove the changes work.
 - Ensure you link any relevant issues in the merge request (you can type hash and the issue ID, eg #275). Comment on those issues linking back to the PR (you can reference PRs in the same way as issues, using the format #pr-id).
 - Be prepared to answer any questions about your PR when it is reviewed for acceptance.
 
