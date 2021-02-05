@@ -357,7 +357,16 @@ ARTCC low boundary:LFOH Le Havre CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-Geo:Coastline (Medium Detail) GB Main Coastline:
+Regions:A-ChannelIslands:polygon
+Regions:A-EastCoast:polygon
+Regions:A-Ireland:polygon
+Regions:A-NorthWest:polygon
+Regions:A-Scottish:polygon
+Regions:A-ScottishIslands:polygon
+Regions:A-SouthEast:polygon
+Regions:A-SouthWalesMidlands:polygon
+Regions:A-SouthWest:polygon
+Regions:Bristol Buffer:polygon
 Runways:EGFF Cardiff 12-30:extended centerline 1
 Runways:EGFF Cardiff 12-30:extended centerline 1 left ticks
 Runways:EGFF Cardiff 12-30:extended centerline 1 right ticks
@@ -370,8 +379,7 @@ Runways:EGGD Bristol 09-27:extended centerline 1 right ticks
 Runways:EGGD Bristol 09-27:extended centerline 2
 Runways:EGGD Bristol 09-27:extended centerline 2 left ticks
 Runways:EGGD Bristol 09-27:extended centerline 2 right ticks
-Sids:EGFF Cardiff SMAA:
-Stars:Bristol Buffer Zone:
+Sids:EGGD Bristol SMAA:
 Stars:EXMOR Burnham Line:
 SHOWC:1
 SHOWSB:0
@@ -386,7 +394,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Approach
-WINDOWAREA:50.923459:-4.707912:51.869874:-1.978755
+WINDOWAREA:51.004212:-3.861686:51.761344:-1.576648
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -407,6 +415,6 @@ PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
-PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGFF
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGGD
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
-PLUGIN:vSMR:Airport:EGFF
+PLUGIN:vSMR:Airport:EGGD
