@@ -47,7 +47,7 @@ AG:Area - PC TNT:119.520:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
 AG:X Area - PC WAL:125.950:old.voice.notused:man_wl_ctr
 AG:X Area - PC IoM:133.050:old.voice.notused:man_wi_ctr
-AG:X Area - PC PENIL:128.050:old.voice.notused:man_wp_ctr
+AG:X Area - PC PENIL:126.875:old.voice.notused:man_wp_ctr
 AG:EGBB_APP:123.970:old.voice.notused:egbb_app
 AG:EGBB_F_APP:131.000:old.voice.notused:egbb_f_app
 AG:EGBB_TWR:118.300:old.voice.notused:egbb_twr
