@@ -1,703 +1,984 @@
-[{
+[
+  {
     "name": "Default",
     "font": {
-        "font_name": "EuroScope",
-        "weight": "Regular",
-        "sizes": {
-            "one": 11,
-            "two": 12,
-            "three": 13,
-            "four": 14,
-            "five": 16
-        }
+      "font_name": "EuroScope",
+      "weight": "Regular",
+      "sizes": {
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 16
+      }
     },
     "filters": {
-        "hide_above_alt": 4000,
-        "hide_above_spd": 250,
-        "radar_range_nm": 300,
-        "night_alpha_setting": 110,
-        "pro_mode": {
-            "enable": false,
-            "accept_pilot_squawk": false,
-            "do_not_autocorrelate_squawks": [
-                "2000",
-                "2200",
-                "1200",
-                "7000"
-            ]
-        }
+      "hide_above_alt": 4000,
+      "hide_above_spd": 250,
+      "radar_range_nm": 300,
+      "night_alpha_setting": 110,
+      "pro_mode": {
+        "enable": false,
+        "accept_pilot_squawk": false,
+        "do_not_autocorrelate_squawks": [
+          "2000",
+          "2200",
+          "1200",
+          "7000"
+        ]
+      }
     },
     "labels": {
-        "auto_deconfliction": true,
-        "leader_line_length": 50,
-        "use_aspeed_for_gate": false,
-        "squawk_error_color": {
-            "r": 255,
-            "g": 255,
-            "b": 0
+      "auto_deconfliction": true,
+      "leader_line_length": 50,
+      "use_aspeed_for_gate": false,
+      "squawk_error_color": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "departure": {
+        "definition": [
+          [ "callsign" ],
+          [ "sctype", "deprwy" ]
+        ],
+        "background_color": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
         },
-        "departure": {
-            "definition": [
-                ["callsign"],
-                ["sctype", "deprwy"]
-            ],
-            "background_color": {
-                "r": 40,
-                "g": 50,
-                "b": 200,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 40,
-                "g": 50,
-                "b": 200,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
+        "background_color_on_runway": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
         },
-        "arrival": {
-            "definition": [
-                ["callsign"],
-                ["uk_stand", "actype"]
-            ],
-            "background_color": {
-                "r": 170,
-                "g": 50,
-                "b": 50,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 170,
-                "g": 50,
-                "b": 50,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
-        },
-        "airborne": {
-            "use_departure_arrival_coloring": false,
-            "definition": [
-                ["callsign"],
-                ["flightlevel", "tendency", "gs"],
-                ["actype"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        },
-        "uncorrelated": {
-            "definition": [
-                ["systemid"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 150,
-                "g": 22,
-                "b": 135,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        }
-    },
-    "rimcas": {
-        "rimcas_label_only": true,
-        "use_red_symbol_for_emergencies": true,
-        "timer": [60, 45, 30, 15, 0],
-        "timer_lvp": [120, 90, 60, 30, 0],
-        "rimcas_stage_two_speed_threshold": 25,
-        "background_color_stage_one": {
-            "r": 160,
-            "g": 90,
-            "b": 30,
-            "a": 255
-        },
-        "background_color_stage_two": {
-            "r": 150,
-            "g": 0,
-            "b": 0,
-            "a": 255
-        },
-        "alert_text_color": {
+        "text_color": {
           "r": 255,
           "g": 255,
           "b": 255
         }
-    },
-    "targets": {
-        "show_primary_target": true,
-        "target_color": {
-            "r": 255,
-            "g": 242,
-            "b": 73,
-            "a": 255
+      },
+      "arrival": {
+        "definition": [
+          [ "callsign" ],
+          [ "uk_stand", "actype" ]
+        ],
+        "background_color": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
         },
-        "history_one_color": {
-            "r": 0,
-            "g": 255,
-            "b": 255,
-            "a": 255
+        "background_color_on_runway": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
         },
-        "history_two_color": {
-            "r": 0,
-            "g": 219,
-            "b": 219,
-            "a": 255
-        },
-        "history_three_color": {
-            "r": 0,
-            "g": 183,
-            "b": 183,
-            "a": 255
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         }
-    },
-    "approach_insets": {
-        "extended_lines_length": 15,
-        "extended_lines_ticks_spacing": 1,
-        "extended_lines_color": {
-            "r": 255,
-            "g": 255,
-            "b": 255
-        },
-        "runway_color": {
-            "r": 0,
-            "g": 0,
-            "b": 0
+      },
+      "airborne": {
+        "use_departure_arrival_coloring": false,
+        "definition": [
+          [ "callsign" ],
+          [ "flightlevel", "tendency", "gs" ],
+          [ "actype" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         },
         "background_color": {
-            "r": 100,
-            "g": 100,
-            "b": 100
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
         }
+      },
+      "uncorrelated": {
+        "definition": [
+          [ "systemid" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "background_color": {
+          "r": 150,
+          "g": 22,
+          "b": 135,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      }
+    },
+    "rimcas": {
+      "rimcas_label_only": true,
+      "use_red_symbol_for_emergencies": true,
+      "timer": [ 60, 45, 30, 15, 0 ],
+      "timer_lvp": [ 120, 90, 60, 30, 0 ],
+      "rimcas_stage_two_speed_threshold": 25,
+      "background_color_stage_one": {
+        "r": 160,
+        "g": 90,
+        "b": 30,
+        "a": 255
+      },
+      "background_color_stage_two": {
+        "r": 150,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "alert_text_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "targets": {
+      "show_primary_target": true,
+      "target_color": {
+        "r": 255,
+        "g": 242,
+        "b": 73,
+        "a": 255
+      },
+      "history_one_color": {
+        "r": 0,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "history_two_color": {
+        "r": 0,
+        "g": 219,
+        "b": 219,
+        "a": 255
+      },
+      "history_three_color": {
+        "r": 0,
+        "g": 183,
+        "b": 183,
+        "a": 255
+      }
+    },
+    "approach_insets": {
+      "extended_lines_length": 15,
+      "extended_lines_ticks_spacing": 1,
+      "extended_lines_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "runway_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "background_color": {
+        "r": 100,
+        "g": 100,
+        "b": 100
+      }
     },
     "maps": {
-        "LFPG": {
-            "runways": [{
-                "runway_name": "EXAMPLE27",
-                "path": [
-                    ["N048.59.44.562", "E002.36.06.580"],
-                    ["N048.59.44.150", "E002.36.06.630"],
-                    ["N048.59.43.732", "E002.36.06.520"],
-                    ["N048.59.43.722", "E002.36.06.497"]
-                ],
-                "path_lvp": [
-                    ["N048.59.49.110", "E002.36.03.915"],
-                    ["N048.59.48.567", "E002.36.02.798"],
-                    ["N048.59.48.644", "E002.36.00.209"],
-                    ["N048.59.48.482", "E002.35.55.364"]
-                ]
-            }, {
-                "runway_name": "EXAMPLE36",
-                "path": [
-                    ["N048.59.44.562", "E002.36.06.580"],
-                    ["N048.59.44.150", "E002.36.06.630"],
-                    ["N048.59.43.732", "E002.36.06.520"],
-                    ["N048.59.43.722", "E002.36.06.497"]
-                ],
-                "path_lvp": [
-                    ["N048.59.49.110", "E002.36.03.915"],
-                    ["N048.59.48.567", "E002.36.02.798"],
-                    ["N048.59.48.644", "E002.36.00.209"],
-                    ["N048.59.48.482", "E002.35.55.364"]
-                ]
-            }]
-        }
+      "LFPG": {
+        "runways": [
+          {
+            "runway_name": "EXAMPLE27",
+            "path": [
+              [ "N048.59.44.562", "E002.36.06.580" ],
+              [ "N048.59.44.150", "E002.36.06.630" ],
+              [ "N048.59.43.732", "E002.36.06.520" ],
+              [ "N048.59.43.722", "E002.36.06.497" ]
+            ],
+            "path_lvp": [
+              [ "N048.59.49.110", "E002.36.03.915" ],
+              [ "N048.59.48.567", "E002.36.02.798" ],
+              [ "N048.59.48.644", "E002.36.00.209" ],
+              [ "N048.59.48.482", "E002.35.55.364" ]
+            ]
+          },
+          {
+            "runway_name": "EXAMPLE36",
+            "path": [
+              [ "N048.59.44.562", "E002.36.06.580" ],
+              [ "N048.59.44.150", "E002.36.06.630" ],
+              [ "N048.59.43.732", "E002.36.06.520" ],
+              [ "N048.59.43.722", "E002.36.06.497" ]
+            ],
+            "path_lvp": [
+              [ "N048.59.49.110", "E002.36.03.915" ],
+              [ "N048.59.48.567", "E002.36.02.798" ],
+              [ "N048.59.48.644", "E002.36.00.209" ],
+              [ "N048.59.48.482", "E002.35.55.364" ]
+            ]
+          }
+        ]
+      }
     }
-},
-{
+  },
+  {
     "name": "Professional Mode",
     "font": {
-        "font_name": "Arial",
-        "weight": "Bold",
-        "sizes": {
-            "one": 11,
-            "two": 12,
-            "three": 13,
-            "four": 14,
-            "five": 16
-        }
+      "font_name": "Arial",
+      "weight": "Bold",
+      "sizes": {
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 16
+      }
     },
     "filters": {
-        "hide_above_alt": 9000,
-        "hide_above_spd": 300,
-        "radar_range_nm": 300,
-        "night_alpha_setting": 110,
-        "pro_mode": {
-            "enable": true,
-            "accept_pilot_squawk": false,
-            "do_not_autocorrelate_squawks": [
-                "2000",
-                "2200",
-                "1200",
-                "7000"
-            ]
-        }
+      "hide_above_alt": 9000,
+      "hide_above_spd": 300,
+      "radar_range_nm": 300,
+      "night_alpha_setting": 110,
+      "pro_mode": {
+        "enable": true,
+        "accept_pilot_squawk": false,
+        "do_not_autocorrelate_squawks": [
+          "2000",
+          "2200",
+          "1200",
+          "7000"
+        ]
+      }
     },
     "labels": {
-        "auto_deconfliction": true,
-        "leader_line_length": 50,
-        "use_aspeed_for_gate": true,
-        "squawk_error_color": {
-            "r": 255,
-            "g": 255,
-            "b": 0
+      "auto_deconfliction": true,
+      "leader_line_length": 50,
+      "use_aspeed_for_gate": true,
+      "squawk_error_color": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "departure": {
+        "definition": [
+          [ "callsign" ]
+        ],
+        "background_color": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
         },
-		"departure": {
-            "definition": [
-                ["callsign"]
-            ],
-            "background_color": {
-                "r": 40,
-                "g": 50,
-                "b": 200,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 40,
-                "g": 50,
-                "b": 200,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
+        "background_color_on_runway": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
         },
-        "arrival": {
-            "definition": [
-                ["callsign"],
-                ["uk_stand"]
-            ],
-            "background_color": {
-                "r": 170,
-                "g": 50,
-                "b": 50,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 170,
-                "g": 50,
-                "b": 50,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
-        },
-        "airborne": {
-            "use_departure_arrival_coloring": true,
-            "definition": [
-                ["callsign"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        },
-        "uncorrelated": {
-            "definition": [
-                ["systemid"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 150,
-                "g": 22,
-                "b": 135,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        }
-    },
-    "rimcas": {
-        "rimcas_label_only": true,
-        "use_red_symbol_for_emergencies": true,
-        "timer": [60, 45, 30, 15, 0],
-        "timer_lvp": [120, 90, 60, 30, 0],
-        "rimcas_stage_two_speed_threshold": 25,
-        "background_color_stage_one": {
-            "r": 160,
-            "g": 90,
-            "b": 30,
-            "a": 255
-        },
-        "background_color_stage_two": {
-            "r": 150,
-            "g": 0,
-            "b": 0,
-            "a": 255
-        },
-        "alert_text_color": {
+        "text_color": {
           "r": 255,
           "g": 255,
           "b": 255
         }
-    },
-    "targets": {
-        "show_primary_target": true,
-        "target_color": {
-            "r": 255,
-            "g": 242,
-            "b": 73,
-            "a": 255
+      },
+      "arrival": {
+        "definition": [
+          [ "callsign" ],
+          [ "uk_stand" ]
+        ],
+        "background_color": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
         },
-        "history_one_color": {
-            "r": 0,
-            "g": 255,
-            "b": 255,
-            "a": 255
+        "background_color_on_runway": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
         },
-        "history_two_color": {
-            "r": 0,
-            "g": 219,
-            "b": 219,
-            "a": 255
-        },
-        "history_three_color": {
-            "r": 0,
-            "g": 183,
-            "b": 183,
-            "a": 255
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         }
-    },
-    "approach_insets": {
-        "extended_lines_length": 15,
-        "extended_lines_ticks_spacing": 1,
-        "extended_lines_color": {
-            "r": 255,
-            "g": 255,
-            "b": 255
-        },
-        "runway_color": {
-            "r": 0,
-            "g": 0,
-            "b": 0
+      },
+      "airborne": {
+        "use_departure_arrival_coloring": true,
+        "definition": [
+          [ "callsign" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         },
         "background_color": {
-            "r": 127,
-            "g": 122,
-            "b": 122
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
         }
+      },
+      "uncorrelated": {
+        "definition": [
+          [ "systemid" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "background_color": {
+          "r": 150,
+          "g": 22,
+          "b": 135,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      }
+    },
+    "rimcas": {
+      "rimcas_label_only": true,
+      "use_red_symbol_for_emergencies": true,
+      "timer": [ 60, 45, 30, 15, 0 ],
+      "timer_lvp": [ 120, 90, 60, 30, 0 ],
+      "rimcas_stage_two_speed_threshold": 25,
+      "background_color_stage_one": {
+        "r": 160,
+        "g": 90,
+        "b": 30,
+        "a": 255
+      },
+      "background_color_stage_two": {
+        "r": 150,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "alert_text_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "targets": {
+      "show_primary_target": true,
+      "target_color": {
+        "r": 255,
+        "g": 242,
+        "b": 73,
+        "a": 255
+      },
+      "history_one_color": {
+        "r": 0,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "history_two_color": {
+        "r": 0,
+        "g": 219,
+        "b": 219,
+        "a": 255
+      },
+      "history_three_color": {
+        "r": 0,
+        "g": 183,
+        "b": 183,
+        "a": 255
+      }
+    },
+    "approach_insets": {
+      "extended_lines_length": 15,
+      "extended_lines_ticks_spacing": 1,
+      "extended_lines_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "runway_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "background_color": {
+        "r": 127,
+        "g": 122,
+        "b": 122
+      }
     },
     "maps": {
-        "LFPG": {
-            "runways": [{
-                "runway_name": "EXAMPLE27",
-                "path": [
-                    ["N048.59.44.562", "E002.36.06.580"],
-                    ["N048.59.44.150", "E002.36.06.630"],
-                    ["N048.59.43.732", "E002.36.06.520"],
-                    ["N048.59.43.722", "E002.36.06.497"]
-                ],
-                "path_lvp": [
-                    ["N048.59.49.110", "E002.36.03.915"],
-                    ["N048.59.48.567", "E002.36.02.798"],
-                    ["N048.59.48.644", "E002.36.00.209"],
-                    ["N048.59.48.482", "E002.35.55.364"]
-                ]
-            }, {
-                "runway_name": "EXAMPLE36",
-                "path": [
-                    ["N048.59.44.562", "E002.36.06.580"],
-                    ["N048.59.44.150", "E002.36.06.630"],
-                    ["N048.59.43.732", "E002.36.06.520"],
-                    ["N048.59.43.722", "E002.36.06.497"]
-                ],
-                "path_lvp": [
-                    ["N048.59.49.110", "E002.36.03.915"],
-                    ["N048.59.48.567", "E002.36.02.798"],
-                    ["N048.59.48.644", "E002.36.00.209"],
-                    ["N048.59.48.482", "E002.35.55.364"]
-                ]
-            }]
-        }
+      "LFPG": {
+        "runways": [
+          {
+            "runway_name": "EXAMPLE27",
+            "path": [
+              [ "N048.59.44.562", "E002.36.06.580" ],
+              [ "N048.59.44.150", "E002.36.06.630" ],
+              [ "N048.59.43.732", "E002.36.06.520" ],
+              [ "N048.59.43.722", "E002.36.06.497" ]
+            ],
+            "path_lvp": [
+              [ "N048.59.49.110", "E002.36.03.915" ],
+              [ "N048.59.48.567", "E002.36.02.798" ],
+              [ "N048.59.48.644", "E002.36.00.209" ],
+              [ "N048.59.48.482", "E002.35.55.364" ]
+            ]
+          },
+          {
+            "runway_name": "EXAMPLE36",
+            "path": [
+              [ "N048.59.44.562", "E002.36.06.580" ],
+              [ "N048.59.44.150", "E002.36.06.630" ],
+              [ "N048.59.43.732", "E002.36.06.520" ],
+              [ "N048.59.43.722", "E002.36.06.497" ]
+            ],
+            "path_lvp": [
+              [ "N048.59.49.110", "E002.36.03.915" ],
+              [ "N048.59.48.567", "E002.36.02.798" ],
+              [ "N048.59.48.644", "E002.36.00.209" ],
+              [ "N048.59.48.482", "E002.35.55.364" ]
+            ]
+          }
+        ]
+      }
     }
-},
-{    
+  },
+  {
     "name": "Heathrow",
     "font": {
-        "font_name": "EuroScope",
-        "weight": "Regular",
-        "sizes": {
-            "one": 11,
-            "two": 12,
-            "three": 13,
-            "four": 14,
-            "five": 16
-        }
+      "font_name": "EuroScope",
+      "weight": "Regular",
+      "sizes": {
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 16
+      }
     },
     "filters": {
-        "hide_above_alt": 6000,
-        "hide_above_spd": 300,
-        "radar_range_nm": 15,
-        "night_alpha_setting": 100,
-        "pro_mode": {
-            "enable": true,
-            "accept_pilot_squawk": false,
-            "do_not_autocorrelate_squawks": [
-                "2000",
-                "2200",
-                "1200",
-                "7000"
-            ]
-        }
+      "hide_above_alt": 6000,
+      "hide_above_spd": 300,
+      "radar_range_nm": 15,
+      "night_alpha_setting": 100,
+      "pro_mode": {
+        "enable": true,
+        "accept_pilot_squawk": false,
+        "do_not_autocorrelate_squawks": [
+          "2000",
+          "2200",
+          "1200",
+          "7000"
+        ]
+      }
     },
     "labels": {
-        "auto_deconfliction": true,
-        "leader_line_length": 25,
-        "use_aspeed_for_gate": true,
-        "squawk_error_color": {
-            "r": 255,
-            "g": 255,
-            "b": 0
+      "auto_deconfliction": true,
+      "leader_line_length": 25,
+      "use_aspeed_for_gate": true,
+      "squawk_error_color": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "departure": {
+        "definition": [
+          [ "callsign" ]
+        ],
+        "background_color": {
+          "r": 0,
+          "g": 0,
+          "b": 150,
+          "a": 255
         },
-        "departure": {
-            "definition": [
-                ["callsign"]
-            ],
-            "background_color": {
-                "r": 0,
-                "g": 0,
-                "b": 150,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 150,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 150,
+          "a": 255
         },
-        "arrival": {
-            "definition": [
-                ["callsign"],
-                ["uk_stand"]
-            ],
-            "background_color": {
-                "r": 68,
-                "g": 34,
-                "b": 16,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 68,
-                "g": 34,
-                "b": 16,
-                "a": 255
-            },
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            }
-        },
-        "airborne": {
-            "use_departure_arrival_coloring": false,
-            "definition": [
-                ["callsign"],
-		["flightlevel", "tendency"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        },
-        "uncorrelated": {
-            "definition": [
-                ["ssr"]
-            ],
-            "text_color": {
-                "r": 255,
-                "g": 255,
-                "b": 255
-            },
-            "background_color": {
-                "r": 0,
-                "g": 150,
-                "b": 0,
-                "a": 255
-            },
-            "background_color_on_runway": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 0
-            }
-        }
-    },
-    "rimcas": {
-        "rimcas_label_only": true,
-        "use_red_symbol_for_emergencies": true,
-        "timer": [60, 45, 30, 15, 0],
-        "timer_lvp": [120, 90, 60, 30, 0],
-        "rimcas_stage_two_speed_threshold": 40,
-        "background_color_stage_one": {
-            "r": 255,
-            "g": 135,
-            "b": 10,
-            "a": 255
-        },
-        "background_color_stage_two": {
-            "r": 255,
-            "g": 0,
-            "b": 0,
-            "a": 255
-        },
-        "alert_text_color": {
+        "text_color": {
           "r": 255,
           "g": 255,
           "b": 255
         }
-    },
-    "targets": {
-        "show_primary_target": true,
-        "target_color": {
-            "r": 255,
-            "g": 242,
-            "b": 73,
-            "a": 255
+      },
+      "arrival": {
+        "definition": [
+          [ "callsign" ],
+          [ "uk_stand" ]
+        ],
+        "background_color": {
+          "r": 68,
+          "g": 34,
+          "b": 16,
+          "a": 255
         },
-        "history_one_color": {
-            "r": 0,
-            "g": 235,
-            "b": 235,
-            "a": 200
+        "background_color_on_runway": {
+          "r": 68,
+          "g": 34,
+          "b": 16,
+          "a": 255
         },
-        "history_two_color": {
-            "r": 0,
-            "g": 219,
-            "b": 219,
-            "a": 150
-        },
-        "history_three_color": {
-            "r": 0,
-            "g": 183,
-            "b": 183,
-            "a": 100
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         }
-    },
-    "approach_insets": {
-        "extended_lines_length": 15,
-        "extended_lines_ticks_spacing": 1,
-        "extended_lines_color": {
-            "r": 150,
-            "g": 150,
-            "b": 150
-        },
-        "runway_color": {
-            "r": 50,
-            "g": 50,
-            "b": 50
+      },
+      "airborne": {
+        "use_departure_arrival_coloring": false,
+        "definition": [
+          [ "callsign" ],
+          [ "flightlevel", "tendency" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
         },
         "background_color": {
-            "r": 0,
-            "g": 0,
-            "b": 0
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
         }
+      },
+      "uncorrelated": {
+        "definition": [
+          [ "ssr" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "background_color": {
+          "r": 0,
+          "g": 150,
+          "b": 0,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      }
+    },
+    "rimcas": {
+      "rimcas_label_only": true,
+      "use_red_symbol_for_emergencies": true,
+      "timer": [ 60, 45, 30, 15, 0 ],
+      "timer_lvp": [ 120, 90, 60, 30, 0 ],
+      "rimcas_stage_two_speed_threshold": 40,
+      "background_color_stage_one": {
+        "r": 255,
+        "g": 135,
+        "b": 10,
+        "a": 255
+      },
+      "background_color_stage_two": {
+        "r": 255,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "alert_text_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "targets": {
+      "show_primary_target": true,
+      "target_color": {
+        "r": 255,
+        "g": 242,
+        "b": 73,
+        "a": 255
+      },
+      "history_one_color": {
+        "r": 0,
+        "g": 235,
+        "b": 235,
+        "a": 200
+      },
+      "history_two_color": {
+        "r": 0,
+        "g": 219,
+        "b": 219,
+        "a": 150
+      },
+      "history_three_color": {
+        "r": 0,
+        "g": 183,
+        "b": 183,
+        "a": 100
+      }
+    },
+    "approach_insets": {
+      "extended_lines_length": 15,
+      "extended_lines_ticks_spacing": 1,
+      "extended_lines_color": {
+        "r": 150,
+        "g": 150,
+        "b": 150
+      },
+      "runway_color": {
+        "r": 50,
+        "g": 50,
+        "b": 50
+      },
+      "background_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     "maps": {
-        "EGLL": {
-            "runways": [{
-                "runway_name": "09l",
-                "path": [
-                    ["N051.28.40.051:W000.29.26.292"],
-                    ["N051.28.40.820:W000.25.56.013"],
-                    ["N051.28.36.864:W000.25.56.013"],
-                    ["N051.28.36.754:W000.29.26.657"]
-                ],
-                "path_lvp": [
-                    ["N051.28.40.051:W000.29.26.292"],
-                    ["N051.28.40.820:W000.25.56.013"],
-                    ["N051.28.36.864:W000.25.56.013"],
-                    ["N051.28.36.754:W000.29.26.657"]
-                ]
-            }, {
-                "runway_name": "09r",
-                "path": [
-                    ["N051.27.56.534:W000.29.17.698"],
-                    ["N051.27.50.490:W000.29.17.698"],
-                    ["N051.27.50.820:W000.26.01.681"],
-                    ["N051.27.56.534:W000.26.01.681"]
-                ],
-                "path_lvp": [
-                    ["N051.27.56.534:W000.29.17.698"],
-                    ["N051.27.50.490:W000.29.17.698"],
-                    ["N051.27.50.820:W000.26.01.681"],
-                    ["N051.27.56.534:W000.26.01.681"]
-                ]
-            }]
-        }
+      "EGLL": {
+        "runways": [
+          {
+            "runway_name": "09l",
+            "path": [
+              [ "N051.28.40.051:W000.29.26.292" ],
+              [ "N051.28.40.820:W000.25.56.013" ],
+              [ "N051.28.36.864:W000.25.56.013" ],
+              [ "N051.28.36.754:W000.29.26.657" ]
+            ],
+            "path_lvp": [
+              [ "N051.28.40.051:W000.29.26.292" ],
+              [ "N051.28.40.820:W000.25.56.013" ],
+              [ "N051.28.36.864:W000.25.56.013" ],
+              [ "N051.28.36.754:W000.29.26.657" ]
+            ]
+          },
+          {
+            "runway_name": "09r",
+            "path": [
+              [ "N051.27.56.534:W000.29.17.698" ],
+              [ "N051.27.50.490:W000.29.17.698" ],
+              [ "N051.27.50.820:W000.26.01.681" ],
+              [ "N051.27.56.534:W000.26.01.681" ]
+            ],
+            "path_lvp": [
+              [ "N051.27.56.534:W000.29.17.698" ],
+              [ "N051.27.50.490:W000.29.17.698" ],
+              [ "N051.27.50.820:W000.26.01.681" ],
+              [ "N051.27.56.534:W000.26.01.681" ]
+            ]
+          }
+        ]
+      }
     }
-}]
+
+  },
+  {
+    "name": "Gatwick (Unrealistic)",
+    "font": {
+      "font_name": "Arial",
+      "weight": "Regular",
+      "sizes": {
+        "one": 11,
+        "two": 12,
+        "three": 13,
+        "four": 14,
+        "five": 16
+      }
+    },
+    "filters": {
+      "hide_above_alt": 4000,
+      "hide_above_spd": 250,
+      "radar_range_nm": 300,
+      "night_alpha_setting": 110,
+      "pro_mode": {
+        "enable": false,
+        "accept_pilot_squawk": false,
+        "do_not_autocorrelate_squawks": [
+          "2000",
+          "2200",
+          "1200",
+          "7000"
+        ]
+      }
+    },
+    "labels": {
+      "auto_deconfliction": true,
+      "leader_line_length": 50,
+      "use_aspeed_for_gate": false,
+      "squawk_error_color": {
+        "r": 255,
+        "g": 255,
+        "b": 0
+      },
+      "departure": {
+        "definition": [
+          [ "callsign" ],
+          [ "sctype", "asid" ]
+        ],
+        "background_color": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 40,
+          "g": 50,
+          "b": 200,
+          "a": 255
+        },
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "arrival": {
+        "definition": [
+          [ "callsign" ],
+          [ "uk_stand", "actype" ]
+        ],
+        "background_color": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 170,
+          "g": 50,
+          "b": 50,
+          "a": 255
+        },
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      },
+      "airborne": {
+        "use_departure_arrival_coloring": false,
+        "definition": [
+          [ "callsign" ],
+          [ "flightlevel", "tendency", "gs" ],
+          [ "actype" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "background_color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      },
+      "uncorrelated": {
+        "definition": [
+          [ "systemid" ]
+        ],
+        "text_color": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "background_color": {
+          "r": 150,
+          "g": 22,
+          "b": 135,
+          "a": 255
+        },
+        "background_color_on_runway": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      }
+    },
+    "rimcas": {
+      "rimcas_label_only": true,
+      "use_red_symbol_for_emergencies": true,
+      "timer": [ 60, 45, 30, 15, 0 ],
+      "timer_lvp": [ 120, 90, 60, 30, 0 ],
+      "rimcas_stage_two_speed_threshold": 25,
+      "background_color_stage_one": {
+        "r": 160,
+        "g": 90,
+        "b": 30,
+        "a": 255
+      },
+      "background_color_stage_two": {
+        "r": 150,
+        "g": 0,
+        "b": 0,
+        "a": 255
+      },
+      "alert_text_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      }
+    },
+    "targets": {
+      "show_primary_target": true,
+      "target_color": {
+        "r": 255,
+        "g": 242,
+        "b": 73,
+        "a": 255
+      },
+      "history_one_color": {
+        "r": 0,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      },
+      "history_two_color": {
+        "r": 0,
+        "g": 219,
+        "b": 219,
+        "a": 255
+      },
+      "history_three_color": {
+        "r": 0,
+        "g": 183,
+        "b": 183,
+        "a": 255
+      }
+    },
+    "approach_insets": {
+      "extended_lines_length": 15,
+      "extended_lines_ticks_spacing": 1,
+      "extended_lines_color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "runway_color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "background_color": {
+        "r": 100,
+        "g": 100,
+        "b": 100
+      }
+    },
+    "maps": {
+      "EGKK": {
+        "sids": [
+          {
+            "names": [ "FRANE1M", "FRANE1V", "MIMFO1M", "MIMFO1V", "LAM6M", "LAM6V", "#ADMAG2X", "#BIG2X", "#FRANE1X", "#LAM2X" ],
+            "comment": "A3 SIDs (Light Blue)",
+            "color": {
+              "r": 80,
+              "g": 150,
+              "b": 255,
+              "a": 255
+            }
+          },
+          {
+            "names": [ "BOGNA1X", "BOGNA1M", "BOGNA1V", "DAGGA1X", "DAGGA1M", "DAGGA1V", "HARDY1X", "HARDY5M", "HARDY5V", "NOVMA1X", "NOVMA1M", "NOVMA1V", "SFD1X", "SFD5M", "SFD5V", "TIGER1X", "TIGER3M", "TIGER3V", "WIZAD1X", "WIZAD4M", "WIZAD4V" ],
+            "comment": "A2 SIDs (Blue)",
+            "color": {
+              "r": 40,
+              "g": 50,
+              "b": 200,
+              "a": 255
+            }
+          },
+          {
+            "names": [ "FRANE1P", "FRANE1W", "FRANE1Z", "DVR2P", "DVR2W", "LAM1Z", "LAM5P", "LAM5W", "ODVIK2Z", "#BIG2Z" ],
+            "comment": "J4 SIDs (Light Blue)",
+            "color": {
+              "r": 80,
+              "g": 150,
+              "b": 255,
+              "a": 255
+            }
+          },
+          {
+            "names": [ "IMVUR1Z", "KENET3P", "KENET3W", "SAM3P", "SAM3W", "SFD4Z", "SFD9P", "SFD9W" ],
+            "comment": "J7 SIDs (Blue)",
+            "color": {
+              "r": 40,
+              "g": 50,
+              "b": 200,
+              "a": 255
+            }
+          }
+        ],
+        "runways": [
+          {
+            "runway_name": "08L/26R",
+            "path": [
+              [ "N051.08.49.700", "W000.12.45.500" ],
+              [ "N051.08.48.000", "W000.12.44.900" ],
+              [ "N051.09.05.900", "W000.10.36.200" ],
+              [ "N051.09.07.500", "W000.10.36.900" ]
+            ]
+          },
+          {
+            "runway_name": "08R/26L",
+            "path": [
+              [ "N051.08.43.500", "W000.12.44.700" ],
+              [ "N051.08.41.300", "W000.12.43.900" ],
+              [ "N051.09.04.000", "W000.09.55.600" ],
+              [ "N051.09.07.200", "W000.09.57.000" ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+]
