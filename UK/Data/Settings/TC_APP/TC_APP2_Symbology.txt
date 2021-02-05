@@ -28,16 +28,16 @@ Datablock:notified:2003250:3.2:0:0:7
 Datablock:assumed:4184154:3.2:0:0:7
 Datablock:transfer to me initiated:14418140:3.2:0:0:7
 Datablock:redundant:2003250:3.2:0:0:7
-Datablock:information:14418140:3.2:0:0:7
+Datablock:information:255:3.2:0:0:7
 Datablock:even flight level:40960:3.2:0:0:7
 Datablock:odd flight level:40960:3.2:0:0:7
 Datablock:arrivals:42495:3.2:0:0:7
 Datablock:departures:16711680:3.2:0:0:7
 Datablock:user 1:16777215:3.2:0:0:7
-Datablock:user 2:16744448:3.2:0:0:7
-Datablock:user 3:55551:3.2:0:0:7
-Datablock:user 4:65535:3.2:0:0:7
-Datablock:user 5:16755027:3.2:0:0:7
+Datablock:user 2:33023:3.2:0:0:7
+Datablock:user 3:33023:3.2:0:0:7
+Datablock:user 4:16776960:3.2:0:0:7
+Datablock:user 5:5483007:3.2:0:0:7
 Datablock:user 6:16777215:3.2:0:0:7
 Datablock:emergency:3302655:3.2:0:0:7
 Datablock:ongoing requested by me:8404992:3.5:0:0:7
