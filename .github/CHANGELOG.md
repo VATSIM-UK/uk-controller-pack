@@ -3,3 +3,4 @@
 2. Bug - Gatwick Profiles Chart Link Fixed - thanks to @luke11brown (Luke Brown)
 3. Bug - PC PENIL Frequency in Voice.txt corrected - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Bristol Profiles and Displays Added - thanks to @luke11brown (Luke Brown)
+5. Bug - Corrected various controller identifiers in VCCS settings - thanks to @hsugden (Harry Sugden)
