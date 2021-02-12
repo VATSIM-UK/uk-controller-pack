@@ -358,8 +358,6 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Fixes:ABAPO:name
 Fixes:ABAPO:symbol
-Fixes:ABBOT:name
-Fixes:ABBOT:symbol
 Fixes:ABDAL:name
 Fixes:ABDAL:symbol
 Fixes:ABDUK:name
@@ -498,8 +496,6 @@ Fixes:ASRAX:name
 Fixes:ASRAX:symbol
 Fixes:ASRUS:name
 Fixes:ASRUS:symbol
-Fixes:ASTRA:name
-Fixes:ASTRA:symbol
 Fixes:ATNAK:name
 Fixes:ATNAK:symbol
 Fixes:ATSAP:name
@@ -652,8 +648,6 @@ Fixes:BOMBO:name
 Fixes:BOMBO:symbol
 Fixes:BONBY:name
 Fixes:BONBY:symbol
-Fixes:BOVVA:name
-Fixes:BOVVA:symbol
 Fixes:BOYNE:name
 Fixes:BOYNE:symbol
 Fixes:BRAIN:name
@@ -684,8 +678,6 @@ Fixes:CAMBO:name
 Fixes:CAMBO:symbol
 Fixes:CASEL:name
 Fixes:CASEL:symbol
-Fixes:CASEY:name
-Fixes:CASEY:symbol
 Fixes:CEDAR:name
 Fixes:CEDAR:symbol
 Fixes:CHASE:name
@@ -1354,8 +1346,6 @@ Fixes:LUGIS:name
 Fixes:LUGIS:symbol
 Fixes:LULOX:name
 Fixes:LULOX:symbol
-Fixes:LUMBA:name
-Fixes:LUMBA:symbol
 Fixes:LUSEN:name
 Fixes:LUSEN:symbol
 Fixes:LUSIV:name
@@ -2038,8 +2028,6 @@ Fixes:TANET:name
 Fixes:TANET:symbol
 Fixes:TARTN:name
 Fixes:TARTN:symbol
-Fixes:TAWNY:name
-Fixes:TAWNY:symbol
 Fixes:TEBRA:name
 Fixes:TEBRA:symbol
 Fixes:TEDSA:name
@@ -2254,8 +2242,6 @@ Fixes:VOUGA:name
 Fixes:VOUGA:symbol
 Fixes:WAFFU:name
 Fixes:WAFFU:symbol
-Fixes:WEALD:name
-Fixes:WEALD:symbol
 Fixes:WELIN:name
 Fixes:WELIN:symbol
 Fixes:WESUL:name
