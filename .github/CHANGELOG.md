@@ -5,3 +5,4 @@
 4. Enhancement - Bristol Profiles and Displays Added - thanks to @luke11brown (Luke Brown)
 5. Bug - Corrected various controller identifiers in VCCS settings - thanks to @hsugden (Harry Sugden)
 6. Enhancement - Added Gatwick vSMR Profile - thanks to @luke11brown (Luke Brown)
+7. Bug - Fixed directory to AfvEuroScopeBridge plugin in Area profiles - thanks to @hsugden (Harry Sugden)

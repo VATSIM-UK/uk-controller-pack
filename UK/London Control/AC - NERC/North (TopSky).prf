@@ -36,7 +36,7 @@ Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 RecentFiles	Recent1	\..\..\Data\ASR\AC_N\N2T.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_N\Manchester SMR.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_N\Liverpool SMR.asr
