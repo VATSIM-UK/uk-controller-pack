@@ -949,7 +949,7 @@
           },
           {
             "names": [ "IMVUR1Z", "KENET3P", "KENET3W", "SAM3P", "SAM3W", "SFD4Z", "SFD9P", "SFD9W" ],
-            "comment": "J7 SIDs (Blue)",
+            "comment": "Westbound SIDs (Blue)",
             "color": {
               "r": 40,
               "g": 50,
