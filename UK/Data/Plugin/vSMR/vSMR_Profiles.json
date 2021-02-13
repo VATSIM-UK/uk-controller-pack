@@ -939,7 +939,7 @@
           },
           {
             "names": [ "FRANE1P", "FRANE1W", "FRANE1Z", "DVR2P", "DVR2W", "LAM1Z", "LAM5P", "LAM5W", "ODVIK2Z", "#BIG2Z" ],
-            "comment": "J4 SIDs (Light Blue)",
+            "comment": "Eastbound SIDs (Light Blue)",
             "color": {
               "r": 80,
               "g": 150,
