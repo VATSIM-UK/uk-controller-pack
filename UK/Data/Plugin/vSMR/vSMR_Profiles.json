@@ -919,7 +919,7 @@
         "sids": [
           {
             "names": [ "FRANE1M", "FRANE1V", "MIMFO1M", "MIMFO1V", "LAM6M", "LAM6V", "#ADMAG2X", "#BIG2X", "#FRANE1X", "#LAM2X" ],
-            "comment": "A3 SIDs (Light Blue)",
+            "comment": "Eastbound SIDs (Light Blue)",
             "color": {
               "r": 80,
               "g": 150,
