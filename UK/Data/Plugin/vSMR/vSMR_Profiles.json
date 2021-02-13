@@ -929,7 +929,7 @@
           },
           {
             "names": [ "BOGNA1X", "BOGNA1M", "BOGNA1V", "DAGGA1X", "DAGGA1M", "DAGGA1V", "HARDY1X", "HARDY5M", "HARDY5V", "NOVMA1X", "NOVMA1M", "NOVMA1V", "SFD1X", "SFD5M", "SFD5V", "TIGER1X", "TIGER3M", "TIGER3V", "WIZAD1X", "WIZAD4M", "WIZAD4V" ],
-            "comment": "A2 SIDs (Blue)",
+            "comment": "Westbound SIDs (Blue)",
             "color": {
               "r": 40,
               "g": 50,
