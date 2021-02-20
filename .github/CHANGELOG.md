@@ -7,3 +7,4 @@
 6. Enhancement - Added Gatwick vSMR Profile - thanks to @luke11brown (Luke Brown)
 7. Bug - Fixed directory to AfvEuroScopeBridge plugin in Area profiles - thanks to @hsugden (Harry Sugden)
 8. Enhancement - Removed references to defunct LWC bandbox - thanks to @hsugden (Harry Sugden)
+X. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hsugden (Harry Sugden)
