@@ -58,15 +58,19 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
 ARTCC high boundary:EGGX Shanwick FIR:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
 ARTCC high boundary:EHAA Amsterdam FIR:
 ARTCC high boundary:EHAA IBNOS Delegated:
 ARTCC high boundary:EHAA SASKI Delegated:
@@ -82,6 +86,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -91,6 +96,7 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 Fixes:ABAPO:symbol
 Fixes:ABBOT:symbol
 Fixes:ABDAL:symbol
