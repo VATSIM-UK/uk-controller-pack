@@ -8,3 +8,4 @@
 7. Bug - Fixed directory to AfvEuroScopeBridge plugin in Area profiles - thanks to @hsugden (Harry Sugden)
 8. Enhancement - Removed references to defunct LWC bandbox - thanks to @hsugden (Harry Sugden)
 X. Enhancement - UK Controller Plugin Updated to 2.9.2 - thanks to @AndyTWF (Andy Ford)
+11. Enhancement - Borders/Yorkshire/Northern CTAs added to releavmts displays - thanks to @luke11brown (Luke Brown)
