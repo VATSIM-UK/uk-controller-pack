@@ -135,6 +135,9 @@ Departure
 
 .llcpt Cleared to $arr via CPT, then flight planned route. After departure runway $deprwy($dep) climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft QNH $altim(EGLL)hPa. Squawk $squawk
 
+.kkbig26l After departure runway 26L, climb straight ahead to I-WW 2.3 DME, then turn right heading 075, Climb to altitude 4000ft, speed 220 knots or less, Squawk $squawk
+.kkbig08r After departure runway 08R, climb straight ahead to I-GG 5 DME, then turn right heading 090, Climb to altitude 6000ft, Squawk $squawk
+
 .hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
 .hhc Cleared to $arr routing Southampton (SAM), $1. Climb to altitude 4000ft, squawk $squawk
 .hhthred Cleared to $arr routing THRED. Climb to altitude 4000ft, squawk $squawk
