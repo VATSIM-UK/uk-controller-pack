@@ -9,3 +9,4 @@
 8. Enhancement - Removed references to defunct LWC bandbox - thanks to @hsugden (Harry Sugden)
 9. Enhancement - UK Controller Plugin Updated to 2.9.2 - thanks to @AndyTWF (Andy Ford)
 10. Enhancement - Removed navaid failure fixes from all displays - thanks to @luke11brown (Luke Brown)
+11. Enhancement - Borders/Yorkshire/Northern CTAs added to releavmts displays - thanks to @luke11brown (Luke Brown)
