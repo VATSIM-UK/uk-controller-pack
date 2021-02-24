@@ -1,7 +1,8 @@
 VOICE
 AG:Area - Worthing:129.420:old.voice.notused:lon_s_ctr
 AG:Area - Dover:134.900:old.voice.notused:lon_d_ctr
-AG:Area - Daventry:127.100:old.voice.notused:lon_c_ctr
+AG:Area - Central:127.100:old.voice.notused:lon_c_ctr
+AG:Area - Daventry:120.020:old.voice.notused:lon_m_ctr
 AG:Area - Clacton:118.470:old.voice.notused:lon_e_ctr
 AG:Area - North:133.700:old.voice.notused:lon_n_ctr
 AG:Area - West:126.070:old.voice.notused:lon_w_ctr
