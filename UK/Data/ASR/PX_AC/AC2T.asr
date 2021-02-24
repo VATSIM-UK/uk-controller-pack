@@ -165,7 +165,6 @@ Fixes:ARTEX:symbol
 Fixes:ARTHA:symbol
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
-Fixes:ASKEY:symbol
 Fixes:ASKOG:symbol
 Fixes:ASLIB:symbol
 Fixes:ASMIM:symbol
@@ -173,7 +172,6 @@ Fixes:ASNIP:symbol
 Fixes:ASNUD:symbol
 Fixes:ASRAX:symbol
 Fixes:ASRUS:symbol
-Fixes:ASTRA:symbol
 Fixes:ATNAK:symbol
 Fixes:ATSIX:symbol
 Fixes:ATSUR:symbol
@@ -262,7 +260,6 @@ Fixes:BOLBI:symbol
 Fixes:BOLRO:symbol
 Fixes:BOMBO:symbol
 Fixes:BONBY:symbol
-Fixes:BOVVA:symbol
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
@@ -278,7 +275,6 @@ Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
 Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CASEY:symbol
 Fixes:CEDAR:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
@@ -632,7 +628,6 @@ Fixes:LOVEL:symbol
 Fixes:LUCCO:symbol
 Fixes:LUGIS:symbol
 Fixes:LULOX:symbol
-Fixes:LUMBA:symbol
 Fixes:LUNEX:symbol
 Fixes:LUSEN:symbol
 Fixes:LUSIT:symbol
@@ -1023,7 +1018,6 @@ Fixes:TALIG:symbol
 Fixes:TAMEL:symbol
 Fixes:TANET:symbol
 Fixes:TARTN:symbol
-Fixes:TAWNY:symbol
 Fixes:TEBRA:symbol
 Fixes:TEDSA:symbol
 Fixes:TELBA:symbol
@@ -1146,7 +1140,6 @@ Fixes:VOLFI:symbol
 Fixes:VOUGA:symbol
 Fixes:WAFFU:symbol
 Fixes:WATFO:symbol
-Fixes:WEALD:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
 Fixes:WILLO:symbol
