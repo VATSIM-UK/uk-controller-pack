@@ -11,3 +11,4 @@
 10. Enhancement - Removed navaid failure fixes from all displays - thanks to @luke11brown (Luke Brown)
 11. Enhancement - Borders/Yorkshire/Northern CTAs added to releavmts displays - thanks to @luke11brown (Luke Brown)
 12. Bug - Various Scottish Voice Settings updates - thanks to @hsugden (Harry Sugden)
+X. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hsugden (Harry Sugden)
