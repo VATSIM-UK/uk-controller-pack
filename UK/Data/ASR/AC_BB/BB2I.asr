@@ -255,11 +255,12 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
 ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N601(D) FL165-FL195:
+ARTCC high boundary:Conditional - Borders CTA 5:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -289,6 +290,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -298,6 +300,7 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
 ARTCC low boundary:EGAA Belfast CTR:
 ARTCC low boundary:EGAC Belfast City CTA:
@@ -438,14 +441,12 @@ Fixes:ARTEX:symbol
 Fixes:ARTHA:symbol
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
-Fixes:ASKEY:symbol
 Fixes:ASLIB:symbol
 Fixes:ASMIM:symbol
 Fixes:ASNIP:symbol
 Fixes:ASNUD:symbol
 Fixes:ASRAX:symbol
 Fixes:ASRUS:symbol
-Fixes:ASTRA:symbol
 Fixes:ATNAK:symbol
 Fixes:ATSAP:symbol
 Fixes:ATSIX:symbol
@@ -522,7 +523,6 @@ Fixes:BOLBI:symbol
 Fixes:BOLRO:symbol
 Fixes:BOMBO:symbol
 Fixes:BONBY:symbol
-Fixes:BOVVA:symbol
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
@@ -538,7 +538,6 @@ Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
 Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CASEY:symbol
 Fixes:CEDAR:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
@@ -873,7 +872,6 @@ Fixes:LUCCO:symbol
 Fixes:LUFTU:symbol
 Fixes:LUGIS:symbol
 Fixes:LULOX:symbol
-Fixes:LUMBA:symbol
 Fixes:LUSEN:symbol
 Fixes:LUSIV:symbol
 Fixes:LUSOD:symbol
@@ -1215,7 +1213,6 @@ Fixes:TALIG:symbol
 Fixes:TAMEL:symbol
 Fixes:TANET:symbol
 Fixes:TARTN:symbol
-Fixes:TAWNY:symbol
 Fixes:TEBRA:symbol
 Fixes:TEDSA:symbol
 Fixes:TELBA:symbol
@@ -1323,7 +1320,6 @@ Fixes:VIDOK:symbol
 Fixes:VOLFI:symbol
 Fixes:VOUGA:symbol
 Fixes:WAFFU:symbol
-Fixes:WEALD:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
 Fixes:WILLO:symbol
@@ -1338,6 +1334,7 @@ Fixes:XIDIL:symbol
 Fixes:ZEDDO:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
 Stars:CPT Gate:
