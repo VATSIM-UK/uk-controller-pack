@@ -7,6 +7,10 @@ PROFILE:LON_E_CTR:250:6
 ATIS2:"London Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
 ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LON_M_CTR:250:6
+ATIS2:"London Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_CTR:150:6
 ATIS2:"London Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
