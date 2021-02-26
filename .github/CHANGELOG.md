@@ -13,3 +13,4 @@
 12. Bug - Various Scottish Voice Settings updates - thanks to @hsugden (Harry Sugden)
 13. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hsugden (Harry Sugden)
 14. Procedure Change - Added Jersey RFC Line - thanks to @hsugden (Harry Sugden)
+15. Enhancement - Added Reims Release Area - thanks to @hsugden (Harry Sugden)
