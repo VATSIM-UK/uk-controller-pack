@@ -12,3 +12,4 @@
 11. Enhancement - Borders/Yorkshire/Northern CTAs added to releavmts displays - thanks to @luke11brown (Luke Brown)
 12. Bug - Various Scottish Voice Settings updates - thanks to @hsugden (Harry Sugden)
 13. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hsugden (Harry Sugden)
+14. Procedure Change - Added Jersey RFC Line - thanks to @hsugden (Harry Sugden)

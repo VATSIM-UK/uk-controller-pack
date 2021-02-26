@@ -1339,21 +1339,7 @@ Regions:Uncontrolled airspace:polygon
 Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
-Stars:CPT 3953980:
-Stars:Gatwick RMA Westerlies:
-Stars:Heathrow Inner CTA:
-Stars:Heathrow RMA Westerlies:
-Stars:HON 3953980:
-Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
-Stars:Manchester RMA Westerlies:
-Stars:Midlands 3953980:
-Stars:Northolt RMA:
-Stars:Stansted RMA:
-Stars:Thames 3953980:
-Stars:Thames RAVSA Rings:
-Stars:Thames RMA:
-Stars:Worthing Paris Release:
+Stars:Jersey RFC Line:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
