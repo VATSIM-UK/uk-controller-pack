@@ -14,3 +14,4 @@
 13. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hsugden (Harry Sugden)
 14. Procedure Change - Added Jersey RFC Line - thanks to @hsugden (Harry Sugden)
 15. Enhancement - Added Reims Release Area - thanks to @hsugden (Harry Sugden)
+16. Procedure Change - Added DIKRO Box - thanks to @hsugden (Harry Sugden)
