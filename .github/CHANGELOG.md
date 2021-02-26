@@ -15,3 +15,4 @@
 14. Procedure Change - Added Jersey RFC Line - thanks to @hsugden (Harry Sugden)
 15. Enhancement - Added Reims Release Area - thanks to @hsugden (Harry Sugden)
 16. Procedure Change - Added DIKRO Box - thanks to @hsugden (Harry Sugden)
+17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hsugden (Harry Sugden)
