@@ -3,29 +3,56 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORTITLE:UK_2021_01.sct
 ARTCC high boundary:AIRWAYS:
-ARTCC high boundary:BANBA_CTA:
-ARTCC high boundary:Caen Carpiquet CTLZ:
-ARTCC high boundary:Calais CTLZ:
-ARTCC high boundary:Cherbourg Maurpertus CTLZ:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:Banba CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:COTSWOLDNEW:
+ARTCC high boundary:Conditional - Berry Head CTA:
+ARTCC high boundary:Conditional - Cotswold CTA:
+ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - N864 TLA-ASNUD:
+ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - Portsmouth CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
-ARTCC high boundary:Deauville TCA:
+ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
 ARTCC high boundary:EHAA Amsterdam FIR:
-ARTCC high boundary:EHAA Refso Delegated:
-ARTCC high boundary:Le Havre CTLZ:
-ARTCC high boundary:Le Touquet CTLZ:
-ARTCC high boundary:Lille TCA:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
-ARTCC high boundart:Niton CTA:
+ARTCC high boundary:NITON CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
+ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:EGAA Belfast CTA:
 ARTCC low boundary:EGAC Belfast City CTA:
 ARTCC low boundary:EGBB Birmingham CTA:

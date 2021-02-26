@@ -4,8 +4,6 @@ DisplayTypeGeoReferenced:1
 SECTORTITLE:UK_2021_01.sct
 Airports:EGWU:symbol
 ARTCC low boundary:EGLL London Heathrow CTR:
-Fixes:KESAX:name
-Fixes:KESAX:symbol
 Low airways:H10:line
 Low airways:H2:line
 Low airways:H22:line

@@ -255,11 +255,12 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
 ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N601(D) FL165-FL195:
+ARTCC high boundary:Conditional - Borders CTA 5:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -289,6 +290,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -298,6 +300,7 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
 ARTCC low boundary:EGAA Belfast CTR:
 ARTCC low boundary:EGAC Belfast City CTA:
@@ -375,12 +378,14 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
 Stars:DIKRO Box:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
+Stars:Jersey RFC Line:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
 Stars:Northolt RMA:
@@ -391,6 +396,7 @@ Stars:Worthing Paris Release:
 Stars:DEXEN Buffer:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:
+Stars:Reims Release Area:
 SHOWC:1
 SHOWSB:0
 BELOW:200
