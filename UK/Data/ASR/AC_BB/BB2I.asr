@@ -1334,14 +1334,17 @@ Fixes:XIDIL:symbol
 Fixes:ZEDDO:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
 Stars:CPT Gate:
 Stars:DEXEN Buffer:
+Stars:DIKRO Box:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
 Stars:HON Gate:
+Stars:Jersey RFC Line:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
 Stars:Manchester RMA Westerlies:
@@ -1349,6 +1352,7 @@ Stars:Midlands Gate:
 Stars:Northolt RMA:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:
+Stars:Reims Release Area:
 Stars:Stansted RMA:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:

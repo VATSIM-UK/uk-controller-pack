@@ -378,11 +378,14 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
+Stars:DIKRO Box:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
+Stars:Jersey RFC Line:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
 Stars:Northolt RMA:
@@ -393,6 +396,7 @@ Stars:Worthing Paris Release:
 Stars:DEXEN Buffer:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:
+Stars:Reims Release Area:
 SHOWC:1
 SHOWSB:0
 BELOW:200
