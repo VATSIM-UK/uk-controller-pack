@@ -1,6 +1,8 @@
 VOICE
 AG:Area - Bandbox:135.520:old.voice.notused:sco_ctr
 AG:Area - East:121.320:old.voice.notused:sco_e_ctr
+AG:Area - North:129.220:old.voice.notused:sco_n_ctr
+AG:Area - South:134.770:old.voice.notused:sco_n_ctr
 AG:Area - West and DCS:133.870:old.voice.notused:sco_wd_ctr
 AG:Area - West:132.720:old.voice.notused:sco_w_ctr
 AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr
@@ -65,8 +67,8 @@ AG:EGPN_TWR:122.900:old.voice.notused:egpn_twr
 AG:EGPN_ATIS:119.320:old.voice.notused:egpn_atis
 AG:EGPO_A_APP:123.500:old.voice.notused:egpo_a_app
 AG:EGPO_TWR:123.500:old.voice.notused:egpo_twr
-AG:EGPO_ATIS:115.100:old.voice.notused:egpo_atis
+AG:EGPO_ATIS:121.600:old.voice.notused:egpo_atis
 AG:EGPR_ATIS:115.100:old.voice.notused:egpr_atis
-AG:EGPT_TWR:115.100:old.voice.notused:egpt_twr
-AG:EGPU_ATIS:122.700:old.voice.notused:egpu_atis
+AG:EGPT_TWR:121.070:old.voice.notused:egpt_twr
+AG:EGPU_I_TWR:122.700:old.voice.notused:egpu_i_twr
 END
