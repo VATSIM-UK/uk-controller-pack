@@ -35,6 +35,9 @@ Generic
 
 .qnh QNH $altim($1)
 
+.ini Hi there! You climbed through the initial climb on your departure today - not to worry, but can I ask that you make sure to check initial climb restrictions and step climbs for SIDs EVERY time you fly, to ensure you do not conflict with other airspace users in this busy airspace. All UK Aerodrome/SID charts are available here: https://chartfox.org/
+.iniall LONDON BROADCAST: A QUICK REMINDER TO ALL TO CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY! https://chartfox.org/ EVEN MORE IMPORTANT TO DO SO WHEN IT'S BUSY!
+
 ========================================================
 Handoffs
 ========================================================
