@@ -58,15 +58,19 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
 ARTCC high boundary:EGGX Shanwick FIR:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
 ARTCC high boundary:EHAA Amsterdam FIR:
 ARTCC high boundary:EHAA IBNOS Delegated:
 ARTCC high boundary:EHAA SASKI Delegated:
@@ -82,6 +86,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -91,6 +96,7 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
 ARTCC low boundary:EGAA Belfast CTR:
 ARTCC low boundary:EGAC Belfast City CTA:
@@ -230,7 +236,6 @@ Fixes:ARTEX:symbol
 Fixes:ARTHA:name
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
-Fixes:ASKEY:symbol
 Fixes:ASKOG:name
 Fixes:ASLIB:symbol
 Fixes:ASMIM:symbol
@@ -238,7 +243,6 @@ Fixes:ASNIP:name
 Fixes:ASNUD:name
 Fixes:ASRAX:symbol
 Fixes:ASRUS:symbol
-Fixes:ASTRA:symbol
 Fixes:ATNAK:name
 Fixes:ATSIX:name
 Fixes:ATSUR:symbol
@@ -327,7 +331,6 @@ Fixes:BOLBI:name
 Fixes:BOLRO:name
 Fixes:BOMBO:symbol
 Fixes:BONBY:symbol
-Fixes:BOVVA:name
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
@@ -343,7 +346,6 @@ Fixes:BUZAD:name
 Fixes:CALDA:symbol
 Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CASEY:name
 Fixes:CEDAR:name
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
@@ -695,7 +697,6 @@ Fixes:LOVEL:symbol
 Fixes:LUCCO:symbol
 Fixes:LUGIS:name
 Fixes:LULOX:name
-Fixes:LUMBA:symbol
 Fixes:LUNEX:symbol
 Fixes:LUSEN:symbol
 Fixes:LUSIT:name
@@ -1084,7 +1085,6 @@ Fixes:TALIG:symbol
 Fixes:TAMEL:symbol
 Fixes:TANET:symbol
 Fixes:TARTN:name
-Fixes:TAWNY:name
 Fixes:TEBRA:symbol
 Fixes:TEDSA:symbol
 Fixes:TELBA:symbol
@@ -1207,7 +1207,6 @@ Fixes:VOLFI:name
 Fixes:VOUGA:symbol
 Fixes:WAFFU:symbol
 Fixes:WATFO:name
-Fixes:WEALD:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
 Fixes:WILLO:name

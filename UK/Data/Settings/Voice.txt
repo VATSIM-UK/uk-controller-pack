@@ -1,7 +1,8 @@
 VOICE
 AG:Area - Worthing:129.420:old.voice.notused:lon_s_ctr
 AG:Area - Dover:134.900:old.voice.notused:lon_d_ctr
-AG:Area - Daventry:127.100:old.voice.notused:lon_c_ctr
+AG:Area - Central:127.100:old.voice.notused:lon_c_ctr
+AG:Area - Daventry:120.020:old.voice.notused:lon_m_ctr
 AG:Area - Clacton:118.470:old.voice.notused:lon_e_ctr
 AG:Area - North:133.700:old.voice.notused:lon_n_ctr
 AG:Area - West:126.070:old.voice.notused:lon_w_ctr
@@ -47,7 +48,7 @@ AG:Area - PC TNT:119.520:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
 AG:X Area - PC WAL:125.950:old.voice.notused:man_wl_ctr
 AG:X Area - PC IoM:133.050:old.voice.notused:man_wi_ctr
-AG:X Area - PC PENIL:128.050:old.voice.notused:man_wp_ctr
+AG:X Area - PC PENIL:126.870:old.voice.notused:man_wp_ctr
 AG:EGBB_APP:123.970:old.voice.notused:egbb_app
 AG:EGBB_F_APP:131.000:old.voice.notused:egbb_f_app
 AG:EGBB_TWR:118.300:old.voice.notused:egbb_twr

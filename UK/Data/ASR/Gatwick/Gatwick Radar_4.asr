@@ -254,11 +254,12 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
 ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N601(D) FL165-FL195:
+ARTCC high boundary:Conditional - Borders CTA 5:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -288,6 +289,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -297,6 +299,7 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
 ARTCC low boundary:EGAA Belfast CTR:
 ARTCC low boundary:EGAC Belfast City CTA:
@@ -491,8 +494,6 @@ Fixes:ARTIX:name
 Fixes:ARTIX:symbol
 Fixes:ASKAM:name
 Fixes:ASKAM:symbol
-Fixes:ASKEY:name
-Fixes:ASKEY:symbol
 Fixes:ASLIB:name
 Fixes:ASLIB:symbol
 Fixes:ASMIM:name
@@ -505,8 +506,6 @@ Fixes:ASRAX:name
 Fixes:ASRAX:symbol
 Fixes:ASRUS:name
 Fixes:ASRUS:symbol
-Fixes:ASTRA:name
-Fixes:ASTRA:symbol
 Fixes:ATNAK:name
 Fixes:ATNAK:symbol
 Fixes:ATSAP:name
@@ -659,8 +658,6 @@ Fixes:BOMBO:name
 Fixes:BOMBO:symbol
 Fixes:BONBY:name
 Fixes:BONBY:symbol
-Fixes:BOVVA:name
-Fixes:BOVVA:symbol
 Fixes:BOYNE:name
 Fixes:BOYNE:symbol
 Fixes:BRAIN:name
@@ -691,8 +688,6 @@ Fixes:CAMBO:name
 Fixes:CAMBO:symbol
 Fixes:CASEL:name
 Fixes:CASEL:symbol
-Fixes:CASEY:name
-Fixes:CASEY:symbol
 Fixes:CEDAR:name
 Fixes:CEDAR:symbol
 Fixes:CHASE:name
@@ -1361,8 +1356,6 @@ Fixes:LUGIS:name
 Fixes:LUGIS:symbol
 Fixes:LULOX:name
 Fixes:LULOX:symbol
-Fixes:LUMBA:name
-Fixes:LUMBA:symbol
 Fixes:LUSEN:name
 Fixes:LUSEN:symbol
 Fixes:LUSIV:name
@@ -2045,8 +2038,6 @@ Fixes:TANET:name
 Fixes:TANET:symbol
 Fixes:TARTN:name
 Fixes:TARTN:symbol
-Fixes:TAWNY:name
-Fixes:TAWNY:symbol
 Fixes:TEBRA:name
 Fixes:TEBRA:symbol
 Fixes:TEDSA:name
@@ -2261,8 +2252,6 @@ Fixes:VOUGA:name
 Fixes:VOUGA:symbol
 Fixes:WAFFU:name
 Fixes:WAFFU:symbol
-Fixes:WEALD:name
-Fixes:WEALD:symbol
 Fixes:WELIN:name
 Fixes:WELIN:symbol
 Fixes:WESUL:name
