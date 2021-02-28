@@ -16,3 +16,5 @@
 15. Enhancement - Added Reims Release Area - thanks to @hsugden (Harry Sugden)
 16. Procedure Change - Added DIKRO Box - thanks to @hsugden (Harry Sugden)
 17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hsugden (Harry Sugden)
+18. NODE-L Profiles list symbology adjusted for improved readability - thanks to @luke11brown (Luke Brown)
+19. Enhancement - SODVU box defined as TopSky map - thanks to @hsugden (Harry Sugden) and @luke11brown (Luke Brown)
