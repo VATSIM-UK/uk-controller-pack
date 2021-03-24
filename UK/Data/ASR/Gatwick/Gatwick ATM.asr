@@ -1,26 +1,18 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-Airports:EGWU:symbol
-ARTCC low boundary:EGLL London Heathrow CTR:
-Low airways:H10:line
-Low airways:H2:line
-Low airways:H22:line
-Low airways:H3:line
-Low airways:H4:line
-Low airways:H5:line
-Low airways:H7:line
-Low airways:H9:line
-Runways:EGLL London Heathrow 09L-27R:centerline
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1 left ticks
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2 right ticks
-Runways:EGLL London Heathrow 09R-27L:centerline
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1 right ticks
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2 left ticks
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+Fixes:TIMBA:symbol
+Fixes:WILLO:symbol
+Runways:EGKK Gatwick 08R-26L:centerline
+Runways:EGKK Gatwick 08R-26L:extended centerline 1
+Runways:EGKK Gatwick 08R-26L:extended centerline 1 left ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 1 right ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 2
+Runways:EGKK Gatwick 08R-26L:extended centerline 2 left ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 2 right ticks
+VORs:MAY:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:100
@@ -32,9 +24,9 @@ HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:0.00000
+DisplayRotation:11.00000
 TAGFAMILY:Traffic Monitor
-WINDOWAREA:51.019260:-0.936851:51.934302:0.018859
+WINDOWAREA:50.889277:-0.893641:51.357779:0.575864
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:735
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:967
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
