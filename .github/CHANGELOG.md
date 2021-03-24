@@ -1,6 +1,7 @@
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
 2. Enhancement - Improved EGNR (Hawarden) extended centrelines - thanks to @luke11brown (Luke Brown)
+3. Bug - Bristol profiles navaid font sizes adjusted - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/01 to 2021/02
 1. Enhancement - Incorporated TopSky 2.3.1 beta 5 - thanks to @luke11brown (Luke Brown)
