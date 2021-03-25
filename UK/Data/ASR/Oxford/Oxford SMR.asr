@@ -1,6 +1,8 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
 Free Text:SCT2\06 Grass:freetext
@@ -2788,8 +2790,8 @@ Free Text:SCT2\Z1:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
-Geo:EGTE Exeter:
-Regions:Exeter:polygon
+Geo:EGTK Oxford:
+Regions:Oxford:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -2803,7 +2805,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:50.723014:-3.446048:50.745319:-3.381730
+WINDOWAREA:51.826790:-1.346064:51.844634:-1.294607
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1

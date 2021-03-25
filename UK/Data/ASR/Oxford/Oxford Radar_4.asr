@@ -2270,6 +2270,12 @@ Fixes:XIDIL:name
 Fixes:XIDIL:symbol
 Fixes:ZEDDO:name
 Fixes:ZEDDO:symbol
+Runways:EGTK Oxford 01-19:extended centerline 1
+Runways:EGTK Oxford 01-19:extended centerline 1 left ticks
+Runways:EGTK Oxford 01-19:extended centerline 1 right ticks
+Runways:EGTK Oxford 01-19:extended centerline 2
+Runways:EGTK Oxford 01-19:extended centerline 2 left ticks
+Runways:EGTK Oxford 01-19:extended centerline 2 right ticks
 Sids:EGTK Oxford SMAA:
 VORs:ABB:name
 VORs:ABB:symbol
@@ -2474,7 +2480,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Approach
-WINDOWAREA:50.417205:-4.327904:51.051128:-2.499874
+WINDOWAREA:51.440743:-2.462519:52.233146:-0.177481
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
