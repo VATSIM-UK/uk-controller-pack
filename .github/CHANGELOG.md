@@ -1,5 +1,6 @@
 # Changes from release 2021/02 to 2021/03
 X. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
+X. Enhancement - Added VATCAN bookings plugin - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/01 to 2021/02
 1. Enhancement - Incorporated TopSky 2.3.1 beta 5 - thanks to @luke11brown (Luke Brown)
