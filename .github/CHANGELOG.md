@@ -7,6 +7,7 @@
 6. Enhancement - Directories referencing secotr file now fixed to enable auto-update to work - thanks to @luke11brown (Luke Brown)
 7. Enhancement - UKControllerPlugin updated to 2.11.0 - thanks to @luke11brown (Luke Brown)
 8. Enhancement - Exeter profile added - thanks to @luke11brown (Luke Brown)
+9. Enhancement - Oxford profile added - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/01 to 2021/02
 1. Enhancement - Incorporated TopSky 2.3.1 beta 5 - thanks to @luke11brown (Luke Brown)
