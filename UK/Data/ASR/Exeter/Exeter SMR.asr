@@ -2788,8 +2788,8 @@ Free Text:SCT2\Z1:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
-Geo:EGGD Bristol:
-Regions:Bristol:polygon
+Geo:EGTE Exeter:
+Regions:Exeter:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -2824,7 +2824,7 @@ PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
-PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGGD
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
-PLUGIN:vSMR:Airport:EGGD
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGTE
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_PORTLAND;ASR_WESSEX
+PLUGIN:vSMR:Airport:EGTE
 PLUGIN:vSMR:GndTrailsDots:0
