@@ -1312,6 +1312,7 @@ Fixes:XAPOS:symbol
 Fixes:XAVAP:symbol
 Fixes:XIDIL:symbol
 Fixes:ZEDDO:symbol
+Geo:Coastline (Medium Detail) GB Main Coastline:
 Runways:EGTE Exeter 08-26:extended centerline 1
 Runways:EGTE Exeter 08-26:extended centerline 1 left ticks
 Runways:EGTE Exeter 08-26:extended centerline 1 right ticks
@@ -1421,7 +1422,7 @@ ABOVE:0
 LEADER:3
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:0
+HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
@@ -1441,7 +1442,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:15
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
