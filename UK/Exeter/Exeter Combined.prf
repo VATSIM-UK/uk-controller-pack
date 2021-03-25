@@ -1,0 +1,34 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Exeter\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Exeter\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\TC_APP\TC_APP_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
+Settings	SettingsfileARR	\..\Data\Settings\TC_APP\TC_APP_AL.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\TC_APP\TC_APP_C.txt
+Settings	SettingsfileDEP	\..\Data\Settings\TC_APP\TC_APP_DL.txt
+Settings	SettingsfileFP	\..\Data\Settings\TC_APP\TC_APP_FPL.txt
+Settings	SettingsfileSEL	\..\Data\Settings\TC_APP\TC_APP_SEL.txt
+Settings	SettingsfileSIL	\..\Data\Settings\TC_APP\TC_APP_SIL.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Exeter\APP_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
+Settings	sector	UK\Data\Sector\UK_2021_03.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Exeter\Exeter Radar_2.asr
+RecentFiles	Recent2	\..\Data\ASR\Exeter\Exeter Radar_1.asr
+RecentFiles	Recent3	\..\Data\ASR\Exeter\Exeter Radar_3.asr
+RecentFiles	Recent4	\..\Data\ASR\Exeter\Exeter Radar_4.asr
+RecentFiles	Recent5	\..\Data\ASR\Exeter\Exeter SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Exeter\Exeter Radar_1.asr
+ASRFastKeys	2	\..\Data\ASR\Exeter\Exeter Radar_2.asr
+ASRFastKeys	3	\..\Data\ASR\Exeter\Exeter Radar_3.asr
+ASRFastKeys	4	\..\Data\ASR\Exeter\Exeter Radar_4.asr
+ASRFastKeys	5	\..\Data\ASR\Exeter\Exeter SMR.asr
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
+Plugins Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
