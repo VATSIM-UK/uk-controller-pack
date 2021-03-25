@@ -3,6 +3,7 @@
 2. Enhancement - Improved EGNR (Hawarden) extended centrelines - thanks to @luke11brown (Luke Brown)
 3. Bug - Bristol profiles navaid font sizes adjusted - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Added Gatwick ATM profile and separated ATM settings - thanks to @hsugden (Harry Sugden)
+5. Enhancement - Added VATCAN bookings plugin - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/01 to 2021/02
 1. Enhancement - Incorporated TopSky 2.3.1 beta 5 - thanks to @luke11brown (Luke Brown)
