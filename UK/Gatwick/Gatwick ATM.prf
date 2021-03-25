@@ -1,0 +1,28 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Gatwick\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Gatwick\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\ATM\ATM_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\Data\Settings\ATM\ATM_General.txt
+Settings	SettingsfileARR	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\ATM\ATM_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
+Settings	sector	UK\Data\Sector\UK_2021_02.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Gatwick\Gatwick ATM.asr
+RecentFiles	Recent2	\..\Data\ASR\Gatwick\Gatwick SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Gatwick\Gatwick ATM.asr
+ASRFastKeys	2	\..\Data\ASR\Gatwick\Gatwick SMR.asr
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
