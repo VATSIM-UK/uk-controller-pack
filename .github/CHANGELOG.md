@@ -1,3 +1,6 @@
+# Changes from release 2021/03 to 2021/04
+X. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
+
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
 2. Enhancement - Improved EGNR (Hawarden) extended centrelines - thanks to @luke11brown (Luke Brown)
