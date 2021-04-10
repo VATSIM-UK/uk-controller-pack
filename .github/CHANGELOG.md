@@ -3,7 +3,7 @@
 2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
 3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
 4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
-5. Enhancement - UKControllerPlugin.dll updated to version 2.13.0 - thanks to @AndyTWF (Andy Ford)
+5. Enhancement - UKControllerPlugin.dll updated to version 2.12.1 - thanks to @AndyTWF (Andy Ford)
 
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
