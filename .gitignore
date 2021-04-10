@@ -7,3 +7,4 @@
 *.sqlite-journal
 /.vs/ProjectSettings.json
 /.vs/VSWorkspaceState.json
+/ipaddr.txt
