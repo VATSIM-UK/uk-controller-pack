@@ -3,6 +3,7 @@
 2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
 3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
 4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
+5. Enhancement - UKControllerPlugin.dll updated to version 2.13.0 - thanks to @AndyTWF (Andy Ford)
 
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
@@ -35,6 +36,6 @@
 17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hsugden (Harry Sugden)
 18. NODE-L Profiles list symbology adjusted for improved readability - thanks to @luke11brown (Luke Brown)
 19. Enhancement - SODVU box defined as TopSky map - thanks to @hsugden (Harry Sugden) and @luke11brown (Luke Brown)
-20. Nug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown) 
+20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown) 
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
