@@ -2292,22 +2292,22 @@ Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
-Stars:CPT 3953980:
+Stars:CPT Gate:
 Stars:DIKRO Box:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
-Stars:HON 3953980:
+Stars:HON Gate:
+Stars:La Manche Release Area:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
-Stars:Midlands 3953980:
+Stars:Midlands Gate:
 Stars:Northolt RMA:
 Stars:Reims Release Area:
 Stars:Stansted RMA:
-Stars:Thames 3953980:
+Stars:Thames Gate:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
-Stars:Worthing Paris Release:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
