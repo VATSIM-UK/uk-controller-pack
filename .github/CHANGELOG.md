@@ -3,7 +3,7 @@
 2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
 3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
 4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
-
+5. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
 2. Enhancement - Improved EGNR (Hawarden) extended centrelines - thanks to @luke11brown (Luke Brown)
