@@ -182,7 +182,7 @@ AG:EGNR_F_APP:130.020:old.voice.notused:egnr_f_app
 AG:EGNR_TWR:124.950:old.voice.notused:egnr_twr
 AG:EGNR_ATIS:125.420:old.voice.notused:egnr_atis
 AG:EGNS_APP:120.850:old.voice.notused:egns_app
-AG:EGNS_TWR:118.900:old.voice.notused:egns_twr
+AG:EGNS_TWR:119.000:old.voice.notused:egns_twr
 AG:EGNS_ATIS:123.870:old.voice.notused:egns_atis
 AG:EGNT_APP:124.370:old.voice.notused:egnt_app
 AG:EGNT_F_APP:125.820:old.voice.notused:egnt_f_app
