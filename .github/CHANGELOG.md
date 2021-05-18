@@ -1,9 +1,10 @@
-# Changes from release 2021/03 to 2021/04
+# Changes from release 2021/03 to 2021/05
 1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hsugden (Harry Sugden)
 2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
 3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
 4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
 5. Enhancement - UKControllerPlugin.dll updated to version 2.12.1 - thanks to @AndyTWF (Andy Ford)
+5. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
