@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
     "\\UK",
     "\\UK\\Data",
     "\\UK\\Data\\Plugin",
-    "\\UK\\Data\\Plugin\\vSMR",
-    "\\UK\\London Control",
-    "\\UK\\London Control\\AC - NERC",
-    "\\UK\\Manchester",
-    "\\_docs",
-    "\\_docs\\VATCANBookings"
+    "\\UK\\Data\\Sector",
+    "\\_docs"
   ],
-  "SelectedNode": "\\UK\\Data\\Plugin\\vSMR\\vSMR_Profiles.json",
+  "SelectedNode": "\\UK\\Data\\Sector\\VATUK_SectorFileProviderDescriptor.txt",
   "PreviewInSolutionExplorer": false
 }
