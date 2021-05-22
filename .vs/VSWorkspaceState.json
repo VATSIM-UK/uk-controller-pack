@@ -4,10 +4,11 @@
     "\\.github",
     "\\UK",
     "\\UK\\Data",
+    "\\UK\\Data\\ASR",
+    "\\UK\\Data\\ASR\\Oxford",
     "\\UK\\Data\\Plugin",
-    "\\UK\\Data\\Sector",
-    "\\_docs"
+    "\\UK\\Exeter"
   ],
-  "SelectedNode": "\\UK\\Data\\Sector\\VATUK_SectorFileProviderDescriptor.txt",
+  "SelectedNode": "\\.github\\CHANGELOG.md",
   "PreviewInSolutionExplorer": false
 }
