@@ -4,7 +4,8 @@
 3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
 4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
 5. Enhancement - UKControllerPlugin.dll updated to version 2.12.1 - thanks to @AndyTWF (Andy Ford)
-5. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
+6. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
+7. Enhancement - Realistic code/callsign conversion turned on by default - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
