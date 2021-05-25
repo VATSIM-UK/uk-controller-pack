@@ -1,7 +1,7 @@
 //Daylight savings dates correct for Oct 2020/Mar 2021
 //Requires update before Oct 2021
 
-CATEGORYDEF:DANGER:1:1:0:0:0:0:0:0:0:0:1:0
+CATEGORYDEF:DANGER:1:1:0:0:0:0:0:0:0:1:0
 CATEGORYDEF:AARA:1:1:10:0:0:10:1:0:0:1:0
 CATEGORYDEF:MTA:1:1:10:0:0:10:0:0:0:1:0
 
