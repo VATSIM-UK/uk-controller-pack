@@ -42,3 +42,8 @@ RecentFiles	Recent2	\..\..\Data\ASR\AC_BB\BB1T.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_BB\BBG1.asr
 RecentFiles	Recent4	\..\..\Data\ASR\AC_BB\BBG2.asr
 RecentFiles	Recent9	\..\..\Data\ASR\AC_BB\BBG4.asr
+Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
+Settings	airways	\..\..\Data\Datafiles\airway.txt

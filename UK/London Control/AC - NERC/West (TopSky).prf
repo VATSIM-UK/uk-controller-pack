@@ -42,3 +42,8 @@ ASRFastKeys	1	\..\..\Data\ASR\AC_W\W1T.asr
 ASRFastKeys	2	\..\..\Data\ASR\AC_W\W2T.asr
 ASRFastKeys	3	\..\..\Data\ASR\AC_W\W3T.asr
 ASRFastKeys	4	\..\..\Data\ASR\AC_W\W4T.asr
+Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
+Settings	airways	\..\..\Data\Datafiles\airway.txt

@@ -41,3 +41,8 @@ RecentFiles	Recent1	\..\..\Data\ASR\AC_N\N2T.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_N\Manchester SMR.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_N\Liverpool SMR.asr
 RecentFiles	Recent4	\..\..\Data\ASR\AC_N\Leeds SMR.asr
+Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
+Settings	airways	\..\..\Data\Datafiles\airway.txt
