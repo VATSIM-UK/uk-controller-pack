@@ -44,3 +44,8 @@ RecentFiles	Recent4	\..\..\Data\ASR\AC_C\C1T.asr
 RecentFiles	Recent9	\..\..\Data\ASR\AC_C\Luton SMR.asr
 RecentFiles	Recent10	\..\..\Data\ASR\AC_C\Birmingham SMR.asr
 RecentFiles	Recent11	\..\..\Data\ASR\AC_C\East Midlands SMR.asr
+Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
+Settings	airways	\..\..\Data\Datafiles\airway.txt

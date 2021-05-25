@@ -34,3 +34,8 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 ASRFastKeys	6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 RecentFiles	Recent6	\..\Data\ASR\Cardiff\St Athan SMR.asr
+Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\Data\Datafiles\icao.txt
+Settings	airways	\..\Data\Datafiles\airway.txt
