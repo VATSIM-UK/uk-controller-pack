@@ -8,6 +8,7 @@
 7. Enhancement - Realistic code/callsign conversion turned on by default - thanks to @luke11brown (Luke Brown)
 8. Bug - Generic SMR now has all available airfields turned on by default - thanks to @luke11brown (Luke Brown)
 9. AIRAC (2105) -  Sector file updated to 2021_05a - thanks to @luke11brown (Luke Brown)
+10. Enhancement - Include ICAO datafiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/02 to 2021/03
 1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
