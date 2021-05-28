@@ -5,6 +5,8 @@ AG:Area - Central:127.100:old.voice.notused:lon_c_ctr
 AG:Area - Daventry:120.020:old.voice.notused:lon_m_ctr
 AG:Area - Clacton:118.470:old.voice.notused:lon_e_ctr
 AG:Area - North:133.700:old.voice.notused:lon_n_ctr
+AG:Area - North Sea:128.120:old.voice.notused:lon_ne_ctr
+AG:Area - Lakes:135.570:old.voice.notused:lon_nw_ctr
 AG:Area - West:126.070:old.voice.notused:lon_w_ctr
 AG:Area - South Central:132.600:old.voice.notused:lon_sc_ctr
 AG:Area - Bandbox:127.820:old.voice.notused:lon_ctr
@@ -16,8 +18,6 @@ AG:Area - TC North:119.770:old.voice.notused:ltc_n_ctr
 AG:Area - TC NE:118.820:old.voice.notused:ltc_ne_ctr
 AG:Area - TC NW:121.270:old.voice.notused:ltc_nw_ctr
 AG:Area - TC Bandbox:135.800:old.voice.notused:ltc_ctr
-AG:X Area - North (North Sea):128.120:old.voice.notused:lon_ne_ctr
-AG:X Area - North (Lakes):135.570:old.voice.notused:lon_nw_ctr
 AG:X Area - North (Sector 4):132.870:old.voice.notused:lon_nu_ctr
 AG:X Area - Daventry (West):134.400:old.voice.notused:lon_cw_ctr
 AG:X Area - Daventry (East):127.870:old.voice.notused:lon_ce_ctr
