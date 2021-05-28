@@ -44,8 +44,8 @@ AG:Area - PC Bandbox:133.200:old.voice.notused:man_ctr
 AG:Area - PC E:133.800:old.voice.notused:man_e_ctr
 AG:Area - PC NE:135.700:old.voice.notused:man_e_ctr
 AG:Area - PC SE:134.420:old.voice.notused:man_e_ctr
-AG:Area - PC TNT:119.520:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
+AG:X Area - PC TNT:119.520:old.voice.notused:man_e_ctr
 AG:X Area - PC WAL:125.950:old.voice.notused:man_wl_ctr
 AG:X Area - PC IoM:133.050:old.voice.notused:man_wi_ctr
 AG:X Area - PC PENIL:126.870:old.voice.notused:man_wp_ctr
