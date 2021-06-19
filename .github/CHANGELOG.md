@@ -3,6 +3,7 @@
 2. Enhancement - Danger Areas Fixed, MTAs added EK and EH areas added where necessary - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Turn on UKCP Initial Heading Settings by default, remove some redundant settings files - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Improved TopSky Leeds Extended Centrelines - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Improved TopSky Teesside Extended Centrelines - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/03 to 2021/05
 1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hsugden (Harry Sugden)
