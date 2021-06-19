@@ -1,4 +1,7 @@
-X. Danger Areas Fixed, MTAs added EK and EH areas added wherre necessary - thanks to @luke11brown (Luke Brown)
+# Changes from release 2021/05 to 2021/06
+1. Enhancement - Improved TopSky Leeds Extended Centrelines - thanks to @luke11brown (Luke Brown)
+2. Enhancement - Danger Areas Fixed, MTAs added EK and EH areas added where necessary - thanks to @luke11brown (Luke Brown)
+
 
 # Changes from release 2021/03 to 2021/05
 1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hsugden (Harry Sugden)
