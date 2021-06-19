@@ -1,3 +1,5 @@
+X. Enhancement - Improved Teesside Extended Centrelines - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2021/03 to 2021/05
 1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hsugden (Harry Sugden)
 2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
