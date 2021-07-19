@@ -11,7 +11,7 @@ AG:Area - TC:126.300:old.voice.notused:stc_ctr
 AG:Area - Antrim:123.770:old.voice.notused:stc_a_ctr
 AG:EGAA_GND:121.750:old.voice.notused:egaa_gnd
 AG:EGAA_TWR:118.300:old.voice.notused:egaa_twr
-AG:EGAA_APP:128.500:old.voice.notused:egaa_app
+AG:EGAA_APP:133.120:old.voice.notused:egaa_app
 AG:EGAA_F_APP:120.900:old.voice.notused:egaa_f_app
 AG:EGAA_ATIS:126.120:old.voice.notused:egaa_atis
 AG:EGAB_R_TWR:123.200:old.voice.notused:egab_r_twr
