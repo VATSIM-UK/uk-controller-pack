@@ -4,10 +4,13 @@
     "\\.github",
     "\\UK",
     "\\UK\\Data",
-    "\\UK\\Data\\ASR",
-    "\\UK\\Data\\ASR\\Oxford",
     "\\UK\\Data\\Plugin",
-    "\\UK\\Exeter"
+    "\\UK\\Data\\Plugin\\TopSky",
+    "\\UK\\Data\\Settings\\Local",
+    "\\UK\\Data\\Settings\\Local\\Thames",
+    "\\UK\\Data\\Settings\\LTC",
+    "\\UK\\Data\\Settings\\Sc_APP",
+    "\\UK\\Data\\Settings\\TC_APP"
   ],
   "SelectedNode": "\\.github\\CHANGELOG.md",
   "PreviewInSolutionExplorer": false
