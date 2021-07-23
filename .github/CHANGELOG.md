@@ -1,3 +1,6 @@
+# Changes from release 2021/06 to 2021/07
+1. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2021/05 to 2021/06
 1. Enhancement - Improved TopSky Leeds Extended Centrelines - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Danger Areas Fixed, MTAs added EK and EH areas added where necessary - thanks to @luke11brown (Luke Brown)
