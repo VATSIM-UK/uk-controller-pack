@@ -411,6 +411,10 @@ TAGFAMILY:AC
 WINDOWAREA:49.301367:-7.775692:54.166668:7.484833
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1523
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
