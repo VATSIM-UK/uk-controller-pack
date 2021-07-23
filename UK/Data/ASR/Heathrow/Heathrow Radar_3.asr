@@ -1845,6 +1845,10 @@ TAGFAMILY:NODE
 WINDOWAREA:50.972436:-1.976904:52.029032:1.337220
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1513
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
