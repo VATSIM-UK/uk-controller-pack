@@ -116,6 +116,10 @@ WINDOWAREA:52.117820:-19.614628:62.381795:11.362237
 PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
