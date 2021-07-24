@@ -1428,6 +1428,10 @@ TAGFAMILY:NOVA 9000
 WINDOWAREA:52.927699:-4.049535:53.726434:-1.544219
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1508
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
