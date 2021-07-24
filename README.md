@@ -16,3 +16,5 @@ RDF Plugin - thanks to Claus Hemberg Jørgensen (@ChembergJ)(https://github.com/
 TopSky Plugin - thanks to Juha Holopainen (https://vatsim-scandinavia.org/forums/forum/54-plugins/)
 
 AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
+
+Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
