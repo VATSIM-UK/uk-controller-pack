@@ -8,7 +8,7 @@ A new release will be published in line with each AIRAC cycle (as long as signif
 ## Contributing
 If you wish to contribute, take a look at our [contribution guide.](https://github.com/VATSIM-UK/uk-controller-pack/blob/main/Contributing.md)
 
-### Included in the pack:
+### Included In The Pack:
 UK Controller Plugin - thanks to Andy Ford (@AndyTWF)(https://github.com/VATSIM-UK/uk-controller-plugin)
 
 vSMR Plugin - thanks to Pierre Ferran (@Pierr3)(https://github.com/pierr3/vSMR)
