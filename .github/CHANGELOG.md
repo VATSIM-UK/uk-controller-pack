@@ -1,3 +1,6 @@
+# Changes from release 2021/07 to 2021/08
+1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2021/06 to 2021/07
 1. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @luke11brown (Luke Brown)
 2. AIRAC - South coast danger areas timings, vertical limits and coordinates updated - thanks to @luke11brown (Luke Brown)
