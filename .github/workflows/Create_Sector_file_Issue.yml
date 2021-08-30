@@ -1,0 +1,25 @@
+
+name: Sector File Issue Creator
+on:
+  schedule:
+    - cron: [PLS SEND HALP I CAN'T FIGURE THIS BIT OUT YO]'
+
+jobs:
+  create_issue:
+    name: Create Sector File Issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create team sync issue
+        uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
+        with:
+          assignees:
+          labels: "airac"
+          title: "Include Latest Sector File Version"
+          body: |
+            Include the latest version of the UK Sector File
+          pinned: false
+          close-previous: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
