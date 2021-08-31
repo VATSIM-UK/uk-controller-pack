@@ -2,12 +2,12 @@
 name: Sector File Issue Creator
 on: workflow_dispatch
 jobs:
-  create_issue:
-    if:[ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
+ create_issue:
   runs-on: ubuntu-latest
+  if:  (( (((date -d "2021-01-28" +%s) - (date +%s)) / 86400) % 28 )) == 0 ; then true; else false; fi
   permissions:
-      issues: write
-   steps:
+    issues: write
+  steps:
       - name: UK Sector File Update
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
