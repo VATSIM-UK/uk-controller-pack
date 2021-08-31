@@ -1,7 +1,7 @@
 
 name: Sector File Issue Creator
 on:
- schedule:
+  schedule:
    - cron 45 5 * * *
 jobs:
   create_issue:
