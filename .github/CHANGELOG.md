@@ -1,5 +1,9 @@
-# Changes from release 2021/07 to 2021/08
-1. Enhancement - Added OCAS Region for Cotswold CTA FUA - thanks to @danielbutton (Daniel Button)
+# Changes from release 2021/07 to 2021/09
+1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
+2. Enhancement - VATCANBookings plugin updated to V1.1 - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Danger areas levels now labelled when active in TopSky - thanks to @luke11brown (Luke Brown)
+4. Bug - Fixed P18 CDR1 Schedule and Daventry CTA23 Date Error - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Added OCAS Region for Cotswold CTA FUA - thanks to @danielbutton (Daniel Button)
 
 # Changes from release 2021/06 to 2021/07
 1. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @luke11brown (Luke Brown)
