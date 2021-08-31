@@ -1,0 +1,23 @@
+
+name: Sector File Issue Creator
+on: workflow_dispatch
+jobs:
+  create_issue:
+    if: $(( (($(date -d "2021-01-19" +%s) - $(date +%s)) / 86400) % 28 )) == 0
+    name: Create sector file issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: UK Sector File Update
+        uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
+        with:
+          assignees: "luke11brown" 
+          labels: "airac"
+          title: "UK Sector File Update"
+          body: |
+            Test
+          pinned: false
+          close-previous: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
