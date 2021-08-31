@@ -14,7 +14,7 @@ jobs:
       - name: UK Sector File Update
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
-          assignees: 
+          assignees: "luke11brown" 
           labels: "airac"
           title: "UK Sector File Update"
           body: |
