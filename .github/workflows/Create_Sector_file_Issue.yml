@@ -20,4 +20,4 @@ jobs:
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
