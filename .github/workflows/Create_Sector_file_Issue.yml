@@ -2,9 +2,13 @@
 name: Sector File Issue Creator
 on:
   schedule:
-    - cron: [PLS SEND HALP I CAN'T FIGURE THIS BIT OUT YO]'
+    - cron: 45 5 * * *
 
 jobs:
+  check_airac:
+    name: Check AIRAC -1
+    runs-on: ubuntu-latest
+    echo $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 ))
   create_issue:
     name: Create Sector File Issue
     runs-on: ubuntu-latest
