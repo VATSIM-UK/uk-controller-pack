@@ -3,19 +3,17 @@ name: Sector File Issue Creator
 on:
   schedule:
     - cron: 45 5 * * *
-
+if [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
 jobs:
-  check_airac:
-    name: Check AIRAC -1
-    runs-on: ubuntu-latest
-    echo $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 ))
+  prod-check:
+    if: [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
   create_issue:
     name: Create Sector File Issue
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - name: Create team sync issue
+      - name: Create SF issue
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
           assignees:
