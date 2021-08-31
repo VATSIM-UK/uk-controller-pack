@@ -1,8 +1,6 @@
 
 name: Sector File Issue Creator
-on:
-  schedule:
-   - cron: 55 * * * *
+on: workflow_dispatch
 jobs:
   create_issue:
     if: $(( (($(date -d "2021-01-19" +%s) - $(date +%s)) / 86400) % 28 )) == 0
