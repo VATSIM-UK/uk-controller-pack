@@ -5,9 +5,9 @@ on:
     - cron: 45 5 * * *
 if [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
 jobs:
-  prod-check:
-    if: [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
-  create_issue:
+airac-check:
+    if: [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ];
+    create_issue:
     name: Create Sector File Issue
     runs-on: ubuntu-latest
     permissions:
@@ -25,3 +25,4 @@ jobs:
           close-previous: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    ; else false;
