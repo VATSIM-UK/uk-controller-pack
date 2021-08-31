@@ -2,7 +2,7 @@
 name: Sector File Issue Creator
 on:
   schedule:
-   - cron 45 5 * * *
+   - cron: 45 5 * * *
 jobs:
   create_issue:
     if: $(( (($(date -d "2021-01-27" +%s) - $(date +%s)) / 86400) % 28 )) == 0
