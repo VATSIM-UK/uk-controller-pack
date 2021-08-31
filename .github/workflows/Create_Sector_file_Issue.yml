@@ -1,28 +1,25 @@
 
 name: Sector File Issue Creator
 on:
-  schedule:
-    - cron: 45 5 * * *
-if [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
+ schedule:
+  - cron 45 5 * * *
 jobs:
-airac-check:
-    if: [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ];
-    create_issue:
-    name: Create Sector File Issue
+  create_issue:
+    if: $(( (($(date -d "2021-01-27" +%s) - $(date +%s)) / 86400) % 28 )) == 0
+    name: Create sector file issue
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - name: Create SF issue
+      - name: UK Sector File Update
         uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
         with:
-          assignees:
+          assignees: 
           labels: "airac"
-          title: "Include Latest Sector File Version"
+          title: "UK Sector File Update"
           body: |
-            Include the latest version of the UK Sector File
+            Test
           pinned: false
           close-previous: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    ; else false;
+          GITHUB_TOKEN: ${{ secrets.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 }}
