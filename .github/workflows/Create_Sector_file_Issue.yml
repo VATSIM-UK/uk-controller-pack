@@ -4,7 +4,7 @@ on: workflow_dispatch
 jobs:
  create_issue:
   runs-on: ubuntu-latest
-  if:  (( (((date -d "2021-01-28" +%s) - (date +%s)) / 86400) % 28 )) == 0 ; then true; else false; fi
+  if: if [ $(( (($(date -d "2021-01-28" +%s) - $(date +%s)) / 86400) % 28 )) == 0 ]; then true; else false; fi
   permissions:
     issues: write
   steps:
