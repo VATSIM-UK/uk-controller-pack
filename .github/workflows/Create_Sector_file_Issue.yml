@@ -2,10 +2,10 @@
 name: Sector File Issue Creator
 on:
   schedule:
-   - cron: 45 5 * * *
+   - cron: 55 * * * *
 jobs:
   create_issue:
-    if: $(( (($(date -d "2021-01-27" +%s) - $(date +%s)) / 86400) % 28 )) == 0
+    if: $(( (($(date -d "2021-01-19" +%s) - $(date +%s)) / 86400) % 28 )) == 0
     name: Create sector file issue
     runs-on: ubuntu-latest
     permissions:
