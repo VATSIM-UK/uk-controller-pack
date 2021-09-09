@@ -4,7 +4,8 @@
 3. Enhancement - Danger areas levels now labelled when active in TopSky - thanks to @luke11brown (Luke Brown)
 4. Bug - Fixed P18 CDR1 Schedule and Daventry CTA23 Date Error - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Added OCAS Region for Cotswold CTA FUA - thanks to @danielbutton (Daniel Button)
-X.AIRAC - Area minimum altitudes updated east of Wick - thanks to @luke11brown (Luke Brown)
+6. AIRAC - Added D217 danger area complex - thanks to @luke11brown (Luke Brown)
+7. AIRAC - Area minimum altitudes updated east of Wick - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/06 to 2021/07
 1. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @luke11brown (Luke Brown)
