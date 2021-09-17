@@ -6,6 +6,8 @@
 5. Enhancement - Added OCAS Region for Cotswold CTA FUA - thanks to @danielbutton (Daniel Button)
 6. AIRAC - Added D217 danger area complex - thanks to @luke11brown (Luke Brown)
 7. AIRAC - Area minimum altitudes updated east of Wick - thanks to @luke11brown (Luke Brown)
+8. AIRAC - London City labels updated to include new holding points - thanks to @luke11brown (Luke Brown)
+9. AIRAC - Gatwick SMR turned the correct way up, stand centrelines turned on by default - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/06 to 2021/07
 1. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @luke11brown (Luke Brown)

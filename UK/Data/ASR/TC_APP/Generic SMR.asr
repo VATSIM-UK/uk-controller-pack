@@ -1,6 +1,58 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\ R :freetext
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
 Free Text:SCT2\06 Grass:freetext
@@ -104,7 +156,6 @@ Free Text:SCT2\108:freetext
 Free Text:SCT2\108:freetext
 Free Text:SCT2\109:freetext
 Free Text:SCT2\109:freetext
-Free Text:SCT2\109:freetext
 Free Text:SCT2\10A:freetext
 Free Text:SCT2\10L:freetext
 Free Text:SCT2\11:freetext
@@ -134,8 +185,6 @@ Free Text:SCT2\11:freetext
 Free Text:SCT2\11:freetext
 Free Text:SCT2\110:freetext
 Free Text:SCT2\110:freetext
-Free Text:SCT2\110:freetext
-Free Text:SCT2\111:freetext
 Free Text:SCT2\111:freetext
 Free Text:SCT2\111:freetext
 Free Text:SCT2\112:freetext
@@ -145,6 +194,7 @@ Free Text:SCT2\113:freetext
 Free Text:SCT2\113:freetext
 Free Text:SCT2\114:freetext
 Free Text:SCT2\114:freetext
+Free Text:SCT2\116:freetext
 Free Text:SCT2\12:freetext
 Free Text:SCT2\12:freetext
 Free Text:SCT2\12:freetext
@@ -559,6 +609,7 @@ Free Text:SCT2\25:freetext
 Free Text:SCT2\25:freetext
 Free Text:SCT2\25:freetext
 Free Text:SCT2\25:freetext
+Free Text:SCT2\25:freetext
 Free Text:SCT2\251:freetext
 Free Text:SCT2\252:freetext
 Free Text:SCT2\253:freetext
@@ -578,6 +629,7 @@ Free Text:SCT2\26:freetext
 Free Text:SCT2\26:freetext
 Free Text:SCT2\26:freetext
 Free Text:SCT2\26:freetext
+Free Text:SCT2\26:freetext
 Free Text:SCT2\26S:freetext
 Free Text:SCT2\27:freetext
 Free Text:SCT2\27:freetext
@@ -585,7 +637,9 @@ Free Text:SCT2\27:freetext
 Free Text:SCT2\27:freetext
 Free Text:SCT2\27:freetext
 Free Text:SCT2\27:freetext
+Free Text:SCT2\27:freetext
 Free Text:SCT2\27A:freetext
+Free Text:SCT2\28:freetext
 Free Text:SCT2\28:freetext
 Free Text:SCT2\28:freetext
 Free Text:SCT2\28:freetext
@@ -610,7 +664,6 @@ Free Text:SCT2\2F:freetext
 Free Text:SCT2\2F:freetext
 Free Text:SCT2\2G:freetext
 Free Text:SCT2\2H:freetext
-Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
@@ -685,6 +738,7 @@ Free Text:SCT2\317:freetext
 Free Text:SCT2\317A:freetext
 Free Text:SCT2\318:freetext
 Free Text:SCT2\319:freetext
+Free Text:SCT2\31R:freetext
 Free Text:SCT2\32:freetext
 Free Text:SCT2\32:freetext
 Free Text:SCT2\32:freetext
@@ -1184,6 +1238,12 @@ Free Text:SCT2\70:freetext
 Free Text:SCT2\70:freetext
 Free Text:SCT2\70:freetext
 Free Text:SCT2\70:freetext
+Free Text:SCT2\701:freetext
+Free Text:SCT2\702:freetext
+Free Text:SCT2\703:freetext
+Free Text:SCT2\704:freetext
+Free Text:SCT2\705:freetext
+Free Text:SCT2\706:freetext
 Free Text:SCT2\70L:freetext
 Free Text:SCT2\70R:freetext
 Free Text:SCT2\71:freetext
@@ -1220,6 +1280,7 @@ Free Text:SCT2\78X:freetext
 Free Text:SCT2\79:freetext
 Free Text:SCT2\7A:freetext
 Free Text:SCT2\7L:freetext
+Free Text:SCT2\7N:freetext
 Free Text:SCT2\8:freetext
 Free Text:SCT2\8:freetext
 Free Text:SCT2\8:freetext
@@ -1251,10 +1312,13 @@ Free Text:SCT2\80:freetext
 Free Text:SCT2\80:freetext
 Free Text:SCT2\80:freetext
 Free Text:SCT2\80:freetext
+Free Text:SCT2\807:freetext
+Free Text:SCT2\809:freetext
 Free Text:SCT2\81:freetext
 Free Text:SCT2\81:freetext
 Free Text:SCT2\81:freetext
 Free Text:SCT2\81:freetext
+Free Text:SCT2\811:freetext
 Free Text:SCT2\81L:freetext
 Free Text:SCT2\81R:freetext
 Free Text:SCT2\82:freetext
@@ -1307,10 +1371,21 @@ Free Text:SCT2\9:freetext
 Free Text:SCT2\9:freetext
 Free Text:SCT2\901:freetext
 Free Text:SCT2\903:freetext
+Free Text:SCT2\905:freetext
+Free Text:SCT2\907:freetext
+Free Text:SCT2\909:freetext
 Free Text:SCT2\90L:freetext
 Free Text:SCT2\90R:freetext
+Free Text:SCT2\911:freetext
+Free Text:SCT2\913:freetext
+Free Text:SCT2\915:freetext
+Free Text:SCT2\917:freetext
+Free Text:SCT2\919:freetext
 Free Text:SCT2\91L:freetext
 Free Text:SCT2\91R:freetext
+Free Text:SCT2\925:freetext
+Free Text:SCT2\927:freetext
+Free Text:SCT2\929:freetext
 Free Text:SCT2\92L:freetext
 Free Text:SCT2\92R:freetext
 Free Text:SCT2\93L:freetext
@@ -1574,6 +1649,8 @@ Free Text:SCT2\AL1:freetext
 Free Text:SCT2\AL2:freetext
 Free Text:SCT2\Apron 1:freetext
 Free Text:SCT2\Apron 2:freetext
+Free Text:SCT2\ASP A:freetext
+Free Text:SCT2\ASP B:freetext
 Free Text:SCT2\ATC:freetext
 Free Text:SCT2\AVROE:freetext
 Free Text:SCT2\AW2:freetext
@@ -1583,7 +1660,6 @@ Free Text:SCT2\AY10:freetext
 Free Text:SCT2\AY3:freetext
 Free Text:SCT2\AY4:freetext
 Free Text:SCT2\AY5:freetext
-Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
@@ -1715,6 +1791,9 @@ Free Text:SCT2\Bay 4:freetext
 Free Text:SCT2\Bay 5:freetext
 Free Text:SCT2\Bay 6:freetext
 Free Text:SCT2\Belfast Apron:freetext
+Free Text:SCT2\BL1:freetext
+Free Text:SCT2\BL2:freetext
+Free Text:SCT2\BL3:freetext
 Free Text:SCT2\BQ1:freetext
 Free Text:SCT2\BQ2:freetext
 Free Text:SCT2\BX:freetext
@@ -1843,6 +1922,7 @@ Free Text:SCT2\D:freetext
 Free Text:SCT2\D:freetext
 Free Text:SCT2\D:freetext
 Free Text:SCT2\D:freetext
+Free Text:SCT2\D:freetext
 Free Text:SCT2\D-Site Apron:freetext
 Free Text:SCT2\D0:freetext
 Free Text:SCT2\D1:freetext
@@ -1914,7 +1994,6 @@ Free Text:SCT2\D3:freetext
 Free Text:SCT2\D3:freetext
 Free Text:SCT2\D3:freetext
 Free Text:SCT2\D3:freetext
-Free Text:SCT2\D3:freetext
 Free Text:SCT2\D4:freetext
 Free Text:SCT2\D4:freetext
 Free Text:SCT2\D4:freetext
@@ -1931,14 +2010,15 @@ Free Text:SCT2\D7:freetext
 Free Text:SCT2\D7:freetext
 Free Text:SCT2\D7:freetext
 Free Text:SCT2\D8:freetext
+Free Text:SCT2\DA:freetext
 Free Text:SCT2\DASSO:freetext
 Free Text:SCT2\DINGO:freetext
 Free Text:SCT2\Disused:freetext
 Free Text:SCT2\Disused:freetext
+Free Text:SCT2\DL1:freetext
+Free Text:SCT2\DL2:freetext
 Free Text:SCT2\DX:freetext
 Free Text:SCT2\DZ1:freetext
-Free Text:SCT2\E:freetext
-Free Text:SCT2\E:freetext
 Free Text:SCT2\E:freetext
 Free Text:SCT2\E:freetext
 Free Text:SCT2\E:freetext
@@ -2055,6 +2135,7 @@ Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
 Free Text:SCT2\F:freetext
+Free Text:SCT2\F:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
@@ -2150,7 +2231,6 @@ Free Text:SCT2\G2:freetext
 Free Text:SCT2\G2:freetext
 Free Text:SCT2\G2:freetext
 Free Text:SCT2\G2:freetext
-Free Text:SCT2\G2:freetext
 Free Text:SCT2\G3:freetext
 Free Text:SCT2\G3:freetext
 Free Text:SCT2\G3:freetext
@@ -2207,7 +2287,6 @@ Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
-Free Text:SCT2\H2:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
@@ -2257,7 +2336,6 @@ Free Text:SCT2\J2:freetext
 Free Text:SCT2\J2:freetext
 Free Text:SCT2\J2:freetext
 Free Text:SCT2\J2:freetext
-Free Text:SCT2\J2:freetext
 Free Text:SCT2\J3:freetext
 Free Text:SCT2\J3:freetext
 Free Text:SCT2\J3:freetext
@@ -2297,7 +2375,6 @@ Free Text:SCT2\K4:freetext
 Free Text:SCT2\K4 Apron:freetext
 Free Text:SCT2\K5:freetext
 Free Text:SCT2\K5:freetext
-Free Text:SCT2\L:freetext
 Free Text:SCT2\L:freetext
 Free Text:SCT2\L:freetext
 Free Text:SCT2\L:freetext
@@ -2539,6 +2616,7 @@ Free Text:SCT2\R:freetext
 Free Text:SCT2\R:freetext
 Free Text:SCT2\R:freetext
 Free Text:SCT2\R:freetext
+Free Text:SCT2\R:freetext
 Free Text:SCT2\R1:freetext
 Free Text:SCT2\R1:freetext
 Free Text:SCT2\R1:freetext
@@ -2552,7 +2630,6 @@ Free Text:SCT2\R5:freetext
 Free Text:SCT2\R7:freetext
 Free Text:SCT2\R8:freetext
 Free Text:SCT2\RABIT:freetext
-Free Text:SCT2\S:freetext
 Free Text:SCT2\S:freetext
 Free Text:SCT2\S:freetext
 Free Text:SCT2\S:freetext
@@ -2603,11 +2680,20 @@ Free Text:SCT2\T1:freetext
 Free Text:SCT2\T1:freetext
 Free Text:SCT2\T1:freetext
 Free Text:SCT2\T1:freetext
+Free Text:SCT2\T1:freetext
+Free Text:SCT2\T2:freetext
 Free Text:SCT2\T2:freetext
 Free Text:SCT2\T3:freetext
+Free Text:SCT2\T3:freetext
+Free Text:SCT2\T4:freetext
 Free Text:SCT2\T4:freetext
 Free Text:SCT2\T5:freetext
+Free Text:SCT2\T5:freetext
 Free Text:SCT2\T6:freetext
+Free Text:SCT2\T6:freetext
+Free Text:SCT2\T7:freetext
+Free Text:SCT2\T8:freetext
+Free Text:SCT2\T9:freetext
 Free Text:SCT2\Terminal:freetext
 Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
@@ -2653,10 +2739,11 @@ Free Text:SCT2\VC2:freetext
 Free Text:SCT2\VD1:freetext
 Free Text:SCT2\VD2:freetext
 Free Text:SCT2\VIKAS:freetext
+Free Text:SCT2\VLP 1:freetext
+Free Text:SCT2\VLP 2:freetext
+Free Text:SCT2\VLP 3:freetext
 Free Text:SCT2\VN:freetext
 Free Text:SCT2\VS:freetext
-Free Text:SCT2\W:freetext
-Free Text:SCT2\W:freetext
 Free Text:SCT2\W:freetext
 Free Text:SCT2\W:freetext
 Free Text:SCT2\W:freetext
@@ -2695,8 +2782,6 @@ Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
-Free Text:SCT2\Y:freetext
-Free Text:SCT2\Y:freetext
 Free Text:SCT2\Y:freetext
 Free Text:SCT2\Y:freetext
 Free Text:SCT2\Y:freetext
@@ -2759,6 +2844,7 @@ Geo:EGJJ Jersey:
 Geo:EGKA Shoreham:
 Geo:EGKB Biggin Hill:
 Geo:EGKK Gatwick:
+Geo:EGKK Gatwick Stand Centrelines:
 Geo:EGKR Redhill:
 Geo:EGLC City:
 Geo:EGLF Farnborough:
