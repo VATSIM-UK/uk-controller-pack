@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_TopSky_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2021_09.sct
+Settings	sector	UK\Data\Sector\UK_2021_12.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt

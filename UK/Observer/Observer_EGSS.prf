@@ -10,7 +10,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\Local\Observer\Settings.txt
 Settings	SettingsfileSIL	\..\Data\Settings\Local\Observer\Settings.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Observer\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2021_09.sct
+Settings	sector	UK\Data\Sector\UK_2021_12.sct
 Settings	alias	\..\Data\Alias\demoAlias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
