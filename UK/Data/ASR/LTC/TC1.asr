@@ -1,0 +1,438 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC boundary:EBR08:
+ARTCC boundary:EBR17A:
+ARTCC boundary:EBR17B:
+ARTCC boundary:EBR17C:
+ARTCC boundary:EBR21:
+ARTCC boundary:EBR24B:
+ARTCC boundary:EBR25:
+ARTCC boundary:EBR31:
+ARTCC boundary:EBR56:
+ARTCC boundary:EDG113B:
+ARTCC boundary:EGD001:
+ARTCC boundary:EGD003:
+ARTCC boundary:EGD004:
+ARTCC boundary:EGD005A:
+ARTCC boundary:EGD005B:
+ARTCC boundary:EGD006A:
+ARTCC boundary:EGD006B:
+ARTCC boundary:EGD006C:
+ARTCC boundary:EGD007A:
+ARTCC boundary:EGD007B:
+ARTCC boundary:EGD007C:
+ARTCC boundary:EGD008A:
+ARTCC boundary:EGD008B:
+ARTCC boundary:EGD008C:
+ARTCC boundary:EGD009A:
+ARTCC boundary:EGD009B:
+ARTCC boundary:EGD011A:
+ARTCC boundary:EGD011B:
+ARTCC boundary:EGD011C:
+ARTCC boundary:EGD012:
+ARTCC boundary:EGD013:
+ARTCC boundary:EGD014:
+ARTCC boundary:EGD015:
+ARTCC boundary:EGD017:
+ARTCC boundary:EGD021:
+ARTCC boundary:EGD023:
+ARTCC boundary:EGD026:
+ARTCC boundary:EGD031:
+ARTCC boundary:EGD036:
+ARTCC boundary:EGD037:
+ARTCC boundary:EGD038:
+ARTCC boundary:EGD039:
+ARTCC boundary:EGD040:
+ARTCC boundary:EGD044:
+ARTCC boundary:EGD061:
+ARTCC boundary:EGD064A:
+ARTCC boundary:EGD064B:
+ARTCC boundary:EGD064C:
+ARTCC boundary:EGD110:
+ARTCC boundary:EGD113A:
+ARTCC boundary:EGD115A:
+ARTCC boundary:EGD115B:
+ARTCC boundary:EGD117:
+ARTCC boundary:EGD118:
+ARTCC boundary:EGD119:
+ARTCC boundary:EGD120:
+ARTCC boundary:EGD122A:
+ARTCC boundary:EGD122B:
+ARTCC boundary:EGD122C:
+ARTCC boundary:EGD123:
+ARTCC boundary:EGD124:
+ARTCC boundary:EGD125:
+ARTCC boundary:EGD126:
+ARTCC boundary:EGD127:
+ARTCC boundary:EGD128:
+ARTCC boundary:EGD129:
+ARTCC boundary:EGD130:
+ARTCC boundary:EGD132:
+ARTCC boundary:EGD133A:
+ARTCC boundary:EGD133B:
+ARTCC boundary:EGD136:
+ARTCC boundary:EGD138A:
+ARTCC boundary:EGD138B:
+ARTCC boundary:EGD138C:
+ARTCC boundary:EGD138D:
+ARTCC boundary:EGD139:
+ARTCC boundary:EGD141:
+ARTCC boundary:EGD147:
+ARTCC boundary:EGD201A:
+ARTCC boundary:EGD201B:
+ARTCC boundary:EGD201C:
+ARTCC boundary:EGD201D:
+ARTCC boundary:EGD201F:
+ARTCC boundary:EGD201G:
+ARTCC boundary:EGD201H:
+ARTCC boundary:EGD201J:
+ARTCC boundary:EGD202A:
+ARTCC boundary:EGD202B:
+ARTCC boundary:EGD202C:
+ARTCC boundary:EGD202D:
+ARTCC boundary:EGD203:
+ARTCC boundary:EGD206:
+ARTCC boundary:EGD207:
+ARTCC boundary:EGD208:
+ARTCC boundary:EGD211:
+ARTCC boundary:EGD213:
+ARTCC boundary:EGD215:
+ARTCC boundary:EGD216:
+ARTCC boundary:EGD304:
+ARTCC boundary:EGD305:
+ARTCC boundary:EGD307:
+ARTCC boundary:EGD314:
+ARTCC boundary:EGD323A:
+ARTCC boundary:EGD323B:
+ARTCC boundary:EGD323C:
+ARTCC boundary:EGD323D:
+ARTCC boundary:EGD323E:
+ARTCC boundary:EGD323F:
+ARTCC boundary:EGD323G:
+ARTCC boundary:EGD323H:
+ARTCC boundary:EGD323J:
+ARTCC boundary:EGD323K:
+ARTCC boundary:EGD323L:
+ARTCC boundary:EGD323M:
+ARTCC boundary:EGD323N:
+ARTCC boundary:EGD323P:
+ARTCC boundary:EGD323Q:
+ARTCC boundary:EGD323R:
+ARTCC boundary:EGD401:
+ARTCC boundary:EGD402A:
+ARTCC boundary:EGD402B:
+ARTCC boundary:EGD402C:
+ARTCC boundary:EGD403A:
+ARTCC boundary:EGD403B:
+ARTCC boundary:EGD405:
+ARTCC boundary:EGD406A:
+ARTCC boundary:EGD406B:
+ARTCC boundary:EGD406C:
+ARTCC boundary:EGD407:
+ARTCC boundary:EGD408:
+ARTCC boundary:EGD410:
+ARTCC boundary:EGD412:
+ARTCC boundary:EGD442:
+ARTCC boundary:EGD505:
+ARTCC boundary:EGD508:
+ARTCC boundary:EGD509:
+ARTCC boundary:EGD510A:
+ARTCC boundary:EGD510B:
+ARTCC boundary:EGD510C:
+ARTCC boundary:EGD512A:
+ARTCC boundary:EGD512B:
+ARTCC boundary:EGD513A:
+ARTCC boundary:EGD513B:
+ARTCC boundary:EGD513C:
+ARTCC boundary:EGD601:
+ARTCC boundary:EGD604:
+ARTCC boundary:EGD613A:
+ARTCC boundary:EGD613B:
+ARTCC boundary:EGD613C:
+ARTCC boundary:EGD613D:
+ARTCC boundary:EGD701A:
+ARTCC boundary:EGD701B:
+ARTCC boundary:EGD701C:
+ARTCC boundary:EGD701D:
+ARTCC boundary:EGD701E:
+ARTCC boundary:EGD701F:
+ARTCC boundary:EGD701G:
+ARTCC boundary:EGD701H:
+ARTCC boundary:EGD701I:
+ARTCC boundary:EGD701J:
+ARTCC boundary:EGD701K:
+ARTCC boundary:EGD701L:
+ARTCC boundary:EGD701M:
+ARTCC boundary:EGD701N:
+ARTCC boundary:EGD701O:
+ARTCC boundary:EGD701P:
+ARTCC boundary:EGD701Q:
+ARTCC boundary:EGD701R:
+ARTCC boundary:EGD701S:
+ARTCC boundary:EGD701T:
+ARTCC boundary:EGD701U:
+ARTCC boundary:EGD701V:
+ARTCC boundary:EGD701W:
+ARTCC boundary:EGD701X:
+ARTCC boundary:EGD701Y:
+ARTCC boundary:EGD702:
+ARTCC boundary:EGD703:
+ARTCC boundary:EGD704:
+ARTCC boundary:EGD710:
+ARTCC boundary:EGD712A:
+ARTCC boundary:EGD712B:
+ARTCC boundary:EGD712C:
+ARTCC boundary:EGD712D:
+ARTCC boundary:EGD801:
+ARTCC boundary:EGD802:
+ARTCC boundary:EGD803:
+ARTCC boundary:EGD809C:
+ARTCC boundary:EGD809N:
+ARTCC boundary:EGD809S:
+ARTCC boundary:EGP611:
+ARTCC boundary:EGP813:
+ARTCC boundary:EGR002:
+ARTCC boundary:EGR063:
+ARTCC boundary:EGR095:
+ARTCC boundary:EGR101:
+ARTCC boundary:EGR104:
+ARTCC boundary:EGR105:
+ARTCC boundary:EGR107:
+ARTCC boundary:EGR153:
+ARTCC boundary:EGR154:
+ARTCC boundary:EGR155:
+ARTCC boundary:EGR157:
+ARTCC boundary:EGR158:
+ARTCC boundary:EGR159:
+ARTCC boundary:EGR160:
+ARTCC boundary:EGR204:
+ARTCC boundary:EGR212:
+ARTCC boundary:EGR214:
+ARTCC boundary:EGR217:
+ARTCC boundary:EGR219:
+ARTCC boundary:EGR220:
+ARTCC boundary:EGR311:
+ARTCC boundary:EGR312:
+ARTCC boundary:EGR313:
+ARTCC boundary:EGR315:
+ARTCC boundary:EGR319:
+ARTCC boundary:EGR321:
+ARTCC boundary:EGR322:
+ARTCC boundary:EGR413:
+ARTCC boundary:EGR431:
+ARTCC boundary:EGR432:
+ARTCC boundary:EGR444:
+ARTCC boundary:EGR445:
+ARTCC boundary:EGR446:
+ARTCC boundary:EGR504:
+ARTCC boundary:EGR515:
+ARTCC boundary:EGR516:
+ARTCC boundary:EGR603:
+ARTCC boundary:EGR610A:
+ARTCC boundary:EGR610B:
+ARTCC boundary:EGR610C:
+ARTCC boundary:EGR610D:
+ARTCC boundary:EGR612:
+ARTCC boundary:EGR704:
+ARTCC boundary:EGR705:
+ARTCC boundary:LFD82:
+ARTCC boundary:LFP26:
+ARTCC boundary:LFP27:
+ARTCC boundary:LFP28:
+ARTCC boundary:LFP32:
+ARTCC boundary:LFP33:
+ARTCC boundary:LFP6-1:
+ARTCC boundary:LFP6-2:
+ARTCC boundary:LFP7:
+ARTCC boundary:LFP81:
+ARTCC boundary:LFR10:
+ARTCC boundary:MASTS:
+ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:Banba CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Conditional - Berry Head CTA:
+ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
+ARTCC high boundary:Conditional - N864 TLA-ASNUD:
+ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - Portsmouth CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:NITON CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:West CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCN Doncaster Sheffield CTA:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Lands End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLD Denham LFA:
+ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGLW London Heliport LFA:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNO Warton ATZ:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teeside CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOV Valley MATZ:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGQK Kinloss MATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGTF Fairoaks LFA:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYM Marham MATZ:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+ARTCC low boundary:XYLINE:
+Geo:Extended centrelines:
+Regions:Uncontrolled airspace:polygon
+Sids:London TC South East:
+Sids:London TC South West:
+Stars:Heathrow RMA Westerlies:
+Stars:Luton RMA:
+Stars:Stansted RMA:
+Stars:Thames RMA:
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NODE
+WINDOWAREA:50.400092:-3.360659:52.700241:3.853998
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,216,0
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:6
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1552
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:157
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_YARMOUTH;ASR_COTSWOLD

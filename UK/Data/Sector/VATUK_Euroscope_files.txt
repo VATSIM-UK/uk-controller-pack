@@ -5,5 +5,5 @@ DOWNLOADINTERVAL:4
 
 SECTOR_NAME:EGTT and EGPX - UK Sector
 SECTOR_FILE_NAME:UK
-SECTOR_VERSION:2020_11
-SECTOR_URL:http://www.vatsim-uk.co.uk/files/sector/esad/UK_2020_11.7z
+SECTOR_VERSION:2021_12
+SECTOR_URL:http://www.vatsim-uk.co.uk/files/sector/esad/UK_2021_12.7z

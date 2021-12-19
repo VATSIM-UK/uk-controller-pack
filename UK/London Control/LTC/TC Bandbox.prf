@@ -1,0 +1,49 @@
+Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\TC_Plugins.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\TC_Profiles.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\LTC\LTC_Screen.txt
+Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
+Settings	Settingsfile	\..\..\Data\Settings\LTC\LTC_General.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
+Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
+Settings	sector	UK\Data\Sector\UK_2021_12.sct
+Settings	alias	\..\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\..\Data\ASR\LTC\TC2.asr
+RecentFiles	Recent2	\..\..\Data\ASR\LTC\TC1.asr
+RecentFiles	Recent3	\..\..\Data\ASR\LTC\TC3.asr
+RecentFiles	Recent4	\..\..\Data\ASR\LTC\TC4.asr
+RecentFiles	Recent5	\..\..\Data\ASR\LTC\Heathrow SMR.asr
+RecentFiles	Recent6	\..\..\Data\ASR\LTC\Gatwick SMR.asr
+RecentFiles	Recent7	\..\..\Data\ASR\LTC\Stansted SMR.asr
+RecentFiles	Recent8	\..\..\Data\ASR\LTC\Luton SMR.asr
+RecentFiles	Recent9	\..\..\Data\ASR\LTC\TC_Ground.asr
+ASRFastKeys	1	\..\..\Data\ASR\LTC\TC1.asr
+ASRFastKeys	2	\..\..\Data\ASR\LTC\TC2.asr
+ASRFastKeys	3	\..\..\Data\ASR\LTC\TC3.asr
+ASRFastKeys	4	\..\..\Data\ASR\LTC\TC4.asr
+ASRFastKeys	5	\..\..\Data\ASR\LTC\Heathrow SMR.asr
+ASRFastKeys	6	\..\..\Data\ASR\LTC\Gatwick SMR.asr
+ASRFastKeys	7	\..\..\Data\ASR\LTC\Stansted SMR.asr
+ASRFastKeys	8	\..\..\Data\ASR\LTC\Luton SMR.asr
+ASRFastKeys	9	\..\..\Data\ASR\LTC\TC_Ground.asr
+Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin2Display1	SMR radar display
+Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
+Settings	airways	\..\..\Data\Datafiles\airway.txt

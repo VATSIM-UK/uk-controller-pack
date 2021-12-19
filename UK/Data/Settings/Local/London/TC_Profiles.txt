@@ -1,0 +1,6 @@
+PROFILE
+PROFILE:LTC_CTR:200:6
+ATIS2:"London Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
+END

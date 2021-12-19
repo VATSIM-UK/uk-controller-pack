@@ -1,0 +1,1525 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC boundary:EBR08:
+ARTCC boundary:EBR17A:
+ARTCC boundary:EBR17B:
+ARTCC boundary:EBR17C:
+ARTCC boundary:EBR21:
+ARTCC boundary:EBR24B:
+ARTCC boundary:EBR25:
+ARTCC boundary:EBR31:
+ARTCC boundary:EBR56:
+ARTCC boundary:EDG113B:
+ARTCC boundary:EGD001:
+ARTCC boundary:EGD003:
+ARTCC boundary:EGD004:
+ARTCC boundary:EGD005A:
+ARTCC boundary:EGD005B:
+ARTCC boundary:EGD006A:
+ARTCC boundary:EGD006B:
+ARTCC boundary:EGD006C:
+ARTCC boundary:EGD007A:
+ARTCC boundary:EGD007B:
+ARTCC boundary:EGD007C:
+ARTCC boundary:EGD008A:
+ARTCC boundary:EGD008B:
+ARTCC boundary:EGD008C:
+ARTCC boundary:EGD009A:
+ARTCC boundary:EGD009B:
+ARTCC boundary:EGD011A:
+ARTCC boundary:EGD011B:
+ARTCC boundary:EGD011C:
+ARTCC boundary:EGD012:
+ARTCC boundary:EGD013:
+ARTCC boundary:EGD014:
+ARTCC boundary:EGD015:
+ARTCC boundary:EGD017:
+ARTCC boundary:EGD021:
+ARTCC boundary:EGD023:
+ARTCC boundary:EGD026:
+ARTCC boundary:EGD031:
+ARTCC boundary:EGD036:
+ARTCC boundary:EGD037:
+ARTCC boundary:EGD038:
+ARTCC boundary:EGD039:
+ARTCC boundary:EGD040:
+ARTCC boundary:EGD044:
+ARTCC boundary:EGD061:
+ARTCC boundary:EGD064A:
+ARTCC boundary:EGD064B:
+ARTCC boundary:EGD064C:
+ARTCC boundary:EGD110:
+ARTCC boundary:EGD113A:
+ARTCC boundary:EGD115A:
+ARTCC boundary:EGD115B:
+ARTCC boundary:EGD117:
+ARTCC boundary:EGD118:
+ARTCC boundary:EGD119:
+ARTCC boundary:EGD120:
+ARTCC boundary:EGD122A:
+ARTCC boundary:EGD122B:
+ARTCC boundary:EGD122C:
+ARTCC boundary:EGD123:
+ARTCC boundary:EGD124:
+ARTCC boundary:EGD125:
+ARTCC boundary:EGD126:
+ARTCC boundary:EGD127:
+ARTCC boundary:EGD128:
+ARTCC boundary:EGD129:
+ARTCC boundary:EGD130:
+ARTCC boundary:EGD132:
+ARTCC boundary:EGD133A:
+ARTCC boundary:EGD133B:
+ARTCC boundary:EGD136:
+ARTCC boundary:EGD138A:
+ARTCC boundary:EGD138B:
+ARTCC boundary:EGD138C:
+ARTCC boundary:EGD138D:
+ARTCC boundary:EGD139:
+ARTCC boundary:EGD141:
+ARTCC boundary:EGD147:
+ARTCC boundary:EGD201A:
+ARTCC boundary:EGD201B:
+ARTCC boundary:EGD201C:
+ARTCC boundary:EGD201D:
+ARTCC boundary:EGD201F:
+ARTCC boundary:EGD201G:
+ARTCC boundary:EGD201H:
+ARTCC boundary:EGD201J:
+ARTCC boundary:EGD202A:
+ARTCC boundary:EGD202B:
+ARTCC boundary:EGD202C:
+ARTCC boundary:EGD202D:
+ARTCC boundary:EGD203:
+ARTCC boundary:EGD206:
+ARTCC boundary:EGD207:
+ARTCC boundary:EGD208:
+ARTCC boundary:EGD211:
+ARTCC boundary:EGD213:
+ARTCC boundary:EGD215:
+ARTCC boundary:EGD216:
+ARTCC boundary:EGD304:
+ARTCC boundary:EGD305:
+ARTCC boundary:EGD307:
+ARTCC boundary:EGD314:
+ARTCC boundary:EGD323A:
+ARTCC boundary:EGD323B:
+ARTCC boundary:EGD323C:
+ARTCC boundary:EGD323D:
+ARTCC boundary:EGD323E:
+ARTCC boundary:EGD323F:
+ARTCC boundary:EGD323G:
+ARTCC boundary:EGD323H:
+ARTCC boundary:EGD323J:
+ARTCC boundary:EGD323K:
+ARTCC boundary:EGD323L:
+ARTCC boundary:EGD323M:
+ARTCC boundary:EGD323N:
+ARTCC boundary:EGD323P:
+ARTCC boundary:EGD323Q:
+ARTCC boundary:EGD323R:
+ARTCC boundary:EGD401:
+ARTCC boundary:EGD402A:
+ARTCC boundary:EGD402B:
+ARTCC boundary:EGD402C:
+ARTCC boundary:EGD403A:
+ARTCC boundary:EGD403B:
+ARTCC boundary:EGD405:
+ARTCC boundary:EGD406A:
+ARTCC boundary:EGD406B:
+ARTCC boundary:EGD406C:
+ARTCC boundary:EGD407:
+ARTCC boundary:EGD408:
+ARTCC boundary:EGD410:
+ARTCC boundary:EGD412:
+ARTCC boundary:EGD442:
+ARTCC boundary:EGD505:
+ARTCC boundary:EGD508:
+ARTCC boundary:EGD509:
+ARTCC boundary:EGD510A:
+ARTCC boundary:EGD510B:
+ARTCC boundary:EGD510C:
+ARTCC boundary:EGD512A:
+ARTCC boundary:EGD512B:
+ARTCC boundary:EGD513A:
+ARTCC boundary:EGD513B:
+ARTCC boundary:EGD513C:
+ARTCC boundary:EGD601:
+ARTCC boundary:EGD604:
+ARTCC boundary:EGD613A:
+ARTCC boundary:EGD613B:
+ARTCC boundary:EGD613C:
+ARTCC boundary:EGD613D:
+ARTCC boundary:EGD701A:
+ARTCC boundary:EGD701B:
+ARTCC boundary:EGD701C:
+ARTCC boundary:EGD701D:
+ARTCC boundary:EGD701E:
+ARTCC boundary:EGD701F:
+ARTCC boundary:EGD701G:
+ARTCC boundary:EGD701H:
+ARTCC boundary:EGD701I:
+ARTCC boundary:EGD701J:
+ARTCC boundary:EGD701K:
+ARTCC boundary:EGD701L:
+ARTCC boundary:EGD701M:
+ARTCC boundary:EGD701N:
+ARTCC boundary:EGD701O:
+ARTCC boundary:EGD701P:
+ARTCC boundary:EGD701Q:
+ARTCC boundary:EGD701R:
+ARTCC boundary:EGD701S:
+ARTCC boundary:EGD701T:
+ARTCC boundary:EGD701U:
+ARTCC boundary:EGD701V:
+ARTCC boundary:EGD701W:
+ARTCC boundary:EGD701X:
+ARTCC boundary:EGD701Y:
+ARTCC boundary:EGD702:
+ARTCC boundary:EGD703:
+ARTCC boundary:EGD704:
+ARTCC boundary:EGD710:
+ARTCC boundary:EGD712A:
+ARTCC boundary:EGD712B:
+ARTCC boundary:EGD712C:
+ARTCC boundary:EGD712D:
+ARTCC boundary:EGD801:
+ARTCC boundary:EGD802:
+ARTCC boundary:EGD803:
+ARTCC boundary:EGD809C:
+ARTCC boundary:EGD809N:
+ARTCC boundary:EGD809S:
+ARTCC boundary:EGP611:
+ARTCC boundary:EGP813:
+ARTCC boundary:EGR002:
+ARTCC boundary:EGR063:
+ARTCC boundary:EGR095:
+ARTCC boundary:EGR101:
+ARTCC boundary:EGR104:
+ARTCC boundary:EGR105:
+ARTCC boundary:EGR107:
+ARTCC boundary:EGR153:
+ARTCC boundary:EGR154:
+ARTCC boundary:EGR155:
+ARTCC boundary:EGR157:
+ARTCC boundary:EGR158:
+ARTCC boundary:EGR159:
+ARTCC boundary:EGR160:
+ARTCC boundary:EGR204:
+ARTCC boundary:EGR212:
+ARTCC boundary:EGR214:
+ARTCC boundary:EGR217:
+ARTCC boundary:EGR219:
+ARTCC boundary:EGR220:
+ARTCC boundary:EGR311:
+ARTCC boundary:EGR312:
+ARTCC boundary:EGR313:
+ARTCC boundary:EGR315:
+ARTCC boundary:EGR319:
+ARTCC boundary:EGR321:
+ARTCC boundary:EGR322:
+ARTCC boundary:EGR413:
+ARTCC boundary:EGR431:
+ARTCC boundary:EGR432:
+ARTCC boundary:EGR444:
+ARTCC boundary:EGR445:
+ARTCC boundary:EGR446:
+ARTCC boundary:EGR504:
+ARTCC boundary:EGR515:
+ARTCC boundary:EGR516:
+ARTCC boundary:EGR603:
+ARTCC boundary:EGR610A:
+ARTCC boundary:EGR610B:
+ARTCC boundary:EGR610C:
+ARTCC boundary:EGR610D:
+ARTCC boundary:EGR612:
+ARTCC boundary:EGR704:
+ARTCC boundary:EGR705:
+ARTCC boundary:LFD82:
+ARTCC boundary:LFP26:
+ARTCC boundary:LFP27:
+ARTCC boundary:LFP28:
+ARTCC boundary:LFP32:
+ARTCC boundary:LFP33:
+ARTCC boundary:LFP6-1:
+ARTCC boundary:LFP6-2:
+ARTCC boundary:LFP7:
+ARTCC boundary:LFP81:
+ARTCC boundary:LFR10:
+ARTCC boundary:MASTS:
+ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:Banba CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Conditional - Berry Head CTA:
+ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
+ARTCC high boundary:Conditional - N864 TLA-ASNUD:
+ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - Portsmouth CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:NITON CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:West CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCN Doncaster Sheffield CTA:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Lands End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLD Denham LFA:
+ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGLW London Heliport LFA:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNO Warton ATZ:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teeside CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOV Valley MATZ:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGQK Kinloss MATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGTF Fairoaks LFA:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYM Marham MATZ:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+ARTCC low boundary:XYLINE:
+Fixes:ABAPO:symbol
+Fixes:ABBOT:symbol
+Fixes:ABDAL:symbol
+Fixes:ABDUK:symbol
+Fixes:ABEDA:symbol
+Fixes:ABEVI:symbol
+Fixes:ABGEP:symbol
+Fixes:ABKAT:symbol
+Fixes:ABKIM:symbol
+Fixes:ABLIN:symbol
+Fixes:ABSAV:symbol
+Fixes:ABSUN:symbol
+Fixes:ABTOS:symbol
+Fixes:ABTUM:symbol
+Fixes:ADASI:symbol
+Fixes:ADCUB:symbol
+Fixes:ADELU:symbol
+Fixes:ADGEG:symbol
+Fixes:ADKIK:symbol
+Fixes:ADLOG:symbol
+Fixes:ADMAG:symbol
+Fixes:ADMEX:symbol
+Fixes:ADMIS:symbol
+Fixes:ADNAM:symbol
+Fixes:ADODO:symbol
+Fixes:ADRUD:symbol
+Fixes:ADVAS:symbol
+Fixes:ADVAT:symbol
+Fixes:AGLIL:symbol
+Fixes:AGORI:symbol
+Fixes:AGPED:symbol
+Fixes:AKIVO:symbol
+Fixes:AKOKO:symbol
+Fixes:AKUPA:symbol
+Fixes:ALASO:symbol
+Fixes:ALAVA:symbol
+Fixes:ALESO:symbol
+Fixes:ALOTI:symbol
+Fixes:ALUTA:symbol
+Fixes:ALVIN:symbol
+Fixes:AMDUT:symbol
+Fixes:AMHAG:symbol
+Fixes:AMLAD:symbol
+Fixes:AMLET:symbol
+Fixes:AMMAN:symbol
+Fixes:AMPIT:symbol
+Fixes:AMPOP:symbol
+Fixes:AMRAL:symbol
+Fixes:AMTAP:symbol
+Fixes:AMTOD:symbol
+Fixes:AMVEL:symbol
+Fixes:ANJAK:symbol
+Fixes:ANNET:symbol
+Fixes:APPLE:symbol
+Fixes:APSOV:symbol
+Fixes:ARKIL:symbol
+Fixes:ARNUN:symbol
+Fixes:ARPUB:symbol
+Fixes:ARREK:symbol
+Fixes:ARSAT:symbol
+Fixes:ARTEX:symbol
+Fixes:ARTHA:symbol
+Fixes:ARTIX:symbol
+Fixes:ASKAM:symbol
+Fixes:ASLIB:symbol
+Fixes:ASMIM:symbol
+Fixes:ASNIP:symbol
+Fixes:ASNUD:symbol
+Fixes:ASRAX:symbol
+Fixes:ASRUS:symbol
+Fixes:ATNAK:symbol
+Fixes:ATSAP:symbol
+Fixes:ATSIX:symbol
+Fixes:ATSUR:symbol
+Fixes:ATWEL:symbol
+Fixes:AVANT:symbol
+Fixes:AVRAL:symbol
+Fixes:BABAX:symbol
+Fixes:BABGU:symbol
+Fixes:BABRA:symbol
+Fixes:BADGA:symbol
+Fixes:BADIM:symbol
+Fixes:BADSI:symbol
+Fixes:BAGIT:symbol
+Fixes:BAGSO:symbol
+Fixes:BAKER:symbol
+Fixes:BAKOX:symbol
+Fixes:BAKUR:symbol
+Fixes:BALID:symbol
+Fixes:BALIX:symbol
+Fixes:BAMEP:symbol
+Fixes:BAMLI:symbol
+Fixes:BAMRA:symbol
+Fixes:BANBA:symbol
+Fixes:BANEM:symbol
+Fixes:BANTO:symbol
+Fixes:BANVA:symbol
+Fixes:BARKU:symbol
+Fixes:BARMI:symbol
+Fixes:BAROS:symbol
+Fixes:BARTN:symbol
+Fixes:BATLI:symbol
+Fixes:BAVDO:symbol
+Fixes:BAVUD:symbol
+Fixes:BAZJO:symbol
+Fixes:BEBNI:symbol
+Fixes:BEDEK:symbol
+Fixes:BEDFO:symbol
+Fixes:BEDRA:symbol
+Fixes:BEGAM:symbol
+Fixes:BEGAS:symbol
+Fixes:BEGID:symbol
+Fixes:BEGTO:symbol
+Fixes:BEKET:symbol
+Fixes:BEKMO:symbol
+Fixes:BELOX:symbol
+Fixes:BENBO:symbol
+Fixes:BENSU:symbol
+Fixes:BEREP:symbol
+Fixes:BERUL:symbol
+Fixes:BERUX:symbol
+Fixes:BESGA:symbol
+Fixes:BETAX:symbol
+Fixes:BETPO:symbol
+Fixes:BEVAM:symbol
+Fixes:BEVUP:symbol
+Fixes:BIDVA:symbol
+Fixes:BIFIN:symbol
+Fixes:BIGNO:symbol
+Fixes:BILLY:symbol
+Fixes:BILNI:symbol
+Fixes:BILTO:symbol
+Fixes:BILVO:symbol
+Fixes:BIMGO:symbol
+Fixes:BINBO:symbol
+Fixes:BINTI:symbol
+Fixes:BISRU:symbol
+Fixes:BLACA:symbol
+Fixes:BLIXY:symbol
+Fixes:BODSO:symbol
+Fixes:BOGMI:symbol
+Fixes:BOGNA:symbol
+Fixes:BOLBI:symbol
+Fixes:BOLRO:symbol
+Fixes:BOMBO:symbol
+Fixes:BONBY:symbol
+Fixes:BOYNE:symbol
+Fixes:BRAIN:symbol
+Fixes:BRASO:symbol
+Fixes:BRIPO:symbol
+Fixes:BRUCE:symbol
+Fixes:BUDON:symbol
+Fixes:BUGUP:symbol
+Fixes:BUKUT:symbol
+Fixes:BUMUX:symbol
+Fixes:BURNI:symbol
+Fixes:BUSTA:symbol
+Fixes:BUZAD:symbol
+Fixes:CALDA:symbol
+Fixes:CAMBO:symbol
+Fixes:CASEL:symbol
+Fixes:CEDAR:symbol
+Fixes:CHASE:symbol
+Fixes:CHINN:symbol
+Fixes:CLIPY:symbol
+Fixes:CLYDE:symbol
+Fixes:COWJO:symbol
+Fixes:COWLY:symbol
+Fixes:CREWE:symbol
+Fixes:CROFT:symbol
+Fixes:CUTEL:symbol
+Fixes:DAGGA:symbol
+Fixes:DAGKO:symbol
+Fixes:DALEY:symbol
+Fixes:DANDI:symbol
+Fixes:DAUNT:symbol
+Fixes:DAVOT:symbol
+Fixes:DAWLY:symbol
+Fixes:DAYNE:symbol
+Fixes:DEGOS:symbol
+Fixes:DELBO:symbol
+Fixes:DENBY:symbol
+Fixes:DENOG:symbol
+Fixes:DESIG:symbol
+Fixes:DESNA:symbol
+Fixes:DEVAL:symbol
+Fixes:DEVBI:symbol
+Fixes:DEVOM:symbol
+Fixes:DEXEN:symbol
+Fixes:DEZZU:symbol
+Fixes:DIBAL:symbol
+Fixes:DIDEL:symbol
+Fixes:DIGBI:symbol
+Fixes:DIGMA:symbol
+Fixes:DIGSU:symbol
+Fixes:DIGUT:symbol
+Fixes:DIKAS:symbol
+Fixes:DIKVU:symbol
+Fixes:DIMLI:symbol
+Fixes:DINIM:symbol
+Fixes:DIPSO:symbol
+Fixes:DISIT:symbol
+Fixes:DISVO:symbol
+Fixes:DITOB:symbol
+Fixes:DIXIB:symbol
+Fixes:DOBEM:symbol
+Fixes:DOGAL:symbol
+Fixes:DOKEK:symbol
+Fixes:DOKEN:symbol
+Fixes:DOLAS:symbol
+Fixes:DOLOP:symbol
+Fixes:DOLUR:symbol
+Fixes:DOMUT:symbol
+Fixes:DONAX:symbol
+Fixes:DONIB:symbol
+Fixes:DONNA:symbol
+Fixes:DOPEK:symbol
+Fixes:DORKI:symbol
+Fixes:DOSUN:symbol
+Fixes:DRAKE:symbol
+Fixes:DUCNO:symbol
+Fixes:DUFFY:symbol
+Fixes:DUFZO:symbol
+Fixes:EBOTO:symbol
+Fixes:EDONU:symbol
+Fixes:EDUXO:symbol
+Fixes:EKLAD:symbol
+Fixes:EKNIV:symbol
+Fixes:ELBOB:symbol
+Fixes:ELDAX:symbol
+Fixes:ELDER:symbol
+Fixes:ELKOG:symbol
+Fixes:ELMUD:symbol
+Fixes:ELNAB:symbol
+Fixes:ELNOD:symbol
+Fixes:ELRAG:symbol
+Fixes:ELRIP:symbol
+Fixes:ELSAN:symbol
+Fixes:ELSOX:symbol
+Fixes:ELVOS:symbol
+Fixes:EMBOR:symbol
+Fixes:EMKAD:symbol
+Fixes:EMKUK:symbol
+Fixes:EMLON:symbol
+Fixes:EMPER:symbol
+Fixes:ENCOD:symbol
+Fixes:ENIPI:symbol
+Fixes:ENITO:symbol
+Fixes:ENOKA:symbol
+Fixes:ENUKU:symbol
+Fixes:EPOXI:symbol
+Fixes:EPUNA:symbol
+Fixes:ERAKA:symbol
+Fixes:ERDOG:symbol
+Fixes:ERDUV:symbol
+Fixes:ERFAX:symbol
+Fixes:ERGAB:symbol
+Fixes:ERGUM:symbol
+Fixes:ERING:symbol
+Fixes:ERKEX:symbol
+Fixes:ERKIT:symbol
+Fixes:ERLOT:symbol
+Fixes:ERNAN:symbol
+Fixes:ERNOK:symbol
+Fixes:ERSON:symbol
+Fixes:ESKDO:symbol
+Fixes:ESTRY:symbol
+Fixes:ETARI:symbol
+Fixes:ETIGA:symbol
+Fixes:ETILO:symbol
+Fixes:ETSOM:symbol
+Fixes:ETVAX:symbol
+Fixes:EVATA:symbol
+Fixes:EVBEV:symbol
+Fixes:EVEXU:symbol
+Fixes:EVKAL:symbol
+Fixes:EVMEK:symbol
+Fixes:EVNAL:symbol
+Fixes:EVNAS:symbol
+Fixes:EVRIN:symbol
+Fixes:EVSEM:symbol
+Fixes:EVSON:symbol
+Fixes:EVTES:symbol
+Fixes:EXARO:symbol
+Fixes:EXJET:symbol
+Fixes:EXMOR:symbol
+Fixes:FACTU:symbol
+Fixes:FENIK:symbol
+Fixes:FERIT:symbol
+Fixes:FIGZI:symbol
+Fixes:FINDO:symbol
+Fixes:FINMA:symbol
+Fixes:FITBO:symbol
+Fixes:FONZU:symbol
+Fixes:FORTY:symbol
+Fixes:FOXLA:symbol
+Fixes:FOYLE:symbol
+Fixes:FRANE:symbol
+Fixes:FYNER:symbol
+Fixes:GAJIT:symbol
+Fixes:GAKKA:symbol
+Fixes:GANKI:symbol
+Fixes:GAPLI:symbol
+Fixes:GARMI:symbol
+Fixes:GARVA:symbol
+Fixes:GASBA:symbol
+Fixes:GASGU:symbol
+Fixes:GASKO:symbol
+Fixes:GATRA:symbol
+Fixes:GAVEL:symbol
+Fixes:GAVGO:symbol
+Fixes:GELPO:symbol
+Fixes:GETNO:symbol
+Fixes:GIBSO:symbol
+Fixes:GIBSU:symbol
+Fixes:GIGTO:symbol
+Fixes:GIGUL:symbol
+Fixes:GILDA:symbol
+Fixes:GILTI:symbol
+Fixes:GINGA:symbol
+Fixes:GINIS:symbol
+Fixes:GIPER:symbol
+Fixes:GIPLO:symbol
+Fixes:GIRLI:symbol
+Fixes:GIRVA:symbol
+Fixes:GISOK:symbol
+Fixes:GITUS:symbol
+Fixes:GIVEM:symbol
+Fixes:GIVPO:symbol
+Fixes:GIVUN:symbol
+Fixes:GLESK:symbol
+Fixes:GOBNU:symbol
+Fixes:GODLU:symbol
+Fixes:GODOS:symbol
+Fixes:GODPA:symbol
+Fixes:GOGIG:symbol
+Fixes:GOGSI:symbol
+Fixes:GOKTU:symbol
+Fixes:GOLES:symbol
+Fixes:GOLVO:symbol
+Fixes:GOMOT:symbol
+Fixes:GOMUP:symbol
+Fixes:GONAN:symbol
+Fixes:GOREV:symbol
+Fixes:GOSAM:symbol
+Fixes:GOTNA:symbol
+Fixes:GOXUL:symbol
+Fixes:GRICE:symbol
+Fixes:GROVE:symbol
+Fixes:GUNPA:symbol
+Fixes:GUNSO:symbol
+Fixes:GUNTU:symbol
+Fixes:GUSSI:symbol
+Fixes:HALIF:symbol
+Fixes:HANKY:symbol
+Fixes:HARDY:symbol
+Fixes:HASTY:symbol
+Fixes:HAVEN:symbol
+Fixes:HAWKE:symbol
+Fixes:HAZEL:symbol
+Fixes:HEMEL:symbol
+Fixes:HERON:symbol
+Fixes:HICAP:symbol
+Fixes:HILLY:symbol
+Fixes:HOFIK:symbol
+Fixes:HOLLY:symbol
+Fixes:HOTBE:symbol
+Fixes:IBGON:symbol
+Fixes:IBNID:symbol
+Fixes:IBOLU:symbol
+Fixes:IBRAR:symbol
+Fixes:IBROD:symbol
+Fixes:IBTES:symbol
+Fixes:IDESI:symbol
+Fixes:IDEXA:symbol
+Fixes:IDGAS:symbol
+Fixes:IDITU:symbol
+Fixes:IDKOL:symbol
+Fixes:IDOKI:symbol
+Fixes:IDOVO:symbol
+Fixes:ILZAP:symbol
+Fixes:IMVUR:symbol
+Fixes:INBAS:symbol
+Fixes:INBOB:symbol
+Fixes:INDOX:symbol
+Fixes:INGUR:symbol
+Fixes:INKEK:symbol
+Fixes:INKOB:symbol
+Fixes:INLAK:symbol
+Fixes:INLIM:symbol
+Fixes:INPIP:symbol
+Fixes:INPUT:symbol
+Fixes:INREV:symbol
+Fixes:INRUB:symbol
+Fixes:INSUN:symbol
+Fixes:IPDOR:symbol
+Fixes:IPKUS:symbol
+Fixes:IPNOX:symbol
+Fixes:IPRIL:symbol
+Fixes:IPSAD:symbol
+Fixes:IPSET:symbol
+Fixes:IPSIR:symbol
+Fixes:IPZOL:symbol
+Fixes:IRKUM:symbol
+Fixes:IRKUN:symbol
+Fixes:ITJON:symbol
+Fixes:ITSUX:symbol
+Fixes:ITVIP:symbol
+Fixes:IVLOD:symbol
+Fixes:IXURA:symbol
+Fixes:JACKO:symbol
+Fixes:JOZMA:symbol
+Fixes:KAPEX:symbol
+Fixes:KARNO:symbol
+Fixes:KATHY:symbol
+Fixes:KEGUN:symbol
+Fixes:KELLY:symbol
+Fixes:KEMPY:symbol
+Fixes:KENET:symbol
+Fixes:KEPAD:symbol
+Fixes:KESEG:symbol
+Fixes:KESIX:symbol
+Fixes:KESUP:symbol
+Fixes:KIDLI:symbol
+Fixes:KILFA:symbol
+Fixes:KLONN:symbol
+Fixes:KOBBI:symbol
+Fixes:KOFAL:symbol
+Fixes:KOGAD:symbol
+Fixes:KOKAL:symbol
+Fixes:KOKIB:symbol
+Fixes:KOLAG:symbol
+Fixes:KOLID:symbol
+Fixes:KONAN:symbol
+Fixes:KOPUL:symbol
+Fixes:KOTEM:symbol
+Fixes:KOXOD:symbol
+Fixes:KUBAX:symbol
+Fixes:KUGUR:symbol
+Fixes:KUKIS:symbol
+Fixes:KUMIL:symbol
+Fixes:KUNAV:symbol
+Fixes:KUVOX:symbol
+Fixes:KUXEM:symbol
+Fixes:LAGAV:symbol
+Fixes:LAKEY:symbol
+Fixes:LAMAT:symbol
+Fixes:LAMIX:symbol
+Fixes:LAMMA:symbol
+Fixes:LAMRO:symbol
+Fixes:LAMSO:symbol
+Fixes:LANAK:symbol
+Fixes:LANON:symbol
+Fixes:LANPI:symbol
+Fixes:LANVA:symbol
+Fixes:LAPRA:symbol
+Fixes:LARCK:symbol
+Fixes:LARDI:symbol
+Fixes:LARGA:symbol
+Fixes:LARLA:symbol
+Fixes:LASNO:symbol
+Fixes:LATMU:symbol
+Fixes:LAVRI:symbol
+Fixes:LAZTU:symbol
+Fixes:LEDBO:symbol
+Fixes:LEDGO:symbol
+Fixes:LEGRO:symbol
+Fixes:LELDO:symbol
+Fixes:LELNA:symbol
+Fixes:LEMGU:symbol
+Fixes:LESLU:symbol
+Fixes:LESNI:symbol
+Fixes:LESRA:symbol
+Fixes:LESTA:symbol
+Fixes:LIBBA:symbol
+Fixes:LIBSO:symbol
+Fixes:LIFFY:symbol
+Fixes:LIMKA:symbol
+Fixes:LINDY:symbol
+Fixes:LIPGO:symbol
+Fixes:LISBO:symbol
+Fixes:LISTO:symbol
+Fixes:LIVSU:symbol
+Fixes:LIZAD:symbol
+Fixes:LOGAN:symbol
+Fixes:LOMON:symbol
+Fixes:LOMVO:symbol
+Fixes:LONAM:symbol
+Fixes:LOREL:symbol
+Fixes:LORKU:symbol
+Fixes:LOVEL:symbol
+Fixes:LUCCO:symbol
+Fixes:LUFTU:symbol
+Fixes:LUGIS:symbol
+Fixes:LULOX:symbol
+Fixes:LUSEN:symbol
+Fixes:LUSIV:symbol
+Fixes:LUSOD:symbol
+Fixes:LUTIP:symbol
+Fixes:LUTOV:symbol
+Fixes:LUXIV:symbol
+Fixes:LUXTO:symbol
+Fixes:LYNAS:symbol
+Fixes:MABUG:symbol
+Fixes:MADAD:symbol
+Fixes:MAGEE:symbol
+Fixes:MAKUX:symbol
+Fixes:MALBY:symbol
+Fixes:MALUD:symbol
+Fixes:MAMUL:symbol
+Fixes:MANGO:symbol
+Fixes:MANIG:symbol
+Fixes:MAPLE:symbol
+Fixes:MARUK:symbol
+Fixes:MASOP:symbol
+Fixes:MATCH:symbol
+Fixes:MATIK:symbol
+Fixes:MATUT:symbol
+Fixes:MAVET:symbol
+Fixes:MAXIT:symbol
+Fixes:MAYLA:symbol
+Fixes:MEDOG:symbol
+Fixes:MEGEL:symbol
+Fixes:MERLY:symbol
+Fixes:MIMBI:symbol
+Fixes:MIMKU:symbol
+Fixes:MIMVA:symbol
+Fixes:MIPVO:symbol
+Fixes:MIRSI:symbol
+Fixes:MITSO:symbol
+Fixes:MIVLA:symbol
+Fixes:MOCHA:symbol
+Fixes:MODGO:symbol
+Fixes:MODMI:symbol
+Fixes:MOGLI:symbol
+Fixes:MOGLO:symbol
+Fixes:MOGMO:symbol
+Fixes:MOGTA:symbol
+Fixes:MOKBU:symbol
+Fixes:MOLAK:symbol
+Fixes:MOLIX:symbol
+Fixes:MONTY:symbol
+Fixes:MOPAT:symbol
+Fixes:MORAG:symbol
+Fixes:MOSIS:symbol
+Fixes:MOSUN:symbol
+Fixes:MOTOX:symbol
+Fixes:MOVEN:symbol
+Fixes:MULIT:symbol
+Fixes:NAKID:symbol
+Fixes:NALAN:symbol
+Fixes:NALAX:symbol
+Fixes:NANEV:symbol
+Fixes:NANTI:symbol
+Fixes:NANUM:symbol
+Fixes:NAPEX:symbol
+Fixes:NATEB:symbol
+Fixes:NATKO:symbol
+Fixes:NAVEL:symbol
+Fixes:NAVOV:symbol
+Fixes:NAVPI:symbol
+Fixes:NAVSO:symbol
+Fixes:NAXAT:symbol
+Fixes:NAXIL:symbol
+Fixes:NEDEX:symbol
+Fixes:NEDUL:symbol
+Fixes:NEKAP:symbol
+Fixes:NELBO:symbol
+Fixes:NELKO:symbol
+Fixes:NELSA:symbol
+Fixes:NENVO:symbol
+Fixes:NEPNA:symbol
+Fixes:NERTU:symbol
+Fixes:NESDI:symbol
+Fixes:NESON:symbol
+Fixes:NETKI:symbol
+Fixes:NETVU:symbol
+Fixes:NEVIL:symbol
+Fixes:NEVIS:symbol
+Fixes:NEVRI:symbol
+Fixes:NEXUS:symbol
+Fixes:NEXXU:symbol
+Fixes:NEZZA:symbol
+Fixes:NIBDA:symbol
+Fixes:NIBOG:symbol
+Fixes:NIDGO:symbol
+Fixes:NIGIT:symbol
+Fixes:NILAV:symbol
+Fixes:NILGI:symbol
+Fixes:NILON:symbol
+Fixes:NIMAT:symbol
+Fixes:NINEB:symbol
+Fixes:NINEX:symbol
+Fixes:NIPIT:symbol
+Fixes:NISBI:symbol
+Fixes:NISKA:symbol
+Fixes:NITON:symbol
+Fixes:NIVKO:symbol
+Fixes:NIVUN:symbol
+Fixes:NOBDO:symbol
+Fixes:NOCAD:symbol
+Fixes:NOKIN:symbol
+Fixes:NOMSU:symbol
+Fixes:NONVA:symbol
+Fixes:NOPKI:symbol
+Fixes:NORBO:symbol
+Fixes:NORLA:symbol
+Fixes:NORRY:symbol
+Fixes:NOSLO:symbol
+Fixes:NOTGI:symbol
+Fixes:NOTRO:symbol
+Fixes:NOVBA:symbol
+Fixes:NOVMA:symbol
+Fixes:NUBRI:symbol
+Fixes:NUDNA:symbol
+Fixes:NUGBO:symbol
+Fixes:NUGRA:symbol
+Fixes:NULGU:symbol
+Fixes:NUMPI:symbol
+Fixes:NUMPO:symbol
+Fixes:OBOXA:symbol
+Fixes:OBUBA:symbol
+Fixes:OBUNI:symbol
+Fixes:ODADA:symbol
+Fixes:ODIGI:symbol
+Fixes:ODMIX:symbol
+Fixes:ODMOS:symbol
+Fixes:ODNEK:symbol
+Fixes:ODPEX:symbol
+Fixes:ODREP:symbol
+Fixes:ODROB:symbol
+Fixes:ODUKU:symbol
+Fixes:ODVIK:symbol
+Fixes:ODVOD:symbol
+Fixes:OGAGI:symbol
+Fixes:OGTUG:symbol
+Fixes:OKESI:symbol
+Fixes:OKNOB:symbol
+Fixes:OKPAL:symbol
+Fixes:OKTAD:symbol
+Fixes:OKTEM:symbol
+Fixes:OKVAP:symbol
+Fixes:OLGUD:symbol
+Fixes:OLIVE:symbol
+Fixes:OLNEY:symbol
+Fixes:OLPOP:symbol
+Fixes:OMOKO:symbol
+Fixes:ORIST:symbol
+Fixes:ORSUM:symbol
+Fixes:ORTAC:symbol
+Fixes:ORTAV:symbol
+Fixes:ORVIK:symbol
+Fixes:ORVUL:symbol
+Fixes:ORVUX:symbol
+Fixes:OSBON:symbol
+Fixes:OSBOX:symbol
+Fixes:OSGIL:symbol
+Fixes:OSKOT:symbol
+Fixes:OSLEL:symbol
+Fixes:OSMAP:symbol
+Fixes:OSMEG:symbol
+Fixes:OSNUG:symbol
+Fixes:OSPOL:symbol
+Fixes:OTBED:symbol
+Fixes:OTBUN:symbol
+Fixes:OTMET:symbol
+Fixes:OTSID:symbol
+Fixes:OVDAN:symbol
+Fixes:OXLOW:symbol
+Fixes:PAAVO:symbol
+Fixes:PAVLO:symbol
+Fixes:PEDIG:symbol
+Fixes:PELET:symbol
+Fixes:PEMAK:symbol
+Fixes:PEMOB:symbol
+Fixes:PEMOS:symbol
+Fixes:PENIL:symbol
+Fixes:PENUN:symbol
+Fixes:PENUX:symbol
+Fixes:PEPEG:symbol
+Fixes:PEPIN:symbol
+Fixes:PEPIS:symbol
+Fixes:PEPOD:symbol
+Fixes:PEPUL:symbol
+Fixes:PERUP:symbol
+Fixes:PETIL:symbol
+Fixes:PETOX:symbol
+Fixes:PHILI:symbol
+Fixes:PIBUX:symbol
+Fixes:PIGOT:symbol
+Fixes:PIKIL:symbol
+Fixes:PIKOD:symbol
+Fixes:PILIP:symbol
+Fixes:PIPAR:symbol
+Fixes:PIPEM:symbol
+Fixes:PIPIN:symbol
+Fixes:PIXAM:symbol
+Fixes:PIXUP:symbol
+Fixes:PLYMO:symbol
+Fixes:POMAX:symbol
+Fixes:POTON:symbol
+Fixes:PUPJO:symbol
+Fixes:RAMID:symbol
+Fixes:RAMOX:symbol
+Fixes:RAPIX:symbol
+Fixes:RAPUM:symbol
+Fixes:RATKA:symbol
+Fixes:RATLO:symbol
+Fixes:RATPU:symbol
+Fixes:RATSU:symbol
+Fixes:RAVDI:symbol
+Fixes:RAVLO:symbol
+Fixes:REDFA:symbol
+Fixes:REGSI:symbol
+Fixes:REKNA:symbol
+Fixes:REMSI:symbol
+Fixes:RESNO:symbol
+Fixes:RETSI:symbol
+Fixes:REXAM:symbol
+Fixes:RIBEL:symbol
+Fixes:RIGDI:symbol
+Fixes:RIGVU:symbol
+Fixes:RILES:symbol
+Fixes:RIMOL:symbol
+Fixes:RIMTO:symbol
+Fixes:RIMUP:symbol
+Fixes:RIMVU:symbol
+Fixes:RINGA:symbol
+Fixes:RINIS:symbol
+Fixes:RINTI:symbol
+Fixes:RIPNO:symbol
+Fixes:RISDU:symbol
+Fixes:RISIN:symbol
+Fixes:RISLA:symbol
+Fixes:RITSI:symbol
+Fixes:RIVOT:symbol
+Fixes:RIXUN:symbol
+Fixes:ROBBO:symbol
+Fixes:ROBEM:symbol
+Fixes:ROBOP:symbol
+Fixes:ROBVA:symbol
+Fixes:RODEL:symbol
+Fixes:RODOL:symbol
+Fixes:RODSI:symbol
+Fixes:ROGAG:symbol
+Fixes:ROGBI:symbol
+Fixes:ROKAN:symbol
+Fixes:ROKKE:symbol
+Fixes:ROKSI:symbol
+Fixes:ROKUP:symbol
+Fixes:ROLEX:symbol
+Fixes:ROLUM:symbol
+Fixes:ROPAL:symbol
+Fixes:ROPMU:symbol
+Fixes:ROSUN:symbol
+Fixes:ROTEV:symbol
+Fixes:ROTNO:symbol
+Fixes:ROVNI:symbol
+Fixes:ROXAT:symbol
+Fixes:ROXOG:symbol
+Fixes:RUBEX:symbol
+Fixes:RUBMI:symbol
+Fixes:RUDMO:symbol
+Fixes:RUGER:symbol
+Fixes:RUGID:symbol
+Fixes:RULAV:symbol
+Fixes:SABER:symbol
+Fixes:SALCO:symbol
+Fixes:SAMON:symbol
+Fixes:SANBA:symbol
+Fixes:SANDY:symbol
+Fixes:SAPCO:symbol
+Fixes:SEMMU:symbol
+Fixes:SETEL:symbol
+Fixes:SHAPP:symbol
+Fixes:SIDDI:symbol
+Fixes:SILVA:symbol
+Fixes:SIREN:symbol
+Fixes:SIRGO:symbol
+Fixes:SITET:symbol
+Fixes:SITKU:symbol
+Fixes:SIVBU:symbol
+Fixes:SIVDA:symbol
+Fixes:SKERY:symbol
+Fixes:SKESO:symbol
+Fixes:SKINA:symbol
+Fixes:SLANY:symbol
+Fixes:SLYDA:symbol
+Fixes:SMOKI:symbol
+Fixes:SOBDO:symbol
+Fixes:SOKDU:symbol
+Fixes:SOMAX:symbol
+Fixes:SOMVA:symbol
+Fixes:SONDO:symbol
+Fixes:SONEX:symbol
+Fixes:SONOG:symbol
+Fixes:SOPAX:symbol
+Fixes:SOPEK:symbol
+Fixes:SOPIT:symbol
+Fixes:SOPTO:symbol
+Fixes:SOPTU:symbol
+Fixes:SOSAR:symbol
+Fixes:SOSIM:symbol
+Fixes:SOTUN:symbol
+Fixes:SOVAT:symbol
+Fixes:SOVED:symbol
+Fixes:SOXON:symbol
+Fixes:SOXUX:symbol
+Fixes:SPEAR:symbol
+Fixes:STAFA:symbol
+Fixes:STIRA:symbol
+Fixes:STOAT:symbol
+Fixes:SUBIP:symbol
+Fixes:SUBUK:symbol
+Fixes:SUDBY:symbol
+Fixes:SUMIN:symbol
+Fixes:SUMUM:symbol
+Fixes:SUNFI:symbol
+Fixes:SUNOT:symbol
+Fixes:SUNUP:symbol
+Fixes:SUPAP:symbol
+Fixes:SUPEL:symbol
+Fixes:SUPIT:symbol
+Fixes:SURAT:symbol
+Fixes:SUSIS:symbol
+Fixes:SWANY:symbol
+Fixes:TABEN:symbol
+Fixes:TABIS:symbol
+Fixes:TADAL:symbol
+Fixes:TADEX:symbol
+Fixes:TAKAS:symbol
+Fixes:TALGA:symbol
+Fixes:TALIG:symbol
+Fixes:TAMEL:symbol
+Fixes:TANET:symbol
+Fixes:TARTN:symbol
+Fixes:TEBRA:symbol
+Fixes:TEDSA:symbol
+Fixes:TELBA:symbol
+Fixes:TELTU:symbol
+Fixes:TENDO:symbol
+Fixes:TENSO:symbol
+Fixes:TERKO:symbol
+Fixes:TESDO:symbol
+Fixes:TEVMO:symbol
+Fixes:TEVSI:symbol
+Fixes:THRED:symbol
+Fixes:TIBGA:symbol
+Fixes:TIGER:symbol
+Fixes:TIGGY:symbol
+Fixes:TILNI:symbol
+Fixes:TIMBA:symbol
+Fixes:TIMIS:symbol
+Fixes:TIMPO:symbol
+Fixes:TINAC:symbol
+Fixes:TINAN:symbol
+Fixes:TINDI:symbol
+Fixes:TIPAN:symbol
+Fixes:TIPIL:symbol
+Fixes:TIPOD:symbol
+Fixes:TIPTA:symbol
+Fixes:TIVER:symbol
+Fixes:TIXEX:symbol
+Fixes:TOBID:symbol
+Fixes:TOBIX:symbol
+Fixes:TOBMO:symbol
+Fixes:TOFED:symbol
+Fixes:TOLSA:symbol
+Fixes:TOPPA:symbol
+Fixes:TOPRO:symbol
+Fixes:TORGO:symbol
+Fixes:TOSVA:symbol
+Fixes:TOTRI:symbol
+Fixes:TOVGU:symbol
+Fixes:TOXTA:symbol
+Fixes:TRIPO:symbol
+Fixes:TUBSU:symbol
+Fixes:TUFOZ:symbol
+Fixes:TUGPO:symbol
+Fixes:TULTA:symbol
+Fixes:TUMTI:symbol
+Fixes:TUNBY:symbol
+Fixes:TUNSO:symbol
+Fixes:TUPEM:symbol
+Fixes:TURLU:symbol
+Fixes:TUXOS:symbol
+Fixes:TUZLA:symbol
+Fixes:TWEED:symbol
+Fixes:UGBET:symbol
+Fixes:UGBUD:symbol
+Fixes:UGNUS:symbol
+Fixes:ULLAP:symbol
+Fixes:ULSAX:symbol
+Fixes:ULTIB:symbol
+Fixes:UMBAG:symbol
+Fixes:UMBUR:symbol
+Fixes:UMKIL:symbol
+Fixes:UMLAT:symbol
+Fixes:UMLUX:symbol
+Fixes:UMOLO:symbol
+Fixes:UMTUM:symbol
+Fixes:UNBIG:symbol
+Fixes:UNDUG:symbol
+Fixes:UNDUX:symbol
+Fixes:UNGAP:symbol
+Fixes:UNIGO:symbol
+Fixes:UNPUP:symbol
+Fixes:UNSAD:symbol
+Fixes:UNTAL:symbol
+Fixes:UNURO:symbol
+Fixes:UPDUK:symbol
+Fixes:UPGAS:symbol
+Fixes:UPGET:symbol
+Fixes:UPTON:symbol
+Fixes:USEKA:symbol
+Fixes:UTAVA:symbol
+Fixes:UTOGU:symbol
+Fixes:UTUXA:symbol
+Fixes:UVAVU:symbol
+Fixes:UVPOK:symbol
+Fixes:VABIK:symbol
+Fixes:VABKA:symbol
+Fixes:VADNO:symbol
+Fixes:VAKPO:symbol
+Fixes:VALBO:symbol
+Fixes:VAMEB:symbol
+Fixes:VAPID:symbol
+Fixes:VAPPI:symbol
+Fixes:VASUX:symbol
+Fixes:VATON:symbol
+Fixes:VATRY:symbol
+Fixes:VAXIT:symbol
+Fixes:VEGAR:symbol
+Fixes:VEGUS:symbol
+Fixes:VELAG:symbol
+Fixes:VENAS:symbol
+Fixes:VENER:symbol
+Fixes:VEXEN:symbol
+Fixes:VEXUB:symbol
+Fixes:VIDOK:symbol
+Fixes:VOLFI:symbol
+Fixes:VOUGA:symbol
+Fixes:WAFFU:symbol
+Fixes:WELIN:symbol
+Fixes:WESUL:symbol
+Fixes:WILLO:symbol
+Fixes:WIZAD:symbol
+Fixes:WOBUN:symbol
+Fixes:WOTAN:symbol
+Fixes:XAMAB:symbol
+Fixes:XAMAN:symbol
+Fixes:XAPOS:symbol
+Fixes:XAVAP:symbol
+Fixes:XIDIL:symbol
+Fixes:ZEDDO:symbol
+Geo:Extended centrelines:
+Sids:London TC South East:
+Sids:London TC South West:
+Stars:Heathrow RMA Westerlies:
+Stars:Luton RMA:
+Stars:Northolt RMA:
+Stars:Stansted RMA:
+Stars:Thames RMA:
+VORs:ABB:symbol
+VORs:ADN:symbol
+VORs:AFI:symbol
+VORs:AMB:symbol
+VORs:AMS:symbol
+VORs:ANT:symbol
+VORs:ARE:symbol
+VORs:BAL:symbol
+VORs:BBE:symbol
+VORs:BBL:symbol
+VORs:BCL:symbol
+VORs:BCN:symbol
+VORs:BDN:symbol
+VORs:BEL:symbol
+VORs:BEN:symbol
+VORs:BFS:symbol
+VORs:BHD:symbol
+VORs:BIG:symbol
+VORs:BKY:symbol
+VORs:BNE:symbol
+VORs:BNN:symbol
+VORs:BPK:symbol
+VORs:BSO:symbol
+VORs:BST:symbol
+VORs:BUB:symbol
+VORs:BUN:symbol
+VORs:BZN:symbol
+VORs:CAN:symbol
+VORs:CGY:symbol
+VORs:CIV:symbol
+VORs:CLM:symbol
+VORs:CLN:symbol
+VORs:CMB:symbol
+VORs:COA:symbol
+VORs:CON:symbol
+VORs:CPT:symbol
+VORs:CRK:symbol
+VORs:CWZ:symbol
+VORs:DAP:symbol
+VORs:DCS:symbol
+VORs:DET:symbol
+VORs:DHE:symbol
+VORs:DIK:symbol
+VORs:DIN:symbol
+VORs:DPE:symbol
+VORs:DTY:symbol
+VORs:DUB:symbol
+VORs:DVL:symbol
+VORs:DVR:symbol
+VORs:EEL:symbol
+VORs:EHV:symbol
+VORs:EVX:symbol
+VORs:FFA:symbol
+VORs:FLO:symbol
+VORs:GAM:symbol
+VORs:GMN:symbol
+VORs:GOW:symbol
+VORs:GSY:symbol
+VORs:GUR:symbol
+VORs:GWC:symbol
+VORs:HDR:symbol
+VORs:HON:symbol
+VORs:HSD:symbol
+VORs:HUL:symbol
+VORs:IOM:symbol
+VORs:IWL:symbol
+VORs:JSY:symbol
+VORs:KOK:symbol
+VORs:KWL:symbol
+VORs:LAM:symbol
+VORs:LDV:symbol
+VORs:LEE:symbol
+VORs:LGE:symbol
+VORs:LGL:symbol
+VORs:LKH:symbol
+VORs:LND:symbol
+VORs:LNO:symbol
+VORs:LON:symbol
+VORs:LOO:symbol
+VORs:LSM:symbol
+VORs:LUK:symbol
+VORs:LUX:symbol
+VORs:LYD:symbol
+VORs:MAC:symbol
+VORs:MAM:symbol
+VORs:MAS:symbol
+VORs:MAY:symbol
+VORs:MCT:symbol
+VORs:MID:symbol
+VORs:MLD:symbol
+VORs:MTD:symbol
+VORs:NEW:symbol
+VORs:NIK:symbol
+VORs:OCK:symbol
+VORs:ODH:symbol
+VORs:OTR:symbol
+VORs:PAM:symbol
+VORs:POL:symbol
+VORs:PON:symbol
+VORs:PTH:symbol
+VORs:QPR:symbol
+VORs:REM:symbol
+VORs:REN:symbol
+VORs:RKN:symbol
+VORs:ROU:symbol
+VORs:RTM:symbol
+VORs:SAB:symbol
+VORs:SAM:symbol
+VORs:SFD:symbol
+VORs:SHA:symbol
+VORs:SOL:symbol
+VORs:SPI:symbol
+VORs:SPL:symbol
+VORs:SPY:symbol
+VORs:STN:symbol
+VORs:STU:symbol
+VORs:SUM:symbol
+VORs:SVA:symbol
+VORs:SWB:symbol
+VORs:TIR:symbol
+VORs:TLA:symbol
+VORs:TNT:symbol
+VORs:TRN:symbol
+VORs:VES:symbol
+VORs:VLN:symbol
+VORs:VYL:symbol
+VORs:WAD:symbol
+VORs:WAL:symbol
+VORs:WIK:symbol
+VORs:WIT:symbol
+VORs:WTN:symbol
+VORs:WTZ:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NODE
+WINDOWAREA:50.400092:-3.360659:52.700241:3.853998
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,216,0
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:6
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1552
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:157
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_YARMOUTH;ASR_COTSWOLD
