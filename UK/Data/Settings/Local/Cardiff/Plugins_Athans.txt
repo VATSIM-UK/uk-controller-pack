@@ -20,5 +20,5 @@ vSMR:cpdlc_sound:1
 UK Controller Plugin:missedApproachAudio:1
 UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
-UK Controller Plugin:missedApproachAirfields:EGSY
+UK Controller Plugin:missedApproachAirfields:EGFF
 END
