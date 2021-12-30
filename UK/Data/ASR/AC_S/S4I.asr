@@ -257,8 +257,8 @@ ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -3445,8 +3445,8 @@ Fixes:NEVIL:symbol
 Fixes:NEVIS:name
 Fixes:NEVIS:symbol
 Fixes:NEVRI:name
-Fixes:NEVRI:symbol
 Fixes:NEVRI:name
+Fixes:NEVRI:symbol
 Fixes:NEVRI:symbol
 Fixes:NEXAN:name
 Fixes:NEXAN:symbol
@@ -3821,8 +3821,8 @@ Fixes:OSBOX:symbol
 Fixes:OSCAR:name
 Fixes:OSCAR:symbol
 Fixes:OSDEB:name
-Fixes:OSDEB:symbol
 Fixes:OSDEB:name
+Fixes:OSDEB:symbol
 Fixes:OSDEB:symbol
 Fixes:OSGIL:name
 Fixes:OSGIL:symbol
@@ -4979,8 +4979,8 @@ Fixes:TUBSU:symbol
 Fixes:TUDRA:name
 Fixes:TUDRA:symbol
 Fixes:TUFOZ:name
-Fixes:TUFOZ:symbol
 Fixes:TUFOZ:name
+Fixes:TUFOZ:symbol
 Fixes:TUFOZ:symbol
 Fixes:TUGLI:name
 Fixes:TUGLI:symbol
@@ -5411,8 +5411,8 @@ Fixes:ZEDDO:symbol
 Fixes:ZOFAT:name
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
-Fixes:ZOPHI:symbol
 Fixes:ZOPHI:name
+Fixes:ZOPHI:symbol
 Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
@@ -5709,6 +5709,7 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
+DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:48.879737:-6.332588:52.924913:5.875829
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1523
