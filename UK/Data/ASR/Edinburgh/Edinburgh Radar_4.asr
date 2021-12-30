@@ -257,8 +257,8 @@ ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -3425,8 +3425,8 @@ Fixes:NEVIL:symbol
 Fixes:NEVIS:name
 Fixes:NEVIS:symbol
 Fixes:NEVRI:name
-Fixes:NEVRI:symbol
 Fixes:NEVRI:name
+Fixes:NEVRI:symbol
 Fixes:NEVRI:symbol
 Fixes:NEXAN:name
 Fixes:NEXAN:symbol
@@ -3801,8 +3801,8 @@ Fixes:OSBOX:symbol
 Fixes:OSCAR:name
 Fixes:OSCAR:symbol
 Fixes:OSDEB:name
-Fixes:OSDEB:symbol
 Fixes:OSDEB:name
+Fixes:OSDEB:symbol
 Fixes:OSDEB:symbol
 Fixes:OSGIL:name
 Fixes:OSGIL:symbol
@@ -4959,8 +4959,8 @@ Fixes:TUBSU:symbol
 Fixes:TUDRA:name
 Fixes:TUDRA:symbol
 Fixes:TUFOZ:name
-Fixes:TUFOZ:symbol
 Fixes:TUFOZ:name
+Fixes:TUFOZ:symbol
 Fixes:TUFOZ:symbol
 Fixes:TUGLI:name
 Fixes:TUGLI:symbol
@@ -5391,8 +5391,8 @@ Fixes:ZEDDO:symbol
 Fixes:ZOFAT:name
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
-Fixes:ZOPHI:symbol
 Fixes:ZOPHI:name
+Fixes:ZOPHI:symbol
 Fixes:ZOPHI:symbol
 Free Text:EGPH VRPs\*Arthur's Seat:freetext
 Free Text:EGPH VRPs\*Bathgate:freetext
@@ -5631,7 +5631,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:55.400944:-5.029562:56.499056:-1.715438
+WINDOWAREA:55.400944:-5.094672:56.499056:-1.650328
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1515
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
@@ -5645,7 +5645,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -5664,8 +5666,16 @@ PLUGIN:UK Controller Plugin:holdTARTNPositionX:494
 PLUGIN:UK Controller Plugin:holdTARTNPositionY:212
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1402
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:51
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1599
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:194
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1576
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
-PLUGIN:UK Controller Plugin:selectedHolds:STIRA;TARTN
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_PORTREE;ASR_TYNE
