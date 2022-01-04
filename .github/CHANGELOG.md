@@ -1,3 +1,6 @@
+# Changes from release 2021/09 to 2021/13
+1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
+
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
 2. Enhancement - VATCANBookings plugin updated to V1.1 - thanks to @luke11brown (Luke Brown)
