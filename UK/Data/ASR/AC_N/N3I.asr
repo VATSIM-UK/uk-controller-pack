@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -99,6 +101,17 @@ ARTCC boundary:EGD211:
 ARTCC boundary:EGD213:
 ARTCC boundary:EGD215:
 ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
 ARTCC boundary:EGD304:
 ARTCC boundary:EGD305:
 ARTCC boundary:EGD307:
@@ -198,6 +211,7 @@ ARTCC boundary:EGR095:
 ARTCC boundary:EGR101:
 ARTCC boundary:EGR104:
 ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
 ARTCC boundary:EGR107:
 ARTCC boundary:EGR153:
 ARTCC boundary:EGR154:
@@ -314,7 +328,6 @@ ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Lands End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
@@ -340,6 +353,7 @@ ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
@@ -1474,9 +1488,9 @@ Free Text:Airspace Bases\FL125D:freetext
 Free Text:Airspace Bases\FL125E:freetext
 Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135C:freetext
 Free Text:Airspace Bases\FL135D:freetext
-Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
@@ -1907,6 +1921,10 @@ TAGFAMILY:AC
 WINDOWAREA:50.817144:-10.362153:56.426087:7.230883
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1518
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1162

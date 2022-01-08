@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -56,6 +58,10 @@ ARTCC boundary:EGD115B:
 ARTCC boundary:EGD117:
 ARTCC boundary:EGD118:
 ARTCC boundary:EGD119:
+ARTCC boundary:EGD120:
+ARTCC boundary:EGD122A:
+ARTCC boundary:EGD122B:
+ARTCC boundary:EGD122C:
 ARTCC boundary:EGD123:
 ARTCC boundary:EGD124:
 ARTCC boundary:EGD125:
@@ -95,6 +101,17 @@ ARTCC boundary:EGD211:
 ARTCC boundary:EGD213:
 ARTCC boundary:EGD215:
 ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
 ARTCC boundary:EGD304:
 ARTCC boundary:EGD305:
 ARTCC boundary:EGD307:
@@ -130,6 +147,7 @@ ARTCC boundary:EGD408:
 ARTCC boundary:EGD410:
 ARTCC boundary:EGD412:
 ARTCC boundary:EGD442:
+ARTCC boundary:EGD505:
 ARTCC boundary:EGD508:
 ARTCC boundary:EGD509:
 ARTCC boundary:EGD510A:
@@ -193,6 +211,7 @@ ARTCC boundary:EGR095:
 ARTCC boundary:EGR101:
 ARTCC boundary:EGR104:
 ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
 ARTCC boundary:EGR107:
 ARTCC boundary:EGR153:
 ARTCC boundary:EGR154:
@@ -309,7 +328,6 @@ ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Lands End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
@@ -335,6 +353,7 @@ ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
@@ -1469,9 +1488,9 @@ Free Text:Airspace Bases\FL125D:freetext
 Free Text:Airspace Bases\FL125E:freetext
 Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135C:freetext
 Free Text:Airspace Bases\FL135D:freetext
-Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
@@ -1909,6 +1928,10 @@ TAGFAMILY:AC
 WINDOWAREA:48.879737:-6.332588:52.924913:5.875829
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1523
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
