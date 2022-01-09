@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
 Free Text:SCT2\03D:freetext
 Free Text:SCT2\06:freetext
 Free Text:SCT2\06 Grass:freetext

@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
