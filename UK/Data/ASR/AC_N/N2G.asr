@@ -257,8 +257,8 @@ ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
@@ -1336,6 +1336,7 @@ Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
+Stars:DEXEN Buffer:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
@@ -1344,6 +1345,8 @@ Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
 Stars:Manchester RMA Westerlies:
 Stars:Northolt RMA:
+Stars:RAMOX Buffer Area A:
+Stars:RAMOX Buffer Area B:
 Stars:Stansted RMA:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
@@ -1498,8 +1501,8 @@ PLUGIN:UK Controller Plugin:CountdownScreenPosX:1518
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1169
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:227
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1507,7 +1510,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:1
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -1516,12 +1521,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1518
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:110
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1354
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:59
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_HOLYHEAD;ASR_BARNSLEY;ASR_HUMBER;ASR_YARMOUTH;ASR_TYNE;ASR_CHATHAM
-
-Stars:DEXEN Buffer:
-Stars:RAMOX Buffer Area A:
-Stars:RAMOX Buffer Area B:

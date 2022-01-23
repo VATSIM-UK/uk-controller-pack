@@ -12,11 +12,11 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_TopSky_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2021_12.sct
+Settings	sector	UK\Data\Sector\UK_2021_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent5	\..\..\Data\ASR\AC_S\Southampton SMR.asr
+RecentFiles	Recent5	\..\..\Data\ASR\AC_S\Heathrow SMR.asr
 RecentFiles	Recent6	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
 RecentFiles	Recent7	\..\..\Data\ASR\AC_S\City SMR.asr
 RecentFiles	Recent8	\..\..\Data\ASR\AC_S\Southampton SMR.asr
@@ -38,11 +38,14 @@ Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 RecentFiles	Recent1	\..\..\Data\ASR\AC_S\S2T.asr
-RecentFiles	Recent2	\..\..\Data\ASR\AC_S\Heathrow SMR.asr
-RecentFiles	Recent3	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
-RecentFiles	Recent4	\..\..\Data\ASR\AC_S\City SMR.asr
+RecentFiles	Recent2	\..\..\Data\ASR\AC_S\S1T.asr
+RecentFiles	Recent3	\..\..\Data\ASR\AC_S\S3T.asr
+RecentFiles	Recent4	\..\..\Data\ASR\AC_S\S4T.asr
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
 Settings	airways	\..\..\Data\Datafiles\airway.txt
+RecentFiles	Recent9	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
+RecentFiles	Recent10	\..\..\Data\ASR\AC_S\City SMR.asr
+RecentFiles	Recent11	\..\..\Data\ASR\AC_S\Southampton SMR.asr

@@ -17,4 +17,7 @@ UK Controller Plugin:timer5Duration:180
 UK Controller Plugin:timer5Enabled:1
 vSMR:cpdlc_logon:EGPD
 vSMR:cpdlc_sound:1
+UK Controller Plugin:missedApproachAudio:1
+UK Controller Plugin:missedApproachAudioCurrentUser:0
+UK Controller Plugin:missedApproachServiceProvision:28
 END

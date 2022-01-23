@@ -99,6 +99,17 @@ ARTCC boundary:EGD211:
 ARTCC boundary:EGD213:
 ARTCC boundary:EGD215:
 ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
 ARTCC boundary:EGD304:
 ARTCC boundary:EGD305:
 ARTCC boundary:EGD307:
@@ -198,6 +209,7 @@ ARTCC boundary:EGR095:
 ARTCC boundary:EGR101:
 ARTCC boundary:EGR104:
 ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
 ARTCC boundary:EGR107:
 ARTCC boundary:EGR153:
 ARTCC boundary:EGR154:
@@ -253,18 +265,17 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -316,10 +327,8 @@ ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Lands End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -341,10 +350,9 @@ ARTCC low boundary:EGLW London Heliport LFA:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Teeside CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
@@ -376,7 +384,6 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Fixes:ABAPO:symbol
 Fixes:ABBOT:symbol
 Fixes:ABDAL:symbol
@@ -397,7 +404,6 @@ Fixes:ADELU:symbol
 Fixes:ADGEG:symbol
 Fixes:ADKIK:symbol
 Fixes:ADLOG:symbol
-Fixes:ADMAG:symbol
 Fixes:ADMEX:symbol
 Fixes:ADMIS:symbol
 Fixes:ADNAM:symbol
@@ -415,6 +421,7 @@ Fixes:ALASO:symbol
 Fixes:ALAVA:symbol
 Fixes:ALESO:symbol
 Fixes:ALOTI:symbol
+Fixes:ALPHA:symbol
 Fixes:ALUTA:symbol
 Fixes:ALVIN:symbol
 Fixes:AMDUT:symbol
@@ -428,6 +435,8 @@ Fixes:AMRAL:symbol
 Fixes:AMTAP:symbol
 Fixes:AMTOD:symbol
 Fixes:AMVEL:symbol
+Fixes:ANGLA:symbol
+Fixes:ANGLO:symbol
 Fixes:ANJAK:symbol
 Fixes:ANNET:symbol
 Fixes:APPLE:symbol
@@ -494,6 +503,7 @@ Fixes:BEKET:symbol
 Fixes:BEKMO:symbol
 Fixes:BELOX:symbol
 Fixes:BENBO:symbol
+Fixes:BENIX:symbol
 Fixes:BENSU:symbol
 Fixes:BEREP:symbol
 Fixes:BERUL:symbol
@@ -502,6 +512,7 @@ Fixes:BESGA:symbol
 Fixes:BETAX:symbol
 Fixes:BETPO:symbol
 Fixes:BEVAM:symbol
+Fixes:BEVAV:symbol
 Fixes:BEVUP:symbol
 Fixes:BIDVA:symbol
 Fixes:BIFIN:symbol
@@ -517,6 +528,7 @@ Fixes:BISRU:symbol
 Fixes:BLACA:symbol
 Fixes:BLIXY:symbol
 Fixes:BODSO:symbol
+Fixes:BOFUM:symbol
 Fixes:BOGMI:symbol
 Fixes:BOGNA:symbol
 Fixes:BOLBI:symbol
@@ -526,6 +538,8 @@ Fixes:BONBY:symbol
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
+Fixes:BRAVO:symbol
+Fixes:BRILL:symbol
 Fixes:BRIPO:symbol
 Fixes:BRUCE:symbol
 Fixes:BUDON:symbol
@@ -536,12 +550,12 @@ Fixes:BURNI:symbol
 Fixes:BUSTA:symbol
 Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
-Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CEDAR:symbol
+Fixes:CHARE:symbol
+Fixes:CHARL:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
-Fixes:CLIPY:symbol
+Fixes:CHUBB:symbol
 Fixes:CLYDE:symbol
 Fixes:COWJO:symbol
 Fixes:COWLY:symbol
@@ -558,6 +572,7 @@ Fixes:DAWLY:symbol
 Fixes:DAYNE:symbol
 Fixes:DEGOS:symbol
 Fixes:DELBO:symbol
+Fixes:DELTA:symbol
 Fixes:DENBY:symbol
 Fixes:DENOG:symbol
 Fixes:DESIG:symbol
@@ -574,6 +589,7 @@ Fixes:DIGMA:symbol
 Fixes:DIGSU:symbol
 Fixes:DIGUT:symbol
 Fixes:DIKAS:symbol
+Fixes:DIKRO:symbol
 Fixes:DIKVU:symbol
 Fixes:DIMLI:symbol
 Fixes:DINIM:symbol
@@ -623,6 +639,7 @@ Fixes:EMKUK:symbol
 Fixes:EMLON:symbol
 Fixes:EMPER:symbol
 Fixes:ENCOD:symbol
+Fixes:ENDEQ:symbol
 Fixes:ENIPI:symbol
 Fixes:ENITO:symbol
 Fixes:ENOKA:symbol
@@ -653,6 +670,7 @@ Fixes:EVATA:symbol
 Fixes:EVBEV:symbol
 Fixes:EVEXU:symbol
 Fixes:EVKAL:symbol
+Fixes:EVKEX:symbol
 Fixes:EVMEK:symbol
 Fixes:EVNAL:symbol
 Fixes:EVNAS:symbol
@@ -666,6 +684,7 @@ Fixes:EXMOR:symbol
 Fixes:FACTU:symbol
 Fixes:FENIK:symbol
 Fixes:FERIT:symbol
+Fixes:FIFAH:symbol
 Fixes:FIGZI:symbol
 Fixes:FINDO:symbol
 Fixes:FINMA:symbol
@@ -673,6 +692,7 @@ Fixes:FITBO:symbol
 Fixes:FONZU:symbol
 Fixes:FORTY:symbol
 Fixes:FOXLA:symbol
+Fixes:FOXTT:symbol
 Fixes:FOYLE:symbol
 Fixes:FRANE:symbol
 Fixes:FYNER:symbol
@@ -726,6 +746,7 @@ Fixes:GOTNA:symbol
 Fixes:GOXUL:symbol
 Fixes:GRICE:symbol
 Fixes:GROVE:symbol
+Fixes:GULDA:symbol
 Fixes:GUNPA:symbol
 Fixes:GUNSO:symbol
 Fixes:GUNTU:symbol
@@ -787,6 +808,7 @@ Fixes:ITSUX:symbol
 Fixes:ITVIP:symbol
 Fixes:IVLOD:symbol
 Fixes:IXURA:symbol
+Fixes:IZLAW:symbol
 Fixes:JACKO:symbol
 Fixes:JOZMA:symbol
 Fixes:KAPEX:symbol
@@ -808,6 +830,7 @@ Fixes:KOFAL:symbol
 Fixes:KOGAD:symbol
 Fixes:KOKAL:symbol
 Fixes:KOKIB:symbol
+Fixes:KOKOS:symbol
 Fixes:KOLAG:symbol
 Fixes:KOLID:symbol
 Fixes:KONAN:symbol
@@ -847,6 +870,7 @@ Fixes:LEGRO:symbol
 Fixes:LELDO:symbol
 Fixes:LELNA:symbol
 Fixes:LEMGU:symbol
+Fixes:LERAK:symbol
 Fixes:LESLU:symbol
 Fixes:LESNI:symbol
 Fixes:LESRA:symbol
@@ -861,6 +885,7 @@ Fixes:LISBO:symbol
 Fixes:LISTO:symbol
 Fixes:LIVSU:symbol
 Fixes:LIZAD:symbol
+Fixes:LOFFO:symbol
 Fixes:LOGAN:symbol
 Fixes:LOMON:symbol
 Fixes:LOMVO:symbol
@@ -873,6 +898,7 @@ Fixes:LUFTU:symbol
 Fixes:LUGIS:symbol
 Fixes:LULOX:symbol
 Fixes:LUSEN:symbol
+Fixes:LUSIT:symbol
 Fixes:LUSIV:symbol
 Fixes:LUSOD:symbol
 Fixes:LUTIP:symbol
@@ -889,7 +915,6 @@ Fixes:MALUD:symbol
 Fixes:MAMUL:symbol
 Fixes:MANGO:symbol
 Fixes:MANIG:symbol
-Fixes:MAPLE:symbol
 Fixes:MARUK:symbol
 Fixes:MASOP:symbol
 Fixes:MATCH:symbol
@@ -902,8 +927,10 @@ Fixes:MEDOG:symbol
 Fixes:MEGEL:symbol
 Fixes:MERLY:symbol
 Fixes:MIMBI:symbol
+Fixes:MIMFO:symbol
 Fixes:MIMKU:symbol
 Fixes:MIMVA:symbol
+Fixes:MINQI:symbol
 Fixes:MIPVO:symbol
 Fixes:MIRSI:symbol
 Fixes:MITSO:symbol
@@ -921,7 +948,6 @@ Fixes:MOLIX:symbol
 Fixes:MONTY:symbol
 Fixes:MOPAT:symbol
 Fixes:MORAG:symbol
-Fixes:MOSIS:symbol
 Fixes:MOSUN:symbol
 Fixes:MOTOX:symbol
 Fixes:MOVEN:symbol
@@ -990,6 +1016,7 @@ Fixes:NOTGI:symbol
 Fixes:NOTRO:symbol
 Fixes:NOVBA:symbol
 Fixes:NOVMA:symbol
+Fixes:NOVMR:symbol
 Fixes:NUBRI:symbol
 Fixes:NUDNA:symbol
 Fixes:NUGBO:symbol
@@ -1011,7 +1038,6 @@ Fixes:ODROB:symbol
 Fixes:ODUKU:symbol
 Fixes:ODVIK:symbol
 Fixes:ODVOD:symbol
-Fixes:OGAGI:symbol
 Fixes:OGTUG:symbol
 Fixes:OKESI:symbol
 Fixes:OKNOB:symbol
@@ -1020,19 +1046,22 @@ Fixes:OKTAD:symbol
 Fixes:OKTEM:symbol
 Fixes:OKVAP:symbol
 Fixes:OLGUD:symbol
-Fixes:OLIVE:symbol
 Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
 Fixes:OMOKO:symbol
 Fixes:ORIST:symbol
+Fixes:ORMER:symbol
 Fixes:ORSUM:symbol
 Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
+Fixes:ORVAL:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
 Fixes:ORVUX:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
+Fixes:OSCAR:symbol
+Fixes:OSDEB:symbol
 Fixes:OSGIL:symbol
 Fixes:OSKOT:symbol
 Fixes:OSLEL:symbol
@@ -1046,11 +1075,12 @@ Fixes:OTMET:symbol
 Fixes:OTSID:symbol
 Fixes:OVDAN:symbol
 Fixes:OXLOW:symbol
+Fixes:OYSTA:symbol
 Fixes:PAAVO:symbol
 Fixes:PAVLO:symbol
 Fixes:PEDIG:symbol
+Fixes:PEGZA:symbol
 Fixes:PELET:symbol
-Fixes:PEMAK:symbol
 Fixes:PEMOB:symbol
 Fixes:PEMOS:symbol
 Fixes:PENIL:symbol
@@ -1061,14 +1091,14 @@ Fixes:PEPIN:symbol
 Fixes:PEPIS:symbol
 Fixes:PEPOD:symbol
 Fixes:PEPUL:symbol
+Fixes:PERCH:symbol
 Fixes:PERUP:symbol
 Fixes:PETIL:symbol
 Fixes:PETOX:symbol
-Fixes:PHILI:symbol
 Fixes:PIBUX:symbol
 Fixes:PIGOT:symbol
+Fixes:PIKEY:symbol
 Fixes:PIKIL:symbol
-Fixes:PIKOD:symbol
 Fixes:PILIP:symbol
 Fixes:PIPAR:symbol
 Fixes:PIPEM:symbol
@@ -1078,7 +1108,9 @@ Fixes:PIXUP:symbol
 Fixes:PLYMO:symbol
 Fixes:POMAX:symbol
 Fixes:POTON:symbol
+Fixes:PUFAX:symbol
 Fixes:PUPJO:symbol
+Fixes:QUEBC:symbol
 Fixes:RAMID:symbol
 Fixes:RAMOX:symbol
 Fixes:RAPIX:symbol
@@ -1129,6 +1161,7 @@ Fixes:ROKSI:symbol
 Fixes:ROKUP:symbol
 Fixes:ROLEX:symbol
 Fixes:ROLUM:symbol
+Fixes:ROMEO:symbol
 Fixes:ROPAL:symbol
 Fixes:ROPMU:symbol
 Fixes:ROSUN:symbol
@@ -1143,6 +1176,7 @@ Fixes:RUDMO:symbol
 Fixes:RUGER:symbol
 Fixes:RUGID:symbol
 Fixes:RULAV:symbol
+Fixes:RUXIN:symbol
 Fixes:SABER:symbol
 Fixes:SALCO:symbol
 Fixes:SAMON:symbol
@@ -1150,9 +1184,12 @@ Fixes:SANBA:symbol
 Fixes:SANDY:symbol
 Fixes:SAPCO:symbol
 Fixes:SEMMU:symbol
+Fixes:SENLO:symbol
 Fixes:SETEL:symbol
 Fixes:SHAPP:symbol
+Fixes:SHARK:symbol
 Fixes:SIDDI:symbol
+Fixes:SIERA:symbol
 Fixes:SILVA:symbol
 Fixes:SIREN:symbol
 Fixes:SIRGO:symbol
@@ -1197,7 +1234,6 @@ Fixes:SUMUM:symbol
 Fixes:SUNFI:symbol
 Fixes:SUNOT:symbol
 Fixes:SUNUP:symbol
-Fixes:SUPAP:symbol
 Fixes:SUPEL:symbol
 Fixes:SUPIT:symbol
 Fixes:SURAT:symbol
@@ -1259,6 +1295,7 @@ Fixes:TUGPO:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
 Fixes:TUNBY:symbol
+Fixes:TUNIT:symbol
 Fixes:TUNSO:symbol
 Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
@@ -1281,6 +1318,7 @@ Fixes:UMTUM:symbol
 Fixes:UNBIG:symbol
 Fixes:UNDUG:symbol
 Fixes:UNDUX:symbol
+Fixes:UNFRM:symbol
 Fixes:UNGAP:symbol
 Fixes:UNIGO:symbol
 Fixes:UNPUP:symbol
@@ -1290,6 +1328,7 @@ Fixes:UNURO:symbol
 Fixes:UPDUK:symbol
 Fixes:UPGAS:symbol
 Fixes:UPGET:symbol
+Fixes:UPLIS:symbol
 Fixes:UPTON:symbol
 Fixes:USEKA:symbol
 Fixes:UTAVA:symbol
@@ -1316,12 +1355,14 @@ Fixes:VENAS:symbol
 Fixes:VENER:symbol
 Fixes:VEXEN:symbol
 Fixes:VEXUB:symbol
+Fixes:VICTR:symbol
 Fixes:VIDOK:symbol
 Fixes:VOLFI:symbol
 Fixes:VOUGA:symbol
 Fixes:WAFFU:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
+Fixes:WHISY:symbol
 Fixes:WILLO:symbol
 Fixes:WIZAD:symbol
 Fixes:WOBUN:symbol
@@ -1329,9 +1370,11 @@ Fixes:WOTAN:symbol
 Fixes:XAMAB:symbol
 Fixes:XAMAN:symbol
 Fixes:XAPOS:symbol
-Fixes:XAVAP:symbol
 Fixes:XIDIL:symbol
+Fixes:YANKE:symbol
+Fixes:YOHDA:symbol
 Fixes:ZEDDO:symbol
+Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
 Stars:Bristol Delegated Area:
@@ -1346,10 +1389,8 @@ Stars:Manchester RMA Westerlies:
 Stars:Midlands Gate:
 Stars:Northolt RMA:
 Stars:Stansted RMA:
-Stars:Thames Gate:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
-Stars:Worthing Paris Release:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
@@ -1412,7 +1453,6 @@ VORs:GUR:symbol
 VORs:GWC:symbol
 VORs:HDR:symbol
 VORs:HON:symbol
-VORs:HSD:symbol
 VORs:HUL:symbol
 VORs:IOM:symbol
 VORs:IWL:symbol
@@ -1498,10 +1538,14 @@ TAGFAMILY:AC
 WINDOWAREA:50.708574:-6.488239:54.302556:4.784661
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1511
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1377
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:239
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1509,7 +1553,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -1518,6 +1564,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1458
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:111
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:110
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0

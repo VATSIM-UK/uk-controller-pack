@@ -99,6 +99,17 @@ ARTCC boundary:EGD211:
 ARTCC boundary:EGD213:
 ARTCC boundary:EGD215:
 ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
 ARTCC boundary:EGD304:
 ARTCC boundary:EGD305:
 ARTCC boundary:EGD307:
@@ -198,6 +209,7 @@ ARTCC boundary:EGR095:
 ARTCC boundary:EGR101:
 ARTCC boundary:EGR104:
 ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
 ARTCC boundary:EGR107:
 ARTCC boundary:EGR153:
 ARTCC boundary:EGR154:
@@ -253,18 +265,17 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -316,7 +327,6 @@ ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Lands End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
@@ -342,7 +352,7 @@ ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Teeside CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
@@ -379,6 +389,7 @@ Regions:Uncontrolled airspace:polygon
 Stars:BAKUR RFC Area:
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
+Stars:DEXEN Buffer:
 Stars:DIKRO Box:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
@@ -388,14 +399,12 @@ Stars:La Manche Release Area:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
 Stars:Northolt RMA:
-Stars:Stansted RMA:
-Stars:Thames RAVSA Rings:
-Stars:Thames RMA:
-Stars:Worthing Paris Release:
-Stars:DEXEN Buffer:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:
 Stars:Reims Release Area:
+Stars:Stansted RMA:
+Stars:Thames RAVSA Rings:
+Stars:Thames RMA:
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -412,6 +421,10 @@ TAGFAMILY:AC
 WINDOWAREA:48.015052:-15.257968:55.915790:9.523522
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1521
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -423,7 +436,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -432,6 +447,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1394
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:56
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1581
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0

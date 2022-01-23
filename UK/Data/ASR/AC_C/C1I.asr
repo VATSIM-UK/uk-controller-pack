@@ -99,6 +99,17 @@ ARTCC boundary:EGD211:
 ARTCC boundary:EGD213:
 ARTCC boundary:EGD215:
 ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
 ARTCC boundary:EGD304:
 ARTCC boundary:EGD305:
 ARTCC boundary:EGD307:
@@ -198,6 +209,7 @@ ARTCC boundary:EGR095:
 ARTCC boundary:EGR101:
 ARTCC boundary:EGR104:
 ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
 ARTCC boundary:EGR107:
 ARTCC boundary:EGR153:
 ARTCC boundary:EGR154:
@@ -253,18 +265,17 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
 ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -314,13 +325,10 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton 3953980:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Lands End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -342,10 +350,9 @@ ARTCC low boundary:EGLW London Heliport LFA:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Teeside CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
@@ -377,25 +384,19 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
 Stars:Bristol Delegated Area:
 Stars:Cardiff Delegated Area:
-Stars:CPT 3953980:
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
-Stars:HON 3953980:
 Stars:Luton RMA:
 Stars:Luton Westerly Buffer:
-Stars:Midlands 3953980:
 Stars:Northolt RMA:
 Stars:Stansted RMA:
-Stars:Thames 3953980:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
-Stars:Worthing Paris Release:
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -407,10 +408,15 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
+DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:50.708574:-6.488239:54.302556:4.784661
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1511
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -422,7 +428,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -431,6 +439,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1458
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:111
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:110
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
