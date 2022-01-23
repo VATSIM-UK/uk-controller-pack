@@ -1,3 +1,7 @@
+# Changes from release 2021/09 to 2022/01
+1. UKCP Go-around alarm settings added - thanks to @KHardern (Kieran Hardern)
+2. Pack wide update of diplayed fixes - thanks to @KHardern (Kieran Hardern)
+
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
 2. Enhancement - VATCANBookings plugin updated to V1.1 - thanks to @luke11brown (Luke Brown)
