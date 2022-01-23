@@ -2826,7 +2826,7 @@ Geo:EGFH Swansea:
 Geo:EGGD Bristol:
 Geo:EGGP Liverpool:
 Geo:EGGW London Luton:
-Geo:EGHC Lands End:
+Geo:EGHC Land's End:
 Geo:EGHE Scilly Isles/St Mary's:
 Geo:EGHF Lee-on-Solent:
 Geo:EGHG Yeovil/Westland:
@@ -2943,7 +2943,7 @@ Regions:Isle of Man:polygon
 Regions:Jersey:polygon
 Regions:Kemble:polygon
 Regions:Kirkwall:polygon
-Regions:Lands End:polygon
+Regions:Land's End:polygon
 Regions:Lee-on-Solent:polygon
 Regions:Leeds:polygon
 Regions:Leeming:polygon
