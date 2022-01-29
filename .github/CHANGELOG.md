@@ -1,3 +1,6 @@
+# Changes from release 2022/01 to 2022/02
+X. Bug - Reduced EGSS_DEL profile range to reduce potential for conflict with EGKK_DEL - thanks to @jackedwards815 (Jack Edwards)
+
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
 2. UKCP Go-around alarm settings added - thanks to @KHardern (Kieran Hardern)
