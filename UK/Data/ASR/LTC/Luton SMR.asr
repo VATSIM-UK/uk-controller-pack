@@ -2420,9 +2420,13 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:51.865572:-0.411675:51.891785:-0.332561
+WINDOWAREA:51.865572:-0.413228:51.891785:-0.331008
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1538
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2430,7 +2434,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -2439,6 +2445,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
+PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0

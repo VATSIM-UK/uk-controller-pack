@@ -115,8 +115,8 @@ AG:EGJB_GND:121.800:old.voice.notused:egjb_gnd
 AG:EGJB_ATIS:118.900:old.voice.notused:egjb_atis
 AG:EGJJ_C_APP:125.200:old.voice.notused:egjj_c_app
 AG:EGJJ_S_APP:120.450:old.voice.notused:egjj_s_app
-AG:EGJJ_APP:118.550:old.voice.notused:egjj_app
-AG:EGJJ_A_APP:120.300:old.voice.notused:egjj_a_app
+AG:EGJJ_APP:120.300:old.voice.notused:egjj_app
+AG:EGJJ_F_APP:118.550:old.voice.notused:egjj_f_app
 AG:EGJJ_TWR:119.450:old.voice.notused:egjj_twr
 AG:EGJJ_GND:121.900:old.voice.notused:egjj_gnd
 AG:EGJJ_ATIS:134.670:old.voice.notused:egjj_atis
