@@ -6,6 +6,7 @@
 5. AIRAC 2201 Sector File & UK Wake Turbulence Categories - thanks to @Khardern (Kieran Hardern)
 6. Bug - Reduced EGSS_DEL profile range to reduce potential for conflict with EGKK_DEL - thanks to @jackedwards815 (Jack Edwards)
 7. Sumburgh added to Scottish profiles - thanks to @luke11brown (luke Brown)
+8. EGR156 Added - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
