@@ -3,7 +3,7 @@ PROFILE:ESSEX_APP:100:5
 ATIS2:Essex Radar
 ATIS3:Stansted Voice ATIS on 127.175
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGSS_DEL:20:2
+PROFILE:EGSS_DEL:10:2
 ATIS2:Stansted Delivery
 ATIS3:Voice ATIS on 127.175
 ATIS4:Submit feedback at vats.im/atcfb

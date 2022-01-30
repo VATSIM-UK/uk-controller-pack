@@ -4,6 +4,7 @@
 3. Pack wide update of diplayed fixes - thanks to @KHardern (Kieran Hardern)
 4. Lands End -> Land's End - thanks to @luke11brown (Luke Brown)
 5. AIRAC 2201 Sector File & UK Wake Turbulence Categories - thanks to @Khardern (Kieran Hardern)
+6. Bug - Reduced EGSS_DEL profile range to reduce potential for conflict with EGKK_DEL - thanks to @jackedwards815 (Jack Edwards)
 
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)
