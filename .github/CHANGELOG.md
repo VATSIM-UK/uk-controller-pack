@@ -2,7 +2,8 @@
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
 2. UKCP Go-around alarm settings added - thanks to @KHardern (Kieran Hardern)
 3. Pack wide update of diplayed fixes - thanks to @KHardern (Kieran Hardern)
-4. AIRAC 2201 Sector File & UK Wake Turbulence Categories - thanks to @Khardern (Kieran Hardern)
+4. Lands End -> Land's End - thanks to @luke11brown (Luke Brown)
+5. AIRAC 2201 Sector File & UK Wake Turbulence Categories - thanks to @Khardern (Kieran Hardern)
 
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)

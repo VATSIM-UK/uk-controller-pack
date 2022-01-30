@@ -29,7 +29,7 @@ AG:X Area - West (Brecon):133.600:old.voice.notused:lon_wb_ctr
 AG:X Area - West (Bristol):134.750:old.voice.notused:lon_wr_ctr
 AG:X Area - West (Strumble):129.370:old.voice.notused:lon_wt_ctr
 AG:X Area - West (Exmor):128.820:old.voice.notused:lon_wx_ctr
-AG:X Area - West (Lands End):132.950:old.voice.notused:lon_wl_ctr
+AG:X Area - West (Land's End):132.950:old.voice.notused:lon_wl_ctr
 AG:X Area - West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
 AG:X Area - TC Midlands:121.020:old.voice.notused:ltc_c_ctr
 AG:X Area - TC COWLY:133.070:old.voice.notused:ltc_co_ctr
