@@ -2699,7 +2699,7 @@ Geo:EGNO Warton:
 Geo:EGNR Hawarden:
 Geo:EGNS Isle of Man:
 Geo:EGNT Newcastle:
-Geo:EGNV Teeside:
+Geo:EGNV Teesside:
 Geo:EGNX East Midlands:
 Geo:EGPA Kirkwall:
 Geo:EGPB Sumburgh:
@@ -2792,7 +2792,7 @@ Regions:St Athan:polygon
 Regions:Stansted:polygon
 Regions:Sumburgh:polygon
 Regions:Swansea:polygon
-Regions:Teeside:polygon
+Regions:Teesside:polygon
 Regions:Thruxton:polygon
 Regions:Warton:polygon
 Regions:Wellesbourne:polygon

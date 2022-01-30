@@ -2860,7 +2860,7 @@ Geo:EGNO Warton:
 Geo:EGNR Hawarden:
 Geo:EGNS Isle of Man:
 Geo:EGNT Newcastle:
-Geo:EGNV Teeside:
+Geo:EGNV Teesside:
 Geo:EGNX East Midlands:
 Geo:EGOS Shawbury:
 Geo:EGOV Valley:
@@ -2971,7 +2971,7 @@ Regions:Southend:polygon
 Regions:St Athan:polygon
 Regions:Stansted:polygon
 Regions:Swansea:polygon
-Regions:Teeside:polygon
+Regions:Teesside:polygon
 Regions:Thruxton:polygon
 Regions:Valley:polygon
 Regions:Waddington:polygon
