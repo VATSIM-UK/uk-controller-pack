@@ -13,11 +13,11 @@ ATIS3:Radar and top-down cover for EGLC and EGKB
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLC_GND:20:3
 ATIS2:City Ground
-ATIS3:Advise whether you have D and K, L, M. Voice ATIS on 118.400
+ATIS3:Advise whether you have the East Taxiway Voice ATIS on 118.400
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLC_TWR:50:4
 ATIS2:City Tower
-ATIS3:Advise whether you have D and K, L, M. Voice ATIS on 118.400
+ATIS3:Advise whether you have the East Taxiway Voice ATIS on 118.400
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLC_APP:50:5
 ATIS2:City Director

@@ -50,6 +50,7 @@ AG:EGPF_APP:119.100:old.voice.notused:egpf_app
 AG:EGPF_F_APP:128.750:old.voice.notused:egpf_f_app
 AG:EGPF_ATIS:129.575:old.voice.notused:egpf_atis
 AG:EGPG_TWR:120.600:old.voice.notused:egpg_twr
+AG:EGPH_DEL:121.975:old.voice.notused:egph_del
 AG:EGPH_GND:121.750:old.voice.notused:egph_gnd
 AG:EGPH_TWR:118.700:old.voice.notused:egph_twr
 AG:EGPH_APP:121.200:old.voice.notused:egph_app
