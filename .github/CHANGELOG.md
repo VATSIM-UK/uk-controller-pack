@@ -1,3 +1,8 @@
+# Changes from release 2021/01 to 2022/02
+1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
+2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
 2. UKCP Go-around alarm settings added - thanks to @KHardern (Kieran Hardern)
@@ -5,10 +10,9 @@
 4. Lands End -> Land's End - thanks to @luke11brown (Luke Brown)
 5. AIRAC 2201 Sector File & UK Wake Turbulence Categories - thanks to @Khardern (Kieran Hardern)
 6. Bug - Reduced EGSS_DEL profile range to reduce potential for conflict with EGKK_DEL - thanks to @jackedwards815 (Jack Edwards)
-
 7. Sumburgh added to Scottish profiles - thanks to @luke11brown (Luke Brown)
 8. EGR156 Added - thanks to @luke11brown (Luke Brown)
-9.Amended AMA around Coventry - thank to @luke11brown (Luke Brown)
+9. Amended AMA around Coventry - thank to @luke11brown (Luke Brown)
 
 # Changes from release 2021/07 to 2021/09
 1. AIRAC - Heathrow SMAA (MSAW) Amended - thanks to @luke11brown (Luke Brown)

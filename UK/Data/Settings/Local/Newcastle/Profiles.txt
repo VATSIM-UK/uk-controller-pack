@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGNT_GND:20:3
 ATIS2:Newcastle Ground
-ATIS3:Voice ATIS on 118.370
+ATIS3:Voice ATIS on 118.375
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNT_TWR:50:4
 ATIS2:Newcastle Tower
-ATIS3:Voice ATIS on 118.370
+ATIS3:Voice ATIS on 118.375
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNT_APP:100:5
 ATIS2:Newcastle Radar
-ATIS3:Voice ATIS on 118.370
+ATIS3:Voice ATIS on 118.375
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNT_F_APP:100:5
 ATIS2:Newcastle Director
-ATIS3:Voice ATIS on 118.370
+ATIS3:Voice ATIS on 118.375
 ATIS4:Submit feedback at vats.im/atcfb
 END
