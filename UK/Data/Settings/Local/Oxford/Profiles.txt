@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGTK_GND:20:3
 ATIS2:Oxford Ground
-ATIS3:Voice ATIS on 136.220
+ATIS3:Voice ATIS on 136.225
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGTK_TWR:50:4
 ATIS2:Oxford Tower
-ATIS3:Voice ATIS on 136.220
+ATIS3:Voice ATIS on 136.225
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGTK_APP:100:5
 ATIS2:Oxford Radar
-ATIS3:Voice ATIS on 136.220
+ATIS3:Voice ATIS on 136.225
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGTK_F_APP:100:5
 ATIS2:Oxford Director
-ATIS3:Voice ATIS on 136.220
+ATIS3:Voice ATIS on 136.225
 ATIS4:Submit feedback at vats.im/atcfb
 END
