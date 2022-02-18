@@ -1,5 +1,6 @@
 # Changes from release 2021/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
+X. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
