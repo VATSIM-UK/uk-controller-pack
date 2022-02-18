@@ -12,12 +12,12 @@ Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Birmingham\ATM_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Midlands.txt
-Settings	sector	\..\Data\Sector\UK_2021_01.sct
+Settings	sector	UK\Data\Sector\UK_2022_01.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham SMR.asr
-RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham ATM.asr
+RecentFiles	Recent1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
+RecentFiles	Recent2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Birmingham\Birmingham ATM.asr
 ASRFastKeys	2	\..\Data\ASR\Birmingham\Birmingham SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
@@ -26,3 +26,8 @@ Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\Data\Datafiles\icao.txt
+Settings	airways	\..\Data\Datafiles\airway.txt

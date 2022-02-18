@@ -24,7 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **EuroScope Version:**
- - [e.g. 3.2a (r25]
+ - [e.g. 3.2a (r25)
 
 **Additional context**
 Add any other context about the problem here.

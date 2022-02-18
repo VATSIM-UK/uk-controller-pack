@@ -5,5 +5,5 @@
 *.sqlite
 *.suo
 *.sqlite-journal
-/.vs/ProjectSettings.json
-/.vs/VSWorkspaceState.json
+.vs/*
+ipaddr.txt

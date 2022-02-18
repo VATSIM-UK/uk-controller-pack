@@ -1,13 +1,13 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:10778891:0.5:0:0:7
-Airports:name:10830090:0.5:0:0:1
+Airports:symbol:10778891:3.5:0:0:7
+Airports:name:10830090:3.5:0:0:1
 Low airways:line:6579300:3.5:0:0:7
 Low airways:name:6579300:3.5:0:0:8
 High airways:line:9930841:3.5:0:0:7
 High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:12434813:1.0:0:0:7
-Fixes:name:10830090:0.5:0:0:1
+Fixes:name:10830090:3.5:0:0:1
 Sids:line:2325967:3.0:0:0:7
 Stars:line:6320768:3.0:0:0:7
 ARTCC high boundary:line:11448454:3.0:0:1:7
@@ -15,8 +15,8 @@ ARTCC boundary:line:7435206:3.0:0:0:7
 ARTCC low boundary:line:14537424:3.0:2:0:7
 Geo:line:16777215:3.0:0:0:7
 VORs:symbol:10526800:1.0:0:0:7
-VORs:name:6579300:0.5:0:0:14
-VORs:frequency:6579300:0.5:0:0:2
+VORs:name:6579300:3.5:0:0:14
+VORs:frequency:6579300:3.5:0:0:2
 NDBs:symbol:6579300:1.0:0:0:7
 NDBs:name:8421504:3.5:0:0:12
 NDBs:frequency:8421504:3.5:0:0:0

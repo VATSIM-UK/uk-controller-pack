@@ -68,7 +68,7 @@ m_VoiceRecognitionStyle:2
 m_SModeTransponders:
 m_CorrelationMode:1
 m_CorrelationDistance:100
-m_SimulateRadars:0
+m_SimulateRadars:1
 m_AllowCorrelatedTAGDown:1
 m_ShowDetailedOverUntagged:1
 m_ShowRectAroundFPTrack:1
@@ -125,6 +125,13 @@ m_RubberHeadingRounding:5
 SqawkForSModeTransponder:
 m_TransparentTagBackground:1
 m_UseArrDepTagBgColor:0
+SET_MTCA_Show:1
+m_TaxiOutTime:7
+m_StartupTime:10
+m_ConnectTime:15
+m_AutoAssumeOnGroundStateChangeButton:0
+m_ShowTrackMilesInRouteButton:1
+m_FilterOutSquawks:
 PILOTING
 m_Visible:0
 m_X:0

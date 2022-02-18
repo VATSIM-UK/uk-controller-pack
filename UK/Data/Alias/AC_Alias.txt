@@ -35,6 +35,9 @@ Generic
 
 .qnh QNH $altim($1)
 
+.ini Hi there! You climbed through the initial climb on your departure today - not to worry, but can I ask that you make sure to check initial climb restrictions and step climbs for SIDs EVERY time you fly, to ensure you do not conflict with other airspace users in this busy airspace. All UK Aerodrome/SID charts are available here: https://chartfox.org/
+.iniall LONDON BROADCAST: A QUICK REMINDER TO ALL TO CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY! https://chartfox.org/ EVEN MORE IMPORTANT TO DO SO WHEN IT'S BUSY!
+
 ========================================================
 Handoffs
 ========================================================
@@ -134,6 +137,9 @@ Departure
 .mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep).  When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
 
 .llcpt Cleared to $arr via CPT, then flight planned route. After departure runway $deprwy($dep) climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft QNH $altim(EGLL)hPa. Squawk $squawk
+
+.kkbig26l After departure runway 26L, climb straight ahead to I-WW 2.3 DME, then turn right heading 075, Climb to altitude 4000ft, speed 220 knots or less, Squawk $squawk
+.kkbig08r After departure runway 08R, climb straight ahead to I-GG 5 DME, then turn right heading 090, Climb to altitude 6000ft, Squawk $squawk
 
 .hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
 .hhc Cleared to $arr routing Southampton (SAM), $1. Climb to altitude 4000ft, squawk $squawk
@@ -246,6 +252,10 @@ Flight Information Service
 .dc Deconfliction service
 .cteca Cleared to enter controlled airspace, $1
 .ctlcabd Cleared to leave controlled airspace by descent
+
+.basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
+.traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.
+.decon You have left controlled airspace. You are now receiving a deconfliction service which provides detailed traffic information on specific conflicting aircraft AND advice on how to avoid that aircraft. You remain responsible for collision avoidance; you can opt not to follow the advice.
 
 ========================================================
 Auto-alias

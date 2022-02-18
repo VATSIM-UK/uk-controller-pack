@@ -1,110 +1,111 @@
 VOICE
-AG:Area - Worthing:129.420:old.voice.notused:lon_s_ctr
+AG:Area - Worthing:129.425:old.voice.notused:lon_s_ctr
 AG:Area - Dover:134.900:old.voice.notused:lon_d_ctr
-AG:Area - Daventry:127.100:old.voice.notused:lon_c_ctr
-AG:Area - Clacton:118.470:old.voice.notused:lon_e_ctr
+AG:Area - Central:127.100:old.voice.notused:lon_c_ctr
+AG:Area - Daventry:120.025:old.voice.notused:lon_m_ctr
+AG:Area - Clacton:118.475:old.voice.notused:lon_e_ctr
 AG:Area - North:133.700:old.voice.notused:lon_n_ctr
-AG:Area - West:126.070:old.voice.notused:lon_w_ctr
+AG:Area - North Sea:128.125:old.voice.notused:lon_ne_ctr
+AG:Area - Lakes:135.575:old.voice.notused:lon_nw_ctr
+AG:Area - West:126.075:old.voice.notused:lon_w_ctr
 AG:Area - South Central:132.600:old.voice.notused:lon_sc_ctr
-AG:Area - Bandbox:127.820:old.voice.notused:lon_ctr
-AG:Area - TC East:121.220:old.voice.notused:ltc_e_ctr
-AG:Area - TC South:134.120:old.voice.notused:ltc_s_ctr
-AG:Area - TC SE:120.520:old.voice.notused:ltc_se_ctr
-AG:Area - TC SW:133.170:old.voice.notused:ltc_sw_ctr
-AG:Area - TC North:119.770:old.voice.notused:ltc_n_ctr
-AG:Area - TC NE:118.820:old.voice.notused:ltc_ne_ctr
-AG:Area - TC NW:121.270:old.voice.notused:ltc_nw_ctr
+AG:Area - Bandbox:127.825:old.voice.notused:lon_ctr
+AG:Area - TC East:121.225:old.voice.notused:ltc_e_ctr
+AG:Area - TC South:134.125:old.voice.notused:ltc_s_ctr
+AG:Area - TC SE:120.525:old.voice.notused:ltc_se_ctr
+AG:Area - TC SW:133.175:old.voice.notused:ltc_sw_ctr
+AG:Area - TC North:119.775:old.voice.notused:ltc_n_ctr
+AG:Area - TC NE:118.825:old.voice.notused:ltc_ne_ctr
+AG:Area - TC NW:121.275:old.voice.notused:ltc_nw_ctr
 AG:Area - TC Bandbox:135.800:old.voice.notused:ltc_ctr
-AG:X Area - North (North Sea):128.120:old.voice.notused:lon_ne_ctr
-AG:X Area - North (Lakes):135.570:old.voice.notused:lon_nw_ctr
-AG:X Area - North (Sector 4):132.870:old.voice.notused:lon_nu_ctr
+AG:X Area - North (Sector 4):132.875:old.voice.notused:lon_nu_ctr
 AG:X Area - Daventry (West):134.400:old.voice.notused:lon_cw_ctr
-AG:X Area - Daventry (East):127.870:old.voice.notused:lon_ce_ctr
-AG:X Area - Daventry (Low):133.970:old.voice.notused:lon_cl_ctr
-AG:X Area - Clacton (Sector 12):133.920:old.voice.notused:lon_en_ctr
+AG:X Area - Daventry (East):127.875:old.voice.notused:lon_ce_ctr
+AG:X Area - Daventry (Low):133.975:old.voice.notused:lon_cl_ctr
+AG:X Area - Clacton (Sector 12):133.925:old.voice.notused:lon_en_ctr
 AG:X Area - Clacton (Sector 13):128.150:old.voice.notused:lon_es_ctr
-AG:X Area - West (Pembroke):133.220:old.voice.notused:lon_wp_ctr
+AG:X Area - West (Pembroke):133.225:old.voice.notused:lon_wp_ctr
 AG:X Area - West (Brecon):133.600:old.voice.notused:lon_wb_ctr
 AG:X Area - West (Bristol):134.750:old.voice.notused:lon_wr_ctr
-AG:X Area - West (Strumble):129.370:old.voice.notused:lon_wt_ctr
-AG:X Area - West (Exmor):128.820:old.voice.notused:lon_wx_ctr
-AG:X Area - West (Lands End):132.950:old.voice.notused:lon_wl_ctr
+AG:X Area - West (Strumble):129.375:old.voice.notused:lon_wt_ctr
+AG:X Area - West (Exmor):128.825:old.voice.notused:lon_wx_ctr
+AG:X Area - West (Land's End):132.950:old.voice.notused:lon_wl_ctr
 AG:X Area - West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
-AG:X Area - TC Midlands:121.020:old.voice.notused:ltc_c_ctr
-AG:X Area - TC COWLY:133.070:old.voice.notused:ltc_co_ctr
-AG:X Area - TC WELIN:130.920:old.voice.notused:ltc_cw_ctr
-AG:X Area - TC REDFA:133.520:old.voice.notused:ltc_er_ctr
+AG:X Area - TC Midlands:121.025:old.voice.notused:ltc_c_ctr
+AG:X Area - TC COWLY:133.075:old.voice.notused:ltc_co_ctr
+AG:X Area - TC WELIN:130.925:old.voice.notused:ltc_cw_ctr
+AG:X Area - TC REDFA:133.525:old.voice.notused:ltc_er_ctr
 AG:X Area - TC SABER:129.600:old.voice.notused:ltc_es_ctr
-AG:X Area - TC JACKO:135.420:old.voice.notused:ltc_ej_ctr
-AG:X Area - TC DAGGA:124.920:old.voice.notused:ltc_ed_ctr
-AG:X Area - TC LOREL:129.270:old.voice.notused:ltc_nl_ctr
+AG:X Area - TC JACKO:135.425:old.voice.notused:ltc_ej_ctr
+AG:X Area - TC DAGGA:124.925:old.voice.notused:ltc_ed_ctr
+AG:X Area - TC LOREL:129.275:old.voice.notused:ltc_nl_ctr
 AG:X Area - TC LAM:123.900:old.voice.notused:ltc_n2_ctr
 AG:Area - PC Bandbox:133.200:old.voice.notused:man_ctr
 AG:Area - PC E:133.800:old.voice.notused:man_e_ctr
 AG:Area - PC NE:135.700:old.voice.notused:man_e_ctr
-AG:Area - PC SE:134.420:old.voice.notused:man_e_ctr
-AG:Area - PC TNT:119.520:old.voice.notused:man_e_ctr
+AG:Area - PC SE:134.425:old.voice.notused:man_e_ctr
 AG:Area - PC W:128.050:old.voice.notused:man_w_ctr
+AG:X Area - PC TNT:119.525:old.voice.notused:man_e_ctr
 AG:X Area - PC WAL:125.950:old.voice.notused:man_wl_ctr
 AG:X Area - PC IoM:133.050:old.voice.notused:man_wi_ctr
-AG:X Area - PC PENIL:126.870:old.voice.notused:man_wp_ctr
-AG:EGBB_APP:123.970:old.voice.notused:egbb_app
+AG:X Area - PC PENIL:126.875:old.voice.notused:man_wp_ctr
+AG:EGBB_APP:123.975:old.voice.notused:egbb_app
 AG:EGBB_F_APP:131.000:old.voice.notused:egbb_f_app
 AG:EGBB_TWR:118.300:old.voice.notused:egbb_twr
 AG:EGBB_GND:121.800:old.voice.notused:egbb_gnd
-AG:EGBB_DEL:121.920:old.voice.notused:egbb_del
-AG:EGBB_ATIS:136.020:old.voice.notused:egbb_atis
-AG:EGBE_R_TWR:123.820:old.voice.notused:egbe_r_twr
+AG:EGBB_DEL:121.925:old.voice.notused:egbb_del
+AG:EGBB_ATIS:136.025:old.voice.notused:egbb_atis
+AG:EGBE_I_TWR:123.825:old.voice.notused:egbe_i_twr
 AG:EGBJ_APP:128.550:old.voice.notused:egbj_app
 AG:EGBJ_TWR:122.900:old.voice.notused:egbj_twr
-AG:EGBJ_ATIS:127.470:old.voice.notused:egbj_atis
+AG:EGBJ_ATIS:127.475:old.voice.notused:egbj_atis
 AG:EGBO_R_TWR:123.000:old.voice.notused:egbo_r_twr
-AG:EGCC_S_APP:118.570:old.voice.notused:egcc_s_app
+AG:EGCC_S_APP:118.575:old.voice.notused:egcc_s_app
 AG:EGCC_N_APP:135.000:old.voice.notused:egcc_n_app
 AG:EGCC_F_APP:121.350:old.voice.notused:egcc_f_app
-AG:EGCC_N_TWR:118.620:old.voice.notused:egcc_n_twr
+AG:EGCC_N_TWR:118.625:old.voice.notused:egcc_n_twr
 AG:EGCC_S_TWR:119.400:old.voice.notused:egcc_s_twr
 AG:EGCC_GND:121.850:old.voice.notused:egcc_gnd
 AG:EGCC_DEL:121.700:old.voice.notused:egcc_del
-AG:EGCC_ATIS:121.970:old.voice.notused:egcc_atis
-AG:EGCN_TWR:128.770:old.voice.notused:egcn_twr
-AG:EGCN_APP:126.220:old.voice.notused:egcn_app
+AG:EGCC_ATIS:121.975:old.voice.notused:egcc_atis
+AG:EGCN_TWR:128.775:old.voice.notused:egcn_twr
+AG:EGCN_APP:126.225:old.voice.notused:egcn_app
 AG:EGCN_ATIS:134.950:old.voice.notused:egcn_atis
 AG:EGFF_APP:125.850:old.voice.notused:egff_app
 AG:EGFF_L_APP:119.150:old.voice.notused:egff_l_app
 AG:EGFF_TWR:133.100:old.voice.notused:egff_twr
-AG:EGFF_ATIS:132.470:old.voice.notused:egff_atis
+AG:EGFF_ATIS:132.475:old.voice.notused:egff_atis
 AG:EGGD_APP:125.650:old.voice.notused:eggd_app
-AG:EGGD_F_APP:136.070:old.voice.notused:eggd_f_app
+AG:EGGD_F_APP:136.075:old.voice.notused:eggd_f_app
 AG:EGGD_TWR:133.850:old.voice.notused:eggd_twr
-AG:EGGD_GND:121.920:old.voice.notused:eggd_gnd
-AG:EGGD_DEL:121.920:old.voice.notused:eggd_del
-AG:EGGD_ATIS:126.020:old.voice.notused:eggd_atis
+AG:EGGD_GND:121.925:old.voice.notused:eggd_gnd
+AG:EGGD_DEL:121.925:old.voice.notused:eggd_del
+AG:EGGD_ATIS:126.025:old.voice.notused:eggd_atis
 AG:EGGP_APP:119.850:old.voice.notused:eggp_app
 AG:EGGP_F_APP:118.450:old.voice.notused:eggp_f_app
 AG:EGGP_TWR:126.350:old.voice.notused:eggp_twr
 AG:EGGP_GND:121.950:old.voice.notused:eggp_gnd
-AG:EGGP_ATIS:124.320:old.voice.notused:eggp_atis
+AG:EGGP_ATIS:124.325:old.voice.notused:eggp_atis
 AG:EGGW_APP:129.550:old.voice.notused:eggw_app
 AG:EGGW_TWR:132.550:old.voice.notused:eggw_twr
 AG:EGGW_GND:121.750:old.voice.notused:eggw_gnd
-AG:EGGW_ATIS:120.570:old.voice.notused:eggw_atis
+AG:EGGW_ATIS:120.575:old.voice.notused:eggw_atis
 AG:EGHD_APP:133.550:old.voice.notused:eghd_app
 AG:EGHD_TWR:118.150:old.voice.notused:eghd_twr
-AG:EGHE_A_APP:124.870:old.voice.notused:eghe_app
-AG:EGHE_TWR:124.870:old.voice.notused:eghe_twr
-AG:EGHH_APP:119.470:old.voice.notused:eghh_app
+AG:EGHE_A_APP:124.875:old.voice.notused:eghe_app
+AG:EGHE_TWR:124.875:old.voice.notused:eghe_twr
+AG:EGHH_APP:119.475:old.voice.notused:eghh_app
 AG:EGHH_TWR:125.600:old.voice.notused:eghh_twr
 AG:EGHH_GND:121.700:old.voice.notused:eghh_gnd
-AG:EGHH_ATIS:133.720:old.voice.notused:eghh_atis
-AG:SOLENT_APP:120.220:old.voice.notused:solent_app
-AG:EGHI_APP:122.720:old.voice.notused:eghi_app
+AG:EGHH_ATIS:133.725:old.voice.notused:eghh_atis
+AG:SOLENT_APP:120.225:old.voice.notused:solent_app
+AG:EGHI_APP:122.725:old.voice.notused:eghi_app
 AG:EGHI_TWR:118.200:old.voice.notused:eghi_twr
-AG:EGHI_GND:121.770:old.voice.notused:eghi_gnd
-AG:EGHI_ATIS:130.870:old.voice.notused:eghi_atis
+AG:EGHI_GND:121.775:old.voice.notused:eghi_gnd
+AG:EGHI_ATIS:130.875:old.voice.notused:eghi_atis
 AG:EGHQ_APP:133.400:old.voice.notused:eghq_app
-AG:EGHQ_F_APP:128.720:old.voice.notused:eghq_f_app
-AG:EGHQ_TWR:134.370:old.voice.notused:eghq_twr
+AG:EGHQ_F_APP:128.725:old.voice.notused:eghq_f_app
+AG:EGHQ_TWR:134.375:old.voice.notused:eghq_twr
 AG:EGHQ_ATIS:127.400:old.voice.notused:eghq_atis
 AG:EGJA_TWR:125.350:old.voice.notused:egja_twr
 AG:EGJB_APP:128.650:old.voice.notused:egjb_app
@@ -114,108 +115,108 @@ AG:EGJB_GND:121.800:old.voice.notused:egjb_gnd
 AG:EGJB_ATIS:118.900:old.voice.notused:egjb_atis
 AG:EGJJ_C_APP:125.200:old.voice.notused:egjj_c_app
 AG:EGJJ_S_APP:120.450:old.voice.notused:egjj_s_app
-AG:EGJJ_APP:118.550:old.voice.notused:egjj_app
-AG:EGJJ_A_APP:120.300:old.voice.notused:egjj_a_app
+AG:EGJJ_APP:120.300:old.voice.notused:egjj_app
+AG:EGJJ_F_APP:118.550:old.voice.notused:egjj_f_app
 AG:EGJJ_TWR:119.450:old.voice.notused:egjj_twr
 AG:EGJJ_GND:121.900:old.voice.notused:egjj_gnd
-AG:EGJJ_ATIS:134.670:old.voice.notused:egjj_atis
+AG:EGJJ_ATIS:134.675:old.voice.notused:egjj_atis
 AG:EGKA_APP:123.150:old.voice.notused:egka_app
 AG:EGKA_TWR:125.400:old.voice.notused:egka_twr
-AG:EGKA_ATIS:130.970:old.voice.notused:egka_atis
+AG:EGKA_ATIS:130.975:old.voice.notused:egka_atis
 AG:EGKB_TWR:134.800:old.voice.notused:egkb_twr
 AG:EGKB_APP:129.400:old.voice.notused:egkb_app
-AG:EGKB_ATIS:135.670:old.voice.notused:egkb_atis
-AG:EGKK_APP:126.820:old.voice.notused:egkk_app
+AG:EGKB_ATIS:135.675:old.voice.notused:egkb_atis
+AG:EGKK_APP:126.825:old.voice.notused:egkk_app
 AG:EGKK_F_APP:118.950:old.voice.notused:egkk_f_app
-AG:EGKK_TWR:124.220:old.voice.notused:egkk_twr
+AG:EGKK_TWR:124.225:old.voice.notused:egkk_twr
 AG:EGKK_GND:121.800:old.voice.notused:egkk_gnd
 AG:EGKK_DEL:121.950:old.voice.notused:egkk_del
-AG:EGKK_ATIS:136.520:old.voice.notused:egkk_atis
+AG:EGKK_ATIS:136.525:old.voice.notused:egkk_atis
 AG:EGKR_TWR:119.600:old.voice.notused:egkr_twr
-AG:EGKR_ATIS:136.120:old.voice.notused:egkr_atis
+AG:EGKR_ATIS:136.125:old.voice.notused:egkr_atis
 AG:THAMES_APP:132.700:old.voice.notused:thames_app
-AG:EGLC_APP:128.020:old.voice.notused:eglc_app
-AG:EGLC_TWR:118.070:old.voice.notused:eglc_twr
-AG:EGLC_GND:121.820:old.voice.notused:eglc_gnd
+AG:EGLC_APP:128.025:old.voice.notused:eglc_app
+AG:EGLC_TWR:118.075:old.voice.notused:eglc_twr
+AG:EGLC_GND:121.825:old.voice.notused:eglc_gnd
 AG:EGLC_ATIS:136.350:old.voice.notused:eglc_atis
-AG:EGLD_R_TWR:130.720:old.voice.notused:egld_r_twr
+AG:EGLD_R_TWR:130.725:old.voice.notused:egld_r_twr
 AG:EGLF_L_APP:125.250:old.voice.notused:eglf_l_app
 AG:EGLF_APP:134.350:old.voice.notused:eglf_app
-AG:EGLF_TWR:122.770:old.voice.notused:eglf_twr
-AG:EGLF_GND:121.820:old.voice.notused:eglf_gnd
+AG:EGLF_TWR:122.775:old.voice.notused:eglf_twr
+AG:EGLF_GND:121.825:old.voice.notused:eglf_gnd
 AG:EGLF_ATIS:128.400:old.voice.notused:eglf_atis
-AG:EGLL_N_APP:119.720:old.voice.notused:egll_n_app
+AG:EGLL_N_APP:119.725:old.voice.notused:egll_n_app
 AG:EGLL_F_APP:120.400:old.voice.notused:egll_f_app
-AG:EGLL_S_APP:134.970:old.voice.notused:egll_s_app
+AG:EGLL_S_APP:134.975:old.voice.notused:egll_s_app
 AG:EGLL_S_TWR:118.500:old.voice.notused:egll_s_twr
 AG:EGLL_N_TWR:118.700:old.voice.notused:egll_n_twr
 AG:EGLL_1_GND:121.900:old.voice.notused:egll_1_gnd
 AG:EGLL_2_GND:121.700:old.voice.notused:egll_2_gnd
 AG:EGLL_3_GND:121.850:old.voice.notused:egll_3_gnd
-AG:EGLL_DEL:121.970:old.voice.notused:egll_del
-AG:EGLL_P_GND:121.970:old.voice.notused:egll_p_gnd
-AG:EGLL_ATIS:128.070:old.voice.notused:egll_atis
-AG:EGLW_TWR:134.270:old.voice.notused:eglw_twr
-AG:EGMC_APP:130.770:old.voice.notused:egmc_app
+AG:EGLL_DEL:121.975:old.voice.notused:egll_del
+AG:EGLL_P_GND:121.975:old.voice.notused:egll_p_gnd
+AG:EGLL_ATIS:128.075:old.voice.notused:egll_atis
+AG:EGLW_TWR:134.275:old.voice.notused:eglw_twr
+AG:EGMC_APP:130.775:old.voice.notused:egmc_app
 AG:EGMC_L_APP:128.950:old.voice.notused:egmc_l_app
 AG:EGMC_TWR:127.750:old.voice.notused:egmc_twr
 AG:EGMC_ATIS:136.050:old.voice.notused:egmc_atis
 AG:EGMD_A_APP:120.700:old.voice.notused:egmd_a_app
-AG:EGMD_TWR:119.370:old.voice.notused:egmd_twr
-AG:EGMD_ATIS:129.220:old.voice.notused:egmd_atis
+AG:EGMD_TWR:119.375:old.voice.notused:egmd_twr
+AG:EGMD_ATIS:129.225:old.voice.notused:egmd_atis
 AG:EGNC_A_APP:123.600:old.voice.notused:egnc_a_app
 AG:EGNC_TWR:123.600:old.voice.notused:egnc_twr
-AG:EGNC_ATIS:118.420:old.voice.notused:egnc_atis
+AG:EGNC_ATIS:118.425:old.voice.notused:egnc_atis
 AG:EGNH_A_APP:119.950:old.voice.notused:egnh_a_app
 AG:EGNH_TWR:118.400:old.voice.notused:egnh_twr
 AG:EGNH_ATIS:127.200:old.voice.notused:egnh_atis
-AG:EGNM_APP:134.570:old.voice.notused:egnm_app
+AG:EGNM_APP:134.575:old.voice.notused:egnm_app
 AG:EGNM_TWR:120.300:old.voice.notused:egnm_twr
 AG:EGNM_DEL:121.800:old.voice.notused:egnm_del
-AG:EGNM_ATIS:118.020:old.voice.notused:egnm_atis
-AG:EGNO_APP:129.520:old.voice.notused:egno_app
+AG:EGNM_ATIS:118.025:old.voice.notused:egnm_atis
+AG:EGNO_APP:129.525:old.voice.notused:egno_app
 AG:EGNO_TWR:130.800:old.voice.notused:egno_twr
-AG:EGNO_ATIS:121.720:old.voice.notused:egno_atis
-AG:EGNR_APP:120.070:old.voice.notused:egnr_app
-AG:EGNR_F_APP:130.020:old.voice.notused:egnr_f_app
+AG:EGNO_ATIS:121.725:old.voice.notused:egno_atis
+AG:EGNR_APP:120.075:old.voice.notused:egnr_app
+AG:EGNR_F_APP:130.025:old.voice.notused:egnr_f_app
 AG:EGNR_TWR:124.950:old.voice.notused:egnr_twr
-AG:EGNR_ATIS:125.420:old.voice.notused:egnr_atis
+AG:EGNR_ATIS:125.425:old.voice.notused:egnr_atis
 AG:EGNS_APP:120.850:old.voice.notused:egns_app
-AG:EGNS_TWR:118.900:old.voice.notused:egns_twr
-AG:EGNS_ATIS:123.870:old.voice.notused:egns_atis
-AG:EGNT_APP:124.370:old.voice.notused:egnt_app
-AG:EGNT_F_APP:125.820:old.voice.notused:egnt_f_app
+AG:EGNS_TWR:119.000:old.voice.notused:egns_twr
+AG:EGNS_ATIS:123.875:old.voice.notused:egns_atis
+AG:EGNT_APP:124.375:old.voice.notused:egnt_app
+AG:EGNT_F_APP:125.825:old.voice.notused:egnt_f_app
 AG:EGNT_TWR:119.700:old.voice.notused:egnt_twr
-AG:EGNT_GND:121.720:old.voice.notused:egnt_gnd
-AG:EGNT_ATIS:118.370:old.voice.notused:egnt_atis
+AG:EGNT_GND:121.725:old.voice.notused:egnt_gnd
+AG:EGNT_ATIS:118.375:old.voice.notused:egnt_atis
 AG:EGNV_APP:118.850:old.voice.notused:egnv_app
 AG:EGNV_F_APP:128.850:old.voice.notused:egnv_f_app
 AG:EGNV_TWR:119.800:old.voice.notused:egnv_twr
-AG:EGNV_ATIS:132.370:old.voice.notused:egnv_atis
-AG:EGNX_APP:134.170:old.voice.notused:egnx_app
-AG:EGNX_F_APP:120.120:old.voice.notused:egnx_f_app
+AG:EGNV_ATIS:132.375:old.voice.notused:egnv_atis
+AG:EGNX_APP:134.175:old.voice.notused:egnx_app
+AG:EGNX_F_APP:120.125:old.voice.notused:egnx_f_app
 AG:EGNX_TWR:124.000:old.voice.notused:egnx_twr
 AG:EGNX_GND:121.900:old.voice.notused:egnx_gnd
-AG:EGNX_ATIS:122.670:old.voice.notused:egnx_atis
-AG:EGSC_APP:124.970:old.voice.notused:egsc_app
-AG:EGSC_A_APP:120.970:old.voice.notused:egsc_a_app
+AG:EGNX_ATIS:122.675:old.voice.notused:egnx_atis
+AG:EGSC_APP:124.975:old.voice.notused:egsc_app
+AG:EGSC_A_APP:120.975:old.voice.notused:egsc_a_app
 AG:EGSC_TWR:125.900:old.voice.notused:egsc_twr
 AG:EGSC_ATIS:134.600:old.voice.notused:egsc_atis
 AG:EGSH_APP:119.350:old.voice.notused:egsh_app
 AG:EGSH_TWR:124.250:old.voice.notused:egsh_twr
-AG:EGSH_ATIS:128.620:old.voice.notused:egsh_atis
-AG:ESSEX_APP:120.620:old.voice.notused:essex_app
+AG:EGSH_ATIS:128.625:old.voice.notused:egsh_atis
+AG:ESSEX_APP:120.625:old.voice.notused:essex_app
 AG:EGSS_APP:136.200:old.voice.notused:egss_app
 AG:EGSS_TWR:123.800:old.voice.notused:egss_twr
-AG:EGSS_GND:121.720:old.voice.notused:egss_gnd
+AG:EGSS_GND:121.725:old.voice.notused:egss_gnd
 AG:EGSS_DEL:121.950:old.voice.notused:egss_del
-AG:EGSS_ATIS:127.170:old.voice.notused:egss_atis
-AG:EGTE_APP:128.970:old.voice.notused:egte_app
+AG:EGSS_ATIS:127.175:old.voice.notused:egss_atis
+AG:EGTE_APP:128.975:old.voice.notused:egte_app
 AG:EGTE_TWR:119.800:old.voice.notused:egte_twr
-AG:EGTE_ATIS:119.320:old.voice.notused:egte_atis
+AG:EGTE_ATIS:119.325:old.voice.notused:egte_atis
 AG:EGTK_APP:125.100:old.voice.notused:egtk_app
-AG:EGTK_F_APP:119.970:old.voice.notused:egtk_f_app
-AG:EGTK_TWR:133.420:old.voice.notused:egtk_twr
+AG:EGTK_F_APP:119.975:old.voice.notused:egtk_f_app
+AG:EGTK_TWR:133.425:old.voice.notused:egtk_twr
 AG:EGTK_GND:121.950:old.voice.notused:egtk_gnd
-AG:EGTK_ATIS:136.220:old.voice.notused:egtk_atis
+AG:EGTK_ATIS:136.225:old.voice.notused:egtk_atis
 END
