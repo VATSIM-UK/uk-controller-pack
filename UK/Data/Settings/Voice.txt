@@ -206,7 +206,8 @@ AG:EGSH_APP:119.350:old.voice.notused:egsh_app
 AG:EGSH_TWR:124.250:old.voice.notused:egsh_twr
 AG:EGSH_ATIS:128.625:old.voice.notused:egsh_atis
 AG:ESSEX_APP:120.625:old.voice.notused:essex_app
-AG:EGSS_APP:136.200:old.voice.notused:egss_app
+AG:EGSS_APP:120.625:old.voice.notused:egss_app
+AG:EGSS_F_APP:136.200:old.voice.notused:egss_f_app
 AG:EGSS_TWR:123.800:old.voice.notused:egss_twr
 AG:EGSS_GND:121.725:old.voice.notused:egss_gnd
 AG:EGSS_DEL:121.950:old.voice.notused:egss_del

@@ -1,6 +1,6 @@
 PROFILE
 PROFILE:ESSEX_APP:100:5
-ATIS2:Essex Radar
+ATIS2:Stansted Radar | EGSS, EGGW and EGSC Top-Down
 ATIS3:Stansted Voice ATIS on 127.175
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGSS_DEL:10:2
@@ -15,8 +15,12 @@ PROFILE:EGSS_TWR:50:4
 ATIS2:Stansted Tower
 ATIS3:Voice ATIS on 127.175
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGSS_APP:100:5
+PROFILE:EGSS_F_APP:75:5
 ATIS2:Stansted Director
+ATIS3:Voice ATIS on 127.175
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGSS_APP:100:5
+ATIS2:Stansted Radar
 ATIS3:Voice ATIS on 127.175
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGW_TWR:50:4
