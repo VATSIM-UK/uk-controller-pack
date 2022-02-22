@@ -1,6 +1,9 @@
 # Changes from release 2021/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
-X. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hsugden (Harry Sugden)
+2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
+4. Enhancement - Added East Midlands CTA 14 as TopSky Map (part time airspace) - thanks to @luke11brown (Luke Brown)
+5. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
