@@ -3,6 +3,8 @@
 2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Added East Midlands CTA 14 as TopSky Map (part time airspace) - thanks to @luke11brown (Luke Brown)
+5. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hsugden (Harry Sugden)
+6. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
