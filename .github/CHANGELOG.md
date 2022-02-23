@@ -5,6 +5,7 @@
 4. Enhancement - Added East Midlands CTA 14 as TopSky Map (part time airspace) - thanks to @luke11brown (Luke Brown)
 5. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hsugden (Harry Sugden)
 6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hsugden (Harry Sugden)
+7. Enhancement - Added new conditional Scottish CTAs as TopSkyMaps - thanks to @luke11brown (Luke Brown) 
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
