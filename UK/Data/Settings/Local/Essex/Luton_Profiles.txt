@@ -1,0 +1,22 @@
+PROFILE
+PROFILE:EGGW_TWR:50:4
+ATIS2:Luton Tower 
+ATIS3:Voice ATIS on 120.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGGW_GND:20:3
+ATIS2:Luton Ground
+ATIS3:Voice ATIS on 120.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGGW_DEL:20:2
+ATIS2:Luton Delivery
+ATIS3:Voice ATIS on 120.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGGW_F_APP:100:5
+ATIS2:Luton Director
+ATIS3:Voice ATIS on 120.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGGW_APP:100:5
+ATIS2:Luton Radar
+ATIS3:Voice ATIS on 120.575
+ATIS4:Submit feedback at vats.im/atcfb
+END
