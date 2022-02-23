@@ -1,4 +1,4 @@
-# Changes from release 2021/01 to 2022/02
+# Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
@@ -7,6 +7,7 @@
 6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hsugden (Harry Sugden)
 7. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hsugden (Harry Sugden)
 8. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hsugden (Harry Sugden)
+9. Enhancement - Added new conditional Scottish CTAs as TopSkyMaps - thanks to @luke11brown (Luke Brown) 
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
