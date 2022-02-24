@@ -1,3 +1,6 @@
+# Changes from release 2022/02 to 2022/03
+X. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
+
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
