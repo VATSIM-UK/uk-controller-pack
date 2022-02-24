@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:UK\Data\Sector\UK_2022_02.sct
+SECTORTITLE:UK_2022_02.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -249,23 +251,16 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -287,6 +282,7 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
@@ -296,6 +292,8 @@ ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -351,7 +349,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
@@ -3442,8 +3439,6 @@ Fixes:NEVIL:symbol
 Fixes:NEVIS:name
 Fixes:NEVIS:symbol
 Fixes:NEVRI:name
-Fixes:NEVRI:name
-Fixes:NEVRI:symbol
 Fixes:NEVRI:symbol
 Fixes:NEXAN:name
 Fixes:NEXAN:symbol
@@ -3818,8 +3813,6 @@ Fixes:OSBOX:symbol
 Fixes:OSCAR:name
 Fixes:OSCAR:symbol
 Fixes:OSDEB:name
-Fixes:OSDEB:name
-Fixes:OSDEB:symbol
 Fixes:OSDEB:symbol
 Fixes:OSGIL:name
 Fixes:OSGIL:symbol
@@ -4035,8 +4028,6 @@ Fixes:PIPAR:name
 Fixes:PIPAR:symbol
 Fixes:PIPEM:name
 Fixes:PIPEM:symbol
-Fixes:PIPIL:name
-Fixes:PIPIL:symbol
 Fixes:PIPIN:name
 Fixes:PIPIN:symbol
 Fixes:PIPOR:name
@@ -4976,8 +4967,6 @@ Fixes:TUBSU:symbol
 Fixes:TUDRA:name
 Fixes:TUDRA:symbol
 Fixes:TUFOZ:name
-Fixes:TUFOZ:name
-Fixes:TUFOZ:symbol
 Fixes:TUFOZ:symbol
 Fixes:TUGLI:name
 Fixes:TUGLI:symbol
@@ -5408,8 +5397,6 @@ Fixes:ZEDDO:symbol
 Fixes:ZOFAT:name
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
-Fixes:ZOPHI:name
-Fixes:ZOPHI:symbol
 Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
@@ -5419,7 +5406,6 @@ Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
 Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
 Stars:Northolt RMA:
 Stars:Stansted RMA:
 Stars:Thames RAVSA Rings:
@@ -5548,8 +5534,6 @@ VORs:HDR:name
 VORs:HDR:symbol
 VORs:HON:name
 VORs:HON:symbol
-VORs:HSD:name
-VORs:HSD:symbol
 VORs:HUL:name
 VORs:HUL:symbol
 VORs:IOM:name
@@ -5704,6 +5688,10 @@ TAGFAMILY:AC
 WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -5740,3 +5728,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE;ASR_ORKNEY;ASR_TYNE
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

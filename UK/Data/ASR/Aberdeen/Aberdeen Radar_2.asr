@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:UK\Data\Sector\UK_2022_02.sct
+SECTORTITLE:UK_2022_02.sct
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -249,23 +251,15 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -287,6 +281,7 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
@@ -296,6 +291,7 @@ ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -315,7 +311,6 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton Gate:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
@@ -958,7 +953,6 @@ Fixes:NETVU:symbol
 Fixes:NEVIL:symbol
 Fixes:NEVIS:symbol
 Fixes:NEVRI:symbol
-Fixes:NEVRI:symbol
 Fixes:NEXUS:symbol
 Fixes:NEXXU:symbol
 Fixes:NEZZA:symbol
@@ -1037,7 +1031,6 @@ Fixes:ORVUX:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
 Fixes:OSCAR:symbol
-Fixes:OSDEB:symbol
 Fixes:OSDEB:symbol
 Fixes:OSGIL:symbol
 Fixes:OSKOT:symbol
@@ -1268,7 +1261,6 @@ Fixes:TOXTA:symbol
 Fixes:TRIPO:symbol
 Fixes:TUBSU:symbol
 Fixes:TUFOZ:symbol
-Fixes:TUFOZ:symbol
 Fixes:TUGPO:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
@@ -1353,17 +1345,16 @@ Fixes:YANKE:symbol
 Fixes:YOHDA:symbol
 Fixes:ZEDDO:symbol
 Fixes:ZOPHI:symbol
-Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
-Regions:A-NorthWest:polygon
+Regions:A-Northwest:polygon
 Regions:A-Scottish:polygon
 Regions:A-ScottishIslands:polygon
 Regions:A-SouthEast:polygon
 Regions:A-SouthWalesMidlands:polygon
 Regions:A-SouthWest:polygon
-Sids:EGPD Aberdeen SMAA:
+Sids:EGPD Aberdeen FAVA:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
@@ -1475,6 +1466,10 @@ TAGFAMILY:NOVA 9000
 WINDOWAREA:56.627865:-4.000459:57.777135:-0.395653
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1527
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -1510,3 +1505,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1587
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:107
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGPD
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_ORKNEY;ASR_PETREL;ASR_RATTRAY;ASR_SKUA;ASR_TYNE
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
