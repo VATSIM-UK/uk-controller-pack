@@ -19,9 +19,9 @@ AG:Area - TC NE:118.825:old.voice.notused:ltc_ne_ctr
 AG:Area - TC NW:121.275:old.voice.notused:ltc_nw_ctr
 AG:Area - TC Bandbox:135.800:old.voice.notused:ltc_ctr
 AG:X Area - North (Sector 4):132.875:old.voice.notused:lon_nu_ctr
-AG:X Area - Daventry (West):134.400:old.voice.notused:lon_cw_ctr
-AG:X Area - Daventry (East):127.875:old.voice.notused:lon_ce_ctr
-AG:X Area - Daventry (Low):133.975:old.voice.notused:lon_cl_ctr
+AG:X Area - Daventry (West):134.400:old.voice.notused:lon_mw_ctr
+AG:X Area - Daventry (East):127.875:old.voice.notused:lon_me_ctr
+AG:X Area - Daventry (Low):133.975:old.voice.notused:lon_ml_ctr
 AG:X Area - Clacton (Sector 12):133.925:old.voice.notused:lon_en_ctr
 AG:X Area - Clacton (Sector 13):128.150:old.voice.notused:lon_es_ctr
 AG:X Area - West (Pembroke):133.225:old.voice.notused:lon_wp_ctr
@@ -101,10 +101,9 @@ AG:EGHH_ATIS:133.725:old.voice.notused:eghh_atis
 AG:SOLENT_APP:120.225:old.voice.notused:solent_app
 AG:EGHI_APP:122.725:old.voice.notused:eghi_app
 AG:EGHI_TWR:118.200:old.voice.notused:eghi_twr
-AG:EGHI_GND:121.775:old.voice.notused:eghi_gnd
 AG:EGHI_ATIS:130.875:old.voice.notused:eghi_atis
 AG:EGHQ_APP:133.400:old.voice.notused:eghq_app
-AG:EGHQ_F_APP:128.725:old.voice.notused:eghq_f_app
+AG:EGHQ_L_APP:127.925:old.voice.notused:eghq_f_app
 AG:EGHQ_TWR:134.375:old.voice.notused:eghq_twr
 AG:EGHQ_ATIS:127.400:old.voice.notused:eghq_atis
 AG:EGJA_TWR:125.350:old.voice.notused:egja_twr
@@ -157,7 +156,7 @@ AG:EGLL_DEL:121.975:old.voice.notused:egll_del
 AG:EGLL_P_GND:121.975:old.voice.notused:egll_p_gnd
 AG:EGLL_ATIS:128.075:old.voice.notused:egll_atis
 AG:EGLW_TWR:134.275:old.voice.notused:eglw_twr
-AG:EGMC_APP:130.775:old.voice.notused:egmc_app
+AG:EGMC_APP:128.950:old.voice.notused:egmc_app
 AG:EGMC_L_APP:128.950:old.voice.notused:egmc_l_app
 AG:EGMC_TWR:127.750:old.voice.notused:egmc_twr
 AG:EGMC_ATIS:136.050:old.voice.notused:egmc_atis
@@ -205,13 +204,13 @@ AG:EGSC_ATIS:134.600:old.voice.notused:egsc_atis
 AG:EGSH_APP:119.350:old.voice.notused:egsh_app
 AG:EGSH_TWR:124.250:old.voice.notused:egsh_twr
 AG:EGSH_ATIS:128.625:old.voice.notused:egsh_atis
-AG:ESSEX_APP:120.625:old.voice.notused:essex_app
 AG:EGSS_APP:120.625:old.voice.notused:egss_app
 AG:EGSS_F_APP:136.200:old.voice.notused:egss_f_app
 AG:EGSS_TWR:123.800:old.voice.notused:egss_twr
 AG:EGSS_GND:121.725:old.voice.notused:egss_gnd
 AG:EGSS_DEL:121.950:old.voice.notused:egss_del
 AG:EGSS_ATIS:127.175:old.voice.notused:egss_atis
+AG:ESSEX_APP:120.625:old.voice.notused:essex_app
 AG:EGTE_APP:128.975:old.voice.notused:egte_app
 AG:EGTE_TWR:119.800:old.voice.notused:egte_twr
 AG:EGTE_ATIS:119.325:old.voice.notused:egte_atis
