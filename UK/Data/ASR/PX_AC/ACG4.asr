@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\UK_2022_02.sct
-SECTORTITLE:UK_2022_02.sct
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
