@@ -1,5 +1,7 @@
-# Changes from release 2022/02 to 2022/03
-X. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
+# Changes from release 2022/02 to 2022/02a
+1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
+2. Bug - Updated Heathrow Voice Settings (25 kHz spacing) - thanks to @hsugden (Harry Sugden)
+3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
