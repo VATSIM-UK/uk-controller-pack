@@ -89,6 +89,7 @@ AG:EGGP_ATIS:124.325:old.voice.notused:eggp_atis
 AG:EGGW_APP:129.550:old.voice.notused:eggw_app
 AG:EGGW_TWR:132.550:old.voice.notused:eggw_twr
 AG:EGGW_GND:121.750:old.voice.notused:eggw_gnd
+AG:EGGW_DEL:121.675:old.voice.notused:eggw_gnd
 AG:EGGW_ATIS:120.575:old.voice.notused:eggw_atis
 AG:EGHD_APP:133.550:old.voice.notused:eghd_app
 AG:EGHD_TWR:118.150:old.voice.notused:eghd_twr
