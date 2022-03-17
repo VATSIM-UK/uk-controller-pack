@@ -1,0 +1,30 @@
+PROFILE
+PROFILE:EGAA_GND:20:3
+ATIS2:Aldergrove Ground
+ATIS3:ATIS on 126.125
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAA_TWR:40:4
+ATIS2:Aldergrove Tower
+ATIS3:ATIS on 126.125
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAA_APP:100:5
+ATIS2:Aldergrove Radar (EGAA & EGAC)
+ATIS3:Covers UKFIS in Northern Ireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAA_F_APP:100:5
+ATIS2:Aldergrove Director
+ATIS3:ATIS on 126.125
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAC_TWR:40:4
+ATIS2:Belfast Tower
+ATIS3:ATIS on 124.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAC_APP:100:5
+ATIS2:Belfast Radar
+ATIS3:ATIS on 124.575
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGAC_F_APP:100:5
+ATIS2:Belfast Radar
+ATIS3:ATIS on 124.575
+ATIS4:Submit feedback at vats.im/atcfb
+END
