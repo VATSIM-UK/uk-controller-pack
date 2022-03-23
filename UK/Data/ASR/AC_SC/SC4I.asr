@@ -266,16 +266,13 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Berry Head CTA (Conditional):
 ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -299,9 +296,11 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
+ARTCC high boundary:NITON CTA (Conditional):
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Portsmouth CTA (Conditional):
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -309,6 +308,7 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -363,7 +363,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
@@ -1993,8 +1992,6 @@ Fixes:NEVIS:name
 Fixes:NEVIS:symbol
 Fixes:NEVRI:name
 Fixes:NEVRI:symbol
-Fixes:NEVRI:name
-Fixes:NEVRI:symbol
 Fixes:NEXAN:name
 Fixes:NEXAN:symbol
 Fixes:NEXUS:name
@@ -2199,8 +2196,6 @@ Fixes:OSBON:name
 Fixes:OSBON:symbol
 Fixes:OSBOX:name
 Fixes:OSBOX:symbol
-Fixes:OSDEB:name
-Fixes:OSDEB:symbol
 Fixes:OSDEB:name
 Fixes:OSDEB:symbol
 Fixes:OSGIL:name
@@ -2805,8 +2800,6 @@ Fixes:TUBSU:name
 Fixes:TUBSU:symbol
 Fixes:TUFOZ:name
 Fixes:TUFOZ:symbol
-Fixes:TUFOZ:name
-Fixes:TUFOZ:symbol
 Fixes:TUGPO:name
 Fixes:TUGPO:symbol
 Fixes:TULTA:name
@@ -3055,8 +3048,6 @@ Fixes:ZOFAT:name
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
-Fixes:ZOPHI:name
-Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
 Stars:Bristol Delegated Area:
@@ -3068,9 +3059,10 @@ Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
 Stars:HON Gate:
 Stars:Jersey RFC Line:
+Stars:KOKSY Buffer Zone:
+Stars:KOKSY Gate:
 Stars:La Manche Release Area:
 Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
 Stars:Midlands Gate:
 Stars:Northolt RMA:
 Stars:Reims Release Area:
@@ -3391,3 +3383,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
