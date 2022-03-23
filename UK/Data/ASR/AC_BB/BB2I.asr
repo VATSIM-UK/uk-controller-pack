@@ -261,7 +261,7 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
@@ -298,15 +298,18 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -361,7 +364,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
@@ -1014,7 +1016,6 @@ Fixes:NETVU:symbol
 Fixes:NEVIL:symbol
 Fixes:NEVIS:symbol
 Fixes:NEVRI:symbol
-Fixes:NEVRI:symbol
 Fixes:NEXUS:symbol
 Fixes:NEXXU:symbol
 Fixes:NEZZA:symbol
@@ -1094,7 +1095,6 @@ Fixes:ORVUL:symbol
 Fixes:ORVUX:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
-Fixes:OSDEB:symbol
 Fixes:OSDEB:symbol
 Fixes:OSGIL:symbol
 Fixes:OSKOT:symbol
@@ -1334,7 +1334,6 @@ Fixes:TOXTA:symbol
 Fixes:TRIPO:symbol
 Fixes:TUBSU:symbol
 Fixes:TUFOZ:symbol
-Fixes:TUFOZ:symbol
 Fixes:TUGPO:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
@@ -1424,7 +1423,6 @@ Fixes:ZAGZO:symbol
 Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
-Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
 Stars:BAKUR RFC Area:
@@ -1440,7 +1438,6 @@ Stars:HON Gate:
 Stars:Jersey RFC Line:
 Stars:La Manche Release Area:
 Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
 Stars:Manchester RMA Westerlies:
 Stars:Midlands Gate:
 Stars:Northolt RMA:
@@ -1637,3 +1634,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_MANCHESTER;ASR_HOLYHEAD;ASR_WESSEX;ASR_BARNSLEY;ASR_PORTLAND;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
