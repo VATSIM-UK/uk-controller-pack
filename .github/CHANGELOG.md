@@ -4,6 +4,7 @@
 3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
 4. Enhancement - Added EGGW_DEL to Voice.txt - thanks to @hsugden (Harry Sugden)
 5. Enhancement - Added Scottish FAVAs to profiles and as TopSky Maps - thanks to @hsugden (Harry Sugden)
+6. Enhancement - Updated ASRs (turned CTAs on, updated airspace base label display, general improvements) - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
