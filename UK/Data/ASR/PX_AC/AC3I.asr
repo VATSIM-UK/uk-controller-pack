@@ -249,20 +249,15 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
@@ -285,6 +280,7 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
@@ -294,6 +290,8 @@ ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -313,7 +311,6 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton Gate:
 ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
@@ -1397,10 +1394,24 @@ Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZOPHI:symbol
+Free Text:Airspace Bases - Conditional Borders CTA\FL155*D:freetext
+Free Text:Airspace Bases - Conditional Borders CTA\FL155*D:freetext
+Free Text:Airspace Bases - Conditional Borders CTA\FL165*D:freetext
+Free Text:Airspace Bases - Conditional Borders CTA\FL95*:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL105*:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL115*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL135*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL65*:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
+Free Text:Airspace Bases - Conditional Tay CTA\FL85*:freetext
 Free Text:Airspace Bases\2000D:freetext
 Free Text:Airspace Bases\2000D:freetext
 Free Text:Airspace Bases\2000D:freetext
-Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
@@ -1483,13 +1494,13 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
+Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
@@ -1505,13 +1516,14 @@ Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125C:freetext
+Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125D:freetext
 Free Text:Airspace Bases\FL125E:freetext
 Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135:freetext
+Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135C:freetext
 Free Text:Airspace Bases\FL135D:freetext
-Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
@@ -1594,6 +1606,8 @@ Free Text:Airspace Bases\FL75C:freetext
 Free Text:Airspace Bases\FL75C:freetext
 Free Text:Airspace Bases\FL75C:freetext
 Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
 Free Text:Airspace Bases\FL75D:freetext
 Free Text:Airspace Bases\FL75D:freetext
 Free Text:Airspace Bases\FL75D:freetext
@@ -1614,6 +1628,7 @@ Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
+Free Text:Airspace Bases\FL85C:freetext
 Free Text:Airspace Bases\FL85C:freetext
 Free Text:Airspace Bases\FL85C:freetext
 Free Text:Airspace Bases\FL95:freetext
@@ -1744,7 +1759,6 @@ Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\FL65:freetext
-Free Text:EGNX Airspace Bases\FL65:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
@@ -1770,7 +1784,7 @@ Free Text:EGSH Airspace Bases\2500'-4000':freetext
 Free Text:EGSH Airspace Bases\2500'-4000':freetext
 Free Text:EGSS Airspace Bases\1500':freetext
 Free Text:EGSS Airspace Bases\1500':freetext
-Free Text:EGSS Airspace Bases\2000':freetext
+Free Text:EGSS Airspace Bases\2500':freetext
 Free Text:EGSS Airspace Bases\2500':freetext
 Free Text:Solent Airspace Bases\1500':freetext
 Free Text:Solent Airspace Bases\2000':freetext
@@ -1787,7 +1801,6 @@ Regions:Uncontrolled airspace:polygon
 Stars:Gatwick RMA Westerlies:
 Stars:Heathrow RMA Westerlies:
 Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
 Stars:Stansted RMA:
 Stars:Thames RMA:
 VORs:ABB:symbol
@@ -1901,6 +1914,10 @@ TAGFAMILY:AC
 WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -1937,3 +1954,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE;ASR_ORKNEY;ASR_TYNE
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
