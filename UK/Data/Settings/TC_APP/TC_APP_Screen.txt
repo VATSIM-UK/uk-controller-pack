@@ -27,7 +27,7 @@ m_ShowOverflightPlanes:1
 SET_ShowTrackingPlanes:1
 m_METARList:1
 m_ShowTitleMetar:1
-m_ConnectSELtoSIL:0
+m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
 m_ScreenNumber:0

@@ -4,7 +4,9 @@
 3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
 4. Enhancement - Added EGGW_DEL to Voice.txt - thanks to @hsugden (Harry Sugden)
 5. Enhancement - Added Scottish FAVAs to profiles and as TopSky Maps - thanks to @hsugden (Harry Sugden)
-6. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 - thanks to @hsugden (Harry Sugden)
+6. Enhancement - Updated ASRs (turned CTAs on, updated airspace base label display, general improvements) - thanks to @hsugden (Harry Sugden)
+7. Enhancement - Updated P18 closed OCAS region to improve alignment (TopSky only) - thanks to @hsugden (Harry Sugden)
+8. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 (TopSky only) - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
