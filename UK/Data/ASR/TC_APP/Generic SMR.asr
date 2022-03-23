@@ -2997,6 +2997,10 @@ TAGFAMILY:NODE
 WINDOWAREA:51.450269:-0.517757:51.486612:-0.403764
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1354
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:64
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
@@ -3032,5 +3036,8 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1574
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:62
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
 PLUGIN:vSMR:Airport:EGLL
 PLUGIN:vSMR:GndTrailsDots:0
