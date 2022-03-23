@@ -1,6 +1,6 @@
 EuroScope Sector File Provider File
 NAME:VATSIM-UK Euroscope Sector File Provider
-URL:http://www.vatsim.uk/files/sector/esad/VATUK_Euroscope_files.txt
+URL:http://www.vatsim.uk/VATSIM_UK_Sector_Provider.txt
 DOWNLOADINTERVAL:4
 
 SECTOR_NAME:EGTT and EGPX - UK Sector
