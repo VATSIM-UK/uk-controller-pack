@@ -51,6 +51,8 @@ m_Column:SI:5:1:64:20:20:1::::1:0.0
 m_Column:Alt:3:1:43:12:11:0::TopSky plugin::4:0.0
 m_Column:HDG:5:1:46:14:29:0::TopSky plugin::4:0.0
 m_Column:Spd:3:1:44:15:29:0::TopSky plugin::4:0.0
+m_Column:OCI:3:1:118:9010:0:0:UK Controller Plugin:UK Controller Plugin::1:0.0
+m_Column:CFL:3:1:119:9010:0:0:UK Controller Plugin:UK Controller Plugin::1:0.0
 END
 DEP
 m_Visible:1
