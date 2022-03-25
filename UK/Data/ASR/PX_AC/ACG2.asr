@@ -698,7 +698,6 @@ Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
 Free Text:SCT2\3:freetext
-Free Text:SCT2\3:freetext
 Free Text:SCT2\30:freetext
 Free Text:SCT2\30:freetext
 Free Text:SCT2\30:freetext
@@ -840,8 +839,6 @@ Free Text:SCT2\4:freetext
 Free Text:SCT2\4:freetext
 Free Text:SCT2\4:freetext
 Free Text:SCT2\4:freetext
-Free Text:SCT2\4:freetext
-Free Text:SCT2\4:freetext
 Free Text:SCT2\40:freetext
 Free Text:SCT2\40:freetext
 Free Text:SCT2\40:freetext
@@ -927,7 +924,6 @@ Free Text:SCT2\49:freetext
 Free Text:SCT2\49:freetext
 Free Text:SCT2\4A:freetext
 Free Text:SCT2\4F:freetext
-Free Text:SCT2\5:freetext
 Free Text:SCT2\5:freetext
 Free Text:SCT2\5:freetext
 Free Text:SCT2\5:freetext
@@ -1149,7 +1145,6 @@ Free Text:SCT2\6:freetext
 Free Text:SCT2\6:freetext
 Free Text:SCT2\6:freetext
 Free Text:SCT2\6:freetext
-Free Text:SCT2\6:freetext
 Free Text:SCT2\60:freetext
 Free Text:SCT2\60:freetext
 Free Text:SCT2\60:freetext
@@ -1199,7 +1194,6 @@ Free Text:SCT2\68:freetext
 Free Text:SCT2\69:freetext
 Free Text:SCT2\6A:freetext
 Free Text:SCT2\6F:freetext
-Free Text:SCT2\7:freetext
 Free Text:SCT2\7:freetext
 Free Text:SCT2\7:freetext
 Free Text:SCT2\7:freetext
@@ -1302,7 +1296,6 @@ Free Text:SCT2\8:freetext
 Free Text:SCT2\8:freetext
 Free Text:SCT2\8:freetext
 Free Text:SCT2\8:freetext
-Free Text:SCT2\8:freetext
 Free Text:SCT2\80:freetext
 Free Text:SCT2\80:freetext
 Free Text:SCT2\80:freetext
@@ -1335,7 +1328,6 @@ Free Text:SCT2\8C:freetext
 Free Text:SCT2\8L:freetext
 Free Text:SCT2\8R:freetext
 Free Text:SCT2\8R:freetext
-Free Text:SCT2\9:freetext
 Free Text:SCT2\9:freetext
 Free Text:SCT2\9:freetext
 Free Text:SCT2\9:freetext
@@ -1405,6 +1397,8 @@ Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
 Free Text:SCT2\A:freetext
+Free Text:SCT2\A:freetext
+Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
 Free Text:SCT2\A1:freetext
@@ -1516,7 +1510,9 @@ Free Text:SCT2\A2:freetext
 Free Text:SCT2\A2:freetext
 Free Text:SCT2\A2:freetext
 Free Text:SCT2\A2:freetext
+Free Text:SCT2\A2:freetext
 Free Text:SCT2\A20:freetext
+Free Text:SCT2\A3:freetext
 Free Text:SCT2\A3:freetext
 Free Text:SCT2\A3:freetext
 Free Text:SCT2\A3:freetext
@@ -1676,6 +1672,7 @@ Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
 Free Text:SCT2\B:freetext
+Free Text:SCT2\B:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
@@ -1715,6 +1712,8 @@ Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
 Free Text:SCT2\B1:freetext
+Free Text:SCT2\B1:freetext
+Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
 Free Text:SCT2\B2:freetext
@@ -1855,6 +1854,7 @@ Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
 Free Text:SCT2\C1:freetext
+Free Text:SCT2\C1:freetext
 Free Text:SCT2\C2:freetext
 Free Text:SCT2\C2:freetext
 Free Text:SCT2\C2:freetext
@@ -1951,7 +1951,9 @@ Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1:freetext
+Free Text:SCT2\D1:freetext
 Free Text:SCT2\D1A:freetext
+Free Text:SCT2\D2:freetext
 Free Text:SCT2\D2:freetext
 Free Text:SCT2\D2:freetext
 Free Text:SCT2\D2:freetext
@@ -2065,6 +2067,8 @@ Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
 Free Text:SCT2\E1:freetext
+Free Text:SCT2\E1:freetext
+Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
@@ -2087,7 +2091,6 @@ Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2:freetext
 Free Text:SCT2\E2A:freetext
-Free Text:SCT2\E3:freetext
 Free Text:SCT2\E3:freetext
 Free Text:SCT2\E3:freetext
 Free Text:SCT2\E3:freetext
@@ -2146,6 +2149,7 @@ Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
 Free Text:SCT2\F1:freetext
+Free Text:SCT2\F1:freetext
 Free Text:SCT2\F2:freetext
 Free Text:SCT2\F2:freetext
 Free Text:SCT2\F2:freetext
@@ -2171,6 +2175,7 @@ Free Text:SCT2\F5:freetext
 Free Text:SCT2\FA1:freetext
 Free Text:SCT2\FCL:freetext
 Free Text:SCT2\FS:freetext
+Free Text:SCT2\Fuel:freetext
 Free Text:SCT2\FX:freetext
 Free Text:SCT2\FX:freetext
 Free Text:SCT2\FZ1:freetext
@@ -2236,6 +2241,8 @@ Free Text:SCT2\G4:freetext
 Free Text:SCT2\GA:freetext
 Free Text:SCT2\GA:freetext
 Free Text:SCT2\GA Apron:freetext
+Free Text:SCT2\Gaydon North:freetext
+Free Text:SCT2\Gaydon South:freetext
 Free Text:SCT2\GB:freetext
 Free Text:SCT2\Goose:freetext
 Free Text:SCT2\Grass Apron:freetext
@@ -2254,6 +2261,12 @@ Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
+Free Text:SCT2\H:freetext
+Free Text:SCT2\H:freetext
+Free Text:SCT2\H-East:freetext
+Free Text:SCT2\H-North:freetext
+Free Text:SCT2\H-South:freetext
+Free Text:SCT2\H1:freetext
 Free Text:SCT2\H1:freetext
 Free Text:SCT2\H1:freetext
 Free Text:SCT2\H1:freetext
@@ -2279,11 +2292,15 @@ Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
 Free Text:SCT2\H2:freetext
+Free Text:SCT2\H2:freetext
+Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H3:freetext
 Free Text:SCT2\H4:freetext
+Free Text:SCT2\H4:freetext
+Free Text:SCT2\H5:freetext
 Free Text:SCT2\H5:freetext
 Free Text:SCT2\H5:freetext
 Free Text:SCT2\H6:freetext
@@ -2459,6 +2476,7 @@ Free Text:SCT2\L6:freetext
 Free Text:SCT2\L7:freetext
 Free Text:SCT2\LOKKI:freetext
 Free Text:SCT2\LOMAN:freetext
+Free Text:SCT2\Lower Apron:freetext
 Free Text:SCT2\LR:freetext
 Free Text:SCT2\M:freetext
 Free Text:SCT2\M:freetext
@@ -2492,6 +2510,7 @@ Free Text:SCT2\M7:freetext
 Free Text:SCT2\M8:freetext
 Free Text:SCT2\M9:freetext
 Free Text:SCT2\MA:freetext
+Free Text:SCT2\Main Apron:freetext
 Free Text:SCT2\Main Apron:freetext
 Free Text:SCT2\Maverick:freetext
 Free Text:SCT2\MORRA:freetext
@@ -2765,10 +2784,16 @@ Free Text:SCT2\W4:freetext
 Free Text:SCT2\W5:freetext
 Free Text:SCT2\W6:freetext
 Free Text:SCT2\W7:freetext
+Free Text:SCT2\W8:freetext
 Free Text:SCT2\West Apron:freetext
 Free Text:SCT2\West Aprons:freetext
 Free Text:SCT2\Western Apron:freetext
 Free Text:SCT2\Woodside Apron:freetext
+Free Text:SCT2\X:freetext
+Free Text:SCT2\X:freetext
+Free Text:SCT2\X:freetext
+Free Text:SCT2\X:freetext
+Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
 Free Text:SCT2\X:freetext
@@ -2800,26 +2825,35 @@ Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Geo:EGAA Belfast Aldergrove:
 Geo:EGAC Belfast City:
+Geo:EGAE City of Derry:
 Geo:EGBB Birmingham:
 Geo:EGBE Coventry:
 Geo:EGBJ Gloucestershire:
+Geo:EGBO Wolverhampton Halfpenny:
+Geo:EGBP Kemble:
+Geo:EGBW Wellesbourne:
 Geo:EGCB Barton:
 Geo:EGCC Manchester:
 Geo:EGCN Doncaster:
+Geo:EGDR Culdrose:
 Geo:EGDY Yeovilton:
 Geo:EGFF Cardiff:
 Geo:EGFH Swansea:
 Geo:EGGD Bristol:
 Geo:EGGP Liverpool:
 Geo:EGGW London Luton:
+Geo:EGHC Land's End:
 Geo:EGHE Scilly Isles/St Mary's:
+Geo:EGHF Lee-on-Solent:
 Geo:EGHG Yeovil/Westland:
 Geo:EGHH Bournemouth:
 Geo:EGHH Stand Lines (New):
 Geo:EGHI Southampton:
+Geo:EGHJ Bembridge:
 Geo:EGHL Lasham:
 Geo:EGHO Thruxton:
 Geo:EGHQ Newquay:
+Geo:EGHR Goodwood:
 Geo:EGJA Alderney:
 Geo:EGJB Guernsey:
 Geo:EGJJ Jersey:
@@ -2836,6 +2870,7 @@ Geo:EGMD Lydd:
 Geo:EGNC Carlisle:
 Geo:EGNH Blackpool:
 Geo:EGNJ Humberside:
+Geo:EGNL Barrow:
 Geo:EGNM Leeds Bradford:
 Geo:EGNO Warton:
 Geo:EGNR Hawarden:
@@ -2843,12 +2878,15 @@ Geo:EGNS Isle of Man:
 Geo:EGNT Newcastle:
 Geo:EGNV Teesside:
 Geo:EGNX East Midlands:
+Geo:EGOS Shawbury:
+Geo:EGOV Valley:
 Geo:EGPA Kirkwall:
 Geo:EGPB Sumburgh:
 Geo:EGPC Wick:
 Geo:EGPD Aberdeen:
 Geo:EGPE Inverness:
 Geo:EGPF Glasgow:
+Geo:EGPG Cumbernauld:
 Geo:EGPH Edinburgh:
 Geo:EGPK Prestwick:
 Geo:EGPL Benbecula:
@@ -2868,17 +2906,22 @@ Geo:EGTC Cranfield:
 Geo:EGTE Exeter:
 Geo:EGTF Fairoaks:
 Geo:EGTK Oxford:
+Geo:EGTR Elstree:
 Geo:EGVA Fairford:
 Geo:EGVN Brize Norton:
 Geo:EGWU Northolt:
 Geo:EGXC Coningsby:
+Geo:EGXE Leeming:
+Geo:EGXW Waddington:
 Geo:EGYD Cranwell:
 Geo:EGYM Marham:
 Regions:Aberdeen Dyce:polygon
 Regions:Alderney:polygon
+Regions:Barrow:polygon
 Regions:Barton:polygon
 Regions:Belfast Aldergrove:polygon
 Regions:Belfast City:polygon
+Regions:Bembridge:polygon
 Regions:Biggin:polygon
 Regions:Birmingham:polygon
 Regions:Blackbushe:polygon
@@ -2887,15 +2930,21 @@ Regions:Bristol:polygon
 Regions:Brize Norton:polygon
 Regions:Cambridge:polygon
 Regions:Cardiff:polygon
+Regions:Carlise:polygon
 Regions:City:polygon
 Regions:City of Derry:polygon
 Regions:Coningsby:polygon
+Regions:Coventry:polygon
 Regions:Cranfield:polygon
+Regions:Cranwell:polygon
+Regions:Culdrose:polygon
+Regions:Cumbernauld:polygon
 Regions:Doncaster:polygon
 Regions:Dundee:polygon
 Regions:Duxford:polygon
 Regions:East Midlands:polygon
 Regions:Edinburgh:polygon
+Regions:Elstree:polygon
 Regions:Exeter:polygon
 Regions:Fairford:polygon
 Regions:Fairoaks:polygon
@@ -2914,31 +2963,42 @@ Regions:Jersey:polygon
 Regions:Kemble:polygon
 Regions:Kirkwall:polygon
 Regions:Land's End:polygon
+Regions:Lee-on-Solent:polygon
 Regions:Leeds:polygon
+Regions:Leeming:polygon
+Regions:Leuchars:polygon
 Regions:Liverpool:polygon
 Regions:Luton:polygon
 Regions:Lydd:polygon
 Regions:Manchester:polygon
+Regions:Marham:polygon
 Regions:Newcastle:polygon
 Regions:Newquay:polygon
 Regions:North Weald:polygon
+Regions:Northolt:polygon
 Regions:Norwich:polygon
 Regions:Oxford:polygon
 Regions:Prestwick:polygon
 Regions:Redhill:polygon
+Regions:Sandown:polygon
 Regions:Scilly Isles/St Mary's:polygon
+Regions:Shawbury:polygon
 Regions:Shoreham:polygon
 Regions:Southampton:polygon
 Regions:Southend:polygon
 Regions:St Athan:polygon
 Regions:Stansted:polygon
+Regions:Stornoway:polygon
 Regions:Sumburgh:polygon
 Regions:Swansea:polygon
 Regions:Teesside:polygon
 Regions:Thruxton:polygon
+Regions:Valley:polygon
+Regions:Waddington:polygon
 Regions:Warton:polygon
 Regions:Wellesbourne:polygon
 Regions:Wick:polygon
+Regions:Wolverhampton:polygon
 Regions:Wycombe Air Park/Booker:polygon
 Regions:Yeovilton:polygon
 SHOWC:1
