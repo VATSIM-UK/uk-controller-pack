@@ -8,6 +8,7 @@
 7. Enhancement - Updated P18 closed OCAS region to improve alignment (TopSky only) - thanks to @hsugden (Harry Sugden)
 8. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 (TopSky only) - thanks to @hsugden (Harry Sugden)
 9. Enhancement - Refreshed generic SMR profile display settings - thanks to @hsugden (Harry Sugden)
+10. Enhancement - Added 5 NM Scale Markers for DTY, CLN, WOR and DVR (TopSky only) - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
