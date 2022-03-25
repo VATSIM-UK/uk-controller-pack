@@ -10,6 +10,8 @@
 9. Enhancement - Refreshed generic SMR profile display settings - thanks to @hsugden (Harry Sugden)
 10. Enhancement - Added 5 NM Scale Markers for DTY, CLN, WOR and DVR (TopSky only) - thanks to @hsugden (Harry Sugden)
 11. AIRAC (2203) - Added Borders CTA 14 conditional airspace map (TopSky only) - thanks to @hsugden (Harry Sugden)
+12. Enhancement - Added togglable Oceanic Clearance list columns to Area Sector Exit List - thanks to @hsugden (Harry Sugden)
+13. Enhancement - General list improvements - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
