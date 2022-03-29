@@ -130,6 +130,7 @@ AG:EGKK_APP:126.825:old.voice.notused:egkk_app
 AG:EGKK_F_APP:118.950:old.voice.notused:egkk_f_app
 AG:EGKK_TWR:124.225:old.voice.notused:egkk_twr
 AG:EGKK_GND:121.800:old.voice.notused:egkk_gnd
+AG:EGKK_P_GND:134.225:old.voice.notused:egkk_p_gnd
 AG:EGKK_DEL:121.950:old.voice.notused:egkk_del
 AG:EGKK_ATIS:136.525:old.voice.notused:egkk_atis
 AG:EGKR_TWR:119.600:old.voice.notused:egkr_twr
