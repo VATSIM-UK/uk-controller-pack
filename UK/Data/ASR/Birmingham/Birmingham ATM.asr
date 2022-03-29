@@ -1,14 +1,12 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-ARTCC high boundary:AIRWAYS:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBE Coventry Corner:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 Fixes:ABBOT:symbol
@@ -157,10 +155,6 @@ TAGFAMILY:Traffic Monitor
 WINDOWAREA:51.972582:-3.257593:52.935129:-0.238463
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1306
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:52
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -184,10 +178,6 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1388
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:107
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:69
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:213
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
