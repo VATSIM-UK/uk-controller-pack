@@ -1964,6 +1964,8 @@ Fixes:NEVIS:name
 Fixes:NEVIS:symbol
 Fixes:NEVRI:name
 Fixes:NEVRI:symbol
+Fixes:NEVRI:name
+Fixes:NEVRI:symbol
 Fixes:NEXAN:name
 Fixes:NEXAN:symbol
 Fixes:NEXUS:name
@@ -2168,6 +2170,8 @@ Fixes:OSBON:name
 Fixes:OSBON:symbol
 Fixes:OSBOX:name
 Fixes:OSBOX:symbol
+Fixes:OSDEB:name
+Fixes:OSDEB:symbol
 Fixes:OSDEB:name
 Fixes:OSDEB:symbol
 Fixes:OSGIL:name
@@ -2772,6 +2776,8 @@ Fixes:TUBSU:name
 Fixes:TUBSU:symbol
 Fixes:TUFOZ:name
 Fixes:TUFOZ:symbol
+Fixes:TUFOZ:name
+Fixes:TUFOZ:symbol
 Fixes:TUGPO:name
 Fixes:TUGPO:symbol
 Fixes:TULTA:name
@@ -3018,6 +3024,8 @@ Fixes:ZEDDO:name
 Fixes:ZEDDO:symbol
 Fixes:ZOFAT:name
 Fixes:ZOFAT:symbol
+Fixes:ZOPHI:name
+Fixes:ZOPHI:symbol
 Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
