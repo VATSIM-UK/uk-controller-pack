@@ -13,6 +13,7 @@
 12. Enhancement - Added togglable Oceanic Clearance list columns to Area Sector Exit List - thanks to @hsugden (Harry Sugden)
 13. Enhancement - General list improvements - thanks to @hsugden (Harry Sugden)
 14. Enhancement - Added Gatwick Planner (EGKK_P_GND) to Voice.txt - thanks to @hsugden (Harry Sugden)
+15. Enhancement - Updated AC Alias to include CTP specific commands - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
