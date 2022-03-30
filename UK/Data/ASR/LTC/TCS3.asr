@@ -1782,6 +1782,9 @@ Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Sids:London TC South East:
+Sids:London TC South West:
+Stars:SODVU Box:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
@@ -1917,7 +1920,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:0
@@ -1927,6 +1930,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.157311:-2.863453:51.997430:2.908272
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0

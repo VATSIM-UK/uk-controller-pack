@@ -1406,6 +1406,9 @@ Fixes:ZAGZO:symbol
 Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
+Free Text:Airspace Bases - Borders CTA 3\FL125:freetext
+Free Text:Airspace Bases - Yorkshire CTA 4\FL125:freetext
+Free Text:Airspace Bases - Yorkshire CTA 4\FL125:freetext
 Free Text:Airspace Bases\2000D:freetext
 Free Text:Airspace Bases\2000D:freetext
 Free Text:Airspace Bases\2000D:freetext
@@ -1792,6 +1795,8 @@ Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
+Sids:London TC North East:
+Sids:London TC North West:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
@@ -1937,6 +1942,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.905650:-3.158205:52.745769:2.613520
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0

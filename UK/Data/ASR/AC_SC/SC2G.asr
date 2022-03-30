@@ -249,21 +249,18 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Berry Head CTA (Conditional):
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -285,15 +282,21 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
+ARTCC high boundary:NITON CTA (Conditional):
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Portsmouth CTA (Conditional):
+ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -317,7 +320,6 @@ ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -336,7 +338,6 @@ ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGNV Teesside CTA:
@@ -347,7 +348,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
@@ -370,7 +370,6 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Fixes:ABAPO:symbol
 Fixes:ABBOT:symbol
 Fixes:ABDAL:symbol
@@ -1328,23 +1327,16 @@ Fixes:XIDIL:symbol
 Fixes:ZEDDO:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
-Stars:Bristol Delegated Area:
-Stars:Cardiff Delegated Area:
-Stars:CPT Gate:
-Stars:Gatwick RMA Westerlies:
-Stars:Heathrow Inner CTA:
-Stars:Heathrow RMA Westerlies:
-Stars:HON Gate:
-Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
-Stars:Manchester RMA Westerlies:
-Stars:Midlands Gate:
-Stars:Northolt RMA:
-Stars:Stansted RMA:
-Stars:Thames Gate:
-Stars:Thames RAVSA Rings:
-Stars:Thames RMA:
-Stars:Worthing Paris Release:
+Sids:London AC Clacton:
+Sids:London AC Daventry:
+Sids:London AC Dover:
+Sids:London AC Worthing:
+Stars:DIKRO Box:
+Stars:Jersey RFC Line:
+Stars:KOKSY Buffer Zone:
+Stars:KOKSY Gate:
+Stars:La Manche Release Area:
+Stars:Reims Release Area:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
@@ -1407,7 +1399,6 @@ VORs:GUR:symbol
 VORs:GWC:symbol
 VORs:HDR:symbol
 VORs:HON:symbol
-VORs:HSD:symbol
 VORs:HUL:symbol
 VORs:IOM:symbol
 VORs:IWL:symbol
@@ -1491,8 +1482,16 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:49.301367:-7.775692:54.166668:7.484833
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1523
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1500,7 +1499,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:1
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -1509,8 +1510,16 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1637
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:235
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1586
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

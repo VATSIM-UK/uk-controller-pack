@@ -253,16 +253,9 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
@@ -313,12 +306,10 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton 3953980:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -337,7 +328,6 @@ ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGNV Teesside CTA:
@@ -348,7 +338,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
@@ -371,25 +360,15 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
-Stars:Bristol Delegated Area:
-Stars:Cardiff Delegated Area:
-Stars:CPT 3953980:
-Stars:Gatwick RMA Westerlies:
-Stars:Heathrow Inner CTA:
-Stars:Heathrow RMA Westerlies:
-Stars:HON 3953980:
-Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
-Stars:Midlands 3953980:
-Stars:Northolt RMA:
-Stars:Stansted RMA:
-Stars:Thames 3953980:
-Stars:Thames RAVSA Rings:
-Stars:Thames RMA:
-Stars:Worthing Paris Release:
+Sids:London AC Clacton:
+Sids:London AC Daventry:
+Stars:Brussels Release Line:
+Stars:HON Gate:
+Stars:KOKSY Buffer Zone:
+Stars:KOKSY Gate:
+Stars:Midlands Gate:
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -404,8 +383,16 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:50.708574:-6.488239:54.302556:4.784661
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1511
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -434,3 +421,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:110
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_YARMOUTH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

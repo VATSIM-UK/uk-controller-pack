@@ -372,14 +372,14 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
-Stars:London TC South East:
-Stars:London TC South West:
+Sids:London TC South East:
+Sids:London TC South West:
 Stars:SODVU Box:
 SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:0
@@ -389,6 +389,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.157311:-2.863453:51.997430:2.908272
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
