@@ -1,3 +1,6 @@
+# Changes from release 2022/03 to 2022/05
+X. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hsugden (Harry Sugden)
+
 # Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
 2. Bug - Updated Heathrow Voice Settings (25 kHz spacing) - thanks to @hsugden (Harry Sugden)
