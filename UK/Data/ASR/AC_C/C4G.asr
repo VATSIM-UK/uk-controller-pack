@@ -249,23 +249,14 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -315,13 +306,10 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton 3953980:
-ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -333,17 +321,13 @@ ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
 ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLD Denham LFA:
 ARTCC low boundary:EGLF Farnborough CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
-ARTCC low boundary:EGLM White Waltham LFA:
 ARTCC low boundary:EGLS Old Sarum ATZ:
-ARTCC low boundary:EGLW London Heliport LFA:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGNV Teesside CTA:
@@ -354,12 +338,10 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
-ARTCC low boundary:EGTF Fairoaks LFA:
 ARTCC low boundary:EGTO Rochester ATZ:
 ARTCC low boundary:EGUB Benson MATZ:
 ARTCC low boundary:EGUW Wattisham MATZ:
@@ -378,7 +360,6 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Fixes:ABAPO:name
 Fixes:ABAPO:symbol
 Fixes:ABBOT:name
@@ -2291,22 +2272,13 @@ Fixes:ZEDDO:name
 Fixes:ZEDDO:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
-Stars:Bristol Delegated Area:
-Stars:Cardiff Delegated Area:
-Stars:CPT 3953980:
-Stars:Gatwick RMA Westerlies:
-Stars:Heathrow Inner CTA:
-Stars:Heathrow RMA Westerlies:
-Stars:HON 3953980:
-Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
-Stars:Midlands 3953980:
-Stars:Northolt RMA:
-Stars:Stansted RMA:
-Stars:Thames 3953980:
-Stars:Thames RAVSA Rings:
-Stars:Thames RMA:
-Stars:Worthing Paris Release:
+Sids:London AC Clacton:
+Sids:London AC Daventry:
+Stars:Brussels Release Line:
+Stars:HON Gate:
+Stars:KOKSY Buffer Zone:
+Stars:KOKSY Gate:
+Stars:Midlands Gate:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
@@ -2431,8 +2403,6 @@ VORs:HDR:name
 VORs:HDR:symbol
 VORs:HON:name
 VORs:HON:symbol
-VORs:HSD:name
-VORs:HSD:symbol
 VORs:HUL:name
 VORs:HUL:symbol
 VORs:IOM:name
@@ -2585,12 +2555,16 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:50.708574:-6.488239:54.302556:4.784661
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1511
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -2614,12 +2588,11 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:110
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_YARMOUTH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

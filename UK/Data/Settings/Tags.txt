@@ -853,8 +853,11 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:46::0:0:0:0::0:1:::5
 TAGITEM:44::0:1:0:0::0:1:::5
 TAGITEM:19::0:1:0:0::0:1:::1
-TAGTYPE:2:2:1
+TAGTYPE:2:5:2
 TAGITEM:42::0:0:0:0::0:1:::1
+TAGITEM:33::0:0:0:0::0:1:::1
+TAGITEM:108::0:0:9005:9006:UK Controller Plugin:0:1:UK Controller Plugin:UK Controller Plugin:1
+TAGITEM:111::0:0:9006:9006:UK Controller Plugin:0:1:UK Controller Plugin:UK Controller Plugin:1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:9::1:0:8:1::0:1:::0
 TAGITEM:80::0:0:32:0::0:1:::1

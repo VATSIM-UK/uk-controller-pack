@@ -2693,10 +2693,6 @@ TAGFAMILY:AC
 WINDOWAREA:51.395799:-3.467933:51.417111:-3.401085
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2720,10 +2716,6 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1585
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:61
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGFF

@@ -249,7 +249,6 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
@@ -265,7 +264,6 @@ ARTCC high boundary:Conditional - NITON CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -315,8 +313,6 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton Gate:
-ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
@@ -399,8 +395,6 @@ TAGFAMILY:NOVA 9000
 WINDOWAREA:51.004212:-3.861686:51.761344:-1.576648
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1279
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:46
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1196
 PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:185
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -426,10 +420,6 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1361
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:94
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1506
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:45
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGGD

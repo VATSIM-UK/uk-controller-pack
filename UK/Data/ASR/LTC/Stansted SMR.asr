@@ -2420,13 +2420,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:47.50000
 TAGFAMILY:AC
-WINDOWAREA:51.869236:0.185555:51.900764:0.284445
+WINDOWAREA:51.869236:0.185163:51.900764:0.284837
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1541
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2450,14 +2454,13 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:74
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:199
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
 PLUGIN:vSMR:Airport:EGSS
 PLUGIN:vSMR:GndTrailsDots:0

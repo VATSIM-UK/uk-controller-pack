@@ -1,7 +1,6 @@
 ========================================================
-Alias:    	London Control
-Created:     	2012-05-20
-Last Updated:	2016-03-20
+Alias:    	    UK
+Last Updated:	2022-03-29
 ========================================================
 
 ========================================================
@@ -35,8 +34,8 @@ Generic
 
 .qnh QNH $altim($1)
 
-.ini Hi there! You climbed through the initial climb on your departure today - not to worry, but can I ask that you make sure to check initial climb restrictions and step climbs for SIDs EVERY time you fly, to ensure you do not conflict with other airspace users in this busy airspace. All UK Aerodrome/SID charts are available here: https://chartfox.org/
-.iniall LONDON BROADCAST: A QUICK REMINDER TO ALL TO CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY! https://chartfox.org/ EVEN MORE IMPORTANT TO DO SO WHEN IT'S BUSY!
+.ini Hello - You climbed above the initial climb on your departure today - please remember to check initial climb restrictions (including step climbs) on SIDs EVERY time you fly, to ensure you do not conflict with other airspace users. All UK charts are available here: https://chartfox.org/
+.iniall BROADCAST: A REMINDER TO ALWAYS CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY https://chartfox.org/ NOTE THAT SIDs MAY INCLUDE STEP CLIMBS
 
 ========================================================
 Handoffs
@@ -97,10 +96,10 @@ Vertical
 .dflla Descend FL$1 level abeam $2
 
 .ed Expedite descent
-.edtfl Expedite descent through FL$1
-.edta Expedite descent through altitude $1ft
-.ectfl Expedite climb through FL$1
-.ecta Expedite climb through altitude $1ft
+.edtfl Expedite descent until passing FL$1
+.edta Expedite descent until passing altitude $1ft
+.ectfl Expedite climb until passing FL$1
+.ecta Expedite climb until passing altitude $1ft
 
 ========================================================
 Speed Control
@@ -153,6 +152,15 @@ Departure
 .rcq Readback correct, QNH $altim($dep)
 .ready Readback correct, report ready
 .readyq Readback correct, QNH $altim($dep), report ready
+
+========================================================
+CTP
+========================================================
+
+.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
+.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
+.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
+.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
 
 ========================================================
 Ground Movement

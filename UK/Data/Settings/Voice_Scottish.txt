@@ -2,7 +2,7 @@ VOICE
 AG:Area - Bandbox:135.525:old.voice.notused:sco_ctr
 AG:Area - East:121.325:old.voice.notused:sco_e_ctr
 AG:Area - North:129.225:old.voice.notused:sco_n_ctr
-AG:Area - South:134.775:old.voice.notused:sco_n_ctr
+AG:Area - South:134.775:old.voice.notused:sco_s_ctr
 AG:Area - West and DCS:133.875:old.voice.notused:sco_wd_ctr
 AG:Area - West:132.725:old.voice.notused:sco_w_ctr
 AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr

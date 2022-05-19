@@ -1,9 +1,26 @@
-x. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
+# Changes from release 2022/03 to 2022/05
+1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
+2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)
+3. Procedure Change (2205) - Amended Midlands Buffer Zone (TopSky only) - thanks to @hsugden (Harry Sugden)
+4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hsugden (Harry Sugden)
+5. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
 
-# Changes from release 2022/02 to 2022/02a
+# Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
 2. Bug - Updated Heathrow Voice Settings (25 kHz spacing) - thanks to @hsugden (Harry Sugden)
 3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
+4. Enhancement - Added EGGW_DEL to Voice.txt - thanks to @hsugden (Harry Sugden)
+5. Enhancement - Added Scottish FAVAs to profiles and as TopSky Maps - thanks to @hsugden (Harry Sugden)
+6. Enhancement - Updated ASRs (turned CTAs on, updated airspace base label display, general improvements) - thanks to @hsugden (Harry Sugden)
+7. Enhancement - Updated P18 closed OCAS region to improve alignment (TopSky only) - thanks to @hsugden (Harry Sugden)
+8. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 (TopSky only) - thanks to @hsugden (Harry Sugden)
+9. Enhancement - Refreshed generic SMR profile display settings - thanks to @hsugden (Harry Sugden)
+10. Enhancement - Added 5 NM Scale Markers for DTY, CLN, WOR and DVR (TopSky only) - thanks to @hsugden (Harry Sugden)
+11. AIRAC (2203) - Added Borders CTA 14 conditional airspace map (TopSky only) - thanks to @hsugden (Harry Sugden)
+12. Enhancement - Added togglable Oceanic Clearance list columns to Area Sector Exit List - thanks to @hsugden (Harry Sugden)
+13. Enhancement - General list improvements - thanks to @hsugden (Harry Sugden)
+14. Enhancement - Added Gatwick Planner (EGKK_P_GND) to Voice.txt - thanks to @hsugden (Harry Sugden)
+15. Enhancement - Updated AC Alias to include CTP specific commands - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)

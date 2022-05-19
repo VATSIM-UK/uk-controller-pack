@@ -261,22 +261,18 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:AIRWAYS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:Banba CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Berry Head CTA (Conditional):
 ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -298,15 +294,21 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:NITON CTA:
+ARTCC high boundary:NITON CTA (Conditional):
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Portsmouth CTA (Conditional):
+ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -326,7 +328,6 @@ ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
-ARTCC low boundary:EGGW Luton LFC:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
@@ -341,13 +342,10 @@ ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
 ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLD Denham LFA:
 ARTCC low boundary:EGLF Farnborough CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
-ARTCC low boundary:EGLM White Waltham LFA:
 ARTCC low boundary:EGLS Old Sarum ATZ:
-ARTCC low boundary:EGLW London Heliport LFA:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
@@ -361,12 +359,10 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
-ARTCC low boundary:EGTF Fairoaks LFA:
 ARTCC low boundary:EGTO Rochester ATZ:
 ARTCC low boundary:EGUB Benson MATZ:
 ARTCC low boundary:EGUW Wattisham MATZ:
@@ -396,13 +392,15 @@ Stars:Gatwick RMA Westerlies:
 Stars:Heathrow Inner CTA:
 Stars:Heathrow RMA Westerlies:
 Stars:Jersey RFC Line:
+Stars:KOKSY Buffer Zone:
+Stars:KOKSY Gate:
 Stars:La Manche Release Area:
 Stars:Luton RMA:
-Stars:Luton Westerly Buffer:
 Stars:Northolt RMA:
 Stars:RAMOX Buffer Area A:
 Stars:RAMOX Buffer Area B:
 Stars:Reims Release Area:
+Stars:REMSI Buffer:
 Stars:Stansted RMA:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
@@ -426,10 +424,6 @@ PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
 PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:150
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -453,12 +447,11 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
-PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1581
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_MANCHESTER;ASR_HOLYHEAD;ASR_WESSEX;ASR_BARNSLEY;ASR_PORTLAND;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
