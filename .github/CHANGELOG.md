@@ -1,5 +1,5 @@
-# Changes from release 2022/03 to 2022/04
-X. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
+# Changes from release 2022/03 to 2022/05
+1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
 
 # Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
