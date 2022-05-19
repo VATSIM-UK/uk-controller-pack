@@ -165,9 +165,7 @@ AG:EGMC_ATIS:136.050:old.voice.notused:egmc_atis
 AG:EGMD_A_APP:120.700:old.voice.notused:egmd_a_app
 AG:EGMD_TWR:119.375:old.voice.notused:egmd_twr
 AG:EGMD_ATIS:129.225:old.voice.notused:egmd_atis
-AG:EGNC_A_APP:123.600:old.voice.notused:egnc_a_app
-AG:EGNC_TWR:123.600:old.voice.notused:egnc_twr
-AG:EGNC_ATIS:118.425:old.voice.notused:egnc_atis
+AG:EGNC_R_TWR:123.600:old.voice.notused:egnc_r_twr
 AG:EGNH_A_APP:119.950:old.voice.notused:egnh_a_app
 AG:EGNH_TWR:118.400:old.voice.notused:egnh_twr
 AG:EGNH_ATIS:127.200:old.voice.notused:egnh_atis
