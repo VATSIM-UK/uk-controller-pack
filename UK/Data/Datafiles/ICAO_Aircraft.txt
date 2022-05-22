@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2203/1  ++  Valid period: 24/MAR/2022 - 20/APR/2022  ++  File-Publisher: Belux vACC - EBBU                       ;
+;  AIRAC 2205/1  ++  Valid period: 19/MAY/2022 - 15/JUN/2022  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
