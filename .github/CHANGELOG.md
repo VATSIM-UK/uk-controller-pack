@@ -3,6 +3,7 @@
 2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)
 3. Procedure Change (2205) - Amended Midlands Buffer Zone (TopSky only) - thanks to @hsugden (Harry Sugden)
 4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hsugden (Harry Sugden)
+5. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
