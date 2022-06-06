@@ -39,8 +39,7 @@
       },
       "departure": {
         "definition": [
-          [ "callsign" ],
-          [ "flightlevel", "tendency" ]
+          [ "callsign" ]
         ],
         "background_color": {
           "r": 40,
@@ -86,7 +85,8 @@
       "airborne": {
         "use_departure_arrival_coloring": true,
         "definition": [
-          [ "callsign" ]
+          [ "callsign" ],
+          [ "flightlevel" ]
         ],
         "text_color": {
           "r": 255,
