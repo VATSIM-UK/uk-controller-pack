@@ -324,7 +324,7 @@
         "use_departure_arrival_coloring": false,
         "definition": [
           [ "callsign" ],
-          [ "flightlevel", "tendency", "gs" ],
+          [ "flightlevel", "gs" ],
           [ "actype" ]
         ],
         "text_color": {
@@ -562,7 +562,7 @@
         "use_departure_arrival_coloring": false,
         "definition": [
           [ "callsign" ],
-          [ "flightlevel", "tendency" ]
+          [ "flightlevel" ]
         ],
         "text_color": {
           "r": 255,
@@ -732,7 +732,7 @@
       "radar_range_nm": 300,
       "night_alpha_setting": 110,
       "pro_mode": {
-        "enable": false,
+        "enable": true,
         "accept_pilot_squawk": false,
         "do_not_autocorrelate_squawks": [
           "2000",
@@ -801,7 +801,7 @@
         "use_departure_arrival_coloring": false,
         "definition": [
           [ "callsign" ],
-          [ "flightlevel", "tendency", "gs" ],
+          [ "flightlevel", "gs" ],
           [ "actype" ]
         ],
         "text_color": {
