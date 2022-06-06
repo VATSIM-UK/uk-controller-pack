@@ -13,8 +13,8 @@
       }
     },
     "filters": {
-      "hide_above_alt": 9000,
-      "hide_above_spd": 300,
+      "hide_above_alt": 4000,
+      "hide_above_spd": 250,
       "radar_range_nm": 300,
       "night_alpha_setting": 110,
       "pro_mode": {
@@ -31,7 +31,7 @@
     "labels": {
       "auto_deconfliction": true,
       "leader_line_length": 50,
-      "use_aspeed_for_gate": true,
+      "use_aspeed_for_gate": false,
       "squawk_error_color": {
         "r": 255,
         "g": 255,
@@ -39,7 +39,8 @@
       },
       "departure": {
         "definition": [
-          [ "callsign" ]
+          [ "callsign" ],
+          [ "sctype", "deprwy" ]
         ],
         "background_color": {
           "r": 40,
@@ -62,7 +63,7 @@
       "arrival": {
         "definition": [
           [ "callsign" ],
-          [ "uk_stand" ]
+          [ "uk_stand", "actype" ]
         ],
         "background_color": {
           "r": 170,
@@ -83,7 +84,7 @@
         }
       },
       "airborne": {
-        "use_departure_arrival_coloring": true,
+        "use_departure_arrival_coloring": false,
         "definition": [
           [ "callsign" ],
           [ "flightlevel" ]
