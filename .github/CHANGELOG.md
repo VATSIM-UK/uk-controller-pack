@@ -1,3 +1,6 @@
+# Changes from release 2022/05 to 2022/09
+1. Enhanacement - Edinburgh radar profiles updated - thenks to @SamLeFevre (Sam Le Fevre)
+
 # Changes from release 2022/03 to 2022/05
 1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
 2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)

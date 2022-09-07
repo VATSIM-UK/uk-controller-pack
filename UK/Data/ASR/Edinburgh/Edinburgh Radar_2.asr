@@ -1387,7 +1387,6 @@ Fixes:ZAGZO:symbol
 Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
-Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
 Regions:A-Northwest:polygon
@@ -1396,6 +1395,20 @@ Regions:A-ScottishIslands:polygon
 Regions:A-SouthEast:polygon
 Regions:A-SouthWalesMidlands:polygon
 Regions:A-SouthWest:polygon
+Runways:EGPH Edinburgh 06-24:extended centerline 1
+Runways:EGPH Edinburgh 06-24:extended centerline 1 left base
+Runways:EGPH Edinburgh 06-24:extended centerline 1 left ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 1 left vectoring
+Runways:EGPH Edinburgh 06-24:extended centerline 1 right base
+Runways:EGPH Edinburgh 06-24:extended centerline 1 right ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 1 right vectoring
+Runways:EGPH Edinburgh 06-24:extended centerline 2
+Runways:EGPH Edinburgh 06-24:extended centerline 2 left base
+Runways:EGPH Edinburgh 06-24:extended centerline 2 left ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 2 left vectoring
+Runways:EGPH Edinburgh 06-24:extended centerline 2 right base
+Runways:EGPH Edinburgh 06-24:extended centerline 2 right ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 2 right vectoring
 Sids:EGPH Edinburgh FAVA:
 Sids:EGPH Edinburgh SMAA:
 Stars:Edinburgh Local Area:
@@ -1522,14 +1535,14 @@ PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
-PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,0,128
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:0
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
-PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
-PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:3
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
-PLUGIN:UK Controller Plugin:HistoryTrailFade:1
-PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
+PLUGIN:UK Controller Plugin:HistoryTrailLength:10
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
