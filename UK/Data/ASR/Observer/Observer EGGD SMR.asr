@@ -2706,5 +2706,6 @@ PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:vSMR:ActiveProfile:Easy/Observer
 PLUGIN:vSMR:Airport:EGGD
 PLUGIN:vSMR:GndTrailsDots:0

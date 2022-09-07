@@ -2461,5 +2461,6 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:vSMR:ActiveProfile:Heathrow
 PLUGIN:vSMR:Airport:EGLL
 PLUGIN:vSMR:GndTrailsDots:0

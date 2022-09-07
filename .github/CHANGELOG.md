@@ -1,5 +1,13 @@
-# Changes from release 2022/03 to 2022/09
+# Changes from release 2022/05 to 2022/09
 1. Enhanacement - Edinburgh radar profiles updated - thenks to @SamLeFevre (Sam Le Fevre)
+
+# Changes from release 2022/03 to 2022/05
+1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
+2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)
+3. Procedure Change (2205) - Amended Midlands Buffer Zone (TopSky only) - thanks to @hsugden (Harry Sugden)
+4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hsugden (Harry Sugden)
+5. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
+6. Enhancement - vSMR Defaults to pro mode & fonts changed - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)

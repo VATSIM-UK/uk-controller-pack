@@ -2450,5 +2450,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1554
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:112
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:vSMR:ActiveProfile:Heathrow
 PLUGIN:vSMR:Airport:EGLL
 PLUGIN:vSMR:GndTrailsDots:0
