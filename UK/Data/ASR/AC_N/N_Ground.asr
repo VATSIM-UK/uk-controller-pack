@@ -2870,7 +2870,7 @@ Geo:EGMD Lydd:
 Geo:EGNC Carlisle:
 Geo:EGNH Blackpool:
 Geo:EGNJ Humberside:
-Geo:EGNL Barrow:
+Geo:EGNL Walney:
 Geo:EGNM Leeds Bradford:
 Geo:EGNO Warton:
 Geo:EGNR Hawarden:
@@ -2917,7 +2917,7 @@ Geo:EGYD Cranwell:
 Geo:EGYM Marham:
 Regions:Aberdeen Dyce:polygon
 Regions:Alderney:polygon
-Regions:Barrow:polygon
+Regions:Walney:polygon
 Regions:Barton:polygon
 Regions:Belfast Aldergrove:polygon
 Regions:Belfast City:polygon
