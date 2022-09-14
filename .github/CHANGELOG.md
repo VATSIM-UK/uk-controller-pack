@@ -1,6 +1,7 @@
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thenks to @SamLeFevre (Sam Le Fevre)
-2. Enhancement - updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
+2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
+3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2022/03 to 2022/05
 1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
