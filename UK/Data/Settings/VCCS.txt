@@ -1,5 +1,5 @@
 VCCS
-Ts3Server:vccs.barlw.uk
+Ts3Server:ukvccs.vamsys.io
 Ts3Port:9988
 Ts3G2GChannel:LL:GMP:16777215:0:LLD
 Ts3G2GChannel:LL:PLN:16777215:1:LLP

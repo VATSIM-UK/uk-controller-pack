@@ -1,5 +1,5 @@
 VCCS
-Ts3Server:
+Ts3Server:ukvccs.vamsys.io
 Ts3Port:9988
 Ts3G2GChannel:LON:BBX:16777215:0:L
 Ts3G2GChannel:LON:N:16777215:1:LN
