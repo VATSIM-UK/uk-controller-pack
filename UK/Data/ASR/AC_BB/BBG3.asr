@@ -2263,9 +2263,12 @@ Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
 Free Text:SCT2\H:freetext
+Free Text:SCT2\H:freetext
 Free Text:SCT2\H-East:freetext
 Free Text:SCT2\H-North:freetext
 Free Text:SCT2\H-South:freetext
+Free Text:SCT2\H-X:freetext
+Free Text:SCT2\H-Y:freetext
 Free Text:SCT2\H1:freetext
 Free Text:SCT2\H1:freetext
 Free Text:SCT2\H1:freetext
@@ -2716,6 +2719,19 @@ Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
 Free Text:SCT2\Tower Apron:freetext
 Free Text:SCT2\TULLA:freetext
+Free Text:SCT2\TP-L1:freetext
+Free Text:SCT2\TP-L2:freetext
+Free Text:SCT2\TP-L3:freetext
+Free Text:SCT2\TP-L4:freetext
+Free Text:SCT2\TP-L5:freetext
+Free Text:SCT2\TP-L6:freetext
+Free Text:SCT2\TP-L7:freetext
+Free Text:SCT2\TP-V:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Z:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
@@ -2870,7 +2886,7 @@ Geo:EGMD Lydd:
 Geo:EGNC Carlisle:
 Geo:EGNH Blackpool:
 Geo:EGNJ Humberside:
-Geo:EGNL Barrow:
+Geo:EGNL Walney:
 Geo:EGNM Leeds Bradford:
 Geo:EGNO Warton:
 Geo:EGNR Hawarden:
@@ -2917,7 +2933,7 @@ Geo:EGYD Cranwell:
 Geo:EGYM Marham:
 Regions:Aberdeen Dyce:polygon
 Regions:Alderney:polygon
-Regions:Barrow:polygon
+Regions:Walney:polygon
 Regions:Barton:polygon
 Regions:Belfast Aldergrove:polygon
 Regions:Belfast City:polygon
