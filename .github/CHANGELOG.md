@@ -1,7 +1,14 @@
 # Changes from release 2022/05 to 2022/09
-1. Enhancement - Edinburgh radar profiles updated - thenks to @SamLeFevre (Sam Le Fevre)
-2. Enhancement - updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
-X. AIRAC (2209) - Updated SOuthend RMA TopSkyMap - thanks to @luke11brown (Luke Brown)
+1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
+2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
+3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2209) - Updated Cranfield SMR display elements - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2209) - Added Belfast Aldergrove (EGAA) tug release points to SMR - thanks to @luke11brown (Luke Brown)
+6. AIRAC (2209) - Added Gloucerter (EGBJ) missing elements to SMR - thanks to @luke11brown (Luke Brown)
+7. AIRAC (2209) - Renamed Barrow -> Walney (EGNL) display elements - thanks to @luke11brown (Luke Brown)
+8. AIRAC (2209) - Added Luton (EGGW) tug release points to SMR - thanks to @luke11brown (Luke Brown)
+X. AIRAC (2209) - Updated Southend RMA TopSkyMap - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2022/03 to 2022/05
 1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
 2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)
