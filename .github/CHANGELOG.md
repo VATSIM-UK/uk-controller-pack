@@ -8,6 +8,7 @@
 7. AIRAC (2209) - Renamed Barrow -> Walney (EGNL) display elements - thanks to @luke11brown (Luke Brown)
 8. AIRAC (2209) - Added Luton (EGGW) tug release points to SMR - thanks to @luke11brown (Luke Brown)
 9. AIRAC (2209) - Updated Southend RMA TopSkyMap - thanks to @luke11brown (Luke Brown)
+10. Bug - Inhibited UKCP history trails where not required thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2022/03 to 2022/05
 1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
