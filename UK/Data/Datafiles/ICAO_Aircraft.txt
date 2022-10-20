@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2205/1  ++  Valid period: 19/MAY/2022 - 15/JUN/2022  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2210/1  ++  Valid period: 06/OCT/2022 - 02/NOV/2022  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -2397,7 +2397,7 @@ SRAI	LL1P	GREAT PLAINS	Sonerai
 SRAS	LL1P	D?APUZZO	PJ260, D260/295 Senior Aero Sport
 SRAY	LA1P	DORNIER	Do-S S-Ray
 SREY	LA1P	PROGRESSIVE AERODYNE	SeaRey
-SS2	ML1	RUTAN	339 Space Ship Two
+SS2	ML1-	RUTAN	339 Space Ship Two
 SS2P	LL1P	AERO COMMANDER	S2 Ag Commander
 SS2T	LL1T	AYRES	S2RT11/T15/T34/T45/T65/G1/G6/G10 Turbo Thrush, V1 Vigilante
 SSAB	ML1J	NORTH AMERICAN	F100 Super Sabre
