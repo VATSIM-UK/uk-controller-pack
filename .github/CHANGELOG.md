@@ -1,3 +1,7 @@
+# Changes from release 2022/09 to 2022/10
+1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
+
+
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
 2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
