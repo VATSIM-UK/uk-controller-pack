@@ -17,13 +17,13 @@ os.system('cls')
 CPDLC = input("Enter Hoppie's Code: ")
 os.system('cls')
 
-# Write CPDLC to TopSky
+## Write CPDLC to TopSky
 
 f = open("Data/Plugin/TopSky/TopSkyCPDLChoppieCode.txt", "w")
 f.write(CPDLC)
 f.close
 
-# Add CID as Nickname to VCCS profiles
+## Add CID as Nickname to VCCS profiles
 
 PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
 
@@ -31,13 +31,15 @@ PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
 
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
-#PrfPassword=("LastSession	password	"+Password)
+##PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
 
-aerodrome = (glob.glob('**/*.prf'))
+aerodrome=(glob.glob('**/*.prf'))
+london=(glob.glob('London Control/**/*.prf'))
+combined=(aerodrome+london)
 
-for i in aerodrome:
+for i in combined:
     f=open(i, "a")
     f.write(PrfName)
     f.write("\n")
