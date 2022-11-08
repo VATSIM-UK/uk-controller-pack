@@ -1,8 +1,6 @@
-# Enables clearing screen
-
 import os
 import glob
-from time import sleep
+import time
 
 # User Inputs
 
@@ -17,13 +15,13 @@ os.system('cls')
 CPDLC = input("Enter Hoppie's Code: ")
 os.system('cls')
 
-## Write CPDLC to TopSky
+# Write CPDLC to TopSky
 
 f = open("Data/Plugin/TopSky/TopSkyCPDLChoppieCode.txt", "w")
 f.write(CPDLC)
 f.close
 
-## Add CID as Nickname to VCCS profiles
+# Add CID as Nickname to VCCS profiles
 
 PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
 
@@ -31,22 +29,26 @@ PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
 
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
-##PrfPassword=("LastSession	password	"+Password)
+#PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
 
-aerodrome=(glob.glob('**/*.prf'))
-london=(glob.glob('London Control/**/*.prf'))
-combined=(aerodrome+london)
+aerodrome=((glob.glob('**/*.prf'))+(glob.glob('**/**/*.prf')))
 
-for i in combined:
-    f=open(i, "a")
-    f.write(PrfName)
-    f.write("\n")
-    f.write(PrfCID)
-    f.write("\n")
-    f.write(PrfVCCS)
-    f.close
+for i in aerodrome:
+    with open(i) as f:
+        if 'LastSession' in f.read():
+            print(i+" already has details (details have not altered")
+        else:
+            f=open(i, "a")
+            f.write(PrfName)
+            f.write("\n")
+            f.write(PrfCID)
+            f.write("\n")
+        #    f.write(PrfPassword)
+        #    f.write("\n")
+            f.write(PrfVCCS)
+            f.close
 
 print("Detail entry process complete")
-anykey=input("Press enter to close")
+time.sleep(1.5)
