@@ -1,6 +1,6 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2022-03-29
+Last Updated:	2022-11-29
 ========================================================
 
 ========================================================
@@ -10,8 +10,8 @@ Generic
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
 
-.sec You can check coverage at https://vats.im/uksectors/
-.cov You can check coverage at https://vats.im/uksectors/
+.sec You can check coverage at https://vatglasses.uk/ukireland/
+.cov You can check coverage at https://vatglasses.uk/ukireland/
 .charts Charts relevant to your flight can be found at https://chartfox.org/$1/
 
 .rsn Report your stand number
@@ -51,7 +51,7 @@ Handoffs
 .mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 
 .uni No Further ATC available. Monitor Unicom 122.800
-.oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vats.im/uksectors/)
+.oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vatglasses.uk/ukireland/)
 .nso $1 is offline - monitor unicom 122.800
 
 ========================================================
@@ -77,6 +77,8 @@ Vertical
 .sicnta Squawk Ident, climb now to altitude $1ft
 .sicna Squawk Ident, climb now to altitude $1ft
 .sima Squawk Ident, maintain altitude $alt
+
+.rrl Report your requested level
 
 .cta Climb to altitude $1ft
 .cnta Climb now to altitude $1ft
@@ -223,7 +225,9 @@ Arrival
 .stararr $star arrival, $arr
 .stararrrw $star arrival, $arr landing runway $arrrwy($arr)
 .starrw $star arrival, landing runway $arrrwy($arr)
-.hold Hold at $1, delay $2 minutes
+.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
+.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
+.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
 .holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
 
 ========================================================
