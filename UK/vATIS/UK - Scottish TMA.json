@@ -1,0 +1,820 @@
+{
+  "Name": "UK - Scottish TMA",
+  "Composites": [
+    {
+      "Name": "Glasgow",
+      "Identifier": "EGPF",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 29575,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 23 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 23. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 05 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 05. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 23 (STC_W_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 23. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 05 (STC_W_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 05. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 60
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 55
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    },
+    {
+      "Name": "Edinburgh ",
+      "Identifier": "EGPH",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 31350,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 24 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 24. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 06 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 24 (STC_E_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 24. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 06 (STC_E_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 80
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 75
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 70
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 65
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 60
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 55
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    },
+    {
+      "Name": "Belfast Aldergrove",
+      "Identifier": "EGAA",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 26125,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 25 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 25. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 07 (STC_A_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP OR VOR APPROACH TO RUNWAY 07. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO SEVEN. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 17 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 17. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 35 (STC_A_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT A VOR DME APPROACH TO RUNWAY 35. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 35. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE NOT AVAILABLE",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 85
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 80
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 75
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 70
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 65
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 60
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    },
+    {
+      "Name": "Belfast City",
+      "Identifier": "EGAC",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 24575,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 22 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 22. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 04 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 04. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE NOT AVAILABLE",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 85
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 80
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 75
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 70
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 65
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 60
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    },
+    {
+      "Name": "Londonderry",
+      "Identifier": "EGAE",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 19375,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 26 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 26. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 08 (STC_A_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 08. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE NOT AVAILABLE",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 85
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 80
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 75
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 70
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 65
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 60
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    },
+    {
+      "Name": "Prestwick",
+      "Identifier": "EGPK",
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        }
+      ],
+      "AtisFrequency": 21125,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "RUNWAY 30 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 30. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 12 (STC_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 21 (STC_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 21. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 03 (STC_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO THREE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 30 (STC_W_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 30. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 12 (STC_W_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 21 (STC_W_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 21. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 03 (STC_W_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO THREE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE FROM RUNWAY 30 AND RUNWAY 12 ONLY",
+          "Enabled": true
+        }
+      ],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 958,
+          "Altitude": 85
+        },
+        {
+          "Low": 959,
+          "High": 976,
+          "Altitude": 80
+        },
+        {
+          "Low": 977,
+          "High": 994,
+          "Altitude": 75
+        },
+        {
+          "Low": 995,
+          "High": 1012,
+          "Altitude": 70
+        },
+        {
+          "Low": 1013,
+          "High": 1031,
+          "Altitude": 65
+        },
+        {
+          "Low": 1032,
+          "High": 1049,
+          "Altitude": 60
+        }
+      ],
+      "UseFaaFormat": false,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": false,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": true,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": true
+    }
+
+
+
+  ]
+}
