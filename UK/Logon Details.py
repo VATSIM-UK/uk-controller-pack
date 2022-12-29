@@ -38,7 +38,7 @@ aerodrome=((glob.glob('**/*.prf'))+(glob.glob('**/**/*.prf')))
 for i in aerodrome:
     with open(i) as f:
         if 'LastSession' in f.read():
-            print(i+" already has details (details have not altered")
+            print(i+" already has details (details have not altered)")
         else:
             f=open(i, "a")
             f.write(PrfName)
