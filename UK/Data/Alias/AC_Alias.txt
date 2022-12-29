@@ -130,12 +130,12 @@ Departure
 .sidrwi Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
 .sidirw Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
 
-.mcbpk Cleared to $arr via the Brookmans Park (BPK) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep). When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+.mcbpk Cleared to $arr via the Brookmans Park (BPK) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mccln Cleared to $arr via the Clacton (CLN) preferred departure route. After departure runway $deprwy($dep) turn on track Clacton (CLN), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mcdvr Cleared to $arr via the Dover (DVR) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mclyd Cleared to $arr via the Lydd (LYD) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mcsam Cleared to $arr via the Southampton (SAM) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
-.mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep).  When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+.mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 
 .llcpt Cleared to $arr via CPT, then flight planned route. After departure runway $deprwy($dep) climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft QNH $altim(EGLL)hPa. Squawk $squawk
 
