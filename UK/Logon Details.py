@@ -41,6 +41,7 @@ for i in aerodrome:
             print(i+" already has details (details have not altered)")
         else:
             f=open(i, "a")
+            f.write("\n")
             f.write(PrfName)
             f.write("\n")
             f.write(PrfCID)
