@@ -2,7 +2,10 @@
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
-
+4a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
+4b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
+4c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
+4d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
