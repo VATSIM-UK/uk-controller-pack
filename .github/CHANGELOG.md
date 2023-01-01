@@ -6,6 +6,7 @@
 4b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
 4c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
 4d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
+4e. Enhancement - Removed redundant AC-2 tag family
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
