@@ -429,7 +429,6 @@ Fixes:ARPUB:symbol
 Fixes:ARREK:symbol
 Fixes:ARSAT:symbol
 Fixes:ARTEX:symbol
-Fixes:ARTHA:symbol
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
 Fixes:ASLIB:symbol
@@ -453,7 +452,6 @@ Fixes:BADIM:symbol
 Fixes:BADSI:symbol
 Fixes:BAGIT:symbol
 Fixes:BAGSO:symbol
-Fixes:BAKER:symbol
 Fixes:BAKOX:symbol
 Fixes:BAKUR:symbol
 Fixes:BALID:symbol
@@ -524,6 +522,7 @@ Fixes:BRASO:symbol
 Fixes:BRILL:symbol
 Fixes:BRIPO:symbol
 Fixes:BRUCE:symbol
+Fixes:BRUMI:symbol
 Fixes:BUDON:symbol
 Fixes:BUGUP:symbol
 Fixes:BUKUT:symbol
@@ -547,7 +546,6 @@ Fixes:CROFT:symbol
 Fixes:CUTEL:symbol
 Fixes:DAGGA:symbol
 Fixes:DAGKO:symbol
-Fixes:DALEY:symbol
 Fixes:DANDI:symbol
 Fixes:DAUNT:symbol
 Fixes:DAVOT:symbol
@@ -581,6 +579,7 @@ Fixes:DISIT:symbol
 Fixes:DISVO:symbol
 Fixes:DITOB:symbol
 Fixes:DIXIB:symbol
+Fixes:DIZZE:symbol
 Fixes:DOBEM:symbol
 Fixes:DOGAL:symbol
 Fixes:DOKEK:symbol
@@ -609,6 +608,7 @@ Fixes:ELBOB:symbol
 Fixes:ELBUS:symbol
 Fixes:ELDAX:symbol
 Fixes:ELDER:symbol
+Fixes:ELEZE:symbol
 Fixes:ELKOG:symbol
 Fixes:ELMUD:symbol
 Fixes:ELNAB:symbol
@@ -629,7 +629,6 @@ Fixes:ENCOD:symbol
 Fixes:ENDEQ:symbol
 Fixes:ENIPI:symbol
 Fixes:ENITO:symbol
-Fixes:ENOKA:symbol
 Fixes:ENUKU:symbol
 Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
@@ -668,6 +667,7 @@ Fixes:EVSON:symbol
 Fixes:EVTAR:symbol
 Fixes:EVTES:symbol
 Fixes:EXARO:symbol
+Fixes:EXFOB:symbol
 Fixes:EXJET:symbol
 Fixes:EXMOR:symbol
 Fixes:FACTU:symbol
@@ -679,6 +679,7 @@ Fixes:FIGZI:symbol
 Fixes:FINDO:symbol
 Fixes:FINMA:symbol
 Fixes:FITBO:symbol
+Fixes:FIZED:symbol
 Fixes:FONZU:symbol
 Fixes:FORTY:symbol
 Fixes:FOXLA:symbol
@@ -930,6 +931,7 @@ Fixes:MAYLA:symbol
 Fixes:MEDOG:symbol
 Fixes:MEGEL:symbol
 Fixes:MERLY:symbol
+Fixes:MEZRE:symbol
 Fixes:MIMBI:symbol
 Fixes:MIMFO:symbol
 Fixes:MIMKU:symbol
@@ -985,12 +987,10 @@ Fixes:NENVO:symbol
 Fixes:NEPNA:symbol
 Fixes:NERTU:symbol
 Fixes:NESDI:symbol
-Fixes:NESON:symbol
 Fixes:NETKI:symbol
 Fixes:NETVU:symbol
 Fixes:NEVIL:symbol
 Fixes:NEVIS:symbol
-Fixes:NEVRI:symbol
 Fixes:NEVRI:symbol
 Fixes:NEXUS:symbol
 Fixes:NEXXU:symbol
@@ -1072,7 +1072,6 @@ Fixes:ORVUX:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
 Fixes:OSDEB:symbol
-Fixes:OSDEB:symbol
 Fixes:OSGIL:symbol
 Fixes:OSKOT:symbol
 Fixes:OSLEL:symbol
@@ -1125,6 +1124,7 @@ Fixes:POMAX:symbol
 Fixes:POTON:symbol
 Fixes:PUFAX:symbol
 Fixes:PUPJO:symbol
+Fixes:QUSHI:symbol
 Fixes:RAMID:symbol
 Fixes:RAMOX:symbol
 Fixes:RAPIX:symbol
@@ -1140,6 +1140,7 @@ Fixes:REDFA:symbol
 Fixes:REGSI:symbol
 Fixes:REKNA:symbol
 Fixes:REMSI:symbol
+Fixes:RENEQ:symbol
 Fixes:RESNO:symbol
 Fixes:RETSI:symbol
 Fixes:REVTU:symbol
@@ -1167,6 +1168,7 @@ Fixes:ROBEM:symbol
 Fixes:ROBOP:symbol
 Fixes:ROBVA:symbol
 Fixes:RODEL:symbol
+Fixes:RODNI:symbol
 Fixes:RODOL:symbol
 Fixes:RODSI:symbol
 Fixes:ROGAG:symbol
@@ -1200,6 +1202,7 @@ Fixes:SANBA:symbol
 Fixes:SANDY:symbol
 Fixes:SAPCO:symbol
 Fixes:SASKI:symbol
+Fixes:SAXBI:symbol
 Fixes:SEMMU:symbol
 Fixes:SENLO:symbol
 Fixes:SETEL:symbol
@@ -1220,6 +1223,7 @@ Fixes:SLANY:symbol
 Fixes:SLYDA:symbol
 Fixes:SMOKI:symbol
 Fixes:SOBDO:symbol
+Fixes:SODVU:symbol
 Fixes:SOKDU:symbol
 Fixes:SOMAX:symbol
 Fixes:SOMVA:symbol
@@ -1231,6 +1235,7 @@ Fixes:SOPEK:symbol
 Fixes:SOPIT:symbol
 Fixes:SOPTO:symbol
 Fixes:SOPTU:symbol
+Fixes:SOQQA:symbol
 Fixes:SOSAR:symbol
 Fixes:SOSIM:symbol
 Fixes:SOSUN:symbol
@@ -1311,8 +1316,8 @@ Fixes:TOXTA:symbol
 Fixes:TRIPO:symbol
 Fixes:TUBSU:symbol
 Fixes:TUFOZ:symbol
-Fixes:TUFOZ:symbol
 Fixes:TUGPO:symbol
+Fixes:TUJAG:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
 Fixes:TUNBY:symbol
@@ -1322,7 +1327,6 @@ Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
 Fixes:TUXOS:symbol
 Fixes:TUZLA:symbol
-Fixes:TWEED:symbol
 Fixes:UDDIZ:symbol
 Fixes:UGBET:symbol
 Fixes:UGBUD:symbol
@@ -1334,7 +1338,6 @@ Fixes:UMBAG:symbol
 Fixes:UMBUR:symbol
 Fixes:UMKIL:symbol
 Fixes:UMLAT:symbol
-Fixes:UMLUX:symbol
 Fixes:UMOLO:symbol
 Fixes:UMTUM:symbol
 Fixes:UNBIG:symbol
@@ -1385,6 +1388,7 @@ Fixes:VOLFI:symbol
 Fixes:VOUGA:symbol
 Fixes:WAFFU:symbol
 Fixes:WAFIL:symbol
+Fixes:WECOW:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
 Fixes:WILLO:symbol
@@ -1400,7 +1404,6 @@ Fixes:YOHDA:symbol
 Fixes:ZAGZO:symbol
 Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
-Fixes:ZOPHI:symbol
 Fixes:ZOPHI:symbol
 Geo:Extended centrelines:
 Stars:Gatwick RMA Westerlies:
