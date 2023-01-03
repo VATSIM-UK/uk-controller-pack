@@ -72,68 +72,6 @@ Handoffs
 .cluni ALL STATIONS, ALL STATIONS, $callsign is now closing. No other ATC available, Monitor Unicom, 122.800
 
 ========================================================
-Lateral
-========================================================
-
-.lh Leave $1 heading $2 degrees
-.tl Turn left heading $1 degrees
-.tr Turn right heading $1 degrees
-.fh Fly heading $1 degrees
-.cph Continue present heading
-.cphr Continue present heading, and report that heading
-
-.rd Route Direct $1
-.rnd Resume own navigation direct $1
-.rond Resume own navigation direct $1
-
-========================================================
-Vertical
-========================================================
-
-.sicnfl Squawk Ident, climb now FL$1
-.sicnta Squawk Ident, climb now to altitude $1ft
-.sicna Squawk Ident, climb now to altitude $1ft
-.sima Squawk Ident, maintain altitude $alt
-
-.rrl Report your requested level
-
-.cta Climb to altitude $1ft
-.cnta Climb now to altitude $1ft
-.cfl Climb FL$1
-.cnfl Climb now FL$1
-
-.dtaq Descend to altitude $1ft QNH $altim($arr)
-.dta Descend to altitude $1ft
-.dtalq Descend to altitude $1ft, London QNH $altim(EGLL)
-.dtamq Descend to altitude $1ft, Manchester QNH $altim(EGCC)
-.dtagq Descend to altitude $1ft, Glasgow QNH $altim(EGPF)
-.dfl Descend FL$1
-.wrdfl When ready, descend FL$1
-.dfllb Descend FL$1 level by $2
-.wrdfllb When ready, descend FL$1 level by $2
-.efllb Expect FL$1 level by $2
-.dflla Descend FL$1 level abeam $2
-
-.ed Expedite descent
-.edtfl Expedite descent until passing FL$1
-.edta Expedite descent until passing altitude $1ft
-.ectfl Expedite climb until passing FL$1
-.ecta Expedite climb until passing altitude $1ft
-
-========================================================
-Speed Control
-========================================================
-
-.s Speed $1 knots
-.m Mach $1
-.rias Report your indicated airspeed
-
-.s160 Speed 160 knots, maintain until 4DME
-.sdme Speed $1 knots, maintain until $2DME
-.sm Speed $1 knots, maintain until $2 miles
-.rmsas Reduce to minimum safe approach speed. 
-
-========================================================
 Departure
 ========================================================
 
@@ -177,15 +115,6 @@ Departure
 .rcq Readback correct, QNH $altim($dep)
 .ready Readback correct, report ready
 .readyq Readback correct, QNH $altim($dep), report ready
-
-========================================================
-CTP
-========================================================
-
-.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
-.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
-.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
-.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
 
 ========================================================
 Ground Movement
@@ -267,17 +196,17 @@ VFR
 .vrp After departure runway $deprwy($dep), cleared to leave the $1 control zone via the $2 VRP, not above altitude $3ft, VFR, QNH $altim($dep), squawk $squawk
 
 ========================================================
-Arrival
+Speed Control
 ========================================================
 
-.star $star arrival
-.stararr $star arrival, $arr
-.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
-.starrw $star arrival, landing runway $arrrwy($arr)
-.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
-.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
-.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
-.holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
+.s Speed $1 knots
+.m Mach $1
+.rias Report your indicated airspeed
+
+.s160 Speed 160 knots, maintain until 4DME
+.sdme Speed $1 knots, maintain until $2DME
+.sm Speed $1 knots, maintain until $2 miles
+.rmsas Reduce to minimum safe approach speed. 
 
 ========================================================
 Approach Radar
@@ -317,6 +246,77 @@ Flight Information Service
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.
 .decon You have left controlled airspace. You are now receiving a deconfliction service which provides detailed traffic information on specific conflicting aircraft AND advice on how to avoid that aircraft. You remain responsible for collision avoidance; you can opt not to follow the advice.
+
+========================================================
+Arrival
+========================================================
+
+.star $star arrival
+.stararr $star arrival, $arr
+.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
+.starrw $star arrival, landing runway $arrrwy($arr)
+.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
+.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
+.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
+.holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
+
+========================================================
+Lateral
+========================================================
+
+.lh Leave $1 heading $2 degrees
+.tl Turn left heading $1 degrees
+.tr Turn right heading $1 degrees
+.fh Fly heading $1 degrees
+.cph Continue present heading
+.cphr Continue present heading, and report that heading
+
+.rd Route Direct $1
+.rnd Resume own navigation direct $1
+.rond Resume own navigation direct $1
+
+========================================================
+Vertical
+========================================================
+
+.sicnfl Squawk Ident, climb now FL$1
+.sicnta Squawk Ident, climb now to altitude $1ft
+.sicna Squawk Ident, climb now to altitude $1ft
+.sima Squawk Ident, maintain altitude $alt
+
+.rrl Report your requested level
+
+.cta Climb to altitude $1ft
+.cnta Climb now to altitude $1ft
+.cfl Climb FL$1
+.cnfl Climb now FL$1
+
+.dtaq Descend to altitude $1ft QNH $altim($arr)
+.dta Descend to altitude $1ft
+.dtalq Descend to altitude $1ft, London QNH $altim(EGLL)
+.dtamq Descend to altitude $1ft, Manchester QNH $altim(EGCC)
+.dtagq Descend to altitude $1ft, Glasgow QNH $altim(EGPF)
+.dfl Descend FL$1
+.wrdfl When ready, descend FL$1
+.dfllb Descend FL$1 level by $2
+.wrdfllb When ready, descend FL$1 level by $2
+.efllb Expect FL$1 level by $2
+.dflla Descend FL$1 level abeam $2
+
+.ed Expedite descent
+.edtfl Expedite descent until passing FL$1
+.edta Expedite descent until passing altitude $1ft
+.ectfl Expedite climb until passing FL$1
+.ecta Expedite climb until passing altitude $1ft
+
+========================================================
+CTP
+========================================================
+
+.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
+.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
+.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
+.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
 
 ========================================================
 Auto-alias
