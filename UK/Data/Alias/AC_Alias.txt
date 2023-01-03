@@ -1,11 +1,16 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2022-11-29
+Last Updated:	2023-01-03
 ========================================================
 
 ========================================================
 Generic
 ========================================================
+
+.a Affirm. 
+.n Negative, 
+.d Disregard. 
+.r Roger. 
 
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
@@ -41,6 +46,8 @@ Generic
 Handoffs
 ========================================================
 
+.on ALL STATIONS, ALL STATIONS, $radioname($1) ($atccallsign($1)) is online, frequency $freq($1)
+.atis $radioname($1) ($atccallsign($1)) is available on frequency $freq($1). 
 .ho Contact $radioname($1) ($atccallsign($1)) $freq($1)
 .ct Contact $radioname($1) $freq($1) ($atccallsign($1))
 .cso Contact $radioname($1) $freq($1) ($atccallsign($1)) callsign only
@@ -50,9 +57,19 @@ Handoffs
 .fc Freecall $radioname($1) ($atccallsign($1)) $freq($1)
 .mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 
+.cmof Continue with Unicom, 122.800. Contact me on $com once on final runway $arrrwy($arr). 
+.cmov Continue with Unicom, 122.800. Contact me on $com once vacated. 
+.cme Call me established
+
 .uni No Further ATC available. Monitor Unicom 122.800
 .oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vatglasses.uk/ukireland/)
 .nso $1 is offline - monitor unicom 122.800
+
+.fca Frequency Change Approved. 
+.fe Freecall on route. 
+
+.cl ALL STATIONS, ALL STATIONS, $callsign is now closing. Monitor $radioname($1) ($atccallsign($1)) $freq($1)
+.cluni ALL STATIONS, ALL STATIONS, $callsign is now closing. No other ATC available, Monitor Unicom, 122.800
 
 ========================================================
 Lateral
@@ -114,10 +131,16 @@ Speed Control
 .s160 Speed 160 knots, maintain until 4DME
 .sdme Speed $1 knots, maintain until $2DME
 .sm Speed $1 knots, maintain until $2 miles
+.rmsas Reduce to minimum safe approach speed. 
 
 ========================================================
 Departure
 ========================================================
+
+.riad Report intentions after departure
+
+.dep $sid departure 
+.deprw Departure runway is $deprwy. 
 
 .pdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 .npdc .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
@@ -173,6 +196,7 @@ Ground Movement
 .stand Taxi stand $1, via $2
 .llstand Taxi via $1, stand $2
 
+.sa Hold position, Start approved. 
 .p Push and Start approved
 .push Push and Start approved
 .ps Push and Start approved, face South
@@ -188,6 +212,8 @@ Ground Movement
 ========================================================
 Runway
 ========================================================
+
+.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
 
 .cr Via $1, cross runway $2
 .bcr Behind the $1, cross runway $2
@@ -216,6 +242,29 @@ Runway
 .wind Surface Wind $wind($1)
 
 .ga Go around, I say again, go around, acknowledge
+
+========================================================
+VFR
+========================================================
+
+.sc Squawk conspicuity
+.olvrp For spacing orbit left overhead the $1 VRP until advised. 
+.orvrp For spacing orbit right overhead the $1 VRP until advised. 
+.olpp For spacing orbit left overhead your present position until advised. 
+.orpp For spacing orbit right overhead your present position until advised. 
+.oledl For spacing orbit left at the end of the downwind leg until advised. 
+.oredl For spacing orbit right at the end of the downwind leg until advised. 
+.oc Orbit Cancelled, 
+.rf Report Final, runway $arrrwy($arr)
+.rf1 Report Final, runway $arrrwy($arr), number 1.
+.rf2 Report Final, runway $arrrwy($arr), number 2 following a $1 on a $2 mile final. Caution wake turbulence, recommended distance $3 miles. 
+.rdwi Report downwind with intentions. 
+.eca Entering controlled airspace, 
+.rtf Route towards the field. 
+.rfis Report the field in sight
+.vfrcr After departure runway $deprwy($dep), enter Right Hand visual circuits, not above altitude $1ft, VFR, QNH $altim($dep), squawk $squawk
+.vfrcl After departure runway $deprwy($dep), enter Left Hand visual circuits, not above altitude $1ft, VFR, QNH $altim($dep), squawk $squawk
+.vrp After departure runway $deprwy($dep), cleared to leave the $1 control zone via the $2 VRP, not above altitude $3ft, VFR, QNH $altim($dep), squawk $squawk
 
 ========================================================
 Arrival
