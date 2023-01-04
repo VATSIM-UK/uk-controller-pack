@@ -308,7 +308,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -375,6 +374,9 @@ Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Clacton:
 Sids:London AC Daventry:
 Sids:London AC Dover:
+Sids:London AC Lakes:
+Sids:London AC North Sea:
+Sids:London AC West:
 Sids:London AC Worthing:
 Stars:DIKRO Box:
 Stars:Jersey RFC Line:
