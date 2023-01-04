@@ -1,10 +1,8 @@
-x. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
-
 # Changes from release 2022/09 to 2022/10
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
-
+4. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
