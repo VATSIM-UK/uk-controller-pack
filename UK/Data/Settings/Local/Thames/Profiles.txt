@@ -9,7 +9,7 @@ ATIS3:Procedural Approach Service - Radar coverage by THAMES
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:THAMES_APP:100:5
 ATIS2:Thames Director
-ATIS3:Radar and top-down cover for EGLC and EGKB
+ATIS3:Radar and top-down cover for EGLC, EGMC and EGKB
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLC_GND:20:3
 ATIS2:City Ground
