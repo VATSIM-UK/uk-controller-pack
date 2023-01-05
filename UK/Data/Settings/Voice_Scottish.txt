@@ -7,7 +7,9 @@ AG:Area - West and DCS:133.875:old.voice.notused:sco_wd_ctr
 AG:Area - West:132.725:old.voice.notused:sco_w_ctr
 AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr
 AG:Area - Rathlin:129.100:old.voice.notused:sco_r_ctr
-AG:Area - TC:126.300:old.voice.notused:stc_ctr
+AG:Area - TMA:126.300:old.voice.notused:stc_ctr
+AG:Area - TMA Talla:130.975:old.voice.notused:stc_e_ctr
+AG:Area - TMA Galloway:124.825:old.voice.notused:stc_w_ctr
 AG:Area - Antrim:123.775:old.voice.notused:stc_a_ctr
 AG:EGAA_GND:121.750:old.voice.notused:egaa_gnd
 AG:EGAA_TWR:118.300:old.voice.notused:egaa_twr
