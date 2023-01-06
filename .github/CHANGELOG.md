@@ -7,7 +7,10 @@
 6a. Enhancement - Added LUVUM Box map (TopSky only) - thanks to @hazzas-99
 6b. Enhancement - Removed automatic Doncaster (EGCN) extended centreline map (TopSky only) - thanks to @hazzas-99
 6c. Enhancement - Updated Manchester RMA maps (TopSky only) - thanks to @hazzas-99
-7. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
+7. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Added Southend SMR .prf and .asr for Thames Combined .prf - thanks to @PLM1995 (Peter Mooney)
+9. Enhancement - Added ScTMA split profiles and voice settings - thanks to @hazzas-99
+10. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)

@@ -7,6 +7,14 @@ PROFILE:SCO_E_CTR:400:6
 ATIS2:"Scottish Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
 ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:SCO_N_CTR:400:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:SCO_S_CTR:400:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_WD_CTR:400:6
 ATIS2:"Scottish Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
@@ -24,6 +32,14 @@ ATIS2:"Scottish Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:STC_CTR:250:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:STC_E_CTR:250:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:STC_W_CTR:250:6
 ATIS2:"Scottish Control"
 ATIS3:Check top-down and coverage at vats.im/uksectors
 ATIS4:Submit feedback at vats.im/atcfb
