@@ -302,7 +302,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -425,7 +424,6 @@ Fixes:ARPUB:symbol
 Fixes:ARREK:symbol
 Fixes:ARSAT:symbol
 Fixes:ARTEX:symbol
-Fixes:ARTHA:symbol
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
 Fixes:ASLIB:symbol
@@ -449,7 +447,6 @@ Fixes:BADIM:symbol
 Fixes:BADSI:symbol
 Fixes:BAGIT:symbol
 Fixes:BAGSO:symbol
-Fixes:BAKER:symbol
 Fixes:BAKOX:symbol
 Fixes:BAKUR:symbol
 Fixes:BALID:symbol
@@ -525,7 +522,6 @@ Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
 Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CEDAR:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
 Fixes:CLIPY:symbol
@@ -537,7 +533,6 @@ Fixes:CROFT:symbol
 Fixes:CUTEL:symbol
 Fixes:DAGGA:symbol
 Fixes:DAGKO:symbol
-Fixes:DALEY:symbol
 Fixes:DANDI:symbol
 Fixes:DAUNT:symbol
 Fixes:DAVOT:symbol
@@ -612,7 +607,6 @@ Fixes:EMPER:symbol
 Fixes:ENCOD:symbol
 Fixes:ENIPI:symbol
 Fixes:ENITO:symbol
-Fixes:ENOKA:symbol
 Fixes:ENUKU:symbol
 Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
@@ -876,7 +870,6 @@ Fixes:MALUD:symbol
 Fixes:MAMUL:symbol
 Fixes:MANGO:symbol
 Fixes:MANIG:symbol
-Fixes:MAPLE:symbol
 Fixes:MARUK:symbol
 Fixes:MASOP:symbol
 Fixes:MATCH:symbol
@@ -938,7 +931,6 @@ Fixes:NENVO:symbol
 Fixes:NEPNA:symbol
 Fixes:NERTU:symbol
 Fixes:NESDI:symbol
-Fixes:NESON:symbol
 Fixes:NETKI:symbol
 Fixes:NETVU:symbol
 Fixes:NEVIL:symbol
@@ -1007,7 +999,6 @@ Fixes:OKTAD:symbol
 Fixes:OKTEM:symbol
 Fixes:OKVAP:symbol
 Fixes:OLGUD:symbol
-Fixes:OLIVE:symbol
 Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
 Fixes:OMOKO:symbol
@@ -1251,7 +1242,6 @@ Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
 Fixes:TUXOS:symbol
 Fixes:TUZLA:symbol
-Fixes:TWEED:symbol
 Fixes:UGBET:symbol
 Fixes:UGBUD:symbol
 Fixes:UGNUS:symbol
@@ -1321,8 +1311,15 @@ Fixes:XIDIL:symbol
 Fixes:ZEDDO:symbol
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Clacton:
+Sids:London AC Daventry:
 Sids:London AC Dover:
+Sids:London AC West:
 Sids:London AC Worthing:
+Sids:London TC North East:
+Sids:London TC North West:
+Sids:London TC South East:
+Sids:London TC South West:
 Stars:DIKRO Box:
 Stars:Jersey RFC Line:
 Stars:KOKSY Buffer Zone:

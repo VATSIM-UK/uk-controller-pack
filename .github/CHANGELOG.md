@@ -16,6 +16,7 @@
 11c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
 11d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
 11e. Enhancement - Removed redundant AC-2 tag family
+12. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
