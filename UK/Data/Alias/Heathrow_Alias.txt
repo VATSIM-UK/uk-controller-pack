@@ -1,7 +1,7 @@
 ========================================================
 Alias:    	Heathrow
 Created:     	2016-03-31
-Last Updated:	2016-03-31
+Last Updated:	2022-11-29
 ========================================================
 
 ========================================================
@@ -211,13 +211,15 @@ Approach Radar
 Hold and FIS
 ========================================================
 
-.hold Hold at $1, delay $2 minutes
+.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
+.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
+.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
 .holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 minute legs, speed $5 knots
 
-.hbnn Hold at BNN. Delay is $1 minutes. The BNN hold is 118 inbound, right hand turns, 1 minute legs, speed 220kts
-.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 265 inbound, left hand turns, 1 minute legs, speed 220kts
-.hock Hold at OCK. Delay is $1 minutes. The OCK hold is 330 inbound, right hand turns, 1 minute legs, speed 220kts
-.hbig Hold at BIG. Delay is $1 minutes. The BIG hold is 303 inbound, right hand turns, 1 minute legs, speed 220kts
+.hbnn Hold at BNN. Delay is $1 minutes. The BNN hold is 116 inbound, right hand turns, 1 minute legs, speed 220kts
+.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 263 inbound, left hand turns, 1 minute legs, speed 220kts
+.hock Hold at OCK. Delay is $1 minutes. The OCK hold is 328 inbound, right hand turns, 1 minute legs, speed 220kts
+.hbig Hold at BIG. Delay is $1 minutes. The BIG hold is 302 inbound, right hand turns, 1 minute legs, speed 220kts
 
 .bs Basic service
 .ts Traffic service
