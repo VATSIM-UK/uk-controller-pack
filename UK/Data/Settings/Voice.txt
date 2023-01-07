@@ -28,7 +28,7 @@ AG:X Area - West (Pembroke):133.225:old.voice.notused:lon_wp_ctr
 AG:X Area - West (Brecon):133.600:old.voice.notused:lon_wb_ctr
 AG:X Area - West (Bristol):134.750:old.voice.notused:lon_wr_ctr
 AG:X Area - West (Strumble):129.375:old.voice.notused:lon_wt_ctr
-AG:X Area - West (Exmor):128.825:old.voice.notused:lon_wx_ctr
+AG:X Area - West (Exmoor):128.825:old.voice.notused:lon_wx_ctr
 AG:X Area - West (Land's End):132.950:old.voice.notused:lon_wl_ctr
 AG:X Area - West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
 AG:X Area - TC Midlands:121.025:old.voice.notused:ltc_c_ctr
@@ -211,6 +211,9 @@ AG:EGSS_GND:121.725:old.voice.notused:egss_gnd
 AG:EGSS_DEL:121.950:old.voice.notused:egss_del
 AG:EGSS_ATIS:127.175:old.voice.notused:egss_atis
 AG:ESSEX_APP:120.625:old.voice.notused:essex_app
+AG:EGTC_A_APP:122.850:old.voice.notused:egtc_a_app
+AG:EGTC_TWR:134.925:old.voice.notused:egtc_twr
+AG:EGTC_ATIS:121.875:old.voice.notused:egtc_atis
 AG:EGTE_APP:128.975:old.voice.notused:egte_app
 AG:EGTE_TWR:119.800:old.voice.notused:egte_twr
 AG:EGTE_ATIS:119.325:old.voice.notused:egte_atis

@@ -2,11 +2,20 @@
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
-4a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
-4b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
-4c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
-4d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
-4e. Enhancement - Removed redundant AC-2 tag family
+4. Enhancement - Added Cranfield (EGTC) Voice settings and corrected Kirkwall (EGPA) & Wick (EGPC) ATIS frequencies - thanks to @hazzas-99
+5. Bug - Corrected shape of BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
+6a. Enhancement - Added LUVUM Box map (TopSky only) - thanks to @hazzas-99
+6b. Enhancement - Removed automatic Doncaster (EGCN) extended centreline map (TopSky only) - thanks to @hazzas-99
+6c. Enhancement - Updated Manchester RMA maps (TopSky only) - thanks to @hazzas-99
+7. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Added Southend SMR .prf and .asr for Thames Combined .prf - thanks to @PLM1995 (Peter Mooney)
+9. Enhancement - Added ScTMA split profiles and voice settings - thanks to @hazzas-99
+10. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
+11a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
+11b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
+11c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
+11d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
+11e. Enhancement - Removed redundant AC-2 tag family
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)

@@ -7,7 +7,9 @@ AG:Area - West and DCS:133.875:old.voice.notused:sco_wd_ctr
 AG:Area - West:132.725:old.voice.notused:sco_w_ctr
 AG:Area - DCS:135.850:old.voice.notused:sco_d_ctr
 AG:Area - Rathlin:129.100:old.voice.notused:sco_r_ctr
-AG:Area - TC:126.300:old.voice.notused:stc_ctr
+AG:Area - TMA:126.300:old.voice.notused:stc_ctr
+AG:Area - TMA Talla:130.975:old.voice.notused:stc_e_ctr
+AG:Area - TMA Galloway:124.825:old.voice.notused:stc_w_ctr
 AG:Area - Antrim:123.775:old.voice.notused:stc_a_ctr
 AG:EGAA_GND:121.750:old.voice.notused:egaa_gnd
 AG:EGAA_TWR:118.300:old.voice.notused:egaa_twr
@@ -28,14 +30,14 @@ AG:EGNC_TWR:123.600:old.voice.notused:egnc_twr
 AG:EGNC_ATIS:118.425:old.voice.notused:egnc_atis
 AG:EGPA_A_APP:118.300:old.voice.notused:egpa_a_app
 AG:EGPA_TWR:118.300:old.voice.notused:egpa_twr
-AG:EGPA_ATIS:108.600:old.voice.notused:egpa_atis
+AG:EGPA_ATIS:119.425:old.voice.notused:egpa_atis
 AG:EGPB_TWR:118.250:old.voice.notused:egpb_twr
 AG:EGPB_APP:131.300:old.voice.notused:egpb_app
 AG:EGPB_F_APP:123.150:old.voice.notused:egpb_f_app
 AG:EGPB_ATIS:125.850:old.voice.notused:egpb_atis
 AG:EGPC_A_APP:119.700:old.voice.notused:egpc_a_app
 AG:EGPC_TWR:119.700:old.voice.notused:egpc_twr
-AG:EGPC_ATIS:113.600:old.voice.notused:egpc_atis
+AG:EGPC_ATIS:121.625:old.voice.notused:egpc_atis
 AG:EGPD_GND:121.700:old.voice.notused:egpd_gnd
 AG:EGPD_TWR:118.100:old.voice.notused:egpd_twr
 AG:EGPD_APP:119.050:old.voice.notused:egpd_app
