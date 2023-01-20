@@ -1,4 +1,4 @@
-x. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre
+x. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2022/09 to 2022/10
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
