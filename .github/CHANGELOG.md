@@ -1,3 +1,5 @@
+x. Procedure Change - Changed Halfpenny Green (EGBO) voice from Radio to Information - thanks to @PLM1995 (Peter Mooney)
+
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
