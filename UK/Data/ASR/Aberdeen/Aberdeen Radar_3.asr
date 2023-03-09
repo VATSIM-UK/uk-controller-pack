@@ -280,7 +280,7 @@ ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:Moray CTA:
-ARTCC high boundary:NITON CTA:
+ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
@@ -997,7 +997,7 @@ Fixes:NINEX:symbol
 Fixes:NIPIT:symbol
 Fixes:NISBI:symbol
 Fixes:NISKA:symbol
-Fixes:NITON:symbol
+Fixes:PEPZE:symbol
 Fixes:NIVKO:symbol
 Fixes:NIVUN:symbol
 Fixes:NOBDO:symbol

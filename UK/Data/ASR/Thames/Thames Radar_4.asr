@@ -260,7 +260,7 @@ ARTCC high boundary:Conditional - Berry Head CTA:
 ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
+ARTCC high boundary:Conditional - PEPZE CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
@@ -285,7 +285,7 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
-ARTCC high boundary:NITON CTA:
+ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
@@ -2000,8 +2000,8 @@ Fixes:NISVO:name
 Fixes:NISVO:symbol
 Fixes:NITEN:name
 Fixes:NITEN:symbol
-Fixes:NITON:name
-Fixes:NITON:symbol
+Fixes:PEPZE:name
+Fixes:PEPZE:symbol
 Fixes:NITUD:name
 Fixes:NITUD:symbol
 Fixes:NIVKO:name

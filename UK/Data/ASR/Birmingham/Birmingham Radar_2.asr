@@ -249,25 +249,6 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
-ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
-ARTCC high boundary:Belfast TMA:
-ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
-ARTCC high boundary:Channel Islands TMA:
-ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - NITON CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
-ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Daventry CTA:
-ARTCC high boundary:Deauville TMA:
-ARTCC high boundary:EBBU Brussels FIR:
-ARTCC high boundary:EGGX Shanwick FIR:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
 ARTCC high boundary:EHAA ABNED Delegated:
@@ -285,15 +266,20 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Midlands CTA:
-ARTCC high boundary:NITON CTA:
+ARTCC high boundary:Moray CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
@@ -305,7 +291,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -314,8 +299,9 @@ ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Land's End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -327,25 +313,25 @@ ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
 ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLF Farnborough ATZ:
+ARTCC low boundary:EGLF Farnborough CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Durham Tees Valley CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK/EGQS Lossiemouth/Kinloss MATZ:
-ARTCC low boundary:EGQL Leuchars ATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -355,13 +341,18 @@ ARTCC low boundary:EGVF Fleetlands ATZ:
 ARTCC low boundary:EGVN Brize Norton CTR:
 ARTCC low boundary:EGVO Odiham MATZ:
 ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYM Marham MATZ:
 ARTCC low boundary:EIDW Dublin CTA:
 ARTCC low boundary:LFAT Le Touquet CTR:
 ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
+ARTCC low boundary:Solent CTA:
 Fixes:ABAPO:symbol
 Fixes:ABBOT:symbol
 Fixes:ABDAL:symbol
@@ -1008,7 +999,7 @@ Fixes:NINEX:symbol
 Fixes:NIPIT:symbol
 Fixes:NISBI:symbol
 Fixes:NISKA:symbol
-Fixes:NITON:symbol
+Fixes:PEPZE:symbol
 Fixes:NIVKO:symbol
 Fixes:NIVUN:symbol
 Fixes:NOBDO:symbol
