@@ -48,11 +48,21 @@ ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Clacton:
+Sids:London AC Daventry:
+Sids:London AC Dover:
+Sids:London AC Lakes:
+Sids:London AC North Sea:
+Sids:London AC West:
+Sids:London AC Worthing:
+Sids:Scottish AC South:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
 SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:5
@@ -63,8 +73,16 @@ DisplayRotation:0.00000
 TAGFAMILY:AC-TopSky
 WINDOWAREA:47.859831:-15.257968:56.071011:9.523522
 PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1521
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -93,3 +111,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_MANCHESTER;ASR_HOLYHEAD;ASR_WESSEX;ASR_BARNSLEY;ASR_PORTLAND;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

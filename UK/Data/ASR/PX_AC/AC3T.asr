@@ -105,7 +105,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDN Netheravon ATZ:
 ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
@@ -1302,9 +1301,6 @@ Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125D:freetext
@@ -1375,6 +1371,7 @@ Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
@@ -1405,6 +1402,7 @@ Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
+Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
@@ -1452,19 +1450,6 @@ Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
-Free Text:EGCN Airspace Bases\1500:freetext
-Free Text:EGCN Airspace Bases\1500':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4500':freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
 Free Text:EGFF Airspace Bases\1000':freetext
 Free Text:EGFF Airspace Bases\1500':freetext
 Free Text:EGFF Airspace Bases\2000':freetext
@@ -1587,6 +1572,19 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Lakes:
+Sids:Maastricht UAC Delta:
+Sids:Maastricht UAC Jever:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC North:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
+Sids:Scottish TMA Galloway:
+Sids:Scottish TMA Talla:
+Sids:Scottish West:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
@@ -1686,7 +1684,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:6

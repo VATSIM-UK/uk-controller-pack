@@ -105,7 +105,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDN Netheravon ATZ:
 ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGGD Bristol CTA:
@@ -2822,6 +2821,17 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Lakes:
+Sids:Maastricht UAC Delta:
+Sids:Maastricht UAC Jever:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC North:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
+Sids:Scottish West:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
@@ -3016,7 +3026,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:0

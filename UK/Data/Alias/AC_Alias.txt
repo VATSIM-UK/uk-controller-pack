@@ -1,17 +1,22 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2022-03-29
+Last Updated:	2023-01-03
 ========================================================
 
 ========================================================
 Generic
 ========================================================
 
+.a Affirm. 
+.n Negative, 
+.d Disregard. 
+.r Roger. 
+
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
 
-.sec You can check coverage at https://vats.im/uksectors/
-.cov You can check coverage at https://vats.im/uksectors/
+.sec You can check coverage at https://vatglasses.uk/ukireland/
+.cov You can check coverage at https://vatglasses.uk/ukireland/
 .charts Charts relevant to your flight can be found at https://chartfox.org/$1/
 
 .rsn Report your stand number
@@ -41,6 +46,8 @@ Generic
 Handoffs
 ========================================================
 
+.on ALL STATIONS, ALL STATIONS, $radioname($1) ($atccallsign($1)) is online, frequency $freq($1)
+.atis $radioname($1) ($atccallsign($1)) is available on frequency $freq($1). 
 .ho Contact $radioname($1) ($atccallsign($1)) $freq($1)
 .ct Contact $radioname($1) $freq($1) ($atccallsign($1))
 .cso Contact $radioname($1) $freq($1) ($atccallsign($1)) callsign only
@@ -50,72 +57,28 @@ Handoffs
 .fc Freecall $radioname($1) ($atccallsign($1)) $freq($1)
 .mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 
+.cmof Continue with Unicom, 122.800. Contact me on $com once on final runway $arrrwy($arr). 
+.cmov Continue with Unicom, 122.800. Contact me on $com once vacated. 
+.cme Call me established
+
 .uni No Further ATC available. Monitor Unicom 122.800
-.oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vats.im/uksectors/)
+.oma You are currently outside my airspace. Monitor Unicom 122.800. (Please see https://vatglasses.uk/ukireland/)
 .nso $1 is offline - monitor unicom 122.800
 
-========================================================
-Lateral
-========================================================
+.fca Frequency Change Approved. 
+.fe Freecall on route. 
 
-.lh Leave $1 heading $2 degrees
-.tl Turn left heading $1 degrees
-.tr Turn right heading $1 degrees
-.fh Fly heading $1 degrees
-.cph Continue present heading
-.cphr Continue present heading, and report that heading
-
-.rd Route Direct $1
-.rnd Resume own navigation direct $1
-.rond Resume own navigation direct $1
-
-========================================================
-Vertical
-========================================================
-
-.sicnfl Squawk Ident, climb now FL$1
-.sicnta Squawk Ident, climb now to altitude $1ft
-.sicna Squawk Ident, climb now to altitude $1ft
-.sima Squawk Ident, maintain altitude $alt
-
-.cta Climb to altitude $1ft
-.cnta Climb now to altitude $1ft
-.cfl Climb FL$1
-.cnfl Climb now FL$1
-
-.dtaq Descend to altitude $1ft QNH $altim($arr)
-.dta Descend to altitude $1ft
-.dtalq Descend to altitude $1ft, London QNH $altim(EGLL)
-.dtamq Descend to altitude $1ft, Manchester QNH $altim(EGCC)
-.dtagq Descend to altitude $1ft, Glasgow QNH $altim(EGPF)
-.dfl Descend FL$1
-.wrdfl When ready, descend FL$1
-.dfllb Descend FL$1 level by $2
-.wrdfllb When ready, descend FL$1 level by $2
-.efllb Expect FL$1 level by $2
-.dflla Descend FL$1 level abeam $2
-
-.ed Expedite descent
-.edtfl Expedite descent until passing FL$1
-.edta Expedite descent until passing altitude $1ft
-.ectfl Expedite climb until passing FL$1
-.ecta Expedite climb until passing altitude $1ft
-
-========================================================
-Speed Control
-========================================================
-
-.s Speed $1 knots
-.m Mach $1
-.rias Report your indicated airspeed
-
-.s160 Speed 160 knots, maintain until 4DME
-.sdme Speed $1 knots, maintain until $2DME
-.sm Speed $1 knots, maintain until $2 miles
+.cl ALL STATIONS, ALL STATIONS, $callsign is now closing. Monitor $radioname($1) ($atccallsign($1)) $freq($1)
+.cluni ALL STATIONS, ALL STATIONS, $callsign is now closing. No other ATC available, Monitor Unicom, 122.800
 
 ========================================================
 Departure
 ========================================================
+
+.riad Report intentions after departure
+
+.dep $sid departure 
+.deprw Departure runway is $deprwy. 
 
 .pdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 .npdc .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
@@ -128,12 +91,12 @@ Departure
 .sidrwi Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
 .sidirw Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)
 
-.mcbpk Cleared to $arr via the Brookmans Park (BPK) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep). When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+.mcbpk Cleared to $arr via the Brookmans Park (BPK) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mccln Cleared to $arr via the Clacton (CLN) preferred departure route. After departure runway $deprwy($dep) turn on track Clacton (CLN), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mcdvr Cleared to $arr via the Dover (DVR) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mclyd Cleared to $arr via the Lydd (LYD) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 .mcsam Cleared to $arr via the Southampton (SAM) preferred departure route. After departure runway $deprwy($dep) turn on track Detling (DET), climb to altitude 3000ft QNH $altim($dep), squawk $squawk
-.mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep).  When established inbound Lambourne (LAM), climb to altitude 4000 feet, squawk $squawk
+.mccpt Cleared to $arr via the Compton (CPT) preferred departure route. After departure runway $deprwy($dep) turn on track EVNAS, climb to altitude 3000ft QNH $altim($dep), squawk $squawk
 
 .llcpt Cleared to $arr via CPT, then flight planned route. After departure runway $deprwy($dep) climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft QNH $altim(EGLL)hPa. Squawk $squawk
 
@@ -154,15 +117,6 @@ Departure
 .readyq Readback correct, QNH $altim($dep), report ready
 
 ========================================================
-CTP
-========================================================
-
-.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
-.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
-.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
-.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
-
-========================================================
 Ground Movement
 ========================================================
 
@@ -171,6 +125,7 @@ Ground Movement
 .stand Taxi stand $1, via $2
 .llstand Taxi via $1, stand $2
 
+.sa Hold position, Start approved. 
 .p Push and Start approved
 .push Push and Start approved
 .ps Push and Start approved, face South
@@ -186,6 +141,8 @@ Ground Movement
 ========================================================
 Runway
 ========================================================
+
+.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
 
 .cr Via $1, cross runway $2
 .bcr Behind the $1, cross runway $2
@@ -216,15 +173,40 @@ Runway
 .ga Go around, I say again, go around, acknowledge
 
 ========================================================
-Arrival
+VFR
 ========================================================
 
-.star $star arrival
-.stararr $star arrival, $arr
-.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
-.starrw $star arrival, landing runway $arrrwy($arr)
-.hold Hold at $1, delay $2 minutes
-.holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
+.sc Squawk conspicuity
+.olvrp For spacing orbit left overhead the $1 VRP until advised. 
+.orvrp For spacing orbit right overhead the $1 VRP until advised. 
+.olpp For spacing orbit left overhead your present position until advised. 
+.orpp For spacing orbit right overhead your present position until advised. 
+.oledl For spacing orbit left at the end of the downwind leg until advised. 
+.oredl For spacing orbit right at the end of the downwind leg until advised. 
+.oc Orbit Cancelled, 
+.rf Report Final, runway $arrrwy($arr)
+.rf1 Report Final, runway $arrrwy($arr), number 1.
+.rf2 Report Final, runway $arrrwy($arr), number 2 following a $1 on a $2 mile final. Caution wake turbulence, recommended distance $3 miles. 
+.rdwi Report downwind with intentions. 
+.eca Entering controlled airspace, 
+.rtf Route towards the field. 
+.rfis Report the field in sight
+.vfrcr After departure runway $deprwy($dep), enter Right Hand visual circuits, not above altitude $1ft, VFR, QNH $altim($dep), squawk $squawk
+.vfrcl After departure runway $deprwy($dep), enter Left Hand visual circuits, not above altitude $1ft, VFR, QNH $altim($dep), squawk $squawk
+.vrp After departure runway $deprwy($dep), cleared to leave the $1 control zone via the $2 VRP, not above altitude $3ft, VFR, QNH $altim($dep), squawk $squawk
+
+========================================================
+Speed Control
+========================================================
+
+.s Speed $1 knots
+.m Mach $1
+.rias Report your indicated airspeed
+
+.s160 Speed 160 knots, maintain until 4DME
+.sdme Speed $1 knots, maintain until $2DME
+.sm Speed $1 knots, maintain until $2 miles
+.rmsas Reduce to minimum safe approach speed. 
 
 ========================================================
 Approach Radar
@@ -264,6 +246,77 @@ Flight Information Service
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.
 .decon You have left controlled airspace. You are now receiving a deconfliction service which provides detailed traffic information on specific conflicting aircraft AND advice on how to avoid that aircraft. You remain responsible for collision avoidance; you can opt not to follow the advice.
+
+========================================================
+Arrival
+========================================================
+
+.star $star arrival
+.stararr $star arrival, $arr
+.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
+.starrw $star arrival, landing runway $arrrwy($arr)
+.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
+.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
+.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
+.holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 hand, $5 minute legs, speed $6 knots
+
+========================================================
+Lateral
+========================================================
+
+.lh Leave $1 heading $2 degrees
+.tl Turn left heading $1 degrees
+.tr Turn right heading $1 degrees
+.fh Fly heading $1 degrees
+.cph Continue present heading
+.cphr Continue present heading, and report that heading
+
+.rd Route Direct $1
+.rnd Resume own navigation direct $1
+.rond Resume own navigation direct $1
+
+========================================================
+Vertical
+========================================================
+
+.sicnfl Squawk Ident, climb now FL$1
+.sicnta Squawk Ident, climb now to altitude $1ft
+.sicna Squawk Ident, climb now to altitude $1ft
+.sima Squawk Ident, maintain altitude $alt
+
+.rrl Report your requested level
+
+.cta Climb to altitude $1ft
+.cnta Climb now to altitude $1ft
+.cfl Climb FL$1
+.cnfl Climb now FL$1
+
+.dtaq Descend to altitude $1ft QNH $altim($arr)
+.dta Descend to altitude $1ft
+.dtalq Descend to altitude $1ft, London QNH $altim(EGLL)
+.dtamq Descend to altitude $1ft, Manchester QNH $altim(EGCC)
+.dtagq Descend to altitude $1ft, Glasgow QNH $altim(EGPF)
+.dfl Descend FL$1
+.wrdfl When ready, descend FL$1
+.dfllb Descend FL$1 level by $2
+.wrdfllb When ready, descend FL$1 level by $2
+.efllb Expect FL$1 level by $2
+.dflla Descend FL$1 level abeam $2
+
+.ed Expedite descent
+.edtfl Expedite descent until passing FL$1
+.edta Expedite descent until passing altitude $1ft
+.ectfl Expedite climb until passing FL$1
+.ecta Expedite climb until passing altitude $1ft
+
+========================================================
+CTP
+========================================================
+
+.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
+.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
+.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
+.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
 
 ========================================================
 Auto-alias

@@ -54,7 +54,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
 ARTCC low boundary:EGFF Cardiff CTA:
@@ -93,7 +92,6 @@ ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK Kinloss MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
@@ -2779,6 +2777,16 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Clacton:
+Sids:London AC Daventry:
+Sids:London AC Lakes:
+Sids:London AC North Sea:
+Sids:London AC West:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC South:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
@@ -2903,8 +2911,6 @@ VORs:HDR:name
 VORs:HDR:symbol
 VORs:HON:name
 VORs:HON:symbol
-VORs:HSD:name
-VORs:HSD:symbol
 VORs:HUL:name
 VORs:HUL:symbol
 VORs:IOM:name
@@ -3047,7 +3053,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:5
@@ -3058,8 +3064,16 @@ DisplayRotation:0.00000
 TAGFAMILY:AC-TopSky
 WINDOWAREA:51.093380:-9.495710:56.149851:6.364440
 PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1518
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1209
 PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:242
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -3090,3 +3104,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:59
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_HOLYHEAD;ASR_BARNSLEY;ASR_HUMBER;ASR_YARMOUTH;ASR_TYNE;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

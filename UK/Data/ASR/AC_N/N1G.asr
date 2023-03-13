@@ -298,7 +298,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -362,10 +361,15 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Clacton:
+Sids:London AC Daventry:
 Sids:London AC Lakes:
 Sids:London AC North Sea:
-Sids:PC East:
+Sids:London AC West:
 Sids:PC West:
+Sids:Scottish AC South:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
 Stars:DEXEN Buffer:
 Stars:HON Gate:
 Stars:Leeds Delegation Line:
@@ -376,7 +380,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:5

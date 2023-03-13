@@ -1142,6 +1142,18 @@ Fixes:ZEDDO:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Regions:Uncontrolled airspace (Grey):polygon
+Sids:London AC Lakes:
+Sids:Maastricht UAC Delta:
+Sids:Maastricht UAC Jever:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC North:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
+Sids:Scottish TMA Galloway:
+Sids:Scottish TMA Talla:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
@@ -1241,7 +1253,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:6
