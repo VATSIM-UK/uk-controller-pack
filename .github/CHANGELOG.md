@@ -5,6 +5,7 @@
 4. Enhancement - Adjusted STCA alarm values - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
 5. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
+6. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
