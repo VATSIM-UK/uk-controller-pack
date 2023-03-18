@@ -25,9 +25,7 @@ AG:EGAD_TWR:128.300:old.voice.notused:egad_twr
 AG:EGAE_TWR:134.150:old.voice.notused:egae_twr
 AG:EGAE_A_APP:123.625:old.voice.notused:egae_a_app
 AG:EGAE_ATIS:119.375:old.voice.notused:egae_atis
-AG:EGNC_APP:123.600:old.voice.notused:egnc_app
-AG:EGNC_TWR:123.600:old.voice.notused:egnc_twr
-AG:EGNC_ATIS:118.425:old.voice.notused:egnc_atis
+AG:EGNC_R_TWR:123.600:old.voice.notused:egnc_r_twr
 AG:EGPA_A_APP:118.300:old.voice.notused:egpa_a_app
 AG:EGPA_TWR:118.300:old.voice.notused:egpa_twr
 AG:EGPA_ATIS:119.425:old.voice.notused:egpa_atis
