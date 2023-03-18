@@ -4,7 +4,7 @@
 3. Enhancement - Changed radar display leader line lengths to 1 minute - thanks to @PLM1995 (Peter Mooney)
 4. Enhancement - Adjusted STCA alarm values - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
-X. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
+6. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
