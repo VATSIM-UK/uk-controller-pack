@@ -59,7 +59,7 @@ AG:EGBE_I_TWR:123.825:old.voice.notused:egbe_i_twr
 AG:EGBJ_APP:128.550:old.voice.notused:egbj_app
 AG:EGBJ_TWR:122.900:old.voice.notused:egbj_twr
 AG:EGBJ_ATIS:127.475:old.voice.notused:egbj_atis
-AG:EGBO_R_TWR:123.000:old.voice.notused:egbo_r_twr
+AG:EGBO_I_TWR:123.000:old.voice.notused:egbo_i_twr
 AG:EGCC_S_APP:118.575:old.voice.notused:egcc_s_app
 AG:EGCC_N_APP:135.000:old.voice.notused:egcc_n_app
 AG:EGCC_F_APP:121.350:old.voice.notused:egcc_f_app
