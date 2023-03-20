@@ -8,6 +8,7 @@
 7. AIRAC (2303) - Updated Danger Areas due to West Airspace Deployment (TopSky only) - thanks to @luke11brown (Luke Brown)
 8. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
 9. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
+10. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
