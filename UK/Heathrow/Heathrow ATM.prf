@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Local\Heathrow\ATM_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Heathrow\ATM_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2022_13.sct
+Settings	sector	UK\Data\Sector\UK_2023_03.sct
 Settings	alias	\..\Data\Alias\Heathrow_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
