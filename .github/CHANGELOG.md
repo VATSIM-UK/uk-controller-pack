@@ -7,10 +7,13 @@
 6. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
 7. AIRAC (2303) - Updated Danger Areas due to West Airspace Deployment (TopSky only) - thanks to @luke11brown (Luke Brown)
 8. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
-9. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
+9. Bug - Fixed login profile loading for ESX profiles - thanks to @hazzas-99
 10. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
 11. Bug - Fixed RAMOX/DEXEN buffer zone display for Lakes (TopSky only) - thanks to @hazzas-99
 12. Enhancement - Added vatglasses URL and CPDLC/PDC logon code placeholder to Area profiles - thanks to @hazzas-99
+13. Enhancement - Added UK Controller Plugin prenote column to departure lists ('PRE') - thanks to @hazzas-99
+14. Enhancement - Added left click Open SRD Search to DEP & Sector Inbound/Exit lists - thanks to @hazzas-99
+15. Enhancement - Updated VCCS panels - thanks to @hazzas-99
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
@@ -37,10 +40,10 @@
 2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
 3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
 4. AIRAC (2209) - Updated Cranfield SMR display elements - thanks to @luke11brown (Luke Brown)
-5. AIRAC (2209) - Added Belfast Aldergrove (EGAA) tug release points to SMR - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2209) - Added Belfast Aldergrove (EGAA) tug release poINT S to SMR - thanks to @luke11brown (Luke Brown)
 6. AIRAC (2209) - Added Gloucerter (EGBJ) missing elements to SMR - thanks to @luke11brown (Luke Brown)
 7. AIRAC (2209) - Renamed Barrow -> Walney (EGNL) display elements - thanks to @luke11brown (Luke Brown)
-8. AIRAC (2209) - Added Luton (EGGW) tug release points to SMR - thanks to @luke11brown (Luke Brown)
+8. AIRAC (2209) - Added Luton (EGGW) tug release poINT S to SMR - thanks to @luke11brown (Luke Brown)
 9. AIRAC (2209) - Updated Southend RMA TopSkyMap - thanks to @luke11brown (Luke Brown)
 10. Bug - Inhibited UKCP history trails where not required thanks to @luke11brown (Luke Brown)
 
@@ -75,7 +78,7 @@
 2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Added East Midlands CTA 14 as TopSky Map (part time airspace) - thanks to @luke11brown (Luke Brown)
-5. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hazzas-99
+5. Procedure Change - ESX Radar -> Stansted Radar, and new Stansted profiles - thanks to @hazzas-99
 6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hazzas-99
 7. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hazzas-99
 8. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hazzas-99
@@ -100,7 +103,7 @@
 5. Enhancement - Added OCAS Region for Cotswold CTA FUA - thanks to @danielbutton (Daniel Button)
 6. AIRAC - Added D217 danger area complex - thanks to @luke11brown (Luke Brown)
 7. AIRAC - Area minimum altitudes updated east of Wick - thanks to @luke11brown (Luke Brown)
-8. AIRAC - London City labels updated to include new holding points - thanks to @luke11brown (Luke Brown)
+8. AIRAC - London City labels updated to include new holding poINT S - thanks to @luke11brown (Luke Brown)
 9. AIRAC - Gatwick SMR turned the correct way up, stand centrelines turned on by default - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/06 to 2021/07
