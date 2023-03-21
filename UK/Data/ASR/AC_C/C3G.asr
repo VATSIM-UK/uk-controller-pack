@@ -277,10 +277,9 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
-ARTCC high boundary:Midlands CTA:
-ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:Northern CTA:
+ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -288,7 +287,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
-ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -1774,9 +1772,7 @@ VORs:LKH:symbol
 VORs:LND:symbol
 VORs:LNO:symbol
 VORs:LON:symbol
-VORs:LOO:symbol
 VORs:LSM:symbol
-VORs:LUK:symbol
 VORs:LUX:symbol
 VORs:LYD:symbol
 VORs:MAC:symbol
