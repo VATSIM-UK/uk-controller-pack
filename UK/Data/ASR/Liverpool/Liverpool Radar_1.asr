@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -278,7 +280,6 @@ ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
 ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
@@ -361,7 +362,10 @@ ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
-Regions:A-NorthWest:polygon
+Regions:A-EastCoast:polygon
+Regions:A-Northwest:polygon
+Regions:A-Scottish:polygon
+Regions:A-SouthWalesMidlands:polygon
 Stars:Manchester RMA Westerlies:
 SHOWC:1
 SHOWSB:0

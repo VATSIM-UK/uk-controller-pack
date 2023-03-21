@@ -266,10 +266,9 @@ ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:PEPZE CTA (Conditional):
-ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
@@ -353,7 +352,7 @@ ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
-Regions:A-NorthWest:polygon
+Regions:A-Northwest:polygon
 Regions:A-Scottish:polygon
 Regions:A-ScottishIslands:polygon
 Regions:A-SouthEast:polygon

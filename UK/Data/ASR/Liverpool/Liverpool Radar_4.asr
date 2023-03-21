@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -278,7 +280,6 @@ ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
 ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
@@ -3125,29 +3126,31 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
 Free Text:EGGP VRPs\*Aintree:freetext
-Free Text:EGGP VRPs\*Burtonwood:freetext
-Free Text:EGGP VRPs\*Chester:freetext
-Free Text:EGGP VRPs\*Fiddlers Ferry Power Station:freetext
+Free Text:EGGP VRPs\*Burtonwood Services:freetext
+Free Text:EGGP VRPs\*Fiddlers Ferry Power Stn:freetext
 Free Text:EGGP VRPs\*Frodsham Hill:freetext
 Free Text:EGGP VRPs\*Garston Docks:freetext
+Free Text:EGGP VRPs\*Hale Head L'house:freetext
 Free Text:EGGP VRPs\*Helsby Hill:freetext
 Free Text:EGGP VRPs\*Jaguar Car Factory:freetext
 Free Text:EGGP VRPs\*Kirkby:freetext
-Free Text:EGGP VRPs\*M53N/J10 (Cheshire Oaks):freetext
 Free Text:EGGP VRPs\*M56 J11:freetext
 Free Text:EGGP VRPs\*Neston:freetext
-Free Text:EGGP VRPs\*Oulton Park:freetext
 Free Text:EGGP VRPs\*Runcorn Bridge:freetext
-Free Text:EGGP VRPs\*Seaforth:freetext
-Free Text:EGGP VRPs\*Stretton:freetext
+Free Text:EGGP VRPs\*Seaforth Dock:freetext
+Free Text:EGGP VRPs\*Stretton (Disused AD):freetext
 Free Text:EGGP VRPs\*Tarbock Island:freetext
-Free Text:EGGP VRPs\*Tarvin Roundabout:freetext
+Free Text:EGGP VRPs\*Tarporley Roundabout:freetext
+Free Text:EGGP VRPs\*Tarvin Rbt:freetext
 Free Text:EGGP VRPs\*The Liver Building (Pier Head):freetext
+Free Text:EGGP VRPs\*Vicars Cross Rbt:freetext
 Free Text:EGGP VRPs\*Wigan Lakes:freetext
-Free Text:EGGP VRPs\*Winter Hills Mast:freetext
-Geo:EGCC Manchester MSA Cones:
+Free Text:EGGP VRPs\*Winter Hill Mast:freetext
 Geo:Extended centrelines:
-Regions:A-NorthWest:polygon
+Regions:A-EastCoast:polygon
+Regions:A-Northwest:polygon
+Regions:A-Scottish:polygon
+Regions:A-SouthWalesMidlands:polygon
 Stars:Manchester RMA Westerlies:
 VORs:ABB:name
 VORs:ABB:symbol

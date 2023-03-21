@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -268,8 +270,6 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:PEPZE CTA (Conditional):
-ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
@@ -3114,14 +3114,14 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
-Free Text:EGNX VRPs\*Bottesford:freetext
-Free Text:EGNX VRPs\*Church Broughton:freetext
+Free Text:EGNX VRPs\*Bottesford (Disused AD):freetext
+Free Text:EGNX VRPs\*Church Broughton (Disused AD):freetext
 Free Text:EGNX VRPs\*Long Eaton:freetext
-Free Text:EGNX VRPs\*Markfield:freetext
-Free Text:EGNX VRPs\*Measham:freetext
-Free Text:EGNX VRPs\*Melton Mowbray:freetext
+Free Text:EGNX VRPs\*M1 J22 (Markfield):freetext
+Free Text:EGNX VRPs\*M42 J11 (Measham):freetext
+Free Text:EGNX VRPs\*Melton Mowbray (Disused AD):freetext
 Free Text:EGNX VRPs\*Shepshed:freetext
-Free Text:EGNX VRPs\*Trowell:freetext
+Free Text:EGNX VRPs\*Trowell (M1 Service Area):freetext
 Geo:Extended centrelines:
 Low airways:N57:line
 VORs:ABB:name
