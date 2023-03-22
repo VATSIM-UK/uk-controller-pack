@@ -250,19 +250,12 @@ ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - PEPZE CTA 2:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
@@ -302,7 +295,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -3117,26 +3109,26 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
-Free Text:EGHH VRPs\*Beaulieu:freetext
+Free Text:EGHH VRPs\*Beaulieu (Disused AD):freetext
 Free Text:EGHH VRPs\*Hengistbury Head:freetext
 Free Text:EGHH VRPs\*Hurst Castle:freetext
-Free Text:EGHH VRPs\*Needles Lighthouse:freetext
+Free Text:EGHH VRPs\*Needles L'house:freetext
 Free Text:EGHH VRPs\*Sandbanks:freetext
-Free Text:EGHH VRPs\*St Catherine’s Point:freetext
-Free Text:EGHH VRPs\*Stoney Cross:freetext
-Free Text:EGHH VRPs\*Tarrant Rushton:freetext
-Free Text:EGHI VRPs\*Beaulieu:freetext
+Free Text:EGHH VRPs\*St Catherine's Point:freetext
+Free Text:EGHH VRPs\*Stoney Cross (Disused AD):freetext
+Free Text:EGHH VRPs\*Tarrant Rushton (Disused AD):freetext
+Free Text:EGHI VRPs\*Beaulieu (Disused AD):freetext
 Free Text:EGHI VRPs\*Bishops Waltham:freetext
+Free Text:EGHI VRPs\*Bullington Cross:freetext
 Free Text:EGHI VRPs\*Butser Hill Mast:freetext
-Free Text:EGHI VRPs\*Calshot:freetext
+Free Text:EGHI VRPs\*Calshot Beach:freetext
 Free Text:EGHI VRPs\*Cowes:freetext
-Free Text:EGHI VRPs\*M27 Junction 2:freetext
-Free Text:EGHI VRPs\*Needles Lighthouse:freetext
+Free Text:EGHI VRPs\*M27 J2 (Ower):freetext
+Free Text:EGHI VRPs\*Needles L'house:freetext
 Free Text:EGHI VRPs\*New Alresford:freetext
 Free Text:EGHI VRPs\*Romsey:freetext
 Free Text:EGHI VRPs\*Spinnaker Tower:freetext
 Free Text:EGHI VRPs\*St Catherine's Point:freetext
-Free Text:EGHI VRPs\*Totton:freetext
 Free Text:EGHI VRPs\*West Meon Cross Roads:freetext
 Free Text:EGHI VRPs\*Wickham:freetext
 Geo:Extended centrelines:
@@ -3354,9 +3346,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:50.415288:-2.920368:51.361703:0.048161
+WINDOWAREA:50.415288:-2.932125:51.361703:0.059918
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -3384,3 +3384,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGHI;airfield.EGHH;tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_CHATHAM;ASR_COTSWOLD;ASR_LONDON;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

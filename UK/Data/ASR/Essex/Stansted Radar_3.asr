@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -250,7 +252,7 @@ ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Borders CTA:
@@ -295,7 +297,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -1939,6 +1940,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:51.461316:-1.495763:52.452651:1.638291
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:57
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0

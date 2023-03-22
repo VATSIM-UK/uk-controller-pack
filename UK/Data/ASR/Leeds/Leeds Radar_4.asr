@@ -3331,9 +3331,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:53.285678:-3.532814:54.468697:0.177849
+WINDOWAREA:53.285678:-3.547510:54.468697:0.192545
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -3361,3 +3369,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGNM;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BARNSLEY;ASR_MANCHESTER
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

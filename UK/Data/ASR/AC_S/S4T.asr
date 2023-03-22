@@ -1,9 +1,11 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Borders CTA:
@@ -3034,8 +3036,8 @@ VORs:LNO:symbol
 VORs:LON:name
 VORs:LON:symbol
 VORs:LSM:name
-VORs:LSM:symbol
 VORs:LSM:name
+VORs:LSM:symbol
 VORs:LUX:symbol
 VORs:LYD:name
 VORs:LYD:symbol

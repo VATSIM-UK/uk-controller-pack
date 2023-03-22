@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -251,7 +253,7 @@ ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Berry Head CTA (Conditional):
@@ -305,7 +307,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -3293,8 +3294,8 @@ VORs:LNO:symbol
 VORs:LON:name
 VORs:LON:symbol
 VORs:LSM:name
-VORs:LSM:symbol
 VORs:LSM:name
+VORs:LSM:symbol
 VORs:LUX:symbol
 VORs:LYD:name
 VORs:LYD:symbol

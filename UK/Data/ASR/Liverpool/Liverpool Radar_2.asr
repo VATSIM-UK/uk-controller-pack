@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -1566,9 +1564,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:52.927699:-4.049535:53.726434:-1.544219
+WINDOWAREA:52.927699:-4.059457:53.726434:-1.534297
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1508
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1596,3 +1602,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_BARNSLEY;ASR_HOLYHEAD
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

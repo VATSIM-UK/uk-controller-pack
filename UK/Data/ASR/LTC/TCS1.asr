@@ -251,7 +251,7 @@ ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Berry Head CTA (Conditional):
@@ -305,7 +305,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -385,7 +384,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
-WINDOWAREA:50.157311:-2.863453:51.997430:2.908272
+WINDOWAREA:50.157311:-2.886312:51.997430:2.931131
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

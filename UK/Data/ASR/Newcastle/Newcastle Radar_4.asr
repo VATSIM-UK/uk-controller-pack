@@ -249,7 +249,17 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
 ARTCC high boundary:EHAA ABNED Delegated:
@@ -3120,10 +3130,10 @@ Free Text:EGNT VRPs\*Bolam Lake:freetext
 Free Text:EGNT VRPs\*Derwent Reservoir:freetext
 Free Text:EGNT VRPs\*Durham:freetext
 Free Text:EGNT VRPs\*Hexham:freetext
-Free Text:EGNT VRPs\*Morpeth:freetext
-Free Text:EGNT VRPs\*Ouston:freetext
+Free Text:EGNT VRPs\*Morpeth Rail Stn:freetext
+Free Text:EGNT VRPs\*Ouston (Disused AD):freetext
 Free Text:EGNT VRPs\*Stagshaw Masts:freetext
-Free Text:EGNT VRPs\*Sunderland:freetext
+Free Text:EGNT VRPs\*Sunderland Harbour:freetext
 Free Text:EGNT VRPs\*Tyne Bridges:freetext
 Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
@@ -3338,9 +3348,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:54.420619:-3.386461:55.603638:0.024984
+WINDOWAREA:54.420619:-3.550766:55.603638:0.189289
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -3348,7 +3366,9 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
@@ -3357,7 +3377,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGNT;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_TYNE;ASR_BARNSLEY;ASR_MANCHESTER
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

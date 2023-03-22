@@ -249,6 +249,17 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
 ARTCC high boundary:EHAA ABNED Delegated:
@@ -1440,22 +1451,16 @@ Fixes:ZIPWE:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
-Free Text:Airspace Bases\*FL125C:freetext
-Free Text:Airspace Bases\*FL125C:freetext
-Free Text:Airspace Bases\*FL125C:freetext
-Free Text:Airspace Bases\*FL175C:freetext
-Free Text:Airspace Bases\*FL75C:freetext
-Free Text:Airspace Bases\2000:freetext
-Free Text:Airspace Bases\2000:freetext
-Free Text:Airspace Bases\2000:freetext
-Free Text:Airspace Bases\2500:freetext
+Free Text:Airspace Bases\2000D:freetext
+Free Text:Airspace Bases\2000D:freetext
+Free Text:Airspace Bases\2000D:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\2500:freetext
 Free Text:Airspace Bases\3000:freetext
-Free Text:Airspace Bases\3000:freetext
+Free Text:Airspace Bases\3000E:freetext
 Free Text:Airspace Bases\3500:freetext
 Free Text:Airspace Bases\3500:freetext
 Free Text:Airspace Bases\3500:freetext
@@ -1465,13 +1470,13 @@ Free Text:Airspace Bases\3500:freetext
 Free Text:Airspace Bases\3500:freetext
 Free Text:Airspace Bases\3500:freetext
 Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\4000:freetext
-Free Text:Airspace Bases\4000:freetext
+Free Text:Airspace Bases\3500D:freetext
+Free Text:Airspace Bases\3500D:freetext
+Free Text:Airspace Bases\3500D:freetext
+Free Text:Airspace Bases\3500D:freetext
+Free Text:Airspace Bases\3500D:freetext
+Free Text:Airspace Bases\4000E:freetext
+Free Text:Airspace Bases\4000E:freetext
 Free Text:Airspace Bases\4500:freetext
 Free Text:Airspace Bases\4500:freetext
 Free Text:Airspace Bases\4500:freetext
@@ -1487,11 +1492,8 @@ Free Text:Airspace Bases\4500:freetext
 Free Text:Airspace Bases\4500:freetext
 Free Text:Airspace Bases\4500:freetext
 Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500*:freetext
-Free Text:Airspace Bases\4500*:freetext
-Free Text:Airspace Bases\4500*:freetext
+Free Text:Airspace Bases\4500D:freetext
+Free Text:Airspace Bases\4500E:freetext
 Free Text:Airspace Bases\5000:freetext
 Free Text:Airspace Bases\5500:freetext
 Free Text:Airspace Bases\5500:freetext
@@ -1513,10 +1515,10 @@ Free Text:Airspace Bases\5500:freetext
 Free Text:Airspace Bases\5500:freetext
 Free Text:Airspace Bases\5500:freetext
 Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
+Free Text:Airspace Bases\5500D:freetext
+Free Text:Airspace Bases\5500D:freetext
+Free Text:Airspace Bases\5500D:freetext
+Free Text:Airspace Bases\5500E:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
@@ -1532,41 +1534,33 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105*:freetext
-Free Text:Airspace Bases\FL105*:freetext
-Free Text:Airspace Bases\FL105*:freetext
-Free Text:Airspace Bases\FL105/C:freetext
-Free Text:Airspace Bases\FL105/C:freetext
+Free Text:Airspace Bases\FL105C:freetext
+Free Text:Airspace Bases\FL105C:freetext
+Free Text:Airspace Bases\FL105C:freetext
+Free Text:Airspace Bases\FL105E:freetext
+Free Text:Airspace Bases\FL105E:freetext
+Free Text:Airspace Bases\FL105E:freetext
+Free Text:Airspace Bases\FL105E:freetext
+Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115*:freetext
-Free Text:Airspace Bases\FL115*C:freetext
+Free Text:Airspace Bases\FL115C:freetext
+Free Text:Airspace Bases\FL115C:freetext
+Free Text:Airspace Bases\FL115C:freetext
+Free Text:Airspace Bases\FL115E:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125*:freetext
-Free Text:Airspace Bases\FL125*:freetext
-Free Text:Airspace Bases\FL125*:freetext
+Free Text:Airspace Bases\FL125C:freetext
+Free Text:Airspace Bases\FL125C:freetext
+Free Text:Airspace Bases\FL125D:freetext
+Free Text:Airspace Bases\FL125E:freetext
 Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135:freetext
 Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135*:freetext
+Free Text:Airspace Bases\FL135C:freetext
+Free Text:Airspace Bases\FL135D:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
@@ -1574,41 +1568,37 @@ Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
 Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145*C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
+Free Text:Airspace Bases\FL145C:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155*:freetext
-Free Text:Airspace Bases\FL155*:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
-Free Text:Airspace Bases\FL165*C:freetext
+Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL35:freetext
-Free Text:Airspace Bases\FL45:freetext
-Free Text:Airspace Bases\FL45:freetext
-Free Text:Airspace Bases\FL45:freetext
-Free Text:Airspace Bases\FL45:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL35C:freetext
+Free Text:Airspace Bases\FL45C:freetext
+Free Text:Airspace Bases\FL45C:freetext
+Free Text:Airspace Bases\FL45D:freetext
+Free Text:Airspace Bases\FL45E:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
@@ -1618,6 +1608,11 @@ Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55*:freetext
+Free Text:Airspace Bases\FL55C:freetext
+Free Text:Airspace Bases\FL55D:freetext
+Free Text:Airspace Bases\FL55D:freetext
+Free Text:Airspace Bases\FL55D:freetext
+Free Text:Airspace Bases\FL55E:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
@@ -1633,10 +1628,7 @@ Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65*:freetext
-Free Text:Airspace Bases\FL65*:freetext
-Free Text:Airspace Bases\FL65*:freetext
-Free Text:Airspace Bases\FL65*:freetext
+Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
@@ -1653,21 +1645,20 @@ Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75*:freetext
-Free Text:Airspace Bases\FL75*:freetext
-Free Text:Airspace Bases\FL75*:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75C:freetext
+Free Text:Airspace Bases\FL75D:freetext
+Free Text:Airspace Bases\FL75D:freetext
+Free Text:Airspace Bases\FL75D:freetext
+Free Text:Airspace Bases\FL75E:freetext
+Free Text:Airspace Bases\FL75E:freetext
+Free Text:Airspace Bases\FL75E:freetext
+Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
@@ -1682,18 +1673,17 @@ Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85*:freetext
+Free Text:Airspace Bases\FL85C:freetext
+Free Text:Airspace Bases\FL85C:freetext
+Free Text:Airspace Bases\FL85C:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95D:freetext
+Free Text:Airspace Bases\FL95D:freetext
+Free Text:Airspace Bases\FL95E:freetext
 Free Text:Airspace Bases\SFC:freetext
 Free Text:Airspace Bases\SFC:freetext
 Free Text:EGAC Airspace Bases\1500':freetext
@@ -1702,7 +1692,6 @@ Free Text:EGAC Airspace Bases\2000':freetext
 Free Text:EGAE Airspace Bases\1500':freetext
 Free Text:EGAE Airspace Bases\2000':freetext
 Free Text:EGAE Airspace Bases\3000':freetext
-Free Text:EGBB Airspace Bases\*FL65:freetext
 Free Text:EGBB Airspace Bases\1500':freetext
 Free Text:EGBB Airspace Bases\1500':freetext
 Free Text:EGBB Airspace Bases\2000':freetext
@@ -1717,21 +1706,6 @@ Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
-Free Text:EGCC Airspace Bases\;CC-2500':freetext
-Free Text:EGCN Airspace Bases\1500:freetext
-Free Text:EGCN Airspace Bases\1500':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4500':freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
-Free Text:EGCN Airspace Bases\FL85*E:freetext
 Free Text:EGFF Airspace Bases\1000':freetext
 Free Text:EGFF Airspace Bases\1500':freetext
 Free Text:EGFF Airspace Bases\2000':freetext
@@ -1753,6 +1727,7 @@ Free Text:EGGD Airspace Bases\2000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3500':freetext
+Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4500':freetext
 Free Text:EGGP Airspace Bases\1500':freetext
@@ -1777,8 +1752,6 @@ Free Text:EGLF Airspace Bases\2500':freetext
 Free Text:EGLF Airspace Bases\2500':freetext
 Free Text:EGLF Airspace Bases\2500':freetext
 Free Text:EGLF Airspace Bases\3500':freetext
-Free Text:EGLF Airspace Bases\4500'/E:freetext
-Free Text:EGLF Airspace Bases\5500'/E:freetext
 Free Text:EGMC Airspace Bases\1500':freetext
 Free Text:EGMC Airspace Bases\1500':freetext
 Free Text:EGMC Airspace Bases\1500':freetext
@@ -1825,7 +1798,6 @@ Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\5500':freetext
 Free Text:EGNX Airspace Bases\FL65:freetext
-Free Text:EGNX Airspace Bases\FL65:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
 Free Text:EGNX Airspace Bases\FL75:freetext
@@ -1851,7 +1823,7 @@ Free Text:EGSH Airspace Bases\2500'-4000':freetext
 Free Text:EGSH Airspace Bases\2500'-4000':freetext
 Free Text:EGSS Airspace Bases\1500':freetext
 Free Text:EGSS Airspace Bases\1500':freetext
-Free Text:EGSS Airspace Bases\2000':freetext
+Free Text:EGSS Airspace Bases\2500':freetext
 Free Text:EGSS Airspace Bases\2500':freetext
 Free Text:Solent Airspace Bases\1500':freetext
 Free Text:Solent Airspace Bases\2000':freetext
@@ -1981,9 +1953,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:54.420619:-3.465925:55.603638:0.104448
+WINDOWAREA:54.420619:-3.550766:55.603638:0.189289
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -2011,3 +1991,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGNT;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_TYNE;ASR_BARNSLEY;ASR_MANCHESTER
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
