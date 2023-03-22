@@ -249,6 +249,16 @@ ARTCC boundary:LFP7:
 ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EGPX Scottish FIR:
 ARTCC high boundary:EGTT London FIR:
 ARTCC high boundary:EHAA ABNED Delegated:
@@ -265,12 +275,10 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
-ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:PEPZE CTA (Conditional):
-ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
@@ -281,7 +289,6 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
-ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -365,10 +372,19 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
+DisplayRotation:0.00000
 TAGFAMILY:NODE
-WINDOWAREA:50.972436:-1.976904:52.029032:1.337220
+WINDOWAREA:50.972436:-1.990029:52.029032:1.350345
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1513
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1486
 PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:436
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -398,3 +414,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1570
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

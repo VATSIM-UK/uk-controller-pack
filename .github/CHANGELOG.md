@@ -1,19 +1,22 @@
 # Changes from release 2022/13 to 2023/03
-1. AIRAC (2303) - Area minimum altitudes revised - thanks to @luke11brown (Luke Brown)
-2. Procedure Change - Changed Halfpenny Green (EGBO) voice from Radio to Information - thanks to @PLM1995 (Peter Mooney)
-3. Enhancement - Changed radar display leader line lengths to 1 minute - thanks to @PLM1995 (Peter Mooney)
-4. Enhancement - Adjusted STCA alarm values - thanks to @luke11brown (Luke Brown)
-5. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
-6. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
-7. AIRAC (2303) - Updated Danger Areas due to West Airspace Deployment (TopSky only) - thanks to @luke11brown (Luke Brown)
-8. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
-9. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
-10. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
-11. Bug - Fixed RAMOX/DEXEN buffer zone display for Lakes (TopSky only) - thanks to @hazzas-99
-12. Enhancement - Added vatglasses URL and CPDLC/PDC logon code placeholder to Area profiles - thanks to @hazzas-99
-13. Enhancement - Added UK Controller Plugin prenote column to departure lists ('PRE') - thanks to @hazzas-99
-14. Enhancement - Added left click Open SRD Search to DEP & Sector Inbound/Exit lists - thanks to @hazzas-99
-15. Enhancement - Updated VCCS panels - thanks to @hazzas-99
+1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)
+2. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
+3. AIRAC (2303) - Updated Danger Areas due to West Airspace Deployment (TopSky only) - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
+5. AIRAC (2303) - Updated ASRs with revised VRP labels - thanks to @hazzas-99
+6. Enhancement - Changed radar display leader line lengths to 1 minute - thanks to @PLM1995 (Peter Mooney)
+7. Enhancement - Adjusted STCA alarm values - thanks to @luke11brown (Luke Brown)
+8. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
+9. Enhancement - Added vatglasses URL and CPDLC/PDC logon code placeholder to Area profiles - thanks to @hazzas-99
+10. Enhancement - Added additional event split TopSky CPDLC logon codes - thanks to @hazzas-99
+11. Enhancement - Added UK Controller Plugin prenote column to departure lists ('PRE') - thanks to @hazzas-99
+12. Enhancement - Added left click Open SRD Search to DEP & Sector Inbound/Exit lists - thanks to @hazzas-99
+13. Enhancement - Updated VCCS panels - thanks to @hazzas-99
+14. Bug - Fixed missing airspace (base) display on certain radar profiles - thanks to @hazzas-99
+15. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
+16. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
+17. Bug - Fixed RAMOX/DEXEN buffer zone display for Lakes (TopSky only) - thanks to @hazzas-99
+18. Procedure Change - Changed Halfpenny Green (EGBO) voice from Radio to Information - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
