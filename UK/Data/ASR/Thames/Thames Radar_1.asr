@@ -250,18 +250,18 @@ ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high Boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - Borders CTA 5:
+ARTCC high boundary:Conditional - Cotswold CTA:
 ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - PEPZE CTA 2:
 ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
+ARTCC high boundary:Conditional - PEPZE CTA 2:
 ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
 ARTCC high boundary:Daventry CTA:
@@ -284,10 +284,8 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
-ARTCC high boundary:Midlands CTA:
-ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
+ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -295,7 +293,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
-ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -305,7 +302,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -378,10 +374,19 @@ HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
+DisplayRotation:0.00000
 TAGFAMILY:NODE
-WINDOWAREA:50.964560:-0.679708:51.984890:2.520663
+WINDOWAREA:50.964560:-0.692383:51.984890:2.533338
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1526
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -409,3 +414,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1589
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:103
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
