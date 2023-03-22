@@ -1,10 +1,10 @@
 //For function of each setting, refer to the TopSky developer guide.
 
 //Scaling Settings, adjust these values to suit your screen and eyes!
-System_GUI_Scale_Windows=1.2
-System_GUI_Scale_Menus=1.2
-System_GUI_Scale_GlobalMenu=1.2
-System_GUI_Scale_Screen=1.1
+System_GUI_Scale_Windows=1
+System_GUI_Scale_Menus=1
+System_GUI_Scale_GlobalMenu=1
+System_GUI_Scale_Screen=1
 
 //System wide settings
 Setup_COOPANS=1
@@ -180,5 +180,5 @@ WXR_Echo_dBZ_Lo=12
 
 [_CTR]
 Window_CPDLC_Current=1,0,40
-Window_MsgIn=1,311,40
+Window_MsgIn=0,311,40
 Window_LostList_Auto=0
