@@ -11,6 +11,7 @@
 10. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
 11. Bug - Fixed RAMOX/DEXEN buffer zone display for Lakes (TopSky only) - thanks to @hazzas-99
 12. Enhancement - Added vatglasses URL and CPDLC/PDC logon code placeholder to Area profiles - thanks to @hazzas-99
+11. Enhancement - Added additional event split TopSky CPDLC logon codes - thanks to @hazzas-99
 
 # Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
