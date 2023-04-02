@@ -129,7 +129,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -290,7 +290,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -423,7 +423,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -555,7 +555,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -687,7 +687,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
@@ -1017,7 +1017,7 @@
     }
   ],
   "UseFaaFormat": false,
-  "UseExternalAtisGenerator": false,
+  
   "UseNotamPrefix": false,
   "UseTransitionLevelPrefix": true,
   "UseMetricUnits": false,
@@ -1179,7 +1179,7 @@
         }
       ],
       "UseFaaFormat": false,
-      "UseExternalAtisGenerator": false,
+
       "UseNotamPrefix": false,
       "UseTransitionLevelPrefix": true,
       "UseMetricUnits": false,
