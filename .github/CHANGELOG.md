@@ -1,3 +1,6 @@
+# Changes from release 2023/03 to 2023/04
+1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
+
 # Changes from release 2022/13 to 2023/03
 1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)
 2. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
