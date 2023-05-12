@@ -7,8 +7,8 @@ m_ShowCalculatedHeading:1
 m_ShowSimulatedData:0
 m_TransitionAltitude:6500
 m_AllowConcernedACTagDown:1
-m_CenterlineDme:0.0
-m_CenterlineLength:20.0
+m_CenterlineDme:1.0
+m_CenterlineLength:14.0
 m_CenterlineTickDme:5.0
 m_CenterlineTickInterval:1.0
 m_CenterlineTickLength:0.5
@@ -44,7 +44,7 @@ SET_TransparentAcListBackground:1
 m_PutIncomingCoordinationToFirst:0
 m_AutoProxyMode:1
 m_TransparentAcListSelectedBackground:0
-m_TransparentDetailedTagBackground:0
+m_TransparentDetailedTagBackground:1
 m_TransparentDetailedTagSelectedItemBackground:1
 m_AllowDirectBeyondCOPX:0
 m_ShowAtisLetterInMETAR:1
