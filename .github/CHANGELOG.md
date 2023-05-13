@@ -1,6 +1,8 @@
-# Changes from release 2023/03 to 2023/04
+# Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
 2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
+X. Procedure Change (Temp) - Added Temporary Danger Area D597 to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
+X. Procedure Change (NOTAM) - Added activation schedule and amended airspace proximity warning values for Danger Areas to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
 
 # Changes from release 2022/13 to 2023/03
 1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)
