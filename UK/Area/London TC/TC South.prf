@@ -47,3 +47,4 @@ Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
 Settings	airways	\..\..\Data\Datafiles\airway.txt
+LastSession	server	AUTOMATIC
