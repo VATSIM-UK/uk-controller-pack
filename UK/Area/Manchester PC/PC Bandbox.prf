@@ -35,7 +35,6 @@ ASRFastKeys	7	\..\..\Data\ASR\MPC\Leeds SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\MPC\Newcastle SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\MPC\PC_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
-Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
