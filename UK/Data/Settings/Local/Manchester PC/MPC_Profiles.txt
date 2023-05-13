@@ -1,4 +1,12 @@
 PROFILE
+PROFILE:MAN_NE_CTR:200:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:MAN_SE_CTR:200:6
+ATIS2:"Scottish Control"
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:MAN_E_CTR:200:6
 ATIS2:"Scottish Control"
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
