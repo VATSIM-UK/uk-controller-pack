@@ -1,23 +1,31 @@
 Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Thames\Southend_Plugins.txt
-Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Thames\Profiles.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Southend\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\TC_APP\TC_APP_Screen.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
-Settings	SettingsfileARR	\..\Data\Settings\TC_APP\TC_APP_AL_SMR.txt
+Settings	SettingsfileARR	\..\Data\Settings\TC_APP\TC_APP_AL.txt
 Settings	SettingsfileCONFLICT	\..\Data\Settings\TC_APP\TC_APP_C.txt
 Settings	SettingsfileDEP	\..\Data\Settings\TC_APP\TC_APP_DL.txt
 Settings	SettingsfileFP	\..\Data\Settings\TC_APP\TC_APP_FPL.txt
-Settings	SettingsfileSEL	\..\Data\Settings\TC_APP\TC_APP_SEL_SMR.txt
-Settings	SettingsfileSIL	\..\Data\Settings\TC_APP\TC_APP_SIL_SMR.txt
-Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
+Settings	SettingsfileSEL	\..\Data\Settings\TC_APP\TC_APP_SEL.txt
+Settings	SettingsfileSIL	\..\Data\Settings\TC_APP\TC_APP_SIL.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Southend\MC_APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
 Settings	sector	UK\Data\Sector\UK_2023_03.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\Data\ASR\Thames\Southend SMR.asr
-ASRFastKeys	1	\..\Data\ASR\Thames\Southend SMR.asr
+RecentFiles	Recent1	\..\Data\ASR\Southend\Southend Radar_3.asr
+RecentFiles	Recent2	\..\Data\ASR\Southend\Southend Radar_1.asr
+RecentFiles	Recent3	\..\Data\ASR\Southend\Southend Radar_2.asr
+RecentFiles	Recent4	\..\Data\ASR\Southend\Southend Radar_4.asr
+RecentFiles	Recent5	\..\Data\ASR\Southend\Southend SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Southend\Southend Radar_1.asr
+ASRFastKeys	2	\..\Data\ASR\Southend\Southend Radar_2.asr
+ASRFastKeys	3	\..\Data\ASR\Southend\Southend Radar_3.asr
+ASRFastKeys	4	\..\Data\ASR\Southend\Southend Radar_4.asr
+ASRFastKeys	5	\..\Data\ASR\Southend\Southend SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
