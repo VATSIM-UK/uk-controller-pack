@@ -285,8 +285,6 @@ ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Land's End ATZ:
-ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
@@ -296,22 +294,23 @@ ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
-ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQL Leuchars MATZ:
-ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -321,15 +320,10 @@ ARTCC low boundary:EGVF Fleetlands ATZ:
 ARTCC low boundary:EGVN Brize Norton CTR:
 ARTCC low boundary:EGVO Odiham MATZ:
 ARTCC low boundary:EGVP Middle Wallop MATZ:
-ARTCC low boundary:EGXC Coningsby MATZ:
-ARTCC low boundary:EGYD Cranwell MATZ:
-ARTCC low boundary:EGYM Marham MATZ:
 ARTCC low boundary:EIDW Dublin CTA:
 ARTCC low boundary:LFAT Le Touquet CTR:
 ARTCC low boundary:LFOH Le Havre CTR:
-ARTCC low boundary:LFQQ Lille CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
-ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Fixes:ABBEW:symbol
@@ -1423,61 +1417,42 @@ Fixes:ZIPWE:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
-Runways:EGGD Bristol 09-27:extended centerline 1
-Runways:EGGD Bristol 09-27:extended centerline 2
-Runways:EGGW London Luton 07-25:extended centerline 1
-Runways:EGGW London Luton 07-25:extended centerline 2
-Runways:EGHH Bournemouth 08-26:extended centerline 1
-Runways:EGHH Bournemouth 08-26:extended centerline 2
-Runways:EGHI Southampton 02-20:extended centerline 1
-Runways:EGHI Southampton 02-20:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGLC London City 09-27:extended centerline 1
-Runways:EGLC London City 09-27:extended centerline 2
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2
-Runways:EGMC Southend 05-23:extended centerline 1
-Runways:EGMC Southend 05-23:extended centerline 2
-Runways:EGMD Lydd 03-21:extended centerline 2
-Runways:EGSS London Stansted 04-22:extended centerline 1
-Runways:EGSS London Stansted 04-22:extended centerline 2
-Runways:EGTK Oxford 01-19:extended centerline 2
-Sids:London TC South East:
-Sids:London TC South West:
-Stars:SODVU Box:
+Geo:Coastline (Medium Detail) GB Main Coastline:
+Geo:Extended centrelines:
+Regions:Uncontrolled airspace:polygon
+Sids:London AC Lakes:
+Sids:Maastricht UAC Delta:
+Sids:Maastricht UAC Jever:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC North:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
+Sids:Scottish TMA Galloway:
+Sids:Scottish TMA Talla:
+Sids:Scottish West:
+Stars:NIMAT-ROTEV Buffer:
+Stars:REMSI Buffer:
 VORs:ABB:symbol
 VORs:ADN:symbol
-VORs:AFI:symbol
 VORs:AMB:symbol
-VORs:AMS:symbol
-VORs:ANT:symbol
 VORs:ARE:symbol
 VORs:BAL:symbol
-VORs:BBE:symbol
-VORs:BBL:symbol
-VORs:BCL:symbol
 VORs:BCN:symbol
 VORs:BDN:symbol
 VORs:BEL:symbol
 VORs:BEN:symbol
-VORs:BFS:symbol
 VORs:BHD:symbol
 VORs:BIG:symbol
 VORs:BKY:symbol
 VORs:BNE:symbol
 VORs:BNN:symbol
 VORs:BPK:symbol
-VORs:BSO:symbol
 VORs:BST:symbol
-VORs:BUB:symbol
-VORs:BUN:symbol
 VORs:BZN:symbol
-VORs:CAN:symbol
 VORs:CGY:symbol
-VORs:CIV:symbol
 VORs:CLM:symbol
 VORs:CLN:symbol
 VORs:CMB:symbol
@@ -1486,31 +1461,22 @@ VORs:CON:symbol
 VORs:CPT:symbol
 VORs:CRK:symbol
 VORs:CWZ:symbol
-VORs:DAP:symbol
 VORs:DCS:symbol
 VORs:DET:symbol
 VORs:DHE:symbol
-VORs:DIK:symbol
 VORs:DIN:symbol
 VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
 VORs:DVR:symbol
-VORs:EEL:symbol
-VORs:EHV:symbol
 VORs:EVX:symbol
 VORs:FFA:symbol
-VORs:FLO:symbol
 VORs:GAM:symbol
-VORs:GMN:symbol
 VORs:GOW:symbol
-VORs:GSY:symbol
 VORs:GUR:symbol
 VORs:GWC:symbol
-VORs:HDR:symbol
 VORs:HON:symbol
-VORs:HUL:symbol
 VORs:IOM:symbol
 VORs:IWL:symbol
 VORs:JSY:symbol
@@ -1518,25 +1484,18 @@ VORs:KOK:symbol
 VORs:KWL:symbol
 VORs:LAM:symbol
 VORs:LDV:symbol
-VORs:LEE:symbol
-VORs:LGE:symbol
 VORs:LGL:symbol
 VORs:LKH:symbol
 VORs:LND:symbol
-VORs:LNO:symbol
 VORs:LON:symbol
-VORs:LSM:symbol
-VORs:LUX:symbol
 VORs:LYD:symbol
 VORs:MAC:symbol
 VORs:MAM:symbol
-VORs:MAS:symbol
 VORs:MAY:symbol
 VORs:MCT:symbol
 VORs:MID:symbol
 VORs:MLD:symbol
 VORs:MTD:symbol
-VORs:NEW:symbol
 VORs:NIK:symbol
 VORs:OCK:symbol
 VORs:ODH:symbol
@@ -1548,7 +1507,6 @@ VORs:PTH:symbol
 VORs:QPR:symbol
 VORs:REM:symbol
 VORs:REN:symbol
-VORs:RKN:symbol
 VORs:ROU:symbol
 VORs:RTM:symbol
 VORs:SAB:symbol
@@ -1556,8 +1514,6 @@ VORs:SAM:symbol
 VORs:SFD:symbol
 VORs:SHA:symbol
 VORs:SOL:symbol
-VORs:SPI:symbol
-VORs:SPL:symbol
 VORs:SPY:symbol
 VORs:STN:symbol
 VORs:STU:symbol
@@ -1570,12 +1526,9 @@ VORs:TNT:symbol
 VORs:TRN:symbol
 VORs:VES:symbol
 VORs:VLN:symbol
-VORs:VYL:symbol
-VORs:WAD:symbol
 VORs:WAL:symbol
 VORs:WIK:symbol
 VORs:WIT:symbol
-VORs:WTN:symbol
 VORs:WTZ:symbol
 SHOWC:1
 SHOWSB:0
@@ -1589,23 +1542,23 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:NODE
-WINDOWAREA:50.121159:-2.863453:52.033582:2.908272
+TAGFAMILY:AC
+WINDOWAREA:52.418467:-11.335966:57.880111:5.147377
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:39
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:490
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,128,0
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
@@ -1614,21 +1567,21 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1410
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:62
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1552
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:157
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1554
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE;ASR_ORKNEY;ASR_TYNE
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

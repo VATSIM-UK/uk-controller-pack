@@ -3350,10 +3350,25 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
+Geo:Coastline (Medium Detail) GB Main Coastline:
 Geo:Extended centrelines:
 Regions:Uncontrolled airspace:polygon
-Sids:London TC North East:
-Sids:London TC North West:
+Sids:London AC Lakes:
+Sids:Maastricht UAC Delta:
+Sids:Maastricht UAC Jever:
+Sids:PC Northeast:
+Sids:PC West:
+Sids:Scottish AC East:
+Sids:Scottish AC North:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Deancross:
+Sids:Scottish Rathlin:
+Sids:Scottish TMA Galloway:
+Sids:Scottish TMA Talla:
+Sids:Scottish West:
+Stars:NIMAT-ROTEV Buffer:
+Stars:REMSI Buffer:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
@@ -3623,23 +3638,23 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:NODE
-WINDOWAREA:50.869498:-3.158205:52.781921:2.613520
+TAGFAMILY:AC
+WINDOWAREA:52.418467:-11.335966:57.880111:5.147377
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:39
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:490
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,128,0
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
@@ -3648,21 +3663,21 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1410
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:62
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1552
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:157
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1554
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_YARMOUTH;ASR_COTSWOLD
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;ASR_PORTREE;ASR_ORKNEY;ASR_TYNE
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

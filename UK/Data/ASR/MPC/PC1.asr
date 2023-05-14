@@ -285,8 +285,6 @@ ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
-ARTCC low boundary:EGHC Land's End ATZ:
-ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
@@ -296,22 +294,24 @@ ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
-ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQL Leuchars MATZ:
-ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -321,51 +321,25 @@ ARTCC low boundary:EGVF Fleetlands ATZ:
 ARTCC low boundary:EGVN Brize Norton CTR:
 ARTCC low boundary:EGVO Odiham MATZ:
 ARTCC low boundary:EGVP Middle Wallop MATZ:
-ARTCC low boundary:EGXC Coningsby MATZ:
-ARTCC low boundary:EGYD Cranwell MATZ:
-ARTCC low boundary:EGYM Marham MATZ:
 ARTCC low boundary:EIDW Dublin CTA:
 ARTCC low boundary:LFAT Le Touquet CTR:
 ARTCC low boundary:LFOH Le Havre CTR:
-ARTCC low boundary:LFQQ Lille CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
-ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-Runways:EGBB Birmingham 15-33:extended centerline 1
-Runways:EGBB Birmingham 15-33:extended centerline 2
-Runways:EGBE Coventry 05-23:extended centerline 1
-Runways:EGBE Coventry 05-23:extended centerline 2
-Runways:EGFF Cardiff 12-30:extended centerline 1
-Runways:EGFF Cardiff 12-30:extended centerline 2
-Runways:EGGD Bristol 09-27:extended centerline 1
-Runways:EGGD Bristol 09-27:extended centerline 2
-Runways:EGGW London Luton 07-25:extended centerline 1
-Runways:EGGW London Luton 07-25:extended centerline 2
-Runways:EGHH Bournemouth 08-26:extended centerline 1
-Runways:EGHH Bournemouth 08-26:extended centerline 2
-Runways:EGHI Southampton 02-20:extended centerline 1
-Runways:EGHI Southampton 02-20:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGLC London City 09-27:extended centerline 1
-Runways:EGLC London City 09-27:extended centerline 2
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2
-Runways:EGMC Southend 05-23:extended centerline 1
-Runways:EGMC Southend 05-23:extended centerline 2
-Runways:EGMD Lydd 03-21:extended centerline 2
-Runways:EGSC Cambridge 05-23:extended centerline 1
-Runways:EGSC Cambridge 05-23:extended centerline 2
-Runways:EGSS London Stansted 04-22:extended centerline 1
-Runways:EGSS London Stansted 04-22:extended centerline 2
-Runways:EGTK Oxford 01-19:extended centerline 2
-Sids:London TC North East:
-Sids:London TC North West:
-Sids:London TC South East:
-Sids:London TC South West:
+Geo:Coastline (Medium Detail) GB Main Coastline:
+Geo:Extended centrelines:
+Sids:PC Northeast:
+Sids:PC Southeast:
+Sids:PC West:
+Stars:DEXEN Buffer:
+Stars:HON Gate:
+Stars:Leeds Delegation Line:
+Stars:Manchester RMA Westerlies:
+Stars:POL - LBA Line:
+Stars:RAMOX Buffer Area A:
+Stars:RAMOX Buffer Area B:
+Stars:REMSI Buffer:
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -379,22 +353,22 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
-WINDOWAREA:50.163631:-3.783298:52.554158:3.431359
+WINDOWAREA:51.489452:-8.881549:55.711598:4.466549
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1523
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:57
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:39
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:490
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,128,0
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
@@ -403,21 +377,20 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
-PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
-PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
-PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1412
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:59
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1431
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:114
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1552
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:157
-PLUGIN:UK Controller Plugin:selectedHoldProfile:0
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_YARMOUTH;ASR_COTSWOLD
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1581
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:106
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_BARNSLEY;ASR_HOLYHEAD;ASR_TYNE
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

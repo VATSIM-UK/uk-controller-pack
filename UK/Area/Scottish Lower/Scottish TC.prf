@@ -1,39 +1,39 @@
-Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\TC_N_Plugins.txt
-Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\TC_N_Profiles.txt
-Settings	SettingsfileSCREEN	\..\..\Data\Settings\LTC\LTC_Screen.txt
-Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
-Settings	Settingsfile	\..\..\Data\Settings\LTC\LTC_General.txt
+Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\Scottish\PX_TC_Plugins.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\Scottish\PX_TC_Profiles.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\STC\STC_Screen.txt
+Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice_Scottish.txt
+Settings	Settingsfile	\..\..\Data\Settings\STC\STC_General.txt
 Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\STC\STC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
-Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
+Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_Scottish.txt
 Settings	sector	UK\Data\Sector\UK_2023_03.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\..\Data\ASR\LTC\TCN2.asr
-RecentFiles	Recent2	\..\..\Data\ASR\LTC\TCN3.asr
-RecentFiles	Recent3	\..\..\Data\ASR\LTC\TCN4.asr
-RecentFiles	Recent4	\..\..\Data\ASR\LTC\Stansted SMR.asr
-RecentFiles	Recent5	\..\..\Data\ASR\LTC\Luton SMR.asr
-RecentFiles	Recent6	\..\..\Data\ASR\LTC\TCN_Ground8.asr
-RecentFiles	Recent7	\..\..\Data\ASR\LTC\TCN_Ground7.asr
-RecentFiles	Recent8	\..\..\Data\ASR\LTC\TCN_Ground.asr
-RecentFiles	Recent9	\..\..\Data\ASR\LTC\TCN1.asr
-ASRFastKeys	1	\..\..\Data\ASR\LTC\TCN1.asr
-ASRFastKeys	2	\..\..\Data\ASR\LTC\TCN2.asr
-ASRFastKeys	3	\..\..\Data\ASR\LTC\TCN3.asr
-ASRFastKeys	4	\..\..\Data\ASR\LTC\TCN4.asr
-ASRFastKeys	5	\..\..\Data\ASR\LTC\Stansted SMR.asr
-ASRFastKeys	6	\..\..\Data\ASR\LTC\Luton SMR.asr
-ASRFastKeys	7	\..\..\Data\ASR\LTC\TCN_Ground7.asr
-ASRFastKeys	8	\..\..\Data\ASR\LTC\TCN_Ground8.asr
-ASRFastKeys	9	\..\..\Data\ASR\LTC\TCN_Ground.asr
+RecentFiles	Recent1	\..\..\Data\ASR\STC\STC1.asr
+RecentFiles	Recent2	\..\..\Data\ASR\STC\STC2.asr
+RecentFiles	Recent3	\..\..\Data\ASR\STC\STC3.asr
+RecentFiles	Recent4	\..\..\Data\ASR\STC\STC4.asr
+RecentFiles	Recent5	\..\..\Data\ASR\STC\Edinburgh SMR.asr
+RecentFiles	Recent6	\..\..\Data\ASR\STC\Glasgow SMR.asr
+RecentFiles	Recent7	\..\..\Data\ASR\STC\Aldergrove SMR.asr
+RecentFiles	Recent8	\..\..\Data\ASR\STC\Belfast City SMR.asr
+RecentFiles	Recent9	\..\..\Data\ASR\STC\STC_Ground.asr
+ASRFastKeys	1	\..\..\Data\ASR\STC\STC1.asr
+ASRFastKeys	2	\..\..\Data\ASR\STC\STC2.asr
+ASRFastKeys	3	\..\..\Data\ASR\STC\STC3.asr
+ASRFastKeys	4	\..\..\Data\ASR\STC\STC4.asr
+ASRFastKeys	5	\..\..\Data\ASR\STC\Edinburgh SMR.asr
+ASRFastKeys	6	\..\..\Data\ASR\STC\Glasgow SMR.asr
+ASRFastKeys	7	\..\..\Data\ASR\STC\Aldergrove SMR.asr
+ASRFastKeys	8	\..\..\Data\ASR\STC\Belfast City SMR.asr
+ASRFastKeys	9	\..\..\Data\ASR\STC\STC_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
