@@ -27,6 +27,7 @@ Generic
 
 .rls Request release, $aircraft, $sid departure
 .release Request release, $aircraft, $sid departure
+.prenote Prenote $aircraft to $arr via $sid departure
 
 .sq Squawk $squawk
 .sqwk Squawk $squawk
@@ -240,12 +241,14 @@ Flight Information Service
 .bs Basic service
 .ts Traffic service
 .dc Deconfliction service
+.rcs Radar control
 .cteca Cleared to enter controlled airspace, $1
 .ctlcabd Cleared to leave controlled airspace by descent
 
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.
 .decon You have left controlled airspace. You are now receiving a deconfliction service which provides detailed traffic information on specific conflicting aircraft AND advice on how to avoid that aircraft. You remain responsible for collision avoidance; you can opt not to follow the advice.
+.radar You have entered controlled airspace and it is now a radar control service. This means that strict adherance to ATC instructions is mandatory unless instructions put your aircraft in danger such as weather. ATC is now resposible for terrain avoidance and separation from traffic.
 
 ========================================================
 Arrival
