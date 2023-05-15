@@ -33,23 +33,20 @@ PrfCID=("LastSession	certificate	"+CID)
 
 # Adds all .prf files to an array and then writes to all those files
 
-aerodrome=((glob.glob('**/*.prf'))+(glob.glob('**/**/*.prf')))
+aerodrome=((glob.glob('**/*.prf'))+(glob.glob('**/**/*.prf')+(glob.glob('**/**/**/*.prf'))))
 
 for i in aerodrome:
-    with open(i) as f:
-        if 'LastSession' in f.read():
-            print(i+" already has details (details have not altered)")
-        else:
-            f=open(i, "a")
-            f.write("\n")
-            f.write(PrfName)
-            f.write("\n")
-            f.write(PrfCID)
-            f.write("\n")
-        #    f.write(PrfPassword)
-        #    f.write("\n")
-            f.write(PrfVCCS)
-            f.close
+    f=open(i, "a")
+    f.write("\n")
+    f.write(PrfName)
+    f.write("\n")
+    f.write(PrfCID)
+    f.write("\n")
+#    f.write(PrfPassword)
+#    f.write("\n")
+    f.write(PrfVCCS)
+    f.close
+    print(i)
 
 print("Detail entry process complete")
 time.sleep(1.5)
