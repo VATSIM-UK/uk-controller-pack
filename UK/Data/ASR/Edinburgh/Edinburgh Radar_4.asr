@@ -3112,22 +3112,22 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
 Free Text:EGPH VRPs\*Arthur's Seat:freetext
-Free Text:EGPH VRPs\*Bathgate:freetext
+Free Text:EGPH VRPs\*Bathgate Rail Stn:freetext
 Free Text:EGPH VRPs\*Cobbinshaw Reservoir:freetext
 Free Text:EGPH VRPs\*Dalkeith:freetext
 Free Text:EGPH VRPs\*Forth Road Bridge:freetext
-Free Text:EGPH VRPs\*Hermiston M8 J1:freetext
 Free Text:EGPH VRPs\*Hillend Ski:freetext
-Free Text:EGPH VRPs\*Kelty:freetext
 Free Text:EGPH VRPs\*Kirkcaldy Harbour:freetext
-Free Text:EGPH VRPs\*Kirkliston:freetext
 Free Text:EGPH VRPs\*Kirknewton:freetext
-Free Text:EGPH VRPs\*Longannet Power Station:freetext
+Free Text:EGPH VRPs\*Longannet Power Stn:freetext
+Free Text:EGPH VRPs\*M8 J1 (Hermiston):freetext
+Free Text:EGPH VRPs\*M9 J1A (Kirkliston):freetext
+Free Text:EGPH VRPs\*M9 J2 (Philpstoun):freetext
+Free Text:EGPH VRPs\*M9 J4 (Polmont):freetext
+Free Text:EGPH VRPs\*M90 J4 (Kelty):freetext
 Free Text:EGPH VRPs\*Musselburgh Racecourse:freetext
 Free Text:EGPH VRPs\*Penicuik:freetext
-Free Text:EGPH VRPs\*Philpstoun (M9 J2):freetext
-Free Text:EGPH VRPs\*Polmont:freetext
-Free Text:EGPH VRPs\*West Linton:freetext
+Free Text:EGPH VRPs\*West Linton Golf Course:freetext
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
 Regions:A-Northwest:polygon
@@ -3362,6 +3362,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:55.400944:-5.094672:56.499056:-1.650328
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1515
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
