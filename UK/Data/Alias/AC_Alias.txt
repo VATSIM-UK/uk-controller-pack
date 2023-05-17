@@ -12,6 +12,8 @@ Generic
 .d Disregard. 
 .r Roger. 
 
+.c .center EG
+
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
 
@@ -254,10 +256,10 @@ Flight Information Service
 Arrival
 ========================================================
 
-.star $star arrival
-.stararr $star arrival, $arr
-.stararrrw $star arrival, $arr landing runway $arrrwy($arr)
-.starrw $star arrival, landing runway $arrrwy($arr)
+.star $star arrival for $arr
+.avstar after vectors, $star arrival for $arr
+.starrw $star arrival for $arr, landing runway $arrrwy($arr)
+
 .hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
 .holdl Hold at $1, left hand turns, as published. Delay $2 minutes
 .holdr Hold at $1, right hand turns, as published. Delay $2 minutes
