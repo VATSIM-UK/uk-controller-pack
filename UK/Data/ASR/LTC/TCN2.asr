@@ -1450,8 +1450,11 @@ Runways:EGSH Norwich 09-27:extended centerline 1
 Runways:EGSH Norwich 09-27:extended centerline 2
 Runways:EGSS London Stansted 04-22:extended centerline 1
 Runways:EGSS London Stansted 04-22:extended centerline 2
+Sids:London TC East:
 Sids:London TC North East:
 Sids:London TC North West:
+Sids:London TC South East:
+Sids:London TC South West:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol
