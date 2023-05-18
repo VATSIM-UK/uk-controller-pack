@@ -3113,10 +3113,13 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
+Free Text:EGNM VRPs\*Arthington Viaduct:freetext
+Free Text:EGNM VRPs\*Chain Bar Rbt:freetext
 Free Text:EGNM VRPs\*Dewsbury:freetext
 Free Text:EGNM VRPs\*Eccup Reservoir:freetext
-Free Text:EGNM VRPs\*Harrogate:freetext
-Free Text:EGNM VRPs\*Keighley:freetext
+Free Text:EGNM VRPs\*Harrogate Rail Stn:freetext
+Free Text:EGNM VRPs\*M1/A1(M) Jct.:freetext
+Free Text:EGNM VRPs\*Salts Mill:freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace (Grey):polygon
 Runways:EGNM Leeds Bradford 14-32:extended centerline 1

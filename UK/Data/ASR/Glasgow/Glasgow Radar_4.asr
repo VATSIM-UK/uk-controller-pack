@@ -3120,9 +3120,9 @@ Free Text:EGPF VRPs\*Dumbarton:freetext
 Free Text:EGPF VRPs\*East Kilbride:freetext
 Free Text:EGPF VRPs\*Erskine Bridge:freetext
 Free Text:EGPF VRPs\*Greenock:freetext
-Free Text:EGPF VRPs\*Inverkip:freetext
-Free Text:EGPF VRPs\*Kilmalcolm:freetext
-Free Text:EGPF VRPs\*Kilmarnock:freetext
+Free Text:EGPF VRPs\*Inverkip Power Stn:freetext
+Free Text:EGPF VRPs\*Kilmacolm:freetext
+Free Text:EGPF VRPs\*Kilmarnock Rail Stn:freetext
 Free Text:EGPF VRPs\*Kingston Bridge:freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Geo:Extended centrelines:
@@ -3342,6 +3342,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:55.148004:-6.655745:56.520645:-2.350314
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1527
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0

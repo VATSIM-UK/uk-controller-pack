@@ -6,7 +6,8 @@
 5. Procedure Change (NOTAM) - Added activation schedule and amended airspace proximity warning values for Danger Areas to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
 6. Enhancement - Added Southend Profile - thanks to @SamLefevre (Samuel Lefevre)
 7. Enhancement - Update and add new TC/MPC/STC profiles - thanks to @SamLefevre (Samuel Lefevre)
-X. Enhancement - Amended Alias STAR commands and added .c (.center EG) command for moving ASRs - thanks to @hazzas-99
+8. AIRAC (2304) - Updated EGPH/PF/AA/NM ASRs with revised VRP labels - thanks to @hazzas-99
+9. Enhancement - Amended Alias STAR commands and added .c (.center EG) command for moving ASRs - thanks to @hazzas-99
 
 # Changes from release 2022/13 to 2023/03
 1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)

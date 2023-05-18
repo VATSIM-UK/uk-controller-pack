@@ -3112,12 +3112,12 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
 Free Text:EGAA VRPs\*Ballymena:freetext
-Free Text:EGAA VRPs\*Cluntoe:freetext
+Free Text:EGAA VRPs\*Cluntoe (Disused AD):freetext
 Free Text:EGAA VRPs\*Divis:freetext
-Free Text:EGAA VRPs\*Glengormley:freetext
-Free Text:EGAA VRPs\*Lame:freetext
+Free Text:EGAA VRPs\*Glengormley M2 J4:freetext
+Free Text:EGAA VRPs\*Larne:freetext
 Free Text:EGAA VRPs\*Portadown:freetext
-Free Text:EGAA VRPs\*Toome:freetext
+Free Text:EGAA VRPs\*Toome (Disused AD):freetext
 Free Text:EGAC VRPs\*Comber:freetext
 Free Text:EGAC VRPs\*Groomsport:freetext
 Free Text:EGAC VRPs\*Saintfield:freetext
