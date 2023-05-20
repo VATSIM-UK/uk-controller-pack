@@ -11,7 +11,7 @@ Fixes:name:7895040:3.2:0:0:2
 Sids:line:25700:3.0:0:0:7
 Stars:line:8421376:3.0:0:0:7
 ARTCC high boundary:line:8421376:3.0:0:0:7
-ARTCC boundary:line:128:3.0:1:0:7
+ARTCC boundary:line:64:3.0:1:0:7
 ARTCC low boundary:line:8421376:3.0:2:0:7
 Geo:line:8421376:3.0:0:0:7
 VORs:symbol:8421376:1.4:0:0:7
