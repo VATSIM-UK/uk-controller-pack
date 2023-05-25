@@ -95,7 +95,7 @@ Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:21331:0.5:2:2:7
+Sector:line:8454143:0.5:0:0:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:4135951:3.5:0:0:7
 Sector:inactive sector background:4135951:3.5:0:0:7
