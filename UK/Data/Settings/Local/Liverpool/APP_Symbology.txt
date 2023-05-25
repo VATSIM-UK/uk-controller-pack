@@ -9,8 +9,8 @@ High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:12632256:1.0:0:0:7
 Fixes:name:11206655:3.2:0:0:2
 Sids:line:9865045:3.0:1:0:7
-Stars:line:11248794:3.0:1:0:7
-ARTCC high boundary:line:5924050:3.0:0:1:7
+Stars:line:5924050:3.0:0:2:7
+ARTCC high boundary:line:9865045:3.0:0:1:7
 ARTCC boundary:line:2693240:3.0:0:0:7
 ARTCC low boundary:line:9865045:3.0:0:1:7
 Geo:line:11206655:3.0:0:0:7
