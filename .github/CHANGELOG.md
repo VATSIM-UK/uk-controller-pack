@@ -1,3 +1,6 @@
+# Changes from release 2023/05 to 2023/06
+1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
 2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
