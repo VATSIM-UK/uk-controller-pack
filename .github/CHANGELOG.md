@@ -1,4 +1,7 @@
 # Changes from release 2023/03 to 2023/05
+1. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
+
+# Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
 2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
 3. Enhancement - Updated Reykjavik/Iceland CPDLC logon codes (TopSky only) - thanks to @hazzas-99
