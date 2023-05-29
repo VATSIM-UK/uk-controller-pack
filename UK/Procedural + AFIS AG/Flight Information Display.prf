@@ -33,3 +33,5 @@ LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep
 LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)
 RecentFiles	Recent1	\..\Data\ASR\FID\FID.asr
 RecentFiles	Recent2	\..\Data\ASR\FID\Generic SMR.asr
+ASRFastKeys	1	\..\Data\ASR\FID\FID.asr
+ASRFastKeys	2	\..\Data\ASR\FID\Generic SMR.asr
