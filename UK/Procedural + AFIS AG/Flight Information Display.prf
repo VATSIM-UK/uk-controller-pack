@@ -1,0 +1,35 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\FID\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\FID\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\FID\FID_Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice_FID.txt
+Settings	Settingsfile	\..\Data\Settings\FID\FID_General.txt
+Settings	SettingsfileARR	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\FID\FID_Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\FID\FID_Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	sector	UK\Data\Sector\UK_2023_05.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\Data\Datafiles\icao.txt
+Settings	airways	\..\Data\Datafiles\airway.txt
+LastSession	server	AUTOMATIC
+LastSession	atis_url0	http://uniatis.net/atis.php?arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&apptype=ILS&info=$atiscodeA&metar=$metar($atisairportA)
+LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&apptype=ILS&info=$atiscodeB&metar=$metar($atisairportB)
+LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep=$deprwy($atisairportC)&apptype=ILS&info=$atiscodeC&metar=$metar($atisairportC)
+LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)
+RecentFiles	Recent1	\..\Data\ASR\FID\FID.asr
+RecentFiles	Recent2	\..\Data\ASR\FID\Generic SMR.asr
