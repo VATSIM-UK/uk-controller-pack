@@ -1,5 +1,6 @@
 # Changes from release 2023/05 to 2023/06
-1. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
+1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
