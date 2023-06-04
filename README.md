@@ -20,3 +20,5 @@ TopSky Plugin - thanks to Juha Holopainen (https://vatsim-scandinavia.org/forums
 AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
 
 Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
+
+A-CDM Plugin - thanks to @rpuig2001 (https://github.com/rpuig2001/CDM)

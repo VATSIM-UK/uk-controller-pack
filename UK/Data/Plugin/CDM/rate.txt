@@ -1,3 +1,5 @@
+//AIRPORT:A:ArrRwyList:NotArrRwyList:D:DepRwyList:NotDepRwyList:DependentRwyList:Rate_RateLvo
+
 LEBL:A:24R:*:D:24L:*:24R,24L:40_20
 LEBL:A:06L:*:D:06R:*:06L,06R:40_20
 LEBL:A:02:06L:D:06R:*:*:24_12
