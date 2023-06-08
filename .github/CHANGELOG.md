@@ -2,6 +2,7 @@
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
 3. Procedure Change (2306) - Updated BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
+4. Procedure Change - Removed activation schedule for vRAF Ex Cobra Warrior Exercise - thaks to @hazzas-99
 
 # Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
