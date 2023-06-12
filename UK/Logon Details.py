@@ -33,20 +33,12 @@ PrfCID=("LastSession	certificate	"+CID)
 
 # Adds all .prf files to an array and then writes to all those files
 
-aerodrome=((glob.glob('**/*.prf'))+(glob.glob('**/**/*.prf')+(glob.glob('**/**/**/*.prf'))))
-
-for i in aerodrome:
-    f=open(i, "a")
-    f.write("\n")
-    f.write(PrfName)
-    f.write("\n")
-    f.write(PrfCID)
-    f.write("\n")
-#    f.write(PrfPassword)
-#    f.write("\n")
-    f.write(PrfVCCS)
-    f.close
-    print(i)
+for root, dirs, files in os.walk(os.getcwd()):
+    for file in files:
+        if file.endswith(".prf"):
+            file_path = os.path.join(root, file)
+            with open(file_path, 'a') as f:
+                    f.write(f"{PrfName}\n{PrfCID}\n")
 
 print("Detail entry process complete")
 time.sleep(1.5)
