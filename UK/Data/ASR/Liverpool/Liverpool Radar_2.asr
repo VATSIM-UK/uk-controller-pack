@@ -1455,7 +1455,210 @@ Regions:A-EastCoast:polygon
 Regions:A-Northwest:polygon
 Regions:A-Scottish:polygon
 Regions:A-SouthWalesMidlands:polygon
-Stars:Manchester RMA Westerlies:
+Runways:000A Show adjacent departure airports 00-01:centerline
+Runways:EGAA Belfast Aldergrove 07-25:centerline
+Runways:EGAA Belfast Aldergrove 17-35:centerline
+Runways:EGAB Enniskillen/St. Angelo 14-32:centerline
+Runways:EGAC Belfast City 22-04:centerline
+Runways:EGAD Newtownards 03-21:centerline
+Runways:EGAD Newtownards 08-26:centerline
+Runways:EGAD Newtownards 15-33:centerline
+Runways:EGAE Londonderry/Eglinton 08-26:centerline
+Runways:EGBB Birmingham 15-33:centerline
+Runways:EGBE Coventry 05-23:centerline
+Runways:EGBF Bedford 08-26:centerline
+Runways:EGBJ Gloucestershire 04-22:centerline
+Runways:EGBJ Gloucestershire 09-27:centerline
+Runways:EGBK Northampton/Sywell 03L-21R:centerline
+Runways:EGBK Northampton/Sywell 03R-21L:centerline
+Runways:EGBK Northampton/Sywell 05-23:centerline
+Runways:EGBK Northampton/Sywell 14-32:centerline
+Runways:EGBO Wolverhampton 04-22:centerline
+Runways:EGBO Wolverhampton 10-28:centerline
+Runways:EGBO Wolverhampton 16-34:centerline
+Runways:EGBP Kemble 08-26:centerline
+Runways:EGBS Shobdon 08-26:centerline
+Runways:EGBW Wellesbourne 05-23:centerline
+Runways:EGBW Wellesbourne 18-36:centerline
+Runways:EGCB Manchester Barton 02-20:centerline
+Runways:EGCB Manchester Barton 08L-26R:centerline
+Runways:EGCB Manchester Barton 08R-26L:centerline
+Runways:EGCB Manchester Barton 14-32:centerline
+Runways:EGCC Manchester 05L-23R:centerline
+Runways:EGCC Manchester 05R-23L:centerline
+Runways:EGCJ Sherburn in Elmet 01-19:centerline
+Runways:EGCJ Sherburn in Elmet 06-24:centerline
+Runways:EGCJ Sherburn in Elmet 10-28:centerline
+Runways:EGCJ Sherburn in Elmet 10G-28G:centerline
+Runways:EGCM Leeds East 06-24:centerline
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:centerline
+Runways:EGDM Boscombe Down 05-23:centerline
+Runways:EGDR Culdrose 06-24:centerline
+Runways:EGDR Culdrose 11-29:centerline
+Runways:EGDR Culdrose 18-36:centerline
+Runways:EGDY Yeovilton 04-22:centerline
+Runways:EGDY Yeovilton 08-26:centerline
+Runways:EGEO Oban 01-19:centerline
+Runways:EGET Lerwick/Tingwall 02-20:centerline
+Runways:EGFE Haverfordwest 03-21:centerline
+Runways:EGFE Haverfordwest 09-27:centerline
+Runways:EGFF Cardiff 12-30:centerline
+Runways:EGFH Swansea 04-22:centerline
+Runways:EGFH Swansea 10-28:centerline
+Runways:EGGD Bristol 09-27:centerline
+Runways:EGGP Liverpool 09-27:centerline
+Runways:EGGW London Luton 07-25:centerline
+Runways:EGHC Land's End 02-20:centerline
+Runways:EGHC Land's End 07-25:centerline
+Runways:EGHC Land's End 11-29:centerline
+Runways:EGHC Land's End 16-34:centerline
+Runways:EGHE Scilly Isles/St Mary's 09-27:centerline
+Runways:EGHE Scilly Isles/St Mary's 14-32:centerline
+Runways:EGHF Lee-on-Solent 05-23:centerline
+Runways:EGHG Yeovil/Westland 09-27:centerline
+Runways:EGHH Bournemouth 08-26:centerline
+Runways:EGHI Southampton 02-20:centerline
+Runways:EGHJ Bembridge 12-30:centerline
+Runways:EGHL Lasham 09-27:centerline
+Runways:EGHN Isle of Wight Sandown 05-23:centerline
+Runways:EGHO Thruxton 07-25:centerline
+Runways:EGHO Thruxton 12-30:centerline
+Runways:EGHQ Newquay 12-30:centerline
+Runways:EGHR Chichester/Goodwood 06-24:centerline
+Runways:EGHR Chichester/Goodwood 10-28:centerline
+Runways:EGHR Chichester/Goodwood 14-32:centerline
+Runways:EGJA Alderney 03-21:centerline
+Runways:EGJA Alderney 08-26:centerline
+Runways:EGJA Alderney 13-31:centerline
+Runways:EGJB Guernsey 09-27:centerline
+Runways:EGJJ Jersey 08-26:centerline
+Runways:EGKA Shoreham 02-20:centerline
+Runways:EGKA Shoreham 02G-20G:centerline
+Runways:EGKA Shoreham 06-24:centerline
+Runways:EGKA Shoreham 13-31:centerline
+Runways:EGKB Biggin Hill 03-21:centerline
+Runways:EGKK Gatwick 08L-26R:centerline
+Runways:EGKK Gatwick 08R-26L:centerline
+Runways:EGKR Redhill 07L-25R:centerline
+Runways:EGKR Redhill 07R-25L:centerline
+Runways:EGKR Redhill 18-36:centerline
+Runways:EGLC London City 09-27:centerline
+Runways:EGLF Farnborough 06-24:centerline
+Runways:EGLJ Chalgrove 12-30:centerline
+Runways:EGLK Blackbushe 07-25:centerline
+Runways:EGLL London Heathrow 09L-27R:centerline
+Runways:EGLL London Heathrow 09R-27L:centerline
+Runways:EGLW London Heliport 02-20:centerline
+Runways:EGMC Southend 05-23:centerline
+Runways:EGMD Lydd 03-21:centerline
+Runways:EGNC Carlisle 01-19:centerline
+Runways:EGNC Carlisle 06-24:centerline
+Runways:EGNE Retford Gamston 02-20:centerline
+Runways:EGNF Netherthorpe 06-24:centerline
+Runways:EGNF Netherthorpe 18-36:centerline
+Runways:EGNH Blackpool 10-28:centerline
+Runways:EGNJ Humberside 02-20:centerline
+Runways:EGNL Walney 05-23:centerline
+Runways:EGNL Walney 17-35:centerline
+Runways:EGNM Leeds Bradford 14-32:centerline
+Runways:EGNO Warton 07-25:centerline
+Runways:EGNR Hawarden 04-22:centerline
+Runways:EGNS Isle of Man - Ronaldsway 03-21:centerline
+Runways:EGNS Isle of Man - Ronaldsway 08-26:centerline
+Runways:EGNT Newcastle 07-25:centerline
+Runways:EGNV Teesside 05-23:centerline
+Runways:EGNX East Midlands 09-27:centerline
+Runways:EGOE Ternhill 04-22:centerline
+Runways:EGOE Ternhill 10-28:centerline
+Runways:EGOE Ternhill 17-35:centerline
+Runways:EGOQ Mona 04-22:centerline
+Runways:EGOS Shawbury 05-23:centerline
+Runways:EGOS Shawbury 18-36:centerline
+Runways:EGOV Valley 01-19:centerline
+Runways:EGOV Valley 13-31:centerline
+Runways:EGPA Kirkwall 09-27:centerline
+Runways:EGPA Kirkwall 14-32:centerline
+Runways:EGPB Sumburgh 06-24:centerline
+Runways:EGPB Sumburgh 09-27:centerline
+Runways:EGPB Sumburgh 15-33:centerline
+Runways:EGPC Wick 13-31:centerline
+Runways:EGPD Aberdeen 16-34:centerline
+Runways:EGPE Inverness 05-23:centerline
+Runways:EGPE Inverness 11-29:centerline
+Runways:EGPF Glasgow 05-23:centerline
+Runways:EGPH Edinburgh 06-24:centerline
+Runways:EGPI Islay 08-26:centerline
+Runways:EGPI Islay 13-31:centerline
+Runways:EGPK Prestwick 03-21:centerline
+Runways:EGPK Prestwick 12-30:centerline
+Runways:EGPL Benbecula 06-24:centerline
+Runways:EGPL Benbecula 17-35:centerline
+Runways:EGPN Dundee 09-27:centerline
+Runways:EGPO Stornoway 06-24:centerline
+Runways:EGPO Stornoway 18-36:centerline
+Runways:EGPR Barra 07-25:centerline
+Runways:EGPR Barra 11-29:centerline
+Runways:EGPR Barra 15-33:centerline
+Runways:EGPT Perth/Scone 03-21:centerline
+Runways:EGPT Perth/Scone 09-27:centerline
+Runways:EGPT Perth/Scone 15-33:centerline
+Runways:EGPU Tiree 05-23:centerline
+Runways:EGPU Tiree 11-29:centerline
+Runways:EGQL Leuchars 04-22:centerline
+Runways:EGQL Leuchars 08-26:centerline
+Runways:EGQS Lossiemouth 05-23:centerline
+Runways:EGQS Lossiemouth 10-28:centerline
+Runways:EGSC Cambridge 05-23:centerline
+Runways:EGSG Stapleford 03L-21R:centerline
+Runways:EGSG Stapleford 03R-21L:centerline
+Runways:EGSH Norwich 09-27:centerline
+Runways:EGSL Andrewsfield 09L-27R:centerline
+Runways:EGSL Andrewsfield 09R-27L:centerline
+Runways:EGSS London Stansted 04-22:centerline
+Runways:EGSU Duxford 06L-24R:centerline
+Runways:EGSU Duxford 06R-24L:centerline
+Runways:EGSX North Weald 20-02:centerline
+Runways:EGSY St Athan 07-25:centerline
+Runways:EGTB Wycombe Air Park/Booker 06-24:centerline
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:centerline
+Runways:EGTC Cranfield 03-21:centerline
+Runways:EGTD Dunsfold 07-25:centerline
+Runways:EGTE Exeter 08-26:centerline
+Runways:EGTF Fairoaks 06-24:centerline
+Runways:EGTH Old Warden 02-20:centerline
+Runways:EGTK Oxford 01-19:centerline
+Runways:EGTO Rochester 02L-20R:centerline
+Runways:EGTO Rochester 02R-20L:centerline
+Runways:EGTR Elstree 08-26:centerline
+Runways:EGTU Dunkeswell 04-22:centerline
+Runways:EGUB Benson 01-19:centerline
+Runways:EGUL Lakenheath 06-24:centerline
+Runways:EGUN Mildenhall 11-29:centerline
+Runways:EGVA Fairford 09-27:centerline
+Runways:EGVN Brize Norton 07-25:centerline
+Runways:EGVO Odiham 09-27:centerline
+Runways:EGWC Cosford 06-24:centerline
+Runways:EGWC Cosford 06G-24G:centerline
+Runways:EGWU Northolt 07-25:centerline
+Runways:EGXC Coningsby 07-25:centerline
+Runways:EGXE Leeming 16-34:centerline
+Runways:EGXT Wittering 07-25:centerline
+Runways:EGXW Waddington 02-20:centerline
+Runways:EGXZ Topcliffe 02-20:centerline
+Runways:EGXZ Topcliffe 13-31:centerline
+Runways:EGYD Cranwell 01-19:centerline
+Runways:EGYD Cranwell 08-26:centerline
+Runways:EGYE Barkston Heath 06-24:centerline
+Runways:EGYE Barkston Heath 10-28:centerline
+Runways:EGYE Barkston Heath 18-36:centerline
+Runways:EGYM Marham 01-19:centerline
+Runways:EGYM Marham 06-24:centerline
+Runways:EIDL Donegal 03-21:centerline
+Runways:EIDW Dublin 10L-28R:centerline
+Runways:EIDW Dublin 10R-28L:centerline
+Runways:EIDW Dublin 16-34:centerline
+Sids:EGGP Liverpool SMAA:
+Stars:Liverpool RMA:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
@@ -1558,7 +1761,7 @@ ABOVE:0
 LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:0
+HISTORY_DOTS:6
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
@@ -1587,7 +1790,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
-PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
