@@ -28,20 +28,20 @@ jobs:
     - name: Run Python script
       run: |
         python .github/workflows/auto_airac_actions.py
-        echo "::set-output name=airac::$(cat airac.txt)"
+        echo "{airac}={$(cat airac.txt)}" >> "$GITHUB_ENV"
 
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Sector file update for AIRAC ${{ steps.python-script.outputs.airac }}"
+        git commit -m "Sector file update for AIRAC ${{ env.airac }}"
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
         token: ${{ secrets.PULL }}
-        branch: sf_${{ steps.python-script.outputs.output_value }}
-        title: ${{ steps.python-script.outputs.output_value }} Sector File Update
-        body: This pull request was automatically generated to update the sector file to AIRAC ${{ steps.python-script.outputs.output_value }}.
+        branch: sf_${{ env.airac }}
+        title: ${{ env.airac }} Sector File Update
+        body: This pull request was automatically generated to update the sector file to AIRAC ${{ env.airac }}.
         reviewers: chssn
