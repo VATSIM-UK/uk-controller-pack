@@ -28,7 +28,7 @@ jobs:
     - name: Run Python script
       run: |
         python .github/workflows/auto_airac_actions.py
-        echo "{airac}={$(cat airac.txt)}" >> "$GITHUB_ENV"
+        echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
 
     - name: Commit changes
       run: |
