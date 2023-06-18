@@ -135,7 +135,7 @@ class CurrentInstallation:
 
                     # Extract the contents of the archive
                     with py7zr.SevenZipFile(file_path, mode="r") as archive:
-                        archive.extractall(path=f"{self.ukcp_location}\\Data\\Sector")
+                        archive.extractall(path=f"{self.ukcp_location}/Data/Sector")
 
                     # Clean up artifacts
                     os.remove(file_path)
@@ -143,10 +143,10 @@ class CurrentInstallation:
                     ext = ["ese", "rwy", "sct"]
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
-                        os.remove(f"{self.ukcp_location}\\Data\\Sector\\{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}")
+                        os.remove(f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}")
 
                     # Return the newly downloaded sector file
-                    return str(f"{self.ukcp_location}\\Data\\Sector\\UK_{airac_format}.sct")
+                    return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
             else:
                 logger.error(f"Sector file search found {len(sector_file)} files. You should only have one of these!")
@@ -154,7 +154,7 @@ class CurrentInstallation:
                 raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
 
         sct_file = get_sector_file()
-        sct_file_split = sct_file.split("\\")
+        sct_file_split = sct_file.split("/")
 
         @iter_files(".asr", "r+")
         def asr_sector_file(lines=None, file=None, file_path=None):
@@ -163,7 +163,7 @@ class CurrentInstallation:
             sector_file = f"SECTORFILE:{sct_file}"
             sector_title = f"SECTORTITLE:{sct_file_split[-1]}"
 
-            sf_replace = sector_file.replace("\\", "\\\\")
+            sf_replace = sector_file.replace("/", "\\\\")
 
             chk = False
             for line in lines:
@@ -194,7 +194,7 @@ class CurrentInstallation:
 
             sector_file = f"Settings\tsector\t{sct_file}"
 
-            sf_replace = sector_file.replace("\\", "\\\\")
+            sf_replace = sector_file.replace("/", "\\\\")
 
             for line in lines:
                 # Add the sector file path
