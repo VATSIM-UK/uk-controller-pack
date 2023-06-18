@@ -83,6 +83,10 @@ class CurrentInstallation:
         airac = Airac()
         self.airac = airac.current_tag()
 
+        # Write the current tag to use as a workflow variable
+        with open("airac.txt", "w", encoding="utf-8") as a_file:
+            a_file.write(self.airac)
+
         # Sector file base URL
         self.sector_url = "http://www.vatsim.uk/files/sector/esad/"
 
@@ -206,9 +210,7 @@ class CurrentInstallation:
 
         logger.info("Updating references to SECTORFILE and SECTORTITLE")
         asr_sector_file()
-        logger.info("Updating your login and VCCS details")
         prf_files()
-        logger.info("Updating any other settings you have opted to carry over")
 
 run = CurrentInstallation()
 run.apply_settings()
