@@ -1,6 +1,12 @@
 name: Automatic AIRAC Actions
 
 on:
+  repository_dispatch:
+    types:
+      - released
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       artifact_name:
