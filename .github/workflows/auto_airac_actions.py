@@ -7,12 +7,13 @@ Chris Parkinson (@chssn)
 
 # Standard Libraries
 import datetime
+import json
 import os
 import re
 from math import floor
+from zipfile import ZipFile
 
 # Third Party Libraries
-import py7zr
 import requests
 from loguru import logger
 
@@ -86,6 +87,10 @@ class CurrentInstallation:
         # Write the current tag to use as a workflow variable
         with open("airac.txt", "w", encoding="utf-8") as a_file:
             a_file.write(self.airac)
+        
+        # Set some other vars
+        self.remote_repo_owner = "chssn"
+        self.remote_repo_name = "UK-Sector-File-C"
 
     def apply_settings(self) -> bool:
         """Applies settings to relevant files"""
@@ -125,6 +130,32 @@ class CurrentInstallation:
                 if airac_format not in sector_file[0]:
                     logger.warning(f"Sector file appears out of date with the current {self.airac} release!")
                     ext = ["ese", "rwy", "sct"]
+
+                    # Get artifact url from VATSIM-UK/UK-Sector-File
+                    artifact_list = requests.get(f"https://api.github.com/repos/{self.remote_repo_owner}/{self.remote_repo_name}/actions/artifacts", timeout=30)
+                    if artifact_list.status_code == 200:
+                        al_json = json.loads(artifact_list.content)
+                        artifact_url = al_json["artifacts"][0]["archive_download_url"]
+                    else:
+                        raise requests.HTTPError(f"URL not found - {artifact_list.url}")
+
+                    # Download the file
+                    headers = {
+                        'Accept': 'application/vnd.github+json',
+                        'Authorization': f'Bearer {os.environ["REMOTE_KEY"]}',
+                        'X-GitHub-Api-Version': '2022-11-28'
+                    }
+                    response = requests.get(artifact_url, headers=headers, timeout=30)
+                    if response.status_code == 200:
+                        with open("sector.zip", "wb") as file:
+                            file.write(response.content)
+                    else:
+                        raise requests.HTTPError(f"URL not found - {artifact_list.url}")
+                    
+                    # Unzip the file
+                    with ZipFile("artifact.zip", "r") as zip_ref:
+                        zip_ref.extractall(".")
+
                     # Rename artifact files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:

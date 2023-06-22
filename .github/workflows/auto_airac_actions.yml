@@ -29,27 +29,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
 
-      - name: Get Artifact Download URL from VATSIM-UK/UK-Sector-File
-        id: download
-        run: |
-          echo "url=$(curl -s -X GET https://api.github.com/repos/chssn/UK-Sector-File-C/actions/artifacts | jq -r '.artifacts[] | select(.name=="UK Sector File") | .archive_download_url')" >> "$GITHUB_ENV"
-
-      - name: Download Artifact from VATSIM-UK/UK-Sector-File
-        run: |
-          curl -sL \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer ${{ secrets.DOWNLOAD_ARTIFACT }}"\
-          -H "X-GitHub-Api-Version: 2022-11-28" \
-          -o artifact.zip "${{ env.url }}"
-          unzip artifact.zip
-          rm artifact.zip
-
-      - name: Extract Artifact
-        run: |
-          unzip ${{ github.event.inputs.artifact_name }}.zip
-          rm ${{ github.event.inputs.artifact_name }}.zip
-
       - name: Run Python script
+        env:
+            REMOTE_KEY: ${{ secrets.DOWNLOAD_ARTIFACT }}
         run: |
           python .github/workflows/auto_airac_actions.py
           echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
