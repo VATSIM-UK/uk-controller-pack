@@ -33,7 +33,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: ${{ github.event.inputs.artifact_name }}
-          repository: VATSIM-UK/UK-Sector-File
+          repository: chssn/UK-Sector-File
           ref: ${{ github.sha }}
 
       - name: Extract Artifact
