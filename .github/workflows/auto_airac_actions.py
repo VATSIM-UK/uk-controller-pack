@@ -188,6 +188,7 @@ class CurrentInstallation:
             sector_title = f"SECTORTITLE:{sct_file_split[-1]}"
 
             sf_replace = sector_file.replace("/", "\\\\")
+            st_replace = sector_title.replace("/", "\\\\")
 
             chk = False
             for line in lines:
@@ -196,7 +197,7 @@ class CurrentInstallation:
 
                 # If no replacement is made then try the sector title
                 if content == line:
-                    content = re.sub(r"^SECTORTITLE\:(.*)", sector_title, line)
+                    content = re.sub(r"^SECTORTITLE\:(.*)", st_replace, line)
 
                 if content != line:
                     chk = True
@@ -209,8 +210,8 @@ class CurrentInstallation:
             if not chk:
                 file.close()
                 with open(file_path, "a", encoding="utf-8") as file_append:
-                    file_append.write(sector_file + "\n")
-                    file_append.write(sector_title + "\n")
+                    file_append.write(sf_replace + "\n")
+                    file_append.write(st_replace + "\n")
 
         @iter_files(".prf", "r+")
         def prf_files(lines=None, file=None, file_path=None):
