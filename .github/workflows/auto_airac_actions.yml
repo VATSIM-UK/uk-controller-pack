@@ -1,12 +1,6 @@
 name: Automatic AIRAC Actions
 
 on:
-  repository_dispatch:
-    types:
-      - released
-  push:
-    branches:
-      - main
   workflow_dispatch:
     inputs:
       artifact_name:
@@ -32,11 +26,11 @@ jobs:
       - name: Get Artifact Download URL from VATSIM-UK/UK-Sector-File
         id: download
         run: |
-          echo "::set-output name=url::$(curl -s -X GET https://api.github.com/repos/chssn/UK-Sector-File-C/actions/artifacts | jq -r '.artifacts[] | select(.name=="'${{ github.event.inputs.artifact_name }}'") | .archive_download_url')"
+          echo "url=$(curl -s -X GET https://api.github.com/repos/chssn/UK-Sector-File-C/actions/artifacts | jq -r '.artifacts[] | select(.name=="'${{ github.event.inputs.artifact_name }}'") | .archive_download_url')" >> "$GITHUB_ENV"
 
-      - name: Download Artifact from Repository A
+      - name: Download Artifact from VATSIM-UK/UK-Sector-File
         run: |
-          curl -sL -o artifact.zip "${{ steps.download.outputs.url }}"
+          curl -sL -o artifact.zip "${{ env.url }}"
           unzip artifact.zip
           rm artifact.zip
 
