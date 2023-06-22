@@ -29,12 +29,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
 
-      - name: Download Artifact from VATSIM-UK/UK-Sector-File
-        uses: actions/download-artifact@v3
-        with:
-          name: ${{ github.event.inputs.artifact_name }}
-          repository: chssn/UK-Sector-File-C
-          ref: ${{ github.sha }}
+      - name: Get Artifact Download URL from VATSIM-UK/UK-Sector-File
+        id: download
+        run: |
+          echo "::set-output name=url::$(curl -s -X GET https://api.github.com/repos/chssn/UK-Sector-File-C/actions/artifacts | jq -r '.artifacts[] | select(.name=="'${{ github.event.inputs.artifact_name }}'") | .archive_download_url')"
+
+      - name: Download Artifact from Repository A
+        run: |
+          curl -sL -o artifact.zip "${{ steps.download.outputs.url }}"
+          unzip artifact.zip
+          rm artifact.zip
 
       - name: Extract Artifact
         run: |
