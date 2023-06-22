@@ -89,8 +89,8 @@ class CurrentInstallation:
             a_file.write(self.airac)
         
         # Set some other vars
-        self.remote_repo_owner = "chssn"
-        self.remote_repo_name = "UK-Sector-File-C"
+        self.remote_repo_owner = "VATSIM-UK"
+        self.remote_repo_name = "UK-Sector-File"
 
     def apply_settings(self) -> bool:
         """Applies settings to relevant files"""
