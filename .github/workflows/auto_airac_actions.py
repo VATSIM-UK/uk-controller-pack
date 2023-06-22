@@ -153,7 +153,7 @@ class CurrentInstallation:
                         raise requests.HTTPError(f"URL not found - {artifact_list.url}")
                     
                     # Unzip the file
-                    with ZipFile("artifact.zip", "r") as zip_ref:
+                    with ZipFile("sector.zip", "r") as zip_ref:
                         zip_ref.extractall(".")
 
                     # Rename artifact files
