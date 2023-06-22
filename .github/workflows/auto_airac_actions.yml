@@ -8,40 +8,56 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      artifact_name:
+        description: 'UK Sector File'
+        required: true
 
 jobs:
   python-script-and-pr:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install -r .github/workflows/requirements.txt
+      - name: Install dependencies
+        run: pip install -r .github/workflows/requirements.txt
 
-    - name: Run Python script
-      run: |
-        python .github/workflows/auto_airac_actions.py
-        echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
+      - name: Download Artifact from Repository A
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ github.event.inputs.artifact_name }}
+          repository: VATSIM-UK/UK-Sector-File
+          ref: ${{ github.sha }}
 
-    - name: Commit changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Sector file update for AIRAC ${{ env.airac }}"
+      - name: Extract Artifact
+        run: |
+          unzip ${{ github.event.inputs.artifact_name }}.zip
+          rm ${{ github.event.inputs.artifact_name }}.zip
 
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.PULL }}
-        branch: sf_${{ env.airac }}
-        title: ${{ env.airac }} Sector File Update
-        body: This pull request was automatically generated to update the sector file to AIRAC ${{ env.airac }}.
-        reviewers: chssn
+      - name: Run Python script
+        run: |
+          python .github/workflows/auto_airac_actions.py
+          echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Sector file update for AIRAC ${{ env.airac }}"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.PULL }}
+          branch: sf_${{ env.airac }}
+          title: ${{ env.airac }} Sector File Update
+          body: This pull request was automatically generated to update the sector file to AIRAC ${{ env.airac }}.
+          reviewers: chssn

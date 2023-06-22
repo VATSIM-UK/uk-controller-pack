@@ -87,9 +87,6 @@ class CurrentInstallation:
         with open("airac.txt", "w", encoding="utf-8") as a_file:
             a_file.write(self.airac)
 
-        # Sector file base URL
-        self.sector_url = "http://www.vatsim.uk/files/sector/esad/"
-
     def apply_settings(self) -> bool:
         """Applies settings to relevant files"""
 
@@ -126,25 +123,14 @@ class CurrentInstallation:
                 # Check the sector file matches the current AIRAC cycle
                 airac_format = str(self.airac.replace("/", "_"))
                 if airac_format not in sector_file[0]:
-                    logger.warning(f"Your sector file appears out of date with the current {self.airac} release!")
-                    # Download the latest file
-                    url = f"{self.sector_url}UK_{airac_format}.7z"
-                    logger.debug(f"Sector file url {url}")
-                    sector_7z = requests.get(url, timeout=30)
-
-                    # Write it to local file
-                    file_path = f"UK_{airac_format}.7z"
-                    with open(file_path, "wb") as file:
-                        file.write(sector_7z.content)
-
-                    # Extract the contents of the archive
-                    with py7zr.SevenZipFile(file_path, mode="r") as archive:
-                        archive.extractall(path=f"{self.ukcp_location}/Data/Sector")
-
-                    # Clean up artifacts
-                    os.remove(file_path)
-                    # Clean up old sector files
+                    logger.warning(f"Sector file appears out of date with the current {self.airac} release!")
                     ext = ["ese", "rwy", "sct"]
+                    # Rename artifact files
+                    logger.debug(f"Sector file name{sector_fn}")
+                    for e_type in ext:
+                        os.rename(f"UK.{e_type}", f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.{e_type}")
+
+                    # Clean up old sector files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
                         os.remove(f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}")
@@ -153,7 +139,7 @@ class CurrentInstallation:
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
             else:
-                logger.error(f"Sector file search found {len(sector_file)} files. You should only have one of these!")
+                logger.error(f"Sector file search found {len(sector_file)} files. There should only have one of these!")
                 logger.debug(sector_file)
                 raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
 
