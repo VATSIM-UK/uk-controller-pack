@@ -221,13 +221,21 @@ class CurrentInstallation:
 
             sf_replace = sector_file.replace("/", "\\\\")
 
+            chk = False
             for line in lines:
                 # Add the sector file path
                 content = re.sub(r"^Settings\tsector\t(.*)", sf_replace, line)
+                chk = True
 
                 # Write the updated content back to the file
                 file.write(content)
             file.truncate()
+
+            # If no changes have been made, add the SECTORFILE and SECTORTITLE lines
+            if not chk:
+                file.close()
+                with open(file_path, "a", encoding="utf-8") as file_append:
+                    file_append.write(sf_replace + "\n")
 
         logger.info("Updating references to SECTORFILE and SECTORTITLE")
         asr_sector_file()
