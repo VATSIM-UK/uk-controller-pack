@@ -203,15 +203,15 @@ class CurrentInstallation:
                     chk = True
 
                 # Write the updated content back to the file
-                file.write(content)
+                file.write(content.replace("\\\\", "\\"))
             file.truncate()
 
             # If no changes have been made, add the SECTORFILE and SECTORTITLE lines
             if not chk:
                 file.close()
                 with open(file_path, "a", encoding="utf-8") as file_append:
-                    file_append.write(sf_replace + "\n")
-                    file_append.write(st_replace + "\n")
+                    file_append.write(sf_replace.replace("\\\\", "\\") + "\n")
+                    file_append.write(st_replace.replace("\\\\", "\\") + "\n")
 
         @iter_files(".prf", "r+")
         def prf_files(lines=None, file=None, file_path=None):
@@ -228,14 +228,14 @@ class CurrentInstallation:
                 chk = True
 
                 # Write the updated content back to the file
-                file.write(content)
+                file.write(content.replace("\\\\", "\\"))
             file.truncate()
 
             # If no changes have been made, add the SECTORFILE and SECTORTITLE lines
             if not chk:
                 file.close()
                 with open(file_path, "a", encoding="utf-8") as file_append:
-                    file_append.write(sf_replace + "\n")
+                    file_append.write(sf_replace.replace("\\\\", "\\") + "\n")
 
         logger.info("Updating references to SECTORFILE and SECTORTITLE")
         asr_sector_file()
