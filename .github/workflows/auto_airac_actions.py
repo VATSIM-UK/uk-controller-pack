@@ -187,8 +187,8 @@ class CurrentInstallation:
             sector_file = f"SECTORFILE:{sct_file}"
             sector_title = f"SECTORTITLE:{sct_file_split[-1]}"
 
-            sf_replace = sector_file.replace("/", "\\\\")
-            st_replace = sector_title.replace("/", "\\\\")
+            sf_replace = sector_file.replace("/", "\\")
+            st_replace = sector_title.replace("/", "\\")
 
             chk = False
             for line in lines:
@@ -219,7 +219,7 @@ class CurrentInstallation:
 
             sector_file = f"Settings\tsector\t{sct_file}"
 
-            sf_replace = sector_file.replace("/", "\\\\")
+            sf_replace = sector_file.replace("/", "\\")
 
             chk = False
             for line in lines:
