@@ -35,6 +35,7 @@ jobs:
         run: |
           python .github/workflows/auto_airac_actions.py
           echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
+          rm airac.txt
 
       - name: Commit changes
         run: |

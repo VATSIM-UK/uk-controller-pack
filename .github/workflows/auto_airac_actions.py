@@ -155,6 +155,9 @@ class CurrentInstallation:
                     # Unzip the file
                     with ZipFile("sector.zip", "r") as zip_ref:
                         zip_ref.extractall(".")
+                    
+                    # Delete the empty zipfile
+                    os.remove("sector.zip")
 
                     # Rename artifact files
                     logger.debug(f"Sector file name{sector_fn}")
