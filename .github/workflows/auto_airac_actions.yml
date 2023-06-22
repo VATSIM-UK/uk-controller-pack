@@ -29,11 +29,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r .github/workflows/requirements.txt
 
-      - name: Download Artifact from Repository A
+      - name: Download Artifact from VATSIM-UK/UK-Sector-File
         uses: actions/download-artifact@v3
         with:
           name: ${{ github.event.inputs.artifact_name }}
-          repository: chssn/UK-Sector-File
+          repository: chssn/UK-Sector-File-C
           ref: ${{ github.sha }}
 
       - name: Extract Artifact
