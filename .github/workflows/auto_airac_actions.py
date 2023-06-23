@@ -178,7 +178,6 @@ class CurrentInstallation:
                 raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
 
         sct_file = get_sector_file()
-        sct_file_split = sct_file.split("/")
 
         @iter_files(".prf", "r+")
         def prf_files(lines=None, file=None, file_path=None):
