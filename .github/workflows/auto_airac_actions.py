@@ -180,39 +180,6 @@ class CurrentInstallation:
         sct_file = get_sector_file()
         sct_file_split = sct_file.split("/")
 
-        @iter_files(".asr", "r+")
-        def asr_sector_file(lines=None, file=None, file_path=None):
-            """Updates all 'asr' files to include the latest sector file"""
-
-            sector_file = f"SECTORFILE:{sct_file}"
-            sector_title = f"SECTORTITLE:{sct_file_split[-1]}"
-
-            sf_replace = sector_file.replace("/", "\\\\")
-            st_replace = sector_title.replace("/", "\\\\")
-
-            chk = False
-            for line in lines:
-                # Add the sector file path
-                content = re.sub(r"^SECTORFILE\:(.*)", sf_replace, line)
-
-                # If no replacement is made then try the sector title
-                if content == line:
-                    content = re.sub(r"^SECTORTITLE\:(.*)", st_replace, line)
-
-                if content != line:
-                    chk = True
-
-                # Write the updated content back to the file
-                file.write(content.replace("\\\\", "\\"))
-            file.truncate()
-
-            # If no changes have been made, add the SECTORFILE and SECTORTITLE lines
-            if not chk:
-                file.close()
-                with open(file_path, "a", encoding="utf-8") as file_append:
-                    file_append.write(sf_replace.replace("\\\\", "\\") + "\n")
-                    file_append.write(st_replace.replace("\\\\", "\\") + "\n")
-
         @iter_files(".prf", "r+")
         def prf_files(lines=None, file=None, file_path=None):
             """Updates all 'prf' files to include the latest sector file"""
@@ -237,8 +204,6 @@ class CurrentInstallation:
                 with open(file_path, "a", encoding="utf-8") as file_append:
                     file_append.write(sf_replace.replace("\\\\", "\\") + "\n")
 
-        logger.info("Updating references to SECTORFILE and SECTORTITLE")
-        asr_sector_file()
         prf_files()
 
 run = CurrentInstallation()
