@@ -38,7 +38,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                    f.write(f"{PrfName}\n{PrfCID}\n")
+                    f.write(f"\n{PrfName}\n{PrfCID}\n")
 
 print("Detail entry process complete")
 time.sleep(1.5)
