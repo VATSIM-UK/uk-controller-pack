@@ -10,6 +10,7 @@ import datetime
 import json
 import os
 import re
+import shutil
 from math import floor
 from zipfile import ZipFile
 
@@ -91,6 +92,59 @@ class CurrentInstallation:
         # Set some other vars
         self.remote_repo_owner = "VATSIM-UK"
         self.remote_repo_name = "UK-Sector-File"
+    
+    def gng_data_update(self) -> None:
+        """Pulls data from GNG"""
+
+        # Load the EGXX file list and use regex to search for all relevant zip file urls
+        webpage = requests.get("https://files.aero-nav.com/EGXX", timeout=30)
+        if webpage.status_code == 200:
+            list_zip_files = re.findall(r"https\:\/\/files\.aero-nav\.com\/EGTT\/UK\-Datafiles\_[\d]{14}\-[\d]{6}\-[\d]{1,2}\.zip", str(webpage.content))
+        else:
+            raise requests.HTTPError(f"URL not found - {webpage.url}")
+        
+
+        # We're only interested in the most recent zip file found.
+        logger.debug(f"Full list of found zip file urls: {list_zip_files}")
+        zip_file = list_zip_files[-1]
+        logger.debug(f"Selected zip file url is {zip_file}")
+
+        # Set headers to look like a web browser
+        headers = {"Sec-Ch-Ua": "", "Sec-Ch-Ua-Mobile": "?0", "Sec-Ch-Ua-Platform": "\"\"", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.134 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-User": "?1", "Sec-Fetch-Dest": "document", "Referer": "https://files.aero-nav.com/EGXX", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8", "Connection": "close"}
+        response = requests.get(zip_file, headers=headers, timeout=30)
+        logger.info(f"Response Status = {response.status_code}")
+        if response.status_code == 200:
+            with open("navdata.zip", "wb") as file:
+                file.write(response.content)
+            logger.debug("File navdata.zip has been written")
+        else:
+            raise requests.HTTPError(f"URL not found - {response.url}")
+
+        # Unzip the file
+        with ZipFile("navdata.zip", "r") as zip_ref:
+            zip_ref.extractall("import/")
+            logger.debug("Extracted navdata.zip")
+        
+        # Delete the empty zipfile
+        os.remove("navdata.zip")
+        logger.debug("Removed navadata.zip")
+
+        # Move artifact files
+        list_of_files = [
+            "ICAO/ICAO_Aircraft.txt",
+            "ICAO/ICAO_Airlines.txt",
+            "ICAO/ICAO_Airports.txt",
+            "NavData/airway.txt",
+            "NavData/icao.txt",
+            "NavData/isec.txt"
+        ]
+        for file in list_of_files:
+            shutil.move(f"import/EGTT/{file}", f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}")
+            logger.success(f"Moved {file}")
+
+        # Cleanup the import directory
+        shutil.rmtree("import/")
+        logger.debug("Cleaned up import directory")
 
     def apply_settings(self) -> bool:
         """Applies settings to relevant files"""
@@ -207,3 +261,4 @@ class CurrentInstallation:
 
 run = CurrentInstallation()
 run.apply_settings()
+run.gng_data_update()
