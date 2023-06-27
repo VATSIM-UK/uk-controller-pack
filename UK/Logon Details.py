@@ -1,5 +1,4 @@
 import os
-import glob
 import time
 
 # User Inputs
@@ -38,7 +37,14 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                    f.write(f"\n{PrfName}\n{PrfCID}\n")
+                f.write(f"\n{PrfName}\n{PrfCID}\n")
+        elif file.endswith("Plugins.txt"):
+            file_path = os.path.join(root, file)
+            with open(file_path, 'r') as f:
+                line = f.read()
+                line = line.replace("END", "vSMR:cpdlc_password:"+CPDLC+"\nEND")
+                writeFile = open(file_path, "w")
+                writeFile.write(line)
 
 print("Detail entry process complete")
 time.sleep(1.5)
