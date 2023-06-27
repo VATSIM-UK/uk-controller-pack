@@ -139,7 +139,10 @@ class CurrentInstallation:
             "NavData/isec.txt"
         ]
         for file in list_of_files:
-            shutil.move(f"import/EGTT/{file}", f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}")
+            shutil.copy(f"import/EGTT/{file}", f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}")
+            if "ICAO_Airlines" in file:
+                # Copy the "ICAO_Airlines.txt" file into the vSMR folder
+                shutil.copy(f"import/EGTT/{file}", f"UK/Data/Plugin/vSMR/{file.split('/', maxsplit=1)[-1]}")
             logger.success(f"Moved {file}")
 
         # Cleanup the import directory
