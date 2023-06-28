@@ -8,6 +8,7 @@
 7. Enhancement - Update and add new TC/MPC/STC profiles - thanks to @SamLefevre (Samuel Lefevre)
 8. AIRAC (2304) - Updated EGPH/PF/AA/NM ASRs with revised VRP labels - thanks to @hazzas-99
 9. Enhancement - Amended Alias STAR commands and added .c (.center EG) command for moving ASRs - thanks to @hazzas-99
+10. Enhancement - Added Flight Information Display Profiles and screens for procedural, AFIS & A/G Units - Thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2022/13 to 2023/03
 1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)
