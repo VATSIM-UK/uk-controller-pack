@@ -1,3 +1,5 @@
+x. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
