@@ -15,6 +15,7 @@ Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
 Settings	sector	UK\Data\Sector\UK_2023_05.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Liverpool\Liverpool Radar_2.asr
 RecentFiles	Recent2	\..\Data\ASR\Liverpool\Liverpool Radar_1.asr
 RecentFiles	Recent3	\..\Data\ASR\Liverpool\Liverpool Radar_3.asr
