@@ -1,6 +1,8 @@
 # Changes from release 2023/06 to 2023/07
 1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
+# Changes from release 2023/07 to 2023/08
+X. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
