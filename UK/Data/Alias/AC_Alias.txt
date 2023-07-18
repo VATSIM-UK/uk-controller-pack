@@ -83,6 +83,8 @@ Departure
 .dep $sid departure 
 .deprw Departure runway is $deprwy. 
 
+.apdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode$1. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
+.apdci .msg $aircraft $dep PDC - $time - INFORMATION $atiscode$1. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
 .pdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 .npdc .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 .pdci .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
