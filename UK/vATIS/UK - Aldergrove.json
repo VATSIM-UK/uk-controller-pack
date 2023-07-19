@@ -1,0 +1,652 @@
+{
+  "name": "UK - Aldergrove",
+  "id": "d4edcb6c-faf3-4fda-8e77-dea5399d945c",
+  "composites": [
+    {
+      "id": "ef35d98b-b307-4273-bba1-d08d14645bdb",
+      "name": "Aldergrove",
+      "identifier": "EGAA",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "frequency": 126125000,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Female"
+      },
+      "idsEndpoint": "",
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "airportConditionsBeforeFreeText": false,
+      "notamsBeforeFreeText": false,
+      "presets": [
+        {
+          "id": "989780fb-5dc5-4985-9a46-5560e53b0b6a",
+          "name": "RUNWAY 25",
+          "airportConditions": "ILS APPROACH TO BE EXPECTED.",
+          "template": "ALDERGROVE INFORMATION [ID]. [TIME]. RUNWAY IN USE 25. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "f038f0be-a25b-46ec-b1ee-705b63c2f3ed",
+          "name": "RUNWAY 07",
+          "airportConditions": "RNP APPROACH TO BE EXPECTED.",
+          "template": "ALDERGROVE INFORMATION [ID]. [TIME]. RUNWAY IN USE 07. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "string": "ILS",
+          "spoken": "EYE ELL ESS"
+        },
+        {
+          "string": "RNP",
+          "spoken": "ARE ENN PEE"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "description": "",
+          "ordinal": 1,
+          "text": "DEPARTING AIRCRAFT CONTACT POSITION ON 1XX.XXX",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 2,
+          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
+          "enabled": true
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "description": "",
+          "ordinal": 1,
+          "text": "DATALINK CLEARANCES AVAILABLE.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 2,
+          "text": "DATALINK CLEARANCES NOT AVAILABLE.",
+          "enabled": true
+        }
+      ],
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "TIME {time}Z",
+            "voice": "Time {time} {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "SURFACE WIND {wind_dir} DEGREES {wind_spd}KT.",
+              "voice": "SURFACE WIND {wind_dir} DEGREES. {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "SURFACE WIND {wind_dir} DEGREES {wind_spd}KT G{wind_gust}KT.",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "SURFACE WIND VRB {wind_spd}KT.",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "SURFACE WIND VRB{wind_spd}KT G{wind_gust}KT.",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "VARYING BETWEEN {wind_vmin}V{wind_vmax}.",
+              "voice": "VARYING BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 0,
+            "template": {
+              "text": "SURFACE WIND CALM.",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM.",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "VISIBILITY {visibility}.",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "weatherTypes": {
+            "DZ": "drizzle",
+            "RA": "rain",
+            "SN": "snow",
+            "SG": "snow grains",
+            "IC": "ice crystals",
+            "PL": "ice pellets",
+            "GR": "hail",
+            "GS": "small hail",
+            "UP": "unknown precipitation",
+            "BR": "mist",
+            "FG": "fog",
+            "FU": "smoke",
+            "VA": "volcanic ash",
+            "DU": "widespread dust",
+            "SA": "sand",
+            "HZ": "haze",
+            "PY": "spray",
+            "PO": "well developed dust, sand whirls",
+            "SQ": "squalls",
+            "FC": "funnel cloud tornado waterspout",
+            "SS": "sandstorm",
+            "DS": "dust storm"
+          },
+          "weatherDescriptors": {
+            "PR": "partial",
+            "BC": "patches",
+            "MI": "shallow",
+            "DR": "low drifting",
+            "BL": "blowing",
+            "SH": "showers",
+            "TS": "thunderstorm",
+            "FZ": "freezing"
+          },
+          "template": {
+            "text": "{weather}.",
+            "voice": "{weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "TEMPERATURE {temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": true,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "DEWPOINT {dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "Q EN H {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1013,
+              "high": 995,
+              "altitude": 75
+            },
+            {
+              "low": 994,
+              "high": 977,
+              "altitude": 80
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            }
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": ". ACKNOWLEDGE RECIEPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
+            "voice": "ACKNOWLEDGE RECIEPT OF INFORMATION {letter|word}, AND ADVISE AIRCRAFT TYPE ON FIRST-CONTACT"
+          }
+        }
+      }
+    },
+    {
+      "id": "319e9c8c-61e6-477e-9849-778177fa22e4",
+      "name": "Belfast",
+      "identifier": "EGAC",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "frequency": 124575000,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Female"
+      },
+      "idsEndpoint": "",
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "airportConditionsBeforeFreeText": false,
+      "notamsBeforeFreeText": false,
+      "presets": [
+        {
+          "id": "ce8dc70e-dbaa-4461-b8b8-f019b05e8f8b",
+          "name": "RUNWAY 22",
+          "airportConditions": "ILS APPROACH TO BE EXPECTED.",
+          "template": "BELFAST INFORMATION [ID]. [TIME]. RUNWAY IN USE 22. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "14ddf695-77b9-472c-bfc9-3e1b577e47b6",
+          "name": "RUNWAY 04",
+          "airportConditions": "ILS APPROACH TO BE EXPECTED.",
+          "template": "BELFAST INFORMATION [ID]. [TIME]. RUNWAY IN USE 04. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "string": "ILS",
+          "spoken": "EYE ELL ESS"
+        },
+        {
+          "string": "RNP",
+          "spoken": "ARE ENN PEE"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "description": "",
+          "ordinal": 1,
+          "text": "DEPARTING AIRCRAFT CONTACT POSITION ON 1XX.XXX",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 2,
+          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
+          "enabled": true
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "description": "",
+          "ordinal": 1,
+          "text": "DATALINK CLEARANCES AVAILABLE.",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 2,
+          "text": "DATALINK CLEARANCES NOT AVAILABLE.",
+          "enabled": true
+        }
+      ],
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "TIME {time}Z",
+            "voice": "Time {time} {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "SURFACE WIND {wind_dir} DEGREES {wind_spd}KT.",
+              "voice": "SURFACE WIND {wind_dir} DEGREES. {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "SURFACE WIND {wind_dir} DEGREES {wind_spd}KT G{wind_gust}KT.",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "SURFACE WIND VRB {wind_spd}KT.",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "SURFACE WIND VRB{wind_spd}KT G{wind_gust}KT.",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "VARYING BETWEEN {wind_vmin}V{wind_vmax}.",
+              "voice": "VARYING BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 0,
+            "template": {
+              "text": "SURFACE WIND CALM.",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM.",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "VISIBILITY {visibility}.",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "weatherTypes": {
+            "DZ": "drizzle",
+            "RA": "rain",
+            "SN": "snow",
+            "SG": "snow grains",
+            "IC": "ice crystals",
+            "PL": "ice pellets",
+            "GR": "hail",
+            "GS": "small hail",
+            "UP": "unknown precipitation",
+            "BR": "mist",
+            "FG": "fog",
+            "FU": "smoke",
+            "VA": "volcanic ash",
+            "DU": "widespread dust",
+            "SA": "sand",
+            "HZ": "haze",
+            "PY": "spray",
+            "PO": "well developed dust, sand whirls",
+            "SQ": "squalls",
+            "FC": "funnel cloud tornado waterspout",
+            "SS": "sandstorm",
+            "DS": "dust storm"
+          },
+          "weatherDescriptors": {
+            "PR": "partial",
+            "BC": "patches",
+            "MI": "shallow",
+            "DR": "low drifting",
+            "BL": "blowing",
+            "SH": "showers",
+            "TS": "thunderstorm",
+            "FZ": "freezing"
+          },
+          "template": {
+            "text": "{weather}.",
+            "voice": "{weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "TEMPERATURE {temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": true,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "DEWPOINT {dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "Q EN H {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1013,
+              "high": 995,
+              "altitude": 75
+            },
+            {
+              "low": 994,
+              "high": 977,
+              "altitude": 80
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            }
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": ". ACKNOWLEDGE RECIEPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
+            "voice": "ACKNOWLEDGE RECIEPT OF INFORMATION {letter|word}, AND ADVISE AIRCRAFT TYPE ON FIRST-CONTACT"
+          }
+        }
+      }
+    }
+  ]
+}
