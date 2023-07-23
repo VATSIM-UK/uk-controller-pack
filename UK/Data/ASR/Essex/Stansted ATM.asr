@@ -1,0 +1,518 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+Airports:000A:symbol
+Airports:EGAA:symbol
+Airports:EGAB:symbol
+Airports:EGAC:symbol
+Airports:EGAD:symbol
+Airports:EGAE:symbol
+Airports:EGBB:symbol
+Airports:EGBD:symbol
+Airports:EGBE:symbol
+Airports:EGBF:symbol
+Airports:EGBG:symbol
+Airports:EGBJ:symbol
+Airports:EGBK:symbol
+Airports:EGBM:symbol
+Airports:EGBN:symbol
+Airports:EGBO:symbol
+Airports:EGBP:symbol
+Airports:EGBS:symbol
+Airports:EGBT:symbol
+Airports:EGBV:symbol
+Airports:EGBW:symbol
+Airports:EGCB:symbol
+Airports:EGCC:symbol
+Airports:EGCF:symbol
+Airports:EGCJ:symbol
+Airports:EGCK:symbol
+Airports:EGCL:symbol
+Airports:EGCM:symbol
+Airports:EGCN:symbol
+Airports:EGCS:symbol
+Airports:EGCT:symbol
+Airports:EGCV:symbol
+Airports:EGCW:symbol
+Airports:EGDI:symbol
+Airports:EGDM:symbol
+Airports:EGDN:symbol
+Airports:EGDO:symbol
+Airports:EGDP:symbol
+Airports:EGDR:symbol
+Airports:EGDY:symbol
+Airports:EGEC:symbol
+Airports:EGED:symbol
+Airports:EGEF:symbol
+Airports:EGEG:symbol
+Airports:EGEN:symbol
+Airports:EGEO:symbol
+Airports:EGEP:symbol
+Airports:EGER:symbol
+Airports:EGES:symbol
+Airports:EGET:symbol
+Airports:EGEW:symbol
+Airports:EGFA:symbol
+Airports:EGFC:symbol
+Airports:EGFE:symbol
+Airports:EGFF:symbol
+Airports:EGFH:symbol
+Airports:EGFP:symbol
+Airports:EGGD:symbol
+Airports:EGGP:symbol
+Airports:EGGW:symbol
+Airports:EGHA:symbol
+Airports:EGHC:symbol
+Airports:EGHE:symbol
+Airports:EGHF:symbol
+Airports:EGHG:symbol
+Airports:EGHH:symbol
+Airports:EGHI:symbol
+Airports:EGHJ:symbol
+Airports:EGHK:symbol
+Airports:EGHL:symbol
+Airports:EGHN:symbol
+Airports:EGHO:symbol
+Airports:EGHP:symbol
+Airports:EGHQ:symbol
+Airports:EGHR:symbol
+Airports:EGHS:symbol
+Airports:EGHT:symbol
+Airports:EGHU:symbol
+Airports:EGHY:symbol
+Airports:EGJA:symbol
+Airports:EGJB:symbol
+Airports:EGJJ:symbol
+Airports:EGKA:symbol
+Airports:EGKB:symbol
+Airports:EGKC:symbol
+Airports:EGKE:symbol
+Airports:EGKG:symbol
+Airports:EGKH:symbol
+Airports:EGKK:symbol
+Airports:EGKN:symbol
+Airports:EGKR:symbol
+Airports:EGKT:symbol
+Airports:EGLA:symbol
+Airports:EGLC:symbol
+Airports:EGLD:symbol
+Airports:EGLF:symbol
+Airports:EGLJ:symbol
+Airports:EGLK:symbol
+Airports:EGLL:symbol
+Airports:EGLM:symbol
+Airports:EGLS:symbol
+Airports:EGLT:symbol
+Airports:EGLW:symbol
+Airports:EGMA:symbol
+Airports:EGMC:symbol
+Airports:EGMD:symbol
+Airports:EGMF:symbol
+Airports:EGMJ:symbol
+Airports:EGNC:symbol
+Airports:EGNE:symbol
+Airports:EGNF:symbol
+Airports:EGNH:symbol
+Airports:EGNI:symbol
+Airports:EGNJ:symbol
+Airports:EGNL:symbol
+Airports:EGNM:symbol
+Airports:EGNO:symbol
+Airports:EGNP:symbol
+Airports:EGNR:symbol
+Airports:EGNS:symbol
+Airports:EGNT:symbol
+Airports:EGNU:symbol
+Airports:EGNV:symbol
+Airports:EGNW:symbol
+Airports:EGNX:symbol
+Airports:EGNY:symbol
+Airports:EGOD:symbol
+Airports:EGOE:symbol
+Airports:EGOQ:symbol
+Airports:EGOS:symbol
+Airports:EGOV:symbol
+Airports:EGOW:symbol
+Airports:EGPA:symbol
+Airports:EGPB:symbol
+Airports:EGPC:symbol
+Airports:EGPD:symbol
+Airports:EGPE:symbol
+Airports:EGPF:symbol
+Airports:EGPG:symbol
+Airports:EGPH:symbol
+Airports:EGPI:symbol
+Airports:EGPJ:symbol
+Airports:EGPK:symbol
+Airports:EGPL:symbol
+Airports:EGPN:symbol
+Airports:EGPO:symbol
+Airports:EGPR:symbol
+Airports:EGPT:symbol
+Airports:EGPU:symbol
+Airports:EGPW:symbol
+Airports:EGQL:symbol
+Airports:EGQS:symbol
+Airports:EGRF:symbol
+Airports:EGRG:symbol
+Airports:EGRK:symbol
+Airports:EGRN:symbol
+Airports:EGRO:symbol
+Airports:EGSA:symbol
+Airports:EGSC:symbol
+Airports:EGSD:symbol
+Airports:EGSF:symbol
+Airports:EGSG:symbol
+Airports:EGSH:symbol
+Airports:EGSJ:symbol
+Airports:EGSL:symbol
+Airports:EGSM:symbol
+Airports:EGSN:symbol
+Airports:EGSO:symbol
+Airports:EGSP:symbol
+Airports:EGSQ:symbol
+Airports:EGSR:symbol
+Airports:EGST:symbol
+Airports:EGSU:symbol
+Airports:EGSV:symbol
+Airports:EGSW:symbol
+Airports:EGSX:symbol
+Airports:EGSY:symbol
+Airports:EGTB:symbol
+Airports:EGTC:symbol
+Airports:EGTD:symbol
+Airports:EGTE:symbol
+Airports:EGTF:symbol
+Airports:EGTH:symbol
+Airports:EGTK:symbol
+Airports:EGTO:symbol
+Airports:EGTP:symbol
+Airports:EGTR:symbol
+Airports:EGTU:symbol
+Airports:EGTW:symbol
+Airports:EGUB:symbol
+Airports:EGUC:symbol
+Airports:EGUL:symbol
+Airports:EGUN:symbol
+Airports:EGUW:symbol
+Airports:EGUY:symbol
+Airports:EGVA:symbol
+Airports:EGVF:symbol
+Airports:EGVL:symbol
+Airports:EGVN:symbol
+Airports:EGVO:symbol
+Airports:EGVP:symbol
+Airports:EGWC:symbol
+Airports:EGWN:symbol
+Airports:EGWU:symbol
+Airports:EGXC:symbol
+Airports:EGXD:symbol
+Airports:EGXE:symbol
+Airports:EGXH:symbol
+Airports:EGXT:symbol
+Airports:EGXW:symbol
+Airports:EGXZ:symbol
+Airports:EGYD:symbol
+Airports:EGYE:symbol
+Airports:EGYM:symbol
+Airports:EGYX:symbol
+Airports:EIDL:symbol
+Airports:EIDW:symbol
+Airports:LFAC:symbol
+Airports:LFAT:symbol
+ARTCC high boundary:London TMA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+Fixes:ABBOT:symbol
+Fixes:BUSTA:symbol
+Fixes:LOFFO:symbol
+Fixes:LOREL:symbol
+NDBs:ALD:symbol
+NDBs:ATF:symbol
+NDBs:BBA:symbol
+NDBs:BHX:symbol
+NDBs:BIA:symbol
+NDBs:BLK:symbol
+NDBs:BPL:symbol
+NDBs:BRI:symbol
+NDBs:BRR:symbol
+NDBs:BUR:symbol
+NDBs:BZ:symbol
+NDBs:CAM:symbol
+NDBs:CBL:symbol
+NDBs:CDF:symbol
+NDBs:CFN:symbol
+NDBs:CHT:symbol
+NDBs:CIT:symbol
+NDBs:CNE:symbol
+NDBs:CUL:symbol
+NDBs:CWL:symbol
+NDBs:DND:symbol
+NDBs:DR:symbol
+NDBs:DSA:symbol
+NDBs:EAS:symbol
+NDBs:EDN:symbol
+NDBs:EGT:symbol
+NDBs:EME:symbol
+NDBs:EMW:symbol
+NDBs:EPM:symbol
+NDBs:EX:symbol
+NDBs:FNY:symbol
+NDBs:GLW:symbol
+NDBs:GST:symbol
+NDBs:HAV:symbol
+NDBs:HAW:symbol
+NDBs:HB:symbol
+NDBs:HEN:symbol
+NDBs:ING:symbol
+NDBs:IVR:symbol
+NDBs:JW:symbol
+NDBs:KIM:symbol
+NDBs:KW:symbol
+NDBs:LAY:symbol
+NDBs:LBA:symbol
+NDBs:LCY:symbol
+NDBs:LE:symbol
+NDBs:LHO:symbol
+NDBs:LN:symbol
+NDBs:LPL:symbol
+NDBs:LSH:symbol
+NDBs:LT:symbol
+NDBs:LUT:symbol
+NDBs:LZD:symbol
+NDBs:MK:symbol
+NDBs:MP:symbol
+NDBs:NQY:symbol
+NDBs:NT:symbol
+NDBs:NWI:symbol
+NDBs:OBN:symbol
+NDBs:ONO:symbol
+NDBs:ONW:symbol
+NDBs:OSA:symbol
+NDBs:OX:symbol
+NDBs:PIK:symbol
+NDBs:RCH:symbol
+NDBs:RWY:symbol
+NDBs:SAY:symbol
+NDBs:SB:symbol
+NDBs:SBH:symbol
+NDBs:SBL:symbol
+NDBs:SH:symbol
+NDBs:SHM:symbol
+NDBs:SND:symbol
+NDBs:SS:symbol
+NDBs:STM:symbol
+NDBs:TD:symbol
+NDBs:TNL:symbol
+NDBs:UW:symbol
+NDBs:WBA:symbol
+NDBs:WCK:symbol
+NDBs:WCO:symbol
+NDBs:WHI:symbol
+NDBs:WL:symbol
+NDBs:WOD:symbol
+NDBs:WPL:symbol
+NDBs:WTN:symbol
+NDBs:YVL:symbol
+Runways:EGSS London Stansted 04-22:extended centerline 1
+Runways:EGSS London Stansted 04-22:extended centerline 1 left base
+Runways:EGSS London Stansted 04-22:extended centerline 1 left ticks
+Runways:EGSS London Stansted 04-22:extended centerline 1 left vectoring
+Runways:EGSS London Stansted 04-22:extended centerline 1 right base
+Runways:EGSS London Stansted 04-22:extended centerline 1 right ticks
+Runways:EGSS London Stansted 04-22:extended centerline 1 right vectoring
+Runways:EGSS London Stansted 04-22:extended centerline 2
+Runways:EGSS London Stansted 04-22:extended centerline 2 left base
+Runways:EGSS London Stansted 04-22:extended centerline 2 left ticks
+Runways:EGSS London Stansted 04-22:extended centerline 2 left vectoring
+Runways:EGSS London Stansted 04-22:extended centerline 2 right base
+Runways:EGSS London Stansted 04-22:extended centerline 2 right ticks
+Runways:EGSS London Stansted 04-22:extended centerline 2 right vectoring
+VORs:ABB:symbol
+VORs:ADN:symbol
+VORs:AFI:symbol
+VORs:AKR:symbol
+VORs:AMB:symbol
+VORs:AMS:symbol
+VORs:ANT:symbol
+VORs:ARE:symbol
+VORs:BAL:symbol
+VORs:BBE:symbol
+VORs:BBL:symbol
+VORs:BCL:symbol
+VORs:BCN:symbol
+VORs:BDN:symbol
+VORs:BEL:symbol
+VORs:BEN:symbol
+VORs:BFS:symbol
+VORs:BHD:symbol
+VORs:BIG:symbol
+VORs:BKY:symbol
+VORs:BNE:symbol
+VORs:BNN:symbol
+VORs:BPK:symbol
+VORs:BSO:symbol
+VORs:BST:symbol
+VORs:BUB:symbol
+VORs:BUN:symbol
+VORs:BZN:symbol
+VORs:CAN:symbol
+VORs:CGY:symbol
+VORs:CIV:symbol
+VORs:CLM:symbol
+VORs:CLN:symbol
+VORs:CMB:symbol
+VORs:COA:symbol
+VORs:CON:symbol
+VORs:CPT:symbol
+VORs:CRK:symbol
+VORs:CWZ:symbol
+VORs:DAP:symbol
+VORs:DCS:symbol
+VORs:DET:symbol
+VORs:DHE:symbol
+VORs:DIK:symbol
+VORs:DIN:symbol
+VORs:DPE:symbol
+VORs:DTY:symbol
+VORs:DUB:symbol
+VORs:DUF:symbol
+VORs:DVL:symbol
+VORs:DVR:symbol
+VORs:EEL:symbol
+VORs:EHV:symbol
+VORs:EVX:symbol
+VORs:FFA:symbol
+VORs:FLO:symbol
+VORs:GAM:symbol
+VORs:GMN:symbol
+VORs:GOW:symbol
+VORs:GSY:symbol
+VORs:GUR:symbol
+VORs:GWC:symbol
+VORs:HDR:symbol
+VORs:HON:symbol
+VORs:HUL:symbol
+VORs:INS:symbol
+VORs:IOM:symbol
+VORs:IWL:symbol
+VORs:JSY:symbol
+VORs:KOK:symbol
+VORs:KWL:symbol
+VORs:LAM:symbol
+VORs:LDV:symbol
+VORs:LEE:symbol
+VORs:LGE:symbol
+VORs:LGL:symbol
+VORs:LKH:symbol
+VORs:LND:symbol
+VORs:LNO:symbol
+VORs:LON:symbol
+VORs:LSM:symbol
+VORs:LUX:symbol
+VORs:LYD:symbol
+VORs:MAC:symbol
+VORs:MAM:symbol
+VORs:MAS:symbol
+VORs:MAY:symbol
+VORs:MCT:symbol
+VORs:MID:symbol
+VORs:MLD:symbol
+VORs:MPA:symbol
+VORs:MTD:symbol
+VORs:NEW:symbol
+VORs:NIK:symbol
+VORs:OCK:symbol
+VORs:ODH:symbol
+VORs:OTR:symbol
+VORs:PAM:symbol
+VORs:POL:symbol
+VORs:PON:symbol
+VORs:PTH:symbol
+VORs:QPR:symbol
+VORs:REM:symbol
+VORs:REN:symbol
+VORs:RKN:symbol
+VORs:ROU:symbol
+VORs:RTM:symbol
+VORs:SAB:symbol
+VORs:SAM:symbol
+VORs:SFD:symbol
+VORs:SHA:symbol
+VORs:SOL:symbol
+VORs:SPI:symbol
+VORs:SPL:symbol
+VORs:SPY:symbol
+VORs:STN:symbol
+VORs:STU:symbol
+VORs:SUM:symbol
+VORs:SVA:symbol
+VORs:SWB:symbol
+VORs:TIR:symbol
+VORs:TLA:symbol
+VORs:TNT:symbol
+VORs:TRN:symbol
+VORs:VES:symbol
+VORs:VLN:symbol
+VORs:VYL:symbol
+VORs:WAD:symbol
+VORs:WAL:symbol
+VORs:WIK:symbol
+VORs:WIN:symbol
+VORs:WIT:symbol
+VORs:WTN:symbol
+VORs:WTZ:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:14500
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:10
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:51.529826:-1.022307:52.329176:1.484937
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:57
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1406
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:57
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1603
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:197
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1580
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:107
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_YARMOUTH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

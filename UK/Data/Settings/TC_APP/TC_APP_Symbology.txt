@@ -1,27 +1,27 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:8951351:1.4:0:0:7
+Airports:symbol:8421376:1.4:0:0:7
 Airports:name:7895040:3.2:0:0:2
-Low airways:line:8951351:2.5:2:0:7
+Low airways:line:8421376:2.5:2:0:7
 Low airways:name:7895040:2.5:0:0:8
 High airways:line:7895040:3.5:2:0:7
 High airways:name:7895040:3.5:0:0:8
-Fixes:symbol:8951351:1.4:0:0:7
+Fixes:symbol:8421376:1.4:0:0:7
 Fixes:name:7895040:3.2:0:0:2
 Sids:line:25700:3.0:0:0:7
-Stars:line:8951351:3.0:0:0:7
-ARTCC high boundary:line:8951351:3.0:0:0:7
-ARTCC boundary:line:128:3.0:1:0:7
-ARTCC low boundary:line:8951351:3.0:2:0:7
-Geo:line:8951351:3.0:0:0:7
-VORs:symbol:8951351:1.4:0:0:7
+Stars:line:8421376:3.0:0:0:7
+ARTCC high boundary:line:8421376:3.0:0:0:7
+ARTCC boundary:line:64:3.0:1:0:7
+ARTCC low boundary:line:8421376:3.0:2:0:7
+Geo:line:8421376:3.0:0:0:7
+VORs:symbol:8421376:1.4:0:0:7
 VORs:name:7895040:3.2:0:0:2
 VORs:frequency:7895040:3.5:0:0:2
-NDBs:symbol:8951351:1.4:0:0:7
+NDBs:symbol:8421376:1.4:0:0:7
 NDBs:name:7895040:3.2:0:0:2
 NDBs:frequency:7895040:3.5:0:0:0
 Runways:centerline:7895040:3.5:0:0:7
-Runways:extended centerline:8951351:3.5:0:0:7
+Runways:extended centerline:8421376:3.5:0:0:7
 Runways:name:7895040:3.5:0:0:7
 Datablock:non concerned:2337594:3.2:0:0:7
 Datablock:notified:2003250:3.2:0:0:7
@@ -77,7 +77,7 @@ Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:10855845:3.0:0:1:8
 Other:freetext:7895040:3.2:0:0:7
-Other:range rings:9223680:5.0:0:0:2
+Other:range rings:16384:5.0:0:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:8568320:5.0:0:0:2
 Other:manual taxi line:16777215:5.0:0:3:2
@@ -95,7 +95,7 @@ Chat:name unread:10066431:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:21331:0.5:2:2:7
+Sector:line:8421440:0.5:0:0:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:0:3.5:0:0:7
 Sector:inactive sector background:0:3.5:0:0:7

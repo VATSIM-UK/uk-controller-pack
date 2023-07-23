@@ -1,4 +1,5 @@
-![Controller Pack](https://repository-images.githubusercontent.com/317205681/26617980-f4e6-4b7f-b1bd-ba740bec618a)
+![Controller_Pack](https://github.com/kye-taylor/uk-controller-pack/assets/46931474/7c2daddf-118e-4601-bacc-78c25ca4a748)
+
 
 # Welcome
 The UK (EGTT and EGPX FIRs) controller pack provides the tools to VATSIM UK controllers to control relistically, efficiently and easily on the VATSIM network

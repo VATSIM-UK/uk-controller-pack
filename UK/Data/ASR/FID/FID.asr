@@ -1,0 +1,1680 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC boundary:EBR08:
+ARTCC boundary:EBR17A:
+ARTCC boundary:EBR17B:
+ARTCC boundary:EBR17C:
+ARTCC boundary:EBR21:
+ARTCC boundary:EBR24B:
+ARTCC boundary:EBR25:
+ARTCC boundary:EBR31:
+ARTCC boundary:EBR56:
+ARTCC boundary:EDG113B:
+ARTCC boundary:EGD001:
+ARTCC boundary:EGD003:
+ARTCC boundary:EGD004:
+ARTCC boundary:EGD005A:
+ARTCC boundary:EGD005B:
+ARTCC boundary:EGD006A:
+ARTCC boundary:EGD006B:
+ARTCC boundary:EGD006C:
+ARTCC boundary:EGD007A:
+ARTCC boundary:EGD007B:
+ARTCC boundary:EGD007C:
+ARTCC boundary:EGD008A:
+ARTCC boundary:EGD008B:
+ARTCC boundary:EGD008C:
+ARTCC boundary:EGD009A:
+ARTCC boundary:EGD009B:
+ARTCC boundary:EGD011A:
+ARTCC boundary:EGD011B:
+ARTCC boundary:EGD011C:
+ARTCC boundary:EGD012:
+ARTCC boundary:EGD013:
+ARTCC boundary:EGD014:
+ARTCC boundary:EGD015:
+ARTCC boundary:EGD017:
+ARTCC boundary:EGD021:
+ARTCC boundary:EGD023:
+ARTCC boundary:EGD026:
+ARTCC boundary:EGD031:
+ARTCC boundary:EGD036:
+ARTCC boundary:EGD037:
+ARTCC boundary:EGD038:
+ARTCC boundary:EGD039:
+ARTCC boundary:EGD040:
+ARTCC boundary:EGD044:
+ARTCC boundary:EGD061:
+ARTCC boundary:EGD064A:
+ARTCC boundary:EGD064B:
+ARTCC boundary:EGD064C:
+ARTCC boundary:EGD110:
+ARTCC boundary:EGD113A:
+ARTCC boundary:EGD115A:
+ARTCC boundary:EGD115B:
+ARTCC boundary:EGD117:
+ARTCC boundary:EGD118:
+ARTCC boundary:EGD119:
+ARTCC boundary:EGD120:
+ARTCC boundary:EGD122A:
+ARTCC boundary:EGD122B:
+ARTCC boundary:EGD122C:
+ARTCC boundary:EGD123:
+ARTCC boundary:EGD124:
+ARTCC boundary:EGD125:
+ARTCC boundary:EGD126:
+ARTCC boundary:EGD127:
+ARTCC boundary:EGD128:
+ARTCC boundary:EGD129:
+ARTCC boundary:EGD130:
+ARTCC boundary:EGD132:
+ARTCC boundary:EGD133A:
+ARTCC boundary:EGD133B:
+ARTCC boundary:EGD136:
+ARTCC boundary:EGD138A:
+ARTCC boundary:EGD138B:
+ARTCC boundary:EGD138C:
+ARTCC boundary:EGD138D:
+ARTCC boundary:EGD139:
+ARTCC boundary:EGD141:
+ARTCC boundary:EGD147:
+ARTCC boundary:EGD201A:
+ARTCC boundary:EGD201B:
+ARTCC boundary:EGD201C:
+ARTCC boundary:EGD201D:
+ARTCC boundary:EGD201F:
+ARTCC boundary:EGD201G:
+ARTCC boundary:EGD201H:
+ARTCC boundary:EGD201J:
+ARTCC boundary:EGD202A:
+ARTCC boundary:EGD202B:
+ARTCC boundary:EGD202C:
+ARTCC boundary:EGD202D:
+ARTCC boundary:EGD203:
+ARTCC boundary:EGD206:
+ARTCC boundary:EGD207:
+ARTCC boundary:EGD208:
+ARTCC boundary:EGD211:
+ARTCC boundary:EGD213:
+ARTCC boundary:EGD215:
+ARTCC boundary:EGD216:
+ARTCC boundary:EGD217A:
+ARTCC boundary:EGD217B:
+ARTCC boundary:EGD217C:
+ARTCC boundary:EGD217D:
+ARTCC boundary:EGD217E:
+ARTCC boundary:EGD217F:
+ARTCC boundary:EGD217G:
+ARTCC boundary:EGD217H:
+ARTCC boundary:EGD217I:
+ARTCC boundary:EGD217J:
+ARTCC boundary:EGD217K:
+ARTCC boundary:EGD304:
+ARTCC boundary:EGD305:
+ARTCC boundary:EGD307:
+ARTCC boundary:EGD314:
+ARTCC boundary:EGD323A:
+ARTCC boundary:EGD323B:
+ARTCC boundary:EGD323C:
+ARTCC boundary:EGD323D:
+ARTCC boundary:EGD323E:
+ARTCC boundary:EGD323F:
+ARTCC boundary:EGD323G:
+ARTCC boundary:EGD323H:
+ARTCC boundary:EGD323J:
+ARTCC boundary:EGD323K:
+ARTCC boundary:EGD323L:
+ARTCC boundary:EGD323M:
+ARTCC boundary:EGD323N:
+ARTCC boundary:EGD323P:
+ARTCC boundary:EGD323Q:
+ARTCC boundary:EGD323R:
+ARTCC boundary:EGD401:
+ARTCC boundary:EGD402A:
+ARTCC boundary:EGD402B:
+ARTCC boundary:EGD402C:
+ARTCC boundary:EGD403A:
+ARTCC boundary:EGD403B:
+ARTCC boundary:EGD405:
+ARTCC boundary:EGD406A:
+ARTCC boundary:EGD406B:
+ARTCC boundary:EGD406C:
+ARTCC boundary:EGD407:
+ARTCC boundary:EGD408:
+ARTCC boundary:EGD410:
+ARTCC boundary:EGD412:
+ARTCC boundary:EGD442:
+ARTCC boundary:EGD505:
+ARTCC boundary:EGD508:
+ARTCC boundary:EGD509:
+ARTCC boundary:EGD510A:
+ARTCC boundary:EGD510B:
+ARTCC boundary:EGD510C:
+ARTCC boundary:EGD512A:
+ARTCC boundary:EGD512B:
+ARTCC boundary:EGD513A:
+ARTCC boundary:EGD513B:
+ARTCC boundary:EGD513C:
+ARTCC boundary:EGD597:
+ARTCC boundary:EGD601:
+ARTCC boundary:EGD604:
+ARTCC boundary:EGD613A:
+ARTCC boundary:EGD613B:
+ARTCC boundary:EGD613C:
+ARTCC boundary:EGD613D:
+ARTCC boundary:EGD701A:
+ARTCC boundary:EGD701B:
+ARTCC boundary:EGD701C:
+ARTCC boundary:EGD701D:
+ARTCC boundary:EGD701E:
+ARTCC boundary:EGD701F:
+ARTCC boundary:EGD701G:
+ARTCC boundary:EGD701H:
+ARTCC boundary:EGD701I:
+ARTCC boundary:EGD701J:
+ARTCC boundary:EGD701K:
+ARTCC boundary:EGD701L:
+ARTCC boundary:EGD701M:
+ARTCC boundary:EGD701N:
+ARTCC boundary:EGD701O:
+ARTCC boundary:EGD701P:
+ARTCC boundary:EGD701Q:
+ARTCC boundary:EGD701R:
+ARTCC boundary:EGD701S:
+ARTCC boundary:EGD701T:
+ARTCC boundary:EGD701U:
+ARTCC boundary:EGD701V:
+ARTCC boundary:EGD701W:
+ARTCC boundary:EGD701X:
+ARTCC boundary:EGD701Y:
+ARTCC boundary:EGD702:
+ARTCC boundary:EGD703:
+ARTCC boundary:EGD704:
+ARTCC boundary:EGD710:
+ARTCC boundary:EGD712A:
+ARTCC boundary:EGD712B:
+ARTCC boundary:EGD712C:
+ARTCC boundary:EGD712D:
+ARTCC boundary:EGD801:
+ARTCC boundary:EGD802:
+ARTCC boundary:EGD803:
+ARTCC boundary:EGD809C:
+ARTCC boundary:EGD809N:
+ARTCC boundary:EGD809S:
+ARTCC boundary:EGP611:
+ARTCC boundary:EGP813:
+ARTCC boundary:EGR002:
+ARTCC boundary:EGR063:
+ARTCC boundary:EGR095:
+ARTCC boundary:EGR101:
+ARTCC boundary:EGR104:
+ARTCC boundary:EGR105:
+ARTCC boundary:EGR106:
+ARTCC boundary:EGR107:
+ARTCC boundary:EGR153:
+ARTCC boundary:EGR154:
+ARTCC boundary:EGR155:
+ARTCC boundary:EGR156:
+ARTCC boundary:EGR157:
+ARTCC boundary:EGR158:
+ARTCC boundary:EGR159:
+ARTCC boundary:EGR160:
+ARTCC boundary:EGR204:
+ARTCC boundary:EGR212:
+ARTCC boundary:EGR214:
+ARTCC boundary:EGR217:
+ARTCC boundary:EGR219:
+ARTCC boundary:EGR220:
+ARTCC boundary:EGR311:
+ARTCC boundary:EGR312:
+ARTCC boundary:EGR313:
+ARTCC boundary:EGR315:
+ARTCC boundary:EGR319:
+ARTCC boundary:EGR321:
+ARTCC boundary:EGR322:
+ARTCC boundary:EGR413:
+ARTCC boundary:EGR431:
+ARTCC boundary:EGR432:
+ARTCC boundary:EGR444:
+ARTCC boundary:EGR445:
+ARTCC boundary:EGR446:
+ARTCC boundary:EGR504:
+ARTCC boundary:EGR515:
+ARTCC boundary:EGR516:
+ARTCC boundary:EGR603:
+ARTCC boundary:EGR610A:
+ARTCC boundary:EGR610B:
+ARTCC boundary:EGR610C:
+ARTCC boundary:EGR610D:
+ARTCC boundary:EGR612:
+ARTCC boundary:EGR704:
+ARTCC boundary:EGR705:
+ARTCC boundary:LFD82:
+ARTCC boundary:LFP26:
+ARTCC boundary:LFP27:
+ARTCC boundary:LFP28:
+ARTCC boundary:LFP32:
+ARTCC boundary:LFP33:
+ARTCC boundary:LFP6-1:
+ARTCC boundary:LFP6-2:
+ARTCC boundary:LFP7:
+ARTCC boundary:LFP81:
+ARTCC boundary:LFR10:
+ARTCC boundary:MASTS:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Scottish TMA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAB Enniskillen ATZ:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAD Newtownards ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBD Derby ATZ:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGBP Kemble ATZ:
+ARTCC low boundary:EGBS Shobdon ATZ:
+ARTCC low boundary:EGCB Manchester Barton ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCF Sandtoft ATZ:
+ARTCC low boundary:EGCJ Sherburn in Elmet ATZ:
+ARTCC low boundary:EGCM Leeds East ATZ:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGDO Predannack MATZ:
+ARTCC low boundary:EGDR Culdrose MATZ:
+ARTCC low boundary:EGDY Yeovilton MATZ:
+ARTCC low boundary:EGEO Oban ATZ:
+ARTCC low boundary:EGET Lerwick/Tingwall ATZ:
+ARTCC low boundary:EGFE Haverfordwest ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGFH Swansea ATZ:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFA (Graveley):
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Land's End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHG Westland ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLD Denham LFA:
+ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGLW London Heliport LFA:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNE Retford Gamston ATZ:
+ARTCC low boundary:EGNF Netherthorpe ATZ:
+ARTCC low boundary:EGNJ Humberside ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNO Warton MATZ:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOE Ternhill MATZ:
+ARTCC low boundary:EGOQ Mona MATZ:
+ARTCC low boundary:EGOS Shawbury MATZ:
+ARTCC low boundary:EGOV Valley MATZ:
+ARTCC low boundary:EGPA Kirkwall ATZ:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPC Wick ATZ:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPE Inverness ATZ:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPG Cumbernauld ATZ:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPI Islay ATZ:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGPL Benbecula ATZ:
+ARTCC low boundary:EGPN Dundee ATZ:
+ARTCC low boundary:EGPO Stornoway ATZ:
+ARTCC low boundary:EGPR Barra ATZ:
+ARTCC low boundary:EGPT Perth ATZ:
+ARTCC low boundary:EGPU Tiree ATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSG Stapleford ATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSL Andrewsfield ATZ/LFA:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGSS Stansted LFA (Audley End):
+ARTCC low boundary:EGSS Stansted LFA (Hunsdon):
+ARTCC low boundary:EGSU Duxford ATZ:
+ARTCC low boundary:EGSY St Athan LFA:
+ARTCC low boundary:EGTF Fairoaks LFA:
+ARTCC low boundary:EGTH Old Warden ATZ:
+ARTCC low boundary:EGTK Oxford ATZ:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGTR Elstree ATZ:
+ARTCC low boundary:EGTU Dunkeswell ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUL Lakenheath MATZ:
+ARTCC low boundary:EGUN Mildenhall MATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVA Fairford MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVL Little Rissington ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGXE Leeming MATZ:
+ARTCC low boundary:EGXT Wittering MATZ:
+ARTCC low boundary:EGXW Waddington MATZ:
+ARTCC low boundary:EGXZ Topcliffe MATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYE Barkston Heath MATZ:
+ARTCC low boundary:EGYM Marham MATZ:
+ARTCC low boundary:EIDL Donegal CTA:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+Regions:A-ChannelIslands:polygon
+Regions:A-EastCoast:polygon
+Regions:A-Ireland:polygon
+Regions:A-Northwest:polygon
+Regions:A-Scottish:polygon
+Regions:A-ScottishIslands:polygon
+Regions:A-SouthEast:polygon
+Regions:A-SouthWalesMidlands:polygon
+Regions:A-SouthWest:polygon
+Runways:000A Show adjacent departure airports 00-01:extended centerline 1
+Runways:000A Show adjacent departure airports 00-01:extended centerline 1 left ticks
+Runways:000A Show adjacent departure airports 00-01:extended centerline 1 right ticks
+Runways:000A Show adjacent departure airports 00-01:extended centerline 2
+Runways:000A Show adjacent departure airports 00-01:extended centerline 2 left ticks
+Runways:000A Show adjacent departure airports 00-01:extended centerline 2 right ticks
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 1
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 1 left ticks
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 1 right ticks
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 2
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 2 left ticks
+Runways:EGAA Belfast Aldergrove 07-25:extended centerline 2 right ticks
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 1
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 1 left ticks
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 1 right ticks
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 2
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 2 left ticks
+Runways:EGAA Belfast Aldergrove 17-35:extended centerline 2 right ticks
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 1
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 1 left ticks
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 1 right ticks
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 2
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 2 left ticks
+Runways:EGAB Enniskillen/St. Angelo 14-32:extended centerline 2 right ticks
+Runways:EGAC Belfast City 22-04:extended centerline 1
+Runways:EGAC Belfast City 22-04:extended centerline 1 left ticks
+Runways:EGAC Belfast City 22-04:extended centerline 1 right ticks
+Runways:EGAC Belfast City 22-04:extended centerline 2
+Runways:EGAC Belfast City 22-04:extended centerline 2 left ticks
+Runways:EGAC Belfast City 22-04:extended centerline 2 right ticks
+Runways:EGAD Newtownards 03-21:extended centerline 1
+Runways:EGAD Newtownards 03-21:extended centerline 1 left ticks
+Runways:EGAD Newtownards 03-21:extended centerline 1 right ticks
+Runways:EGAD Newtownards 03-21:extended centerline 2
+Runways:EGAD Newtownards 03-21:extended centerline 2 left ticks
+Runways:EGAD Newtownards 03-21:extended centerline 2 right ticks
+Runways:EGAD Newtownards 08-26:extended centerline 1
+Runways:EGAD Newtownards 08-26:extended centerline 1 left ticks
+Runways:EGAD Newtownards 08-26:extended centerline 1 right ticks
+Runways:EGAD Newtownards 08-26:extended centerline 2
+Runways:EGAD Newtownards 08-26:extended centerline 2 left ticks
+Runways:EGAD Newtownards 08-26:extended centerline 2 right ticks
+Runways:EGAD Newtownards 15-33:extended centerline 1
+Runways:EGAD Newtownards 15-33:extended centerline 1 left ticks
+Runways:EGAD Newtownards 15-33:extended centerline 1 right ticks
+Runways:EGAD Newtownards 15-33:extended centerline 2
+Runways:EGAD Newtownards 15-33:extended centerline 2 left ticks
+Runways:EGAD Newtownards 15-33:extended centerline 2 right ticks
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 1
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 1 left ticks
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 1 right ticks
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 2
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 2 left ticks
+Runways:EGAE Londonderry/Eglinton 08-26:extended centerline 2 right ticks
+Runways:EGBB Birmingham 15-33:extended centerline 1
+Runways:EGBB Birmingham 15-33:extended centerline 1 left ticks
+Runways:EGBB Birmingham 15-33:extended centerline 1 right ticks
+Runways:EGBB Birmingham 15-33:extended centerline 2
+Runways:EGBB Birmingham 15-33:extended centerline 2 left ticks
+Runways:EGBB Birmingham 15-33:extended centerline 2 right ticks
+Runways:EGBE Coventry 05-23:extended centerline 1
+Runways:EGBE Coventry 05-23:extended centerline 1 left ticks
+Runways:EGBE Coventry 05-23:extended centerline 1 right ticks
+Runways:EGBE Coventry 05-23:extended centerline 2
+Runways:EGBE Coventry 05-23:extended centerline 2 left ticks
+Runways:EGBE Coventry 05-23:extended centerline 2 right ticks
+Runways:EGBF Bedford 08-26:extended centerline 1
+Runways:EGBF Bedford 08-26:extended centerline 1 left ticks
+Runways:EGBF Bedford 08-26:extended centerline 1 right ticks
+Runways:EGBF Bedford 08-26:extended centerline 2
+Runways:EGBF Bedford 08-26:extended centerline 2 left ticks
+Runways:EGBF Bedford 08-26:extended centerline 2 right ticks
+Runways:EGBJ Gloucestershire 04-22:extended centerline 1
+Runways:EGBJ Gloucestershire 04-22:extended centerline 1 left ticks
+Runways:EGBJ Gloucestershire 04-22:extended centerline 1 right ticks
+Runways:EGBJ Gloucestershire 04-22:extended centerline 2
+Runways:EGBJ Gloucestershire 04-22:extended centerline 2 left ticks
+Runways:EGBJ Gloucestershire 04-22:extended centerline 2 right ticks
+Runways:EGBJ Gloucestershire 09-27:extended centerline 1
+Runways:EGBJ Gloucestershire 09-27:extended centerline 1 left ticks
+Runways:EGBJ Gloucestershire 09-27:extended centerline 1 right ticks
+Runways:EGBJ Gloucestershire 09-27:extended centerline 2
+Runways:EGBJ Gloucestershire 09-27:extended centerline 2 left ticks
+Runways:EGBJ Gloucestershire 09-27:extended centerline 2 right ticks
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 1
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 1 left ticks
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 1 right ticks
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 2
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 2 left ticks
+Runways:EGBK Northampton/Sywell 03L-21R:extended centerline 2 right ticks
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 1
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 1 left ticks
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 1 right ticks
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 2
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 2 left ticks
+Runways:EGBK Northampton/Sywell 03R-21L:extended centerline 2 right ticks
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 1
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 1 left ticks
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 1 right ticks
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 2
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 2 left ticks
+Runways:EGBK Northampton/Sywell 05-23:extended centerline 2 right ticks
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 1
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 1 left ticks
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 1 right ticks
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 2
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 2 left ticks
+Runways:EGBK Northampton/Sywell 14-32:extended centerline 2 right ticks
+Runways:EGBO Wolverhampton 04-22:extended centerline 1
+Runways:EGBO Wolverhampton 04-22:extended centerline 1 left ticks
+Runways:EGBO Wolverhampton 04-22:extended centerline 1 right ticks
+Runways:EGBO Wolverhampton 04-22:extended centerline 2
+Runways:EGBO Wolverhampton 04-22:extended centerline 2 left ticks
+Runways:EGBO Wolverhampton 04-22:extended centerline 2 right ticks
+Runways:EGBO Wolverhampton 10-28:extended centerline 1
+Runways:EGBO Wolverhampton 10-28:extended centerline 1 left ticks
+Runways:EGBO Wolverhampton 10-28:extended centerline 1 right ticks
+Runways:EGBO Wolverhampton 10-28:extended centerline 2
+Runways:EGBO Wolverhampton 10-28:extended centerline 2 left ticks
+Runways:EGBO Wolverhampton 10-28:extended centerline 2 right ticks
+Runways:EGBO Wolverhampton 16-34:extended centerline 1
+Runways:EGBO Wolverhampton 16-34:extended centerline 1 left ticks
+Runways:EGBO Wolverhampton 16-34:extended centerline 1 right ticks
+Runways:EGBO Wolverhampton 16-34:extended centerline 2
+Runways:EGBO Wolverhampton 16-34:extended centerline 2 left ticks
+Runways:EGBO Wolverhampton 16-34:extended centerline 2 right ticks
+Runways:EGBP Kemble 08-26:extended centerline 1
+Runways:EGBP Kemble 08-26:extended centerline 1 left ticks
+Runways:EGBP Kemble 08-26:extended centerline 1 right ticks
+Runways:EGBP Kemble 08-26:extended centerline 2
+Runways:EGBP Kemble 08-26:extended centerline 2 left ticks
+Runways:EGBP Kemble 08-26:extended centerline 2 right ticks
+Runways:EGBS Shobdon 08-26:extended centerline 1
+Runways:EGBS Shobdon 08-26:extended centerline 1 left ticks
+Runways:EGBS Shobdon 08-26:extended centerline 1 right ticks
+Runways:EGBS Shobdon 08-26:extended centerline 2
+Runways:EGBS Shobdon 08-26:extended centerline 2 left ticks
+Runways:EGBS Shobdon 08-26:extended centerline 2 right ticks
+Runways:EGBW Wellesbourne 05-23:extended centerline 1
+Runways:EGBW Wellesbourne 05-23:extended centerline 1 left ticks
+Runways:EGBW Wellesbourne 05-23:extended centerline 1 right ticks
+Runways:EGBW Wellesbourne 05-23:extended centerline 2
+Runways:EGBW Wellesbourne 05-23:extended centerline 2 left ticks
+Runways:EGBW Wellesbourne 05-23:extended centerline 2 right ticks
+Runways:EGBW Wellesbourne 18-36:extended centerline 1
+Runways:EGBW Wellesbourne 18-36:extended centerline 1 left ticks
+Runways:EGBW Wellesbourne 18-36:extended centerline 1 right ticks
+Runways:EGBW Wellesbourne 18-36:extended centerline 2
+Runways:EGBW Wellesbourne 18-36:extended centerline 2 left ticks
+Runways:EGBW Wellesbourne 18-36:extended centerline 2 right ticks
+Runways:EGCB Manchester Barton 02-20:extended centerline 1
+Runways:EGCB Manchester Barton 02-20:extended centerline 1 left ticks
+Runways:EGCB Manchester Barton 02-20:extended centerline 1 right ticks
+Runways:EGCB Manchester Barton 02-20:extended centerline 2
+Runways:EGCB Manchester Barton 02-20:extended centerline 2 left ticks
+Runways:EGCB Manchester Barton 02-20:extended centerline 2 right ticks
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 1
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 1 left ticks
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 1 right ticks
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 2
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 2 left ticks
+Runways:EGCB Manchester Barton 08L-26R:extended centerline 2 right ticks
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 1
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 1 left ticks
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 1 right ticks
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 2
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 2 left ticks
+Runways:EGCB Manchester Barton 08R-26L:extended centerline 2 right ticks
+Runways:EGCB Manchester Barton 14-32:extended centerline 1
+Runways:EGCB Manchester Barton 14-32:extended centerline 1 left ticks
+Runways:EGCB Manchester Barton 14-32:extended centerline 1 right ticks
+Runways:EGCB Manchester Barton 14-32:extended centerline 2
+Runways:EGCB Manchester Barton 14-32:extended centerline 2 left ticks
+Runways:EGCB Manchester Barton 14-32:extended centerline 2 right ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 1
+Runways:EGCC Manchester 05L-23R:extended centerline 1 left ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 1 right ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 2
+Runways:EGCC Manchester 05L-23R:extended centerline 2 left ticks
+Runways:EGCC Manchester 05L-23R:extended centerline 2 right ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 1
+Runways:EGCC Manchester 05R-23L:extended centerline 1 left ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 1 right ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 2
+Runways:EGCC Manchester 05R-23L:extended centerline 2 left ticks
+Runways:EGCC Manchester 05R-23L:extended centerline 2 right ticks
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 1
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 1 left ticks
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 1 right ticks
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 2
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 2 left ticks
+Runways:EGCJ Sherburn in Elmet 01-19:extended centerline 2 right ticks
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 1
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 1 left ticks
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 1 right ticks
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 2
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 2 left ticks
+Runways:EGCJ Sherburn in Elmet 06-24:extended centerline 2 right ticks
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 1
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 1 left ticks
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 1 right ticks
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 2
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 2 left ticks
+Runways:EGCJ Sherburn in Elmet 10-28:extended centerline 2 right ticks
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 1
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 1 left ticks
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 1 right ticks
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 2
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 2 left ticks
+Runways:EGCJ Sherburn in Elmet 10G-28G:extended centerline 2 right ticks
+Runways:EGCM Leeds East 06-24:extended centerline 1
+Runways:EGCM Leeds East 06-24:extended centerline 1 left ticks
+Runways:EGCM Leeds East 06-24:extended centerline 1 right ticks
+Runways:EGCM Leeds East 06-24:extended centerline 2
+Runways:EGCM Leeds East 06-24:extended centerline 2 left ticks
+Runways:EGCM Leeds East 06-24:extended centerline 2 right ticks
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 1
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 1 left ticks
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 1 right ticks
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 2
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 2 left ticks
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:extended centerline 2 right ticks
+Runways:EGDM Boscombe Down 05-23:extended centerline 1
+Runways:EGDM Boscombe Down 05-23:extended centerline 1 left ticks
+Runways:EGDM Boscombe Down 05-23:extended centerline 1 right ticks
+Runways:EGDM Boscombe Down 05-23:extended centerline 2
+Runways:EGDM Boscombe Down 05-23:extended centerline 2 left ticks
+Runways:EGDM Boscombe Down 05-23:extended centerline 2 right ticks
+Runways:EGDR Culdrose 06-24:extended centerline 1
+Runways:EGDR Culdrose 06-24:extended centerline 1 left ticks
+Runways:EGDR Culdrose 06-24:extended centerline 1 right ticks
+Runways:EGDR Culdrose 06-24:extended centerline 2
+Runways:EGDR Culdrose 06-24:extended centerline 2 left ticks
+Runways:EGDR Culdrose 06-24:extended centerline 2 right ticks
+Runways:EGDR Culdrose 11-29:extended centerline 1
+Runways:EGDR Culdrose 11-29:extended centerline 1 left ticks
+Runways:EGDR Culdrose 11-29:extended centerline 1 right ticks
+Runways:EGDR Culdrose 11-29:extended centerline 2
+Runways:EGDR Culdrose 11-29:extended centerline 2 left ticks
+Runways:EGDR Culdrose 11-29:extended centerline 2 right ticks
+Runways:EGDR Culdrose 18-36:extended centerline 1
+Runways:EGDR Culdrose 18-36:extended centerline 1 left ticks
+Runways:EGDR Culdrose 18-36:extended centerline 1 right ticks
+Runways:EGDR Culdrose 18-36:extended centerline 2
+Runways:EGDR Culdrose 18-36:extended centerline 2 left ticks
+Runways:EGDR Culdrose 18-36:extended centerline 2 right ticks
+Runways:EGDY Yeovilton 04-22:extended centerline 1
+Runways:EGDY Yeovilton 04-22:extended centerline 1 left ticks
+Runways:EGDY Yeovilton 04-22:extended centerline 1 right ticks
+Runways:EGDY Yeovilton 04-22:extended centerline 2
+Runways:EGDY Yeovilton 04-22:extended centerline 2 left ticks
+Runways:EGDY Yeovilton 04-22:extended centerline 2 right ticks
+Runways:EGDY Yeovilton 08-26:extended centerline 1
+Runways:EGDY Yeovilton 08-26:extended centerline 1 left ticks
+Runways:EGDY Yeovilton 08-26:extended centerline 1 right ticks
+Runways:EGDY Yeovilton 08-26:extended centerline 2
+Runways:EGDY Yeovilton 08-26:extended centerline 2 left ticks
+Runways:EGDY Yeovilton 08-26:extended centerline 2 right ticks
+Runways:EGEO Oban 01-19:extended centerline 1
+Runways:EGEO Oban 01-19:extended centerline 1 left ticks
+Runways:EGEO Oban 01-19:extended centerline 1 right ticks
+Runways:EGEO Oban 01-19:extended centerline 2
+Runways:EGEO Oban 01-19:extended centerline 2 left ticks
+Runways:EGEO Oban 01-19:extended centerline 2 right ticks
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 1
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 1 left ticks
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 1 right ticks
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 2
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 2 left ticks
+Runways:EGET Lerwick/Tingwall 02-20:extended centerline 2 right ticks
+Runways:EGFE Haverfordwest 03-21:extended centerline 1
+Runways:EGFE Haverfordwest 03-21:extended centerline 1 left ticks
+Runways:EGFE Haverfordwest 03-21:extended centerline 1 right ticks
+Runways:EGFE Haverfordwest 03-21:extended centerline 2
+Runways:EGFE Haverfordwest 03-21:extended centerline 2 left ticks
+Runways:EGFE Haverfordwest 03-21:extended centerline 2 right ticks
+Runways:EGFE Haverfordwest 09-27:extended centerline 1
+Runways:EGFE Haverfordwest 09-27:extended centerline 1 left ticks
+Runways:EGFE Haverfordwest 09-27:extended centerline 1 right ticks
+Runways:EGFE Haverfordwest 09-27:extended centerline 2
+Runways:EGFE Haverfordwest 09-27:extended centerline 2 left ticks
+Runways:EGFE Haverfordwest 09-27:extended centerline 2 right ticks
+Runways:EGFF Cardiff 12-30:extended centerline 1
+Runways:EGFF Cardiff 12-30:extended centerline 1 left ticks
+Runways:EGFF Cardiff 12-30:extended centerline 1 right ticks
+Runways:EGFF Cardiff 12-30:extended centerline 2
+Runways:EGFF Cardiff 12-30:extended centerline 2 left ticks
+Runways:EGFF Cardiff 12-30:extended centerline 2 right ticks
+Runways:EGFH Swansea 04-22:extended centerline 1
+Runways:EGFH Swansea 04-22:extended centerline 1 left ticks
+Runways:EGFH Swansea 04-22:extended centerline 1 right ticks
+Runways:EGFH Swansea 04-22:extended centerline 2
+Runways:EGFH Swansea 04-22:extended centerline 2 left ticks
+Runways:EGFH Swansea 04-22:extended centerline 2 right ticks
+Runways:EGFH Swansea 10-28:extended centerline 1
+Runways:EGFH Swansea 10-28:extended centerline 1 left ticks
+Runways:EGFH Swansea 10-28:extended centerline 1 right ticks
+Runways:EGFH Swansea 10-28:extended centerline 2
+Runways:EGFH Swansea 10-28:extended centerline 2 left ticks
+Runways:EGFH Swansea 10-28:extended centerline 2 right ticks
+Runways:EGGD Bristol 09-27:extended centerline 1
+Runways:EGGD Bristol 09-27:extended centerline 1 left ticks
+Runways:EGGD Bristol 09-27:extended centerline 1 right ticks
+Runways:EGGD Bristol 09-27:extended centerline 2
+Runways:EGGD Bristol 09-27:extended centerline 2 left ticks
+Runways:EGGD Bristol 09-27:extended centerline 2 right ticks
+Runways:EGGP Liverpool 09-27:extended centerline 1
+Runways:EGGP Liverpool 09-27:extended centerline 1 left ticks
+Runways:EGGP Liverpool 09-27:extended centerline 1 right ticks
+Runways:EGGP Liverpool 09-27:extended centerline 2
+Runways:EGGP Liverpool 09-27:extended centerline 2 left ticks
+Runways:EGGP Liverpool 09-27:extended centerline 2 right ticks
+Runways:EGGW London Luton 07-25:extended centerline 1
+Runways:EGGW London Luton 07-25:extended centerline 1 left ticks
+Runways:EGGW London Luton 07-25:extended centerline 1 right ticks
+Runways:EGGW London Luton 07-25:extended centerline 2
+Runways:EGGW London Luton 07-25:extended centerline 2 left ticks
+Runways:EGGW London Luton 07-25:extended centerline 2 right ticks
+Runways:EGHC Land's End 02-20:extended centerline 1
+Runways:EGHC Land's End 02-20:extended centerline 1 left ticks
+Runways:EGHC Land's End 02-20:extended centerline 1 right ticks
+Runways:EGHC Land's End 02-20:extended centerline 2
+Runways:EGHC Land's End 02-20:extended centerline 2 left ticks
+Runways:EGHC Land's End 02-20:extended centerline 2 right ticks
+Runways:EGHC Land's End 07-25:extended centerline 1
+Runways:EGHC Land's End 07-25:extended centerline 1 left ticks
+Runways:EGHC Land's End 07-25:extended centerline 1 right ticks
+Runways:EGHC Land's End 07-25:extended centerline 2
+Runways:EGHC Land's End 07-25:extended centerline 2 left ticks
+Runways:EGHC Land's End 07-25:extended centerline 2 right ticks
+Runways:EGHC Land's End 11-29:extended centerline 1
+Runways:EGHC Land's End 11-29:extended centerline 1 left ticks
+Runways:EGHC Land's End 11-29:extended centerline 1 right ticks
+Runways:EGHC Land's End 11-29:extended centerline 2
+Runways:EGHC Land's End 11-29:extended centerline 2 left ticks
+Runways:EGHC Land's End 11-29:extended centerline 2 right ticks
+Runways:EGHC Land's End 16-34:extended centerline 1
+Runways:EGHC Land's End 16-34:extended centerline 1 left ticks
+Runways:EGHC Land's End 16-34:extended centerline 1 right ticks
+Runways:EGHC Land's End 16-34:extended centerline 2
+Runways:EGHC Land's End 16-34:extended centerline 2 left ticks
+Runways:EGHC Land's End 16-34:extended centerline 2 right ticks
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 1
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 1 left ticks
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 1 right ticks
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 2
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 2 left ticks
+Runways:EGHE Scilly Isles/St Mary's 09-27:extended centerline 2 right ticks
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 1
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 1 left ticks
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 1 right ticks
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 2
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 2 left ticks
+Runways:EGHE Scilly Isles/St Mary's 14-32:extended centerline 2 right ticks
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 1
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 1 left ticks
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 1 right ticks
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 2
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 2 left ticks
+Runways:EGHF Lee-on-Solent 05-23:extended centerline 2 right ticks
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 1
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 1 left ticks
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 1 right ticks
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 2
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 2 left ticks
+Runways:EGHG Yeovil/Westland 09-27:extended centerline 2 right ticks
+Runways:EGHH Bournemouth 08-26:extended centerline 1
+Runways:EGHH Bournemouth 08-26:extended centerline 1 left ticks
+Runways:EGHH Bournemouth 08-26:extended centerline 1 right ticks
+Runways:EGHH Bournemouth 08-26:extended centerline 2
+Runways:EGHH Bournemouth 08-26:extended centerline 2 left ticks
+Runways:EGHH Bournemouth 08-26:extended centerline 2 right ticks
+Runways:EGHI Southampton 02-20:extended centerline 1
+Runways:EGHI Southampton 02-20:extended centerline 1 left ticks
+Runways:EGHI Southampton 02-20:extended centerline 1 right ticks
+Runways:EGHI Southampton 02-20:extended centerline 2
+Runways:EGHI Southampton 02-20:extended centerline 2 left ticks
+Runways:EGHI Southampton 02-20:extended centerline 2 right ticks
+Runways:EGHJ Bembridge 12-30:extended centerline 1
+Runways:EGHJ Bembridge 12-30:extended centerline 1 left ticks
+Runways:EGHJ Bembridge 12-30:extended centerline 1 right ticks
+Runways:EGHJ Bembridge 12-30:extended centerline 2
+Runways:EGHJ Bembridge 12-30:extended centerline 2 left ticks
+Runways:EGHJ Bembridge 12-30:extended centerline 2 right ticks
+Runways:EGHL Lasham 09-27:extended centerline 1
+Runways:EGHL Lasham 09-27:extended centerline 1 left ticks
+Runways:EGHL Lasham 09-27:extended centerline 1 right ticks
+Runways:EGHL Lasham 09-27:extended centerline 2
+Runways:EGHL Lasham 09-27:extended centerline 2 left ticks
+Runways:EGHL Lasham 09-27:extended centerline 2 right ticks
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 1
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 1 left ticks
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 1 right ticks
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 2
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 2 left ticks
+Runways:EGHN Isle of Wight Sandown 05-23:extended centerline 2 right ticks
+Runways:EGHO Thruxton 07-25:extended centerline 1
+Runways:EGHO Thruxton 07-25:extended centerline 1 left ticks
+Runways:EGHO Thruxton 07-25:extended centerline 1 right ticks
+Runways:EGHO Thruxton 07-25:extended centerline 2
+Runways:EGHO Thruxton 07-25:extended centerline 2 left ticks
+Runways:EGHO Thruxton 07-25:extended centerline 2 right ticks
+Runways:EGHO Thruxton 12-30:extended centerline 1
+Runways:EGHO Thruxton 12-30:extended centerline 1 left ticks
+Runways:EGHO Thruxton 12-30:extended centerline 1 right ticks
+Runways:EGHO Thruxton 12-30:extended centerline 2
+Runways:EGHO Thruxton 12-30:extended centerline 2 left ticks
+Runways:EGHO Thruxton 12-30:extended centerline 2 right ticks
+Runways:EGHQ Newquay 12-30:extended centerline 1
+Runways:EGHQ Newquay 12-30:extended centerline 1 left ticks
+Runways:EGHQ Newquay 12-30:extended centerline 1 right ticks
+Runways:EGHQ Newquay 12-30:extended centerline 2
+Runways:EGHQ Newquay 12-30:extended centerline 2 left ticks
+Runways:EGHQ Newquay 12-30:extended centerline 2 right ticks
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 1
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 1 left ticks
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 1 right ticks
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 2
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 2 left ticks
+Runways:EGHR Chichester/Goodwood 06-24:extended centerline 2 right ticks
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 1
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 1 left ticks
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 1 right ticks
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 2
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 2 left ticks
+Runways:EGHR Chichester/Goodwood 10-28:extended centerline 2 right ticks
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 1
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 1 left ticks
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 1 right ticks
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 2
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 2 left ticks
+Runways:EGHR Chichester/Goodwood 14-32:extended centerline 2 right ticks
+Runways:EGJA Alderney 03-21:extended centerline 1
+Runways:EGJA Alderney 03-21:extended centerline 1 left ticks
+Runways:EGJA Alderney 03-21:extended centerline 1 right ticks
+Runways:EGJA Alderney 03-21:extended centerline 2
+Runways:EGJA Alderney 03-21:extended centerline 2 left ticks
+Runways:EGJA Alderney 03-21:extended centerline 2 right ticks
+Runways:EGJA Alderney 08-26:extended centerline 1
+Runways:EGJA Alderney 08-26:extended centerline 1 left ticks
+Runways:EGJA Alderney 08-26:extended centerline 1 right ticks
+Runways:EGJA Alderney 08-26:extended centerline 2
+Runways:EGJA Alderney 08-26:extended centerline 2 left ticks
+Runways:EGJA Alderney 08-26:extended centerline 2 right ticks
+Runways:EGJA Alderney 13-31:extended centerline 1
+Runways:EGJA Alderney 13-31:extended centerline 1 left ticks
+Runways:EGJA Alderney 13-31:extended centerline 1 right ticks
+Runways:EGJA Alderney 13-31:extended centerline 2
+Runways:EGJA Alderney 13-31:extended centerline 2 left ticks
+Runways:EGJA Alderney 13-31:extended centerline 2 right ticks
+Runways:EGJB Guernsey 09-27:extended centerline 1
+Runways:EGJB Guernsey 09-27:extended centerline 1 left ticks
+Runways:EGJB Guernsey 09-27:extended centerline 1 right ticks
+Runways:EGJB Guernsey 09-27:extended centerline 2
+Runways:EGJB Guernsey 09-27:extended centerline 2 left ticks
+Runways:EGJB Guernsey 09-27:extended centerline 2 right ticks
+Runways:EGJJ Jersey 08-26:extended centerline 1
+Runways:EGJJ Jersey 08-26:extended centerline 1 left ticks
+Runways:EGJJ Jersey 08-26:extended centerline 1 right ticks
+Runways:EGJJ Jersey 08-26:extended centerline 2
+Runways:EGJJ Jersey 08-26:extended centerline 2 left ticks
+Runways:EGJJ Jersey 08-26:extended centerline 2 right ticks
+Runways:EGKA Shoreham 02-20:extended centerline 1
+Runways:EGKA Shoreham 02-20:extended centerline 1 left ticks
+Runways:EGKA Shoreham 02-20:extended centerline 1 right ticks
+Runways:EGKA Shoreham 02-20:extended centerline 2
+Runways:EGKA Shoreham 02-20:extended centerline 2 left ticks
+Runways:EGKA Shoreham 02-20:extended centerline 2 right ticks
+Runways:EGKA Shoreham 02G-20G:extended centerline 1
+Runways:EGKA Shoreham 02G-20G:extended centerline 1 left ticks
+Runways:EGKA Shoreham 02G-20G:extended centerline 1 right ticks
+Runways:EGKA Shoreham 02G-20G:extended centerline 2
+Runways:EGKA Shoreham 02G-20G:extended centerline 2 left ticks
+Runways:EGKA Shoreham 02G-20G:extended centerline 2 right ticks
+Runways:EGKA Shoreham 06-24:extended centerline 1
+Runways:EGKA Shoreham 06-24:extended centerline 1 left ticks
+Runways:EGKA Shoreham 06-24:extended centerline 1 right ticks
+Runways:EGKA Shoreham 06-24:extended centerline 2
+Runways:EGKA Shoreham 06-24:extended centerline 2 left ticks
+Runways:EGKA Shoreham 06-24:extended centerline 2 right ticks
+Runways:EGKA Shoreham 13-31:extended centerline 1
+Runways:EGKA Shoreham 13-31:extended centerline 1 left ticks
+Runways:EGKA Shoreham 13-31:extended centerline 1 right ticks
+Runways:EGKA Shoreham 13-31:extended centerline 2
+Runways:EGKA Shoreham 13-31:extended centerline 2 left ticks
+Runways:EGKA Shoreham 13-31:extended centerline 2 right ticks
+Runways:EGKB Biggin Hill 03-21:extended centerline 1
+Runways:EGKB Biggin Hill 03-21:extended centerline 1 left ticks
+Runways:EGKB Biggin Hill 03-21:extended centerline 1 right ticks
+Runways:EGKB Biggin Hill 03-21:extended centerline 2
+Runways:EGKB Biggin Hill 03-21:extended centerline 2 left ticks
+Runways:EGKB Biggin Hill 03-21:extended centerline 2 right ticks
+Runways:EGKK Gatwick 08L-26R:extended centerline 1
+Runways:EGKK Gatwick 08L-26R:extended centerline 1 left ticks
+Runways:EGKK Gatwick 08L-26R:extended centerline 1 right ticks
+Runways:EGKK Gatwick 08L-26R:extended centerline 2
+Runways:EGKK Gatwick 08L-26R:extended centerline 2 left ticks
+Runways:EGKK Gatwick 08L-26R:extended centerline 2 right ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 1
+Runways:EGKK Gatwick 08R-26L:extended centerline 1 left ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 1 right ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 2
+Runways:EGKK Gatwick 08R-26L:extended centerline 2 left ticks
+Runways:EGKK Gatwick 08R-26L:extended centerline 2 right ticks
+Runways:EGKR Redhill 07L-25R:extended centerline 1
+Runways:EGKR Redhill 07L-25R:extended centerline 1 left ticks
+Runways:EGKR Redhill 07L-25R:extended centerline 1 right ticks
+Runways:EGKR Redhill 07L-25R:extended centerline 2
+Runways:EGKR Redhill 07L-25R:extended centerline 2 left ticks
+Runways:EGKR Redhill 07L-25R:extended centerline 2 right ticks
+Runways:EGKR Redhill 07R-25L:extended centerline 1
+Runways:EGKR Redhill 07R-25L:extended centerline 1 left ticks
+Runways:EGKR Redhill 07R-25L:extended centerline 1 right ticks
+Runways:EGKR Redhill 07R-25L:extended centerline 2
+Runways:EGKR Redhill 07R-25L:extended centerline 2 left ticks
+Runways:EGKR Redhill 07R-25L:extended centerline 2 right ticks
+Runways:EGKR Redhill 18-36:extended centerline 1
+Runways:EGKR Redhill 18-36:extended centerline 1 left ticks
+Runways:EGKR Redhill 18-36:extended centerline 1 right ticks
+Runways:EGKR Redhill 18-36:extended centerline 2
+Runways:EGKR Redhill 18-36:extended centerline 2 left ticks
+Runways:EGKR Redhill 18-36:extended centerline 2 right ticks
+Runways:EGLC London City 09-27:extended centerline 1
+Runways:EGLC London City 09-27:extended centerline 1 left ticks
+Runways:EGLC London City 09-27:extended centerline 1 right ticks
+Runways:EGLC London City 09-27:extended centerline 2
+Runways:EGLC London City 09-27:extended centerline 2 left ticks
+Runways:EGLC London City 09-27:extended centerline 2 right ticks
+Runways:EGLF Farnborough 06-24:extended centerline 1
+Runways:EGLF Farnborough 06-24:extended centerline 1 left ticks
+Runways:EGLF Farnborough 06-24:extended centerline 1 right ticks
+Runways:EGLF Farnborough 06-24:extended centerline 2
+Runways:EGLF Farnborough 06-24:extended centerline 2 left ticks
+Runways:EGLF Farnborough 06-24:extended centerline 2 right ticks
+Runways:EGLJ Chalgrove 12-30:extended centerline 1
+Runways:EGLJ Chalgrove 12-30:extended centerline 1 left ticks
+Runways:EGLJ Chalgrove 12-30:extended centerline 1 right ticks
+Runways:EGLJ Chalgrove 12-30:extended centerline 2
+Runways:EGLJ Chalgrove 12-30:extended centerline 2 left ticks
+Runways:EGLJ Chalgrove 12-30:extended centerline 2 right ticks
+Runways:EGLK Blackbushe 07-25:extended centerline 1
+Runways:EGLK Blackbushe 07-25:extended centerline 1 left ticks
+Runways:EGLK Blackbushe 07-25:extended centerline 1 right ticks
+Runways:EGLK Blackbushe 07-25:extended centerline 2
+Runways:EGLK Blackbushe 07-25:extended centerline 2 left ticks
+Runways:EGLK Blackbushe 07-25:extended centerline 2 right ticks
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1 left ticks
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1 right ticks
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2 left ticks
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2 right ticks
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1 left ticks
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1 right ticks
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2 left ticks
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2 right ticks
+Runways:EGLW London Heliport 02-20:extended centerline 1
+Runways:EGLW London Heliport 02-20:extended centerline 1 left ticks
+Runways:EGLW London Heliport 02-20:extended centerline 1 right ticks
+Runways:EGLW London Heliport 02-20:extended centerline 2
+Runways:EGLW London Heliport 02-20:extended centerline 2 left ticks
+Runways:EGLW London Heliport 02-20:extended centerline 2 right ticks
+Runways:EGMC Southend 05-23:extended centerline 1
+Runways:EGMC Southend 05-23:extended centerline 1 left ticks
+Runways:EGMC Southend 05-23:extended centerline 1 right ticks
+Runways:EGMC Southend 05-23:extended centerline 2
+Runways:EGMC Southend 05-23:extended centerline 2 left ticks
+Runways:EGMC Southend 05-23:extended centerline 2 right ticks
+Runways:EGMD Lydd 03-21:extended centerline 1
+Runways:EGMD Lydd 03-21:extended centerline 1 left ticks
+Runways:EGMD Lydd 03-21:extended centerline 1 right ticks
+Runways:EGMD Lydd 03-21:extended centerline 2
+Runways:EGMD Lydd 03-21:extended centerline 2 left ticks
+Runways:EGMD Lydd 03-21:extended centerline 2 right ticks
+Runways:EGNC Carlisle 01-19:extended centerline 1
+Runways:EGNC Carlisle 01-19:extended centerline 1 left ticks
+Runways:EGNC Carlisle 01-19:extended centerline 1 right ticks
+Runways:EGNC Carlisle 01-19:extended centerline 2
+Runways:EGNC Carlisle 01-19:extended centerline 2 left ticks
+Runways:EGNC Carlisle 01-19:extended centerline 2 right ticks
+Runways:EGNC Carlisle 06-24:extended centerline 1
+Runways:EGNC Carlisle 06-24:extended centerline 1 left ticks
+Runways:EGNC Carlisle 06-24:extended centerline 1 right ticks
+Runways:EGNC Carlisle 06-24:extended centerline 2
+Runways:EGNC Carlisle 06-24:extended centerline 2 left ticks
+Runways:EGNC Carlisle 06-24:extended centerline 2 right ticks
+Runways:EGNE Retford Gamston 02-20:extended centerline 1
+Runways:EGNE Retford Gamston 02-20:extended centerline 1 left ticks
+Runways:EGNE Retford Gamston 02-20:extended centerline 1 right ticks
+Runways:EGNE Retford Gamston 02-20:extended centerline 2
+Runways:EGNE Retford Gamston 02-20:extended centerline 2 left ticks
+Runways:EGNE Retford Gamston 02-20:extended centerline 2 right ticks
+Runways:EGNF Netherthorpe 06-24:extended centerline 1
+Runways:EGNF Netherthorpe 06-24:extended centerline 1 left ticks
+Runways:EGNF Netherthorpe 06-24:extended centerline 1 right ticks
+Runways:EGNF Netherthorpe 06-24:extended centerline 2
+Runways:EGNF Netherthorpe 06-24:extended centerline 2 left ticks
+Runways:EGNF Netherthorpe 06-24:extended centerline 2 right ticks
+Runways:EGNF Netherthorpe 18-36:extended centerline 1
+Runways:EGNF Netherthorpe 18-36:extended centerline 1 left ticks
+Runways:EGNF Netherthorpe 18-36:extended centerline 1 right ticks
+Runways:EGNF Netherthorpe 18-36:extended centerline 2
+Runways:EGNF Netherthorpe 18-36:extended centerline 2 left ticks
+Runways:EGNF Netherthorpe 18-36:extended centerline 2 right ticks
+Runways:EGNH Blackpool 10-28:extended centerline 1
+Runways:EGNH Blackpool 10-28:extended centerline 1 left ticks
+Runways:EGNH Blackpool 10-28:extended centerline 1 right ticks
+Runways:EGNH Blackpool 10-28:extended centerline 2
+Runways:EGNH Blackpool 10-28:extended centerline 2 left ticks
+Runways:EGNH Blackpool 10-28:extended centerline 2 right ticks
+Runways:EGNJ Humberside 02-20:extended centerline 1
+Runways:EGNJ Humberside 02-20:extended centerline 1 left ticks
+Runways:EGNJ Humberside 02-20:extended centerline 1 right ticks
+Runways:EGNJ Humberside 02-20:extended centerline 2
+Runways:EGNJ Humberside 02-20:extended centerline 2 left ticks
+Runways:EGNJ Humberside 02-20:extended centerline 2 right ticks
+Runways:EGNL Walney 05-23:extended centerline 1
+Runways:EGNL Walney 05-23:extended centerline 1 left ticks
+Runways:EGNL Walney 05-23:extended centerline 1 right ticks
+Runways:EGNL Walney 05-23:extended centerline 2
+Runways:EGNL Walney 05-23:extended centerline 2 left ticks
+Runways:EGNL Walney 05-23:extended centerline 2 right ticks
+Runways:EGNL Walney 17-35:extended centerline 1
+Runways:EGNL Walney 17-35:extended centerline 1 left ticks
+Runways:EGNL Walney 17-35:extended centerline 1 right ticks
+Runways:EGNL Walney 17-35:extended centerline 2
+Runways:EGNL Walney 17-35:extended centerline 2 left ticks
+Runways:EGNL Walney 17-35:extended centerline 2 right ticks
+Runways:EGNM Leeds Bradford 14-32:extended centerline 1
+Runways:EGNM Leeds Bradford 14-32:extended centerline 1 left ticks
+Runways:EGNM Leeds Bradford 14-32:extended centerline 1 right ticks
+Runways:EGNM Leeds Bradford 14-32:extended centerline 2
+Runways:EGNM Leeds Bradford 14-32:extended centerline 2 left ticks
+Runways:EGNM Leeds Bradford 14-32:extended centerline 2 right ticks
+Runways:EGNO Warton 07-25:extended centerline 1
+Runways:EGNO Warton 07-25:extended centerline 1 left ticks
+Runways:EGNO Warton 07-25:extended centerline 1 right ticks
+Runways:EGNO Warton 07-25:extended centerline 2
+Runways:EGNO Warton 07-25:extended centerline 2 left ticks
+Runways:EGNO Warton 07-25:extended centerline 2 right ticks
+Runways:EGNR Hawarden 04-22:extended centerline 1
+Runways:EGNR Hawarden 04-22:extended centerline 1 left ticks
+Runways:EGNR Hawarden 04-22:extended centerline 1 right ticks
+Runways:EGNR Hawarden 04-22:extended centerline 2
+Runways:EGNR Hawarden 04-22:extended centerline 2 left ticks
+Runways:EGNR Hawarden 04-22:extended centerline 2 right ticks
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 1
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 1 left ticks
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 1 right ticks
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 2
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 2 left ticks
+Runways:EGNS Isle of Man - Ronaldsway 03-21:extended centerline 2 right ticks
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 1
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 1 left ticks
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 1 right ticks
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 2
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 2 left ticks
+Runways:EGNS Isle of Man - Ronaldsway 08-26:extended centerline 2 right ticks
+Runways:EGNT Newcastle 07-25:extended centerline 1
+Runways:EGNT Newcastle 07-25:extended centerline 1 left ticks
+Runways:EGNT Newcastle 07-25:extended centerline 1 right ticks
+Runways:EGNT Newcastle 07-25:extended centerline 2
+Runways:EGNT Newcastle 07-25:extended centerline 2 left ticks
+Runways:EGNT Newcastle 07-25:extended centerline 2 right ticks
+Runways:EGNV Teesside 05-23:extended centerline 1
+Runways:EGNV Teesside 05-23:extended centerline 1 left ticks
+Runways:EGNV Teesside 05-23:extended centerline 1 right ticks
+Runways:EGNV Teesside 05-23:extended centerline 2
+Runways:EGNV Teesside 05-23:extended centerline 2 left ticks
+Runways:EGNV Teesside 05-23:extended centerline 2 right ticks
+Runways:EGNX East Midlands 09-27:extended centerline 1
+Runways:EGNX East Midlands 09-27:extended centerline 1 left ticks
+Runways:EGNX East Midlands 09-27:extended centerline 1 right ticks
+Runways:EGNX East Midlands 09-27:extended centerline 2
+Runways:EGNX East Midlands 09-27:extended centerline 2 left ticks
+Runways:EGNX East Midlands 09-27:extended centerline 2 right ticks
+Runways:EGOE Ternhill 04-22:extended centerline 1
+Runways:EGOE Ternhill 04-22:extended centerline 1 left ticks
+Runways:EGOE Ternhill 04-22:extended centerline 1 right ticks
+Runways:EGOE Ternhill 04-22:extended centerline 2
+Runways:EGOE Ternhill 04-22:extended centerline 2 left ticks
+Runways:EGOE Ternhill 04-22:extended centerline 2 right ticks
+Runways:EGOE Ternhill 10-28:extended centerline 1
+Runways:EGOE Ternhill 10-28:extended centerline 1 left ticks
+Runways:EGOE Ternhill 10-28:extended centerline 1 right ticks
+Runways:EGOE Ternhill 10-28:extended centerline 2
+Runways:EGOE Ternhill 10-28:extended centerline 2 left ticks
+Runways:EGOE Ternhill 10-28:extended centerline 2 right ticks
+Runways:EGOE Ternhill 17-35:extended centerline 1
+Runways:EGOE Ternhill 17-35:extended centerline 1 left ticks
+Runways:EGOE Ternhill 17-35:extended centerline 1 right ticks
+Runways:EGOE Ternhill 17-35:extended centerline 2
+Runways:EGOE Ternhill 17-35:extended centerline 2 left ticks
+Runways:EGOE Ternhill 17-35:extended centerline 2 right ticks
+Runways:EGOQ Mona 04-22:extended centerline 1
+Runways:EGOQ Mona 04-22:extended centerline 1 left ticks
+Runways:EGOQ Mona 04-22:extended centerline 1 right ticks
+Runways:EGOQ Mona 04-22:extended centerline 2
+Runways:EGOQ Mona 04-22:extended centerline 2 left ticks
+Runways:EGOQ Mona 04-22:extended centerline 2 right ticks
+Runways:EGOS Shawbury 05-23:extended centerline 1
+Runways:EGOS Shawbury 05-23:extended centerline 1 left ticks
+Runways:EGOS Shawbury 05-23:extended centerline 1 right ticks
+Runways:EGOS Shawbury 05-23:extended centerline 2
+Runways:EGOS Shawbury 05-23:extended centerline 2 left ticks
+Runways:EGOS Shawbury 05-23:extended centerline 2 right ticks
+Runways:EGOS Shawbury 18-36:extended centerline 1
+Runways:EGOS Shawbury 18-36:extended centerline 1 left ticks
+Runways:EGOS Shawbury 18-36:extended centerline 1 right ticks
+Runways:EGOS Shawbury 18-36:extended centerline 2
+Runways:EGOS Shawbury 18-36:extended centerline 2 left ticks
+Runways:EGOS Shawbury 18-36:extended centerline 2 right ticks
+Runways:EGOV Valley 01-19:extended centerline 1
+Runways:EGOV Valley 01-19:extended centerline 1 left ticks
+Runways:EGOV Valley 01-19:extended centerline 1 right ticks
+Runways:EGOV Valley 01-19:extended centerline 2
+Runways:EGOV Valley 01-19:extended centerline 2 left ticks
+Runways:EGOV Valley 01-19:extended centerline 2 right ticks
+Runways:EGOV Valley 13-31:extended centerline 1
+Runways:EGOV Valley 13-31:extended centerline 1 left ticks
+Runways:EGOV Valley 13-31:extended centerline 1 right ticks
+Runways:EGOV Valley 13-31:extended centerline 2
+Runways:EGOV Valley 13-31:extended centerline 2 left ticks
+Runways:EGOV Valley 13-31:extended centerline 2 right ticks
+Runways:EGPA Kirkwall 09-27:extended centerline 1
+Runways:EGPA Kirkwall 09-27:extended centerline 1 left ticks
+Runways:EGPA Kirkwall 09-27:extended centerline 1 right ticks
+Runways:EGPA Kirkwall 09-27:extended centerline 2
+Runways:EGPA Kirkwall 09-27:extended centerline 2 left ticks
+Runways:EGPA Kirkwall 09-27:extended centerline 2 right ticks
+Runways:EGPA Kirkwall 14-32:extended centerline 1
+Runways:EGPA Kirkwall 14-32:extended centerline 1 left ticks
+Runways:EGPA Kirkwall 14-32:extended centerline 1 right ticks
+Runways:EGPA Kirkwall 14-32:extended centerline 2
+Runways:EGPA Kirkwall 14-32:extended centerline 2 left ticks
+Runways:EGPA Kirkwall 14-32:extended centerline 2 right ticks
+Runways:EGPB Sumburgh 06-24:extended centerline 1
+Runways:EGPB Sumburgh 06-24:extended centerline 1 left ticks
+Runways:EGPB Sumburgh 06-24:extended centerline 1 right ticks
+Runways:EGPB Sumburgh 06-24:extended centerline 2
+Runways:EGPB Sumburgh 06-24:extended centerline 2 left ticks
+Runways:EGPB Sumburgh 06-24:extended centerline 2 right ticks
+Runways:EGPB Sumburgh 09-27:extended centerline 1
+Runways:EGPB Sumburgh 09-27:extended centerline 1 left ticks
+Runways:EGPB Sumburgh 09-27:extended centerline 1 right ticks
+Runways:EGPB Sumburgh 09-27:extended centerline 2
+Runways:EGPB Sumburgh 09-27:extended centerline 2 left ticks
+Runways:EGPB Sumburgh 09-27:extended centerline 2 right ticks
+Runways:EGPB Sumburgh 15-33:extended centerline 1
+Runways:EGPB Sumburgh 15-33:extended centerline 1 left ticks
+Runways:EGPB Sumburgh 15-33:extended centerline 1 right ticks
+Runways:EGPB Sumburgh 15-33:extended centerline 2
+Runways:EGPB Sumburgh 15-33:extended centerline 2 left ticks
+Runways:EGPB Sumburgh 15-33:extended centerline 2 right ticks
+Runways:EGPC Wick 13-31:extended centerline 1
+Runways:EGPC Wick 13-31:extended centerline 1 left ticks
+Runways:EGPC Wick 13-31:extended centerline 1 right ticks
+Runways:EGPC Wick 13-31:extended centerline 2
+Runways:EGPC Wick 13-31:extended centerline 2 left ticks
+Runways:EGPC Wick 13-31:extended centerline 2 right ticks
+Runways:EGPD Aberdeen 16-34:extended centerline 1
+Runways:EGPD Aberdeen 16-34:extended centerline 1 left ticks
+Runways:EGPD Aberdeen 16-34:extended centerline 1 right ticks
+Runways:EGPD Aberdeen 16-34:extended centerline 2
+Runways:EGPD Aberdeen 16-34:extended centerline 2 left ticks
+Runways:EGPD Aberdeen 16-34:extended centerline 2 right ticks
+Runways:EGPE Inverness 05-23:extended centerline 1
+Runways:EGPE Inverness 05-23:extended centerline 1 left ticks
+Runways:EGPE Inverness 05-23:extended centerline 1 right ticks
+Runways:EGPE Inverness 05-23:extended centerline 2
+Runways:EGPE Inverness 05-23:extended centerline 2 left ticks
+Runways:EGPE Inverness 05-23:extended centerline 2 right ticks
+Runways:EGPE Inverness 11-29:extended centerline 1
+Runways:EGPE Inverness 11-29:extended centerline 1 left ticks
+Runways:EGPE Inverness 11-29:extended centerline 1 right ticks
+Runways:EGPE Inverness 11-29:extended centerline 2
+Runways:EGPE Inverness 11-29:extended centerline 2 left ticks
+Runways:EGPE Inverness 11-29:extended centerline 2 right ticks
+Runways:EGPF Glasgow 05-23:extended centerline 1
+Runways:EGPF Glasgow 05-23:extended centerline 1 left ticks
+Runways:EGPF Glasgow 05-23:extended centerline 1 right ticks
+Runways:EGPF Glasgow 05-23:extended centerline 2
+Runways:EGPF Glasgow 05-23:extended centerline 2 left ticks
+Runways:EGPF Glasgow 05-23:extended centerline 2 right ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 1
+Runways:EGPH Edinburgh 06-24:extended centerline 1 left ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 1 right ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 2
+Runways:EGPH Edinburgh 06-24:extended centerline 2 left ticks
+Runways:EGPH Edinburgh 06-24:extended centerline 2 right ticks
+Runways:EGPI Islay 08-26:extended centerline 1
+Runways:EGPI Islay 08-26:extended centerline 1 left ticks
+Runways:EGPI Islay 08-26:extended centerline 1 right ticks
+Runways:EGPI Islay 08-26:extended centerline 2
+Runways:EGPI Islay 08-26:extended centerline 2 left ticks
+Runways:EGPI Islay 08-26:extended centerline 2 right ticks
+Runways:EGPI Islay 13-31:extended centerline 1
+Runways:EGPI Islay 13-31:extended centerline 1 left ticks
+Runways:EGPI Islay 13-31:extended centerline 1 right ticks
+Runways:EGPI Islay 13-31:extended centerline 2
+Runways:EGPI Islay 13-31:extended centerline 2 left ticks
+Runways:EGPI Islay 13-31:extended centerline 2 right ticks
+Runways:EGPK Prestwick 03-21:extended centerline 1
+Runways:EGPK Prestwick 03-21:extended centerline 1 left ticks
+Runways:EGPK Prestwick 03-21:extended centerline 1 right ticks
+Runways:EGPK Prestwick 03-21:extended centerline 2
+Runways:EGPK Prestwick 03-21:extended centerline 2 left ticks
+Runways:EGPK Prestwick 03-21:extended centerline 2 right ticks
+Runways:EGPK Prestwick 12-30:extended centerline 1
+Runways:EGPK Prestwick 12-30:extended centerline 1 left ticks
+Runways:EGPK Prestwick 12-30:extended centerline 1 right ticks
+Runways:EGPK Prestwick 12-30:extended centerline 2
+Runways:EGPK Prestwick 12-30:extended centerline 2 left ticks
+Runways:EGPK Prestwick 12-30:extended centerline 2 right ticks
+Runways:EGPL Benbecula 06-24:extended centerline 1
+Runways:EGPL Benbecula 06-24:extended centerline 1 left ticks
+Runways:EGPL Benbecula 06-24:extended centerline 1 right ticks
+Runways:EGPL Benbecula 06-24:extended centerline 2
+Runways:EGPL Benbecula 06-24:extended centerline 2 left ticks
+Runways:EGPL Benbecula 06-24:extended centerline 2 right ticks
+Runways:EGPL Benbecula 17-35:extended centerline 1
+Runways:EGPL Benbecula 17-35:extended centerline 1 left ticks
+Runways:EGPL Benbecula 17-35:extended centerline 1 right ticks
+Runways:EGPL Benbecula 17-35:extended centerline 2
+Runways:EGPL Benbecula 17-35:extended centerline 2 left ticks
+Runways:EGPL Benbecula 17-35:extended centerline 2 right ticks
+Runways:EGPN Dundee 09-27:extended centerline 1
+Runways:EGPN Dundee 09-27:extended centerline 1 left ticks
+Runways:EGPN Dundee 09-27:extended centerline 1 right ticks
+Runways:EGPN Dundee 09-27:extended centerline 2
+Runways:EGPN Dundee 09-27:extended centerline 2 left ticks
+Runways:EGPN Dundee 09-27:extended centerline 2 right ticks
+Runways:EGPO Stornoway 06-24:extended centerline 1
+Runways:EGPO Stornoway 06-24:extended centerline 1 left ticks
+Runways:EGPO Stornoway 06-24:extended centerline 1 right ticks
+Runways:EGPO Stornoway 06-24:extended centerline 2
+Runways:EGPO Stornoway 06-24:extended centerline 2 left ticks
+Runways:EGPO Stornoway 06-24:extended centerline 2 right ticks
+Runways:EGPO Stornoway 18-36:extended centerline 1
+Runways:EGPO Stornoway 18-36:extended centerline 1 left ticks
+Runways:EGPO Stornoway 18-36:extended centerline 1 right ticks
+Runways:EGPO Stornoway 18-36:extended centerline 2
+Runways:EGPO Stornoway 18-36:extended centerline 2 left ticks
+Runways:EGPO Stornoway 18-36:extended centerline 2 right ticks
+Runways:EGPR Barra 07-25:extended centerline 1
+Runways:EGPR Barra 07-25:extended centerline 1 left ticks
+Runways:EGPR Barra 07-25:extended centerline 1 right ticks
+Runways:EGPR Barra 07-25:extended centerline 2
+Runways:EGPR Barra 07-25:extended centerline 2 left ticks
+Runways:EGPR Barra 07-25:extended centerline 2 right ticks
+Runways:EGPR Barra 11-29:extended centerline 1
+Runways:EGPR Barra 11-29:extended centerline 1 left ticks
+Runways:EGPR Barra 11-29:extended centerline 1 right ticks
+Runways:EGPR Barra 11-29:extended centerline 2
+Runways:EGPR Barra 11-29:extended centerline 2 left ticks
+Runways:EGPR Barra 11-29:extended centerline 2 right ticks
+Runways:EGPR Barra 15-33:extended centerline 1
+Runways:EGPR Barra 15-33:extended centerline 1 left ticks
+Runways:EGPR Barra 15-33:extended centerline 1 right ticks
+Runways:EGPR Barra 15-33:extended centerline 2
+Runways:EGPR Barra 15-33:extended centerline 2 left ticks
+Runways:EGPR Barra 15-33:extended centerline 2 right ticks
+Runways:EGPT Perth/Scone 03-21:extended centerline 1
+Runways:EGPT Perth/Scone 03-21:extended centerline 1 left ticks
+Runways:EGPT Perth/Scone 03-21:extended centerline 1 right ticks
+Runways:EGPT Perth/Scone 03-21:extended centerline 2
+Runways:EGPT Perth/Scone 03-21:extended centerline 2 left ticks
+Runways:EGPT Perth/Scone 03-21:extended centerline 2 right ticks
+Runways:EGPT Perth/Scone 09-27:extended centerline 1
+Runways:EGPT Perth/Scone 09-27:extended centerline 1 left ticks
+Runways:EGPT Perth/Scone 09-27:extended centerline 1 right ticks
+Runways:EGPT Perth/Scone 09-27:extended centerline 2
+Runways:EGPT Perth/Scone 09-27:extended centerline 2 left ticks
+Runways:EGPT Perth/Scone 09-27:extended centerline 2 right ticks
+Runways:EGPT Perth/Scone 15-33:extended centerline 1
+Runways:EGPT Perth/Scone 15-33:extended centerline 1 left ticks
+Runways:EGPT Perth/Scone 15-33:extended centerline 1 right ticks
+Runways:EGPT Perth/Scone 15-33:extended centerline 2
+Runways:EGPT Perth/Scone 15-33:extended centerline 2 left ticks
+Runways:EGPT Perth/Scone 15-33:extended centerline 2 right ticks
+Runways:EGPU Tiree 05-23:extended centerline 1
+Runways:EGPU Tiree 05-23:extended centerline 1 left ticks
+Runways:EGPU Tiree 05-23:extended centerline 1 right ticks
+Runways:EGPU Tiree 05-23:extended centerline 2
+Runways:EGPU Tiree 05-23:extended centerline 2 left ticks
+Runways:EGPU Tiree 05-23:extended centerline 2 right ticks
+Runways:EGPU Tiree 11-29:extended centerline 1
+Runways:EGPU Tiree 11-29:extended centerline 1 left ticks
+Runways:EGPU Tiree 11-29:extended centerline 1 right ticks
+Runways:EGPU Tiree 11-29:extended centerline 2
+Runways:EGPU Tiree 11-29:extended centerline 2 left ticks
+Runways:EGPU Tiree 11-29:extended centerline 2 right ticks
+Runways:EGQL Leuchars 04-22:extended centerline 1
+Runways:EGQL Leuchars 04-22:extended centerline 1 left ticks
+Runways:EGQL Leuchars 04-22:extended centerline 1 right ticks
+Runways:EGQL Leuchars 04-22:extended centerline 2
+Runways:EGQL Leuchars 04-22:extended centerline 2 left ticks
+Runways:EGQL Leuchars 04-22:extended centerline 2 right ticks
+Runways:EGQL Leuchars 08-26:extended centerline 1
+Runways:EGQL Leuchars 08-26:extended centerline 1 left ticks
+Runways:EGQL Leuchars 08-26:extended centerline 1 right ticks
+Runways:EGQL Leuchars 08-26:extended centerline 2
+Runways:EGQL Leuchars 08-26:extended centerline 2 left ticks
+Runways:EGQL Leuchars 08-26:extended centerline 2 right ticks
+Runways:EGQS Lossiemouth 05-23:extended centerline 1
+Runways:EGQS Lossiemouth 05-23:extended centerline 1 left ticks
+Runways:EGQS Lossiemouth 05-23:extended centerline 1 right ticks
+Runways:EGQS Lossiemouth 05-23:extended centerline 2
+Runways:EGQS Lossiemouth 05-23:extended centerline 2 left ticks
+Runways:EGQS Lossiemouth 05-23:extended centerline 2 right ticks
+Runways:EGQS Lossiemouth 10-28:extended centerline 1
+Runways:EGQS Lossiemouth 10-28:extended centerline 1 left ticks
+Runways:EGQS Lossiemouth 10-28:extended centerline 1 right ticks
+Runways:EGQS Lossiemouth 10-28:extended centerline 2
+Runways:EGQS Lossiemouth 10-28:extended centerline 2 left ticks
+Runways:EGQS Lossiemouth 10-28:extended centerline 2 right ticks
+Runways:EGSC Cambridge 05-23:extended centerline 1
+Runways:EGSC Cambridge 05-23:extended centerline 1 left ticks
+Runways:EGSC Cambridge 05-23:extended centerline 1 right ticks
+Runways:EGSC Cambridge 05-23:extended centerline 2
+Runways:EGSC Cambridge 05-23:extended centerline 2 left ticks
+Runways:EGSC Cambridge 05-23:extended centerline 2 right ticks
+Runways:EGSG Stapleford 03L-21R:extended centerline 1
+Runways:EGSG Stapleford 03L-21R:extended centerline 1 left ticks
+Runways:EGSG Stapleford 03L-21R:extended centerline 1 right ticks
+Runways:EGSG Stapleford 03L-21R:extended centerline 2
+Runways:EGSG Stapleford 03L-21R:extended centerline 2 left ticks
+Runways:EGSG Stapleford 03L-21R:extended centerline 2 right ticks
+Runways:EGSG Stapleford 03R-21L:extended centerline 1
+Runways:EGSG Stapleford 03R-21L:extended centerline 1 left ticks
+Runways:EGSG Stapleford 03R-21L:extended centerline 1 right ticks
+Runways:EGSG Stapleford 03R-21L:extended centerline 2
+Runways:EGSG Stapleford 03R-21L:extended centerline 2 left ticks
+Runways:EGSG Stapleford 03R-21L:extended centerline 2 right ticks
+Runways:EGSH Norwich 09-27:extended centerline 1
+Runways:EGSH Norwich 09-27:extended centerline 1 left ticks
+Runways:EGSH Norwich 09-27:extended centerline 1 right ticks
+Runways:EGSH Norwich 09-27:extended centerline 2
+Runways:EGSH Norwich 09-27:extended centerline 2 left ticks
+Runways:EGSH Norwich 09-27:extended centerline 2 right ticks
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 1
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 1 left ticks
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 1 right ticks
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 2
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 2 left ticks
+Runways:EGSL Andrewsfield 09L-27R:extended centerline 2 right ticks
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 1
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 1 left ticks
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 1 right ticks
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 2
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 2 left ticks
+Runways:EGSL Andrewsfield 09R-27L:extended centerline 2 right ticks
+Runways:EGSS London Stansted 04-22:extended centerline 1
+Runways:EGSS London Stansted 04-22:extended centerline 1 left ticks
+Runways:EGSS London Stansted 04-22:extended centerline 1 right ticks
+Runways:EGSS London Stansted 04-22:extended centerline 2
+Runways:EGSS London Stansted 04-22:extended centerline 2 left ticks
+Runways:EGSS London Stansted 04-22:extended centerline 2 right ticks
+Runways:EGSU Duxford 06L-24R:extended centerline 1
+Runways:EGSU Duxford 06L-24R:extended centerline 1 left ticks
+Runways:EGSU Duxford 06L-24R:extended centerline 1 right ticks
+Runways:EGSU Duxford 06L-24R:extended centerline 2
+Runways:EGSU Duxford 06L-24R:extended centerline 2 left ticks
+Runways:EGSU Duxford 06L-24R:extended centerline 2 right ticks
+Runways:EGSU Duxford 06R-24L:extended centerline 1
+Runways:EGSU Duxford 06R-24L:extended centerline 1 left ticks
+Runways:EGSU Duxford 06R-24L:extended centerline 1 right ticks
+Runways:EGSU Duxford 06R-24L:extended centerline 2
+Runways:EGSU Duxford 06R-24L:extended centerline 2 left ticks
+Runways:EGSU Duxford 06R-24L:extended centerline 2 right ticks
+Runways:EGSX North Weald 20-02:extended centerline 1
+Runways:EGSX North Weald 20-02:extended centerline 1 left ticks
+Runways:EGSX North Weald 20-02:extended centerline 1 right ticks
+Runways:EGSX North Weald 20-02:extended centerline 2
+Runways:EGSX North Weald 20-02:extended centerline 2 left ticks
+Runways:EGSX North Weald 20-02:extended centerline 2 right ticks
+Runways:EGSY St Athan 07-25:extended centerline 1
+Runways:EGSY St Athan 07-25:extended centerline 1 left ticks
+Runways:EGSY St Athan 07-25:extended centerline 1 right ticks
+Runways:EGSY St Athan 07-25:extended centerline 2
+Runways:EGSY St Athan 07-25:extended centerline 2 left ticks
+Runways:EGSY St Athan 07-25:extended centerline 2 right ticks
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 1
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 1 left ticks
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 1 right ticks
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 2
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 2 left ticks
+Runways:EGTB Wycombe Air Park/Booker 06-24:extended centerline 2 right ticks
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 1
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 1 left ticks
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 1 right ticks
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 2
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 2 left ticks
+Runways:EGTB Wycombe Air Park/Booker 06G-24G:extended centerline 2 right ticks
+Runways:EGTC Cranfield 03-21:extended centerline 1
+Runways:EGTC Cranfield 03-21:extended centerline 1 left ticks
+Runways:EGTC Cranfield 03-21:extended centerline 1 right ticks
+Runways:EGTC Cranfield 03-21:extended centerline 2
+Runways:EGTC Cranfield 03-21:extended centerline 2 left ticks
+Runways:EGTC Cranfield 03-21:extended centerline 2 right ticks
+Runways:EGTD Dunsfold 07-25:extended centerline 1
+Runways:EGTD Dunsfold 07-25:extended centerline 1 left ticks
+Runways:EGTD Dunsfold 07-25:extended centerline 1 right ticks
+Runways:EGTD Dunsfold 07-25:extended centerline 2
+Runways:EGTD Dunsfold 07-25:extended centerline 2 left ticks
+Runways:EGTD Dunsfold 07-25:extended centerline 2 right ticks
+Runways:EGTE Exeter 08-26:extended centerline 1
+Runways:EGTE Exeter 08-26:extended centerline 1 left ticks
+Runways:EGTE Exeter 08-26:extended centerline 1 right ticks
+Runways:EGTE Exeter 08-26:extended centerline 2
+Runways:EGTE Exeter 08-26:extended centerline 2 left ticks
+Runways:EGTE Exeter 08-26:extended centerline 2 right ticks
+Runways:EGTF Fairoaks 06-24:extended centerline 1
+Runways:EGTF Fairoaks 06-24:extended centerline 1 left ticks
+Runways:EGTF Fairoaks 06-24:extended centerline 1 right ticks
+Runways:EGTF Fairoaks 06-24:extended centerline 2
+Runways:EGTF Fairoaks 06-24:extended centerline 2 left ticks
+Runways:EGTF Fairoaks 06-24:extended centerline 2 right ticks
+Runways:EGTH Old Warden 02-20:extended centerline 1
+Runways:EGTH Old Warden 02-20:extended centerline 1 left ticks
+Runways:EGTH Old Warden 02-20:extended centerline 1 right ticks
+Runways:EGTH Old Warden 02-20:extended centerline 2
+Runways:EGTH Old Warden 02-20:extended centerline 2 left ticks
+Runways:EGTH Old Warden 02-20:extended centerline 2 right ticks
+Runways:EGTK Oxford 01-19:extended centerline 1
+Runways:EGTK Oxford 01-19:extended centerline 1 left ticks
+Runways:EGTK Oxford 01-19:extended centerline 1 right ticks
+Runways:EGTK Oxford 01-19:extended centerline 2
+Runways:EGTK Oxford 01-19:extended centerline 2 left ticks
+Runways:EGTK Oxford 01-19:extended centerline 2 right ticks
+Runways:EGTO Rochester 02L-20R:extended centerline 1
+Runways:EGTO Rochester 02L-20R:extended centerline 1 left ticks
+Runways:EGTO Rochester 02L-20R:extended centerline 1 right ticks
+Runways:EGTO Rochester 02L-20R:extended centerline 2
+Runways:EGTO Rochester 02L-20R:extended centerline 2 left ticks
+Runways:EGTO Rochester 02L-20R:extended centerline 2 right ticks
+Runways:EGTO Rochester 02R-20L:extended centerline 1
+Runways:EGTO Rochester 02R-20L:extended centerline 1 left ticks
+Runways:EGTO Rochester 02R-20L:extended centerline 1 right ticks
+Runways:EGTO Rochester 02R-20L:extended centerline 2
+Runways:EGTO Rochester 02R-20L:extended centerline 2 left ticks
+Runways:EGTO Rochester 02R-20L:extended centerline 2 right ticks
+Runways:EGTR Elstree 08-26:extended centerline 1
+Runways:EGTR Elstree 08-26:extended centerline 1 left ticks
+Runways:EGTR Elstree 08-26:extended centerline 1 right ticks
+Runways:EGTR Elstree 08-26:extended centerline 2
+Runways:EGTR Elstree 08-26:extended centerline 2 left ticks
+Runways:EGTR Elstree 08-26:extended centerline 2 right ticks
+Runways:EGTU Dunkeswell 04-22:extended centerline 1
+Runways:EGTU Dunkeswell 04-22:extended centerline 1 left ticks
+Runways:EGTU Dunkeswell 04-22:extended centerline 1 right ticks
+Runways:EGTU Dunkeswell 04-22:extended centerline 2
+Runways:EGTU Dunkeswell 04-22:extended centerline 2 left ticks
+Runways:EGTU Dunkeswell 04-22:extended centerline 2 right ticks
+Runways:EGUB Benson 01-19:extended centerline 1
+Runways:EGUB Benson 01-19:extended centerline 1 left ticks
+Runways:EGUB Benson 01-19:extended centerline 1 right ticks
+Runways:EGUB Benson 01-19:extended centerline 2
+Runways:EGUB Benson 01-19:extended centerline 2 left ticks
+Runways:EGUB Benson 01-19:extended centerline 2 right ticks
+Runways:EGUL Lakenheath 06-24:extended centerline 1
+Runways:EGUL Lakenheath 06-24:extended centerline 1 left ticks
+Runways:EGUL Lakenheath 06-24:extended centerline 1 right ticks
+Runways:EGUL Lakenheath 06-24:extended centerline 2
+Runways:EGUL Lakenheath 06-24:extended centerline 2 left ticks
+Runways:EGUL Lakenheath 06-24:extended centerline 2 right ticks
+Runways:EGUN Mildenhall 11-29:extended centerline 1
+Runways:EGUN Mildenhall 11-29:extended centerline 1 left ticks
+Runways:EGUN Mildenhall 11-29:extended centerline 1 right ticks
+Runways:EGUN Mildenhall 11-29:extended centerline 2
+Runways:EGUN Mildenhall 11-29:extended centerline 2 left ticks
+Runways:EGUN Mildenhall 11-29:extended centerline 2 right ticks
+Runways:EGVA Fairford 09-27:extended centerline 1
+Runways:EGVA Fairford 09-27:extended centerline 1 left ticks
+Runways:EGVA Fairford 09-27:extended centerline 1 right ticks
+Runways:EGVA Fairford 09-27:extended centerline 2
+Runways:EGVA Fairford 09-27:extended centerline 2 left ticks
+Runways:EGVA Fairford 09-27:extended centerline 2 right ticks
+Runways:EGVN Brize Norton 07-25:extended centerline 1
+Runways:EGVN Brize Norton 07-25:extended centerline 1 left ticks
+Runways:EGVN Brize Norton 07-25:extended centerline 1 right ticks
+Runways:EGVN Brize Norton 07-25:extended centerline 2
+Runways:EGVN Brize Norton 07-25:extended centerline 2 left ticks
+Runways:EGVN Brize Norton 07-25:extended centerline 2 right ticks
+Runways:EGVO Odiham 09-27:extended centerline 1
+Runways:EGVO Odiham 09-27:extended centerline 1 left ticks
+Runways:EGVO Odiham 09-27:extended centerline 1 right ticks
+Runways:EGVO Odiham 09-27:extended centerline 2
+Runways:EGVO Odiham 09-27:extended centerline 2 left ticks
+Runways:EGVO Odiham 09-27:extended centerline 2 right ticks
+Runways:EGWC Cosford 06-24:extended centerline 1
+Runways:EGWC Cosford 06-24:extended centerline 1 left ticks
+Runways:EGWC Cosford 06-24:extended centerline 1 right ticks
+Runways:EGWC Cosford 06-24:extended centerline 2
+Runways:EGWC Cosford 06-24:extended centerline 2 left ticks
+Runways:EGWC Cosford 06-24:extended centerline 2 right ticks
+Runways:EGWC Cosford 06G-24G:extended centerline 1
+Runways:EGWC Cosford 06G-24G:extended centerline 1 left ticks
+Runways:EGWC Cosford 06G-24G:extended centerline 1 right ticks
+Runways:EGWC Cosford 06G-24G:extended centerline 2
+Runways:EGWC Cosford 06G-24G:extended centerline 2 left ticks
+Runways:EGWC Cosford 06G-24G:extended centerline 2 right ticks
+Runways:EGWU Northolt 07-25:extended centerline 1
+Runways:EGWU Northolt 07-25:extended centerline 1 left ticks
+Runways:EGWU Northolt 07-25:extended centerline 1 right ticks
+Runways:EGWU Northolt 07-25:extended centerline 2
+Runways:EGWU Northolt 07-25:extended centerline 2 left ticks
+Runways:EGWU Northolt 07-25:extended centerline 2 right ticks
+Runways:EGXC Coningsby 07-25:extended centerline 1
+Runways:EGXC Coningsby 07-25:extended centerline 1 left ticks
+Runways:EGXC Coningsby 07-25:extended centerline 1 right ticks
+Runways:EGXC Coningsby 07-25:extended centerline 2
+Runways:EGXC Coningsby 07-25:extended centerline 2 left ticks
+Runways:EGXC Coningsby 07-25:extended centerline 2 right ticks
+Runways:EGXE Leeming 16-34:extended centerline 1
+Runways:EGXE Leeming 16-34:extended centerline 1 left ticks
+Runways:EGXE Leeming 16-34:extended centerline 1 right ticks
+Runways:EGXE Leeming 16-34:extended centerline 2
+Runways:EGXE Leeming 16-34:extended centerline 2 left ticks
+Runways:EGXE Leeming 16-34:extended centerline 2 right ticks
+Runways:EGXT Wittering 07-25:extended centerline 1
+Runways:EGXT Wittering 07-25:extended centerline 1 left ticks
+Runways:EGXT Wittering 07-25:extended centerline 1 right ticks
+Runways:EGXT Wittering 07-25:extended centerline 2
+Runways:EGXT Wittering 07-25:extended centerline 2 left ticks
+Runways:EGXT Wittering 07-25:extended centerline 2 right ticks
+Runways:EGXW Waddington 02-20:extended centerline 1
+Runways:EGXW Waddington 02-20:extended centerline 1 left ticks
+Runways:EGXW Waddington 02-20:extended centerline 1 right ticks
+Runways:EGXW Waddington 02-20:extended centerline 2
+Runways:EGXW Waddington 02-20:extended centerline 2 left ticks
+Runways:EGXW Waddington 02-20:extended centerline 2 right ticks
+Runways:EGXZ Topcliffe 02-20:extended centerline 1
+Runways:EGXZ Topcliffe 02-20:extended centerline 1 left ticks
+Runways:EGXZ Topcliffe 02-20:extended centerline 1 right ticks
+Runways:EGXZ Topcliffe 02-20:extended centerline 2
+Runways:EGXZ Topcliffe 02-20:extended centerline 2 left ticks
+Runways:EGXZ Topcliffe 02-20:extended centerline 2 right ticks
+Runways:EGXZ Topcliffe 13-31:extended centerline 1
+Runways:EGXZ Topcliffe 13-31:extended centerline 1 left ticks
+Runways:EGXZ Topcliffe 13-31:extended centerline 1 right ticks
+Runways:EGXZ Topcliffe 13-31:extended centerline 2
+Runways:EGXZ Topcliffe 13-31:extended centerline 2 left ticks
+Runways:EGXZ Topcliffe 13-31:extended centerline 2 right ticks
+Runways:EGYD Cranwell 01-19:extended centerline 1
+Runways:EGYD Cranwell 01-19:extended centerline 1 left ticks
+Runways:EGYD Cranwell 01-19:extended centerline 1 right ticks
+Runways:EGYD Cranwell 01-19:extended centerline 2
+Runways:EGYD Cranwell 01-19:extended centerline 2 left ticks
+Runways:EGYD Cranwell 01-19:extended centerline 2 right ticks
+Runways:EGYD Cranwell 08-26:extended centerline 1
+Runways:EGYD Cranwell 08-26:extended centerline 1 left ticks
+Runways:EGYD Cranwell 08-26:extended centerline 1 right ticks
+Runways:EGYD Cranwell 08-26:extended centerline 2
+Runways:EGYD Cranwell 08-26:extended centerline 2 left ticks
+Runways:EGYD Cranwell 08-26:extended centerline 2 right ticks
+Runways:EGYE Barkston Heath 06-24:extended centerline 1
+Runways:EGYE Barkston Heath 06-24:extended centerline 1 left ticks
+Runways:EGYE Barkston Heath 06-24:extended centerline 1 right ticks
+Runways:EGYE Barkston Heath 06-24:extended centerline 2
+Runways:EGYE Barkston Heath 06-24:extended centerline 2 left ticks
+Runways:EGYE Barkston Heath 06-24:extended centerline 2 right ticks
+Runways:EGYE Barkston Heath 10-28:extended centerline 1
+Runways:EGYE Barkston Heath 10-28:extended centerline 1 left ticks
+Runways:EGYE Barkston Heath 10-28:extended centerline 1 right ticks
+Runways:EGYE Barkston Heath 10-28:extended centerline 2
+Runways:EGYE Barkston Heath 10-28:extended centerline 2 left ticks
+Runways:EGYE Barkston Heath 10-28:extended centerline 2 right ticks
+Runways:EGYE Barkston Heath 18-36:extended centerline 1
+Runways:EGYE Barkston Heath 18-36:extended centerline 1 left ticks
+Runways:EGYE Barkston Heath 18-36:extended centerline 1 right ticks
+Runways:EGYE Barkston Heath 18-36:extended centerline 2
+Runways:EGYE Barkston Heath 18-36:extended centerline 2 left ticks
+Runways:EGYE Barkston Heath 18-36:extended centerline 2 right ticks
+Runways:EGYM Marham 01-19:extended centerline 1
+Runways:EGYM Marham 01-19:extended centerline 1 left ticks
+Runways:EGYM Marham 01-19:extended centerline 1 right ticks
+Runways:EGYM Marham 01-19:extended centerline 2
+Runways:EGYM Marham 01-19:extended centerline 2 left ticks
+Runways:EGYM Marham 01-19:extended centerline 2 right ticks
+Runways:EGYM Marham 06-24:extended centerline 1
+Runways:EGYM Marham 06-24:extended centerline 1 left ticks
+Runways:EGYM Marham 06-24:extended centerline 1 right ticks
+Runways:EGYM Marham 06-24:extended centerline 2
+Runways:EGYM Marham 06-24:extended centerline 2 left ticks
+Runways:EGYM Marham 06-24:extended centerline 2 right ticks
+Runways:EIDL Donegal 03-21:extended centerline 1
+Runways:EIDL Donegal 03-21:extended centerline 1 left ticks
+Runways:EIDL Donegal 03-21:extended centerline 1 right ticks
+Runways:EIDL Donegal 03-21:extended centerline 2
+Runways:EIDL Donegal 03-21:extended centerline 2 left ticks
+Runways:EIDL Donegal 03-21:extended centerline 2 right ticks
+Runways:EIDW Dublin 10L-28R:extended centerline 1
+Runways:EIDW Dublin 10L-28R:extended centerline 1 left ticks
+Runways:EIDW Dublin 10L-28R:extended centerline 1 right ticks
+Runways:EIDW Dublin 10L-28R:extended centerline 2
+Runways:EIDW Dublin 10L-28R:extended centerline 2 left ticks
+Runways:EIDW Dublin 10L-28R:extended centerline 2 right ticks
+Runways:EIDW Dublin 10R-28L:extended centerline 1
+Runways:EIDW Dublin 10R-28L:extended centerline 1 left ticks
+Runways:EIDW Dublin 10R-28L:extended centerline 1 right ticks
+Runways:EIDW Dublin 10R-28L:extended centerline 2
+Runways:EIDW Dublin 10R-28L:extended centerline 2 left ticks
+Runways:EIDW Dublin 10R-28L:extended centerline 2 right ticks
+Runways:EIDW Dublin 16-34:extended centerline 1
+Runways:EIDW Dublin 16-34:extended centerline 1 left ticks
+Runways:EIDW Dublin 16-34:extended centerline 1 right ticks
+Runways:EIDW Dublin 16-34:extended centerline 2
+Runways:EIDW Dublin 16-34:extended centerline 2 left ticks
+Runways:EIDW Dublin 16-34:extended centerline 2 right ticks
+Stars:Altimeter Setting Regions:
+Stars:Hawarden RMZ:
+Stars:Heathrow Inner CTA:
+Stars:Land's End RMZ:
+Stars:Luton Noise Sensitive Areas:
+Stars:Stansted Noise Sensitive Areas:
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:19500
+LEADER:-1
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Flight Information Display
+WINDOWAREA:47.749467:-16.745920:57.992037:14.166342
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1502
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:40
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:0
+PLUGIN:UK Controller Plugin:HistoryTrailColour:192,192,192
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:7
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:19500
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:1
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1530
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:164
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1562
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_MANCHESTER;ASR_ORKNEY;ASR_BELFAST;ASR_HOLYHEAD;ASR_PORTLAND;ASR_PORTREE;ASR_RATTRAY;ASR_SCILLIES;ASR_SHETLAND;ASR_TYNE;ASR_WESSEX;ASR_YARMOUTH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

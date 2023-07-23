@@ -1,9 +1,27 @@
-# Changes from release 2023/04 to 2023/xx
-1. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+# Changes from release 2023/06 to 2023/08
+1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
+3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
 
-# Changes from release 2023/03 to 2023/04
+# Changes from release 2023/05 to 2023/06
+1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
+3. Procedure Change (2306) - Updated BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
+4. Procedure Change - Removed activation schedule for vRAF Ex Cobra Warrior Exercise - thaks to @hazzas-99
+5. Enhancement - Update Approach Radar profiles - thanks to @SamLefevre (Samuel Lefevre)
+
+# Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
 2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
+3. Enhancement - Updated Reykjavik/Iceland CPDLC logon codes (TopSky only) - thanks to @hazzas-99
+4. Procedure Change (Temp) - Added Temporary Danger Area D597 to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
+5. Procedure Change (NOTAM) - Added activation schedule and amended airspace proximity warning values for Danger Areas to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
+6. Enhancement - Added Southend Profile - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Update and add new TC/MPC/STC profiles - thanks to @SamLefevre (Samuel Lefevre)
+8. AIRAC (2304) - Updated EGPH/PF/AA/NM ASRs with revised VRP labels - thanks to @hazzas-99
+9. Enhancement - Amended Alias STAR commands and added .c (.center EG) command for moving ASRs - thanks to @hazzas-99
+10. Enhancement - Added Flight Information Display Profiles and screens for procedural, AFIS & A/G Units - Thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2022/13 to 2023/03
 1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)

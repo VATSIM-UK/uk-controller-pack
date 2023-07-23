@@ -3124,7 +3124,74 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
+Free Text:EGLC Heli Reporting Points\*Airport Spur:freetext
+Free Text:EGLC Heli Reporting Points\*Arbrook:freetext
+Free Text:EGLC Heli Reporting Points\*Bagshot:freetext
+Free Text:EGLC Heli Reporting Points\*Banstead:freetext
+Free Text:EGLC Heli Reporting Points\*Barnes:freetext
+Free Text:EGLC Heli Reporting Points\*Barrowhills:freetext
+Free Text:EGLC Heli Reporting Points\*Bedfont:freetext
+Free Text:EGLC Heli Reporting Points\*Brentford:freetext
+Free Text:EGLC Heli Reporting Points\*Caesars Camp:freetext
+Free Text:EGLC Heli Reporting Points\*Chelsea Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Chertsey:freetext
+Free Text:EGLC Heli Reporting Points\*Chiswick Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Cookham:freetext
+Free Text:EGLC Heli Reporting Points\*Esher Common:freetext
+Free Text:EGLC Heli Reporting Points\*Feltham:freetext
+Free Text:EGLC Heli Reporting Points\*Gutteridge:freetext
+Free Text:EGLC Heli Reporting Points\*Hammersmith Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Hanger Lane:freetext
+Free Text:EGLC Heli Reporting Points\*Hayes:freetext
+Free Text:EGLC Heli Reporting Points\*Hersham:freetext
+Free Text:EGLC Heli Reporting Points\*Isle of Dogs:freetext
+Free Text:EGLC Heli Reporting Points\*Iver:freetext
+Free Text:EGLC Heli Reporting Points\*Kew Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*London Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*M3 J3:freetext
+Free Text:EGLC Heli Reporting Points\*Morden:freetext
+Free Text:EGLC Heli Reporting Points\*Northwood:freetext
+Free Text:EGLC Heli Reporting Points\*Oxshott East:freetext
+Free Text:EGLC Heli Reporting Points\*Oxshott West:freetext
+Free Text:EGLC Heli Reporting Points\*Pumpkin Hill:freetext
+Free Text:EGLC Heli Reporting Points\*Richmond:freetext
+Free Text:EGLC Heli Reporting Points\*Roehampton:freetext
+Free Text:EGLC Heli Reporting Points\*Sipson:freetext
+Free Text:EGLC Heli Reporting Points\*Stoke Poges:freetext
+Free Text:EGLC Heli Reporting Points\*Sunbury Lock:freetext
+Free Text:EGLC Heli Reporting Points\*Target:freetext
+Free Text:EGLC Heli Reporting Points\*Thorpe:freetext
+Free Text:EGLC Heli Reporting Points\*Uxbridge Common:freetext
+Free Text:EGLC Heli Reporting Points\*Vauxhall Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*West Drayton:freetext
+Free Text:EGLL VRPs\*Ally Pally:freetext
+Free Text:EGLL VRPs\*Ascot:freetext
+Free Text:EGLL VRPs\*Bagshot:freetext
+Free Text:EGLL VRPs\*Brent Reservoir:freetext
+Free Text:EGLL VRPs\*Burnham:freetext
+Free Text:EGLL VRPs\*Byfleet Bridge:freetext
+Free Text:EGLL VRPs\*Grim's Tower:freetext
+Free Text:EGLL VRPs\*London Eye:freetext
+Free Text:EGLL VRPs\*London Stadium:freetext
+Free Text:EGLL VRPs\*M25 J13:freetext
+Free Text:EGLL VRPs\*M3 J3:freetext
+Free Text:EGLL VRPs\*M40 J2:freetext
+Free Text:EGLL VRPs\*Wembley:freetext
 Geo:Extended centrelines:
+Low airways:H10:line
+Low airways:H10:name
+Low airways:H2:line
+Low airways:H2:name
+Low airways:H3:line
+Low airways:H3:name
+Low airways:H4:line
+Low airways:H4:name
+Low airways:H5:line
+Low airways:H5:name
+Low airways:H7:line
+Low airways:H7:name
+Low airways:H9:line
+Low airways:H9:name
 Stars:Heathrow RMA Westerlies:
 VORs:ABB:name
 VORs:ABB:symbol
@@ -3352,7 +3419,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
-PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
