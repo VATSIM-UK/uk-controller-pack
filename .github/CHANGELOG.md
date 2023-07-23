@@ -2,6 +2,7 @@
 1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
 3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
