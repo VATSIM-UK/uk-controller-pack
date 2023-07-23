@@ -1,0 +1,10 @@
+PROFILE
+PROFILE:LTC_M_CTR:150:6
+ATIS2:"London Control"
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LTC_MW_CTR:150:6
+ATIS2:"London Control"
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+END
