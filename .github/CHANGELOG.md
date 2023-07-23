@@ -1,3 +1,6 @@
+# Changes from release 2023/04 to 2023/xx
+1. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+
 # Changes from release 2023/03 to 2023/04
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
 2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
