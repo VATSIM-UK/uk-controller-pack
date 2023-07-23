@@ -3,6 +3,7 @@
 2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
 3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
 4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+5. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
