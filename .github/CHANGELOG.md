@@ -1,4 +1,7 @@
-# Changes from release 2023/06 to 2023/08
+# Changes from release 2023/07 to 2023/08
+1. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
+
+# Changes from release 2023/06 to 2023/07
 1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
 3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
