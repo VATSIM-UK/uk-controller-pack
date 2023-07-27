@@ -5,6 +5,7 @@
 4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
 5. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
 6. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
+7. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
