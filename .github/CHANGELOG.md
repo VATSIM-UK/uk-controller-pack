@@ -6,6 +6,7 @@
 5. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
 6. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
 7. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
+8. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
