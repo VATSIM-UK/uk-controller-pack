@@ -221,263 +221,18 @@ Airports:EIDL:symbol
 Airports:EIDW:symbol
 Airports:LFAC:symbol
 Airports:LFAT:symbol
-ARTCC boundary:EBR08:
-ARTCC boundary:EBR17A:
-ARTCC boundary:EBR17B:
-ARTCC boundary:EBR17C:
-ARTCC boundary:EBR21:
-ARTCC boundary:EBR24B:
-ARTCC boundary:EBR25:
-ARTCC boundary:EBR31:
-ARTCC boundary:EBR56:
-ARTCC boundary:EDG113B:
-ARTCC boundary:EGD001:
-ARTCC boundary:EGD003:
-ARTCC boundary:EGD004:
-ARTCC boundary:EGD005A:
-ARTCC boundary:EGD005B:
-ARTCC boundary:EGD006A:
-ARTCC boundary:EGD006B:
-ARTCC boundary:EGD006C:
-ARTCC boundary:EGD007A:
-ARTCC boundary:EGD007B:
-ARTCC boundary:EGD007C:
-ARTCC boundary:EGD008A:
-ARTCC boundary:EGD008B:
-ARTCC boundary:EGD008C:
-ARTCC boundary:EGD009A:
-ARTCC boundary:EGD009B:
-ARTCC boundary:EGD011A:
-ARTCC boundary:EGD011B:
-ARTCC boundary:EGD011C:
-ARTCC boundary:EGD012:
-ARTCC boundary:EGD013:
-ARTCC boundary:EGD014:
-ARTCC boundary:EGD015:
-ARTCC boundary:EGD017:
-ARTCC boundary:EGD021:
-ARTCC boundary:EGD023:
-ARTCC boundary:EGD026:
-ARTCC boundary:EGD031:
-ARTCC boundary:EGD036:
-ARTCC boundary:EGD037:
-ARTCC boundary:EGD038:
-ARTCC boundary:EGD039:
-ARTCC boundary:EGD040:
-ARTCC boundary:EGD044:
-ARTCC boundary:EGD061:
-ARTCC boundary:EGD064A:
-ARTCC boundary:EGD064B:
-ARTCC boundary:EGD064C:
-ARTCC boundary:EGD110:
-ARTCC boundary:EGD113A:
-ARTCC boundary:EGD115A:
-ARTCC boundary:EGD115B:
-ARTCC boundary:EGD117:
-ARTCC boundary:EGD118:
-ARTCC boundary:EGD119:
-ARTCC boundary:EGD120:
-ARTCC boundary:EGD122A:
-ARTCC boundary:EGD122B:
-ARTCC boundary:EGD122C:
-ARTCC boundary:EGD123:
-ARTCC boundary:EGD124:
-ARTCC boundary:EGD125:
-ARTCC boundary:EGD126:
-ARTCC boundary:EGD127:
-ARTCC boundary:EGD128:
-ARTCC boundary:EGD129:
-ARTCC boundary:EGD130:
-ARTCC boundary:EGD132:
-ARTCC boundary:EGD133A:
-ARTCC boundary:EGD133B:
-ARTCC boundary:EGD136:
-ARTCC boundary:EGD138A:
-ARTCC boundary:EGD138B:
-ARTCC boundary:EGD138C:
-ARTCC boundary:EGD138D:
-ARTCC boundary:EGD139:
-ARTCC boundary:EGD141:
-ARTCC boundary:EGD147:
-ARTCC boundary:EGD148:
-ARTCC boundary:EGD201A:
-ARTCC boundary:EGD201B:
-ARTCC boundary:EGD201C:
-ARTCC boundary:EGD201D:
-ARTCC boundary:EGD201F:
-ARTCC boundary:EGD201G:
-ARTCC boundary:EGD201H:
-ARTCC boundary:EGD201J:
-ARTCC boundary:EGD202A:
-ARTCC boundary:EGD202B:
-ARTCC boundary:EGD202C:
-ARTCC boundary:EGD202D:
-ARTCC boundary:EGD203:
-ARTCC boundary:EGD206:
-ARTCC boundary:EGD207:
-ARTCC boundary:EGD208:
-ARTCC boundary:EGD211:
-ARTCC boundary:EGD213:
-ARTCC boundary:EGD215:
-ARTCC boundary:EGD216:
-ARTCC boundary:EGD304:
-ARTCC boundary:EGD305:
-ARTCC boundary:EGD307:
-ARTCC boundary:EGD314:
-ARTCC boundary:EGD323A:
-ARTCC boundary:EGD323B:
-ARTCC boundary:EGD323C:
-ARTCC boundary:EGD323D:
-ARTCC boundary:EGD323E:
-ARTCC boundary:EGD323F:
-ARTCC boundary:EGD323G:
-ARTCC boundary:EGD323H:
-ARTCC boundary:EGD323J:
-ARTCC boundary:EGD323K:
-ARTCC boundary:EGD323L:
-ARTCC boundary:EGD323M:
-ARTCC boundary:EGD323N:
-ARTCC boundary:EGD323P:
-ARTCC boundary:EGD323Q:
-ARTCC boundary:EGD323R:
-ARTCC boundary:EGD401:
-ARTCC boundary:EGD402A:
-ARTCC boundary:EGD402B:
-ARTCC boundary:EGD402C:
-ARTCC boundary:EGD403A:
-ARTCC boundary:EGD403B:
-ARTCC boundary:EGD405:
-ARTCC boundary:EGD406A:
-ARTCC boundary:EGD406B:
-ARTCC boundary:EGD406C:
-ARTCC boundary:EGD407:
-ARTCC boundary:EGD408:
-ARTCC boundary:EGD410:
-ARTCC boundary:EGD412:
-ARTCC boundary:EGD442:
-ARTCC boundary:EGD505:
-ARTCC boundary:EGD508:
-ARTCC boundary:EGD509:
-ARTCC boundary:EGD510A:
-ARTCC boundary:EGD510B:
-ARTCC boundary:EGD510C:
-ARTCC boundary:EGD512A:
-ARTCC boundary:EGD512B:
-ARTCC boundary:EGD513A:
-ARTCC boundary:EGD513B:
-ARTCC boundary:EGD513C:
-ARTCC boundary:EGD601:
-ARTCC boundary:EGD604:
-ARTCC boundary:EGD613A:
-ARTCC boundary:EGD613B:
-ARTCC boundary:EGD613C:
-ARTCC boundary:EGD613D:
-ARTCC boundary:EGD701A:
-ARTCC boundary:EGD701B:
-ARTCC boundary:EGD701C:
-ARTCC boundary:EGD701D:
-ARTCC boundary:EGD701E:
-ARTCC boundary:EGD701F:
-ARTCC boundary:EGD701G:
-ARTCC boundary:EGD701H:
-ARTCC boundary:EGD701I:
-ARTCC boundary:EGD701J:
-ARTCC boundary:EGD701K:
-ARTCC boundary:EGD701L:
-ARTCC boundary:EGD701M:
-ARTCC boundary:EGD701N:
-ARTCC boundary:EGD701O:
-ARTCC boundary:EGD701P:
-ARTCC boundary:EGD701Q:
-ARTCC boundary:EGD701R:
-ARTCC boundary:EGD701S:
-ARTCC boundary:EGD701T:
-ARTCC boundary:EGD701U:
-ARTCC boundary:EGD701V:
-ARTCC boundary:EGD701W:
-ARTCC boundary:EGD701X:
-ARTCC boundary:EGD701Y:
-ARTCC boundary:EGD702:
-ARTCC boundary:EGD703:
-ARTCC boundary:EGD704:
-ARTCC boundary:EGD710:
-ARTCC boundary:EGD712A:
-ARTCC boundary:EGD712B:
-ARTCC boundary:EGD712C:
-ARTCC boundary:EGD712D:
-ARTCC boundary:EGD801:
-ARTCC boundary:EGD802:
-ARTCC boundary:EGD803:
-ARTCC boundary:EGD809C:
-ARTCC boundary:EGD809N:
-ARTCC boundary:EGD809S:
-ARTCC boundary:EGP611:
-ARTCC boundary:EGP813:
-ARTCC boundary:EGR002:
-ARTCC boundary:EGR063:
-ARTCC boundary:EGR095:
-ARTCC boundary:EGR101:
-ARTCC boundary:EGR104:
-ARTCC boundary:EGR105:
-ARTCC boundary:EGR107:
-ARTCC boundary:EGR153:
-ARTCC boundary:EGR154:
-ARTCC boundary:EGR155:
-ARTCC boundary:EGR156:
-ARTCC boundary:EGR157:
-ARTCC boundary:EGR158:
-ARTCC boundary:EGR159:
-ARTCC boundary:EGR160:
-ARTCC boundary:EGR204:
-ARTCC boundary:EGR212:
-ARTCC boundary:EGR214:
-ARTCC boundary:EGR217:
-ARTCC boundary:EGR219:
-ARTCC boundary:EGR220:
-ARTCC boundary:EGR311:
-ARTCC boundary:EGR312:
-ARTCC boundary:EGR313:
-ARTCC boundary:EGR315:
-ARTCC boundary:EGR319:
-ARTCC boundary:EGR321:
-ARTCC boundary:EGR322:
-ARTCC boundary:EGR413:
-ARTCC boundary:EGR431:
-ARTCC boundary:EGR432:
-ARTCC boundary:EGR444:
-ARTCC boundary:EGR445:
-ARTCC boundary:EGR446:
-ARTCC boundary:EGR504:
-ARTCC boundary:EGR515:
-ARTCC boundary:EGR516:
-ARTCC boundary:EGR603:
-ARTCC boundary:EGR610A:
-ARTCC boundary:EGR610B:
-ARTCC boundary:EGR610C:
-ARTCC boundary:EGR610D:
-ARTCC boundary:EGR612:
-ARTCC boundary:EGR704:
-ARTCC boundary:EGR705:
-ARTCC boundary:LFD82:
-ARTCC boundary:LFP26:
-ARTCC boundary:LFP27:
-ARTCC boundary:LFP28:
-ARTCC boundary:LFP32:
-ARTCC boundary:LFP33:
-ARTCC boundary:LFP6-1:
-ARTCC boundary:LFP6-2:
-ARTCC boundary:LFP7:
-ARTCC boundary:LFP81:
-ARTCC boundary:LFR10:
-ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Berry Head CTA (Conditional):
 ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -498,14 +253,20 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Portsmouth CTA (Conditional):
+ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
 ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
@@ -524,6 +285,8 @@ ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Land's End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
@@ -533,24 +296,22 @@ ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
-ARTCC low boundary:EGKK Gatwick CTA:
-ARTCC low boundary:EGKR Redhill ATZ:
-ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLF Farnborough CTA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
-ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
-ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOV Valley MATZ:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -560,10 +321,15 @@ ARTCC low boundary:EGVF Fleetlands ATZ:
 ARTCC low boundary:EGVN Brize Norton CTR:
 ARTCC low boundary:EGVO Odiham MATZ:
 ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYM Marham MATZ:
 ARTCC low boundary:EIDW Dublin CTA:
 ARTCC low boundary:LFAT Le Touquet CTR:
 ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Fixes:ABBEW:symbol
@@ -1657,36 +1423,69 @@ Fixes:ZIPWE:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
-Geo:Extended centrelines:
-Regions:A-EastCoast:polygon
-Regions:A-Ireland:polygon
-Regions:A-Northwest:polygon
-Regions:A-Scottish:polygon
-Regions:A-ScottishIslands:polygon
-Regions:A-SouthEast:polygon
-Regions:A-SouthWalesMidlands:polygon
-Regions:A-SouthWest:polygon
-Sids:EGHH Bournemouth SMAA:
-Sids:EGHI Southampton SMAA:
-Stars:SOLENT Forest Gate:
+Regions:Uncontrolled airspace:polygon
+Runways:EGBB Birmingham 15-33:extended centerline 1
+Runways:EGBB Birmingham 15-33:extended centerline 2
+Runways:EGBE Coventry 05-23:extended centerline 1
+Runways:EGBE Coventry 05-23:extended centerline 2
+Runways:EGFF Cardiff 12-30:extended centerline 1
+Runways:EGFF Cardiff 12-30:extended centerline 2
+Runways:EGGD Bristol 09-27:extended centerline 1
+Runways:EGGD Bristol 09-27:extended centerline 2
+Runways:EGGW London Luton 07-25:extended centerline 1
+Runways:EGGW London Luton 07-25:extended centerline 2
+Runways:EGLC London City 09-27:extended centerline 1
+Runways:EGLC London City 09-27:extended centerline 2
+Runways:EGLL London Heathrow 09L-27R:extended centerline 1
+Runways:EGLL London Heathrow 09L-27R:extended centerline 2
+Runways:EGLL London Heathrow 09R-27L:extended centerline 1
+Runways:EGLL London Heathrow 09R-27L:extended centerline 2
+Runways:EGMC Southend 05-23:extended centerline 1
+Runways:EGMC Southend 05-23:extended centerline 2
+Runways:EGNX East Midlands 09-27:extended centerline 1
+Runways:EGNX East Midlands 09-27:extended centerline 2
+Runways:EGSH Norwich 09-27:extended centerline 1
+Runways:EGSH Norwich 09-27:extended centerline 2
+Runways:EGSS London Stansted 04-22:extended centerline 1
+Runways:EGSS London Stansted 04-22:extended centerline 2
+Runways:EGTK Oxford 01-19:extended centerline 2
+Sids:London TC East:
+Sids:London TC Midlands:
+Sids:London TC North East:
+Sids:London TC North West:
+Sids:London TC South East:
+Sids:London TC South West:
+Sids:PC Southeast:
 VORs:ABB:symbol
 VORs:ADN:symbol
+VORs:AFI:symbol
 VORs:AMB:symbol
+VORs:AMS:symbol
+VORs:ANT:symbol
 VORs:ARE:symbol
 VORs:BAL:symbol
+VORs:BBE:symbol
+VORs:BBL:symbol
+VORs:BCL:symbol
 VORs:BCN:symbol
 VORs:BDN:symbol
 VORs:BEL:symbol
 VORs:BEN:symbol
+VORs:BFS:symbol
 VORs:BHD:symbol
 VORs:BIG:symbol
 VORs:BKY:symbol
 VORs:BNE:symbol
 VORs:BNN:symbol
 VORs:BPK:symbol
+VORs:BSO:symbol
 VORs:BST:symbol
+VORs:BUB:symbol
+VORs:BUN:symbol
 VORs:BZN:symbol
+VORs:CAN:symbol
 VORs:CGY:symbol
+VORs:CIV:symbol
 VORs:CLM:symbol
 VORs:CLN:symbol
 VORs:CMB:symbol
@@ -1695,22 +1494,31 @@ VORs:CON:symbol
 VORs:CPT:symbol
 VORs:CRK:symbol
 VORs:CWZ:symbol
+VORs:DAP:symbol
 VORs:DCS:symbol
 VORs:DET:symbol
 VORs:DHE:symbol
+VORs:DIK:symbol
 VORs:DIN:symbol
 VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
 VORs:DVR:symbol
+VORs:EEL:symbol
+VORs:EHV:symbol
 VORs:EVX:symbol
 VORs:FFA:symbol
+VORs:FLO:symbol
 VORs:GAM:symbol
+VORs:GMN:symbol
 VORs:GOW:symbol
+VORs:GSY:symbol
 VORs:GUR:symbol
 VORs:GWC:symbol
+VORs:HDR:symbol
 VORs:HON:symbol
+VORs:HUL:symbol
 VORs:IOM:symbol
 VORs:IWL:symbol
 VORs:JSY:symbol
@@ -1718,18 +1526,25 @@ VORs:KOK:symbol
 VORs:KWL:symbol
 VORs:LAM:symbol
 VORs:LDV:symbol
+VORs:LEE:symbol
+VORs:LGE:symbol
 VORs:LGL:symbol
 VORs:LKH:symbol
 VORs:LND:symbol
+VORs:LNO:symbol
 VORs:LON:symbol
+VORs:LSM:symbol
+VORs:LUX:symbol
 VORs:LYD:symbol
 VORs:MAC:symbol
 VORs:MAM:symbol
+VORs:MAS:symbol
 VORs:MAY:symbol
 VORs:MCT:symbol
 VORs:MID:symbol
 VORs:MLD:symbol
 VORs:MTD:symbol
+VORs:NEW:symbol
 VORs:NIK:symbol
 VORs:OCK:symbol
 VORs:ODH:symbol
@@ -1741,6 +1556,7 @@ VORs:PTH:symbol
 VORs:QPR:symbol
 VORs:REM:symbol
 VORs:REN:symbol
+VORs:RKN:symbol
 VORs:ROU:symbol
 VORs:RTM:symbol
 VORs:SAB:symbol
@@ -1748,6 +1564,8 @@ VORs:SAM:symbol
 VORs:SFD:symbol
 VORs:SHA:symbol
 VORs:SOL:symbol
+VORs:SPI:symbol
+VORs:SPL:symbol
 VORs:SPY:symbol
 VORs:STN:symbol
 VORs:STU:symbol
@@ -1760,9 +1578,12 @@ VORs:TNT:symbol
 VORs:TRN:symbol
 VORs:VES:symbol
 VORs:VLN:symbol
+VORs:VYL:symbol
+VORs:WAD:symbol
 VORs:WAL:symbol
 VORs:WIK:symbol
 VORs:WIT:symbol
+VORs:WTN:symbol
 VORs:WTZ:symbol
 SHOWC:1
 SHOWSB:0
@@ -1776,45 +1597,46 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:NOVA 9000
-WINDOWAREA:50.415288:-2.932125:51.361703:0.059918
+TAGFAMILY:NODE
+WINDOWAREA:51.186359:-4.230892:53.173924:2.003314
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1520
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:39
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:490
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:0,255,0
-PLUGIN:UK Controller Plugin:HistoryTrailDegrade:0
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,128,0
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
-PLUGIN:UK Controller Plugin:HistoryTrailDotSize:10
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
-PLUGIN:UK Controller Plugin:HistoryTrailFade:1
-PLUGIN:UK Controller Plugin:HistoryTrailLength:10
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
-PLUGIN:UK Controller Plugin:HistoryTrailType:3
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:200
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
-PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
-PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1597
-PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:58
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1600
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:107
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
-PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGHI;airfield.EGHH;tma.LTMA
-PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_CHATHAM;ASR_COTSWOLD;ASR_LONDON;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1551
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:197
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGBB;airfield.EGNX;tma.LTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_BARNSLEY;ASR_COTSWOLD
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

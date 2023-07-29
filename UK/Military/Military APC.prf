@@ -1,0 +1,44 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Military\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Military\Military_profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Local\Military\Screen.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice_Military.txt
+Settings	Settingsfile	\..\Data\Settings\Local\Military\General.txt
+Settings	SettingsfileARR	\..\Data\Settings\Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Military\Symbology.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags_mil.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS.txt
+Settings	sector	UK\Data\Sector\UK_2023_04.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Military\Mil APC.asr
+RecentFiles	Recent2	\..\Data\ASR\Military\Coningsby_SMR.asr
+RecentFiles	Recent3	\..\Data\ASR\Military\Marham_SMR.asr
+RecentFiles	Recent4	\..\Data\ASR\Military\Brize_SMR.asr
+RecentFiles	Recent5	\..\Data\ASR\Military\Lossiemouth_SMR.asr
+RecentFiles	Recent6	\..\Data\ASR\Military\Valley_SMR.asr
+RecentFiles	Recent7	\..\Data\ASR\Military\Waddington_SMR.asr
+RecentFiles	Recent8	\..\Data\ASR\Military\Cranwell_SMR.asr
+RecentFiles	Recent9	\..\Data\ASR\Military\Mil SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Military\Mil APC.asr
+ASRFastKeys	2	\..\Data\ASR\Military\Coningsby_SMR.asr
+ASRFastKeys	3	\..\Data\ASR\Military\Marham_SMR.asr
+ASRFastKeys	4	\..\Data\ASR\Military\Brize_SMR.asr
+ASRFastKeys	5	\..\Data\ASR\Military\Lossiemouth_SMR.asr
+ASRFastKeys	6	\..\Data\ASR\Military\Valley_SMR.asr
+ASRFastKeys	7	\..\Data\ASR\Military\Waddington_SMR.asr
+ASRFastKeys	8	\..\Data\ASR\Military\Cranwell_SMR.asr
+ASRFastKeys	9	\..\Data\ASR\Military\Mil SMR.asr
+Plugins	Plugin0	\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Settings	AselKey	5111808
+Settings	FreqKey	3604480

@@ -134,7 +134,7 @@ AG:EGKK_P_GND:134.225:old.voice.notused:egkk_p_gnd
 AG:EGKK_DEL:121.950:old.voice.notused:egkk_del
 AG:EGKK_ATIS:136.525:old.voice.notused:egkk_atis
 AG:EGKR_TWR:119.600:old.voice.notused:egkr_twr
-AG:EGKR_ATIS:136.125:old.voice.notused:egkr_atis
+AG:EGKR_ATIS:125.300:old.voice.notused:egkr_atis
 AG:THAMES_APP:132.700:old.voice.notused:thames_app
 AG:EGLC_APP:128.025:old.voice.notused:eglc_app
 AG:EGLC_TWR:118.075:old.voice.notused:eglc_twr

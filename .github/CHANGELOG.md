@@ -1,7 +1,12 @@
-# Changes from release 2023/06 to 2023/07
+# Changes from release 2023/06 to 2023/08
 1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
-3. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn
+3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+5. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
+6. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
+7. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
+8. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
