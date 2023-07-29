@@ -182,7 +182,7 @@ m_Column:RUNW:4:1:47:19:19:1::::1:0.0
 m_Column:ADES:4:1:17:7:0:1::::1:0.0
 m_Column:SID:9:0:56:17:17:1::::1:0.0
 m_Column:CFL:4:1:20:11:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
 m_Column:E:1:1:58:27:0:1::::1:0.0
 m_Column:STS:4:1:59:46:46:1::::1:0.0
 END
@@ -202,7 +202,7 @@ m_Column:ATYP:4:1:16:0:0:1::::1:0.0
 m_Column:ADES:4:1:17:7:0:1::::1:0.0
 m_Column:SID:9:0:56:17:17:1::::1:0.0
 m_Column:CFL:4:1:20:11:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
 m_Column:E:1:1:58:27:0:1::::1:0.0
 m_Column:TTOT:5:1:108:0:0:1::::1:0.0
 m_Column:STS:4:1:59:46:46:1::::1:0.0
@@ -222,7 +222,7 @@ m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
 m_Column:SID:9:0:56:17:17:1::::1:0.0
 m_Column:CFL:4:1:20:11:0:1::::1:0.0
-m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
 m_Column:E:1:1:58:27:0:1::::1:0.0
 m_Column:TTOT:5:1:108:0:0:1::::1:0.0
 m_Column:STS:4:1:59:46:46:1::::1:0.0
