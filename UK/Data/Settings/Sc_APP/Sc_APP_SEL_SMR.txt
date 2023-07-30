@@ -11,7 +11,7 @@ m_Column:RT:2:0:80:32:0:1::::4
 m_Column:A/C:7:0:78:7:7:0::::3
 m_Column:FR:2:1:63:7:7:1::::3
 m_Column:SSR:5:1:2:0:0:1::::3
-m_Column:ASSR:5:1:60:9000:31:1::UK Controller Plugin::
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
 m_Column:RWY:4:1:47:19:19:1::::4
 m_Column:SID:7:0:56:17:17:1::::4
 m_Column:STAR:7:0:55:18:18:1::::4
