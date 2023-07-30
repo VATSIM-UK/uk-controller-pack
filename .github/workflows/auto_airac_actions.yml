@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Python script
         env:
-            REMOTE_KEY: ${{ secrets.DOWNLOAD_ARTIFACT }}
+            REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python .github/workflows/auto_airac_actions.py
           echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
