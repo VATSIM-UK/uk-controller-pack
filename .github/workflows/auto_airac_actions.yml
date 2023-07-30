@@ -1,9 +1,6 @@
 name: Automatic AIRAC Actions
 
 on:
-  push:
-    branches:
-      - main
   repository_dispatch:
     types: [auto_airac_actions]
 
