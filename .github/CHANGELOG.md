@@ -9,6 +9,7 @@
 8. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
 9. Enhancement - Added Luton (EGGW) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
 10. Bug - Fixed corrupt lines in TopSky MSAW file - thanks to @hazzas-99
+11. Enhancement - Added PDC alias definition with selectab;le ATIS option - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
