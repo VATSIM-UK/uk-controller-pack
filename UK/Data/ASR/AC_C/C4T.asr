@@ -3184,8 +3184,8 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1458
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:111
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1394
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:56
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
@@ -3194,7 +3194,7 @@ PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:110
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;airfield.EGBB;airfield.EGNX
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_YARMOUTH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
