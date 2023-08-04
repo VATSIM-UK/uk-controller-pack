@@ -20,7 +20,7 @@ m_Column:AC:8:1:105:0:0:1:UK Controller Plugin:::3:0.0
 m_Column:Stand:5:1:110:9008:9007:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
 m_Column:SPad:8:1:19:29:29:1::::4:0.0
 m_Column:R:2:1:63:7:9004:1:::UK Controller Plugin:3:0.0
-m_Column:Dest:5:1:17:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:DEST:5:1:17:7:9004:1:::UK Controller Plugin:3:0.0
 m_Column:SID:7:0:56:17:17:1::::4:0.0
 m_Column:RWY:3:1:47:19:19:1::::4:0.0
 m_Column:Alt:4:1:20:11:0:1::::4:0.0
