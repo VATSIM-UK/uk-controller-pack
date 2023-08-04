@@ -186,3 +186,4 @@ Window_SepList=1500,620
 
 Window_LostList_Auto=0
 Window_CARD_View_Risk=0
+Window_CARD_View_Future=0
