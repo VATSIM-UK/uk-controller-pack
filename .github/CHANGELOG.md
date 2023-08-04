@@ -11,6 +11,7 @@
 10. Bug - Fixed corrupt lines in TopSky MSAW file - thanks to @hazzas-99
 11. Enhancement - Added PDC alias definition with selectable ATIS option - thanks to @SamLefevre (Samuel Lefevre)
 12. AIRAC (2307) - Updated TopSky Prestwick (EGPK) SMAA - thanks to @hazzas-99
+13. Enhancement - Update lists and tags - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
