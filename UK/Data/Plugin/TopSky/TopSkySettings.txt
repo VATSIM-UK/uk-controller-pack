@@ -178,6 +178,11 @@ WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
 
 [_CTR]
-Window_CPDLC_Current=1,0,40
+Window_CARD=1,1500,700
+Window_CPDLC_Current=1,40,500
 Window_MsgIn=0,311,40
+Window_Shortcut=1,520,70
+Window_SepList=1500,620
+
 Window_LostList_Auto=0
+Window_CARD_View_Risk=0
