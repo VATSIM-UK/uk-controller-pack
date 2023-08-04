@@ -7,7 +7,7 @@ m_Resizable:1
 m_OrderingColumn:7
 m_HeaderOnly:0
 m_Column:C/S:7:0:9:8:1:1::::3:0.0
-m_Column:A/C:7:0:78:7:7:0::::3:0.0
+m_Column:A/C:7:0:78:7:7:1::::3:0.0
 m_Column:FR:2:1:63:7:7:1::::3:0.0
 m_Column:SSR:5:1:2:9001:31:1::UK Controller Plugin::3:0.0
 m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
