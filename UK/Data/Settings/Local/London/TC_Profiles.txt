@@ -1,34 +1,34 @@
 PROFILE
 PROFILE:LTC_E_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_N_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_NW_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_NE_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_S_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SW_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SE_CTR:200:6
-ATIS2:"London Control"
+ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END

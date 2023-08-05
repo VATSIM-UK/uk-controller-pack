@@ -1,50 +1,54 @@
 PROFILE
-PROFILE:SCO_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [EGPX]
+PROFILE:LON_CTR:300:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_E_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCOE]
+PROFILE:LON_SC_CTR:300:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_N_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCON]
+PROFILE:LON_S_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_S_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCOS]
+PROFILE:LON_D_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_WD_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCWD]
+PROFILE:LON_C_CTR:300:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_D_CTR:350:6
-ATIS2:Scottish Control | CPDLC/PDC [SCOD]
+PROFILE:LON_E_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_W_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCOW]
+PROFILE:LON_M_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_R_CTR:400:6
-ATIS2:Scottish Control | CPDLC/PDC [SCOR]
+PROFILE:LON_N_CTR:350:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_CTR:250:6
-ATIS2:Scottish Control
+PROFILE:LON_NW_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_E_CTR:250:6
-ATIS2:Scottish Control
+PROFILE:LON_NE_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_W_CTR:250:6
-ATIS2:Scottish Control
+PROFILE:LON_W_CTR:350:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_A_CTR:200:6
-ATIS2:Scottish Control
+PROFILE:LON_WB_CTR:300:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LON_WX_CTR:300:6
+ATIS2:London Control | CPDLC/PDC [UNVBL]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END
