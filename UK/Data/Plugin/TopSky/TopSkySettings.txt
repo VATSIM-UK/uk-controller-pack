@@ -160,7 +160,7 @@ APW_Buffer_Lat_L_IFR=1.5
 APW_Buffer_Lat_L_VFR=0
 
 //eAUP API URL (danger area activation)
-HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/EG/
+HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
 
 //Radio Direction Finder Settings
 RDF_Mode=2
