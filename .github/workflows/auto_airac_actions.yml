@@ -1,7 +1,7 @@
 name: Automatic AIRAC Actions
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
     types: [auto_airac_actions]
 
 jobs:
