@@ -1749,8 +1749,8 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1641
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:212
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1394
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:56
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200

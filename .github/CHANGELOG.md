@@ -12,7 +12,9 @@
 11. Enhancement - Added PDC alias definition with selectable ATIS option - thanks to @SamLefevre (Samuel Lefevre)
 12. AIRAC (2307) - Updated TopSky Prestwick (EGPK) SMAA - thanks to @hazzas-99
 13. Enhancement - Update lists and tags - thanks to @SamLefevre (Samuel Lefevre)
-14. Enhancement - vATIS config files updated for compatibility with vATIS 3.4 - thanks to Fraser Cooper
+14. Enhancement - Incorporated TopSky 2.5 beta 4 with associated settings updates - thanks to @hazzas-99
+15. Enhancement - Incorporated European airspace use plan API - thanks to @luke11brown (Luke Brown)
+16. Enhancement - vATIS config files updated for compatibility with vATIS 3.4 - thanks to Fraser Cooper
 
 # Changes from release 2023/05 to 2023/06
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)

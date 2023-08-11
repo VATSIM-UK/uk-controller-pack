@@ -1,5 +1,5 @@
 Settings	SettingsfilePLUGINS	\..\..\..\Data\Settings\Local\London\AC_N_Plugins.txt
-Settings	SettingsfilePROFILE	\..\..\..\Data\Settings\Local\London\AC_N_Profiles.txt
+Settings	SettingsfilePROFILE	\..\..\..\Data\Settings\Local\London\AC_Profiles_No-CPDLC.txt
 Settings	SettingsfileSCREEN	\..\..\..\Data\Settings\AC\AC_Screen.txt
 Settings	SettingsfileVOICE	\..\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\..\Data\Settings\AC\AC_General.txt
