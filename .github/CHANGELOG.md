@@ -1,27 +1,25 @@
-# Changes from release 2023/06 to 2023/08
-1. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
-2. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
-3. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
-4. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
-5. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
-6. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
-7. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
-8. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
-9. Enhancement - Added Luton (EGGW) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
-10. Bug - Fixed corrupt lines in TopSky MSAW file - thanks to @hazzas-99
-11. Enhancement - Added PDC alias definition with selectable ATIS option - thanks to @SamLefevre (Samuel Lefevre)
-12. AIRAC (2307) - Updated TopSky Prestwick (EGPK) SMAA - thanks to @hazzas-99
-13. Enhancement - Update lists and tags - thanks to @SamLefevre (Samuel Lefevre)
-14. Enhancement - Incorporated TopSky 2.5 beta 4 with associated settings updates - thanks to @hazzas-99
-15. Enhancement - Incorporated European airspace use plan API - thanks to @luke11brown (Luke Brown)
-16. Enhancement - vATIS config files updated for compatibility with vATIS 3.4 - thanks to Fraser Cooper
-
-# Changes from release 2023/05 to 2023/06
+# Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
 3. Procedure Change (2306) - Updated BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
 4. Procedure Change - Removed activation schedule for vRAF Ex Cobra Warrior Exercise - thaks to @hazzas-99
 5. Enhancement - Update Approach Radar profiles - thanks to @SamLefevre (Samuel Lefevre)
+6. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
+8. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+9. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+10. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
+11. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
+12. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
+13. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
+14. Enhancement - Added Luton (EGGW) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+15. Bug - Fixed corrupt lines in TopSky MSAW file - thanks to @hazzas-99
+16. Enhancement - Added PDC alias definition with selectable ATIS option - thanks to @SamLefevre (Samuel Lefevre)
+17. AIRAC (2307) - Updated TopSky Prestwick (EGPK) SMAA - thanks to @hazzas-99
+18. Enhancement - Update lists and tags - thanks to @SamLefevre (Samuel Lefevre)
+19. Enhancement - Incorporated TopSky 2.5 beta 4 with associated settings updates - thanks to @hazzas-99
+20. Enhancement - Incorporated European airspace use plan API - thanks to @luke11brown (Luke Brown)
+21. Enhancement - vATIS config files updated for compatibility with vATIS 3.4 - thanks to Fraser Cooper
 
 # Changes from release 2023/03 to 2023/05
 1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
