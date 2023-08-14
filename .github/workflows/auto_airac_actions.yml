@@ -3,6 +3,7 @@ name: Automatic AIRAC Actions
 on:
   repository_dispatch:
     types: [auto_airac_actions]
+  workflow_dispatch:
 
 jobs:
   python-script-and-pr:
