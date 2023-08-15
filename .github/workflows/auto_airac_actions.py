@@ -88,11 +88,11 @@ class CurrentInstallation:
         # Write the current tag to use as a workflow variable
         with open("airac.txt", "w", encoding="utf-8") as a_file:
             a_file.write(self.airac)
-        
+
         # Set some other vars
         self.remote_repo_owner = "VATSIM-UK"
         self.remote_repo_name = "UK-Sector-File"
-    
+
     def gng_data_update(self) -> None:
         """Pulls data from GNG"""
 
@@ -104,10 +104,11 @@ class CurrentInstallation:
             return True
 
         if webpage.status_code == 200:
-            list_zip_files = re.findall(r"https\:\/\/files\.aero-nav\.com\/EGTT\/UK\-Datafiles\_[\d]{14}\-[\d]{6}\-[\d]{1,2}\.zip", str(webpage.content))
+            list_zip_files = re.findall(
+                (r"https\:\/\/files\.aero-nav\.com\/EGTT\/"
+                 r"UK\-Datafiles\_[\d]{14}\-[\d]{6}\-[\d]{1,2}\.zip"), str(webpage.content))
         else:
             raise requests.HTTPError(f"URL not found - {webpage.url}")
-        
 
         # We're only interested in the most recent zip file found.
         logger.debug(f"Full list of found zip file urls: {list_zip_files}")
@@ -115,7 +116,24 @@ class CurrentInstallation:
         logger.info(f"Selected zip file url is {zip_file}")
 
         # Set headers to look like a web browser
-        headers = {"Sec-Ch-Ua": "", "Sec-Ch-Ua-Mobile": "?0", "Sec-Ch-Ua-Platform": "\"\"", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.134 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-User": "?1", "Sec-Fetch-Dest": "document", "Referer": "https://files.aero-nav.com/EGXX", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8", "Connection": "close"}
+        headers = {
+            "Sec-Ch-Ua": "",
+            "Sec-Ch-Ua-Mobile": "?0",
+            "Sec-Ch-Ua-Platform": "\"\"",
+            "Upgrade-Insecure-Requests": "1",
+            "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                           "(KHTML, like Gecko) Chrome/114.0.5735.134 Safari/537.36"),
+            "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,",
+                       "image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"),
+            "Sec-Fetch-Site": "same-origin",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-User": "?1",
+            "Sec-Fetch-Dest": "document",
+            "Referer": "https://files.aero-nav.com/EGXX",
+            "Accept-Encoding": "gzip, deflate",
+            "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+            "Connection": "close"
+            }
         response = requests.get(zip_file, headers=headers, timeout=30)
         logger.debug(f"Response Status = {response.status_code}")
         if response.status_code == 200:
@@ -129,7 +147,7 @@ class CurrentInstallation:
         with ZipFile("navdata.zip", "r") as zip_ref:
             zip_ref.extractall("import/")
             logger.debug("Extracted navdata.zip")
-        
+
         # Delete the empty zipfile
         os.remove("navdata.zip")
         logger.debug("Removed navadata.zip")
@@ -144,10 +162,16 @@ class CurrentInstallation:
             "NavData/isec.txt"
         ]
         for file in list_of_files:
-            shutil.copy(f"import/EGTT/{file}", f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}")
+            shutil.copy(
+                f"import/EGTT/{file}",
+                f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}"
+                )
             if "ICAO_Airlines" in file:
                 # Copy the "ICAO_Airlines.txt" file into the vSMR folder
-                shutil.copy(f"import/EGTT/{file}", f"UK/Data/Plugin/vSMR/{file.split('/', maxsplit=1)[-1]}")
+                shutil.copy(
+                    f"import/EGTT/{file}",
+                    f"UK/Data/Plugin/vSMR/{file.split('/', maxsplit=1)[-1]}"
+                    )
             logger.success(f"Moved {file}")
 
         # Cleanup the import directory
@@ -190,11 +214,15 @@ class CurrentInstallation:
                 # Check the sector file matches the current AIRAC cycle
                 airac_format = str(self.airac.replace("/", "_"))
                 if airac_format not in sector_file[0]:
-                    logger.warning(f"Sector file appears out of date with the current {self.airac} release!")
+                    logger.warning(
+                        f"Sector file appears out of date with the current {self.airac} release!"
+                        )
                     ext = ["ese", "rwy", "sct"]
 
                     # Get artifact url from VATSIM-UK/UK-Sector-File
-                    artifact_list = requests.get(f"https://api.github.com/repos/{self.remote_repo_owner}/{self.remote_repo_name}/actions/artifacts", timeout=30)
+                    artifact_list = requests.get(
+                        (f"https://api.github.com/repos/{self.remote_repo_owner}/"
+                         f"{self.remote_repo_name}/actions/artifacts"), timeout=30)
                     if artifact_list.status_code == 200:
                         al_json = json.loads(artifact_list.content)
                         artifact_url = al_json["artifacts"][0]["archive_download_url"]
@@ -213,31 +241,39 @@ class CurrentInstallation:
                             file.write(response.content)
                     else:
                         raise requests.HTTPError(f"URL not found - {artifact_list.url}")
-                    
+
                     # Unzip the file
                     with ZipFile("sector.zip", "r") as zip_ref:
                         zip_ref.extractall(".")
-                    
+
                     # Delete the empty zipfile
                     os.remove("sector.zip")
 
                     # Rename artifact files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
-                        os.rename(f"UK.{e_type}", f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.{e_type}")
+                        os.rename(
+                            f"UK.{e_type}",
+                            f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.{e_type}"
+                            )
 
                     # Clean up old sector files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
-                        os.remove(f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}")
+                        os.remove(
+                            (f"{self.ukcp_location}/Data/Sector/",
+                             f"{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"))
 
                     # Return the newly downloaded sector file
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
             else:
-                logger.error(f"Sector file search found {len(sector_file)} files. There should only have one of these!")
+                logger.error(
+                    (f"Sector file search found {len(sector_file)} files. ",
+                     "There should only have one of these!"))
                 logger.debug(sector_file)
-                raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
+                raise ValueError(
+                    f"{len(sector_file)} sector files were found when there should only be one")
 
         sct_file = get_sector_file()
 
