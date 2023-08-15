@@ -97,7 +97,12 @@ class CurrentInstallation:
         """Pulls data from GNG"""
 
         # Load the EGXX file list and use regex to search for all relevant zip file urls
-        webpage = requests.get("https://files.aero-nav.com/EGXX", timeout=30)
+        try:
+            webpage = requests.get("https://files.aero-nav.com/EGXX", timeout=30)
+        except requests.exceptions.ReadTimeout as error:
+            logger.warning(f"Unable to update to GNG data due to the following error: {error}")
+            return True
+
         if webpage.status_code == 200:
             list_zip_files = re.findall(r"https\:\/\/files\.aero-nav\.com\/EGTT\/UK\-Datafiles\_[\d]{14}\-[\d]{6}\-[\d]{1,2}\.zip", str(webpage.content))
         else:
