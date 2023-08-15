@@ -43,7 +43,7 @@ class Airac:
         diff_cycles = (input_date - self.base_date) / datetime.timedelta(days=1)
         # Round that number down to the nearest whole integer
         number_of_cycles = floor(diff_cycles / self.cycle_days)
-        logger.debug(f"{number_of_cycles} AIRAC cycles since {input_date}")
+        logger.debug(f"{number_of_cycles} AIRAC cycles since {self.base_date}")
 
         return number_of_cycles
 
@@ -112,12 +112,12 @@ class CurrentInstallation:
         # We're only interested in the most recent zip file found.
         logger.debug(f"Full list of found zip file urls: {list_zip_files}")
         zip_file = list_zip_files[-1]
-        logger.debug(f"Selected zip file url is {zip_file}")
+        logger.info(f"Selected zip file url is {zip_file}")
 
         # Set headers to look like a web browser
         headers = {"Sec-Ch-Ua": "", "Sec-Ch-Ua-Mobile": "?0", "Sec-Ch-Ua-Platform": "\"\"", "Upgrade-Insecure-Requests": "1", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.134 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-User": "?1", "Sec-Fetch-Dest": "document", "Referer": "https://files.aero-nav.com/EGXX", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8", "Connection": "close"}
         response = requests.get(zip_file, headers=headers, timeout=30)
-        logger.info(f"Response Status = {response.status_code}")
+        logger.debug(f"Response Status = {response.status_code}")
         if response.status_code == 200:
             with open("navdata.zip", "wb") as file:
                 file.write(response.content)
