@@ -5,10 +5,10 @@ Settings	SettingsfileVOICE	\..\Data\Settings\Local\Heathrow\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
 Settings	SettingsfileARR	\..\Data\Settings\Local\Heathrow\AL.txt
 Settings	SettingsfileCONFLICT	\..\Data\Settings\TC_APP\TC_APP_C.txt
-Settings	SettingsfileDEP	\..\Data\Settings\\Local\Heathrow\DL.txt
-Settings	SettingsfileFP	\..\Data\Settings\\Local\Heathrow\FPL.txt
-Settings	SettingsfileSEL	\..\Data\Settings\\Local\Heathrow\SEL.txt
-Settings	SettingsfileSIL	\..\Data\Settings\\Local\Heathrow\SIL.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Local\Heathrow\DL.txt
+Settings	SettingsfileFP	\..\Data\Settings\Local\Heathrow\FPL.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Local\Heathrow\SEL.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Local\Heathrow\SIL.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
