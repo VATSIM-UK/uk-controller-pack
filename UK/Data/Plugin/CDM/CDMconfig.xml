@@ -4,7 +4,7 @@
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />
 	<realMode mode="true" />
-	<Rates url="https://raw.githubusercontent.com/rpuig2001/Capacity-Availability-Document-CDM/main/CAD.txt" />
+	<Rates url="https://github.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/taxizones.txt" />
 	<Ctot code="" />
 	<DefaultTaxiTime minutes="15" />
