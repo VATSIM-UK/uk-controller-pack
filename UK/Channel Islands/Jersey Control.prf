@@ -16,12 +16,10 @@ Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 LastSession	atis_airport	EGJJ
-RecentFiles	Recent1	\..\Data\ASR\Jersey Control.asr
-RecentFiles	Recent2	\..\Data\ASR\Jersey SMR.asr
-RecentFiles	Recent3	\..\Data\ASR\Guernsey SMR.asr
-RecentFiles	Recent4	\..\Data\ASR\Alderney SMR.asr
-Plugins	Plugin0	\Settings\Plugins\AfvEuroScopeBridge.dll
-Plugins	Plugin0Display0	Standard ES radar screen
+RecentFiles	Recent1	\..\Data\ASR\Channel Islands\Jersey Control.asr
+RecentFiles	Recent2	\..\Data\ASR\Channel Islands\Jersey SMR.asr
+RecentFiles	Recent3	\..\Data\ASR\Channel Islands\Guernsey SMR.asr
+RecentFiles	Recent4	\..\Data\ASR\Channel Islands\Alderney SMR.asr
 Settings	SettingsfileCONFLICT	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
@@ -37,10 +35,10 @@ Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\Data\Datafiles\icao.txt
 Settings	airways	\..\Data\Datafiles\airway.txt
-ASRFastKeys	1	\..\Data\ASR\Jersey Control.asr
-ASRFastKeys	2	\..\Data\ASR\Jersey SMR.asr
-ASRFastKeys	3	\..\Data\ASR\Guernsey SMR.asr
-ASRFastKeys	4	\..\Data\ASR\Alderney SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Channel Islands\Jersey Control.asr
+ASRFastKeys	2	\..\Data\ASR\Channel Islands\Jersey SMR.asr
+ASRFastKeys	3	\..\Data\ASR\Channel Islands\Guernsey SMR.asr
+ASRFastKeys	4	\..\Data\ASR\Channel Islands\Alderney SMR.asr
 LastSession	atis_url0	http://uniatis.net/atis.php?arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&apptype=ILS&info=$atiscodeA&metar=$metar($atisairportA)
 LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&apptype=ILS&info=$atiscodeB&metar=$metar($atisairportB)
 LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep=$deprwy($atisairportC)&apptype=ILS&info=$atiscodeC&metar=$metar($atisairportC)
