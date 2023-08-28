@@ -1,17 +1,17 @@
 Settings	sector	UK\Data\Sector\UK_2023_08.sct
 LastSession	server	AUTOMATIC
-Settings	SettingsfileSYMBOLOGY	\..\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Channel Islands\Profiles.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	SettingsfileSIL	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileSEL	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileDEP	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileARR	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileFP	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfilePLUGINS	\..\Settings\Local\Channel Islands\Plugins.txt
-Settings	Settingsfile	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileSCREEN	\..\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileARR	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileFP	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Channel Islands\Plugins.txt
+Settings	Settingsfile	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Settings	alias	\..\Data\Alias\AC_Alias.txt
@@ -22,8 +22,8 @@ RecentFiles	Recent3	\..\Data\ASR\Guernsey SMR.asr
 RecentFiles	Recent4	\..\Data\ASR\Alderney SMR.asr
 Plugins	Plugin0	\Settings\Plugins\AfvEuroScopeBridge.dll
 Plugins	Plugin0Display0	Standard ES radar screen
-Settings	SettingsfileCONFLICT	\..\Settings\Local\Channel Islands\CI Radar.txt
-Settings	SettingsfileVCCS	\..\Settings\VCCS_West.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
