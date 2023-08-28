@@ -1,8 +1,6 @@
 DisplayTypeName:Park Air Radar
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\UK_2023_08.sct
-SECTORTITLE:UK_2023_08.sct
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:

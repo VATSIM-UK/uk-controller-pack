@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\UK_2023_08.sct
-SECTORTITLE:UK_2023_08.sct
 Airports:EGAA:name
 Airports:EGAB:name
 Airports:EGAC:name
