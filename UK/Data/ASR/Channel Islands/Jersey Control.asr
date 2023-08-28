@@ -4560,7 +4560,7 @@ PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1186
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:43
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
-PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;airfield.EGJJ
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGJJ;tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_PORTLAND;ASR_WESSEX
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
