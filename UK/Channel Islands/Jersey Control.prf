@@ -1,0 +1,56 @@
+Settings	sector	\Sector\Channel Islands.sct
+LastSession	connecttype	0
+LastSession	facility	5
+LastSession	rating	3
+LastSession	range	100
+LastSession	server	UK1
+Settings	SettingsfileSYMBOLOGY	\Settings\CI Radar.txt
+Settings	SettingsfileVOICE	\Settings\voice.txt
+Settings	SettingsfilePROFILE	\Settings\profile.txt
+Settings	SettingsfileTAGS	\Settings\Tags.txt
+Settings	SettingsfileSIL	\Settings\CI Radar.txt
+Settings	SettingsfileSEL	\Settings\CI Radar.txt
+Settings	SettingsfileDEP	\Settings\CI Radar.txt
+Settings	SettingsfileARR	\Settings\CI Radar.txt
+Settings	SettingsfileFP	\Settings\CI Radar.txt
+Settings	SettingsfilePLUGINS	\Settings\CI Radar.txt
+Settings	Settingsfile	\Settings\CI Radar.txt
+Settings	SettingsfileSCREEN	\Settings\CI Radar.txt
+Settings	AtisFolder	\Files\ATIS\ATISfiles.txt
+Settings	alias	Jersey Pack\Files\Alias\Alias.txt
+LastSession	atis_airport	egjj
+LastSession	atis_letter	79
+RecentFiles	Recent1	\Files\ASR\JSY_C.asr
+Plugins	Plugin0	\Settings\Plugins\AfvEuroScopeBridge.dll
+Plugins	Plugin0Display0	Standard ES radar screen
+Settings	SettingsfileCONFLICT	\Settings\CI Radar.txt
+Settings	SettingsfileVCCS	\Settings\VCCS.txt
+RecentFiles	Recent2	\Files\ASR\JSY SMR.asr
+Plugins	Plugin1	\Settings\Plugins\RDFPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin2	\Settings\Plugins\ukcontrollerplugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin3	\Settings\Plugins\vParkAir.dll
+Plugins	Plugin3Display0	Park Air Radar
+Plugins	Plugin3Display1	Standard ES radar screen
+Plugins	Plugin0Display1	Park Air Radar
+Plugins	Plugin1Display1	Park Air Radar
+Plugins	Plugin2Display1	Park Air Radar
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
+ASRFastKeys	1	\Files\ASR\JSY_C.asr
+ASRFastKeys	2	\Files\ASR\JSY SMR.asr
+ASRFastKeys	3	\Files\ASR\GUR SMR.asr
+ASRFastKeys	4	\Files\ASR\ALD SMR.asr
+RecentFiles	Recent3	\Files\ASR\ALD SMR.asr
+RecentFiles	Recent4	\Files\ASR\GUR SMR.asr
+RecentFiles	Recent5	\Files\ASR\JSY APP.asr
+TeamSpeakVccs	Ts3G2APtt	2752512
+TeamSpeakVccs	Ts3G2GPtt	2752512
+TeamSpeakVccs	Ts3DialogLeft	894
+TeamSpeakVccs	Ts3DialogTop	54
+TeamSpeakVccs	Ts3DialogRight	1790
+TeamSpeakVccs	Ts3DialogBottom	654
+LastSession	tovatsim	1
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
