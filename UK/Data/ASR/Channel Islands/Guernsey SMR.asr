@@ -1,0 +1,590 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:Jersey Pack\Sector\SMR.sct
+SECTORTITLE:SMR.sct
+Airports:EGAA:name
+Airports:EGAB:name
+Airports:EGAC:name
+Airports:EGAD:name
+Airports:EGAE:name
+Airports:EGAL:name
+Airports:EGBB:name
+Airports:EGBC:name
+Airports:EGBD:name
+Airports:EGBE:name
+Airports:EGBF:name
+Airports:EGBG:name
+Airports:EGBJ:name
+Airports:EGBK:name
+Airports:EGBL:name
+Airports:EGBM:name
+Airports:EGBN:name
+Airports:EGBO:name
+Airports:EGBP:name
+Airports:EGBS:name
+Airports:EGBT:name
+Airports:EGBV:name
+Airports:EGBW:name
+Airports:EGCB:name
+Airports:EGCC:name
+Airports:EGCD:name
+Airports:EGCE:name
+Airports:EGCF:name
+Airports:EGCJ:name
+Airports:EGCK:name
+Airports:EGCL:name
+Airports:EGCN:name
+Airports:EGCO:name
+Airports:EGCS:name
+Airports:EGCT:name
+Airports:EGCV:name
+Airports:EGCW:name
+Airports:EGDC:name
+Airports:EGDI:name
+Airports:EGDL:name
+Airports:EGDM:name
+Airports:EGDN:name
+Airports:EGDP:name
+Airports:EGDR:name
+Airports:EGDT:name
+Airports:EGDX:name
+Airports:EGDY:name
+Airports:EGEC:name
+Airports:EGED:name
+Airports:EGEF:name
+Airports:EGEG:name
+Airports:EGEH:name
+Airports:EGEN:name
+Airports:EGEO:name
+Airports:EGEP:name
+Airports:EGER:name
+Airports:EGES:name
+Airports:EGET:name
+Airports:EGEW:name
+Airports:EGFA:name
+Airports:EGFC:name
+Airports:EGFE:name
+Airports:EGFF:name
+Airports:EGFH:name
+Airports:EGFP:name
+Airports:EGGD:name
+Airports:EGGP:name
+Airports:EGGW:name
+Airports:EGHA:name
+Airports:EGHC:name
+Airports:EGHD:name
+Airports:EGHE:name
+Airports:EGHF:name
+Airports:EGHG:name
+Airports:EGHH:name
+Airports:EGHI:name
+Airports:EGHJ:name
+Airports:EGHK:name
+Airports:EGHL:name
+Airports:EGHN:name
+Airports:EGHO:name
+Airports:EGHP:name
+Airports:EGHQ:name
+Airports:EGHR:name
+Airports:EGHS:name
+Airports:EGHT:name
+Airports:EGHU:name
+Airports:EGHY:name
+Airports:EGJA:name
+Airports:EGJB:name
+Airports:EGJJ:name
+Airports:EGKA:name
+Airports:EGKB:name
+Airports:EGKC:name
+Airports:EGKE:name
+Airports:EGKG:name
+Airports:EGKH:name
+Airports:EGKK:name
+Airports:EGKR:name
+Airports:EGLA:name
+Airports:EGLC:name
+Airports:EGLD:name
+Airports:EGLF:name
+Airports:EGLG:name
+Airports:EGLJ:name
+Airports:EGLK:name
+Airports:EGLL:name
+Airports:EGLM:name
+Airports:EGLS:name
+Airports:EGLT:name
+Airports:EGLW:name
+Airports:EGMA:name
+Airports:EGMC:name
+Airports:EGMD:name
+Airports:EGMF:name
+Airports:EGMH:name
+Airports:EGMJ:name
+Airports:EGNA:name
+Airports:EGNB:name
+Airports:EGNC:name
+Airports:EGNE:name
+Airports:EGNF:name
+Airports:EGNH:name
+Airports:EGNI:name
+Airports:EGNJ:name
+Airports:EGNL:name
+Airports:EGNM:name
+Airports:EGNO:name
+Airports:EGNP:name
+Airports:EGNR:name
+Airports:EGNS:name
+Airports:EGNT:name
+Airports:EGNU:name
+Airports:EGNV:name
+Airports:EGNW:name
+Airports:EGNX:name
+Airports:EGNY:name
+Airports:EGOD:name
+Airports:EGOE:name
+Airports:EGOS:name
+Airports:EGOV:name
+Airports:EGOW:name
+Airports:EGOY:name
+Airports:EGPA:name
+Airports:EGPB:name
+Airports:EGPC:name
+Airports:EGPD:name
+Airports:EGPE:name
+Airports:EGPF:name
+Airports:EGPG:name
+Airports:EGPH:name
+Airports:EGPI:name
+Airports:EGPJ:name
+Airports:EGPK:name
+Airports:EGPL:name
+Airports:EGPM:name
+Airports:EGPN:name
+Airports:EGPO:name
+Airports:EGPR:name
+Airports:EGPT:name
+Airports:EGPU:name
+Airports:EGPW:name
+Airports:EGQB:name
+Airports:EGQK:name
+Airports:EGQL:name
+Airports:EGQM:name
+Airports:EGQS:name
+Airports:EGSA:name
+Airports:EGSB:name
+Airports:EGSC:name
+Airports:EGSD:name
+Airports:EGSF:name
+Airports:EGSG:name
+Airports:EGSH:name
+Airports:EGSJ:name
+Airports:EGSK:name
+Airports:EGSL:name
+Airports:EGSM:name
+Airports:EGSN:name
+Airports:EGSO:name
+Airports:EGSP:name
+Airports:EGSQ:name
+Airports:EGSR:name
+Airports:EGSS:name
+Airports:EGST:name
+Airports:EGSU:name
+Airports:EGSV:name
+Airports:EGSW:name
+Airports:EGSX:name
+Airports:EGSY:name
+Airports:EGTB:name
+Airports:EGTC:name
+Airports:EGTD:name
+Airports:EGTE:name
+Airports:EGTF:name
+Airports:EGTG:name
+Airports:EGTK:name
+Airports:EGTO:name
+Airports:EGTP:name
+Airports:EGTR:name
+Airports:EGTU:name
+Airports:EGTW:name
+Airports:EGUB:name
+Airports:EGUC:name
+Airports:EGUL:name
+Airports:EGUN:name
+Airports:EGUO:name
+Airports:EGUW:name
+Airports:EGUY:name
+Airports:EGVA:name
+Airports:EGVN:name
+Airports:EGVO:name
+Airports:EGVP:name
+Airports:EGWC:name
+Airports:EGWN:name
+Airports:EGWU:name
+Airports:EGXC:name
+Airports:EGXD:name
+Airports:EGXE:name
+Airports:EGXG:name
+Airports:EGXH:name
+Airports:EGXJ:name
+Airports:EGXN:name
+Airports:EGXT:name
+Airports:EGXU:name
+Airports:EGXV:name
+Airports:EGXW:name
+Airports:EGXZ:name
+Airports:EGYD:name
+Airports:EGYE:name
+Airports:EGYM:name
+Airports:EIDW:name
+Airports:LFAC:name
+Airports:LFAT:name
+Free Text:EGJA Holding Points\A1:freetext
+Free Text:EGJA Holding Points\B:freetext
+Free Text:EGJB Holding Points\A1:freetext
+Free Text:EGJB Holding Points\A2:freetext
+Free Text:EGJB Holding Points\A3:freetext
+Free Text:EGJB Holding Points\B1:freetext
+Free Text:EGJB Holding Points\B2:freetext
+Free Text:EGJB Holding Points\C:freetext
+Free Text:EGJB Holding Points\D1:freetext
+Free Text:EGJB Holding Points\D2:freetext
+Free Text:EGJB Holding Points\D3:freetext
+Free Text:EGJB Holding Points\E:freetext
+Free Text:EGJB Holding Points\F:freetext
+Free Text:EGJJ Holding Points\A1:freetext
+Free Text:EGJJ Holding Points\A2:freetext
+Free Text:EGJJ Holding Points\B1:freetext
+Free Text:EGJJ Holding Points\B2:freetext
+Free Text:EGJJ Holding Points\B3:freetext
+Free Text:EGJJ Holding Points\C1:freetext
+Free Text:EGJJ Holding Points\C2:freetext
+Free Text:EGJJ Holding Points\D:freetext
+Free Text:EGJJ Holding Points\E:freetext
+Free Text:EGJJ Holding Points\F:freetext
+Free Text:EGJJ Holding Points\G:freetext
+Free Text:EGJJ Holding Points\H:freetext
+Free Text:EGJJ Holding Points\J1:freetext
+Free Text:EGJJ Holding Points\J2:freetext
+Free Text:EGJJ Holding Points\J3:freetext
+Free Text:EGJJ Holding Points\K:freetext
+Free Text:EGJJ Holding Points\M:freetext
+Free Text:EGJJ Stands\1:freetext
+Free Text:EGJJ Stands\10:freetext
+Free Text:EGJJ Stands\11:freetext
+Free Text:EGJJ Stands\12:freetext
+Free Text:EGJJ Stands\13:freetext
+Free Text:EGJJ Stands\15:freetext
+Free Text:EGJJ Stands\16:freetext
+Free Text:EGJJ Stands\17:freetext
+Free Text:EGJJ Stands\18:freetext
+Free Text:EGJJ Stands\19:freetext
+Free Text:EGJJ Stands\20:freetext
+Free Text:EGJJ Stands\21:freetext
+Free Text:EGJJ Stands\22:freetext
+Free Text:EGJJ Stands\23:freetext
+Free Text:EGJJ Stands\3:freetext
+Free Text:EGJJ Stands\32:freetext
+Free Text:EGJJ Stands\4:freetext
+Free Text:EGJJ Stands\40:freetext
+Free Text:EGJJ Stands\41:freetext
+Free Text:EGJJ Stands\42:freetext
+Free Text:EGJJ Stands\5:freetext
+Free Text:EGJJ Stands\6:freetext
+Free Text:EGJJ Stands\7:freetext
+Free Text:EGJJ Stands\8:freetext
+Free Text:EGJJ Stands\9:freetext
+Regions:09_0:polygon
+Regions:09_0_1:polygon
+Regions:09_9:polygon
+Regions:09_9_1:polygon
+Regions:13491405:polygon
+Regions:13491405:polygon
+Regions:13491405:polygon
+Regions:27arrow:polygon
+Regions:4613190:polygon
+Regions:A1:polygon
+Regions:A1:polygon
+Regions:A1:polygon
+Regions:A2:polygon
+Regions:A2:polygon
+Regions:A3:polygon
+Regions:A3:polygon
+Regions:A4:polygon
+Regions:A4:polygon
+Regions:A5:polygon
+Regions:Aero_Club:polygon
+Regions:Aeroclub:polygon
+Regions:Aeroclub:polygon
+Regions:AeroClub:polygon
+Regions:AeroClub1:polygon
+Regions:ATC:polygon
+Regions:Aviation_Beauport_Hangar:polygon
+Regions:B:polygon
+Regions:B1:polygon
+Regions:B2:polygon
+Regions:B2:polygon
+Regions:B3:polygon
+Regions:BackBuilding1:polygon
+Regions:BackBuilding2:polygon
+Regions:BackBuilding3:polygon
+Regions:BackBuilding4:polygon
+Regions:BackBuilding6:polygon
+Regions:BackBuilding7:polygon
+Regions:BackBuilding8:polygon
+Regions:C:polygon
+Regions:Cargo:polygon
+Regions:CarPark1:polygon
+Regions:CarPark2:polygon
+Regions:ControlTower:polygon
+Regions:D:polygon
+Regions:D-A:polygon
+Regions:D1:polygon
+Regions:D2:polygon
+Regions:D3:polygon
+Regions:E:polygon
+Regions:F:polygon
+Regions:F:polygon
+Regions:F-E:polygon
+Regions:Fire_Station:polygon
+Regions:FireStation:polygon
+Regions:FireStation:polygon
+Regions:FireStation:polygon
+Regions:FireStation1:polygon
+Regions:FireStationC:polygon
+Regions:Freight_Sheds:polygon
+Regions:Freight_Sheds_A:polygon
+Regions:FuelFarm1:polygon
+Regions:FuelFarm2:polygon
+Regions:G:polygon
+Regions:Grass03-21_Apron:polygon
+Regions:Grass14-32:polygon
+Regions:H:polygon
+Regions:Hangar:polygon
+Regions:Hangar1:polygon
+Regions:Hangar2:polygon
+Regions:HangarE1:polygon
+Regions:HangarE2:polygon
+Regions:HangarE3:polygon
+Regions:HangarE4:polygon
+Regions:Hanger:polygon
+Regions:Hanger:polygon
+Regions:J1:polygon
+Regions:J2:polygon
+Regions:J3:polygon
+Regions:JAL_Hangar:polygon
+Regions:JAL_Hangar:polygon
+Regions:Jersey:polygon
+Regions:LeftOfHanger:polygon
+Regions:M:polygon
+Regions:Main:polygon
+Regions:Main:polygon
+Regions:MainA:polygon
+Regions:MainB:polygon
+Regions:Terminal:polygon
+Regions:Terminal:polygon
+Regions:Terminal:polygon
+Regions:TerminalA:polygon
+Regions:TerminalB:polygon
+Regions:TerminalC:polygon
+Regions:Untitled_Polygon_1:polygon
+Regions:Untitled_Polygon_10:polygon
+Regions:Untitled_Polygon_11:polygon
+Regions:Untitled_Polygon_12:polygon
+Regions:Untitled_Polygon_13:polygon
+Regions:Untitled_Polygon_14:polygon
+Regions:Untitled_Polygon_15:polygon
+Regions:Untitled_Polygon_16:polygon
+Regions:Untitled_Polygon_17:polygon
+Regions:Untitled_Polygon_18:polygon
+Regions:Untitled_Polygon_19:polygon
+Regions:Untitled_Polygon_2:polygon
+Regions:Untitled_Polygon_20:polygon
+Regions:Untitled_Polygon_21:polygon
+Regions:Untitled_Polygon_22:polygon
+Regions:Untitled_Polygon_23:polygon
+Regions:Untitled_Polygon_24:polygon
+Regions:Untitled_Polygon_25:polygon
+Regions:Untitled_Polygon_26:polygon
+Regions:Untitled_Polygon_27:polygon
+Regions:Untitled_Polygon_3:polygon
+Regions:Untitled_Polygon_4:polygon
+Regions:Untitled_Polygon_5:polygon
+Regions:Untitled_Polygon_6:polygon
+Regions:Untitled_Polygon_7:polygon
+Regions:Untitled_Polygon_8:polygon
+Regions:Untitled_Polygon_9:polygon
+VORs:ABB:symbol
+VORs:ADN:symbol
+VORs:AFI:symbol
+VORs:AMB:symbol
+VORs:AMS:symbol
+VORs:ANT:symbol
+VORs:ARE:symbol
+VORs:BAL:symbol
+VORs:BBE:symbol
+VORs:BBL:symbol
+VORs:BCN:symbol
+VORs:BDN:symbol
+VORs:BEL:symbol
+VORs:BEN:symbol
+VORs:BFS:symbol
+VORs:BHD:symbol
+VORs:BIG:symbol
+VORs:BKY:symbol
+VORs:BNE:symbol
+VORs:BNN:symbol
+VORs:BPK:symbol
+VORs:BST:symbol
+VORs:BUB:symbol
+VORs:BUN:symbol
+VORs:BZN:symbol
+VORs:CEN:symbol
+VORs:CFD:symbol
+VORs:CGY:symbol
+VORs:CIV:symbol
+VORs:CLM:symbol
+VORs:CLN:symbol
+VORs:CMB:symbol
+VORs:COA:symbol
+VORs:CON:symbol
+VORs:CPT:symbol
+VORs:CRK:symbol
+VORs:CSL:symbol
+VORs:CTM:symbol
+VORs:CWZ:symbol
+VORs:DAP:symbol
+VORs:DCS:symbol
+VORs:DET:symbol
+VORs:DHE:symbol
+VORs:DIK:symbol
+VORs:DIN:symbol
+VORs:DPE:symbol
+VORs:DTY:symbol
+VORs:DUB:symbol
+VORs:DVL:symbol
+VORs:DVR:symbol
+VORs:EEL:symbol
+VORs:EHV:symbol
+VORs:EVX:symbol
+VORs:FFA:symbol
+VORs:FLO:symbol
+VORs:GAM:symbol
+VORs:GMN:symbol
+VORs:GOW:symbol
+VORs:GSY:symbol
+VORs:GUR:symbol
+VORs:GWC:symbol
+VORs:HDR:symbol
+VORs:HON:symbol
+VORs:HSD:symbol
+VORs:HUL:symbol
+VORs:INS:symbol
+VORs:IOM:symbol
+VORs:JSY:symbol
+VORs:KOK:symbol
+VORs:KWL:symbol
+VORs:LAM:symbol
+VORs:LDV:symbol
+VORs:LGE:symbol
+VORs:LGL:symbol
+VORs:LKH:symbol
+VORs:LND:symbol
+VORs:LNO:symbol
+VORs:LON:symbol
+VORs:LUX:symbol
+VORs:LYD:symbol
+VORs:LYE:symbol
+VORs:MAC:symbol
+VORs:MAM:symbol
+VORs:MAS:symbol
+VORs:MAY:symbol
+VORs:MCT:symbol
+VORs:MID:symbol
+VORs:MLD:symbol
+VORs:MTD:symbol
+VORs:NIK:symbol
+VORs:OCK:symbol
+VORs:ODH:symbol
+VORs:OTR:symbol
+VORs:PAM:symbol
+VORs:POL:symbol
+VORs:PON:symbol
+VORs:PTH:symbol
+VORs:QPR:symbol
+VORs:REM:symbol
+VORs:REN:symbol
+VORs:RKN:symbol
+VORs:ROU:symbol
+VORs:RTM:symbol
+VORs:SAB:symbol
+VORs:SAM:symbol
+VORs:SFD:symbol
+VORs:SHA:symbol
+VORs:SOL:symbol
+VORs:SPI:symbol
+VORs:SPL:symbol
+VORs:SPY:symbol
+VORs:STN:symbol
+VORs:STU:symbol
+VORs:SUM:symbol
+VORs:SVA:symbol
+VORs:SWB:symbol
+VORs:TIR:symbol
+VORs:TLA:symbol
+VORs:TNT:symbol
+VORs:TRN:symbol
+VORs:VES:symbol
+VORs:VLN:symbol
+VORs:WAL:symbol
+VORs:WIK:symbol
+VORs:WIT:symbol
+VORs:WTZ:symbol
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:3
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:49.421437:-2.621244:49.444646:-2.576654
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:Virtual Controller Assistant:ANTIALIAS:1
+PLUGIN:Virtual Controller Assistant:CDSHOW:1
+PLUGIN:Virtual Controller Assistant:CDXPOS:4
+PLUGIN:Virtual Controller Assistant:CDYPOS:202
+PLUGIN:Virtual Controller Assistant:DEGRADINGTRAIL:0
+PLUGIN:Virtual Controller Assistant:FADETRAIL:0
+PLUGIN:Virtual Controller Assistant:MAXTRAIL:6
+PLUGIN:Virtual Controller Assistant:MSLSHOW:1
+PLUGIN:Virtual Controller Assistant:MSLXPOS:0
+PLUGIN:Virtual Controller Assistant:MSLYPOS:264
+PLUGIN:Virtual Controller Assistant:TRAILCOLOUR:1344255
+PLUGIN:Virtual Controller Assistant:TRAILSHOW:1
+PLUGIN:Virtual Controller Assistant:TRAILTYPE:2

@@ -1,0 +1,179 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:Jersey Pack\Sector\SMR.sct
+SECTORTITLE:SMR.sct
+Free Text:EGJA Holding Points\A1:freetext
+Free Text:EGJA Holding Points\B:freetext
+Geo:EGJJ Jersey:
+Geo:GEO:
+Regions:09_0:polygon
+Regions:09_0_1:polygon
+Regions:09_9:polygon
+Regions:09_9_1:polygon
+Regions:13491405:polygon
+Regions:13491405:polygon
+Regions:13491405:polygon
+Regions:27arrow:polygon
+Regions:4613190:polygon
+Regions:A1:polygon
+Regions:A1:polygon
+Regions:A1:polygon
+Regions:A2:polygon
+Regions:A2:polygon
+Regions:A3:polygon
+Regions:A3:polygon
+Regions:A4:polygon
+Regions:A4:polygon
+Regions:A5:polygon
+Regions:Aero_Club:polygon
+Regions:Aeroclub:polygon
+Regions:Aeroclub:polygon
+Regions:AeroClub:polygon
+Regions:AeroClub1:polygon
+Regions:ATC:polygon
+Regions:Aviation_Beauport_Hangar:polygon
+Regions:B:polygon
+Regions:B1:polygon
+Regions:B2:polygon
+Regions:B2:polygon
+Regions:B3:polygon
+Regions:BackBuilding1:polygon
+Regions:BackBuilding2:polygon
+Regions:BackBuilding3:polygon
+Regions:BackBuilding4:polygon
+Regions:BackBuilding6:polygon
+Regions:BackBuilding7:polygon
+Regions:BackBuilding8:polygon
+Regions:C:polygon
+Regions:Cargo:polygon
+Regions:CarPark1:polygon
+Regions:CarPark2:polygon
+Regions:ControlTower:polygon
+Regions:D:polygon
+Regions:D-A:polygon
+Regions:D1:polygon
+Regions:D2:polygon
+Regions:D3:polygon
+Regions:E:polygon
+Regions:F:polygon
+Regions:F:polygon
+Regions:F-E:polygon
+Regions:Fire_Station:polygon
+Regions:FireStation:polygon
+Regions:FireStation:polygon
+Regions:FireStation:polygon
+Regions:FireStation1:polygon
+Regions:FireStationC:polygon
+Regions:Freight_Sheds:polygon
+Regions:Freight_Sheds_A:polygon
+Regions:FuelFarm1:polygon
+Regions:FuelFarm2:polygon
+Regions:G:polygon
+Regions:Grass03-21_Apron:polygon
+Regions:Grass14-32:polygon
+Regions:H:polygon
+Regions:Hangar:polygon
+Regions:Hangar1:polygon
+Regions:Hangar2:polygon
+Regions:HangarE1:polygon
+Regions:HangarE2:polygon
+Regions:HangarE3:polygon
+Regions:HangarE4:polygon
+Regions:Hanger:polygon
+Regions:Hanger:polygon
+Regions:J1:polygon
+Regions:J2:polygon
+Regions:J3:polygon
+Regions:JAL_Hangar:polygon
+Regions:JAL_Hangar:polygon
+Regions:Jersey:polygon
+Regions:LeftOfHanger:polygon
+Regions:M:polygon
+Regions:Main:polygon
+Regions:Main:polygon
+Regions:MainA:polygon
+Regions:MainB:polygon
+Regions:Terminal:polygon
+Regions:Terminal:polygon
+Regions:Terminal:polygon
+Regions:TerminalA:polygon
+Regions:TerminalB:polygon
+Regions:TerminalC:polygon
+Regions:Untitled_Polygon_1:polygon
+Regions:Untitled_Polygon_10:polygon
+Regions:Untitled_Polygon_11:polygon
+Regions:Untitled_Polygon_12:polygon
+Regions:Untitled_Polygon_13:polygon
+Regions:Untitled_Polygon_14:polygon
+Regions:Untitled_Polygon_15:polygon
+Regions:Untitled_Polygon_16:polygon
+Regions:Untitled_Polygon_17:polygon
+Regions:Untitled_Polygon_18:polygon
+Regions:Untitled_Polygon_19:polygon
+Regions:Untitled_Polygon_2:polygon
+Regions:Untitled_Polygon_20:polygon
+Regions:Untitled_Polygon_21:polygon
+Regions:Untitled_Polygon_22:polygon
+Regions:Untitled_Polygon_23:polygon
+Regions:Untitled_Polygon_24:polygon
+Regions:Untitled_Polygon_25:polygon
+Regions:Untitled_Polygon_26:polygon
+Regions:Untitled_Polygon_27:polygon
+Regions:Untitled_Polygon_3:polygon
+Regions:Untitled_Polygon_4:polygon
+Regions:Untitled_Polygon_5:polygon
+Regions:Untitled_Polygon_6:polygon
+Regions:Untitled_Polygon_7:polygon
+Regions:Untitled_Polygon_8:polygon
+Regions:Untitled_Polygon_9:polygon
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:900
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:3
+SIMULATION_MODE:4
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:49.697418:-2.233395:49.717265:-2.195264
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:Virtual Controller Assistant:ANTIALIAS:1
+PLUGIN:Virtual Controller Assistant:CDSHOW:1
+PLUGIN:Virtual Controller Assistant:CDXPOS:3
+PLUGIN:Virtual Controller Assistant:CDYPOS:303
+PLUGIN:Virtual Controller Assistant:DEGRADINGTRAIL:0
+PLUGIN:Virtual Controller Assistant:FADETRAIL:0
+PLUGIN:Virtual Controller Assistant:MAXTRAIL:6
+PLUGIN:Virtual Controller Assistant:MSLSHOW:1
+PLUGIN:Virtual Controller Assistant:MSLXPOS:0
+PLUGIN:Virtual Controller Assistant:MSLYPOS:339
+PLUGIN:Virtual Controller Assistant:TRAILCOLOUR:1344255
+PLUGIN:Virtual Controller Assistant:TRAILSHOW:1
+PLUGIN:Virtual Controller Assistant:TRAILTYPE:2
