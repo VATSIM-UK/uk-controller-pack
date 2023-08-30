@@ -81,11 +81,11 @@ AG:EGGD_TWR:133.850:old.voice.notused:eggd_twr
 AG:EGGD_GND:121.925:old.voice.notused:eggd_gnd
 AG:EGGD_DEL:121.925:old.voice.notused:eggd_del
 AG:EGGD_ATIS:126.025:old.voice.notused:eggd_atis
-AG:EGGP_APP:119.850:old.voice.notused:eggp_app
-AG:EGGP_F_APP:118.450:old.voice.notused:eggp_f_app
-AG:EGGP_TWR:126.350:old.voice.notused:eggp_twr
-AG:EGGP_GND:121.950:old.voice.notused:eggp_gnd
-AG:EGGP_ATIS:124.325:old.voice.notused:eggp_atis
+AG:EGGP_APP:119.855:old.voice.notused:eggp_app
+AG:EGGP_F_APP:118.455:old.voice.notused:eggp_f_app
+AG:EGGP_TWR:126.355:old.voice.notused:eggp_twr
+AG:EGGP_GND:121.955:old.voice.notused:eggp_gnd
+AG:EGGP_ATIS:124.330:old.voice.notused:eggp_atis
 AG:EGGW_APP:129.550:old.voice.notused:eggw_app
 AG:EGGW_TWR:132.550:old.voice.notused:eggw_twr
 AG:EGGW_GND:121.750:old.voice.notused:eggw_gnd
