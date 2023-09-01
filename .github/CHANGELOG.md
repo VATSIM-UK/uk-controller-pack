@@ -1,6 +1,9 @@
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
-X. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
+2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
+3. Enhancement - 8.33kHz information alias command (.833) added - thanks to @luke11brown (Luke Brown)
+4. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - LAC West & LAC Clacton frequencies amended - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
