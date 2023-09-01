@@ -74,6 +74,8 @@ Handoffs
 .cl ALL STATIONS, ALL STATIONS, $callsign is now closing. Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 .cluni ALL STATIONS, ALL STATIONS, $callsign is now closing. No other ATC available, Monitor Unicom, 122.800
 
+.833 You have been transferred to an 8.33 kHz frequency. If your aircraft’s radio does not allow you to tune the exact frequency, you can use the .com1 command in your pilot client to manually tune it. Visit vats.im/833 for more details 
+
 ========================================================
 Departure
 ========================================================
