@@ -178,9 +178,9 @@ ATIS4:Procedural approach unit | Radar unavailable
 PROFILE:EGTT_I_CTR:300:6
 ATIS2:"London Information"
 ATIS3:UK Flight Information Services (FIS) outside controlled airspace within the London (EGTT) FIR
-ATIS4:UKFIS information can be found here: vats.im/ukfis
+ATIS4:UKFIS information can be found here - vats.im/ukfis
 PROFILE:EGPX_I_CTR:300:6
 ATIS2:"Scottish Information"
 ATIS3:UK Flight Information Services (FIS) outside controlled airspace within the Scottish (EGPX) FIR
-ATIS4:UKFIS information can be found here: vats.im/ukfis
+ATIS4:UKFIS information can be found here - vats.im/ukfis
 END
