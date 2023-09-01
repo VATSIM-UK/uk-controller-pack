@@ -51,10 +51,10 @@ AG:EGPF_F_APP:128.750:old.voice.notused:egpf_f_app
 AG:EGPF_ATIS:129.575:old.voice.notused:egpf_atis
 AG:EGPG_TWR:120.600:old.voice.notused:egpg_twr
 AG:EGPH_DEL:121.975:old.voice.notused:egph_del
-AG:EGPH_GND:121.750:old.voice.notused:egph_gnd
-AG:EGPH_TWR:118.700:old.voice.notused:egph_twr
-AG:EGPH_APP:121.200:old.voice.notused:egph_app
-AG:EGPH_F_APP:128.975:old.voice.notused:egph_f_app
+AG:EGPH_GND:121.755:old.voice.notused:egph_gnd
+AG:EGPH_TWR:118.705:old.voice.notused:egph_twr
+AG:EGPH_APP:121.205:old.voice.notused:egph_app
+AG:EGPH_F_APP:128.980:old.voice.notused:egph_f_app
 AG:EGPH_ATIS:131.350:old.voice.notused:egph_atis
 AG:EGPK_TWR:118.150:old.voice.notused:egpk_twr
 AG:EGPK_APP:129.450:old.voice.notused:egpk_app
