@@ -1,45 +1,45 @@
 VOICE
-AG:Area - Worthing:129.425:old.voice.notused:lon_s_ctr
-AG:Area - Dover:134.900:old.voice.notused:lon_d_ctr
-AG:Area - Central:127.100:old.voice.notused:lon_c_ctr
-AG:Area - Daventry:120.025:old.voice.notused:lon_m_ctr
-AG:Area - Clacton:118.475:old.voice.notused:lon_e_ctr
-AG:Area - North:133.700:old.voice.notused:lon_n_ctr
-AG:Area - North Sea:128.125:old.voice.notused:lon_ne_ctr
-AG:Area - Lakes:135.575:old.voice.notused:lon_nw_ctr
-AG:Area - West:126.075:old.voice.notused:lon_w_ctr
-AG:Area - South Central:132.600:old.voice.notused:lon_sc_ctr
-AG:Area - Bandbox:127.825:old.voice.notused:lon_ctr
-AG:Area - TC East:121.225:old.voice.notused:ltc_e_ctr
-AG:Area - TC South:134.125:old.voice.notused:ltc_s_ctr
-AG:Area - TC SE:120.525:old.voice.notused:ltc_se_ctr
-AG:Area - TC SW:133.175:old.voice.notused:ltc_sw_ctr
-AG:Area - TC North:119.775:old.voice.notused:ltc_n_ctr
-AG:Area - TC NE:118.825:old.voice.notused:ltc_ne_ctr
-AG:Area - TC NW:121.275:old.voice.notused:ltc_nw_ctr
-AG:Area - TC Bandbox:135.800:old.voice.notused:ltc_ctr
-AG:X Area - North (Sector 4):132.875:old.voice.notused:lon_nu_ctr
-AG:X Area - Daventry (West):134.400:old.voice.notused:lon_mw_ctr
-AG:X Area - Daventry (East):127.875:old.voice.notused:lon_me_ctr
-AG:X Area - Daventry (Low):133.975:old.voice.notused:lon_ml_ctr
-AG:X Area - Clacton (Sector 12):133.925:old.voice.notused:lon_en_ctr
-AG:X Area - Clacton (Sector 13):128.150:old.voice.notused:lon_es_ctr
-AG:X Area - West (Pembroke):133.225:old.voice.notused:lon_wp_ctr
-AG:X Area - West (Brecon):133.600:old.voice.notused:lon_wb_ctr
-AG:X Area - West (Bristol):134.750:old.voice.notused:lon_wr_ctr
-AG:X Area - West (Strumble):129.375:old.voice.notused:lon_wt_ctr
-AG:X Area - West (Exmoor):128.825:old.voice.notused:lon_wx_ctr
-AG:X Area - West (Land's End):132.950:old.voice.notused:lon_wl_ctr
-AG:X Area - West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
-AG:X Area - TC Midlands:121.025:old.voice.notused:ltc_c_ctr
-AG:X Area - TC COWLY:133.075:old.voice.notused:ltc_co_ctr
-AG:X Area - TC WELIN:130.925:old.voice.notused:ltc_cw_ctr
-AG:X Area - TC REDFA:133.525:old.voice.notused:ltc_er_ctr
-AG:X Area - TC SABER:129.600:old.voice.notused:ltc_es_ctr
-AG:X Area - TC JACKO:135.425:old.voice.notused:ltc_ej_ctr
-AG:X Area - TC DAGGA:124.925:old.voice.notused:ltc_ed_ctr
-AG:X Area - TC LOREL:129.275:old.voice.notused:ltc_nl_ctr
-AG:X Area - TC LAM:123.900:old.voice.notused:ltc_n2_ctr
+AG:Area - LAC Worthing:129.425:old.voice.notused:lon_s_ctr
+AG:Area - LAC Dover:134.900:old.voice.notused:lon_d_ctr
+AG:Area - LAC Central:127.100:old.voice.notused:lon_c_ctr
+AG:Area - LAC Daventry:120.025:old.voice.notused:lon_m_ctr
+AG:Area - LAC Clacton:118.480:old.voice.notused:lon_e_ctr
+AG:Area - LAC North:133.700:old.voice.notused:lon_n_ctr
+AG:Area - LAC North Sea:128.125:old.voice.notused:lon_ne_ctr
+AG:Area - LAC Lakes:135.575:old.voice.notused:lon_nw_ctr
+AG:Area - LAC West:126.080:old.voice.notused:lon_w_ctr
+AG:Area - LAC South Central:132.600:old.voice.notused:lon_sc_ctr
+AG:Area - LAC Bandbox:127.825:old.voice.notused:lon_ctr
+AG:Area - LTC East:121.225:old.voice.notused:ltc_e_ctr
+AG:Area - LTC South:134.125:old.voice.notused:ltc_s_ctr
+AG:Area - LTC SE:120.525:old.voice.notused:ltc_se_ctr
+AG:Area - LTC SW:133.175:old.voice.notused:ltc_sw_ctr
+AG:Area - LTC North:119.775:old.voice.notused:ltc_n_ctr
+AG:Area - LTC NE:118.825:old.voice.notused:ltc_ne_ctr
+AG:Area - LTC NW:121.275:old.voice.notused:ltc_nw_ctr
+AG:Area - LTC Bandbox:135.800:old.voice.notused:ltc_ctr
+AG:X Area - LAC North (Sector 4):132.875:old.voice.notused:lon_nu_ctr
+AG:X Area - LAC Daventry (West):134.400:old.voice.notused:lon_mw_ctr
+AG:X Area - LAC Daventry (East):127.875:old.voice.notused:lon_me_ctr
+AG:X Area - LAC Daventry (Low):133.975:old.voice.notused:lon_ml_ctr
+AG:X Area - LAC Clacton (Sector 12):133.925:old.voice.notused:lon_en_ctr
+AG:X Area - LAC Clacton (Sector 13):128.150:old.voice.notused:lon_es_ctr
+AG:X Area - LAC West (Pembroke):133.225:old.voice.notused:lon_wp_ctr
+AG:X Area - LAC West (Brecon):133.600:old.voice.notused:lon_wb_ctr
+AG:X Area - LAC West (Bristol):134.750:old.voice.notused:lon_wr_ctr
+AG:X Area - LAC West (Strumble):129.375:old.voice.notused:lon_wt_ctr
+AG:X Area - LAC West (Exmoor):128.825:old.voice.notused:lon_wx_ctr
+AG:X Area - LAC West (Land's End):132.950:old.voice.notused:lon_wl_ctr
+AG:X Area - LAC West (Berry Head):127.700:old.voice.notused:lon_wh_ctr
+AG:X Area - LTC Midlands:121.025:old.voice.notused:ltc_c_ctr
+AG:X Area - LTC COWLY:133.075:old.voice.notused:ltc_co_ctr
+AG:X Area - LTC WELIN:130.925:old.voice.notused:ltc_cw_ctr
+AG:X Area - LTC REDFA:133.525:old.voice.notused:ltc_er_ctr
+AG:X Area - LTC SABER:129.600:old.voice.notused:ltc_es_ctr
+AG:X Area - LTC JACKO:135.425:old.voice.notused:ltc_ej_ctr
+AG:X Area - LTC DAGGA:124.925:old.voice.notused:ltc_ed_ctr
+AG:X Area - LTC LOREL:129.275:old.voice.notused:ltc_nl_ctr
+AG:X Area - LTC LAM:123.900:old.voice.notused:ltc_n2_ctr
 AG:Area - PC Bandbox:133.200:old.voice.notused:man_ctr
 AG:Area - PC E:133.800:old.voice.notused:man_e_ctr
 AG:Area - PC NE:135.700:old.voice.notused:man_e_ctr
