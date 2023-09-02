@@ -219,7 +219,7 @@ Hold and FIS
 .holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 minute legs, speed $5 knots
 
 .hbnn Hold at BNN. Delay is $1 minutes. The BNN hold is 116 inbound, right hand turns, 1 minute legs, speed 220kts
-.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 263 inbound, left hand turns, 1 minute legs, speed 220kts
+.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 262 inbound, left hand turns, 1 minute legs, speed 220kts
 .hock Hold at OCK. Delay is $1 minutes. The OCK hold is 328 inbound, right hand turns, 1 minute legs, speed 220kts
 .hbig Hold at BIG. Delay is $1 minutes. The BIG hold is 302 inbound, right hand turns, 1 minute legs, speed 220kts
 
