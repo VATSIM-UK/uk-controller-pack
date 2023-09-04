@@ -258,6 +258,8 @@ Flight Information Service
 .cteca Cleared to enter controlled airspace, $1
 .ctlcabd Cleared to leave controlled airspace by descent
 
+.ukfis If you would like more information about UK Flight Infomation Service, you can find out more here; https://vats.im/UKFIS
+
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.
 .decon You have left controlled airspace. You are now receiving a deconfliction service which provides detailed traffic information on specific conflicting aircraft AND advice on how to avoid that aircraft. You remain responsible for collision avoidance; you can opt not to follow the advice.
