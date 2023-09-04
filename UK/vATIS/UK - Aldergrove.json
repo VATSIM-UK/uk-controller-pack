@@ -63,6 +63,18 @@
           "ordinal": 2,
           "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
           "enabled": true
+        },
+        {
+          "description": "",
+          "ordinal": 3,
+          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE TOWER ON 118.300",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 4,
+          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE GROUND ON 121.750",
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -386,6 +398,24 @@
           "ordinal": 2,
           "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
           "enabled": true
+        },
+        {
+          "description": "",
+          "ordinal": 3,
+          "text": "DEPARTING AIRCRAFT CONTACT BELFAST APPROACH ON 134.800",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 4,
+          "text": "DEPARTING AIRCRAFT CONTACT BELFAST RADAR ON 130.850",
+          "enabled": false
+        },
+        {
+          "description": "",
+          "ordinal": 5,
+          "text": "DEPARTING AIRCRAFT CONTACT BELFAST TOWER ON 122.825",
+          "enabled": false
         }
       ],
       "notamDefinitions": [
