@@ -1,9 +1,7 @@
 {
   "name": "UK - Generic",
-  "id": "d4edcb6c-faf3-4fda-8e77-dea5399d945c",
   "composites": [
     {
-      "id": "ef35d98b-b307-4273-bba1-d08d14645bdb",
       "name": "Generic",
       "identifier": "EGAA",
       "atisType": "Combined",
@@ -23,7 +21,6 @@
       "notamsBeforeFreeText": false,
       "presets": [
         {
-          "id": "989780fb-5dc5-4985-9a46-5560e53b0b6a",
           "name": "RUNWAY 27",
           "airportConditions": "ILS APPROACH TO BE EXPECTED.",
           "template": "GENERIC INFORMATION [ID]. [TIME]. RUNWAY IN USE 27. [ARPT_COND] [NOTAMS] [TL]. [WX]",

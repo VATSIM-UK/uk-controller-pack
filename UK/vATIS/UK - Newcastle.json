@@ -1,15 +1,17 @@
 {
-  "name": "UK - Aldergrove",
+  "name": "UK - Newcastle",
+  "id": "2d8f256e-4532-4c93-b857-b8e2f7066d10",
   "composites": [
     {
-      "name": "Aldergrove",
-      "identifier": "EGAA",
+      "id": "f0c65bd3-1a85-4969-b9e3-dd0e559286c4",
+      "name": "Newcastle",
+      "identifier": "EGNT",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
         "high": "Z"
       },
-      "frequency": 126125000,
+      "frequency": 118375000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female"
@@ -21,17 +23,19 @@
       "notamsBeforeFreeText": false,
       "presets": [
         {
+          "id": "04f8a037-46ea-4690-b580-ab31299fd9e0",
           "name": "RUNWAY 25",
           "airportConditions": "ILS APPROACH TO BE EXPECTED.",
-          "template": "ALDERGROVE INFORMATION [ID]. [TIME]. RUNWAY IN USE 25. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "template": "NEWCASTLE INFORMATION [ID]. [TIME]. RUNWAY IN USE 25. [ARPT_COND] [NOTAMS] [TL]. [WX]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
+          "id": "b504c79d-eeb3-494e-bff8-fd0989260233",
           "name": "RUNWAY 07",
-          "airportConditions": "RNP APPROACH TO BE EXPECTED.",
-          "template": "ALDERGROVE INFORMATION [ID]. [TIME]. RUNWAY IN USE 07. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "airportConditions": "ILS APPROACH TO BE EXPECTED.",
+          "template": "NEWCASTLE INFORMATION [ID]. [TIME]. RUNWAY IN USE 07. [ARPT_COND] [NOTAMS] [TL]. [WX]",
           "externalGenerator": {
             "enabled": false
           }
@@ -57,19 +61,19 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
+          "text": "DEPARTING AIRCRAFT CONTACT NEWCASTLE RADAR ON 124.375",
           "enabled": true
         },
         {
           "description": "",
           "ordinal": 3,
-          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE TOWER ON 118.300",
+          "text": "DEPARTING AIRCRAFT CONTACT NEWCASTLE TOWER ON 119.700",
           "enabled": false
         },
         {
           "description": "",
           "ordinal": 4,
-          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE GROUND ON 121.750",
+          "text": "DEPARTING AIRCRAFT CONTACT NEWCASTLE GROUND ON 121.725",
           "enabled": false
         }
       ],
@@ -78,13 +82,13 @@
           "description": "",
           "ordinal": 1,
           "text": "DATALINK CLEARANCES AVAILABLE.",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
           "ordinal": 2,
           "text": "DATALINK CLEARANCES NOT AVAILABLE.",
-          "enabled": true
+          "enabled": false
         }
       ],
       "atisFormat": {
@@ -334,14 +338,15 @@
       }
     },
     {
-      "name": "Belfast",
-      "identifier": "EGAC",
+      "id": "e057bb2a-6d40-464f-8b1a-91bf2d05e816",
+      "name": "Teeside",
+      "identifier": "EGNV",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
         "high": "Z"
       },
-      "frequency": 124575000,
+      "frequency": 132375000,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female"
@@ -353,17 +358,19 @@
       "notamsBeforeFreeText": false,
       "presets": [
         {
-          "name": "RUNWAY 22",
+          "id": "0b49cb3c-22f8-4b66-b710-8e5949514bf4",
+          "name": "RUNWAY 23",
           "airportConditions": "ILS APPROACH TO BE EXPECTED.",
-          "template": "BELFAST INFORMATION [ID]. [TIME]. RUNWAY IN USE 22. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "template": "TEESIDE INFORMATION [ID]. [TIME]. RUNWAY IN USE 23. [ARPT_COND] [NOTAMS] [TL]. [WX]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "name": "RUNWAY 04",
+          "id": "c2ce9eca-e779-47c0-9708-d18fe07b6303",
+          "name": "RUNWAY 05",
           "airportConditions": "ILS APPROACH TO BE EXPECTED.",
-          "template": "BELFAST INFORMATION [ID]. [TIME]. RUNWAY IN USE 04. [ARPT_COND] [NOTAMS] [TL]. [WX]",
+          "template": "TEESIDE INFORMATION [ID]. [TIME]. RUNWAY IN USE 05. [ARPT_COND] [NOTAMS] [TL]. [WX]",
           "externalGenerator": {
             "enabled": false
           }
@@ -389,25 +396,19 @@
         {
           "description": "",
           "ordinal": 2,
-          "text": "DEPARTING AIRCRAFT CONTACT ALDERGROVE RADAR ON 133.125",
+          "text": "DEPARTING AIRCRAFT CONTACT NEWCASTLE RADAR ON 124.375",
           "enabled": true
         },
         {
           "description": "",
           "ordinal": 3,
-          "text": "DEPARTING AIRCRAFT CONTACT BELFAST APPROACH ON 134.800",
+          "text": "DEPARTING AIRCRAFT CONTACT TEESIDE TOWER ON 119.800",
           "enabled": false
         },
         {
           "description": "",
           "ordinal": 4,
-          "text": "DEPARTING AIRCRAFT CONTACT BELFAST RADAR ON 130.850",
-          "enabled": false
-        },
-        {
-          "description": "",
-          "ordinal": 5,
-          "text": "DEPARTING AIRCRAFT CONTACT BELFAST TOWER ON 122.825",
+          "text": "DEPARTING AIRCRAFT CONTACT TEESIDE RADAR ON 118.850",
           "enabled": false
         }
       ],
@@ -416,13 +417,13 @@
           "description": "",
           "ordinal": 1,
           "text": "DATALINK CLEARANCES AVAILABLE.",
-          "enabled": false
+          "enabled": true
         },
         {
           "description": "",
           "ordinal": 2,
           "text": "DATALINK CLEARANCES NOT AVAILABLE.",
-          "enabled": true
+          "enabled": false
         }
       ],
       "atisFormat": {
