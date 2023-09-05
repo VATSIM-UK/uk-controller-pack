@@ -1,4 +1,4 @@
-x. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
+
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
@@ -9,6 +9,7 @@ x. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks t
 6. AIRAC (2039) - EG D713 (FJA South) & EG D901 (FJA North) added - thanks to @luke11brown (Luke Brown)
 7. Procedure Change (2309) - 8.33 Trial (AD Phase 1) - EGLL, EGPH, EGSS, EGGP frequencies amended - thanks to @luke11brown (Luke Brown)
 8. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
+9. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
