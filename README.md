@@ -21,3 +21,5 @@ TopSky Plugin - thanks to Juha Holopainen (https://vatsim-scandinavia.org/forums
 AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
 
 Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
+
+Park Air Plugin - thanks to George Complin

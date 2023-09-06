@@ -1,4 +1,4 @@
-x. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
@@ -12,6 +12,8 @@ x. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
 9. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
 10. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
 11. Bug - Fix Luton ATM to show aircraft - thanks to @SamLefevre (Samuel Lefevre)
+12. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
