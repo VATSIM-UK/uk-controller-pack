@@ -1,42 +1,42 @@
 PROFILE
-PROFILE:EGJA_TWR:50:5
+PROFILE:EGJA_TWR:50:4
 ATIS2:Alderney Tower
-ATIS3:
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
-PROFILE:EGJB_GND:20:5
+PROFILE:EGJB_GND:20:3
 ATIS2:Guernsey Ground
-ATIS3:ATIS available on 109.400
-ATIS4:
-PROFILE:EGJB_TWR:50:5
+ATIS3:ATIS available on 118.900
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJB_TWR:50:4
 ATIS2:Guernsey Tower
-ATIS3:ATIS available on 109.400
-ATIS4:
-PROFILE:EGJJ_GND:20:5
+ATIS3:ATIS available on 118.900
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_GND:20:3
 ATIS2:Jersey Ground
-ATIS3:ATIS available on 134.670
-ATIS4:
+ATIS3:ATIS available on 134.675
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGJJ_TWR:50:4
 ATIS2:Jersey Tower
-ATIS3:ATIS available on 134.670
-ATIS4:
+ATIS3:ATIS available on 134.675
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGJJ_C_APP:100:5
 ATIS2:Jersey Control
-ATIS3:ATIS available on 134.670
-ATIS4:Covering the Channel Islands upto FL195
-PROFILE:EGJJ_APP:150:4
-ATIS2:Jersey Approach
-ATIS3:ATIS available on 134.670
-ATIS4:
-PROFILE:EGJJ_S_APP:150:4
+ATIS3:Covering the Channel Islands up to FL195
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_S_APP:100:5
 ATIS2:Jersey Control
-ATIS3:ATIS available on 134.670
-ATIS4:Covering the Channel Islands upto FL195
-PROFILE:EGJJ_APP:50:4
+ATIS3:Covering the Channel Islands up to FL195
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_APP:100:5
 ATIS2:Jersey Approach
-ATIS3:ATIS available on 134.670
-ATIS4:
-PROFILE:EGJJ_R_APP:50:4
+ATIS3:ATIS available on 134.675
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJB_APP:75:5
+ATIS2:Guernsey Approach
+ATIS3:ATIS available on 118.900
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_F_APP:100:5
 ATIS2:Jersey Radar
-ATIS3:ATIS available on 134.670
-ATIS4:
+ATIS3:ATIS available on 134.675
+ATIS4:Submit feedback at vats.im/atcfb
 END
