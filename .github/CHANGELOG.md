@@ -1,6 +1,19 @@
+
+
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
-X. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
+2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
+3. Enhancement - 8.33kHz information alias command (.833) added - thanks to @luke11brown (Luke Brown)
+4. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - LAC West & LAC Clacton frequencies amended - thanks to @luke11brown (Luke Brown)
+5. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - vATIS profiles updated for LAC West & LAC Clacton frequencies - thanks to @hazzas-99
+6. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
+7. AIRAC (2039) - EG D713 (FJA South) & EG D901 (FJA North) added - thanks to @luke11brown (Luke Brown)
+8. Procedure Change (2309) - 8.33 Trial (AD Phase 1) - EGLL, EGPH, EGSS, EGGP frequencies amended - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
+10. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fix Luton ATM to show aircraft - thanks to @SamLefevre (Samuel Lefevre)
+12. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)

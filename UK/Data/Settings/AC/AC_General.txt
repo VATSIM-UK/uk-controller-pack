@@ -29,7 +29,7 @@ m_STCA_HighBottom:17500
 m_ExtendedCenterlinActiveArr:0
 m_UseHoveringTagForKeys:1
 m_AutoMessageForTextAircraft:1
-m_ShowRouteWhenAccepting:1
+m_ShowRouteWhenAccepting:0
 m_AllowAssumedACTagDown:0
 m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
