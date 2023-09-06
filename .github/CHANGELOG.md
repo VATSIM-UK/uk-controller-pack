@@ -1,9 +1,93 @@
-# Changes from release 2022/09 to 2022/10
-X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam Lefevre)
+# Changes from release 2023/08 to 2023/09
+1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
+2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
+3. Enhancement - 8.33kHz information alias command (.833) added - thanks to @luke11brown (Luke Brown)
+4. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - LAC West & LAC Clacton frequencies amended - thanks to @luke11brown (Luke Brown)
+5. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - vATIS profiles updated for LAC West & LAC Clacton frequencies - thanks to @hazzas-99
+6. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
+7. AIRAC (2039) - EG D713 (FJA South) & EG D901 (FJA North) added - thanks to @luke11brown (Luke Brown)
+8. Procedure Change (2309) - 8.33 Trial (AD Phase 1) - EGLL, EGPH, EGSS, EGGP frequencies amended - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
+10. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fix Luton ATM to show aircraft - thanks to @SamLefevre (Samuel Lefevre)
+12. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
+14. Enhancement - Logon details entry program added - thanks to @SamLefevre (Sam Lefevre)
+
+# Changes from release 2023/05 to 2023/08
+1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Bug - NOVA Tags Fix - thanks to @SamLefevre (Samuel Lefevre)
+3. Procedure Change (2306) - Updated BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
+4. Procedure Change - Removed activation schedule for vRAF Ex Cobra Warrior Exercise - thaks to @hazzas-99
+5. Enhancement - Update Approach Radar profiles - thanks to @SamLefevre (Samuel Lefevre)
+6. Bug - Fix Liverpool Profile loading error - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Update Edinburgh profile centerline - thanks to @SamLefevre (Samuel Lefevre)
+8. Enhancement - Added Stansted (EGSS) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+9. Enhancement - Added Military profiles - thanks to @robbo599 (Lee Roberts)
+10. AIRAC (2307) - Added EG D148 to relevant ASRs - thanks to @kye-taylor (Kye Taylor)
+11. Enhancement - Added TC Midlands profile - thanks to @SamLefevre (Samuel Lefevre)
+12. Bug - Fix Redhill (EGKR) ATIS frequency - thanks to @kye-taylor (Kye Taylor)
+13. Enhancement - Replace default squawk menu with UK Plugin squawk menu - thanks to @chssn (Chris Parkinson)
+14. Enhancement - Added Luton (EGGW) ATM profile - thanks to @SamLefevre (Samuel Lefevre)
+15. Bug - Fixed corrupt lines in TopSky MSAW file - thanks to @hazzas-99
+16. Enhancement - Added PDC alias definition with selectable ATIS option - thanks to @SamLefevre (Samuel Lefevre)
+17. AIRAC (2307) - Updated TopSky Prestwick (EGPK) SMAA - thanks to @hazzas-99
+18. Enhancement - Update lists and tags - thanks to @SamLefevre (Samuel Lefevre)
+19. Enhancement - Incorporated TopSky 2.5 beta 4 with associated settings updates - thanks to @hazzas-99
+20. Enhancement - Incorporated European airspace use plan API - thanks to @luke11brown (Luke Brown)
+21. Enhancement - vATIS config files updated for compatibility with vATIS 3.4 - thanks to Fraser Cooper
+
+# Changes from release 2023/03 to 2023/05
+1. Bug - vATIS profiles fixed to work with latest beta - thanks to @KHardern (Kieran Hardern)
+2. Enhancement - Added EGTK RWY 19 extended centreline map (TopSky only) - thanks to @hazzas-99
+3. Enhancement - Updated Reykjavik/Iceland CPDLC logon codes (TopSky only) - thanks to @hazzas-99
+4. Procedure Change (Temp) - Added Temporary Danger Area D597 to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
+5. Procedure Change (NOTAM) - Added activation schedule and amended airspace proximity warning values for Danger Areas to be used by vRAF in May/June 2023 (TopSky only) - thanks to @hazzas-99
+6. Enhancement - Added Southend Profile - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Update and add new TC/MPC/STC profiles - thanks to @SamLefevre (Samuel Lefevre)
+8. AIRAC (2304) - Updated EGPH/PF/AA/NM ASRs with revised VRP labels - thanks to @hazzas-99
+9. Enhancement - Amended Alias STAR commands and added .c (.center EG) command for moving ASRs - thanks to @hazzas-99
+10. Enhancement - Added Flight Information Display Profiles and screens for procedural, AFIS & A/G Units - Thanks to @SamLefevre (Samuel Lefevre)
+
+# Changes from release 2022/13 to 2023/03
+1. AIRAC (2303) - Area minimum altitudes revised (TopSky only) - thanks to @luke11brown (Luke Brown)
+2. AIRAC (2303) - Updated TopSky Maps due to West Airspace Deployment CAS changes - thanks to @luke11brown (Luke Brown)
+3. AIRAC (2303) - Updated Danger Areas due to West Airspace Deployment (TopSky only) - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2303) - Updated ASRs with all fixes and sector file links for AIRAC 2303 - thanks to @KHardern (Kieran Hardern)
+5. AIRAC (2303) - Updated ASRs with revised VRP labels - thanks to @hazzas-99
+6. Enhancement - Changed radar display leader line lengths to 1 minute - thanks to @PLM1995 (Peter Mooney)
+7. Enhancement - Adjusted STCA alarm values - thanks to @luke11brown (Luke Brown)
+8. Enhancement - Updated Heathrow (EGLL) ATM Symbology - thanks to @SamLefevre (Samuel Lefevre)
+9. Enhancement - Added vatglasses URL and CPDLC/PDC logon code placeholder to Area profiles - thanks to @hazzas-99
+10. Enhancement - Added additional event split TopSky CPDLC logon codes - thanks to @hazzas-99
+11. Enhancement - Added UK Controller Plugin prenote column to departure lists ('PRE') - thanks to @hazzas-99
+12. Enhancement - Added left click Open SRD Search to DEP & Sector Inbound/Exit lists - thanks to @hazzas-99
+13. Enhancement - Updated VCCS panels - thanks to @hazzas-99
+14. Bug - Fixed missing airspace (base) display on certain radar profiles - thanks to @hazzas-99
+15. Bug - Fixed Carlisle (EGNC) positions in Voice_Scottish - thanks to @hazzas-99
+16. Bug - Fixed login profile loading for Essex profiles - thanks to @hazzas-99
+17. Bug - Fixed RAMOX/DEXEN buffer zone display for Lakes (TopSky only) - thanks to @hazzas-99
+18. Procedure Change - Changed Halfpenny Green (EGBO) voice from Radio to Information - thanks to @PLM1995 (Peter Mooney)
+
+# Changes from release 2022/09 to 2022/13
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
-
+4. Enhancement - Added Cranfield (EGTC) Voice settings and corrected Kirkwall (EGPA) & Wick (EGPC) ATIS frequencies - thanks to @hazzas-99
+5. Bug - Corrected shape of BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
+6a. Enhancement - Added LUVUM Box map (TopSky only) - thanks to @hazzas-99
+6b. Enhancement - Removed automatic Doncaster (EGCN) extended centreline map (TopSky only) - thanks to @hazzas-99
+6c. Enhancement - Updated Manchester RMA maps (TopSky only) - thanks to @hazzas-99
+7. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Added Southend SMR .prf and .asr for Thames Combined .prf - thanks to @PLM1995 (Peter Mooney)
+9. Enhancement - Added ScTMA split profiles and voice settings - thanks to @hazzas-99
+10. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
+11a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
+11b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
+11c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
+11d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
+11e. Enhancement - Removed redundant AC-2 tag family
+12. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le fevre)
@@ -18,40 +102,40 @@ X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam 
 10. Bug - Inhibited UKCP history trails where not required thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2022/03 to 2022/05
-1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hsugden (Harry Sugden)
-2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hsugden (Harry Sugden)
-3. Procedure Change (2205) - Amended Midlands Buffer Zone (TopSky only) - thanks to @hsugden (Harry Sugden)
-4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hsugden (Harry Sugden)
+1. AIRAC (2110) - Updated EGNC ATS communication definitions in Voice.txt - thanks to @hazzas-99
+2. Bug - Fixed Map/Buffer display due to Dublin ACC controller identifier changes (TopSky only) - thanks to @hazzas-99
+3. Procedure Change (2205) - Amended Midlands Buffer Zone (TopSky only) - thanks to @hazzas-99
+4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hazzas-99
 5. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
 6. Enhancement - vSMR Defaults to pro mode & fonts changed - thanks to @luke11brown (Luke Brown)
 
 
 # Changes from release 2022/02 to 2022/03
-1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hsugden (Harry Sugden)
-2. Bug - Updated Heathrow Voice Settings (25 kHz spacing) - thanks to @hsugden (Harry Sugden)
-3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hsugden (Harry Sugden)
-4. Enhancement - Added EGGW_DEL to Voice.txt - thanks to @hsugden (Harry Sugden)
-5. Enhancement - Added Scottish FAVAs to profiles and as TopSky Maps - thanks to @hsugden (Harry Sugden)
-6. Enhancement - Updated ASRs (turned CTAs on, updated airspace base label display, general improvements) - thanks to @hsugden (Harry Sugden)
-7. Enhancement - Updated P18 closed OCAS region to improve alignment (TopSky only) - thanks to @hsugden (Harry Sugden)
-8. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 (TopSky only) - thanks to @hsugden (Harry Sugden)
-9. Enhancement - Refreshed generic SMR profile display settings - thanks to @hsugden (Harry Sugden)
-10. Enhancement - Added 5 NM Scale Markers for DTY, CLN, WOR and DVR (TopSky only) - thanks to @hsugden (Harry Sugden)
-11. AIRAC (2203) - Added Borders CTA 14 conditional airspace map (TopSky only) - thanks to @hsugden (Harry Sugden)
-12. Enhancement - Added togglable Oceanic Clearance list columns to Area Sector Exit List - thanks to @hsugden (Harry Sugden)
-13. Enhancement - General list improvements - thanks to @hsugden (Harry Sugden)
-14. Enhancement - Added Gatwick Planner (EGKK_P_GND) to Voice.txt - thanks to @hsugden (Harry Sugden)
-15. Enhancement - Updated AC Alias to include CTP specific commands - thanks to @hsugden (Harry Sugden)
+1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hazzas-99
+2. Bug - Updated Heathrow Voice Settings (25 kHz spacing) - thanks to @hazzas-99
+3. Enhancement - Removed Heathrow Old SMR ASR - thanks to @hazzas-99
+4. Enhancement - Added EGGW_DEL to Voice.txt - thanks to @hazzas-99
+5. Enhancement - Added Scottish FAVAs to profiles and as TopSky Maps - thanks to @hazzas-99
+6. Enhancement - Updated ASRs (turned CTAs on, updated airspace base label display, general improvements) - thanks to @hazzas-99
+7. Enhancement - Updated P18 closed OCAS region to improve alignment (TopSky only) - thanks to @hazzas-99
+8. AIRAC (2203) - Amended Portsmouth Danger Areas routine vertical limit to FL100 (TopSky only) - thanks to @hazzas-99
+9. Enhancement - Refreshed generic SMR profile display settings - thanks to @hazzas-99
+10. Enhancement - Added 5 NM Scale Markers for DTY, CLN, WOR and DVR (TopSky only) - thanks to @hazzas-99
+11. AIRAC (2203) - Added Borders CTA 14 conditional airspace map (TopSky only) - thanks to @hazzas-99
+12. Enhancement - Added togglable Oceanic Clearance list columns to Area Sector Exit List - thanks to @hazzas-99
+13. Enhancement - General list improvements - thanks to @hazzas-99
+14. Enhancement - Added Gatwick Planner (EGKK_P_GND) to Voice.txt - thanks to @hazzas-99
+15. Enhancement - Updated AC Alias to include CTP specific commands - thanks to @hazzas-99
 
 # Changes from release 2022/01 to 2022/02
 1. Procedure Change - Updated Voice.txt settings to reflect new 25 kHz spacing - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Adds settings for EuroScope beta r27 users to avoid auto assume on ground - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Included basic configuration for MAESTRO Arrival Manager plugin (needs to be manually added to profiles) - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Added East Midlands CTA 14 as TopSky Map (part time airspace) - thanks to @luke11brown (Luke Brown)
-5. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hsugden (Harry Sugden)
-6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hsugden (Harry Sugden)
-7. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hsugden (Harry Sugden)
-8. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hsugden (Harry Sugden)
+5. Procedure Change - Essex Radar -> Stansted Radar, and new Stansted profiles - thanks to @hazzas-99
+6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hazzas-99
+7. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hazzas-99
+8. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hazzas-99
 9. Enhancement - Added new conditional Scottish CTAs as TopSkyMaps - thanks to @luke11brown (Luke Brown) 
 
 # Changes from release 2021/09 to 2022/01
@@ -91,10 +175,10 @@ X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam 
 7. Enhancement - Improved Doncaster Extended Centrelines - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/03 to 2021/05
-1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hsugden (Harry Sugden)
-2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hsugden (Harry Sugden)
-3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hsugden (Harry Sugden)
-4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hsugden (Harry Sugden)
+1. AIRAC (2104) - Changed name of Worthing-Paris Release Line -> La Manche Release Area - thanks to @hazzas-99
+2. Bug - Corrected Gatwick Westerly RMA in TopSky Maps - thanks to @hazzas-99
+3. Bug - Corrected names of Thames (London City) positions in login profiles - thanks to @hazzas-99
+4. Bug - Corrected NS TWR frequency in Voice settings - thanks to @hazzas-99
 5. Enhancement - UKControllerPlugin.dll updated to version 3.0.0 - thanks to @AndyTWF (Andy Ford)
 6. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
 7. Enhancement - Realistic code/callsign conversion turned on by default - thanks to @luke11brown (Luke Brown)
@@ -103,10 +187,10 @@ X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam 
 10. Enhancement - Include ICAO datafiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/02 to 2021/03
-1. Enhancement - Removed EURI CPDLC logon code - thanks to @hsugden (Harry Sugden)
+1. Enhancement - Removed EURI CPDLC logon code - thanks to @hazzas-99
 2. Enhancement - Improved EGNR (Hawarden) extended centrelines - thanks to @luke11brown (Luke Brown)
 3. Bug - Bristol profiles navaid font sizes adjusted - thanks to @luke11brown (Luke Brown)
-4. Enhancement - Added Gatwick ATM profile and separated ATM settings - thanks to @hsugden (Harry Sugden)
+4. Enhancement - Added Gatwick ATM profile and separated ATM settings - thanks to @hazzas-99
 5. Enhancement - Added VATCAN bookings plugin - thanks to @luke11brown (Luke Brown)
 6. Enhancement - Directories referencing secotr file now fixed to enable auto-update to work - thanks to @luke11brown (Luke Brown)
 7. Enhancement - UKControllerPlugin updated to 2.11.0 - thanks to @luke11brown (Luke Brown)
@@ -118,21 +202,21 @@ X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam 
 2. Bug - Gatwick Profiles Chart Link Fixed - thanks to @luke11brown (Luke Brown)
 3. Bug - PC PENIL Frequency in Voice.txt corrected - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Bristol Profiles and Displays Added - thanks to @luke11brown (Luke Brown)
-5. Bug - Corrected various controller identifiers in VCCS settings - thanks to @hsugden (Harry Sugden)
+5. Bug - Corrected various controller identifiers in VCCS settings - thanks to @hazzas-99
 6. Enhancement - Added Gatwick vSMR Profile - thanks to @luke11brown (Luke Brown)
-7. Bug - Fixed directory to AfvEuroScopeBridge plugin in Area profiles - thanks to @hsugden (Harry Sugden)
-8. Enhancement - Removed references to defunct LWC bandbox - thanks to @hsugden (Harry Sugden)
+7. Bug - Fixed directory to AfvEuroScopeBridge plugin in Area profiles - thanks to @hazzas-99
+8. Enhancement - Removed references to defunct LWC bandbox - thanks to @hazzas-99
 9. Enhancement - UK Controller Plugin Updated to 2.9.2 - thanks to @AndyTWF (Andy Ford)
 10. Enhancement - Removed navaid failure fixes from all displays - thanks to @luke11brown (Luke Brown)
 11. Enhancement - Borders/Yorkshire/Northern CTAs added to releavmts displays - thanks to @luke11brown (Luke Brown)
-12. Bug - Various Scottish Voice Settings updates - thanks to @hsugden (Harry Sugden)
-13. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hsugden (Harry Sugden)
-14. Procedure Change - Added Jersey RFC Line - thanks to @hsugden (Harry Sugden)
-15. Enhancement - Added Reims Release Area - thanks to @hsugden (Harry Sugden)
-16. Procedure Change - Added DIKRO Box - thanks to @hsugden (Harry Sugden)
-17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hsugden (Harry Sugden)
+12. Bug - Various Scottish Voice Settings updates - thanks to @hazzas-99
+13. Enhancement - Added BAKUR RFC Area as a TopSky Map and to non-TopSky ASRs - thanks to @hazzas-99
+14. Procedure Change - Added Jersey RFC Line - thanks to @hazzas-99
+15. Enhancement - Added Reims Release Area - thanks to @hazzas-99
+16. Procedure Change - Added DIKRO Box - thanks to @hazzas-99
+17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hazzas-99
 18. NODE-L Profiles list symbology adjusted for improved readability - thanks to @luke11brown (Luke Brown)
-19. Enhancement - SODVU box defined as TopSky map - thanks to @hsugden (Harry Sugden) and @luke11brown (Luke Brown)
+19. Enhancement - SODVU box defined as TopSky map - thanks to @hazzas-99 and @luke11brown (Luke Brown)
 20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown) 
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)

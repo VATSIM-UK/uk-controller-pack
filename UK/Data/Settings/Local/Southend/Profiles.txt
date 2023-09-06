@@ -1,0 +1,14 @@
+PROFILE
+PROFILE:EGMC_TWR:50:4
+ATIS2:Southend Tower
+ATIS3:Charts at chartfox.org/egmc
+ATIS4:Feedback at vats.im/atcfb
+PROFILE:EGMC_APP:100:5
+ATIS2:Southend Director
+ATIS3:Charts at chartfox.org/egmc
+ATIS4:LARS available within 25nm if Southend Radar is closed
+PROFILE:EGMC_L_APP:100:5
+ATIS2:Southend Radar
+ATIS3:Charts at chartfox.org/egmc
+ATIS4:LARS available within 25nm
+END

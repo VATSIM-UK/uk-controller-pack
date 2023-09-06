@@ -1,14 +1,14 @@
 PROFILE
 PROFILE:LTC_S_CTR:150:6
-ATIS2:"London Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:London Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SE_CTR:150:6
-ATIS2:"London Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:London Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_SW_CTR:150:6
-ATIS2:"London Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:London Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END

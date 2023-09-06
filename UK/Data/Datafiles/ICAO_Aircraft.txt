@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2210/1  ++  Valid period: 06/OCT/2022 - 02/NOV/2022  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2308/1  ++  Valid period: 10/AUG/2023 - 06/SEP/2023  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -1433,6 +1433,7 @@ K35R	HL4J	BOEING	KC135R/T, C135FR, Stratotanker (CFM56 engines)
 K50	ML1J	KOREA AIROSPACE	T50 Golden Eagle
 K51	LL1P	KOVACS	K51 Peregrino
 K8	LL1J	HONGDU	K8 Karakorum
+K900	LL1T	QUEST	Kodiak 900
 KA25	MH2T	KAMOV	Ka25
 KA26	LH2P	KAMOV	Ka26
 KA27	MH2T	KAMOV	Ka27/28/29/31/32

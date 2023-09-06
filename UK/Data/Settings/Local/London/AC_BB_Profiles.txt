@@ -1,10 +1,10 @@
 PROFILE
 PROFILE:LON_CTR:300:6
-ATIS2:"London Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:London Control | CPDLC/PDC [EGTT]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_CTR:150:6
-ATIS2:"London Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:London Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END

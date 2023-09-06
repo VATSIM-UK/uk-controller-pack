@@ -250,7 +250,7 @@ ARTCC boundary:LFP81:
 ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Borders CTA:
@@ -277,10 +277,8 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
-ARTCC high boundary:Midlands CTA:
-ARTCC high boundary:NITON CTA:
 ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
+ARTCC high boundary:PEPZE CTA:
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -288,7 +286,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Wash CTA:
-ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -298,7 +295,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -421,7 +417,6 @@ Fixes:ARPUB:symbol
 Fixes:ARREK:symbol
 Fixes:ARSAT:symbol
 Fixes:ARTEX:symbol
-Fixes:ARTHA:symbol
 Fixes:ARTIX:symbol
 Fixes:ASKAM:symbol
 Fixes:ASLIB:symbol
@@ -445,7 +440,6 @@ Fixes:BADIM:symbol
 Fixes:BADSI:symbol
 Fixes:BAGIT:symbol
 Fixes:BAGSO:symbol
-Fixes:BAKER:symbol
 Fixes:BAKOX:symbol
 Fixes:BAKUR:symbol
 Fixes:BALID:symbol
@@ -521,7 +515,6 @@ Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
 Fixes:CAMBO:symbol
 Fixes:CASEL:symbol
-Fixes:CEDAR:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
 Fixes:CLIPY:symbol
@@ -533,7 +526,6 @@ Fixes:CROFT:symbol
 Fixes:CUTEL:symbol
 Fixes:DAGGA:symbol
 Fixes:DAGKO:symbol
-Fixes:DALEY:symbol
 Fixes:DANDI:symbol
 Fixes:DAUNT:symbol
 Fixes:DAVOT:symbol
@@ -608,7 +600,6 @@ Fixes:EMPER:symbol
 Fixes:ENCOD:symbol
 Fixes:ENIPI:symbol
 Fixes:ENITO:symbol
-Fixes:ENOKA:symbol
 Fixes:ENUKU:symbol
 Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
@@ -872,7 +863,6 @@ Fixes:MALUD:symbol
 Fixes:MAMUL:symbol
 Fixes:MANGO:symbol
 Fixes:MANIG:symbol
-Fixes:MAPLE:symbol
 Fixes:MARUK:symbol
 Fixes:MASOP:symbol
 Fixes:MATCH:symbol
@@ -934,7 +924,6 @@ Fixes:NENVO:symbol
 Fixes:NEPNA:symbol
 Fixes:NERTU:symbol
 Fixes:NESDI:symbol
-Fixes:NESON:symbol
 Fixes:NETKI:symbol
 Fixes:NETVU:symbol
 Fixes:NEVIL:symbol
@@ -1003,7 +992,6 @@ Fixes:OKTAD:symbol
 Fixes:OKTEM:symbol
 Fixes:OKVAP:symbol
 Fixes:OLGUD:symbol
-Fixes:OLIVE:symbol
 Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
 Fixes:OMOKO:symbol
@@ -1247,7 +1235,6 @@ Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
 Fixes:TUXOS:symbol
 Fixes:TUZLA:symbol
-Fixes:TWEED:symbol
 Fixes:UGBET:symbol
 Fixes:UGBUD:symbol
 Fixes:UGNUS:symbol
@@ -1491,6 +1478,7 @@ Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL65:freetext
+Free Text:Airspace Bases\FL65:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
 Free Text:Airspace Bases\FL75:freetext
@@ -1521,6 +1509,7 @@ Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
 Free Text:Airspace Bases\FL75E:freetext
+Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
 Free Text:Airspace Bases\FL85:freetext
@@ -1568,19 +1557,6 @@ Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
 Free Text:EGCC Airspace Bases\3000':freetext
-Free Text:EGCN Airspace Bases\1500:freetext
-Free Text:EGCN Airspace Bases\1500':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\2000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4000':freetext
-Free Text:EGCN Airspace Bases\4500':freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
-Free Text:EGCN Airspace Bases\FL60:freetext
 Free Text:EGFF Airspace Bases\1000':freetext
 Free Text:EGFF Airspace Bases\1500':freetext
 Free Text:EGFF Airspace Bases\2000':freetext
@@ -1706,6 +1682,13 @@ Geo:Extended centrelines:
 Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Clacton:
 Sids:London AC Daventry:
+Sids:London AC Dover:
+Sids:London AC Lakes:
+Sids:London AC North Sea:
+Sids:London AC West:
+Sids:London AC Worthing:
+Sids:London TC North East:
+Sids:London TC North West:
 Stars:Brussels Release Line:
 Stars:HON Gate:
 Stars:KOKSY Buffer Zone:
@@ -1788,9 +1771,7 @@ VORs:LKH:symbol
 VORs:LND:symbol
 VORs:LNO:symbol
 VORs:LON:symbol
-VORs:LOO:symbol
 VORs:LSM:symbol
-VORs:LUK:symbol
 VORs:LUX:symbol
 VORs:LYD:symbol
 VORs:MAC:symbol
@@ -1846,7 +1827,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:5

@@ -5,7 +5,7 @@ m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
 m_ShowSimulatedData:0
-m_TransitionAltitude:5000
+m_TransitionAltitude:5500
 m_AllowConcernedACTagDown:1
 m_CenterlineDme:1.0
 m_CenterlineLength:14.0
@@ -19,12 +19,12 @@ m_CenterlineVectorLength:0.0
 m_CenterlineVectorAngle:30.0
 m_CenterlineVectorBase:0.0
 m_STCA_LowShow:1
-m_STCA_LowVertical:1000
+m_STCA_LowVertical:970
 m_STCA_LowHorizontal:2.5
 m_STCA_LowBottom:500
 m_STCA_HighShow:0
-m_STCA_HighVertical:1000
-m_STCA_HighHorizontal:5.0
+m_STCA_HighVertical:970
+m_STCA_HighHorizontal:4.9
 m_STCA_HighBottom:15500
 m_ExtendedCenterlinActiveArr:1
 m_UseHoveringTagForKeys:1

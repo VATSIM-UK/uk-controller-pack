@@ -1,8 +1,25 @@
 ========================================================
 Alias:    	Heathrow
 Created:     	2016-03-31
-Last Updated:	2016-03-31
+Last Updated:	2023-09-04
 ========================================================
+
+========================================================
+New Pilots
+========================================================
+
+.prc Hello, I see you are new to the network. First of all - welcome to VATSIM! It may be tempting to jump right ahead and fly, but I would suggest you read through some documents first, in order to prepare yourself for what you may encounter. First of all - you should read the VATSIM tutorials at https://vatsim.net/prc. Here you can find everything you need. Second of all, you should read through the VATSIM Code of Conduct (https://vatsim.net/coc), especially sections A and B, in order to not get in trouble for something you didn't know.
+.srd You can find standard UK routings (domestic and to FIR exit points) in the Standard Route Document http://vats.im/srd
+.fpl There is no flight plan for your callsign, please file one. I suggest using either http://simbrief.com or http://edi-gla.co.uk to find a valid route.
+.modec It is a VATSIM CoC requirement (B4) for you to Squawk mode C whilst in the air. Please do so now. If you don't know how to do this, please refer to your pilot client documentation.
+.paused You seem to be paused mid-air. It is against the VATSIM CoC (B2). Please resume normal flight or disconnect.
+.accel Whilst time acceleration is permitted in uncontrolled airspace, it isn't whilst under control of ATC. Please return to normal simulation rate or disconnect. CoC B9 refers.
+.warn The VATSIM CoC (B8) now REQUIRES pilots to be able to comply with ATC Instructions, such as flying headings, speeds and levels. It seems you are unable to comply or are knowingly non-compliant. If you are unable to follow further instructions, I will need to call a Supervisor.
+.mic $aircraft You have an open mic, please check your Push to Talk key/button.
+.ini Hello - You climbed above the initial climb on your departure today - please remember to check initial climb restrictions (including step climbs) on SIDs EVERY time you fly, to ensure you do not conflict with other airspace users. All UK charts are available here: https://chartfox.org/
+.iniall BROADCAST: A REMINDER TO ALWAYS CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY https://chartfox.org/ NOTE THAT SIDs MAY INCLUDE STEP CLIMBS
+.mayday The VATSIM CoC (B6) states that if air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Due to controller workload I am unable to accept your emergency, please resume normal flight or disconnect.
+.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
 
 ========================================================
 Generic
@@ -49,6 +66,9 @@ Generic
 ========================================================
 Departure Clearance
 ========================================================
+
+.pdc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
+.pdcc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. SLOT TIME $1. PDC READBACK NOT RQRD. 
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)hPa
 .sidrw Cleared to $arr, $sid departure, runway $deprwy($dep), squawk $squawk, QNH $altim($dep)hPa
@@ -126,6 +146,8 @@ Handoffs
 .fc Freecall $radioname($1) ($atccallsign($1)) $freq($1)
 .mon Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 .uni No Further ATC available. Monitor Unicom 122.800
+
+.833 You have been transferred to an 8.33 kHz frequency. If your aircraft's radio does not allow you to tune the exact frequency, you can use the .com1 command in your pilot client to manually tune it. Visit vats.im/833 for more details 
 
 ========================================================
 Approach Radar
@@ -211,13 +233,15 @@ Approach Radar
 Hold and FIS
 ========================================================
 
-.hold Hold at $1, delay $2 minutes
+.hold Hold at $1, $2 hand turns, as published. Delay $3 minutes
+.holdl Hold at $1, left hand turns, as published. Delay $2 minutes
+.holdr Hold at $1, right hand turns, as published. Delay $2 minutes
 .holdd Hold at $1, delay $2 minutes. The inbound course is $3, $4 minute legs, speed $5 knots
 
-.hbnn Hold at BNN. Delay is $1 minutes. The BNN hold is 118 inbound, right hand turns, 1 minute legs, speed 220kts
-.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 265 inbound, left hand turns, 1 minute legs, speed 220kts
-.hock Hold at OCK. Delay is $1 minutes. The OCK hold is 330 inbound, right hand turns, 1 minute legs, speed 220kts
-.hbig Hold at BIG. Delay is $1 minutes. The BIG hold is 303 inbound, right hand turns, 1 minute legs, speed 220kts
+.hbnn Hold at BNN. Delay is $1 minutes. The BNN hold is 116 inbound, right hand turns, 1 minute legs, speed 220kts
+.hlam Hold at LAM. Delay is $1 minutes. The LAM hold is 262 inbound, left hand turns, 1 minute legs, speed 220kts
+.hock Hold at OCK. Delay is $1 minutes. The OCK hold is 328 inbound, right hand turns, 1 minute legs, speed 220kts
+.hbig Hold at BIG. Delay is $1 minutes. The BIG hold is 302 inbound, right hand turns, 1 minute legs, speed 220kts
 
 .bs Basic service
 .ts Traffic service

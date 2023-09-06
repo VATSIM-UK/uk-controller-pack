@@ -1,34 +1,50 @@
 PROFILE
 PROFILE:SCO_CTR:400:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [EGPX]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_E_CTR:400:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [SCOE]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:SCO_N_CTR:400:6
+ATIS2:Scottish Control | CPDLC/PDC [SCON]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:SCO_S_CTR:400:6
+ATIS2:Scottish Control | CPDLC/PDC [SCOS]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_WD_CTR:400:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [SCWD]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_D_CTR:350:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [SCOD]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_W_CTR:400:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [SCOW]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCO_R_CTR:400:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control | CPDLC/PDC [SCOR]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:STC_CTR:250:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:STC_E_CTR:250:6
+ATIS2:Scottish Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:STC_W_CTR:250:6
+ATIS2:Scottish Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:STC_A_CTR:200:6
-ATIS2:"Scottish Control"
-ATIS3:Check top-down and coverage at vats.im/uksectors
+ATIS2:Scottish Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END

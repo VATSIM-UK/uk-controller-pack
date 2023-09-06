@@ -251,7 +251,7 @@ ARTCC boundary:LFR10:
 ARTCC boundary:MASTS:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
-ARTCC high boundary:Banba CTA:
+ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
 ARTCC high boundary:Berry Head CTA (Conditional):
@@ -281,12 +281,10 @@ ARTCC high boundary:Lille TMA:
 ARTCC high boundary:Lincolnshire CTA:
 ARTCC high boundary:London TMA:
 ARTCC high boundary:Manchester TMA:
-ARTCC high boundary:Midlands CTA:
 ARTCC high boundary:Moray CTA:
-ARTCC high boundary:NITON CTA:
-ARTCC high boundary:NITON CTA (Conditional):
 ARTCC high boundary:North Sea CTA:
-ARTCC high boundary:Northern CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:Portsmouth CTA (Conditional):
 ARTCC high boundary:RATSU Triangle:
@@ -298,7 +296,6 @@ ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
-ARTCC high boundary:West CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:Channel Islands CTA:
@@ -308,7 +305,6 @@ ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
-ARTCC low boundary:EGCN Doncaster Sheffield CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
@@ -492,8 +488,6 @@ Fixes:ARSAT:name
 Fixes:ARSAT:symbol
 Fixes:ARTEX:name
 Fixes:ARTEX:symbol
-Fixes:ARTHA:name
-Fixes:ARTHA:symbol
 Fixes:ARTIX:name
 Fixes:ARTIX:symbol
 Fixes:ASKAM:name
@@ -540,8 +534,6 @@ Fixes:BAGIT:name
 Fixes:BAGIT:symbol
 Fixes:BAGSO:name
 Fixes:BAGSO:symbol
-Fixes:BAKER:name
-Fixes:BAKER:symbol
 Fixes:BAKOX:name
 Fixes:BAKOX:symbol
 Fixes:BAKUR:name
@@ -692,8 +684,6 @@ Fixes:CAMBO:name
 Fixes:CAMBO:symbol
 Fixes:CASEL:name
 Fixes:CASEL:symbol
-Fixes:CEDAR:name
-Fixes:CEDAR:symbol
 Fixes:CHASE:name
 Fixes:CHASE:symbol
 Fixes:CHINN:name
@@ -716,8 +706,6 @@ Fixes:DAGGA:name
 Fixes:DAGGA:symbol
 Fixes:DAGKO:name
 Fixes:DAGKO:symbol
-Fixes:DALEY:name
-Fixes:DALEY:symbol
 Fixes:DANDI:name
 Fixes:DANDI:symbol
 Fixes:DAUNT:name
@@ -866,8 +854,6 @@ Fixes:ENIPI:name
 Fixes:ENIPI:symbol
 Fixes:ENITO:name
 Fixes:ENITO:symbol
-Fixes:ENOKA:name
-Fixes:ENOKA:symbol
 Fixes:ENUKU:name
 Fixes:ENUKU:symbol
 Fixes:EPOXI:name
@@ -1394,8 +1380,6 @@ Fixes:MANGO:name
 Fixes:MANGO:symbol
 Fixes:MANIG:name
 Fixes:MANIG:symbol
-Fixes:MAPLE:name
-Fixes:MAPLE:symbol
 Fixes:MARUK:name
 Fixes:MARUK:symbol
 Fixes:MASOP:name
@@ -1518,8 +1502,6 @@ Fixes:NERTU:name
 Fixes:NERTU:symbol
 Fixes:NESDI:name
 Fixes:NESDI:symbol
-Fixes:NESON:name
-Fixes:NESON:symbol
 Fixes:NETKI:name
 Fixes:NETKI:symbol
 Fixes:NETVU:name
@@ -1656,8 +1638,6 @@ Fixes:OKVAP:name
 Fixes:OKVAP:symbol
 Fixes:OLGUD:name
 Fixes:OLGUD:symbol
-Fixes:OLIVE:name
-Fixes:OLIVE:symbol
 Fixes:OLNEY:name
 Fixes:OLNEY:symbol
 Fixes:OLPOP:name
@@ -2144,8 +2124,6 @@ Fixes:TUXOS:name
 Fixes:TUXOS:symbol
 Fixes:TUZLA:name
 Fixes:TUZLA:symbol
-Fixes:TWEED:name
-Fixes:TWEED:symbol
 Fixes:UGBET:name
 Fixes:UGBET:symbol
 Fixes:UGBUD:name
@@ -2285,6 +2263,9 @@ Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Clacton:
 Sids:London AC Daventry:
 Sids:London AC Dover:
+Sids:London AC Lakes:
+Sids:London AC North Sea:
+Sids:London AC West:
 Sids:London AC Worthing:
 Stars:DIKRO Box:
 Stars:Jersey RFC Line:
@@ -2446,13 +2427,9 @@ VORs:LNO:name
 VORs:LNO:symbol
 VORs:LON:name
 VORs:LON:symbol
-VORs:LOO:name
-VORs:LOO:symbol
 VORs:LSM:name
 VORs:LSM:symbol
-VORs:LUK:name
-VORs:LUK:symbol
-VORs:LUX:name
+VORs:LSM:name
 VORs:LUX:symbol
 VORs:LYD:name
 VORs:LYD:symbol
@@ -2558,7 +2535,7 @@ SHOWC:1
 SHOWSB:0
 BELOW:200
 ABOVE:0
-LEADER:5
+LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
 HISTORY_DOTS:5
