@@ -1,3 +1,5 @@
+x. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
 2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
