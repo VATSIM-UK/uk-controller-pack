@@ -90,7 +90,7 @@
 12. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
-1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le fevre)
+1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLefevre (Sam Lefevre)
 2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
 3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
 4. AIRAC (2209) - Updated Cranfield SMR display elements - thanks to @luke11brown (Luke Brown)
