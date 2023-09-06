@@ -13,6 +13,7 @@
 12. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
 13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
 14. Enhancement - Logon details entry program added - thanks to @SamLefevre (Sam Lefevre)
+15. Enhancement - Removed observer profiles, displays and related settings files - thnaks to @SamLefevre (Sam Lefevre)
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
