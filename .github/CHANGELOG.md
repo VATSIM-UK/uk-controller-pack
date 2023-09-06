@@ -1,12 +1,12 @@
 # Changes from release 2022/09 to 2022/10
-X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam Le Fevre)
+X. Enhancement - Logon details entry program added - thanks to @SamLeFevre (Sam Lefevre)
 1. AIRAC (2210) - Area minimum altitudes revised - thanks to @MikePikeCollab (Mike Pike)
 2. Enhancement - TopSky updated to version 2.4.1 - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
 
 
 # Changes from release 2022/05 to 2022/09
-1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
+1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le fevre)
 2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
 3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
 4. AIRAC (2209) - Updated Cranfield SMR display elements - thanks to @luke11brown (Luke Brown)
