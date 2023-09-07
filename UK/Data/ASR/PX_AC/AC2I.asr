@@ -1446,7 +1446,7 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:Extended centrelines:
-Regions:Uncontrolled airspace:polygon
+Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
@@ -1551,7 +1551,6 @@ VORs:TIR:symbol
 VORs:TLA:symbol
 VORs:TNT:symbol
 VORs:TRN:symbol
-VORs:VES:symbol
 VORs:VLN:symbol
 VORs:WAL:symbol
 VORs:WIK:symbol
@@ -1571,6 +1570,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
