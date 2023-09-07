@@ -1,6 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -1563,8 +1565,6 @@ Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125D:freetext
@@ -1594,9 +1594,15 @@ Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
@@ -1688,7 +1694,6 @@ Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95E:freetext
@@ -1735,6 +1740,7 @@ Free Text:EGGD Airspace Bases\2000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3500':freetext
+Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4500':freetext
 Free Text:EGGP Airspace Bases\1500':freetext
@@ -1836,7 +1842,7 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Extended centrelines:
-Regions:Uncontrolled airspace:polygon
+Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
@@ -1941,7 +1947,6 @@ VORs:TIR:symbol
 VORs:TLA:symbol
 VORs:TNT:symbol
 VORs:TRN:symbol
-VORs:VES:symbol
 VORs:VLN:symbol
 VORs:WAL:symbol
 VORs:WIK:symbol
@@ -1961,6 +1966,10 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1524
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
