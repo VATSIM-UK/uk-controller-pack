@@ -14,6 +14,8 @@
 13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
 14. Enhancement - Logon details entry program added - thanks to @SamLefevre (Sam Lefevre)
 15. Enhancement - Removed observer profiles, displays and related settings files - thnaks to @SamLefevre (Sam Lefevre)
+16. AIRAC (2309) - Updated Wattisham Tower (EGUW_TWR) frequency - thanks to @hazzas-99
+17. Enhancement - Added further area event split frequencies to voice settings (lines start X Area -...) - thanks to @hazzas-99
 
 # Changes from release 2023/05 to 2023/08
 1. Bug - Fix STC Tags - thanks to @SamLefevre (Samuel Lefevre)
