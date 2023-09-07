@@ -1,0 +1,727 @@
+m_PlaySounds:1
+m_AssumeSlowAcAsStandby:1
+m_ShowAirspaceLines:0
+m_ShowRouteFixName:1
+m_ShowRouteETA:1
+m_ShowCalculatedHeading:1
+m_ShowSimulatedData:0
+m_TransitionAltitude:5000
+m_AllowConcernedACTagDown:1
+m_CenterlineDme:0.0
+m_CenterlineLength:12.0
+m_CenterlineTickDme:1.0
+m_CenterlineTickInterval:1.0
+m_CenterlineTickLength:0.2
+m_CenterlineMarkerLength:0.3
+m_CenterlineMarkerInterval:2.0
+m_CenterlineVectorDme:5.0
+m_CenterlineVectorLength:0.0
+m_CenterlineVectorAngle:20.0
+m_CenterlineVectorBase:0.0
+m_STCA_LowShow:1
+m_STCA_LowVertical:1000
+m_STCA_LowHorizontal:3.0
+m_STCA_LowBottom:1600
+m_STCA_HighShow:0
+m_STCA_HighVertical:1000
+m_STCA_HighHorizontal:12.0
+m_STCA_HighBottom:18000
+m_ExtendedCenterlinActiveArr:0
+m_UseHoveringTagForKeys:1
+m_AutoMessageForTextAircraft:1
+m_ShowRouteWhenAccepting:1
+m_AllowAssumedACTagDown:1
+m_InhibitAutoPushOnHandoff:1
+m_RandomSquawks:0
+m_VFRSquawks:7000,7010
+m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
+m_AutoLoadMetarForActiveAirports:1
+m_LockShowRouteWhenAccepting:0
+m_VoiceAtisBuilderUrl:http://uniatis.net/atis.php?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&apptype=ILS&info=$atiscode&metar=$metar($atisairport)
+m_DoNotUseAcceptedColor:0
+m_DoNotUseRefusedColor:0
+SET_TransparentAcListBackground:0
+m_PutIncomingCoordinationToFirst:1
+m_AutoProxyMode:1
+m_TransparentAcListSelectedBackground:1
+m_TransparentDetailedTagBackground:0
+m_TransparentDetailedTagSelectedItemBackground:0
+m_AllowDirectBeyondCOPX:1
+m_ShowAtisLetterInMETAR:1
+m_ShowCLAMWarnings:0
+m_ShowRAMWarning:0
+m_MagneticNorthUp:1
+m_ShowAForAltitudes:1
+m_Show500ForNonVisual:1
+SET_SetActiveAptBySectors:0
+SET_CapitalizeFPAndScratch:1
+m_SET_WTC_Light:L
+SET_WTC_Medium:M
+SET_WTC_Heavy:H
+SET_WTC_A380:J
+m_RotateRouteTexts:1
+m_NeverCloseFreqChat:1
+m_KeepScratchPadAfterDirect:0
+m_HiliteASELAircraft:0
+m_EnableVoiceRecognition:0
+m_VoiceRecognitionStyle:2
+m_SModeTransponders:IEFGRWQ
+m_CorrelationMode:0
+m_CorrelationDistance:40
+m_SimulateRadars:0
+m_AllowCorrelatedTAGDown:1
+m_ShowDetailedOverUntagged:1
+m_ShowRectAroundFPTrack:1
+m_ShowRectAroundASEL:0
+m_VatsimStatusURL:http://status.vatsim.net/
+m_OverrideWhoIsOnlineURL:0
+m_ShowVFRFlightPlanTrack:0
+m_ShowIFRFlightPlanTrack:1
+m__AutoStartFlightPlanTracks:1
+m_UnicomFrequency:122.8
+m_MessageInfoLevel:1
+m_MessageWarningLevel:2
+m_MessageErrorLevel:4
+m_PointOutLevel:2
+m_HandoffRequestLevel:2
+m_CoordinationRequestLevel:2
+m_HandoffAcceptLevel:2
+m_HandoffRefuseLevel:2
+m_CoordinationAcceptLevel:2
+m_CoordinationRefuseLevel:2
+m_ServerMessageLevel:2
+m_AtcMessageLevel:2
+m_BroadcastMessageLevel:2
+m_SupMessageLevel:4
+m_AtisMessageLevel:0
+m_PrivateMessageLevel:4
+m_FreqMessageLevel:4
+m_MericUnits:0
+m_ShowCorrelatedInFpList:1
+m_ShowUncorrelatedInFpList:1
+m_ShowVFRInFpList:1
+m_ShowIFRInFpList:0
+m_ShowConcernedInFpList:1
+m_ShowUnconcernedInFpList:0
+m_ZoomCenterUnderMouse:1
+m_AseURL:http://www.craig-phillips.co.uk/ase/repository/
+m_STCA_LowPreWarnTime:150
+m_STCA_LowWarnTime:150
+m_HighPreWarnTime:240
+m_STCA_HighWarnTime:240
+m_STCA_ShowCFL:1
+m_STCA_PlaySoundOnCFL:0
+m_STCA_PlaySoundOnTrackedOnly:1
+m_AutoCorrelateDisabledSQs:1200,2000,2200,7000,7700,7600,7500
+m_DontAutoCorrelateDuplicated:1
+m_AcceptPilotSquawkForCorrelation:1
+m_MTCA_Floor:10000
+m_MTCA_AltitudeDifference:2000
+m_MTCA_Distance:20.0
+m_UseIsectForScratchPad:1
+m_RotateRadarTargetSymbol:0
+m_RotateFlightPlanTrackSymbol:0
+m_RubberHeadingRounding:5
+SqawkForSModeTransponder:
+m_TransparentTagBackground:1
+m_UseArrDepTagBgColor:0
+SET_MTCA_Show:1
+m_TaxiOutTime:7
+m_StartupTime:10
+m_ConnectTime:15
+m_AutoAssumeOnGroundStateChangeButton:1
+m_ShowTrackMilesInRouteButton:1
+m_FilterOutSquawks:
+m_EquipmentsIcaoFormat:1
+m_ShowControllers:1
+m_ShowAircraft:0
+m_ShowTextMessages:0
+m_ShowTitle:1
+m_ShowTitleFileName:1
+m_ShowTitleController:1
+m_ShowTitlePrimaryFreq:1
+m_ShowTitleAtisFreq:1
+m_ShowTitleClock:1
+m_ShowTitleLeader:1
+m_ShowTitleFilter:1
+m_ShowTitleTrans:1
+m_ShowVoiceRoomUsers:0
+m_ShowFSSControllers:1
+m_ShowCTRControllers:1
+m_ShowAPPControllers:1
+m_ShowTWRControllers:1
+m_ShowGNDControllers:1
+m_ShowATISControllers:1
+m_ShowOBSControllers:0
+m_ShowUnidentifiedControllers:0
+m_ShowFreqUsers:1
+m_ShowAtisUsers:1
+m_ShowArrivalPlanes:1
+m_ShowDeparturePlanes:1
+m_ShowOverflightPlanes:1
+SET_ShowTrackingPlanes:1
+m_METARList:1
+m_ShowTitleMetar:1
+m_ConnectSELtoSIL:1
+m_ConnectDEPtoSEL:0
+m_ConnectSILtoTOP:0
+m_ScreenNumber:0
+m_ScreenPosition:1
+m_ScreenMaximized:1
+m_ShowTitleSelectedAc:1
+m_PlanesListX:1344
+m_PlanesListY:10
+m_MetarListX:761
+m_MetarListY:42
+m_VoiceListX:1000
+m_VoiceListY:24
+m_ControllerListX:1007
+m_ControllerListY:43
+m_ShowPlaneRangeRingsTracked:0
+m_ShowPlaneRangeRingsUntracked:0
+m_PlaneRangeRingsDistance1:3.0
+m_PlaneRangeRingsDistance2:0.0
+m_PlaneRangeRingsDistance3:0.0
+m_PlaneRangeRingsDistance4:0.0
+m_ShowTooltips:1
+m_OnTheGroundAltitude:5000
+m_OnTheGroundSpeed:50
+m_ShowCdtOnCflCheck:1
+m_ShowTsVccsMiniControl:0
+ScenarioEditorX:0
+ScenarioEditorY:0
+m_ShowSTARControllers:1
+SYMBOLOGY
+SYMBOLSIZE
+Airports:symbol:10778891:0.5:0:0:7
+Airports:name:10830090:0.5:0:0:1
+Low airways:line:6579300:3.5:0:0:7
+Low airways:name:6579300:3.5:0:0:8
+High airways:line:9930841:3.5:0:0:7
+High airways:name:7895160:3.5:0:0:8
+Fixes:symbol:12434813:1.0:0:0:7
+Fixes:name:16777215:3.0:0:0:6
+Sids:line:2325967:3.0:0:0:7
+Stars:line:9408399:3.0:1:0:7
+ARTCC high boundary:line:14407353:3.0:0:1:7
+ARTCC boundary:line:7435206:3.0:0:0:7
+ARTCC low boundary:line:14662308:3.0:2:0:7
+Geo:line:16777215:3.0:0:0:7
+VORs:symbol:10526800:1.0:0:0:7
+VORs:name:6579300:0.5:0:0:14
+VORs:frequency:6579300:0.5:0:0:2
+NDBs:symbol:6579300:1.0:0:0:7
+NDBs:name:8421504:3.5:0:0:12
+NDBs:frequency:8421504:0.5:0:0:0
+Runways:centerline:8421504:3.5:0:0:7
+Runways:extended centerline:6447714:3.5:0:0:7
+Runways:name:8421504:3.5:0:0:7
+Datablock:non concerned:12632256:4.0:0:1:7
+Datablock:notified:16777215:4.0:0:1:7
+Datablock:assumed:65535:4.0:0:1:7
+Datablock:transfer to me initiated:16777017:4.0:0:2:7
+Datablock:redundant:12632256:4.0:0:0:7
+Datablock:information:65535:3.5:0:0:7
+Datablock:even flight level:16777215:3.5:0:0:7
+Datablock:odd flight level:16777215:3.5:0:0:7
+Datablock:arrivals:16777215:3.5:0:0:7
+Datablock:departures:16777215:3.5:0:0:7
+Datablock:user 1:16777215:3.5:0:0:7
+Datablock:user 2:16777215:3.5:0:0:7
+Datablock:user 3:16777215:3.5:0:0:7
+Datablock:user 4:16777215:3.5:0:0:7
+Datablock:user 5:16777215:3.5:0:0:7
+Datablock:user 6:16777215:3.5:0:0:7
+Datablock:emergency:3289855:3.9:0:1:7
+Datablock:ongoing requested by me:12615935:3.5:0:0:7
+Datablock:ongoing requested by other:8454016:3.5:0:0:7
+Datablock:ongoing accepted:65535:3.5:0:0:7
+Datablock:ongoing refused:65535:3.5:0:0:7
+Datablock:detailed background:8421504:3.5:0:0:7
+Datablock:active item background:3223857:3.5:0:0:7
+Datablock:arrival background:1395241:3.5:0:0:7
+Datablock:departure background:4264977:3.5:0:0:7
+Datablock:AC list background:5197647:3.5:0:0:7
+Datablock:AC list selected background:5197647:3.5:0:0:7
+Datablock:dimmed at conflict detection:5263440:3.5:0:0:7
+Datablock:SCTA warning rectangle:3289855:3.5:0:0:7
+Datablock:SCTA CFL used warning rectangle:65535:3.5:0:0:7
+Datablock:SCTA warning leader:3289855:3.5:0:3:7
+Datablock:SCTA CFL used warning leader:65535:3.5:0:3:7
+Controller:normal:65535:3.5:0:0:7
+Controller:breaking:13408767:3.5:0:0:7
+Controller:timeout:16744703:3.5:0:0:7
+Metar:normal:16776960:4.0:0:0:7
+Metar:modified:13408767:4.0:0:0:7
+Metar:timeout:16777215:3.5:0:0:7
+Other:wait:16777215:3.5:0:0:7
+Other:distance line:16777215:3.5:0:0:7
+Other:distance values:65535:4.0:0:0:7
+Other:distance annotation:65535:3.5:0:0:7
+Other:separation leader:16777215:3.5:0:3:7
+Other:separation leader2:16777215:3.5:0:1:7
+Other:find:16777215:3.5:0:5:7
+Other:valid airway:65280:3.5:0:2:7
+Other:bad direction airway:255:3.5:0:2:7
+Other:unconnected airway:16711680:3.5:0:2:7
+Other:direct no airway:16776960:3.5:0:2:7
+Other:free of conflict:65280:3.5:0:2:7
+Other:conflict warning:65535:3.5:0:2:7
+Other:conflict detected:255:3.5:0:2:7
+Other:route annotation:16777215:3.5:0:2:7
+Other:freetext:16777215:3.0:0:0:7
+Other:range rings:65535:5.0:0:0:2
+Other:off antenna range rings:255:5.0:0:0:2
+Other:plane range rings:5921370:5.0:0:0:2
+Other:manual taxi line:16777215:5.0:0:3:2
+Other:manual taxi line ends at predefined point:65535:5.0:0:3:2
+Other:predefined taxi line:65280:5.0:0:3:2
+Other:terminal taxi line:255:5.0:0:3:2
+Other:list header:12632256:3.5:0:0:7
+Other:normal menu item:16777215:3.5:0:0:7
+Other:disabled menu item:8421504:3.5:0:0:7
+Transitions:transition grid:5263440:3.0:0:0:7
+Chat:text:16777215:3.5:0:0:7
+Chat:background:3289650:3.5:0:0:7
+Chat:name normal:16777215:3.5:0:0:7
+Chat:name unread:16776960:3.5:0:0:7
+Ground Network:exit:16711680:3.5:0:3:7
+Ground Network:taxiway:65280:3.5:0:3:7
+Ground Network:terminal taxiway:255:3.5:0:3:7
+Sector:line:128:4.0:0:2:7
+Sector:msaw:32768:2.0:0:2:7
+Sector:active sector background:9127474:3.5:0:0:7
+Sector:inactive sector background:3473664:3.5:0:0:7
+SYMBOL:0
+SYMBOLITEM:MOVETO -5 -5
+SYMBOLITEM:LINETO 5 -5
+SYMBOLITEM:LINETO 5 5
+SYMBOLITEM:LINETO -5 5
+SYMBOLITEM:LINETO -5 -5
+SYMBOL:1
+SYMBOLITEM:ARC 0 0 4 0 360
+SYMBOL:2
+SYMBOLITEM:MOVETO -4 -4
+SYMBOLITEM:LINETO 4 -4
+SYMBOLITEM:LINETO 4 4
+SYMBOLITEM:LINETO -4 4
+SYMBOLITEM:LINETO -4 -4
+SYMBOL:3
+SYMBOLITEM:MOVETO -4 3
+SYMBOLITEM:LINETO 0 -4
+SYMBOLITEM:LINETO 4 3
+SYMBOLITEM:LINETO -4 3
+SYMBOL:4
+SYMBOLITEM:MOVETO -5 5
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:5
+SYMBOLITEM:MOVETO -5 5
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:6
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOL:7
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOL:8
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:9
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:10
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOLITEM:ARC 0 0 10 360 0
+SYMBOL:11
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOLITEM:ARC 0 0 10 360 0
+SYMBOL:12
+SYMBOLITEM:MOVETO -4 1
+SYMBOLITEM:LINETO 0 -4
+SYMBOLITEM:LINETO 4 1
+SYMBOLITEM:LINETO -4 1
+SYMBOL:13
+SYMBOLITEM:MOVETO -2 -5
+SYMBOLITEM:LINETO -2 6
+SYMBOLITEM:MOVETO 2 -5
+SYMBOLITEM:LINETO 2 6
+SYMBOLITEM:MOVETO -3 -2
+SYMBOLITEM:LINETO 4 -2
+SYMBOLITEM:MOVETO -3 2
+SYMBOLITEM:LINETO 4 2
+SYMBOL:14
+SYMBOLITEM:MOVETO -2 2
+SYMBOLITEM:LINETO 2 -2
+SYMBOL:15
+SYMBOLITEM:MOVETO 0 -12
+SYMBOLITEM:LINETO -2 -11
+SYMBOLITEM:LINETO -2 -2
+SYMBOLITEM:LINETO -12 4
+SYMBOLITEM:LINETO -12 7
+SYMBOLITEM:LINETO -2 4
+SYMBOLITEM:LINETO -2 9
+SYMBOLITEM:LINETO -6 11
+SYMBOLITEM:LINETO -6 14
+SYMBOLITEM:LINETO 0 12
+SYMBOLITEM:LINETO 6 14
+SYMBOLITEM:LINETO 6 11
+SYMBOLITEM:LINETO 2 9
+SYMBOLITEM:LINETO 2 4
+SYMBOLITEM:LINETO 12 7
+SYMBOLITEM:LINETO 12 4
+SYMBOLITEM:LINETO 2 -2
+SYMBOLITEM:LINETO 2 -11
+SYMBOLITEM:LINETO 0 -12
+SYMBOL:16
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOL:17
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOL:18
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:19
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOL:20
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOLITEM:ARC 0 0 10 360 0
+SYMBOL:21
+SYMBOLITEM:MOVETO -5 0
+SYMBOLITEM:LINETO 0 5
+SYMBOLITEM:LINETO 5 0
+SYMBOLITEM:LINETO 0 -5
+SYMBOLITEM:LINETO -5 0
+SYMBOLITEM:MOVETO -4 4
+SYMBOLITEM:LINETO 5 -5
+SYMBOLITEM:ARC 0 0 10 360 0
+SYMBOL:22
+SYMBOLITEM:MOVETO -3 7
+SYMBOLITEM:LINETO 3 7
+SYMBOLITEM:LINETO 3 -7
+SYMBOLITEM:LINETO -3 -7
+SYMBOLITEM:LINETO -3 7
+SYMBOL:23
+SYMBOLITEM:MOVETO 0 -12
+SYMBOLITEM:LINETO -2 -11
+SYMBOLITEM:LINETO -2 -3
+SYMBOLITEM:LINETO -8 -9
+SYMBOLITEM:LINETO -10 -7
+SYMBOLITEM:LINETO -3 0
+SYMBOLITEM:LINETO -10 7
+SYMBOLITEM:LINETO -8 9
+SYMBOLITEM:LINETO -2 3
+SYMBOLITEM:LINETO -2 12
+SYMBOLITEM:LINETO 2 12
+SYMBOLITEM:LINETO 2 3
+SYMBOLITEM:LINETO 8 9
+SYMBOLITEM:LINETO 10 7
+SYMBOLITEM:LINETO 3 0
+SYMBOLITEM:LINETO 10 -7
+SYMBOLITEM:LINETO 8 -9
+SYMBOLITEM:LINETO 2 -3
+SYMBOLITEM:LINETO 2 -11
+SYMBOLITEM:LINETO 0 -12
+m_ClipArea:7
+END
+SIL
+m_Visible:1
+m_X:0
+m_Y:318
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:7
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::0:0.0
+m_Column:A/C:7:0:105:7:7:0:UK Controller Plugin:::3:0.0
+m_Column:FR:2:1:63:7:7:1::::3:0.0
+m_Column:SSR:5:1:2:0:0:1::::3:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:STAR:7:0:55:18:18:1::::4:0.0
+m_Column:DEPA:4:1:61:7:7:1::::3:0.0
+m_Column:DEST:4:1:17:7:7:1::::3:0.0
+m_Column:COPN:7:1:48:21:21:1::::1:0.0
+m_Column:NFL:4:1:49:23:23:1::::1:0.0
+m_Column:At:5:1:50:0:0:0::::3:0.0
+m_Column:X:5:1:51:22:22:0::::1:0.0
+m_Column:XFL:4:1:52:24:24:0::::1:0.0
+m_Column:SI:3:1:64:20:20:1::::1:0.0
+END
+SEL
+m_Visible:1
+m_X:0
+m_Y:350
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:6
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:A/C:7:0:105:7:7:0:UK Controller Plugin:::3:0.0
+m_Column:FR:2:1:63:7:7:1::::3:0.0
+m_Column:SSR:5:1:2:0:0:1::::3:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:STAR:7:0:55:18:18:1::::4:0.0
+m_Column:DEPA:4:1:61:7:7:1::::3:0.0
+m_Column:DEST:4:1:17:7:7:1::::3:0.0
+m_Column:ETA:4:1:54:0:0:0::::3:0.0
+m_Column:X:7:1:51:22:22:1::::1:0.0
+m_Column:XFL:4:1:52:24:24:1::::1:0.0
+m_Column:At:5:1:53:0:0:0::::3:0.0
+m_Column:RFL:4:1:22:30:30:1::::3:0.0
+m_Column:SI:5:1:64:20:20:1::::1:0.0
+m_Column:Alt:3:1:43:11:11:0::::4:0.0
+m_Column:HDG:5:1:46:14:29:0::::4:0.0
+m_Column:Spd:3:1:44:12:29:0::::4:0.0
+END
+DEP
+m_Visible:1
+m_X:0
+m_Y:48
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:5
+m_HeaderOnly:0
+m_Column:AOBT:5:1:103:0:0:0:UK Controller Plugin:::3:0.0
+m_Column:EDT:5:0:102:0:0:0:UK Controller Plugin:::3:0.0
+m_Column:Slot:5:1:44:29:12:0::::4:0.0
+m_Column:STS:4:1:59:28:28:1::::4:0.0
+m_Column:C/S:7:0:9:0:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:GS:3:1:40:0:0:0::::3:0.0
+m_Column:DEPA:4:1:61:9004:0:1::UK Controller Plugin::3:0.0
+m_Column:AC:7:1:105:7:7:1:UK Controller Plugin:::3:0.0
+m_Column:SPad:8:1:19:29:29:1::::4:0.0
+m_Column:R:2:1:63:7:7:1::::3:0.0
+m_Column:DEST:4:1:17:7:7:1::::3:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:Alt:4:1:20:11:9002:1:::UK Controller Plugin:4:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:C:1:1:58:27:0:1::::4:0.0
+m_Column:DCL:3:1:444:544:544:1:vSMR:vSMR:vSMR:4:0.0
+m_Column:RFL:4:1:22:30:30:1::::3:0.0
+m_Column:NFREQ:7:0:107:0:0:1:UK Controller Plugin:::1:0.0
+m_Column:RLS:3:1:124:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column::6:0:125:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:PRE:3:1:127:9017:9018:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+END
+ARR
+m_Visible:0
+m_X:555
+m_Y:50
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:AC:6:1:78:0:0:1::::3:0.0
+m_Column:R:1:1:63:7:7:1::::3:0.0
+m_Column:Dest:4:0:17:7:7:1::::3:0.0
+m_Column:SPad:7:1:19:29:29:1::::4:0.0
+m_Column:Std:4:1:44:29:12:1::::4:0.0
+END
+FP
+m_Visible:0
+m_X:1761
+m_Y:724
+m_LineNumber:20
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::0:0.0
+m_Column:Dep:5:1:61:0:0:1::::3:0.0
+m_Column:Dest:5:1:17:7:7:1::::3:0.0
+END
+CONFLICT
+m_Visible:0
+m_X:0
+m_Y:600
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:TYPE:6:1:88:0:36:1::::1:0.0
+m_Column:C/S:7:0:9:0:36:1::::0:0.0
+m_Column:C/S:7:0:85:0:36:1::::1:0.0
+m_Column:START:6:1:86:0:36:1::::1:0.0
+m_Column:END:6:1:87:0:36:1::::1:0.0
+END
+PILOTING
+m_Visible:0
+m_X:291
+m_Y:805
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:*:4:0:90:41:0:1::::1:0.0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:SPD:5:0:94:12:0:1::::1:0.0
+m_Column:ALT:10:0:95:11:0:1::::1:0.0
+m_Column:HDG:10:0:96:14:0:1::::1:0.0
+m_Column:WP:6:0:91:42:0:1::::1:0.0
+m_Column:TO:4:0:100:37:0:1::::1:0.0
+m_Column:LAND:7:0:101:38:0:1::::1:0.0
+m_Column:TX:6:0:102:39:0:1::::1:0.0
+m_Column:TXB:6:0:103:40:0:1::::1:0.0
+m_Column:HOLD:5:0:104:43:0:1::::1:0.0
+END
+ORIGPLANE
+m_Visible:0
+m_X:70
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:C:2:0:105:0:0:1::::1:0.0
+m_Column:APT:5:0:106:0:0:1::::1:0.0
+m_Column:DATA:7:0:107:0:0:1::::1:0.0
+END
+STUP
+m_Visible:0
+m_X:80
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:TIME:5:1:98:0:0:1::::1:0.0
+m_Column:TOBT:5:1:97:0:0:1::::1:0.0
+m_Column:SLOT:5:1:99:0:0:1::::1:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:ADES:4:1:17:7:0:1::::1:0.0
+m_Column:SID:9:0:56:17:17:1::::1:0.0
+m_Column:CFL:4:1:20:11:0:1::::1:0.0
+m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:E:1:1:58:27:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
+TAXIOUT
+m_Visible:0
+m_X:90
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:DSQ:3:1:57:0:0:1::::1:0.0
+m_Column:SLOT:5:1:99:0:0:1::::1:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:ADES:4:1:17:7:0:1::::1:0.0
+m_Column:SID:9:0:56:17:17:1::::1:0.0
+m_Column:CFL:4:1:20:11:0:1::::1:0.0
+m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:E:1:1:58:27:0:1::::1:0.0
+m_Column:TTOT:5:1:108:0:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
+TAKEOFF
+m_Visible:0
+m_X:100
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:DSQ:3:1:57:0:0:1::::1:0.0
+m_Column:SLOT:5:1:99:0:0:1::::1:0.0
+m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:SID:9:0:56:17:17:1::::1:0.0
+m_Column:CFL:4:1:20:11:0:1::::1:0.0
+m_Column:ASSR:5:1:60:31:31:1::::1:0.0
+m_Column:E:1:1:58:27:0:1::::1:0.0
+m_Column:TTOT:5:1:108:0:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
+ADCS
+m_Visible:0
+m_X:110
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:COPX:5:0:51:21:21:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
+TAXIIN
+m_Visible:0
+m_X:120
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:STN:4:1:19:29:0:1::::1:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
