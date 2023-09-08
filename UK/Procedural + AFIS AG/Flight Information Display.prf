@@ -13,7 +13,6 @@ Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\FID\FID_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
