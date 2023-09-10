@@ -30,6 +30,7 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\vParkAir.dll
 Plugins	Plugin3Display0	Park Air Radar
+Plugins Plugin4 \..\Data\Plugin\VFPC.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
