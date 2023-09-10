@@ -1,4 +1,4 @@
-1. Bug - Fixed controller atises for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
+1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
