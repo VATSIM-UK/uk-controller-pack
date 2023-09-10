@@ -11,7 +11,7 @@ PROFILE:EGGP_TWR:30:4
 ATIS2:"Liverpool Tower"
 ATIS3:Voice ATIS on 124.330
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGGP_GND:10:4
+PROFILE:EGGP_GND:10:3
 ATIS2:"Liverpool Ground"
 ATIS3:Voice ATIS on 124.330
 ATIS4:Submit feedback at vats.im/atcfb
