@@ -492,6 +492,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
+TAGFAMILY:
 WINDOWAREA:48.934790:-4.251780:50.127726:-0.651477
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -539,7 +540,7 @@ PLUGIN:vParkAir:SelexColor0:16777215
 PLUGIN:vParkAir:SelexColor1:16777215,16777215
 PLUGIN:vParkAir:SelexColor2:16777215,16777215,16777215,3135737
 PLUGIN:vParkAir:SelexColor3:16777215,12970102
-PLUGIN:vParkAir:SelexEnbld:1
+PLUGIN:vParkAir:SelexEnbld:0
 PLUGIN:vParkAir:SelexLine1:%callsign%,%comm%
 PLUGIN:vParkAir:SelexLine2:%vsi%,%level%,%ic%,%cleared_level%
 PLUGIN:vParkAir:SelexLine3:%ggs%,%hdg%
