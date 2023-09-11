@@ -14,7 +14,6 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Bristol\Bristol SMR.asr
 RecentFiles	Recent1	\..\Data\ASR\Bristol\Bristol SMR.asr
