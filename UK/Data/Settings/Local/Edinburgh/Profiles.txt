@@ -1,22 +1,22 @@
 PROFILE
 PROFILE:EGPH_APP:100:5
-ATIS2:"Edinburgh Radar"
+ATIS2:Edinburgh Radar
 ATIS3:Voice ATIS on 131.355
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_F_APP:100:5
-ATIS2:"Edinburgh Radar"
+ATIS2:Edinburgh Radar
 ATIS3:Voice ATIS on 131.355
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_TWR:30:4
-ATIS2:"Edinburgh Tower"
+ATIS2:Edinburgh Tower
 ATIS3:Voice ATIS on 131.355
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_GND:10:3
-ATIS2:"Edinburgh Ground"
+ATIS2:Edinburgh Ground
 ATIS3:Voice ATIS on 131.355
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_DEL:10:2
-ATIS2:"Edinburgh Delivery"
+ATIS2:Edinburgh Delivery
 ATIS3:Voice ATIS on 131.355
 ATIS4:Submit feedback at vats.im/atcfb
 END
