@@ -1,7 +1,7 @@
 PROFILE
 PROFILE:EGPD_APP:100:5
 ATIS2:Aberdeen Radar
-ATIS3:Voice ATIS available 121.850
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPD_H_APP:100:5
 ATIS2:Aberdeen Radar
@@ -9,14 +9,14 @@ ATIS3:Covering North Sea Helicopter Operations
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPD_F_APP:100:5
 ATIS2:Aberdeen Director
-ATIS3:Voice ATIS available 121.850
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPD_TWR:30:4
 ATIS2:Aberdeen Tower
-ATIS3:Voice ATIS available 121.850
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPD_GND:10:4
 ATIS2:Aberdeen Ground
-ATIS3:Voice ATIS available 121.850
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 END
