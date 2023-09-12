@@ -15,32 +15,30 @@ Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\..\Data\ASR\AC_SC\SC_Ground.asr
-RecentFiles	Recent2	\..\..\Data\ASR\AC_SC\Birmingham SMR.asr
+RecentFiles	Recent1	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
+RecentFiles	Recent2	\..\..\Data\ASR\AC_SC\Gatwick SMR.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_SC\Stansted SMR.asr
-RecentFiles	Recent4	\..\..\Data\ASR\AC_SC\Gatwick SMR.asr
-RecentFiles	Recent5	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
-RecentFiles	Recent6	\..\..\Data\ASR\AC_SC\SC2G.asr
-RecentFiles	Recent7	\..\..\Data\ASR\AC_SC\SC1G.asr
-RecentFiles	Recent8	\..\..\Data\ASR\AC_SC\SC3G.asr
-RecentFiles	Recent9	\..\..\Data\ASR\AC_SC\SC4G.asr
-ASRFastKeys	1	\..\..\Data\ASR\AC_SC\SC1G.asr
-ASRFastKeys	2	\..\..\Data\ASR\AC_SC\SC2G.asr
-ASRFastKeys	3	\..\..\Data\ASR\AC_SC\SC3G.asr
-ASRFastKeys	4	\..\..\Data\ASR\AC_SC\SC4G.asr
-ASRFastKeys	5	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
-ASRFastKeys	6	\..\..\Data\ASR\AC_SC\Gatwick SMR.asr
-ASRFastKeys	7	\..\..\Data\ASR\AC_SC\Stansted SMR.asr
-ASRFastKeys	8	\..\..\Data\ASR\AC_SC\Birmingham SMR.asr
-ASRFastKeys	9	\..\..\Data\ASR\AC_SC\SC_Ground.asr
+RecentFiles	Recent4	\..\..\Data\ASR\AC_SC\Birmingham SMR.asr
+RecentFiles	Recent5	\..\..\Data\ASR\AC_SC\SC_Ground.asr
+RecentFiles	Recent6	\..\..\Data\ASR\AC_SC\SC_Ground2.asr
+RecentFiles	Recent7	\..\..\Data\ASR\AC_SC\SC_Ground3.asr
+RecentFiles	Recent8	\..\..\Data\ASR\AC_SC\SC_Ground4.asr
+RecentFiles	Recent9	\..\..\Data\ASR\AC_SC\SC_Ground5.asr
+ASRFastKeys	1	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
+ASRFastKeys	2	\..\..\Data\ASR\AC_SC\Gatwick SMR.asr
+ASRFastKeys	3	\..\..\Data\ASR\AC_SC\Stansted SMR.asr
+ASRFastKeys	4	\..\..\Data\ASR\AC_SC\Birmingham SMR.asr
+ASRFastKeys	5	\..\..\Data\ASR\AC_SC\SC_Ground.asr
+ASRFastKeys	6	\..\..\Data\ASR\AC_SC\SC_Ground2.asr
+ASRFastKeys	7	\..\..\Data\ASR\AC_SC\SC_Ground3.asr
+ASRFastKeys	8	\..\..\Data\ASR\AC_SC\SC_Ground4.asr
+ASRFastKeys	9	\..\..\Data\ASR\AC_SC\SC_Ground5.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
-Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
-Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
-Plugins	Plugin2Display0	Standard ES radar screen
-Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
