@@ -1,6 +1,6 @@
 Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Edinburgh\Plugins.txt
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Edinburgh\Profiles.txt
-Settings	SettingsfileSCREEN	\..\Data\Settings\Sc_APP\Sc_APP_Screen.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Sc_APP\Sc_APP_Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice_Scottish.txt
 Settings	Settingsfile	\..\Data\Settings\Sc_APP\Sc_APP_General.txt
 Settings	SettingsfileARR	\..\Data\Settings\Sc_APP\Sc_APP_AL_SMR.txt
