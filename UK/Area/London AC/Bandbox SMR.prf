@@ -1,6 +1,6 @@
 Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\AC_BB_Plugins.txt
 Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\AC_Profiles_No-CPDLC.txt
-Settings	SettingsfileSCREEN	\..\..\Data\Settings\AC\AC_Screen_SMR.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\TC_APP\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\Data\Settings\AC\AC_General.txt
 Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
