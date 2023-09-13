@@ -25,15 +25,15 @@ ATIS3:Fighter control for VSOA assets ONLY.
 ATIS4:
 PROFILE:EG_APP:150:5
 ATIS2: Approach
-ATIS3:Feedback at vats.im/atcfb
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
 PROFILE:EG_Z_APP:150:5
 ATIS2: Zone
-ATIS3:Feedback at vats.im/atcfb
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
 PROFILE:EG_F_APP:150:5
 ATIS2: Director
-ATIS3:Feedback at vats.im/atcfb
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
 PROFILE:EG_P_APP:150:5
 ATIS2: Talkdown
@@ -41,10 +41,10 @@ ATIS3:For SRA/PAR only.
 ATIS4:
 PROFILE:EG_TWR:50:4
 ATIS2: Tower
-ATIS3:Feedback at vats.im/atcfb
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
 PROFILE:EG_GND:20:3
 ATIS2: Ground
-ATIS3:Feedback at vats.im/atcfb
+ATIS3:Submit feedback at vats.im/atcfb
 ATIS4:
 END
