@@ -36,12 +36,12 @@ m_ScreenMaximized:0
 m_ShowTitleSelectedAc:1
 m_PlanesListX:21
 m_PlanesListY:695
-m_MetarListX:1185
-m_MetarListY:61
-m_VoiceListX:1460
-m_VoiceListY:57
-m_ControllerListX:1746
-m_ControllerListY:57
+m_MetarListX:1291
+m_MetarListY:24
+m_VoiceListX:1259
+m_VoiceListY:45
+m_ControllerListX:1787
+m_ControllerListY:24
 m_ShowPlaneRangeRingsTracked:0
 m_ShowPlaneRangeRingsUntracked:0
 m_PlaneRangeRingsDistance1:1.5
@@ -51,7 +51,7 @@ m_PlaneRangeRingsDistance4:0.0
 m_ShowTooltips:0
 m_OnTheGroundAltitude:5000
 m_OnTheGroundSpeed:50
-m_ShowCdtOnCflCheck:1
+m_ShowCdtOnCflCheck:0
 m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
