@@ -30,7 +30,7 @@ m_ShowTitleMetar:1
 m_ConnectSELtoSIL:1
 m_ConnectDEPtoSEL:0
 m_ConnectSILtoTOP:0
-m_ScreenNumber:1
+m_ScreenNumber:0
 m_ScreenPosition:0
 m_ScreenMaximized:0
 m_ShowTitleSelectedAc:1
