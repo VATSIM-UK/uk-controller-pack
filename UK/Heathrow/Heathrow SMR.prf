@@ -1,10 +1,10 @@
 Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Heathrow\Plugins.txt
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Heathrow\Profiles.txt
-Settings	SettingsfileSCREEN	\..\Data\Settings\TC_APP\TC_APP_Screen_SMR.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Local\Heathrow\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
 Settings	SettingsfileARR	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileCONFLICT	\..\Data\Settings\TC_APP\TC_APP_C.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileDEP	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
 Settings	SettingsfileFP	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
 Settings	SettingsfileSEL	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
