@@ -4,7 +4,7 @@ Settings	SettingsfileSCREEN	\..\..\Data\Settings\STC\STC_Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice_Scottish.txt
 Settings	Settingsfile	\..\..\Data\Settings\STC\STC_General.txt
 Settings	SettingsfileARR	\..\..\Data\Settings\Lists_SMR.txt
-Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileFP	\..\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_SMR.txt
