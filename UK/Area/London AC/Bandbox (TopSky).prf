@@ -53,5 +53,3 @@ LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep
 LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
-TeamSpeakVccs	TsVccsMiniControlX	697
-TeamSpeakVccs	TsVccsMiniControlY	24
