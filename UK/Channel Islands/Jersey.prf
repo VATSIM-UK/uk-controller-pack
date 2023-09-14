@@ -47,3 +47,6 @@ LastSession	atis_freq0	134675
 LastSession	atis_callsign0	EGJJ_ATIS
 LastSession	atis_callsign1	EGJB_ATIS
 LastSession	atis_freq1	118900
+
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24

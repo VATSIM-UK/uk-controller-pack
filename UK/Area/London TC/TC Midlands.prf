@@ -49,3 +49,6 @@ ASRFastKeys	5	\..\..\Data\ASR\LTC\Birmingham SMR.asr
 ASRFastKeys	6	\..\..\Data\ASR\LTC\East Midlands SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\LTC\Luton SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\LTC\TCM_Ground.asr
+
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24

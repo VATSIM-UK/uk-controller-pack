@@ -41,3 +41,6 @@ Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
+
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24
