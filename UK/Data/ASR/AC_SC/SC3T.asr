@@ -1301,8 +1301,6 @@ Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125C:freetext
 Free Text:Airspace Bases\FL125D:freetext
@@ -1332,9 +1330,15 @@ Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
@@ -1426,7 +1430,6 @@ Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95E:freetext
@@ -1474,6 +1477,7 @@ Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3500':freetext
 Free Text:EGGD Airspace Bases\4000':freetext
+Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4500':freetext
 Free Text:EGGP Airspace Bases\1500':freetext
 Free Text:EGGP Airspace Bases\2000':freetext
@@ -1490,6 +1494,15 @@ Free Text:EGGW Airspace Bases\4500':freetext
 Free Text:EGKK Airspace Bases\1500':freetext
 Free Text:EGLC Airspace Bases\1500':freetext
 Free Text:EGLC Airspace Bases\1500':freetext
+Free Text:EGLF Airspace Bases\1500':freetext
+Free Text:EGLF Airspace Bases\2000':freetext
+Free Text:EGLF Airspace Bases\2000':freetext
+Free Text:EGLF Airspace Bases\2500':freetext
+Free Text:EGLF Airspace Bases\2500':freetext
+Free Text:EGLF Airspace Bases\2500':freetext
+Free Text:EGLF Airspace Bases\3500':freetext
+Free Text:EGLF Airspace Bases\4500'E:freetext
+Free Text:EGLF Airspace Bases\5500'E:freetext
 Free Text:EGMC Airspace Bases\1500':freetext
 Free Text:EGMC Airspace Bases\1500':freetext
 Free Text:EGMC Airspace Bases\1500':freetext
@@ -1703,7 +1716,6 @@ VORs:TIR:symbol
 VORs:TLA:symbol
 VORs:TNT:symbol
 VORs:TRN:symbol
-VORs:VES:symbol
 VORs:VLN:symbol
 VORs:VYL:symbol
 VORs:WAD:symbol
