@@ -3,12 +3,12 @@ Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\TC_N_Profiles.txt
 Settings	SettingsfileSCREEN	\..\..\Data\Settings\LTC\LTC_Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\Data\Settings\LTC\LTC_General.txt
-Settings	SettingsfileARR	\..\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_SMR.txt
-Settings	SettingsfileFP	\..\..\Data\Settings\Lists_SMR.txt
-Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_SMR.txt
-Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
