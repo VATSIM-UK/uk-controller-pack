@@ -2827,8 +2827,8 @@ DISABLEZOOMING:0
 DisplayRotation:3.00000
 TAGFAMILY:Alternative
 WINDOWAREA:53.151561:-0.570572:53.186281:-0.463288
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1711
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:916
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100

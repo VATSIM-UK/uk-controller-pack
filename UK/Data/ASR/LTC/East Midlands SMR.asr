@@ -2434,20 +2434,39 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:52.818482:-1.368711:52.843705:-1.289597
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:72
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:44
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:835
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:25
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
-PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
 PLUGIN:vSMR:GndTrailsDots:0

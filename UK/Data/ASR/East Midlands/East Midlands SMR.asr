@@ -2693,8 +2693,11 @@ DISABLEZOOMING:0
 DisplayRotation:1.80000
 TAGFAMILY:AC
 WINDOWAREA:52.817811:-1.362997:52.839839:-1.296516
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1514
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:835
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:25
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2714,13 +2717,16 @@ PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
-PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1595
-PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:111
+PLUGIN:UK Controller PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
 PLUGIN:vSMR:Airport:EGNX
 PLUGIN:vSMR:GndTrailsDots:0

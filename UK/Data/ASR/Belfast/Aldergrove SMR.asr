@@ -2676,12 +2676,12 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:54.637348:-6.268228:54.670110:-6.164653
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1512
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:58
-PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
-PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
-PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:835
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:25
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2701,8 +2701,8 @@ PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
-PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1594
-PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:108
+PLUGIN:UK Controller PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
@@ -2713,5 +2713,8 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.ATMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BELFAST
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
 PLUGIN:vSMR:Airport:EGAA
 PLUGIN:vSMR:GndTrailsDots:0

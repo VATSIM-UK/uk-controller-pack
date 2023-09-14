@@ -21,12 +21,12 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1197
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:62
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:835
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:25
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -46,8 +46,8 @@ PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1306
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:120
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
-PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1280
-PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:113
+PLUGIN:UK Controller PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1148
@@ -55,7 +55,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:120
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGJJ;tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_PORTLAND;ASR_WESSEX
-PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
-PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
 PLUGIN:vSMR:Airport:EGJJ
