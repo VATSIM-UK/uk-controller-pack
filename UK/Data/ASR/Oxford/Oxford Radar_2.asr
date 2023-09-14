@@ -1566,8 +1566,8 @@ PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
