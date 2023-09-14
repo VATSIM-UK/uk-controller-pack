@@ -2970,9 +2970,9 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:0.00000
+DisplayRotation:14.60000
 TAGFAMILY:AC
-WINDOWAREA:50.723014:-3.449147:50.745319:-3.378631
+WINDOWAREA:50.728135:-3.436321:50.741555:-3.393893
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

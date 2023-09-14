@@ -3045,9 +3045,9 @@ HISTORY_DOTS:3
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:0.00000
-TAGFAMILY:Matias (built in)
-WINDOWAREA:49.702488:-2.230591:49.712650:-2.199921
+DisplayRotation:11.60000
+TAGFAMILY:AC
+WINDOWAREA:49.703087:-2.228783:49.711676:-2.201629
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

@@ -1,6 +1,8 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+SECTORFILE:UK\Data\Sector\UK_2023_09.sct
+SECTORTITLE:UK_2023_09.sct
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
@@ -3144,7 +3146,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:50.721968:-3.457180:50.748180:-3.374312
+WINDOWAREA:50.098417:-5.685243:50.107006:-5.658089
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3185,5 +3187,5 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:vSMR:Airport:EGTE
+PLUGIN:vSMR:Airport:EGHC
 PLUGIN:vSMR:GndTrailsDots:0
