@@ -4,6 +4,8 @@
 3. Enhancement - Archived old ATIS sound files - thanks to @luke11brown (Luke Brown)
 4. Bug - Reinstated squawk error indicator to TopSky A+C correlated (detailed) tags - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Intial climb info added to controller information lines - thanks to @luke11brown (Luke Brown)
+6. Bug - Corrected Manchester Delivery (EGCC_DEL) profile type - thanks to @PLM1995 (Peter Mooney)
+
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
 2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
