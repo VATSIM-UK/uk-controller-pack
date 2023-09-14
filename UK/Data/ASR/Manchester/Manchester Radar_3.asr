@@ -2190,7 +2190,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:700
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDAYNEMaxLevel:14000
 PLUGIN:UK Controller Plugin:holdDAYNEMinimised:0
