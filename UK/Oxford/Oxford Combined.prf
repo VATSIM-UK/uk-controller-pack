@@ -14,7 +14,6 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Midlands.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Oxford\Oxford Radar_2.asr
 RecentFiles	Recent2	\..\Data\ASR\Oxford\Oxford Radar_1.asr
