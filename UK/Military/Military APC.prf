@@ -14,7 +14,6 @@ Settings	SettingsfileTAGS	\..\Data\Settings\Tags_mil.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Military\Mil APC.asr
 RecentFiles	Recent2	\..\Data\ASR\Military\Coningsby_SMR.asr
