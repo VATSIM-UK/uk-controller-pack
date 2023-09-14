@@ -1,6 +1,6 @@
 Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\TC_Plugins.txt
 Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\TC_Profiles.txt
-Settings	SettingsfileSCREEN	\..\..\Data\Settings\LTC\LTC_Screen.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\Data\Settings\LTC\LTC_General.txt
 Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
