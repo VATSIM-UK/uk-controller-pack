@@ -2844,7 +2844,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:1
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:700
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
