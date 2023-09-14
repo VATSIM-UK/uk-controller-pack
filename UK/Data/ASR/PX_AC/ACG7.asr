@@ -3029,8 +3029,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:57.183690:-2.264504:57.224643:-2.136051
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:72
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:44
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
@@ -3043,5 +3043,5 @@ PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849

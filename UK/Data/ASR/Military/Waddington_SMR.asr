@@ -2847,10 +2847,10 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1818
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:834
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH

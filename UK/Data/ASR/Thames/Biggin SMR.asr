@@ -3111,15 +3111,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
-PLUGIN:UK Controller PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1

@@ -1575,8 +1575,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:50.923459:-4.707912:51.869874:-1.978755
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1593,15 +1593,15 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:1
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1404
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:62
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
 PLUGIN:vSMR:Airport:EGFF
