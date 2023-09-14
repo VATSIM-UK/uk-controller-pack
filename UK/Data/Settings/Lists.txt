@@ -1,7 +1,7 @@
 SIL
 m_Visible:1
-m_X:37
-m_Y:67
+m_X:0
+m_Y:45
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:7
@@ -25,8 +25,8 @@ m_Column:SI:3:1:64:20:20:1::::1:0.0
 END
 SEL
 m_Visible:1
-m_X:37
-m_Y:97
+m_X:0
+m_Y:75
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:6
@@ -56,8 +56,8 @@ m_Column:CFL:3:1:119:9010:0:0:UK Controller Plugin:UK Controller Plugin::1:0.0
 END
 DEP
 m_Visible:1
-m_X:676
-m_Y:64
+m_X:467
+m_Y:46
 m_LineNumber:10
 m_Resizable:1
 m_OrderingColumn:4
