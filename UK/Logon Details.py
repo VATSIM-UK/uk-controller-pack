@@ -5,6 +5,8 @@ import time
 
 Name = input("Enter Name: ")
 os.system('cls')
+Initials = input("Enter Initials (for _OBS callsign):")
+os.system('cls')
 CID = input("Enter CID: ")
 os.system('cls')
 #User selects controller rating from list
@@ -21,8 +23,6 @@ input_message += 'Your choice: '
 
 while rating not in map(str, range(0, len(options))):
     rating = input(input_message)
-
-print (rating)
 #Password = input("Enter Password: ")
 #os.system('cls')
 # Left commented as password is stored plain text, could be uncommented later
@@ -45,6 +45,7 @@ PrfVCCS=("TeamSpeakVccs Ts3NickName	"+CID)
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
 Prfrating=("LastSession	rating	"+rating)
+EseInitials=(Initials)
 #PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
@@ -60,6 +61,13 @@ for root, dirs, files in os.walk(os.getcwd()):
             with open(file_path, 'r') as f:
                 line = f.read()
                 line = line.replace("END", "vSMR:cpdlc_password:"+CPDLC+"\nEND")
+                writeFile = open(file_path, "w")
+                writeFile.write(line)
+        elif file.endswith(".ese"):
+            file_path = os.path.join(root, file)
+            with open(file_path, 'r') as f:
+                line = f.read()
+                line = line.replace(f"EXAMPLE", str(EseInitials))
                 writeFile = open(file_path, "w")
                 writeFile.write(line)
 
