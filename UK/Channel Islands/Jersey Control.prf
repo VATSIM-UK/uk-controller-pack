@@ -12,7 +12,6 @@ Settings	SettingsfileFP	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Channel Islands\Plugins.txt
 Settings	Settingsfile	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 LastSession	atis_airport	EGJJ
