@@ -22,7 +22,7 @@ f.close
 
 # Add CID as Nickname to VCCS profiles
 
-PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
+PrfVCCS=("TeamSpeakVccs Ts3NickName	"+CID)
 
 # Appeding "LastSession" to user input
 
@@ -37,7 +37,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"\n{PrfName}\n{PrfCID}\n")
+                f.write(f"\n{PrfName}\n{PrfCID}\n{PrfVCCS}\n")
         elif file.endswith("Plugins.txt"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
