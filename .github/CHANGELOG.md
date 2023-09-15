@@ -7,6 +7,7 @@
 6. Enhancement - TopSky airspace management window opened on start up - thanks to @luke11brown (Luke Brown)
 7. Bug - Corrected Manchester Delivery (EGCC_DEL) profile type - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Channel islands profile/display further refined - thanks to @luke11brown (Luke Brown)
+9. Bug - Changed Glasgow (EGPF) freetext alignment to 'Center Center' - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
