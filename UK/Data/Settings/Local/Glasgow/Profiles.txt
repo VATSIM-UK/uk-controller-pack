@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGPF_APP:100:5
-ATIS2:"Glasgow Radar"
-ATIS3:Voice ATIS on 129.575
+ATIS2:Glasgow Radar
+ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPF_F_APP:100:5
-ATIS2:"Glasgow Director"
-ATIS3:Voice ATIS on 129.575
+ATIS2:Glasgow Director
+ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPF_TWR:30:4
-ATIS2:"Glasgow Tower"
-ATIS3:Voice ATIS on 129.575
+ATIS2:Glasgow Tower
+ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPF_GND:10:4
-ATIS2:"Glasgow Ground"
-ATIS3:Voice ATIS on 129.575
+ATIS2:Glasgow Ground
+ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
 END
