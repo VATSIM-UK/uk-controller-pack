@@ -8,6 +8,12 @@
 7. Bug - Corrected Manchester Delivery (EGCC_DEL) profile type - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Channel islands profile/display further refined - thanks to @luke11brown (Luke Brown)
 9. Bug - Changed Glasgow (EGPF) freetext alignment to 'Center Center' - thanks to @PLM1995 (Peter Mooney)
+10. Enhancement - Standardised profile naming in all airport folders - thanks to @luke11brown (Luke Brown)
+11. Enhancement - Added new SMR only profiles for all area positions/profiles - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Harmonised list settings across profiles, with separate lists for TopSky, SMRs, APP, etc. - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Added VFPC (Virtual Flight Plan Checker) plugin to all lists and profiles - thanks to @luke11brown (Luke Brown)
+14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
+15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
