@@ -41,11 +41,12 @@ f.close
 PrfVCCS=("TeamSpeakVccs Ts3NickName	"+CID)
 
 # Appeding "LastSession" to user input
+EseInitials=(Initials)
 
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
 Prfrating=("LastSession	rating	"+rating)
-EseInitials=(Initials)
+PrfOBSCallsign=("LastSession callsign	"+EseInitials+"_OBS")
 #PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
@@ -55,7 +56,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"\n{PrfName}\n{PrfCID}\n{Prfrating}\n{PrfVCCS}\n")
+                f.write(f"\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n{PrfVCCS}\n")
         elif file.endswith("Plugins.txt"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
