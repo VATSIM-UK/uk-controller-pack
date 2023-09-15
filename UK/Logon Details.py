@@ -7,6 +7,22 @@ Name = input("Enter Name: ")
 os.system('cls')
 CID = input("Enter CID: ")
 os.system('cls')
+#User selects controller rating from list
+options = ['OBS', 'S1', 'S2', 'S3', 'C1', 'C2', 'C3',  'I1', 'I2', 'I3', 'SUP', 'ADM']
+
+rating = ''
+
+input_message = "Select Controller Rating:\n"
+
+for index, item in enumerate(options):
+    input_message += f'{index}) {item}\n'
+
+input_message += 'Your choice: '
+
+while rating not in map(str, range(0, len(options))):
+    rating = input(input_message)
+
+print (rating)
 #Password = input("Enter Password: ")
 #os.system('cls')
 # Left commented as password is stored plain text, could be uncommented later
@@ -28,6 +44,7 @@ PrfVCCS=("TeamSpeakVccs Ts3NickName	"+CID)
 
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
+Prfrating=("LastSession	rating	"+rating)
 #PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
@@ -37,7 +54,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"\n{PrfName}\n{PrfCID}\n{PrfVCCS}\n")
+                f.write(f"\n{PrfName}\n{PrfCID}\n{Prfrating}\n{PrfVCCS}\n")
         elif file.endswith("Plugins.txt"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
