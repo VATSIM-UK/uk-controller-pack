@@ -23,6 +23,7 @@ input_message += 'Your choice: '
 
 while rating not in map(str, range(0, len(options))):
     rating = input(input_message)
+os.system('cls')
 #Password = input("Enter Password: ")
 #os.system('cls')
 # Left commented as password is stored plain text, could be uncommented later
