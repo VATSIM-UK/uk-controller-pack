@@ -1,14 +1,14 @@
 Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\TC_M_Plugins.txt
 Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\TC_M_Profiles.txt
-Settings	SettingsfileSCREEN	\..\..\Data\Settings\LTC\LTC_Screen.txt
+Settings	SettingsfileSCREEN	\..\..\Data\Settings\Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\Data\Settings\LTC\LTC_General.txt
-Settings	SettingsfileARR	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileDEP	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileFP	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileSEL	\..\..\Data\Settings\Lists.txt
-Settings	SettingsfileSIL	\..\..\Data\Settings\Lists.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists_Area.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists_Area.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_Area.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists_Area.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_Area.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
@@ -23,6 +23,7 @@ Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins Plugin4 \..\Data\Plugin\VFPC.dll
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
@@ -49,3 +50,6 @@ ASRFastKeys	5	\..\..\Data\ASR\LTC\Birmingham SMR.asr
 ASRFastKeys	6	\..\..\Data\ASR\LTC\East Midlands SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\LTC\Luton SMR.asr
 ASRFastKeys	8	\..\..\Data\ASR\LTC\TCM_Ground.asr
+
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24
