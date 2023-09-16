@@ -28,14 +28,9 @@ jobs:
       - name: Run Python script
         run: pyinstaller --onefile ./UK/LogonDetails.py
 
-      - name: Debug
-        run: |
-          ls /home/runner/work/uk-controller-pack/uk-controller-pack/dist/
-          ls dist
-
       # Upload artifacts
       - name: Upload Executable As Artifact
         uses: actions/upload-artifact@v2
         with:
           name: "Logon Details.exe"
-          path: ".\\UK\\LogonDetails.exe"
+          path: ".\\dist\\LogonDetails"
