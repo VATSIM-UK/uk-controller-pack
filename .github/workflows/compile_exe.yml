@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     name: Build
+    runs-on: ubuntu-latest
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
