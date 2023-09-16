@@ -26,7 +26,7 @@ jobs:
         run: pip install pyinstaller
 
       - name: Run Python script
-        run: pyinstaller --onefile ./UK/LogonDetails.py
+        run: pyinstaller --onefile -n LogonDetails.exe ./UK/LogonDetails.py
 
       - name: Debug
         run: |
@@ -37,5 +37,5 @@ jobs:
       - name: Upload Executable As Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: "Logon Details.exe"
-          path: "dist//LogonDetails"
+          name: "Logon Details"
+          path: "dist//LogonDetails.exe"
