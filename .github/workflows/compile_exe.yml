@@ -26,9 +26,12 @@ jobs:
         run: pip install pyinstaller
 
       - name: Run Python script
-        env:
-            REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
         run: pyinstaller --onefile ./UK/LogonDetails.py
+
+      - name: Debug
+        run: |
+          ls /home/runner/work/uk-controller-pack/uk-controller-pack/dist/
+          ls dist
 
       # Upload artifacts
       - name: Upload Executable As Artifact
