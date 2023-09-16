@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+
+jobs:
+  build:
+    name: Build
+    concurrency:
+      group: uk-controller-pack-build-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install pyinstaller
+          
+          `pip install pyinstaller` then `pyinstaller --onefile LogonDetails.py`
+
+      - name: Run Python script
+        env:
+            REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
+        run: pyinstaller --onefile ./UK/LogonDetails.py
+
+      # Upload artifacts
+      - name: Upload Executable As Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: "Logon Details.exe"
+          path: ".\\UK\\LogonDetails.exe"
