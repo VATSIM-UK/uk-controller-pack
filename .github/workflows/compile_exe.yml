@@ -24,8 +24,6 @@ jobs:
 
       - name: Install Dependencies
         run: pip install pyinstaller
-          
-          `pip install pyinstaller` then `pyinstaller --onefile LogonDetails.py`
 
       - name: Run Python script
         env:
