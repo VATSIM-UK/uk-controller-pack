@@ -37,5 +37,5 @@ jobs:
       - name: Upload Executable As Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: "Logon Details"
+          name: "Logon Details.exe"
           path: "dist//LogonDetails.exe"
