@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: "Logon Details.exe"
-          path: ".\\dist\\LogonDetails"
+          path: "dist\\LogonDetails"
