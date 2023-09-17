@@ -3128,8 +3128,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:24.00000
 TAGFAMILY:AC
-WINDOWAREA:54.640772:-6.257318:54.666982:-6.174458
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:AirspaceBasesPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
