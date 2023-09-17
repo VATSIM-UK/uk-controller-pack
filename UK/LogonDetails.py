@@ -63,7 +63,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"{PrfVCCS}\n\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n")
+                f.write(f"\n{PrfVCCS}\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n")
         elif file.endswith("Plugins.txt"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
