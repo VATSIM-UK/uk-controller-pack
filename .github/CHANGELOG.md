@@ -1,7 +1,20 @@
 # Changes from release 2023/09 to 2023/10
 1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
-1. Bug - Corrected Liverpool Ground profile type - thanks to @PLM1995 (Peter Mooney)
-X. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
+2. Bug - Corrected Liverpool Ground profile type - thanks to @PLM1995 (Peter Mooney)
+3. Enhancement - Archived old ATIS sound files - thanks to @luke11brown (Luke Brown)
+4. Bug - Reinstated squawk error indicator to TopSky A+C correlated (detailed) tags - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Intial climb info added to controller information lines - thanks to @luke11brown (Luke Brown)
+6. Enhancement - TopSky airspace management window opened on start up - thanks to @luke11brown (Luke Brown)
+7. Bug - Corrected Manchester Delivery (EGCC_DEL) profile type - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Channel islands profile/display further refined - thanks to @luke11brown (Luke Brown)
+9. Bug - Changed Glasgow (EGPF) freetext alignment to 'Center Center' - thanks to @PLM1995 (Peter Mooney)
+10. Enhancement - Standardised profile naming in all airport folders - thanks to @luke11brown (Luke Brown)
+11. Enhancement - Added new SMR only profiles for all area positions/profiles - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Harmonised list settings across profiles, with separate lists for TopSky, SMRs, APP, etc. - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Added VFPC (Virtual Flight Plan Checker) plugin to all lists and profiles - thanks to @luke11brown (Luke Brown)
+14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
+15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
+16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)

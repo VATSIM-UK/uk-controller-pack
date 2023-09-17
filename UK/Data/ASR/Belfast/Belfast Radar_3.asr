@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
 Airports:000A:symbol
 Airports:EGAA:symbol
 Airports:EGAB:symbol
@@ -2156,12 +2154,12 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1515
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:53
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:1
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1191
@@ -2192,8 +2190,8 @@ PLUGIN:UK Controller Plugin:holdTARTNMinimised:1
 PLUGIN:UK Controller Plugin:holdTARTNMinLevel:7000
 PLUGIN:UK Controller Plugin:holdTARTNPositionX:494
 PLUGIN:UK Controller Plugin:holdTARTNPositionY:212
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1402
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:51
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1599
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:194
@@ -2203,8 +2201,8 @@ PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1576
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.ATMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BELFAST
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
