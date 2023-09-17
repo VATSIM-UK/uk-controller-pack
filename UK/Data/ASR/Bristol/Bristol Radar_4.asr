@@ -3620,4 +3620,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGGD
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
 PLUGIN:vSMR:Airport:EGGD
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,NERC

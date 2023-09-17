@@ -414,4 +414,4 @@ PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
 PLUGIN:vSMR:Airport:EGTK
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels,NERC

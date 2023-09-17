@@ -3355,4 +3355,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGNX;tma.MTMA;airfield.EGBB
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BARNSLEY
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,NERC

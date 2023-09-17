@@ -2193,4 +2193,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_ORKNEY;ASR_PETREL;ASR_
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-PLUGIN:TopSky plugin:HideMapData:FixLabels
+PLUGIN:TopSky plugin:HideMapData:FixLabels,NERC

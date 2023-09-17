@@ -1585,4 +1585,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;A
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabels,NERC
