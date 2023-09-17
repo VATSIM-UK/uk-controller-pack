@@ -397,7 +397,6 @@ MAP:Berry Head CTA 2/4 (Weekends Only)
 FOLDER:Conditional Airspace
 STYLE:solid:1
 FONTSIZE:*:.75
-ASRDATA:NERC
 COLOR:Active_Map
 //Berry Head CTA 2
 LINE:N051.15.05.000:W002.53.35.000:N050.42.16.000:W002.59.36.000
