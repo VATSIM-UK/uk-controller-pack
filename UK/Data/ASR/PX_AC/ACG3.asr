@@ -3260,7 +3260,8 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:330.50000
 TAGFAMILY:AC
-PLUGIN:TopSky plugin:HideMapData:FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+WINDOWAREA:55.487547:-4.648769:55.520308:-4.545194
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200

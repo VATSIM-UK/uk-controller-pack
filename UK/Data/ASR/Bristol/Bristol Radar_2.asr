@@ -1803,7 +1803,8 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases,FixLabelsPLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+WINDOWAREA:51.004212:-3.861686:51.761344:-1.576648
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1196
 PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:185

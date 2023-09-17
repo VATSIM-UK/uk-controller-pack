@@ -3581,7 +3581,8 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-PLUGIN:TopSky plugin:HideMapData:AirspaceBasesPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+WINDOWAREA:55.400944:-5.094672:56.499056:-1.650328
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
