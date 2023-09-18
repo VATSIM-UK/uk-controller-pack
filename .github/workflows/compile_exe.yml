@@ -18,7 +18,8 @@ jobs:
 
       - name: Check for Changes
         uses: dorny/paths-filter@v2
-        id: changes
+        outputs:
+          build-exe: ${{ steps.filter.outputs.build-exe }}
         with:
           filters: |
             build-exe:
