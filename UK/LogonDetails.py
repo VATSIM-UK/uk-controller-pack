@@ -42,7 +42,7 @@ f.close
 
 # Add CID as Nickname to VCCS profiles
 
-PrfVCCS=("TeamSpeakVccs    Ts3NickName	"+CID)
+PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
 
 #Set intials as object
 
