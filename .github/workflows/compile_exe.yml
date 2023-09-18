@@ -7,9 +7,32 @@ on:
   pull_request:
 
 jobs:
-  build:
-    name: Build
+  changes:
+    name: Check for Changes
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Check If Changes
+        uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            build-exe:
+              - './UK/LogonDetails.py'
+
+      - name: Check if change is detected
+
+        run: echo 'ran';
+
+  build-exe:
+    name: Build EXE
     runs-on: windows-latest
+    needs: changes
+    if: ${{ needs.changes.outputs.backend == 'true' }}
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
@@ -25,12 +48,15 @@ jobs:
       - name: Install Dependencies
         run: pip install pyinstaller
 
-      - name: Run Python script
-        run: pyinstaller --onefile -n LogonDetails.exe ./UK/LogonDetails.py
+      - name: Run Python Script
+        run: pyinstaller --distpath ./UK/ --onefile -n LogonDetails.exe ./UK/LogonDetails.py
 
-      # Upload artifacts
-      - name: Upload Executable As Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: "Logon Details.exe"
-          path: "dist//LogonDetails.exe"
+      - name: Debug
+        run: ls ./UK/
+
+      - name: Commit exe File
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./UK/LogonDetails.exe
+          git commit -m "Update LogonDetails.exe"
