@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: read
+    outputs:
+      build-exe: ${{ steps.filter.outputs.build-exe }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
 
       - name: Check for Changes
         uses: dorny/paths-filter@v2
-        outputs:
-          build-exe: ${{ steps.filter.outputs.build-exe }}
         with:
           filters: |
             build-exe:
