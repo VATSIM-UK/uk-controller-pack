@@ -26,8 +26,8 @@ input_message += 'Your choice: '
 while rating not in map(str, range(0, len(options))):
     rating = input(input_message)
 os.system('cls')
-#Password = input("Enter Password: ")
-#os.system('cls')
+Password = input("Enter Password: ")
+os.system('cls')
 # Left commented as password is stored plain text, could be uncommented later
 
 #Hoppie CPDLC logon code
@@ -54,7 +54,7 @@ PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
 Prfrating=("LastSession	rating	"+rating)
 PrfOBSCallsign=("LastSession	callsign	"+EseInitials+"_OBS")
-#PrfPassword=("LastSession	password	"+Password)
+PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files
 
