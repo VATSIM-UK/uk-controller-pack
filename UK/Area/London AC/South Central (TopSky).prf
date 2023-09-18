@@ -53,8 +53,3 @@ LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep
 LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
-TeamSpeakVccs	Ts3NickName	1116943
-LastSession	realname	Luke
-LastSession	certificate	1116943
-LastSession callsign	LB_OBS
-LastSession	rating	6

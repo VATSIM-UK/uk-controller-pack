@@ -22,5 +22,4 @@ UK Controller Plugin:missedApproachServiceProvision:28
 UK Controller Plugin:missedApproachAirfields:EGBE
 vSMR:cpdlc_logon:EGBB
 vSMR:cpdlc_sound:1
-vSMR:cpdlc_password:A32
 END
