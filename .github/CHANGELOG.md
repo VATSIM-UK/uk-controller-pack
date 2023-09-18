@@ -15,6 +15,7 @@
 14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
 15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
 16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
+X. Bug - TopSky CARD and shortcut menus default positions moved to reasonable locations - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
