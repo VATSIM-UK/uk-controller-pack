@@ -53,7 +53,7 @@ EseInitials=(Initials)
 PrfName=("LastSession	realname	"+Name)
 PrfCID=("LastSession	certificate	"+CID)
 Prfrating=("LastSession	rating	"+rating)
-PrfOBSCallsign=("LastSession callsign	"+EseInitials+"_OBS")
+PrfOBSCallsign=("LastSession	callsign	"+EseInitials+"_OBS")
 #PrfPassword=("LastSession	password	"+Password)
 
 # Adds all .prf files to an array and then writes to all those files

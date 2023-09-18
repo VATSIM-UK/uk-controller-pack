@@ -21,4 +21,5 @@ UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
 vSMR:cpdlc_logon:EGHI
 vSMR:cpdlc_sound:1
+vSMR:cpdlc_password:A32
 END

@@ -98,4 +98,5 @@ TopSky plugin:ACList/Traffic Management List 2/m_Resizable:1
 TopSky plugin:ACList/Traffic Management List 2/m_OrderingColumn:1
 TopSky plugin:ACList/Traffic Management List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Traffic Management List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+vSMR:cpdlc_password:A32
 END
