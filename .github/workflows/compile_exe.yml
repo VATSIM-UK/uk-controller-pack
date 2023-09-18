@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
 
-      - name: Check If Changes
+      - name: Check for Changes
         uses: dorny/paths-filter@v2
         id: changes
         with:
@@ -24,15 +24,11 @@ jobs:
             build-exe:
               - './UK/LogonDetails.py'
 
-      - name: Check if change is detected
-
-        run: echo 'ran';
-
   build-exe:
     name: Build EXE
     runs-on: windows-latest
     needs: changes
-    if: ${{ needs.changes.outputs.backend == 'true' }}
+    if: ${{ needs.changes.outputs.build-exe == 'true' }}
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
