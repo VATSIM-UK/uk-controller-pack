@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - '*'
-  pull_request:
 
 jobs:
   changes:
@@ -48,12 +47,10 @@ jobs:
       - name: Run Python Script
         run: pyinstaller --distpath ./UK/ --onefile -n LogonDetails.exe ./UK/LogonDetails.py
 
-      - name: Debug
-        run: ls ./UK/
-
       - name: Commit exe File
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ./UK/LogonDetails.exe
           git commit -m "Update LogonDetails.exe"
+          git push
