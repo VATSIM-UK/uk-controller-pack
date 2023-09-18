@@ -11,6 +11,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\FID\FID_Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\FID\FID_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\FID\FID_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS.txt
 Settings	sector	UK\Data\Sector\UK_2023_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
@@ -35,6 +36,5 @@ RecentFiles	Recent1	\..\Data\ASR\FID\FID.asr
 RecentFiles	Recent2	\..\Data\ASR\FID\Generic SMR.asr
 ASRFastKeys	1	\..\Data\ASR\FID\FID.asr
 ASRFastKeys	2	\..\Data\ASR\FID\Generic SMR.asr
-
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
