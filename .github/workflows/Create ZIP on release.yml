@@ -3,10 +3,11 @@ name: Create ZIP on Release
 on:
   release:
     types:
-      - created
+      - published
+  workflow_dispatch:
 
 jobs:
-  package:
+  Create ZIP on release:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +16,7 @@ jobs:
 
       - name: Copy README from docs folder
         run: |
-          cp \_docs\README.pdf UK\README.pdf
+          cp _docs/README.pdf UK/README.pdf
 
       - name: Get Release Tag
         id: get_release_tag
@@ -24,10 +25,12 @@ jobs:
 
       - name: Package Folder as ZIP
         run: |
-          zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" \UK\ -x "*.py"
+          zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
           
-      - name: Upload ZIP Artifact
-        uses: actions/upload-artifact@v2
+      - name: Upload ZIP as Release Asset
+        uses: softprops/action-gh-release@v1
         with:
-          name: my-package
-          path: "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip"
+          files: |
+            uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
