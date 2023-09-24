@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - 'main'
-      - '548'
 
 jobs:
   changes:
@@ -29,8 +28,8 @@ jobs:
   build-exe:
     name: Build EXE
     runs-on: windows-latest
-#    needs: changes
-#    if: ${{ needs.changes.outputs.build == 'true' }}
+    needs: changes
+    if: ${{ needs.changes.outputs.build == 'true' }}
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
