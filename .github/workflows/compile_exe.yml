@@ -15,7 +15,7 @@ jobs:
       build: ${{ steps.filter.outputs.build }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Check for Changes
         uses: dorny/paths-filter@v2
@@ -35,7 +35,9 @@ jobs:
       cancel-in-progress: true
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -50,8 +52,8 @@ jobs:
 
       - name: Commit exe File
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
           git add ./UK/LogonDetails.exe
           git commit -m "Update LogonDetails.exe"
           git push
