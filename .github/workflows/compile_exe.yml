@@ -1,4 +1,4 @@
-name: Build
+name: Complie LogonDetails.exe
 
 on:
   push:
