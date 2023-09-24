@@ -39,9 +39,11 @@ jobs:
         run: |
           last_release_commit="${{ steps.last_release_commit.outputs.stdout }}"
           # Get the tag name of the latest release
+
           latest_release_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
       
-          # List all .prf files that were modified except for those with only "Settings	sector" changes
+          # List all .prf files that were modified except for those with only "Settings Sector" changes
+
           changed_files=$(git diff --diff-filter=d --name-only -z "$last_release_commit"^ | \
                           xargs -0 git diff --name-only "$last_release_commit" HEAD -- | \
                           grep -vE '\.prf$' | grep -vE 'Settings	sector')
