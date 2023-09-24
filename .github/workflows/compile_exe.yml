@@ -36,6 +36,9 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -50,8 +53,8 @@ jobs:
 
       - name: Commit exe File
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
           git add ./UK/LogonDetails.exe
           git commit -m "Update LogonDetails.exe"
           git push
