@@ -73,7 +73,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"\n{PrfVCCS}\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n")
+                f.write(f"\n{PrfVCCS}\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n{PrfPassword}\n")
 
 # Adds CPDLC code to Plugins.txt files for vSMR use
 
