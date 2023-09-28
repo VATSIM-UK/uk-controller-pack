@@ -15,8 +15,7 @@
 14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
 15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
 16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
-X. Bug - RAVSA-INLIM line now only displays to Thames & LC DIR - thanks to @luke11brown (Luke Brown)
-X. TopSky daylight savings dates updated for Oct 2023/Mar 2024 - thanks to @luke11brown (Luke Brown)
+X. Enhancement (TopSky) - Daylight saving dates updated for Oct 2023/Mar 2024 for auto map display - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
