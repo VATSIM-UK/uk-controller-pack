@@ -1,6 +1,6 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2023-09-04
+Last Updated:	2023-09-21
 ========================================================
 
 ========================================================
@@ -175,7 +175,7 @@ Runway
 .tof From $1, Runway $deprwy($dep), surface wind $wind($dep), cleared for takeoff
 
 .cto Hold position, cancel take-off, I say again, cancel take-off acknowledge
-.stop Stop immediately, I say again, $callsign, stop immediately acknowledge
+.stop Stop immediately, I say again, $aircraft, stop immediately acknowledge
 
 .ca Runway $arrrwy($arr), surface wind $wind($arr), continue approach.
 .land Runway $arrrwy($arr), surface wind $wind($arr), cleared to land.
