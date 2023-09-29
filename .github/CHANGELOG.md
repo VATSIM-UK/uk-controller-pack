@@ -18,6 +18,7 @@
 18. Bug - TopSky tags now use TopSky sector indicator - thanks to @luke11brown (Luke Brown)
 19. Bug - Flight Information Display now set up for VCCS use - thanks to @luke11brown (Luke Brown)
 20. Enhancement (TopSky) - Daylight saving dates updated for Oct 2023/Mar 2024 for auto map display - thanks to @luke11brown (Luke Brown)
+21. Procedure Change (2310) - 8.33 Trial (ENR Phase 2) - all non-event area frequencies updated - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
