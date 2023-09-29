@@ -17,6 +17,7 @@
 16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
 17. Bug - Fixed callsign error in .stop alias - thanks to @PLM1995 (Peter Mooney)
 18. Bug - TopSky tags now use TopSky sector indicator - thanks to @luke11brown (Luke Brown)
+19. Bug - Flight Information Display now set up for VCCS use - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
