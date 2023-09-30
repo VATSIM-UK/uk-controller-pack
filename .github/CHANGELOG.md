@@ -21,6 +21,7 @@
 20. Enhancement (TopSky) - Daylight saving dates updated for Oct 2023/Mar 2024 for auto map display - thanks to @luke11brown (Luke Brown)
 21. Procedure Change (2310) - 8.33 Trial (ENR Phase 2) - all non-event area frequencies amended - thanks to @luke11brown (Luke Brown)
 22. Procedure Change (2310) - 8.33 Trial (AD Phase 2) - EGKK frequencies amended - thanks to @luke11brown (Luke Brown)
+x. Enhancement - Added Hold Manager on APP displays - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
