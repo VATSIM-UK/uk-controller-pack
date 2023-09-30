@@ -400,7 +400,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdCHASEMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdCHASEMinimised:0
+PLUGIN:UK Controller Plugin:holdCHASEMinLevel:7000
+PLUGIN:UK Controller Plugin:holdCHASEPositionX:148
+PLUGIN:UK Controller Plugin:holdCHASEPositionY:519
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdGROVEMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdGROVEMinimised:0
+PLUGIN:UK Controller Plugin:holdGROVEMinLevel:7000
+PLUGIN:UK Controller Plugin:holdGROVEPositionX:1534
+PLUGIN:UK Controller Plugin:holdGROVEPositionY:510
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
@@ -410,6 +420,7 @@ PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:selectedHolds:CHASE;GROVE
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGBB;tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BARNSLEY
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
