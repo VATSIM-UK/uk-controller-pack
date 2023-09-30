@@ -3028,7 +3028,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:57.182885:-2.264504:57.225448:-2.136051
+WINDOWAREA:55.486496:-4.653947:55.529059:-4.519386
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3069,3 +3069,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
+PLUGIN:vSMR:Airport:EGPK
