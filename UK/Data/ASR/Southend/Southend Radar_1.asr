@@ -449,6 +449,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdGEGMUMaxLevel:6000
+PLUGIN:UK Controller Plugin:holdGEGMUMinimised:0
+PLUGIN:UK Controller Plugin:holdGEGMUMinLevel:4000
+PLUGIN:UK Controller Plugin:holdGEGMUPositionX:1436
+PLUGIN:UK Controller Plugin:holdGEGMUPositionY:826
+PLUGIN:UK Controller Plugin:holdSPEARMaxLevel:7000
+PLUGIN:UK Controller Plugin:holdSPEARMinimised:0
+PLUGIN:UK Controller Plugin:holdSPEARMinLevel:4000
+PLUGIN:UK Controller Plugin:holdSPEARPositionX:153
+PLUGIN:UK Controller Plugin:holdSPEARPositionY:804
+PLUGIN:UK Controller Plugin:selectedHolds:GEGMU;SPEAR
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
