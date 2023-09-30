@@ -3589,10 +3589,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_ORKNEY;ASR_PETREL;ASR_
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-PLUGIN:UK Controller Plugin:holdADNMaxLevel:11000
-PLUGIN:UK Controller Plugin:holdADNMinimised:0
-PLUGIN:UK Controller Plugin:holdADNMinLevel:2000
-PLUGIN:UK Controller Plugin:holdADNPositionX:1418
-PLUGIN:UK Controller Plugin:holdADNPositionY:618
-PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:selectedHolds:ADN
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:0

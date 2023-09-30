@@ -3599,10 +3599,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BELFAST
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-PLUGIN:UK Controller Plugin:holdBELMaxLevel:15000
-PLUGIN:UK Controller Plugin:holdBELMinimised:0
-PLUGIN:UK Controller Plugin:holdBELMinLevel:7000
-PLUGIN:UK Controller Plugin:holdBELPositionX:161
-PLUGIN:UK Controller Plugin:holdBELPositionY:641
-PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:selectedHolds:BEL
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:0
