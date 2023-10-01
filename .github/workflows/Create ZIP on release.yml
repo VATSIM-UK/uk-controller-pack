@@ -1,4 +1,4 @@
-name: Create ZIPs on Release
+name: Create ZIP on Release
 
 on:
   release:
