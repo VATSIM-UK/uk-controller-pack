@@ -3575,7 +3575,6 @@ PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
-PLUGIN:UK Controller Plugin:holdDisplayVisibility:0
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
@@ -3590,3 +3589,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_ORKNEY;ASR_PETREL;ASR_
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:0

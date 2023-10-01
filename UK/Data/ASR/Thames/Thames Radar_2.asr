@@ -1546,6 +1546,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdGODLUMaxLevel:12000
+PLUGIN:UK Controller Plugin:holdGODLUMinimised:0
+PLUGIN:UK Controller Plugin:holdGODLUMinLevel:8000
+PLUGIN:UK Controller Plugin:holdGODLUPositionX:123
+PLUGIN:UK Controller Plugin:holdGODLUPositionY:776
+PLUGIN:UK Controller Plugin:holdJACKOMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdJACKOMinimised:0
+PLUGIN:UK Controller Plugin:holdJACKOMinLevel:8000
+PLUGIN:UK Controller Plugin:holdJACKOPositionX:1432
+PLUGIN:UK Controller Plugin:holdJACKOPositionY:729
+PLUGIN:UK Controller Plugin:selectedHolds:GODLU;JACKO
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1

@@ -2321,7 +2321,6 @@ Free Text:SCT2\T6:freetext
 Free Text:SCT2\Terminal:freetext
 Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
-Free Text:SCT2\TULLA:freetext
 Free Text:SCT2\TP-L1:freetext
 Free Text:SCT2\TP-L2:freetext
 Free Text:SCT2\TP-L3:freetext
@@ -2335,6 +2334,7 @@ Free Text:SCT2\TP-X:freetext
 Free Text:SCT2\TP-Y:freetext
 Free Text:SCT2\TP-Y:freetext
 Free Text:SCT2\TP-Z:freetext
+Free Text:SCT2\TULLA:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
@@ -2431,11 +2431,16 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:1.7700
+DisplayRotation:1.77000
 TAGFAMILY:AC
-WINDOWAREA:52.818482:-1.368711:52.843705:-1.289597
+WINDOWAREA:52.815861:-1.368890:52.841084:-1.289149
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
 PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
