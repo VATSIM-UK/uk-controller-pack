@@ -34,33 +34,3 @@ jobs:
             uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create changes only zip
-        run: |
-          last_release_commit="${{ steps.last_release_commit.outputs.stdout }}"
-          # Get the tag name of the latest release
-
-          latest_release_tag=$(git describe --tags $(git rev-list --tags --max-count=1))
-      
-          # List all .prf files that were modified except for those with only "Settings Sector" changes
-
-          changed_files=$(git diff --diff-filter=d --name-only -z "$last_release_commit"^ | \
-                          xargs -0 git diff --name-only "$last_release_commit" HEAD -- | \
-                          grep -vE '\.prf$' | grep -vE 'Settings	sector')
-      
-          # Create a zip file with the remaining changed files and include the latest release tag in the filename
-          if [ -n "$changed_files" ]; then
-            zip_filename="changes_only_${latest_release_tag}.zip"
-            git archive -o "$zip_filename" HEAD -- $changed_files
-            echo "Created $zip_filename"
-          else
-            echo "No changes detected since last release."
-          fi
-
-      - name: Upload changes only ZIP as Release Asset
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            changes_only_${{ steps.get_release_tag.outputs.tag }}.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
