@@ -3269,9 +3269,9 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:245.20000
+DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:51.322866:0.015056:51.336286:0.057485
+WINDOWAREA:50.936894:-1.398237:50.963106:-1.315368
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3312,5 +3312,5 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:vSMR:Airport:EGKB
+PLUGIN:vSMR:Airport:EGHI
 PLUGIN:vSMR:GndTrailsDots:0

@@ -3144,7 +3144,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:52.194515:0.141852:52.215485:0.208148
+WINDOWAREA:51.452345:-0.512787:51.485111:-0.409200
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3156,8 +3156,8 @@ PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
 PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
-PLUGIN:UK Controller Plugin:DisplayMinStack:1
-PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
@@ -3185,5 +3185,5 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:vSMR:Airport:EGSS
+PLUGIN:vSMR:Airport:EGLL
 PLUGIN:vSMR:GndTrailsDots:0

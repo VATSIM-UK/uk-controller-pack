@@ -2321,33 +2321,33 @@ Free Text:SCT2\T6:freetext
 Free Text:SCT2\Terminal:freetext
 Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
+Free Text:SCT2\TP-L1:freetext
+Free Text:SCT2\TP-L1:freetext
+Free Text:SCT2\TP-L2:freetext
+Free Text:SCT2\TP-L2:freetext
+Free Text:SCT2\TP-L3:freetext
+Free Text:SCT2\TP-L3:freetext
+Free Text:SCT2\TP-L4:freetext
+Free Text:SCT2\TP-L4:freetext
+Free Text:SCT2\TP-L5:freetext
+Free Text:SCT2\TP-L5:freetext
+Free Text:SCT2\TP-L6:freetext
+Free Text:SCT2\TP-L6:freetext
+Free Text:SCT2\TP-L7:freetext
+Free Text:SCT2\TP-L7:freetext
+Free Text:SCT2\TP-V:freetext
+Free Text:SCT2\TP-V:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Z:freetext
+Free Text:SCT2\TP-Z:freetext
 Free Text:SCT2\TULLA:freetext
-Free Text:SCT2\TP-L1:freetext
-Free Text:SCT2\TP-L2:freetext
-Free Text:SCT2\TP-L3:freetext
-Free Text:SCT2\TP-L4:freetext
-Free Text:SCT2\TP-L5:freetext
-Free Text:SCT2\TP-L6:freetext
-Free Text:SCT2\TP-L7:freetext
-Free Text:SCT2\TP-V:freetext
-Free Text:SCT2\TP-X:freetext
-Free Text:SCT2\TP-X:freetext
-Free Text:SCT2\TP-Y:freetext
-Free Text:SCT2\TP-Y:freetext
-Free Text:SCT2\TP-Z:freetext
-Free Text:SCT2\TP-L1:freetext
-Free Text:SCT2\TP-L2:freetext
-Free Text:SCT2\TP-L3:freetext
-Free Text:SCT2\TP-L4:freetext
-Free Text:SCT2\TP-L5:freetext
-Free Text:SCT2\TP-L6:freetext
-Free Text:SCT2\TP-L7:freetext
-Free Text:SCT2\TP-V:freetext
-Free Text:SCT2\TP-X:freetext
-Free Text:SCT2\TP-X:freetext
-Free Text:SCT2\TP-Y:freetext
-Free Text:SCT2\TP-Y:freetext
-Free Text:SCT2\TP-Z:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
 Free Text:SCT2\U:freetext
@@ -2444,23 +2444,47 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:303.7000
+DisplayRotation:303.70000
 TAGFAMILY:AC
-WINDOWAREA:52.445131:-1.779144:52.466099:-1.712854
+WINDOWAREA:52.441663:-1.789107:52.467874:-1.706244
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
-PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
 PLUGIN:vSMR:GndTrailsDots:0
