@@ -10,7 +10,7 @@ Fixes:symbol:12434813:1.0:0:0:7
 Fixes:name:12434813:3.5:0:0:1
 Sids:line:2325967:3.0:0:0:7
 Stars:line:14537424:3.0:2:0:7
-ARTCC high boundary:line:11448454:3.0:0:1:7
+ARTCC high boundary:line:14537424:3.0:0:1:7
 ARTCC boundary:line:7435206:3.0:0:0:7
 ARTCC low boundary:line:14537424:3.0:2:0:7
 Geo:line:16777215:3.0:0:0:7
@@ -21,7 +21,7 @@ NDBs:symbol:6579300:1.0:0:0:7
 NDBs:name:8421504:3.5:0:0:12
 NDBs:frequency:8421504:3.5:0:0:0
 Runways:centerline:8421504:3.5:0:0:7
-Runways:extended centerline:13487565:3.5:0:0:7
+Runways:extended centerline:12434813:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
 Datablock:non concerned:16777215:3.2:0:0:7
 Datablock:notified:16777215:3.2:0:0:7

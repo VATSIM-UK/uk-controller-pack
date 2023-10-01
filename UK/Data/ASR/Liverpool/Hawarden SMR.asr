@@ -202,6 +202,7 @@ Free Text:SCT2\113:freetext
 Free Text:SCT2\114:freetext
 Free Text:SCT2\114:freetext
 Free Text:SCT2\116:freetext
+Free Text:SCT2\11A:freetext
 Free Text:SCT2\12:freetext
 Free Text:SCT2\12:freetext
 Free Text:SCT2\12:freetext
@@ -537,6 +538,8 @@ Free Text:SCT2\219:freetext
 Free Text:SCT2\21A:freetext
 Free Text:SCT2\21B:freetext
 Free Text:SCT2\21C:freetext
+Free Text:SCT2\21E:freetext
+Free Text:SCT2\21W:freetext
 Free Text:SCT2\22:freetext
 Free Text:SCT2\22:freetext
 Free Text:SCT2\22:freetext
@@ -646,6 +649,7 @@ Free Text:SCT2\256:freetext
 Free Text:SCT2\257:freetext
 Free Text:SCT2\258:freetext
 Free Text:SCT2\25A:freetext
+Free Text:SCT2\25B:freetext
 Free Text:SCT2\25L:freetext
 Free Text:SCT2\25R:freetext
 Free Text:SCT2\26:freetext
@@ -846,6 +850,7 @@ Free Text:SCT2\39:freetext
 Free Text:SCT2\39:freetext
 Free Text:SCT2\39:freetext
 Free Text:SCT2\39:freetext
+Free Text:SCT2\3A:freetext
 Free Text:SCT2\3F:freetext
 Free Text:SCT2\3R:freetext
 Free Text:SCT2\4:freetext
@@ -1744,8 +1749,10 @@ Free Text:SCT2\AB13:freetext
 Free Text:SCT2\AE2:freetext
 Free Text:SCT2\AF1:freetext
 Free Text:SCT2\AG1:freetext
+Free Text:SCT2\Aircraft Parking:freetext
 Free Text:SCT2\AL1:freetext
 Free Text:SCT2\AL2:freetext
+Free Text:SCT2\Apron:freetext
 Free Text:SCT2\Apron 1:freetext
 Free Text:SCT2\Apron 2:freetext
 Free Text:SCT2\Apron 3:freetext
@@ -2540,9 +2547,13 @@ Free Text:SCT2\Heli 7:freetext
 Free Text:SCT2\Heli A:freetext
 Free Text:SCT2\Heli B:freetext
 Free Text:SCT2\Heli E:freetext
+Free Text:SCT2\Heli East:freetext
 Free Text:SCT2\Heli N:freetext
 Free Text:SCT2\Heli S:freetext
 Free Text:SCT2\Heli W:freetext
+Free Text:SCT2\Heli West:freetext
+Free Text:SCT2\Helicoper Hoversquare:freetext
+Free Text:SCT2\Heliport:freetext
 Free Text:SCT2\HORKA:freetext
 Free Text:SCT2\HTA-N:freetext
 Free Text:SCT2\HX:freetext
@@ -2789,6 +2800,7 @@ Free Text:SCT2\P3:freetext
 Free Text:SCT2\P3:freetext
 Free Text:SCT2\P4:freetext
 Free Text:SCT2\PLUTO:freetext
+Free Text:SCT2\Police Air Support:freetext
 Free Text:SCT2\PR:freetext
 Free Text:SCT2\Q:freetext
 Free Text:SCT2\Q:freetext
@@ -2797,6 +2809,7 @@ Free Text:SCT2\Q1:freetext
 Free Text:SCT2\Q1:freetext
 Free Text:SCT2\Q1:freetext
 Free Text:SCT2\Q1:freetext
+Free Text:SCT2\Q2:freetext
 Free Text:SCT2\Q3:freetext
 Free Text:SCT2\QR:freetext
 Free Text:SCT2\R:freetext
@@ -2950,9 +2963,11 @@ Free Text:SCT2\T7:freetext
 Free Text:SCT2\T8:freetext
 Free Text:SCT2\T9:freetext
 Free Text:SCT2\Terminal:freetext
+Free Text:SCT2\TG:freetext
 Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
 Free Text:SCT2\Tower Apron:freetext
+Free Text:SCT2\TP-D:freetext
 Free Text:SCT2\TP-L1:freetext
 Free Text:SCT2\TP-L2:freetext
 Free Text:SCT2\TP-L3:freetext
@@ -3082,182 +3097,10 @@ Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
-Geo:EGAA Belfast Aldergrove:
-Geo:EGAC Belfast City:
-Geo:EGAE City of Derry:
-Geo:EGBB Birmingham:
-Geo:EGBE Coventry:
-Geo:EGBJ Gloucestershire:
-Geo:EGBO Wolverhampton Halfpenny:
-Geo:EGBP Kemble:
-Geo:EGBW Wellesbourne:
-Geo:EGCB Barton:
-Geo:EGCC Manchester:
-Geo:EGCN Doncaster:
-Geo:EGDR Culdrose:
-Geo:EGDY Yeovilton:
-Geo:EGFF Cardiff:
-Geo:EGFH Swansea:
-Geo:EGGD Bristol:
 Geo:EGGP Liverpool:
-Geo:EGGW London Luton:
-Geo:EGHC Land's End:
-Geo:EGHE Scilly Isles/St Mary's:
-Geo:EGHF Lee-on-Solent:
-Geo:EGHH Bournemouth:
-Geo:EGHH Stand Lines (New):
-Geo:EGHI Southampton:
-Geo:EGHJ Bembridge:
-Geo:EGHL Lasham:
-Geo:EGHO Thruxton:
-Geo:EGHQ Newquay:
-Geo:EGHR Goodwood:
-Geo:EGJA Alderney:
-Geo:EGJB Guernsey:
-Geo:EGJJ Jersey:
-Geo:EGKA Shoreham:
-Geo:EGKB Biggin Hill:
-Geo:EGKK Gatwick:
-Geo:EGKR Redhill:
-Geo:EGLC City:
-Geo:EGLF Farnborough:
-Geo:EGLK Blackbushe:
-Geo:EGLL Heathrow:
-Geo:EGMC Southend:
-Geo:EGMD Lydd:
-Geo:EGNC Carlisle:
-Geo:EGNH Blackpool:
-Geo:EGNJ Humberside:
-Geo:EGNL Walney:
-Geo:EGNM Leeds Bradford:
-Geo:EGNO Warton:
 Geo:EGNR Hawarden:
-Geo:EGNS Isle of Man:
-Geo:EGNT Newcastle:
-Geo:EGNV Teesside:
-Geo:EGNX East Midlands:
-Geo:EGOS Shawbury:
-Geo:EGOV Valley:
-Geo:EGPA Kirkwall:
-Geo:EGPB Sumburgh:
-Geo:EGPC Wick:
-Geo:EGPD Aberdeen:
-Geo:EGPE Inverness:
-Geo:EGPF Glasgow:
-Geo:EGPG Cumbernauld:
-Geo:EGPH Edinburgh:
-Geo:EGPK Prestwick:
-Geo:EGPL Benbecula:
-Geo:EGPN Dundee:
-Geo:EGPO Stornoway:
-Geo:EGQL Leuchars:
-Geo:EGQS Lossiemouth:
-Geo:EGSC Cambridge:
-Geo:EGSH Norwich:
-Geo:EGSS London Stansted:
-Geo:EGSU Duxford:
-Geo:EGSX North Weald:
-Geo:EGSY St Athan:
-Geo:EGTB Wycombe Air Park/Booker:
-Geo:EGTC Cranfield:
-Geo:EGTE Exeter:
-Geo:EGTF Fairoaks:
-Geo:EGTK Oxford:
-Geo:EGTR Elstree:
-Geo:EGVA Fairford:
-Geo:EGVN Brize Norton:
-Geo:EGWU Northolt:
-Geo:EGXC Coningsby:
-Geo:EGXE Leeming:
-Geo:EGXW Waddington:
-Geo:EGYD Cranwell:
-Geo:EGYM Marham:
-Regions:Aberdeen Dyce:polygon
-Regions:Alderney:polygon
-Regions:Barton:polygon
-Regions:Belfast Aldergrove:polygon
-Regions:Belfast City:polygon
-Regions:Bembridge:polygon
-Regions:Biggin:polygon
-Regions:Birmingham:polygon
-Regions:Blackbushe:polygon
-Regions:Blackpool:polygon
-Regions:Bournemouth:polygon
-Regions:Bristol:polygon
-Regions:Brize Norton:polygon
-Regions:Cambridge:polygon
-Regions:Cardiff:polygon
-Regions:Carlise:polygon
-Regions:City:polygon
-Regions:City of Derry:polygon
-Regions:Coningsby:polygon
-Regions:Coventry:polygon
-Regions:Cranfield:polygon
-Regions:Cranwell:polygon
-Regions:Culdrose:polygon
-Regions:Cumbernauld:polygon
-Regions:Doncaster:polygon
-Regions:Dundee:polygon
-Regions:Duxford:polygon
-Regions:East Midlands:polygon
-Regions:Edinburgh:polygon
-Regions:Elstree:polygon
-Regions:Exeter:polygon
-Regions:Fairford:polygon
-Regions:Fairoaks:polygon
-Regions:Farnborough:polygon
-Regions:Gatwick:polygon
-Regions:Glasgow:polygon
-Regions:Gloucestershire:polygon
-Regions:Goodwood:polygon
-Regions:Guernsey:polygon
 Regions:Hawarden:polygon
-Regions:Heathrow:polygon
-Regions:Humberside:polygon
-Regions:Inverness:polygon
-Regions:Isle of Man:polygon
-Regions:Jersey:polygon
-Regions:Kemble:polygon
-Regions:Kirkwall:polygon
-Regions:Land's End:polygon
-Regions:Lee-on-Solent:polygon
-Regions:Leeds:polygon
-Regions:Leeming:polygon
-Regions:Leuchars:polygon
-Regions:Liverpool:polygon
-Regions:Luton:polygon
-Regions:Lydd:polygon
-Regions:Manchester:polygon
-Regions:Marham:polygon
-Regions:Newcastle:polygon
-Regions:Newquay:polygon
-Regions:North Weald:polygon
-Regions:Northolt:polygon
-Regions:Norwich:polygon
-Regions:Oxford:polygon
-Regions:Prestwick:polygon
-Regions:Redhill:polygon
-Regions:Sandown:polygon
-Regions:Scilly Isles/St Mary's:polygon
-Regions:Shawbury:polygon
-Regions:Shoreham:polygon
-Regions:Southampton:polygon
-Regions:Southend:polygon
-Regions:St Athan:polygon
-Regions:Stansted:polygon
-Regions:Stornoway:polygon
-Regions:Sumburgh:polygon
-Regions:Swansea:polygon
-Regions:Teesside:polygon
-Regions:Thruxton:polygon
-Regions:Valley:polygon
-Regions:Waddington:polygon
-Regions:Warton:polygon
-Regions:Wellesbourne:polygon
-Regions:Wick:polygon
-Regions:Wolverhampton:polygon
-Regions:Wycombe Air Park/Booker:polygon
-Regions:Yeovilton:polygon
+Regions:Hawarden Extra Parking:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -3269,9 +3112,9 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:0.00000
+DisplayRotation:4.00000
 TAGFAMILY:AC
-WINDOWAREA:51.264723:-0.818905:51.290935:-0.736035
+WINDOWAREA:53.166514:-3.017271:53.192725:-2.934406
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3304,7 +3147,7 @@ PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
@@ -3312,5 +3155,5 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:vSMR:Airport:EGLF
+PLUGIN:vSMR:Airport:EGNR
 PLUGIN:vSMR:GndTrailsDots:0
