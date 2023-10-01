@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:
-SECTORTITLE:
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
 Free Text:SCT2\ L :freetext
@@ -3099,8 +3097,8 @@ Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
 Free Text:SCT2\Z2:freetext
-Geo:EGGP Liverpool:
-Regions:Liverpool:polygon
+Geo:EGNV Teesside:
+Regions:Teesside:polygon
 SHOWC:1
 SHOWSB:1
 BELOW:0
@@ -3112,9 +3110,9 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:4.00000
+DisplayRotation:203.80000
 TAGFAMILY:AC
-WINDOWAREA:53.325971:-2.879411:53.342746:-2.826378
+WINDOWAREA:54.495898:-1.469497:54.522108:-1.386636
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -3147,7 +3145,7 @@ PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
-PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
@@ -3155,5 +3153,5 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:vSMR:Airport:EGGP
+PLUGIN:vSMR:Airport:EGNV
 PLUGIN:vSMR:GndTrailsDots:0
