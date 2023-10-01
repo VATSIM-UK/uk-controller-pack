@@ -1560,6 +1560,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdTIMBAMaxLevel:15000
+PLUGIN:UK Controller Plugin:holdTIMBAMinimised:0
+PLUGIN:UK Controller Plugin:holdTIMBAMinLevel:7000
+PLUGIN:UK Controller Plugin:holdTIMBAPositionX:1438
+PLUGIN:UK Controller Plugin:holdTIMBAPositionY:676
+PLUGIN:UK Controller Plugin:holdWILLOMaxLevel:15000
+PLUGIN:UK Controller Plugin:holdWILLOMinimised:0
+PLUGIN:UK Controller Plugin:holdWILLOMinLevel:7000
+PLUGIN:UK Controller Plugin:holdWILLOPositionX:144
+PLUGIN:UK Controller Plugin:holdWILLOPositionY:677
+PLUGIN:UK Controller Plugin:selectedHolds:TIMBA;WILLO
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1

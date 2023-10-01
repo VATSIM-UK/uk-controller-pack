@@ -15,7 +15,18 @@
 14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
 15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
 16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
-X. Bug - TopSky CARD and shortcut menus default positions moved to reasonable locations - thanks to @luke11brown (Luke Brown)
+17. Bug - Fixed callsign error in .stop alias - thanks to @PLM1995 (Peter Mooney)
+18. Bug - TopSky tags now use TopSky sector indicator - thanks to @luke11brown (Luke Brown)
+19. Bug - Flight Information Display now set up for VCCS use - thanks to @luke11brown (Luke Brown)
+20. Enhancement (TopSky) - Daylight saving dates updated for Oct 2023/Mar 2024 for auto map display - thanks to @luke11brown (Luke Brown)
+21. Procedure Change (2310) - 8.33 Trial (ENR Phase 2) - all non-event area frequencies amended - thanks to @luke11brown (Luke Brown)
+22. Procedure Change (2310) - 8.33 Trial (AD Phase 2) - EGKK frequencies amended - thanks to @luke11brown (Luke Brown)
+23. Bug - Corrected 'PSR' trails to rotate with aircraft - thanks to @SamLefevre (Samuel Lefevre)
+24. Enhancement - Added Hold Manager on APP displays - thanks to @SamLefevre (Samuel Lefevre)
+25. Enhancement - Added APP additional top-down SMRs to profiles (e.g. EGNR SMR on EGGP profile) - thanks to @hazzas-99
+26. Enhancement - Turned off confirm messages for handoff requests ('Coordination' chat) - thanks to @hazzas-99
+27. Enhancement - Redcuced STCA pre-warning and warning time for APP profiles - thanks to @hazzas-99
+28. Bug - TopSky CARD and shortcut menus default positions moved to reasonable locations - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
