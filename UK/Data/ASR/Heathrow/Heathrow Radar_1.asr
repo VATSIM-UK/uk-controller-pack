@@ -273,10 +273,7 @@ ARTCC low boundary:EGCC Manchester CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
-ARTCC low boundary:EGFF Cardiff CTA:
-ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
-ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
@@ -327,6 +324,10 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
 Stars:Heathrow RMA Westerlies:
+VORs:BIG:symbol
+VORs:BNN:symbol
+VORs:LAM:symbol
+VORs:OCK:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -389,7 +390,6 @@ PLUGIN:UK Controller Plugin:holdOCKMinimised:1
 PLUGIN:UK Controller Plugin:holdOCKMinLevel:7000
 PLUGIN:UK Controller Plugin:holdOCKPositionX:138
 PLUGIN:UK Controller Plugin:holdOCKPositionY:940
-PLUGIN:UK Controller Plugin:selectedHolds:BIG;BNN;LAM;OCK
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
@@ -399,6 +399,7 @@ PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:selectedHolds:BIG;BNN;LAM;OCK
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
