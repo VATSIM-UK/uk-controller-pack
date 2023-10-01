@@ -280,10 +280,7 @@ ARTCC low boundary:EGCC Manchester CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
-ARTCC low boundary:EGFF Cardiff CTA:
-ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
-ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
@@ -1423,28 +1420,7 @@ Fixes:ZIPWE:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
-Runways:EGGD Bristol 09-27:extended centerline 1
-Runways:EGGD Bristol 09-27:extended centerline 2
-Runways:EGGW London Luton 07-25:extended centerline 1
-Runways:EGGW London Luton 07-25:extended centerline 2
-Runways:EGHH Bournemouth 08-26:extended centerline 1
-Runways:EGHH Bournemouth 08-26:extended centerline 2
-Runways:EGHI Southampton 02-20:extended centerline 1
-Runways:EGHI Southampton 02-20:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGLC London City 09-27:extended centerline 1
-Runways:EGLC London City 09-27:extended centerline 2
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2
-Runways:EGMC Southend 05-23:extended centerline 1
-Runways:EGMC Southend 05-23:extended centerline 2
-Runways:EGMD Lydd 03-21:extended centerline 2
-Runways:EGSS London Stansted 04-22:extended centerline 1
-Runways:EGSS London Stansted 04-22:extended centerline 2
-Runways:EGTK Oxford 01-19:extended centerline 2
+Geo:Extended centrelines Tickless:
 Sids:London TC East:
 Sids:London TC North East:
 Sids:London TC North West:
@@ -1593,7 +1569,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
-WINDOWAREA:50.121159:-2.863453:52.033582:2.908272
+WINDOWAREA:50.121159:-2.863454:52.033582:2.908273
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
