@@ -1794,6 +1794,17 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdKEGUNMaxLevel:10000
+PLUGIN:UK Controller Plugin:holdKEGUNMinimised:0
+PLUGIN:UK Controller Plugin:holdKEGUNMinLevel:7000
+PLUGIN:UK Controller Plugin:holdKEGUNPositionX:201
+PLUGIN:UK Controller Plugin:holdKEGUNPositionY:801
+PLUGIN:UK Controller Plugin:holdTIPODMaxLevel:10000
+PLUGIN:UK Controller Plugin:holdTIPODMinimised:0
+PLUGIN:UK Controller Plugin:holdTIPODMinLevel:7000
+PLUGIN:UK Controller Plugin:holdTIPODPositionX:1431
+PLUGIN:UK Controller Plugin:holdTIPODPositionY:800
+PLUGIN:UK Controller Plugin:selectedHolds:KEGUN;TIPOD
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
