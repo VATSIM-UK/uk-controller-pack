@@ -280,10 +280,7 @@ ARTCC low boundary:EGCC Manchester CTA:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
-ARTCC low boundary:EGFF Cardiff CTA:
-ARTCC low boundary:EGGD Bristol CTA:
 ARTCC low boundary:EGGP Liverpool CTA:
-ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
@@ -321,27 +318,7 @@ ARTCC low boundary:LFOH Le Havre CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-Runways:EGBE Coventry 05-23:extended centerline 2
-Runways:EGGW London Luton 07-25:extended centerline 1
-Runways:EGGW London Luton 07-25:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGLC London City 09-27:extended centerline 1
-Runways:EGLC London City 09-27:extended centerline 2
-Runways:EGLL London Heathrow 09L-27R:extended centerline 1
-Runways:EGLL London Heathrow 09L-27R:extended centerline 2
-Runways:EGLL London Heathrow 09R-27L:extended centerline 1
-Runways:EGLL London Heathrow 09R-27L:extended centerline 2
-Runways:EGMC Southend 05-23:extended centerline 1
-Runways:EGMC Southend 05-23:extended centerline 2
-Runways:EGMD Lydd 03-21:extended centerline 2
-Runways:EGSC Cambridge 05-23:extended centerline 1
-Runways:EGSC Cambridge 05-23:extended centerline 2
-Runways:EGSH Norwich 09-27:extended centerline 1
-Runways:EGSH Norwich 09-27:extended centerline 2
-Runways:EGSS London Stansted 04-22:extended centerline 1
-Runways:EGSS London Stansted 04-22:extended centerline 2
-Runways:EGTK Oxford 01-19:extended centerline 2
+Geo:Extended centrelines Tickless:
 Sids:London TC East:
 Sids:London TC North East:
 Sids:London TC North West:
