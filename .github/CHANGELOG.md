@@ -27,7 +27,8 @@
 26. Enhancement - Turned off confirm messages for handoff requests ('Coordination' chat) - thanks to @hazzas-99
 27. Enhancement - Redcuced STCA pre-warning and warning time for APP profiles - thanks to @hazzas-99
 28. Bug - TopSky CARD and shortcut menus default positions moved to reasonable locations - thanks to @luke11brown (Luke Brown)
-x. Enhancement - Added Harwarden RMA to Liverpool profile - thanks to @SamLefevre (Samuel Lefevre)
+29. Enhancement - Change NODE symbology to have dotted lines on high level CTAs - thanks to @SamLefevre (Samuel Lefevre)
+30. Enhancement - Added Harwarden RMA to Liverpool profile - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
