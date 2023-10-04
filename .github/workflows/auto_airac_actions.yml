@@ -31,8 +31,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
           git add .
           git commit -m "Sector file update for AIRAC ${{ env.airac }}"
 
