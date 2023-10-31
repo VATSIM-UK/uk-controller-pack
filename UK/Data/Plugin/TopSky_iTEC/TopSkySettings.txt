@@ -44,7 +44,7 @@ Color_Redundant=200,125,170
 
 //Colour settings
 Color_ACF_Via_CFL
-Color_Active_Map=15,120,200
+Color_Active_Map=139,0,0
 Color_Active_Map_Type_1=139,0,0
 Color_Active_Map_Type_2
 Color_Active_Map_Type_3
@@ -56,7 +56,7 @@ Color_Active_Map_Type_8
 Color_Active_Map_Type_9
 Color_Active_Map_Type_10
 Color_Active_Map_Type_11
-Color_Active_Map_Type_12=15,120,200
+Color_Active_Map_Type_12=139,0,0
 Color_Active_Map_Type_13
 Color_Active_Map_Type_14
 Color_Active_Map_Type_15
@@ -68,7 +68,7 @@ Color_Active_Map_Type_20
 Color_Active_RD_Infill_Map=255,0,0
 Color_Active_RD_Map
 Color_Active_Sector=192,192,192
-Color_Active_Text_Map=15,120,200
+Color_Active_Text_Map=139,0,0
 Color_AIW_Intrusion=255,142,0
 Color_Arm
 Color_Background=195,195,185
