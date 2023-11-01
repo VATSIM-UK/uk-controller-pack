@@ -4,6 +4,7 @@
 3. AIRAC (2311) - Exeter (EGTE) SMAA heights amended - thanks to @luke11brown (Luke Brown)
 4. Bug - removed colons from ATIS lines preventing display - thanks to @luke11brown (Luke Brown)
 5. Procedure Change (2311) - 8.33 Transition (ENR Phase 3) - Updated voice settings for UK enroute event positions - thanks to @hazzas-99
+6. Bug (TopSky) - Fixed coordination indicator in TopSky tags (displays releases from External ACCs) - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/09 to 2023/10
 1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
@@ -37,7 +38,7 @@
 29. Enhancement - Change NODE symbology to have dotted lines on high level CTAs - thanks to @SamLefevre (Samuel Lefevre)
 30. Enhancement - Added Harwarden RMA to Liverpool profile - thanks to @SamLefevre (Samuel Lefevre)
 31. Enhancement - Change LTC displays to new tickless centrelines and disables GD/GW/FF CTA - thanks to @SamLefevre (Samuel Lefevre)
-X. Bug - Fixed QNH formatting in London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
+32. Bug - Fixed QNH formatting in London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
