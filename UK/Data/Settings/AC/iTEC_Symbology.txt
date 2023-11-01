@@ -33,8 +33,8 @@ Datablock:even flight level:11974326:3.4:0:0:7
 Datablock:odd flight level:39835:3.4:0:0:7
 Datablock:arrivals:16776960:3.4:0:0:7
 Datablock:departures:30446:3.4:0:0:7
-Datablock:user 1:8421504:3.4:0:0:7
-Datablock:user 2:12615680:3.4:0:0:7
+Datablock:user 1:13258509:3.4:0:0:7
+Datablock:user 2:16744448:3.4:0:0:7
 Datablock:user 3:16777215:3.4:0:0:7
 Datablock:user 4:16777215:3.4:0:0:7
 Datablock:user 5:16777215:3.4:0:0:7
@@ -55,10 +55,10 @@ Datablock:SCTA warning rectangle:1645025:3.4:0:0:7
 Datablock:SCTA CFL used warning rectangle:2744816:3.4:0:0:7
 Datablock:SCTA warning leader:1645055:3.4:0:3:7
 Datablock:SCTA CFL used warning leader:2744816:3.4:0:3:7
-Controller:normal:3487029:3.5:0:0:7
+Controller:normal:7237230:3.5:0:0:7
 Controller:breaking:20991:3.5:0:0:7
 Controller:timeout:7697781:3.5:0:0:7
-Metar:normal:3487029:3.5:0:0:7
+Metar:normal:7237230:3.5:0:0:7
 Metar:modified:20985:3.5:0:0:7
 Metar:timeout:16777215:3.5:0:0:7
 Other:wait:16777215:3.5:0:0:7
@@ -84,18 +84,18 @@ Other:manual taxi line:16777215:5.0:0:3:2
 Other:manual taxi line ends at predefined point:65535:5.0:0:3:2
 Other:predefined taxi line:65280:5.0:0:3:2
 Other:terminal taxi line:255:5.0:0:3:2
-Other:list header:0:3.2:0:0:7
+Other:list header:7237230:3.2:0:0:7
 Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:8881798:3.0:0:0:7
 Chat:text:0:3.5:0:0:7
 Chat:background:12174275:3.5:0:0:7
-Chat:name normal:2631720:3.5:0:0:7
+Chat:name normal:7237230:3.5:0:0:7
 Chat:name unread:16711680:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:13487565:4.0:3:2:7
+Sector:line:7237230:4.0:0:0:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:12303291:3.5:0:0:7
 Sector:inactive sector background:12632256:3.5:0:0:7
