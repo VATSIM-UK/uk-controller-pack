@@ -36,7 +36,7 @@ Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
-Plugins Plugin4 \..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
 RecentFiles	Recent1	\..\..\Data\ASR\AC_SC\SC2T.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_SC\Gatwick SMR.asr

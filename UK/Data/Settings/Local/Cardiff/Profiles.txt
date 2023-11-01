@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGFF_TWR:50:4
 ATIS2:Cardiff Tower
-ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGFF
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGFF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGFF_APP:100:5
 ATIS2:Cardiff Radar
-ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGFF
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGFF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGFF_L_APP:100:5
 ATIS2:Cardiff Approach
-ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGFF
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGFF
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGSY_TWR:50:4
 ATIS2:St Athan Tower
-ATIS3:INITIAL CLIMB AS CHARTED: chartfox.org/EGFF
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGFF
 ATIS4:Submit feedback at vats.im/atcfb
 END

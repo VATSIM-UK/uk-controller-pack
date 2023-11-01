@@ -11,10 +11,10 @@ AG:Area - TMA:126.300
 AG:Area - TMA Talla:130.975
 AG:Area - TMA Galloway:124.825
 AG:Area - Antrim:123.775
-AG:X Area - ScAC North (Hebrides):133.675
+AG:X Area - ScAC North (Hebrides):133.680
 AG:X Area - ScAC North (HEB+CEN):128.675
 AG:X Area - ScAC South (Humber):129.925
-AG:X Area - ScAC West (Rathlin East):125.675
+AG:X Area - ScAC West (Rathlin East):125.680
 AG:X Area - ScAC West (Central):127.275
 AG:X Area - Scottish Low:124.500
 AG:EGAA_GND:121.750

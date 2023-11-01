@@ -18,40 +18,40 @@ AG:Area - LTC North:119.780
 AG:Area - LTC NE:118.825
 AG:Area - LTC NW:121.280
 AG:Area - LTC Bandbox:135.805
-AG:X Area - LAC North (Sector 4):132.875
-AG:X Area - LAC Daventry (West):134.400
-AG:X Area - LAC Daventry (East):127.875
+AG:X Area - LAC North (Sector 4):132.860
+AG:X Area - LAC Daventry (West):134.390
+AG:X Area - LAC Daventry (East):127.880
 AG:X Area - LAC Daventry (Low):133.975
-AG:X Area - LAC Clacton (Sector 12):133.925
-AG:X Area - LAC Clacton (Sector 13):128.150
-AG:X Area - LAC South (LUS):132.825
-AG:X Area - LAC South (LMS):132.175
-AG:X Area - LAC South (Hurn):134.450
-AG:X Area - LAC South (Sector 18):135.050
-AG:X Area - LAC South (Lydd):133.475
-AG:X Area - LAC South (Sector 15):128.425
-AG:X Area - LAC West (Brecon High):133.225
+AG:X Area - LAC Clacton (Sector 12):133.940
+AG:X Area - LAC Clacton (Sector 13):128.160
+AG:X Area - LAC South (LUS):132.840
+AG:X Area - LAC South (LMS):132.165
+AG:X Area - LAC South (Hurn):134.440
+AG:X Area - LAC South (Sector 18):135.055
+AG:X Area - LAC South (Lydd):133.485
+AG:X Area - LAC South (Sector 15):128.430
+AG:X Area - LAC West (Brecon High):135.255
 AG:X Area - LAC West (Brecon Low):133.600
-AG:X Area - LAC West (Sector 23):134.750
-AG:X Area - LAC West (Sector 8):129.375
-AG:X Area - LAC West (Berry Head):128.825
+AG:X Area - LAC West (Sector 23):134.755
+AG:X Area - LAC West (Sector 8):129.380
+AG:X Area - LAC West (Berry Head):128.815
 AG:X Area - LAC West (Sector 9):132.950
 AG:X Area - LAC West (Exmoor):127.700
-AG:X Area - LTC Midlands:121.025
-AG:X Area - LTC COWLY:133.075
+AG:X Area - LTC Midlands:121.030
+AG:X Area - LTC COWLY:133.080
 AG:X Area - LTC WELIN:130.925
 AG:X Area - LTC REDFA:133.525
-AG:X Area - LTC SABER:129.600
+AG:X Area - LTC SABER:129.605
 AG:X Area - LTC JACKO:135.425
-AG:X Area - LTC DAGGA:124.925
-AG:X Area - LTC LOREL:129.275
-AG:X Area - LTC LAM:123.900
+AG:X Area - LTC DAGGA:124.930
+AG:X Area - LTC LOREL:129.280
+AG:X Area - LTC LAM:123.905
 AG:Area - PC Bandbox:133.200
 AG:Area - PC E:133.800
 AG:Area - PC NE:135.715
 AG:Area - PC SE:134.430
 AG:Area - PC W:128.055
-AG:X Area - PC TNT:119.525
+AG:X Area - PC TNT:119.530
 AG:X Area - PC WAL:125.950
 AG:X Area - PC IoM:133.050
 AG:X Area - PC PENIL:126.875
