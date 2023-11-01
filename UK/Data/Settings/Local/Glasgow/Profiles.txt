@@ -11,7 +11,7 @@ PROFILE:EGPF_TWR:30:4
 ATIS2:Glasgow Tower
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGPF_GND:10:4
+PROFILE:EGPF_GND:20:3
 ATIS2:Glasgow Ground
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGPF
 ATIS4:Submit feedback at vats.im/atcfb
