@@ -1,3 +1,6 @@
+# Changes from release 2023/11 to 2023/12
+1. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
+
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
 2. Bug - VFPC now loads into profiles automatically - thanks to luke11brown (Luke Brown)
