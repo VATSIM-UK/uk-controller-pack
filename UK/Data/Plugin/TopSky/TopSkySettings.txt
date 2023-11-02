@@ -186,7 +186,7 @@ WXR_Echo_dBZ_Lo=12
 [_CTR]
 Window_CARD=1,10,730
 Window_MsgIn=0,311,40
-Window_Shortcut=1,1500,0
+Window_Shortcut=1,1450,0
 Window_SepList=1500,620
 
 Window_LostList_Auto=0
