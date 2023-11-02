@@ -258,10 +258,10 @@ class CurrentInstallation:
                     # Clean up old sector files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
-                        os.remove(
-                            (f"{self.ukcp_location}/Data/Sector/",
-                             f"{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"))
 
+                        path_to_remove = f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"
+                        os.remove(path_to_remove)
+                            
                     # Return the newly downloaded sector file
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
