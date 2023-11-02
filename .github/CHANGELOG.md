@@ -4,6 +4,7 @@
 3. AIRAC (2311) - Exeter (EGTE) SMAA heights amended - thanks to @luke11brown (Luke Brown)
 4. Bug - removed colons from ATIS lines preventing display - thanks to @luke11brown (Luke Brown)
 5. Procedure Change (2311) - 8.33 Transition (ENR Phase 3) - Updated voice settings for UK enroute event positions - thanks to @hazzas-99
+6. Bug - Fixed Aberdeen (EGPD) and Glasgow (EGPF) GND facility type - thanks to @RedStonePilot (Ben Walker)
 
 # Changes from release 2023/09 to 2023/10
 1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
