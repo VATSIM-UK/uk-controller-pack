@@ -17908,6 +17908,9 @@ UATG	ATYRAU	Kazakhstan and Kyrgyzstan
 UATT	AKTOBE	Kazakhstan and Kyrgyzstan
 UATZ	TENGIZ	Kazakhstan and Kyrgyzstan
 UAUU	KOSTANAY	Kazakhstan and Kyrgyzstan
+UB12	UB12	Azerbiajan
+UB14	UB14	Azerbiajan
+UB16	UB16	Azerbiajan
 UBBB	BAKU/HEYDAR ALIYEV INTL	Azerbiajan
 UBBF	FUZULI	Azerbiajan
 UBBG	GANJA	Azerbiajan
