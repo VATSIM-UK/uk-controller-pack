@@ -9,7 +9,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 21975,
+      "AtisFrequency": 21980,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -387,7 +387,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 18375,
+      "AtisFrequency": 18380,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1096,7 +1096,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 23875,
+      "AtisFrequency": 23880,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1455,7 +1455,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 25425,
+      "AtisFrequency": 25430,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1814,7 +1814,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 21725,
+      "AtisFrequency": 21730,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2168,7 +2168,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 27200,
+      "AtisFrequency": 27205,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2522,7 +2522,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 27200,
+      "AtisFrequency": 28630,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2876,7 +2876,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 18025,
+      "AtisFrequency": 18030,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -3235,7 +3235,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 24125,
+      "AtisFrequency": 24130,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -3594,7 +3594,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 32375,
+      "AtisFrequency": 32380,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
