@@ -23,6 +23,18 @@ PROFILE:EGLA_R_TWR:50:4
 ATIS2:Bodmin Radio
 ATIS3:Charts at chartfox.org/egla
 ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGCK_R_TWR:50:4
+ATIS2:Caernarfon Radio
+ATIS3:Charts at chartfox.org/egck
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGEC_I_TWR:50:4
+ATIS2:Campbeltown Information
+ATIS3:Charts at chartfox.org/egec
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGLJ_R_TWR:50:4
+ATIS2:Chalgrove Radio
+ATIS3:Charts at chartfox.org/eglj
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHR_I_TWR:50:4
 ATIS2:Goodwood Information
 ATIS3:Charts at chartfox.org/eghr
@@ -38,6 +50,14 @@ ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGPG_R_TWR:50:4
 ATIS2:Cumbernauld Radio
 ATIS3:Charts at chartfox.org/egpg
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGLD_R_TWR:50:4
+ATIS2:Denham Radio
+ATIS3:Charts at chartfox.org/egld
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBD_R_TWR:50:4
+ATIS2:Derby Radio
+ATIS3:Charts at chartfox.org/egbd
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTU_R_TWR:50:4
 ATIS2:Dunkeswell Radio
@@ -55,14 +75,30 @@ PROFILE:EGSU_I_TWR:50:4
 ATIS2:Duxford Information
 ATIS3:Charts at chartfox.org/egsu
 ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGSR_R_TWR:50:4
+ATIS2:Earls Colne Radio
+ATIS3:Charts at chartfox.org/egsr
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTR_I_TWR:50:4
 ATIS2:Elstree Information
 ATIS3:Charts at chartfox.org/egtr
 ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGAB_R_TWR:50:4
+ATIS2:Enniskillen Radio
+ATIS3:Charts at chartfox.org/egab
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGEF_R_TWR:50:4
+ATIS2:Fair Isle Radio
+ATIS3:Charts at chartfox.org/egef
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTF_I_TWR:50:4
 ATIS2:Fairoaks Information
 ATIS3:Charts at chartfox.org/egtf
 ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGCL_R_TWR:50:4
+ATIS2:Fenland Radio
+ATIS3:Charts at chartfox.org/egcl
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGNE_R_TWR:50:4
 ATIS2:Gamston Radio
 ATIS3:Charts at chartfox.org/egne
@@ -71,9 +107,33 @@ PROFILE:EGFE_R_TWR:50:4
 ATIS2:Haverfordwest Radio
 ATIS3:Charts at chartfox.org/egfe
 ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGPI_I_TWR:50:4
+ATIS2:Islay Information
+ATIS3:Charts at chartfox.org/egpi
+ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGBP_I_TWR:50:4
 ATIS2:Kemble Information
 ATIS3:Charts at chartfox.org/egbp
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGKH_R_TWR:50:4
+ATIS2:Headcorn Radio
+ATIS3:Charts at chartfox.org/egkh
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGHF_I_TWR:50:4
+ATIS2:Lee Information
+ATIS3:Charts at chartfox.org/eghf
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGCM_R_TWR:50:4
+ATIS2:Fenton Radio
+ATIS3:Charts at chartfox.org/egcm
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBG_R_TWR:50:4
+ATIS2:Leicester Radio
+ATIS3:Charts at chartfox.org/egbg
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGET_I_TWR:50:4
+ATIS2:Tingwall Information
+ATIS3:Charts at chartfox.org/eget
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCB_I_TWR:50:4
 ATIS2:Barton Information
@@ -87,17 +147,65 @@ PROFILE:EGAD_R_TWR:50:4
 ATIS2:Newtownards Radio
 ATIS3:Charts at chartfox.org/egad
 ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBK_R_TWR:50:4
+ATIS2:Sywell Radio
+ATIS3:Charts at chartfox.org/egbk
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBN_R_TWR:50:4
+ATIS2:Nottingham Radio
+ATIS3:Charts at chartfox.org/egbn
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGEO_I_TWR:50:4
+ATIS2:Oban Information
+ATIS3:Charts at chartfox.org/egeo
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGSV_R_TWR:50:4
+ATIS2:Buckenham Radio
+ATIS3:Charts at chartfox.org/egsv
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGLS_R_TWR:50:4
 ATIS2:Old Sarum Radio
 ATIS3:Charts at chartfox.org/egls
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGTH_I_TWR:50:4
+ATIS2:Old Warden Information
+ATIS3:Charts at chartfox.org/egth
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGHK_R_TWR:50:4
+ATIS2:Penzance Radio
+ATIS3:Charts at chartfox.org/eghk
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGPT_R_TWR:50:4
+ATIS2:Perth Radio
+ATIS3:Charts at chartfox.org/egpt
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGSF_R_TWR:50:4
+ATIS2:Conington Radio
+ATIS3:Charts at chartfox.org/egsf
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGDP_R_TWR:50:4
+ATIS2:Portland Radio
+ATIS3:Charts at chartfox.org/egdp
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTO_I_TWR:50:4
 ATIS2:Rochester Information
 ATIS3:Charts at chartfox.org/egto
 ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGCF_R_TWR:50:4
+ATIS2:Sandtoft Radio
+ATIS3:Charts at chartfox.org/egcf
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGCJ_R_TWR:50:4
 ATIS2:Sherburn Radio
 ATIS3:Charts at chartfox.org/egcj
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBS_I_TWR:50:4
+ATIS2:Shobdon Information
+ATIS3:Charts at chartfox.org/egbs
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGCV_R_TWR:50:4
+ATIS2:Sleap Radio
+ATIS3:Charts at chartfox.org/egcv
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGSG_R_TWR:50:4
 ATIS2:Stapleford Radio
@@ -107,14 +215,54 @@ PROFILE:EGFH_R_TWR:50:4
 ATIS2:Swansea Radio
 ATIS3:Charts at chartfox.org/egfh
 ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGBM_R_TWR:50:4
+ATIS2:Tatenhill Radio
+ATIS3:Charts at chartfox.org/egbm
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHO_R_TWR:50:4
 ATIS2:Thruxton Radio
 ATIS3:Charts at chartfox.org/egho
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGPU_I_TWR:50:4
+ATIS2:Tiree Information
+ATIS3:Charts at chartfox.org/egpu
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGHT_R_TWR:50:4
+ATIS2:Tresco Radio
+ATIS3:Charts at chartfox.org/eght
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGNL_I_TWR:50:4
+ATIS2:Walney Information
+ATIS3:Charts at chartfox.org/egnl
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGBW_I_TWR:50:4
+ATIS2:Wellesbourne Information
+ATIS3:Charts at chartfox.org/egbw
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGCW_R_TWR:50:4
+ATIS2:Welshpool Radio
+ATIS3:Charts at chartfox.org/egcw
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGFA_I_TWR:50:4
+ATIS2:West Wales Information
+ATIS3:Charts at chartfox.org/egfa
+ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGLM_R_TWR:50:4
+ATIS2:Waltham Radio
+ATIS3:Charts at chartfox.org/eglm
+ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGNW_R_TWR:50:4
+ATIS2:Wickenby Radio
+ATIS3:Charts at chartfox.org/egnw
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBO_I_TWR:50:4
 ATIS2:Halfpenny Green Information
 ATIS3:Charts at chartfox.org/egbo
 ATIS4:Aerodrome flight information service, call before entering ATZ
+PROFILE:EGTB_R_TWR:50:4
+ATIS2:Wycombe Radio
+ATIS3:Charts at chartfox.org/egtb
+ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGXX_A_APP:150:5
 ATIS2:X Approach
 ATIS3:Charts at chartfox.org/egxx
