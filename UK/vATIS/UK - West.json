@@ -9,7 +9,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 27400,
+      "AtisFrequency": 27405,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -367,7 +367,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 32475,
+      "AtisFrequency": 32480,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -749,7 +749,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 19325,
+      "AtisFrequency": 19330,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1107,7 +1107,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 34675,
+      "AtisFrequency": 34680,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1823,7 +1823,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 27475,
+      "AtisFrequency": 27480,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2254,7 +2254,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 26025,
+      "AtisFrequency": 26030,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"

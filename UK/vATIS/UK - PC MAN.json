@@ -9,7 +9,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 21975,
+      "AtisFrequency": 21980,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -411,7 +411,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 18375,
+      "AtisFrequency": 18380,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -436,7 +436,7 @@
         },
         {
           "Name": "RUNWAY 25 (MAN_E_CTR)",
-          "AirportConditions": "SDEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.8",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.8",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 25 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
@@ -448,7 +448,7 @@
         },
         {
           "Name": "RUNWAY 25 (MAN_NE_CTR)",
-          "AirportConditions": "SDEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.715",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.715",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 25 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
@@ -802,7 +802,7 @@
         },
         {
           "Name": "RUNWAY 27 (MAN_W_CTR)",
-          "AirportConditions": "SDEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 128.055",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 128.055",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 27 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
@@ -814,7 +814,7 @@
         },
         {
           "Name": "RUNWAY 27 (MAN_WP_CTR)",
-          "AirportConditions": "SDEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 126.875",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 126.875",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 27 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
@@ -826,7 +826,7 @@
         },
         {
           "Name": "RUNWAY 27 (MAN_WL_CTR)",
-          "AirportConditions": "SDEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 125.95",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 125.95",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 27 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
@@ -1156,7 +1156,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 23875,
+      "AtisFrequency": 23880,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1539,7 +1539,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 25425,
+      "AtisFrequency": 25430,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1922,7 +1922,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 21725,
+      "AtisFrequency": 21730,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2300,7 +2300,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 27200,
+      "AtisFrequency": 27205,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -2678,7 +2678,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 18025,
+      "AtisFrequency": 18030,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -3049,7 +3049,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 24125,
+      "AtisFrequency": 24130,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -3420,7 +3420,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 32375,
+      "AtisFrequency": 32380,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
