@@ -1,3 +1,6 @@
+# Changes from release 2023/11 to 2023/12
+X. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
+
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
 2. Bug - VFPC now loads into profiles automatically - thanks to luke11brown (Luke Brown)
