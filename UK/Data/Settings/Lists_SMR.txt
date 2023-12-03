@@ -55,7 +55,7 @@ m_Column:OCI:3:1:118:9010:0:0:UK Controller Plugin:UK Controller Plugin::1:0.0
 m_Column:CFL:3:1:119:9010:0:0:UK Controller Plugin:UK Controller Plugin::1:0.0
 END
 DEP
-m_Visible:1
+m_Visible:0
 m_X:0
 m_Y:44
 m_LineNumber:10
