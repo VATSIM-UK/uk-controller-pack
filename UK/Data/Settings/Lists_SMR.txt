@@ -131,7 +131,7 @@ END
 STUP
 m_Visible:1
 m_X:0
-m_Y:45
+m_Y:44
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:3
