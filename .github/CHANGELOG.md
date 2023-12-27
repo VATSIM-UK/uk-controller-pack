@@ -2,6 +2,7 @@
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
 2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
 3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford) 
+4. AIRAC (2312) - Added D324A/B (RAF Waddington) danger areas - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
