@@ -1,5 +1,8 @@
 # Changes from release 2023/11 to 2023/13
-1. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
+1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
+2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
+3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford) 
+4. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
@@ -10,6 +13,7 @@
 6. Bug (TopSky) - Fixed coordination indicator in TopSky tags (displays releases from External ACCs) - thanks to @luke11brown (Luke Brown)
 7. Procedure Change (2311) - 8.33 Transition (AD Phase 3) - Updated voice settings for all UK AD positions - thanks to @KHardern (Kieran Hardern)
 8. Bug - Fixed Aberdeen (EGPD) and Glasgow (EGPF) GND facility type - thanks to @RedStonePilot (Ben Walker)
+9. Bug - Added missing AGCS / AFISO Frequencies - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2023/09 to 2023/10
 1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
