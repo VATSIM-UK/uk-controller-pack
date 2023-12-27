@@ -1,3 +1,6 @@
+# Changes from release 2023/11 to 2023/13
+1. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
 2. Bug - VFPC now loads into profiles automatically - thanks to luke11brown (Luke Brown)
