@@ -3,6 +3,7 @@
 2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
 3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford) 
 4. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2312) - Added D324A/B (RAF Waddington) danger areas - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
