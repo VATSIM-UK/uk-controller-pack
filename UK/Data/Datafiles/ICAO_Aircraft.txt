@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2311/1  ++  Valid period: 02/NOV/2023 - 29/NOV/2023  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2312/1  ++  Valid period: 30/NOV/2023 - 27/DEC/2023  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -403,8 +403,7 @@ BDOG	LL1P	BEAGLE	B125 Bulldog
 BE10	LL2T	HAWKER BEECHCRAFT CORP	100 King Air (U21F Ute)
 BE12	MA2T	BERIEV	Be12/14 Tchaika
 BE17	LL1P	HAWKER BEECHCRAFT CORP	17 Staggerwing (UC43 Traveler)
-BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB,
-JRB, Expeditor, Navigator)
+BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB, JRB, Expeditor, Navigator)
 BE19	LL1P	HAWKER BEECHCRAFT CORP	19 Musketeer Sport, Sport
 BE20	LL2T	HAWKER BEECHCRAFT CORP	200, 1300 Super King Air, Commuter (C12A to F, C12L/R, UC12, RC12, Tp101, Huron)
 BE22	LL1T	TEXTRON	220 Denali
@@ -1892,7 +1891,7 @@ P337	LL2P	CESSNA	T337G, P337 Pressurised Skymaster
 P38	ML2P	LOCKHEED	P38, F5 Lightning (L222/322/422)
 P39	LL1P	BELL	P39 Airacobra
 P40	LL1P	CURTISS	P40, TP40 Warhawk, Kittyhawk
-P46T	LL1T	JETPROP	DLX
+P46T	LL1T	PIPER	PA-46-500TP Malibu Meridian, Meridian M500
 P47	ML1P	REPUBLIC	P47, F47 Thunderbolt
 P4Y	ML4P	CONVAIR	PB4Y, P4Y Privateer
 P50	LL1P	POTTIER	P50 Bouvreuil
