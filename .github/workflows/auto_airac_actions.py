@@ -62,7 +62,7 @@ class Airac:
     def current_tag(self) -> str:
         """Returns the current tag for use with git"""
         current_cycle_count = self.initialise()
-        current_tag = f"{self.base_date.year}/{current_cycle_count + 1}"
+        current_tag = f"{self.today_date.year}/{current_cycle_count + 1}"
         return current_tag
 
 
