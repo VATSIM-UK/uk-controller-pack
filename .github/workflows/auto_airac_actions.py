@@ -23,6 +23,9 @@ from loguru import logger
 import datetime
 from math import floor
 
+import datetime
+from math import floor
+
 class Airac:
     """Class for general functions relating to AIRAC"""
 
@@ -30,6 +33,8 @@ class Airac:
         # First AIRAC date following the last cycle length modification
         start_date = "2023-11-01"
         self.base_date = datetime.date.fromisoformat(start_date)
+        # Length of one AIRAC cycle
+        self.cycle_days = 28
         # Today
         self.today_date = datetime.datetime.now().date()
 
@@ -40,11 +45,10 @@ class Airac:
         else:
             input_date = datetime.date.today()
 
-        # Calculate the number of days since the base date
+        # How many AIRAC cycles have occurred since the start date
         diff_days = (input_date - self.base_date).days
-
-        # Calculate the number of cycles
-        number_of_cycles = floor(diff_days / 28)
+        # Round that number down to the nearest whole integer
+        number_of_cycles = floor(diff_days / self.cycle_days)
         logger.debug(f"{number_of_cycles} AIRAC cycles since {self.base_date}")
 
         return number_of_cycles
@@ -53,7 +57,7 @@ class Airac:
         """Return the date of the current AIRAC cycle"""
         def cycle(sub: int = 0):
             number_of_cycles = self.initialise() - sub
-            number_of_days = number_of_cycles * 28 + 1
+            number_of_days = number_of_cycles * self.cycle_days + 1
             current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
             return current_cycle
 
@@ -63,16 +67,20 @@ class Airac:
 
         logger.info("Current AIRAC Cycle is: {}", current_cycle)
 
-        return str(current_cycle)
+        # Adjust the month based on the cycle count
+        adjusted_cycle = current_cycle.replace(month=(current_cycle.month + number_of_cycles) % 12 + 1)
+
+        return str(adjusted_cycle)
 
     def current_tag(self) -> str:
         """Returns the current tag for use with git"""
-        current_cycle = self.current_cycle()
+        adjusted_cycle = self.adjusted_cycle()
         # Split the current_cycle by '-' and return in format yyyy/mm
-        split_cc = str(current_cycle).split("-")
+        split_cc = str(adjusted_cycle).split("-")
         logger.debug(f"Current tag should be {split_cc[0]}/{split_cc[1]}")
 
         return f"{split_cc[0]}/{split_cc[1]}"
+
 
 
 
