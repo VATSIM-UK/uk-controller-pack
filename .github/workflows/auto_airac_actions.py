@@ -20,6 +20,9 @@ from loguru import logger
 
 # Local Libraries
 
+import datetime
+from math import floor
+
 class Airac:
     """Class for general functions relating to AIRAC"""
 
@@ -27,8 +30,6 @@ class Airac:
         # First AIRAC date following the last cycle length modification
         start_date = "2023-11-01"
         self.base_date = datetime.date.fromisoformat(start_date)
-        # Length of one AIRAC cycle
-        self.cycle_days = 28
         # Today
         self.today_date = datetime.datetime.now().date()
 
@@ -39,10 +40,11 @@ class Airac:
         else:
             input_date = datetime.date.today()
 
-        # How many AIRAC cycles have occurred since the start date
-        diff_cycles = (input_date - self.base_date).days
-        # Round that number down to the nearest whole integer
-        number_of_cycles = floor(diff_cycles / self.cycle_days)
+        # Calculate the number of days since the base date
+        diff_days = (input_date - self.base_date).days
+
+        # Calculate the number of cycles
+        number_of_cycles = floor(diff_days / 28)
         logger.debug(f"{number_of_cycles} AIRAC cycles since {self.base_date}")
 
         return number_of_cycles
@@ -51,7 +53,7 @@ class Airac:
         """Return the date of the current AIRAC cycle"""
         def cycle(sub: int = 0):
             number_of_cycles = self.initialise() - sub
-            number_of_days = number_of_cycles * self.cycle_days + 1
+            number_of_days = number_of_cycles * 28 + 1
             current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
             return current_cycle
 
@@ -71,6 +73,7 @@ class Airac:
         logger.debug(f"Current tag should be {split_cc[0]}/{split_cc[1]}")
 
         return f"{split_cc[0]}/{split_cc[1]}"
+
 
 
 class CurrentInstallation:
