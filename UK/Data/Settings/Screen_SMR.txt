@@ -56,3 +56,4 @@ m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
 m_ShowSTARControllers:1
+m_BackgroundGraphicsInThread:0
