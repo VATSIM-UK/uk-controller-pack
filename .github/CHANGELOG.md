@@ -1,3 +1,6 @@
+# Changes from release 2023/13 to 2023/XX
+x. Procedure Change (2313) - Permanent Implementation of TC Midlands - thanks to @kye-taylor (Kye Taylor)
+
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
 2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
