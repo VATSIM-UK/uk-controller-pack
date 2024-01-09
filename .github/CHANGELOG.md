@@ -1,4 +1,4 @@
-# Changes from release 2023/11 to 2024/TBD
+# Changes from release 2023/13 to 2024/TBD
 1. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
 
 # Changes from release 2023/11 to 2023/13
