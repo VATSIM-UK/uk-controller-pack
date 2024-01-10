@@ -1,3 +1,6 @@
+# Changes from release 2023/13 to 2024/TBD
+1. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
+
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
 2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
