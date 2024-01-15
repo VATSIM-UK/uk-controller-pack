@@ -274,6 +274,7 @@ ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
 ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHC Land's End ATZ:
 ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
@@ -286,7 +287,9 @@ ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGLD Denham LFA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLM White Waltham LFA:
 ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
@@ -304,6 +307,7 @@ ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGTF Fairoaks LFA:
 ARTCC low boundary:EGTO Rochester ATZ:
 ARTCC low boundary:EGUB Benson MATZ:
 ARTCC low boundary:EGUW Wattisham MATZ:
@@ -323,7 +327,7 @@ ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Extended centrelines:
-Stars:Heathrow RMA Westerlies:
+Stars:Heathrow RMA Half:
 VORs:BIG:symbol
 VORs:BNN:symbol
 VORs:LAM:symbol

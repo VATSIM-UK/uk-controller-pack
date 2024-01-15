@@ -290,14 +290,10 @@ ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
-ARTCC low boundary:EGKK Gatwick CTA:
-ARTCC low boundary:EGKR Redhill ATZ:
-ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLD Denham LFA:
 ARTCC low boundary:EGLK Blackbushe ATZ:
-ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
 ARTCC low boundary:EGLS Old Sarum ATZ:
-ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNS Isle of Man CTA:
@@ -314,6 +310,7 @@ ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGTF Fairoaks LFA:
 ARTCC low boundary:EGTO Rochester ATZ:
 ARTCC low boundary:EGUB Benson MATZ:
 ARTCC low boundary:EGUW Wattisham MATZ:
@@ -1424,7 +1421,7 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:Extended centrelines:
-Stars:Heathrow RMA Westerlies:
+Stars:Heathrow RMA Half:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
