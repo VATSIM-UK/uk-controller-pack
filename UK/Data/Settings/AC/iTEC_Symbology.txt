@@ -38,7 +38,7 @@ Datablock:user 2:16744448:3.4:0:0:7
 Datablock:user 3:16777215:3.4:0:0:7
 Datablock:user 4:16777215:3.4:0:0:7
 Datablock:user 5:16777215:3.4:0:0:7
-Datablock:user 6:16777215:3.4:0:0:7
+Datablock:user 6:0:3.4:0:0:7
 Datablock:emergency:1645025:3.4:0:0:7
 Datablock:ongoing requested by me:4015580:3.4:0:0:7
 Datablock:ongoing requested by other:4015580:3.4:0:0:7
