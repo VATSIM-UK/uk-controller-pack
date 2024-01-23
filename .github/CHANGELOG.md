@@ -2,6 +2,7 @@
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
 2. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
 3. Procedure Change (2313) - Permanent Implementation of TC Midlands - thanks to @kye-taylor (Kye Taylor)
+4. Enhancement - Added pre-note column to startup list - thanks to @RedStonePilot (Ben Walker)
 
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
