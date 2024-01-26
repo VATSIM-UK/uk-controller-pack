@@ -11,6 +11,7 @@ AG:Area - LAC West:126.080
 AG:Area - LAC South Central:132.605
 AG:Area - LAC Bandbox:127.830
 AG:Area - LTC East:121.230
+AG:Area - LTC Midlands:121.030
 AG:Area - LTC South:134.125
 AG:Area - LTC SE:120.530
 AG:Area - LTC SW:133.180
@@ -37,7 +38,6 @@ AG:X Area - LAC West (Sector 8):129.380
 AG:X Area - LAC West (Berry Head):128.815
 AG:X Area - LAC West (Sector 9):132.950
 AG:X Area - LAC West (Exmoor):127.700
-AG:X Area - LTC Midlands:121.030
 AG:X Area - LTC COWLY:133.080
 AG:X Area - LTC WELIN:130.925
 AG:X Area - LTC REDFA:133.525
