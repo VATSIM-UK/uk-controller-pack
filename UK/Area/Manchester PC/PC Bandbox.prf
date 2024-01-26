@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\MPC\MPC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2023_13.sct
+Settings	sector	UK\Data\Sector\UK_2024_01.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\MPC\PC1.asr
