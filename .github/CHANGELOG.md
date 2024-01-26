@@ -5,6 +5,7 @@
 4. Enhancement - Added pre-note column to startup list - thanks to @RedStonePilot (Ben Walker)
 5. Enhancement - Updated Heathrow profile and displays - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - Use EuroScope 3.2.7 Settings - thanks to @AliceFord (Alice Ford)
+7. Enhancement - Plugin version bump - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
