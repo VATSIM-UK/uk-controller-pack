@@ -46,6 +46,7 @@ Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
 Settings	airways	\..\..\Data\Datafiles\airway.txt
+Settings	performance	\..\..\Data\Datafiles\Performance.txt
 RecentFiles	Recent9	\..\..\Data\ASR\AC_N\N_Ground.asr
 RecentFiles	Recent10	\..\..\Data\ASR\AC_N\Liverpool SMR.asr
 RecentFiles	Recent11	\..\..\Data\ASR\AC_N\Leeds SMR.asr
