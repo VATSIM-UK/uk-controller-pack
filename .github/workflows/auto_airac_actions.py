@@ -46,22 +46,22 @@ class Airac:
         number_of_cycles = floor(diff_cycles / self.cycle_days)
         return number_of_cycles
 
-def current_cycle(self) -> str:
-    """Return the date of the current AIRAC cycle"""
-    def cycle(sub=0):
-        number_of_cycles = self.initialise() - sub
-        number_of_days = number_of_cycles * self.cycle_days + 1
-        current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
-        return current_cycle
+        def current_cycle(self) -> str:
+            """Return the date of the current AIRAC cycle"""
+            def cycle(sub=0):
+                number_of_cycles = self.initialise() - sub
+                number_of_days = number_of_cycles * self.cycle_days + 1
+                current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
+                return current_cycle
 
-    current_cycle = cycle()
-    if current_cycle > self.today_date:
-        current_cycle = cycle(sub=1)
+            current_cycle = cycle()
+            if current_cycle > self.today_date:
+                current_cycle = cycle(sub=1)
 
-    # Format month with leading zero if necessary
-    month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
+            # Format month with leading zero if necessary
+            month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
 
-    return f"{current_cycle.year}_{month_part}"
+            return f"{current_cycle.year}_{month_part}"
 
 
 
