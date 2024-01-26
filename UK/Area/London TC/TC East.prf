@@ -48,6 +48,7 @@ Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
 Settings	airways	\..\..\Data\Datafiles\airway.txt
+Settings	performance	\..\..\Data\Datafiles\Performance.txt
 LastSession	server	AUTOMATIC
 LastSession	atis_url0	http://uniatis.net/atis.php?arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&apptype=ILS&info=$atiscodeA&metar=$metar($atisairportA)
 LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&apptype=ILS&info=$atiscodeB&metar=$metar($atisairportB)
