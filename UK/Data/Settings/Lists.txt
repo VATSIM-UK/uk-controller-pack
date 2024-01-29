@@ -101,6 +101,7 @@ m_LineNumber:6
 m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0
+m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
 m_Column:C/S:7:0:9:8:1:1::::3:0.0
 m_Column:A/C:7:1:105:0:0:1:UK Controller Plugin:::3:0.0
 m_Column:STS:4:1:59:46:46:1::::3:0.0
