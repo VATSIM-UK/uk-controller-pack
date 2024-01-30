@@ -1,3 +1,6 @@
+# Changes from release 2024/01 to 2024/02
+x. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
+
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
 2. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
