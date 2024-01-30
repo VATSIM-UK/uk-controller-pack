@@ -66,7 +66,7 @@ m_HeaderOnly:0
 m_Column:EOBT:5:0:97:0:0:0::::3:0.0
 m_Column:CTOT:5:0:5001:0:0:0:VATCAN Bookings:::4:0.0
 m_Column:ECFMP:8:0:131:9023:9023:0:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:3:0.0
-m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
+m_Column:CFT:3:1:642:0:0:0:VCH:::0:0.0
 m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
 m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
 m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
@@ -205,7 +205,7 @@ m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:CTOT:5:0:5001:0:0:0:VATCAN Bookings:::4:0.0
 m_Column:DSQ:3:1:57:0:0:0::::3:0.0
-m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
+m_Column:CFT:3:1:642:0:0:0:VCH:::0:0.0
 m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
 m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
 m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
