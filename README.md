@@ -23,3 +23,5 @@ AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
 Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
 
 Park Air Plugin - thanks to George Complin
+
+Virtual Controller Helper Plugin - thanks to Jan Fries (@DrFreas)(https://github.com/DrFreas/VCH)
