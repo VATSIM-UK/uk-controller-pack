@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <CDM>
-	<rate ops="40" />
+	<rate ops="20" />
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />
-	<realMode mode="true" />
+	<realMode mode="false" />
 	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/taxizones.txt" />
 	<Ctot code="" />
-	<DefaultTaxiTime minutes="15" />
+	<DefaultTaxiTime minutes="12" />
 	<RefreshTime seconds="20" />
 	<Debug mode="false" />
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
