@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGGP_APP:100:5
-ATIS2:"Liverpool Radar"
-ATIS3:Voice ATIS on 124.325
+ATIS2:Liverpool Radar
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGP_F_APP:100:5
-ATIS2:"Liverpool Director"
-ATIS3:Voice ATIS on 124.325
+ATIS2:Liverpool Director
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGP_TWR:30:4
-ATIS2:"Liverpool Tower"
-ATIS3:Voice ATIS on 124.325
+ATIS2:Liverpool Tower
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGGP_GND:10:4
-ATIS2:"Liverpool Ground"
-ATIS3:Voice ATIS on 124.325
+PROFILE:EGGP_GND:10:3
+ATIS2:Liverpool Ground
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 END

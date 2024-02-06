@@ -3124,7 +3124,74 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
+Free Text:EGLC Heli Reporting Points\*Airport Spur:freetext
+Free Text:EGLC Heli Reporting Points\*Arbrook:freetext
+Free Text:EGLC Heli Reporting Points\*Bagshot:freetext
+Free Text:EGLC Heli Reporting Points\*Banstead:freetext
+Free Text:EGLC Heli Reporting Points\*Barnes:freetext
+Free Text:EGLC Heli Reporting Points\*Barrowhills:freetext
+Free Text:EGLC Heli Reporting Points\*Bedfont:freetext
+Free Text:EGLC Heli Reporting Points\*Brentford:freetext
+Free Text:EGLC Heli Reporting Points\*Caesars Camp:freetext
+Free Text:EGLC Heli Reporting Points\*Chelsea Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Chertsey:freetext
+Free Text:EGLC Heli Reporting Points\*Chiswick Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Cookham:freetext
+Free Text:EGLC Heli Reporting Points\*Esher Common:freetext
+Free Text:EGLC Heli Reporting Points\*Feltham:freetext
+Free Text:EGLC Heli Reporting Points\*Gutteridge:freetext
+Free Text:EGLC Heli Reporting Points\*Hammersmith Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*Hanger Lane:freetext
+Free Text:EGLC Heli Reporting Points\*Hayes:freetext
+Free Text:EGLC Heli Reporting Points\*Hersham:freetext
+Free Text:EGLC Heli Reporting Points\*Isle of Dogs:freetext
+Free Text:EGLC Heli Reporting Points\*Iver:freetext
+Free Text:EGLC Heli Reporting Points\*Kew Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*London Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*M3 J3:freetext
+Free Text:EGLC Heli Reporting Points\*Morden:freetext
+Free Text:EGLC Heli Reporting Points\*Northwood:freetext
+Free Text:EGLC Heli Reporting Points\*Oxshott East:freetext
+Free Text:EGLC Heli Reporting Points\*Oxshott West:freetext
+Free Text:EGLC Heli Reporting Points\*Pumpkin Hill:freetext
+Free Text:EGLC Heli Reporting Points\*Richmond:freetext
+Free Text:EGLC Heli Reporting Points\*Roehampton:freetext
+Free Text:EGLC Heli Reporting Points\*Sipson:freetext
+Free Text:EGLC Heli Reporting Points\*Stoke Poges:freetext
+Free Text:EGLC Heli Reporting Points\*Sunbury Lock:freetext
+Free Text:EGLC Heli Reporting Points\*Target:freetext
+Free Text:EGLC Heli Reporting Points\*Thorpe:freetext
+Free Text:EGLC Heli Reporting Points\*Uxbridge Common:freetext
+Free Text:EGLC Heli Reporting Points\*Vauxhall Bridge:freetext
+Free Text:EGLC Heli Reporting Points\*West Drayton:freetext
+Free Text:EGLL VRPs\*Ally Pally:freetext
+Free Text:EGLL VRPs\*Ascot:freetext
+Free Text:EGLL VRPs\*Bagshot:freetext
+Free Text:EGLL VRPs\*Brent Reservoir:freetext
+Free Text:EGLL VRPs\*Burnham:freetext
+Free Text:EGLL VRPs\*Byfleet Bridge:freetext
+Free Text:EGLL VRPs\*Grim's Tower:freetext
+Free Text:EGLL VRPs\*London Eye:freetext
+Free Text:EGLL VRPs\*London Stadium:freetext
+Free Text:EGLL VRPs\*M25 J13:freetext
+Free Text:EGLL VRPs\*M3 J3:freetext
+Free Text:EGLL VRPs\*M40 J2:freetext
+Free Text:EGLL VRPs\*Wembley:freetext
 Geo:Extended centrelines:
+Low airways:H10:line
+Low airways:H10:name
+Low airways:H2:line
+Low airways:H2:name
+Low airways:H3:line
+Low airways:H3:name
+Low airways:H4:line
+Low airways:H4:name
+Low airways:H5:line
+Low airways:H5:name
+Low airways:H7:line
+Low airways:H7:name
+Low airways:H9:line
+Low airways:H9:name
 Stars:Heathrow RMA Westerlies:
 VORs:ABB:name
 VORs:ABB:symbol
@@ -3334,12 +3401,12 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1513
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:1486
 PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:436
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
@@ -3352,21 +3419,42 @@ PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
-PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdBIGMaxLevel:15000
+PLUGIN:UK Controller Plugin:holdBIGMinimised:1
+PLUGIN:UK Controller Plugin:holdBIGMinLevel:7000
+PLUGIN:UK Controller Plugin:holdBIGPositionX:1448
+PLUGIN:UK Controller Plugin:holdBIGPositionY:939
+PLUGIN:UK Controller Plugin:holdBNNMaxLevel:17000
+PLUGIN:UK Controller Plugin:holdBNNMinimised:1
+PLUGIN:UK Controller Plugin:holdBNNMinLevel:8000
+PLUGIN:UK Controller Plugin:holdBNNPositionX:138
+PLUGIN:UK Controller Plugin:holdBNNPositionY:922
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1389
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:54
+PLUGIN:UK Controller Plugin:holdLAMMaxLevel:17000
+PLUGIN:UK Controller Plugin:holdLAMMinimised:1
+PLUGIN:UK Controller Plugin:holdLAMMinLevel:8000
+PLUGIN:UK Controller Plugin:holdLAMPositionX:1448
+PLUGIN:UK Controller Plugin:holdLAMPositionY:920
+PLUGIN:UK Controller Plugin:holdOCKMaxLevel:15000
+PLUGIN:UK Controller Plugin:holdOCKMinimised:1
+PLUGIN:UK Controller Plugin:holdOCKMinLevel:7000
+PLUGIN:UK Controller Plugin:holdOCKPositionX:138
+PLUGIN:UK Controller Plugin:holdOCKPositionY:940
+PLUGIN:UK Controller Plugin:selectedHolds:BIG;BNN;LAM;OCK
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1362
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:111
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1570
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:109
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0

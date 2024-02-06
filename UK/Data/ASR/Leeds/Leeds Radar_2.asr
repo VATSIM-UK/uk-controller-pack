@@ -1,6 +1,224 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+Airports:000A:symbol
+Airports:EGAA:symbol
+Airports:EGAB:symbol
+Airports:EGAC:symbol
+Airports:EGAD:symbol
+Airports:EGAE:symbol
+Airports:EGBB:symbol
+Airports:EGBD:symbol
+Airports:EGBE:symbol
+Airports:EGBF:symbol
+Airports:EGBG:symbol
+Airports:EGBJ:symbol
+Airports:EGBK:symbol
+Airports:EGBM:symbol
+Airports:EGBN:symbol
+Airports:EGBO:symbol
+Airports:EGBP:symbol
+Airports:EGBS:symbol
+Airports:EGBT:symbol
+Airports:EGBV:symbol
+Airports:EGBW:symbol
+Airports:EGCB:symbol
+Airports:EGCC:symbol
+Airports:EGCF:symbol
+Airports:EGCJ:symbol
+Airports:EGCK:symbol
+Airports:EGCL:symbol
+Airports:EGCM:symbol
+Airports:EGCN:symbol
+Airports:EGCS:symbol
+Airports:EGCT:symbol
+Airports:EGCV:symbol
+Airports:EGCW:symbol
+Airports:EGDI:symbol
+Airports:EGDM:symbol
+Airports:EGDN:symbol
+Airports:EGDO:symbol
+Airports:EGDP:symbol
+Airports:EGDR:symbol
+Airports:EGDY:symbol
+Airports:EGEC:symbol
+Airports:EGED:symbol
+Airports:EGEF:symbol
+Airports:EGEG:symbol
+Airports:EGEN:symbol
+Airports:EGEO:symbol
+Airports:EGEP:symbol
+Airports:EGER:symbol
+Airports:EGES:symbol
+Airports:EGET:symbol
+Airports:EGEW:symbol
+Airports:EGFA:symbol
+Airports:EGFC:symbol
+Airports:EGFE:symbol
+Airports:EGFF:symbol
+Airports:EGFH:symbol
+Airports:EGFP:symbol
+Airports:EGGD:symbol
+Airports:EGGP:symbol
+Airports:EGGW:symbol
+Airports:EGHA:symbol
+Airports:EGHC:symbol
+Airports:EGHE:symbol
+Airports:EGHF:symbol
+Airports:EGHG:symbol
+Airports:EGHH:symbol
+Airports:EGHI:symbol
+Airports:EGHJ:symbol
+Airports:EGHK:symbol
+Airports:EGHL:symbol
+Airports:EGHN:symbol
+Airports:EGHO:symbol
+Airports:EGHP:symbol
+Airports:EGHQ:symbol
+Airports:EGHR:symbol
+Airports:EGHS:symbol
+Airports:EGHT:symbol
+Airports:EGHU:symbol
+Airports:EGHY:symbol
+Airports:EGJA:symbol
+Airports:EGJB:symbol
+Airports:EGJJ:symbol
+Airports:EGKA:symbol
+Airports:EGKB:symbol
+Airports:EGKC:symbol
+Airports:EGKE:symbol
+Airports:EGKG:symbol
+Airports:EGKH:symbol
+Airports:EGKK:symbol
+Airports:EGKN:symbol
+Airports:EGKR:symbol
+Airports:EGKT:symbol
+Airports:EGLA:symbol
+Airports:EGLC:symbol
+Airports:EGLD:symbol
+Airports:EGLF:symbol
+Airports:EGLJ:symbol
+Airports:EGLK:symbol
+Airports:EGLL:symbol
+Airports:EGLM:symbol
+Airports:EGLS:symbol
+Airports:EGLT:symbol
+Airports:EGLW:symbol
+Airports:EGMA:symbol
+Airports:EGMC:symbol
+Airports:EGMD:symbol
+Airports:EGMF:symbol
+Airports:EGMJ:symbol
+Airports:EGNC:symbol
+Airports:EGNE:symbol
+Airports:EGNF:symbol
+Airports:EGNH:symbol
+Airports:EGNI:symbol
+Airports:EGNJ:symbol
+Airports:EGNL:symbol
+Airports:EGNO:symbol
+Airports:EGNR:symbol
+Airports:EGNS:symbol
+Airports:EGNT:symbol
+Airports:EGNU:symbol
+Airports:EGNV:symbol
+Airports:EGNW:symbol
+Airports:EGNX:symbol
+Airports:EGNY:symbol
+Airports:EGOD:symbol
+Airports:EGOE:symbol
+Airports:EGOQ:symbol
+Airports:EGOS:symbol
+Airports:EGOV:symbol
+Airports:EGOW:symbol
+Airports:EGPA:symbol
+Airports:EGPB:symbol
+Airports:EGPC:symbol
+Airports:EGPD:symbol
+Airports:EGPE:symbol
+Airports:EGPF:symbol
+Airports:EGPG:symbol
+Airports:EGPH:symbol
+Airports:EGPI:symbol
+Airports:EGPJ:symbol
+Airports:EGPK:symbol
+Airports:EGPL:symbol
+Airports:EGPN:symbol
+Airports:EGPO:symbol
+Airports:EGPR:symbol
+Airports:EGPT:symbol
+Airports:EGPU:symbol
+Airports:EGPW:symbol
+Airports:EGQL:symbol
+Airports:EGQS:symbol
+Airports:EGRF:symbol
+Airports:EGRG:symbol
+Airports:EGRK:symbol
+Airports:EGRN:symbol
+Airports:EGRO:symbol
+Airports:EGSA:symbol
+Airports:EGSC:symbol
+Airports:EGSD:symbol
+Airports:EGSF:symbol
+Airports:EGSG:symbol
+Airports:EGSH:symbol
+Airports:EGSJ:symbol
+Airports:EGSL:symbol
+Airports:EGSM:symbol
+Airports:EGSN:symbol
+Airports:EGSO:symbol
+Airports:EGSP:symbol
+Airports:EGSQ:symbol
+Airports:EGSR:symbol
+Airports:EGSS:symbol
+Airports:EGST:symbol
+Airports:EGSU:symbol
+Airports:EGSV:symbol
+Airports:EGSW:symbol
+Airports:EGSX:symbol
+Airports:EGSY:symbol
+Airports:EGTB:symbol
+Airports:EGTC:symbol
+Airports:EGTD:symbol
+Airports:EGTE:symbol
+Airports:EGTF:symbol
+Airports:EGTH:symbol
+Airports:EGTK:symbol
+Airports:EGTO:symbol
+Airports:EGTP:symbol
+Airports:EGTR:symbol
+Airports:EGTU:symbol
+Airports:EGTW:symbol
+Airports:EGUB:symbol
+Airports:EGUC:symbol
+Airports:EGUL:symbol
+Airports:EGUN:symbol
+Airports:EGUW:symbol
+Airports:EGUY:symbol
+Airports:EGVA:symbol
+Airports:EGVF:symbol
+Airports:EGVL:symbol
+Airports:EGVN:symbol
+Airports:EGVO:symbol
+Airports:EGVP:symbol
+Airports:EGWC:symbol
+Airports:EGWN:symbol
+Airports:EGWU:symbol
+Airports:EGXC:symbol
+Airports:EGXD:symbol
+Airports:EGXE:symbol
+Airports:EGXH:symbol
+Airports:EGXT:symbol
+Airports:EGXW:symbol
+Airports:EGXZ:symbol
+Airports:EGYD:symbol
+Airports:EGYE:symbol
+Airports:EGYM:symbol
+Airports:EGYX:symbol
+Airports:EIDL:symbol
+Airports:EIDW:symbol
+Airports:LFAC:symbol
+Airports:LFAT:symbol
 ARTCC boundary:EBR08:
 ARTCC boundary:EBR17A:
 ARTCC boundary:EBR17B:
@@ -1564,37 +1782,37 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:309
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
-PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:254,197,1
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:0
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
-PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
-PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:10
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:1
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
-PLUGIN:UK Controller Plugin:HistoryTrailLength:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:10
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
-PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:3
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:39
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1573
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:57
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:149
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGNM;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_BARNSLEY;ASR_MANCHESTER
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0

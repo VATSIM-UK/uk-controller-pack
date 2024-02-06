@@ -1,6 +1,6 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2023-01-03
+Last Updated:	2023-09-21
 ========================================================
 
 ========================================================
@@ -42,8 +42,22 @@ Generic
 
 .qnh QNH $altim($1)
 
+========================================================
+New Pilots
+========================================================
+
+.prc Hello, I see you are new to the network. First of all - welcome to VATSIM! It may be tempting to jump right ahead and fly, but I would suggest you read through some documents first, in order to prepare yourself for what you may encounter. First of all - you should read the VATSIM tutorials at https://vatsim.net/prc. Here you can find everything you need. Second of all, you should read through the VATSIM Code of Conduct (https://vatsim.net/coc), especially sections A and B, in order to not get in trouble for something you didn't know.
+.srd You can find standard UK routings (domestic and to FIR exit points) in the Standard Route Document http://vats.im/srd
+.fpl There is no flight plan for your callsign, please file one. I suggest using either http://simbrief.com or http://edi-gla.co.uk to find a valid route.
+.modec It is a VATSIM CoC requirement (B4) for you to Squawk mode C whilst in the air. Please do so now. If you don't know how to do this, please refer to your pilot client documentation.
+.paused You seem to be paused mid-air. It is against the VATSIM CoC (B2). Please resume normal flight or disconnect.
+.accel Whilst time acceleration is permitted in uncontrolled airspace, it isn't whilst under control of ATC. Please return to normal simulation rate or disconnect. CoC B9 refers.
+.warn The VATSIM CoC (B8) now REQUIRES pilots to be able to comply with ATC Instructions, such as flying headings, speeds and levels. It seems you are unable to comply or are knowingly non-compliant. If you are unable to follow further instructions, I will need to call a Supervisor.
+.mic $aircraft You have an open mic, please check your Push to Talk key/button.
 .ini Hello - You climbed above the initial climb on your departure today - please remember to check initial climb restrictions (including step climbs) on SIDs EVERY time you fly, to ensure you do not conflict with other airspace users. All UK charts are available here: https://chartfox.org/
 .iniall BROADCAST: A REMINDER TO ALWAYS CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY https://chartfox.org/ NOTE THAT SIDs MAY INCLUDE STEP CLIMBS
+.mayday The VATSIM CoC (B6) states that if air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Due to controller workload I am unable to accept your emergency, please resume normal flight or disconnect.
+.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
 
 ========================================================
 Handoffs
@@ -74,6 +88,8 @@ Handoffs
 .cl ALL STATIONS, ALL STATIONS, $callsign is now closing. Monitor $radioname($1) ($atccallsign($1)) $freq($1)
 .cluni ALL STATIONS, ALL STATIONS, $callsign is now closing. No other ATC available, Monitor Unicom, 122.800
 
+.833 You have been transferred to an 8.33 kHz frequency. If your aircraft's radio does not allow you to tune the exact frequency, you can use the .com1 command in your pilot client to manually tune it. Visit vats.im/833 for more details 
+
 ========================================================
 Departure
 ========================================================
@@ -82,11 +98,8 @@ Departure
 
 .dep $sid departure 
 .deprw Departure runway is $deprwy. 
-
-.pdc .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
-.npdc .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
-.pdci .msg $aircraft $dep PDC - $time - INFORMATION $atiscode($dep). $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
-.npdci .msg $aircraft $dep PDC - $time - NO ATIS. $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
+.pdc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
+.pdcc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. SLOT TIME $1. PDC READBACK NOT RQRD. 
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)
 .sidrw Cleared to $arr, $sid departure, runway $deprwy($dep), squawk $squawk, QNH $altim($dep)
@@ -145,8 +158,6 @@ Ground Movement
 Runway
 ========================================================
 
-.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
-
 .cr Via $1, cross runway $2
 .bcr Behind the $1, cross runway $2
 .llcr At $1, cross runway $2
@@ -164,7 +175,7 @@ Runway
 .tof From $1, Runway $deprwy($dep), surface wind $wind($dep), cleared for takeoff
 
 .cto Hold position, cancel take-off, I say again, cancel take-off acknowledge
-.stop Stop immediately, I say again, $callsign, stop immediately acknowledge
+.stop Stop immediately, I say again, $aircraft, stop immediately acknowledge
 
 .ca Runway $arrrwy($arr), surface wind $wind($arr), continue approach.
 .land Runway $arrrwy($arr), surface wind $wind($arr), cleared to land.
@@ -246,6 +257,8 @@ Flight Information Service
 .rcs Radar control
 .cteca Cleared to enter controlled airspace, $1
 .ctlcabd Cleared to leave controlled airspace by descent
+
+.ukfis If you would like more information about UK Flight Infomation Service, you can find out more here; https://vats.im/UKFIS
 
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.

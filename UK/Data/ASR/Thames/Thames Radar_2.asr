@@ -1,268 +1,233 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-ARTCC boundary:EBR08:
-ARTCC boundary:EBR17A:
-ARTCC boundary:EBR17B:
-ARTCC boundary:EBR17C:
-ARTCC boundary:EBR21:
-ARTCC boundary:EBR24B:
-ARTCC boundary:EBR25:
-ARTCC boundary:EBR31:
-ARTCC boundary:EBR56:
-ARTCC boundary:EDG113B:
-ARTCC boundary:EGD001:
-ARTCC boundary:EGD003:
-ARTCC boundary:EGD004:
-ARTCC boundary:EGD005A:
-ARTCC boundary:EGD005B:
-ARTCC boundary:EGD006A:
-ARTCC boundary:EGD006B:
-ARTCC boundary:EGD006C:
-ARTCC boundary:EGD007A:
-ARTCC boundary:EGD007B:
-ARTCC boundary:EGD007C:
-ARTCC boundary:EGD008A:
-ARTCC boundary:EGD008B:
-ARTCC boundary:EGD008C:
-ARTCC boundary:EGD009A:
-ARTCC boundary:EGD009B:
-ARTCC boundary:EGD011A:
-ARTCC boundary:EGD011B:
-ARTCC boundary:EGD011C:
-ARTCC boundary:EGD012:
-ARTCC boundary:EGD013:
-ARTCC boundary:EGD014:
-ARTCC boundary:EGD015:
-ARTCC boundary:EGD017:
-ARTCC boundary:EGD021:
-ARTCC boundary:EGD023:
-ARTCC boundary:EGD026:
-ARTCC boundary:EGD031:
-ARTCC boundary:EGD036:
-ARTCC boundary:EGD037:
-ARTCC boundary:EGD038:
-ARTCC boundary:EGD039:
-ARTCC boundary:EGD040:
-ARTCC boundary:EGD044:
-ARTCC boundary:EGD061:
-ARTCC boundary:EGD064A:
-ARTCC boundary:EGD064B:
-ARTCC boundary:EGD064C:
-ARTCC boundary:EGD110:
-ARTCC boundary:EGD113A:
-ARTCC boundary:EGD115A:
-ARTCC boundary:EGD115B:
-ARTCC boundary:EGD117:
-ARTCC boundary:EGD118:
-ARTCC boundary:EGD119:
-ARTCC boundary:EGD120:
-ARTCC boundary:EGD122A:
-ARTCC boundary:EGD122B:
-ARTCC boundary:EGD122C:
-ARTCC boundary:EGD123:
-ARTCC boundary:EGD124:
-ARTCC boundary:EGD125:
-ARTCC boundary:EGD126:
-ARTCC boundary:EGD127:
-ARTCC boundary:EGD128:
-ARTCC boundary:EGD129:
-ARTCC boundary:EGD130:
-ARTCC boundary:EGD132:
-ARTCC boundary:EGD133A:
-ARTCC boundary:EGD133B:
-ARTCC boundary:EGD136:
-ARTCC boundary:EGD138A:
-ARTCC boundary:EGD138B:
-ARTCC boundary:EGD138C:
-ARTCC boundary:EGD138D:
-ARTCC boundary:EGD139:
-ARTCC boundary:EGD141:
-ARTCC boundary:EGD147:
-ARTCC boundary:EGD201A:
-ARTCC boundary:EGD201B:
-ARTCC boundary:EGD201C:
-ARTCC boundary:EGD201D:
-ARTCC boundary:EGD201F:
-ARTCC boundary:EGD201G:
-ARTCC boundary:EGD201H:
-ARTCC boundary:EGD201J:
-ARTCC boundary:EGD202A:
-ARTCC boundary:EGD202B:
-ARTCC boundary:EGD202C:
-ARTCC boundary:EGD202D:
-ARTCC boundary:EGD203:
-ARTCC boundary:EGD206:
-ARTCC boundary:EGD207:
-ARTCC boundary:EGD208:
-ARTCC boundary:EGD211:
-ARTCC boundary:EGD213:
-ARTCC boundary:EGD215:
-ARTCC boundary:EGD216:
-ARTCC boundary:EGD304:
-ARTCC boundary:EGD305:
-ARTCC boundary:EGD307:
-ARTCC boundary:EGD314:
-ARTCC boundary:EGD323A:
-ARTCC boundary:EGD323B:
-ARTCC boundary:EGD323C:
-ARTCC boundary:EGD323D:
-ARTCC boundary:EGD323E:
-ARTCC boundary:EGD323F:
-ARTCC boundary:EGD323G:
-ARTCC boundary:EGD323H:
-ARTCC boundary:EGD323J:
-ARTCC boundary:EGD323K:
-ARTCC boundary:EGD323L:
-ARTCC boundary:EGD323M:
-ARTCC boundary:EGD323N:
-ARTCC boundary:EGD323P:
-ARTCC boundary:EGD323Q:
-ARTCC boundary:EGD323R:
-ARTCC boundary:EGD401:
-ARTCC boundary:EGD402A:
-ARTCC boundary:EGD402B:
-ARTCC boundary:EGD402C:
-ARTCC boundary:EGD403A:
-ARTCC boundary:EGD403B:
-ARTCC boundary:EGD405:
-ARTCC boundary:EGD406A:
-ARTCC boundary:EGD406B:
-ARTCC boundary:EGD406C:
-ARTCC boundary:EGD407:
-ARTCC boundary:EGD408:
-ARTCC boundary:EGD410:
-ARTCC boundary:EGD412:
-ARTCC boundary:EGD442:
-ARTCC boundary:EGD505:
-ARTCC boundary:EGD508:
-ARTCC boundary:EGD509:
-ARTCC boundary:EGD510A:
-ARTCC boundary:EGD510B:
-ARTCC boundary:EGD510C:
-ARTCC boundary:EGD512A:
-ARTCC boundary:EGD512B:
-ARTCC boundary:EGD513A:
-ARTCC boundary:EGD513B:
-ARTCC boundary:EGD513C:
-ARTCC boundary:EGD601:
-ARTCC boundary:EGD604:
-ARTCC boundary:EGD613A:
-ARTCC boundary:EGD613B:
-ARTCC boundary:EGD613C:
-ARTCC boundary:EGD613D:
-ARTCC boundary:EGD701A:
-ARTCC boundary:EGD701B:
-ARTCC boundary:EGD701C:
-ARTCC boundary:EGD701D:
-ARTCC boundary:EGD701E:
-ARTCC boundary:EGD701F:
-ARTCC boundary:EGD701G:
-ARTCC boundary:EGD701H:
-ARTCC boundary:EGD701I:
-ARTCC boundary:EGD701J:
-ARTCC boundary:EGD701K:
-ARTCC boundary:EGD701L:
-ARTCC boundary:EGD701M:
-ARTCC boundary:EGD701N:
-ARTCC boundary:EGD701O:
-ARTCC boundary:EGD701P:
-ARTCC boundary:EGD701Q:
-ARTCC boundary:EGD701R:
-ARTCC boundary:EGD701S:
-ARTCC boundary:EGD701T:
-ARTCC boundary:EGD701U:
-ARTCC boundary:EGD701V:
-ARTCC boundary:EGD701W:
-ARTCC boundary:EGD701X:
-ARTCC boundary:EGD701Y:
-ARTCC boundary:EGD702:
-ARTCC boundary:EGD703:
-ARTCC boundary:EGD704:
-ARTCC boundary:EGD710:
-ARTCC boundary:EGD712A:
-ARTCC boundary:EGD712B:
-ARTCC boundary:EGD712C:
-ARTCC boundary:EGD712D:
-ARTCC boundary:EGD801:
-ARTCC boundary:EGD802:
-ARTCC boundary:EGD803:
-ARTCC boundary:EGD809C:
-ARTCC boundary:EGD809N:
-ARTCC boundary:EGD809S:
-ARTCC boundary:EGP611:
-ARTCC boundary:EGP813:
-ARTCC boundary:EGR002:
-ARTCC boundary:EGR063:
-ARTCC boundary:EGR095:
-ARTCC boundary:EGR101:
-ARTCC boundary:EGR104:
-ARTCC boundary:EGR105:
-ARTCC boundary:EGR107:
-ARTCC boundary:EGR153:
-ARTCC boundary:EGR154:
-ARTCC boundary:EGR155:
-ARTCC boundary:EGR156:
-ARTCC boundary:EGR157:
-ARTCC boundary:EGR158:
-ARTCC boundary:EGR159:
-ARTCC boundary:EGR160:
-ARTCC boundary:EGR204:
-ARTCC boundary:EGR212:
-ARTCC boundary:EGR214:
-ARTCC boundary:EGR217:
-ARTCC boundary:EGR219:
-ARTCC boundary:EGR220:
-ARTCC boundary:EGR311:
-ARTCC boundary:EGR312:
-ARTCC boundary:EGR313:
-ARTCC boundary:EGR315:
-ARTCC boundary:EGR319:
-ARTCC boundary:EGR321:
-ARTCC boundary:EGR322:
-ARTCC boundary:EGR413:
-ARTCC boundary:EGR431:
-ARTCC boundary:EGR432:
-ARTCC boundary:EGR444:
-ARTCC boundary:EGR445:
-ARTCC boundary:EGR446:
-ARTCC boundary:EGR504:
-ARTCC boundary:EGR515:
-ARTCC boundary:EGR516:
-ARTCC boundary:EGR603:
-ARTCC boundary:EGR610A:
-ARTCC boundary:EGR610B:
-ARTCC boundary:EGR610C:
-ARTCC boundary:EGR610D:
-ARTCC boundary:EGR612:
-ARTCC boundary:EGR704:
-ARTCC boundary:EGR705:
-ARTCC boundary:LFD82:
-ARTCC boundary:LFP26:
-ARTCC boundary:LFP27:
-ARTCC boundary:LFP28:
-ARTCC boundary:LFP32:
-ARTCC boundary:LFP33:
-ARTCC boundary:LFP6-1:
-ARTCC boundary:LFP6-2:
-ARTCC boundary:LFP7:
-ARTCC boundary:LFP81:
-ARTCC boundary:LFR10:
-ARTCC boundary:MASTS:
+Airports:000A:symbol
+Airports:EGAA:symbol
+Airports:EGAB:symbol
+Airports:EGAC:symbol
+Airports:EGAD:symbol
+Airports:EGAE:symbol
+Airports:EGBB:symbol
+Airports:EGBD:symbol
+Airports:EGBE:symbol
+Airports:EGBF:symbol
+Airports:EGBG:symbol
+Airports:EGBJ:symbol
+Airports:EGBK:symbol
+Airports:EGBM:symbol
+Airports:EGBN:symbol
+Airports:EGBO:symbol
+Airports:EGBP:symbol
+Airports:EGBS:symbol
+Airports:EGBT:symbol
+Airports:EGBV:symbol
+Airports:EGBW:symbol
+Airports:EGCB:symbol
+Airports:EGCC:symbol
+Airports:EGCF:symbol
+Airports:EGCJ:symbol
+Airports:EGCK:symbol
+Airports:EGCL:symbol
+Airports:EGCM:symbol
+Airports:EGCN:symbol
+Airports:EGCS:symbol
+Airports:EGCT:symbol
+Airports:EGCV:symbol
+Airports:EGCW:symbol
+Airports:EGDI:symbol
+Airports:EGDM:symbol
+Airports:EGDN:symbol
+Airports:EGDO:symbol
+Airports:EGDP:symbol
+Airports:EGDR:symbol
+Airports:EGDY:symbol
+Airports:EGEC:symbol
+Airports:EGED:symbol
+Airports:EGEF:symbol
+Airports:EGEG:symbol
+Airports:EGEN:symbol
+Airports:EGEO:symbol
+Airports:EGEP:symbol
+Airports:EGER:symbol
+Airports:EGES:symbol
+Airports:EGET:symbol
+Airports:EGEW:symbol
+Airports:EGFA:symbol
+Airports:EGFC:symbol
+Airports:EGFE:symbol
+Airports:EGFF:symbol
+Airports:EGFH:symbol
+Airports:EGFP:symbol
+Airports:EGGD:symbol
+Airports:EGGP:symbol
+Airports:EGGW:symbol
+Airports:EGHA:symbol
+Airports:EGHC:symbol
+Airports:EGHE:symbol
+Airports:EGHF:symbol
+Airports:EGHG:symbol
+Airports:EGHH:symbol
+Airports:EGHI:symbol
+Airports:EGHJ:symbol
+Airports:EGHK:symbol
+Airports:EGHL:symbol
+Airports:EGHN:symbol
+Airports:EGHO:symbol
+Airports:EGHP:symbol
+Airports:EGHQ:symbol
+Airports:EGHR:symbol
+Airports:EGHS:symbol
+Airports:EGHT:symbol
+Airports:EGHU:symbol
+Airports:EGHY:symbol
+Airports:EGJA:symbol
+Airports:EGJB:symbol
+Airports:EGJJ:symbol
+Airports:EGKA:symbol
+Airports:EGKB:symbol
+Airports:EGKC:symbol
+Airports:EGKE:symbol
+Airports:EGKG:symbol
+Airports:EGKH:symbol
+Airports:EGKK:symbol
+Airports:EGKN:symbol
+Airports:EGKR:symbol
+Airports:EGKT:symbol
+Airports:EGLA:symbol
+Airports:EGLC:symbol
+Airports:EGLD:symbol
+Airports:EGLF:symbol
+Airports:EGLJ:symbol
+Airports:EGLK:symbol
+Airports:EGLL:symbol
+Airports:EGLM:symbol
+Airports:EGLS:symbol
+Airports:EGLT:symbol
+Airports:EGLW:symbol
+Airports:EGMA:symbol
+Airports:EGMC:symbol
+Airports:EGMD:symbol
+Airports:EGMF:symbol
+Airports:EGMJ:symbol
+Airports:EGNC:symbol
+Airports:EGNE:symbol
+Airports:EGNF:symbol
+Airports:EGNH:symbol
+Airports:EGNI:symbol
+Airports:EGNJ:symbol
+Airports:EGNL:symbol
+Airports:EGNM:symbol
+Airports:EGNO:symbol
+Airports:EGNP:symbol
+Airports:EGNR:symbol
+Airports:EGNS:symbol
+Airports:EGNT:symbol
+Airports:EGNU:symbol
+Airports:EGNV:symbol
+Airports:EGNW:symbol
+Airports:EGNX:symbol
+Airports:EGNY:symbol
+Airports:EGOD:symbol
+Airports:EGOE:symbol
+Airports:EGOQ:symbol
+Airports:EGOS:symbol
+Airports:EGOV:symbol
+Airports:EGOW:symbol
+Airports:EGPA:symbol
+Airports:EGPB:symbol
+Airports:EGPC:symbol
+Airports:EGPD:symbol
+Airports:EGPE:symbol
+Airports:EGPF:symbol
+Airports:EGPG:symbol
+Airports:EGPH:symbol
+Airports:EGPI:symbol
+Airports:EGPJ:symbol
+Airports:EGPK:symbol
+Airports:EGPL:symbol
+Airports:EGPN:symbol
+Airports:EGPO:symbol
+Airports:EGPR:symbol
+Airports:EGPT:symbol
+Airports:EGPU:symbol
+Airports:EGPW:symbol
+Airports:EGQL:symbol
+Airports:EGQS:symbol
+Airports:EGRF:symbol
+Airports:EGRG:symbol
+Airports:EGRK:symbol
+Airports:EGRN:symbol
+Airports:EGRO:symbol
+Airports:EGSA:symbol
+Airports:EGSC:symbol
+Airports:EGSD:symbol
+Airports:EGSF:symbol
+Airports:EGSG:symbol
+Airports:EGSH:symbol
+Airports:EGSJ:symbol
+Airports:EGSL:symbol
+Airports:EGSM:symbol
+Airports:EGSN:symbol
+Airports:EGSO:symbol
+Airports:EGSP:symbol
+Airports:EGSQ:symbol
+Airports:EGSR:symbol
+Airports:EGSS:symbol
+Airports:EGST:symbol
+Airports:EGSU:symbol
+Airports:EGSV:symbol
+Airports:EGSW:symbol
+Airports:EGSX:symbol
+Airports:EGSY:symbol
+Airports:EGTB:symbol
+Airports:EGTC:symbol
+Airports:EGTD:symbol
+Airports:EGTE:symbol
+Airports:EGTF:symbol
+Airports:EGTH:symbol
+Airports:EGTK:symbol
+Airports:EGTO:symbol
+Airports:EGTP:symbol
+Airports:EGTR:symbol
+Airports:EGTU:symbol
+Airports:EGTW:symbol
+Airports:EGUB:symbol
+Airports:EGUC:symbol
+Airports:EGUL:symbol
+Airports:EGUN:symbol
+Airports:EGUW:symbol
+Airports:EGUY:symbol
+Airports:EGVA:symbol
+Airports:EGVF:symbol
+Airports:EGVL:symbol
+Airports:EGVN:symbol
+Airports:EGVO:symbol
+Airports:EGVP:symbol
+Airports:EGWC:symbol
+Airports:EGWN:symbol
+Airports:EGWU:symbol
+Airports:EGXC:symbol
+Airports:EGXD:symbol
+Airports:EGXE:symbol
+Airports:EGXH:symbol
+Airports:EGXT:symbol
+Airports:EGXW:symbol
+Airports:EGXZ:symbol
+Airports:EGYD:symbol
+Airports:EGYE:symbol
+Airports:EGYM:symbol
+Airports:EGYX:symbol
+Airports:EIDL:symbol
+Airports:EIDW:symbol
+Airports:LFAC:symbol
+Airports:LFAT:symbol
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high Boundary:Borders CTA:
+ARTCC high boundary:Borders CTA:
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
-ARTCC high boundary:Conditional - Berry Head CTA:
-ARTCC high boundary:Conditional - Borders CTA 5:
-ARTCC high boundary:Conditional - Cotswold CTA:
-ARTCC high boundary:Conditional - N864 TLA-ASNUD:
-ARTCC high boundary:Conditional - P18 ADN-NATEB CDR1:
-ARTCC high boundary:Conditional - PEPZE CTA 2:
-ARTCC high boundary:Conditional - Portsmouth CTA:
 ARTCC high boundary:Cotswold CTA:
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
@@ -311,7 +276,6 @@ ARTCC low boundary:EGGP Liverpool CTA:
 ARTCC low boundary:EGGW London Luton CTA:
 ARTCC low boundary:EGHA Compton ATZ:
 ARTCC low boundary:EGHF Lee-on-Solent ATZ:
-ARTCC low boundary:EGHG Yeovilton MATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
@@ -323,25 +287,20 @@ ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
 ARTCC low boundary:EGLC London City CTA:
-ARTCC low boundary:EGLF Farnborough ATZ:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLS Old Sarum ATZ:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
-ARTCC low boundary:EGNO Warton ATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
-ARTCC low boundary:EGNV Durham Tees Valley CTA:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGPB Sumburgh CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 ARTCC low boundary:EGPF Glasgow CTA:
 ARTCC low boundary:EGPH Edinburgh CTA:
 ARTCC low boundary:EGPK Prestwick CTA:
-ARTCC low boundary:EGQK/EGQS Lossiemouth/Kinloss MATZ:
-ARTCC low boundary:EGQL Leuchars ATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGTO Rochester ATZ:
@@ -357,7 +316,6 @@ ARTCC low boundary:LFOH Le Havre CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-ARTCC low boundary:XYLINE:
 Fixes:ABBEW:symbol
 Fixes:ABBOT:symbol
 Fixes:ABEDA:symbol
@@ -1451,7 +1409,6 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:EGLC City Transitions:
 Geo:Extended centrelines:
-Stars:Thames Gate:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
 VORs:ABB:symbol
@@ -1479,8 +1436,6 @@ VORs:COA:symbol
 VORs:CON:symbol
 VORs:CPT:symbol
 VORs:CRK:symbol
-VORs:CSL:symbol
-VORs:CTM:symbol
 VORs:CWZ:symbol
 VORs:DCS:symbol
 VORs:DET:symbol
@@ -1510,7 +1465,6 @@ VORs:LKH:symbol
 VORs:LND:symbol
 VORs:LON:symbol
 VORs:LYD:symbol
-VORs:LYE:symbol
 VORs:MAC:symbol
 VORs:MAM:symbol
 VORs:MAY:symbol
@@ -1552,7 +1506,6 @@ VORs:WAL:symbol
 VORs:WIK:symbol
 VORs:WIT:symbol
 VORs:WTZ:symbol
-VORs:YVL:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:200
@@ -1571,12 +1524,12 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1526
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:55
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -1587,21 +1540,32 @@ PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
 PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
-PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:6
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1407
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:52
+PLUGIN:UK Controller Plugin:holdGODLUMaxLevel:12000
+PLUGIN:UK Controller Plugin:holdGODLUMinimised:0
+PLUGIN:UK Controller Plugin:holdGODLUMinLevel:8000
+PLUGIN:UK Controller Plugin:holdGODLUPositionX:123
+PLUGIN:UK Controller Plugin:holdGODLUPositionY:776
+PLUGIN:UK Controller Plugin:holdJACKOMaxLevel:14000
+PLUGIN:UK Controller Plugin:holdJACKOMinimised:0
+PLUGIN:UK Controller Plugin:holdJACKOMinLevel:8000
+PLUGIN:UK Controller Plugin:holdJACKOPositionX:1432
+PLUGIN:UK Controller Plugin:holdJACKOPositionY:729
+PLUGIN:UK Controller Plugin:selectedHolds:GODLU;JACKO
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1611
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:178
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1589
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:103
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0

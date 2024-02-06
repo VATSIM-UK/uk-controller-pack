@@ -1,0 +1,42 @@
+PROFILE
+PROFILE:EGJA_TWR:50:4
+ATIS2:Alderney Tower
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:INITIAL CLIMB AS INSTRUCTED BY ATC
+PROFILE:EGJB_GND:20:3
+ATIS2:Guernsey Ground
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJB
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJB_TWR:50:4
+ATIS2:Guernsey Tower
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJB
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_GND:20:3
+ATIS2:Jersey Ground
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_TWR:50:4
+ATIS2:Jersey Tower
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_C_APP:100:5
+ATIS2:Jersey Control
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_S_APP:100:5
+ATIS2:Jersey Control
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_APP:100:5
+ATIS2:Jersey Approach
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJB_APP:75:5
+ATIS2:Guernsey Approach
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGJJ_F_APP:100:5
+ATIS2:Jersey Radar
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGJJ
+ATIS4:Submit feedback at vats.im/atcfb
+END

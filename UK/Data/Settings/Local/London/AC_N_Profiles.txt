@@ -1,26 +1,26 @@
 PROFILE
 PROFILE:LON_N_CTR:350:6
-ATIS2:"London Control" | CPDLC/PDC [UNVBL]
+ATIS2:London Control | CPDLC/PDC [LONN]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LON_NW_CTR:250:6
-ATIS2:"London Control" | CPDLC/PDC [UNVBL]
+ATIS2:London Control | CPDLC/PDC [LNNW]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LON_NE_CTR:250:6
-ATIS2:"London Control" | CPDLC/PDC [UNVBL]
+ATIS2:London Control | CPDLC/PDC [LNNE]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:MAN_E_CTR:200:6
-ATIS2:"Scottish Control"
+ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:MAN_W_CTR:200:6
-ATIS2:"Scottish Control"
+ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:MAN_CTR:250:6
-ATIS2:"Scottish Control"
+ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 END

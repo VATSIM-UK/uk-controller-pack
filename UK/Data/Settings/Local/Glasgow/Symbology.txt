@@ -1,6 +1,6 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:16776960:0.5:0:0:7
+Airports:symbol:11842560:0.5:0:0:7
 Airports:name:13827975:3.2:0:0:2
 Low airways:line:16777215:2.5:1:0:7
 Low airways:name:6114360:2.5:0:0:8
@@ -8,11 +8,11 @@ High airways:line:16512:3.5:2:0:7
 High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:16776960:1.0:0:0:7
 Fixes:name:5921370:3.2:0:0:14
-Sids:line:16776960:3.0:0:0:7
+Sids:line:5930563:3.0:0:0:7
 Stars:line:16776960:3.0:1:0:7
 ARTCC high boundary:line:11842560:3.0:0:1:7
 ARTCC boundary:line:210:3.0:0:0:7
-ARTCC low boundary:line:11842560:3.0:3:1:7
+ARTCC low boundary:line:11842560:3.0:1:1:7
 Geo:line:13816320:3.0:0:0:7
 VORs:symbol:16776960:1.4:0:0:7
 VORs:name:6579300:3.2:0:0:2
@@ -76,7 +76,7 @@ Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
-Other:freetext:5921370:3.5:0:0:0
+Other:freetext:5921370:3.5:0:0:7
 Other:range rings:32896:5.0:0:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
@@ -95,13 +95,16 @@ Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:21331:0.5:2:2:7
+Sector:line:16776960:0.5:0:0:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:4135951:3.5:0:0:7
 Sector:inactive sector background:4135951:3.5:0:0:7
 SYMBOL:0
-SYMBOLITEM:ARC 0 0 5 0 360
-SYMBOLITEM:POLYGON -1 0 0 0 0 -1 -1 -1
+SYMBOLITEM:MOVETO -6 -6
+SYMBOLITEM:LINETO 6 -6
+SYMBOLITEM:LINETO 6 6
+SYMBOLITEM:LINETO -6 6
+SYMBOLITEM:LINETO -6 -6
 SYMBOL:1
 SYMBOLITEM:POLYGON -4 3 0 -4 4 3
 SYMBOL:2
@@ -196,7 +199,11 @@ SYMBOLITEM:LINETO 4 -2
 SYMBOLITEM:MOVETO -3 2
 SYMBOLITEM:LINETO 4 2
 SYMBOL:14
-SYMBOLITEM:POLYGON -1 -1 -1 1 1 1 1 -1
+SYMBOLITEM:MOVETO -1 -1
+SYMBOLITEM:LINETO -1 0
+SYMBOLITEM:LINETO 0 0
+SYMBOLITEM:LINETO 0 -1
+SYMBOLITEM:LINETO -1 -1
 SYMBOL:15
 SYMBOLITEM:MOVETO 0 -6
 SYMBOLITEM:LINETO -1 -6

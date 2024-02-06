@@ -1,0 +1,50 @@
+PROFILE
+PROFILE:EGVV_CTR:240:6
+ATIS2:Swanwick Mil
+ATIS3:Covering all Swanwick sectors. Top-down control of military airfields only.
+ATIS4:UK FIS may be available to civilian traffic on request.
+PROFILE:EGVV_N_CTR:240:6
+ATIS2:Swanwick Mil
+ATIS3:Covering North and North-West Swanwick sectors. Top-down control of military airfields only.
+ATIS4:UK FIS may be available to civilian traffic on request.
+PROFILE:EGVV_W_CTR:200:6
+ATIS2:Swanwick Mil
+ATIS3:Covering West, South West, Central and South East Swanwick sectors. Top-down of military airfields only.
+ATIS4:UK FIS may be available to civilian traffic on request.
+PROFILE:EGVV_E_CTR:135:6
+ATIS2:Swanwick Mil
+ATIS3:Covering East and North East Swanwick sectors. Top-down control of military airfields only.
+ATIS4:UK FIS may be available to civilian traffic on request.
+PROFILE:BLKDG_CTR:400:6
+ATIS2:Blackdog
+ATIS3:Fighter control for VSOA assets ONLY.
+ATIS4:
+PROFILE:HTSPR_CTR:400:6
+ATIS2:Hotspur
+ATIS3:Fighter control for VSOA assets ONLY.
+ATIS4:
+PROFILE:EG_APP:150:5
+ATIS2: Approach
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EG_Z_APP:150:5
+ATIS2: Zone
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EG_F_APP:150:5
+ATIS2: Director
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EG_P_APP:150:5
+ATIS2: Talkdown
+ATIS3:For SRA/PAR only.
+ATIS4:
+PROFILE:EG_TWR:50:4
+ATIS2: Tower
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EG_GND:20:3
+ATIS2: Ground
+ATIS3:Submit feedback at vats.im/atcfb
+ATIS4:
+END

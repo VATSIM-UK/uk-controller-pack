@@ -1,0 +1,46 @@
+name: Automatic AIRAC Actions
+
+on:
+  repository_dispatch:
+    types: [auto_airac_actions]
+  workflow_dispatch:
+
+jobs:
+  python-script-and-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r .github/workflows/requirements.txt
+
+      - name: Run Python script
+        env:
+            REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/workflows/auto_airac_actions.py
+          echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
+          rm airac.txt
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
+          git add .
+          git commit -m "Sector file update for AIRAC ${{ env.airac }}"
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sf_${{ env.airac }}
+          title: ${{ env.airac }} Sector File Update
+          body: This pull request was automatically generated to update the sector file to AIRAC ${{ env.airac }}.
+          reviewers: chssn

@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGNX_GND:20:3
 ATIS2:East Midlands Ground
-ATIS3:Voice ATIS on 122.675
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGNX
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNX_TWR:50:4
 ATIS2:East Midlands Tower
-ATIS3:Voice ATIS on 122.675
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGNX
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNX_APP:100:5
 ATIS2:East Midlands Radar
-ATIS3:Voice ATIS on 122.675
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGNX
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNX_F_APP:100:5
 ATIS2:East Midlands Director
-ATIS3:Voice ATIS on 122.675
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGNX
 ATIS4:Submit feedback at vats.im/atcfb
 END
