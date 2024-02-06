@@ -4,8 +4,8 @@
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />
 	<realMode mode="false" />
-	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/CAD.txt" />
-	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/taxizones.txt" />
+	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/3385a735f10127986ff4da7b9f5ae63cbdec5f49/UK/Data/Plugin/CDM/rate.txt" />
+	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/3385a735f10127986ff4da7b9f5ae63cbdec5f49/UK/Data/Plugin/CDM/taxizones.txt" />
 	<Ctot code="" />
 	<DefaultTaxiTime minutes="12" />
 	<RefreshTime seconds="20" />
