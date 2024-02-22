@@ -26,6 +26,7 @@ RecentFiles	Recent3	\..\Data\ASR\Edinburgh\Edinburgh Radar_3.asr
 RecentFiles	Recent4	\..\Data\ASR\Edinburgh\Edinburgh Radar_1.asr
 RecentFiles	Recent5	\..\Data\ASR\Edinburgh\Edinburgh SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin4	\..\Data\Plugin\CDM\CDM.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen

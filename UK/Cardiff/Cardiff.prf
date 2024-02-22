@@ -34,6 +34,7 @@ Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 ASRFastKeys	6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 RecentFiles	Recent6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\Data\Plugin\CDM\CDM.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
