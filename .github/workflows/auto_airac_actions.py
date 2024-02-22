@@ -64,12 +64,13 @@ class Airac:
             return f"{current_cycle.year}_{month_part}"
 
 
+        def current_tag(self) -> str:
+            """Returns the current tag for use with git"""
+            current_cycle_count = self.initialise()
+            current_month = str(self.today_date.month).zfill(2)  # Add leading zero if necessary
+            current_tag = f"{self.today_date.year}/{current_month}"
+            return current_tag
 
-    def current_tag(self) -> str:
-        """Returns the current tag for use with git"""
-        current_cycle_count = self.initialise()
-        current_tag = f"{self.today_date.year}/{current_cycle_count + 1}"
-        return current_tag
 
 
 class CurrentInstallation:
