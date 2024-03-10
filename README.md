@@ -10,18 +10,18 @@ A new release will be published in line with each AIRAC cycle (as long as signif
 If you wish to contribute, take a look at our [contribution guide.](https://github.com/VATSIM-UK/uk-controller-pack/blob/main/Contributing.md)
 
 ### Included In The Pack:
-UK Controller Plugin - thanks to Andy Ford (@AndyTWF)(https://github.com/VATSIM-UK/uk-controller-plugin)
+[UK Controller Plugin](https://github.com/VATSIM-UK/uk-controller-plugin) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
-vSMR Plugin - thanks to Pierre Ferran (@Pierr3)(https://github.com/pierr3/vSMR)
+[vSMR Plugin](https://github.com/pierr3/vSMR) - thanks to Pierre Ferran (@Pierr3)
 
-RDF Plugin - thanks to Claus Hemberg Jørgensen (@ChembergJ)(https://github.com/chembergj/RDF)
+[RDF Plugin](https://github.com/chembergj/RDF) - thanks to [@chemberj](https://github.com/chembergj)
 
-TopSky Plugin - thanks to Juha Holopainen (https://vatsim-scandinavia.org/forums/forum/54-plugins/)
+[TopSky Plugin](https://vatsim-scandinavia.org/forums/forum/54-plugins/) - thanks to Juha Holopainen
 
-AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
+[AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
-Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
+[Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [Slots Plugin](https://github.com/VATSIMCanada)
 
-A-CDM Plugin - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle) (https://github.com/vACDM)
+[A-CDM Plugin](https://github.com/vACDM) - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle)
 
 Park Air Plugin - thanks to George Complin
