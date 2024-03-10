@@ -20,7 +20,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
-[Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [Slots Plugin](https://github.com/VATSIMCanada)
+[Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [@VATSIMCanada](https://github.com/VATSIMCanada)
 
 [A-CDM Plugin](https://github.com/vACDM) - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle)
 
