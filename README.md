@@ -22,6 +22,6 @@ AFV-EuroScope Bridge Plugin - thanks to Andy Ford (AndyTWF)
 
 Slots Plugin - thanks to VATSIM Canada (https://github.com/VATSIMCanada/Slots-Plugin)
 
-A-CDM Plugin - thanks to @rpuig2001 (https://github.com/rpuig2001/CDM)
+A-CDM Plugin - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle) (https://github.com/vACDM)
 
 Park Air Plugin - thanks to George Complin
