@@ -224,3 +224,19 @@ m_Column::6:0:125:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Contr
 m_Column:PRE:3:1:127:9017:9018:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
 m_Column:QSY:7:0:107:0:0:1:UK Controller Plugin:::1:0.0
 END
+TAXIIN
+m_Visible:0
+m_X:120
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:STN:4:1:19:29:0:1::::1:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
