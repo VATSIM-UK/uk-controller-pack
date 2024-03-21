@@ -1,3 +1,5 @@
+X. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
+
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
 2. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
