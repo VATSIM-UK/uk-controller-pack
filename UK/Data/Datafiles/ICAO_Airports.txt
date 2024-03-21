@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2401/1  ++  Valid period: 25/JAN/2024 - 21/FEB/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2402/1  ++  Valid period: 22/FEB/2024 - 20/MAR/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 00AA	LEOTI/AERO B RANCH	United States
 00AN	KING SALAMON/KATMAI LODGE	Alaska
@@ -42,6 +42,7 @@
 00XA	HEMPSTEAD/WEESKI RANCH	United States
 01AN	WASILLA/MC HONE HEIGHTS	Alaska
 01CN	TALKEETNA/COLEMAN HOMESTEAD	Alaska
+01GE	WRIGHTSVILLE/THE FARM	United States
 01ID	LAVA HOT SPRINGS	United States
 01ME	PORTAGE LAKE/SAINT PETERS	United States
 01NK	GRANVILLE	United States
@@ -112,6 +113,7 @@
 07PA	ALBION/DREAM AIR	United States
 07UT	HOWELL/E NORTHROP GRUMMAN	United States
 08AL	GULF SHORES/LITTLE LAGOON	United States
+08AN	PALMER/BASE CAMP AIRSTRIP	Alaska
 08AR	ASHDOWN/GARRISON	United States
 08IL	CORTLAND/MARSHALL FARMS	United States
 08MS	COLDWATER/MIDSOUTH AIRPARK	United States
@@ -122,9 +124,11 @@
 08WA	LACEY/P-L RANCH	United States
 08WI	HOWARD/FAIKEL AIRFIELD	United States
 08XA	SNOOK/KNOLLE RANCH	United States
+09AN	HOMER/KACHEMAK LANDING	Alaska
 09CL	GRASS VALLEY/ALTA SIERRA	United States
 09GE	DAWSONVILLE/ELLIOTT FLD	United States
 09MN	WHITE BEAR TOWNSHIP/SALISBURY	United States
+09MT	SULA/PAINT CREEK RANCH	United States
 09NR	RAMSEUR/DAKOTA AIR RANCH	United States
 09TA	RAVENNA/XWIND FARM	United States
 0AA1	YAKATAGA	Alaska
@@ -215,6 +219,7 @@
 12NY	RICHARD SPRINGS/T - C ACRES	United States
 12OK	KINGSTON/FLYING M	United States
 12TT	GAINSVILLE/D AN P FARM	United States
+12UT	MOAB/RED ANNIE RANCH	United States
 12WV	HAMLIN/CRAZY HORSE	United States
 13FD	LAKE WALES/CHERRY POCKETS FISH	United States
 13ME	ROCKWOOD/SOCATEAN BAY	United States
@@ -411,6 +416,7 @@
 28AZ	AGUILA/SAMPLEYS	United States
 28ID	DIXIE/D BAR C	United States
 28MN	WELCH/RIVER RIDGE RANCH	United States
+28NC	GREENSBORO/BALLOONPORT OF GREE	United States
 28NR	RUTHERFORDTON/DRY POND	United States
 28PA	WERNERSVILLE/BOYER	United States
 28TT	BYNUM/LEFT WING LOW	United States
@@ -500,6 +506,7 @@
 2XA1	COTULLA/GREAT HORIZON RANCH	United States
 2XS1	JOHNSON CITY/HARRIS RANCH	United States
 2XS2	CARRIZO SPRINGS/INDIO-FAITH	United States
+30AK	KENAI/DOYLE ESTATES	Alaska
 30GA	FLOVILLA/COX FLD	United States
 30GE	DANIELSVILLE/PAPAS PLACE	United States
 30ID	HAILEY/4Z RANCH	United States
@@ -538,6 +545,7 @@
 33XA	ROYSE CITY/POETRY LANDING	United States
 34IA	RUSSELL/BECK	United States
 34IL	LEWISTOWN/G BRAY	United States
+34IN	FORT WAYNE/OLD GLORY FLD	United States
 34KY	AUBURN/LONE PINE AERODROME	United States
 34OK	HENNESSEY/HAYMAKER	United States
 34SC	KINGSTREE/TOMS CREEK	United States
@@ -605,6 +613,7 @@
 3MT6	BOZEMAN/NISTLER	United States
 3MT7	CASCADE FIELD	United States
 3MT9	PHILIPSBURG/WILLOW	United States
+3NC3	LOCUST/TUCKER FIELD	United States
 3ND6	TUTTLE/DJR	United States
 3NE5	MURDOCK/MT AIRFIELD	United States
 3NH2	NELSON/FLYING LOON	United States
@@ -626,7 +635,6 @@
 3TA5	BLANCO LANDING	United States
 3TE3	MURPHY/LAZY DOG RANCH AIRPARK	United States
 3TX4	SANTA FE/WESTWIND HELICOPTERS	United States
-3VG4	BOYDTON/MURDOCKS FLYING V	United States
 3WN4	NEW LONDON/MARKS PARK AND AIRF	United States
 3WS9	HILLBORO/WOODLAND FARMS	United States
 3XS8	BALMORHEA/GIFFIN RANCH	United States
@@ -684,6 +692,7 @@
 44XA	ROBSTOWN/HSF	United States
 44XS	MOUNTAIN HOME/3 MILL RANCH	United States
 45AA	TALKEETNA/DAVIDSON STRIP	Alaska
+45AR	FLIPPIN/THUNDER RIDGE RANCH	United States
 45AZ	MOHAVE VALLEY/WILLOW VALLEY	United States
 45KS	GALESBURG/KOAFM	United States
 45MS	SUNFLOWER/BOX FLD	United States
@@ -737,6 +746,7 @@
 4KS5	WICHITA/MAIZE//MAIZE	United States
 4KS9	VICTORIA/DINKEL	United States
 4KT4	WARSAW/STEELE'S BOTTOM	United States
+4MD5	PRINCE FREDERICK/HUNTING CREEK	United States
 4MD8	FREDERICK/IJAMSVILLE	United States
 4MI4	ST CLAIR/DAVIDS LANDING	United States
 4MN1	NEW YORK MILLS/HINTZMAN	United States
@@ -777,6 +787,7 @@
 51TT	AUSTIN/HOES RANCH	United States
 51WT	FRUITLAND/WHITERIK FIELD	United States
 52AK	SUTTON/CRAG MOUNTAIN	Alaska
+52AZ	SELIGMAN/X-1 RANCH UPPER HEADQ	United States
 52IN	ANGOLA/STREBIG	United States
 52LA	BELL CITY/BRUCE BEARD	United States
 52NH	AMHERST/BABOOSIC LAKE	United States
@@ -792,10 +803,12 @@
 53VG	PAINTER/THE SALMON FARM	United States
 53WI	EAU CLAIRE/HEYOKA FLD	United States
 53XA	ANGLETON/MCINTYRE FLYING	United States
+54AK	WASILLA/KALMBACH LAKE	Alaska
 54AL	DAPHNE/BELFOREST FLD	United States
 54AZ	SOMERTON	United States
 54FD	ORLANDO/LM-ETS	United States
 54LA	SHREVEPORT/CUNNINGHAM FLD	United States
+54MA	ROSSVILLE/WOLF RIVER	United States
 54MO	SILEX/HERRMANN-FAULK AIRFIELD	United States
 54MU	SKIDMORE/BROWN FLD	United States
 54XA	VALLEY VIEW/FLAHERTY	United States
@@ -870,6 +883,7 @@
 5LS9	ZWOLLE/AMMONS	United States
 5MD4	FEDERALSBURG/OAK GROVE FARM	United States
 5ME2	GRAY/FROGG ISLAND	United States
+5MI2	HARRISVILLE	United States
 5MN1	NARY NATIONAL-SHEFLAND FLD	United States
 5MO6	HURDLAND/VANSICKLE-DAVIS	United States
 5MO7	SHELL KNOB/PILOTS POINT	United States
@@ -1008,7 +1022,6 @@
 6IL7	NOKOMIS/KLEINIK	United States
 6IL9	WALNUT/GELDEAN	United States
 6KS6	OSAWATOMIE/FOXTROT FLD	United States
-6LA2	PRAIRIEVILLE/CAPOZZOLI	United States
 6LL5	NEW BERLIN/SMITH	United States
 6LL6	NEW MEMPHIS/FISCHER'S	United States
 6MN3	HOWARD LAKE/MICKEEN	United States
@@ -1090,9 +1103,9 @@
 75XS	LASARA/ROWLAND DUSTERS	United States
 76AR	MOUNTAIN HOME/JOHNSON FLD	United States
 76KS	NEWTON/VINTAGE FLD	United States
+76KY	LAWRENCEBURG/BUZZARD'S ROOST	United States
 76LS	KENTWOOD/COOL CREEK	United States
 76TA	LAMPASAS/POSTOAK	United States
-76WN	JANESVILLE/HACKLANDER	United States
 76XA	ROSANKY/HIGH LONESOME	United States
 77AR	HOT SPRINGS/BENOIT AIRFIELD	United States
 77ID	MERIDIAN/ASHLEY	United States
@@ -1106,6 +1119,7 @@
 77XA	WINNIE/XL RANCH	United States
 78KY	WINCHESTER/MOUTAIN VIEW AIRFIE	United States
 78LA	RACELAND/NAQUIN FLD	United States
+78MI	SOUTH ROCKWOOD/CARLS	United States
 78MO	LYNCHBUTG/SNOUFFER FIELD	United States
 78OH	VALLEY CITY FLYING CLUB	United States
 78XA	MILLSAP/WAYPORT	United States
@@ -1176,6 +1190,7 @@
 7TS3	SISTERDALE/SUNNY V RANCH	United States
 7TS4	CROSSROADS/SANCTUARY RANCH	United States
 7TS9	BOVINA/HEFNER FARMS	United States
+7WI6	WYOCENA/WEATHERBEE FIELD	United States
 7WI7	RICHLAND CENTER/SPRING HILL FI	United States
 7XA2	JUSTIN/SAGEBRUSH	United States
 7XA4	TROY/BUCKSHOT RANCH	United States
@@ -1246,6 +1261,7 @@
 88IL	CERRO GORDO/GAITROS STOL	United States
 88IN	POSEYVILLE/SEIB	United States
 88MD	EASTON/BEAVEN FLD	United States
+88MI	LEWISTON/EAGLE II	United States
 88MS	SENATOBIA/STRAYHORN HAY FLD	United States
 88NV	GERLACH/BLACK ROCK CITY	United States
 88PS	LANDISVILLE/INDIAN SPRING	United States
@@ -1286,9 +1302,11 @@
 8MN3	BREEZY POINT	United States
 8MN4	VESTA/LIGHTFOOT FARMS	United States
 8MN6	PRINCETON/MINSKE FLD	United States
+8MO3	RICHMOND/CURTIS FLD	United States
 8MS1	GREENWOOD/HENDERSON	United States
 8MS2	FULTON/GODSPEED AIRPARK	United States
 8MY9	ALEXANDRIA/MINGLEWOOD	United States
+8NC9	HENDERSONVILLE/W.N.C. AIR MUSE	United States
 8NK8	BOLTON LANDING/MISTER DOG	United States
 8NY7	ONEIDA LAKE STRIP	United States
 8NY8	UTICA/HAWKS FLD	United States
@@ -2896,7 +2914,7 @@ CYGL	LA GRANDE RIVIERE	Canada
 CYGM	GIMLI/INDUSTRIAL PARK AIRPORT	Canada
 CYGO	GODS LAKE NARROWS	Canada
 CYGP	GASPE MICHEL-POULIOT	Canada
-CYGQ	GERALTON/GREENSTONE RGNL	Canada
+CYGQ	GERALDTON/GREENSTONE RGNL	Canada
 CYGR	ILES-DE-LA-MADELEINE	Canada
 CYGT	IGLOOLIK	Canada
 CYGV	HAVRE ST-PIERRE	Canada
@@ -3235,7 +3253,7 @@ DAUE	EL GOLEA	Algeria
 DAUG	GHARDAIA/NOUMERAT-MOUFDI ZAKAR	Algeria
 DAUH	HASSI MESSAOUD/OUED IRARA-KRIM	Algeria
 DAUI	IN SALAH	Algeria
-DAUK	TOUGGOURT/SIDI MAHDI	Algeria
+DAUK	TOUGGOURT/NESRAT HACHANI	Algeria
 DAUO	EL OUED/GUEMAR	Algeria
 DAUT	TIMIMOUN	Algeria
 DAUU	OUARGLA/AIN BEIDA	Algeria
@@ -3247,6 +3265,7 @@ DBBO	PORGA	Benin
 DBBP	PARAKOU	Benin
 DBBS	SAVE	Benin
 DD26	SALEKHARD/OBDORSK	Russian Federation
+DE15	SEAFORD/RELIANCE	United States
 DFCA	KAYA	Burkina Faso
 DFCB	BARSALOGHO	Burkina Faso
 DFCC	OUAHIGOUYA	Burkina Faso
@@ -4950,6 +4969,7 @@ FA02	SUNNILAND/BIG CYPRESS RANCH AI	United States
 FA13	COCOA/TREASURE LAGOON	United States
 FA18	LA BELLE/DEVILS GARDEN STRIP	United States
 FA40	NEW PORT RICHEY/HIDDEN LAKE	United States
+FA43	CARRABELLE/DOG ISLAND	United States
 FA54	PLACIDA/CORAL CREEK	United States
 FA60	LAKE PLACID/VINCE'S CONDOMINIU	United States
 FA81	TAVERNIER/TAVERNAERO PARK	United States
@@ -5231,6 +5251,7 @@ FD04	OCALA/BELLEVIEW/LEEWARD AIR RA	United States
 FD10	FORT MEADE/JUBILEE ACRES	United States
 FD16	BRANFORD/FLYING C FARM	United States
 FD21	ORLANDO/MOON LANDING	United States
+FD23	INVERNESS/RUTLAND RWY	United States
 FD43	ORLANDO/SUMMER LAKES	United States
 FD59	DADE CITY/FIELD OF DREAMS	United States
 FD63	JASPER/SQUIRES AVIATION RANCH	United States
@@ -5930,7 +5951,6 @@ GMFB	BOUARFA	Morocco
 GMFF	FES/SAISS INTL	Morocco
 GMFI	IFRANE	Morocco
 GMFK	ERRACHIDIA/MOULAY ALI CHERIF I	Morocco
-GMFM	MEKNES	Morocco
 GMFO	OUJDA/ANGADS INTL	Morocco
 GMFZ	TAZA	Morocco
 GMMA	Smara	Morocco
@@ -6051,6 +6071,7 @@ HCDB	DHOBLEY	Somalia
 HCDL	DOLOW	Somalia
 HCDM	DUSOMAREB	Somalia
 HCGR	GAROWE	Somalia
+HCGS	GALCAIO SOUTH/OSHACO	Somalia
 HCMA	ALULA	Somalia
 HCMB	BAIDOA	Somalia
 HCMC	CANDALA	Somalia
@@ -6062,8 +6083,8 @@ HCMI	BERBERA	Somalia
 HCMK	KISMAYO INTL	Somalia
 HCMM	MOGADISHU/ADEN ADDE INTL	Somalia
 HCMN	BELET UEN/UGAS KHALIF	Somalia
+HCMO	HOBYO	Somalia
 HCMR	GALKAIO	Somalia
-HCMS	SCUSCIUBAN	Somalia
 HCMU	ERIGAVO	Somalia
 HCMV	BURAO	Somalia
 HDAM	DJIBOUTI/AMBOULI	Djibouti
@@ -6087,7 +6108,6 @@ HECA	CAIRO INTL	Egypt
 HECP	CAIRO/CAPITAL INTL	Egypt
 HECW	CAIRO WEST	Egypt
 HEGN	HURGHADA INTL	Egypt
-HEGO	HURGHADA/EL-GOUNA	Egypt
 HEGR	EL GORA	Egypt
 HEKG	EL KHARGA	Egypt
 HELX	LUXOR INTL	Egypt
@@ -6710,7 +6730,6 @@ K15G	WADSWORTH/WELTZIEN SKYPARK	United States
 K15J	ADEL/COOK COUNTY	United States
 K15M	IUKA	United States
 K15N	WYOMING/JENKINS	United States
-K15W	LAINGSBURG/DENNIS FARM	United States
 K16D	PERHAM MUNI	United States
 K16G	TIFFIN/SENECA COUNTY	United States
 K16J	DAWSON MUNI	United States
@@ -7395,7 +7414,6 @@ K53T	SOMERSET/CANNON FLD	United States
 K53U	BIGFORK/FERNDALE AIRFIELD	United States
 K53W	WINN/WOODRUFF LAKE	United States
 K54J	DEFUNIAK SPRINGS	United States
-K54M	ROSSVILLE/WOLF RIVER	United States
 K54T	BAYTOWN/R W J AIRPARK	United States
 K54W	ALBANY	United States
 K55D	BROWN CITY/BURGESS FLD	United States
@@ -7499,11 +7517,9 @@ K5V8	KADOKA MUNI	United States
 K5W1	WILSON CREEK	United States
 K5W4	RAEFORD/P K AIRPARK	United States
 K5W5	RALEIGH/TRIPLE W	United States
-K5Y0	HARRISVILLE	United States
 K5Y1	HESSEL/ALBERT J LINDBERG	United States
 K5Y2	HOUGHTON LAKE HEIGHTS/HOUGHTON	United States
 K5Y3	WHITEWATER/GUTZMER'S TWIN OAKS	United States
-K5Y4	LUZERNE/LOST CREEK	United States
 K5Y7	MUNISING/HANLEY FIELD	United States
 K60C	ELROY	United States
 K60D	REESE/BAUER FLD	United States
@@ -7689,7 +7705,6 @@ K7D3	BALDWIN MUNI	United States
 K7D8	GARRETTSVILLE/GATES	United States
 K7D9	GENEVA/GERMACK	United States
 K7F3	CADDO MILLS MUNI	United States
-K7F5	CANTON-HACKNEY	United States
 K7F7	CLIFTON MUNI/ ISENHOWER FLD	United States
 K7G0	BROCKPORT/LEDGEDALE AIRPARK	United States
 K7G1	NEW CUMBERLAND/HERRON	United States
@@ -7778,7 +7793,6 @@ K88D	HURON/HINDE	United States
 K88M	EUREKA	United States
 K88R	SPICEWOOD	United States
 K89D	KELLEYS ISLAND LAND FLD	United States
-K89Y	WILLIAMSTON/MAIDENS	United States
 K8A0	ALBERTVILLE RGNL/THOMAS J BRUM	United States
 K8A1	GUNTERSVILLE MUNI/JOE STARNES	United States
 K8A3	LIVINGSTON MUNI	United States
@@ -7818,7 +7832,6 @@ K8M2	WEINER/SALLY WOFFORD	United States
 K8M3	WEST YELLOWSTONE/YELLOWSTONE	United States
 K8M6	MC VILLE MUNI	United States
 K8M7	DAWSON SPRINGS/TRADEWATER	United States
-K8M8	LEWISTON/EAGLE II	United States
 K8M9	PROVIDENCE-WEBSTER COUNTY	United States
 K8N1	BETHEL/GRIMES	United States
 K8N2	OTTAWA/SKYDIVE CHICAGO	United States
@@ -7941,6 +7954,7 @@ K9W9	CLIO CROP CARE	United States
 K9Y0	BOWSTRING	United States
 K9Y1	KILLDEER/DUNN COUNTY WEYDAHL F	United States
 K9Y2	EAST GULL LAKE	United States
+K9Y5	EVELETH/SKY HARBOR	United States
 K9Y7	BARRON MUNI	United States
 KA01	GOSTAGAYEVSKAYA	Russian Federation
 KA05	DIXIE USFS	United States
@@ -8930,7 +8944,7 @@ KFSD	SIOUX FALLS/JOE FOSS FLD	United States
 KFSE	FOSSTON MUNI/ANDERSON FLD	United States
 KFSI	FORT SILL/HENRY POST AAF FORT	United States
 KFSK	FORT SCOTT MUNI	United States
-KFSM	FORT SMITH RGNL	United States
+KFSM	FORT SMITH RGNL (EBBING FLD AN	United States
 KFSO	HIGHGATE/FRANKLIN COUNTY STATE	United States
 KFST	FORT STOCKTON-PECOS CO	United States
 KFSU	FORT SUMNER MUNI	United States
@@ -9247,7 +9261,6 @@ KI20	OAKTOWN/ED-AIR	United States
 KI22	WINCHESTER/RANDOLPH COUNTY	United States
 KI23	WASHINGTON COURT HOUSE/FAYETTE	United States
 KI24	SPRING BAY	United States
-KI25	WELCH MUNI	United States
 KI27	ELKADER	United States
 KI34	GREENSBURG MUNI	United States
 KI35	HARLAN/TUCKER-GUTHRIE MEM	United States
@@ -10537,7 +10550,7 @@ KSBD	SAN BERNARDINO INTL	United States
 KSBM	SHEBOYGAN COUNTY MEM	United States
 KSBN	SOUTH BEND INTL	United States
 KSBO	SWAINSBORO/EAST GEORGIA RGNL	United States
-KSBP	SAN LUIS OBISPO/SLO COUNTY	United States
+KSBP	SAN LUIS OBISPO COUNTY RGLN	United States
 KSBS	STEAMBOAT SPRINGS/BOB ADAMS FL	United States
 KSBU	BLUE EARTH MUNI	United States
 KSBX	SHELBY	United States
@@ -10640,7 +10653,7 @@ KSPZ	SILVER SPRINGS	United States
 KSQI	STERLING/ROCKFALLS/WHITESIDE C	United States
 KSQL	SAN CARLOS	United States
 KSRB	SPARTA/UPPER CUMBERLAND RGNL	United States
-KSRC	SEARCY MUNI	United States
+KSRC	SEARCY RGNL	United States
 KSRE	SEMINOLE MUNI	United States
 KSRQ	SARASOTA/BRADENTON INTL	United States
 KSRR	RUIDOSO/SIERRA BLANCA RGNL	United States
@@ -11766,6 +11779,7 @@ LFLY	LYON/BRON	France
 LFMA	AIX/LES MILLES	France
 LFMC	LE LUC/LE CANNET	France
 LFMD	CANNES/MANDELIEU	France
+LFMF	Fayence	France
 LFMG	REVEL/MONTAGNE NOIRE	France
 LFMH	ST ETIENNE/LOIRE	France
 LFMI	ISTRES/LE TUBE	France
@@ -12139,8 +12153,8 @@ LIJ4	FLY ARB	Italy
 LIJ5	FRANCAVILLA BISIO	Italy
 LIJ6	FRIEL OSTELLATO	Italy
 LIJ8	GUGLIELMO ZAMBONI LS	Italy
+LIK4	LYRA 34	Italy
 LIK5	MOLINELLA	Italy
-LIKA	LYRA 34	Italy
 LIKO	OZZANO DELL'EMILIA	Italy
 LILA	ALESSANDRIA	Italy
 LILB	ALZATE BRIANZA	Italy
@@ -12403,123 +12417,190 @@ LMMG	Gozo	Malta
 LMML	MALTA/LUQA	Malta
 LOAA	OTTENSCHLAG	Austria
 LOAB	DOBERSBERG	Austria
-LOAC	Kittsee Heliport	Austria
 LOAD	VOELTENDORF	Austria
-LOAE	Eisenstadt Heliport	Austria
-LOAF	Baden Heliport	Austria
+LOAE	Eisenstadt LKH Heliport	Austria
+LOAF	Baden KH Heliport	Austria
 LOAG	KREMS/LANGENLOIS	Austria
-LOAH	Horn Heliport	Austria
-LOAJ	ÖAMTC Wien-Aspern Heliport	Austria
-LOAM	Meidling Heliport	Austria
+LOAH	Horn KH Heliport	Austria
+LOAI	Wr. Neustadt KH Heliport	Austria
+LOAK	Krems KH Heliport	Austria
+LOAL	Pöchlarn-Wörth Heliport	Austria
+LOAM	Wien/Meidling Heliport	Austria
 LOAN	WIENER NEUSTADT/OST	Austria
-LOAO	Oberpullendorf Heliport	Austria
-LOAP	Waidhofen an der Ybbs Heliport	Austria
+LOAO	Oberpullendorf LKH Heliport	Austria
+LOAP	Waidhofen/Ybbs KH Heliport	Austria
+LOAQ	Amstetten KH Heliport	Austria
 LOAR	ALTLICHTENWARTH	Austria
 LOAS	ALTENBURG/SPITZERBERG	Austria
-LOAT	Cobra Hauptquartier Heliport	Austria
+LOAT	Flugeinsatzstelle Wr. Neustadt Heliport	Austria
 LOAU	STOCKERAU	Austria
 LOAV	VOESLAU	Austria
-LOAW	ÖAMTC Wiener Neustadt Heliport	Austria
-LOAX	St. Pölten Heliport	Austria
+LOAW	OEAMTC/Wr. Neustadt Heliport	Austria
+LOAX	St. Pölten KH Heliport	Austria
 LOAY	Kilb Heliport	Austria
-LOAZ	Zwettl Heliport	Austria
-LOBA	Wien Allg. Krankenhaus Heliport	Austria
-LOBC	Landesklinikum Hainburg	Austria
-LOBL	Traumazentrum Wien der AUVA Standort Lorenz Böhler KH	Austria
-LOBM	Mistelbach Heliport	Austria
-LOBU	Traumazentrum Wien Meidling UKH	Austria
-LODL	Business Center Leitner Heliport	Austria
-LODO	ÖAMTC Oberwart Heliport	Austria
-LODV	LKH Weststeiermark Standort Voitsberg LKH	Austria
-LODW	LKH Südsteiermark, Standort Wagna LKH	Austria
-LOGA	Bad Radkersburg Heliport	Austria
-LOGC	Niederöblarn Heliport	Austria
+LOAZ	Zwettl KH Heliport	Austria
+LOBA	Wien AKH Heliport	Austria
+LOBB	Klinik Floridsdorf KH	Austria
+LOBC	Landesklinikum Hainburg KH Heliport	Austria
+LOBD	SMZ Ost - Donauspital KH Heliport	Austria
+LOBF	OEAMTC/Zentrale Heliport	Austria
+LOBG	Gmünd Heliport	Austria
+LOBH	Hanuschkrankenhaus KH Heliport	Austria
+LOBI	Mödling KH Heliport	Austria
+LOBK	OEAMTC/Krems Heliport	Austria
+LOBL	Traumazentrum Wien der AUVA Standort Lorenz Böhler KHH eliport	Austria
+LOBM	Mistelbach KH Heliport	Austria
+LOBN	Neunkirchen KH Heliport	Austria
+LOBO	Hollabrunn KH Heliport	Austria
+LOBR	Klinik Landstraße KH Heliport	Austria
+LOBS	Scheibbs KH Heliport	Austria
+LOBT	Tulln LKH Heliport	Austria
+LOBU	Traumazentrum Wien Meidling UKH Heliport	Austria
+LOBW	Klinik Ottakring KH	Austria
+LODA	Leoben LKH Heliport	Austria
+LODB	Deutschlandsberg LKH Heliport	Austria
+LODC	OEAMTC/St. Michael Heliport	Austria
+LODF	Feldbach LKH Heliport	Austria
+LODG	Graz Süd-West, Standort Süd LKH Heliport	Austria
+LODH	Hartberg LKH Heliport	Austria
+LODK	Kalwang UKH Heliport	Austria
+LODL	Kirchberg an der Raab, "Business Center Leitner" Heliport	Austria
+LODM	Mürzzuschlag LKH Heliport	Austria
+LODN	Knittelfeld LKH Heliport	Austria
+LODO	OEAMTC/Oberwart Heliport	Austria
+LODS	Stolzalpe LKH Heliport	Austria
+LODV	LKH Weststeiermark Standort Voitsberg LKH Heliport	Austria
+LODW	LKH Südsteiermark, Standort Wagna LKH Heliport	Austria
+LOGA	Bad Radkersburg KH Heliport	Austria
+LOGB	Bruck an der Mur LKH Heliport	Austria
+LOGC	OEAMTC/Niederöblarn Heliport	Austria
+LOGD	Klinik Diakonissen Schladming KH Heliport	Austria
+LOGE	Weiz LKH Heliport	Austria
 LOGF	FUERSTENFELD	Austria
 LOGG	ST.MICHAEL/PUNITZ-GUESSING	Austria
-LOGH	Graz Heliport	Austria
+LOGH	Graz LKH Heliport	Austria
 LOGI	TRIEBEN	Austria
-LOGJ	Judenburg Heliport	Austria
+LOGJ	Judenburg LKH Heliport	Austria
 LOGK	KAPFENBERG	Austria
 LOGL	LANZEN-TURNAU	Austria
 LOGM	MARIAZELL	Austria
 LOGO	NIEDEROEBLARN	Austria
 LOGP	PINKAFELD	Austria
-LOGR	Krankenhaus Oberwart Heliport	Austria
+LOGR	Oberwart LKH Heliport	Austria
+LOGS	Fürstenfeld KH Heliport	Austria
 LOGT	TIMMERSDORF/LOEBEN	Austria
+LOGU	Graz UKH Heliport	Austria
+LOGV	Vorau KH Heliport	Austria
 LOGW	WEIZ - UNTERFLADNITZ	Austria
-LOIA	Kitzbühel Heliport	Austria
-LOIB	Hörlahof Heliport	Austria
-LOIC	St. Anton Am Arlberg Heliport	Austria
-LOID	Kufstein Heliport	Austria
-LOIE	Reutte Heliport	Austria
+LOGX	Rottenmann LKH Heliport	Austria
+LOGZ	Graz Kinderklinik LKH Heliport	Austria
+LOIB	Kitzbühel - Hörlahof Heliport	Austria
+LOIC	 Wucher St. Anton am Arlberg Heliport	Austria
+LOID	Kufstein KH Heliport	Austria
+LOIE	Reutte KH Heliport	Austria
+LOIF	Feldkirch LKH Heliport	Austria
 LOIG	Heliport Ludesch	Austria
 LOIH	DORNBIRN/HOHENEMS	Austria
-LOII	Hall In Tirol Heliport	Austria
+LOII	Hall In Tirol KH Heliport	Austria
 LOIJ	TIROL/ST.JOHANN	Austria
 LOIK	KUFSTEIN - LANGKAMPFEN	Austria
-LOIL	ÖAMTC Zams Heliport	Austria
+LOIL	OEAMTC Zams Heliport	Austria
 LOIM	Langkampfen?Au Heliport	Austria
-LOIN	Feuerwehrschule Telfs Heliport	Austria
-LOIO	Sölden Heliport	Austria
-LOIP	Idalpe Heliport	Austria
-LOIQ	Dr. Schenk, Feldkirch Heliport	Austria
+LOIN	Telfs "Feuerwehrschule" Heliport	Austria
+LOIO	OEAMTC Soelden Heliport	Austria
+LOIP	Ischgl-Idalpe Heliport	Austria
+LOIQ	Feldkirch "Dr. Schenk" Heliport	Austria
 LOIR	REUTTE-HOEFEN/REUTTE/HOEFEN	Austria
-LOIS	Swarovski Wattens Heliport	Austria
-LOIT	St. Johann in Tirol Heliport	Austria
-LOIU	Uni Klinik Innsbruck Heliport	Austria
-LOIV	St. Vinzenz Heliport	Austria
-LOIW	Heliport Waidring	Austria
-LOIX	Bregenz Heliport	Austria
-LOIY	Sanatorium Dr. Schenk, Schruns Heliport	Austria
+LOIS	Wattens/Swarovski Heliport	Austria
+LOIT	St. Johann/Tirol KH Heliport	Austria
+LOIU	Innsbruck Uni-Klinik KH Heliport	Austria
+LOIV	Zams/St. Vinzenz KH Heliport	Austria
+LOIW	Waidring "Hel-Transporte" Heliport	Austria
+LOIX	Bregenz LKH Heliport	Austria
+LOIY	Schruns "Sanatorium Dr. Schenk" KH Heliport	Austria
 LOIZ	Schwaz Bezirkskrankenhaus Heliport	Austria
+LOJB	Bludenz LKH Heliport	Austria
+LOJC	OEAMTC/Reith bei Kitzbühel Heliport	Austria
+LOJD	Dornbirn KH Heliport	Austria
+LOJE	Erpfendorf Kitz-Air Heliport	Austria
+LOJH	Hochgurgl Heliport	Austria
+LOJI	Medalp Imst KH Heliport	Austria
 LOJK	Kaltenbach Heliport	Austria
 LOJM	Mayrhofen Heliport	Austria
-LOJO	Flugrettungszentrum ÖAMTC Innsbruck Heliport	Austria
+LOJN	Nenzing Heliport	Austria
+LOJO	OEAMTC/Innsbruck Flugrettungszentrum Heliport	Austria
 LOJP	Karres Heliport	Austria
-LOJT	Hat Tux Heliport	Austria
-LOJZ	Zugspitzarena Heliport	Austria
-LOKA	Bodenlandeplatz Klagenfurt Heliport	Austria
-LOKC	Glock Heliport	Austria
-LOKD	Glock Heliport	Austria
+LOJR	Mittelberg Heliport	Austria
+LOJS	OEAMTC/Falbeson Heliport	Austria
+LOJT	OEAMTC/Tux, Madseit - Au Heliport	Austria
+LOJW	Wucher Zürs-Lech am Arlberg Heliport	Austria
+LOKA	Klagenfurt LKH Bodenlandeplatz Heliport	Austria
+LOKB	Bad Kleinkirchheim Heliport	Austria
+LOKC	Ferlach-Glock Heliport	Austria
+LOKD	Villach-Föderlach  Heliport	Austria
 LOKF	FELDKIRCHEN - OSSIACHER SEE	Austria
 LOKG	FERLACH/GLAINACH	Austria
 LOKH	ALTHOFEN/FRIESACH/HIRT	Austria
-LOKJ	Lienz Heliport	Austria
+LOKJ	Lienz KH Heliport	Austria
+LOKK	Hallegg Klagenfurt Schloß Heliport	Austria
 LOKL	NIKOLSDORF/LIENZ/NIKOLSDORF	Austria
 LOKM	MAYERHOFEN BEI FRIESBACH	Austria
 LOKN	NOETSCH IM GAILTAL	Austria
 LOKO	Goldeck Talstation Heliport	Austria
+LOKP	Friesach/Deutsch-Ordens-Spital KH Heliport	Austria
+LOKQ	OEAMTC/Nikolsdorf	Austria
 LOKR	ST. DONAT-MAIRIST	Austria
-LOKS	St. Andrä im Lavanttal Heliport	Austria
-LOKT	Villach Heliport	Austria
-LOKU	Dachlandeplatz 2 Unfallkrankenhaus Klagenfurt Heliport	Austria
+LOKT	Villach LKH Heliport	Austria
+LOKU	Klagenfurt UKH Heliport	Austria
 LOKW	WOLFSBERG	Austria
-LOKX	Feldkirchen-Waiern Heliport	Austria
-LOKY	Landespolizeidirektion Kärnten Klagenfurt Heliport	Austria
+LOKX	Diez-Lobning Heliport	Austria
+LOKZ	Zwatzhof Heliport	Austria
+LOLA	Kepler Universitätsklinikum Med Campus III KH Heliport	Austria
+LOLB	Linz UKH Heliport	Austria
 LOLC	SCHARNSTEIN	Austria
 LOLD	SUBEN/OAMTC SUBEN	Austria
 LOLE	EFERDING	Austria
 LOLF	GRUENBACH/FREISTADT	Austria
 LOLG	ST. GEORGEN - YBBSFELD	Austria
 LOLH	HOFKIRCHEN	Austria
+LOLI	Salzkammergut-Klinikum Bad Ischl KH Heliport	Austria
+LOLJ	Kepler Universitätsklinikum Neuromed Campus KH Heliport	Austria
 LOLK	RIED/KIRCHHEIM	Austria
 LOLM	KIRCHDORF/MICHELDORF	Austria
 LOLO	LINZ OST	Austria
+LOLR	Ried im Innkreis KH Heliport	Austria
 LOLS	SUBEN/SCHAERDING/SUBEN	Austria
 LOLT	SEITENSTETTEN	Austria
 LOLU	GMUNDEN/LAAKIRCHEN	Austria
+LOLV	Salzkammergut-Klinikum Vöcklabruck KH Heliport	Austria
 LOLW	WELS	Austria
-LOMP	Patergassen Heliport	Austria
-LOMU	ÖAMTC Klagenfurt-Annabichl Heliport	Austria
-LOMW	Dachlandeplatz Wolfsberg Heliport	Austria
-LOPF	Freistadt LKH	Austria
-LOPG	Salzkammergut-Klinikum Gmunden KH	Austria
-LORP	Rohrbach LKH	Austria
-LOSJ	St. Johann im Pongau Heliport	Austria
-LOSL	Dachlandeplatz Landeskrankenhaus Salzburg Heliport	Austria
+LOLY	OEAMTC/Ybbsitz Heliport	Austria
+LOMM	Matrei in Osttirol Heliport	Austria
+LOMN	Nassfeld-Sonnleitn Heliport	Austria
+LOMP	OEAMTC/Patergassen Heliport	Austria
+LOMR	Fresach / RK-1 Heliport	Austria
+LOMS	Spittal/Drau KH Heliport	Austria
+LOMU	OEAMTC/Klagenfurt Heliport	Austria
+LOMW	Wolfsberg LKH Heliport	Austria
+LOPB	Braunau am Inn KH Heliport	Austria
+LOPE	Krankenhaus der Elisabethinen Linz KH Heliport	Austria
+LOPF	Freistadt LKH Heliport	Austria
+LOPG	Salzkammergut-Klinikum Gmunden KH Heliport	Austria
+LOPI	Grieskirchen KH Heliport	Austria
+LOPK	Kirchdorf LKH Heliport	Austria
+LOPL	Krankenhaus der Barmherzigen Schwestern Linz KH Heliport	Austria
+LOPR	Rohrbach LKH Heliport	Austria
+LOPS	Schärding LKG	Austria
+LOPT	Steyr LKH Heliport	Austria
+LOPW	Wels KH Heliport	Austria
+LOSH	Hinterglemm Heliport	Austria
+LOSJ	St. Johann/Pongau Heliport	Austria
+LOSL	Salzburg LKH Heliport	Austria
 LOSM	MAUTERNDORF	Austria
-LOSS	Schwarzach Heliport	Austria
-LOST	 Landesklinik Tamsweg KH	Austria
+LOSS	Schwarzach KH Heliport	Austria
+LOST	 Landesklinik Tamsweg KH Heliport	Austria
+LOSU	Salzburg UKH Heliport	Austria
+LOSZ	Tauernklinikum Zell am See KH Heliport	Austria
 LOWG	GRAZ	Austria
 LOWI	INNSBRUCK	Austria
 LOWK	KLAGENFURT	Austria
@@ -13217,12 +13298,14 @@ MI28	ST JOHNS/ARCHER MEM  FLD	United States
 MI30	ALBA/AIR PARK NORTH	United States
 MI39	HUDSONVILLE/MITCH VEENSTRA	United States
 MI41	ST CLAIR/CRYSTAL	United States
+MI45	LUZERNE/LOST CREEK	United States
 MI47	CLIMAX/COLDBROOK FLD	United States
 MI55	LEWISTON/TWIN LAKES	United States
 MI56	LELAND/DUNE BIRD	United States
 MI58	BARTON CITY/RAYMOND FLD	United States
 MI69	NAUBINWAY/HIAWATHA SPORTSMANS	United States
 MI83	CHESANING/MAPLE GROVE AIRPARK	United States
+MI89	WILLIAMSTON/MAIDENS	United States
 MI93	CALEDONIA/GALLOWAY LANDINGS	United States
 MKBS	BOSCOBEL/IAN FLEMING INTL	Jamaica
 MKJP	KINGSTON/NORMAN MANLEY INTL	Jamaica
@@ -13275,9 +13358,9 @@ MMMM	MORELIA/GRAL.FRANCISCO J. MUJI	Mexico
 MMMT	MINATITLAN	Mexico
 MMMV	MONCLOVA/VENUSTIANO CARRANZA I	Mexico
 MMMX	MEXICO CITY/BENITO JUAREZ INTL	Mexico
-MMMY	MONTERREY/GEN M ESCOBEDO INTL	Mexico
+MMMY	MONTERREY/GRAL MARIANO ESCOBED	Mexico
 MMMZ	MAZATLAN/GEN RAFAEL BUELNA INT	Mexico
-MMNG	NOGALES	Mexico
+MMNG	NOGALES INTL	Mexico
 MMNL	NUEVO LAREDO/QUETZALCOATL	Mexico
 MMOX	OAXACA/XOXOCOTLAN INTL	Mexico
 MMPA	POZA RICA/TAJIN	Mexico
@@ -13285,7 +13368,7 @@ MMPB	PUEBLA/HERMANOS SERDAN INTL	Mexico
 MMPC	PACHUCA/ING.JUAN GUILLERMO VIL	Mexico
 MMPE	PUERTO PENASCO/MAR DE CORTES I	Mexico
 MMPG	PIEDRAS NEGRAS INTL	Mexico
-MMPN	URUAPAN/LIC.Y.GRAL.I.L.RAYON	Mexico
+MMPN	URUAPAN/LIC. Y GRAL IGNACIO LO	Mexico
 MMPQ	PALENQUE AIRPORT	Mexico
 MMPR	PUERTO VALLARTA/LIC GUSTAVO DI	Mexico
 MMPS	PUERTO ESCONDIDO INTL	Mexico
@@ -13300,7 +13383,7 @@ MMTC	TORREON INTL.	Mexico
 MMTG	TUXTLA GUTIERREZ/ANGEL ALBINO	Mexico
 MMTJ	TIJUANA/GRAL ABELARDO L RODRIG	Mexico
 MMTL	TULUM/FELIPE CARRILLO PUERTO I	Mexico
-MMTM	TAMPICO/GEN FRANCISCO J MINA I	Mexico
+MMTM	TAMPICO/GEN FRANCISCO JAVIER M	Mexico
 MMTN	TAMUIN	Mexico
 MMTO	TOLUCA/LIC ADOLFO L MATEOS INT	Mexico
 MMTP	TAPACHULA	Mexico
@@ -13558,6 +13641,7 @@ MT68	CAMERON/MONTFORT RANCH	United States
 MT69	THOMPSON FALLS/LITTLEBEAR	United States
 MT81	ALBERTON/PETTY CREEK MOUNTAIN	United States
 MT82	PHILIPSBURG/WILDCAT FLD	United States
+MT86	HELENA/BAR E	United States
 MT89	KALISPELL/SANDS	United States
 MT95	KALISPELL/SKY RANCH	United States
 MTCH	CAP HAITIEN INTL	Haiti
@@ -14156,7 +14240,7 @@ OICC	KERMANSHAH/SHAHID ASHRAFI ESFA	Iran
 OICI	ILAM	Iran
 OICK	KHORAM ABAD	Iran
 OICS	SANANDAJ	Iran
-OICZ	SAQQEZ	Iran
+OICZ	SAQEZ	Iran
 OIFE	ESFAHAN/HESA	Iran
 OIFH	ESFAHAN/SHAHID VATAN POUR AB	Iran
 OIFK	KASHAN	Iran
@@ -14296,7 +14380,7 @@ OL99	HOMER/LOOKOUT	Alaska
 OLBA	BEIRUT/RAFIC HARIRI INTL	Lebanon
 OLKA	KLEYATE/RENE MOUAWAD	Lebanon
 OLRA	RAYAK	Lebanon
-OMAA	ABU DHABI INTL	United Arab Emirates
+OMAA	ABU DHABI/ZAYED INTL	United Arab Emirates
 OMAB	BUHASA	United Arab Emirates
 OMAD	ABU DHABI/AL BATEEN EXEC	United Arab Emirates
 OMAF	FUTAYSI	United Arab Emirates
@@ -14312,6 +14396,7 @@ OMDB	DUBAI INTL	United Arab Emirates
 OMDL	Delma Island	United Arab Emirates
 OMDM	Al Minhad	United Arab Emirates
 OMDW	DUBAI/AL MAKTOUM INTL	United Arab Emirates
+OMEF	ABU DHABI/EMIRATES FALCONS AER	United Arab Emirates
 OMFJ	FUJAIRAH INTL	United Arab Emirates
 OMRJ	AL JAZEIRAH	United Arab Emirates
 OMRK	RAS AL KHAIMAH INTL	United Arab Emirates
@@ -14418,7 +14503,6 @@ OR85	PRINEVILLE/HIDEWAY	United States
 OR92	ECHO/K2	United States
 ORAA	AL ASAD AB	Iraq
 ORAI	AL ISKANDARARIYAH	Iraq
-ORAT	AL TAQADDUM	Iraq
 ORBD	BALAD SOUTHEAST AIRPORT	Iraq
 ORBI	BAGHDAD INTL	Iraq
 ORBM	MOSUL INTL	Iraq
@@ -15383,7 +15467,7 @@ SBGO	GOIANIA/SANTA GENOVEVA INTL	Brazil
 SBGP	GAVIAO PEIXOTO/EMBRAER	Brazil
 SBGR	SAO PAULO/GUARULHOS - GOV.A.F.	Brazil
 SBGV	GOVERNADOR VALADARES/CORONEL A	Brazil
-SBGW	GUARATINGUETA	Brazil
+SBGW	GUARATINGUETA/CAMPO EDU CHAVES	Brazil
 SBHT	ALTAMIRA	Brazil
 SBIC	ITACOATIARA	Brazil
 SBIH	ITAITUBA	Brazil
@@ -15523,7 +15607,6 @@ SBVC	VITORIA DA CONQUISTA/GLAUBER D	Brazil
 SBVG	VARGINHA/MAJ BRIG TROMPOWSKY	Brazil
 SBVH	VILHENA	Brazil
 SBVT	VITORIA/EURICO DE AGUIAR SALLE	Brazil
-SBWP	Salgado Filho INTL	Brazil
 SBYA	IAURETE	Brazil
 SBYS	PIRASSUNUNGA/CAMPO FONTENELLE	Brazil
 SBZM	GOIANA/PRESIDENTE ITAMAR FRANC	Brazil
@@ -15538,6 +15621,7 @@ SC44	BOYKIN/EL PORVENIR AIRPARK	United States
 SC45	GILBERT INTL AIRPARK	United States
 SC57	ANDREWS/JORDAN PRIVATE	United States
 SC58	PAGELAND/JA FLD	United States
+SC61	CHERAW/WILD IRISH ROSE	United States
 SC66	SPARTANBURG/FULTON FLD	United States
 SC67	AIKEN/POLECAT AERODROME	United States
 SC72	GREER/CHANDELLE	United States
@@ -16450,6 +16534,8 @@ SGSP	SAN PEDRO DE YCUAMANDIYU/MY PA	Paraguay
 SGST	SANTA TERESA	Paraguay
 SGVM	PUERTO VALLEMI/DR. JUAN PLATE	Paraguay
 SGVO	VOLENDAN	Paraguay
+SI4K	ABAETETUBA/FAZENDA MANDARIM	Brazil
+SI7X	ABREULANDIA/FAZENDA VALE DO SO	Brazil
 SIAP	ACEGUA/ROSO PAR	Brazil
 SIBC	PEREIRA BARRETO/FAZENDA BONACA	Brazil
 SIBU	CATOLE DA ROCHA	Brazil
@@ -16495,10 +16581,12 @@ SIXP	FAZENDA PAIAGUAS	Brazil
 SIZG	FAZENDA ENCANTADO DAS AGUAS	Brazil
 SIZN	CORUMBIARA/FAZENDA SANTA ANA	Brazil
 SIZO	CALCARIO VALE DO ARAGUAIA	Brazil
+SJ7Z	ABARE/DE ABARE	Brazil
 SJAA	GAUCHA DO NORTE/FAZENDA ARAGUA	Brazil
 SJAK	AEROBAKO	Brazil
 SJAU	ARAGUACEMA	Brazil
 SJBY	JOAO SILVA	Brazil
+SJC4	ALMAS/FAZENDA GALILEIA 2	Brazil
 SJCA	MOCOCA/COMANDANTE VITTORINO BO	Brazil
 SJCP	PARAUNA/FAZENDA SAO ROBERTO	Brazil
 SJCQ	FAZENDA SERRA AZUL	Brazil
@@ -16781,6 +16869,7 @@ SN03	LENORA MUNI	United States
 SN18	AUGUSTA/SILLS AIR PARK	United States
 SN3Y	BOM JESUS DA LAPA/NOVO AEROPOR	Brazil
 SN45	LAWRENCE/MICHAEL'S	United States
+SN4M	AFONSO CUNHA/FAZENDA BELA VIST	Brazil
 SN51	HUTCHINSON/IRISH CREEK AIRFIEL	United States
 SN95	SYLVIA/ROBERTS AIR FIELD	United States
 SNAB	ARARIPINA	Brazil
@@ -16793,7 +16882,7 @@ SNAP	JANAUBA	Brazil
 SNAR	ALMENARA	Brazil
 SNAS	TRES MARIAS	Brazil
 SNAV	JUAZEIRO/AGROVALE	Brazil
-SNAX	ASSIS	Brazil
+SNAX	ASSIS/MARCELO PIRES HALZHAUSEN	Brazil
 SNAZ	AMARGOSA	Brazil
 SNBA	BARRETOS/CHAFEI AMSEI	Brazil
 SNBC	BARRA DO CORDA	Brazil
@@ -17106,7 +17195,7 @@ SSCL	CASSILANDIA	Brazil
 SSCM	RIO BRILHANTE/FAZENDA CACADINH	Brazil
 SSCN	CANELA	Brazil
 SSCP	CORNELIO PROCOPIO	Brazil
-SSCR	MARECHAL CANDIDO RONDON	Brazil
+SSCR	MARECHAL CANDIDO RONDON/BALDUI	Brazil
 SSCT	CIANORTE/ENGENHEIRO GASTAO DE	Brazil
 SSCV	CARAVELAS	Brazil
 SSDC	DIONISIO CERQUEIRA	Brazil
@@ -17114,6 +17203,7 @@ SSDK	SAO PEDRO/IGARANTINGA	Brazil
 SSDL	SALADILLO	Argentina
 SSER	ERECHIM	Brazil
 SSFA	PINHAO/FOZ DO AREIA	Brazil
+SSFB	FRANCISCO BELTRAO/PAULO ABDALA	Brazil
 SSFE	ESTANCIA HERCULES	Brazil
 SSFI	FAZENDA ITAMARATI	Brazil
 SSGF	FAZENDA FORMOSA	Brazil
@@ -17154,6 +17244,7 @@ SSOE	SAO MIGUEL DO OESTE	Brazil
 SSOG	ARAPONGAS	Brazil
 SSOL	LAVRAS	Brazil
 SSOO	CAMAPUA/FAZENDA PONTA DA CACHO	Brazil
+SSOQ	AQUIDAUANA/FAZENDA BARRANCO AL	Brazil
 SSPC	COCALINHO/FAZENDA SANTA JULIA	Brazil
 SSPG	PARANAGUA/SANTOS DUMONT	Brazil
 SSPI	PARANAVAI	Brazil
@@ -17726,6 +17817,7 @@ SWPM	PIMENTA BUENO	Brazil
 SWPR	PIRES DO RIO	Brazil
 SWPZ	POSSE/ORICANGA DE ABREU	Brazil
 SWQL	FAZENDA TRES COMPANHEIROS	Brazil
+SWQX	AGUA CLARA/FAZENDA CACHOEIRA	Brazil
 SWRI	FAZENDA RONCADOR I	Brazil
 SWRL	CORUMBIARA/FAZENDA POUSO REDON	Brazil
 SWRO	PORTO VELHO/AEROCLUBE DE RONDO	Brazil
@@ -17733,7 +17825,7 @@ SWRR	PLANALTO DA SERRA/FAZENDA SERR	Brazil
 SWRZ	NORTALANDIA/FAZENDA DOURADO	Brazil
 SWSF	FAZENDA SAO FRANCISCO	Brazil
 SWSG	FAZENDA SIMARELLI	Brazil
-SWSQ	SAO JOAQUIM	Brazil
+SWSQ	SAO JOAQUIM/SAO GABRIEL DA CAC	Brazil
 SWST	SANTA TEREZINHA	Brazil
 SWSV	COCALINHO/FAZENDA SANTA SILVIA	Brazil
 SWTI	SAO VICENTE	Brazil
@@ -17961,6 +18053,7 @@ TT16	GRAFORD/COSMO FLD	United States
 TT19	HARDIN/CIRCLE C RANCH	United States
 TT20	MADISONVILLE/LAZY 8 FLYING RAN	United States
 TT21	ALVORD/GRANT RANCH	United States
+TT29	ROXTON/DAVISON FARMS	United States
 TT31	FOWLERTON/Y BAR RANCH	United States
 TT32	ROYSE CITY/KUDLACEK FLD	United States
 TT37	JEFFERSON/DRAGON LADY	United States
@@ -18845,7 +18938,7 @@ VTCN	NAN NAKHON	Thailand
 VTCP	PHRAE	Thailand
 VTCT	CHIANG RAI/MAE FAH LUANG - CHI	Thailand
 VTPB	PHETCHABUN	Thailand
-VTPH	HUA HIN	Thailand
+VTPH	PRACHUAP KHIRI KHAN/HUA HIN	Thailand
 VTPI	NAKHON SAWAN/TAKHLI	Thailand
 VTPM	TAK/MAE SOT	Thailand
 VTPN	NAKHON SAWAN	Thailand
@@ -18999,7 +19092,7 @@ WAES	SANANA/EMALAMO	Indonesia
 WAEW	MOROTAI/LEO WATTIMENA	Indonesia
 WAFB	TANA TORAJA/TORAJA	Indonesia
 WAFC	TENTENA	Indonesia
-WAFD	LUWU/BUA	Indonesia
+WAFD	LUWU/LAGALIGO	Indonesia
 WAFE	KANTEWU	Indonesia
 WAFF	PALU/MUTIARASIS AL-JUFRI	Indonesia
 WAFJ	MAMUJU/TAMPA PADANG	Indonesia
@@ -19229,7 +19322,6 @@ WBSB	BANDAR SERI BEGAWAN/BRUNEI INT	Brunei
 WBTM	BELAWI MUKAH/TANJUNG MANIS	Malaysia
 WH04	NOVOROSSIYA	Russian Federation
 WI12	NESHKORO/WOOD TICK STRIP	United States
-WI28	RIO CREEK/WALTERS AGRI-CENTER	United States
 WI49	BLAIR	United States
 WI50	MERRIMAC/LOEBER MCDANIEL FLD	United States
 WI53	MOSINEE/MAGUIRE FLD	United States
@@ -19299,7 +19391,7 @@ WIMO	NIAS SELATAN/LASONDRE	Indonesia
 WIMP	PARAPAT/SIBISA	Indonesia
 WIMS	CENTRAL TAPANULI/DR FERDINAND	Indonesia
 WIMT	TAPAKTUAN/TEUKU CUT ALI	Indonesia
-WIMU	ALAS LAUSER/KUTACANE	Indonesia
+WIMU	ALAS LEUSER/KUTACANE	Indonesia
 WIOB	BENGKAYANG	Indonesia
 WIOG	MELAWI/NANGA PINOH	Indonesia
 WIOH	PALOH/LIKU	Indonesia
@@ -19364,6 +19456,7 @@ WN45	YAKIMA/TAKE FIVE	United States
 WN54	NEWMAN LAKE/ELLERPORT	United States
 WN59	ONALASKA/NELSON NITCH	United States
 WN88	OCEAN PARK/FAIRHURST FLD	United States
+WN92	SPOKANE/SKY MEADOWS AIRPARK	United States
 WOTG	WESTON ON THE GREEN	United Kingdom
 WPAT	VILA MAUMETA/ATAURO ISLAND	Timor-Leste
 WPDB	SUAI/XANANA GUSMAO INTL AIRPOR	Timor-Leste
@@ -19377,6 +19470,7 @@ WPVQ	VIQUEQUE	Timor-Leste
 WRLJ	TANJUNG BARA	Indonesia
 WRLO	ONGKO ASA	Indonesia - Bali
 WS51	SOLDIERS GROVE/LEEWARD FARM	United States
+WS84	WARRENS/CRAN BOG N	United States
 WS87	TWISP/PORT FIELD	United States
 WS91	BOSCOBEL/SKY HOLLOW	United States
 WSAG	SINGAPORE/SEMBAWANG	Singapore
@@ -19401,8 +19495,11 @@ WY08	ALTA/SUNDANCE RANCH	United States
 WY19	BIG PINEY/FISH CREEK RANCH	United States
 WY32	COKEVILLE/CIRCLE B	United States
 WY44	MULE CREEK JUNCTION/ROBBERS RO	United States
+WY45	HILLSDALE/MICHAEL SKYPARK	United States
 WY46	CHEYENNE/RADIO RANCH	United States
 WY53	FOUR CORNERS/MOBURG AERO	United States
+WY56	HULETT/PIERCE RANCH	United States
+WY58	WHEATLAND/HILTY PRIVATE STRIP	United States
 WY61	LARAMIE/ROCK - A HARD PLACE RA	United States
 XA09	BELLEVUE/MENARD	United States
 XA41	HARPER/LONE STAR FLYING SERVIC	United States

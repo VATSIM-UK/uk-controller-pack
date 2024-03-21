@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2401/1  ++  Valid period: 25/JAN/2024 - 21/FEB/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2402/1  ++  Valid period: 22/FEB/2024 - 20/MAR/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -390,8 +390,8 @@ BBAT	LL1P	BRADLEY	BA100 Aerobat
 BBIR	LL1P	HOVEY	Beta Bird
 BCA3	LL1P	BUHL	CA-3 Sport Airsedan
 BCAT	LL1P	GRUMMAN	F8F Bearcat (G58)
-BCS1	ML2J	BOMBARDIER	BD-500 CSeries CS100
-BCS3	ML2J	BOMBARDIER	BD-500 CSeries CS300
+BCS1	ML2J	AIRBUS	A-220-100, BD-500 CSeries CS100
+BCS3	ML2J	AIRBUS	A-220-300, BD-500 CSeries CS300
 BD10	LL1J	BEDE	BD10
 BD12	LL1P	BEDE	BD12
 BD17	LL1P	BEDE	BD17 Nuggett
@@ -1178,6 +1178,7 @@ GA6C	ML2J	GULFSTREAM AEROSPACE	G-7 Gulfstream G600
 GA7	LL2P	GRUMMAN AMERICAN	GA7 Cougar
 GA7C	ML2J	GULFSTREAM AEROSPACE	Gulfstream G700
 GA8	LL1P	GIPPSLAND	GA8 Airvan
+GA8C	ML2J	GULFSTREAM AEROSPACE	G-8 Gulfstream G800
 GABR	LL1P	BLACKSHAPE	Bk-160 Gabriel, BS-115 Gabriel
 GALX	ML2J	IAI	1126 Galaxy, Gulfstream 200
 GANT	MLCT	FAIREY	Gannet
