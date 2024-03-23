@@ -1,4 +1,5 @@
-x. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
+# Changes from release 2024/01 to 2024/03
+1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
