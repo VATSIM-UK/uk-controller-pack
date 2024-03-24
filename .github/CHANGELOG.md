@@ -1,3 +1,6 @@
+# Changes from release 2024/01 to 2024/03
+X. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
 2. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
