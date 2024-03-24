@@ -27,7 +27,6 @@ Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
-Plugins	Plugin4	\..\Data\Plugin\vACDM\vACDM.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
