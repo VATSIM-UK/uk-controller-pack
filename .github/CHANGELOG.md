@@ -1,5 +1,7 @@
 # Changes from release 2024/01 to 2024/03
-X. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
+1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
+3. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
@@ -9,6 +11,7 @@ X. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated Heathrow profile and displays - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - Use EuroScope 3.2.7 Settings - thanks to @AliceFord (Alice Ford)
 7. Enhancement - Plugin version bump - thanks to @AliceFord (Alice Ford)
+8. AIRAC (2402) - Added EGHC_ATIS frequency - thanks to @RedstonePilot (Ben Walker)
 
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99

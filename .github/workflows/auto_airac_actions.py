@@ -1,8 +1,3 @@
-"""
-UKCP Updater
-Chris Parkinson (@chssn)
-"""
-
 #!/usr/bin/env python3
 
 # Standard Libraries
@@ -19,6 +14,7 @@ import requests
 from loguru import logger
 
 # Local Libraries
+
 
 class Airac:
     """Class for general functions relating to AIRAC"""
@@ -46,29 +42,28 @@ class Airac:
         number_of_cycles = floor(diff_cycles / self.cycle_days)
         return number_of_cycles
 
-        def current_cycle(self) -> str:
-            """Return the date of the current AIRAC cycle"""
-            def cycle(sub=0):
-                number_of_cycles = self.initialise() - sub
-                number_of_days = number_of_cycles * self.cycle_days + 1
-                current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
-                return current_cycle
+    def current_cycle(self) -> str:
+        """Return the date of the current AIRAC cycle"""
+        def cycle(sub=0):
+            number_of_cycles = self.initialise() - sub
+            number_of_days = number_of_cycles * self.cycle_days + 1
+            current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
+            return current_cycle
 
-            current_cycle = cycle()
-            if current_cycle > self.today_date:
-                current_cycle = cycle(sub=1)
+        current_cycle = cycle()
+        if current_cycle > self.today_date:
+            current_cycle = cycle(sub=1)
 
-            # Format month with leading zero if necessary
-            month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
+        # Format month with leading zero if necessary
+        month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
 
-            return f"{current_cycle.year}_{month_part}"
-
-
+        return f"{current_cycle.year}_{month_part}"
 
     def current_tag(self) -> str:
         """Returns the current tag for use with git"""
         current_cycle_count = self.initialise()
-        current_tag = f"{self.today_date.year}/{current_cycle_count + 1}"
+        current_month = str(self.today_date.month).zfill(2)  # Add leading zero if necessary
+        current_tag = f"{self.today_date.year}/{current_month}"
         return current_tag
 
 
@@ -130,7 +125,7 @@ class CurrentInstallation:
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
             "Connection": "close"
-            }
+        }
         response = requests.get(zip_file, headers=headers, timeout=30)
         logger.debug(f"Response Status = {response.status_code}")
         if response.status_code == 200:
@@ -162,13 +157,13 @@ class CurrentInstallation:
             shutil.copy(
                 f"import/EGTT/{file}",
                 f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}"
-                )
+            )
             if "ICAO_Airlines" in file:
                 # Copy the "ICAO_Airlines.txt" file into the vSMR folder
                 shutil.copy(
                     f"import/EGTT/{file}",
                     f"UK/Data/Plugin/vSMR/{file.split('/', maxsplit=1)[-1]}"
-                    )
+                )
             logger.success(f"Moved {file}")
 
         # Cleanup the import directory
