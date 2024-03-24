@@ -177,6 +177,8 @@ m_HeaderOnly:0
 m_Column:TIME:5:1:98:0:0:1::::1:0.0
 m_Column:TOBT:5:1:97:0:0:1::::1:0.0
 m_Column:SLOT:5:1:99:0:0:1::::1:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
 m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
 m_Column:RUNW:4:1:47:19:19:1::::1:0.0
@@ -197,6 +199,9 @@ m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:DSQ:3:1:57:0:0:1::::1:0.0
 m_Column:SLOT:5:1:99:0:0:1::::1:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
 m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:RUNW:4:1:47:19:19:1::::1:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
@@ -219,6 +224,10 @@ m_HeaderOnly:0
 m_Column:DSQ:3:1:57:0:0:1::::1:0.0
 m_Column:SLOT:5:1:99:0:0:1::::1:0.0
 m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:CFT:3:1:642:0:0:0:VCH:::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
 m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
 m_Column:SID:9:0:56:17:17:1::::1:0.0
@@ -237,6 +246,10 @@ m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
 m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
 m_Column:COPX:5:0:51:21:21:1::::1:0.0
@@ -250,6 +263,9 @@ m_LineNumber:6
 m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:0:0:0:VCH:::0:0.0
 m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
 m_Column:STN:4:1:19:29:0:1::::1:0.0
 m_Column:ATYP:4:1:16:0:0:1::::1:0.0
