@@ -57,7 +57,10 @@ New Pilots
 .ini Hello - You climbed above the initial climb on your departure today - please remember to check initial climb restrictions (including step climbs) on SIDs EVERY time you fly, to ensure you do not conflict with other airspace users. All UK charts are available here: https://chartfox.org/
 .iniall BROADCAST: A REMINDER TO ALWAYS CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY https://chartfox.org/ NOTE THAT SIDs MAY INCLUDE STEP CLIMBS
 .mayday The VATSIM CoC (B6) states that if air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Due to controller workload I am unable to accept your emergency, please resume normal flight or disconnect.
-.runway You can not connect on a runway, please disconnect and re-connect at a stand. 
+.runway You can not connect on a runway, please disconnect and re-connect at a stand.
+.wnocontact $aircraft no contact - first contact me sent at time $1z.
+.wb8 $aircraft unable to comply with instructions - instrctions given were $1, however they are flying $2.
+.wmayday $aircraft refusing to cancel their mayday despite being instructed to resume normal flight or disconnect.
 
 ========================================================
 Handoffs
