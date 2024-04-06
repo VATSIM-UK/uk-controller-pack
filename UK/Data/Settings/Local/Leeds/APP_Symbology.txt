@@ -9,7 +9,7 @@ High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:11248794:1.0:0:0:7
 Fixes:name:11248794:3.2:0:0:2
 Sids:line:11248794:3.0:0:0:7
-Stars:line:11248794:3.0:1:0:7
+Stars:line:0:3.0:0:0:7
 ARTCC high boundary:line:1315860:3.0:0:1:7
 ARTCC boundary:line:1976520:3.0:0:0:7
 ARTCC low boundary:line:1315860:3.0:0:1:7
@@ -77,7 +77,7 @@ Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
 Other:freetext:2631720:3.5:0:0:7
-Other:range rings:1315860:5.0:1:0:2
+Other:range rings:1315860:5.0:2:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
 Other:manual taxi line:16777215:5.0:0:3:2
