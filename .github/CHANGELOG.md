@@ -1,10 +1,17 @@
 # Changes from release 2024/03 to 2024/04
-1. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
+1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
+2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
+3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
 
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
 3. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2402) - D597 removed, D514 added - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2403) - D305 activation schedule amended (by NOTAM only) - thanks to @luke11brown (Luke Brown)
+6. Bug - EGPA (Kirkwall) ATIS frequency fixed - thanks to @luke11brown (Luke Brown)
+7. Bug - Generic profiles missing file added  - thanks to @luke11brown (Luke Brown)
+8. Enhancement - Ground Status right click actions in lists amended - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
