@@ -1,0 +1,12 @@
+SERVER_url=https://vacdm.vatsim-germany.org
+COLOR_lightgreen=127,252,73
+COLOR_lightblue=53,218,235
+COLOR_green=0,181,27
+COLOR_blue=0,0,255
+COLOR_lightyellow=255,255,191
+COLOR_yellow=255,255,0
+COLOR_orange=255,153,0
+COLOR_red=255,0,0
+COLOR_grey=153,153,153
+COLOR_white=255,255,255
+COLOR_debug=255,0,255
