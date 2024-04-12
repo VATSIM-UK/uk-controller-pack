@@ -7,6 +7,7 @@
 6. Bug - EGPA (Kirkwall) ATIS frequency fixed - thanks to @luke11brown (Luke Brown)
 7. Bug - Generic profiles missing file added  - thanks to @luke11brown (Luke Brown)
 8. Enhancement - Ground Status right click actions in lists amended - thanks to @luke11brown (Luke Brown)
+x. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2023/13 to 2024/01
 1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
