@@ -1,3 +1,6 @@
+# Changes from release 2024/03 to 2024/04
+1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
