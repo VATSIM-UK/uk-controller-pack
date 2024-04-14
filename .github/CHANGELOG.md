@@ -1,3 +1,6 @@
+# Changes from release 2024/03 to 2024/04
+1. Bug - Fix typo in voice.txt EGHC_ATIS  - thanks to @RedstonePilot (Ben Walker)
+
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
