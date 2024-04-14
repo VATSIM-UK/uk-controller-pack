@@ -83,7 +83,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -108,7 +108,12 @@
         },
         {
           "Ordinal": 12,
-          "Text": "Report if you are able to use the east and west taxi lines on first contact",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "REPORT IF YOU ARE ABLE TO USE THE EAST AND WEST TAXI LINES ON FIRST CONTACT.",
           "Enabled": true
         }
       ],
@@ -246,7 +251,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.885 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -271,6 +276,11 @@
         },
         {
           "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.885 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": true
         }
