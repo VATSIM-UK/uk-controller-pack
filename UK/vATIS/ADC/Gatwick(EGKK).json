@@ -1,0 +1,197 @@
+{
+  "name": "Gatwick",
+  "composites": [
+    {
+      "name": "Gatwick",
+      "identifier": "EGKK",
+      "frequency": 36525,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male"
+      },
+      "idsEndpoint": "",
+      "useNotamPrefix": false,
+      "useTransitionLevelPrefix": true,
+      "useDecimalTerminology": true,
+      "airportConditionsBeforeFreeText": false,
+      "notamsBeforeFreeText": false,
+      "presets": [
+        {
+          "name": "26L",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "08R",
+          "notams": "",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE RWY 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "26R",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "08L",
+          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "string": "26L",
+          "spoken": "TWO SIX LEFT"
+        },
+        {
+          "string": "26R",
+          "spoken": "TWO SIX RIGHT"
+        },
+        {
+          "string": "08L",
+          "spoken": "ZERO EIGHT LEFT"
+        },
+        {
+          "string": "08R",
+          "spoken": "ZERO EIGHT RIGHT"
+        },
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGKK",
+          "Spoken": "ECHO GOLF KILO KILO"
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT DELIVERY ON 121.955.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.805.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 124.230.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "REPORT IF TWY L IS USEABLE BETWEEN TWY QA AND TWY P ON FIRST CONTACT.",
+          "Enabled": true
+        }
+      ],
+      "notamDefinitions": [],
+      "transitionLevels": [
+        {
+          "low": 1032,
+          "high": 1049,
+          "altitude": 65
+        },
+        {
+          "low": 1013,
+          "high": 1031,
+          "altitude": 70
+        },
+        {
+          "low": 995,
+          "high": 1012,
+          "altitude": 75
+        },
+        {
+          "low": 977,
+          "high": 994,
+          "altitude": 80
+        },
+        {
+          "low": 959,
+          "high": 976,
+          "altitude": 85
+        },
+        {
+          "low": 940,
+          "high": 958,
+          "altitude": 90
+        }
+      ],
+      "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          }
+        }
+      }
+    }
+  ]
+}
