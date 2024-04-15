@@ -22,6 +22,16 @@ New Pilots
 .runway You can not connect on a runway, please disconnect and re-connect at a stand. 
 
 ========================================================
+Supervisor Calls
+========================================================
+
+.wnoco .wallop $aircraft has not responded to a contact me for $1 minutes.
+.wb8 .wallop $aircraft is not able to comply with basic instructions such as flying headings, speeds and levels.
+.wmic .wallop $aircraft has a stuck mic and is not responding to messages.
+.wmayday .wallop $aircraft has called a MAYDAY but is refusing to resume normal flight or disconnect as I am not providing service to MAYDAYs at the moment.
+.wpaused .wallop $aircraft has pasued in my airspace which has added complexity and is conflicting with other traffic.
+
+========================================================
 Generic
 ========================================================
 
