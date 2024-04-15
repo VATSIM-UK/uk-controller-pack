@@ -1,7 +1,8 @@
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
 2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
-3. Enhancement - Added wallop aliases - thanks to @SamLefevre (Samuel Lefevre)
+3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
+4. Enhancement - Added wallop aliases - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
