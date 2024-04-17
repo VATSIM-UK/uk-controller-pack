@@ -141,6 +141,16 @@
           "Ordinal": 13,
           "Text": "REPORT IF TWY L IS USEABLE BETWEEN TWY QA AND TWY P ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 14,
+          "Text": "TWY E IS CLOSED.",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 15,
+          "Text": "AIRCRAFT VACATING VIA TWY ER MUST MAKE THE FIRST RIGHT ONTO TWY 08L.",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
