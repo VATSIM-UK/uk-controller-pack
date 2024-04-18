@@ -3,15 +3,19 @@ Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Heathrow\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Local\Heathrow\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
-Settings	SettingsfileARR	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileCONFLICT	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileDEP	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileFP	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileSEL	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileSIL	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileSTUP	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileTAXIOUT	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
-Settings	SettingsfileTAKEOFF	\..\Data\Settings\Local\Heathrow\Lists_SMR.txt
+Settings	SettingsfileADCS	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileARR	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileFP	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileORIGPLANE	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfilePILOTING	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileSTUP	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileTAXIIN	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileTAXIOUT	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
+Settings	SettingsfileTAKEOFF	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
@@ -40,5 +44,6 @@ LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep
 LastSession	atis_url2	http://uniatis.net/atis.php?arr=$arrrwy($atisairportC)&dep=$deprwy($atisairportC)&apptype=ILS&info=$atiscodeC&metar=$metar($atisairportC)
 LastSession	atis_url3	http://uniatis.net/atis.php?arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&apptype=ILS&info=$atiscodeD&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
-TeamSpeakVccs	TsVccsMiniControlY	24LastSession	atis_freq0	128080
+TeamSpeakVccs	TsVccsMiniControlY	24LastSession
 LastSession	atis_callsign0	EGLL_ATIS
+LastSession	atis_freq0	128080
