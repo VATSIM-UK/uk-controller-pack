@@ -4,6 +4,7 @@
 3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
 4. Bug - Fix typo in voice.txt EGHC_ATIS  - thanks to @RedstonePilot (Ben Walker)
 5. Enhancement - Added wallop aliases - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Displayed all ATZs for AGCS/AFIS endorsed positions - thanks to @RedstonePilot (Ben Walker)
 
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
