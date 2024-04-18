@@ -1,7 +1,7 @@
 ========================================================
-Alias:    	Heathrow
+Alias:          Heathrow
 Created:     	2016-03-31
-Last Updated:	2023-09-21
+Last Updated:	2024-04-18
 ========================================================
 
 ========================================================
@@ -74,6 +74,18 @@ Generic
 .qnh QNH $altim($arr).
 
 ========================================================
+!!! CROSS THE POND !!
+========================================================
+
+.pdce .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB 6000FT. NEXT FREQ 124.475. CONTACT HEATHROW PLANNING -NOW- ON 124.475 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD. 
+.pdcne .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB 6000FT. NEXT FREQ 124.475. CONTACT HEATHROW PLANNING WHEN READY FOR PUSHBACK ON 124.475 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD.
+
+.pdcecpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON 2 DME TURN RIGHT HDG 220 - CLIMB 6000FT. NEXT FREQ 124.475. CONTACT HEATHROW PLANNING -NOW- ON 124.475 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD.
+.pdcnecpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON 2 DME TURN RIGHT HDG 220 - CLIMB 6000FT. NEXT FREQ 124.475. CONTACT HEATHROW PLANNING WHEN READY FOR PUSHBACK ON 124.475 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD.
+
+.tsat YOUR TTOT/CTOT (TARGET TAKEOFF / TAKEOFF SLOT) IS $1Z, EXPECT START AT TIME $2Z.
+
+========================================================
 Departure Clearance
 ========================================================
 
@@ -81,12 +93,12 @@ Departure Clearance
 .pdcc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. SLOT TIME $1. PDC READBACK NOT RQRD. 
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)hPa
-.sidrw Cleared to $arr, $sid departure, runway $deprwy($dep), squawk $squawk, QNH $altim($dep)hPa
+.sidrw Cleared to $arr, $sid departure, Runway $deprwy($dep), squawk $squawk, QNH $altim($dep)hPa
 .sidi Cleared to $arr, $sid departure, initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
-.sidrwi Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
-.sidirw Cleared to $arr, $sid departure, runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
+.sidrwi Cleared to $arr, $sid departure, Runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
+.sidirw Cleared to $arr, $sid departure, Runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
 
-.llcpt You are cleared to $arr via CPT, then flight planned route. After departure runway 09R climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft. Heathrow QNH $altim(egll)hPa. Squawk $squawk
+.llcpt You are cleared to $arr via CPT, then flight planned route. After departure Runway 09R climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft. Heathrow QNH $altim(egll)hPa. Squawk $squawk
 
 .rc Readback correct
 .rcq Readback correct, QNH $altim($dep)
@@ -114,12 +126,12 @@ Ground Movement
 Tower
 ========================================================
 
-.cr At $1, cross now runway $2
-.bcr Behind the $1, at $1, cross runway $2 behind
-.lu Line up runway $deprwy($dep)
-.luv Line up runway $deprwy($dep) via $1
-.blu Behind the $1, line up runway $deprwy($dep) behind
-.bluv Behind the $1, line up runway $deprwy($dep) via $2 behind
+.cr At $1, cross now Runway $2
+.bcr Behind the $1, at $1, cross Runway $2 behind
+.lu Line up Runway $deprwy($dep)
+.luv Line up Runway $deprwy($dep) via $1
+.blu Behind the $1, line up Runway $deprwy($dep) behind
+.bluv Behind the $1, line up Runway $deprwy($dep) via $2 behind
 
 .rrfd Report ready for departure
 
@@ -163,8 +175,8 @@ Handoffs
 Approach Radar
 ========================================================
 
-.ev Expect vectors for the $1 approach runway $arrrwy($arr)
-.lr Landing runway $arrrwy($arr)
+.ev Expect vectors for the $1 approach Runway $arrrwy($arr)
+.lr Landing Runway $arrrwy($arr)
 
 .eat Estimated approach time is $1z
 
@@ -183,9 +195,9 @@ Approach Radar
 
 .dtaq Descend to altitude $1ft QNH $altim($arr)
 .dta Descend to altitude $1ft
-.tm $1 track miles from touchdown runway $arrrwy($arr),
-.tmdta $1 track miles from touchdown runway $arrrwy($arr), descend to altitude $2ft
-.tmdtaq $1 track miles from touchdown runway $arrrwy($arr), descend to altitude $2ft QNH $altim($arr)
+.tm $1 track miles from touchdown Runway $arrrwy($arr),
+.tmdta $1 track miles from touchdown Runway $arrrwy($arr), descend to altitude $2ft
+.tmdtaq $1 track miles from touchdown Runway $arrrwy($arr), descend to altitude $2ft QNH $altim($arr)
 .dfl Descend FL$1
 .dfllb Descend FL$1, level by $2
 
@@ -209,20 +221,20 @@ Approach Radar
 .rnd Resume own navigation direct $1
 .rond Resume own navigation direct $1
 
-.trlgp Turn right heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
-.tllgp Turn left heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.trlgp Turn right heading $1 degrees, when established on the localiser Runway $arrrwy($arr), descend on the glidepath
+.tllgp Turn left heading $1 degrees, when established on the localiser Runway $arrrwy($arr), descend on the glidepath
 
-.trils Turn right heading $1 degrees, cleared ILS approach runway $arrrwy($arr)
-.tlils Turn left heading $1 degrees, cleared ILS approach runway $arrrwy($arr)
-.cils Cleared ILS approach runway $arrrwy($arr)
+.trils Turn right heading $1 degrees, cleared ILS approach Runway $arrrwy($arr)
+.tlils Turn left heading $1 degrees, cleared ILS approach Runway $arrrwy($arr)
+.cils Cleared ILS approach Runway $arrrwy($arr)
 
-.weldgp When established on the localiser runway $arrrwy($arr), descend on the glidepath
-.weldogp When established on the localiser runway $arrrwy($arr), descend on the glidepath
+.weldgp When established on the localiser Runway $arrrwy($arr), descend on the glidepath
+.weldogp When established on the localiser Runway $arrrwy($arr), descend on the glidepath
 
-.rel Report established on the localiser runway $arrrwy($arr)
-.rle Report localiser established runway $arrrwy($arr)
+.rel Report established on the localiser Runway $arrrwy($arr)
+.rle Report localiser established Runway $arrrwy($arr)
 
-.rnp Resume own navigation direct $1, cleared RNP approach runway $arrrwy($arr)
+.rnp Resume own navigation direct $1, cleared RNP approach Runway $arrrwy($arr)
 
 .dwp Descend with the procedure
 .dtafog Descend to altitude $1ft, further on the glidepath
@@ -230,7 +242,7 @@ Approach Radar
 .dogp Descend on the glidepath
 
 .fb The field is at your $oclock($1), $dist($1) miles. Report in sight
-.cva Cleared visual approach runway $arrrwy($arr)
+.cva Cleared visual approach Runway $arrrwy($arr)
 
 .s160 Speed 160 knots, maintain until 4DME
 .s170 Speed 170 knots, maintain until 5DME
@@ -264,8 +276,8 @@ Auto-alias
 ========================================================
 
 .autoproceed Resume own navigation direct $1
-.autoclearedils When established on the localiser runway $1, descend on the glidepath
-.autoclearedvisual Cleared visual approach runway $1
+.autoclearedils When established on the localiser Runway $1, descend on the glidepath
+.autoclearedvisual Cleared visual approach Runway $1
 .autoclimblevel Climb FL$1
 .autoclimbaltitude Climb to altitude $1 ft
 .autodescendlevel Descend FL$1
