@@ -8,6 +8,6 @@ AG:LL GMC 1:121.905:uk.voice.vatsim.net:egll_1_gnd
 AG:LL GMC 2:121.705:uk.voice.vatsim.net:egll_2_gnd
 AG:LL GMC 3:121.855:uk.voice.vatsim.net:egll_3_gnd
 AG:LL GMP:121.980:uk.voice.vatsim.net:egll_del
-AG:LL PLN:121.475:uk.voice.vatsim.net:egll_p_gnd
+AG:LL PLN:124.475:uk.voice.vatsim.net:egll_p_gnd
 AG:EGLL_ATIS:128.080:uk.voice.vatsim.net:egll_atis
 END
