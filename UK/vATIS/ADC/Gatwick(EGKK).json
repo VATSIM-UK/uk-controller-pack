@@ -1,46 +1,119 @@
 {
-  "name": "Gatwick",
+  "name": "London Gatwick (EGKK/LGW)",
   "composites": [
     {
       "name": "Gatwick",
       "identifier": "EGKK",
-      "frequency": 36525,
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "frequency": 136525000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "UK Male"
+        "voice": "UK Female"
       },
       "idsEndpoint": "",
       "useNotamPrefix": false,
-      "useTransitionLevelPrefix": true,
       "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": false,
       "presets": [
         {
-          "name": "26L",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26L. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "name": "Runway 26L",
+          "airportConditions": "",
+          "notams": "ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "name": "08R",
-          "notams": "",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE RWY 08R. ILS APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "name": "Runway 26L (Delivery Closed)",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "name": "26R",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 26R. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "name": "Runway 26L (Delivery and Ground Closed)",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
-          "name": "08L",
-          "template": "GATWICK INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 08L. RNP APPROACH TO BE EXPECTED. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "name": "Runway 26L (Delivery, Ground and Tower Closed)",
+          "airportConditions": "",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 08R",
+          "notams": "ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 08R (Delivery Closed)",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 08R (Delivery and Ground Closed)",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 08R (Delivery, Ground and Tower Closed)",
+          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 26R",
+          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 26R (Delivery Closed)",
+          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 26R (Delivery and Ground Closed)",
+          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "name": "Runway 26R (Delivery, Ground and Tower Closed)",
+          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
@@ -64,19 +137,59 @@
           "spoken": "ZERO EIGHT RIGHT"
         },
         {
+          "string": "HPA",
+          "spoken": "HECTO-PASKALS"
+        },
+        {
+          "string": "RNAV",
+          "spoken": "ARE-NAV"
+        },
+        {
+          "string": "CAVOK",
+          "spoken": "CAV-OH-KAY"
+        },
+        {
+          "string": "RNP",
+          "spoken": "ARE-ENN-PEE"
+        },
+        {
+          "string": "WIP",
+          "spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "string": "ILS",
+          "spoken": "EYE-ELL-ESS"
+        },
+        {
+          "string": "ATC",
+          "spoken": "AY-TEE-SEE"
+        },
+        {
+          "string": "DATALINK",
+          "spoken": "DATA-LINK"
+        },
+        {
+          "string": "26L/08R",
+          "spoken": "TWO-SIX-LEFT-ZERO-EIGHT-RIGHT"
+        },
+        {
+          "String": "LOGON EGKK",
+          "Spoken": "LOG ON ECHO GOLF KILO KILO"
+        },
+        {
+          "string": "EGKK",
+          "spoken": "GATWICK"
+        },
+        {
           "String": "LVPS",
           "Spoken": "L V PEES"
         },
         {
-          "String": "LOGON",
-          "Spoken": "LOG ON"
-        },
-        {
-          "String": "EGKK",
-          "Spoken": "ECHO GOLF KILO KILO"
+          "string": "COM",
+          "spoken": " "
         }
       ],
-      "AirportConditionDefinitions": [
+      "airportConditionDefinitions": [
         {
           "Ordinal": 1,
           "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
@@ -114,91 +227,286 @@
         },
         {
           "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT DELIVERY ON 121.955.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.805.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 10,
-          "Text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 124.230.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 11,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
+          "Ordinal": 9,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
           "Enabled": false
         },
         {
-          "Ordinal": 13,
+          "Ordinal": 10,
           "Text": "REPORT IF TWY L IS USEABLE BETWEEN TWY QA AND TWY P ON FIRST CONTACT.",
-          "Enabled": true
+          "Enabled": false
         },
         {
-          "Ordinal": 14,
+          "Ordinal": 11,
           "Text": "TWY E IS CLOSED.",
-          "Enabled": true
+          "Enabled": false
         },
         {
-          "Ordinal": 15,
+          "Ordinal": 12,
           "Text": "AIRCRAFT VACATING VIA TWY ER MUST MAKE THE FIRST RIGHT ONTO TWY 08L.",
           "Enabled": false
         }
       ],
-      "notamDefinitions": [],
-      "transitionLevels": [
+      "notamDefinitions": [
         {
-          "low": 1032,
-          "high": 1049,
-          "altitude": 65
+          "ordinal": 1,
+          "enabled": false
         },
         {
-          "low": 1013,
-          "high": 1031,
-          "altitude": 70
+          "ordinal": 2,
+          "enabled": false
         },
         {
-          "low": 995,
-          "high": 1012,
-          "altitude": 75
-        },
-        {
-          "low": 977,
-          "high": 994,
-          "altitude": 80
-        },
-        {
-          "low": 959,
-          "high": 976,
-          "altitude": 85
-        },
-        {
-          "low": 940,
-          "high": 958,
-          "altitude": 90
+          "ordinal": 3,
+          "enabled": false
         }
       ],
       "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "weatherTypes": {
+            "DZ": "drizzle",
+            "RA": "rain",
+            "SN": "snow",
+            "SG": "snow grains",
+            "IC": "ice crystals",
+            "PL": "ice pellets",
+            "GR": "hail",
+            "GS": "small hail",
+            "UP": "unknown precipitation",
+            "BR": "mist",
+            "FG": "fog",
+            "FU": "smoke",
+            "VA": "volcanic ash",
+            "DU": "widespread dust",
+            "SA": "sand",
+            "HZ": "haze",
+            "PY": "spray",
+            "PO": "well developed dust, sand whirls",
+            "SQ": "squalls",
+            "FC": "funnel cloud tornado waterspout",
+            "SS": "sandstorm",
+            "DS": "dust storm"
+          },
+          "weatherDescriptors": {
+            "PR": "partial",
+            "BC": "patches",
+            "MI": "shallow",
+            "DR": "low drifting",
+            "BL": "blowing",
+            "SH": "showers",
+            "TS": "thunderstorm",
+            "FZ": "freezing"
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
-            "voice": "QNH {altimeter|hpa}"
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 995,
+              "high": 1013,
+              "altitude": 75
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            }
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
           }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
           }
         }
       }
