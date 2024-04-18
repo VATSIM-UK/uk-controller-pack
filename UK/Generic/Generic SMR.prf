@@ -14,7 +14,7 @@ Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2024_03.sct
+Settings	sector	UK\Data\Sector\UK_2024_04.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\TC_APP\Generic SMR.asr
