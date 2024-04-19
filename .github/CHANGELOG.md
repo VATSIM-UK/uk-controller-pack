@@ -10,6 +10,7 @@
 9. Enhancement - Added R/T column to arrival lists - thanks to @hazzas-99
 10. Enhancement - Added iTEC profiles for Scottish AC - thanks to @SamLefevre (Samuel Lefevre)
 11. Enhancement - Changed from UniATIS to VATATIS - thanks to @SamLefevre (Samuel Lefevre)
+12. Enhancement - Various updates to Heathrow alias, voice and profiles in advance of CTP 24W - thanks to @hazzas-99
 
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
