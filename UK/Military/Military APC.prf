@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Military\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags_mil.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2024_03.sct
+Settings	sector	UK\Data\Sector\UK_2024_04.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Military\Mil APC.asr
@@ -39,6 +39,7 @@ Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 TeamSpeakVccs	TsVccsMiniControlX	697

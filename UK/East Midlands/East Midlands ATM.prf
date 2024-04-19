@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\East Midlands\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Midlands.txt
-Settings	sector	UK\Data\Sector\UK_2024_03.sct
+Settings	sector	UK\Data\Sector\UK_2024_04.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\East Midlands\East Midlands ATM.asr
@@ -26,6 +26,7 @@ Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
