@@ -2553,8 +2553,6 @@ Fixes:TENSO:name
 Fixes:TENSO:symbol
 Fixes:TERKO:name
 Fixes:TERKO:symbol
-Fixes:TETRU:name
-Fixes:TETRU:symbol
 Fixes:TEVMO:name
 Fixes:TEVMO:symbol
 Fixes:TEVSI:name
@@ -2917,7 +2915,6 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
-Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
@@ -3107,8 +3104,6 @@ VORs:TNT:name
 VORs:TNT:symbol
 VORs:TRN:name
 VORs:TRN:symbol
-VORs:VES:name
-VORs:VES:symbol
 VORs:VLN:name
 VORs:VLN:symbol
 VORs:WAL:name
@@ -3126,13 +3121,13 @@ ABOVE:0
 LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:0
+HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:AC-TopSky
-WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
+TAGFAMILY:iTEC
+WINDOWAREA:50.096286:-23.090159:63.430380:17.152381
 PLUGIN:TopSky plugin:HideMapData:AirspaceBases
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -3156,7 +3151,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotSize:5
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:5
-PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:3
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1

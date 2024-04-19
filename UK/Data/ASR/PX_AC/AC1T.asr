@@ -1,57 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-ARTCC boundary:EGP611:
-ARTCC boundary:EGP813:
-ARTCC boundary:EGR002:
-ARTCC boundary:EGR063:
-ARTCC boundary:EGR095:
-ARTCC boundary:EGR101:
-ARTCC boundary:EGR104:
-ARTCC boundary:EGR105:
-ARTCC boundary:EGR107:
-ARTCC boundary:EGR153:
-ARTCC boundary:EGR154:
-ARTCC boundary:EGR155:
-ARTCC boundary:EGR156:
-ARTCC boundary:EGR157:
-ARTCC boundary:EGR158:
-ARTCC boundary:EGR159:
-ARTCC boundary:EGR160:
-ARTCC boundary:EGR204:
-ARTCC boundary:EGR212:
-ARTCC boundary:EGR214:
-ARTCC boundary:EGR217:
-ARTCC boundary:EGR220:
-ARTCC boundary:EGR311:
-ARTCC boundary:EGR312:
-ARTCC boundary:EGR313:
-ARTCC boundary:EGR315:
-ARTCC boundary:EGR319:
-ARTCC boundary:EGR321:
-ARTCC boundary:EGR322:
-ARTCC boundary:EGR413:
-ARTCC boundary:EGR431:
-ARTCC boundary:EGR432:
-ARTCC boundary:EGR444:
-ARTCC boundary:EGR445:
-ARTCC boundary:EGR446:
-ARTCC boundary:EGR504:
-ARTCC boundary:EGR515:
-ARTCC boundary:EGR516:
-ARTCC boundary:EGR603:
-ARTCC boundary:EGR612:
-ARTCC boundary:LFD82:
-ARTCC boundary:LFP26:
-ARTCC boundary:LFP27:
-ARTCC boundary:LFP28:
-ARTCC boundary:LFP32:
-ARTCC boundary:LFP33:
-ARTCC boundary:LFP6-1:
-ARTCC boundary:LFP6-2:
-ARTCC boundary:LFP7:
-ARTCC boundary:LFP81:
-ARTCC boundary:LFR10:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
@@ -95,7 +44,6 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
-Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
@@ -116,13 +64,13 @@ ABOVE:0
 LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:0
+HISTORY_DOTS:5
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:AC-TopSky
-WINDOWAREA:52.117820:-20.223211:62.381795:11.970820
+TAGFAMILY:iTEC
+WINDOWAREA:50.096286:-23.090159:63.430380:17.152381
 PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -146,7 +94,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotSize:5
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:0
 PLUGIN:UK Controller Plugin:HistoryTrailLength:5
-PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:3
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
