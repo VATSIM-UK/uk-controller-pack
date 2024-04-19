@@ -1,8 +1,3 @@
-"""
-UKCP Updater
-Chris Parkinson (@chssn)
-"""
-
 #!/usr/bin/env python3
 
 # Standard Libraries
@@ -20,36 +15,36 @@ from loguru import logger
 
 # Local Libraries
 
+
 class Airac:
     """Class for general functions relating to AIRAC"""
 
     def __init__(self):
         # First AIRAC date following the last cycle length modification
-        start_date = "2019-01-02"
+        start_date = "2021-01-28"
         self.base_date = datetime.date.fromisoformat(str(start_date))
         # Length of one AIRAC cycle
         self.cycle_days = 28
         # Today
         self.today_date = datetime.datetime.now().date()
 
-    def initialise(self, date_in:str=0) -> int:
+    def initialise(self, date_in=None) -> int:
         """Calculate the number of AIRAC cycles between any given date and the start date"""
         if date_in:
             input_date = datetime.date.fromisoformat(str(date_in))
         else:
             input_date = datetime.date.today()
 
-        # How many AIRAC cycles have occured since the start date
-        diff_cycles = (input_date - self.base_date) / datetime.timedelta(days=1)
+        start_of_year = datetime.date(input_date.year, 1, 1)
+        # How many AIRAC cycles have occurred since the start of the calendar year
+        diff_cycles = (input_date - start_of_year) / datetime.timedelta(days=1)
         # Round that number down to the nearest whole integer
         number_of_cycles = floor(diff_cycles / self.cycle_days)
-        logger.debug(f"{number_of_cycles} AIRAC cycles since {self.base_date}")
-
         return number_of_cycles
 
     def current_cycle(self) -> str:
         """Return the date of the current AIRAC cycle"""
-        def cycle(sub:int=0):
+        def cycle(sub=0):
             number_of_cycles = self.initialise() - sub
             number_of_days = number_of_cycles * self.cycle_days + 1
             current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
@@ -59,18 +54,17 @@ class Airac:
         if current_cycle > self.today_date:
             current_cycle = cycle(sub=1)
 
-        logger.info("Current AIRAC Cycle is: {}", current_cycle)
+        # Format month with leading zero if necessary
+        month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
 
-        return str(current_cycle)
+        return f"{current_cycle.year}_{month_part}"
 
     def current_tag(self) -> str:
         """Returns the current tag for use with git"""
-        current_cycle = self.current_cycle()
-        # Split the current_cycle by '-' and return in format yyyy/mm
-        split_cc = str(current_cycle).split("-")
-        logger.debug(f"Current tag should be {split_cc[0]}/{split_cc[1]}")
-
-        return f"{split_cc[0]}/{split_cc[1]}"
+        current_cycle_count = self.initialise()
+        current_month = str(self.today_date.month).zfill(2)  # Add leading zero if necessary
+        current_tag = f"{self.today_date.year}/{current_month}"
+        return current_tag
 
 
 class CurrentInstallation:
@@ -131,7 +125,7 @@ class CurrentInstallation:
             "Accept-Encoding": "gzip, deflate",
             "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
             "Connection": "close"
-            }
+        }
         response = requests.get(zip_file, headers=headers, timeout=30)
         logger.debug(f"Response Status = {response.status_code}")
         if response.status_code == 200:
@@ -163,13 +157,13 @@ class CurrentInstallation:
             shutil.copy(
                 f"import/EGTT/{file}",
                 f"UK/Data/Datafiles/{file.split('/', maxsplit=1)[-1]}"
-                )
+            )
             if "ICAO_Airlines" in file:
                 # Copy the "ICAO_Airlines.txt" file into the vSMR folder
                 shutil.copy(
                     f"import/EGTT/{file}",
                     f"UK/Data/Plugin/vSMR/{file.split('/', maxsplit=1)[-1]}"
-                    )
+                )
             logger.success(f"Moved {file}")
 
         # Cleanup the import directory
@@ -258,10 +252,10 @@ class CurrentInstallation:
                     # Clean up old sector files
                     logger.debug(f"Sector file name{sector_fn}")
                     for e_type in ext:
-                        os.remove(
-                            (f"{self.ukcp_location}/Data/Sector/",
-                             f"{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"))
 
+                        path_to_remove = f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"
+                        os.remove(path_to_remove)
+                            
                     # Return the newly downloaded sector file
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])

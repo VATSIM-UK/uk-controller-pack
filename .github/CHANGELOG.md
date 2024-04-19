@@ -1,9 +1,52 @@
+# Changes from release 2024/03 to 2024/04
+1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
+2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
+3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
+4. Bug - Fix typo in voice.txt EGHC_ATIS  - thanks to @RedstonePilot (Ben Walker)
+5. Enhancement - Added wallop aliases - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Displayed all ATZs for AGCS/AFIS endorsed positions - thanks to @RedstonePilot (Ben Walker)
+7. Enhancement - Added ADC vAtis profiles - thanks to @RedstonePilot (Ben Walker)
+8. Bug - Fixed error in AC profiles settings paths - thanks to @hazzas-99
+9. Enhancement - Added R/T column to arrival lists - thanks to @hazzas-99
+
+# Changes from release 2024/01 to 2024/03
+1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement (TopSky) - Added additional scale markers (graticules) and Clacton radar monitored routes - thanks to @hazzas-99
+3. Enhancement - Added vACDM plugin - thanks to @luke11brown (Luke Brown)
+4. AIRAC (2402) - D597 removed, D514 added - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2403) - D305 activation schedule amended (by NOTAM only) - thanks to @luke11brown (Luke Brown)
+6. Bug - EGPA (Kirkwall) ATIS frequency fixed - thanks to @luke11brown (Luke Brown)
+7. Bug - Generic profiles missing file added  - thanks to @luke11brown (Luke Brown)
+8. Enhancement - Ground Status right click actions in lists amended - thanks to @luke11brown (Luke Brown)
+
+# Changes from release 2023/13 to 2024/01
+1. Bug - Corrected Denham (EGLD) Frequency - thanks to @AliceFord (Alice Ford)
+2. Bug - Corrected README \%appdata%\Roaming references - thanks to @Brett-Parker (Brett Parker)
+3. Procedure Change (2313) - Permanent Implementation of TC Midlands - thanks to @kye-taylor (Kye Taylor)
+4. Enhancement - Added pre-note column to startup list - thanks to @RedStonePilot (Ben Walker)
+5. Enhancement - Updated Heathrow profile and displays - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Use EuroScope 3.2.7 Settings - thanks to @AliceFord (Alice Ford)
+7. Enhancement - Plugin version bump - thanks to @AliceFord (Alice Ford)
+8. AIRAC (2402) - Added EGHC_ATIS frequency - thanks to @RedstonePilot (Ben Walker)
+
+# Changes from release 2023/11 to 2023/13
+1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
+2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
+3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford) 
+4. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2312) - Added D324A/B (RAF Waddington) danger areas - thanks to @luke11brown (Luke Brown)
+6. Procedure Change (2313) - Changed East Midlands Radar (EGNX_APP) frequency - thanks to @PLM1995 (Peter Mooney)
+
 # Changes from release 2023/10 to 2023/11
 1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
 2. Bug - VFPC now loads into profiles automatically - thanks to luke11brown (Luke Brown)
 3. AIRAC (2311) - Exeter (EGTE) SMAA heights amended - thanks to @luke11brown (Luke Brown)
 4. Bug - removed colons from ATIS lines preventing display - thanks to @luke11brown (Luke Brown)
 5. Procedure Change (2311) - 8.33 Transition (ENR Phase 3) - Updated voice settings for UK enroute event positions - thanks to @hazzas-99
+6. Bug (TopSky) - Fixed coordination indicator in TopSky tags (displays releases from External ACCs) - thanks to @luke11brown (Luke Brown)
+7. Procedure Change (2311) - 8.33 Transition (AD Phase 3) - Updated voice settings for all UK AD positions - thanks to @KHardern (Kieran Hardern)
+8. Bug - Fixed Aberdeen (EGPD) and Glasgow (EGPF) GND facility type - thanks to @RedStonePilot (Ben Walker)
+9. Bug - Added missing AGCS / AFISO Frequencies - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2023/09 to 2023/10
 1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
@@ -37,7 +80,7 @@
 29. Enhancement - Change NODE symbology to have dotted lines on high level CTAs - thanks to @SamLefevre (Samuel Lefevre)
 30. Enhancement - Added Harwarden RMA to Liverpool profile - thanks to @SamLefevre (Samuel Lefevre)
 31. Enhancement - Change LTC displays to new tickless centrelines and disables GD/GW/FF CTA - thanks to @SamLefevre (Samuel Lefevre)
-X. Bug - Fixed QNH formatting in London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
+32. Bug - Fixed QNH formatting in London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
 
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)

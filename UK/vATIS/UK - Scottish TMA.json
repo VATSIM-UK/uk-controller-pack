@@ -726,7 +726,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 26125,
+      "AtisFrequency": 26130,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1081,7 +1081,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 24575,
+      "AtisFrequency": 24580,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -1421,7 +1421,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 21125,
+      "AtisFrequency": 21130,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"

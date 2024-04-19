@@ -276,22 +276,40 @@ ARTCC low boundary:EGAE Londonderry/Eglinton ATZ:
 ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
 ARTCC low boundary:EGBB Birmingham CTA:
 ARTCC low boundary:EGBD Derby ATZ:
+ARTCC low boundary:EGBD Derby ATZ:
+ARTCC low boundary:EGBE Coventry ATZ:
+ARTCC low boundary:EGBF Bedford ATZ:
+ARTCC low boundary:EGBG Leicester ATZ:
 ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGBK Northampton/Sywell ATZ:
+ARTCC low boundary:EGBM Tatenhill ATZ:
+ARTCC low boundary:EGBN Nottingham ATZ:
+ARTCC low boundary:EGBO Wolverhampton / Halfpenny Green ATZ:
 ARTCC low boundary:EGBP Kemble ATZ:
 ARTCC low boundary:EGBS Shobdon ATZ:
+ARTCC low boundary:EGBW Wellesbourne ATZ:
 ARTCC low boundary:EGCB Manchester Barton ATZ:
 ARTCC low boundary:EGCC Manchester CTA:
 ARTCC low boundary:EGCF Sandtoft ATZ:
 ARTCC low boundary:EGCJ Sherburn in Elmet ATZ:
+ARTCC low boundary:EGCK Caernarfon ATZ:
+ARTCC low boundary:EGCL Fenland ATZ:
 ARTCC low boundary:EGCM Leeds East ATZ:
+ARTCC low boundary:EGCV Sleap ATZ:
+ARTCC low boundary:EGCW Welshpool ATZ:
 ARTCC low boundary:EGDI Merryfield MATZ:
 ARTCC low boundary:EGDM Boscombe Down MATZ:
 ARTCC low boundary:EGDN Netheravon ATZ:
 ARTCC low boundary:EGDO Predannack MATZ:
+ARTCC low boundary:EGDP Portland ATZ:
 ARTCC low boundary:EGDR Culdrose MATZ:
 ARTCC low boundary:EGDY Yeovilton MATZ:
+ARTCC low boundary:EGEC Campbeltown ATZ:
+ARTCC low boundary:EGEF Fair Isle ATZ:
 ARTCC low boundary:EGEO Oban ATZ:
 ARTCC low boundary:EGET Lerwick/Tingwall ATZ:
+ARTCC low boundary:EGEY Colonsay ATZ:
+ARTCC low boundary:EGFA West Wales/Aberporth ATZ:
 ARTCC low boundary:EGFE Haverfordwest ATZ:
 ARTCC low boundary:EGFF Cardiff CTA:
 ARTCC low boundary:EGFH Swansea ATZ:
@@ -308,16 +326,20 @@ ARTCC low boundary:EGHG Westland ATZ:
 ARTCC low boundary:EGHH Bournemouth CTR:
 ARTCC low boundary:EGHI Southampton CTR:
 ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHK Penzance ATZ:
 ARTCC low boundary:EGHN Sandown ATZ:
 ARTCC low boundary:EGHO Thruxton ATZ:
 ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGHT Tresco ATZ:
 ARTCC low boundary:EGKA Shoreham ATZ:
 ARTCC low boundary:EGKH Lashenden ATZ:
 ARTCC low boundary:EGKK Gatwick CTA:
 ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLA Bodmin ATZ:
 ARTCC low boundary:EGLC London City CTA:
 ARTCC low boundary:EGLD Denham LFA:
 ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLJ Chalgrove ATZ:
 ARTCC low boundary:EGLK Blackbushe ATZ:
 ARTCC low boundary:EGLL London Heathrow CTR:
 ARTCC low boundary:EGLM White Waltham LFA:
@@ -326,13 +348,16 @@ ARTCC low boundary:EGLW London Heliport LFA:
 ARTCC low boundary:EGMC Southend CTA:
 ARTCC low boundary:EGMD Lydd ATZ:
 ARTCC low boundary:EGNE Retford Gamston ATZ:
+ARTCC low boundary:EGNE Gamston ATZ:
 ARTCC low boundary:EGNF Netherthorpe ATZ:
 ARTCC low boundary:EGNJ Humberside ATZ:
+ARTCC low boundary:EGNL Walney ATZ:
 ARTCC low boundary:EGNM Leeds Bradford CTA:
 ARTCC low boundary:EGNO Warton MATZ:
 ARTCC low boundary:EGNS Isle of Man CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGNV Teesside CTA:
+ARTCC low boundary:EGNW Wickenby ATZ:
 ARTCC low boundary:EGNX East Midlands CTA:
 ARTCC low boundary:EGOE Ternhill MATZ:
 ARTCC low boundary:EGOQ Mona MATZ:
@@ -356,14 +381,19 @@ ARTCC low boundary:EGPT Perth ATZ:
 ARTCC low boundary:EGPU Tiree ATZ:
 ARTCC low boundary:EGQL Leuchars MATZ:
 ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSF Peterborough/Conington ATZ:
 ARTCC low boundary:EGSG Stapleford ATZ:
 ARTCC low boundary:EGSH Norwich CTA:
 ARTCC low boundary:EGSL Andrewsfield ATZ/LFA:
+ARTCC low boundary:EGSQ Clacton ATZ:
+ARTCC low boundary:EGSR Earls Colne ATZ:
 ARTCC low boundary:EGSS London Stansted CTA:
 ARTCC low boundary:EGSS Stansted LFA (Audley End):
 ARTCC low boundary:EGSS Stansted LFA (Hunsdon):
 ARTCC low boundary:EGSU Duxford ATZ:
+ARTCC low boundary:EGSV Old Buckenham ATZ:
 ARTCC low boundary:EGSY St Athan LFA:
+ARTCC low boundary:EGTB Wycombe Air Park/Booker ATZ:
 ARTCC low boundary:EGTF Fairoaks LFA:
 ARTCC low boundary:EGTH Old Warden ATZ:
 ARTCC low boundary:EGTK Oxford ATZ:

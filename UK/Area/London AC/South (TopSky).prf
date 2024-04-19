@@ -9,10 +9,14 @@ Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileFP	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileSTUP	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAXIOUT	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAKEOFF	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_TopSky.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_TopSky_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2023_10.sct
+Settings	sector	UK\Data\Sector\UK_2024_04.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\..\Data\ASR\AC_S\S1T.asr
@@ -33,6 +37,7 @@ Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin5	\..\..\Data\Plugin\VCH.dll
 RecentFiles	Recent1	\..\..\Data\ASR\AC_S\S2T.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_S\S1T.asr
 RecentFiles	Recent3	\..\..\Data\ASR\AC_S\S3T.asr
@@ -47,6 +52,7 @@ Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\..\Data\Datafiles\icao.txt
 Settings	airways	\..\..\Data\Datafiles\airway.txt
+Settings	performance	\..\..\Data\Datafiles\Performance.txt
 LastSession	server	AUTOMATIC
 LastSession	atis_url0	http://uniatis.net/atis.php?arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&apptype=ILS&info=$atiscodeA&metar=$metar($atisairportA)
 LastSession	atis_url1	http://uniatis.net/atis.php?arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&apptype=ILS&info=$atiscodeB&metar=$metar($atisairportB)

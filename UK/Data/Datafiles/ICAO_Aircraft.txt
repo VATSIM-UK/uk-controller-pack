@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2310/1  ++  Valid period: 05/OCT/2023 - 01/NOV/2023  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2404/1  ++  Valid period: 18/APR/2024 - 15/MAY/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -390,8 +390,8 @@ BBAT	LL1P	BRADLEY	BA100 Aerobat
 BBIR	LL1P	HOVEY	Beta Bird
 BCA3	LL1P	BUHL	CA-3 Sport Airsedan
 BCAT	LL1P	GRUMMAN	F8F Bearcat (G58)
-BCS1	ML2J	BOMBARDIER	BD-500 CSeries CS100
-BCS3	ML2J	BOMBARDIER	BD-500 CSeries CS300
+BCS1	ML2J	AIRBUS	A-220-100, BD-500 CSeries CS100
+BCS3	ML2J	AIRBUS	A-220-300, BD-500 CSeries CS300
 BD10	LL1J	BEDE	BD10
 BD12	LL1P	BEDE	BD12
 BD17	LL1P	BEDE	BD17 Nuggett
@@ -403,8 +403,7 @@ BDOG	LL1P	BEAGLE	B125 Bulldog
 BE10	LL2T	HAWKER BEECHCRAFT CORP	100 King Air (U21F Ute)
 BE12	MA2T	BERIEV	Be12/14 Tchaika
 BE17	LL1P	HAWKER BEECHCRAFT CORP	17 Staggerwing (UC43 Traveler)
-BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB,
-JRB, Expeditor, Navigator)
+BE18	LL2P	HAWKER BEECHCRAFT CORP	18 (piston) (C45, RC45, TC45, UC45, AT7, AT11 Kansan, SNB, JRB, Expeditor, Navigator)
 BE19	LL1P	HAWKER BEECHCRAFT CORP	19 Musketeer Sport, Sport
 BE20	LL2T	HAWKER BEECHCRAFT CORP	200, 1300 Super King Air, Commuter (C12A to F, C12L/R, UC12, RC12, Tp101, Huron)
 BE22	LL1T	TEXTRON	220 Denali
@@ -1179,6 +1178,7 @@ GA6C	ML2J	GULFSTREAM AEROSPACE	G-7 Gulfstream G600
 GA7	LL2P	GRUMMAN AMERICAN	GA7 Cougar
 GA7C	ML2J	GULFSTREAM AEROSPACE	Gulfstream G700
 GA8	LL1P	GIPPSLAND	GA8 Airvan
+GA8C	ML2J	GULFSTREAM AEROSPACE	G-8 Gulfstream G800
 GABR	LL1P	BLACKSHAPE	Bk-160 Gabriel, BS-115 Gabriel
 GALX	ML2J	IAI	1126 Galaxy, Gulfstream 200
 GANT	MLCT	FAIREY	Gannet
@@ -1892,7 +1892,7 @@ P337	LL2P	CESSNA	T337G, P337 Pressurised Skymaster
 P38	ML2P	LOCKHEED	P38, F5 Lightning (L222/322/422)
 P39	LL1P	BELL	P39 Airacobra
 P40	LL1P	CURTISS	P40, TP40 Warhawk, Kittyhawk
-P46T	LL1T	JETPROP	DLX
+P46T	LL1T	PIPER	PA-46-500TP Malibu Meridian, Meridian M500
 P47	ML1P	REPUBLIC	P47, F47 Thunderbolt
 P4Y	ML4P	CONVAIR	PB4Y, P4Y Privateer
 P50	LL1P	POTTIER	P50 Bouvreuil

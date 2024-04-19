@@ -1,4 +1,4 @@
-Settings	sector	UK\Data\Sector\UK_2023_10.sct
+Settings	sector	UK\Data\Sector\UK_2024_04.sct
 LastSession	server	AUTOMATIC
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Channel Islands\CI Radar.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
@@ -31,11 +31,13 @@ Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\vParkAir.dll
 Plugins	Plugin3Display0	Park Air Radar
 Plugins	Plugin4	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin5	\..\Data\Plugin\VCH.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
 Settings	airportcoords	\..\Data\Datafiles\icao.txt
 Settings	airways	\..\Data\Datafiles\airway.txt
+Settings	performance	\..\Data\Datafiles\Performance.txt
 ASRFastKeys	1	\..\Data\ASR\Channel Islands\Jersey Control.asr
 ASRFastKeys	2	\..\Data\ASR\Channel Islands\Jersey SMR.asr
 ASRFastKeys	3	\..\Data\ASR\Channel Islands\Guernsey SMR.asr
@@ -48,6 +50,5 @@ LastSession	atis_freq0	134675
 LastSession	atis_callsign0	EGJJ_ATIS
 LastSession	atis_callsign1	EGJB_ATIS
 LastSession	atis_freq1	118900
-
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
