@@ -8,6 +8,7 @@
 7. Enhancement - Added ADC vAtis profiles - thanks to @RedstonePilot (Ben Walker)
 8. Bug - Fixed error in AC profiles settings paths - thanks to @hazzas-99
 9. Enhancement - Added R/T column to arrival lists - thanks to @hazzas-99
+10. Enhancement - Added iTEC profiles for Scottish AC - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/01 to 2024/03
 1. Bug - Fix Edinburgh extended centreline - thanks to @SamLefevre (Samuel Lefevre)
