@@ -37,7 +37,7 @@ m_VFRSquawk:7000
 m_WhoIsOnlineURL:http://vatsim.metacraft.com/satnet-data.txt
 m_AutoLoadMetarForActiveAirports:1
 m_LockShowRouteWhenAccepting:0
-m_VoiceAtisBuilderUrl:https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)&info=$atiscode
+m_VoiceAtisBuilderUrl:https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&metar=$metar($atisairport)
 m_DoNotUseAcceptedColor:0
 m_DoNotUseRefusedColor:0
 SET_TransparentAcListBackground:1
