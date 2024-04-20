@@ -1,4 +1,7 @@
 # Changes from release 2024/03 to 2024/04
+X. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
+
+# Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
 2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
 3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
