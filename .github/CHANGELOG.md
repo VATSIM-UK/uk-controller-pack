@@ -1,3 +1,6 @@
+# Changes from release 2024/04 to 2024/05
+X. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
+
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
 2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
