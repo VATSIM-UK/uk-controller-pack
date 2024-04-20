@@ -2,7 +2,7 @@ Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Belfast\Belfast_City_Plugin
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Belfast\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice_Scottish.txt
-Settings	Settingsfile	\..\Data\Settings\TC_APP\General_SMR.txt
+Settings	Settingsfile	\..\Data\Settings\General_SMR.txt
 Settings	SettingsfileARR	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileFP	\..\Data\Settings\Lists_SMR.txt

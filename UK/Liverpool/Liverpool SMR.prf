@@ -2,7 +2,7 @@ Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Liverpool\Plugins.txt
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Liverpool\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
-Settings	Settingsfile	\..\Data\Settings\TC_APP\General_SMR.txt
+Settings	Settingsfile	\..\Data\Settings\General_SMR.txt
 Settings	SettingsfileARR	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileDEP	\..\Data\Settings\Lists_SMR.txt
