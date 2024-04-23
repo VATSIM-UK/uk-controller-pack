@@ -1,5 +1,7 @@
 # Changes from release 2024/04 to 2024/05
-X. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
+1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
+2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
+3. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
