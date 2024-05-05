@@ -2,7 +2,10 @@
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
 3. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
-4. AIRAC (2404) - Updated military frequencies (EGOQ, EGOV, EGQL) - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fixes in PC vATIS profile - thanks to @robbo599 (Lee Roberts)
+5. Bug - Fixed vATIS Manchester (EGCC) ATIS frequency and Jersey (EGJJ) TOWER frequency - thanks to @RedstonePilot (Ben Walker) 
+6. Enhancement - Merged Hawarden (EGNR) into Liverpool (EGGP) and Updated Gatwick (EGKK) ARPT_COND - thanks to @RedstonePilot (Ben Walker) 
+7. AIRAC (2404) - Updated military frequencies (EGOQ, EGOV, EGQL) - thanks to @kristiankunc (Kristián Kunc)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
