@@ -48,7 +48,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 05. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -91,7 +90,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -359,7 +357,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Edinburgh",
       "Identifier": "EGPH",
@@ -407,7 +404,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -450,7 +446,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -765,8 +760,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 35. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
-
       ],
       "Contractions": [
         {
@@ -809,7 +802,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1027,34 +1019,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 940,
-              "High": 958,
-              "Altitude": 80
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 65
+              "low": 995,
+              "high": 1013,
+              "altitude": 75
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 60
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 55
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1072,7 +1069,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Belfast City",
       "Identifier": "EGAC",
@@ -1106,7 +1102,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 04. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1149,7 +1144,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1367,34 +1361,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 940,
-              "High": 958,
-              "Altitude": 85
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 80
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 75
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1013,
-              "Altitude": 70
+              "low": 995,
+              "high": 1013,
+              "altitude": 75
             },
             {
-              "Low": 1014,
-              "High": 1031,
-              "Altitude": 65
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 60
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1412,7 +1411,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Prestwick",
       "Identifier": "EGPK",
@@ -1488,7 +1486,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO THREE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1531,7 +1528,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
