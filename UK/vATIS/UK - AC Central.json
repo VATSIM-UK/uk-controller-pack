@@ -2126,6 +2126,11 @@
               "low": 959,
               "high": 976,
               "altitude": 85
+            },
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             }
           ],
           "template": {
