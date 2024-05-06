@@ -237,7 +237,7 @@
         },
         {
           "Ordinal": 10,
-          "Text": "REPORT IF TWY L IS USEABLE BETWEEN TWY QA AND TWY P ON FIRST CONTACT.",
+          "Text": "REPORT IF TWY L IS NOT USEABLE BETWEEN TWY QA AND TWY P ON FIRST CONTACT.",
           "Enabled": false
         },
         {
