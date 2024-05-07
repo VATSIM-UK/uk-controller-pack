@@ -44,7 +44,6 @@
           "ArbitraryText": null,
           "Template": "NEWQUAY AIRPORT INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 12 IN USE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]."
         }
-
       ],
       "Contractions": [
         {
@@ -91,7 +90,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -426,7 +424,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 12 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -473,7 +470,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -784,7 +780,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 08 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -831,7 +826,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1142,7 +1136,6 @@
           "ArbitraryText": null,
           "Template": "JERSEY INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 08 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1189,7 +1182,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1412,34 +1404,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 940,
-              "High": 958,
-              "Altitude": 80
+              "low": 940,
+              "high": 958,
+              "altitude": 80
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 70
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 65
+              "low": 995,
+              "high": 1013,
+              "altitude": 65
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 60
+              "low": 1014,
+              "high": 1031,
+              "altitude": 60
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 55
+              "low": 1032,
+              "high": 1049,
+              "altitude": 55
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
             }
           ],
           "template": {
@@ -1500,7 +1497,6 @@
           "ArbitraryText": null,
           "Template": "GUERNSEY INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1547,7 +1543,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1770,34 +1765,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 940,
-              "High": 958,
-              "Altitude": 80
+              "low": 940,
+              "high": 958,
+              "altitude": 80
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 70
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 65
+              "low": 995,
+              "high": 1013,
+              "altitude": 65
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 60
+              "low": 1014,
+              "high": 1031,
+              "altitude": 60
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 55
+              "low": 1032,
+              "high": 1049,
+              "altitude": 55
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
             }
           ],
           "template": {
@@ -1930,7 +1930,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS GLOSTER INFORMATION [ATIS_CODE] TIME [OBS_TIME]. RUNWAY 04 IN USE. LEFT HAND CIRCUIT. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ON FIRST CONTACT READ BACK ALTIMETER SETTING IN USE. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]"
         }
-
       ],
       "Contractions": [
         {
@@ -1977,7 +1976,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2245,7 +2243,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Bristol",
       "Identifier": "EGGD",
@@ -2313,8 +2310,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
-
       ],
       "Contractions": [
         {
@@ -2361,7 +2356,6 @@
           "string": "26L/08R",
           "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2629,10 +2623,5 @@
       },
       "NotamsBeforeFreeText": false
     }
-
-
-
-
-
   ]
 }
