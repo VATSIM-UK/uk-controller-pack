@@ -92,7 +92,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. DEPARTURE RUNWAY 05L. ARRIVAL RUNWAY 05R [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -135,7 +134,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -458,7 +456,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 07 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -501,7 +498,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -836,7 +832,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -879,7 +874,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1147,7 +1141,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Ronaldsway",
       "Identifier": "EGNS",
@@ -1215,7 +1208,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 08 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1262,7 +1254,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1530,7 +1521,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Hawarden",
       "Identifier": "EGNR",
@@ -1598,7 +1588,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 04 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1645,7 +1634,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1913,7 +1901,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Warton",
       "Identifier": "EGNO",
@@ -1981,7 +1968,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 07 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -2028,7 +2014,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2291,7 +2276,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Blackpool",
       "Identifier": "EGNH",
@@ -2359,7 +2343,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 10 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -2406,7 +2389,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2669,7 +2651,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Leeds Bradford",
       "Identifier": "EGNM",
@@ -2725,7 +2706,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 14 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -2772,7 +2752,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -3040,7 +3019,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Humberside",
       "Identifier": "EGNJ",
@@ -3096,7 +3074,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 02 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -3143,7 +3120,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -3366,34 +3342,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 20
+              "low": 940,
+              "high": 958,
+              "altitude": 60
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 25
+              "low": 959,
+              "high": 976,
+              "altitude": 55
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 30
+              "low": 977,
+              "high": 994,
+              "altitude": 50
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 35
+              "low": 995,
+              "high": 1013,
+              "altitude": 45
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 40
+              "low": 1014,
+              "high": 1031,
+              "altitude": 40
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 45
+              "low": 1032,
+              "high": 1049,
+              "altitude": 35
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 30
             }
           ],
           "template": {
@@ -3411,7 +3392,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Teeside",
       "Identifier": "EGNV",
@@ -3467,7 +3447,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 05 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -3514,7 +3493,6 @@
           "String": "21/03",
           "Spoken": "TWO-ONE-ZERO-THREE"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -3782,6 +3760,5 @@
       },
       "NotamsBeforeFreeText": false
     }
-
   ]
 }
