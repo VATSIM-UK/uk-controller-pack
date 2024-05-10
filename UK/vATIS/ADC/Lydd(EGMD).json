@@ -119,24 +119,9 @@
                 "transitionLevel": {
                     "values": [
                         {
-                            "low": 1032,
-                            "high": 1049,
-                            "altitude": 65
-                        },
-                        {
-                            "low": 1014,
-                            "high": 1031,
-                            "altitude": 70
-                        },
-                        {
-                            "low": 995,
-                            "high": 1013,
-                            "altitude": 75
-                        },
-                        {
-                            "low": 977,
-                            "high": 994,
-                            "altitude": 80
+                            "low": 940,
+                            "high": 958,
+                            "altitude": 90
                         },
                         {
                             "low": 959,
@@ -144,9 +129,29 @@
                             "altitude": 85
                         },
                         {
-                            "low": 940,
-                            "high": 958,
-                            "altitude": 90
+                            "low": 977,
+                            "high": 994,
+                            "altitude": 80
+                        },
+                        {
+                            "low": 995,
+                            "high": 1013,
+                            "altitude": 75
+                        },
+                        {
+                            "low": 1014,
+                            "high": 1031,
+                            "altitude": 70
+                        },
+                        {
+                            "low": 1032,
+                            "high": 1049,
+                            "altitude": 65
+                        },
+                        {
+                            "low": 1050,
+                            "high": 1060,
+                            "altitude": 60
                         }
                     ],
                     "template": {
