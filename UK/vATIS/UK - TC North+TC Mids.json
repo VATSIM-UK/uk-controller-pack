@@ -56,7 +56,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 04 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -99,7 +98,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -327,34 +325,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -372,7 +375,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Luton",
       "Identifier": "EGGW",
@@ -428,7 +430,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 07 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -471,7 +472,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -694,34 +694,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -739,7 +744,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Birmingham",
       "Identifier": "EGBB",
@@ -813,7 +817,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1036,34 +1039,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1081,7 +1089,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "East Midlands",
       "Identifier": "EGNX",
@@ -1125,7 +1132,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1168,7 +1174,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1391,34 +1396,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1436,7 +1446,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Oxford",
       "Identifier": "EGTK",
@@ -1468,7 +1477,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 01 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1511,7 +1519,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1779,7 +1786,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Cambridge",
       "Identifier": "EGSC",
@@ -1835,7 +1841,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 05 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -1878,7 +1883,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2101,34 +2105,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -2146,7 +2155,6 @@
       },
       "NotamsBeforeFreeText": false
     },
-
     {
       "Name": "Cranfield",
       "Identifier": "EGTC",
@@ -2190,7 +2198,6 @@
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 03 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
-
       ],
       "Contractions": [
         {
@@ -2233,7 +2240,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
