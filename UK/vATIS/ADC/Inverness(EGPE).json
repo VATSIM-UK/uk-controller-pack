@@ -128,34 +128,39 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1035,
-              "high": 1052,
-              "altitude": 50
-            },
-            {
-              "low": 1017,
-              "high": 1034,
-              "altitude": 55
-            },
-            {
-              "low": 999,
-              "high": 1016,
+              "low": 940,
+              "high": 958,
               "altitude": 60
             },
             {
-              "low": 998,
-              "high": 981,
-              "altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 55
             },
             {
-              "low": 963,
-              "high": 980,
-              "altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 50
             },
             {
-              "low": 946,
-              "high": 962,
-              "altitude": 75
+              "low": 995,
+              "high": 1013,
+              "altitude": 45
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 40
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 35
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 30
             }
           ],
           "template": {
