@@ -20,395 +20,391 @@
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": false,
       "Presets": [
-          {
-            "Name": "RUNWAY 26L (LTC_S_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
-            "Notams": "ILS APPROACH TO BE EXPECTED.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY 08R (LTC_S_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
-            "Notams": "ILS APPROACH TO BE EXPECTED.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY !26R! (LTC_S_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
-            "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY !08L! (LTC_S_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
-            "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY 26L (LTC_SW_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
-            "Notams": "ILS APPROACH TO BE EXPECTED.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY 08R (LTC_SW_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
-            "Notams": "ILS APPROACH TO BE EXPECTED.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY !26R! (LTC_SW_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
-            "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-          },
-          {
-            "Name": "RUNWAY !08L! (LTC_SW_CTR)",
-            "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
-            "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
-            "ArbitraryText": null,
-            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        {
+          "Name": "RUNWAY 26L (LTC_S_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
+          "Notams": "ILS APPROACH TO BE EXPECTED.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 08R (LTC_S_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
+          "Notams": "ILS APPROACH TO BE EXPECTED.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY !26R! (LTC_S_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
+          "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY !08L! (LTC_S_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
+          "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 26L (LTC_SW_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
+          "Notams": "ILS APPROACH TO BE EXPECTED.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY 08R (LTC_SW_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
+          "Notams": "ILS APPROACH TO BE EXPECTED.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY !26R! (LTC_SW_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
+          "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 26R IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "RUNWAY !08L! (LTC_SW_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 133.175",
+          "Notams": "RNP APPROACH TO BE EXPECTED. RUNWAY 26L/08R CLOSED DUE WIP.",
+          "ArbitraryText": null,
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 08L IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "Contractions": [
+        {
+          "String": "HPA",
+          "Spoken": "HECTO-PASKALS"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "CAVOK",
+          "Spoken": "CAV-OH-KAY"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE-ENN-PEE"
+        },
+        {
+          "String": "WIP",
+          "Spoken": "WORK-IN-PROGRESS"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYE-ELL-ESS"
+        },
+        {
+          "String": "ATC",
+          "Spoken": "AY-TEE-SEE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DATA-LINK"
+        },
+        {
+          "string": "CPT",
+          "spoken": "COMPTON"
+        },
+        {
+          "string": "SRO",
+          "spoken": "SINGLE RUNWAY OPERATIONS"
+        },
+        {
+          "string": "26L/08R",
+          "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Enabled": true
+        },
+        {
+          "ordinal": 5,
+          "text": ".PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
+          "enabled": false
+        },
+        {
+          "ordinal": 6,
+          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "enabled": false
+        }
+      ],
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
           }
-        ],
-        "Contractions":
-        [
-          {
-            "String": "HPA",
-            "Spoken": "HECTO-PASKALS"
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
           },
-          {
-            "String": "RNAV",
-            "Spoken": "ARE-NAV"
-          },
-          {
-            "String": "CAVOK",
-            "Spoken": "CAV-OH-KAY"
-          },
-          {
-            "String": "RNP",
-            "Spoken": "ARE-ENN-PEE"
-          },
-          {
-            "String": "WIP",
-            "Spoken": "WORK-IN-PROGRESS"
-          },
-          {
-            "String": "ILS",
-            "Spoken": "EYE-ELL-ESS"
-          },
-          {
-            "String": "ATC",
-            "Spoken": "AY-TEE-SEE"
-          },
-          {
-            "String": "DATALINK",
-            "Spoken": "DATA-LINK"
-          },
-          {
-            "string": "CPT",
-            "spoken": "COMPTON"
-          },
-          {
-            "string": "SRO",
-            "spoken": "SINGLE RUNWAY OPERATIONS"
-          },
-          {
-            "string": "26L/08R",
-            "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
-          }
-
-        ],
-        "AirportConditionDefinitions": [],
-        "AirportConditionsBeforeFreeText": false,
-        "NotamDefinitions":
-        [
-          {
-            "Ordinal": 1,
-            "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 2,
-            "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 3,
-            "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
-            "Enabled": false
-          },
-          {
-            "Ordinal": 4,
-            "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
-            "Enabled": true
-          },
-          {
-            "ordinal": 5,
-            "text": ".PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
-            "enabled": false
-          },
-          {
-            "ordinal": 6,
-            "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
-            "enabled": false
-          }
-        ],
-        "atisFormat": {
-          "observationTime": {
+          "standard": {
             "template": {
-              "text": "{time}Z",
-              "voice": "{time} ZULU {special}"
+              "text": "{wind_dir}/{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
-          "surfaceWind": {
-            "speakLeadingZero": false,
-            "magneticVariation": {
-              "enabled": false,
-              "magneticDegrees": 0
-            },
-            "standard": {
-              "template": {
-                "text": "{wind_dir}/{wind_spd}KT",
-                "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} KNOTS"
-              }
-            },
-            "standardGust": {
-              "template": {
-                "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
-                "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} GUSTING {wind_gust} KNOTS"
-              }
-            },
-            "variable": {
-              "template": {
-                "text": "VRB{wind_spd}KT",
-                "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
-              }
-            },
-            "variableGust": {
-              "template": {
-                "text": "VRB{wind_spd}G{wind_gust}KT",
-                "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
-              }
-            },
-            "variableDirection": {
-              "template": {
-                "text": "{wind_vmin}V{wind_vmax}",
-                "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
-              }
-            },
-            "calm": {
-              "calmWindSpeed": 3,
-              "template": {
-                "text": "{wind}",
-                "voice": "SURFACE WIND CALM"
-              }
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}/{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
-          "visibility": {
-            "north": "to the north",
-            "northEast": "to the north-east",
-            "east": "to the east",
-            "southEast": "to the south-east",
-            "south": "to the south",
-            "southWest": "to the south-west",
-            "west": "to the west",
-            "northWest": "to the north-west",
-            "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-            "unlimitedVisibilityText": "VIS 10KM",
-            "includeVisibilitySuffix": true,
-            "metersCutoff": 9000,
+          "variable": {
             "template": {
-              "text": "{visibility}",
-              "voice": "VISIBILITY {visibility}"
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
             }
           },
-          "presentWeather": {
-            "lightIntensity": "light",
-            "moderateIntensity": "",
-            "heavyIntensity": "heavy",
-            "vicinity": "in vicinity",
-            "weatherTypes": {
-              "DZ": "drizzle",
-              "RA": "rain",
-              "SN": "snow",
-              "SG": "snow grains",
-              "IC": "ice crystals",
-              "PL": "ice pellets",
-              "GR": "hail",
-              "GS": "small hail",
-              "UP": "unknown precipitation",
-              "BR": "mist",
-              "FG": "fog",
-              "FU": "smoke",
-              "VA": "volcanic ash",
-              "DU": "widespread dust",
-              "SA": "sand",
-              "HZ": "haze",
-              "PY": "spray",
-              "PO": "well developed dust, sand whirls",
-              "SQ": "squalls",
-              "FC": "funnel cloud tornado waterspout",
-              "SS": "sandstorm",
-              "DS": "dust storm"
-            },
-            "weatherDescriptors": {
-              "PR": "partial",
-              "BC": "patches",
-              "MI": "shallow",
-              "DR": "low drifting",
-              "BL": "blowing",
-              "SH": "showers",
-              "TS": "thunderstorm",
-              "FZ": "freezing"
-            },
+          "variableGust": {
             "template": {
-              "text": "{weather}",
-              "voice": "{weather}"
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
-          "clouds": {
-            "identifyCeilingLayer": false,
-            "convertToMetric": false,
-            "undeterminedLayerAltitude": {
-              "text": "undetermined",
-              "voice": "undetermined"
-            },
-            "types": {
-              "FEW": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "FEW{altitude}",
-                "voice": "Clouds few at {altitude} feet"
-              },
-              "SCT": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "SCT{altitude}{convective}",
-                "voice": "Clouds scattered {convective} at {altitude} feet"
-              },
-              "BKN": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "BKN{altitude}{convective}",
-                "voice": "Clouds broken {convective} at {altitude} feet"
-              },
-              "OVC": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "OVC{altitude}{convective}",
-                "voice": "Clouds overcast {convective} at {altitude} feet"
-              },
-              "VV": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "VV{altitude}",
-                "voice": "indefinite ceiling {altitude}"
-              },
-              "NSC": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "NSC",
-                "voice": "no significant clouds"
-              },
-              "NCD": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "NCD",
-                "voice": "no clouds detected"
-              },
-              "CLR": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "CLR",
-                "voice": "sky clear"
-              },
-              "SKC": {
-                "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
-                "text": "SKC",
-                "voice": "sky clear"
-              }
-            },
-            "convectiveTypes": {
-              "CB": "cumulonimbus",
-              "TCU": "towering cumulus"
-            },
+          "variableDirection": {
             "template": {
-              "text": "{clouds}",
-              "voice": "{clouds}"
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
             }
           },
-          "temperature": {
-            "usePlusPrefix": false,
-            "pronounceLeadingZero": false,
+          "calm": {
+            "calmWindSpeed": 3,
             "template": {
-              "text": "{temp}",
-              "voice": "TEMPERATURE {temp}"
-            }
-          },
-          "dewpoint": {
-            "usePlusPrefix": false,
-            "pronounceLeadingZero": false,
-            "template": {
-              "text": "{dewpoint}",
-              "voice": "DEWPOINT {dewpoint}"
-            }
-          },
-          "altimeter": {
-            "pronounceDecimal": false,
-            "template": {
-              "text": "QNH {altimeter}",
-              "voice": "QNH {altimeter}"
-            }
-          },
-          "transitionLevel": {
-            "values": [
-              {
-                "low": 1050,
-                "high": 1060,
-                "altitude": 60
-              },
-              {
-                "low": 1032,
-                "high": 1049,
-                "altitude": 65
-              },
-              {
-                "low": 1013,
-                "high": 1031,
-                "altitude": 70
-              },
-              {
-                "low": 995,
-                "high": 1012,
-                "altitude": 75
-              },
-              {
-                "low": 977,
-                "high": 994,
-                "altitude": 80
-              },
-              {
-                "low": 959,
-                "high": 976,
-                "altitude": 85
-              }
-            ],
-            "template": {
-              "text": "TRANSITION LEVEL {trl}",
-              "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
-            }
-          },
-          "closingStatement": {
-            "autoIncludeClosingStatement": false,
-            "template": {
-              "text": "...ADVS YOU HAVE INFO {letter}",
-              "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
             }
           }
         },
-        "NotamsBeforeFreeText":false,
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 9000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "weatherTypes": {
+            "DZ": "drizzle",
+            "RA": "rain",
+            "SN": "snow",
+            "SG": "snow grains",
+            "IC": "ice crystals",
+            "PL": "ice pellets",
+            "GR": "hail",
+            "GS": "small hail",
+            "UP": "unknown precipitation",
+            "BR": "mist",
+            "FG": "fog",
+            "FU": "smoke",
+            "VA": "volcanic ash",
+            "DU": "widespread dust",
+            "SA": "sand",
+            "HZ": "haze",
+            "PY": "spray",
+            "PO": "well developed dust, sand whirls",
+            "SQ": "squalls",
+            "FC": "funnel cloud tornado waterspout",
+            "SS": "sandstorm",
+            "DS": "dust storm"
+          },
+          "weatherDescriptors": {
+            "PR": "partial",
+            "BC": "patches",
+            "MI": "shallow",
+            "DR": "low drifting",
+            "BL": "blowing",
+            "SH": "showers",
+            "TS": "thunderstorm",
+            "FZ": "freezing"
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": false,
+          "convertToMetric": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "FEW{altitude}",
+              "voice": "Clouds few at {altitude} feet"
+            },
+            "SCT": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SCT{altitude}{convective}",
+              "voice": "Clouds scattered {convective} at {altitude} feet"
+            },
+            "BKN": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "BKN{altitude}{convective}",
+              "voice": "Clouds broken {convective} at {altitude} feet"
+            },
+            "OVC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "OVC{altitude}{convective}",
+              "voice": "Clouds overcast {convective} at {altitude} feet"
+            },
+            "VV": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "CLR",
+              "voice": "sky clear"
+            },
+            "SKC": {
+              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "pronounceLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            }
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "NotamsBeforeFreeText": false,
     },
     {
-
       "Name": "Heathrow",
       "Identifier": "EGLL",
       "AtisType": 0,
@@ -928,7 +924,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1281,7 +1276,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1629,7 +1623,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -1977,7 +1970,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2200,24 +2192,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -2225,9 +2207,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -2330,7 +2327,6 @@
           "string": "SRO",
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
-
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
@@ -2598,6 +2594,5 @@
       },
       "NotamsBeforeFreeText": false
     }
-
   ]
 }
