@@ -1066,24 +1066,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -1091,9 +1081,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -2071,24 +2076,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -2096,9 +2091,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -2756,24 +2766,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -2781,9 +2781,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
