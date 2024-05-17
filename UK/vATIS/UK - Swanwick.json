@@ -124,34 +124,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 30
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 30
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 35
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 40
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 45
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 50
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -285,34 +290,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 65
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 70
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 75
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 80
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 85
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 90
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -474,34 +484,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 30
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 30
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 35
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 40
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 45
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 50
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -663,34 +678,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 30
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 30
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 35
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 40
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 45
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 50
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -852,34 +872,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 30
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 30
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 35
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 40
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 45
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 50
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -1041,34 +1066,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 30
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 30
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 35
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 40
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 45
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 50
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
@@ -1202,34 +1232,39 @@
       "NotamsBeforeFreeText": false,
       "TransitionLevels": [
         {
-          "Low": 1032,
-          "High": 1049,
-          "Altitude": 65
+          "low": 940,
+          "high": 958,
+          "altitude": 60
         },
         {
-          "Low": 1013,
-          "High": 1031,
-          "Altitude": 70
+          "low": 959,
+          "high": 976,
+          "altitude": 55
         },
         {
-          "Low": 995,
-          "High": 1012,
-          "Altitude": 75
+          "low": 977,
+          "high": 994,
+          "altitude": 50
         },
         {
-          "Low": 977,
-          "High": 994,
-          "Altitude": 80
+          "low": 995,
+          "high": 1013,
+          "altitude": 45
         },
         {
-          "Low": 959,
-          "High": 976,
-          "Altitude": 85
+          "low": 1014,
+          "high": 1031,
+          "altitude": 40
         },
         {
-          "Low": 940,
-          "High": 958,
-          "Altitude": 90
+          "low": 1032,
+          "high": 1049,
+          "altitude": 35
+        },
+        {
+          "low": 1050,
+          "high": 1060,
+          "altitude": 30
         }
       ],
       "UseFaaFormat": false,
