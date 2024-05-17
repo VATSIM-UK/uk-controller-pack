@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2404/1  ++  Valid period: 18/APR/2024 - 15/MAY/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2405/1  ++  Valid period: 16/MAY/2024 - 12/JUN/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 AAB	ABELAG AVIATION	ABELAG	BELGIUM
 AAC	ARMY AIR CORPS	ARMYAIR	UNITED KINGDOM
