@@ -43,4 +43,4 @@ jobs:
           branch: sf_${{ env.airac }}
           title: ${{ env.airac }} Sector File Update
           body: This pull request was automatically generated to update the sector file to AIRAC ${{ env.airac }}.
-          reviewers: chssn
+          reviewers: luke11brown
