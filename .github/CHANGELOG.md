@@ -7,6 +7,7 @@
 6. Enhancement - Merged Hawarden (EGNR) into Liverpool (EGGP) and Updated Gatwick (EGKK) ARPT_COND - thanks to @RedstonePilot (Ben Walker) 
 7. AIRAC (2404) - Updated military frequencies (EGOQ, EGOV, EGQL) - thanks to @kristiankunc (Kristián Kunc)
 8. AIRAC (2405) - Added D218 complex (Fairford) to TopSky danger areas - thanks to @luke11brown (Luke Brown)
+9. Bug - Fixed vATIS transition levels - thanks to @lewishh
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
