@@ -1,5 +1,5 @@
-DisplayTypeName:SMR radar display
-DisplayTypeNeedRadarContent:0
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
@@ -269,13 +269,13 @@ Fixes:XIDIL:symbol
 Geo:Coastline (Medium Detail) GB Main Coastline:
 SHOWC:0
 SHOWSB:0
-BELOW:0
-ABOVE:0
+BELOW:65000
+ABOVE:66000
 LEADER:5
 SHOWLEADER:1
 TURNLEADER:0
 HISTORY_DOTS:5
-SIMULATION_MODE:4
+SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
