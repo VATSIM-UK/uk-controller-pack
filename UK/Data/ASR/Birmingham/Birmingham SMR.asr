@@ -2963,7 +2963,7 @@ PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:925
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -2994,11 +2994,11 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:925
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR:Airport:EGBB
 PLUGIN:vSMR:GndTrailsDots:0
 PLUGIN:vSMR:SRW1BottomRightX:1920
-PLUGIN:vSMR:SRW1BottomRightY:925
+PLUGIN:vSMR:SRW1BottomRightY:928
 PLUGIN:vSMR:SRW1Display:1
 PLUGIN:vSMR:SRW1Filter:5500
 PLUGIN:vSMR:SRW1OffsetX:0
