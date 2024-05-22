@@ -2810,7 +2810,7 @@ PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
-PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
 PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
