@@ -1455,18 +1455,18 @@
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
-          "Name": "RUNWAY 21 (STC_CTR)",
+          "Name": "RUNWAY 20 (STC_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 21. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 20. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
-          "Name": "RUNWAY 03 (STC_CTR)",
+          "Name": "RUNWAY 02 (STC_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO THREE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO TWO. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "RUNWAY 30 (STC_W_CTR)",
@@ -1483,18 +1483,18 @@
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
-          "Name": "RUNWAY 21 (STC_W_CTR)",
+          "Name": "RUNWAY 20 (STC_W_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 21. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 20. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
-          "Name": "RUNWAY 03 (STC_W_CTR)",
+          "Name": "RUNWAY 02 (STC_W_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO THREE. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO TWO. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "Contractions": [
@@ -1755,34 +1755,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 940,
-              "High": 958,
-              "Altitude": 80
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 65
+              "low": 995,
+              "high": 1013,
+              "altitude": 75
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 60
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 55
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {

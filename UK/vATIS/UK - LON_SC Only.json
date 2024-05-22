@@ -441,7 +441,7 @@
           "Notams": ".SINGLE RUNWAY OPERATIONS.",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09L IN USE FOR DEPARTURE AND ARRIVAL. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE AND SERIES ON FIRST CONTACT WITH HEATHROW."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -801,7 +801,7 @@
           "AirportConditions": "DEPARTURES MUST MAINTAIN *3000 FEET UNTIL ADVISED. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -1066,24 +1066,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -1091,9 +1081,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1401,24 +1406,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -1426,9 +1421,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1736,24 +1746,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -1761,9 +1761,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -1811,7 +1826,7 @@
           "AirportConditions": "VISUAL OR CIRCLING APPROACH TO BE EXPECTED. DEPARTURES MUST MAINTAIN *2400 FEET UNTIL CLEARED TO ENTER CONTROLLED AIRSPACE. DATALINK CLEARANCES ARE NOT AVAILABLE. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 03 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -2071,24 +2086,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -2096,9 +2101,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -2491,7 +2511,7 @@
           "AirportConditions": "ILS APPROACH TO BE EXPECTED. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY 05 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -2756,24 +2776,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -2781,9 +2791,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -3096,24 +3121,14 @@
         "transitionLevel": {
           "values": [
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "low": 1032,
-              "high": 1049,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 75
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
               "low": 977,
@@ -3121,9 +3136,24 @@
               "altitude": 80
             },
             {
-              "low": 959,
-              "high": 976,
-              "altitude": 85
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -3171,7 +3201,7 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 04 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -3521,7 +3551,7 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 07 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -3866,7 +3896,7 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 15 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -4211,7 +4241,7 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -4556,7 +4586,7 @@
           "AirportConditions": "NDB DME APPROACH TO BE EXPECTED. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 132.605",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 01 IN USE. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
+        }
       ],
       "Contractions": [
         {
@@ -4821,34 +4851,39 @@
         "transitionLevel": {
           "values": [
             {
-              "Low": 1050,
-              "High": 1060,
-              "Altitude": 60
+              "low": 940,
+              "high": 958,
+              "altitude": 90
             },
             {
-              "Low": 1032,
-              "High": 1049,
-              "Altitude": 65
+              "low": 959,
+              "high": 976,
+              "altitude": 85
             },
             {
-              "Low": 1013,
-              "High": 1031,
-              "Altitude": 70
+              "low": 977,
+              "high": 994,
+              "altitude": 80
             },
             {
-              "Low": 995,
-              "High": 1012,
-              "Altitude": 75
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
             },
             {
-              "Low": 977,
-              "High": 994,
-              "Altitude": 80
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
             },
             {
-              "Low": 959,
-              "High": 976,
-              "Altitude": 85
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
             }
           ],
           "template": {
@@ -4866,5 +4901,180 @@
       },
       "NotamsBeforeFreeText": false
     },
+    {
+      "Name": "Redhill",
+      "Identifier": "EGKR",
+      "contractions": [
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGKR",
+          "Spoken": "ECHO GOLF KILO ROMEO"
+        }
+      ],
+      "AtisFrequency": 25305,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "07L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07L. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "25R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25R. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "07R",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07R. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "25L",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25L. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "18",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 18. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "36",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "REDHILL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 36. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 119.605.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKR.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.605 WHEN READY FOR START.",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [],
+      "atisFormat": {
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ]
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false
+        }
+      }
+    }
   ]
 }
