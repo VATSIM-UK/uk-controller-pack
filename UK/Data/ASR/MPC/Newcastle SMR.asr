@@ -3135,8 +3135,9 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:925
 PLUGIN:vSMR:Airport:EGNT
 PLUGIN:vSMR:GndTrailsDots:0

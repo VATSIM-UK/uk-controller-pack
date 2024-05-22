@@ -2929,8 +2929,9 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:925
 PLUGIN:vSMR:Airport:EGSY
 PLUGIN:vSMR:GndTrailsDots:0
