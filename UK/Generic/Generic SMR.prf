@@ -19,6 +19,8 @@ Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\TC_APP\Generic SMR.asr
 ASRFastKeys	1	\..\Data\ASR\TC_APP\Generic SMR.asr
+ASRFastKeys	2	\..\Data\ASR\Route Checker.asr
+RecentFiles	Recent2	\..\Data\ASR\Route Checker.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
