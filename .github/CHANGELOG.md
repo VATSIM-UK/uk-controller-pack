@@ -9,6 +9,7 @@
 8. AIRAC (2405) - Added D218 complex (Fairford) to TopSky danger areas - thanks to @luke11brown (Luke Brown)
 9. Bug - Fixed vATIS transition levels - thanks to @lewishh
 10. AIRAC (2405) - Prestwick (EGPK) Runway Designator Change - thanks to @lewishh
+11. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
