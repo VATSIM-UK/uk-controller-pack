@@ -1,4 +1,4 @@
-# Changes from release 2024/04 to 2024/05
+# Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
 3. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
@@ -9,7 +9,8 @@
 8. AIRAC (2405) - Added D218 complex (Fairford) to TopSky danger areas - thanks to @luke11brown (Luke Brown)
 9. Bug - Fixed vATIS transition levels - thanks to @lewishh
 10. AIRAC (2405) - Prestwick (EGPK) Runway Designator Change - thanks to @lewishh
-11. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
+11. Procedure Change (2405) - Redhill (EGKR) added to Gatwick profile - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
