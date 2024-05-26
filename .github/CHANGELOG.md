@@ -11,6 +11,7 @@
 10. AIRAC (2405) - Prestwick (EGPK) Runway Designator Change - thanks to @lewishh
 11. Procedure Change (2405) - Redhill (EGKR) added to Gatwick profile - thanks to @luke11brown (Luke Brown)
 12. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
+13. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
