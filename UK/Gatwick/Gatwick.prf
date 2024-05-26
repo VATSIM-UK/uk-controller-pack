@@ -20,11 +20,13 @@ RecentFiles	Recent2	\..\Data\ASR\Gatwick\Gatwick Radar_1.asr
 RecentFiles	Recent3	\..\Data\ASR\Gatwick\Gatwick Radar_3.asr
 RecentFiles	Recent4	\..\Data\ASR\Gatwick\Gatwick Radar_4.asr
 RecentFiles	Recent5	\..\Data\ASR\Gatwick\Gatwick SMR.asr
+RecentFiles	Recent6	\..\Data\ASR\Gatwick\Redhill SMR.asr
 ASRFastKeys	1	\..\Data\ASR\Gatwick\Gatwick Radar_1.asr
 ASRFastKeys	2	\..\Data\ASR\Gatwick\Gatwick Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Gatwick\Gatwick Radar_3.asr
 ASRFastKeys	4	\..\Data\ASR\Gatwick\Gatwick Radar_4.asr
 ASRFastKeys	5	\..\Data\ASR\Gatwick\Gatwick SMR.asr
+ASRFastKeys	6	\..\Data\ASR\Gatwick\Redhill SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
@@ -46,3 +48,22 @@ LastSession	atis_url2	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisai
 LastSession	atis_url3	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
+Sounds	Sound0	\..\Data\Sounds\handoff_request.wav
+Sounds	Sound1	\..\Data\Sounds\handoff_accept.wav
+Sounds	Sound2	\..\Data\Sounds\conflict_alert.wav
+Sounds	Sound3	\..\Data\Sounds\radio_message.wav
+Sounds	Sound4	\..\Data\Sounds\private_message.wav
+Sounds	Sound5	\..\Data\Sounds\atc_message.wav
+Sounds	Sound6	\..\Data\Sounds\broadcast_message.wav
+Sounds	Sound7	\..\Data\Sounds\landline_request.wav
+Sounds	Sound8	\..\Data\Sounds\supervisor_message.wav
+Sounds	Sound9	\..\Data\Sounds\connected.wav
+Sounds	Sound10	\..\Data\Sounds\disconnected.wav
+Sounds	Sound11	\..\Data\Sounds\ongoing_request.wav
+Sounds	Sound12	\..\Data\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\..\Data\Sounds\ongoing_refused.wav
+Sounds	Sound14	\..\Data\Sounds\ongoing_manual.wav
+Sounds	Sound15	\..\Data\Sounds\new_atis.wav
+Sounds	Sound16	\..\Data\Sounds\handoff_refused.wav
+Sounds	Sound17	\..\Data\Sounds\pointout.wav
+Sounds	Sound18	\..\Data\Sounds\startup.wav
