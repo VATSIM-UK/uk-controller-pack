@@ -27,11 +27,10 @@ Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin1Display2	Park Air Radar
-Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
-Plugins	Plugin3	\..\Data\Plugin\vParkAir.dll
+Plugins	Plugin2	\..\Data\Plugin\vParkAir.dll
 Plugins	Plugin3Display0	Park Air Radar
-Plugins	Plugin4	\..\Data\Plugin\VFPC.dll
-Plugins	Plugin5	\..\Data\Plugin\VCH.dll
+Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
