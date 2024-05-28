@@ -32,7 +32,9 @@ RwyAppLines_Auto=0
 //Airspace Related Settings
 Airspace_C_Flag=
 Airspace_No_DUPE_Codes=7000,2000,2620,0440,7045,4255,3737,3660,2677,5060,7366,6170,4607,4572,0010,7350,3727,4517,0013,7013,3636,5077,4572,5050,0011,7011,7012,0012
+Airspace_SIGMET_Areas=EGTT,EGPX
 AIW=1
+AIW_FlightRules=1
 
 //Colour settings
 Color_Active_Map_Type_1=120,0,0
