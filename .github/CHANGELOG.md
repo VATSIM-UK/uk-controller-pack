@@ -11,8 +11,11 @@
 10. AIRAC (2405) - Prestwick (EGPK) Runway Designator Change - thanks to @lewishh
 11. Procedure Change (2405) - Redhill (EGKR) added to Gatwick profile - thanks to @luke11brown (Luke Brown)
 12. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
-13. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
-14. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
+13. Bug - Displayed all SCT2 (holding points & stand numbers) on all SMR style displays - thanks to @luke11brown (Luke Brown)
+14. Bug - Path to VCH plugin fixed on area profiles - thanks to @luke11brown (Luke Brown)
+15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
+16. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
+17. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
