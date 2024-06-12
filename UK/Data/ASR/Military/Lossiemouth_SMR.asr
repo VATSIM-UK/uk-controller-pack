@@ -3207,10 +3207,10 @@ PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
-PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
 PLUGIN:UK Controller Plugin:DisplayCountdown:0
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -3239,16 +3239,19 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
-PLUGIN:Virtual Controller Assistant:ANTIALIAS:1
-PLUGIN:Virtual Controller Assistant:CDSHOW:1
-PLUGIN:Virtual Controller Assistant:CDXPOS:1392
-PLUGIN:Virtual Controller Assistant:CDYPOS:43
-PLUGIN:Virtual Controller Assistant:DEGRADINGTRAIL:1
-PLUGIN:Virtual Controller Assistant:FADETRAIL:1
-PLUGIN:Virtual Controller Assistant:MAXTRAIL:15
-PLUGIN:Virtual Controller Assistant:TRAILCOLOUR:1344255
-PLUGIN:Virtual Controller Assistant:TRAILSHOW:1
-PLUGIN:Virtual Controller Assistant:TRAILTYPE:2
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
+PLUGIN:vSMR:Airport:EGQS
+PLUGIN:vSMR:GndTrailsDots:0
+PLUGIN:vSMR:SRW1BottomRightX:1920
+PLUGIN:vSMR:SRW1BottomRightY:928
+PLUGIN:vSMR:SRW1Display:1
+PLUGIN:vSMR:SRW1Filter:5500
+PLUGIN:vSMR:SRW1OffsetX:0
+PLUGIN:vSMR:SRW1OffsetY:0
+PLUGIN:vSMR:SRW1Rotation:0
+PLUGIN:vSMR:SRW1Scale:15
+PLUGIN:vSMR:SRW1TopLeftX:1545
+PLUGIN:vSMR:SRW1TopLeftY:629

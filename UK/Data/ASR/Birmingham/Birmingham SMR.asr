@@ -3200,17 +3200,17 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:303.7000
 TAGFAMILY:AC
-WINDOWAREA:52.445131:-1.779144:52.466099:-1.712854
+WINDOWAREA:52.443352:-1.779910:52.464320:-1.713620
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
-PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
@@ -3238,8 +3238,19 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
-PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:885
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR:Airport:EGBB
 PLUGIN:vSMR:GndTrailsDots:0
+PLUGIN:vSMR:SRW1BottomRightX:1920
+PLUGIN:vSMR:SRW1BottomRightY:928
+PLUGIN:vSMR:SRW1Display:1
+PLUGIN:vSMR:SRW1Filter:5500
+PLUGIN:vSMR:SRW1OffsetX:0
+PLUGIN:vSMR:SRW1OffsetY:0
+PLUGIN:vSMR:SRW1Rotation:304
+PLUGIN:vSMR:SRW1Scale:15
+PLUGIN:vSMR:SRW1TopLeftX:1545
+PLUGIN:vSMR:SRW1TopLeftY:629
