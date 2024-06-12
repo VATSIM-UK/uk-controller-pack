@@ -13,6 +13,7 @@
 12. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
 13. Bug - Displayed all SCT2 (holding points & stand numbers) on all SMR style displays - thanks to @luke11brown (Luke Brown)
 14. Bug - Path to VCH plugin fixed on area profiles - thanks to @luke11brown (Luke Brown)
+15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
