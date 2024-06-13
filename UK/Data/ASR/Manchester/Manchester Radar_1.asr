@@ -642,7 +642,7 @@ PLUGIN:UK Controller Plugin:holdROSUNPositionX:1536
 PLUGIN:UK Controller Plugin:holdROSUNPositionY:268
 PLUGIN:UK Controller Plugin:selectedHolds:DAYNE;MIRSI;ROSUN
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1598
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:176

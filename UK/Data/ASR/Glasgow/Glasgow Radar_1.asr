@@ -642,7 +642,7 @@ PLUGIN:UK Controller Plugin:holdSTIRAPositionX:149
 PLUGIN:UK Controller Plugin:holdSTIRAPositionY:566
 PLUGIN:UK Controller Plugin:selectedHolds:FOYLE;FYNER;LANAK;STIRA
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1609
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200

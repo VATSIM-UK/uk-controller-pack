@@ -2205,7 +2205,7 @@ PLUGIN:UK Controller Plugin:holdWILLOPositionX:144
 PLUGIN:UK Controller Plugin:holdWILLOPositionY:677
 PLUGIN:UK Controller Plugin:selectedHolds:TIMBA;WILLO
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1384
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:61
