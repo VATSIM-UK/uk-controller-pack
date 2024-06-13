@@ -18520,6 +18520,7 @@ UIKM	MAMA	Russian Federation
 UITK	KAZACHINSKOYE/KAZACHINSK	Russian Federation
 UITT	UST-KUT	Russian Federation
 UIUA	SAHARNY ZAVOD/BICHURA	Russian Federation
+UIUN	UIUN	Russian Federation
 UIUR	VARVARINSK	Russian Federation
 UIUT	UAKIT	Russian Federation
 UIUU	ULAN-UDE/MUKHINO	Russian Federation
@@ -18774,6 +18775,7 @@ UTDL	KHUJAND	Uzbekistan, Turkmenistan and Tadjikistan
 UTDT	BOKHTAR	Uzbekistan, Turkmenistan and Tadjikistan
 UTFA	ANDIZHAN	Uzbekistan, Turkmenistan and Tadjikistan
 UTFF	FERGANA INTL	Uzbekistan, Turkmenistan and Tadjikistan
+UTFK	Kokand	Uzbekistan, Turkmenistan and Tadjikistan
 UTFN	NAMANGAN INTL	Uzbekistan, Turkmenistan and Tadjikistan
 UTNN	NUKUS	Uzbekistan, Turkmenistan and Tadjikistan
 UTNU	URGENCH	Uzbekistan, Turkmenistan and Tadjikistan
