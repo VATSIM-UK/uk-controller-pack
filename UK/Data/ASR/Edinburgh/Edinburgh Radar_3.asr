@@ -2203,13 +2203,13 @@ PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:holdSTIRAMaxLevel:14000
 PLUGIN:UK Controller Plugin:holdSTIRAMinimised:0
 PLUGIN:UK Controller Plugin:holdSTIRAMinLevel:7000
-PLUGIN:UK Controller Plugin:holdSTIRAPositionX:1543
-PLUGIN:UK Controller Plugin:holdSTIRAPositionY:279
+PLUGIN:UK Controller Plugin:holdSTIRAPositionX:89
+PLUGIN:UK Controller Plugin:holdSTIRAPositionY:671
 PLUGIN:UK Controller Plugin:holdTARTNMaxLevel:14000
 PLUGIN:UK Controller Plugin:holdTARTNMinimised:0
 PLUGIN:UK Controller Plugin:holdTARTNMinLevel:7000
-PLUGIN:UK Controller Plugin:holdTARTNPositionX:1543
-PLUGIN:UK Controller Plugin:holdTARTNPositionY:565
+PLUGIN:UK Controller Plugin:holdTARTNPositionX:1441
+PLUGIN:UK Controller Plugin:holdTARTNPositionY:669
 PLUGIN:UK Controller Plugin:selectedHolds:STIRA;TARTN
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
