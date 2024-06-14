@@ -1701,8 +1701,8 @@ PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1743
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:542
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_MANCHESTER;ASR_ORKNEY;ASR_BELFAST;ASR_HOLYHEAD;ASR_PORTLAND;ASR_PORTREE;ASR_RATTRAY;ASR_SCILLIES;ASR_SHETLAND;ASR_TYNE;ASR_WESSEX;ASR_YARMOUTH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
