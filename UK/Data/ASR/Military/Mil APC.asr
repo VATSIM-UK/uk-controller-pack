@@ -1185,8 +1185,8 @@ PLUGIN:UK Controller Plugin:pendingPrenoteMessageListContentCollapsed:0
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListVisible:0
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListXPosition:100
 PLUGIN:UK Controller Plugin:pendingPrenoteMessageListYPosition:100
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1765
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:507
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_MANCHESTER;ASR_HOLYHEAD;ASR_WESSEX;ASR_BARNSLEY;ASR_PORTLAND;ASR_CHATHAM;ASR_BELFAST;ASR_COTSWOLD;ASR_MARLIN;ASR_HUMBER;ASR_ORKNEY;ASR_PORTREE;ASR_PETREL;ASR_PUFFIN;ASR_RATTRAY;ASR_SKUA;ASR_TYNE;ASR_YARMOUTH;ASR_SKERRY
