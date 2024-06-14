@@ -16,7 +16,7 @@
 15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
 16. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
 17. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
-x. Bug - Fix overlapping items on radar displays - thanks to @SamLefevre (Samuel Lefevre)
+x. Enhancement - Updated East Midlands Profile - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
