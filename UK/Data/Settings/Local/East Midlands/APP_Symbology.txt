@@ -1,7 +1,7 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:8550520:0.5:0:0:7
-Airports:name:13827975:3.2:0:0:2
+Airports:symbol:3955250:0.5:0:0:7
+Airports:name:3955250:3.2:0:0:2
 Low airways:line:6579455:2.5:1:0:7
 Low airways:name:6114360:2.5:0:0:8
 High airways:line:16512:3.5:2:0:7
@@ -9,13 +9,13 @@ High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:3955250:1.0:0:0:7
 Fixes:name:3955250:3.2:0:0:2
 Sids:line:3955250:3.0:0:0:7
-Stars:line:11248794:3.0:1:0:7
+Stars:line:11248794:3.0:0:0:7
 ARTCC high boundary:line:3955250:3.0:0:1:7
 ARTCC boundary:line:1710722:3.0:0:0:7
-ARTCC low boundary:line:3955250:3.0:2:1:7
+ARTCC low boundary:line:3955250:3.0:1:1:7
 Geo:line:3955250:3.0:0:0:7
 VORs:symbol:3955250:1.4:0:0:7
-VORs:name:6579300:3.2:0:0:2
+VORs:name:3955250:3.2:0:0:2
 VORs:frequency:6579300:3.5:0:0:2
 NDBs:symbol:3955250:0.6:0:0:7
 NDBs:name:8421504:3.2:0:0:2
@@ -25,7 +25,7 @@ Runways:extended centerline:3955250:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
 Datablock:non concerned:16777215:3.2:0:0:7
 Datablock:notified:16777215:3.2:0:0:7
-Datablock:assumed:16087285:3.2:0:0:7
+Datablock:assumed:16777215:3.2:0:0:7
 Datablock:transfer to me initiated:16087285:3.2:0:0:7
 Datablock:redundant:16777215:3.2:0:0:7
 Datablock:information:5483007:3.2:0:0:7
@@ -89,7 +89,7 @@ Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
 Chat:text:16777215:3.5:0:0:7
-Chat:background:2894892:3.5:0:0:7
+Chat:background:0:3.5:0:0:7
 Chat:name normal:16777215:3.5:0:0:7
 Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
