@@ -16,6 +16,7 @@
 15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
 16. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
 17. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
+x. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
