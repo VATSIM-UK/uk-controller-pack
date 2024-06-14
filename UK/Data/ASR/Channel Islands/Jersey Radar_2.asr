@@ -1,5 +1,5 @@
-DisplayTypeName:Park Air Radar
-DisplayTypeNeedRadarContent:0
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
@@ -207,266 +207,6 @@ Fixes:SKESO:symbol
 Fixes:TIDMA:symbol
 Fixes:TIXON:symbol
 Fixes:TUNIT:symbol
-Free Text:Airspace Bases - Conditional Berryhead CTA\FL105*:freetext
-Free Text:Airspace Bases - Conditional Berryhead CTA\FL105*:freetext
-Free Text:Airspace Bases - Conditional Portsmouth CTA\FL55*:freetext
-Free Text:Airspace Bases - Conditional Portsmouth CTA\FL55*:freetext
-Free Text:Airspace Bases - Conditional Portsmouth CTA\FL65*:freetext
-Free Text:Airspace Bases - Conditional Portsmouth CTA\FL65*:freetext
-Free Text:Airspace Bases - Conditional Portsmouth CTA\FL65*:freetext
-Free Text:Airspace Bases\2000D:freetext
-Free Text:Airspace Bases\2000D:freetext
-Free Text:Airspace Bases\2000D:freetext
-Free Text:Airspace Bases\2500:freetext
-Free Text:Airspace Bases\2500:freetext
-Free Text:Airspace Bases\2500:freetext
-Free Text:Airspace Bases\2500:freetext
-Free Text:Airspace Bases\2500:freetext
-Free Text:Airspace Bases\3000:freetext
-Free Text:Airspace Bases\3000E:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500:freetext
-Free Text:Airspace Bases\3500D:freetext
-Free Text:Airspace Bases\3500D:freetext
-Free Text:Airspace Bases\3500D:freetext
-Free Text:Airspace Bases\3500D:freetext
-Free Text:Airspace Bases\3500D:freetext
-Free Text:Airspace Bases\4000E:freetext
-Free Text:Airspace Bases\4000E:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500:freetext
-Free Text:Airspace Bases\4500D:freetext
-Free Text:Airspace Bases\4500E:freetext
-Free Text:Airspace Bases\5000:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500:freetext
-Free Text:Airspace Bases\5500D:freetext
-Free Text:Airspace Bases\5500D:freetext
-Free Text:Airspace Bases\5500D:freetext
-Free Text:Airspace Bases\5500E:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105E:freetext
-Free Text:Airspace Bases\FL105E:freetext
-Free Text:Airspace Bases\FL105E:freetext
-Free Text:Airspace Bases\FL105E:freetext
-Free Text:Airspace Bases\FL105E:freetext
-Free Text:Airspace Bases\FL115:freetext
-Free Text:Airspace Bases\FL115C:freetext
-Free Text:Airspace Bases\FL115C:freetext
-Free Text:Airspace Bases\FL115C:freetext
-Free Text:Airspace Bases\FL115E:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125C:freetext
-Free Text:Airspace Bases\FL125C:freetext
-Free Text:Airspace Bases\FL125D:freetext
-Free Text:Airspace Bases\FL125E:freetext
-Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135:freetext
-Free Text:Airspace Bases\FL135C:freetext
-Free Text:Airspace Bases\FL135D:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL145C:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL165:freetext
-Free Text:Airspace Bases\FL165:freetext
-Free Text:Airspace Bases\FL165:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL35C:freetext
-Free Text:Airspace Bases\FL45C:freetext
-Free Text:Airspace Bases\FL45C:freetext
-Free Text:Airspace Bases\FL45D:freetext
-Free Text:Airspace Bases\FL45E:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55*:freetext
-Free Text:Airspace Bases\FL55C:freetext
-Free Text:Airspace Bases\FL55D:freetext
-Free Text:Airspace Bases\FL55D:freetext
-Free Text:Airspace Bases\FL55D:freetext
-Free Text:Airspace Bases\FL55E:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL65:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75C:freetext
-Free Text:Airspace Bases\FL75D:freetext
-Free Text:Airspace Bases\FL75D:freetext
-Free Text:Airspace Bases\FL75D:freetext
-Free Text:Airspace Bases\FL75E:freetext
-Free Text:Airspace Bases\FL75E:freetext
-Free Text:Airspace Bases\FL75E:freetext
-Free Text:Airspace Bases\FL75E:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85:freetext
-Free Text:Airspace Bases\FL85C:freetext
-Free Text:Airspace Bases\FL85C:freetext
-Free Text:Airspace Bases\FL85C:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95D:freetext
-Free Text:Airspace Bases\FL95D:freetext
-Free Text:Airspace Bases\FL95E:freetext
-Free Text:Airspace Bases\SFC:freetext
-Free Text:Airspace Bases\SFC:freetext
-Free Text:EGJJ VRPs\*Alderney L'house:freetext
-Free Text:EGJJ VRPs\*Cap de la Hague:freetext
-Free Text:EGJJ VRPs\*Carteret L'house:freetext
-Free Text:EGJJ VRPs\*Casquets L'house:freetext
-Free Text:EGJJ VRPs\*Corbiere L'house:freetext
-Free Text:EGJJ VRPs\*Fort Le Marchant:freetext
-Free Text:EGJJ VRPs\*Fremont TV Mast:freetext
-Free Text:EGJJ VRPs\*Hanois L'house:freetext
-Free Text:EGJJ VRPs\*Heauville:freetext
-Free Text:EGJJ VRPs\*Herm Island:freetext
-Free Text:EGJJ VRPs\*Les Landes Racecourse:freetext
-Free Text:EGJJ VRPs\*Minquies:freetext
-Free Text:EGJJ VRPs\*Noirmont Point L'house:freetext
-Free Text:EGJJ VRPs\*Pointe de Rozel:freetext
-Free Text:EGJJ VRPs\*Roches Douvres L'house:freetext
-Free Text:EGJJ VRPs\*Seymour Tower:freetext
-Free Text:EGJJ VRPs\*St Germain:freetext
-Free Text:EGJJ VRPs\*St Martin's Point:freetext
 Geo:Extended centrelines:
 Geo:GEO:
 NDBs:ALD:frequency
@@ -476,14 +216,290 @@ NDBs:JW:frequency
 NDBs:JW:name
 NDBs:JW:symbol
 Regions:Jersey Radar Background:polygon
+VORs:AAL:name
+VORs:AAL:symbol
+VORs:ABB:name
+VORs:ABB:symbol
+VORs:ADN:name
+VORs:ADN:symbol
+VORs:AFI:name
+VORs:AFI:symbol
+VORs:AKR:name
+VORs:AKR:symbol
+VORs:AMB:name
+VORs:AMB:symbol
+VORs:AMS:name
+VORs:AMS:symbol
+VORs:ANT:name
+VORs:ANT:symbol
+VORs:ARE:name
+VORs:ARE:symbol
+VORs:BAL:name
+VORs:BAL:symbol
+VORs:BBE:name
+VORs:BBE:symbol
+VORs:BBL:name
+VORs:BBL:symbol
+VORs:BCL:name
+VORs:BCL:symbol
+VORs:BCN:name
+VORs:BCN:symbol
+VORs:BDN:name
+VORs:BDN:symbol
+VORs:BEL:name
+VORs:BEL:symbol
+VORs:BEN:name
+VORs:BEN:symbol
+VORs:BFS:name
+VORs:BFS:symbol
+VORs:BHD:name
+VORs:BHD:symbol
+VORs:BIG:name
+VORs:BIG:symbol
+VORs:BKY:name
+VORs:BKY:symbol
+VORs:BNE:name
+VORs:BNE:symbol
+VORs:BNN:name
+VORs:BNN:symbol
+VORs:BPK:name
+VORs:BPK:symbol
+VORs:BSO:name
+VORs:BSO:symbol
+VORs:BST:name
+VORs:BST:symbol
+VORs:BUB:name
+VORs:BUB:symbol
+VORs:BUN:name
+VORs:BUN:symbol
+VORs:BZN:name
+VORs:BZN:symbol
+VORs:CAN:name
+VORs:CAN:symbol
+VORs:CGY:name
+VORs:CGY:symbol
+VORs:CIV:name
+VORs:CIV:symbol
+VORs:CLM:name
+VORs:CLM:symbol
+VORs:CLN:name
+VORs:CLN:symbol
+VORs:CMB:name
+VORs:CMB:symbol
+VORs:COA:name
+VORs:COA:symbol
+VORs:CON:name
+VORs:CON:symbol
+VORs:CPT:name
+VORs:CPT:symbol
+VORs:CRK:name
+VORs:CRK:symbol
+VORs:CWZ:name
+VORs:CWZ:symbol
+VORs:DAP:name
+VORs:DAP:symbol
+VORs:DCS:name
+VORs:DCS:symbol
+VORs:DET:name
+VORs:DET:symbol
+VORs:DHE:name
+VORs:DHE:symbol
+VORs:DIK:name
+VORs:DIK:symbol
+VORs:DIN:name
+VORs:DIN:symbol
+VORs:DPE:name
+VORs:DPE:symbol
+VORs:DTY:name
+VORs:DTY:symbol
+VORs:DUB:name
+VORs:DUB:symbol
+VORs:DUD:name
+VORs:DUD:symbol
+VORs:DUF:name
+VORs:DUF:symbol
+VORs:DVL:name
+VORs:DVL:symbol
+VORs:DVR:name
+VORs:DVR:symbol
+VORs:EEL:name
+VORs:EEL:symbol
+VORs:EHV:name
+VORs:EHV:symbol
+VORs:EVX:name
+VORs:EVX:symbol
+VORs:FFA:name
+VORs:FFA:symbol
+VORs:FLO:name
+VORs:FLO:symbol
+VORs:GAM:name
+VORs:GAM:symbol
+VORs:GLO:name
+VORs:GLO:symbol
+VORs:GMN:name
+VORs:GMN:symbol
+VORs:GOW:name
+VORs:GOW:symbol
+VORs:GSY:name
+VORs:GSY:symbol
+VORs:GTG:name
+VORs:GTG:symbol
 VORs:GUR:name
 VORs:GUR:symbol
+VORs:GWC:name
+VORs:GWC:symbol
+VORs:HDR:name
+VORs:HDR:symbol
+VORs:HON:name
+VORs:HON:symbol
+VORs:HUL:name
+VORs:HUL:symbol
+VORs:INS:name
+VORs:INS:symbol
+VORs:IOM:name
+VORs:IOM:symbol
+VORs:IWL:name
+VORs:IWL:symbol
 VORs:JSY:name
 VORs:JSY:symbol
+VORs:KOK:name
+VORs:KOK:symbol
+VORs:KWL:name
+VORs:KWL:symbol
+VORs:LAM:name
+VORs:LAM:symbol
+VORs:LDV:name
+VORs:LDV:symbol
+VORs:LEE:name
+VORs:LEE:symbol
+VORs:LGE:name
+VORs:LGE:symbol
+VORs:LGL:name
+VORs:LGL:symbol
+VORs:LKH:name
+VORs:LKH:symbol
+VORs:LND:name
+VORs:LND:symbol
+VORs:LNO:name
+VORs:LNO:symbol
+VORs:LON:name
+VORs:LON:symbol
+VORs:LSM:name
+VORs:LSM:symbol
+VORs:LUX:name
+VORs:LUX:symbol
+VORs:LYD:name
+VORs:LYD:symbol
+VORs:MAC:name
+VORs:MAC:symbol
+VORs:MAM:name
+VORs:MAM:symbol
+VORs:MAS:name
+VORs:MAS:symbol
+VORs:MAY:name
+VORs:MAY:symbol
+VORs:MCM:name
+VORs:MCM:symbol
+VORs:MCT:name
+VORs:MCT:symbol
+VORs:MID:name
+VORs:MID:symbol
+VORs:MLD:name
+VORs:MLD:symbol
+VORs:MPA:name
+VORs:MPA:symbol
+VORs:MTD:name
+VORs:MTD:symbol
+VORs:NEW:name
+VORs:NEW:symbol
+VORs:NIK:name
+VORs:NIK:symbol
+VORs:OCK:name
+VORs:OCK:symbol
+VORs:ODH:name
+VORs:ODH:symbol
+VORs:OSN:name
+VORs:OSN:symbol
+VORs:OTR:name
+VORs:OTR:symbol
+VORs:PAM:name
+VORs:PAM:symbol
+VORs:POL:name
+VORs:POL:symbol
+VORs:PON:name
+VORs:PON:symbol
+VORs:PTH:name
+VORs:PTH:symbol
+VORs:QPR:name
+VORs:QPR:symbol
+VORs:REM:name
+VORs:REM:symbol
+VORs:REN:name
+VORs:REN:symbol
+VORs:RKN:name
+VORs:RKN:symbol
+VORs:ROU:name
+VORs:ROU:symbol
+VORs:RTM:name
+VORs:RTM:symbol
+VORs:SAB:name
+VORs:SAB:symbol
+VORs:SAM:name
+VORs:SAM:symbol
+VORs:SFD:name
+VORs:SFD:symbol
+VORs:SHA:name
+VORs:SHA:symbol
+VORs:SOL:name
+VORs:SOL:symbol
+VORs:SPI:name
+VORs:SPI:symbol
+VORs:SPL:name
+VORs:SPL:symbol
+VORs:SPY:name
+VORs:SPY:symbol
+VORs:STN:name
+VORs:STN:symbol
+VORs:STU:name
+VORs:STU:symbol
+VORs:SUM:name
+VORs:SUM:symbol
+VORs:SVA:name
+VORs:SVA:symbol
+VORs:SWB:name
+VORs:SWB:symbol
+VORs:TIR:name
+VORs:TIR:symbol
+VORs:TLA:name
+VORs:TLA:symbol
+VORs:TNT:name
+VORs:TNT:symbol
+VORs:TRN:name
+VORs:TRN:symbol
+VORs:VLN:name
+VORs:VLN:symbol
+VORs:VYL:name
+VORs:VYL:symbol
+VORs:WAD:name
+VORs:WAD:symbol
+VORs:WAL:name
+VORs:WAL:symbol
+VORs:WIK:name
+VORs:WIK:symbol
+VORs:WIN:name
+VORs:WIN:symbol
+VORs:WIT:name
+VORs:WIT:symbol
+VORs:WTN:name
+VORs:WTN:symbol
+VORs:WTP:name
+VORs:WTP:symbol
+VORs:WTZ:name
+VORs:WTZ:symbol
 SHOWC:1
 SHOWSB:1
 BELOW:300
-ABOVE:24000
+ABOVE:0
 LEADER:2
 SHOWLEADER:0
 TURNLEADER:0
@@ -492,7 +508,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:
+TAGFAMILY:NOVA 9000
 WINDOWAREA:48.934790:-4.251780:50.127726:-0.651477
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -521,7 +537,7 @@ PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1201
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:113
