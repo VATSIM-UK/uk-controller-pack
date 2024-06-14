@@ -151,7 +151,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,954,0
+Window_CPDLC_Current=1,975,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
@@ -186,9 +186,9 @@ WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
 
 [_CTR]
-Window_CARD=1,10,730
+Window_CARD=1,100,750
 Window_MsgIn=0,311,40
-Window_Shortcut=1,1450,0
+Window_Shortcut=1,1430,0
 Window_SepList=1500,620
 
 Window_LostList_Auto=0
