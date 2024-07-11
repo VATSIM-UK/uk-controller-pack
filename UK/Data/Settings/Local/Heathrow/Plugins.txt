@@ -20,6 +20,6 @@ UK Controller Plugin:missedApproachAudio:1
 UK Controller Plugin:missedApproachAudioCurrentUser:1
 UK Controller Plugin:missedApproachAirfields:EGWU
 UK Controller Plugin:missedApproachServiceProvision:28
-vSMR:cpdlc_logon:EGLL
-vSMR:cpdlc_sound:1
+vSMR Vatsim UK:cpdlc_logon:EGLL
+vSMR Vatsim UK:cpdlc_sound:1
 END

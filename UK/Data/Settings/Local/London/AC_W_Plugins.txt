@@ -19,8 +19,8 @@ UK Controller Plugin:timer5Enabled:1
 UK Controller Plugin:missedApproachAudio:1
 UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
-vSMR:cpdlc_logon:LONW
-vSMR:cpdlc_sound:1
+vSMR Vatsim UK:cpdlc_logon:LONW
+vSMR Vatsim UK:cpdlc_sound:1
 TopSky plugin:ACList/HOLDING LIST/m_Visible:0
 TopSky plugin:ACList/HOLDING LIST/m_X:20
 TopSky plugin:ACList/HOLDING LIST/m_Y:20

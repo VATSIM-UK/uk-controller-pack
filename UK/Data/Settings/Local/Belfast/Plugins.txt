@@ -18,6 +18,6 @@ UK Controller Plugin:timer5Enabled:1
 UK Controller Plugin:missedApproachAudio:1
 UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
-vSMR:cpdlc_logon:EGAA
-vSMR:cpdlc_sound:1
+vSMR Vatsim UK:cpdlc_logon:EGAA
+vSMR Vatsim UK:cpdlc_sound:1
 END
