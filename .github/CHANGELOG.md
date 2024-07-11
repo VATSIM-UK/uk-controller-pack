@@ -1,3 +1,6 @@
+# Changes from release 2024/06 to 2024/07
+1. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
+
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
