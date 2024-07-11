@@ -619,7 +619,7 @@ PLUGIN:UK Controller Plugin:holdTIPODPositionX:1431
 PLUGIN:UK Controller Plugin:holdTIPODPositionY:800
 PLUGIN:UK Controller Plugin:selectedHolds:KEGUN;TIPOD
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1592
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:191

@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Edinburgh\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Scottish.txt
-Settings	sector	UK\Data\Sector\UK_2024_05.sct
+Settings	sector	UK\Data\Sector\UK_2024_06a.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Edinburgh\Edinburgh Radar_1.asr
@@ -46,3 +46,22 @@ LastSession	atis_url2	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisai
 LastSession	atis_url3	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
+Sounds	Sound0	\..\Data\Sounds\handoff_request.wav
+Sounds	Sound1	\..\Data\Sounds\handoff_accept.wav
+Sounds	Sound2	\..\Data\Sounds\conflict_alert.wav
+Sounds	Sound3	\..\Data\Sounds\radio_message.wav
+Sounds	Sound4	\..\Data\Sounds\private_message.wav
+Sounds	Sound5	\..\Data\Sounds\atc_message.wav
+Sounds	Sound6	\..\Data\Sounds\broadcast_message.wav
+Sounds	Sound7	\..\Data\Sounds\landline_request.wav
+Sounds	Sound8	\..\Data\Sounds\supervisor_message.wav
+Sounds	Sound9	\..\Data\Sounds\connected.wav
+Sounds	Sound10	\..\Data\Sounds\disconnected.wav
+Sounds	Sound11	\..\Data\Sounds\ongoing_request.wav
+Sounds	Sound12	\..\Data\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\..\Data\Sounds\ongoing_refused.wav
+Sounds	Sound14	\..\Data\Sounds\ongoing_manual.wav
+Sounds	Sound15	\..\Data\Sounds\new_atis.wav
+Sounds	Sound16	\..\Data\Sounds\handoff_refused.wav
+Sounds	Sound17	\..\Data\Sounds\pointout.wav
+Sounds	Sound18	\..\Data\Sounds\startup.wav

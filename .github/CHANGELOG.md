@@ -1,4 +1,9 @@
-# Changes from release 2024/04 to 2024/05
+# Changes from release 2024/06 to 2024/07
+1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
+2. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
+3. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
+
+# Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
 3. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
@@ -9,6 +14,15 @@
 8. AIRAC (2405) - Added D218 complex (Fairford) to TopSky danger areas - thanks to @luke11brown (Luke Brown)
 9. Bug - Fixed vATIS transition levels - thanks to @lewishh
 10. AIRAC (2405) - Prestwick (EGPK) Runway Designator Change - thanks to @lewishh
+11. Procedure Change (2405) - Redhill (EGKR) added to Gatwick profile - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Custom EuroScope sounds added as default - thanks to @luke11brown (Luke Brown)
+13. Bug - Displayed all SCT2 (holding points & stand numbers) on all SMR style displays - thanks to @luke11brown (Luke Brown)
+14. Bug - Path to VCH plugin fixed on area profiles - thanks to @luke11brown (Luke Brown)
+15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
+16. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
+17. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
+18. Bug - Fix overlapping items on radar displays - thanks to @SamLefevre (Samuel Lefevre)
+19. Enhancement - Updated East Midlands Profile - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)

@@ -32,7 +32,9 @@ RwyAppLines_Auto=0
 //Airspace Related Settings
 Airspace_C_Flag=
 Airspace_No_DUPE_Codes=7000,2000,2620,0440,7045,4255,3737,3660,2677,5060,7366,6170,4607,4572,0010,7350,3727,4517,0013,7013,3636,5077,4572,5050,0011,7011,7012,0012
+Airspace_SIGMET_Areas=EGTT,EGPX
 AIW=1
+AIW_FlightRules=1
 
 //Colour settings
 Color_Active_Map_Type_1=120,0,0
@@ -149,7 +151,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,954,0
+Window_CPDLC_Current=1,975,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
@@ -184,9 +186,9 @@ WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
 
 [_CTR]
-Window_CARD=1,10,730
+Window_CARD=1,100,750
 Window_MsgIn=0,311,40
-Window_Shortcut=1,1450,0
+Window_Shortcut=1,1430,0
 Window_SepList=1500,620
 
 Window_LostList_Auto=0

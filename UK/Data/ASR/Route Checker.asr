@@ -1,0 +1,386 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Berry Head CTA (Conditional):
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Borders CTA (Conditional):
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Cotswold CTA (Conditional):
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Midlands CTA:
+ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:Northern CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:PEPZE CTA (Conditional):
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:Portsmouth CTA (Conditional):
+ARTCC high boundary:RATSU Triangle:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Tay CTA (Conditional):
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:West CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+Fixes:ADARA:name
+Fixes:ADARA:symbol
+Fixes:ADODO:name
+Fixes:ADODO:symbol
+Fixes:AGORI:name
+Fixes:AGORI:symbol
+Fixes:ALOTI:name
+Fixes:ALOTI:symbol
+Fixes:AMLAD:name
+Fixes:AMLAD:symbol
+Fixes:AMPOP:name
+Fixes:AMPOP:symbol
+Fixes:ANGLO:name
+Fixes:ANGLO:symbol
+Fixes:ANNET:name
+Fixes:ANNET:symbol
+Fixes:APSOV:name
+Fixes:APSOV:symbol
+Fixes:ARKIL:name
+Fixes:ARKIL:symbol
+Fixes:ATSIX:name
+Fixes:ATSIX:symbol
+Fixes:BAGSO:name
+Fixes:BAGSO:symbol
+Fixes:BAKUR:name
+Fixes:BAKUR:symbol
+Fixes:BALIX:name
+Fixes:BALIX:symbol
+Fixes:BANBA:name
+Fixes:BANBA:symbol
+Fixes:BEDRA:name
+Fixes:BEDRA:symbol
+Fixes:BELOX:name
+Fixes:BELOX:symbol
+Fixes:BEREP:name
+Fixes:BEREP:symbol
+Fixes:BIGNO:name
+Fixes:BIGNO:symbol
+Fixes:BILTO:name
+Fixes:BILTO:symbol
+Fixes:BINTI:name
+Fixes:BINTI:symbol
+Fixes:BOYNE:name
+Fixes:BOYNE:symbol
+Fixes:DEGOS:name
+Fixes:DEGOS:symbol
+Fixes:DINIM:name
+Fixes:DINIM:symbol
+Fixes:DOGAL:name
+Fixes:DOGAL:symbol
+Fixes:DOLUR:name
+Fixes:DOLUR:symbol
+Fixes:ELNAB:name
+Fixes:ELNAB:symbol
+Fixes:ENJEX:name
+Fixes:ENJEX:symbol
+Fixes:ERAKA:name
+Fixes:ERAKA:symbol
+Fixes:ERKIT:name
+Fixes:ERKIT:symbol
+Fixes:ERNAN:name
+Fixes:ERNAN:symbol
+Fixes:ETARI:name
+Fixes:ETARI:symbol
+Fixes:ETILO:name
+Fixes:ETILO:symbol
+Fixes:EVRIN:name
+Fixes:EVRIN:symbol
+Fixes:GANTO:name
+Fixes:GANTO:symbol
+Fixes:GAPLI:name
+Fixes:GAPLI:symbol
+Fixes:GODOS:name
+Fixes:GODOS:symbol
+Fixes:GOMUP:name
+Fixes:GOMUP:symbol
+Fixes:GOREV:name
+Fixes:GOREV:symbol
+Fixes:GUNPA:name
+Fixes:GUNPA:symbol
+Fixes:IBROD:name
+Fixes:IBROD:symbol
+Fixes:INBOB:name
+Fixes:INBOB:symbol
+Fixes:INKOB:name
+Fixes:INKOB:symbol
+Fixes:KELLY:name
+Fixes:KELLY:symbol
+Fixes:KLONN:name
+Fixes:KLONN:symbol
+Fixes:KOGAD:name
+Fixes:KOGAD:symbol
+Fixes:KONAN:name
+Fixes:KONAN:symbol
+Fixes:KUGUR:name
+Fixes:KUGUR:symbol
+Fixes:LAKEY:name
+Fixes:LAKEY:symbol
+Fixes:LAMSO:name
+Fixes:LAMSO:symbol
+Fixes:LARGA:name
+Fixes:LARGA:symbol
+Fixes:LASNO:name
+Fixes:LASNO:symbol
+Fixes:LEDGO:name
+Fixes:LEDGO:symbol
+Fixes:LELNA:name
+Fixes:LELNA:symbol
+Fixes:LESLU:name
+Fixes:LESLU:symbol
+Fixes:LESRA:name
+Fixes:LESRA:symbol
+Fixes:LIFFY:name
+Fixes:LIFFY:symbol
+Fixes:LIMRI:name
+Fixes:LIMRI:symbol
+Fixes:LIPGO:name
+Fixes:LIPGO:symbol
+Fixes:LIZAD:name
+Fixes:LIZAD:symbol
+Fixes:LONAM:name
+Fixes:LONAM:symbol
+Fixes:LORKU:name
+Fixes:LORKU:symbol
+Fixes:LULOX:name
+Fixes:LULOX:symbol
+Fixes:LUSEN:name
+Fixes:LUSEN:symbol
+Fixes:LUTOV:name
+Fixes:LUTOV:symbol
+Fixes:MALOT:name
+Fixes:MALOT:symbol
+Fixes:MANIG:name
+Fixes:MANIG:symbol
+Fixes:MATIK:name
+Fixes:MATIK:symbol
+Fixes:MIMKU:name
+Fixes:MIMKU:symbol
+Fixes:MOLAK:name
+Fixes:MOLAK:symbol
+Fixes:MOLIX:name
+Fixes:MOLIX:symbol
+Fixes:MOPAT:name
+Fixes:MOPAT:symbol
+Fixes:MORAG:name
+Fixes:MORAG:symbol
+Fixes:MOTOX:name
+Fixes:MOTOX:symbol
+Fixes:NALAN:name
+Fixes:NALAN:symbol
+Fixes:NAVPI:name
+Fixes:NAVPI:symbol
+Fixes:NEBIN:name
+Fixes:NEBIN:symbol
+Fixes:NEVIL:name
+Fixes:NEVIL:symbol
+Fixes:NEVRI:name
+Fixes:NEVRI:symbol
+Fixes:NIBOG:name
+Fixes:NIBOG:symbol
+Fixes:NIMAT:name
+Fixes:NIMAT:symbol
+Fixes:NIPIT:name
+Fixes:NIPIT:symbol
+Fixes:NIRIF:name
+Fixes:NIRIF:symbol
+Fixes:NIVUN:name
+Fixes:NIVUN:symbol
+Fixes:NORLA:name
+Fixes:NORLA:symbol
+Fixes:OMOKO:name
+Fixes:OMOKO:symbol
+Fixes:ORTAC:name
+Fixes:ORTAC:symbol
+Fixes:ORTAV:name
+Fixes:ORTAV:symbol
+Fixes:ORVIK:name
+Fixes:ORVIK:symbol
+Fixes:OSBON:name
+Fixes:OSBON:symbol
+Fixes:PEMOS:name
+Fixes:PEMOS:symbol
+Fixes:PENUN:name
+Fixes:PENUN:symbol
+Fixes:PEPIN:name
+Fixes:PEPIN:symbol
+Fixes:PETIL:name
+Fixes:PETIL:symbol
+Fixes:PIKIL:name
+Fixes:PIKIL:symbol
+Fixes:RATKA:name
+Fixes:RATKA:symbol
+Fixes:RATSU:name
+Fixes:RATSU:symbol
+Fixes:REDFA:name
+Fixes:REDFA:symbol
+Fixes:RENEQ:name
+Fixes:RENEQ:symbol
+Fixes:RESNO:name
+Fixes:RESNO:symbol
+Fixes:RIGVU:name
+Fixes:RIGVU:symbol
+Fixes:RINTI:name
+Fixes:RINTI:symbol
+Fixes:RIXUN:name
+Fixes:RIXUN:symbol
+Fixes:RODEL:name
+Fixes:RODEL:symbol
+Fixes:ROTEV:name
+Fixes:ROTEV:symbol
+Fixes:ROVNI:name
+Fixes:ROVNI:symbol
+Fixes:RUBEX:name
+Fixes:RUBEX:symbol
+Fixes:SALCO:name
+Fixes:SALCO:symbol
+Fixes:SAMON:name
+Fixes:SAMON:symbol
+Fixes:SASKI:name
+Fixes:SASKI:symbol
+Fixes:SITET:name
+Fixes:SITET:symbol
+Fixes:SKERY:name
+Fixes:SKERY:symbol
+Fixes:SKESO:name
+Fixes:SKESO:symbol
+Fixes:SLANY:name
+Fixes:SLANY:symbol
+Fixes:SOMAX:name
+Fixes:SOMAX:symbol
+Fixes:SOMVA:name
+Fixes:SOMVA:symbol
+Fixes:SOPTO:name
+Fixes:SOPTO:symbol
+Fixes:SOSAR:name
+Fixes:SOSAR:symbol
+Fixes:SOSIM:name
+Fixes:SOSIM:symbol
+Fixes:SUBUK:name
+Fixes:SUBUK:symbol
+Fixes:SUMUM:name
+Fixes:SUMUM:symbol
+Fixes:SUNOT:name
+Fixes:SUNOT:symbol
+Fixes:TAKAS:name
+Fixes:TAKAS:symbol
+Fixes:TALIG:name
+Fixes:TALIG:symbol
+Fixes:TAMEL:name
+Fixes:TAMEL:symbol
+Fixes:TILNI:name
+Fixes:TILNI:symbol
+Fixes:TINAC:name
+Fixes:TINAC:symbol
+Fixes:TOBOR:name
+Fixes:TOBOR:symbol
+Fixes:TOPPA:name
+Fixes:TOPPA:symbol
+Fixes:TRACA:name
+Fixes:TRACA:symbol
+Fixes:TULTA:name
+Fixes:TULTA:symbol
+Fixes:TUPEM:name
+Fixes:TUPEM:symbol
+Fixes:TURLU:name
+Fixes:TURLU:symbol
+Fixes:VABIK:name
+Fixes:VABIK:symbol
+Fixes:VALBO:name
+Fixes:VALBO:symbol
+Fixes:VATRY:name
+Fixes:VATRY:symbol
+Fixes:VAXIT:name
+Fixes:VAXIT:symbol
+Fixes:VENER:name
+Fixes:VENER:symbol
+Fixes:XAMAB:name
+Fixes:XAMAB:symbol
+Fixes:XIDIL:name
+Fixes:XIDIL:symbol
+Geo:Coastline (Medium Detail) GB Main Coastline:
+SHOWC:0
+SHOWSB:0
+BELOW:65000
+ABOVE:66000
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Flight Information Display
+WINDOWAREA:48.803171:-23.855087:61.025516:14.785232
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:0
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

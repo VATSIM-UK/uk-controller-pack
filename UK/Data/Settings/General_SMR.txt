@@ -2,7 +2,7 @@ m_PlaySounds:1
 m_AssumeSlowAcAsStandby:1
 m_ShowAirspaceLines:1
 m_ShowRouteFixName:1
-m_ShowRouteETA:1
+m_ShowRouteETA:0
 m_ShowCalculatedHeading:1
 m_ShowSimulatedData:0
 m_TransitionAltitude:6500
@@ -130,6 +130,6 @@ m_TaxiOutTime:7
 m_StartupTime:10
 m_ConnectTime:15
 m_AutoAssumeOnGroundStateChangeButton:0
-m_ShowTrackMilesInRouteButton:1
+m_ShowTrackMilesInRouteButton:0
 m_FilterOutSquawks:
 m_EquipmentsIcaoFormat:1
