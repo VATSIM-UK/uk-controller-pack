@@ -3,6 +3,7 @@
 2. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
 3. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
 4. Enhancement - TopSky updated to 2.5 beta 9 - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updated vSMR and added Heathrow (EGLL) Geofenced config - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
