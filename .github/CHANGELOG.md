@@ -1,3 +1,6 @@
+# Changes from release 2024/06 to 2024/07
+1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
+
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
