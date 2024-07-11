@@ -81,7 +81,7 @@ for root, dirs, files in os.walk(os.getcwd()):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
                 line = f.read()
-                line = line.replace("END", "vSMR:cpdlc_password:"+CPDLC+"\nEND")
+                line = line.replace("END", "vSMR Vatsim UK:cpdlc_password:"+CPDLC+"\nEND")
                 writeFile = open(file_path, "w")
                 writeFile.write(line)
 
