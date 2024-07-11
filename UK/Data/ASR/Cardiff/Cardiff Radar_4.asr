@@ -3386,4 +3386,4 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;ASR_WESSEX
-PLUGIN:vSMR:Airport:EGFF
+PLUGIN:vSMR Vatsim UK:Airport:EGFF

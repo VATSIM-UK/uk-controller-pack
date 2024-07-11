@@ -3242,5 +3242,5 @@ PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
-PLUGIN:vSMR:Airport:EGLC
-PLUGIN:vSMR:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:Airport:EGLC
+PLUGIN:vSMR Vatsim UK:GndTrailsDots:0

@@ -3243,15 +3243,15 @@ PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
-PLUGIN:vSMR:Airport:EGJJ
-PLUGIN:vSMR:GndTrailsDots:0
-PLUGIN:vSMR:SRW1BottomRightX:1920
-PLUGIN:vSMR:SRW1BottomRightY:928
-PLUGIN:vSMR:SRW1Display:1
-PLUGIN:vSMR:SRW1Filter:5500
-PLUGIN:vSMR:SRW1OffsetX:0
-PLUGIN:vSMR:SRW1OffsetY:0
-PLUGIN:vSMR:SRW1Rotation:7
-PLUGIN:vSMR:SRW1Scale:15
-PLUGIN:vSMR:SRW1TopLeftX:1545
-PLUGIN:vSMR:SRW1TopLeftY:629
+PLUGIN:vSMR Vatsim UK:Airport:EGJJ
+PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightX:1920
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightY:928
+PLUGIN:vSMR Vatsim UK:SRW1Display:1
+PLUGIN:vSMR Vatsim UK:SRW1Filter:5500
+PLUGIN:vSMR Vatsim UK:SRW1OffsetX:0
+PLUGIN:vSMR Vatsim UK:SRW1OffsetY:0
+PLUGIN:vSMR Vatsim UK:SRW1Rotation:7
+PLUGIN:vSMR Vatsim UK:SRW1Scale:15
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftX:1545
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftY:629

@@ -3630,4 +3630,4 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_COTSWOLD;ASR_PORTLAND;
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-PLUGIN:vSMR:Airport:EGGD
+PLUGIN:vSMR Vatsim UK:Airport:EGGD
