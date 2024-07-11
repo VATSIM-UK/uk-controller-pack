@@ -1,5 +1,6 @@
 # Changes from release 2024/06 to 2024/07
-1. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
+1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
+2. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
