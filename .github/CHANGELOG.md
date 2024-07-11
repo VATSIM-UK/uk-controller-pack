@@ -1,3 +1,6 @@
+# Changes from release 2024/06 to 2024/07
+x. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
@@ -16,7 +19,6 @@
 15. AIRAC (2406) - EGKK SMAA Area C added to TopSky MSAW data - thanks to @luke11brown (Luke Brown)
 16. Enhancement - Added Route checker display to all SMR profiles - thanks to @luke11brown (Luke Brown)
 17. Enhancement - Added SRW display to all SMR profiles - thanks to @luke11brown (Luke Brown)
-x. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
