@@ -38,13 +38,13 @@ AIW_FlightRules=1
 
 //Colour settings
 //Danger area (red)
-Color_Active_Map_Type_1=120,120,120
+Color_Active_Map_Type_1=120,0,0
 //ARTCC High (Grey on NERC)
 Color_Active_Map_Type_2=80,80,80
 //Freetext
 Color_Active_Map_Type_3=65,65,65
 //STARs (RMA Lines)
-Color_Active_Map_Type_4=120,0,0
+Color_Active_Map_Type_4=120,120,120
 //Centrelines
 Color_Active_Map_Type_5=75,75,75
 //OCAS infill
