@@ -35,7 +35,7 @@ ASRFastKeys	8	\..\..\Data\ASR\PX_AC\ACG4.asr
 ASRFastKeys	9	\..\..\Data\ASR\PX_AC\ACG5.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
-Plugins	Plugin1	\..\..\Data\Plugin\TopSky\TopSky.dll
+Plugins	Plugin1	\..\..\Data\Plugin\TopSky_NERC\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
