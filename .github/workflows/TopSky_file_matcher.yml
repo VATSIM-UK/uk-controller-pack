@@ -55,10 +55,6 @@ on:
       - 'UK/Data/Plugin/TopSky_iTEC/TopSkyRadars.txt'
       - 'UK/Data/Plugin/TopSky_NODE/TopSkyRadars.txt'
       - 'UK/Data/Plugin/TopSky_NOVA/TopSkyRadars.txt'
-      - 'UK/Data/Plugin/TopSky_NERC/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_iTEC/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_NODE/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_NOVA/TopSkySSRCodes.txt'
   pull_request:
     paths:
       - 'UK/Data/Plugin/TopSky_NERC/ICAO_Aircraft.json'
@@ -113,10 +109,6 @@ on:
       - 'UK/Data/Plugin/TopSky_iTEC/TopSkyRadars.txt'
       - 'UK/Data/Plugin/TopSky_NODE/TopSkyRadars.txt'
       - 'UK/Data/Plugin/TopSky_NOVA/TopSkyRadars.txt'
-      - 'UK/Data/Plugin/TopSky_NERC/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_iTEC/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_NODE/TopSkySSRCodes.txt'
-      - 'UK/Data/Plugin/TopSky_NOVA/TopSkySSRCodes.txt'
 
 
 jobs:
@@ -292,19 +284,6 @@ jobs:
           
           if ! cmp --silent "$file1" "$file2" || ! cmp --silent "$file1" "$file3" || ! cmp --silent "$file1" "$file4"; then
             echo "TopSkyRadars.txt files do not match!"
-            exit 1
-          fi
-        shell: bash
-
-      - name: Check if TopSkySSRCodes.txt files match
-        run: |
-          file1="UK/Data/Plugin/TopSky_NERC/TopSkySSRCodes.txt"
-          file2="UK/Data/Plugin/TopSky_iTEC/TopSkySSRCodes.txt"
-          file3="UK/Data/Plugin/TopSky_NODE/TopSkySSRCodes.txt"
-          file4="UK/Data/Plugin/TopSky_NOVA/TopSkySSRCodes.txt"
-          
-          if ! cmp --silent "$file1" "$file2" || ! cmp --silent "$file1" "$file3" || ! cmp --silent "$file1" "$file4"; then
-            echo "TopSkySSRCodes.txt files do not match!"
             exit 1
           fi
         shell: bash
