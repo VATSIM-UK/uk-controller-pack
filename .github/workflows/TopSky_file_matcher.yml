@@ -1,5 +1,7 @@
 name: Check TopSky Data Files
 
+name: Check Files Match
+
 on: 
   push:
     paths:
@@ -51,14 +53,61 @@ on:
       - 'UK/Data/Plugin/TopSky_iTEC/TopSkyMSAW.txt'
       - 'UK/Data/Plugin/TopSky_NODE/TopSkyMSAW.txt'
       - 'UK/Data/Plugin/TopSky_NOVA/TopSkyMSAW.txt'
-      - 'UK/Data/Plugin/TopSky_NERC/TopSkyRadars.txt'
-      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyRadars.txt'
-      - 'UK/Data/Plugin/TopSky_NODE/TopSkyRadars.txt'
-      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyRadars.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSKyRadars.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSKyRadars.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSKyRadars.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSKyRadars.txt'
       - 'UK/Data/Plugin/TopSky_NERC/TopSkySSRCodes.txt'
       - 'UK/Data/Plugin/TopSky_iTEC/TopSkySSRCodes.txt'
       - 'UK/Data/Plugin/TopSky_NODE/TopSkySSRCodes.txt'
       - 'UK/Data/Plugin/TopSky_NOVA/TopSkySSRCodes.txt'
+  pull_request:
+    paths:
+      - 'UK/Data/Plugin/TopSky_NERC/ICAO_Aircraft.json'
+      - 'UK/Data/Plugin/TopSky_iTEC/ICAO_Aircraft.json'
+      - 'UK/Data/Plugin/TopSky_NODE/ICAO_Aircraft.json'
+      - 'UK/Data/Plugin/TopSky_NOVA/ICAO_Aircraft.json'
+      - 'UK/Data/Plugin/TopSky_NERC/ICAO_Aircraft.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/ICAO_Aircraft.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/ICAO_Aircraft.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/ICAO_Aircraft.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/ICAO_Airlines.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/ICAO_Airlines.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/ICAO_Airlines.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/ICAO_Airlines.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/ICAO_Airports.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/ICAO_Airports.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/ICAO_Airports.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/ICAO_Airports.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyAirspace.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyAirspace.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyAirspace.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyAirspace.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyAreas.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyAreas.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyAreas.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyAreas.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyCallsigns.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyCallsigns.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyCallsigns.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyCallsigns.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyCallsignsLocal.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyCallsignsLocal.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyCallsignsLocal.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyCallsignsLocal.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyCPDLC.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyCPDLC.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyCPDLC.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyCPDLC.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyCPDLChoppieCode.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyCPDLChoppieCode.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyCPDLChoppieCode.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/TopSkyCPDLChoppieCode.txt'
+      - 'UK/Data/Plugin/TopSky_NERC/TopSkyMaps.txt'
+      - 'UK/Data/Plugin/TopSky_iTEC/TopSkyMaps.txt'
+      - 'UK/Data/Plugin/TopSky_NODE/TopSkyMaps.txt'
+      - 'UK/Data/Plugin/TopSky_NOVA/Top
+
 
 jobs:
   check_files:
