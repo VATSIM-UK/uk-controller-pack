@@ -1,7 +1,5 @@
 name: Check TopSky Data Files
 
-name: Check Files Match
-
 on: 
   push:
     paths:
