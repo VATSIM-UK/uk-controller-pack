@@ -45,14 +45,22 @@ Color_Redundant=200,125,170
 //Colour settings
 Color_ACF_Via_CFL
 Color_Active_Map=139,0,0
-Color_Active_Map_Type_1=139,0,0
-Color_Active_Map_Type_2
-Color_Active_Map_Type_3
-Color_Active_Map_Type_4
-Color_Active_Map_Type_5
-Color_Active_Map_Type_6
-Color_Active_Map_Type_7
-Color_Active_Map_Type_8
+//Danger area (red)
+Color_Active_Map_Type_1=255,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=168,164,165
+//Freetext
+Color_Active_Map_Type_3=128,128,128
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=120,120,120
+//Centrelines
+Color_Active_Map_Type_5=134,134,134
+//OCAS infill
+Color_Active_Map_Type_6=187,187,187
+//Sector background infill
+Color_Active_Map_Type_7=187,187,187
+//Fixes
+Color_Active_Map_Type_8=140,140,140
 Color_Active_Map_Type_9
 Color_Active_Map_Type_10
 Color_Active_Map_Type_11
