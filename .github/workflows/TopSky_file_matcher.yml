@@ -1,4 +1,4 @@
-name: Check TopSky Data Files
+name: TopSky Data Files
 
 on: 
   push:
@@ -120,7 +120,7 @@ on:
 
 
 jobs:
-  check_files:
+  Check Files Match:
     runs-on: ubuntu-latest
 
     steps:
