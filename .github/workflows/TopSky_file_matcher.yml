@@ -120,7 +120,7 @@ on:
 
 
 jobs:
-  Check Files Match:
+  Check_Files_Match:
     runs-on: ubuntu-latest
 
     steps:
