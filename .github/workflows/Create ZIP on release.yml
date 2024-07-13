@@ -27,9 +27,9 @@ jobs:
         id: previous_release_commit
         run: |
           PREVIOUS_TAG=$(git tag --sort=-creatordate | sed -n '2p')
-          PREVIOUS_COMMIT=$(git rev-list -n 1 $PREVIOUS_TAG)
-          echo "PREVIOUS_TAG=$PREVIOUS_TAG" >> $GITHUB_ENV
-          echo "PREVIOUS_COMMIT=$PREVIOUS_COMMIT" >> $GITHUB_ENV    # This gets the commit at previous release
+          echo "PREVIOUS_TAG=${PREVIOUS_TAG}" >> $GITHUB_ENV
+          PREVIOUS_COMMIT=$(git rev-list -n 1 "$PREVIOUS_TAG")
+          echo "PREVIOUS_COMMIT=${PREVIOUS_COMMIT}" >> $GITHUB_ENV
 
       - name: Package Full as ZIP
         run: |
