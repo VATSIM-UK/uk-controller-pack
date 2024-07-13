@@ -2148,7 +2148,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:51.461316:-1.495763:52.452651:1.638291
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,FixLabelsPLUGIN:TopSky plugin:HideMapData:NERC,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
