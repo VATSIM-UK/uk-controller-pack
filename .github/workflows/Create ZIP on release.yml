@@ -12,25 +12,53 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Copy README from docs folder
         run: |
-          cp _docs/README.pdf UK/README.pdf
+          cp _docs/README.pdf UK/README.pdf     # This will include the README.pdf in the compiled ZIPs
 
       - name: Get Release Tag
         id: get_release_tag
         run: |
-          echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+          echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_ENV # Important that the release tag is set to YYYY_MM
 
-      - name: Package Folder as ZIP
+      - name: Get Previous Release Commit
+        id: previous_release_commit
         run: |
-          zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
-          
-      - name: Upload ZIP as Release Asset
-        uses: softprops/action-gh-release@v1
+          PREVIOUS_TAG=$(git tag --sort=-creatordate | sed -n '2p')
+          PREVIOUS_COMMIT=$(git rev-list -n 1 $PREVIOUS_TAG)
+          echo "PREVIOUS_TAG=$PREVIOUS_TAG" >> $GITHUB_ENV
+          echo "PREVIOUS_COMMIT=$PREVIOUS_COMMIT" >> $GITHUB_ENV    # This gets the commit at previous release
+
+      - name: Package Full as ZIP
+        run: |
+          zip -r "uk_controller_pack_${{ env.tag }}.zip" UK/ -x "*.py" # Includes only files in the UK/ folder, excluding .py files
+
+      - name: Package Changes Only as ZIP
+        run: |
+          git diff --diff-filter=d --name-only -z ${{ env.PREVIOUS_COMMIT }}^ > changed_files.txt
+          touch files_to_archive.txt
+          while IFS= read -r -d '' file; do
+            if [ "$(git diff ${{ env.PREVIOUS_COMMIT }} -- $file | grep -c '^+')" -eq 1 ] && [ "$(git diff ${{ env.PREVIOUS_COMMIT }} -- $file | grep '^+' | grep -c '^+Settings sector')" -eq 1 ]; then
+              continue
+            fi
+            # Only include files under UK/ directory and exclude *.py files
+            if [[ $file == UK/* ]] && [[ $file != *.py ]]; then
+              echo "$file" >> files_to_archive.txt
+            fi
+          done < changed_files.txt
+          if [ -s files_to_archive.txt ]; then
+            xargs -0 git archive -o "changed_files_${{ env.tag }}.zip" HEAD < <(tr '\n' '\0' < files_to_archive.txt)
+          else
+            echo "No changed files since last release" > "changes_only_${{ env.tag }}.zip"
+          fi
+
+      - name: Upload ZIPs as Release Assets
+        uses: softprops/action-gh-release@v1  # Ensure this action supports the required Node.js version
         with:
           files: |
-            uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+            uk_controller_pack_${{ env.tag }}.zip
+            changes_only_${{ env.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
