@@ -1,12 +1,12 @@
 //Fixes
-POLYGON -4 3 0 -4 4 3
+POLYGON:-4:3:0:-4:4:3
 
-//History Dot
-MOVETO -1 -1
-LINETO -1 0
-LINETO 0 0
-LINETO 0 -1
-LINETO -1 -1
+//History:Dot
+MOVETO:-1:-1
+LINETO:-1:0
+LINETO:0:0
+LINETO:0:-1
+LINETO:-1:-1
 
 //Coasting
 SYMBOL:COASTED
