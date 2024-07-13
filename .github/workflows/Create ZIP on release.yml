@@ -23,11 +23,15 @@ jobs:
         run: |
           echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_ENV # Important that the release tag is set to YYYY_MM
 
-      - name: Get Previous Release Commit
-        id: previous_release_commit
+      - name: Get Previous Release Tag
+        id: previous_release_tag
         run: |
           PREVIOUS_TAG=$(git tag --sort=-creatordate | sed -n '2p')
           echo "PREVIOUS_TAG=${PREVIOUS_TAG}" >> $GITHUB_ENV
+
+      - name: Get Previous Release Commit
+        id: previous_release_commit
+        run: |
           PREVIOUS_COMMIT=$(git rev-list -n 1 "$PREVIOUS_TAG")
           echo "PREVIOUS_COMMIT=${PREVIOUS_COMMIT}" >> $GITHUB_ENV
 
