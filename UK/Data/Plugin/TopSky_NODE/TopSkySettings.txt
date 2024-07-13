@@ -162,7 +162,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,975,0
+Window_CPDLC_Current=1,1025,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
