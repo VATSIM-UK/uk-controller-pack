@@ -6,6 +6,7 @@ MOVETO:-1:0
 LINETO:2:0
 
 //History:Dot
+SYMBOL:HISTORY
 POLYGON:-1:-1:-1:1:1:1:1:-1
 
 //Coasting

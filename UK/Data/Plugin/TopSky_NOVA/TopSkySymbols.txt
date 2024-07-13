@@ -1,7 +1,9 @@
 //Fixes
+SYMBOL:FIX
 POLYGON:-4:3:0:-4:4:3
 
 //History:Dot
+SYMBOL:HISTORY
 MOVETO:-1:-1
 LINETO:-1:0
 LINETO:0:0
