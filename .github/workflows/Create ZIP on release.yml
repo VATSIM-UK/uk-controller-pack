@@ -32,7 +32,7 @@ jobs:
       - name: Get Previous Release Commit
         id: previous_release_commit
         run: |
-          PREVIOUS_COMMIT=$(git rev-list -n 1 "$PREVIOUS_TAG")
+          PREVIOUS_COMMIT=$(git rev-parse "$PREVIOUS_TAG")
           echo "PREVIOUS_COMMIT=${PREVIOUS_COMMIT}" >> $GITHUB_ENV
 
       - name: Package Full as ZIP
