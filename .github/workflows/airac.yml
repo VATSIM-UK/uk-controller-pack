@@ -39,6 +39,15 @@ jobs:
           git add .
           git commit -m "Update sector file and GNG data"
 
+      - name: Update SMR labels
+        run: |
+          bash workflows/airac/update-smr-labels.sh
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update SMR labels"
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
