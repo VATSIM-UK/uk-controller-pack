@@ -1,3 +1,6 @@
+# Changes from release 2024/07 to 2024/08
+X. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
 2. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
@@ -5,7 +8,6 @@
 4. Enhancement - TopSky updated to 2.5 beta 9 - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated vSMR and added Heathrow (EGLL) Geofenced config - thanks to @AliceFord (Alice Ford)
 6. Enhancement - Added Glasgow radar lines - thanks to @luke11brown (Luke Brown)
-7. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
