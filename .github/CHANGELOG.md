@@ -5,6 +5,7 @@
 4. Enhancement - TopSky updated to 2.5 beta 9 - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated vSMR and added Heathrow (EGLL) Geofenced config - thanks to @AliceFord (Alice Ford)
 6. Enhancement - Added Glasgow radar lines - thanks to @luke11brown (Luke Brown)
+7. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99
