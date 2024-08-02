@@ -1,3 +1,6 @@
+# Changes from release 2024/07 to 2024/08
+X. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
+
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
 2. Procedure Change (2407) - Updated Cambridge (EGSC) and Ronaldsway (EGNS) frequencies - thanks to @PLM1995 (Peter Mooney)
