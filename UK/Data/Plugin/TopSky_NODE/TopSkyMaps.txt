@@ -376,6 +376,7 @@ MAP:Berry Head CTA 2/4 Fixes
 //Fixes below drawn to deal with ES-TopSky draw order
 FONTSIZE:*:.7
 COLOR:Active_Map_Type_8
+ASRDATA:NERC
 //Fixes Without Labels
 ASRDATA:Fixes
 SYMBOL:Fix:BIGNO: :17:-5
