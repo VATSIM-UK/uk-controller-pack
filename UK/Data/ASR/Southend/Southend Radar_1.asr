@@ -220,11 +220,6 @@ Airports:EIDL:symbol
 Airports:EIDW:symbol
 Airports:LFAC:symbol
 Airports:LFAT:symbol
-ARTCC boundary:EGD138A:
-ARTCC boundary:EGD138B:
-ARTCC boundary:EGD138C:
-ARTCC boundary:EGD138D:
-ARTCC boundary:EGD139:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
