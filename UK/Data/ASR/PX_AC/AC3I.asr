@@ -254,13 +254,10 @@ ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high boundary:Berry Head CTA (Conditional):
 ARTCC high boundary:Borders CTA:
-ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -284,9 +281,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
-ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
-ARTCC high boundary:Portsmouth CTA (Conditional):
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -294,7 +289,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
-ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
@@ -1446,20 +1440,6 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Free Text:Airspace Bases - Borders CTA 3\FL125:freetext
-Free Text:Airspace Bases - Conditional Borders CTA\FL155*D:freetext
-Free Text:Airspace Bases - Conditional Borders CTA\FL155*D:freetext
-Free Text:Airspace Bases - Conditional Borders CTA\FL165*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\4500*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL105*:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL115*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL135*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL65*:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL75*D:freetext
-Free Text:Airspace Bases - Conditional Tay CTA\FL85*:freetext
 Free Text:Airspace Bases - Yorkshire CTA 4\FL125:freetext
 Free Text:Airspace Bases - Yorkshire CTA 4\FL125:freetext
 Free Text:Airspace Bases\2000D:freetext
