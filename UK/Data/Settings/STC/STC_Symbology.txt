@@ -23,8 +23,8 @@ NDBs:frequency:7895040:3.5:0:0:0
 Runways:centerline:7895040:3.5:0:0:7
 Runways:extended centerline:8421376:3.5:0:0:7
 Runways:name:7895040:3.5:0:0:7
-Datablock:non concerned:2337594:3.2:0:0:7
-Datablock:notified:2003250:3.2:0:0:7
+Datablock:non concerned:9211020:3.2:0:0:7
+Datablock:notified:51400:3.2:0:0:7
 Datablock:assumed:4184154:3.2:0:0:7
 Datablock:transfer to me initiated:14418140:3.2:0:0:7
 Datablock:redundant:2003250:3.2:0:0:7
