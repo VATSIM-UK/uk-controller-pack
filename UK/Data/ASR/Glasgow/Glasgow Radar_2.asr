@@ -1658,7 +1658,6 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Geo:Extended centrelines:
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
 Regions:A-Northwest:polygon
