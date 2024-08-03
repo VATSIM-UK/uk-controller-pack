@@ -1,5 +1,6 @@
 # Changes from release 2024/07 to 2024/08
-X. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
+1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
+2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
 
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)

@@ -12,7 +12,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 22625,
+      "AtisFrequency": 22630,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -178,7 +178,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 26500,
+      "AtisFrequency": 26505,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -538,7 +538,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 20725,
+      "AtisFrequency": 20730,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -732,7 +732,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 19025,
+      "AtisFrequency": 19030,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -926,7 +926,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 26325,
+      "AtisFrequency": 26330,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
