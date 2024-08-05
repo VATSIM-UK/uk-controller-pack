@@ -1453,12 +1453,6 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Runways:EGTE Exeter 08-26:extended centerline 1
-Runways:EGTE Exeter 08-26:extended centerline 1 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 1 right ticks
-Runways:EGTE Exeter 08-26:extended centerline 2
-Runways:EGTE Exeter 08-26:extended centerline 2 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 2 right ticks
 Sids:EGTE Exeter SMAA:
 VORs:ABB:symbol
 VORs:ADN:symbol

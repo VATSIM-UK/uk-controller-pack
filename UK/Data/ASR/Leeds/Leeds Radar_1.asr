@@ -370,12 +370,6 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace (Grey):polygon
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1 left ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1 right ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2 left ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2 right ticks
 Sids:EGNM Leeds Bradford SMAA:
 Stars:Leeds Bradford Gates:
 Stars:Leeds Delegation Line:
