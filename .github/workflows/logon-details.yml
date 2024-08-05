@@ -1,4 +1,4 @@
-name: Complie LogonDetails.exe
+name: Compile LogonDetails.exe
 
 on:
   push:
@@ -7,17 +7,17 @@ on:
 
 jobs:
   changes:
-    name: Check for Changes
+    name: Check for changes
     runs-on: ubuntu-latest
     permissions:
       pull-requests: read
     outputs:
       build: ${{ steps.filter.outputs.build }}
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Check for Changes
+      - name: Check for changes
         uses: dorny/paths-filter@v2
         id: filter
         with:
@@ -26,7 +26,7 @@ jobs:
               - './UK/LogonDetails.py'
 
   build-exe:
-    name: Build EXE
+    name: Build executable
     runs-on: windows-latest
     needs: changes
     if: ${{ needs.changes.outputs.build == 'true' }}
@@ -34,7 +34,7 @@ jobs:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
@@ -44,16 +44,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: pip install pyinstaller
 
-      - name: Run Python Script
-        run: pyinstaller --distpath ./UK/ --onefile --icon=./.github/workflows/logo.ico -n LogonDetails.exe ./UK/LogonDetails.py
+      - name: Compile executable
+        run: pyinstaller --distpath UK/ --onefile --icon=workflows/logon-details/logo.ico -n LogonDetails.exe UK/LogonDetails.py
 
-      - name: Commit exe File
+      - name: Commit executable
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
           git config --local user.name "VATSIM UK"
-          git add ./UK/LogonDetails.exe
+          git add UK/LogonDetails.exe
           git commit -m "Update LogonDetails.exe"
           git push

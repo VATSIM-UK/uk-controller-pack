@@ -1,4 +1,4 @@
-name: Automatic AIRAC Actions
+name: Automatic AIRAC actions
 
 on:
   repository_dispatch:
@@ -6,35 +6,47 @@ on:
   workflow_dispatch:
 
 jobs:
-  python-script-and-pr:
+  airac:
+    name: Perform AIRAC actions
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Git
+        run: |
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install -r .github/workflows/requirements.txt
+        run: pip install -r workflows/airac/requirements.txt
 
-      - name: Run Python script
+      - name: Update sector file and GNG data
         env:
-            REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
+          REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python .github/workflows/auto_airac_actions.py
+          python workflows/airac/auto_airac_actions.py
           echo "airac=$(cat airac.txt)" >> "$GITHUB_ENV"
           rm airac.txt
 
       - name: Commit changes
         run: |
-          git config --local user.email "privileged-access@vatsim.uk"
-          git config --local user.name "VATSIM UK"
           git add .
-          git commit -m "Sector file update for AIRAC ${{ env.airac }}"
+          git commit -m "Update sector file and GNG data"
+
+      - name: Update SMR labels
+        run: |
+          bash workflows/airac/update-smr-labels.sh
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update SMR labels"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
