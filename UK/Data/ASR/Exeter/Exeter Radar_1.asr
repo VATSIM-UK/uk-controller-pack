@@ -362,12 +362,6 @@ ARTCC low boundary:LFRG Deauville CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Runways:EGTE Exeter 08-26:extended centerline 1
-Runways:EGTE Exeter 08-26:extended centerline 1 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 1 right ticks
-Runways:EGTE Exeter 08-26:extended centerline 2
-Runways:EGTE Exeter 08-26:extended centerline 2 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 2 right ticks
 Sids:EGTE Exeter SMAA:
 Stars:EXMOR Burnham Line:
 SHOWC:1
@@ -384,6 +378,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:50.417205:-4.415947:51.051128:-2.411831
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

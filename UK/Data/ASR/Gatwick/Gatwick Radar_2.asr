@@ -251,7 +251,6 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
-ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
@@ -260,7 +259,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
-ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
@@ -1423,7 +1421,6 @@ Fixes:ZIPWE:symbol
 Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
-Geo:Extended centrelines:
 Stars:Gatwick RMA Westerlies:
 VORs:ABB:symbol
 VORs:ADN:symbol
@@ -1534,7 +1531,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.184318:-2.603270:51.841227:2.634963
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
