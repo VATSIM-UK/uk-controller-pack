@@ -3131,12 +3131,6 @@ Free Text:EGTE VRPs\*Cullompton:freetext
 Free Text:EGTE VRPs\*Exmouth:freetext
 Free Text:EGTE VRPs\*Topsham:freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Runways:EGTE Exeter 08-26:extended centerline 1
-Runways:EGTE Exeter 08-26:extended centerline 1 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 1 right ticks
-Runways:EGTE Exeter 08-26:extended centerline 2
-Runways:EGTE Exeter 08-26:extended centerline 2 left ticks
-Runways:EGTE Exeter 08-26:extended centerline 2 right ticks
 Sids:EGTE Exeter SMAA:
 VORs:ABB:name
 VORs:ABB:symbol
@@ -3342,7 +3336,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:50.417205:-4.415947:51.051128:-2.411831
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
