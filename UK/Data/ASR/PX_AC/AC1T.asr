@@ -44,6 +44,8 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:

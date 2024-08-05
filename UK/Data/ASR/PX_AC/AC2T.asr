@@ -44,6 +44,9 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
 Fixes:ABBEW:symbol
 Fixes:ABBOT:symbol
 Fixes:ABEDA:symbol
@@ -1147,6 +1150,8 @@ Sids:Scottish Deancross:
 Sids:Scottish Rathlin:
 Sids:Scottish TMA Galloway:
 Sids:Scottish TMA Talla:
+Stars:Edinburgh Local Area:
+Stars:Glasgow Local Area:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AMB:symbol
