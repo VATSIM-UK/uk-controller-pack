@@ -208,6 +208,7 @@ Window_CARD_View_Risk=0
 Window_CARD_View_Future=0
 
 [EGAA_]
+Setup_ScreenLat=EGAA
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=128,0,0
@@ -222,6 +223,7 @@ Color_Active_Map_Type_4=150,150,150
 Color_Active_Map_Type_5=24,99,103
 
 [EGAC_]
+Setup_ScreenLat=EGAC
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=128,0,0
@@ -236,6 +238,7 @@ Color_Active_Map_Type_4=150,150,150
 Color_Active_Map_Type_5=24,99,103
 
 [EGBB_]
+Setup_ScreenLat=EGBB
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=192,7,35
@@ -250,6 +253,7 @@ Color_Active_Map_Type_4=210,210,210
 Color_Active_Map_Type_5=255,255,255
 
 [EGGD_]
+Setup_ScreenLat=EGGD
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=198,115,113
@@ -264,6 +268,7 @@ Color_Active_Map_Type_4=208,210,221
 Color_Active_Map_Type_5=125,189,189
 
 [EGFF_]
+Setup_ScreenLat=EGFF
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=90,20,10
@@ -278,6 +283,7 @@ Color_Active_Map_Type_4=95,185,95
 Color_Active_Map_Type_5=230,180,40
 
 [EGNX_]
+Setup_ScreenLat=EGNX
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=130,26,26
@@ -292,6 +298,7 @@ Color_Active_Map_Type_4=154,164,171
 Color_Active_Map_Type_5=50,90,60
 
 [EGPH_]
+Setup_ScreenLat=EGPH
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=255,100,55
@@ -306,6 +313,7 @@ Color_Active_Map_Type_4=150,150,150
 Color_Active_Map_Type_5=255,255,190
 
 [EGTE_]
+Setup_ScreenLat=EGTE
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=130,26,26
@@ -320,6 +328,7 @@ Color_Active_Map_Type_4=154,164,171
 Color_Active_Map_Type_5=120,120,130
 
 [EGPF_]
+Setup_ScreenLat=EGPF
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=210,0,0
@@ -334,6 +343,7 @@ Color_Active_Map_Type_4=0,255,255
 Color_Active_Map_Type_5=0,210,210
 
 [EGNM_]
+Setup_ScreenLat=EGNM
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=200,40,30
@@ -348,6 +358,7 @@ Color_Active_Map_Type_4=0,0,0
 Color_Active_Map_Type_5=154,164,171
 
 [EGGP_]
+Setup_ScreenLat=EGGP
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=120,24,41
@@ -362,6 +373,7 @@ Color_Active_Map_Type_4=210,100,90
 Color_Active_Map_Type_5=255,255,170
 
 [EGCC_]
+Setup_ScreenLat=EGCC
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=230,80,70
@@ -376,6 +388,7 @@ Color_Active_Map_Type_4=160,160,160
 Color_Active_Map_Type_5=255,255,170
 
 [EGNT_]
+Setup_ScreenLat=EGNT
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=180,0,0
@@ -390,6 +403,7 @@ Color_Active_Map_Type_4=175,190,60
 Color_Active_Map_Type_5=128,128,0
 
 [SOLENT_]
+Setup_ScreenLat=EGHI
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=210,0,0
@@ -404,6 +418,7 @@ Color_Active_Map_Type_4=0,255,255
 Color_Active_Map_Type_5=0,210,210
 
 [EGHI_]
+Setup_ScreenLat=EGHI
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=210,0,0
@@ -418,6 +433,7 @@ Color_Active_Map_Type_4=0,255,255
 Color_Active_Map_Type_5=0,210,210
 
 [EGHH_]
+Setup_ScreenLat=EGHH
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=210,0,0
@@ -432,6 +448,7 @@ Color_Active_Map_Type_4=0,255,255
 Color_Active_Map_Type_5=0,210,210
 
 [EGMC_]
+Setup_ScreenLat=EGMC
 //Colour settings
 //Danger area (red)
 Color_Active_Map_Type_1=120,24,41
