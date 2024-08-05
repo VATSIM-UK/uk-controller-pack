@@ -373,6 +373,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:EGTK Radar
 WINDOWAREA:51.440743:-2.572571:52.233146:-0.067429
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
