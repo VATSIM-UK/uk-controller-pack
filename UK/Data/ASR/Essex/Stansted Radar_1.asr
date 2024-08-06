@@ -318,7 +318,6 @@ ARTCC low boundary:LFOH Le Havre CTR:
 ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
-Geo:Extended centrelines:
 Stars:Luton-Stansted Buffer:
 Stars:Stansted Noise Sensitive Areas:
 Stars:Stansted RMA:
@@ -337,6 +336,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:51.461316:-1.495763:52.452651:1.638291
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

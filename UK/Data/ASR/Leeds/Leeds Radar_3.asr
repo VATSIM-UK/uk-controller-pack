@@ -219,197 +219,6 @@ Airports:EIDL:symbol
 Airports:EIDW:symbol
 Airports:LFAC:symbol
 Airports:LFAT:symbol
-ARTCC boundary:EBR08:
-ARTCC boundary:EBR17A:
-ARTCC boundary:EBR17B:
-ARTCC boundary:EBR17C:
-ARTCC boundary:EBR21:
-ARTCC boundary:EBR24B:
-ARTCC boundary:EBR25:
-ARTCC boundary:EBR31:
-ARTCC boundary:EBR56:
-ARTCC boundary:EDG113B:
-ARTCC boundary:EGD001:
-ARTCC boundary:EGD003:
-ARTCC boundary:EGD004:
-ARTCC boundary:EGD005A:
-ARTCC boundary:EGD005B:
-ARTCC boundary:EGD006A:
-ARTCC boundary:EGD006B:
-ARTCC boundary:EGD006C:
-ARTCC boundary:EGD007A:
-ARTCC boundary:EGD007B:
-ARTCC boundary:EGD007C:
-ARTCC boundary:EGD008A:
-ARTCC boundary:EGD008B:
-ARTCC boundary:EGD008C:
-ARTCC boundary:EGD009A:
-ARTCC boundary:EGD009B:
-ARTCC boundary:EGD011A:
-ARTCC boundary:EGD011B:
-ARTCC boundary:EGD011C:
-ARTCC boundary:EGD012:
-ARTCC boundary:EGD013:
-ARTCC boundary:EGD014:
-ARTCC boundary:EGD015:
-ARTCC boundary:EGD017:
-ARTCC boundary:EGD021:
-ARTCC boundary:EGD023:
-ARTCC boundary:EGD026:
-ARTCC boundary:EGD031:
-ARTCC boundary:EGD036:
-ARTCC boundary:EGD037:
-ARTCC boundary:EGD038:
-ARTCC boundary:EGD039:
-ARTCC boundary:EGD040:
-ARTCC boundary:EGD044:
-ARTCC boundary:EGD061:
-ARTCC boundary:EGD064A:
-ARTCC boundary:EGD064B:
-ARTCC boundary:EGD064C:
-ARTCC boundary:EGD110:
-ARTCC boundary:EGD113A:
-ARTCC boundary:EGD115A:
-ARTCC boundary:EGD115B:
-ARTCC boundary:EGD117:
-ARTCC boundary:EGD118:
-ARTCC boundary:EGD119:
-ARTCC boundary:EGD120:
-ARTCC boundary:EGD122A:
-ARTCC boundary:EGD122B:
-ARTCC boundary:EGD122C:
-ARTCC boundary:EGD123:
-ARTCC boundary:EGD124:
-ARTCC boundary:EGD125:
-ARTCC boundary:EGD126:
-ARTCC boundary:EGD127:
-ARTCC boundary:EGD128:
-ARTCC boundary:EGD129:
-ARTCC boundary:EGD130:
-ARTCC boundary:EGD132:
-ARTCC boundary:EGD133A:
-ARTCC boundary:EGD133B:
-ARTCC boundary:EGD136:
-ARTCC boundary:EGD138A:
-ARTCC boundary:EGD138B:
-ARTCC boundary:EGD138C:
-ARTCC boundary:EGD138D:
-ARTCC boundary:EGD139:
-ARTCC boundary:EGD141:
-ARTCC boundary:EGD147:
-ARTCC boundary:EGD201A:
-ARTCC boundary:EGD201B:
-ARTCC boundary:EGD201C:
-ARTCC boundary:EGD201D:
-ARTCC boundary:EGD201F:
-ARTCC boundary:EGD201G:
-ARTCC boundary:EGD201H:
-ARTCC boundary:EGD201J:
-ARTCC boundary:EGD202A:
-ARTCC boundary:EGD202B:
-ARTCC boundary:EGD202C:
-ARTCC boundary:EGD202D:
-ARTCC boundary:EGD203:
-ARTCC boundary:EGD206:
-ARTCC boundary:EGD207:
-ARTCC boundary:EGD208:
-ARTCC boundary:EGD211:
-ARTCC boundary:EGD213:
-ARTCC boundary:EGD215:
-ARTCC boundary:EGD216:
-ARTCC boundary:EGD304:
-ARTCC boundary:EGD305:
-ARTCC boundary:EGD307:
-ARTCC boundary:EGD314:
-ARTCC boundary:EGD323A:
-ARTCC boundary:EGD323B:
-ARTCC boundary:EGD323C:
-ARTCC boundary:EGD323D:
-ARTCC boundary:EGD323E:
-ARTCC boundary:EGD323F:
-ARTCC boundary:EGD323G:
-ARTCC boundary:EGD323H:
-ARTCC boundary:EGD323J:
-ARTCC boundary:EGD323K:
-ARTCC boundary:EGD323L:
-ARTCC boundary:EGD323M:
-ARTCC boundary:EGD323N:
-ARTCC boundary:EGD323P:
-ARTCC boundary:EGD323Q:
-ARTCC boundary:EGD323R:
-ARTCC boundary:EGD401:
-ARTCC boundary:EGD402A:
-ARTCC boundary:EGD402B:
-ARTCC boundary:EGD402C:
-ARTCC boundary:EGD403A:
-ARTCC boundary:EGD403B:
-ARTCC boundary:EGD405:
-ARTCC boundary:EGD406A:
-ARTCC boundary:EGD406B:
-ARTCC boundary:EGD406C:
-ARTCC boundary:EGD407:
-ARTCC boundary:EGD408:
-ARTCC boundary:EGD410:
-ARTCC boundary:EGD412:
-ARTCC boundary:EGD442:
-ARTCC boundary:EGD505:
-ARTCC boundary:EGD508:
-ARTCC boundary:EGD509:
-ARTCC boundary:EGD510A:
-ARTCC boundary:EGD510B:
-ARTCC boundary:EGD510C:
-ARTCC boundary:EGD512A:
-ARTCC boundary:EGD512B:
-ARTCC boundary:EGD513A:
-ARTCC boundary:EGD513B:
-ARTCC boundary:EGD513C:
-ARTCC boundary:EGD601:
-ARTCC boundary:EGD604:
-ARTCC boundary:EGD613A:
-ARTCC boundary:EGD613B:
-ARTCC boundary:EGD613C:
-ARTCC boundary:EGD613D:
-ARTCC boundary:EGD701A:
-ARTCC boundary:EGD701B:
-ARTCC boundary:EGD701C:
-ARTCC boundary:EGD701D:
-ARTCC boundary:EGD701E:
-ARTCC boundary:EGD701F:
-ARTCC boundary:EGD701G:
-ARTCC boundary:EGD701H:
-ARTCC boundary:EGD701I:
-ARTCC boundary:EGD701J:
-ARTCC boundary:EGD701K:
-ARTCC boundary:EGD701L:
-ARTCC boundary:EGD701M:
-ARTCC boundary:EGD701N:
-ARTCC boundary:EGD701O:
-ARTCC boundary:EGD701P:
-ARTCC boundary:EGD701Q:
-ARTCC boundary:EGD701R:
-ARTCC boundary:EGD701S:
-ARTCC boundary:EGD701T:
-ARTCC boundary:EGD701U:
-ARTCC boundary:EGD701V:
-ARTCC boundary:EGD701W:
-ARTCC boundary:EGD701X:
-ARTCC boundary:EGD701Y:
-ARTCC boundary:EGD702:
-ARTCC boundary:EGD703:
-ARTCC boundary:EGD704:
-ARTCC boundary:EGD710:
-ARTCC boundary:EGD712A:
-ARTCC boundary:EGD712B:
-ARTCC boundary:EGD712C:
-ARTCC boundary:EGD712D:
-ARTCC boundary:EGD801:
-ARTCC boundary:EGD802:
-ARTCC boundary:EGD803:
-ARTCC boundary:EGD809C:
-ARTCC boundary:EGD809N:
-ARTCC boundary:EGD809S:
-ARTCC boundary:EGP611:
-ARTCC boundary:EGP813:
 ARTCC boundary:EGR002:
 ARTCC boundary:EGR063:
 ARTCC boundary:EGR095:
@@ -429,7 +238,6 @@ ARTCC boundary:EGR204:
 ARTCC boundary:EGR212:
 ARTCC boundary:EGR214:
 ARTCC boundary:EGR217:
-ARTCC boundary:EGR219:
 ARTCC boundary:EGR220:
 ARTCC boundary:EGR311:
 ARTCC boundary:EGR312:
@@ -448,12 +256,7 @@ ARTCC boundary:EGR504:
 ARTCC boundary:EGR515:
 ARTCC boundary:EGR516:
 ARTCC boundary:EGR603:
-ARTCC boundary:EGR610A:
-ARTCC boundary:EGR610B:
-ARTCC boundary:EGR610C:
-ARTCC boundary:EGR610D:
 ARTCC boundary:EGR612:
-ARTCC boundary:EGR704:
 ARTCC boundary:EGR705:
 ARTCC boundary:LFD82:
 ARTCC boundary:LFP26:
@@ -486,7 +289,6 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
-ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
@@ -495,7 +297,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
-ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
@@ -2044,12 +1845,6 @@ Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace (Grey):polygon
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1 left ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 1 right ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2 left ticks
-Runways:EGNM Leeds Bradford 14-32:extended centerline 2 right ticks
 Sids:EGNM Leeds Bradford SMAA:
 Stars:Leeds Bradford Gates:
 Stars:Leeds Delegation Line:
@@ -2163,7 +1958,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:53.285678:-3.547510:54.468697:0.192545
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200

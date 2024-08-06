@@ -317,7 +317,6 @@ ARTCC low boundary:LFRC Cherbourg CTR:
 ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:EGLC City Transitions:
-Geo:Extended centrelines:
 Stars:Thames RAVSA Rings:
 Stars:Thames RMA:
 SHOWC:1
@@ -334,6 +333,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.964560:-0.692383:51.984890:2.533338
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
