@@ -3126,8 +3126,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:iTEC
 WINDOWAREA:50.096286:-23.090159:63.430380:17.152381
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels,NERC
-PLUGIN:TopSky plugin:ShowMapData:Centrelines,Ticks
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,NERC
+PLUGIN:TopSky plugin:ShowMapData:Centrelines,Fixes,FixLabels,Ticks
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
