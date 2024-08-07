@@ -44,6 +44,8 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
 Sids:London AC Lakes:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
@@ -71,8 +73,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:iTEC
 WINDOWAREA:50.096286:-23.090159:63.430380:17.152381
-PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels
-PLUGIN:TopSky plugin:ShowMapData:NERC,Centrelines,Ticks
+PLUGIN:TopSky plugin:HideMapData:AirspaceBases,Fixes,FixLabels,NERC
+PLUGIN:TopSky plugin:ShowMapData:Centrelines,Ticks
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
