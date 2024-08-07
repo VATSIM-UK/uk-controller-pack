@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Edinburgh\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Scottish.txt
-Settings	sector	UK\Data\Sector\UK_2024_07.sct
+Settings	sector	UK\Data\Sector\UK_2024_08.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Edinburgh\Edinburgh Radar_1.asr
