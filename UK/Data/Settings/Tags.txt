@@ -512,11 +512,7 @@ TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:19::0:0:29:29::0:1:::1
 TAGTYPE:3:1:0
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-<<<<<<< Updated upstream
 TAGITEM:1:--:1:0:0:0::0:1:::1
-=======
-TAGITEM:1:--:1:0:0:0::0:1:::0
->>>>>>> Stashed changes
 TAGTYPE:4:5:2
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
 TAGITEM:15::0:0:0:0::0:1:::1
@@ -530,12 +526,7 @@ TAGITEM:3::0:0:0:0::0:1:::1
 TAGITEM:4::0:1:0:0::0:1:::1
 TAGITEM:101::0:1:0:0:UK Controller Plugin:0:1:::1
 TAGITEM:20::0:1:0:0::0:1:::7
-<<<<<<< Updated upstream
 TAGTYPE:5:2:1
-=======
-TAGTYPE:5:3:1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:0:0:CCDS-R Plugin:0:1:::0
@@ -556,30 +547,17 @@ TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
 TAGITEM:1:--:1:0:0:0::0:1:::1
 TAGTYPE:9:1:0
 TAGITEM:78::0:0:0:0:TopSky plugin:0:0:::1
-<<<<<<< Updated upstream
 TAGITEM:1:--:1:0:0:0::0:1:::1
 TAGTYPE:10:3:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-=======
-TAGITEM:1:--:1:0:0:0::0:1:::0
-TAGTYPE:10:5:2
-TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-TAGITEM:15::0:0:0:0::0:1:::1
-TAGITEM:0::0:0:0:0::0:1:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:33:33:CCDS-R Plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0::0:1:::1
 TAGITEM:4::0:1:0:0::0:1:::1
-TAGTYPE:11:5:2
+TAGTYPE:11:3:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-<<<<<<< Updated upstream
-=======
-TAGITEM:15::0:0:0:0::0:1:::1
-TAGITEM:0::0:0:0:0::0:1:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:33:33:CCDS-R Plugin:0:1:::0
@@ -598,28 +576,16 @@ TAGITEM:3::0:0:0:0::0:1:::1
 TAGITEM:4::0:1:0:0::0:1:::1
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:9::0:0:8:1::0:1:::1
-TAGTYPE:13:5:2
+TAGTYPE:13:3:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-<<<<<<< Updated upstream
-=======
-TAGITEM:15::0:0:0:0::0:1:::1
-TAGITEM:0::0:0:0:0::0:1:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:33:33:CCDS-R Plugin:0:1:::0
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:3::0:0:0:0::0:1:::1
 TAGITEM:4::0:1:0:0::0:1:::1
-<<<<<<< Updated upstream
 TAGTYPE:14:3:1
 TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-=======
-TAGTYPE:14:5:2
-TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
-TAGITEM:15::0:0:0:0::0:1:::1
-TAGITEM:0::0:0:0:0::0:1:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:33:33:CCDS-R Plugin:0:1:::0
@@ -674,12 +640,7 @@ TAGITEM:25::0:1:14:29::0:1:::8
 TAGITEM:23::0:1:12:29::0:1:::8
 TAGITEM:0::0:0:0:0::0:1:::1
 TAGITEM:19::0:0:29:29::0:1:::1
-<<<<<<< Updated upstream
 TAGTYPE:18:2:1
-=======
-TAGTYPE:18:3:1
-TAGITEM:72::0:0:0:0:TopSky plugin:0:0:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:0:0:CCDS-R Plugin:0:1:::0
@@ -689,12 +650,7 @@ TAGITEM:3::0:0:0:0::0:1:::1
 TAGITEM:4::0:0:0:0::0:1:::1
 TAGITEM:101::0:1:0:0:UK Controller Plugin:0:1:::1
 TAGITEM:43::0:1:0:0::0:1:::5
-<<<<<<< Updated upstream
 TAGTYPE:19:2:1
-=======
-TAGTYPE:19:3:1
-TAGITEM:78::0:0:0:0:TopSky plugin:0:0:::1
->>>>>>> Stashed changes
 TAGITEM:2::0:0:0:0:CCDS-R Plugin:0:1:::1
 TAGITEM:33::0:0:0:0::0:1:::1
 TAGITEM:1::1:0:0:0:CCDS-R Plugin:0:1:::0
