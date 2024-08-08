@@ -786,7 +786,6 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Regions:Southend RMA:polygon
 Stars:EKNIV Gate:
 Stars:Thames-Southend Buffer:
 VORs:ABB:name
@@ -1063,7 +1062,6 @@ PLUGIN:UK Controller Plugin:holdGEGMUMinimised:0
 PLUGIN:UK Controller Plugin:holdGEGMUMinLevel:4000
 PLUGIN:UK Controller Plugin:holdGEGMUPositionX:1436
 PLUGIN:UK Controller Plugin:holdGEGMUPositionY:826
-PLUGIN:UK Controller Plugin:holdSPEARMaxLevel:7000
 PLUGIN:UK Controller Plugin:holdSPEARMinimised:0
 PLUGIN:UK Controller Plugin:holdSPEARMinLevel:4000
 PLUGIN:UK Controller Plugin:holdSPEARPositionX:153

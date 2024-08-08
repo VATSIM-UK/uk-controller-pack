@@ -3164,7 +3164,6 @@ Stars:Glasgow Local Area:
 Stars:Glasgow Talla Boundary:
 Stars:Glasgow Tay Boundary:
 Stars:Glasgow TMA Boundary:
-Stars:Heathrow RMA Westerlies:
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
@@ -3401,7 +3400,6 @@ PLUGIN:UK Controller Plugin:holdFOYLEMinimised:1
 PLUGIN:UK Controller Plugin:holdFOYLEMinLevel:7000
 PLUGIN:UK Controller Plugin:holdFOYLEPositionX:0
 PLUGIN:UK Controller Plugin:holdFOYLEPositionY:24
-PLUGIN:UK Controller Plugin:holdFYNERMaxLevel:14000
 PLUGIN:UK Controller Plugin:holdFYNERMinimised:1
 PLUGIN:UK Controller Plugin:holdFYNERMinLevel:7000
 PLUGIN:UK Controller Plugin:holdFYNERPositionX:225
