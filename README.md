@@ -25,3 +25,5 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 [A-CDM Plugin](https://github.com/vACDM) - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle)
 
 [Virtual Controller Helper Plugin](https://github.com/DrFreas/VCH) - thanks to [@DrFreas](https://github.com/DrFreas)
+
+[CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)

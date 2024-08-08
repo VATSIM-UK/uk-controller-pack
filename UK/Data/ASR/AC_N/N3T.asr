@@ -1352,7 +1352,6 @@ Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55*:freetext
 Free Text:Airspace Bases\FL55C:freetext
 Free Text:Airspace Bases\FL55D:freetext
 Free Text:Airspace Bases\FL55D:freetext
@@ -1730,6 +1729,7 @@ DisplayRotation:0.00000
 TAGFAMILY:AC-TopSky
 WINDOWAREA:51.093380:-9.495710:56.149851:6.364440
 PLUGIN:TopSky plugin:HideMapData:FixLabels
+PLUGIN:TopSky plugin:ShowMapData:NERC,Fixes,AirspaceBases,Centrelines,Ticks
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
