@@ -1727,7 +1727,7 @@ DisplayRotation:0.00000
 TAGFAMILY:AC-TopSky
 WINDOWAREA:50.637965:-6.488239:54.373165:4.784661
 PLUGIN:TopSky plugin:HideMapData:FixLabels
-PLUGIN:TopSky plugin:ShowMapData:NERC,Centrelines,Ticks
+PLUGIN:TopSky plugin:ShowMapData:NERC,Fixes,AirspaceBases,Centrelines,Ticks
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

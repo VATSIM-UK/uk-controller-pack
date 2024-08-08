@@ -1,37 +1,28 @@
 Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\London\AC_S_Plugins.txt
-Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\AC_Profiles_No-CPDLC.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\London\AC_S_Profiles.txt
 Settings	SettingsfileSCREEN	\..\..\Data\Settings\Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\..\Data\Settings\AC\AC_General.txt
-Settings	SettingsfileARR	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileFP	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileSTUP	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileTAXIOUT	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileTAKEOFF	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_Symbology.txt
+Settings	SettingsfileARR	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileFP	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileSEL	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileSIL	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileSTUP	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAXIOUT	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAKEOFF	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_TopSky.txt
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\AC\NERC_TopSky_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_South.txt
 Settings	sector	UK\Data\Sector\UK_2024_07.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\..\Data\ASR\AC_S\S2G.asr
-RecentFiles	Recent2	\..\..\Data\ASR\AC_S\S3G.asr
-RecentFiles	Recent3	\..\..\Data\ASR\AC_S\S4G.asr
-RecentFiles	Recent4	\..\..\Data\ASR\AC_S\S1G.asr
-RecentFiles	Recent5	\..\..\Data\ASR\AC_S\Heathrow SMR.asr
-RecentFiles	Recent6	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
-RecentFiles	Recent7	\..\..\Data\ASR\AC_S\City SMR.asr
-RecentFiles	Recent8	\..\..\Data\ASR\AC_S\Southend SMR.asr
-RecentFiles	Recent9	\..\..\Data\ASR\AC_S\S_Ground.asr
-ASRFastKeys	1	\..\..\Data\ASR\AC_S\S1G.asr
-ASRFastKeys	2	\..\..\Data\ASR\AC_S\S2G.asr
-ASRFastKeys	3	\..\..\Data\ASR\AC_S\S3G.asr
-ASRFastKeys	4	\..\..\Data\ASR\AC_S\S4G.asr
+ASRFastKeys	1	\..\..\Data\ASR\AC_S\S1T.asr
+ASRFastKeys	2	\..\..\Data\ASR\AC_S\S2T.asr
+ASRFastKeys	3	\..\..\Data\ASR\AC_S\S3T.asr
+ASRFastKeys	4	\..\..\Data\ASR\AC_S\S4T.asr
 ASRFastKeys	5	\..\..\Data\ASR\AC_S\Heathrow SMR.asr
 ASRFastKeys	6	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
 ASRFastKeys	7	\..\..\Data\ASR\AC_S\City SMR.asr
@@ -39,7 +30,7 @@ ASRFastKeys	8	\..\..\Data\ASR\AC_S\Southend SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\AC_S\S_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
-Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1	\..\..\Data\Plugin\TopSky_NERC\TopSky.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
@@ -47,6 +38,15 @@ Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
 Plugins	Plugin5	\..\..\Data\Plugin\VCH.dll
+RecentFiles	Recent1	\..\..\Data\ASR\AC_S\S2T.asr
+RecentFiles	Recent2	\..\..\Data\ASR\AC_S\S1T.asr
+RecentFiles	Recent3	\..\..\Data\ASR\AC_S\S3T.asr
+RecentFiles	Recent4	\..\..\Data\ASR\AC_S\S4T.asr
+RecentFiles	Recent5	\..\..\Data\ASR\AC_S\Heathrow SMR.asr
+RecentFiles	Recent6	\..\..\Data\ASR\AC_S\Gatwick SMR.asr
+RecentFiles	Recent7	\..\..\Data\ASR\AC_S\City SMR.asr
+RecentFiles	Recent8	\..\..\Data\ASR\AC_S\Southend SMR.asr
+RecentFiles	Recent9	\..\..\Data\ASR\AC_S\S_Ground.asr
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt
