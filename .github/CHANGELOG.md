@@ -10,6 +10,7 @@
 9. Bug - Disable all conditional airspace bases (now controlled by TopSky) - thanks to @luke11brown (Luke Brown)
 10. Enhancement - NODE colours adjusted - thanks to @luke11brown (Luke Brown)
 11. AIRAC (2408) - Area minimum altitudes updated (MSAW) - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Manchester (EGCC) ATM display rotated - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
