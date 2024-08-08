@@ -1,3 +1,6 @@
+# Changes from release 2024/08 to 2024/09
+1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
+
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
 2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
