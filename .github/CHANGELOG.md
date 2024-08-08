@@ -4,6 +4,9 @@
 3. Enhancement - Updated combined departure list items and size - thanks to @kristiankunc (Kristián Kunc)
 4. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
 5. Bug - Fixed NOTAMs crashing and removed redundant details in Gatwick (EGKK) vATIS profile  - thanks to @RedstonePilot (Ben Walker)
+6. Enhancement - Updated iTEC symbology and tags - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Added CCDR-S plugin to NODE displays - thanks to @SamLefevre (Samuel Lefevre)
+8. Enhancement - Area profiles reduced & simplified - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
