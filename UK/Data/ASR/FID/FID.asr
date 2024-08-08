@@ -1666,6 +1666,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
+TAGFAMILY:Flight Information Display
 WINDOWAREA:47.749467:-16.745920:57.992037:14.166342
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
