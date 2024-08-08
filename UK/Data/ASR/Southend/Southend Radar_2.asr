@@ -686,6 +686,7 @@ PLUGIN:UK Controller Plugin:holdGEGMUMinimised:0
 PLUGIN:UK Controller Plugin:holdGEGMUMinLevel:4000
 PLUGIN:UK Controller Plugin:holdGEGMUPositionX:1436
 PLUGIN:UK Controller Plugin:holdGEGMUPositionY:826
+PLUGIN:UK Controller Plugin:holdSPEARMaxLevel:7000
 PLUGIN:UK Controller Plugin:holdSPEARMinimised:0
 PLUGIN:UK Controller Plugin:holdSPEARMinLevel:4000
 PLUGIN:UK Controller Plugin:holdSPEARPositionX:153
