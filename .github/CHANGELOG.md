@@ -1,3 +1,6 @@
+# Changes from release 2024/09 to 2024/10
+1. AIRAC (2410) - Removed Cambridge (EGSC) Director/Radar frequencies - thanks to @AdriTheDev (Callum Hicks)
+
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
