@@ -411,6 +411,8 @@ Color_Active_Map_Type_3=95,95,95
 Color_Active_Map_Type_4=160,160,160
 //Centrelines
 Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=135,255,210
 
 [EGNT_]
 Setup_ScreenLat=EGNT
