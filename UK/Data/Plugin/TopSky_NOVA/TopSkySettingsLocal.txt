@@ -1,9 +1,20 @@
+//Darker colour palette for TopSky. Delete this file if you like the lighter grey.
+
 //Signs TopSky in on callsign change to determine colours and other settings.
 Setup_AutoSignIn=1
 
-//Darker colour palette for TopSky UI. Delete these lines if you like the lighter grey.
-Color_Background=38,38,38
-Color_Border=19,19,19
-Color_WM_Bg=81,81,81
-Color_WM_Border=54,54,54
-Color_WM_Fg=200,200,200
+//Color_Background=38,38,38
+//Color_Border=19,19,19
+//Color_WM_Bg=81,81,81
+//Color_WM_Border=54,54,54
+//Color_WM_Fg=200,200,200
+
+Color_Background=180,180,180
+Color_Border=150,150,150
+Color_CARD_Min_Sep=120,120,120
+Color_Foreground=0,0,0
+Color_Inactive_Sector=100,100,100
+Color_WM_Active_Fg=255,255,255
+Color_WM_Bg=0,140,200
+Color_WM_Border=80,80,80
+Color_WM_Fg=255,255,255
