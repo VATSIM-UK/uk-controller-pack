@@ -1,6 +1,7 @@
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+x. Enhancement - Updated TopSky colours - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
