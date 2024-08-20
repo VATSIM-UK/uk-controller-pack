@@ -44,10 +44,20 @@ os.system('cls')
 CPDLC = input("Enter Hoppie's Code: ")
 os.system('cls')
 
-# Write CPDLC to TopSky
+# Write CPDLC to TopSky (all instances)
 
-f = open("Data/Plugin/TopSky/TopSkyCPDLChoppieCode.txt", "w")
+f = open("Data/Plugin/TopSky_iTEC/TopSkyCPDLChoppieCode.txt", "w")
 f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NERC/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NODE/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NOVA/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
 f.close
 
 # Add CID as Nickname to VCCS profiles
