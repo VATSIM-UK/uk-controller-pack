@@ -87,7 +87,7 @@ for root, dirs, files in os.walk(os.getcwd()):
 
 # Adds Intials to ESE for use with alternate ownership
 
-        elif file.endswith(".ese"):
+        elif file.endswith(".ese") and file.startswith("UK"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
                 line = f.read()
