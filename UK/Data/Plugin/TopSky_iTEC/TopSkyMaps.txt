@@ -9,6 +9,9 @@ LINETO:3:0
 
 LINESTYLEDEF:largedash:solid:-:12,12
 
+//Conditional Airspace
+//Cotswold CTA/EGBB Flexible Use Airspace
+
 MAP:Cotswold CTA FUA Outline
 FOLDER:Conditional Airspace
 COLOR:Active_Map_Type_2
