@@ -1,5 +1,6 @@
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
+x. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
