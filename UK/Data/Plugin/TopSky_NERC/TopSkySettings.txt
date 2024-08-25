@@ -55,6 +55,8 @@ Color_Active_Map_Type_6=55,55,57
 Color_Active_Map_Type_7=28,28,28
 //Fixes
 Color_Active_Map_Type_8=140,140,140
+//VRPs
+Color_Active_Map_Type_9=140,140,140
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=120,0,0
