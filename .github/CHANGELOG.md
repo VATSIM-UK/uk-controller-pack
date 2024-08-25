@@ -4,6 +4,7 @@
 3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
 4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
 5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)

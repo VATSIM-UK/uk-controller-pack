@@ -105,5 +105,16 @@ for root, dirs, files in os.walk(os.getcwd()):
                 writeFile = open(file_path, "w")
                 writeFile.write(line)
 
+# Adds CID field to feedback link
+
+        elif file == "Profiles.txt":
+            file_path = os.path.join(root,file)
+            with open(file_path,'r') as f:
+                line = f.read()
+                line = line.replace("Submit feedback at vats.im/atcfb",f"Submit feedback at vatsim.uk/atcfb?cid={CID}")
+                with open(file_path,'w') as out_f:
+                    out_f.write(line)
+
+
 print("Detail entry process complete")
 time.sleep(1.5)
