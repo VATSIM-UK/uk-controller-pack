@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Solent\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2024_07.sct
+Settings	sector	UK\Data\Sector\UK_2024_08.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Solent\Solent Radar_2.asr
@@ -34,6 +34,8 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
+Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
+Plugins	Plugin5Display0	Standard ES radar screen
 ASRFastKeys	6	\..\Data\ASR\Solent\Bournemouth SMR.asr
 RecentFiles	Recent7	\..\Data\ASR\Solent\Bournemouth SMR.asr
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt

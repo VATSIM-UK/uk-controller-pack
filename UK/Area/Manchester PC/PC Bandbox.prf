@@ -16,7 +16,7 @@ Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\MPC\MPC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2024_07.sct
+Settings	sector	UK\Data\Sector\UK_2024_08.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\MPC\PC1.asr
@@ -39,14 +39,15 @@ ASRFastKeys	8	\..\..\Data\ASR\MPC\Newcastle SMR.asr
 ASRFastKeys	9	\..\..\Data\ASR\MPC\PC_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
-Plugins	Plugin1	\..\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin1	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
-Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
-Plugins	Plugin2Display0	Standard ES radar screen
-Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
-Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
-Plugins	Plugin5	\..\..\Data\Plugin\VCH.dll
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin3	\..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\..\Data\Plugin\VCH.dll
+Plugins	Plugin5	\..\..\Data\Plugin\TopSky_NODE\TopSky.dll
+Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin6	\..\..\Data\Plugin\CCDS-R\CCDS-R.dll
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\..\Data\Datafiles\ICAO_Aircraft.txt

@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Cardiff\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
-Settings	sector	UK\Data\Sector\UK_2024_07.sct
+Settings	sector	UK\Data\Sector\UK_2024_08.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Cardiff\Cardiff Radar_2.asr
@@ -35,6 +35,8 @@ ASRFastKeys	6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 RecentFiles	Recent6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
+Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
+Plugins	Plugin5Display0	Standard ES radar screen
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt

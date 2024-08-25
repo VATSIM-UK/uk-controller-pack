@@ -1,5 +1,25 @@
 # Changes from release 2024/08 to 2024/09
-x. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
+1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
+2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
+5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
+7. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
+
+# Changes from release 2024/07 to 2024/08
+1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
+2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
+3. Enhancement - Updated combined departure list items and size - thanks to @kristiankunc (Kristián Kunc)
+4. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
+5. Bug - Fixed NOTAMs crashing and removed redundant details in Gatwick (EGKK) vATIS profile  - thanks to @RedstonePilot (Ben Walker)
+6. Enhancement - Updated iTEC symbology and tags - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Added CCDR-S plugin to NODE displays - thanks to @SamLefevre (Samuel Lefevre)
+8. Enhancement - Area profiles reduced & simplified - thanks to @luke11brown (Luke Brown)
+9. Bug - Disable all conditional airspace bases (now controlled by TopSky) - thanks to @luke11brown (Luke Brown)
+10. Enhancement - NODE colours adjusted - thanks to @luke11brown (Luke Brown)
+11. AIRAC (2408) - Area minimum altitudes updated (MSAW) - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Manchester (EGCC) ATM display rotated - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)
@@ -7,6 +27,7 @@ x. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
 3. Enhancement - Changed Jersey Profile from Park Air to NOVA 9000 - thanks to @SamLefevre (Samuel Lefevre)
 4. Enhancement - TopSky updated to 2.5 beta 9 - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updated vSMR and added Heathrow (EGLL) Geofenced config - thanks to @AliceFord (Alice Ford)
+6. Enhancement - Added Glasgow radar lines - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/04 to 2024/06
 1. Bug - Fixed Heathrow profiles not loading the Heathrow Alias - thanks to @hazzas-99

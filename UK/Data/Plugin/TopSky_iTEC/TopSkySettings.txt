@@ -20,14 +20,18 @@ System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
 Label_Rev_Highlight_Delta_ETN=15
+Label_AHDG_HideDctIfCOPX=0
+Label_AHDG_ShowDct=2
 MTCD_Distance_Holding=30
 Label_CFL_DefaultValue=1
 Label_DAPs=1
+Label_GS_Digits=2
 Menu_DAPs=1
 Window_HoldList_MaxListItems=20
 FlightLeg_AutoShow=1
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
+Label_N_Default=0
 
 //Airspace Related Settings
 Airspace_C_Flag=
@@ -36,24 +40,33 @@ AIW=1
 
 //Standard colors, all other defined below
 Color_Assumed=0,0,0
-Color_Concerned=15,120,200
-Color_Coordination=15,120,200
+Color_Concerned=0,0,250
+Color_Coordination=0,0,250
 Color_Unconcerned=255,250,250
 Color_Unknown=239,224,42
-Color_Redundant=200,125,170
+Color_Redundant=140,27,138
 
 //Colour settings
 Color_ACF_Via_CFL
 Color_Active_Map=139,0,0
-Color_Active_Map_Type_1=139,0,0
-Color_Active_Map_Type_2
-Color_Active_Map_Type_3
-Color_Active_Map_Type_4
-Color_Active_Map_Type_5
-Color_Active_Map_Type_6
-Color_Active_Map_Type_7
-Color_Active_Map_Type_8
-Color_Active_Map_Type_9
+//Danger area (red)
+Color_Active_Map_Type_1=255,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=168,164,165
+//Freetext
+Color_Active_Map_Type_3=128,128,128
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=120,120,120
+//Centrelines
+Color_Active_Map_Type_5=134,134,134
+//OCAS infill
+Color_Active_Map_Type_6=187,187,187
+//Sector background infill
+Color_Active_Map_Type_7=187,187,187
+//Fixes
+Color_Active_Map_Type_8=140,140,140
+//VRPs
+Color_Active_Map_Type_9=134,134,134
 Color_Active_Map_Type_10
 Color_Active_Map_Type_11
 Color_Active_Map_Type_12=139,0,0
@@ -194,10 +207,10 @@ Color_Warning_FL=255,125,0
 Color_Weather_Map
 Color_West_NAT_Map
 Color_WM_Active_Fg=0,0,0
-Color_WM_Bg=195,195,185
+Color_WM_Bg=214,216,150
 Color_WM_Border=0,0,0
 Color_WM_Fg=0,0,0
-Color_WM_Frame=195,195,185
+Color_WM_Frame=214,216,150
 
 //CPDLC System Settings
 CPDLC_MinLevel=195
@@ -207,6 +220,7 @@ CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 Window_CPDLC_Current=1,975,0
+Window_CPDLC_Setting=1
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100

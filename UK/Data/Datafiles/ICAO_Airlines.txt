@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2407/1  ++  Valid period: 11/JUL/2024 - 07/AUG/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2408/1  ++  Valid period: 08/AUG/2024 - 04/SEP/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 AAB	ABELAG AVIATION	ABELAG	BELGIUM
 AAC	ARMY AIR CORPS	ARMYAIR	UNITED KINGDOM
@@ -1478,7 +1478,7 @@ DMN	DIAMOND FLIGHT ACADEMY SCANDINAVIA AB	DIAMOND ACADEMY	SWEDEN
 DMQ	DAALLO AIRLINES (SOMALIA)	DALO	SOMALIA
 DMR	HELIDOSA AVIATION GROUP	HELIDOSA	DOMINICAN REPUBLIC
 DMS	DIAMOND SKY	DIAMOND	ESTONIA
-DNA	AERODESPACHOS DE EL SALVADOR	AERODESPACHOS	EL SALVADOR
+DNA	DAN AIR	DAN AIR	ROMANIA
 DNC	AERODYNAMICS MALAGA, S.L.	FLYINGOLIVE	SPAIN
 DND	ELDINDER AIRLINES	DINDER	SUDAN
 DNE	VENID AIR	VENID	BULGARIA
@@ -3064,6 +3064,7 @@ JTE	NATIONAL JET EXPRESS T/A JETEX	JETEX	AUSTRALIA
 JTF	JET TIME OY	JETFIN	FINLAND
 JTG	JET TIME A/S	JETTIME	DENMARK
 JTI	IMPERIALJET EUROPE GMBH, HALLBERGMOOS	JETCLIPPER	GERMANY
+JTK	JET SKY AIRWAYS	JET SKY	BULGARIA
 JTL	JET LINX AVIATION, LLC (OMAHA, NE)	JET LINX	UNITED STATES
 JTM	EAST COAST FLIGHT SERVICES, INC.	JET COAST	UNITED STATES
 JTN	JET TEST INTL.	JET TEST	UNITED STATES
