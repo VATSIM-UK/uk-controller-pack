@@ -2,6 +2,7 @@
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
 3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
