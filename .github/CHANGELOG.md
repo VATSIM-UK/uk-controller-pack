@@ -1,3 +1,5 @@
+X. AIRAC (2409) - SaxaVord D902 (Shetland Space Centre) danger area complex added - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
 2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
