@@ -1,3 +1,10 @@
+# Changes from release 2024/08 to 2024/09
+1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
+2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
+5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
 X. AIRAC (2409) - SaxaVord D902 (Shetland Space Centre) danger area complex added - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/07 to 2024/08
