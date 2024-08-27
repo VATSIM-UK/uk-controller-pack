@@ -1,3 +1,6 @@
+# Changes from release 2024/08 to 2024/09
+X. AIRAC(2409) - Various Mil frequencies updated to 8.33kHz - thanks to @BenWalker01 (Ben Walker)
+
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
 2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
