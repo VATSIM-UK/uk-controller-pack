@@ -7,6 +7,15 @@ Setup_AutoSignIn=1
 Color_Background=180,180,180
 Color_Border=150,150,150
 Color_CARD_Min_Sep=120,120,120
+Color_CPDLC_Controller_Late=212,128,44
+Color_CPDLC_Discarded
+Color_CPDLC_DM_Request=0,0,205
+Color_CPDLC_Failed=212,128,44
+Color_CPDLC_Pilot_Late=212,124,44
+Color_CPDLC_Standby=212,128,44
+Color_CPDLC_UM_Clearance=0,0,205
+Color_CPDLC_Unable=212,128,44
+Color_CPDLC_Urgency
 Color_Foreground=0,0,0
 Color_Inactive_Sector=100,100,100
 Color_WM_Active_Fg=255,255,255
