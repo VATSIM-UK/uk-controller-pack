@@ -32,6 +32,7 @@ FlightLeg_AutoShow=1
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
 Label_N_Default=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=

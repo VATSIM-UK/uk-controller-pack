@@ -30,6 +30,7 @@ Window_HoldList_MaxListItems=20
 FlightLeg_AutoShow=0
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=
