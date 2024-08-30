@@ -21,6 +21,7 @@ System_MagModel_Year=2020
 System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
+System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
