@@ -221,7 +221,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,975,0
+Window_CPDLC_Current=1,1064,0
 Window_CPDLC_Setting=1
 
 //MSAW System Settings
