@@ -27,7 +27,7 @@ Label_CFL_DefaultValue=1
 Label_DAPs=1
 Menu_DAPs=1
 Window_HoldList_MaxListItems=20
-FlightLeg_AutoShow=1
+FlightLeg_AutoShow=0
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
 
