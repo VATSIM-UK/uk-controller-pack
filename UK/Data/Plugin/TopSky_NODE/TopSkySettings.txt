@@ -5,6 +5,8 @@ System_GUI_Scale_Windows=1
 System_GUI_Scale_Menus=1
 System_GUI_Scale_GlobalMenu=1
 System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
 
 //System wide settings
 Setup_COOPANS=1
