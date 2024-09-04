@@ -43,7 +43,7 @@ PROFILE:EGGW_APP:100:5
 ATIS2:Luton Radar
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGGW
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGSC_APP:100:5
+PROFILE:EGSC_A_APP:100:5
 ATIS2:Cambridge Approach (Non Radar)
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
