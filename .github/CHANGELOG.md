@@ -9,6 +9,7 @@
 8. AIRAC (2409) - SaxaVord D902 (Shetland Space Centre) danger area complex added - thanks to @luke11brown (Luke Brown)
 9. AIRAC (2409) - Updated EGNS MSAW altitudes - thanks to @luke11brown (Luke Brown)
 10. AIRAC(2409) - Various Mil frequencies updated to 8.33kHz - thanks to @BenWalker01 (Ben Walker)
+11. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
