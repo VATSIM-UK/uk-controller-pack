@@ -220,23 +220,15 @@ Airports:EIDL:symbol
 Airports:EIDW:symbol
 Airports:LFAC:symbol
 Airports:LFAT:symbol
-ARTCC boundary:EGD138A:
-ARTCC boundary:EGD138B:
-ARTCC boundary:EGD138C:
-ARTCC boundary:EGD138D:
-ARTCC boundary:EGD139:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
 ARTCC high boundary:Belfast TMA:
 ARTCC high boundary:Berry Head CTA:
-ARTCC high boundary:Berry Head CTA (Conditional):
 ARTCC high boundary:Borders CTA:
-ARTCC high boundary:Borders CTA (Conditional):
 ARTCC high boundary:Channel Islands TMA:
 ARTCC high boundary:Clacton CTA:
 ARTCC high boundary:Cotswold CTA:
-ARTCC high boundary:Cotswold CTA (Conditional):
 ARTCC high boundary:Daventry CTA:
 ARTCC high boundary:Deauville TMA:
 ARTCC high boundary:EBBU Brussels FIR:
@@ -260,9 +252,7 @@ ARTCC high boundary:Manchester TMA:
 ARTCC high boundary:Moray CTA:
 ARTCC high boundary:North Sea CTA:
 ARTCC high boundary:PEPZE CTA:
-ARTCC high boundary:PEPZE CTA (Conditional):
 ARTCC high boundary:Portsmouth CTA:
-ARTCC high boundary:Portsmouth CTA (Conditional):
 ARTCC high boundary:RATSU Triangle:
 ARTCC high boundary:Scottish TMA:
 ARTCC high boundary:Severn CTA:
@@ -270,7 +260,6 @@ ARTCC high boundary:Southern CTA:
 ARTCC high boundary:Strangford CTA:
 ARTCC high boundary:Strumble CTA:
 ARTCC high boundary:Tay CTA:
-ARTCC high boundary:Tay CTA (Conditional):
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
@@ -576,7 +565,6 @@ Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
 Free Text:Airspace Bases\FL55:freetext
-Free Text:Airspace Bases\FL55*:freetext
 Free Text:Airspace Bases\FL55C:freetext
 Free Text:Airspace Bases\FL55D:freetext
 Free Text:Airspace Bases\FL55D:freetext
@@ -798,8 +786,6 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
-Geo:Extended centrelines:
-Regions:Southend RMA:polygon
 Stars:EKNIV Gate:
 Stars:Thames-Southend Buffer:
 VORs:ABB:name
@@ -1045,7 +1031,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:51.016873:-0.976854:52.123683:2.363520
-PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200

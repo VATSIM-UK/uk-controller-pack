@@ -1,0 +1,35 @@
+name: Create release archive
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Copy README from docs folder
+        run: |
+          cp _docs/README.pdf UK/README.pdf
+
+      - name: Get release tag
+        id: get_release_tag
+        run: |
+          echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+
+      - name: Create archive
+        run: |
+          zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
+
+      - name: Upload archive as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

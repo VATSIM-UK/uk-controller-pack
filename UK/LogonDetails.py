@@ -44,10 +44,20 @@ os.system('cls')
 CPDLC = input("Enter Hoppie's Code: ")
 os.system('cls')
 
-# Write CPDLC to TopSky
+# Write CPDLC to TopSky (all instances)
 
-f = open("Data/Plugin/TopSky/TopSkyCPDLChoppieCode.txt", "w")
+f = open("Data/Plugin/TopSky_iTEC/TopSkyCPDLChoppieCode.txt", "w")
 f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NERC/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NODE/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
+f = open("Data/Plugin/TopSky_NOVA/TopSkyCPDLChoppieCode.txt", "w")
+f.write(CPDLC)
+
 f.close
 
 # Add CID as Nickname to VCCS profiles
@@ -87,13 +97,24 @@ for root, dirs, files in os.walk(os.getcwd()):
 
 # Adds Intials to ESE for use with alternate ownership
 
-        elif file.endswith(".ese"):
+        elif file.endswith(".ese") and file.startswith("UK"):
             file_path = os.path.join(root, file)
             with open(file_path, 'r') as f:
                 line = f.read()
                 line = line.replace(f"EXAMPLE", str(EseInitials))
                 writeFile = open(file_path, "w")
                 writeFile.write(line)
+
+# Adds CID field to feedback link
+
+        elif file == "Profiles.txt":
+            file_path = os.path.join(root,file)
+            with open(file_path,'r') as f:
+                line = f.read()
+                line = line.replace("Submit feedback at vats.im/atcfb",f"Submit feedback at vatsim.uk/atcfb?cid={CID}")
+                with open(file_path,'w') as out_f:
+                    out_f.write(line)
+
 
 print("Detail entry process complete")
 time.sleep(1.5)
