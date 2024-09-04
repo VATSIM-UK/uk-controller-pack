@@ -58,6 +58,8 @@ Color_Active_Map_Type_6=187,187,187
 //Sector background infill
 Color_Active_Map_Type_7=187,187,187
 //Fixes
+Color_Active_Map_Type_9=200,200,200
+//VRPs
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=180,0,0
@@ -260,6 +262,8 @@ Color_Active_Map_Type_3=255,255,255
 Color_Active_Map_Type_4=208,210,221
 //Centrelines
 Color_Active_Map_Type_5=125,189,189
+//VRPs
+Color_Active_Map_Type_9=125,189,189
 
 [EGFF_]
 Setup_ScreenLat=EGFF
@@ -275,6 +279,8 @@ Color_Active_Map_Type_3=30,30,30
 Color_Active_Map_Type_4=95,185,95
 //Centrelines
 Color_Active_Map_Type_5=230,180,40
+//VRPs
+Color_Active_Map_Type_9=230,180,40
 
 [EGNX_]
 Setup_ScreenLat=EGNX
@@ -290,6 +296,23 @@ Color_Active_Map_Type_3=50,90,60
 Color_Active_Map_Type_4=154,164,171
 //Centrelines
 Color_Active_Map_Type_5=50,90,60
+
+[EGPD_]
+Setup_ScreenLat=EGPD
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=180
+Color_Active_Text_Map=180
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=240,230,90
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=240,230,90
 
 [EGPH_]
 Setup_ScreenLat=EGPH
@@ -365,6 +388,8 @@ Color_Active_Map_Type_3=192,192,192
 Color_Active_Map_Type_4=210,100,90
 //Centrelines
 Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=255,255,170
 
 [EGCC_]
 Setup_ScreenLat=EGCC
@@ -380,6 +405,8 @@ Color_Active_Map_Type_3=95,95,95
 Color_Active_Map_Type_4=160,160,160
 //Centrelines
 Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=135,255,210
 
 [EGNT_]
 Setup_ScreenLat=EGNT
@@ -455,3 +482,5 @@ Color_Active_Map_Type_3=192,192,192
 Color_Active_Map_Type_4=154,100,150
 //Centrelines
 Color_Active_Map_Type_5=192,192,192
+//VRPs
+Color_Active_Map_Type_9=192,192,192

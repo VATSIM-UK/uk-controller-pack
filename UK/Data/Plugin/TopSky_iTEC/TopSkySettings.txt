@@ -69,7 +69,8 @@ Color_Active_Map_Type_6=187,187,187
 Color_Active_Map_Type_7=187,187,187
 //Fixes
 Color_Active_Map_Type_8=140,140,140
-Color_Active_Map_Type_9
+//VRPs
+Color_Active_Map_Type_9=134,134,134
 Color_Active_Map_Type_10
 Color_Active_Map_Type_11
 Color_Active_Map_Type_12=139,0,0
