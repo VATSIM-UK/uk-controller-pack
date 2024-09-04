@@ -5,6 +5,7 @@
 4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
 5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
+7. Enhancement - Updated TopSky colours and settings for realism and ease of use - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)

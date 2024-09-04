@@ -5,6 +5,8 @@ System_GUI_Scale_Windows=1
 System_GUI_Scale_Menus=1
 System_GUI_Scale_GlobalMenu=1
 System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
 
 //System wide settings
 Setup_COOPANS=1
@@ -19,6 +21,7 @@ System_MagModel_Year=2020
 System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
+System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
@@ -27,9 +30,10 @@ Label_CFL_DefaultValue=1
 Label_DAPs=1
 Menu_DAPs=1
 Window_HoldList_MaxListItems=20
-FlightLeg_AutoShow=1
+FlightLeg_AutoShow=0
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=
@@ -165,7 +169,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,1025,0
+Window_CPDLC_Current=0,1064,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
@@ -182,7 +186,7 @@ System_UseAUP=1
 Window_ASM=1
 
 //Radio Direction Finder Settings
-RDF_Mode=2
+RDF_Mode=0
 RDF_Accuracy=5
 RDF_Floor=2500
 
@@ -198,16 +202,6 @@ WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
-
-[_CTR]
-Window_CARD=1,100,750
-Window_MsgIn=0,311,40
-Window_Shortcut=1,1430,0
-Window_SepList=1500,620
-
-Window_LostList_Auto=0
-Window_CARD_View_Risk=0
-Window_CARD_View_Future=0
 
 [EGAA_]
 Setup_ScreenLat=EGAA
