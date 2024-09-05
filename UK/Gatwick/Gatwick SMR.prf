@@ -12,10 +12,10 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSTUP	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
-Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2024_07.sct
+Settings	sector	UK\Data\Sector\UK_2024_08.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Gatwick\Gatwick SMR.asr

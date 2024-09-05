@@ -1,3 +1,19 @@
+# Changes from release 2024/09 to 2024/10
+1. AIRAC (2410) - Removed Cambridge (EGSC) Director/Radar frequencies - thanks to @AdriTheDev (Callum Hicks)
+
+# Changes from release 2024/08 to 2024/09
+1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
+2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
+5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
+7. Enhancement - Updated TopSky colours and settings for realism and ease of use - thanks to @SamLefevre (Samuel Lefevre)
+8. AIRAC (2409) - SaxaVord D902 (Shetland Space Centre) danger area complex added - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2409) - Updated EGNS MSAW altitudes - thanks to @luke11brown (Luke Brown)
+10. AIRAC(2409) - Various Mil frequencies updated to 8.33kHz - thanks to @BenWalker01 (Ben Walker)
+11. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
+
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)
 2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
@@ -9,6 +25,8 @@
 8. Enhancement - Area profiles reduced & simplified - thanks to @luke11brown (Luke Brown)
 9. Bug - Disable all conditional airspace bases (now controlled by TopSky) - thanks to @luke11brown (Luke Brown)
 10. Enhancement - NODE colours adjusted - thanks to @luke11brown (Luke Brown)
+11. AIRAC (2408) - Area minimum altitudes updated (MSAW) - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Manchester (EGCC) ATM display rotated - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/06 to 2024/07
 1. AIRAC (2407) - Converted Brize Norton (EGVN) frequencies to 8.33kHz spacing - thanks to @danielbutton (Daniel Button)

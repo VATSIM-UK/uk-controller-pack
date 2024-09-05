@@ -5,6 +5,8 @@ System_GUI_Scale_Windows=1
 System_GUI_Scale_Menus=1
 System_GUI_Scale_GlobalMenu=1
 System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
 
 //System wide settings
 Setup_COOPANS=1
@@ -19,6 +21,7 @@ System_MagModel_Year=2020
 System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
+System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
@@ -30,6 +33,7 @@ Window_HoldList_MaxListItems=20
 FlightLeg_AutoShow=1
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=
@@ -55,6 +59,8 @@ Color_Active_Map_Type_6=55,55,57
 Color_Active_Map_Type_7=28,28,28
 //Fixes
 Color_Active_Map_Type_8=140,140,140
+//VRPs
+Color_Active_Map_Type_9=140,140,140
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=120,0,0
@@ -164,7 +170,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,975,0
+Window_CPDLC_Current=1,1064,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
