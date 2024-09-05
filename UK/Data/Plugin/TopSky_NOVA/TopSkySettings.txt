@@ -216,7 +216,7 @@ Color_Active_Map_Type_3=160,160,160
 //STARs (RMA Lines)
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
-Color_Active_Map_Type_5=24,99,103
+Color_Active_Map_Type_5=157,122,40
 
 [EGAC_]
 Setup_ScreenLat=EGAC
@@ -231,7 +231,7 @@ Color_Active_Map_Type_3=160,160,160
 //STARs (RMA Lines)
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
-Color_Active_Map_Type_5=24,99,103
+Color_Active_Map_Type_5=157,122,40
 
 [EGBB_]
 Setup_ScreenLat=EGBB
