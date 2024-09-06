@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2408/1  ++  Valid period: 08/AUG/2024 - 04/SEP/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2409/1  ++  Valid period: 05/SEP/2024 - 02/OCT/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
@@ -803,8 +803,7 @@ DAL5	LL1P	DALLACH	D-5 Evolution
 DART	LL1P	PARRISH	Dart
 DC10	HL3J	MCDONNELL DOUGLAS	DC10, MD10 (KC10 Extender, KDC10)
 DC2	ML2P	DOUGLAS	DC2
-DC3	ML2P	DOUGLAS	DC3, DST ( C41, C47, C47A to J, AC47, EC47, HC47, LC47,
-RC47, TC47, VC47 Skytrain, C53 Skytrooper, C117A/B/C, R4D1 to 7, Dakota)
+DC3	ML2P	DOUGLAS	DC3, DST (C41, C47, C47A to J, AC47, EC47, HC47, LC47, RC47, TC47, VC47 Skytrain, C53 Skytrooper, C117A/B/C, R4D1 to 7, Dakota)
 DC3S	ML2P	DOUGLAS	Super DC3 (C117D, LC117, TC117, VC117, R4D8)
 DC3T	ML2T	BASLER	Turbo 67
 DC4	ML4P	DOUGLAS	DC4 (C54, EC54, HC54, TC54, VC54, R5D Skymaster)
@@ -1253,8 +1252,7 @@ H43B	LH1T	KAMAN	HH43B/F Huskie (K6003/5)
 H46	MH2T	BOEING VERTOL	CH46, HH46, UH46, Hkp4, CH113, Sea Knight, Labrador, Voyageur (107)
 H47	MH2T	BOEING	CH47, MH47 Chinook
 H500	LH1T	AGUSTA	NH500
-H53	MH2T	SIKORSKY	S65 (CH53A/C/D/G, HH53, MH53H/J, RH53, TH53, VH53, Sea
-Stallion, Yasur)
+H53	MH2T	SIKORSKY	S65 (CH53A/C/D/G, HH53, MH53H/J, RH53, TH53, VH53, Sea Stallion, Yasur)
 H53S	MH3T	SIKORSKY	S80 (CH53E, MH53E Super Stallion, Sea Dragon)
 H60	MH2T	ASTA	S70 Seahawk
 H64	MH2T	BOEING	AH64 Longbow Apache
@@ -1642,8 +1640,7 @@ M5	LL1P	MAULE	M5, Strata Rocket, Lunar Rocket, Patroller
 M55	ML2J	MYASISHCHEV	M55 Geophysica
 M6	LL1P	MAULE	M6 Super Rocket
 M600	LL1T	PIPER	PA-46-600TP
-M7	LL1P	MAULE	M7235/260, MT7235/260, MX7160/180/235, MXT7160/180
-Super Rocket, Star Rocket, Comet, Star Craft, Orion,Sportplane
+M7	LL1P	MAULE	M7235/260, MT7235/260, MX7160/180/235, MXT7160/180 Super Rocket, Star Rocket, Comet, Star Craft, Orion,Sportplane
 M74	LH1P	TEXAS HELICOPTER	M74 Wasp
 M7T	LL1T	MAULE	M7420, MT7420, MX7420, MXT7420 Star Craft
 M8	LL1P	MAULE	M8
@@ -2199,8 +2196,7 @@ S51D	LL1P	STEWART AIRCRAFT, US	S51D
 S52	LH1P	SIKORSKY	S52 (HO5S)
 S55P	LH1P	SIKORSKY	S55, S55A/C (H19, CH19, HH19, UH19, HO4S, HRS, Chickasaw)
 S55T	LH1T	SIKORSKY	S55T
-S58P	LH1P	SIKORSKY	S58, S58B/C/D (CH34, HH34, SH34, UH34, HSS1, HUS, Chock
-taw, Seabat, Seahorse)
+S58P	LH1P	SIKORSKY	S58, S58B/C/D (CH34, HH34, SH34, UH34, HSS1, HUS, Chocktaw, Seabat, Seahorse)
 S58T	LH1T	SIKORSKY	S58T/DT/ET
 S6	LL1P	STEMME	S-6
 S601	LL2J	AEROSPATIALE	SN601 Corvette

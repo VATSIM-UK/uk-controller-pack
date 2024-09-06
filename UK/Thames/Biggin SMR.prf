@@ -15,7 +15,7 @@ Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2024_08.sct
+Settings	sector	UK\Data\Sector\UK_2024_09b.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Thames\Biggin SMR.asr

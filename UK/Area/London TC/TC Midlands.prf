@@ -16,7 +16,7 @@ Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2024_08.sct
+Settings	sector	UK\Data\Sector\UK_2024_09b.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
