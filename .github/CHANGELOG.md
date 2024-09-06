@@ -10,7 +10,9 @@
 9. AIRAC (2409) - Updated EGNS MSAW altitudes - thanks to @luke11brown (Luke Brown)
 10. AIRAC(2409) - Various Mil frequencies updated to 8.33kHz - thanks to @BenWalker01 (Ben Walker)
 11. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
-x. Bug - Fixed airport specific TopSky issues - thanks to @SamLefevre (Samuel Lefevre)
+12. Bug - Fixed vATIS area frequency errors - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Added TopSky alert items to all tag families - thanks to @luke11brown (Luke Brown)
+14. Bug - Fixed airport specific TopSky issues - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)

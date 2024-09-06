@@ -3465,7 +3465,7 @@
         "low": "A",
         "high": "Z"
       },
-      "AtisFrequency": 19425,
+      "AtisFrequency": 24130,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"

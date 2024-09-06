@@ -1120,7 +1120,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 35450,
+      "AtisFrequency": 35455,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -1286,7 +1286,7 @@
           "Spoken": "MARR UM"
         }
       ],
-      "AtisFrequency": 21725,
+      "AtisFrequency": 21730,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
