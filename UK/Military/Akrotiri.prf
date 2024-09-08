@@ -13,15 +13,9 @@ Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Akrotiri\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Akrotiri.txt
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar_1.asr
-RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar_2.asr
-RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar_3.asr
-RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar_4.asr
+RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar.asr
 RecentFiles	Recent2	\..\Data\ASR\Akrotiri\Akrotiri SMR.asr
-ASRFastKeys	1	\..\Data\ASR\Akrotiri\Akrotiri Radar_1.asr
-ASRFastKeys	1	\..\Data\ASR\Akrotiri\Akrotiri Radar_2.asr
-ASRFastKeys	1	\..\Data\ASR\Akrotiri\Akrotiri Radar_3.asr
-ASRFastKeys	1	\..\Data\ASR\Akrotiri\Akrotiri Radar_4.asr
+ASRFastKeys	1	\..\Data\ASR\Akrotiri\Akrotiri Radar.asr
 ASRFastKeys	2	\..\Data\ASR\Akrotiri\Akrotiri SMR.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display

@@ -45,7 +45,6 @@ Free Text:Airspace Bases\7500:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\SFC:freetext
 Free Text:Airspace Bases\SFC:freetext
-Free Text:Airspace Bases\SFC:freetext
 Free Text:Airspace Bases\SFC-7500:freetext
 Free Text:Danger Areas\LC11 SFC-FL110:freetext
 Free Text:Danger Areas\LC3 SFC-FL350:freetext
@@ -58,6 +57,8 @@ Free Text:Danger Areas\LC48 SFC-FL300:freetext
 Geo:LCCC Landmark 8611427 Cyprus:
 Geo:LCCC Landmark 8611427 Other:
 Geo:LCCC Landmark Lakes:
+Regions:LCLK TMA:polygon
+Regions:LCPH TMA:polygon
 Runways:LCRA 10-28:centerline
 Runways:LCRA 10-28:extended centerline 1
 Runways:LCRA 10-28:extended centerline 1 left ticks
@@ -83,7 +84,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:AC
-WINDOWAREA:33.839161:31.889540:35.334880:34.200296
+WINDOWAREA:33.985771:31.566224:35.182346:34.327892
 PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -102,14 +103,14 @@ PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
 PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
-PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
-PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:8
 PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
-PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailLength:1
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
-PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailType:3
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
@@ -122,6 +123,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
