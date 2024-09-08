@@ -1,0 +1,126 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+Free Text:SCT2\1:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\10:freetext
+Free Text:SCT2\10 Hold:freetext
+Free Text:SCT2\12:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\28 Hold:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\5:freetext
+Free Text:SCT2\6:freetext
+Free Text:SCT2\7:freetext
+Free Text:SCT2\8:freetext
+Free Text:SCT2\9:freetext
+Free Text:SCT2\ALPHA:freetext
+Free Text:SCT2\B CENT:freetext
+Free Text:SCT2\B EAST:freetext
+Free Text:SCT2\B WEST :freetext
+Free Text:SCT2\BRAVO:freetext
+Free Text:SCT2\Cat 1:freetext
+Free Text:SCT2\Cat 1:freetext
+Free Text:SCT2\CHARLIE:freetext
+Free Text:SCT2\Compass Bay:freetext
+Free Text:SCT2\DELTA:freetext
+Free Text:SCT2\ECHO:freetext
+Free Text:SCT2\ERP:freetext
+Free Text:SCT2\FOXTROT:freetext
+Free Text:SCT2\GOLF:freetext
+Free Text:SCT2\HOTEL:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W Hold:freetext
+Free Text:SCT2\Y:freetext
+Free Text:SCT2\Y:freetext
+Free Text:SCT2\Y:freetext
+Free Text:SCT2\Y1:freetext
+Free Text:SCT2\Y2:freetext
+Free Text:SCT2\Y3:freetext
+Geo:LCRA Groundlayout REGION:
+Regions:LCCC 01.Ocean:polygon
+Regions:LCCC 02.Terrain:polygon
+Regions:LCCC 03.Lakes:polygon
+Regions:LCCC 04.Mountains_500:polygon
+Regions:LCCC 05.Mountains_1000:polygon
+Regions:LCCC 06.Mountains_2000:polygon
+Regions:LCCC 07.Mountains_3000:polygon
+Regions:LCCC 08.Mountains_4000:polygon
+Regions:LCCC 09.Mountains_5000:polygon
+Regions:LCCC 10.Mountains_6000:polygon
+Regions:LCRA Groundlayout:polygon
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:Alternative
+WINDOWAREA:34.573974:32.945712:34.602249:33.031428
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:0
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:15
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
