@@ -124,3 +124,15 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:vSMR Vatsim UK:Airport:LCRA
+PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightX:1920
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightY:928
+PLUGIN:vSMR Vatsim UK:SRW1Display:1
+PLUGIN:vSMR Vatsim UK:SRW1Filter:5500
+PLUGIN:vSMR Vatsim UK:SRW1OffsetX:0
+PLUGIN:vSMR Vatsim UK:SRW1OffsetY:0
+PLUGIN:vSMR Vatsim UK:SRW1Rotation:0
+PLUGIN:vSMR Vatsim UK:SRW1Scale:15
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftX:1545
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftY:629
