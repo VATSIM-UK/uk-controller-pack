@@ -11,7 +11,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Akrotiri\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_LCRA.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Akrotiri.txt
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 RecentFiles	Recent1	\..\Data\ASR\Akrotiri\Akrotiri Radar.asr
 RecentFiles	Recent2	\..\Data\ASR\Akrotiri\Akrotiri SMR.asr
