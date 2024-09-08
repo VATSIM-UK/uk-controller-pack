@@ -12,7 +12,7 @@ ATIS2:"Akrotiri Tower"
 ATIS3:Feedback at vats.im/atcfb
 ATIS4:
 PROFILE:LCRA_GND:10:3
-ATIS2:"Akrotiri Tower"
+ATIS2:"Akrotiri Ground"
 ATIS3:Feedback at vats.im/atcfb
 ATIS4:
 END
