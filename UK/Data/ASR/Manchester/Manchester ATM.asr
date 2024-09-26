@@ -737,26 +737,12 @@ NDBs:YVL:name
 NDBs:YVL:symbol
 Regions:Coastline:polygon
 Runways:EGCC Manchester 05L-23R:extended centerline 1
-Runways:EGCC Manchester 05L-23R:extended centerline 1 left base
 Runways:EGCC Manchester 05L-23R:extended centerline 1 left ticks
-Runways:EGCC Manchester 05L-23R:extended centerline 1 left vectoring
-Runways:EGCC Manchester 05L-23R:extended centerline 1 right base
-Runways:EGCC Manchester 05L-23R:extended centerline 1 right ticks
-Runways:EGCC Manchester 05L-23R:extended centerline 1 right vectoring
 Runways:EGCC Manchester 05L-23R:extended centerline 2
-Runways:EGCC Manchester 05L-23R:extended centerline 2 left base
 Runways:EGCC Manchester 05L-23R:extended centerline 2 left ticks
-Runways:EGCC Manchester 05L-23R:extended centerline 2 left vectoring
-Runways:EGCC Manchester 05L-23R:extended centerline 2 right base
 Runways:EGCC Manchester 05L-23R:extended centerline 2 right ticks
-Runways:EGCC Manchester 05L-23R:extended centerline 2 right vectoring
-Runways:EGCC Manchester 05R-23L:extended centerline 2
-Runways:EGCC Manchester 05R-23L:extended centerline 2 left base
-Runways:EGCC Manchester 05R-23L:extended centerline 2 left ticks
-Runways:EGCC Manchester 05R-23L:extended centerline 2 left vectoring
-Runways:EGCC Manchester 05R-23L:extended centerline 2 right base
-Runways:EGCC Manchester 05R-23L:extended centerline 2 right ticks
-Runways:EGCC Manchester 05R-23L:extended centerline 2 right vectoring
+Runways:EGCC Manchester 05R-23L:extended centerline 1
+Runways:EGCC Manchester 05R-23L:extended centerline 1 right ticks
 VORs:ABB:name
 VORs:ABB:symbol
 VORs:ADN:name
