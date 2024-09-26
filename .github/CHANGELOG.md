@@ -1,3 +1,6 @@
+# Changes from release 2024/09 to 2024/10
+1. Manchester (EGCC) ATm Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
