@@ -1,5 +1,5 @@
 # Changes from release 2024/08 to 2024/09
-X. Bug - Fixed typo in profile.txt of FID
+X. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
