@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\Akrotiri LCRA.sct
-SECTORTITLE:Akrotiri LCRA.sct
 ARTCC boundary:4345440 area LC 10:
 ARTCC boundary:4345440 area LC 11:
 ARTCC boundary:4345440 area LC 17:
