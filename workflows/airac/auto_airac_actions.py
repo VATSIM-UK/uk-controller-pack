@@ -196,7 +196,7 @@ class CurrentInstallation:
             sector_fn = []
             for root, dirs, files in os.walk(self.ukcp_location):
                 for file_name in files:
-                    if file_name.endswith(".sct"):
+                    if file_name.endswith(".sct") and file_name.startswith("UK_"):
                         sector_file.append(os.path.join(root, file_name))
                         sector_fn.append(file_name)
 
