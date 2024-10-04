@@ -711,7 +711,7 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:NOVA 9000
+TAGFAMILY:Traffic Monitor
 WINDOWAREA:51.621645:-1.171608:52.159190:0.514456
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
