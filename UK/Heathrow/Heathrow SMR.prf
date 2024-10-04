@@ -19,7 +19,7 @@ Settings	SettingsfileTAKEOFF	\..\Data\Settings\Local\Heathrow\SMR_LL_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2024_09b.sct
+Settings	sector	UK\Data\Sector\UK_2024_10.sct
 Settings	alias	\..\Data\Alias\Heathrow_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Heathrow\Heathrow SMR.asr

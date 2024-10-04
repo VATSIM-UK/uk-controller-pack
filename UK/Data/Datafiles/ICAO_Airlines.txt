@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2409/1  ++  Valid period: 05/SEP/2024 - 02/OCT/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2410/1  ++  Valid period: 03/OCT/2024 - 30/OCT/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 AAB	ABELAG AVIATION	ABELAG	BELGIUM
 AAC	ARMY AIR CORPS	ARMYAIR	UNITED KINGDOM
@@ -2497,6 +2497,7 @@ HEV	HELICOPTEROS EJECUTIVOS, S.A DE C.V.	HELIJECUTIVO	MEXICO
 HEW	ASA HELI-WATER SP. Z.O.O.	HELIWATER	POLAND
 HEX	HONIARA CARGO EXPRESS	HONIARA CARGO	SOLOMON ISLANDS
 HEZ	ARROW AVIATION LTD	ARROW	ISRAEL
+HFA	AIR HAIFA LTD.	AIR HAIFA	ISRAEL
 HFD	BLUE CITY AVIATION LTD	HIGHFIELD	UNITED KINGDOM
 HFJ	SHENZHEN UNITED BUSINESS JET CO., LTD	PANGU	CHINA
 HFL	LEAF - LEASE & FLY LTD	LOADSTAR	MALTA
