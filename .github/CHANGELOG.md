@@ -3,6 +3,9 @@
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/08 to 2024/09
+X. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
+
+# Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
 3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
