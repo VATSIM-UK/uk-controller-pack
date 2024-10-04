@@ -194,9 +194,11 @@ class CurrentInstallation:
 
             sector_file = []
             sector_fn = []
+
             for root, dirs, files in os.walk(self.ukcp_location):
                 for file_name in files:
-                    if file_name.endswith(".sct"):
+                    # Only consider .sct files that start with 'UK_'
+                    if file_name.endswith(".sct") and file_name.startswith("UK_"):
                         sector_file.append(os.path.join(root, file_name))
                         sector_fn.append(file_name)
 
@@ -208,7 +210,7 @@ class CurrentInstallation:
                 if airac_format not in sector_file[0]:
                     logger.warning(
                         f"Sector file appears out of date with the current {self.airac} release!"
-                        )
+                    )
                     ext = ["ese", "rwy", "sct"]
 
                     # Get artifact url from VATSIM-UK/UK-Sector-File
@@ -242,59 +244,28 @@ class CurrentInstallation:
                     os.remove("sector.zip")
 
                     # Rename artifact files
-                    logger.debug(f"Sector file name{sector_fn}")
+                    logger.debug(f"Sector file name {sector_fn}")
                     for e_type in ext:
                         os.rename(
                             f"UK.{e_type}",
                             f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.{e_type}"
-                            )
+                        )
 
                     # Clean up old sector files
-                    logger.debug(f"Sector file name{sector_fn}")
+                    logger.debug(f"Sector file name {sector_fn}")
                     for e_type in ext:
-
                         path_to_remove = f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"
                         os.remove(path_to_remove)
-                            
+
                     # Return the newly downloaded sector file
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
             else:
-                logger.error(
-                    (f"Sector file search found {len(sector_file)} files. ",
-                     "There should only have one of these!"))
+                logger.error(f"Sector file search found {len(sector_file)} files. There should only be one!")
                 logger.debug(sector_file)
-                raise ValueError(
-                    f"{len(sector_file)} sector files were found when there should only be one")
+                raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
 
-        sct_file = get_sector_file()
+        # Call the sector file getter function
+        get_sector_file()
 
-        @iter_files(".prf", "r+")
-        def prf_files(lines=None, file=None, file_path=None):
-            """Updates all 'prf' files to include the latest sector file"""
-
-            sector_file = f"Settings\tsector\t{sct_file}"
-
-            sf_replace = sector_file.replace("/", "\\\\")
-
-            chk = False
-            for line in lines:
-                # Add the sector file path
-                content = re.sub(r"^Settings\tsector\t(.*)", sf_replace, line)
-                chk = True
-
-                # Write the updated content back to the file
-                file.write(content.replace("\\\\", "\\"))
-            file.truncate()
-
-            # If no changes have been made, add the SECTORFILE and SECTORTITLE lines
-            if not chk:
-                file.close()
-                with open(file_path, "a", encoding="utf-8") as file_append:
-                    file_append.write(sf_replace.replace("\\\\", "\\") + "\n")
-
-        prf_files()
-
-run = CurrentInstallation()
-run.apply_settings()
-run.gng_data_update()
+        return True
