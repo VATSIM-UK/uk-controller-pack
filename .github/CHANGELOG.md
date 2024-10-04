@@ -7,6 +7,7 @@
 6. Enhancement - vSMR geofenced areas redrawn & file formatting improved - thanks to @19wintersp (Patrick Winters)
 7. Enhancement - RAF Akrotiri (LCRA) Profiles & Displays Added - thanks to @luke11brown (Luke Brown)
 8. AIRAC (2410) - Removed Cambridge (EGSC) Director/Radar frequencies - thanks to @AdriTheDev (Callum Hicks) & @luke11brown (Luke Brown)
+9. Bug - Corrected Stansted & Luton ATM tag families - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
