@@ -1,3 +1,5 @@
+X. Enhancement - vSMR Geofenced areas redrawn & file formatting improved - thanks to @19wintersp (Patrick Winters)
+
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
