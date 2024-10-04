@@ -5,6 +5,7 @@
 4. Bug - Area SMRs changed to north up - thanks to @SamLefevre (Samuel Lefevre)
 5. Enhancement - Added automatic centreline activation based on active sector - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - vSMR geofenced areas redrawn & file formatting improved - thanks to @19wintersp (Patrick Winters)
+7. Enhancement - RAF Akrotiri (LCRA) Profiles & Displays Added - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)

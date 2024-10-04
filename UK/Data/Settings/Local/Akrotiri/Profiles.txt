@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:LCRA_APP:150:5
+ATIS2:"Akrotiri Radar"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:LCRA_P_APP:150:5
+ATIS2:"Akrotiri Talkdown"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:LCRA_TWR:50:4
+ATIS2:"Akrotiri Tower"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:LCRA_GND:10:3
+ATIS2:"Akrotiri Ground"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+END
