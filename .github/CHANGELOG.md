@@ -1,9 +1,8 @@
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
-
-# Changes from release 2024/08 to 2024/09
-X. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
+3. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
+4. Bug - Area SMRs changed to north up - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
