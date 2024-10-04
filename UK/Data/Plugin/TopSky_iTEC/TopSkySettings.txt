@@ -8,6 +8,18 @@ System_GUI_Scale_Screen=1
 System_GUI_Font_Fixed_1=Consolas
 System_GUI_Font_Fixed_1_Size=11
 
+// Shortcuts
+
+Shortcut_Map_Xfr_Combo=1,0x12
+Shortcut_Map_Xfr_Key=1,0x44
+Shortcut_Map_Target=1,Shortcuts\Airspace Bases
+Shortcut_Map_Xfr_Combo=2,0x12
+Shortcut_Map_Xfr_Key=2,0x56
+Shortcut_Map_Target=2,Shortcuts\VRPs
+Shortcut_Map_Xfr_Combo=3,0x12
+Shortcut_Map_Xfr_Key=3,0x48
+Shortcut_Map_Target=3,Shortcuts\Heli Points
+
 //System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
@@ -71,7 +83,8 @@ Color_Active_Map_Type_7=187,187,187
 Color_Active_Map_Type_8=140,140,140
 //VRPs
 Color_Active_Map_Type_9=134,134,134
-Color_Active_Map_Type_10
+//FAVAs
+Color_Active_Map_Type_10=134,134,134
 Color_Active_Map_Type_11
 Color_Active_Map_Type_12=139,0,0
 Color_Active_Map_Type_13
