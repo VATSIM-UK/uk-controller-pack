@@ -3,6 +3,7 @@
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
 3. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
 4. Bug - Area SMRs changed to north up - thanks to @SamLefevre (Samuel Lefevre)
+5. Enhancement - Added automatic centreline activation based on active sector - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)

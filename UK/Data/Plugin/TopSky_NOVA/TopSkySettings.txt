@@ -69,9 +69,10 @@ Color_Active_Map_Type_5=255,255,170
 Color_Active_Map_Type_6=187,187,187
 //Sector background infill
 Color_Active_Map_Type_7=187,187,187
-//Fixes
-Color_Active_Map_Type_9=200,200,200
 //VRPs
+Color_Active_Map_Type_9=200,200,200
+//FAVAs
+Color_Active_Map_Type_10=140,230,120
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=180,0,0
@@ -313,8 +314,8 @@ Color_Active_Map_Type_5=50,90,60
 Setup_ScreenLat=EGPD
 //Colour settings
 //Danger area (red)
-Color_Active_Map_Type_1=180
-Color_Active_Text_Map=180
+Color_Active_Map_Type_1=180,0,0
+Color_Active_Text_Map=180,0,0
 //ARTCC High (Grey on NERC)
 Color_Active_Map_Type_2=240,230,90
 //Freetext
@@ -325,6 +326,8 @@ Color_Active_Map_Type_4=175,190,60
 Color_Active_Map_Type_5=255,255,170
 //VRPs
 Color_Active_Map_Type_9=240,230,90
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
 
 [EGPH_]
 Setup_ScreenLat=EGPH
@@ -340,6 +343,8 @@ Color_Active_Map_Type_3=160,160,160
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
 Color_Active_Map_Type_5=255,255,190
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
 
 [EGTE_]
 Setup_ScreenLat=EGTE
@@ -370,6 +375,8 @@ Color_Active_Map_Type_3=90,90,90
 Color_Active_Map_Type_4=0,255,255
 //Centrelines
 Color_Active_Map_Type_5=0,210,210
+//FAVAs
+Color_Active_Map_Type_10=0,180,180
 
 [EGNM_]
 Setup_ScreenLat=EGNM

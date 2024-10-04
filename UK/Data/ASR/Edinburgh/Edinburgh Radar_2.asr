@@ -1462,26 +1462,12 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Regions:A-EastCoast:polygon
 Regions:A-Ireland:polygon
-Regions:A-Northwest:polygon
+Regions:A-NorthWest:polygon
 Regions:A-Scottish:polygon
 Regions:A-ScottishIslands:polygon
 Regions:A-SouthEast:polygon
 Regions:A-SouthWalesMidlands:polygon
 Regions:A-SouthWest:polygon
-Runways:EGPH Edinburgh 06-24:extended centerline 1
-Runways:EGPH Edinburgh 06-24:extended centerline 1 left base
-Runways:EGPH Edinburgh 06-24:extended centerline 1 left ticks
-Runways:EGPH Edinburgh 06-24:extended centerline 1 left vectoring
-Runways:EGPH Edinburgh 06-24:extended centerline 1 right base
-Runways:EGPH Edinburgh 06-24:extended centerline 1 right ticks
-Runways:EGPH Edinburgh 06-24:extended centerline 1 right vectoring
-Runways:EGPH Edinburgh 06-24:extended centerline 2
-Runways:EGPH Edinburgh 06-24:extended centerline 2 left base
-Runways:EGPH Edinburgh 06-24:extended centerline 2 left ticks
-Runways:EGPH Edinburgh 06-24:extended centerline 2 left vectoring
-Runways:EGPH Edinburgh 06-24:extended centerline 2 right base
-Runways:EGPH Edinburgh 06-24:extended centerline 2 right ticks
-Runways:EGPH Edinburgh 06-24:extended centerline 2 right vectoring
 Sids:EGPH Edinburgh Centerline:
 Sids:EGPH Edinburgh FAVA:
 Sids:EGPH Edinburgh SMAA:
@@ -1595,7 +1581,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:55.400944:-5.094672:56.499056:-1.650328
-PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels,CentrelinesPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
@@ -1629,7 +1616,6 @@ PLUGIN:UK Controller Plugin:holdSTIRAPositionY:671
 PLUGIN:UK Controller Plugin:holdTARTNMaxLevel:14000
 PLUGIN:UK Controller Plugin:holdTARTNMinimised:0
 PLUGIN:UK Controller Plugin:holdTARTNMinLevel:7000
-PLUGIN:UK Controller Plugin:selectedHolds:STIRA;TARTN
 PLUGIN:UK Controller Plugin:holdTARTNPositionX:1441
 PLUGIN:UK Controller Plugin:holdTARTNPositionY:669
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
@@ -1641,6 +1627,7 @@ PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:selectedHolds:STIRA;TARTN
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.STMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_PORTREE;ASR_TYNE
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
