@@ -1,3 +1,6 @@
+# Changes from release 2024/10 to 2024/11
+1. Enhancement - Added ground speed to ATM tags - thanks to @frazerxyz (Frazer Scully)
+
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
@@ -8,7 +11,6 @@
 7. Enhancement - RAF Akrotiri (LCRA) Profiles & Displays Added - thanks to @luke11brown (Luke Brown)
 8. AIRAC (2410) - Removed Cambridge (EGSC) Director/Radar frequencies - thanks to @AdriTheDev (Callum Hicks) & @luke11brown (Luke Brown)
 9. Bug - Corrected Stansted & Luton ATM tag families - thanks to @luke11brown (Luke Brown)
-10. Enhancement - Added ground speed to ATM tags - thanks to @frazerxyz (Frazer Scully)
 
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
