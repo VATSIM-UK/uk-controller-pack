@@ -1,3 +1,6 @@
+# Changes from release 2024/10 to 2024/11
+1. Enhancement - Hid vFPC column in all lists - thanks to @frazerxyz (Frazer Scully)
+
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
