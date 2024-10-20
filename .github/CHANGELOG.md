@@ -1,3 +1,5 @@
+x. Enhancement - Open VCH request menu when clicking the RQT column button - thanks to @kristiankunc (Kristián Kunc)
+
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
 2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
