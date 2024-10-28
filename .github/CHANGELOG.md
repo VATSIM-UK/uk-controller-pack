@@ -5,6 +5,7 @@
 4. Enhancement - Hid vFPC column in all lists - thanks to @frazerxyz (Frazer Scully)
 5. AIRAC (2411) - Updated Leeming (EGXE) Frequencies - thanks to @aidenbok203 (Aiden Bok)
 6. AIRAC (2411) - Updated Benson (EGUB) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+7. Enhancement - Updated RQT column button behaviour in departure lists - thanks to @kristiankunc (Kristián Kunc)
 
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
