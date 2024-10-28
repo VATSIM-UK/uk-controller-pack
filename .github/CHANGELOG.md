@@ -4,6 +4,7 @@
 3. AIRAC (2411) - Updated Odiham (EGVO) Frequencies - thanks to @aidenbok203 (Aiden Bok)
 4. Enhancement - Hid vFPC column in all lists - thanks to @frazerxyz (Frazer Scully)
 5. AIRAC (2411) - Updated Leeming (EGXE) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+6. AIRAC (2411) - Updated Benson (EGUB) Frequencies - thanks to @aidenbok203 (Aiden Bok)
 
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
