@@ -21,7 +21,7 @@ class Airac:
 
     def __init__(self):
         # First AIRAC date following the last cycle length modification
-        start_date = "2021-01-27"
+        start_date = "2021-01-28"
         self.base_date = datetime.date.fromisoformat(str(start_date))
         # Length of one AIRAC cycle
         self.cycle_days = 28
