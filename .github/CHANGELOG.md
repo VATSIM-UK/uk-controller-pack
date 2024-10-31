@@ -7,6 +7,7 @@
 6. AIRAC (2411) - Updated Benson (EGUB) Frequencies - thanks to @aidenbok203 (Aiden Bok)
 7. Enhancement - Updated RQT column button behaviour in departure lists - thanks to @kristiankunc (Kristián Kunc)
 8. Enhancement - Updated Newcastle Profile and Symbology - thanks to @SamLefevre (Samuel Lefevre)
+9. AIRAC (2411) - Updated TopSky Daylight Savings Dates for 2025 - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/09 to 2024/10
 1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
