@@ -431,8 +431,8 @@ Color_Active_Map_Type_9=135,255,210
 Setup_ScreenLat=EGNT
 //Colour settings
 //Danger area (red)
-Color_Active_Map_Type_1=180,0,0
-Color_Active_Text_Map=180,0,0
+Color_Active_Map_Type_1=123,40,40
+Color_Active_Text_Map=123,40,40
 //ARTCC High (Grey on NERC)
 Color_Active_Map_Type_2=128,128,0
 //Freetext
@@ -441,6 +441,8 @@ Color_Active_Map_Type_3=105,105,105
 Color_Active_Map_Type_4=175,190,60
 //Centrelines
 Color_Active_Map_Type_5=128,128,0
+//VRPs
+Color_Active_Map_Type_9=128,128,0
 
 [SOLENT_]
 Setup_ScreenLat=EGHI

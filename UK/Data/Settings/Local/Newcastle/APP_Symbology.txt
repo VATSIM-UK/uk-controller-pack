@@ -8,11 +8,11 @@ High airways:line:16512:3.5:2:0:7
 High airways:name:2512998:3.5:0:0:8
 Fixes:symbol:32896:1.0:0:0:7
 Fixes:name:6908265:3.2:0:0:2
-Sids:line:5921370:3.0:0:0:7
+Sids:line:9531225:3.0:0:0:7
 Stars:line:3980975:3.0:1:0:7
-ARTCC high boundary:line:32896:3.0:1:1:7
-ARTCC boundary:line:180:3.0:0:0:7
-ARTCC low boundary:line:32896:3.0:1:1:7
+ARTCC high boundary:line:32896:3.0:2:1:7
+ARTCC boundary:line:2631803:3.0:0:0:7
+ARTCC low boundary:line:32896:3.0:2:1:7
 Geo:line:32896:3.0:0:0:7
 VORs:symbol:32896:1.4:0:0:7
 VORs:name:6579300:3.2:0:0:2
@@ -77,7 +77,7 @@ Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
 Other:freetext:6908265:3.5:0:0:0
-Other:range rings:13158600:5.0:2:0:2
+Other:range rings:8421504:5.0:2:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
 Other:manual taxi line:16777215:5.0:0:3:2
@@ -89,7 +89,7 @@ Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
 Chat:text:16777215:3.5:0:0:7
-Chat:background:2894892:3.5:0:0:7
+Chat:background:3541765:3.5:0:0:7
 Chat:name normal:16777215:3.5:0:0:7
 Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
@@ -97,8 +97,8 @@ Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
 Sector:line:48059:0.5:0:0:7
 Sector:msaw:32768:2.0:0:2:7
-Sector:active sector background:4135951:3.5:0:0:7
-Sector:inactive sector background:4135951:3.5:0:0:7
+Sector:active sector background:6164745:3.5:0:0:7
+Sector:inactive sector background:6164745:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:ARC 0 0 5 0 360
 SYMBOL:1
