@@ -280,7 +280,7 @@ class CurrentInstallation:
             chk = False
             for line in lines:
                 # Add the sector file path
-                content = re.sub(r"^Settings\tsector\t(.*)", sf_replace, line)
+                content = re.sub(r"^Settings\tsector\t.*UK.+", sf_replace, line)
                 chk = True
 
                 # Write the updated content back to the file
