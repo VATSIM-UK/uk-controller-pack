@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2410/1  ++  Valid period: 03/OCT/2024 - 30/OCT/2024  ++  File-Publisher: London - EGTT                           ;
+;  AIRAC 2411/1  ++  Valid period: 31/OCT/2024 - 27/NOV/2024  ++  File-Publisher: London - EGTT                           ;
 ;=========================================================================================================================;
 A002	LG1P	IRKUT	A-002
 A1	ML1P	DOUGLAS	A1, EA1, AD Skyraider
