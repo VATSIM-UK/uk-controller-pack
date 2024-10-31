@@ -17,54 +17,31 @@ from loguru import logger
 
 
 class Airac:
-    """Class for general functions relating to AIRAC"""
+    """ A valid AIRAC cycle. """
 
-    def __init__(self):
-        # First AIRAC date following the last cycle length modification
-        start_date = "2021-01-28"
-        self.base_date = datetime.date.fromisoformat(str(start_date))
-        # Length of one AIRAC cycle
-        self.cycle_days = 28
-        # Today
-        self.today_date = datetime.datetime.now().date()
+    # reference cycle date: any valid AIRAC start date
+    CYCLE_REFERENCE = datetime.date.fromisoformat("2020-01-02")
+    # AIRAC cycle length in days
+    CYCLE_LENGTH    = 28
 
-    def initialise(self, date_in=None) -> int:
-        """Calculate the number of AIRAC cycles between any given date and the start date"""
-        if date_in:
-            input_date = datetime.date.fromisoformat(str(date_in))
+    def __init__(self, date: str | None = None):
+        if date is None:
+            date = datetime.datetime.now().date()
         else:
-            input_date = datetime.date.today()
+            date = datetime.date.fromisoformat(date)
 
-        start_of_year = datetime.date(input_date.year, 1, 1)
-        # How many AIRAC cycles have occurred since the start of the calendar year
-        diff_cycles = (input_date - start_of_year) / datetime.timedelta(days=1)
-        # Round that number down to the nearest whole integer
-        number_of_cycles = floor(diff_cycles / self.cycle_days)
-        return number_of_cycles
+        ref_delta = (date - Airac.CYCLE_REFERENCE).days // Airac.CYCLE_LENGTH
+        ref_delta = datetime.timedelta(ref_delta * Airac.CYCLE_LENGTH)
+        self.start_date = Airac.CYCLE_REFERENCE + ref_delta
 
-    def current_cycle(self) -> str:
-        """Return the date of the current AIRAC cycle"""
-        def cycle(sub=0):
-            number_of_cycles = self.initialise() - sub
-            number_of_days = number_of_cycles * self.cycle_days + 1
-            current_cycle = self.base_date + datetime.timedelta(days=number_of_days)
-            return current_cycle
+        day_of_year = self.start_date.timetuple().tm_yday
+        self.cycle_number = (day_of_year - 1) // Airac.CYCLE_LENGTH + 1
 
-        current_cycle = cycle()
-        if current_cycle > self.today_date:
-            current_cycle = cycle(sub=1)
+    def cycle(self) -> str:
+        return f"{self.start_date.year % 100:02}{self.cycle_number:02}"
 
-        # Format month with leading zero if necessary
-        month_part = str(current_cycle.month).zfill(2)  # Zero padding for single-digit months
-
-        return f"{current_cycle.year}_{month_part}"
-
-    def current_tag(self) -> str:
-        """Returns the current tag for use with git"""
-        current_cycle_count = self.initialise()
-        current_month = str(self.today_date.month).zfill(2)  # Add leading zero if necessary
-        current_tag = f"{self.today_date.year}/{current_month}"
-        return current_tag
+    def tag(self) -> str:
+        return f"{self.start_date.year}/{self.cycle_number:02}"
 
 
 class CurrentInstallation:
@@ -76,8 +53,7 @@ class CurrentInstallation:
         self.ukcp_location = "UK"
 
         # Get the current AIRAC cycle
-        airac = Airac()
-        self.airac = airac.current_tag()
+        self.airac = Airac().tag()
 
         # Write the current tag to use as a workflow variable
         with open("airac.txt", "w", encoding="utf-8") as a_file:
@@ -255,7 +231,7 @@ class CurrentInstallation:
 
                         path_to_remove = f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', maxsplit=1)[0]}.{e_type}"
                         os.remove(path_to_remove)
-                            
+
                     # Return the newly downloaded sector file
                     return str(f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct")
                 return str(sector_file[0])
