@@ -1,3 +1,6 @@
+# Changes from release 2024/11 to 2024/12
+1. Bug - CID inserted correctly into Area profile feedback link - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/10 to 2024/11
 1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)
 2. Enhancement - Added ground speed to ATM tags - thanks to @frazerxyz (Frazer Scully)
