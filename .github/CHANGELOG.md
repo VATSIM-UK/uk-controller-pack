@@ -1,3 +1,6 @@
+# Changes from release 2024/11 to 2024/12
+1. Enhancement - Update alias files to reflect new VATSIM CoC - thanks to @AdriTheDev (Callum Hicks)
+
 # Changes from release 2024/10 to 2024/11
 1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)
 2. Enhancement - Added ground speed to ATM tags - thanks to @frazerxyz (Frazer Scully)
