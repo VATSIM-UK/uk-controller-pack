@@ -66,6 +66,8 @@ os.system('cls')
 # VCCS Input and Output Device Selection
 
 VCCSInput = input("Would you like to use your default audio settings for VCCS? (y/n): ").lower()
+os.system('cls')
+
 if 'n' in VCCSInput:
     devices = sd.query_devices()
     unique_input_devices = set()
@@ -88,6 +90,7 @@ if 'n' in VCCSInput:
     while input_device not in map(str, range(0, len(unique_input_devices))):
         input_device = input(input_device_msg)
         VCCSInput = list(unique_input_devices)[int(input_device)]
+    os.system('cls')
 
     for i, device in enumerate(devices):
         if device['max_output_channels'] > 0 and "mapper" not in device['name'].lower() and not "driver" in device['name'].lower() and has_matching_brackets(device['name']):
@@ -100,6 +103,7 @@ if 'n' in VCCSInput:
     while output_device not in map(str, range(0, len(unique_output_devices))):
         output_device = input(output_device_msg)
         VCCSOutput = list(unique_output_devices)[int(output_device)]
+    os.system('cls')
 else:
     VCCSInput = sd.query_devices(sd.default.device[0])['name']
     VCCSOutput = sd.query_devices(sd.default.device[1])['name']
