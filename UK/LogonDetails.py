@@ -1,5 +1,18 @@
 import os
 import time
+import keyboard
+import sounddevice as sd
+
+def has_matching_brackets(s):
+    stack = []
+    for char in s:
+        if char == '(':
+            stack.append(char)
+        elif char == ')':
+            if not stack:
+                return False
+            stack.pop()
+    return not stack
 
 # User Inputs
 # Name
@@ -44,6 +57,54 @@ os.system('cls')
 CPDLC = input("Enter Hoppie's Code: ")
 os.system('cls')
 
+# VCCS PTT Key
+
+print("Push a key you want to use for VCCS. (Note: Keyboard only)")
+PTT = str(int(hex(keyboard.read_event().scan_code), 16) << 16)
+os.system('cls')
+
+# VCCS Input and Output Device Selection
+
+VCCSInput = input("Would you like to use your default audio settings for VCCS? (y/n): ").lower()
+if 'n' in VCCSInput:
+    devices = sd.query_devices()
+    unique_input_devices = set()
+    unique_output_devices = set()
+
+    input_device = ''
+    output_device = ''
+
+    input_device_msg = "Please select the input device: \n"
+    output_device_msg = "Please select the output device: \n"
+
+    for i, device in enumerate(devices):
+        if device['max_input_channels'] > 0 and "mapper" not in device['name'].lower() and not "driver" in device['name'].lower() and has_matching_brackets(device['name']):
+            if device['name'] not in unique_input_devices:
+                unique_input_devices.add(device['name'])
+
+    for index, item in enumerate(unique_input_devices):
+        input_device_msg += f'{index}) {item}\n'
+
+    while input_device not in map(str, range(0, len(unique_input_devices))):
+        input_device = input(input_device_msg)
+        VCCSInput = list(unique_input_devices)[int(input_device)]
+
+    for i, device in enumerate(devices):
+        if device['max_output_channels'] > 0 and "mapper" not in device['name'].lower() and not "driver" in device['name'].lower() and has_matching_brackets(device['name']):
+            if device['name'] not in unique_output_devices:
+                unique_output_devices.add(device['name'])
+
+    for index, item in enumerate(unique_output_devices):
+        output_device_msg += f'{index}) {item}\n'
+
+    while output_device not in map(str, range(0, len(unique_output_devices))):
+        output_device = input(output_device_msg)
+        VCCSOutput = list(unique_output_devices)[int(output_device)]
+else:
+    VCCSInput = sd.query_devices(sd.default.device[0])['name']
+    VCCSOutput = sd.query_devices(sd.default.device[1])['name']
+
+
 # Write CPDLC to TopSky (all instances)
 
 f = open("Data/Plugin/TopSky_iTEC/TopSkyCPDLChoppieCode.txt", "w")
@@ -60,9 +121,12 @@ f.write(CPDLC)
 
 f.close
 
-# Add CID as Nickname to VCCS profiles
+# Set VCCS Settings
 
-PrfVCCS=("TeamSpeakVccs	Ts3NickName	"+CID)
+PrfVCCSNick=("TeamSpeakVccs	Ts3NickName	"+CID)
+PrfVCCSPTT=("TeamSpeakVccs Ts3G2GPtt "+PTT)
+PrfVCCSInput=("TeamSpeakVccs	CaptureDevice	"+VCCSInput)
+PrfVCCSOutput=("TeamSpeakVccs	PlaybackDevice	"+VCCSOutput)
 
 #Set intials as object
 
@@ -83,7 +147,7 @@ for root, dirs, files in os.walk(os.getcwd()):
         if file.endswith(".prf"):
             file_path = os.path.join(root, file)
             with open(file_path, 'a') as f:
-                f.write(f"\n{PrfVCCS}\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n{PrfPassword}\n")
+                f.write(f"\n{PrfVCCSNick}\n{PrfVCCSPTT}\n{PrfVCCSInput}\n{PrfVCCSOutput}\n{PrfName}\n{PrfCID}\n{PrfOBSCallsign}\n{Prfrating}\n{PrfPassword}\n")
 
 # Adds CPDLC code to Plugins.txt files for vSMR use
 
