@@ -1,9 +1,43 @@
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
 
+# Changes from release 2024/10 to 2024/11
+1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)
+2. Enhancement - Added ground speed to ATM tags - thanks to @frazerxyz (Frazer Scully)
+3. AIRAC (2411) - Updated Odiham (EGVO) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+4. Enhancement - Hid vFPC column in all lists - thanks to @frazerxyz (Frazer Scully)
+5. AIRAC (2411) - Updated Leeming (EGXE) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+6. AIRAC (2411) - Updated Benson (EGUB) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+7. Enhancement - Updated RQT column button behaviour in departure lists - thanks to @kristiankunc (Kristián Kunc)
+8. Enhancement - Updated Newcastle Profile and Symbology - thanks to @SamLefevre (Samuel Lefevre)
+9. AIRAC (2411) - Updated TopSky Daylight Savings Dates for 2025 - thanks to @luke11brown (Luke Brown)
+
+# Changes from release 2024/09 to 2024/10
+1. Bug - Manchester (EGCC) ATM Extended Centreline Display Fixed - thanks to @luke11brown (Luke Brown)
+2. Enhancement - Added shorcuts for TopSky Maps - thanks to @SamLefevre (Samuel Lefevre)
+3. Bug - Fixed typo in profile.txt of FID - thanks to @aidenbok203 (Aiden Bok)
+4. Bug - Area SMRs changed to north up - thanks to @SamLefevre (Samuel Lefevre)
+5. Enhancement - Added automatic centreline activation based on active sector - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - vSMR geofenced areas redrawn & file formatting improved - thanks to @19wintersp (Patrick Winters)
+7. Enhancement - RAF Akrotiri (LCRA) Profiles & Displays Added - thanks to @luke11brown (Luke Brown)
+8. AIRAC (2410) - Removed Cambridge (EGSC) Director/Radar frequencies - thanks to @AdriTheDev (Callum Hicks) & @luke11brown (Luke Brown)
+9. Bug - Corrected Stansted & Luton ATM tag families - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/08 to 2024/09
 1. AIRAC (2409) - Connington (EGSF) Radio Frequency Updated - thanks to @kristiankunc (Kristián Kunc)
-2. Bug - Added Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+2. Bug - Added vFPC to Heathrow (EGLL) SMR and ATM lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Fixed automatic logon details entry failing if non-uk sector file is present - thanks to @kristiankunc (Kristián Kunc)
+4. Bug - Fix squawk colors on SMR profiles - thanks to @kristiankunc (Kristián Kunc)
+5. Enhancement - Added VRPs to TopSky maps - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Add CID to feedback link in LogonDetails.py - thanks to @BenWalker01 (Ben Walker)
+7. Enhancement - Updated TopSky colours and settings for realism and ease of use - thanks to @SamLefevre (Samuel Lefevre)
+8. AIRAC (2409) - SaxaVord D902 (Shetland Space Centre) danger area complex added - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2409) - Updated EGNS MSAW altitudes - thanks to @luke11brown (Luke Brown)
+10. AIRAC(2409) - Various Mil frequencies updated to 8.33kHz - thanks to @BenWalker01 (Ben Walker)
+11. Bug - Fixed and improved vSMR - thanks to @AliceFord (Alice Ford)
+12. Bug - Fixed vATIS area frequency errors - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Added TopSky alert items to all tag families - thanks to @luke11brown (Luke Brown)
+14. Bug - Fixed airport specific TopSky issues - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/07 to 2024/08
 1. Enhancement - CPDLC Auto open settings window - thanks to @kye-taylor (Kye Taylor)

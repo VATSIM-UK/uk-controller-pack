@@ -12,7 +12,7 @@ Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Belfast\Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Scottish.txt
-Settings	sector	UK\Data\Sector\UK_2024_08.sct
+Settings	sector	UK\Data\Sector\UK_2024_11.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Belfast\Belfast Radar_1.asr
@@ -35,7 +35,7 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
-Plugins	Plugin5	\..\Data\Plugin\TopSky_NODE\TopSky.dll
+Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt

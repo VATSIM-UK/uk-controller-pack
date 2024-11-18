@@ -5,6 +5,20 @@ System_GUI_Scale_Windows=1
 System_GUI_Scale_Menus=1
 System_GUI_Scale_GlobalMenu=1
 System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
+
+// Shortcuts
+
+Shortcut_Map_Xfr_Combo=1,0x12
+Shortcut_Map_Xfr_Key=1,0x44
+Shortcut_Map_Target=1,Shortcuts\Airspace Bases
+Shortcut_Map_Xfr_Combo=2,0x12
+Shortcut_Map_Xfr_Key=2,0x56
+Shortcut_Map_Target=2,Shortcuts\VRPs
+Shortcut_Map_Xfr_Combo=3,0x12
+Shortcut_Map_Xfr_Key=3,0x48
+Shortcut_Map_Target=3,Shortcuts\Heli Points
 
 //System wide settings
 Setup_COOPANS=1
@@ -19,6 +33,7 @@ System_MagModel_Year=2020
 System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
+System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
@@ -27,9 +42,10 @@ Label_CFL_DefaultValue=1
 Label_DAPs=1
 Menu_DAPs=1
 Window_HoldList_MaxListItems=20
-FlightLeg_AutoShow=1
+FlightLeg_AutoShow=0
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=
@@ -53,7 +69,10 @@ Color_Active_Map_Type_5=255,255,170
 Color_Active_Map_Type_6=187,187,187
 //Sector background infill
 Color_Active_Map_Type_7=187,187,187
-//Fixes
+//VRPs
+Color_Active_Map_Type_9=200,200,200
+//FAVAs
+Color_Active_Map_Type_10=140,230,120
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=180,0,0
@@ -163,7 +182,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,1025,0
+Window_CPDLC_Current=0,1064,0
 
 //MSAW System Settings
 MSAW_Buffer_IFR=100
@@ -180,7 +199,7 @@ System_UseAUP=1
 Window_ASM=1
 
 //Radio Direction Finder Settings
-RDF_Mode=2
+RDF_Mode=0
 RDF_Accuracy=5
 RDF_Floor=2500
 
@@ -197,16 +216,6 @@ WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
 
-[_CTR]
-Window_CARD=1,100,750
-Window_MsgIn=0,311,40
-Window_Shortcut=1,1430,0
-Window_SepList=1500,620
-
-Window_LostList_Auto=0
-Window_CARD_View_Risk=0
-Window_CARD_View_Future=0
-
 [EGAA_]
 Setup_ScreenLat=EGAA
 //Colour settings
@@ -220,7 +229,7 @@ Color_Active_Map_Type_3=160,160,160
 //STARs (RMA Lines)
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
-Color_Active_Map_Type_5=24,99,103
+Color_Active_Map_Type_5=157,122,40
 
 [EGAC_]
 Setup_ScreenLat=EGAC
@@ -235,7 +244,7 @@ Color_Active_Map_Type_3=160,160,160
 //STARs (RMA Lines)
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
-Color_Active_Map_Type_5=24,99,103
+Color_Active_Map_Type_5=157,122,40
 
 [EGBB_]
 Setup_ScreenLat=EGBB
@@ -266,6 +275,8 @@ Color_Active_Map_Type_3=255,255,255
 Color_Active_Map_Type_4=208,210,221
 //Centrelines
 Color_Active_Map_Type_5=125,189,189
+//VRPs
+Color_Active_Map_Type_9=125,189,189
 
 [EGFF_]
 Setup_ScreenLat=EGFF
@@ -281,6 +292,8 @@ Color_Active_Map_Type_3=30,30,30
 Color_Active_Map_Type_4=95,185,95
 //Centrelines
 Color_Active_Map_Type_5=230,180,40
+//VRPs
+Color_Active_Map_Type_9=230,180,40
 
 [EGNX_]
 Setup_ScreenLat=EGNX
@@ -297,6 +310,25 @@ Color_Active_Map_Type_4=154,164,171
 //Centrelines
 Color_Active_Map_Type_5=50,90,60
 
+[EGPD_]
+Setup_ScreenLat=EGPD
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=180,0,0
+Color_Active_Text_Map=180,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=240,230,90
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=240,230,90
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
+
 [EGPH_]
 Setup_ScreenLat=EGPH
 //Colour settings
@@ -311,6 +343,8 @@ Color_Active_Map_Type_3=160,160,160
 Color_Active_Map_Type_4=150,150,150
 //Centrelines
 Color_Active_Map_Type_5=255,255,190
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
 
 [EGTE_]
 Setup_ScreenLat=EGTE
@@ -341,6 +375,8 @@ Color_Active_Map_Type_3=90,90,90
 Color_Active_Map_Type_4=0,255,255
 //Centrelines
 Color_Active_Map_Type_5=0,210,210
+//FAVAs
+Color_Active_Map_Type_10=0,180,180
 
 [EGNM_]
 Setup_ScreenLat=EGNM
@@ -371,6 +407,8 @@ Color_Active_Map_Type_3=192,192,192
 Color_Active_Map_Type_4=210,100,90
 //Centrelines
 Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=255,255,170
 
 [EGCC_]
 Setup_ScreenLat=EGCC
@@ -386,13 +424,15 @@ Color_Active_Map_Type_3=95,95,95
 Color_Active_Map_Type_4=160,160,160
 //Centrelines
 Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=135,255,210
 
 [EGNT_]
 Setup_ScreenLat=EGNT
 //Colour settings
 //Danger area (red)
-Color_Active_Map_Type_1=180,0,0
-Color_Active_Text_Map=180,0,0
+Color_Active_Map_Type_1=123,40,40
+Color_Active_Text_Map=123,40,40
 //ARTCC High (Grey on NERC)
 Color_Active_Map_Type_2=128,128,0
 //Freetext
@@ -401,6 +441,8 @@ Color_Active_Map_Type_3=105,105,105
 Color_Active_Map_Type_4=175,190,60
 //Centrelines
 Color_Active_Map_Type_5=128,128,0
+//VRPs
+Color_Active_Map_Type_9=128,128,0
 
 [SOLENT_]
 Setup_ScreenLat=EGHI
@@ -461,3 +503,5 @@ Color_Active_Map_Type_3=192,192,192
 Color_Active_Map_Type_4=154,100,150
 //Centrelines
 Color_Active_Map_Type_5=192,192,192
+//VRPs
+Color_Active_Map_Type_9=192,192,192

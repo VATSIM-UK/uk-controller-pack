@@ -5,6 +5,20 @@ System_GUI_Scale_Windows=1
 System_GUI_Scale_Menus=1
 System_GUI_Scale_GlobalMenu=1
 System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
+
+// Shortcuts
+
+Shortcut_Map_Xfr_Combo=1,0x12
+Shortcut_Map_Xfr_Key=1,0x44
+Shortcut_Map_Target=1,Shortcuts\Airspace Bases
+Shortcut_Map_Xfr_Combo=2,0x12
+Shortcut_Map_Xfr_Key=2,0x56
+Shortcut_Map_Target=2,Shortcuts\VRPs
+Shortcut_Map_Xfr_Combo=3,0x12
+Shortcut_Map_Xfr_Key=3,0x48
+Shortcut_Map_Target=3,Shortcuts\Heli Points
 
 //System wide settings
 Setup_COOPANS=1
@@ -19,6 +33,7 @@ System_MagModel_Year=2020
 System_RepHdg_Correction=2
 System_UseReportedGS=1
 System_RawVideo=0
+System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
@@ -32,6 +47,7 @@ FlightLeg_AutoShow=1
 FlightLeg_AssumeTime=2
 RwyAppLines_Auto=0
 Label_N_Default=0
+List_STCA=1700,700
 
 //Airspace Related Settings
 Airspace_C_Flag=
@@ -65,8 +81,10 @@ Color_Active_Map_Type_6=187,187,187
 Color_Active_Map_Type_7=187,187,187
 //Fixes
 Color_Active_Map_Type_8=140,140,140
-Color_Active_Map_Type_9
-Color_Active_Map_Type_10
+//VRPs
+Color_Active_Map_Type_9=134,134,134
+//FAVAs
+Color_Active_Map_Type_10=134,134,134
 Color_Active_Map_Type_11
 Color_Active_Map_Type_12=139,0,0
 Color_Active_Map_Type_13
@@ -218,7 +236,7 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-Window_CPDLC_Current=1,975,0
+Window_CPDLC_Current=1,1064,0
 Window_CPDLC_Setting=1
 
 //MSAW System Settings

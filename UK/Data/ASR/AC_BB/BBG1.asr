@@ -52,7 +52,6 @@ Free Text:SCT2\142:freetext
 Free Text:SCT2\143:freetext
 Free Text:SCT2\144:freetext
 Free Text:SCT2\145:freetext
-Free Text:SCT2\14A:freetext
 Free Text:SCT2\15:freetext
 Free Text:SCT2\150:freetext
 Free Text:SCT2\151:freetext
@@ -61,8 +60,6 @@ Free Text:SCT2\153:freetext
 Free Text:SCT2\154:freetext
 Free Text:SCT2\158:freetext
 Free Text:SCT2\159:freetext
-Free Text:SCT2\15L:freetext
-Free Text:SCT2\15R:freetext
 Free Text:SCT2\16:freetext
 Free Text:SCT2\160:freetext
 Free Text:SCT2\161:freetext
@@ -883,6 +880,7 @@ Free Text:SCT2\TITAN:freetext
 Free Text:SCT2\Tower:freetext
 Free Text:SCT2\Tower Apron:freetext
 Free Text:SCT2\TP-D:freetext
+Free Text:SCT2\TP-E:freetext
 Free Text:SCT2\TP-L1:freetext
 Free Text:SCT2\TP-L2:freetext
 Free Text:SCT2\TP-L3:freetext
@@ -891,6 +889,7 @@ Free Text:SCT2\TP-L5:freetext
 Free Text:SCT2\TP-L6:freetext
 Free Text:SCT2\TP-L7:freetext
 Free Text:SCT2\TP-V:freetext
+Free Text:SCT2\TP-W:freetext
 Free Text:SCT2\TP-X:freetext
 Free Text:SCT2\TP-Y:freetext
 Free Text:SCT2\TP-Z:freetext
@@ -1143,7 +1142,7 @@ HISTORY_DOTS:2
 SIMULATION_MODE:4
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:0.40000
+DisplayRotation:0.00000
 TAGFAMILY:AC
 WINDOWAREA:51.452187:-0.512841:51.484949:-0.409266
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
