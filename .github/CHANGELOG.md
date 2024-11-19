@@ -1,5 +1,8 @@
 # Changes from release 2024/11 to 2024/12
-1. Bug - TopSky DCL now automatically inserts primary frequency as next frequency - thanks to @luke11brown (Luke Brown)
+1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
+2. Enhancement - Update alias files to reflect new VATSIM CoC - thanks to @AdriTheDev (Callum Hicks)
+3. Bug - CID inserted correctly into Area profile feedback link - thanks to @luke11brown (Luke Brown)
+4. Bug - TopSky DCL now automatically inserts primary frequency as next frequency - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/10 to 2024/11
 1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)
