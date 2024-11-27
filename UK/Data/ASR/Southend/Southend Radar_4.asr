@@ -3217,6 +3217,7 @@ Free Text:EGMC VRPs\*Southend Pier:freetext
 Free Text:EGMC VRPs\*Southminster:freetext
 Free Text:EGMC VRPs\*Whitstable Harbour:freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
+Regions:Southend RMA:polygon
 Stars:EKNIV Gate:
 Stars:Thames-Southend Buffer:
 VORs:ABB:name
@@ -3462,7 +3463,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:51.016873:-0.976854:52.123683:2.363520
-PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
@@ -3502,4 +3503,3 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-Regions:Southend RMA:polygon

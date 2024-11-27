@@ -1,30 +1,27 @@
 Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Thames\Southend_Plugins.txt
 Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Southend\Profiles.txt
-Settings	SettingsfileSCREEN	\..\Data\Settings\Screen.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
-Settings	Settingsfile	\..\Data\Settings\TC_APP\TC_APP_General.txt
-Settings	SettingsfileARR	\..\Data\Settings\Lists.txt
-Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists.txt
-Settings	SettingsfileDEP	\..\Data\Settings\Lists.txt
-Settings	SettingsfileFP	\..\Data\Settings\Lists.txt
-Settings	SettingsfileSEL	\..\Data\Settings\Lists.txt
-Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
-Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Southend\MC_APP_Symbology.txt
+Settings	Settingsfile	\..\Data\Settings\General_SMR.txt
+Settings	SettingsfileARR	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileFP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSTUP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
 Settings	sector	UK\Data\Sector\UK_2024_11.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\Data\ASR\Southend\Southend Radar_3.asr
-RecentFiles	Recent2	\..\Data\ASR\Southend\Southend Radar_1.asr
-RecentFiles	Recent3	\..\Data\ASR\Southend\Southend Radar_2.asr
-RecentFiles	Recent4	\..\Data\ASR\Southend\Southend Radar_4.asr
-RecentFiles	Recent5	\..\Data\ASR\Southend\Southend SMR.asr
-ASRFastKeys	1	\..\Data\ASR\Southend\Southend Radar_1.asr
-ASRFastKeys	2	\..\Data\ASR\Southend\Southend Radar_2.asr
-ASRFastKeys	3	\..\Data\ASR\Southend\Southend Radar_3.asr
-ASRFastKeys	4	\..\Data\ASR\Southend\Southend Radar_4.asr
-ASRFastKeys	5	\..\Data\ASR\Southend\Southend SMR.asr
+RecentFiles	Recent1	\..\Data\ASR\Southend\Southend SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Southend\Southend SMR.asr
+ASRFastKeys	2	\..\Data\ASR\Route Checker.asr
+RecentFiles	Recent2	\..\Data\ASR\Route Checker.asr
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
@@ -33,8 +30,6 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
-Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
-Plugins	Plugin5Display0	Standard ES radar screen
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
