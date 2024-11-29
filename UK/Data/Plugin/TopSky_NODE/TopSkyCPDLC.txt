@@ -1,5 +1,5 @@
 [DCL]
-DCL:*:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> ALT <cfl> SQUAWK <assr>. <qnh>HPA. REPORT ACFT TYPE AND STAND NUMBER ON <freq_next> WHEN FULLY READY.
+DCL:*:SID:<adep> PDC <number> . . . . . CLD <hour><min> <day><month3><year2> <adep> <callsign> CLRD TO <ades> OFF <drwy> VIA <sid> ALT <cfl> SQUAWK <assr>. <qnh>HPA. REPORT ACFT TYPE AND STAND NUMBER ON <freq_own> WHEN FULLY READY.
 
 [FREETEXT]
 FREETEXT:UNICOM:SERVICE TERMINATED. MONITOR UNICOM 122.800

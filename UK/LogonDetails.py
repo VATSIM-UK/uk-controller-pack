@@ -107,7 +107,7 @@ for root, dirs, files in os.walk(os.getcwd()):
 
 # Adds CID field to feedback link
 
-        elif file == "Profiles.txt":
+        elif file.endswith("Profiles.txt"):
             file_path = os.path.join(root,file)
             with open(file_path,'r') as f:
                 line = f.read()
