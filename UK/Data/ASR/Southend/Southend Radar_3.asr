@@ -490,10 +490,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -702,16 +698,6 @@ Free Text:EGGW Airspace Bases\4500':freetext
 Free Text:EGKK Airspace Bases\1500':freetext
 Free Text:EGLC Airspace Bases\1500':freetext
 Free Text:EGLC Airspace Bases\1500':freetext
-Free Text:EGMC Airspace Bases\1500':freetext
-Free Text:EGMC Airspace Bases\1500':freetext
-Free Text:EGMC Airspace Bases\1500':freetext
-Free Text:EGMC Airspace Bases\2500':freetext
-Free Text:EGMC Airspace Bases\2500':freetext
-Free Text:EGMC Airspace Bases\2500':freetext
-Free Text:EGMC Airspace Bases\2500':freetext
-Free Text:EGMC Airspace Bases\3500':freetext
-Free Text:EGMC Airspace Bases\3500':freetext
-Free Text:EGMC Airspace Bases\3500':freetext
 Free Text:EGNM Airspace Bases\2500':freetext
 Free Text:EGNM Airspace Bases\2500':freetext
 Free Text:EGNM Airspace Bases\3000':freetext
@@ -786,6 +772,7 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
+Regions:Southend RMA:polygon
 Stars:EKNIV Gate:
 Stars:Thames-Southend Buffer:
 VORs:ABB:name
@@ -1003,6 +990,7 @@ VORs:TRN:name
 VORs:TRN:symbol
 VORs:VES:name
 VORs:VES:symbol
+Regions:Southend RMA:polygon
 VORs:VLN:name
 VORs:VLN:symbol
 VORs:VYL:name
@@ -1031,7 +1019,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
 WINDOWAREA:51.016873:-0.976854:52.123683:2.363520
-PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
@@ -1067,7 +1055,6 @@ PLUGIN:UK Controller Plugin:holdSPEARMinimised:0
 PLUGIN:UK Controller Plugin:holdSPEARMinLevel:4000
 PLUGIN:UK Controller Plugin:holdSPEARPositionX:153
 PLUGIN:UK Controller Plugin:holdSPEARPositionY:804
-PLUGIN:UK Controller Plugin:selectedHolds:GEGMU;SPEAR
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
@@ -1077,9 +1064,9 @@ PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
 PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:selectedHolds:GEGMU;SPEAR
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
-Regions:Southend RMA:polygon

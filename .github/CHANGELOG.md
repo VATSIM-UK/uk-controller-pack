@@ -4,6 +4,7 @@
 3. Bug - CID inserted correctly into Area profile feedback link - thanks to @luke11brown (Luke Brown)
 4. Bug - TopSky DCL now automatically inserts primary frequency as next frequency - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Added Farnborough (EGLL) profile & displays - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Intergrate custom Southend features - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/10 to 2024/11
 1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)
