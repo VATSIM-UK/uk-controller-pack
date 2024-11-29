@@ -1,0 +1,292 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:RATSU Triangle:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAB Enniskillen ATZ:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAD Newtownards ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBD Derby ATZ:
+ARTCC low boundary:EGBE Coventry ATZ:
+ARTCC low boundary:EGBG Leicester ATZ:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGBK Northampton/Sywell ATZ:
+ARTCC low boundary:EGBM Tatenhill ATZ:
+ARTCC low boundary:EGBN Nottingham ATZ:
+ARTCC low boundary:EGBO Wolverhampton ATZ:
+ARTCC low boundary:EGBP Kemble ATZ:
+ARTCC low boundary:EGBS Shobdon ATZ:
+ARTCC low boundary:EGBW Wellesbourne Mountford ATZ:
+ARTCC low boundary:EGCB Manchester Barton ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCF Sandtoft ATZ:
+ARTCC low boundary:EGCJ Sherburn in Elmet ATZ:
+ARTCC low boundary:EGCK Caernarfon ATZ:
+ARTCC low boundary:EGCL Fenland ATZ:
+ARTCC low boundary:EGCM Leeds East ATZ:
+ARTCC low boundary:EGCV Sleap ATZ:
+ARTCC low boundary:EGCW Welshpool ATZ:
+ARTCC low boundary:EGDI Merryfield ATZ:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down ATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGDO Predannack ATZ:
+ARTCC low boundary:EGDO Predannack MATZ:
+ARTCC low boundary:EGDP Portland ATZ:
+ARTCC low boundary:EGDR Culdrose ATZ:
+ARTCC low boundary:EGDR Culdrose MATZ:
+ARTCC low boundary:EGDY Yeovilton MATZ:
+ARTCC low boundary:EGEC Campbeltown ATZ:
+ARTCC low boundary:EGEO Oban ATZ:
+ARTCC low boundary:EGET Lerwick/Tingwall ATZ:
+ARTCC low boundary:EGFA West Wales Aberporth ATZ:
+ARTCC low boundary:EGFE Haverfordwest ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGFH Swansea ATZ:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFA (Graveley):
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Land's End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHG Westland ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHQ Newquay ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKB Biggin Hill ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLD Denham LFA:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGLW London Heliport LFA:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNE Retford Gamston ATZ:
+ARTCC low boundary:EGNF Netherthorpe ATZ:
+ARTCC low boundary:EGNH Blackpool ATZ:
+ARTCC low boundary:EGNJ Humberside ATZ:
+ARTCC low boundary:EGNL Walney ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNO Warton MATZ:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
+ARTCC low boundary:EGNW Wickenby ATZ:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOE Ternhill ATZ:
+ARTCC low boundary:EGOE Ternhill MATZ:
+ARTCC low boundary:EGOQ Mona ATZ:
+ARTCC low boundary:EGOQ Mona MATZ:
+ARTCC low boundary:EGOS Shawbury ATZ:
+ARTCC low boundary:EGOS Shawbury MATZ:
+ARTCC low boundary:EGOV Valley ATZ:
+ARTCC low boundary:EGOV Valley MATZ:
+ARTCC low boundary:EGOW Woodvale ATZ:
+ARTCC low boundary:EGPA Kirkwall ATZ:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPC Wick ATZ:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPE Inverness ATZ:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPG Cumbernauld ATZ:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPI Islay ATZ:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGPL Benbecula ATZ:
+ARTCC low boundary:EGPN Dundee ATZ:
+ARTCC low boundary:EGPO Stornoway ATZ:
+ARTCC low boundary:EGPR Barra ATZ:
+ARTCC low boundary:EGPT Perth ATZ:
+ARTCC low boundary:EGPU Tiree ATZ:
+ARTCC low boundary:EGQL Leuchars ATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth ATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSC Cambridge ATZ:
+ARTCC low boundary:EGSF Peterborough/Conington ATZ:
+ARTCC low boundary:EGSG Stapleford ATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSL Andrewsfield ATZ/LFA:
+ARTCC low boundary:EGSR Earls Colne ATZ:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGSS Stansted LFA (Audley End):
+ARTCC low boundary:EGSS Stansted LFA (Hunsdon):
+ARTCC low boundary:EGSU Duxford ATZ:
+ARTCC low boundary:EGSV Old Buckenham ATZ:
+ARTCC low boundary:EGSY St Athan LFA:
+ARTCC low boundary:EGTB Wycombe Air Park/Booker ATZ:
+ARTCC low boundary:EGTC Cranfield ATZ:
+ARTCC low boundary:EGTE Exeter ATZ:
+ARTCC low boundary:EGTF Fairoaks LFA:
+ARTCC low boundary:EGTH Old Warden ATZ:
+ARTCC low boundary:EGTK Oxford ATZ:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGTR Elstree ATZ:
+ARTCC low boundary:EGTU Dunkeswell ATZ:
+ARTCC low boundary:EGUB Benson ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUL Lakenheath ATZ:
+ARTCC low boundary:EGUL Lakenheath MATZ:
+ARTCC low boundary:EGUN Mildenhall ATZ:
+ARTCC low boundary:EGUN Mildenhall MATZ:
+ARTCC low boundary:EGUW Wattisham ATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVA Fairford ATZ:
+ARTCC low boundary:EGVA Fairford MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVL Little Rissington ATZ:
+ARTCC low boundary:EGVN Brize Norton ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham ATZ:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop ATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGWC Cosford ATZ:
+ARTCC low boundary:EGWN Halton ATZ:
+ARTCC low boundary:EGXC Coningsby ATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGXE Leeming ATZ:
+ARTCC low boundary:EGXE Leeming MATZ:
+ARTCC low boundary:EGXH Honington ATZ:
+ARTCC low boundary:EGXT Wittering ATZ:
+ARTCC low boundary:EGXT Wittering MATZ:
+ARTCC low boundary:EGXW Waddington ATZ:
+ARTCC low boundary:EGXW Waddington MATZ:
+ARTCC low boundary:EGXY Syerston ATZ:
+ARTCC low boundary:EGXZ Topcliffe ATZ:
+ARTCC low boundary:EGXZ Topcliffe MATZ:
+ARTCC low boundary:EGYD Cranwell ATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYE Barkston Heath ATZ:
+ARTCC low boundary:EGYE Barkston Heath MATZ:
+ARTCC low boundary:EGYM Marham ATZ:
+ARTCC low boundary:EGYM Marham MATZ:
+ARTCC low boundary:EIDL Donegal CTA:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+Regions:A-EastCoast:polygon
+Regions:A-SouthEast:polygon
+Regions:A-SouthWalesMidlands:polygon
+Regions:A-SouthWest:polygon
+Sids:EGLF Farnborough Lars:
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:6
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:50.814909:-2.112538:51.736758:0.559761
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1605
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:174
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_COTSWOLD;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

@@ -1,0 +1,22 @@
+PROFILE
+PROFILE:EGLF_GND:20:3
+ATIS2:Farnborough Ground
+ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGLF_TWR:50:4
+ATIS2:Farnborough Tower
+ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGLF_APP:100:5
+ATIS2:Farnborough Radar
+ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGLF_L_APP:100:5
+ATIS2:Farnborough Radar
+ATIS3:LARS Available | See vats.im/lars
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGLF_F_APP:100:5
+ATIS2:Farnborough Director
+ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
+ATIS4:Submit feedback at vats.im/atcfb
+END
