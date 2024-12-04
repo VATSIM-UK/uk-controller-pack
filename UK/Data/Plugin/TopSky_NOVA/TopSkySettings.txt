@@ -378,6 +378,19 @@ Color_Active_Map_Type_4=154,164,171
 //Centrelines
 Color_Active_Map_Type_5=120,120,130
 
+[EGTK_]
+Setup_ScreenLat=EGTK
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=200,40,30
+Color_Active_Text_Map=200,40,30
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=128,128,128
+//Freetext
+Color_Active_Map_Type_3=75,75,75
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=154,164,171
+
 [EGPF_]
 Setup_ScreenLat=EGPF
 //Colour settings
