@@ -1,3 +1,6 @@
+# Changes from release 2024/12 to 2024/13
+1. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
 2. Enhancement - Update alias files to reflect new VATSIM CoC - thanks to @AdriTheDev (Callum Hicks)
