@@ -3,6 +3,7 @@
 2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
 3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
 4. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
+5. Enhancement - Added TopSky to Oxford profile - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
