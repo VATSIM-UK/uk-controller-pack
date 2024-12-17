@@ -1,5 +1,7 @@
 # Changes from release 2024/12 to 2024/13
-1. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
+1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
