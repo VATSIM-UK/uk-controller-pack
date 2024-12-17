@@ -1,6 +1,10 @@
 # Changes from release 2024/12 to 2024/13
-x. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
-x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( James Tantam)  
+1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
+4. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
+5. Enhancement - Added TopSky to Oxford profile - thanks to @SamLefevre (Samuel Lefevre)
+6. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck (James Tantam)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
@@ -55,7 +59,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 2. AIRAC (2408) - Various Mil frequencies updated to 8.33kHz compliance - thanks to @robbo599 (Lee Roberts)
 3. Enhancement - Updated combined departure list items and size - thanks to @kristiankunc (Kristián Kunc)
 4. Enhancement - Added TopSky to TC & APP profiles - thanks to @luke11brown (Luke Brown)
-5. Bug - Fixed NOTAMs crashing and removed redundant details in Gatwick (EGKK) vATIS profile  - thanks to @RedstonePilot (Ben Walker)
+5. Bug - Fixed NOTAMs crashing and removed redundant details in Gatwick (EGKK) vATIS profile - thanks to @RedstonePilot (Ben Walker)
 6. Enhancement - Updated iTEC symbology and tags - thanks to @SamLefevre (Samuel Lefevre)
 7. Enhancement - Added CCDR-S plugin to NODE displays - thanks to @SamLefevre (Samuel Lefevre)
 8. Enhancement - Area profiles reduced & simplified - thanks to @luke11brown (Luke Brown)
@@ -77,8 +81,8 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 2. Bug - Updated VATCAN Event Bookings plugin and list configuration - thanks to @hazzas-99
 3. AIRAC (2404) - Changed Fairoaks (EGTF) Position from FISO to A/G - thanks to @hazzas-99
 4. Bug - Fixes in PC vATIS profile - thanks to @robbo599 (Lee Roberts)
-5. Bug - Fixed vATIS Manchester (EGCC) ATIS frequency and Jersey (EGJJ) TOWER frequency - thanks to @RedstonePilot (Ben Walker) 
-6. Enhancement - Merged Hawarden (EGNR) into Liverpool (EGGP) and Updated Gatwick (EGKK) ARPT_COND - thanks to @RedstonePilot (Ben Walker) 
+5. Bug - Fixed vATIS Manchester (EGCC) ATIS frequency and Jersey (EGJJ) TOWER frequency - thanks to @RedstonePilot (Ben Walker)
+6. Enhancement - Merged Hawarden (EGNR) into Liverpool (EGGP) and Updated Gatwick (EGKK) ARPT_COND - thanks to @RedstonePilot (Ben Walker)
 7. AIRAC (2404) - Updated military frequencies (EGOQ, EGOV, EGQL) - thanks to @kristiankunc (Kristián Kunc)
 8. AIRAC (2405) - Added D218 complex (Fairford) to TopSky danger areas - thanks to @luke11brown (Luke Brown)
 9. Bug - Fixed vATIS transition levels - thanks to @lewishh
@@ -96,8 +100,8 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 # Changes from release 2024/03 to 2024/04
 1. Enhancement - Enabled Leeds Radar Gate on profiles - thanks to @SamLefevre (Samuel Lefevre)
 2. AIRAC (2404) - Amended Benbecula (EGPL) ATIS frequency - thanks to @ChrisXPP (Christoph Reule)
-3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker) 
-4. Bug - Fix typo in voice.txt EGHC_ATIS  - thanks to @RedstonePilot (Ben Walker)
+3. Enhancement - Added VCH columns (hidden) to the relevant lists - thanks to @RedstonePilot (Ben Walker)
+4. Bug - Fix typo in voice.txt EGHC_ATIS - thanks to @RedstonePilot (Ben Walker)
 5. Enhancement - Added wallop aliases - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - Displayed all ATZs for AGCS/AFIS endorsed positions - thanks to @RedstonePilot (Ben Walker)
 7. Enhancement - Added ADC vAtis profiles - thanks to @RedstonePilot (Ben Walker)
@@ -114,7 +118,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 4. AIRAC (2402) - D597 removed, D514 added - thanks to @luke11brown (Luke Brown)
 5. AIRAC (2403) - D305 activation schedule amended (by NOTAM only) - thanks to @luke11brown (Luke Brown)
 6. Bug - EGPA (Kirkwall) ATIS frequency fixed - thanks to @luke11brown (Luke Brown)
-7. Bug - Generic profiles missing file added  - thanks to @luke11brown (Luke Brown)
+7. Bug - Generic profiles missing file added - thanks to @luke11brown (Luke Brown)
 8. Enhancement - Ground Status right click actions in lists amended - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2023/13 to 2024/01
@@ -130,7 +134,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 # Changes from release 2023/11 to 2023/13
 1. Procedure Change (2311) - Updated vATIS Profiles with 8.33 Frequencies - thanks to @hazzas-99
 2. Bug - Corrected Jersey Control frequency - thanks to @danielbutton (Daniel Button)
-3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford) 
+3. Bug - Added missing voice frequencies - thanks to @AliceFord (Alice Ford)
 4. Enhancement - Startup, taxi out and take off lists configured and utilised in all SMR displays - thanks to @luke11brown (Luke Brown)
 5. AIRAC (2312) - Added D324A/B (RAF Waddington) danger areas - thanks to @luke11brown (Luke Brown)
 6. Procedure Change (2313) - Changed East Midlands Radar (EGNX_APP) frequency - thanks to @PLM1995 (Peter Mooney)
@@ -265,19 +269,19 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 3. AIRAC (2211) - Boscombe down danger areas verical limits & hours revised - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Added Cranfield (EGTC) Voice settings and corrected Kirkwall (EGPA) & Wick (EGPC) ATIS frequencies - thanks to @hazzas-99
 5. Bug - Corrected shape of BAKUR RFC Area map (TopSky only) - thanks to @hazzas-99
-6a. Enhancement - Added LUVUM Box map (TopSky only) - thanks to @hazzas-99
-6b. Enhancement - Removed automatic Doncaster (EGCN) extended centreline map (TopSky only) - thanks to @hazzas-99
-6c. Enhancement - Updated Manchester RMA maps (TopSky only) - thanks to @hazzas-99
-7. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
-8. Enhancement - Added Southend SMR .prf and .asr for Thames Combined .prf - thanks to @PLM1995 (Peter Mooney)
-9. Enhancement - Added ScTMA split profiles and voice settings - thanks to @hazzas-99
-10. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
-11a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
-11b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
-11c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
-11d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
-11e. Enhancement - Removed redundant AC-2 tag family
-12. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
+   6a. Enhancement - Added LUVUM Box map (TopSky only) - thanks to @hazzas-99
+   6b. Enhancement - Removed automatic Doncaster (EGCN) extended centreline map (TopSky only) - thanks to @hazzas-99
+   6c. Enhancement - Updated Manchester RMA maps (TopSky only) - thanks to @hazzas-99
+6. Enhancement - Updated aliases - thanks to @PLM1995 (Peter Mooney)
+7. Enhancement - Added Southend SMR .prf and .asr for Thames Combined .prf - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Added ScTMA split profiles and voice settings - thanks to @hazzas-99
+9. Enhancement - Updated Ground (SMR) ASR label display - thanks to @hazzas-99
+   11a. Enhancement - Tag Enhancements - AC/TopSky: right click on sector exit level to set RFL - thanks to @hazzas-99
+   11b. Enhancement - Tag Improvements - AC/TopSky: right click on next sector indicator to toggle freq
+   11c. Enhancement - Tag Improvements - TopSky: squawk error indicator shows on detailed tag
+   11d. Enhancement - Tag Improvements - NOVA: cleared flight level shows on tagged
+   11e. Enhancement - Removed redundant AC-2 tag family
+10. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
 1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLefevre (Sam Lefevre)
@@ -298,7 +302,6 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 4. Bug - Fixed TopSky Map display due to Eurocontrol West controller identifier change (TopSky only) - thanks to @hazzas-99
 5. Enhancement - Added Belfast profiles - thanks to @PLM1995 (Peter Mooney)
 6. Enhancement - vSMR Defaults to pro mode & fonts changed - thanks to @luke11brown (Luke Brown)
-
 
 # Changes from release 2022/02 to 2022/03
 1. Bug - Updated Sector File Descriptor URL to re-enable auto-download - thanks to @hazzas-99
@@ -326,7 +329,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 6. Enhancement - Added DVR RFC Area as a TopSky Map - thanks to @hazzas-99
 7. Procedure Change - Updated TopSky Maps to reflect changes to Luton & Stansted RMAs/Buffer - thanks to @hazzas-99
 8. Enhancement - Added new Luton and Stansted APPs profiles with new RMAs - thanks to @hazzas-99
-9. Enhancement - Added new conditional Scottish CTAs as TopSkyMaps - thanks to @luke11brown (Luke Brown) 
+9. Enhancement - Added new conditional Scottish CTAs as TopSkyMaps - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/09 to 2022/01
 1. Bug - Swapped Jersey Approach and Radar Voice Channels - thanks to @danielbutton (Daniel Button)
@@ -373,7 +376,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 6. Enhancement - Reduce hisotry trail length from 15 to 6 - thanks to @luke11brown (Luke Brown)
 7. Enhancement - Realistic code/callsign conversion turned on by default - thanks to @luke11brown (Luke Brown)
 8. Bug - Generic SMR now has all available airfields turned on by default - thanks to @luke11brown (Luke Brown)
-9. AIRAC (2105) -  Sector file updated to 2021_05a - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2105) - Sector file updated to 2021_05a - thanks to @luke11brown (Luke Brown)
 10. Enhancement - Include ICAO datafiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2021/02 to 2021/03
@@ -407,7 +410,7 @@ x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( J
 17. Enhancement - Updated display conditions for buffers/lines/boxes - thanks to @hazzas-99
 18. NODE-L Profiles list symbology adjusted for improved readability - thanks to @luke11brown (Luke Brown)
 19. Enhancement - SODVU box defined as TopSky map - thanks to @hazzas-99 and @luke11brown (Luke Brown)
-20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown) 
+20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown)
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
 
