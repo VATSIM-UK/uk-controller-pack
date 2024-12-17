@@ -1,5 +1,6 @@
 # Changes from release 2024/12 to 2024/13
-1. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
+1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
