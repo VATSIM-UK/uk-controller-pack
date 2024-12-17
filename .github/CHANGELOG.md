@@ -2,7 +2,6 @@
 x. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
 x. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck ( James Tantam)  
 
-
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
 2. Enhancement - Update alias files to reflect new VATSIM CoC - thanks to @AdriTheDev (Callum Hicks)
