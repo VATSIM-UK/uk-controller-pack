@@ -48,11 +48,11 @@ New Pilots
 
 .prc Hello, I see you are new to the network. First of all - welcome to VATSIM! It may be tempting to jump right ahead and fly, but I would suggest you read through some documents first, in order to prepare yourself for what you may encounter. First of all - you should read the VATSIM tutorials at https://vatsim.net/prc. Here you can find everything you need. Second of all, you should read through the VATSIM Code of Conduct (https://vatsim.net/coc), especially sections A and B, in order to not get in trouble for something you didn't know.
 .srd You can find standard UK routings (domestic and to FIR exit points) in the Standard Route Document http://vats.im/srd
-.fpl There is no flight plan for your callsign, please file one. I suggest using either http://simbrief.com or http://edi-gla.co.uk to find a valid route.
-.modec It is a VATSIM CoC requirement (B4) for you to Squawk mode C whilst in the air. Please do so now. If you don't know how to do this, please refer to your pilot client documentation.
+.fpl There is no flight plan for your callsign, please file one. I suggest using either http://simbrief.com or http://edi-gla.co.uk to find a valid route. VATSIM CoC (B10) refers.
+.modec It is a VATSIM CoC requirement (B4(a)) for you to Squawk mode C whilst in the air. Please do so now. If you don't know how to do this, please refer to your pilot client documentation.
 .paused You seem to be paused mid-air. It is against the VATSIM CoC (B2). Please resume normal flight or disconnect.
 .accel Whilst time acceleration is permitted in uncontrolled airspace, it isn't whilst under control of ATC. Please return to normal simulation rate or disconnect. CoC B9 refers.
-.warn The VATSIM CoC (B8) now REQUIRES pilots to be able to comply with ATC Instructions, such as flying headings, speeds and levels. It seems you are unable to comply or are knowingly non-compliant. If you are unable to follow further instructions, I will need to call a Supervisor.
+.warn The VATSIM CoC (B8(c)) now REQUIRES pilots to be able to comply with ATC Instructions, such as flying headings, speeds and levels. It seems you are unable to comply or are knowingly non-compliant. If you are unable to follow further instructions, I will need to call a Supervisor.
 .mic $aircraft You have an open mic, please check your Push to Talk key/button.
 .ini Hello - You climbed above the initial climb on your departure today - please remember to check initial climb restrictions (including step climbs) on SIDs EVERY time you fly, to ensure you do not conflict with other airspace users. All UK charts are available here: https://chartfox.org/
 .iniall BROADCAST: A REMINDER TO ALWAYS CHECK SID CHARTS FOR INITIAL CLIMB RESTRICTIONS EVERY TIME YOU FLY https://chartfox.org/ NOTE THAT SIDs MAY INCLUDE STEP CLIMBS

@@ -1,5 +1,18 @@
-# Changes from release 2024/10 to 2024/12
-1. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
+# Changes from release 2024/12 to 2024/13
+1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
+3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
+4. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
+
+# Changes from release 2024/11 to 2024/12
+1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
+2. Enhancement - Update alias files to reflect new VATSIM CoC - thanks to @AdriTheDev (Callum Hicks)
+3. Bug - CID inserted correctly into Area profile feedback link - thanks to @luke11brown (Luke Brown)
+4. Bug - TopSky DCL now automatically inserts primary frequency as next frequency - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Added Farnborough (EGLL) profile & displays - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Intergrate custom Southend features - thanks to @SamLefevre (Samuel Lefevre)
+7. Enhancement - Updated TopSky to latest beta (2.5b15) - thanks to @luke11brown (Luke Brown)
+8. AIRAC (2407) - Borders/Forth/Tay CTA between ADN-NATEB now H24 unless EGD514 active - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/10 to 2024/11
 1. Enhancement - Add various aliases to Heathrow (EGLL) profile - thanks to @kristiankunc (Kristián Kunc)

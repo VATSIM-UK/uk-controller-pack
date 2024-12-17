@@ -6,16 +6,16 @@ Low airways:line:16777215:2.5:1:0:7
 Low airways:name:6114360:2.5:0:0:8
 High airways:line:16512:3.5:2:0:7
 High airways:name:2512998:3.5:0:0:8
-Fixes:symbol:16777215:1.0:0:0:7
-Fixes:name:16777215:3.2:0:0:1
+Fixes:symbol:12632256:1.0:0:0:7
+Fixes:name:12632256:3.0:0:0:1
 Sids:line:8421504:3.0:2:0:7
 Stars:line:9856154:3.0:0:0:7
 ARTCC high boundary:line:8421504:3.0:0:1:7
 ARTCC boundary:line:2693240:3.0:0:2:7
 ARTCC low boundary:line:8421504:3.0:0:1:7
 Geo:line:12632256:3.0:0:0:7
-VORs:symbol:16777215:1.4:0:0:0
-VORs:name:16777215:3.2:0:0:0
+VORs:symbol:12632256:1.4:0:0:0
+VORs:name:12632256:3.5:0:0:0
 VORs:frequency:11206655:3.5:0:0:2
 NDBs:symbol:16777215:0.6:0:0:7
 NDBs:name:16777215:3.2:0:0:0
@@ -76,7 +76,7 @@ Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
-Other:freetext:12632256:3.8:0:0:7
+Other:freetext:12632256:3.5:0:0:7
 Other:range rings:8421504:5.0:2:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
