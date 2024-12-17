@@ -4,6 +4,7 @@
 3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
 4. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
 5. Enhancement - Added TopSky to Oxford profile - thanks to @SamLefevre (Samuel Lefevre)
+6. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck (James Tantam)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
@@ -412,3 +413,4 @@
 20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown)
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
+
