@@ -1,5 +1,6 @@
 # Changes from release 2024/12 to 2024/13
 x. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
+2. Enhancement - Update FID profiles to contain information about AFISO/AG stations - thanks to @AdriTheDev (Callum Hicks) 
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
