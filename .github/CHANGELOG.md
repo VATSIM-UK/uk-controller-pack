@@ -1,13 +1,11 @@
 # Changes from release 2024/12 to 2024/13
-
-x. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
-x. Enhancement - Update FID profiles to contain information about AFISO/AG stations - thanks to @AdriTheDev (Callum Hicks) 
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
 3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
 4. Bug - Updated outdated Copenhagen CPDLC logon codes - thanks to @AdriTheDev (Callum Hicks)
 5. Enhancement - Added TopSky to Oxford profile - thanks to @SamLefevre (Samuel Lefevre)
 6. AIRAC (2413) Changed Wittering (EGXT) frequencies - thanks to @jammerdeck (James Tantam)
+7. Enhancement - Update FID profiles to contain information about AFISO/AG stations - thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
