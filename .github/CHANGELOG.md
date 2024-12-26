@@ -8,6 +8,7 @@
 7. Enhancement - Update FID profiles to contain information about AFISO/AG stations - thanks to @AdriTheDev (Callum Hicks)
 8. Procedure Change (2413) - Updated Amsterdam/Maastricht CPDLC logon codes - thanks to @19wintersp (Patrick Winters)
 9. Enhancement - Frequency Monitoring Codes & PMDG default squawk added to not correlate lists - thanks to @luke11brown (Luke Brown)
+10. AIRAC (2413) - Updated Waddington (EGXW) frequencies - thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2024/11 to 2024/12
 1. AIRAC (2412) - Updated Yeovil (EGDY) frequencies to 8.33KHz - thanks to @AdriTheDev (Callum Hicks)
