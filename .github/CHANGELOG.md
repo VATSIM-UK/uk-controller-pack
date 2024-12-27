@@ -1,5 +1,5 @@
 # Changes from release 2024/13 to 2025/01
-x. Enhancement - Added SRD search dialog to taxi out list - thanks to @kristiankunc (Kristián Kunc)
+x. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
 
 # Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
