@@ -1,3 +1,6 @@
+# Changes from release 2024/13 to 2025/01
+x. Enhancement - Fixed TC Centrelines, adjusted colour on NERC and disabled NODE CARD, added sector based projection points in TopSky for area positions - thanks to @SamLefevre (Samuel Lefevre)
+
 # Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
