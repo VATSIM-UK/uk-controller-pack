@@ -4,8 +4,8 @@
 Setup_AutoSignIn=1
 
 //NERC/iFACTS colours
-Color_Background=180,180,180
-Color_Border=150,150,150
+Color_Background=150,150,150
+Color_Border=120,120,120
 Color_CARD_Min_Sep=120,120,120
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_Discarded
