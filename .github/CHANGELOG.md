@@ -1,4 +1,7 @@
 # Changes from release 2024/12 to 2024/13
+x. Enhancement - Added Gibraltar Profiles and Displays - thanks to @SamLefevre (Samuel Lefevre)
+
+# Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
 2. Enhancement - Added QSY column to combined departure lists - thanks to @kristiankunc (Kristián Kunc)
 3. Bug - Updated VATGER CPDLC logon codes - thanks to @luke11brown (Luke Brown)
