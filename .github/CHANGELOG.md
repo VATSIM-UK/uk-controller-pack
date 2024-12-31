@@ -1,4 +1,4 @@
-# Changes from release 2024/12 to 2024/13
+# Changes from release 2024/13 to 2025/01
 x. Enhancement - Added Gibraltar Profiles and Displays - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/12 to 2024/13
