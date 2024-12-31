@@ -1,0 +1,14 @@
+PROFILE
+PROFILE:LXGB_APP:150:5
+ATIS2:Gibraltar Radar
+ATIS3:SRA or Visual approach, Call 50 NM inbound for airfield information
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LXGB_P_APP:150:5
+ATIS2:Gibraltar Talkdown
+ATIS3:Control for Surveillance Radar Approaches only
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LXGB_TWR:50:4
+ATIS2:Gibraltar Tower
+ATIS3:INITAL CLIMB AS ASSIGNED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+END
