@@ -1,0 +1,5 @@
+VOICE
+AG:LXGB_APP:123.300:old.notused:lxgb_app
+AG:LXGB_P_APP:130.400:old.notused:lxgb_p_app
+AG:LXGB_TWR:131.200:old.notused:lxgb_twr
+END
