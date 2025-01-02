@@ -157,7 +157,7 @@ m_Column:A/C:8:1:105:7:7:1:UK Controller Plugin:::3:0.0
 m_Column:Stand:5:1:110:9007:9008:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:0:0.0
 m_Column:SPad:8:1:19:29:29:1::::4:0.0
 m_Column:FPL:4:1:1:100:9004:0:VFPC (UK):VFPC (UK):UK Controller Plugin:0:0.0
-m_Column:R:2:1:63:7:7:1::::3:0.0
+m_Column:R:2:1:63:7:9004:1:::UK Controller Plugin:3:0.0
 m_Column:RFL:4:1:22:30:30:1::::3:0.0
 m_Column:ADES:4:1:17:7:9004:1:::UK Controller Plugin:3:0.0
 m_Column:SID:7:0:56:17:17:1::::4:0.0
