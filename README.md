@@ -16,7 +16,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [RDF Plugin](https://github.com/chembergj/RDF) - thanks to [@chemberj](https://github.com/chembergj)
 
-[TopSky Plugin](https://forum.vatsim-scandinavia.org/t/plugins) - thanks to Juha Holopainen
+[TopSky Plugin](https://forum.vatsim-scandinavia.org/t/topsky) - thanks to Juha Holopainen
 
 [AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
