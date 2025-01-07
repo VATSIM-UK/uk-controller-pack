@@ -1,5 +1,6 @@
 # Changes from release 2024/13 to 2025/01
-1. Bug - Added Jersey settings to TopSky NOVA - thanks to @SamLefevre (Samuel Lefevre)
+1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
+2. Bug - Added Jersey settings to TopSky NOVA - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
