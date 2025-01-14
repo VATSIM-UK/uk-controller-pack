@@ -1,3 +1,5 @@
+x. Enhancement - Added alias files preview and search - thanks to @kristiankunc (Kristián Kunc)
+
 # Changes from release 2024/13 to 2025/01
 1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
 2. Bug - Added Jersey settings to TopSky NOVA - thanks to @SamLefevre (Samuel Lefevre)
