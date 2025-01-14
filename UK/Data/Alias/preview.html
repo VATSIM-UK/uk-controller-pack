@@ -37,6 +37,10 @@
 						<button @click="toggleFilter('file')" class="focus:outline-none">
 							<span class="material-symbols-outlined mt-2 mx-2">filter_alt</span>
 						</button>
+
+						<button @click="selectAll('files', true)" class="focus:outline-none relative group"></button>
+							<span class="material-symbols-outlined mt-2 mx-2">filter_alt_off</span>
+						</button>
 					</div>
 					<div
 						x-show="fileFilterOpen"
@@ -67,6 +71,10 @@
 						<p>Category</p>
 						<button @click="toggleFilter('category')" class="focus:outline-none">
 							<span class="material-symbols-outlined mt-2 mx-2">filter_alt</span>
+						</button>
+
+						<button @click="selectAll('categories', true)" class="focus:outline-none">
+							<span class="material-symbols-outlined mt-2 mx-2">filter_alt_off</span>
 						</button>
 					</div>
 					<div
@@ -108,7 +116,7 @@
 						<div class="flex items-center justify-center">
 							<button
 								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
-								@click="applyFilter('file', alias.file)"
+								@click="applyFilter('file', alias.file, true)"
 								x-text="alias.file"
 							></button>
 							<a :href="alias.fileHref" target="_blank">
@@ -119,7 +127,7 @@
 						<div class="flex items-center justify-center">
 							<button
 								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
-								@click="applyFilter('category', alias.category)"
+								@click="applyFilter('category', alias.category, true)"
 								x-text="alias.category"
 							></button>
 						</div>
@@ -131,35 +139,6 @@
 			</div>
 
 			<span class="h-1 bg-gray-400 w-full block"></span>
-
-			<div id="alias-list" class="flex flex-col">
-				<template x-for="alias in filteredAliases" :key="alias.file + alias.alias">
-					<div class="flex flex-row items-start justify-evenly p-2 border-b border-gray-400">
-						<div class="flex items-center justify-center">
-							<button
-								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
-								@click="applyFilter('file', alias.file)"
-								x-text="alias.file"
-							></button>
-							<a :href="alias.fileHref" target="_blank">
-								<span class="material-symbols-outlined mx-2 hover:text-blue-600 cursor-pointer"> captive_portal </span>
-							</a>
-						</div>
-
-						<div>
-							<button
-								class="text-center w-full text-blue-600 hover:text-blue-800 hover:underline mx-2"
-								@click="applyFilter('category', alias.category)"
-								x-text="alias.category"
-							></button>
-						</div>
-
-						<p class="text-center" x-html="highlight(alias.alias)"></p>
-						<p class="text-center" x-html="highlight(alias.text)"></p>
-					</div>
-				</template>
-			</div>
-		</div>
 
 		<script>
 			function aliasApp() {
@@ -252,19 +231,27 @@
 						return text.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
 					},
 
-					applyFilter(type, value) {
+					applyFilter(type, value, disableOthers = false) {
 						if (type === "file") {
-							if (this.activeFiles.includes(value)) {
-								this.activeFiles = this.activeFiles.filter((file) => file !== value);
+							if (disableOthers) {
+								this.activeFiles = [value];
 							} else {
-								this.activeFiles.push(value);
+								if (this.activeFiles.includes(value)) {
+									this.activeFiles = this.activeFiles.filter((file) => file !== value);
+								} else {
+									this.activeFiles.push(value);
+								}
 							}
 						}
 						if (type === "category") {
-							if (this.activeCategories.includes(value)) {
-								this.activeCategories = this.activeCategories.filter((category) => category !== value);
+							if (disableOthers) {
+								this.activeCategories = [value];
 							} else {
-								this.activeCategories.push(value);
+								if (this.activeCategories.includes(value)) {
+									this.activeCategories = this.activeCategories.filter((category) => category !== value);
+								} else {
+									this.activeCategories.push(value);
+								}
 							}
 						}
 					},
