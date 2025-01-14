@@ -31,10 +31,10 @@
 						</div>
 					</template>
 
-					<select class="p-2 my-2 border border-gray-400 rounded-md" x-model="selectedTemplateIndex" @change="fetchAliases">
-						<option value="-1">Select a template</option>
+					<select class="w-64 p-2 my-4 border border-gray-400 rounded-md bg-white shadow-sm hover:border-gray-500 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition-all duration-100" x-model="selectedTemplateIndex" @change="fetchAliases">
+						<option value="-1" class="text-gray-500">Select a template</option>
 						<template x-for="(template, index) in templates">
-							<option :value="index" x-text="template.name"></option>
+							<option :value="index" class="py-2" x-text="template.name"></option>
 						</template>
 					</select>
 				</div>
@@ -42,7 +42,7 @@
 			</div>
 
 			<div class="flex flex-row items-center justify-center">
-				<input type="text" x-model="search" class="w-full p-2 my-2 border border-gray-400 rounded-md" placeholder="Search..." />
+				<input type="text" x-model="search" class="w-full p-2 my-2 border border-gray-400 rounded-md hover:border-gray-500 focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition-all duration-100" style="outline: none;" placeholder="Search..." />
 				<button @click="clearSearch">
 					<span class="material-symbols-outlined mt-2 mx-2">cancel</span>
 				</button>
