@@ -98,7 +98,13 @@
 			<div id="alias-list" class="flex flex-col">
 				<template x-for="alias in filteredAliases" :key="alias.file + alias.alias">
 					<div class="flex flex-row items-start justify-between p-2 border-b border-gray-400">
-						<p class="text-center w-1/4" x-text="alias.file"></p>
+						<a
+							class="text-center w-1/4 text-blue-600 hover:text-blue-800 hover:underline"
+							:href="alias.fileHref"
+							target="_blank"
+							x-text="alias.file"
+						></a>
+
 						<p class="text-center w-1/4" x-text="alias.category"></p>
 						<p class="text-center w-1/4" x-html="highlight(alias.alias)"></p>
 						<p class="text-center w-1/4" x-html="highlight(alias.text)"></p>
@@ -149,6 +155,7 @@
 								const text = textParts.join(" ");
 								this.aliases.push({
 									file: aliasFile.name,
+									fileHref: aliasFile.html_url,
 									category: currentCategory,
 									alias,
 									text,
