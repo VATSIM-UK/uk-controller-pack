@@ -13,12 +13,12 @@
 			<div class="flex flex-col items-center justify-center">
 				<h1 class="text-4xl text-center">Alias Preview</h1>
 				<p class="text-center mb-4">
-					This page is a preview of the aliases of open EuroScope sector files.
+					This page is used to preview aliases of open EuroScope sector files.
 				</p>
 
 				<div class="flex flex-col items-center">
 					<template x-if="Number(selectedTemplateIndex) === -1">
-						<p>Select division template</p>
+						<p>Select division template:</p>
 					</template>
 
 					<template x-if="Number(selectedTemplateIndex) !== -1">
@@ -163,8 +163,6 @@
 			</div>
 
 			<span class="h-1 bg-gray-400 w-full block"></span>
-
-			back to top button
 
 			<button style="position: fixed; bottom: 20px; right: 20px;" @click="window.scrollTo(0, 0)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
 				<span class="material-symbols-outlined">arrow_upward</span>
