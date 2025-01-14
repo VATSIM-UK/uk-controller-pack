@@ -10,18 +10,36 @@
 	</head>
 	<body>
 		<div class="container mx-auto p-4" x-data="aliasApp">
-			<h1 class="text-4xl text-center">Alias Preview</h1>
-			<p class="text-center mb-4">
-				This page is a preview of the aliases in the UK Controller Pack. It is updated automatically from the GitHub repository.
-				<br />
-				You can filter by file, category, and search for specific aliases.
-				<br />
-				Clicking on a category or a file in the list will filter the list to show only aliases from that category or file.
-			</p>
-			<p class="text-center" x-text="status"></p>
-			<p class="text-center font-semibold mt-2">
-				Showing <span x-text="filteredAliases.length"></span> of <span x-text="aliases.length"></span> aliases
-			</p>
+			<div class="flex flex-col items-center justify-center">
+				<h1 class="text-4xl text-center">Alias Preview</h1>
+				<p class="text-center mb-4">
+					This page is a preview of the aliases of open EuroScope sector files.
+				</p>
+
+				<div class="flex flex-col items-center">
+					<template x-if="Number(selectedTemplateIndex) === -1">
+						<p>Select division template</p>
+					</template>
+
+					<template x-if="Number(selectedTemplateIndex) !== -1">
+						<div class="text-center">
+							Loaded total of 
+							<span x-text="aliases.length"></span> 
+							aliases from 
+							<img class="inline-block h-4 w-4 align-middle" x-bind:src="templates[Number(selectedTemplateIndex)].icon_url" alt="Logo"> 
+							<span x-text="templates[Number(selectedTemplateIndex)].name"></span>
+						</div>
+					</template>
+
+					<select class="p-2 my-2 border border-gray-400 rounded-md" x-model="selectedTemplateIndex" @change="fetchAliases">
+						<option value="-1">Select a template</option>
+						<template x-for="(template, index) in templates">
+							<option :value="index" x-text="template.name"></option>
+						</template>
+					</select>
+				</div>
+
+			</div>
 
 			<div class="flex flex-row items-center justify-center">
 				<input type="text" x-model="search" class="w-full p-2 my-2 border border-gray-400 rounded-md" placeholder="Search..." />
@@ -29,6 +47,12 @@
 					<span class="material-symbols-outlined mt-2 mx-2">cancel</span>
 				</button>
 			</div>
+
+			<template x-if="Number(selectedTemplateIndex) !== -1">
+				<div class="text-center my-4">
+					Showing <span x-text="filteredAliases.length"></span> filtered aliases
+				<div>
+			</template>
 
 			<div class="grid grid-cols-4 font-bold text-lg p-2">
 				<div class="flex flex-col items-center relative">
@@ -38,7 +62,7 @@
 							<span class="material-symbols-outlined mt-2 mx-2">filter_alt</span>
 						</button>
 
-						<button @click="selectAll('files', true)" class="focus:outline-none relative group"></button>
+						<button @click="selectAll('files', true)" class="focus:outline-none">
 							<span class="material-symbols-outlined mt-2 mx-2">filter_alt_off</span>
 						</button>
 					</div>
@@ -149,31 +173,91 @@
 					activeFiles: [],
 					activeCategories: [],
 					search: "",
-					status: "Loading...",
+					status: "No template selected...",
 					fileFilterOpen: false,
 					categoryFilterOpen: false,
+					templates: [],
+					selectedTemplateIndex: -1,
+
+					async fetchTemplates() {
+						const res = await fetch("preview-templates.json");
+
+						if (!res.ok) {
+							alert("Failed to load templates");
+							return;
+						}
+
+						this.templates = await res.json();
+					},
 
 					async fetchAliases() {
-						const res = await fetch("https://api.github.com/repos/VATSIM-UK/uk-controller-pack/contents/UK/Data/Alias?ref=main");
+						this.aliases = [];
+						this.files = new Set();
+						this.categories = new Set();
+						this.activeFiles = [];
+						this.activeCategories = [];
+						this.search = "";
+
+						if (Number(this.selectedTemplateIndex) === -1) return;
+
+						const template = this.templates[Number(this.selectedTemplateIndex)];
+
+						const res = await fetch(template.github_directory_url);
+
+						if(!res.ok) {
+							alert("Failed to load aliases");
+							return;
+						}
+
 						const aliasFiles = await res.json();
+
 						for (const aliasFile of aliasFiles) {
+							if (template.exclude_files.includes(aliasFile.name)) continue;
+
 							const fileRes = await fetch(aliasFile.download_url);
+
+							if (!fileRes.ok) continue;
+
 							const data = await fileRes.text();
 							this.files.add(aliasFile.name);
 
+							let skippedCategories = 0;
 							let currentCategory = "";
 							const lines = data.split("\n");
-
+							
 							for (let i = 0; i < lines.length; i++) {
 								const line = lines[i];
 
-								if (line.startsWith("=") && i !== 0) {
-									const categoryMatch = lines[++i].trim().replace(/=+/g, "").trim();
-									if (categoryMatch) {
-										currentCategory = categoryMatch;
-										this.categories.add(currentCategory);
+								if (line.startsWith(template.category_prefix)) {
+									if (skippedCategories < template.skip_categories) {
+										if (template.is_category_newline) {
+											for (let j = i; j < lines.length; j++) {
+												if (lines[j].startsWith(template.category_prefix)) {
+													i += j + 1;
+													break;
+												}
+											}
+										}
+
+										skippedCategories++;
+										continue;
 									}
-									continue;
+
+									if (template.is_category_newline) {
+										const categoryMatch = lines[++i].trim().replace(template.category_prefix, "").trim();
+										if (categoryMatch) {
+											currentCategory = categoryMatch;
+											this.categories.add(currentCategory);
+										}
+										continue;
+									} else {
+										const categoryMatch = line.replace(template.category_prefix, "").trim();
+										if (categoryMatch) {
+											currentCategory = categoryMatch;
+											this.categories.add(currentCategory);
+										}
+										continue;
+									}
 								}
 
 								if (!line.startsWith(".")) continue;
@@ -189,7 +273,9 @@
 								});
 							}
 						}
-						this.status = `${this.aliases.length} aliases loaded`;
+
+						this.activeFiles = Array.from(this.files);
+						this.activeCategories = Array.from(this.categories);
 					},
 
 					selectAll(type, isChecked) {
@@ -272,7 +358,7 @@
 					},
 
 					async init() {
-						await this.fetchAliases();
+						await this.fetchTemplates();
 
 						this.activeFiles = Array.from(this.files);
 						this.activeCategories = Array.from(this.categories);
