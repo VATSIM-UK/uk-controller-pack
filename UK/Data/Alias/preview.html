@@ -11,8 +11,12 @@
 	<body>
 		<div class="container mx-auto p-4" x-data="aliasApp">
 			<h1 class="text-4xl text-center">Alias Preview</h1>
-			<p class="text-center">
+			<p class="text-center mb-4">
 				This page is a preview of the aliases in the UK Controller Pack. It is updated automatically from the GitHub repository.
+				<br />
+				You can filter by file, category, and search for specific aliases.
+				<br />
+				Clicking on a category or a file in the list will filter the list to show only aliases from that category or file.
 			</p>
 			<p class="text-center" x-text="status"></p>
 			<p class="text-center font-semibold mt-2">
@@ -26,8 +30,8 @@
 				</button>
 			</div>
 
-			<div class="flex flex-row items-start justify-between font-bold text-lg p-2">
-				<div class="w-1/4 flex flex-col items-center relative">
+			<div class="grid grid-cols-4 font-bold text-lg p-2">
+				<div class="flex flex-col items-center relative">
 					<div class="flex items-center justify-center">
 						<p>File</p>
 						<button @click="toggleFilter('file')" class="focus:outline-none">
@@ -58,7 +62,7 @@
 					</div>
 				</div>
 
-				<div class="w-1/4 flex flex-col items-center relative">
+				<div class="flex flex-col items-center relative">
 					<div class="flex items-center justify-center">
 						<p>Category</p>
 						<button @click="toggleFilter('category')" class="focus:outline-none">
@@ -89,25 +93,69 @@
 					</div>
 				</div>
 
-				<p class="w-1/4 text-center">Alias</p>
-				<p class="w-1/4 text-center">Text</p>
+				<p class="text-center">Alias</p>
+				<p class="text-center">Text</p>
+			</div>
+
+			<span class="h-1 bg-gray-400 w-full block"></span>
+
+			<div id="alias-list" class="flex flex-col">
+				<template x-if="filteredAliases.length === 0">
+					<div class="text-center p-4 text-gray-600">No results found</div>
+				</template>
+				<template x-for="alias in filteredAliases" :key="alias.file + alias.alias">
+					<div class="grid grid-cols-4 items-center p-2 border-b border-gray-400">
+						<div class="flex items-center justify-center">
+							<button
+								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
+								@click="applyFilter('file', alias.file)"
+								x-text="alias.file"
+							></button>
+							<a :href="alias.fileHref" target="_blank">
+								<span class="material-symbols-outlined mx-2 hover:text-blue-600 cursor-pointer">captive_portal</span>
+							</a>
+						</div>
+
+						<div class="flex items-center justify-center">
+							<button
+								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
+								@click="applyFilter('category', alias.category)"
+								x-text="alias.category"
+							></button>
+						</div>
+
+						<p class="text-center" x-html="highlight(alias.alias)"></p>
+						<p class="text-center" x-html="highlight(alias.text)"></p>
+					</div>
+				</template>
 			</div>
 
 			<span class="h-1 bg-gray-400 w-full block"></span>
 
 			<div id="alias-list" class="flex flex-col">
 				<template x-for="alias in filteredAliases" :key="alias.file + alias.alias">
-					<div class="flex flex-row items-start justify-between p-2 border-b border-gray-400">
-						<a
-							class="text-center w-1/4 text-blue-600 hover:text-blue-800 hover:underline"
-							:href="alias.fileHref"
-							target="_blank"
-							x-text="alias.file"
-						></a>
+					<div class="flex flex-row items-start justify-evenly p-2 border-b border-gray-400">
+						<div class="flex items-center justify-center">
+							<button
+								class="text-center text-blue-600 hover:text-blue-800 hover:underline mx-2"
+								@click="applyFilter('file', alias.file)"
+								x-text="alias.file"
+							></button>
+							<a :href="alias.fileHref" target="_blank">
+								<span class="material-symbols-outlined mx-2 hover:text-blue-600 cursor-pointer"> captive_portal </span>
+							</a>
+						</div>
 
-						<p class="text-center w-1/4" x-text="alias.category"></p>
-						<p class="text-center w-1/4" x-html="highlight(alias.alias)"></p>
-						<p class="text-center w-1/4" x-html="highlight(alias.text)"></p>
+						<div>
+							<button
+								class="text-center w-full text-blue-600 hover:text-blue-800 hover:underline mx-2"
+								@click="applyFilter('category', alias.category)"
+								x-text="alias.category"
+							></button>
+						</div>
+
+						<p class="text-center" x-html="highlight(alias.alias)"></p>
+						<p class="text-center" x-html="highlight(alias.text)"></p>
 					</div>
 				</template>
 			</div>
@@ -138,7 +186,7 @@
 							const lines = data.split("\n");
 
 							for (let i = 0; i < lines.length; i++) {
-								line = lines[i];
+								const line = lines[i];
 
 								if (line.startsWith("=") && i !== 0) {
 									const categoryMatch = lines[++i].trim().replace(/=+/g, "").trim();
@@ -168,7 +216,8 @@
 					selectAll(type, isChecked) {
 						if (type === "files") {
 							this.activeFiles = isChecked ? Array.from(this.files) : [];
-						} else if (type === "categories") {
+						}
+						if (type === "categories") {
 							this.activeCategories = isChecked ? Array.from(this.categories) : [];
 						}
 					},
@@ -176,14 +225,21 @@
 					areAllSelected(type) {
 						if (type === "files") {
 							return this.activeFiles.length === this.files.size;
-						} else if (type === "categories") {
+						}
+						if (type === "categories") {
 							return this.activeCategories.length === this.categories.size;
 						}
 					},
 
 					toggleFilter(type) {
-						if (type === "file") this.fileFilterOpen = !this.fileFilterOpen;
-						if (type === "category") this.categoryFilterOpen = !this.categoryFilterOpen;
+						if (type === "file") {
+							this.fileFilterOpen = !this.fileFilterOpen;
+							this.categoryFilterOpen = false;
+						}
+						if (type === "category") {
+							this.categoryFilterOpen = !this.categoryFilterOpen;
+							this.fileFilterOpen = false;
+						}
 					},
 
 					clearSearch() {
@@ -196,10 +252,30 @@
 						return text.replace(regex, '<mark class="bg-yellow-200">$1</mark>');
 					},
 
+					applyFilter(type, value) {
+						if (type === "file") {
+							if (this.activeFiles.includes(value)) {
+								this.activeFiles = this.activeFiles.filter((file) => file !== value);
+							} else {
+								this.activeFiles.push(value);
+							}
+						}
+						if (type === "category") {
+							if (this.activeCategories.includes(value)) {
+								this.activeCategories = this.activeCategories.filter((category) => category !== value);
+							} else {
+								this.activeCategories.push(value);
+							}
+						}
+					},
+
 					get filteredAliases() {
+						if (this.activeFiles.length === 0 || this.activeCategories.length === 0) {
+							return [];
+						}
 						return this.aliases.filter((alias) => {
-							const matchesFile = this.activeFiles.length > 0 && this.activeFiles.includes(alias.file);
-							const matchesCategory = this.activeCategories.length > 0 && this.activeCategories.includes(alias.category);
+							const matchesFile = this.activeFiles.length === 0 || this.activeFiles.includes(alias.file);
+							const matchesCategory = this.activeCategories.length === 0 || this.activeCategories.includes(alias.category);
 							const matchesSearch =
 								alias.alias.toLowerCase().includes(this.search.toLowerCase()) ||
 								alias.text.toLowerCase().includes(this.search.toLowerCase());
