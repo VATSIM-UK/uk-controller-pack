@@ -22,7 +22,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [@VATSIMCanada](https://github.com/VATSIMCanada)
 
-[A-CDM Plugin](https://github.com/vACDM) - thanks to [@dotFionn](https://github.com/dotFionn) & [@LeoKle](https://github.com/LeoKle)
+[A-CDM Plugin](https://github.com/rpuig2001/CDM) - thanks to [@rpuig2001](https://github.com/rpuig2001)
 
 [Virtual Controller Helper Plugin](https://github.com/DrFreas/VCH) - thanks to [@DrFreas](https://github.com/DrFreas)
 
