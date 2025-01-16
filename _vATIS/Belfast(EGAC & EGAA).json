@@ -73,7 +73,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -103,7 +103,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -123,7 +123,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
           "Enabled": false
         },
         {
@@ -241,7 +241,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -271,12 +271,12 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
           "Ordinal": 8,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -291,7 +291,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.830 WHEN READY FOR START.",
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.830 WHEN READY FOR START.",
           "Enabled": false
         },
         {
