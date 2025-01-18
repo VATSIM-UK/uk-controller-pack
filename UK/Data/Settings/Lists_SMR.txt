@@ -101,7 +101,7 @@ m_Column:QSY:7:0:107:0:0:0:UK Controller Plugin:::1:0.0
 END
 ARR
 m_Visible:1
-m_X:544
+m_X:1011
 m_Y:45
 m_LineNumber:6
 m_Resizable:0
