@@ -1,2 +1,2 @@
 // Add info here for slot controlled events
-// format: [Callgin],[CTOT]
+// format: [CID],[CTOT]
