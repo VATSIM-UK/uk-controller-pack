@@ -3,7 +3,8 @@
 2. Bug - Added Jersey settings to TopSky NOVA - thanks to @SamLefevre (Samuel Lefevre)
 3. Enhancement - Added TFP alias - thanks to @aidenbok203 (Aiden Bok)
 4. Enhancement - Fixed TC Centrelines, adjusted colour on NERC and disabled NODE CARD, added sector based projection points in TopSky for area positions - thanks to @SamLefevre (Samuel Lefevre)
-5. Enhancement - Switched A-CDM plugin and configured lists - thanks to @luke11brown (Luke Brown)
+5. AIRAC (2501) - Updated Cosford (EGWC) Frequencies - thanks to @aidenbok203 (Aiden Bok)
+6. Enhancement - Configured A-CDM plugin and configured lists - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
