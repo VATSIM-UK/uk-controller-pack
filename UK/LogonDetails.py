@@ -118,5 +118,3 @@ for root, dirs, files in os.walk(os.getcwd()):
 
 print("Detail entry process complete")
 time.sleep(1.5)
-
-# Dummy line to trigger action
