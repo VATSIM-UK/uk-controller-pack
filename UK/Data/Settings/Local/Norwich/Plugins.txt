@@ -93,4 +93,8 @@ TopSky plugin:ACList/Traffic Management List 2/m_Column_0: Callsign:10:0:10021:6
 TopSky plugin:ACList/Traffic Management List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 vSMR Vatsim UK:cpdlc_logon:EGSH
 vSMR Vatsim UK:cpdlc_sound:1
+UK Controller Plugin:missedApproachAudio:1
+UK Controller Plugin:missedApproachAudioCurrentUser:0
+UK Controller Plugin:missedApproachAirfields:EGSH
+UK Controller Plugin:missedApproachServiceProvision:28
 END
