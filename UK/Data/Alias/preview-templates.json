@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Vatsim UK",
+		"id": "vatuk",
 		"icon_url": "https://cdn.discordapp.com/emojis/740917513436790834.webp?size=96",
 		"github_directory_url": "https://api.github.com/repos/VATSIM-UK/uk-controller-pack/contents/UK/Data/Alias?ref=main",
 		"exclude_files": ["preview-templates.json", "preview.html"],

@@ -367,6 +367,16 @@
 
 						this.activeFiles = Array.from(this.files);
 						this.activeCategories = Array.from(this.categories);
+
+						if (window.location.hash) {
+							const templateId = window.location.hash.slice(1);
+							const templateIndex = this.templates.findIndex((template) => template.id === templateId);
+							
+							if (templateIndex !== -1) {
+								this.selectedTemplateIndex = templateIndex;
+								this.fetchAliases();
+							}
+						}
 					},
 				};
 			}
