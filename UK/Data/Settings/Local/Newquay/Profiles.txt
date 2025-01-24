@@ -5,7 +5,7 @@ ATIS3:INITIAL CLIMB AS CHARTED
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGHQ_L_APP:100:5
 ATIS2:Newquay Radar
-ATIS3:LARS/MARS available with 60 NM
+ATIS3:LARS/MARS available within 60 NM
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGHQ_TWR:30:4
 ATIS2:Newquay Tower
