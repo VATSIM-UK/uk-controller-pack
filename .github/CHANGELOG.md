@@ -7,6 +7,7 @@
 6. Enhancement - Configured A-CDM plugin and configured lists - thanks to @luke11brown (Luke Brown)
 7. Enhancement - Added Gibraltar Profiles and Displays - thanks to @SamLefevre (Samuel Lefevre)
 8. Enhancement - Added Norwich (EGSH) profiles and displays - thanks to @SamLefevre (Samuel Lefevre)
+9. Enhancement - Added Newquay (EGHQ) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/12 to 2024/13
 1. Bug - Fixed Farnborough Radar trails and tags - thanks to @SamLefevre (Samuel Lefevre)
