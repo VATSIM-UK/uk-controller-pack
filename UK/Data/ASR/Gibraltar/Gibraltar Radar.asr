@@ -1,0 +1,384 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+SECTORFILE:UK\Data\Sector\Gibraltar LXGB.sct
+SECTORTITLE:Gibraltar LXGB.sct
+Airports:GEML:symbol
+Airports:GMMW:symbol
+Airports:GMTA:symbol
+Airports:GMTN:symbol
+Airports:GMTT:symbol
+Airports:LEAA:symbol
+Airports:LEAB:symbol
+Airports:LEAD:symbol
+Airports:LEAE:symbol
+Airports:LEAG:symbol
+Airports:LEAH:symbol
+Airports:LEAJ:symbol
+Airports:LEAL:symbol
+Airports:LEAM:symbol
+Airports:LEAO:symbol
+Airports:LEAS:symbol
+Airports:LEAT:symbol
+Airports:LEAX:symbol
+Airports:LEAY:symbol
+Airports:LEAZ:symbol
+Airports:LEBA:symbol
+Airports:LEBB:symbol
+Airports:LEBD:symbol
+Airports:LEBE:symbol
+Airports:LEBF:symbol
+Airports:LEBG:symbol
+Airports:LEBH:symbol
+Airports:LEBI:symbol
+Airports:LEBL:symbol
+Airports:LEBO:symbol
+Airports:LEBU:symbol
+Airports:LEBV:symbol
+Airports:LEBZ:symbol
+Airports:LECA:symbol
+Airports:LECH:symbol
+Airports:LECI:symbol
+Airports:LECJ:symbol
+Airports:LECO:symbol
+Airports:LECT:symbol
+Airports:LECU:symbol
+Airports:LECV:symbol
+Airports:LEDA:symbol
+Airports:LEDE:symbol
+Airports:LEDG:symbol
+Airports:LEDO:symbol
+Airports:LEDR:symbol
+Airports:LEDU:symbol
+Airports:LEDV:symbol
+Airports:LEEB:symbol
+Airports:LEEC:symbol
+Airports:LEEI:symbol
+Airports:LEEL:symbol
+Airports:LEEM:symbol
+Airports:LEER:symbol
+Airports:LEES:symbol
+Airports:LEET:symbol
+Airports:LEEV:symbol
+Airports:LEEX:symbol
+Airports:LEFI:symbol
+Airports:LEFM:symbol
+Airports:LEGA:symbol
+Airports:LEGC:symbol
+Airports:LEGD:symbol
+Airports:LEGH:symbol
+Airports:LEGM:symbol
+Airports:LEGO:symbol
+Airports:LEGP:symbol
+Airports:LEGR:symbol
+Airports:LEGT:symbol
+Airports:LEGU:symbol
+Airports:LEGY:symbol
+Airports:LEHA:symbol
+Airports:LEHC:symbol
+Airports:LEHE:symbol
+Airports:LEHH:symbol
+Airports:LEHO:symbol
+Airports:LEHS:symbol
+Airports:LEHT:symbol
+Airports:LEHU:symbol
+Airports:LEHV:symbol
+Airports:LEHY:symbol
+Airports:LEIA:symbol
+Airports:LEIB:symbol
+Airports:LEIC:symbol
+Airports:LEIL:symbol
+Airports:LEIN:symbol
+Airports:LEIR:symbol
+Airports:LEIT:symbol
+Airports:LEIU:symbol
+Airports:LEIZ:symbol
+Airports:LEJA:symbol
+Airports:LEJE:symbol
+Airports:LEJI:symbol
+Airports:LEJR:symbol
+Airports:LEJU:symbol
+Airports:LELA:symbol
+Airports:LELB:symbol
+Airports:LELC:symbol
+Airports:LELE:symbol
+Airports:LELI:symbol
+Airports:LELN:symbol
+Airports:LELO:symbol
+Airports:LELR:symbol
+Airports:LELS:symbol
+Airports:LELT:symbol
+Airports:LELU:symbol
+Airports:LELV:symbol
+Airports:LEMB:symbol
+Airports:LEMD:symbol
+Airports:LEMF:symbol
+Airports:LEMG:symbol
+Airports:LEMI:symbol
+Airports:LEMO:symbol
+Airports:LEMR:symbol
+Airports:LEMT:symbol
+Airports:LEMX:symbol
+Airports:LEMY:symbol
+Airports:LEMZ:symbol
+Airports:LENA:symbol
+Airports:LENG:symbol
+Airports:LENT:symbol
+Airports:LENU:symbol
+Airports:LENV:symbol
+Airports:LEOC:symbol
+Airports:LEOS:symbol
+Airports:LEOT:symbol
+Airports:LEPC:symbol
+Airports:LEPD:symbol
+Airports:LEPF:symbol
+Airports:LEPH:symbol
+Airports:LEPI:symbol
+Airports:LEPJ:symbol
+Airports:LEPL:symbol
+Airports:LEPP:symbol
+Airports:LEPR:symbol
+Airports:LEPU:symbol
+Airports:LEPV:symbol
+Airports:LEQE:symbol
+Airports:LEQU:symbol
+Airports:LERB:symbol
+Airports:LERJ:symbol
+Airports:LERL:symbol
+Airports:LERM:symbol
+Airports:LERO:symbol
+Airports:LERR:symbol
+Airports:LERS:symbol
+Airports:LERT:symbol
+Airports:LERU:symbol
+Airports:LERY:symbol
+Airports:LESA:symbol
+Airports:LESE:symbol
+Airports:LESG:symbol
+Airports:LESI:symbol
+Airports:LESN:symbol
+Airports:LESO:symbol
+Airports:LESR:symbol
+Airports:LESS:symbol
+Airports:LEST:symbol
+Airports:LESZ:symbol
+Airports:LETB:symbol
+Airports:LETC:symbol
+Airports:LETE:symbol
+Airports:LETF:symbol
+Airports:LETG:symbol
+Airports:LETI:symbol
+Airports:LETJ:symbol
+Airports:LETL:symbol
+Airports:LETN:symbol
+Airports:LETO:symbol
+Airports:LETP:symbol
+Airports:LETS:symbol
+Airports:LETT:symbol
+Airports:LETU:symbol
+Airports:LETZ:symbol
+Airports:LEUA:symbol
+Airports:LEUE:symbol
+Airports:LEUN:symbol
+Airports:LEUS:symbol
+Airports:LEUT:symbol
+Airports:LEVB:symbol
+Airports:LEVC:symbol
+Airports:LEVD:symbol
+Airports:LEVE:symbol
+Airports:LEVF:symbol
+Airports:LEVI:symbol
+Airports:LEVO:symbol
+Airports:LEVT:symbol
+Airports:LEVV:symbol
+Airports:LEVX:symbol
+Airports:LEXJ:symbol
+Airports:LEXN:symbol
+Airports:LEXO:symbol
+Airports:LEXU:symbol
+Airports:LEZA:symbol
+Airports:LEZG:symbol
+Airports:LEZL:symbol
+Airports:LEZO:symbol
+Airports:LEZU:symbol
+Airports:LFBZ:symbol
+Airports:LPBJ:symbol
+Airports:LPFR:symbol
+Airports:LPPR:symbol
+Airports:LPPT:symbol
+Airports:LXGB:symbol
+ARTCC boundary:4345440 area LECM LED123 EL ANDEVALO INFERIOR:
+ARTCC boundary:4345440 area LECM LED124 EL ANDEVALO SUPERIOR:
+ARTCC boundary:4345440 area LECM LED125 SIERRA DE GUADALUPE INFERIOR:
+ARTCC boundary:4345440 area LECM LED126 SIERRA DE GUADALUPE SUPERIOR:
+ARTCC boundary:4345440 area LECM LED128 ARENOSILLO ESTE:
+ARTCC boundary:4345440 area LECM LED129 ARENOSILLO CENTRO:
+ARTCC boundary:4345440 area LECM LED131 P.ALARCON INFERIOR:
+ARTCC boundary:4345440 area LECM LED132 P.ALARCON SUPERIOR:
+ARTCC boundary:4345440 area LECM LED14 RENEDO DE ESGUEVAS:
+ARTCC boundary:4345440 area LECM LED169 ALBORAN SUPERIOR:
+ARTCC boundary:4345440 area LECM LED27A EL COPERO:
+ARTCC boundary:4345440 area LECM LED35B:
+ARTCC boundary:4345440 area LECM LED36:
+ARTCC boundary:4345440 area LECM LED90B:
+ARTCC boundary:4345440 area LECM LED97A MURCIA:
+ARTCC boundary:4345440 area LECM LED98 LA MANCHA:
+ARTCC boundary:Restricted area LECM LER154 PARQUE NACIONAL DE DOÑANA:
+ARTCC boundary:Restricted area LECM LER155 PARQUE NACIONAL DE SIERRA NEVADA:
+ARTCC boundary:Restricted area LECM LER164 ALGECIRAS:
+ARTCC boundary:Restricted area LECM LER43 TORRIJOS:
+ARTCC boundary:Restricted area LECM LER57 LAGUNA FUENTE DE PIEDRA:
+ARTCC boundary:Restricted area LPPC LPR51BN:
+ARTCC boundary:Restricted area LPPC LPR51BS:
+ARTCC high boundary:TANGIER TMA:
+ARTCC high boundary:TMA LEZL SEVILLA:
+ARTCC high boundary:TMA LEZL SEVILLA CLASS E:
+ARTCC low boundary:Tower CTR LEJR CTR:
+Fixes:ABIRO:name
+Fixes:ABIRO:symbol
+Fixes:BAMBA:name
+Fixes:BAMBA:symbol
+Fixes:BARPA:name
+Fixes:BARPA:symbol
+Fixes:CLANA:name
+Fixes:CLANA:symbol
+Fixes:GALTO:name
+Fixes:GALTO:symbol
+Fixes:GONAN:name
+Fixes:GONAN:symbol
+Fixes:KORIS:name
+Fixes:KORIS:symbol
+Fixes:LINTO:name
+Fixes:LINTO:symbol
+Fixes:NARMI:name
+Fixes:NARMI:symbol
+Fixes:PIMOS:name
+Fixes:PIMOS:symbol
+Fixes:PIREN:name
+Fixes:PIREN:symbol
+Fixes:VAGNO:name
+Fixes:VAGNO:symbol
+Fixes:XAVIR:name
+Fixes:XAVIR:symbol
+Free Text:LXGB SMAA Labels\1200:freetext
+Free Text:LXGB SMAA Labels\1400:freetext
+Free Text:LXGB SMAA Labels\1400:freetext
+Free Text:LXGB SMAA Labels\2500:freetext
+Free Text:LXGB SMAA Labels\2600:freetext
+Free Text:LXGB SMAA Labels\2800:freetext
+Free Text:LXGB SMAA Labels\3700:freetext
+Free Text:LXGB SMAA Labels\3800:freetext
+Free Text:LXGB SMAA Labels\3900:freetext
+Free Text:LXGB SMAA Labels\4000:freetext
+Free Text:LXGB SMAA Labels\4800:freetext
+Free Text:LXGB SMAA Labels\6600:freetext
+Free Text:LXGB SMAA Labels\6800:freetext
+Free Text:LXGB SMAA Labels\7400:freetext
+Free Text:LXGB SMAA Labels\8300:freetext
+Geo:Algeria and Morocco Coast:
+Geo:FIR border LECM FIR:
+Geo:LECM Military exercice and training area TRA 1 SUPERIOR BADAJOZ:
+Geo:LECM Military exercice and training area TRA 2 RETIN SECTOR A:
+Geo:LECM Military exercice and training area TRA 4 RETIN SECTOR A1:
+Geo:Morocco-Algeria border:
+Geo:Portugal-Spain Border:
+Geo:Portugese Coast:
+Geo:Spanish Southern Coast:
+Geo:SRA 09 CIVIL:
+Geo:SRA 09 MIL:
+Geo:SRA 27 CIVIL:
+Geo:SRA 27 MIL:
+Regions:Shaded Airspace:polygon
+Sids:LXGB Gibraltar SMAA:
+VORs:ALM:name
+VORs:ALM:symbol
+VORs:AMR:name
+VORs:AMR:symbol
+VORs:BCN:name
+VORs:BCN:symbol
+VORs:GBR:name
+VORs:GBR:symbol
+VORs:MAR:name
+VORs:MAR:symbol
+VORs:MGA:name
+VORs:MGA:symbol
+VORs:MLG:name
+VORs:MLG:symbol
+VORs:TNG:name
+VORs:TNG:symbol
+VORs:TTN:name
+VORs:TTN:symbol
+VORs:VES:name
+VORs:VES:symbol
+VORs:VJF:name
+VORs:VJF:symbol
+SHOWC:1
+SHOWSB:0
+BELOW:50
+ABOVE:0
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:1.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:35.326691:-7.201784:36.975659:-3.497716
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:74
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:914
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
+PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100
+PLUGIN:UK Controller Plugin:departureReleaseRequestListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:0
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,213,64
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:0
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:10
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:1
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:10
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:3
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:holdODLUKMaxLevel:9000
+PLUGIN:UK Controller Plugin:holdODLUKMinimised:1
+PLUGIN:UK Controller Plugin:holdODLUKMinLevel:4000
+PLUGIN:UK Controller Plugin:holdODLUKPositionX:107
+PLUGIN:UK Controller Plugin:holdODLUKPositionY:935
+PLUGIN:UK Controller Plugin:holdPIMOSMaxLevel:11000
+PLUGIN:UK Controller Plugin:holdPIMOSMinimised:1
+PLUGIN:UK Controller Plugin:holdPIMOSMinLevel:9000
+PLUGIN:UK Controller Plugin:holdPIMOSPositionX:1626
+PLUGIN:UK Controller Plugin:holdPIMOSPositionY:931
+PLUGIN:UK Controller Plugin:holdUPMUPMaxLevel:9000
+PLUGIN:UK Controller Plugin:holdUPMUPMinimised:1
+PLUGIN:UK Controller Plugin:holdUPMUPMinLevel:3000
+PLUGIN:UK Controller Plugin:holdUPMUPPositionX:107
+PLUGIN:UK Controller Plugin:holdUPMUPPositionY:914
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:selectedHoldProfile:0
+PLUGIN:UK Controller Plugin:selectedHolds:ODLUK;PIMOS;UPMUP
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
