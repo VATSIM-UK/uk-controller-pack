@@ -12,7 +12,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 ### Included In The Pack:
 [UK Controller Plugin](https://github.com/VATSIM-UK/uk-controller-plugin) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
-[vSMR Plugin](https://github.com/pierr3/vSMR) - thanks to [@Pierr3](https://github.com/pierr3)
+[vSMR Plugin](https://github.com/AliceFord/vSMR) - thanks to [@Pierr3](https://github.com/pierr3) & [Alice Ford](https://github.com/AliceFord)
 
 [RDF Plugin](https://github.com/chembergj/RDF) - thanks to [@chemberj](https://github.com/chembergj)
 
