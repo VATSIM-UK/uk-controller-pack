@@ -39,6 +39,9 @@ jobs:
         with:
           token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
 
+      - name: Pull latest changes
+        run: git pull --ff-only
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
