@@ -1,0 +1,463 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:RATSU Triangle:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAB Enniskillen ATZ:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAD Newtownards ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBD Derby ATZ:
+ARTCC low boundary:EGBE Coventry ATZ:
+ARTCC low boundary:EGBG Leicester ATZ:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGBK Northampton/Sywell ATZ:
+ARTCC low boundary:EGBM Tatenhill ATZ:
+ARTCC low boundary:EGBN Nottingham ATZ:
+ARTCC low boundary:EGBO Wolverhampton ATZ:
+ARTCC low boundary:EGBP Kemble ATZ:
+ARTCC low boundary:EGBS Shobdon ATZ:
+ARTCC low boundary:EGBW Wellesbourne Mountford ATZ:
+ARTCC low boundary:EGCB Manchester Barton ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGCF Sandtoft ATZ:
+ARTCC low boundary:EGCJ Sherburn in Elmet ATZ:
+ARTCC low boundary:EGCK Caernarfon ATZ:
+ARTCC low boundary:EGCL Fenland ATZ:
+ARTCC low boundary:EGCM Leeds East ATZ:
+ARTCC low boundary:EGCV Sleap ATZ:
+ARTCC low boundary:EGCW Welshpool ATZ:
+ARTCC low boundary:EGDI Merryfield ATZ:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down ATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGDO Predannack ATZ:
+ARTCC low boundary:EGDO Predannack MATZ:
+ARTCC low boundary:EGDP Portland ATZ:
+ARTCC low boundary:EGDR Culdrose ATZ:
+ARTCC low boundary:EGDR Culdrose MATZ:
+ARTCC low boundary:EGDY Yeovilton MATZ:
+ARTCC low boundary:EGEC Campbeltown ATZ:
+ARTCC low boundary:EGEO Oban ATZ:
+ARTCC low boundary:EGET Lerwick/Tingwall ATZ:
+ARTCC low boundary:EGFA West Wales Aberporth ATZ:
+ARTCC low boundary:EGFE Haverfordwest ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGFH Swansea ATZ:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGGW Luton LFA (Graveley):
+ARTCC low boundary:EGGW Luton LFC:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHC Land's End ATZ:
+ARTCC low boundary:EGHE Scilly Isles/St Mary's ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHG Westland ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHQ Newquay ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKB Biggin Hill ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLD Denham LFA:
+ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLM White Waltham LFA:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGLW London Heliport LFA:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNE Retford Gamston ATZ:
+ARTCC low boundary:EGNF Netherthorpe ATZ:
+ARTCC low boundary:EGNH Blackpool ATZ:
+ARTCC low boundary:EGNJ Humberside ATZ:
+ARTCC low boundary:EGNL Walney ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNO Warton MATZ:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
+ARTCC low boundary:EGNW Wickenby ATZ:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGOE Ternhill ATZ:
+ARTCC low boundary:EGOE Ternhill MATZ:
+ARTCC low boundary:EGOQ Mona ATZ:
+ARTCC low boundary:EGOQ Mona MATZ:
+ARTCC low boundary:EGOS Shawbury ATZ:
+ARTCC low boundary:EGOS Shawbury MATZ:
+ARTCC low boundary:EGOV Valley ATZ:
+ARTCC low boundary:EGOV Valley MATZ:
+ARTCC low boundary:EGOW Woodvale ATZ:
+ARTCC low boundary:EGPA Kirkwall ATZ:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPC Wick ATZ:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPE Inverness ATZ:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPG Cumbernauld ATZ:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPI Islay ATZ:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGPL Benbecula ATZ:
+ARTCC low boundary:EGPN Dundee ATZ:
+ARTCC low boundary:EGPO Stornoway ATZ:
+ARTCC low boundary:EGPR Barra ATZ:
+ARTCC low boundary:EGPT Perth ATZ:
+ARTCC low boundary:EGPU Tiree ATZ:
+ARTCC low boundary:EGQL Leuchars ATZ:
+ARTCC low boundary:EGQL Leuchars MATZ:
+ARTCC low boundary:EGQS Lossiemouth ATZ:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSC Cambridge ATZ:
+ARTCC low boundary:EGSF Peterborough/Conington ATZ:
+ARTCC low boundary:EGSG Stapleford ATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSL Andrewsfield ATZ/LFA:
+ARTCC low boundary:EGSR Earls Colne ATZ:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGSS Stansted LFA (Audley End):
+ARTCC low boundary:EGSS Stansted LFA (Hunsdon):
+ARTCC low boundary:EGSU Duxford ATZ:
+ARTCC low boundary:EGSV Old Buckenham ATZ:
+ARTCC low boundary:EGSY St Athan LFA:
+ARTCC low boundary:EGTB Wycombe Air Park/Booker ATZ:
+ARTCC low boundary:EGTC Cranfield ATZ:
+ARTCC low boundary:EGTE Exeter ATZ:
+ARTCC low boundary:EGTF Fairoaks LFA:
+ARTCC low boundary:EGTH Old Warden ATZ:
+ARTCC low boundary:EGTK Oxford ATZ:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGTR Elstree ATZ:
+ARTCC low boundary:EGTU Dunkeswell ATZ:
+ARTCC low boundary:EGUB Benson ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUL Lakenheath ATZ:
+ARTCC low boundary:EGUL Lakenheath MATZ:
+ARTCC low boundary:EGUN Mildenhall ATZ:
+ARTCC low boundary:EGUN Mildenhall MATZ:
+ARTCC low boundary:EGUW Wattisham ATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVA Fairford ATZ:
+ARTCC low boundary:EGVA Fairford MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVL Little Rissington ATZ:
+ARTCC low boundary:EGVN Brize Norton ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham ATZ:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop ATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EGWC Cosford ATZ:
+ARTCC low boundary:EGWN Halton ATZ:
+ARTCC low boundary:EGXC Coningsby ATZ:
+ARTCC low boundary:EGXC Coningsby MATZ:
+ARTCC low boundary:EGXE Leeming ATZ:
+ARTCC low boundary:EGXE Leeming MATZ:
+ARTCC low boundary:EGXH Honington ATZ:
+ARTCC low boundary:EGXT Wittering ATZ:
+ARTCC low boundary:EGXT Wittering MATZ:
+ARTCC low boundary:EGXW Waddington ATZ:
+ARTCC low boundary:EGXW Waddington MATZ:
+ARTCC low boundary:EGXY Syerston ATZ:
+ARTCC low boundary:EGXZ Topcliffe ATZ:
+ARTCC low boundary:EGXZ Topcliffe MATZ:
+ARTCC low boundary:EGYD Cranwell ATZ:
+ARTCC low boundary:EGYD Cranwell MATZ:
+ARTCC low boundary:EGYE Barkston Heath ATZ:
+ARTCC low boundary:EGYE Barkston Heath MATZ:
+ARTCC low boundary:EGYM Marham ATZ:
+ARTCC low boundary:EGYM Marham MATZ:
+ARTCC low boundary:EIDL Donegal CTA:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+Regions:A-EastCoast:polygon
+Regions:A-NorthWest:polygon
+Regions:A-SouthEast:polygon
+Regions:A-SouthWalesMidlands:polygon
+Regions:A-SouthWest:polygon
+Runways:EGAA Belfast Aldergrove 07-25:centerline
+Runways:EGAA Belfast Aldergrove 17-35:centerline
+Runways:EGAC Belfast/City 04-22:centerline
+Runways:EGAE Londonderry/Eglinton 08-26:centerline
+Runways:EGBB Birmingham 15-33:centerline
+Runways:EGBE Coventry 05-23:centerline
+Runways:EGBJ Gloucestershire 04-22:centerline
+Runways:EGBJ Gloucestershire 09-27:centerline
+Runways:EGBP Kemble 08-26:centerline
+Runways:EGCC Manchester 05L-23R:centerline
+Runways:EGCC Manchester 05R-23L:centerline
+Runways:EGCJ Sherburn-in-Elmet 01-19:centerline
+Runways:EGCJ Sherburn-in-Elmet 06-24:centerline
+Runways:EGCJ Sherburn-in-Elmet 10-28:centerline
+Runways:EGCJ Sherburn-in-Elmet 10G-28G:centerline
+Runways:EGCM Leeds East 06-24:centerline
+Runways:EGCN Doncaster Sheffield (Closed) 02-20:centerline
+Runways:EGDI Merryfield 03-21:centerline
+Runways:EGDI Merryfield 09-27:centerline
+Runways:EGDI Merryfield 16-34:centerline
+Runways:EGDM Boscombe Down 05-23:centerline
+Runways:EGDO Predannack 05-23:centerline
+Runways:EGDO Predannack 09-27:centerline
+Runways:EGDO Predannack 13-31:centerline
+Runways:EGDO Predannack 18-36:centerline
+Runways:EGDR Culdrose 06-24:centerline
+Runways:EGDR Culdrose 11-29:centerline
+Runways:EGDR Culdrose 18-36:centerline
+Runways:EGDY Yeovilton 02-20:centerline
+Runways:EGDY Yeovilton 08-26:centerline
+Runways:EGEC Campbeltown 11-29:centerline
+Runways:EGFF Cardiff 12-30:centerline
+Runways:EGGD Bristol 09-27:centerline
+Runways:EGGP Liverpool 09-27:centerline
+Runways:EGGW London Luton 07-25:centerline
+Runways:EGHC Land's End 02-20:centerline
+Runways:EGHC Land's End 07-25:centerline
+Runways:EGHC Land's End 11-29:centerline
+Runways:EGHC Land's End 16-34:centerline
+Runways:EGHE Scilly Isles/St Mary's 09-27:centerline
+Runways:EGHE Scilly Isles/St Mary's 14-32:centerline
+Runways:EGHG Yeovil/Westland 09-27:centerline
+Runways:EGHH Bournemouth 08-26:centerline
+Runways:EGHI Southampton 02-20:centerline
+Runways:EGHL Lasham 09-27:centerline
+Runways:EGHQ Newquay 12-30:centerline
+Runways:EGJA Alderney 03-21:centerline
+Runways:EGJA Alderney 08-26:centerline
+Runways:EGJA Alderney 13-31:centerline
+Runways:EGJB Guernsey 09-27:centerline
+Runways:EGJJ Jersey 08-26:centerline
+Runways:EGKA Shoreham 02-20:centerline
+Runways:EGKA Shoreham 02G-20G:centerline
+Runways:EGKA Shoreham 06-24:centerline
+Runways:EGKA Shoreham 13-31:centerline
+Runways:EGKB Biggin Hill 03-21:centerline
+Runways:EGKK London Gatwick 08L-26R:centerline
+Runways:EGKK London Gatwick 08R-26L:centerline
+Runways:EGKR Redhill 07L-25R:centerline
+Runways:EGKR Redhill 07R-25L:centerline
+Runways:EGKR Redhill 18-36:centerline
+Runways:EGKT Kirknewton 05L-23R:centerline
+Runways:EGKT Kirknewton 05R-23L:centerline
+Runways:EGKT Kirknewton 12-30:centerline
+Runways:EGLC London City 09-27:centerline
+Runways:EGLF Farnborough 06-24:centerline
+Runways:EGLK Blackbushe 07-25:centerline
+Runways:EGLL London Heathrow 09L-27R:centerline
+Runways:EGLL London Heathrow 09R-27L:centerline
+Runways:EGLW London Heliport 02-20:centerline
+Runways:EGMC Southend 05-23:centerline
+Runways:EGMD Lydd 03-21:centerline
+Runways:EGNE Retford/Gamston 02-20:centerline
+Runways:EGNH Blackpool 10-28:centerline
+Runways:EGNH Blackpool 13-31:centerline
+Runways:EGNJ Humberside 02-20:centerline
+Runways:EGNJ Humberside 08-26:centerline
+Runways:EGNL Walney 05-23:centerline
+Runways:EGNL Walney 17-35:centerline
+Runways:EGNM Leeds Bradford 14-32:centerline
+Runways:EGNO Warton 07-25:centerline
+Runways:EGNR Hawarden 04-22:centerline
+Runways:EGNS Isle of Man - Ronaldsway 03-21:centerline
+Runways:EGNS Isle of Man - Ronaldsway 08-26:centerline
+Runways:EGNT Newcastle 07-25:centerline
+Runways:EGNV Teesside International 05-23:centerline
+Runways:EGNX East Midlands 09-27:centerline
+Runways:EGOE Ternhill 04-22:centerline
+Runways:EGOE Ternhill 10-28:centerline
+Runways:EGOE Ternhill 17-35:centerline
+Runways:EGOQ Mona 04-22:centerline
+Runways:EGOS Shawbury 05-23:centerline
+Runways:EGOS Shawbury 18-36:centerline
+Runways:EGOV Valley 01-19:centerline
+Runways:EGOV Valley 13-31:centerline
+Runways:EGOW Woodvale 03-21:centerline
+Runways:EGOW Woodvale 08-26:centerline
+Runways:EGPA Kirkwall 09-27:centerline
+Runways:EGPA Kirkwall 14-32:centerline
+Runways:EGPB Sumburgh 06-24:centerline
+Runways:EGPB Sumburgh 09-27:centerline
+Runways:EGPB Sumburgh 15-33:centerline
+Runways:EGPC Wick 13-31:centerline
+Runways:EGPD Aberdeen/Dyce 16-34:centerline
+Runways:EGPE Inverness 05-23:centerline
+Runways:EGPE Inverness 11-29:centerline
+Runways:EGPF Glasgow 05-23:centerline
+Runways:EGPH Edinburgh 06-24:centerline
+Runways:EGPI Islay 07-25:centerline
+Runways:EGPI Islay 12-30:centerline
+Runways:EGPK Prestwick 02-20:centerline
+Runways:EGPK Prestwick 12-30:centerline
+Runways:EGPL Benbecula 06-24:centerline
+Runways:EGPL Benbecula 17-35:centerline
+Runways:EGPN Dundee 09-27:centerline
+Runways:EGPO Stornoway 06-24:centerline
+Runways:EGPO Stornoway 18-36:centerline
+Runways:EGPR Barra 07-25:centerline
+Runways:EGPR Barra 11-29:centerline
+Runways:EGPR Barra 15-33:centerline
+Runways:EGPU Tiree 05-23:centerline
+Runways:EGPU Tiree 11-29:centerline
+Runways:EGQL Leuchars 08-26:centerline
+Runways:EGQS Lossiemouth 05-23:centerline
+Runways:EGQS Lossiemouth 10-28:centerline
+Runways:EGSC Cambridge 05-23:centerline
+Runways:EGSS London Stansted 04-22:centerline
+Runways:EGSY St Athan 07-25:centerline
+Runways:EGTC Cranfield 03-21:centerline
+Runways:EGTD Dunsfold 07-25:centerline
+Runways:EGTE Exeter 08-26:centerline
+Runways:EGTF Fairoaks 06-24:centerline
+Runways:EGTK Oxford 01-19:centerline
+Runways:EGTO Rochester 02L-20R:centerline
+Runways:EGTO Rochester 02R-20L:centerline
+Runways:EGUB Benson 01-19:centerline
+Runways:EGUL Lakenheath 05-23:centerline
+Runways:EGUN Mildenhall 10-28:centerline
+Runways:EGUW Wattisham 05-23:centerline
+Runways:EGVA Fairford 09-27:centerline
+Runways:EGVH Hereford 08-26:centerline
+Runways:EGVN Brize Norton 07-25:centerline
+Runways:EGVO Odiham 09-27:centerline
+Runways:EGVP Middle Wallop 04-22:centerline
+Runways:EGVP Middle Wallop 08-26:centerline
+Runways:EGVP Middle Wallop 17-35:centerline
+Runways:EGWC Cosford 06-24:centerline
+Runways:EGWC Cosford 06G-24G:centerline
+Runways:EGWU Northolt 07-25:centerline
+Runways:EGXC Coningsby 07-25:centerline
+Runways:EGXE Leeming 03-21:centerline
+Runways:EGXE Leeming 16-34:centerline
+Runways:EGXH Honington 08-26:centerline
+Runways:EGXT Wittering 07-25:centerline
+Runways:EGXW Waddington 02-20:centerline
+Runways:EGXZ Topcliffe 02-20:centerline
+Runways:EGXZ Topcliffe 07-25:centerline
+Runways:EGXZ Topcliffe 13-31:centerline
+Runways:EGYD Cranwell 01-19:centerline
+Runways:EGYD Cranwell 08-26:centerline
+Runways:EGYE Barkston Heath 06-24:centerline
+Runways:EGYE Barkston Heath 10-28:centerline
+Runways:EGYE Barkston Heath 18-36:centerline
+Runways:EGYM Marham 01-19:centerline
+Runways:EGYM Marham 05-23:centerline
+Runways:EIDL Donegal 03-21:centerline
+Runways:EIDW Dublin 10L-28R:centerline
+Runways:EIDW Dublin 10R-28L:centerline
+Runways:EIDW Dublin 16-34:centerline
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:52.317332:0.209789:53.032127:2.347629
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1605
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:174
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGSH
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_YARMOUTH;ASR_BARNSLEY;ASR_CHATHAM;ASR_HUMBER
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
