@@ -1,0 +1,18 @@
+PROFILE
+PROFILE:EGNS_TWR:50:4
+ATIS2:Ronaldsway Tower
+ATIS3:INITIAL CLIMB FLIGHT LEVEL 60
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNS_APP:100:5
+ATIS2:Ronaldsway Radar
+ATIS3:INITIAL CLIMB FLIGHT LEVEL 60
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNS_F_APP:100:5
+ATIS2:Ronaldsway Radar
+ATIS3:INITIAL CLIMB FLIGHT LEVEL 60
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGNS_A_APP:100:5
+ATIS2:Ronaldsway Approach
+ATIS3:INITIAL CLIMB FLIGHT LEVEL 60
+ATIS4:Submit feedback at vats.im/atcfb
+END
