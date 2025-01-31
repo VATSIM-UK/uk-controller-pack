@@ -1,2 +1,3 @@
 // Add info here for slot controlled events
 // format: [CID],[CTOT]
+992067,1230
