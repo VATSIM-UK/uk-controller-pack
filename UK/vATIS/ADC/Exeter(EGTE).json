@@ -1,6 +1,6 @@
 {
   "Name": "Exeter",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Exeter(EGTE).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Exeter(EGTE).json",
   "updateSerial": 1970010100,
   "stations": []
 }

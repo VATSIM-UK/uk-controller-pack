@@ -1,6 +1,6 @@
 {
   "Name": "Solent",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Solent(EGHI & EGHH).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Solent(EGHI & EGHH).json",
   "updateSerial": 1970010100,
   "stations": []
 }

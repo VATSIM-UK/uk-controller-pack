@@ -1,6 +1,6 @@
 {
   "Name": "Norwich",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Norwich(EGSH).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Norwich(EGSH).json",
   "updateSerial": 1970010100,
   "stations": []
 }

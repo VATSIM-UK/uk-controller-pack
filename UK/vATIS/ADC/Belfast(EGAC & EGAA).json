@@ -1,6 +1,6 @@
 {
   "Name": "Belfast",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Belfast(EGAC & EGAA).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Belfast(EGAC & EGAA).json",
   "updateSerial": 1970010100,
   "stations": []
 }

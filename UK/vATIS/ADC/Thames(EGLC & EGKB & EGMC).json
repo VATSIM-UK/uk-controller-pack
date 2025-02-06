@@ -1,6 +1,6 @@
 {
   "Name": "Thames",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Thames(EGLC & EGKB & EGMC).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Thames(EGLC & EGKB & EGMC).json",
   "updateSerial": 1970010100,
   "stations": []
 }

@@ -1,6 +1,6 @@
 {
   "Name": "Severn",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Severn(EGFF & EGGD & EGSY).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Severn(EGFF & EGGD & EGSY).json",
   "updateSerial": 1970010100,
   "stations": []
 }

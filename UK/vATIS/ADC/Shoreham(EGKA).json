@@ -1,6 +1,6 @@
 {
   "Name": "Shoreham",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Shoreham(EGKA).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Shoreham(EGKA).json",
   "updateSerial": 1970010100,
   "stations": []
 }

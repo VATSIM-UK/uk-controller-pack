@@ -1,6 +1,6 @@
 {
   "Name": "Liverpool",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Liverpool(EGGP & EGNR).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Liverpool(EGGP & EGNR).json",
   "updateSerial": 1970010100,
   "stations": []
 }

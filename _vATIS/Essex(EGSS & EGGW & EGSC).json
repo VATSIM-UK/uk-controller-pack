@@ -1,7 +1,7 @@
 {
   "Name": "Essex",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Essex(EGSS & EGGW & EGSC).json",
-  "updateSerial": 2025010200,
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Essex(EGSS & EGGW & EGSC).json",
+  "updateSerial": 2025011601,
   "stations": [
     {
       "Name": "Stansted",
@@ -59,7 +59,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -89,7 +89,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -114,7 +114,7 @@
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
           "Enabled": false
         },
         {
@@ -199,14 +199,14 @@
         },
         {
           "String": "EGGW",
-          "Spoken": "ECHO GOLF GOLF WHISKEY"
+          "Spoken": "ECHO GOLF GOLF WHISKY"
         },
         {
           "String": "DATALINK",
           "Spoken": "DAYTA LINK"
         }
       ],
-      "AtisFrequency": 27180,
+      "AtisFrequency": 20580,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -235,13 +235,13 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^s07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -271,7 +271,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -296,7 +296,7 @@
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.885 WHEN READY FOR START.",
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.885 WHEN READY FOR START.",
           "Enabled": false
         },
         {
@@ -310,6 +310,8 @@
           "Enabled": false
         }
       ],
+      "NotamDefinitions": [],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [],
       "atisFormat": {
         "altimeter": {
@@ -429,7 +431,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -459,7 +461,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -474,7 +476,7 @@
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.905 WHEN READY FOR START.",
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.905 WHEN READY FOR START.",
           "Enabled": false
         },
         {

@@ -1,6 +1,6 @@
 {
   "Name": "Glasgow",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Glasgow(EGPF).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Glasgow(EGPF).json",
   "updateSerial": 1970010100,
   "stations": []
 }

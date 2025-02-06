@@ -1,6 +1,6 @@
 {
   "Name": "Aberdeen",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Aberdeen(EGPD).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Aberdeen(EGPD).json",
   "updateSerial": 1970010100,
   "stations": []
 }

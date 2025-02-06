@@ -1,6 +1,6 @@
 {
   "Name": "Sumburgh",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Sumburgh(EGPB).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Sumburgh(EGPB).json",
   "updateSerial": 1970010100,
   "stations": []
 }

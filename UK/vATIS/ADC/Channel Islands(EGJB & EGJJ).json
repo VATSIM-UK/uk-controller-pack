@@ -1,6 +1,6 @@
 {
   "Name": "Channel Islands",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Channel Islands(EGJB & EGJJ).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Channel Islands(EGJB & EGJJ).json",
   "updateSerial": 1970010100,
   "stations": []
 }
