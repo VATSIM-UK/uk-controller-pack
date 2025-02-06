@@ -119,7 +119,7 @@
         },
         {
           "Ordinal": 13,
-          "Text": "REPORT IF YOU ARE ABLE TO USE THE EAST AND WEST TAXI LINES ON FIRST CONTACT.",
+          "Text": "REPORT IF YOU ARE UNABLE TO USE THE EAST AND WEST TAXI LINES ON FIRST CONTACT.",
           "Enabled": true
         },
         {
@@ -310,8 +310,6 @@
           "Enabled": false
         }
       ],
-      "NotamDefinitions": [],
-      "airportConditionDefinitions": [],
       "notamDefinitions": [],
       "atisFormat": {
         "altimeter": {
