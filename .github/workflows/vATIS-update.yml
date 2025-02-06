@@ -1,0 +1,51 @@
+# Updates Id and name of profiles
+#
+# Triggered by:
+# PR to main
+
+name: Update vATIS Serial
+
+on:
+  pull_request:
+    branches: ['main']
+    paths: ['data/**']
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Get list of changed files
+      id: changed_files
+      run: |
+          git fetch origin main
+          git checkout ${{ github.head_ref }}
+          git diff --name-only origin/main...HEAD > changed_files.txt
+          cat changed_files.txt
+
+    - name: Run update script
+      id: update
+      run: |
+        changed_files=$(cat changed_files.txt | grep '^data/.*\.json$' | tr '\n' ' ')
+        if [ -n "$changed_files" ]; then
+          python scripts/update.py $changed_files
+        fi
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        rm changed_files.txt
+        git add .
+        git commit -m 'Update profiles'
+        git push
