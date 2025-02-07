@@ -44,6 +44,47 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAD Newtownards ATZ:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLF Farnborough CTA:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNV Teesside CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EIDL Donegal CTA:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFQQ Lille CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRG Deauville CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
 Fixes:ABBEW:symbol
 Fixes:ABBOT:symbol
 Fixes:ABEDA:symbol
@@ -1137,6 +1178,7 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Regions:Uncontrolled airspace (Grey):polygon
 Sids:London AC Lakes:
+Sids:London AC North Sea:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
 Sids:PC Northeast:
