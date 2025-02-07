@@ -1413,12 +1413,6 @@ Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace:polygon
-Sids:London AC Lakes:
-Sids:Maastricht UAC Delta:
-Sids:Maastricht UAC Jever:
-Sids:PC Northeast:
-Sids:PC West:
-Sids:Scottish AC North:
 Sids:Scottish AC South:
 Sids:Scottish Antrim:
 Sids:Scottish Deancross:
@@ -1537,7 +1531,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:52.418467:-11.335966:57.880111:5.147377
-PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
