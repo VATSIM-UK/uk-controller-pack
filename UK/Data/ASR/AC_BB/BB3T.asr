@@ -1281,10 +1281,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1582,10 +1578,13 @@ Sids:London AC Daventry:
 Sids:London AC Dover:
 Sids:London AC Lakes:
 Sids:London AC North Sea:
+Sids:London AC West:
 Sids:London AC Worthing:
+Sids:London TC Midlands:
 Sids:London TC North East:
 Sids:London TC South West:
-Sids:PC Northeast:
+Sids:Maastricht UAC Delta:
+Sids:PC Southeast:
 Sids:PC West:
 Sids:Scottish AC South:
 Sids:Scottish Deancross:
