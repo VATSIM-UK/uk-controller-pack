@@ -103,31 +103,36 @@
         },
         {
           "Ordinal": 7,
-          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FLIGHT CREWS SHOULD NOT PLAN TO VACATE AT TWY B.",
           "Enabled": false
         },
         {
           "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.755.",
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
           "Ordinal": 9,
-          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.300.",
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.755.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGAA.",
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.300.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGAA.",
           "Enabled": false
         },
         {
           "Ordinal": 12,
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
           "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
