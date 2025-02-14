@@ -3256,7 +3256,7 @@
     {
       "Name": "Redhill",
       "Identifier": "EGKR",
-      "contractions": [
+      "Contractions": [
         {
           "String": "LVPS",
           "Spoken": "L V PEES"
@@ -3271,14 +3271,6 @@
         }
       ],
       "AtisFrequency": 25305,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
-      },
-      "MagneticVariation": {
-        "Enabled": false,
-        "MagneticDegrees": 0
-      },
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
@@ -3384,6 +3376,13 @@
       ],
       "notamDefinitions": [],
       "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter}",
+            "voice": "QNH {altimeter}"
+          }
+        },
         "transitionLevel": {
           "values": [
             {
