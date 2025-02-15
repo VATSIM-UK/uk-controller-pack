@@ -8,7 +8,8 @@ input_dir = os.path.abspath('_vATIS')
 # Get the list of filenames from the command line arguments
 filenames_to_update_raw = sys.argv[1:]
 
-filenames_to_update = [filename[5:] for filename in filenames_to_update_raw]
+filenames_to_update = [filename[7:] for filename in filenames_to_update_raw]
+print(filenames_to_update)
 # If no filenames are provided, update all JSON files in the input directory
 
 if not filenames_to_update:
