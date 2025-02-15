@@ -1,7 +1,7 @@
 {
   "Name": "Birmingham",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Birmingham(EGBB).json",
-  "updateSerial": 2025011601,
+  "updateSerial": 2025021501,
   "stations": [
     {
       "Name": "Birmingham",

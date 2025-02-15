@@ -1,7 +1,7 @@
 {
   "Name": "Thames",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Thames(EGLC & EGKB & EGMC).json",
-  "updateSerial": 2025011601,
+  "updateSerial": 2025021501,
   "stations": [
     {
       "Name": "City",
