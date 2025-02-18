@@ -1,6 +1,7 @@
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
-x. Enhancement - Added waypoint menu to NERC and iTec tags by clicking intention code - thanks to @SamLefevre (Samuel Lefevre)
+2. Bug - Enabled missing adjacent sectors on required ASRs - thanks to @SamLefevre (Samuel Lefevre)
+3. Enhancement - Added waypoint menu to NERC and iTec tags by clicking intention code - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2024/13 to 2025/01
 1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
