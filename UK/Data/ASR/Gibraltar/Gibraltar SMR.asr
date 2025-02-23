@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\Gibraltar LXGB.sct
-SECTORTITLE:Gibraltar LXGB.sct
 Free Text:SCT2\1:freetext
 Free Text:SCT2\2:freetext
 Free Text:SCT2\3:freetext
