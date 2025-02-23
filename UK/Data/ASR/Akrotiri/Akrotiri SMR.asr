@@ -1,6 +1,39 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
+Free Text:SCT2\1:freetext
+Free Text:SCT2\10:freetext
+Free Text:SCT2\10 Hold:freetext
+Free Text:SCT2\12:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\28 Hold:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\5:freetext
+Free Text:SCT2\6:freetext
+Free Text:SCT2\7:freetext
+Free Text:SCT2\8:freetext
+Free Text:SCT2\9:freetext
+Free Text:SCT2\ALPHA:freetext
+Free Text:SCT2\B CENT:freetext
+Free Text:SCT2\B EAST:freetext
+Free Text:SCT2\B WEST :freetext
+Free Text:SCT2\BRAVO:freetext
+Free Text:SCT2\Cat 1:freetext
+Free Text:SCT2\CHARLIE:freetext
+Free Text:SCT2\Compass Bay:freetext
+Free Text:SCT2\DELTA:freetext
+Free Text:SCT2\ECHO:freetext
+Free Text:SCT2\ERP:freetext
+Free Text:SCT2\FOXTROT:freetext
+Free Text:SCT2\GOLF:freetext
+Free Text:SCT2\HOTEL:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W Hold:freetext
+Free Text:SCT2\Y:freetext
+Free Text:SCT2\Y1:freetext
+Free Text:SCT2\Y2:freetext
+Free Text:SCT2\Y3:freetext
 Geo:LCRA Groundlayout REGION:
 Regions:LCCC 01.Ocean:polygon
 Regions:LCCC 02.Terrain:polygon
