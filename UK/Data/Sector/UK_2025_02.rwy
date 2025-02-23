@@ -3,7 +3,7 @@
 ; helpdesk.vatsim.uk
 ;
 ; Copyright VATSIM UK 2010-2025. Licensing subject to the terms available at https://github.com/VATSIM-UK/UK-Sector-File/blob/main/LICENSE.md
-; UK (EGTT and EGPX) 5594/merge build date 2025-02-22 14:56:38
+; UK (EGTT and EGPX) 2025/02 build date 2025-02-19 20:15:53
 
 ACTIVE_RUNWAY:EGAA:25:0
 ACTIVE_RUNWAY:EGAA:25:1
