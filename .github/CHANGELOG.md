@@ -5,6 +5,7 @@
 4. AIRAC (2502) - Added North West Transit Corridor restricted area (R323) and Manchester CTA 6 - thanks to @luke11brown (Luke Brown)
 5. Bug - Corrected Southend (EGMC) Geo display - thanks to @PLM1995 (Peter Mooney)
 6. Bug - CDM config and list items adjusted - thanks to @luke11brown (Luke Brown)
+7. Enhancement - CCDS-R plugin updated to v1.1 - thanks to @quassbutreally
 
 # Changes from release 2024/13 to 2025/01
 1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
