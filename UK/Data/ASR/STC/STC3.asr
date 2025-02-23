@@ -248,6 +248,7 @@ ARTCC boundary:EGR315:
 ARTCC boundary:EGR319:
 ARTCC boundary:EGR321:
 ARTCC boundary:EGR322:
+ARTCC boundary:EGR323:
 ARTCC boundary:EGR413:
 ARTCC boundary:EGR431:
 ARTCC boundary:EGR432:
@@ -1546,10 +1547,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1714,6 +1711,7 @@ Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
+Free Text:EGCC Airspace Bases\1500':freetext
 Free Text:EGCC Airspace Bases\2000':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
@@ -1843,12 +1841,6 @@ Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace:polygon
-Sids:London AC Lakes:
-Sids:Maastricht UAC Delta:
-Sids:Maastricht UAC Jever:
-Sids:PC Northeast:
-Sids:PC West:
-Sids:Scottish AC North:
 Sids:Scottish AC South:
 Sids:Scottish Antrim:
 Sids:Scottish Deancross:
@@ -1967,7 +1959,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:52.418467:-11.335966:57.880111:5.147377
-PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200

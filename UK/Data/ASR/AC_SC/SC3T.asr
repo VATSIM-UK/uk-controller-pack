@@ -1449,6 +1449,7 @@ Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
+Free Text:EGCC Airspace Bases\1500':freetext
 Free Text:EGCC Airspace Bases\2000':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
@@ -1593,8 +1594,12 @@ Sids:London AC Lakes:
 Sids:London AC North Sea:
 Sids:London AC West:
 Sids:London AC Worthing:
+Sids:London TC Midlands:
 Sids:London TC North East:
 Sids:London TC South West:
+Sids:Maastricht UAC Delta:
+Sids:PC Northeast:
+Sids:PC West:
 VORs:ABB:symbol
 VORs:ADN:symbol
 VORs:AFI:symbol

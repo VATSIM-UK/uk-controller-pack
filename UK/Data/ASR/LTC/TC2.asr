@@ -1415,6 +1415,7 @@ Fixes:ZOFAT:symbol
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:symbol
 Sids:London TC East:
+Sids:London TC Midlands:
 Sids:London TC North East:
 Sids:London TC North West:
 Sids:London TC South East:
@@ -1562,7 +1563,7 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.163631:-3.783298:52.554158:3.431359
-PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels,TicksPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels,Ticks
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
