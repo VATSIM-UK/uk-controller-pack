@@ -3,16 +3,6 @@ DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
 SECTORFILE:UK\Data\Sector\Gibraltar LXGB.sct
 SECTORTITLE:Gibraltar LXGB.sct
-Free Text:SCT2\1:freetext
-Free Text:SCT2\2:freetext
-Free Text:SCT2\3:freetext
-Free Text:SCT2\4:freetext
-Free Text:SCT2\5:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\B1:freetext
-Free Text:SCT2\C:freetext
-Free Text:SCT2\D:freetext
-Free Text:SCT2\E:freetext
 Geo:LXGB Taxilines:
 Geo:Spanish Southern Coast:
 Regions:Gibraltar:polygon
