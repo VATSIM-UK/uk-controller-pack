@@ -1586,6 +1586,10 @@
 9VA6	RICHMOND/SAUNDERS FLD	United States
 9VA7	UNION HALL/BRAMMER	United States
 9WN6	OOSTBURG	United States
+A279	Prie Baltojo tilto, Vilnius	Lithuania
+A281	Vilmi?k?s kel.7, Palanga	Lithuania
+A284	UAB "Ilzenbergo dvaras", Juodup?s sen., Roki?kio r.	Lithuania
+A289	MB"Helicentras" Narezk? k., Trak? r. sav.	Lithuania
 AA02	BIG LAKE/HORSESHOE LAKE	Alaska
 AA05	KING SALMON/UGASHIK NARROWS	Alaska
 AA09	TALKEETNA/BUSCH CREEK	Alaska
@@ -4698,7 +4702,6 @@ ENHE	Heidrun A (Offshore Helipad)	Norway
 ENHF	HAMMERFEST	Norway
 ENHH	HARSTAD/Universitetssykehuset (Helipad)	Norway
 ENHK	HASVIK	Norway
-ENHM	Heimdal (Offshore Helipad)	Norway
 ENHO	Hopen	Norway
 ENHR	HARSTAD/Stangnes (Helipad)	Norway
 ENHS	Hokksund	Norway
@@ -4801,6 +4804,7 @@ ENTO	SANDEFJORD/TORP	Norway
 ENTR	TRONDHEIM/St. Olavs Universitetssykehus (Helipad)	Norway
 ENTS	TRYSIL/Sæteråsen	Norway
 ENTU	TROMSØ/Universitetssykehus (Helipad)	Norway
+ENTX		Taraldrud / Police Readiness Center (Helipad)	Norway
 ENTY	Tynset	Norway
 ENUA	Åsgard A (Offshore Helipad)	Norway
 ENUB	Åsgard B (Offshore Helipad)	Norway
@@ -4824,9 +4828,9 @@ ENWA	Alvheim (Offshore Helipad)	Norway
 ENWE	Edvard Grieg (Offshore Helipad)	Norway
 ENWF	Valhall Flanke Vest (Helipad)	Norway
 ENWG	Gudrun (Offshore Helipad)	Norway
+ENWH	Hod B (Offshore Helipad)	Norway
 ENWI	Ivar Aasen (Offshore Helipad)	Norway
 ENWK	Gina Krog (Offshore Helipad)	Norway
-ENWR	Randgrid (Offshore Helipad)	Norway
 ENWS	Eldfisk S (Offshore Helipad)	Norway
 ENWV	Valhall PH (Offshore Helipad)	Norway
 ENWY	Yme Inspirer (Offshore Helipad)	Norway
@@ -4839,7 +4843,6 @@ ENXL	Eldfisk A (Offshore Helipad)	Norway
 ENXM	Embla (Offshore Helipad)	Norway
 ENXO	Runghorne (Offshore Helipad)	Norway
 ENXR	Tambar (Offshore Helipad)	Norway
-ENXT	Tor (Offshore Helipad)	Norway
 ENXW	Grane (Offshore Helipad)	Norway
 ENXZ	Sleipner B (Offshore Helipad)	Norway
 ENYY	LEVANGER/Helse Nord-Trøndelag Sykehus (Helipad)	Norway
@@ -5190,6 +5193,7 @@ EYKT	KARTENA	Lithuania
 EYMA	MAZEIKIAI/J. KUMPIKEVICAUS	Lithuania
 EYMM	SASNAVA	Lithuania
 EYMO	MOLETAI	Lithuania
+EYNE	NEMIRSETA	Lithuania
 EYNI	NIDA	Lithuania
 EYPA	PALANGA INTL	Lithuania
 EYPH	PALUKNYS/AV	Lithuania
@@ -16583,6 +16587,7 @@ SDTS	JARAGUARI/FAZENDA PLANALTO	Brazil
 SDTW	SAPEZAL/FAZENDA MIRAGE	Brazil
 SDTY	PRADOPOLIS	Brazil
 SDU6	NOVO ARIPUANA/POUSADA ACARI	Brazil
+SDUB	Ubatuba	Brazil
 SDUK	AGUA BOA/FAZENDA XAIMITE	Brazil
 SDUM	LIMEIRA DO OESTE/USINA VALE DO	Brazil
 SDUN	ITAPERUNA	Brazil
@@ -19206,6 +19211,7 @@ UIII	IRKUTSK	Russian Federation
 UIIR	IRKUTSK-2/VOSTOCHNY	Russian Federation
 UIKB	BODAYBO	Russian Federation
 UIKE	YERBOGACHEN	Russian Federation
+UIKG	Taksimo	Russian Federation
 UIKK	KIRENSK	Russian Federation
 UIKM	MAMA	Russian Federation
 UITK	KAZACHINSKOYE/KAZACHINSK	Russian Federation

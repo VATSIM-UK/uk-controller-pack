@@ -15,7 +15,7 @@ Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2025_01.sct
+Settings	sector	UK\Data\Sector\UK_2025_02.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Gatwick\Gatwick SMR.asr
