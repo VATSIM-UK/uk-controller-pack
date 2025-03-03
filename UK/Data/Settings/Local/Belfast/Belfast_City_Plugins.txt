@@ -1,4 +1,18 @@
 PLUGINS
+RDF Plugin for Euroscope:LogLevel:none
+RDF Plugin for Euroscope:Bridge:1
+RDF Plugin for Euroscope:Endpoint:127.0.0.1:49080
+RDF Plugin for Euroscope:EnableDraw:0
+RDF Plugin for Euroscope:RGB:255:255:255
+RDF Plugin for Euroscope:ConcurrentTransmissionRGB:255:0:0
+RDF Plugin for Euroscope:Radius:10
+RDF Plugin for Euroscope:Threshold:10
+RDF Plugin for Euroscope:Precision:10
+RDF Plugin for Euroscope:LowAltitude:2500
+RDF Plugin for Euroscope:HighAltitude:15000
+RDF Plugin for Euroscope:LowPrecision:10
+RDF Plugin for Euroscope:HighPrecision:5
+RDF Plugin for Euroscope:DrawControllers:0
 UK Controller Plugin:prenoteNotify:1
 UK Controller Plugin:autoAssignSquawks:1
 UK Controller Plugin:autoAssignInitialAltitudes:1
