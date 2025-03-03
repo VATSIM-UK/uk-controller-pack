@@ -1,5 +1,6 @@
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
+X. Enhancement - Added Falkland Islands Profiles & Displays - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
