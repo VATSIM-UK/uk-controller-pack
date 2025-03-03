@@ -40,7 +40,7 @@ Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin2	\..\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin3	\..\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
