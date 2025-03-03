@@ -3,39 +3,107 @@
 ;For use with Euroscope Only
 ;Version 1.1
 
-#define Black 0
-#define Maroon 00128
-#define Green 32768
-#define Olive 8421376
-#define Navy 668608
-#define Purple 16542808
-#define Teal 8421376	
-#define Gray 8421504
-#define Silver 10985118
-#define Red 00255
-#define Lime 65280
-#define Blue 16711680
-#define Fuchsia 16542808
-#define Aqua 16776960
+#define smrGDapron 11908533
+#define smrGDbuilding 9142113
+#define smrGDgrass 7058795
+#define smrGDtaxiway 9474192
+#define smrGDrunway 4934475
+#define smrGDbackground 328965
+#define standHold 16777215
 #define White 16777215
-#define Yellow 65535
-#define atz 13163735
-#define smr_apron 11908533
-#define smr_building 9142113
-#define smr_grass 4551749
-#define smr_taxiway 9474192
-#define smr_runway 4934475
-#define smr_hold 00255
-#define smr_boundary 6579300
-#define smr_Road 6908265
-#define smr_arrestor 691419
 #define smrYellow 65535
-#define centrelinecolour 15790135
-#define corridor 14059914
-#define OCASregion 0
-#define blueBackground 3932160
-#define coast 10447616
-#define BoundaryGrey 3749687
+#define smrRed 255
+#define smrRoad 6908265
+#define smrGDdisused 3026478
+#define coast1 4015170
+#define danger 4345440
+#define COLOR_APP       10510135
+#define COLOR_AirspaceA  6710368
+#define COLOR_AirspaceB  8421376
+#define COLOR_AirspaceC  8421376
+#define COLOR_AirspaceD  8421376
+#define COLOR_AirspaceE  8421376
+#define COLOR_AirspaceF  8388736
+#define COLOR_AirspaceG  8421376
+#define COLOR_AoRapproach1 10510135
+#define COLOR_AoRapproach2    33023
+#define COLOR_AoRapproach3  4588945
+#define COLOR_AoRapproach4  8289918
+#define COLOR_AoRapproach5  8289918
+#define COLOR_AoRcenter1  6579300
+#define COLOR_AoRcenter2     8514
+#define COLOR_AoRcenter3  8289918
+#define COLOR_AoRcenter4  8289918
+#define COLOR_AoRcenter5  8289918
+#define COLOR_AoRdeparture1    32896
+#define COLOR_AoRdeparture2  8289918
+#define COLOR_AoRground1      128
+#define COLOR_AoRground2    32768
+#define COLOR_ApronSurface 16711680
+#define COLOR_Building       128
+#define COLOR_Building2 16777045
+#define Centrelines   16777215
+#define Coastline  13948116
+#define COLOR_ClosureArea      255
+#define COLOR_DangerArea      7368847
+#define COLOR_FIRBorder  9523200
+#define COLOR_GrasSurface    12800
+#define COLOR_GrasSurface2    12800
+#define COLOR_GrasSurface3  3156512
+#define COLOR_GrasSurface4  3156512
+#define COLOR_HardSurface1  4740698
+#define COLOR_HardSurface2  6513507
+#define COLOR_HardSurface3  6513507
+#define COLOR_HardSurface4  6513507
+#define COLOR_HardSurface5  6513507
+#define COLOR_HelipadSurface  8421504
+#define COLOR_Holding      43520
+#define COLOR_Labels     8421504
+#define COLOR_Landmark1 16776960
+#define COLOR_Landmark2  9013641
+#define COLOR_Landmark3  8289918
+#define COLOR_Landmark4  8289918
+#define COLOR_Landmark5  8289918
+#define COLOR_Landmark6  4940840
+#define COLOR_Landmark7  8224120
+#define COLOR_MRVA1      7697781
+#define COLOR_MRVA2       538436
+#define COLOR_ParkPos      23948
+#define COLOR_ParkPosUnused    12900
+#define COLOR_ProhibitedArea      126
+#define COLOR_RMZ        8388736
+#define COLOR_Releaseline    32768
+#define COLOR_RestrictedArea      128
+#define COLOR_RunwayBorder  9013641
+#define COLOR_RunwayConcrete  5329233
+#define COLOR_RunwayGrass    32768
+#define COLOR_SID        6579251
+#define COLOR_STAR         43520
+#define COLOR_Stopbar        255
+#define COLOR_TACAN-Route  8404992
+#define COLOR_TEST        921102
+#define COLOR_TMA              0
+#define COLOR_TMZ            128
+#define COLOR_TWR-CTR    6266935
+#define COLOR_Taxiway    7697781
+#define COLOR_TaxiwayBlue  8404992
+#define COLOR_TaxiwayBorder  5723991
+#define COLOR_TaxiwayGreen    32768
+#define COLOR_TaxiwayGrey  5263440
+#define COLOR_TaxiwayOrange    16770
+#define COLOR_Terrain1   9539978
+#define COLOR_Terrain2     12900
+#define COLOR_Terrain3     12900
+#define COLOR_Terrain4     12900
+#define COLOR_Terrain5     12900
+#define COLOR_Terrain6     12900
+#define COLOR_Terrain7     12900
+#define COLOR_Terrain8     12900
+#define COLOR_Terrain9     12900
+#define COLOR_UpperSector     8514
+#define COLOR_VFR-Route        0
+#define COLOR_Vectors          0
+#define COLOR_Water      8404992
 
 
 [INFO]
@@ -7214,20 +7282,6 @@ W54		ASKAS	ASKAS	DIGIS	DIGIS
 W54		DIGIS	DIGIS	MTP		MTP
 
 [ARTCC]
-Onion Range North S051.35.16.000 W058.27.20.000 S051.41.02.000 W058.27.49.000
-Onion Range North S051.41.00.000 W058.27.49.000 S051.41.00.000 W058.40.25.000
-Onion Range North S051.41.00.000 W058.40.25.000 S051.39.00.000 W058.45.14.000
-Onion Range North S051.39.00.000 W058.45.14.000 S051.38.00.000 W058.45.14.000
-Onion Range North S051.38.00.000 W058.45.14.000 S051.38.00.000 W058.40.25.000
-Onion Range North S051.38.00.000 W058.40.25.000 S051.35.16.000 W058.36.30.000
-Onion Range North S051.35.16.000 W058.36.30.000 S051.35.16.000 W058.27.20.000
-
-Onion Range South S051.41.00.000 W058.27.49.000 S051.41.00.000 W058.40.25.000
-Onion Range South S051.41.00.000 W058.40.25.000 S051.43.00.000 W058.40.25.000
-Onion Range South S051.43.00.000 W058.40.25.000 S051.43.00.000 W058.30.12.000
-Onion Range South S051.43.00.000 W058.30.12.000 S051.42.18.000 W058.30.12.000
-Onion Range South S051.42.18.000 W058.30.12.000 S051.42.18.000 W058.27.49.000
-Onion Range South S051.42.18.000 W058.27.49.000 S051.41.00.000 W058.27.49.000 
 
 [ARTCC HIGH]
 Mare Harbour S051.53.55.000 W058.23.30.000 S051.55.00.000 W058.23.55.000 BoundaryGrey
@@ -10082,3 +10136,47 @@ S051.49.16.374 W058.26.34.808
 REGIONNAME EGYP - Mount Pleasant
 smr_arrestor S051.49.07.864 W058.26.11.556 
 S051.49.06.882 W058.26.12.666
+
+;Danger Areas
+REGIONNAME Onion Range North
+COLOR_DangerArea S051.41.00.000 W058.27.49.000
+S051.41.00.000 W058.40.25.000
+S051.43.00.000 W058.40.25.000
+S051.43.00.000 W058.30.12.000
+S051.42.18.000 W058.30.12.000
+S051.42.18.000 W058.27.49.000
+
+REGIONNAME Onion Range South
+COLOR_DangerArea S051.41.00.000 W058.27.49.000
+S051.41.00.000 W058.40.25.000
+S051.43.00.000 W058.40.25.000
+S051.43.00.000 W058.30.12.000
+S051.42.18.000 W058.30.12.000
+S051.42.18.000 W058.27.49.000
+   
+REGIONNAME Second Creek Range
+COLOR_DangerArea S051.37.35.000 W059.23.10.000
+S051.48.27.000 W059.23.31.000
+S051.48.20.000 W059.32.20.000
+S051.40.26.000 W059.43.14.000
+S051.38.31.000 W059.43.35.000
+S051.37.22.000 W059.40.28.000
+S051.37.31.000 W059.28.30.000
+S051.37.24.000 W059.27.22.000
+S051.37.33.000 W059.26.11.000
+S051.37.33.000 W059.23.10.000
+S051.37.35.000 W059.23.10.000
+			   
+REGIONNAME Victoria Harbour (Arrow) Range
+COLOR_DangerArea S051.50.23.000 W058.56.42.000
+S051.54.42.000 W058.56.53.000
+S051.56.59.000 W058.49.08.000
+S051.53.13.000 W058.48.07.000
+S051.50.23.000 W058.56.42.000
+			   
+REGIONNAME Rookery Bay/Phillips Point
+COLOR_DangerArea S051.42.00.000 W057.49.00.000
+S051.42.00.000 W057.45.00.000
+S051.43.00.000 W057.45.00.000
+S051.43.00.000 W057.50.00.000
+S051.42.00.000 W057.49.00.000
