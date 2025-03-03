@@ -1,31 +1,31 @@
 SYMBOLOGY
 SYMBOLSIZE
-Airports:symbol:11248794:0.5:0:0:7
+Airports:symbol:16777170:0.5:0:0:7
 Airports:name:13827975:3.2:0:0:2
 Low airways:line:16777215:2.5:1:0:7
 Low airways:name:6114360:2.5:0:0:8
 High airways:line:16512:3.5:2:0:7
 High airways:name:2512998:3.5:0:0:8
-Fixes:symbol:11248794:1.0:0:0:7
-Fixes:name:11248794:3.2:0:0:2
-Sids:line:11248794:3.0:0:0:7
+Fixes:symbol:2105376:1.0:0:0:7
+Fixes:name:16777170:3.2:0:0:2
+Sids:line:9523200:3.0:0:0:7
 Stars:line:0:3.0:0:0:7
-ARTCC high boundary:line:1315860:3.0:0:1:7
+ARTCC high boundary:line:16777153:3.0:0:2:7
 ARTCC boundary:line:1976520:3.0:0:0:7
-ARTCC low boundary:line:1315860:3.0:0:1:7
+ARTCC low boundary:line:16777153:3.0:0:2:7
 Geo:line:11206655:3.0:0:0:7
-VORs:symbol:11248794:1.4:0:0:7
-VORs:name:6579300:3.2:0:0:2
+VORs:symbol:16777170:1.4:0:0:7
+VORs:name:16777170:3.2:0:0:1
 VORs:frequency:6579300:3.5:0:0:2
 NDBs:symbol:11248794:0.6:0:0:7
 NDBs:name:8421504:3.2:0:0:2
 NDBs:frequency:8421504:3.5:0:0:0
 Runways:centerline:12080205:3.5:0:0:7
-Runways:extended centerline:11248794:3.5:0:0:7
+Runways:extended centerline:16777215:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
-Datablock:non concerned:16777215:3.2:0:0:7
+Datablock:non concerned:15790320:3.2:0:0:7
 Datablock:notified:8454143:3.2:0:0:7
-Datablock:assumed:8454143:3.2:0:0:7
+Datablock:assumed:16777215:3.2:0:0:7
 Datablock:transfer to me initiated:5483007:3.2:0:0:7
 Datablock:redundant:16777215:3.2:0:0:7
 Datablock:information:5483007:3.2:0:0:7
@@ -76,8 +76,8 @@ Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
-Other:freetext:2631720:3.5:0:0:7
-Other:range rings:1315860:5.0:2:0:2
+Other:freetext:9523200:5.0:0:0:7
+Other:range rings:6447454:5.0:2:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
 Other:manual taxi line:16777215:5.0:0:3:2
@@ -89,7 +89,7 @@ Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7
 Chat:text:16777215:3.5:0:0:7
-Chat:background:2894892:3.5:0:0:7
+Chat:background:7499883:3.5:0:0:7
 Chat:name normal:16777215:3.5:0:0:7
 Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
@@ -97,8 +97,8 @@ Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
 Sector:line:0:0.5:0:2:7
 Sector:msaw:32768:2.0:0:2:7
-Sector:active sector background:7367518:3.5:0:0:7
-Sector:inactive sector background:5328713:3.5:0:0:7
+Sector:active sector background:6710368:3.5:0:0:7
+Sector:inactive sector background:8618364:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:ARC 0 0 5 0 360
 SYMBOL:1
@@ -121,10 +121,7 @@ SYMBOLITEM:LINETO -7 -6
 SYMBOLITEM:LINETO -7 0
 SYMBOLITEM:POLYGON -1 1 1 1 1 -1 -1 -1
 SYMBOL:3
-SYMBOLITEM:MOVETO -4 3
-SYMBOLITEM:LINETO 0 -4
-SYMBOLITEM:LINETO 4 3
-SYMBOLITEM:LINETO -4 3
+SYMBOLITEM:POLYGON -4 3 0 -4 4 3
 SYMBOL:4
 SYMBOLITEM:MOVETO 0 -1
 SYMBOLITEM:LINETO 0 2
