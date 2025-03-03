@@ -18,7 +18,7 @@ RecentFiles	Recent2	UK\Data\ASR\Falkland\Mount Pleasant SMR.asr
 RecentFiles	Recent3	UK\Data\ASR\Falkland\Stanley SMR.asr
 ASRFastKeys	1	UK\Data\ASR\Falkland\Mount Pleasant Approach.asr
 ASRFastKeys	2	UK\Data\ASR\Falkland\Mount Pleasant SMR.asr
-RecentFiles	Recent3	UK\Data\ASR\Falkland\Stanley SMR.asr
+ASRFastKeys	3	UK\Data\ASR\Falkland\Stanley SMR.asr
 Settings	alias	UK\Data\Alias\AC_Alias.txt
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
