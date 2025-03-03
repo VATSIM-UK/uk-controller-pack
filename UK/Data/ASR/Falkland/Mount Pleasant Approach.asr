@@ -23,10 +23,9 @@ Airports:SCRM:name
 Airports:SCRM:symbol
 Airports:SUMU:name
 Airports:SUMU:symbol
-ARTCC boundary:Onion Range North:
-ARTCC boundary:Onion Range South:
 ARTCC high boundary:Bluff Cove Lagoon:
-ARTCC high boundary:Mare Harbour:
+ARTCC high boundary:East Cove Military Port:
+ARTCC high boundary:Stanley ATZ:
 ARTCC low boundary:Comodoro Rivadavia FIR SAVF:
 ARTCC low boundary:EGYP Mount Pleasant CTR:
 ARTCC low boundary:Ezeiza FIR SAEF:
@@ -51,24 +50,30 @@ Fixes:MOSKA:name
 Fixes:MOSKA:symbol
 Fixes:OTAGI:name
 Fixes:OTAGI:symbol
-Free Text:Bluff Cove Lagoon\Bluff Cove Lagoon SFC-1500:freetext
+Free Text:Bluff Cove Lagoon\SFC-1500:freetext
+Free Text:East Cove Military Port\SFC-1000:freetext
 Free Text:EGYP SMAA Bases QNH\1400':freetext
 Free Text:EGYP SMAA Bases QNH\1600':freetext
 Free Text:EGYP SMAA Bases QNH\2100':freetext
 Free Text:EGYP SMAA Bases QNH\2600':freetext
 Free Text:EGYP SMAA Bases QNH\3300':freetext
 Free Text:EGYP SMAA Bases QNH\3400':freetext
-Free Text:Mare Harbour\Mare Harbour SFC-1000:freetext
-Free Text:Ranges\Onion Range N SFC-4000:freetext
-Free Text:Ranges\Onion Range S SFC-4000:freetext
+Free Text:Ranges\Arrow:freetext
+Free Text:Ranges\SFC-FL110:freetext
+Free Text:Ranges\SFC-FL110:freetext
+Geo:10 Centreline:
 Geo:28 Centreline:
-Geo:Antartica Coastline:
-Geo:Argentina Coastline:
-Geo:Falkland Islands Coastline:
+Geo:Antartica 13948116:
+Geo:Argentina 13948116:
+Geo:Falkland Islands 13948116:
 Geo:GEO:
 Geo:South Sandwich Islands:
 NDBs:MP:name
 NDBs:MP:symbol
+Regions:Onion Range:polygon
+Regions:Rookery Bay/Phillips Point:polygon
+Regions:Second Creek Range:polygon
+Regions:Victoria Harbour (Arrow) Range:polygon
 Runways:EGYP Mount Pleasant 05-23:centerline
 Runways:EGYP Mount Pleasant 10-28:centerline
 Sids:ADIZ:
@@ -89,8 +94,8 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
-TAGFAMILY:Swanwick
-WINDOWAREA:-53.117283:-60.813761:-50.928187:-56.395671
+TAGFAMILY:NOVA 9000
+WINDOWAREA:-52.874505:-61.770126:-50.685409:-55.040955
 PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
