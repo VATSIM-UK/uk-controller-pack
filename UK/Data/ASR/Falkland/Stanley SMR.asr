@@ -1,8 +1,6 @@
-DisplayTypeName:Standard ES radar screen
+DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\MPA SCT.sct
-SECTORTITLE:MPA SCT.sct
 Free Text:EGYP Taxiways\A:freetext
 Free Text:EGYP Taxiways\B:freetext
 Free Text:EGYP Taxiways\B:freetext
