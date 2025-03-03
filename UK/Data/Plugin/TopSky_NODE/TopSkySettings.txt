@@ -200,7 +200,7 @@ System_UseAUP=1
 Window_ASM=1
 
 //Radio Direction Finder Settings
-RDF_Mode=0
+RDF_Mode=-1
 RDF_Accuracy=5
 RDF_Floor=2500
 

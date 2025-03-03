@@ -30,7 +30,9 @@ Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
-Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin2	\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin2Display1	SMR radar display
 ASRFastKeys	6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 RecentFiles	Recent6	\..\Data\ASR\Cardiff\St Athan SMR.asr
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
