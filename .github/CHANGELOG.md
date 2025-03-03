@@ -1,3 +1,6 @@
+# Changes from release 2025/02 to 2025/03
+1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
+
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
 2. Bug - Enabled missing adjacent sectors on required ASRs - thanks to @SamLefevre (Samuel Lefevre)
