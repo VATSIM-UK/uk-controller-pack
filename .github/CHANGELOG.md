@@ -1,8 +1,10 @@
+# Changes from release 2025/02 to 2025/03
+1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
+
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
 2. Bug - Enabled missing adjacent sectors on required ASRs - thanks to @SamLefevre (Samuel Lefevre)
 3. Enhancement - Added waypoint menu to NERC and iTec tags by clicking intention code - thanks to @SamLefevre (Samuel Lefevre)
-4. AIRAC (2502) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
 
 # Changes from release 2024/13 to 2025/01
 1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)
