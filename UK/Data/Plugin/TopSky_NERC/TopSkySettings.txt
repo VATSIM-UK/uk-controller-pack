@@ -219,6 +219,12 @@ WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
 
+// Wind Data Settings
+HTTP_GRIB_Latitude_Max=61
+HTTP_GRIB_Latitude_Min=48
+HTTP_GRIB_Longitude_Max=5
+HTTP_GRIB_Longitude_Min=-10
+
 [LON_]
 Setup_ScreenLat=DTY
 
