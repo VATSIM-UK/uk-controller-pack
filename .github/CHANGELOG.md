@@ -1,5 +1,6 @@
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
+x. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
