@@ -19,6 +19,9 @@ Shortcut_Map_Target=2,Shortcuts\VRPs
 Shortcut_Map_Xfr_Combo=3,0x12
 Shortcut_Map_Xfr_Key=3,0x48
 Shortcut_Map_Target=3,Shortcuts\Heli Points
+Shortcut_Map_Xfr_Combo=4,0x12
+Shortcut_Map_Xfr_Key=4,0x54
+Shortcut_Map_Target=4,Shortcuts\All Centrelines
 
 //System wide settings
 Setup_COOPANS=1
