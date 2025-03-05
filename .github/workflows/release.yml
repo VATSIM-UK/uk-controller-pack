@@ -9,20 +9,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Create full ZIP
-      run: |
-        zip -r full_release_${{ github.event.release.tag_name }}.zip .
-
-    - name: Upload full ZIP as release asset
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./full_release_${{ github.event.release.tag_name }}.zip
-        asset_name: full_release_${{ github.event.release.tag_name }}.zip
-        asset_content_type: application/zip
+      - name: Copy README from docs folder
+        run: |
+          cp _docs/README.pdf UK/README.pdf
+      - name: Get release tag
+        id: get_release_tag
+        run: |
+          echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+      - name: Create full ZIP
+        run: |
+          zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
+      - name: Upload ZIP as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   create-changes-only-zip:
     runs-on: ubuntu-latest
@@ -46,7 +52,7 @@ jobs:
         release_tag=${{ github.event.release.tag_name }}
         
         # Copy README from docs folder
-        cp docs/README.md README.md
+        cp _docs/README.pdf UK/README.pdf
         
         # Get the list of changed files since the last release
         git diff --diff-filter=d --name-only ${{ steps.get_last_release.outputs.tag }}..HEAD | grep -v '\.py$' > changed_files.txt
@@ -67,7 +73,7 @@ jobs:
     - name: Upload changes only ZIP as release asset
       uses: actions/upload-release-asset@v1
       with:
-        upload_url: ${{ github.event.release.upload_url }}
-        asset_path: ./changes_only_${{ github.event.release.tag_name }}.zip
-        asset_name: changes_only_${{ github.event.release.tag_name }}.zip
-        asset_content_type: application/zip
+        files: |
+            uk_controller_pack_changes_only_${{ steps.get_release_tag.outputs.tag }}.zip
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
