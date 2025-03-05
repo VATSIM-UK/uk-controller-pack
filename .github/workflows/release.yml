@@ -60,7 +60,7 @@ jobs:
         # Filter out .prf files with only sector file location line changed
         while IFS= read -r file; do
           if [[ "$file" == *.prf ]]; then
-            if [ $(git diff ${{ steps.get_last_release.outputs.tag }}..HEAD "$file" | wc -l) -le 2 ]; then
+            if [ $(git diff ${{ steps.get_last_release.outputs.tag }}..HEAD "$file" | wc -l) -le 1 ]; then
               continue
             fi
           fi
