@@ -1,20 +1,11 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-Free Text:EGYP Taxiways\A:freetext
-Free Text:EGYP Taxiways\B:freetext
-Free Text:EGYP Taxiways\B:freetext
-Free Text:EGYP Taxiways\C:freetext
-Free Text:EGYP Taxiways\C:freetext
-Free Text:EGYP Taxiways\D:freetext
-Free Text:EGYP Taxiways\D:freetext
-Free Text:EGYP Taxiways\E:freetext
-Free Text:EGYP Taxiways\F:freetext
-Free Text:EGYP Taxiways\Main Apron:freetext
-Geo:Falkland Islands Coastline:
-Regions:EGYP - Mount Pleasant:polygon
-Runways:EGYP Mount Pleasant 05-23:name
-Runways:EGYP Mount Pleasant 10-28:name
+SECTORFILE:
+SECTORTITLE:
+Regions:SFAL - Stanley:polygon
+Runways:SFAL Stanley 09-27:name
+Runways:SFAL Stanley 18-36:name
 SHOWC:1
 SHOWSB:0
 BELOW:0
@@ -28,7 +19,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:Matias (built in)
-WINDOWAREA:-51.834674:-58.486664:-51.803875:-58.424504
+WINDOWAREA:-51.690125:-57.786152:-51.682051:-57.761334
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
