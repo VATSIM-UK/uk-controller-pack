@@ -32,7 +32,13 @@ LINESTYLEDEF:largedash:solid:-:12,12
 MAP:Airspace Bases
 FOLDER:Shortcuts
 COLOR:Active_Map_Type_3
+FONTSIZE:*:.75
 SCTFILEDATA:FREETEXT\Airspace Bases
+
+MAP:All Centrelines
+FOLDER:Shortcuts
+COLOR:Active_Map_Type_5
+SCTFILEDATA:GEO\Extended centrelines
 
 MAP:Heli Points
 FOLDER:Shortcuts
