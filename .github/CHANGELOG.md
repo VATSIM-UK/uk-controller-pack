@@ -1,6 +1,8 @@
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
-x. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
+2. AIRAC (2503) - London Gatwick (EGKK) RECAT-EU Implementation - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Updated CDM Plugin to 2.2.5.3 - thanks to @luke11brown (Luke Brown)
+4. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
