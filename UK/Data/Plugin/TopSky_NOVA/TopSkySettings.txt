@@ -19,6 +19,9 @@ Shortcut_Map_Target=2,Shortcuts\VRPs
 Shortcut_Map_Xfr_Combo=3,0x12
 Shortcut_Map_Xfr_Key=3,0x48
 Shortcut_Map_Target=3,Shortcuts\Heli Points
+Shortcut_Map_Xfr_Combo=4,0x12
+Shortcut_Map_Xfr_Key=4,0x54
+Shortcut_Map_Target=4,Shortcuts\All Centrelines
 
 //System wide settings
 Setup_COOPANS=1
@@ -215,6 +218,12 @@ WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
+
+// Wind Data Settings
+HTTP_GRIB_Latitude_Max=61
+HTTP_GRIB_Latitude_Min=48
+HTTP_GRIB_Longitude_Max=5
+HTTP_GRIB_Longitude_Min=-10
 
 [EGAA_]
 Setup_ScreenLat=EGAA
