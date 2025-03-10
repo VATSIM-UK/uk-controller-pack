@@ -1,6 +1,7 @@
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
 2. AIRAC (2503) - London Gatwick (EGKK) RECAT-EU Implementation - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Updated CDM Plugin to 2.2.5.3 - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
