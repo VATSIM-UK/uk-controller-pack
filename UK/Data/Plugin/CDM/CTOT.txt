@@ -1,2 +1,2 @@
-// Add info here for slot controlled events
-// format: [CID],[CTOT]
+# Add info here for slot controlled events
+# format: [CID],[CTOT]

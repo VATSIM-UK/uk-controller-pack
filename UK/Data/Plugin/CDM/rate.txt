@@ -1,4 +1,4 @@
-//AIRPORT:A:ArrRwyList:NotArrRwyList:D:DepRwyList:NotDepRwyList:DependentRwyList:Rate_RateLvo
+# AIRPORT:A:ArrRwyList:NotArrRwyList:D:DepRwyList:NotDepRwyList:DependentRwyList:Rate_RateLvo
 EGAA:A:*:*:D:*:*:*:24_12
 EGAC:A:*:*:D:*:*:*:15_8
 EGBB:A:*:*:D:*:*:*:24_12
