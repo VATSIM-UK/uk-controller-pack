@@ -15,13 +15,16 @@ jobs:
       - name: Copy README from docs folder
         run: |
           cp _docs/README.pdf UK/README.pdf
+
       - name: Get release tag
         id: get_release_tag
         run: |
           echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+
       - name: Create full ZIP
         run: |
           zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
+
       - name: Upload ZIP as release asset
         uses: softprops/action-gh-release@v1
         with:
@@ -34,46 +37,68 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0 # Fetch all history for accurate comparison
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Fetch all history for accurate comparison
 
-    - name: Get the last release tag
-      id: get_last_release
-      run: |
-        last_release=$(git describe --tags --abbrev=0 HEAD^)
-        echo "::set-output name=tag::$last_release"
-
-    - name: Create changes only ZIP
-      id: create_zip
-      run: |
-        # Get the release tag
-        release_tag=${{ github.event.release.tag_name }}
-        
-        # Copy README from docs folder
-        cp _docs/README.pdf UK/README.pdf
-        
-        # Get the list of changed files since the last release
-        git diff --diff-filter=d --name-only ${{ steps.get_last_release.outputs.tag }}..HEAD | grep -v '\.py$' > changed_files.txt
-        
-        # Filter out .prf files with only sector file location line changed
-        while IFS= read -r file; do
-          if [[ "$file" == *.prf ]]; then
-            if [ $(git diff ${{ steps.get_last_release.outputs.tag }}..HEAD "$file" | wc -l) -le 1 ]; then
-              continue
-            fi
+      - name: Get the last release tag using GitHub API
+        id: get_last_release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          current_tag=${{ github.event.release.tag_name }}
+          repo=${{ github.repository }}
+          
+          # Get the list of releases using the GitHub API
+          releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/$repo/releases")
+          
+          # Extract all tags and store them in a sorted array
+          tags=($(echo $releases | jq -r '.[].tag_name' | sort -r))
+          
+          # Find the index of the current tag
+          current_index=$(echo ${tags[@]} | tr ' ' '\n' | grep -n -e "$current_tag" | cut -d: -f1)
+          current_index=$((current_index - 1)) # Convert to 0-based index
+          
+          # Get the previous tag
+          if [ $current_index -eq 0 ]; then
+            echo "This is the first release."
+            previous_tag=""
+          else
+            previous_tag=${tags[$current_index + 1]}
           fi
-          echo "$file" >> filtered_files.txt
-        done < changed_files.txt
-        
-        # Create the ZIP file with the changes
-        zip -@ "changes_only_${release_tag}.zip" < filtered_files.txt
+          
+          echo "Previous release tag: $previous_tag"
+          echo "::set-output name=tag::$previous_tag"
 
-    - name: Upload changes only ZIP as release asset
-      uses: actions/upload-release-asset@v1
-      with:
-        files: |
+      - name: Create changes only ZIP
+        id: create_zip
+        run: |
+          release_tag=${{ github.event.release.tag_name }}
+          
+          # Copy README from docs folder
+          cp _docs/README.pdf UK/README.pdf
+          
+          # Get the list of changed files since the last release
+          git diff --diff-filter=d --name-only ${{ steps.get_last_release.outputs.tag }}..HEAD | grep -v '\.py$' > changed_files.txt
+          
+          # Filter out .prf files with only sector file location line changed
+          while IFS= read -r file; do
+            if [[ "$file" == *.prf ]]; then
+              if [ $(git diff ${{ steps.get_last_release.outputs.tag }}..HEAD "$file" | wc -l) -le 1 ]; then
+                continue
+              fi
+            fi
+            echo "$file" >> filtered_files.txt
+          done < changed_files.txt
+          
+          # Create the ZIP file with the changes
+          zip -@ "changes_only_${release_tag}.zip" < filtered_files.txt
+
+      - name: Upload changes only ZIP as release asset
+        uses: actions/upload-release-asset@v1
+        with:
+          files: |
             uk_controller_pack_changes_only_${{ steps.get_release_tag.outputs.tag }}.zip
-      env:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
