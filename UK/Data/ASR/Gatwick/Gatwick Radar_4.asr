@@ -3151,7 +3151,6 @@ Free Text:EGKK VRPs\*Dorking:freetext
 Free Text:EGKK VRPs\*Guildford Rail Stn:freetext
 Free Text:EGKK VRPs\*Handcross:freetext
 Free Text:EGKK VRPs\*Haywards Heath:freetext
-Free Text:EGKK VRPs\*Puckeridge A10/A120:freetext
 Free Text:EGKK VRPs\*Tunbridge Wells:freetext
 Free Text:EGKR VRPs\*A25 (Godstone Jct):freetext
 Free Text:EGKR VRPs\*Buckland:freetext
@@ -3361,7 +3360,8 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.184318:-2.603270:51.841227:2.634963
-PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabelsPLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
