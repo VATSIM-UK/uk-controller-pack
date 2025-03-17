@@ -4,6 +4,7 @@
 3. Enhancement - Updated CDM Plugin to 2.2.5.3 - thanks to @luke11brown (Luke Brown)
 4. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
 5. Enhancement - Added Ground Speed to NERC (AC-TopSky) untagged tags - thanks to @SamLefevre (Samuel Lefevre)
+x. Enhancement - Added vSMR WIP areas - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
