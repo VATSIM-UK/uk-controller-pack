@@ -10,6 +10,7 @@
 9. AIRAC (2503) - Change Syerston (EGXY) frequency - thanks to @AdriTheDev (Callum Hicks)
 10. AIRAC (2503) - Change Topcliffe (EGXZ) frequency - thanks to @AdriTheDev (Callum Hicks)
 11. AIRAC (2503) - Change Upavon (EGDJ) frequency - thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Enabled ASEL Highlighting on ATM Lists - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
