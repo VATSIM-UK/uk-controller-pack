@@ -5,6 +5,11 @@
 4. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
 5. Enhancement - Added Ground Speed to NERC (AC-TopSky) untagged tags - thanks to @SamLefevre (Samuel Lefevre)
 6. Enhancement - Added vSMR WIP areas - thanks to @AliceFord (Alice Ford)
+7. Enhancement - Change Gloucester (EGBJ) Approach logon callsign - thanks to @AdriTheDev (Callum Hicks)
+8. AIRAC (2503) - Add Little Rissington (EGVL) radio frequency - thanks to @AdriTheDev (Callum Hicks)
+9. AIRAC (2503) - Change Syerston (EGXY) frequency - thanks to @AdriTheDev (Callum Hicks)
+10. AIRAC (2503) - Change Topcliffe (EGXZ) frequency - thanks to @AdriTheDev (Callum Hicks)
+11. AIRAC (2503) - Change Upavon (EGDJ) frequency - thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
