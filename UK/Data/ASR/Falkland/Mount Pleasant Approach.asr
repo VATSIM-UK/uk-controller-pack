@@ -23,8 +23,6 @@ Airports:SCRM:name
 Airports:SCRM:symbol
 Airports:SUMU:name
 Airports:SUMU:symbol
-ARTCC high boundary:Bluff Cove Lagoon:
-ARTCC high boundary:East Cove Military Port:
 ARTCC high boundary:Stanley ATZ:
 ARTCC low boundary:Comodoro Rivadavia FIR SAVF:
 ARTCC low boundary:EGYP Mount Pleasant CTR:
@@ -50,23 +48,22 @@ Fixes:MOSKA:name
 Fixes:MOSKA:symbol
 Fixes:OTAGI:name
 Fixes:OTAGI:symbol
-Free Text:Bluff Cove Lagoon\SFC-1500:freetext
-Free Text:East Cove Military Port\SFC-1000:freetext
-Free Text:EGYP SMAA Bases QNH\1400':freetext
-Free Text:EGYP SMAA Bases QNH\1600':freetext
-Free Text:EGYP SMAA Bases QNH\2100':freetext
-Free Text:EGYP SMAA Bases QNH\2600':freetext
-Free Text:EGYP SMAA Bases QNH\3300':freetext
-Free Text:EGYP SMAA Bases QNH\3400':freetext
+Free Text:EGYP SMAA Bases QNH\1400:freetext
+Free Text:EGYP SMAA Bases QNH\1400:freetext
+Free Text:EGYP SMAA Bases QNH\2100:freetext
+Free Text:EGYP SMAA Bases QNH\2500:freetext
+Free Text:EGYP SMAA Bases QNH\2600:freetext
+Free Text:EGYP SMAA Bases QNH\2600:freetext
+Free Text:EGYP SMAA Bases QNH\3200:freetext
+Free Text:EGYP SMAA Bases QNH\3400:freetext
 Free Text:Ranges\Arrow:freetext
 Free Text:Ranges\SFC-FL110:freetext
 Free Text:Ranges\SFC-FL110:freetext
-Geo:10 Centreline:
 Geo:28 Centreline:
+Geo:28 SRA Ticks:
 Geo:Antartica 13948116:
 Geo:Argentina 13948116:
 Geo:Falkland Islands 13948116:
-Geo:GEO:
 Geo:South Sandwich Islands:
 NDBs:MP:name
 NDBs:MP:symbol
@@ -76,6 +73,7 @@ Regions:Second Creek Range:polygon
 Regions:Victoria Harbour (Arrow) Range:polygon
 Runways:EGYP Mount Pleasant 05-23:centerline
 Runways:EGYP Mount Pleasant 10-28:centerline
+Sids:28 FAVA:
 Sids:ADIZ:
 Sids:EGYP RAF Mount Pleasant SMAA:
 VORs:DFO:name
