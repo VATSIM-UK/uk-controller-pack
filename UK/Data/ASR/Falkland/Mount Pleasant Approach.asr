@@ -65,8 +65,6 @@ Geo:Antartica 13948116:
 Geo:Argentina 13948116:
 Geo:Falkland Islands 13948116:
 Geo:South Sandwich Islands:
-NDBs:MP:name
-NDBs:MP:symbol
 Regions:Onion Range:polygon
 Regions:Rookery Bay/Phillips Point:polygon
 Regions:Second Creek Range:polygon
@@ -76,10 +74,6 @@ Runways:EGYP Mount Pleasant 10-28:centerline
 Sids:28 FAVA:
 Sids:ADIZ:
 Sids:EGYP RAF Mount Pleasant SMAA:
-VORs:DFO:name
-VORs:DFO:symbol
-VORs:MTP:name
-VORs:MTP:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:0
