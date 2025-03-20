@@ -14,7 +14,7 @@ Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2025_02.sct
+Settings	sector	UK\Data\Sector\UK_2025_03.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Ronaldsway\Ronaldsway SMR.asr
