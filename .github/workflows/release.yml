@@ -83,6 +83,7 @@ jobs:
           git diff --diff-filter=d --name-only ${{ steps.get_last_release.outputs.tag }}..HEAD | grep -v '\.py$' > changed_files.txt
           
           # Filter out .prf files with only sector file location line changed
+          > filtered_files.txt
           while IFS= read -r file; do
             if [[ "$file" == *.prf ]]; then
               if [ $(git diff ${{ steps.get_last_release.outputs.tag }}..HEAD "$file" | wc -l) -le 1 ]; then
@@ -91,6 +92,12 @@ jobs:
             fi
             echo "$file" >> filtered_files.txt
           done < changed_files.txt
+          
+          # Check if filtered_files.txt is empty
+          if [ ! -s filtered_files.txt ]; then
+            echo "No files to include in the ZIP."
+            exit 0
+          fi
           
           # Create the ZIP file with the changes
           zip -@ "changes_only_${release_tag}.zip" < filtered_files.txt
