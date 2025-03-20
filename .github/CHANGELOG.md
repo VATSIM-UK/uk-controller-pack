@@ -12,6 +12,7 @@
 11. AIRAC (2503) - Change Upavon (EGDJ) frequency - thanks to @AdriTheDev (Callum Hicks)
 12. Enhancement - Enabled ASEL Highlighting on ATM Lists - thanks to @PLM1995 (Peter Mooney)
 13. Bug - Removed Gatwick (EGKK) reference to Puckeridge VRP - thanks to @PLM1995 (Peter Mooney)
+14. Enhancement - Added Falkland Islands Profiles & Displays - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
