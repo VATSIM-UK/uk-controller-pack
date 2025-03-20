@@ -14,7 +14,6 @@
 13. Bug - Removed Gatwick (EGKK) reference to Puckeridge VRP - thanks to @PLM1995 (Peter Mooney)
 14. Enhancement - Added Falkland Islands Profiles & Displays - thanks to @luke11brown (Luke Brown)
 15. Bug - Updated vSMR to recognise A350 PDC responses - thanks to @AliceFord (Alice Ford)
-16. Enhancement - vSMR to draw WIP areas - thanks to @AliceFord (Alice Ford)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
