@@ -1,0 +1,26 @@
+PROFILE
+PROFILE:ISLAND_CTR:3000:6
+ATIS2:"Island Radar"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:Top-down control for EGYP & Approach Control Services to SFAL
+PROFILE:EGYP_APP:150:5
+ATIS2:"Mount Pleasant Approach"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EGYP_P_APP:150:5
+ATIS2:"Mount Pleasant Talkdown"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EGYP_TWR:50:4
+ATIS2:"Mount Pleasant Tower"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:EGYP_GND:20:3
+ATIS2:"Mount Pleasant Ground"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+PROFILE:SFAL_I_TWR:50:4
+ATIS2:"Stanley Information"
+ATIS3:*Not* an ATC service, find out more here - vats.im/ukafis
+ATIS4:Aerodrome flight information service, call before entering ATZ
+END
