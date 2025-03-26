@@ -365,3 +365,21 @@ Auto-alias
 .autoturnright Turn right heading $1 degrees
 .autocontact Contact $1 on $2
 .autosquawk Squawk $1
+
+========================================================
+Re Routes
+========================================================
+
+.kk26dvr MIMFO Y312 DVR then as filed
+.kk08dvr ODVIK Y311 DVR then as filed
+.kk26sam NOVMA L620 SAM then as filed
+.kk08sam IMVUR N63 SAM then as filed
+.kkcln FRANE M604 CLN then as filed
+
+.cc05wal ASMIM L975 WAL 
+.cc05nokin ASMIM P16 NOKIN
+.cc23wal EKLAD Y53 WAL 
+.cc23nokin KUXEM P17 NOKIN
+.cc23sonex SONEX L975 DESIG
+.cc23sanba SANBA N859 HON
+.cclisto LISTO L612 HON
