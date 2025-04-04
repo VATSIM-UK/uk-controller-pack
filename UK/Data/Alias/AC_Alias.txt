@@ -148,6 +148,13 @@ Departure
 .23sanba SANBA N859 HON then as filed
 .listo LISTO L612 HON then as filed
 
+.09sam GASGU N866 SAM then as filed
+.27sam GOGSI N621 SAM then as filed
+.09mid MAXIT Y803 MID then as filed
+.27mid MODMI M185 MID then as filed
+.09welin ULTIB T420 then as filed
+.27welin UMLAT T418 then as filed
+
 .hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
 .hhc Cleared to $arr routing Southampton (SAM), $1. Climb to altitude 4000ft, squawk $squawk
 .hhthred Cleared to $arr routing THRED. Climb to altitude 4000ft, squawk $squawk
