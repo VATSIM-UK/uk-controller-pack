@@ -150,6 +150,8 @@ Departure
 
 .09sam GASGU N866 SAM then as filed
 .27sam GOGSI N621 SAM then as filed
+.09evtes GASGU N514 EVTES then as filed
+.27evtes GOGSI N612 EVTES then as filed
 .09mid MAXIT Y803 MID then as filed
 .27mid MODMI M185 MID then as filed
 .09welin ULTIB T420 then as filed
