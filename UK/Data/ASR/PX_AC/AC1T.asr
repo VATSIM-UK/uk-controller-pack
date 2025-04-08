@@ -47,10 +47,9 @@ ARTCC high boundary:Yorkshire CTA:
 ARTCC low boundary:EGNT Newcastle CTA:
 ARTCC low boundary:EGPD Aberdeen CTA:
 Sids:London AC Lakes:
+Sids:London AC North Sea:
 Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
-Sids:PC Northeast:
-Sids:PC West:
 Sids:Scottish AC North:
 Sids:Scottish AC South:
 Sids:Scottish Deancross:

@@ -1,0 +1,308 @@
+SIL
+m_Visible:0
+m_X:31
+m_Y:707
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:7
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:AC:7:1:115:0:0:1:UK Controller Plugin:::3:0.0
+m_Column:FR:2:1:63:7:7:1::::3:0.0
+m_Column:SSR:5:1:2:0:0:1::::3:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:SID:7:1:56:17:17:1::::4:0.0
+m_Column:STAR:7:0:55:18:18:1::::4:0.0
+m_Column:COPN:5:0:48:21:21:1::::1:0.0
+m_Column:NFL:4:1:49:23:23:1::::1:0.0
+m_Column:At:5:1:50:0:0:0::::3:0.0
+m_Column:ADEP:4:1:61:7:7:1::::3:0.0
+m_Column:ADES:4:1:17:7:7:1::::3:0.0
+m_Column:X:5:1:51:22:22:0::::1:0.0
+m_Column:XFL:4:1:52:24:24:0::::1:0.0
+m_Column:SI:3:1:64:20:20:1::::1:0.0
+END
+SEL
+m_Visible:0
+m_X:12
+m_Y:47
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:6
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:AC:7:1:115:0:0:1:UK Controller Plugin:::3:0.0
+m_Column:FR:2:1:63:7:7:1::::3:0.0
+m_Column:SSR:5:1:2:0:0:1::::3:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:RWY:4:1:47:19:19:1::::4:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:STAR:7:0:55:18:18:1::::4:0.0
+m_Column:ADEP:4:1:61:7:7:1::::3:0.0
+m_Column:ADES:4:1:17:7:7:1::::3:0.0
+m_Column:ETA:4:1:54:0:0:0::::3:0.0
+m_Column:X:5:1:51:22:22:1::::1:0.0
+m_Column:XFL:4:1:52:24:24:1::::1:0.0
+m_Column:At:5:1:53:0:0:0::::3:0.0
+m_Column:RFL:4:1:22:30:30:1::::3:0.0
+m_Column:SI:5:1:64:20:20:1::::1:0.0
+m_Column:Alt:3:1:43:11:11:0::::4:0.0
+m_Column:HDG:5:1:46:14:29:0::::4:0.0
+m_Column:Spd:3:1:44:12:29:0::::4:0.0
+END
+DEP
+m_Visible:0
+m_X:0
+m_Y:44
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:STS:4:1:59:46:28:1::::4:0.0
+m_Column:CFT:3:1:642:0:0:0:VCH:::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:C/S:8:0:9:0:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:EOBT:5:1:1:117:100:1:CDM Plugin:CDM Plugin:CDM Plugin:4:0.0
+m_Column:TOBT:5:1:4:114:121:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TSAT:5:1:2:133:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ASAT:5:1:6:123:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ASRT:5:1:7:107:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TTOT:5:1:3:128:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:CTOT:5:1:10:108:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:EVNT:5:1:15:129:130:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:NET:5:1:18:137:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ADEP:4:1:61:9004:0:0::UK Controller Plugin::3:0.0
+m_Column:ADEP:5:1:61:0:0:0::::3:0.0
+m_Column:AC:8:1:115:0:0:1:UK Controller Plugin:::3:0.0
+m_Column:Stand:5:1:110:9007:9008:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column:SPad:8:1:19:29:29:1::::4:0.0
+m_Column:FPL:4:1:1:100:9004:0:VFPC (UK):VFPC (UK):UK Controller Plugin:0:0.0
+m_Column:R:2:1:63:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:ADES:5:1:17:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:Alt:4:1:20:11:0:1::::4:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:C:1:1:58:27:0:1::::4:0.0
+m_Column:DCL:3:0:444:544:544:0:vSMR Vatsim UK:vSMR Vatsim UK:vSMR Vatsim UK:1:0.0
+m_Column:RFL:4:1:22:30:30:1::::3:0.0
+m_Column:NFREQ:8:0:107:0:0:0:UK Controller Plugin:::1:0.0
+m_Column:RLS:3:1:124:9012:9015:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column::6:0:125:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+END
+ARR
+m_Visible:1
+m_X:1011
+m_Y:44
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:C/S:7:0:9:8:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:AC:7:1:115:0:0:1:UK Controller Plugin:::3:0.0
+m_Column:R:1:1:63:7:7:1::::3:0.0
+m_Column:ADEP:4:1:61:7:7:1::::3:0.0
+m_Column:RWY:3:1:47:19:0:1::::3:0.0
+m_Column:SPad:7:1:19:29:29:1::::4:0.0
+m_Column:Std:5:1:110:9008:9007:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:4:0.0
+END
+FP
+m_Visible:0
+m_X:1761
+m_Y:724
+m_LineNumber:20
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:7:0:9:8:1:1::::0:0.0
+m_Column:ADEP:5:1:61:0:0:1::::3:0.0
+m_Column:ADES:5:1:17:7:7:1::::3:0.0
+END
+CONFLICT
+m_Visible:0
+m_X:50
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:TYPE:6:1:88:0:36:1::::1:0.0
+m_Column:C/S:7:0:9:0:36:1::::0:0.0
+m_Column:C/S:7:0:85:0:36:1::::1:0.0
+m_Column:START:6:1:86:0:36:1::::1:0.0
+m_Column:END:6:1:87:0:36:1::::1:0.0
+END
+PILOTING
+m_Visible:0
+m_X:0
+m_Y:800
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:*:4:0:90:41:0:1::::1:0.0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:SPD:5:0:94:12:0:1::::1:0.0
+m_Column:ALT:10:0:95:11:0:1::::1:0.0
+m_Column:HDG:10:0:96:14:0:1::::1:0.0
+m_Column:WP:6:0:91:42:0:1::::1:0.0
+m_Column:TO:4:0:100:37:0:1::::1:0.0
+m_Column:LAND:7:0:101:38:0:1::::1:0.0
+m_Column:TX:6:0:102:39:0:1::::1:0.0
+m_Column:TXB:6:0:103:40:0:1::::1:0.0
+m_Column:HOLD:5:0:104:43:0:1::::1:0.0
+END
+ORIGPLANE
+m_Visible:0
+m_X:70
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:C/S:12:0:9:0:0:1::::0:0.0
+m_Column:C:2:0:105:0:0:1::::1:0.0
+m_Column:APT:5:0:106:0:0:1::::1:0.0
+m_Column:DATA:7:0:107:0:0:1::::1:0.0
+END
+STUP
+m_Visible:0
+m_X:0
+m_Y:44
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:8
+m_HeaderOnly:0
+m_Column:FLOW:8:0:131:9023:9023:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:STS:4:1:59:46:28:1::::4:0.0
+m_Column:C/S:8:0:9:0:1:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::4:0.0
+m_Column:EOBT:5:1:1:117:100:1:CDM Plugin:CDM Plugin:CDM Plugin:4:0.0
+m_Column:TOBT:5:1:4:114:121:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TSAT:5:1:2:133:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ASAT:5:1:6:123:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ASRT:5:1:7:107:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:TTOT:5:1:3:128:123:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:CTOT:5:1:10:108:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:EVNT:5:1:15:129:130:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:NET:5:1:18:137:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:ADEP:4:1:61:9004:0:0::UK Controller Plugin::3:0.0
+m_Column:A/C:8:1:115:7:7:1:UK Controller Plugin:::3:0.0
+m_Column:Std:4:1:110:9007:9008:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:SPad:8:1:19:29:29:1::::4:0.0
+m_Column:FPL:4:1:1:100:9004:0:VFPC (UK):VFPC (UK):UK Controller Plugin:0:0.0
+m_Column:R:2:1:63:7:7:1::::3:0.0
+m_Column:RFL:4:1:22:30:30:1::::3:0.0
+m_Column:ADES:4:1:17:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:RWY:3:1:47:19:19:1::::4:0.0
+m_Column:Alt:4:1:20:11:9002:1:::UK Controller Plugin:4:0.0
+m_Column:ASSR:5:1:60:9000:9022:1::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:C:1:1:58:27:0:1::::4:0.0
+m_Column:DCL:3:1:444:544:544:1:vSMR Vatsim UK:vSMR Vatsim UK:vSMR Vatsim UK:4:0.0
+END
+TAXIOUT
+m_Visible:0
+m_X:0
+m_Y:832
+m_LineNumber:0
+m_Resizable:1
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column::1:0:57:0:0:1::::3:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:STS:4:1:59:46:28:1::::4:0.0
+m_Column:C/S:8:0:9:0:1:1::::3:0.0
+m_Column:RT:2:0:80:32:32:1::::4:0.0
+m_Column:TTOT:5:1:3:128:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:CTOT:5:1:10:108:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:A/C:8:1:115:7:7:1:UK Controller Plugin:::3:0.0
+m_Column:SPad:8:1:19:29:29:1::::4:0.0
+m_Column:R:2:1:63:7:7:1::::3:0.0
+m_Column:ADES:4:1:17:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:RWY:3:1:47:19:19:0::::4:0.0
+m_Column:ASSR:5:1:60:9000:9022:0::UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:RLS:3:1:124:9012:9015:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column::6:0:125:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column:PRE:3:1:127:9017:9018:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+END
+TAKEOFF
+m_Visible:0
+m_X:0
+m_Y:1161
+m_LineNumber:4
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:STS:4:1:59:46:28:1::::4:0.0
+m_Column:FLOW:8:0:131:9023:9023:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:0:0.0
+m_Column:TTOT:5:1:3:128:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:CTOT:5:1:10:108:123:1:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
+m_Column:DSQ:3:1:57:0:0:0::::3:0.0
+m_Column:CFT:3:1:642:0:0:0:VCH:::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:C/S:8:0:9:8:0:1::::3:0.0
+m_Column:RT:2:0:80:32:0:1::::0:0.0
+m_Column:A/C:8:1:115:7:9004:1:UK Controller Plugin::UK Controller Plugin:1:0.0
+m_Column:SPad:8:1:19:29:29:1::::4:0.0
+m_Column:R:2:1:63:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:ADES:4:1:17:7:9004:1:::UK Controller Plugin:3:0.0
+m_Column:SID:7:0:56:17:17:1::::4:0.0
+m_Column:RWY:3:1:47:19:19:0::::4:0.0
+m_Column:CFL:4:1:20:11:9002:0:::UK Controller Plugin:4:0.0
+m_Column:RLS:3:1:124:9012:9015:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column::6:0:125:9014:9014:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column:PRE:3:1:127:9017:9018:1:UK Controller Plugin:UK Controller Plugin:UK Controller Plugin:1:0.0
+m_Column:QSY:7:0:107:0:0:1:UK Controller Plugin:::1:0.0
+END
+ADCS
+m_Visible:0
+m_X:110
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:RUNW:4:1:47:19:19:1::::1:0.0
+m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:COPX:5:0:51:21:21:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END
+TAXIIN
+m_Visible:0
+m_X:120
+m_Y:100
+m_LineNumber:6
+m_Resizable:0
+m_OrderingColumn:1
+m_HeaderOnly:0
+m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
+m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
+m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0
+m_Column:CALLSIGN:9:0:9:8:0:1::::0:0.0
+m_Column:STN:4:1:19:29:0:1::::1:0.0
+m_Column:ATYP:4:1:16:0:0:1::::1:0.0
+m_Column:STS:4:1:59:46:46:1::::1:0.0
+END

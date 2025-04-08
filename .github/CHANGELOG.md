@@ -1,6 +1,33 @@
+x. Enhancement - Updated vATIS profiles - thanks to @BenWalker01 (Ben Walker)
+
+# Changes from release 2025/03 to 2025/04
+1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
+
+# Changes from release 2025/02 to 2025/03
+1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
+2. AIRAC (2503) - London Gatwick (EGKK) RECAT-EU Implementation - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Updated CDM Plugin to 2.2.5.3 - thanks to @luke11brown (Luke Brown)
+4. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
+5. Enhancement - Added Ground Speed to NERC (AC-TopSky) untagged tags - thanks to @SamLefevre (Samuel Lefevre)
+6. Enhancement - Added vSMR WIP areas - thanks to @AliceFord (Alice Ford)
+7. Enhancement - Change Gloucester (EGBJ) Approach logon callsign - thanks to @AdriTheDev (Callum Hicks)
+8. AIRAC (2503) - Add Little Rissington (EGVL) radio frequency - thanks to @AdriTheDev (Callum Hicks)
+9. AIRAC (2503) - Change Syerston (EGXY) frequency - thanks to @AdriTheDev (Callum Hicks)
+10. AIRAC (2503) - Change Topcliffe (EGXZ) frequency - thanks to @AdriTheDev (Callum Hicks)
+11. AIRAC (2503) - Change Upavon (EGDJ) frequency - thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Enabled ASEL Highlighting on ATM Lists - thanks to @PLM1995 (Peter Mooney)
+13. Bug - Removed Gatwick (EGKK) reference to Puckeridge VRP - thanks to @PLM1995 (Peter Mooney)
+14. Enhancement - Added Falkland Islands Profiles & Displays - thanks to @luke11brown (Luke Brown)
+15. Bug - Updated vSMR to recognise A350 PDC responses - thanks to @AliceFord (Alice Ford)
+
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)
-2. Enhancement - Updated vATIS profiles - thanks to @BenWalker01 (Ben Walker)
+2. Bug - Enabled missing adjacent sectors on required ASRs - thanks to @SamLefevre (Samuel Lefevre)
+3. Enhancement - Added waypoint menu to NERC and iTec tags by clicking intention code - thanks to @SamLefevre (Samuel Lefevre)
+4. AIRAC (2502) - Added North West Transit Corridor restricted area (R323) and Manchester CTA 6 - thanks to @luke11brown (Luke Brown)
+5. Bug - Corrected Southend (EGMC) Geo display - thanks to @PLM1995 (Peter Mooney)
+6. Bug - CDM config and list items adjusted - thanks to @luke11brown (Luke Brown)
+7. Enhancement - CCDS-R plugin updated to v1.1 - thanks to @quassbutreally
 
 # Changes from release 2024/13 to 2025/01
 1. Enhancement - Added SRD search dialog to startup lists - thanks to @kristiankunc (Kristián Kunc)

@@ -4,10 +4,12 @@
 	<rateLvo ops="15" />
 	<expiredCtot time="25" />
 	<realMode mode="false" />
+	<pilotTobt mode="true" />
 	<invalidateAtTsat mode="true" />
-	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/rate.txt" />
-	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/taxizones.txt" />
-	<Ctot url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/UK/Data/Plugin/CDM/ctot.txt" />
+	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/rate.txt" />
+	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/taxizones.txt" />
+	<Ctot url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/CTOT.txt" />
+	<sidInterval url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/sidInterval.txt" />
 	<DefaultTaxiTime minutes="11" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<RefreshTime seconds="10" />

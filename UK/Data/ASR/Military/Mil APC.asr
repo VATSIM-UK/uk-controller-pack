@@ -247,6 +247,7 @@ ARTCC boundary:EGR315:
 ARTCC boundary:EGR319:
 ARTCC boundary:EGR321:
 ARTCC boundary:EGR322:
+ARTCC boundary:EGR323:
 ARTCC boundary:EGR413:
 ARTCC boundary:EGR431:
 ARTCC boundary:EGR432:
@@ -734,6 +735,7 @@ Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\3500':freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
 Free Text:EGBB Airspace Bases\FL65:freetext
+Free Text:EGCC Airspace Bases\1500':freetext
 Free Text:EGCC Airspace Bases\2000':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
 Free Text:EGCC Airspace Bases\2500':freetext
