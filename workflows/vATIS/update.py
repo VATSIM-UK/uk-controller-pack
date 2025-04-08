@@ -13,65 +13,69 @@ def main():
     with open(args.changed_files_list, 'r')as f:
         changes_files = f.read().splitlines()
 
-    print(changes_files)
+    vatis_files = [f[7:] for f in changes_files if f.startswith(
+        "_vATIS/") and f.endswith(".json")]
+
+    update_files(vatis_files)
 
 
-input_dir = os.path.abspath('_vATIS')
+def update_files(files: list[str]) -> None:
 
-# Get the list of filenames from the command line arguments
-filenames_to_update_raw = sys.argv[1:]
+    input_dir = os.path.abspath('_vATIS')
 
-filenames_to_update = [filename[7:] for filename in filenames_to_update_raw]
-print(filenames_to_update)
-# If no filenames are provided, update all JSON files in the input directory
+    # Get the list of filenames from the command line arguments
 
-if not filenames_to_update:
-    filenames_to_update = [f for f in os.listdir(
-        input_dir) if f.endswith('.json')]
+    print(f"Updating\n{'\n'.join(files)}\n")
 
-for filename in filenames_to_update:
-    if filename.endswith('.json'):
-        name = os.path.splitext(filename)[0]
-        input_filepath = os.path.join(input_dir, filename)
+    # If no filenames are provided, update all JSON files in the input directory
+    if not files:
+        files = [f for f in os.listdir(
+            input_dir) if f.endswith('.json')]
 
-        if not os.path.exists(input_filepath):
-            print(f"File {input_filepath} does not exist.")
-            continue
+    for filename in files:
+        if filename.endswith('.json'):
+            name = os.path.splitext(filename)[0]
+            input_filepath = os.path.join(input_dir, filename)
 
-        with open(input_filepath, 'r') as file:
-            data = json.load(file)
+            if not os.path.exists(input_filepath):
+                print(f"File {input_filepath} does not exist.")
+                continue
 
-        current_serial = str(data.get("updateSerial", "1970010100"))
+            with open(input_filepath, 'r') as file:
+                data = json.load(file)
 
-        current_date = current_serial[:8]
-        current_serial_number = int(current_serial[8:])
+            current_serial = str(data.get("updateSerial", "1970010100"))
 
-        today_date = datetime.now().strftime("%Y%m%d")
+            current_date = current_serial[:8]
+            current_serial_number = int(current_serial[8:])
 
-        print(f"{current_date=}")
-        print(f"{today_date=}")
-        print(f"{current_serial_number=}")
+            today_date = datetime.now().strftime("%Y%m%d")
 
-        if current_date == today_date:
-            new_serial_number = current_serial_number + 1
-        else:
-            new_serial_number = 1
+            print(f"{current_date=}")
+            print(f"{today_date=}")
+            print(f"{current_serial_number=}")
 
-        if new_serial_number > 99:  # should never be an issue
-            print("There have been too many updates today. The script will now exit")
-            sys.exit(1)
+            if current_date == today_date:
+                new_serial_number = current_serial_number + 1
+            else:
+                new_serial_number = 1
 
-        update_serial = int(f"{today_date}{new_serial_number:02d}")
+            if new_serial_number > 99:  # should never be an issue
+                print("There have been too many updates today. The script will now exit")
+                sys.exit(1)
 
-        update_url = f"https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/{name}.json"
+            update_serial = int(f"{today_date}{new_serial_number:02d}")
 
-        data["updateUrl"] = update_url
-        data["updateSerial"] = update_serial
+            update_url = f"https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/{name}.json"
 
-        with open(input_filepath, 'w') as file:
-            json.dump(data, file, indent=2)
+            data["updateUrl"] = update_url
+            data["updateSerial"] = update_serial
 
-        print(f"Updated {filename} with new serial {update_serial}")
+            with open(input_filepath, 'w') as file:
+                json.dump(data, file, indent=2)
+
+            print(f"Updated {filename} with new serial {update_serial}")
+
 
 if __name__ == "__main__":
     main()
