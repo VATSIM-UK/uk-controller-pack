@@ -40,10 +40,7 @@ jobs:
       - name: Run update script
         id: update
         run: |
-          changed_files=$(cat changed_files.txt | grep '^_vATIS/.*\.json$' | tr '\n' ' ')
-          if [ -n "$changed_files" ]; then
-            python workflows/vATIS/update.py $changed_files
-          fi
+          python workflows/vATIS/update.py --changed-files-list changed_files.txt
 
       - name: Commit and push changes
         run: |
