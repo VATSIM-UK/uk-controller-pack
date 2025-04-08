@@ -1,7 +1,7 @@
 # Updates IDs of profiles
 #
 # Triggered by:
-# push to main
+# push to main (by a non bot)
 
 name: Update vATIS Serial
 
@@ -14,6 +14,7 @@ on:
 
 jobs:
   update:
+    if: ${{ !contains(github.event.head_commit.message, '[VUK] Update profiles') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -50,5 +51,5 @@ jobs:
           git config --global user.email 'privileged-access@vatsim.uk'
           rm changed_files.txt
           git add .
-          git commit -m 'Update profiles'
+          git commit -m '[VUK] Update profiles'
           git push
