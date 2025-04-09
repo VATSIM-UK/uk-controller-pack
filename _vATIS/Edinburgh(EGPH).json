@@ -1,7 +1,7 @@
 {
   "Name": "Edinburgh",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Edinburgh(EGPH).json",
-  "updateSerial": 2025021501,
+  "updateSerial": 2025040901,
   "stations": [
     {
       "Name": "Edinburgh",
