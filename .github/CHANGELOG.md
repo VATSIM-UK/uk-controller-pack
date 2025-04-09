@@ -1,7 +1,9 @@
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
-X. Enhancement - Improved AC-TopSky tag line alignment for (un)tagged vs. detailed - thanks to @hazzas-99
-X. Bug - Fixed position of groundspeed on AC-TopSky untagged tags to matched detailed view - thanks to @hazzas-99
+2. Enhancement - Updated vATIS profiles & set up auto-updating - thanks to @BenWalker01 (Ben Walker)
+3. Enhancement - Add common re route aliases - thanks to Ben Walker (@BenWalker01)
+4. Enhancement - Improved AC-TopSky tag line alignment for (un)tagged vs. detailed - thanks to @hazzas-99
+5. Bug - Fixed position of groundspeed on AC-TopSky untagged tags to matched detailed view - thanks to @hazzas-99
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
