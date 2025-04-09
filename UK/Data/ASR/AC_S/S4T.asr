@@ -2372,8 +2372,6 @@ VORs:DIK:name
 VORs:DIK:symbol
 VORs:DIN:name
 VORs:DIN:symbol
-VORs:DPE:name
-VORs:DPE:symbol
 VORs:DTY:name
 VORs:DTY:symbol
 VORs:DUB:name
@@ -2596,6 +2594,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_PORTLAND;ASR_COTSWOLD
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
