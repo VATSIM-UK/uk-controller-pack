@@ -111,6 +111,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA;airfield.EGNT
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_HOLYHEAD;ASR_BARNSLEY;ASR_HUMBER;ASR_YARMOUTH;ASR_TYNE;ASR_CHATHAM
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

@@ -1276,8 +1276,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1630,7 +1628,6 @@ VORs:DET:symbol
 VORs:DHE:symbol
 VORs:DIK:symbol
 VORs:DIN:symbol
-VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
@@ -1768,6 +1765,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_CHATHAM;ASR_PORTLAND;ASR_COTSWOLD
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
