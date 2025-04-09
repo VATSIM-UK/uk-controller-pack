@@ -1,0 +1,184 @@
+{
+  "Name": "Sumburgh",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Sumburgh(EGPB).json",
+  "updateSerial": 2025021501,
+  "stations": [
+    {
+      "Name": "Sumburgh",
+      "Identifier": "EGPB",
+      "contractions": [
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPB",
+          "Spoken": "ECHO GOLF PAPA BRAVO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
+        }
+      ],
+      "AtisFrequency": 25855,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SUMBURGH INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^27. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SUMBURGH INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^09. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "33",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SUMBURGH INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^33. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "15",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SUMBURGH INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^15. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 118.255.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGPB.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.255 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [],
+      "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ]
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "Name": "Thames",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Thames(EGLC & EGKB & EGMC).json",
+  "updateSerial": 2025021501,
+  "stations": [
+    {
+      "Name": "City",
+      "Identifier": "EGLC",
+      "contractions": [
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGLC",
+          "Spoken": "ECHO GOLF LIMA CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
+        }
+      ],
+      "AtisFrequency": 36355,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "27",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^27. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "09",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^09. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.830.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.080.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGLC.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [],
+      "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ]
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false
+        }
+      }
+    },
+    {
+      "Name": "Biggin Hill",
+      "Identifier": "EGKB",
+      "contractions": [
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGKB",
+          "Spoken": "ECHO GOLF KILO BRAVO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
+        }
+      ],
+      "AtisFrequency": 35680,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "21",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^21. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "03",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^03. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 134.805.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGKB.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [],
+      "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ]
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false
+        }
+      }
+    },
+    {
+      "Name": "Southend",
+      "Identifier": "EGMC",
+      "contractions": [
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGMC",
+          "Spoken": "ECHO GOLF MIKE CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
+        }
+      ],
+      "AtisFrequency": 36055,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "Alternate",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY ^23, DEPARTURE RUNWAY ^05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        },
+        {
+          "Name": "23",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^23. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        },
+        {
+          "Name": "05",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "WINDSHEAR REPORTED.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 127.730.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGMC.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 127.730 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [],
+      "atisFormat": {
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "QNH {altimeter} ({altimeter|text})",
+            "voice": "QNH {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ]
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false
+        }
+      }
+    }
+  ]
+}

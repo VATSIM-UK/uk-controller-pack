@@ -1,0 +1,1127 @@
+{
+  "Name": "UK - Swanwick",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - Swanwick.json",
+  "updateSerial": 2025021501,
+  "stations": [
+    {
+      "Name": "Coningsby",
+      "Identifier": "EGXC",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 22630,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "07 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CONINGSBY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO SEVEN. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CONINGSBY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "25",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CONINGSBY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FIVE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CONINGSBY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Brize Norton",
+      "Identifier": "EGVN",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 26505,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "07",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS BRIZE NORTON INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO SEVEN.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF BRIZE NORTON INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "25 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS BRIZE NORTON INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FIVE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF BRIZE NORTON INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Lossiemouth",
+      "Identifier": "EGQS",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 20825,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "05",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS LOSSIEMOUTH INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO FIVE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF LOSSIEMOUTH INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "23",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS LOSSIEMOUTH INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO THREE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF LOSSIEMOUTH INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "10 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS LOSSIEMOUTH INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE ZERO. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF LOSSIEMOUTH INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "28",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS LOSSIEMOUTH INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO EIGHT.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF LOSSIEMOUTH INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Valley",
+      "Identifier": "EGOV",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 20730,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "13",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS VALLEY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE THREE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF VALLEY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "31 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS VALLEY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE THREE ONE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF VALLEY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "01",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS VALLEY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO ONE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF VALLEY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "19 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS VALLEY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE NINE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF VALLEY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Marham",
+      "Identifier": "EGYM",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 19030,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "06 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS MARHAM INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO SIX. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF MARHAM INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "24",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS MARHAM INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FOUR.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF MARHAM INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "01",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS MARHAM INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO ONE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF MARHAM INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "19 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS MARHAM INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE NINE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF MARHAM INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Cranwell",
+      "Identifier": "EGYD",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 26330,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "08 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CRANWELL INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO EIGHT. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CRANWELL INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "26",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CRANWELL INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO SIX.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CRANWELL INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "01",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CRANWELL INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO ONE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CRANWELL INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "19 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS CRANWELL INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE NINE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF CRANWELL INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Fairford",
+      "Identifier": "EGVA",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 35455,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "09",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS FAIRFORD INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO NINE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF FAIRFORD INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "27 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS FAIRFORD INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO SEVEN. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF FAIRFORD INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Warton",
+      "Identifier": "EGNO",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 21730,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "07 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS WARTON INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO SEVEN. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF WARTON INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "25",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS WARTON INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FIVE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF WARTON INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Northolt",
+      "Identifier": "EGWU",
+      "contractions": [
+        {
+          "String": "MARHAM",
+          "Spoken": "MARR UM"
+        }
+      ],
+      "AtisFrequency": 25125,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "07",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS NORTHOLT INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO SEVEN.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF NORTHOLT INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "25 RH",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS NORTHOLT INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FIVE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF NORTHOLT INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    }
+  ]
+}
