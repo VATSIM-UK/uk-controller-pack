@@ -1,3 +1,5 @@
+x. Enhancement - Updated vATIS profiles - thanks to @BenWalker01 (Ben Walker)
+
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
 
