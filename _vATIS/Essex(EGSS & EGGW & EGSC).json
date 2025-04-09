@@ -1,7 +1,7 @@
 {
   "Name": "Essex",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Essex(EGSS & EGGW & EGSC).json",
-  "updateSerial": 2025021501,
+  "updateSerial": 2025040901,
   "stations": [
     {
       "Name": "Stansted",

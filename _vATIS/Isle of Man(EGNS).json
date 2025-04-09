@@ -1,7 +1,7 @@
 {
   "Name": "Isle of Man",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Isle of Man(EGNS).json",
-  "updateSerial": 2025021501,
+  "updateSerial": 2025040901,
   "stations": [
     {
       "Name": "Ronaldsway",
