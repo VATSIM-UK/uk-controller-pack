@@ -1,8 +1,6 @@
-# Changes from release 2025/04 to 2025/05
-x. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
-
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
+x. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
