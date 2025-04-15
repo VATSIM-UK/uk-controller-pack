@@ -7,7 +7,10 @@
 6. Enhancement - Displayed LFP81 (Prohibited Area up to FL195 - nuclear site) on AC Area ASRs - thanks to @hazzas-99
 7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
 8. Bug - Corrected Manchester (EGCC) Planner frequency - thanks to @PLM1995 (Peter Mooney)
-9. AIRAC (2504) - Changed .05nokin alias for re-route simplicity - thanks to @Liaely (Lily Unitt)
+9. Enhancement - Changed TopSky pre-active time to 30 minutes - thanks to @Liaely (Lily Unitt)
+10. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
+11. Enhancement - Removed Conflict Alert sound - thanks to @hazzas-99
+12. AIRAC (2504) - Changed .05nokin alias for re-route simplicity - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
