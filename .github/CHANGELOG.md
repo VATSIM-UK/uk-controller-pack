@@ -8,6 +8,7 @@
 7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
 8. Bug - Corrected Manchester (EGCC) Planner frequency - thanks to @PLM1995 (Peter Mooney)
 9. Enhancement - Changed TopSky pre-active time to 30 minutes - thanks to @Liaely (Lily Unitt)
+10. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
