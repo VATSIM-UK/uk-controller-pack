@@ -29,6 +29,7 @@ Airspace_ASSR_Type=0
 Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
+Areas_PreActiveTime=1800
 Track_HistoryDots=0
 System_MagModel_Type=2
 System_MagModel_Model=0
