@@ -7,6 +7,7 @@
 6. Enhancement - Displayed LFP81 (Prohibited Area up to FL195 - nuclear site) on AC Area ASRs - thanks to @hazzas-99
 7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
 8. Bug - Corrected Manchester (EGCC) Planner frequency - thanks to @PLM1995 (Peter Mooney)
+9. Enhancement - Add CDM to combined profiles - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
