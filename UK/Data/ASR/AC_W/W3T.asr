@@ -1,6 +1,7 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+ARTCC boundary:LFP81:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
@@ -1275,8 +1276,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1289,8 +1288,6 @@ Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115E:freetext
-Free Text:Airspace Bases\FL125:freetext
-Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
@@ -1325,9 +1322,15 @@ Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
+Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
+Free Text:Airspace Bases\FL175:freetext
+Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
@@ -1418,7 +1421,6 @@ Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
-Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95E:freetext
@@ -1466,6 +1468,7 @@ Free Text:EGGD Airspace Bases\2000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3500':freetext
+Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4500':freetext
 Free Text:EGGP Airspace Bases\1500':freetext
@@ -1617,7 +1620,6 @@ VORs:DET:symbol
 VORs:DHE:symbol
 VORs:DIK:symbol
 VORs:DIN:symbol
-VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
@@ -1693,7 +1695,6 @@ VORs:TIR:symbol
 VORs:TLA:symbol
 VORs:TNT:symbol
 VORs:TRN:symbol
-VORs:VES:symbol
 VORs:VLN:symbol
 VORs:VYL:symbol
 VORs:WAD:symbol
@@ -1756,6 +1757,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGJJ;airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_HOLYHEAD;ASR_BARNSLEY;ASR_SCILLIES;ASR_WESSEX;ASR_COTSWOLD;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
