@@ -16,7 +16,7 @@ Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\STC\STC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_Scottish.txt
-Settings	sector	UK\Data\Sector\UK_2025_03.sct
+Settings	sector	UK\Data\Sector\UK_2025_04.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\STC\STC1.asr

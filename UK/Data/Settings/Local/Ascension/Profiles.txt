@@ -1,0 +1,6 @@
+PROFILE
+PROFILE:FHAW_TWR:50:4
+ATIS2:"Wideawake Tower"
+ATIS3:Feedback at vats.im/atcfb
+ATIS4:
+END
