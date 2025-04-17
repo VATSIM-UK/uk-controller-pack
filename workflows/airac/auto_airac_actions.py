@@ -203,6 +203,7 @@ class CurrentInstallation:
                         'Authorization': f'Bearer {os.environ["REMOTE_KEY"]}',
                         'X-GitHub-Api-Version': '2022-11-28'
                     }
+                    logger.info(f"Downloading artifact from: {artifact_url}")
                     response = requests.get(artifact_url, headers=headers, timeout=30)
                     if response.status_code == 200:
                         with open("sector.zip", "wb") as file:
