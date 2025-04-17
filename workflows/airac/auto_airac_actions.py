@@ -192,8 +192,17 @@ class CurrentInstallation:
                         (f"https://api.github.com/repos/{self.remote_repo_owner}/"
                          f"{self.remote_repo_name}/actions/artifacts"), timeout=30)
                     if artifact_list.status_code == 200:
+                    logger.debug(f"Found artifacts: {[a['name'] for a in al_json['artifacts']]}")
                         al_json = json.loads(artifact_list.content)
-                        artifact_url = al_json["artifacts"][0]["archive_download_url"]
+                        artifact_url = next(
+                            (artifact["archive_download_url"]
+                            for artifact in al_json["artifacts"]
+                            if artifact["name"] == "UK Sector File"),
+                           None
+                        )
+
+                        if artifact_url is None:
+                           raise ValueError("No artifact named 'UK Sector File' found.")
                     else:
                         raise requests.HTTPError(f"URL not found - {artifact_list.url}")
 
