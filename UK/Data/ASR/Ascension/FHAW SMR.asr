@@ -1,8 +1,6 @@
 DisplayTypeName:SMR radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\Ascension and St Helena.sct
-SECTORTITLE:Ascension and St Helena.sct
 Free Text:FHAW Taxiways\A:freetext
 Free Text:FHAW Taxiways\B:freetext
 Free Text:FHAW Taxiways\C:freetext

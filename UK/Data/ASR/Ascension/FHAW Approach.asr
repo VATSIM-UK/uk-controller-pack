@@ -1,8 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:UK\Data\Sector\Ascension and St Helena.sct
-SECTORTITLE:Ascension and St Helena.sct
 ARTCC low boundary:Comodoro Rivadavia FIR SAVF:
 ARTCC low boundary:Ezeiza FIR SAEF:
 ARTCC low boundary:Montevideo SUEO FIR:
