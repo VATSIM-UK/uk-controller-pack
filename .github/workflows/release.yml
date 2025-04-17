@@ -107,7 +107,7 @@ jobs:
           
           # Create the ZIP file with the changes
           while IFS= read -r file; do
-              zip "changes_only_${release_tag}.zip" "$file"
+              zip "changes_only_${release_tag}.zip" -@ < filtered_files.txt
           done < filtered_files.txt
 
       - name: Upload changes only ZIP as release asset
