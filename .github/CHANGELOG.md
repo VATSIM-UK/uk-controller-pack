@@ -6,6 +6,7 @@
 5. Bug - Fixed position of groundspeed on AC-TopSky untagged tags to matched detailed view - thanks to @hazzas-99
 6. Enhancement - Displayed LFP81 (Prohibited Area up to FL195 - nuclear site) on AC Area ASRs - thanks to @hazzas-99
 7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
+X. Bug - Moved position of takeoff list in RECAT profiles - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
