@@ -214,6 +214,11 @@ class CurrentInstallation:
                     with ZipFile("sector.zip", "r") as zip_ref:
                         zip_ref.extractall(".")
 
+                        # DEBUG: Show what files were extracted
+                        import glob
+                        extracted_files = glob.glob('**', recursive=True)
+                        logger.debug(f"Extracted files: {extracted_files}")
+
                     # Delete the empty zipfile
                     os.remove("sector.zip")
 
