@@ -192,7 +192,7 @@ class CurrentInstallation:
                         (f"https://api.github.com/repos/{self.remote_repo_owner}/"
                          f"{self.remote_repo_name}/actions/artifacts"), timeout=30)
                     if artifact_list.status_code == 200:
-                    logger.debug(f"Found artifacts: {[a['name'] for a in al_json['artifacts']]}")
+                        logger.debug(f"Found artifacts: {[a['name'] for a in al_json['artifacts']]}")
                         al_json = json.loads(artifact_list.content)
                         artifact_url = next(
                             (artifact["archive_download_url"]
