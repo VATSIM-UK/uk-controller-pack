@@ -216,7 +216,7 @@ END
 TAXIOUT
 m_Visible:1
 m_X:0
-m_Y:832
+m_Y:177
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:1
@@ -244,7 +244,7 @@ END
 TAKEOFF
 m_Visible:1
 m_X:0
-m_Y:1161
+m_Y:273
 m_LineNumber:4
 m_Resizable:0
 m_OrderingColumn:1
