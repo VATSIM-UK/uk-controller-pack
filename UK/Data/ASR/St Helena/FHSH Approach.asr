@@ -3,12 +3,15 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:UK\Data\Sector\Ascension and St Helena.sct
 SECTORTITLE:Ascension and St Helena.sct
+ARTCC high boundary:St Helena TMA:
 Fixes:125D:name
 Fixes:125D:symbol
 Fixes:ANTIP:name
 Fixes:ANTIP:symbol
 Fixes:AVAKA:name
 Fixes:AVAKA:symbol
+Fixes:CB027:name
+Fixes:CB027:symbol
 Fixes:DUNLU:name
 Fixes:DUNLU:symbol
 Fixes:EGNAT:name
