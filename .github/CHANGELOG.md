@@ -16,7 +16,9 @@
 15. Enhancement - Updated TopSky Plugin to latest release version (2.5) - thanks to @luke11brown (Luke Brown)
 16. Enhancement - Updated MAESTRO Plugin to latest release version (1.1) - thanks to @luke11brown (Luke Brown)
 17. Enhancement - Updated VCH Plugin to latest release version (0.8.6) - thanks to @luke11brown (Luke Brown)
-18. Enhancement - Add CDM to combined profiles - thanks to @lucak1011 (Luca Kulaga)
+18. Enhancement - Added CDM to combined profiles - thanks to @lucak1011 (Luca Kulaga)
+19. AIRAC (2504) - Added Kirknewton (EGKT) gliding area to TopSky - thanks to @luke11brown (Luke Brown)
+20. AIRAC (2504) - Added Kirknewton AGCS to Voice Settings - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
