@@ -141,7 +141,7 @@ Departure
 .08xidil SFD M605 then as filed
 
 .05wal ASMIM L975 WAL then as filed
-.05nokin ASMIM P16 NOKIN then as filed
+.05nokin ASMIM DCT NOKIN then as filed
 .23wal EKLAD Y53 WAL then as filed
 .23nokin KUXEM P17 NOKIN then as filed
 .23sonex SONEX L975 DESIG then as filed
