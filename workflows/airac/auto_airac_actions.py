@@ -153,7 +153,8 @@ class CurrentInstallation:
                     artifact_url = next(
                         (artifact["archive_download_url"]
                          for artifact in al_json["artifacts"]
-                         if artifact["name"] == "UK Sector File"),
+                         if artifact["name"] == "UK Sector File"
+                         and artifact["workflow_run"]["head_branch"] == self.airac),
                         None
                     )
                     if artifact_url is None:
