@@ -3,6 +3,12 @@ name: Create ZIPs on Release
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "The release tag (e.g., 2025_04)"
+        required: true
+        default: ""
 
 jobs:
   create-full-zip:
@@ -12,14 +18,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Copy README from docs folder
-        run: |
-          cp _docs/README.pdf UK/README.pdf
-
       - name: Get release tag
         id: get_release_tag
         run: |
-          echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "::set-output name=tag::${{ github.event.inputs.release_tag }}"
+          else
+            echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+          fi
 
       - name: Create full ZIP
         run: |
@@ -47,7 +53,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          current_tag=${{ github.event.release.tag_name }}
+          current_tag=${{ steps.get_release_tag.outputs.tag }}
           repo=${{ github.repository }}
           
           # Get the list of releases using the GitHub API
@@ -74,7 +80,7 @@ jobs:
       - name: Create changes only ZIP
         id: create_zip
         run: |
-          release_tag=${{ github.event.release.tag_name }}
+          release_tag=${{ steps.get_release_tag.outputs.tag }}
           
           # Copy README from docs folder
           cp _docs/README.pdf UK/README.pdf
@@ -100,7 +106,9 @@ jobs:
           fi
           
           # Create the ZIP file with the changes
-          zip -@ "changes_only_${release_tag}.zip" < filtered_files.txt
+          while IFS= read -r file; do
+              zip "changes_only_${release_tag}.zip" "$file"
+          done < filtered_files.txt
 
       - name: Upload changes only ZIP as release asset
         uses: actions/upload-release-asset@v1
