@@ -13,6 +13,9 @@
 12. AIRAC (2504) - Changed .05nokin alias for re-route simplicity - thanks to @Liaely (Lily Unitt)
 13. Enhancement - Add profiles for Ascension (Wideawake) and St. Helena Airfields - thanks to jackedwards815 (Jack Edwards) & @luke11brown (Luke Brown)
 14. Bug - Moved position of takeoff list in RECAT profiles - thanks to @luke11brown (Luke Brown)
+15. Enhancement - Updated TopSky Plugin to latest release version (2.5) - thanks to @luke11brown (Luke Brown)
+16. Enhancement - Updated MAESTRO Plugin to latest release version (1.1) - thanks to @luke11brown (Luke Brown)
+17. Enhancement - Updated VCH Plugin to latest release version (0.8.6) - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
