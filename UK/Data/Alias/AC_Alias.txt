@@ -1,6 +1,6 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2023-09-21
+Last Updated:	2025-04-04
 ========================================================
 
 ========================================================
@@ -129,6 +129,33 @@ Departure
 
 .kkbig26l After departure runway 26L, climb straight ahead to I-WW 2.3 DME, then turn right heading 075, Climb to altitude 4000ft, speed 220 knots or less, Squawk $squawk
 .kkbig08r After departure runway 08R, climb straight ahead to I-GG 5 DME, then turn right heading 090, Climb to altitude 6000ft, Squawk $squawk
+
+.26dvr MIMFO Y312 DVR then as filed
+.08dvr ODVIK Y311 DVR then as filed
+.26sam NOVMA L620 SAM then as filed
+.08sam IMVUR N63 SAM then as filed
+.26kenet NOVMA L620 NIBDA N14 VOUGA then as filed
+.08kenet IMVUR N63 VOUGA then as filed
+.08benbo BOGNA L612 BENBO then as filed
+.08benbo SFD Y47 BENBO then as filed
+.08xidil SFD M605 then as filed
+
+.05wal ASMIM L975 WAL then as filed
+.05nokin ASMIM DCT NOKIN then as filed
+.23wal EKLAD Y53 WAL then as filed
+.23nokin KUXEM P17 NOKIN then as filed
+.23sonex SONEX L975 DESIG then as filed
+.23sanba SANBA N859 HON then as filed
+.listo LISTO L612 HON then as filed
+
+.09sam GASGU N866 SAM then as filed
+.27sam GOGSI N621 SAM then as filed
+.09evtes GASGU N514 EVTES then as filed
+.27evtes GOGSI N612 EVTES then as filed
+.09mid MAXIT Y803 MID then as filed
+.27mid MODMI M185 MID then as filed
+.09welin ULTIB T420 then as filed
+.27welin UMLAT T418 WELIN then as filed
 
 .hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
 .hhc Cleared to $arr routing Southampton (SAM), $1. Climb to altitude 4000ft, squawk $squawk
@@ -365,3 +392,4 @@ Auto-alias
 .autoturnright Turn right heading $1 degrees
 .autocontact Contact $1 on $2
 .autosquawk Squawk $1
+

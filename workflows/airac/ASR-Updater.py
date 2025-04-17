@@ -153,8 +153,8 @@ def update_asr_files(final_fixes, asr_root="UK/Data/ASR"):
                     lines_to_insert.append(f"Fixes:{fix}:symbol")
             elif "4" in name_lower:
                 for fix in final_fixes:
-                    lines_to_insert.append(f"Fixes:{fix}:symbol")
                     lines_to_insert.append(f"Fixes:{fix}:name")
+                    lines_to_insert.append(f"Fixes:{fix}:symbol")
 
             # Read the original file
             with open(filepath, "r", encoding="utf-8") as f:

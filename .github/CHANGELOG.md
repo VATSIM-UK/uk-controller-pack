@@ -1,5 +1,17 @@
 # Changes from release 2025/03 to 2025/04
-X. Enhancement - Add profiles for Ascension (Wideawake) and St. Helena Airfields - thanks to jackedwards815 (Jack Edwards)
+1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
+2. Enhancement - Updated vATIS profiles & set up auto-updating - thanks to @BenWalker01 (Ben Walker)
+3. Enhancement - Add common re route aliases - thanks to Ben Walker (@BenWalker01)
+4. Enhancement - Improved AC-TopSky tag line alignment for (un)tagged vs. detailed - thanks to @hazzas-99
+5. Bug - Fixed position of groundspeed on AC-TopSky untagged tags to matched detailed view - thanks to @hazzas-99
+6. Enhancement - Displayed LFP81 (Prohibited Area up to FL195 - nuclear site) on AC Area ASRs - thanks to @hazzas-99
+7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
+8. Bug - Corrected Manchester (EGCC) Planner frequency - thanks to @PLM1995 (Peter Mooney)
+9. Enhancement - Changed TopSky pre-active time to 30 minutes - thanks to @Liaely (Lily Unitt)
+10. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
+11. Enhancement - Removed Conflict Alert sound - thanks to @hazzas-99
+12. AIRAC (2504) - Changed .05nokin alias for re-route simplicity - thanks to @Liaely (Lily Unitt)
+13. Enhancement - Add profiles for Ascension (Wideawake) and St. Helena Airfields - thanks to jackedwards815 (Jack Edwards) & @luke11brown (Luke Brown)
 
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally

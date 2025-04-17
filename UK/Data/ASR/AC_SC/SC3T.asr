@@ -1,6 +1,7 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+ARTCC boundary:LFP81:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
@@ -1275,8 +1276,6 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105:freetext
-Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1637,7 +1636,6 @@ VORs:DET:symbol
 VORs:DHE:symbol
 VORs:DIK:symbol
 VORs:DIN:symbol
-VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
@@ -1775,6 +1773,7 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;airfield.EGBB;airfield.EGNX
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_BARNSLEY;ASR_CHATHAM;ASR_COTSWOLD;ASR_PORTLAND
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
