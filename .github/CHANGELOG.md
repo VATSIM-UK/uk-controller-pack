@@ -1,3 +1,5 @@
+x. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
+
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
 2. Enhancement - Updated vATIS profiles & set up auto-updating - thanks to @BenWalker01 (Ben Walker)
