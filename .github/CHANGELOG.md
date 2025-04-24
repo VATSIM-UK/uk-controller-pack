@@ -1,3 +1,6 @@
+# Changes from release 2025/05 to 2025/06
+1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
 2. Enhancement - Updated vATIS profiles & set up auto-updating - thanks to @BenWalker01 (Ben Walker)
