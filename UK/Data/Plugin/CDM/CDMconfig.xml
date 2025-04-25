@@ -5,6 +5,7 @@
 	<expiredCtot time="25" />
 	<realMode mode="false" />
 	<pilotTobt mode="true" />
+	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
 	<Rates url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/taxizones.txt" />
