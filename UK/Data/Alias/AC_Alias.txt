@@ -137,7 +137,7 @@ Departure
 .08sam IMVUR N63 SAM then as filed
 .26kenet NOVMA L620 NIBDA N14 VOUGA then as filed
 .08kenet IMVUR N63 VOUGA then as filed
-.08benbo BOGNA L612 BENBO then as filed
+.26benbo BOGNA L612 BENBO then as filed
 .08benbo SFD Y47 BENBO then as filed
 .08xidil SFD M605 then as filed
 
@@ -153,8 +153,8 @@ Departure
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
 .27evtes GOGSI N612 EVTES then as filed
-.09mid MAXIT Y803 MID then as filed
-.27mid MODMI M185 MID then as filed
+.09mid MODMI M185 MID then as filed
+.27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
