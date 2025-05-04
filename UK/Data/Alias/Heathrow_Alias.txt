@@ -105,8 +105,8 @@ Departure Clearance
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
 .27evtes GOGSI N612 EVTES then as filed
-.09mid MAXIT Y803 MID then as filed
-.27mid MODMI M185 MID then as filed
+.09mid MODMI M185 MID then as filed
+.27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
