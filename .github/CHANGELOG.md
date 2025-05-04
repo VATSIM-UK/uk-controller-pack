@@ -1,3 +1,6 @@
+# Changes from release 2025/05 to 2025/06
+1. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
+
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
 2. Bug - Fixed iTEC Sector Indicator changing from controller ID to frequency - thanks to @SamLefevre (Samuel Lefevre)
