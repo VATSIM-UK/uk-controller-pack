@@ -5,7 +5,7 @@ Welcome to the UK Controller Pack repository. Thank you for your interest in con
 ## Contributor license agreement
 
 By submitting code as an individual, you agree that VATSIM UK can use your amendments, fixes, patches, changes, modifications, submissions and creations in the production of the UK Controller Pack and that the ownership of your submissions transfers to VATSIM UK in their entirety.
-Helping others
+## Helping others
 
 Please help other users wherever you can (everybody starts somewhere). If you require assistance (or wish to provide additional assistance) you can find our contributors in the VATSIM UK Discord.
 
