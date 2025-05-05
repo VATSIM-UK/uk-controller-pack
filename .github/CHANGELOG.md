@@ -1,3 +1,5 @@
+x. Procedure Change (####) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
 2. Bug - Fixed iTEC Sector Indicator changing from controller ID to frequency - thanks to @SamLefevre (Samuel Lefevre)
