@@ -15,11 +15,11 @@ PROFILE:EGVV_E_CTR:135:6
 ATIS2:Swanwick Mil
 ATIS3:Covering East and North East Swanwick sectors. Top-down control of military airfields only.
 ATIS4:UK FIS may be available to civilian traffic on request.
-PROFILE:BLKDG_CTR:400:6
-ATIS2:Blackdog
+PROFILE:HTSPR_1_CTR:400:6
+ATIS2:Hotspur
 ATIS3:Fighter control for VSOA assets ONLY.
 ATIS4:
-PROFILE:HTSPR_CTR:400:6
+PROFILE:HTSPR_2_CTR:400:6
 ATIS2:Hotspur
 ATIS3:Fighter control for VSOA assets ONLY.
 ATIS4:
