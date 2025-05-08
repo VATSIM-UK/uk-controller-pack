@@ -1,3 +1,6 @@
+# Changes from release 2025/05 to 2025/06
+1. AIRAC (2506) - Removed EGPE_A_APP frequency - thanks to @Liaely
+
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
 2. Bug - Fixed iTEC Sector Indicator changing from controller ID to frequency - thanks to @SamLefevre (Samuel Lefevre)
