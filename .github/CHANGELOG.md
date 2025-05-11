@@ -1,4 +1,4 @@
-x. Procedure Change (2505) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
+x. Procedure Change (2504) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
