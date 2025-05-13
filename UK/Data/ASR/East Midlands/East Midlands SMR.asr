@@ -984,6 +984,12 @@ DISABLEZOOMING:0
 DisplayRotation:1.7700
 TAGFAMILY:AC
 WINDOWAREA:52.817811:-1.362997:52.839839:-1.296516
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
+PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
