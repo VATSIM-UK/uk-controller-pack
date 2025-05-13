@@ -5,7 +5,9 @@
 4. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
 5. Bug - Fixed duplicate .08benbo alias - thanks to @ThomasSaunders (Thomas Saunders)
 6. Bug - Swap LL MID truncations - thanks to @ThomasSaunders (Thomas Saunders)
-7. Procedure Change (2505) - Added Paris/Reims ACC VESAN Release Line (TopSky Map)
+7. Added new RA(T) for SS Richard Montgomery - thanks to @quassbutreally
+8. Procedure Change (2504) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
+9. Procedure Change (2505) - Added Paris/Reims ACC VESAN Release Line (TopSky Map)
 
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
