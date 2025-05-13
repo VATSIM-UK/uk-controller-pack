@@ -1,0 +1,132 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+Airports:FHAW:name
+Airports:FHAW:symbol
+Airports:FHSH:name
+Airports:FHSH:symbol
+Airports:SAVC:name
+Airports:SAVC:symbol
+Airports:SAWB:name
+Airports:SAWB:symbol
+Airports:SAWE:name
+Airports:SAWE:symbol
+Airports:SAWG:name
+Airports:SAWG:symbol
+Airports:SAWH:name
+Airports:SAWH:symbol
+Airports:SCCI:name
+Airports:SCCI:symbol
+Airports:SCGZ:name
+Airports:SCGZ:symbol
+Airports:SCRM:name
+Airports:SCRM:symbol
+Airports:SUMU:name
+Airports:SUMU:symbol
+ARTCC high boundary:Stanley ATZ:
+ARTCC low boundary:Comodoro Rivadavia FIR SAVF:
+ARTCC low boundary:EGYP Mount Pleasant CTR:
+ARTCC low boundary:Ezeiza FIR SAEF:
+ARTCC low boundary:Montevideo SUEO FIR:
+Fixes:ALPHA:name
+Fixes:ALPHA:symbol
+Fixes:ASKAS:name
+Fixes:ASKAS:symbol
+Fixes:ATOKI:name
+Fixes:ATOKI:symbol
+Fixes:BRAVO:name
+Fixes:BRAVO:symbol
+Fixes:DIGIS:name
+Fixes:DIGIS:symbol
+Fixes:GEMIL:name
+Fixes:GEMIL:symbol
+Fixes:KABES:name
+Fixes:KABES:symbol
+Fixes:LOMIN:name
+Fixes:LOMIN:symbol
+Fixes:MOSKA:name
+Fixes:MOSKA:symbol
+Fixes:OTAGI:name
+Fixes:OTAGI:symbol
+Free Text:EGYP SMAA Bases QNH\1400:freetext
+Free Text:EGYP SMAA Bases QNH\1400:freetext
+Free Text:EGYP SMAA Bases QNH\2100:freetext
+Free Text:EGYP SMAA Bases QNH\2500:freetext
+Free Text:EGYP SMAA Bases QNH\2600:freetext
+Free Text:EGYP SMAA Bases QNH\2600:freetext
+Free Text:EGYP SMAA Bases QNH\3200:freetext
+Free Text:EGYP SMAA Bases QNH\3400:freetext
+Free Text:Ranges\Arrow:freetext
+Free Text:Ranges\SFC-FL110:freetext
+Free Text:Ranges\SFC-FL110:freetext
+Geo:28 Centreline:
+Geo:28 SRA Ticks:
+Geo:Antartica 13948116:
+Geo:Argentina 13948116:
+Geo:Falkland Islands 13948116:
+Geo:South Sandwich Islands:
+Regions:Onion Range:polygon
+Regions:Rookery Bay/Phillips Point:polygon
+Regions:Second Creek Range:polygon
+Regions:Victoria Harbour (Arrow) Range:polygon
+Runways:EGYP Mount Pleasant 05-23:centerline
+Runways:EGYP Mount Pleasant 10-28:centerline
+Sids:28 FAVA:
+Sids:ADIZ:
+Sids:EGYP RAF Mount Pleasant SMAA:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:-52.874505:-61.770126:-50.685409:-55.040955
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:100
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:100
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:DisplayCountdown:0
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:8
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:1
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailType:3
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:100
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:100
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:0
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:200
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:200
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:0
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:100
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:100
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200

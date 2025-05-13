@@ -11,7 +11,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Ronaldsway\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2025_02.sct
+Settings	sector	UK\Data\Sector\UK_2025_04.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Ronaldsway\Ronaldsway Radar_1.asr
@@ -36,6 +36,7 @@ Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin6	\..\Data\Plugin\CDM\CDM.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt

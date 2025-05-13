@@ -1,7 +1,7 @@
 ========================================================
 Alias:          Heathrow
 Created:     	2016-03-31
-Last Updated:	2024-04-18
+Last Updated:	2025-04-04
 ========================================================
 
 ========================================================
@@ -91,6 +91,7 @@ Departure Clearance
 
 .pdc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
 .pdcc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. SLOT TIME $1. PDC READBACK NOT RQRD. 
+.pdccpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON DME 2.0 TURN RIGHT HDG 220 - CLIMB 6000 FT. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)hPa
 .sidrw Cleared to $arr, $sid departure, Runway $deprwy($dep), squawk $squawk, QNH $altim($dep)hPa
@@ -99,6 +100,15 @@ Departure Clearance
 .sidirw Cleared to $arr, $sid departure, Runway $deprwy($dep), initial climb $temp, squawk $squawk, QNH $altim($dep)hPa
 
 .llcpt You are cleared to $arr via CPT, then flight planned route. After departure Runway 09R climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft. Heathrow QNH $altim(egll)hPa. Squawk $squawk
+
+.09sam GASGU N866 SAM then as filed
+.27sam GOGSI N621 SAM then as filed
+.09evtes GASGU N514 EVTES then as filed
+.27evtes GOGSI N612 EVTES then as filed
+.09mid MODMI M185 MID then as filed
+.27mid MAXIT Y803 MID then as filed
+.09welin ULTIB T420 then as filed
+.27welin UMLAT T418 WELIN then as filed
 
 .rc Readback correct
 .rcq Readback correct, QNH $altim($dep)
