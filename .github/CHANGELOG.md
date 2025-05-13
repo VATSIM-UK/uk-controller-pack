@@ -1,5 +1,3 @@
-x. Procedure Change (2504) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
-
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
 2. Bug - Fixed iTEC Sector Indicator changing from controller ID to frequency - thanks to @SamLefevre (Samuel Lefevre)
@@ -7,6 +5,7 @@ x. Procedure Change (2504) - Updated fighter control positions - thanks to @Liae
 4. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
 5. Bug - Fixed duplicate .08benbo alias - thanks to @ThomasSaunders (Thomas Saunders)
 6. Bug - Swap LL MID truncations - thanks to @ThomasSaunders (Thomas Saunders)
+7. Procedure Change (2504) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
