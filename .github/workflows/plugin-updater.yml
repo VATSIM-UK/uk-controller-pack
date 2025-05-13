@@ -49,7 +49,16 @@ jobs:
 
               gh issue create \
                 --title "Incorporate $repo $latest_tag" \
-                --body "A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published.\n\nIncorporate the relevant DLL and raise a PR that updates:\n\n- \`.github/dependency_versions.json\`\n\nEnsure to read the changelog for the updated plugin and make any applicable configuration changes." \
+                --body "$(cat <<EOF
+              A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published.
+
+              Incorporate the relevant DLL and raise a PR that updates:
+
+              - \`.github/dependency_versions.json\`
+
+              Ensure to read the changelog for the updated plugin and make any applicable configuration changes.
+              EOF
+              )"
                 --label dependencies || echo "Issue may already exist"
             else
               echo "No update needed for $repo ($prev_tag)"
