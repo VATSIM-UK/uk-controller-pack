@@ -1,16 +1,13 @@
 ![Controller_Pack](https://github.com/kye-taylor/uk-controller-pack/assets/46931474/7c2daddf-118e-4601-bacc-78c25ca4a748)
 
-<!-- GitHub-hosted plugin versions -->
-[![vSMR](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=vSMR)](https://github.com/AliceFord/vSMR/releases)
-[![RDF](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=RDF)](https://github.com/KingfuChan/RDF/releases)
-[![Slots-Plugin](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=Slots-Plugin)](https://github.com/VATSIMCanada/Slots-Plugin/releases)
-[![CDM](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=CDM)](https://github.com/rpuig2001/CDM/releases)
-[![VCH](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=VCH)](https://github.com/DrFreas/VCH/releases)
-[![EuroScope-CCDS-R](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=EuroScope-CCDS-R)](https://github.com/quassbutreally/EuroScope-CCDS-R/releases)
-
-<!-- Static dependencies -->
-![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=TopSky)
-![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=MAESTRO)
+[![vSMR](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=vSMR&cacheSeconds=60)](https://github.com/AliceFord/vSMR/releases)
+[![RDF](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=RDF&cacheSeconds=60)](https://github.com/KingfuChan/RDF/releases)
+[![Slots-Plugin](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=Slots-Plugin&cacheSeconds=60)](https://github.com/VATSIMCanada/Slots-Plugin/releases)
+[![CDM](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=CDM&cacheSeconds=60)](https://github.com/rpuig2001/CDM/releases)
+[![VCH](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=VCH&cacheSeconds=60)](https://github.com/DrFreas/VCH/releases)
+[![EuroScope-CCDS-R](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=EuroScope-CCDS-R&cacheSeconds=60)](https://github.com/quassbutreally/EuroScope-CCDS-R/releases)
+![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=TopSky&cacheSeconds=60)
+![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/dependency_versions.json&path=MAESTRO&cacheSeconds=60)
 
 
 # Welcome
