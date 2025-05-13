@@ -10,7 +10,7 @@
 9. Procedure Change (2505) - Added Paris/Reims ACC VESAN Release Line (TopSky Map)
 10. Enhancement - Added additional French waypoints to ASRs
 11. Procedure Change (2505) - Updated French CPDLC position definitions to reflect new callsigns
-X. Enhancement - Updated RDF and replaced AFV-EuroScope Bridge Plugins - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Updated RDF and replaced AFV-EuroScope Bridge Plugins - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
