@@ -1,4 +1,4 @@
-name: Check For Plugin Releases
+name: Check Upstream Plugin Releases
 
 on:
   schedule:
@@ -38,10 +38,11 @@ jobs:
           [ -f "$VERSION_FILE" ] || echo "{}" > "$VERSION_FILE"
 
           for repo in "${REPOS[@]}"; do
+            key=$(echo "$repo" | cut -d/ -f2)
             latest_tag=$(curl -s "https://api.github.com/repos/$repo/releases/latest" | jq -r '.tag_name // empty')
             [ -z "$latest_tag" ] && latest_tag="v0.0.0"
 
-            prev_tag=$(jq -r --arg repo "$repo" '.[$repo].message // "v0.0.0"' "$VERSION_FILE")
+            prev_tag=$(jq -r --arg key "$key" '.[$key].message // "v0.0.0"' "$VERSION_FILE")
 
             if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
               echo "New release detected for $repo: $latest_tag"
