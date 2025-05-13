@@ -35,8 +35,6 @@
         "message": "v1.1",
         "color": "blue"
     },
-
-    // Non-GitHub dependencies
     "TopSky": {
         "schemaVersion": 1,
         "label": "TopSky",
