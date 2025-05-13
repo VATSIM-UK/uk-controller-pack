@@ -1,49 +1,6 @@
-# Changes from release 2025/04 to 2025/05
-1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
-2. Bug - Fixed iTEC Sector Indicator changing from controller ID to frequency - thanks to @SamLefevre (Samuel Lefevre)
-3. Enhancement - Incorporated CDM Plugin 2.2.6 - thanks to @luke11brown (Luke Brown)
-4. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
-5. Bug - Fixed duplicate .08benbo alias - thanks to @ThomasSaunders (Thomas Saunders)
-6. Bug - Swap LL MID truncations - thanks to @ThomasSaunders (Thomas Saunders
-
-# Changes from release 2025/03 to 2025/04
-1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)
-2. Enhancement - Updated vATIS profiles & set up auto-updating - thanks to @BenWalker01 (Ben Walker)
-3. Enhancement - Add common re route aliases - thanks to Ben Walker (@BenWalker01)
-4. Enhancement - Improved AC-TopSky tag line alignment for (un)tagged vs. detailed - thanks to @hazzas-99
-5. Bug - Fixed position of groundspeed on AC-TopSky untagged tags to matched detailed view - thanks to @hazzas-99
-6. Enhancement - Displayed LFP81 (Prohibited Area up to FL195 - nuclear site) on AC Area ASRs - thanks to @hazzas-99
-7. Enhancement - General AC Area ASR display setting updates - thanks to @hazzas-99
-8. Bug - Corrected Manchester (EGCC) Planner frequency - thanks to @PLM1995 (Peter Mooney)
-9. Enhancement - Changed TopSky pre-active time to 30 minutes - thanks to @Liaely (Lily Unitt)
-10. Enhancement - Updated pending CPDLC colour on NERC to reflect real world and for easier readabiltiy - thanks to @SamLefevre (Samuel Lefevre)
-11. Enhancement - Removed Conflict Alert sound - thanks to @hazzas-99
-12. AIRAC (2504) - Changed .05nokin alias for re-route simplicity - thanks to @Liaely (Lily Unitt)
-13. Enhancement - Add profiles for Ascension (Wideawake) and St. Helena Airfields - thanks to jackedwards815 (Jack Edwards) & @luke11brown (Luke Brown)
-14. Bug - Moved position of takeoff list in RECAT profiles - thanks to @luke11brown (Luke Brown)
-15. Enhancement - Updated TopSky Plugin to latest release version (2.5) - thanks to @luke11brown (Luke Brown)
-16. Enhancement - Updated MAESTRO Plugin to latest release version (1.1) - thanks to @luke11brown (Luke Brown)
-17. Enhancement - Updated VCH Plugin to latest release version (0.8.6) - thanks to @luke11brown (Luke Brown)
-18. Enhancement - Added CDM to combined profiles - thanks to @lucak1011 (Luca Kulaga)
-19. AIRAC (2504) - Added Kirknewton (EGKT) gliding area to TopSky - thanks to @luke11brown (Luke Brown)
-20. AIRAC (2504) - Added Kirknewton AGCS to Voice Settings - thanks to @luke11brown (Luke Brown)
-
 # Changes from release 2025/02 to 2025/03
 1. AIRAC (2503) - Modified EAMTA Lateral Confines - thanks to @quassbutreally
-2. AIRAC (2503) - London Gatwick (EGKK) RECAT-EU Implementation - thanks to @luke11brown (Luke Brown)
-3. Enhancement - Updated CDM Plugin to 2.2.5.3 - thanks to @luke11brown (Luke Brown)
-4. Bug & Enhancement - Fixed various TopSky settings and added centreline shortcut (ALT+T) - thanks to @SamLefevre (Samuel Lefevre)
-5. Enhancement - Added Ground Speed to NERC (AC-TopSky) untagged tags - thanks to @SamLefevre (Samuel Lefevre)
-6. Enhancement - Added vSMR WIP areas - thanks to @AliceFord (Alice Ford)
-7. Enhancement - Change Gloucester (EGBJ) Approach logon callsign - thanks to @AdriTheDev (Callum Hicks)
-8. AIRAC (2503) - Add Little Rissington (EGVL) radio frequency - thanks to @AdriTheDev (Callum Hicks)
-9. AIRAC (2503) - Change Syerston (EGXY) frequency - thanks to @AdriTheDev (Callum Hicks)
-10. AIRAC (2503) - Change Topcliffe (EGXZ) frequency - thanks to @AdriTheDev (Callum Hicks)
-11. AIRAC (2503) - Change Upavon (EGDJ) frequency - thanks to @AdriTheDev (Callum Hicks)
-12. Enhancement - Enabled ASEL Highlighting on ATM Lists - thanks to @PLM1995 (Peter Mooney)
-13. Bug - Removed Gatwick (EGKK) reference to Puckeridge VRP - thanks to @PLM1995 (Peter Mooney)
-14. Enhancement - Added Falkland Islands Profiles & Displays - thanks to @luke11brown (Luke Brown)
-15. Bug - Updated vSMR to recognise A350 PDC responses - thanks to @AliceFord (Alice Ford)
+X. Enhancement - Updated RDF and replaced AFV-EuroScope Bridge Plugins - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/01 to 2025/02
 1. Enhancement - Added Ronaldsway (EGNS) settings and displays - thanks to @SamLefevre (Samuel Lefevre)

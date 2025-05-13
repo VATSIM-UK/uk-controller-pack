@@ -19,9 +19,6 @@ Shortcut_Map_Target=2,Shortcuts\VRPs
 Shortcut_Map_Xfr_Combo=3,0x12
 Shortcut_Map_Xfr_Key=3,0x48
 Shortcut_Map_Target=3,Shortcuts\Heli Points
-Shortcut_Map_Xfr_Combo=4,0x12
-Shortcut_Map_Xfr_Key=4,0x54
-Shortcut_Map_Target=4,Shortcuts\All Centrelines
 
 //System wide settings
 Setup_COOPANS=1
@@ -29,7 +26,6 @@ Airspace_ASSR_Type=0
 Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
-Areas_PreActiveTime=1800
 Track_HistoryDots=0
 System_MagModel_Type=2
 System_MagModel_Model=0
@@ -41,8 +37,6 @@ System_TransferConfirmation=0
 Label_Rev_Highlight_Delta_ETN=15
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowDct=2
-Label_N_Default=0
-Label_GS_Prefix=G
 MTCD_Distance_Holding=30
 Label_CFL_DefaultValue=1
 Label_DAPs=1
@@ -99,11 +93,11 @@ Color_Concerned=110,153,110
 Color_Coordination=224,212,40
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_Discarded
-Color_CPDLC_DM_Request=21,96,130
+Color_CPDLC_DM_Request=0,0,205
 Color_CPDLC_Failed=212,128,44
 Color_CPDLC_Pilot_Late=212,124,44
 Color_CPDLC_Standby=212,128,44
-Color_CPDLC_UM_Clearance=21,96,130
+Color_CPDLC_UM_Clearance=0,0,205
 Color_CPDLC_Unable=212,128,44
 Color_CPDLC_Urgency
 Color_Datalink_Logged_On=145,145,145
@@ -224,12 +218,6 @@ WXR_Gain=85
 WXR_Echo_dBZ_Hi=20
 WXR_Echo_dBZ_Med=15
 WXR_Echo_dBZ_Lo=12 
-
-// Wind Data Settings
-HTTP_GRIB_Latitude_Max=61
-HTTP_GRIB_Latitude_Min=48
-HTTP_GRIB_Longitude_Max=5
-HTTP_GRIB_Longitude_Min=-10
 
 [LON_]
 Setup_ScreenLat=DTY

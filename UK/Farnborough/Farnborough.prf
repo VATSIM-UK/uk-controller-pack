@@ -1,4 +1,4 @@
-Settings	sector	UK\Data\Sector\UK_2025_04.sct
+Settings	sector	UK\Data\Sector\UK_2025_02.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
@@ -65,7 +65,6 @@ Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen
-Plugins	Plugin6	\..\Data\Plugin\CDM\CDM.dll
 ASRFastKeys	1	\..\Data\ASR\Farnborough\Farnborough Radar_1.asr
 ASRFastKeys	2	\..\Data\ASR\Farnborough\Farnborough Radar_2.asr
 ASRFastKeys	3	\..\Data\ASR\Farnborough\Farnborough Radar_3.asr

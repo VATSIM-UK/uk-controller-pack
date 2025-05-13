@@ -62,7 +62,7 @@ SET_WTC_A380:J
 m_RotateRouteTexts:1
 m_NeverCloseFreqChat:1
 m_KeepScratchPadAfterDirect:0
-m_HiliteASELAircraft:1
+m_HiliteASELAircraft:0
 m_EnableVoiceRecognition:0
 m_VoiceRecognitionStyle:2
 m_SModeTransponders:IEFGRWQ

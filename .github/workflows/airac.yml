@@ -43,19 +43,10 @@ jobs:
         run: |
           bash workflows/airac/update-smr-labels.sh
 
-      - name: Commit SMR label changes
+      - name: Commit changes
         run: |
           git add .
           git commit -m "Update SMR labels"
-      
-      - name: Update radar fixes
-        run: |
-          python workflows/airac/ASR-Updater.py
-
-      - name: Commit radar fixes changes
-        run: |
-          git add .
-          git commit -m "Update radar fixes"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5

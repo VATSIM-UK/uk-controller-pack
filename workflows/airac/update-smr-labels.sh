@@ -17,7 +17,7 @@ for SCT in UK/Data/Sector/*.sct; do
     fi
     tail -n +"$OFS" "$SCT" | tail -n +2 > "$TMP1"
 
-    LEN=$(grep -nE "^\[.+\]$" "$TMP1" | cut -d: -f1 | head -n1 || echo "")
+    LEN=$(grep -nE "^\[.+\]$" "$TMP1" | cut -d: -f1 || echo "")
     if [ -z "$LEN" ]; then
         echo "No section found after [LABELS] in $SCT"
         continue

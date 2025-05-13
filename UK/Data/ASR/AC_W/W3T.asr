@@ -1,7 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-ARTCC boundary:LFP81:
 ARTCC high boundary:Argyll CTA:
 ARTCC high boundary:Balder CTA:
 ARTCC high boundary:BANBA CTA:
@@ -159,8 +158,6 @@ Fixes:ALOTI:symbol
 Fixes:ALUTA:symbol
 Fixes:AMCON:symbol
 Fixes:AMDUT:symbol
-Fixes:AMFEP:symbol
-Fixes:AMFUL:symbol
 Fixes:AMLAD:symbol
 Fixes:AMLET:symbol
 Fixes:AMMAN:symbol
@@ -171,8 +168,9 @@ Fixes:AMTAP:symbol
 Fixes:AMTOD:symbol
 Fixes:AMVEL:symbol
 Fixes:AMWAB:symbol
+Fixes:ANGLA:symbol
+Fixes:ANGLO:symbol
 Fixes:ANJAK:symbol
-Fixes:ANMAZ:symbol
 Fixes:ANNET:symbol
 Fixes:APPLE:symbol
 Fixes:APSOV:symbol
@@ -230,7 +228,6 @@ Fixes:BARTN:symbol
 Fixes:BATLI:symbol
 Fixes:BAVDO:symbol
 Fixes:BAVUD:symbol
-Fixes:BAZNA:symbol
 Fixes:BEBNI:symbol
 Fixes:BEDFO:symbol
 Fixes:BEDRA:symbol
@@ -243,6 +240,7 @@ Fixes:BEKMO:symbol
 Fixes:BELOX:symbol
 Fixes:BELZU:symbol
 Fixes:BENBO:symbol
+Fixes:BENIX:symbol
 Fixes:BENSU:symbol
 Fixes:BEPHE:symbol
 Fixes:BEREP:symbol
@@ -252,6 +250,7 @@ Fixes:BESGA:symbol
 Fixes:BETAX:symbol
 Fixes:BETPO:symbol
 Fixes:BEVAM:symbol
+Fixes:BEVAV:symbol
 Fixes:BEVUP:symbol
 Fixes:BIBPE:symbol
 Fixes:BIDVA:symbol
@@ -280,6 +279,7 @@ Fixes:BOXHE:symbol
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
+Fixes:BRILL:symbol
 Fixes:BRIPO:symbol
 Fixes:BRUCE:symbol
 Fixes:BRUMI:symbol
@@ -300,6 +300,7 @@ Fixes:CAWZE:symbol
 Fixes:CESQA:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
+Fixes:CHUBB:symbol
 Fixes:CLYDE:symbol
 Fixes:COCCU:symbol
 Fixes:CONHA:symbol
@@ -334,6 +335,7 @@ Fixes:DIGBI:symbol
 Fixes:DIGMA:symbol
 Fixes:DIGSU:symbol
 Fixes:DIGUT:symbol
+Fixes:DIKRO:symbol
 Fixes:DIKVU:symbol
 Fixes:DIMLI:symbol
 Fixes:DINIM:symbol
@@ -367,7 +369,6 @@ Fixes:EDCOX:symbol
 Fixes:EDFAR:symbol
 Fixes:EDONU:symbol
 Fixes:EDUXO:symbol
-Fixes:EFMIH:symbol
 Fixes:EGRUF:symbol
 Fixes:EKLAD:symbol
 Fixes:EKNIV:symbol
@@ -375,7 +376,6 @@ Fixes:ELBOB:symbol
 Fixes:ELBUS:symbol
 Fixes:ELDAX:symbol
 Fixes:ELDER:symbol
-Fixes:ELDOP:symbol
 Fixes:ELEZE:symbol
 Fixes:ELKOG:symbol
 Fixes:ELLIQ:symbol
@@ -407,9 +407,7 @@ Fixes:ENIPI:symbol
 Fixes:ENITO:symbol
 Fixes:ENJEX:symbol
 Fixes:ENUKU:symbol
-Fixes:ENZEN:symbol
 Fixes:EPACE:symbol
-Fixes:EPATI:symbol
 Fixes:EPLEF:symbol
 Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
@@ -435,9 +433,9 @@ Fixes:ETSOM:symbol
 Fixes:ETVAX:symbol
 Fixes:EVATA:symbol
 Fixes:EVBEV:symbol
-Fixes:EVELI:symbol
 Fixes:EVEXU:symbol
 Fixes:EVKAL:symbol
+Fixes:EVKEX:symbol
 Fixes:EVMEK:symbol
 Fixes:EVNAL:symbol
 Fixes:EVNAS:symbol
@@ -488,7 +486,6 @@ Fixes:GELPO:symbol
 Fixes:GETNO:symbol
 Fixes:GIBSO:symbol
 Fixes:GIBSU:symbol
-Fixes:GIFJE:symbol
 Fixes:GIGTO:symbol
 Fixes:GIGUL:symbol
 Fixes:GILDA:symbol
@@ -523,7 +520,7 @@ Fixes:GOTNA:symbol
 Fixes:GOXUL:symbol
 Fixes:GRICE:symbol
 Fixes:GROVE:symbol
-Fixes:GUBJE:symbol
+Fixes:GULDA:symbol
 Fixes:GUNPA:symbol
 Fixes:GUNSO:symbol
 Fixes:GUNTU:symbol
@@ -553,17 +550,14 @@ Fixes:IBTES:symbol
 Fixes:ICCIN:symbol
 Fixes:ICOSA:symbol
 Fixes:ICTAM:symbol
-Fixes:IDDEC:symbol
 Fixes:IDESI:symbol
 Fixes:IDEXA:symbol
 Fixes:IDGAS:symbol
 Fixes:IDITU:symbol
 Fixes:IDKOL:symbol
 Fixes:IDRID:symbol
-Fixes:IJALA:symbol
 Fixes:ILLOC:symbol
 Fixes:ILZIC:symbol
-Fixes:IMPOH:symbol
 Fixes:IMVUR:symbol
 Fixes:INBAS:symbol
 Fixes:INBOB:symbol
@@ -602,6 +596,7 @@ Fixes:KAMJU:symbol
 Fixes:KAPEX:symbol
 Fixes:KARNO:symbol
 Fixes:KATHY:symbol
+Fixes:KAWGE:symbol
 Fixes:KEGIT:symbol
 Fixes:KEGUN:symbol
 Fixes:KELLY:symbol
@@ -621,12 +616,13 @@ Fixes:KOBBI:symbol
 Fixes:KOGAD:symbol
 Fixes:KOKAL:symbol
 Fixes:KOKIB:symbol
+Fixes:KOKOS:symbol
+Fixes:KOLAG:symbol
 Fixes:KOLID:symbol
 Fixes:KONAN:symbol
 Fixes:KOPUL:symbol
 Fixes:KORXA:symbol
 Fixes:KOTEM:symbol
-Fixes:KOZUF:symbol
 Fixes:KRAGY:symbol
 Fixes:KUBAX:symbol
 Fixes:KUGUR:symbol
@@ -653,12 +649,14 @@ Fixes:LARLA:symbol
 Fixes:LASNO:symbol
 Fixes:LATMU:symbol
 Fixes:LAVRI:symbol
+Fixes:LEDBO:symbol
 Fixes:LEDGO:symbol
 Fixes:LEGRO:symbol
 Fixes:LEKCI:symbol
 Fixes:LELDO:symbol
 Fixes:LELNA:symbol
 Fixes:LEMGU:symbol
+Fixes:LERAK:symbol
 Fixes:LESLU:symbol
 Fixes:LESNI:symbol
 Fixes:LESRA:symbol
@@ -690,6 +688,7 @@ Fixes:LUGIS:symbol
 Fixes:LULOX:symbol
 Fixes:LUMEN:symbol
 Fixes:LUSEN:symbol
+Fixes:LUSIT:symbol
 Fixes:LUSIV:symbol
 Fixes:LUSOD:symbol
 Fixes:LUSOR:symbol
@@ -710,7 +709,6 @@ Fixes:MASOP:symbol
 Fixes:MATCH:symbol
 Fixes:MATIK:symbol
 Fixes:MATUT:symbol
-Fixes:MAVAS:symbol
 Fixes:MAVET:symbol
 Fixes:MAXIT:symbol
 Fixes:MAYLA:symbol
@@ -721,6 +719,7 @@ Fixes:MIDJO:symbol
 Fixes:MIMFO:symbol
 Fixes:MIMKU:symbol
 Fixes:MIMVA:symbol
+Fixes:MINQI:symbol
 Fixes:MIPVO:symbol
 Fixes:MIRSI:symbol
 Fixes:MITSO:symbol
@@ -828,9 +827,9 @@ Fixes:ODROB:symbol
 Fixes:ODUKU:symbol
 Fixes:ODVIK:symbol
 Fixes:ODVOD:symbol
-Fixes:OFCOT:symbol
 Fixes:OFJES:symbol
 Fixes:OFSOX:symbol
+Fixes:OGLUN:symbol
 Fixes:OGTAW:symbol
 Fixes:OGTUG:symbol
 Fixes:OKNOB:symbol
@@ -844,9 +843,11 @@ Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
 Fixes:OMOKO:symbol
 Fixes:ORIST:symbol
+Fixes:ORMER:symbol
 Fixes:ORSUM:symbol
 Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
+Fixes:ORVAL:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
 Fixes:OSBON:symbol
@@ -865,9 +866,11 @@ Fixes:OTLAB:symbol
 Fixes:OTMET:symbol
 Fixes:OTSID:symbol
 Fixes:OVDAN:symbol
+Fixes:OVFOX:symbol
 Fixes:OXCUD:symbol
 Fixes:OXDUF:symbol
 Fixes:OXLOW:symbol
+Fixes:OYSTA:symbol
 Fixes:OZBOC:symbol
 Fixes:OZZIL:symbol
 Fixes:OZZOT:symbol
@@ -890,6 +893,7 @@ Fixes:PEPIS:symbol
 Fixes:PEPOD:symbol
 Fixes:PEPUL:symbol
 Fixes:PEPZE:symbol
+Fixes:PERCH:symbol
 Fixes:PERUP:symbol
 Fixes:PETAX:symbol
 Fixes:PETIL:symbol
@@ -897,6 +901,7 @@ Fixes:PETOX:symbol
 Fixes:PEWBI:symbol
 Fixes:PIBUX:symbol
 Fixes:PIGOT:symbol
+Fixes:PIKEY:symbol
 Fixes:PIKIL:symbol
 Fixes:PILIP:symbol
 Fixes:PIPAR:symbol
@@ -971,7 +976,6 @@ Fixes:ROXAT:symbol
 Fixes:ROXOG:symbol
 Fixes:RUBEX:symbol
 Fixes:RUBMI:symbol
-Fixes:RUCAC:symbol
 Fixes:RUDMO:symbol
 Fixes:RUGER:symbol
 Fixes:RUGID:symbol
@@ -990,8 +994,10 @@ Fixes:SASKI:symbol
 Fixes:SAWPE:symbol
 Fixes:SAXBI:symbol
 Fixes:SEMMU:symbol
+Fixes:SENLO:symbol
 Fixes:SETEL:symbol
 Fixes:SHAPP:symbol
+Fixes:SHARK:symbol
 Fixes:SHIRI:symbol
 Fixes:SIDDI:symbol
 Fixes:SIDHO:symbol
@@ -1035,7 +1041,6 @@ Fixes:STOAT:symbol
 Fixes:SUBIP:symbol
 Fixes:SUBUK:symbol
 Fixes:SUDBY:symbol
-Fixes:SUGOL:symbol
 Fixes:SUMIN:symbol
 Fixes:SUMUM:symbol
 Fixes:SUNOT:symbol
@@ -1098,7 +1103,6 @@ Fixes:TORGO:symbol
 Fixes:TOSVA:symbol
 Fixes:TOTRI:symbol
 Fixes:TOVGU:symbol
-Fixes:TOWTE:symbol
 Fixes:TOXTA:symbol
 Fixes:TRIPO:symbol
 Fixes:TUBSU:symbol
@@ -1108,6 +1112,7 @@ Fixes:TUJAG:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
 Fixes:TUNBY:symbol
+Fixes:TUNIT:symbol
 Fixes:TUNSO:symbol
 Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
@@ -1137,6 +1142,7 @@ Fixes:UPCAB:symbol
 Fixes:UPDUK:symbol
 Fixes:UPGAS:symbol
 Fixes:UPGET:symbol
+Fixes:UPLIS:symbol
 Fixes:UPNAL:symbol
 Fixes:UPTON:symbol
 Fixes:USEKA:symbol
@@ -1276,6 +1282,8 @@ Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
 Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105:freetext
+Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105C:freetext
 Free Text:Airspace Bases\FL105E:freetext
@@ -1288,6 +1296,8 @@ Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115C:freetext
 Free Text:Airspace Bases\FL115E:freetext
+Free Text:Airspace Bases\FL125:freetext
+Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
 Free Text:Airspace Bases\FL125:freetext
@@ -1322,15 +1332,9 @@ Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
-Free Text:Airspace Bases\FL155:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
 Free Text:Airspace Bases\FL165:freetext
-Free Text:Airspace Bases\FL175:freetext
-Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
 Free Text:Airspace Bases\FL175:freetext
@@ -1421,6 +1425,7 @@ Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95:freetext
+Free Text:Airspace Bases\FL95:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95D:freetext
 Free Text:Airspace Bases\FL95E:freetext
@@ -1468,7 +1473,6 @@ Free Text:EGGD Airspace Bases\2000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3000':freetext
 Free Text:EGGD Airspace Bases\3500':freetext
-Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4000':freetext
 Free Text:EGGD Airspace Bases\4500':freetext
 Free Text:EGGP Airspace Bases\1500':freetext
@@ -1620,6 +1624,7 @@ VORs:DET:symbol
 VORs:DHE:symbol
 VORs:DIK:symbol
 VORs:DIN:symbol
+VORs:DPE:symbol
 VORs:DTY:symbol
 VORs:DUB:symbol
 VORs:DVL:symbol
@@ -1695,6 +1700,7 @@ VORs:TIR:symbol
 VORs:TLA:symbol
 VORs:TNT:symbol
 VORs:TRN:symbol
+VORs:VES:symbol
 VORs:VLN:symbol
 VORs:VYL:symbol
 VORs:WAD:symbol
@@ -1757,7 +1763,6 @@ PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:selectedHoldProfile:0
 PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGJJ;airfield.EGFF
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_HOLYHEAD;ASR_BARNSLEY;ASR_SCILLIES;ASR_WESSEX;ASR_COTSWOLD;ASR_PORTLAND
-PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
