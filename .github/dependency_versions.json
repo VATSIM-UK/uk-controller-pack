@@ -1,0 +1,52 @@
+{
+    "vSMR": {
+        "schemaVersion": 1,
+        "label": "vSMR",
+        "message": "v1.6.2",
+        "color": "blue"
+    },
+    "RDF": {
+        "schemaVersion": 1,
+        "label": "RDF",
+        "message": "v1.4.2",
+        "color": "blue"
+    },
+    "Slots-Plugin": {
+        "schemaVersion": 1,
+        "label": "Slots-Plugin",
+        "message": "v1.10",
+        "color": "blue"
+    },
+    "CDM": {
+        "schemaVersion": 1,
+        "label": "CDM",
+        "message": "v2.2.6",
+        "color": "blue"
+    },
+    "VCH": {
+        "schemaVersion": 1,
+        "label": "VCH",
+        "message": "v0.8.6",
+        "color": "blue"
+    },
+    "EuroScope-CCDS-R": {
+        "schemaVersion": 1,
+        "label": "EuroScope-CCDS-R",
+        "message": "v1.1",
+        "color": "blue"
+    },
+
+    // Non-GitHub dependencies
+    "TopSky": {
+        "schemaVersion": 1,
+        "label": "TopSky",
+        "message": "v2.5",
+        "color": "green"
+    },
+    "MAESTRO": {
+        "schemaVersion": 1,
+        "label": "MAESTRO",
+        "message": "v1.1",
+        "color": "orange"
+    }
+}
