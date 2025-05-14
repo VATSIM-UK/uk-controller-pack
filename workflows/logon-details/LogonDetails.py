@@ -171,7 +171,7 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
 
 def prompt_for_field(key, current):
     descriptions = {
-        "name": "Enter your full real name as used on VATSIM",
+        "name": "Enter your name as used on VATSIM. Refer to Code of Conduct A4(b)",
         "initials": "Enter your 2–3 letter identifier for use when observing (e.g. LB or JSM)",
         "cid": "Enter your VATSIM CID (Certificate ID)",
         "rating": "Enter your current controller rating",
