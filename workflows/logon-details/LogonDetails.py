@@ -399,15 +399,19 @@ def main():
     apply_advanced_configuration(options)
     messagebox.showinfo("Complete", "Profile Configuration Complete")
     time.sleep(1.5)
-    try:
-        tk._default_root.destroy()
-    except Exception:
-        pass
-    sys.exit(0)
 
 if __name__ == "__main__":
     try:
         main()
     finally:
+        try:
+            for w in tk._default_root.children.values():
+                w.destroy()
+            tk._default_root.destroy()
+        except Exception:
+            pass
         if getattr(sys, 'frozen', False):
             os._exit(0)
+        else:
+            sys.exit(0)
+
