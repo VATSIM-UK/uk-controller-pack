@@ -2,49 +2,11 @@ import os
 import sys
 import json
 import time
-import sounddevice as sd
+import tempfile
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
-
-VK_MAP = {
-    "CONTROL_R": 0xA3,
-    "CONTROL_L": 0xA2,
-    "SHIFT_R": 0xA1,
-    "SHIFT_L": 0xA0,
-    "ALT_R": 0xA5,
-    "ALT_L": 0xA4,
-    "RETURN": 0x0D,
-    "ESCAPE": 0x1B,
-    "TAB": 0x09,
-    "SPACE": 0x20,
-    "CAPS_LOCK": 0x14,
-    "F1": 0x70,
-    "F2": 0x71,
-    "F3": 0x72,
-    "F4": 0x73,
-    "F5": 0x74,
-    "F6": 0x75,
-    "F7": 0x76,
-    "F8": 0x77,
-    "F9": 0x78,
-    "F10": 0x79,
-    "F11": 0x7A,
-    "F12": 0x7B,
-    "F13": 0x7C,
-    "F14": 0x7D,
-    "F15": 0x7E,
-    "F16": 0x7F,
-    "F17": 0x80,
-    "F18": 0x81,
-    "F19": 0x82,
-    "F20": 0x83,
-    "F21": 0x84,
-    "F22": 0x85,
-    "F23": 0x86,
-    "F24": 0x87
-}
 
 _original_init = simpledialog.Dialog.__init__
 
@@ -83,16 +45,13 @@ DEFAULT_FIELDS = {
     "rating": "",
     "password": "",
     "cpdlc": "",
-    "ptt": "",
-    "vccs_input": "",
-    "vccs_output": "",
     "realistic_tags": "n",
     "realistic_conversion": "n",
     "coast_choice": "1",
     "land_choice": "1"
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "ptt", "vccs_input", "vccs_output"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
 
 def load_previous_options():
@@ -111,10 +70,6 @@ def ask_string(prompt, default=""):
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
     dialog.resizable(False, False)
-    def on_close():
-        dialog.destroy()
-        raise SystemExit()
-    dialog.protocol("WM_DELETE_WINDOW", on_close)
 
     tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
 
@@ -141,8 +96,6 @@ def ask_string(prompt, default=""):
 
     dialog.transient()
     dialog.grab_set()
-    dialog.lift()
-    dialog.focus_force()
     dialog.wait_window()
 
     return result
@@ -158,19 +111,12 @@ def ask_dropdown(prompt, options_list, current=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(prompt)
-    def on_close():
-        dialog.destroy()
-        raise SystemExit()
-    dialog.protocol("WM_DELETE_WINDOW", on_close)
-    
     tk.Label(dialog, text=prompt).pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *options_list)
     dropdown.pack(pady=5)
     tk.Button(dialog, text="OK", command=submit).pack()
     dialog.transient()
     dialog.grab_set()
-    dialog.lift()
-    dialog.focus_force()
     dialog.mainloop()
     return selected.get()
 
@@ -183,19 +129,12 @@ def ask_rating(current=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("Select Controller Rating")
-    def on_close():
-        dialog.destroy()
-        raise SystemExit()
-    dialog.protocol("WM_DELETE_WINDOW", on_close)
-
     tk.Label(dialog, text="Select your rating:").pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *ratings)
     dropdown.pack(pady=5)
     tk.Button(dialog, text="OK", command=submit).pack()
     dialog.transient()
     dialog.grab_set()
-    dialog.lift()
-    dialog.focus_force()
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
@@ -203,11 +142,6 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(title)
-    def on_close():
-        dialog.destroy()
-        raise SystemExit()
-    dialog.protocol("WM_DELETE_WINDOW", on_close)
-
     tk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
@@ -231,42 +165,9 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     tk.Button(dialog, text="OK", command=submit).pack(pady=10)
     dialog.transient()
     dialog.grab_set()
-    dialog.lift()
-    dialog.focus_force()
     dialog.mainloop()
     return var.get()
 
-def ask_ptt_key():
-    result = None
-    def on_key(event):
-        nonlocal result
-        keysym = event.keysym.upper()
-        vk = VK_MAP.get(keysym, 0)
-        result = str(0x01120000 | vk)
-        dialog.destroy()
-    dialog = tk.Toplevel()
-    dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title("Press PTT Key")
-    def on_close():
-        dialog.destroy()
-        raise SystemExit()
-
-    dialog.protocol("WM_DELETE_WINDOW", on_close)
-
-    tk.Label(
-        dialog,
-        text="Press the key you want to use for Push-To-Talk for Controller Coordination (VCCS).\n"
-             "This must be different to your AFV/TrackAudio PTT."
-    ).pack(padx=20, pady=20)
-
-    dialog.bind("<Key>", on_key)
-    dialog.transient()
-    dialog.grab_set()
-    dialog.lift()
-    dialog.focus_force()
-    dialog.wait_window()
-
-    return result
 
 def prompt_for_field(key, current):
     descriptions = {
@@ -283,14 +184,6 @@ def prompt_for_field(key, current):
     }
 
     description = descriptions.get(key, f"Enter {key.replace('_', ' ')}")
-    if key == "ptt":
-        return ask_ptt_key()
-    elif key == "vccs_input":
-        device_names = [dev['name'] for dev in sd.query_devices() if dev['max_input_channels'] > 0]
-        return ask_dropdown(description, device_names, current)
-    elif key == "vccs_output":
-        device_names = [dev['name'] for dev in sd.query_devices() if dev['max_output_channels'] > 0]
-        return ask_dropdown(description, device_names, current)
 
     if key == "rating":
         return ask_rating(current)
@@ -333,11 +226,6 @@ def prompt_for_field(key, current):
 def collect_user_input():
     root = tk.Tk()
     root.title("UK Controller Pack Configurator")
-    def on_close():
-        root.destroy()
-        raise SystemExit()
-    root.protocol("WM_DELETE_WINDOW", on_close)
-
     root.iconbitmap(resource_path("logo.ico"))
     root.withdraw()
     tk._default_root = root
@@ -367,8 +255,7 @@ def collect_user_input():
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password, ptt, vccs_input, vccs_output):
-
+def patch_prf_file(file_path, name, initials, cid, rating, password):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -382,28 +269,17 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, ptt, vccs_i
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
         l.startswith("LastSession\tcallsign") or
-        l.startswith("LastSession\tpassword") or
-        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
-        l.startswith("TeamSpeakVccs\tCaptureDevice") or
-        l.startswith("TeamSpeakVccs\tPlaybackDevice") or
-        l.startswith("TeamSpeakVccs\tCaptureMode") or
-        l.startswith("TeamSpeakVccs\tPlaybackMode")
+        l.startswith("LastSession\tpassword")
     )]
 
     new_lines = [
-    f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
-    f"TeamSpeakVccs\tTs3G2GPtt\t{ptt}\n",
-    f"TeamSpeakVccs\tCaptureMode\tWindows Audio Session\n",
-    f"TeamSpeakVccs\tCaptureDevice\t{vccs_input}\n",
-    f"TeamSpeakVccs\tPlaybackMode\tWindows Audio Session\n",
-    f"TeamSpeakVccs\tPlaybackDevice\t{vccs_output}\n",
-    f"LastSession\trealname\t{name}\n",
-    f"LastSession\tcertificate\t{cid}\n",
-    f"LastSession\trating\t{rating}\n",
-    f"LastSession\tcallsign\t{initials}_OBS\n",
-    f"LastSession\tpassword\t{password}\n"
-]
-
+        f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
+        f"LastSession\trealname\t{name}\n",
+        f"LastSession\tcertificate\t{cid}\n",
+        f"LastSession\trating\t{rating}\n",
+        f"LastSession\tcallsign\t{initials}_OBS\n",
+        f"LastSession\tpassword\t{password}\n"
+    ]
 
     lines += ["\n"] + new_lines
 
@@ -447,22 +323,12 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(options):
-    name = options["name"]
-    initials = options["initials"]
-    cid = options["cid"]
-    rating = options["rating"]
-    password = options["password"]
-    cpdlc = options["cpdlc"]
-    ptt = options["ptt"]
-    vccs_input = options["vccs_input"]
-    vccs_output = options["vccs_output"]
-
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password, ptt, vccs_input, vccs_output)
+                patch_prf_file(path, name, initials, cid, rating, password)
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -524,7 +390,14 @@ def apply_advanced_configuration(options):
 
 def main():
     options = collect_user_input()
-    apply_basic_configuration(options)
+    apply_basic_configuration(
+        name=options["name"],
+        initials=options["initials"],
+        cid=options["cid"],
+        rating=options["rating"],
+        password=options["password"],
+        cpdlc=options["cpdlc"]
+    )
     apply_advanced_configuration(options)
     messagebox.showinfo("Complete", "Profile Configuration Complete")
     time.sleep(1.5)
