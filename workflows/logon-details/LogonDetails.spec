@@ -15,7 +15,7 @@ a = Analysis(
         ('land3.png', '.'),
         ('logo.ico', '.')
     ],
-    hiddenimports=[],
+    hiddenimports=['sounddevice'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

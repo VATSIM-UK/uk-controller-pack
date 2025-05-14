@@ -51,6 +51,7 @@ jobs:
         run: |
           pip install pyinstaller
           pip install pillow
+          pip install sounddevice
 
 
       - name: Compile executable

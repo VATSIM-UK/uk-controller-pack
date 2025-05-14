@@ -2,7 +2,7 @@ import os
 import sys
 import json
 import time
-import tempfile
+import sounddevice as sd
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import tkinter.simpledialog as simpledialog 
@@ -45,13 +45,16 @@ DEFAULT_FIELDS = {
     "rating": "",
     "password": "",
     "cpdlc": "",
+    "ptt": "",
+    "vccs_input": "",
+    "vccs_output": "",
     "realistic_tags": "n",
     "realistic_conversion": "n",
     "coast_choice": "1",
     "land_choice": "1"
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "ptt", "vccs_input", "vccs_output"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
 
 def load_previous_options():
@@ -168,6 +171,26 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     dialog.mainloop()
     return var.get()
 
+def ask_ptt_key():
+    result = None
+
+    def on_key(event):
+        nonlocal result
+        vk_code = event.keycode
+        modifiers = event.state & 0xFF  # common modifiers (Shift/Ctrl/Alt)
+        result = str((modifiers << 16) | vk_code)
+        key_dialog.destroy()
+
+    key_dialog = tk.Toplevel()
+    key_dialog.iconbitmap(resource_path("logo.ico"))
+    key_dialog.title("Press PTT Key")
+    tk.Label(key_dialog, text="Press the key you want to use for Push-To-Talk").pack(padx=20, pady=20)
+    key_dialog.bind("<Key>", on_key)
+    key_dialog.transient()
+    key_dialog.grab_set()
+    key_dialog.wait_window()
+
+    return result
 
 def prompt_for_field(key, current):
     descriptions = {
@@ -184,6 +207,14 @@ def prompt_for_field(key, current):
     }
 
     description = descriptions.get(key, f"Enter {key.replace('_', ' ')}")
+    if key == "ptt":
+        return ask_ptt_key()
+    elif key == "vccs_input":
+        device_names = [dev['name'] for dev in sd.query_devices() if dev['max_input_channels'] > 0]
+        return ask_dropdown(description, device_names, current)
+    elif key == "vccs_output":
+        device_names = [dev['name'] for dev in sd.query_devices() if dev['max_output_channels'] > 0]
+        return ask_dropdown(description, device_names, current)
 
     if key == "rating":
         return ask_rating(current)
@@ -255,7 +286,8 @@ def collect_user_input():
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password):
+def patch_prf_file(file_path, name, initials, cid, rating, password, ptt, vccs_input, vccs_output):
+
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -269,17 +301,28 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
         l.startswith("LastSession\tcallsign") or
-        l.startswith("LastSession\tpassword")
+        l.startswith("LastSession\tpassword") or
+        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
+        l.startswith("TeamSpeakVccs\tCaptureDevice") or
+        l.startswith("TeamSpeakVccs\tPlaybackDevice") or
+        l.startswith("TeamSpeakVccs\tCaptureMode") or
+        l.startswith("TeamSpeakVccs\tPlaybackMode")
     )]
 
     new_lines = [
-        f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
-        f"LastSession\trealname\t{name}\n",
-        f"LastSession\tcertificate\t{cid}\n",
-        f"LastSession\trating\t{rating}\n",
-        f"LastSession\tcallsign\t{initials}_OBS\n",
-        f"LastSession\tpassword\t{password}\n"
-    ]
+    f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
+    f"TeamSpeakVccs\tTs3G2GPtt\t{ptt}\n",
+    f"TeamSpeakVccs\tCaptureMode\tWindows Audio Session\n",
+    f"TeamSpeakVccs\tCaptureDevice\t{vccs_input}\n",
+    f"TeamSpeakVccs\tPlaybackMode\tWindows Audio Session\n",
+    f"TeamSpeakVccs\tPlaybackDevice\t{vccs_output}\n",
+    f"LastSession\trealname\t{name}\n",
+    f"LastSession\tcertificate\t{cid}\n",
+    f"LastSession\trating\t{rating}\n",
+    f"LastSession\tcallsign\t{initials}_OBS\n",
+    f"LastSession\tpassword\t{password}\n"
+]
+
 
     lines += ["\n"] + new_lines
 
@@ -323,12 +366,22 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
+def apply_basic_configuration(options):
+    name = options["name"]
+    initials = options["initials"]
+    cid = options["cid"]
+    rating = options["rating"]
+    password = options["password"]
+    cpdlc = options["cpdlc"]
+    ptt = options["ptt"]
+    vccs_input = options["vccs_input"]
+    vccs_output = options["vccs_output"]
+
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password)
+                patch_prf_file(path, name, initials, cid, rating, password, ptt, vccs_input, vccs_output)
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -390,14 +443,7 @@ def apply_advanced_configuration(options):
 
 def main():
     options = collect_user_input()
-    apply_basic_configuration(
-        name=options["name"],
-        initials=options["initials"],
-        cid=options["cid"],
-        rating=options["rating"],
-        password=options["password"],
-        cpdlc=options["cpdlc"]
-    )
+    apply_basic_configuration(options)
     apply_advanced_configuration(options)
     messagebox.showinfo("Complete", "Profile Configuration Complete")
     time.sleep(1.5)
