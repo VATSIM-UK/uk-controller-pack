@@ -84,6 +84,7 @@ def ask_string(prompt, default=""):
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
     dialog.resizable(False, False)
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
 
     tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
 
@@ -110,12 +111,45 @@ def ask_string(prompt, default=""):
 
     dialog.transient()
     dialog.grab_set()
+    center_window(dialog)
     dialog.wait_window()
 
     return result
 
 def ask_yesno(prompt):
-    return messagebox.askyesno("Select", prompt)
+    result = None
+    dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.title("UK Controller Pack Configurator")
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+    dialog.resizable(False, False)
+
+    tk.Label(dialog, text=prompt, wraplength=300, justify="left").pack(padx=20, pady=15)
+
+    def yes():
+        nonlocal result
+        result = True
+        dialog.destroy()
+
+    def no():
+        nonlocal result
+        result = False
+        dialog.destroy()
+
+    button_frame = tk.Frame(dialog)
+    button_frame.pack(pady=10)
+    tk.Button(button_frame, text="Yes", width=10, command=yes).pack(side="left", padx=5)
+    tk.Button(button_frame, text="No", width=10, command=no).pack(side="left", padx=5)
+
+    dialog.bind("<Return>", lambda e: yes())
+    dialog.bind("<Escape>", lambda e: no())
+
+    dialog.transient()
+    dialog.grab_set()
+    center_window(dialog)
+    dialog.wait_window()
+
+    return result
 
 def ask_dropdown(prompt, options_list, current=None):
     selected = tk.StringVar(value=current if current in options_list else options_list[0])
