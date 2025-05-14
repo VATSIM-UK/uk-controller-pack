@@ -5,7 +5,19 @@ import time
 import tempfile
 import tkinter as tk
 from tkinter import simpledialog, messagebox
+import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
+
+_original_init = simpledialog.Dialog.__init__
+
+def _custom_init(self, master, title=None):
+    _original_init(self, master, title)
+    try:
+        self.wm_iconbitmap(resource_path("logo.ico"))
+    except Exception:
+        pass
+
+simpledialog.Dialog.__init__ = _custom_init
 
 def resource_path(filename):
     if getattr(sys, 'frozen', False):
