@@ -266,7 +266,7 @@ def apply_advanced_configuration(options):
                     lines = f.readlines()
                 new_lines = []
                 for line in lines:
-                    if 'TAGFAMILY' in line:
+                    if line.startswith("TAGFAMILY:NODE") or line.startswith("TAGFAMILY:AC"):
                         if options["realistic_tags"] == "n" and "-Easy" not in line:
                             line = line.strip() + "-Easy\n"
                         elif options["realistic_tags"] == "y" and "-Easy" in line:
