@@ -1,8 +1,9 @@
 name: Check Upstream Plugin Releases
-'on':
+
+on:
   schedule:
-    - cron: 0 2 * * *
-  workflow_dispatch: null
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   check-releases:
@@ -14,14 +15,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Install jq
-        run: sudo apt-get install -y jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Detect new plugin releases and create issues
         env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           REPOS=(
             "AliceFord/vSMR"
@@ -45,9 +46,7 @@ jobs:
             if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
               echo "New release detected for $repo: $latest_tag"
 
-              gh issue create \
-                --title "Incorporate $repo $latest_tag" \
-                --body "$(cat <<EOF
+              cat <<EOF > body.txt
 A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published.
 
 Incorporate the relevant DLL and raise a PR that updates:
@@ -56,8 +55,13 @@ Incorporate the relevant DLL and raise a PR that updates:
 
 Ensure to read the changelog for the updated plugin and make any applicable configuration changes.
 EOF
-              )" \
+
+              gh issue create \
+                --title "Incorporate $repo $latest_tag" \
+                --body-file body.txt \
                 --label dependencies || echo "Issue may already exist"
+
+              rm -f body.txt
             else
               echo "No update needed for $repo ($prev_tag)"
             fi
