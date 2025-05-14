@@ -22,7 +22,7 @@ jobs:
 
       - name: Detect new plugin releases and create issues
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
           REPOS=(
             "AliceFord/vSMR"
@@ -50,7 +50,8 @@ jobs:
             if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
               echo "New release detected for $repo: $latest_tag"
 
-              printf '%s\n'                 "A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published."                 ""                 "Incorporate the relevant DLL and raise a PR that updates:"                 ""                 "- \`.github/dependency_versions.json\`"                 ""                 "Ensure to read the changelog for the updated plugin and make any applicable configuration changes."               | gh issue create                   --title "Incorporate $repo $latest_tag"                   --label dependencies                   --body - || echo "Issue may already exist"
+              gh issue create                 --title "Incorporate $repo $latest_tag"                 --template "plugin_update.md"                 --field plugin="$repo"                 --field version="$latest_tag"                 --label dependencies || echo "Issue may already exist"
             else
               echo "No update needed for $repo ($prev_tag)"
             fi
+          done

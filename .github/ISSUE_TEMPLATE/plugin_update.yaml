@@ -1,0 +1,26 @@
+name: Plugin Update
+description: Track a plugin DLL update
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A new release of this plugin has been published.
+
+        Please update the DLL and modify `.github/dependency_versions.json` as needed.
+
+        Read the changelog before making any config changes.
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin Name
+      placeholder: e.g. AliceFord/vSMR
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. v1.2.3
+    validations:
+      required: true
