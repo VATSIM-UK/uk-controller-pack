@@ -8,6 +8,44 @@ from tkinter import simpledialog, messagebox
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
 
+VK_MAP = {
+    "CONTROL_R": 0xA3,
+    "CONTROL_L": 0xA2,
+    "SHIFT_R": 0xA1,
+    "SHIFT_L": 0xA0,
+    "ALT_R": 0xA5,
+    "ALT_L": 0xA4,
+    "RETURN": 0x0D,
+    "ESCAPE": 0x1B,
+    "TAB": 0x09,
+    "SPACE": 0x20,
+    "CAPS_LOCK": 0x14,
+    "F1": 0x70,
+    "F2": 0x71,
+    "F3": 0x72,
+    "F4": 0x73,
+    "F5": 0x74,
+    "F6": 0x75,
+    "F7": 0x76,
+    "F8": 0x77,
+    "F9": 0x78,
+    "F10": 0x79,
+    "F11": 0x7A,
+    "F12": 0x7B,
+    "F13": 0x7C,
+    "F14": 0x7D,
+    "F15": 0x7E,
+    "F16": 0x7F,
+    "F17": 0x80,
+    "F18": 0x81,
+    "F19": 0x82,
+    "F20": 0x83,
+    "F21": 0x84,
+    "F22": 0x85,
+    "F23": 0x86,
+    "F24": 0x87
+}
+
 _original_init = simpledialog.Dialog.__init__
 
 def _custom_init(self, master, title=None):
@@ -202,7 +240,9 @@ def ask_ptt_key():
     result = None
     def on_key(event):
         nonlocal result
-        result = str(0x01120000 | (event.keycode & 0xFF))  # VK encoding
+        keysym = event.keysym.upper()
+        vk = VK_MAP.get(keysym, 0)
+        result = str(0x01120000 | vk)
         dialog.destroy()
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
