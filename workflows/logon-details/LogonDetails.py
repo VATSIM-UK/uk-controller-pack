@@ -65,7 +65,38 @@ def save_options(options):
         json.dump(options, f, indent=2)
 
 def ask_string(prompt, default=""):
-    return simpledialog.askstring("Input", prompt, initialvalue=default)
+    result = None
+    dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.title("UK Controller Pack Configurator")
+    dialog.resizable(False, False)
+
+    tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
+
+    entry_var = tk.StringVar(value=default)
+    entry = tk.Entry(dialog, textvariable=entry_var, width=40)
+    entry.pack(padx=20, pady=5)
+    entry.focus_set()
+
+    def submit():
+        nonlocal result
+        result = entry_var.get()
+        dialog.destroy()
+
+    def cancel():
+        dialog.destroy()
+
+    button_frame = tk.Frame(dialog)
+    button_frame.pack(pady=15)
+    tk.Button(button_frame, text="OK", width=10, command=submit).pack(side="left", padx=5)
+    tk.Button(button_frame, text="Cancel", width=10, command=cancel).pack(side="left", padx=5)
+
+    dialog.transient()
+    dialog.grab_set()
+    dialog.wait_window()
+
+    return result
+
 
 def ask_yesno(prompt):
     return messagebox.askyesno("Select", prompt)
