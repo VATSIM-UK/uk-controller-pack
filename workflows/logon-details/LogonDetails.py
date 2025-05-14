@@ -7,9 +7,10 @@ from tkinter import simpledialog, messagebox
 from PIL import Image, ImageTk
 
 if getattr(sys, 'frozen', False):
-    BASE_DIR = sys._MEIPASS
+    BASE_DIR = os.path.dirname(sys.executable)
 else:
-    BASE_DIR = os.path.dirname(__file__)
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
 IMAGE_DIR = BASE_DIR
