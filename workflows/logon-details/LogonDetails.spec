@@ -12,7 +12,8 @@ a = Analysis(
         ('coastline3.png', '.'),
         ('land1.png', '.'),
         ('land2.png', '.'),
-        ('land3.png', '.')
+        ('land3.png', '.'),
+        ('logo.ico', '.')
     ],
     hiddenimports=[],
     hookspath=[],

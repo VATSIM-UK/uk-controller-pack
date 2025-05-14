@@ -7,6 +7,11 @@ import tkinter as tk
 from tkinter import simpledialog, messagebox
 from PIL import Image, ImageTk
 
+def resource_path(filename):
+    if getattr(sys, 'frozen', False):
+        return os.path.join(sys._MEIPASS, filename)
+    return os.path.join(os.path.abspath("."), filename)
+
 # Writable path for JSON (next to .exe or fallback)
 if getattr(sys, 'frozen', False):
     BASE_DIR = os.path.dirname(sys.executable)
@@ -59,6 +64,7 @@ def ask_dropdown(prompt, options_list, current=None):
         dialog.quit()
         dialog.destroy()
     dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(prompt)
     tk.Label(dialog, text=prompt).pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *options_list)
@@ -76,6 +82,7 @@ def ask_rating(current=None):
         dialog.quit()
         dialog.destroy()
     dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("Select Controller Rating")
     tk.Label(dialog, text="Select your rating:").pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *ratings)
@@ -88,6 +95,7 @@ def ask_rating(current=None):
 
 def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(title)
     tk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
@@ -172,6 +180,7 @@ def prompt_for_field(key, current):
 
 def collect_user_input():
     root = tk.Tk()
+    root.iconbitmap(resource_path("logo.ico"))
     root.withdraw()
     previous_options = load_previous_options()
     options = {}
