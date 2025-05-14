@@ -403,6 +403,12 @@ def apply_advanced_configuration(options):
                     new_lines.append(line)
 
 def main():
+    lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
+    if os.path.exists(lockfile):
+        messagebox.showerror("Already Running", "Configurator is already running.")
+        sys.exit()
+    with open(lockfile, 'w') as f:
+        f.write(str(os.getpid()))
     options = collect_user_input()
     apply_basic_configuration(
         name=options["name"],
@@ -413,6 +419,9 @@ def main():
         cpdlc=options["cpdlc"]
     )
     apply_advanced_configuration(options)
+    if os.path.exists(lockfile):
+        os.remove(lockfile)
+
     messagebox.showinfo("Complete", "Profile Configuration Complete")
     time.sleep(1.5)
 
