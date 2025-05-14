@@ -12,7 +12,7 @@ else:
     BASE_DIR = os.path.dirname(__file__)
 
 OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
-IMAGE_DIR = os.path.join(BASE_DIR, "images")
+IMAGE_DIR = BASE_DIR
 
 DEFAULT_FIELDS = {
     "name": "",

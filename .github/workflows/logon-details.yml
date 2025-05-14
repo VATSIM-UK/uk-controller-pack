@@ -23,7 +23,7 @@ jobs:
         with:
           filters: |
             build:
-              - './UK/LogonDetails.py'
+              - './workflows/logon-details/LogonDetails.py'
 
   build-exe:
     name: Build executable
@@ -54,7 +54,7 @@ jobs:
 
 
       - name: Compile executable
-        run: pyinstaller --distpath UK/ --onefile --noconsole --icon=workflows/logon-details/logo.ico -n LogonDetails.exe UK/LogonDetails.py
+        run: pyinstaller --distpath UK/ --onefile --noconsole --icon=workflows/logon-details/logo.ico -n LogonDetails.exe workflows/logon-details/LogonDetails.py
 
       - name: Commit executable
         run: |
