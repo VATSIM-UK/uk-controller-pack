@@ -86,46 +86,90 @@ def ask_rating(current=None):
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
-def ask_with_images(title, prompt, image_dict, current_key):
+def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
     dialog.title(title)
     tk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
+
     for key, image_path in image_dict.items():
         img = Image.open(image_path)
         img = img.resize((280, 60))
         photo = ImageTk.PhotoImage(img)
         image_refs.append(photo)
-        tk.Radiobutton(dialog, image=photo, text=f"Option {key}", variable=var, value=key, compound="top").pack(anchor="w")
+
+        frame = tk.Frame(dialog)
+        frame.pack(pady=5, anchor="w")
+
+        tk.Radiobutton(frame, image=photo, variable=var, value=key, compound="top").pack()
+        desc = descriptions_dict.get(key, f"Option {key}") if descriptions_dict else f"Option {key}"
+        tk.Label(frame, text=desc, wraplength=280, justify="left").pack()
+
     def submit():
         dialog.quit()
         dialog.destroy()
+
     tk.Button(dialog, text="OK", command=submit).pack(pady=10)
     dialog.transient()
     dialog.grab_set()
     dialog.mainloop()
     return var.get()
 
+
 def prompt_for_field(key, current):
+    descriptions = {
+        "name": "Enter your full real name as used on VATSIM",
+        "initials": "Enter your 2–3 letter identifier for use when observing (e.g. LB or JSM)",
+        "cid": "Enter your VATSIM CID (Certificate ID)",
+        "rating": "Enter your current controller rating",
+        "password": "Enter your VATSIM password",
+        "cpdlc": "Enter your Hoppie CPDLC logon code (leave blank if you don't have one)",
+        "realistic_tags": "Select Yes if you want realistic aircraft datablocks. Select No if you want climb/descent arrows in aircraft datablocks",
+        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion. Select No if not required (not recommended)",
+        "coast_choice": "Select your preferred coastline colour",
+        "land_choice": "Select your preferred land colour"
+    }
+
+    description = descriptions.get(key, f"Enter {key.replace('_', ' ')}")
+
     if key == "rating":
         return ask_rating(current)
     elif key == "coast_choice":
-        return ask_with_images("Select Coastline", "Choose a coastline style:", {
-            "1": os.path.join(IMAGE_DIR, "coastline1.png"),
-            "2": os.path.join(IMAGE_DIR, "coastline2.png"),
-            "3": os.path.join(IMAGE_DIR, "coastline3.png")
-        }, current)
+        return ask_with_images(
+            "Select Coastline", descriptions.get(key),
+            {
+                "1": os.path.join(IMAGE_DIR, "coastline1.png"),
+                "2": os.path.join(IMAGE_DIR, "coastline2.png"),
+                "3": os.path.join(IMAGE_DIR, "coastline3.png")
+            },
+            current,
+            {
+                "1": "High contrast coastline — best for visual clarity in all lighting",
+                "2": "Standard coastline — good balance between realism and readability",
+                "3": "Muted coastline — more realistic, best for experienced users"
+            }
+        )
     elif key == "land_choice":
-        return ask_with_images("Select Land Color", "Choose a land style:", {
-            "1": os.path.join(IMAGE_DIR, "land1.png"),
-            "2": os.path.join(IMAGE_DIR, "land2.png"),
-            "3": os.path.join(IMAGE_DIR, "land3.png")
-        }, current)
+        return ask_with_images(
+            "Select Land Color", descriptions.get(key),
+            {
+                "1": os.path.join(IMAGE_DIR, "land1.png"),
+                "2": os.path.join(IMAGE_DIR, "land2.png"),
+                "3": os.path.join(IMAGE_DIR, "land3.png")
+            },
+            current,
+            {
+                "1": "Bright green — high visibility, good for beginners",
+                "2": "Neutral beige — balanced, suitable for most uses",
+                "3": "Dark terrain — more realistic look, suits night ops"
+            }
+        )
+
     elif key in ["realistic_tags", "realistic_conversion"]:
-        return "y" if ask_yesno(f"{key.replace('_', ' ').capitalize()}?") else "n"
+        return "y" if ask_yesno(description) else "n"
     else:
-        return ask_string(f"Enter {key.replace('_', ' ')}", current)
+        return ask_string(description, current)
 
 def collect_user_input():
     root = tk.Tk()
