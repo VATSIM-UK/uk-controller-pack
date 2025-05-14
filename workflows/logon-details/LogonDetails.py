@@ -95,7 +95,6 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
 
     for key, image_path in image_dict.items():
         img = Image.open(image_path)
-        img = img.resize((280, 60))
         photo = ImageTk.PhotoImage(img)
         image_refs.append(photo)
 
