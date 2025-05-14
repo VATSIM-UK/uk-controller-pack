@@ -73,6 +73,10 @@ def ask_string(prompt, default=""):
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
     dialog.resizable(False, False)
+    def on_close():
+        dialog.destroy()
+        raise SystemExit()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
 
     tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
 
@@ -114,6 +118,11 @@ def ask_dropdown(prompt, options_list, current=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(prompt)
+    def on_close():
+        dialog.destroy()
+        raise SystemExit()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+    
     tk.Label(dialog, text=prompt).pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *options_list)
     dropdown.pack(pady=5)
@@ -132,6 +141,11 @@ def ask_rating(current=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("Select Controller Rating")
+    def on_close():
+        dialog.destroy()
+        raise SystemExit()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+
     tk.Label(dialog, text="Select your rating:").pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *ratings)
     dropdown.pack(pady=5)
@@ -145,6 +159,11 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(title)
+    def on_close():
+        dialog.destroy()
+        raise SystemExit()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+
     tk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
@@ -208,6 +227,11 @@ def ask_ptt_key():
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("Press PTT Key")
+    def on_close():
+        dialog.destroy()
+        raise SystemExit()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+
     tk.Label(dialog, text="Press the key you want to use for Push-To-Talk").pack(padx=20, pady=20)
     dialog.bind("<Key>", on_key)
     dialog.transient()
@@ -282,6 +306,11 @@ def prompt_for_field(key, current):
 def collect_user_input():
     root = tk.Tk()
     root.title("UK Controller Pack Configurator")
+    def on_close():
+        root.destroy()
+        raise SystemExit()
+    root.protocol("WM_DELETE_WINDOW", on_close)
+
     root.iconbitmap(resource_path("logo.ico"))
     root.withdraw()
     tk._default_root = root
