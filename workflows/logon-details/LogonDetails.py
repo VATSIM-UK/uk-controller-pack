@@ -149,18 +149,22 @@ def collect_user_input():
 
 
 def patch_prf_file(file_path, name, initials, cid, rating, password):
-    lines = [l for l in lines if not (
-    l.startswith("TeamSpeakVccs\tTs3NickName") or
-    l.startswith("LastSession\trealname") or
-    l.startswith("LastSession\tcertificate") or
-    l.startswith("LastSession\trating") or
-    l.startswith("LastSession\tcallsign") or
-    l.startswith("LastSession\tpassword")
-)]
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-    lines = [l for l in lines if not any(k in l for k in keys)]
+    lines = [l for l in lines if not (
+        l.startswith("TeamSpeakVccs\tTs3NickName") or
+        l.startswith("LastSession\trealname") or
+        l.startswith("LastSession\tcertificate") or
+        l.startswith("LastSession\trating") or
+        l.startswith("LastSession\tcallsign") or
+        l.startswith("LastSession\tpassword")
+    )]
+
     new_lines = [
         f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
         f"LastSession\trealname\t{name}\n",
@@ -168,12 +172,16 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         f"LastSession\trating\t{rating}\n",
         f"LastSession\tcallsign\t{initials}_OBS\n",
         f"LastSession\tpassword\t{password}\n"
-]
+    ]
 
     lines += ["\n"] + new_lines
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.writelines(lines)
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+    except Exception as e:
+        print(f"Failed to write to {file_path}: {e}")
+
 
 def patch_plugins_file(file_path, cpdlc):
     with open(file_path, "r", encoding="utf-8") as f:
