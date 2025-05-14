@@ -271,11 +271,6 @@ def apply_advanced_configuration(options):
                             line = line.strip() + "-Easy\n"
                         elif options["realistic_tags"] == "y" and "-Easy" in line:
                             line = line.replace("-Easy", "")
-                    if "SIMULATION_MODE:" in line:
-                        if options["realistic_conversion"] == "y":
-                            line = line.replace("SIMULATION_MODE:1", "SIMULATION_MODE:4")
-                        else:
-                            line = line.replace("SIMULATION_MODE:4", "SIMULATION_MODE:1")
                     new_lines.append(line)
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
@@ -291,6 +286,17 @@ def apply_advanced_configuration(options):
                     new_lines.append(line)
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
+            elif file.endswith(".txt") and os.path.commonpath([os.path.abspath(root), os.path.abspath("UK/Data/Settings")]) == os.path.abspath("UK/Data/Settings"):
+                with open(path, "r", encoding="utf-8") as f:
+                    lines = f.readlines()
+                new_lines = []
+                modified = False
+                for line in lines:
+                    if line.strip().startswith("m_CorrelationMode:"):
+                        value = "1" if options["realistic_conversion"] == "y" else "0"
+                        line = f"m_CorrelationMode:{value}\n"
+                        modified = True
+                    new_lines.append(line)
 
 def main():
     options = collect_user_input()
