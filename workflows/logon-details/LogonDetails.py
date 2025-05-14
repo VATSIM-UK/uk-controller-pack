@@ -240,7 +240,7 @@ def ask_ptt_key():
         raise SystemExit()
     dialog.protocol("WM_DELETE_WINDOW", on_close)
 
-    tk.Label(dialog, text="Press the key you want to use for Push-To-Talk").pack(padx=20, pady=20)
+    tk.Label(dialog, text="Press the key you want to use for Push-To-Talk for Controller Coordination (VCCS). This must be different to your AFV/TrackAudio PTT").pack(padx=20, pady=20)
     dialog.bind("<Key>", on_key)
     dialog.transient()
     dialog.grab_set()
