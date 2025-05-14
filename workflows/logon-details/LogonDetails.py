@@ -78,12 +78,12 @@ def ask_string(prompt, default=""):
     entry.pack(padx=20, pady=5)
     entry.focus_set()
 
-    def submit():
+    def submit(event=None):
         nonlocal result
         result = entry_var.get()
         dialog.destroy()
 
-    def cancel():
+    def cancel(event=None):
         dialog.destroy()
 
     button_frame = tk.Frame(dialog)
@@ -91,12 +91,14 @@ def ask_string(prompt, default=""):
     tk.Button(button_frame, text="OK", width=10, command=submit).pack(side="left", padx=5)
     tk.Button(button_frame, text="Cancel", width=10, command=cancel).pack(side="left", padx=5)
 
+    dialog.bind("<Return>", submit)
+    dialog.bind("<Escape>", cancel)
+
     dialog.transient()
     dialog.grab_set()
     dialog.wait_window()
 
     return result
-
 
 def ask_yesno(prompt):
     return messagebox.askyesno("Select", prompt)
