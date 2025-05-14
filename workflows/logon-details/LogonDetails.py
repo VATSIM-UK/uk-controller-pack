@@ -103,6 +103,8 @@ def ask_string(prompt, default=""):
 
     dialog.transient()
     dialog.grab_set()
+    dialog.lift()
+    dialog.focus_force()
     dialog.wait_window()
 
     return result
@@ -129,6 +131,8 @@ def ask_dropdown(prompt, options_list, current=None):
     tk.Button(dialog, text="OK", command=submit).pack()
     dialog.transient()
     dialog.grab_set()
+    dialog.lift()
+    dialog.focus_force()
     dialog.mainloop()
     return selected.get()
 
@@ -152,6 +156,8 @@ def ask_rating(current=None):
     tk.Button(dialog, text="OK", command=submit).pack()
     dialog.transient()
     dialog.grab_set()
+    dialog.lift()
+    dialog.focus_force()
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
@@ -187,6 +193,8 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     tk.Button(dialog, text="OK", command=submit).pack(pady=10)
     dialog.transient()
     dialog.grab_set()
+    dialog.lift()
+    dialog.focus_force()
     dialog.mainloop()
     return var.get()
 
@@ -236,6 +244,8 @@ def ask_ptt_key():
     dialog.bind("<Key>", on_key)
     dialog.transient()
     dialog.grab_set()
+    dialog.lift()
+    dialog.focus_force()
     dialog.wait_window()
 
     return result
