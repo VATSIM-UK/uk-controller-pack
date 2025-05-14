@@ -149,8 +149,15 @@ def collect_user_input():
 
 
 def patch_prf_file(file_path, name, initials, cid, rating, password):
-    keys = ["TeamSpeakVccs", "LastSession	realname", "LastSession	certificate",
-            "LastSession	rating", "LastSession	callsign", "LastSession	password"]
+    lines = [l for l in lines if not (
+    l.startswith("TeamSpeakVccs\tTs3NickName") or
+    l.startswith("LastSession\trealname") or
+    l.startswith("LastSession\tcertificate") or
+    l.startswith("LastSession\trating") or
+    l.startswith("LastSession\tcallsign") or
+    l.startswith("LastSession\tpassword")
+)]
+
     with open(file_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
     lines = [l for l in lines if not any(k in l for k in keys)]
