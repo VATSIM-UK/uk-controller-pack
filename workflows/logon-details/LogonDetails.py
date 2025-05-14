@@ -178,6 +178,7 @@ def ask_rating(current=None):
         dialog.destroy()
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.minsize(width=300, height=200)
     dialog.title("Select Controller Rating")
     tk.Label(dialog, text="Select your rating:").pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *ratings)
