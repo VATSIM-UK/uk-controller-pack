@@ -35,7 +35,7 @@ exe = EXE(
     a.datas,
     [],
     name='LogonDetails',
-    icon='workflows/logon-details/logo.ico',
+    icon='logo.ico',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
