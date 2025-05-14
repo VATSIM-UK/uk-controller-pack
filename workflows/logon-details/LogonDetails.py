@@ -2,18 +2,34 @@ import os
 import sys
 import json
 import time
+import tempfile
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 from PIL import Image, ImageTk
 
+# Writable path for JSON (next to .exe or fallback)
 if getattr(sys, 'frozen', False):
     BASE_DIR = os.path.dirname(sys.executable)
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-
 OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
-IMAGE_DIR = BASE_DIR
+
+try:
+    test_path = os.path.join(BASE_DIR, ".write_test")
+    with open(test_path, "w") as f:
+        f.write("test")
+    os.remove(test_path)
+except Exception:
+    fallback_dir = os.path.join(tempfile.gettempdir(), "uklogon")
+    os.makedirs(fallback_dir, exist_ok=True)
+    OPTIONS_PATH = os.path.join(fallback_dir, "myOptions.json")
+
+# Resource path for bundled images
+if getattr(sys, 'frozen', False):
+    IMAGE_DIR = sys._MEIPASS
+else:
+    IMAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DEFAULT_FIELDS = {
     "name": "",
