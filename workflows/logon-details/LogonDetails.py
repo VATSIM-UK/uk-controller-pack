@@ -38,6 +38,20 @@ if getattr(sys, 'frozen', False):
 else:
     IMAGE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+def center_window(win):
+    win.update_idletasks()
+    width = win.winfo_width()
+    height = win.winfo_height()
+    x = (win.winfo_screenwidth() // 2) - (width // 2)
+    y = (win.winfo_screenheight() // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
+def on_close():
+    sys.exit()
+
+def is_valid_cid(cid):
+    return cid.isdigit() and 6 <= len(cid) <= 7
+
 DEFAULT_FIELDS = {
     "name": "",
     "initials": "",
