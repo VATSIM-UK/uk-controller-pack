@@ -198,49 +198,27 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     dialog.mainloop()
     return var.get()
 
-import ctypes
-
-def get_ts3_vk_code(keysym):
-    char = keysym.upper() if len(keysym) == 1 else ''
-    vk = ctypes.windll.user32.VkKeyScanW(ord(char)) if char else -1
-
-    if vk == -1:
-        hardcoded = {
-            "CONTROL_R": 0xA3,
-            "CONTROL_L": 0xA2,
-            "SHIFT_R": 0xA1,
-            "SHIFT_L": 0xA0,
-            "ALT_R": 0xA5,
-            "ALT_L": 0xA4,
-            "RETURN": 0x0D,
-            "ESCAPE": 0x1B,
-            "TAB": 0x09,
-            "SPACE": 0x20,
-            "F1": 0x70,
-            "F12": 0x7B,
-            "CAPS_LOCK": 0x14
-        }
-        vk = hardcoded.get(keysym.upper(), 0)
-
-    return str(0x01120000 | (vk & 0xFF))
-
 def ask_ptt_key():
     result = None
-
     def on_key(event):
         nonlocal result
-        result = get_ts3_vk_code(event.keysym)
+        result = str(0x01120000 | (event.keycode & 0xFF))  # VK encoding
         dialog.destroy()
-
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("Press PTT Key")
     def on_close():
         dialog.destroy()
         raise SystemExit()
+
     dialog.protocol("WM_DELETE_WINDOW", on_close)
 
-    tk.Label(dialog, text="Press the key you want to use for Push-To-Talk for Controller Coordination (VCCS). This must be different to your AFV/TrackAudio PTT").pack(padx=20, pady=20)
+    tk.Label(
+        dialog,
+        text="Press the key you want to use for Push-To-Talk for Controller Coordination (VCCS).\n"
+             "This must be different to your AFV/TrackAudio PTT."
+    ).pack(padx=20, pady=20)
+
     dialog.bind("<Key>", on_key)
     dialog.transient()
     dialog.grab_set()
@@ -249,7 +227,6 @@ def ask_ptt_key():
     dialog.wait_window()
 
     return result
-
 
 def prompt_for_field(key, current):
     descriptions = {
