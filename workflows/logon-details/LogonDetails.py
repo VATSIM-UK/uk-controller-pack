@@ -180,8 +180,10 @@ def prompt_for_field(key, current):
 
 def collect_user_input():
     root = tk.Tk()
+    root.title("UK Controller Pack Configurator")
     root.iconbitmap(resource_path("logo.ico"))
     root.withdraw()
+    tk._default_root = root
     previous_options = load_previous_options()
     options = {}
 
