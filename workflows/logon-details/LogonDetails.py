@@ -99,7 +99,7 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
         image_refs.append(photo)
 
         frame = tk.Frame(dialog)
-        frame.pack(pady=5, anchor="w")
+        frame.pack(pady=5, anchor="center")
 
         tk.Radiobutton(frame, image=photo, variable=var, value=key, compound="top").pack()
         desc = descriptions_dict.get(key, f"Option {key}") if descriptions_dict else f"Option {key}"
