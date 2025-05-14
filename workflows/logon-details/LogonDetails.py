@@ -195,6 +195,7 @@ def collect_user_input():
             options[key] = prompt_for_field(key, options.get(key, ""))
 
     save_options(options)
+    root.destroy()
     return options
 
 
@@ -344,6 +345,15 @@ def main():
     apply_advanced_configuration(options)
     messagebox.showinfo("Complete", "Profile Configuration Complete")
     time.sleep(1.5)
+    try:
+        tk._default_root.destroy()
+    except Exception:
+        pass
+    sys.exit(0)
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:
+        if getattr(sys, 'frozen', False):
+            os._exit(0)
