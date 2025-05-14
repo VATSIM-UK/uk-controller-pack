@@ -27,6 +27,9 @@ DEFAULT_FIELDS = {
     "land_choice": "1"
 }
 
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc"]
+ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
+
 def load_previous_options():
     if os.path.exists(OPTIONS_PATH):
         with open(OPTIONS_PATH, "r") as f:
@@ -122,20 +125,28 @@ def collect_user_input():
     root.withdraw()
     previous_options = load_previous_options()
     options = {}
+
     if previous_options:
         use_previous = ask_yesno("Do you want to load your previous options?")
         if use_previous:
             options.update(previous_options)
-            for k in DEFAULT_FIELDS:
-                if k not in options:
-                    options[k] = prompt_for_field(k, "")
+            for key in BASIC_FIELDS:
+                if key not in options:
+                    options[key] = prompt_for_field(key, "")
         else:
             options = {}
-    for key in DEFAULT_FIELDS:
+
+    for key in BASIC_FIELDS:
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
+
+    if ask_yesno("Would you like to configure advanced options?"):
+        for key in ADVANCED_FIELDS:
+            options[key] = prompt_for_field(key, options.get(key, ""))
+
     save_options(options)
     return options
+
 
 def patch_prf_file(file_path, name, initials, cid, rating, password):
     keys = ["TeamSpeakVccs", "LastSession	realname", "LastSession	certificate",
@@ -213,8 +224,6 @@ def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
             f.write(cpdlc)
 
 def apply_advanced_configuration(options):
-    if not ask_yesno("Would you like to configure advanced options?"):
-        return
     coast_colors = {"1": "9076039", "2": "5324604", "3": "32896"}
     land_colors = {"1": "3947580", "2": "1777181", "3": "8158332"}
     for root, _, files in os.walk("."):
