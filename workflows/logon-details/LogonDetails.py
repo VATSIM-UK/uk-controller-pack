@@ -145,9 +145,9 @@ def prompt_for_field(key, current):
             },
             current,
             {
-                "1": "High contrast coastline — best for visual clarity in all lighting",
-                "2": "Standard coastline — good balance between realism and readability",
-                "3": "Muted coastline — more realistic, best for experienced users"
+                "1": "Blue (default): suitable for NOVA based systems (most APP units)",
+                "2": "Grey: suitable for NODE based systems (STC,LTC,MPC)",
+                "3": "Yellow: high contrast"
             }
         )
     elif key == "land_choice":
@@ -160,9 +160,9 @@ def prompt_for_field(key, current):
             },
             current,
             {
-                "1": "Bright green — high visibility, good for beginners",
-                "2": "Neutral beige — balanced, suitable for most uses",
-                "3": "Dark terrain — more realistic look, suits night ops"
+                "1": "Mid grey (default)",
+                "2": "Dark grey",
+                "3": "Light Grey"
             }
         )
 
