@@ -1,14 +1,12 @@
 name: Check Upstream Plugin Releases
-
-on:
+'on':
   schedule:
-    - cron: '0 2 * * *'  # Daily at 02:00 UTC
-  workflow_dispatch:
+    - cron: 0 2 * * *
+  workflow_dispatch: null
 
 jobs:
   check-releases:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,7 +21,7 @@ jobs:
 
       - name: Detect new plugin releases and create issues
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
         run: |
           REPOS=(
             "AliceFord/vSMR"
@@ -50,15 +48,15 @@ jobs:
               gh issue create \
                 --title "Incorporate $repo $latest_tag" \
                 --body "$(cat <<EOF
-              A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published.
+A new release of [$repo](https://github.com/$repo/releases/tag/$latest_tag) has been published.
 
-              Incorporate the relevant DLL and raise a PR that updates:
+Incorporate the relevant DLL and raise a PR that updates:
 
-              - \`.github/dependency_versions.json\`
+- \`.github/dependency_versions.json\`
 
-              Ensure to read the changelog for the updated plugin and make any applicable configuration changes.
-              EOF
-              )"
+Ensure to read the changelog for the updated plugin and make any applicable configuration changes.
+EOF
+              )" \
                 --label dependencies || echo "Issue may already exist"
             else
               echo "No update needed for $repo ($prev_tag)"
