@@ -15,16 +15,6 @@ else:
 
 OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
 
-try:
-    test_path = os.path.join(BASE_DIR, ".write_test")
-    with open(test_path, "w") as f:
-        f.write("test")
-    os.remove(test_path)
-except Exception:
-    fallback_dir = os.path.join(tempfile.gettempdir(), "uklogon")
-    os.makedirs(fallback_dir, exist_ok=True)
-    OPTIONS_PATH = os.path.join(fallback_dir, "myOptions.json")
-
 # Resource path for bundled images
 if getattr(sys, 'frozen', False):
     IMAGE_DIR = sys._MEIPASS
