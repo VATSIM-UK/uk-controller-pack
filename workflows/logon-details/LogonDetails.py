@@ -276,7 +276,14 @@ def prompt_for_field(key, current):
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
-        return ask_string(description, current)
+        while True:
+            response = ask_string(description, current)
+            if response is None:
+                sys.exit()
+            if key == "cid" and not is_valid_cid(response):
+                messagebox.showerror("Invalid CID", "CID must be a 6 or 7 digit number.")
+                continue
+            return response
 
 def collect_user_input():
     root = tk.Tk()
