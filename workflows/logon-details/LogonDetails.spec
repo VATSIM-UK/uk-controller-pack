@@ -35,7 +35,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='LogonDetails',
+    name='Configurator',
     icon='logo.ico',
     debug=False,
     bootloader_ignore_signals=False,

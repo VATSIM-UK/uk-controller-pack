@@ -60,6 +60,6 @@ jobs:
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
           git config --local user.name "VATSIM UK"
-          git add UK/LogonDetails.exe
-          git commit -m "Update LogonDetails.exe"
+          git add UK/Configurator.exe
+          git commit -m "Update Configurator.exe"
           git push
