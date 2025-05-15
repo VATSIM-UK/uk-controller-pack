@@ -2,7 +2,6 @@ import os
 import sys
 import json
 import time
-import tempfile
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import tkinter.simpledialog as simpledialog 
