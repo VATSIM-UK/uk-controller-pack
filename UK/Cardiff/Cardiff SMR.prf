@@ -15,7 +15,7 @@ Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\TC_APP\TC_APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_West.txt
-Settings	sector	UK\Data\Sector\UK_2025_04.sct
+Settings	sector	UK\Data\Sector\UK_2025_05.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Cardiff\Cardiff SMR.asr

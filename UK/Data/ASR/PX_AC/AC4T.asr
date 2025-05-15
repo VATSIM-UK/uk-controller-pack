@@ -438,6 +438,8 @@ Fixes:BEVAM:name
 Fixes:BEVAM:symbol
 Fixes:BEVUP:name
 Fixes:BEVUP:symbol
+Fixes:BIBAX:name
+Fixes:BIBAX:symbol
 Fixes:BIBPE:name
 Fixes:BIBPE:symbol
 Fixes:BIDVA:name
@@ -602,6 +604,8 @@ Fixes:DIGUT:name
 Fixes:DIGUT:symbol
 Fixes:DIKVU:name
 Fixes:DIKVU:symbol
+Fixes:DIMAL:name
+Fixes:DIMAL:symbol
 Fixes:DIMLI:name
 Fixes:DIMLI:symbol
 Fixes:DINIM:name
@@ -1512,6 +1516,8 @@ Fixes:NISBI:name
 Fixes:NISBI:symbol
 Fixes:NISKA:name
 Fixes:NISKA:symbol
+Fixes:NITAR:name
+Fixes:NITAR:symbol
 Fixes:NIVKO:name
 Fixes:NIVKO:symbol
 Fixes:NIVUN:name
@@ -1602,6 +1608,8 @@ Fixes:OKNOB:name
 Fixes:OKNOB:symbol
 Fixes:OKPAL:name
 Fixes:OKPAL:symbol
+Fixes:OKRUZ:name
+Fixes:OKRUZ:symbol
 Fixes:OKSAW:name
 Fixes:OKSAW:symbol
 Fixes:OKTAD:name
@@ -1618,6 +1626,8 @@ Fixes:OLPOP:name
 Fixes:OLPOP:symbol
 Fixes:OMOKO:name
 Fixes:OMOKO:symbol
+Fixes:OPALE:name
+Fixes:OPALE:symbol
 Fixes:ORIST:name
 Fixes:ORIST:symbol
 Fixes:ORSUM:name
@@ -1736,6 +1746,8 @@ Fixes:PIPEM:name
 Fixes:PIPEM:symbol
 Fixes:PIPIN:name
 Fixes:PIPIN:symbol
+Fixes:PIREG:name
+Fixes:PIREG:symbol
 Fixes:PIXAM:name
 Fixes:PIXAM:symbol
 Fixes:PIXUP:name
@@ -2214,6 +2226,8 @@ Fixes:USEKA:name
 Fixes:USEKA:symbol
 Fixes:UTAVA:name
 Fixes:UTAVA:symbol
+Fixes:UTFAV:name
+Fixes:UTFAV:symbol
 Fixes:UTOGU:name
 Fixes:UTOGU:symbol
 Fixes:UTUXA:name
@@ -2252,6 +2266,8 @@ Fixes:VEGUS:name
 Fixes:VEGUS:symbol
 Fixes:VELAG:name
 Fixes:VELAG:symbol
+Fixes:VELOL:name
+Fixes:VELOL:symbol
 Fixes:VENAS:name
 Fixes:VENAS:symbol
 Fixes:VENER:name
