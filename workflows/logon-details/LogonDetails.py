@@ -521,16 +521,7 @@ def main():
         root = tk.Tk()
         root.withdraw()
         tk._default_root = root
-        apply_azure_theme(root)  # ✅ Apply theme immediately
-
-        try:
-            azure_path = resource_path("azure.tcl")
-            print(f"Trying to load Azure theme from: {azure_path}")
-            root.tk.call("source", azure_path)
-            theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
-            ttk.Style().theme_use(theme)
-        except Exception as e:
-            messagebox.showwarning("Theme Load Failed", f"Could not load Azure theme:\n{e}")
+        apply_azure_theme(root)  # ✅ Theme applied only once
 
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
     if os.path.exists(lockfile):
@@ -545,10 +536,10 @@ def main():
             "This may cause the Controller Pack to not function correctly. Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
             "Do you want to continue anyway?",
             title="Unexpected Location"
-            )
+        )
         if not proceed:
             sys.exit()
-    
+
     with open(lockfile, 'w') as f:
         f.write(str(os.getpid()))
 
@@ -562,6 +553,7 @@ def main():
             password=options["password"],
             cpdlc=options["cpdlc"]
         )
+
         if ask_yesno("Would you like to configure advanced options?"):
             for key in ADVANCED_FIELDS:
                 options[key] = prompt_for_field(key, options.get(key, ""))
@@ -569,7 +561,6 @@ def main():
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)
-
 
     finally:
         if os.path.exists(lockfile):
