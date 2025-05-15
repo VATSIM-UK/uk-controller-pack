@@ -470,13 +470,15 @@ def apply_advanced_configuration(options):
                         f.writelines(new_lines)
 
 def main():
+    if not tk._default_root:
+        root = tk.Tk()
+        root.withdraw()
+        tk._default_root = root
+
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
     if os.path.exists(lockfile):
         messagebox.showerror("Already Running", "Configurator is already running.")
         sys.exit()
-
-    with open(lockfile, 'w') as f:
-        f.write(str(os.getpid()))
 
     actual_dir = os.path.abspath(BASE_DIR)
 
@@ -489,6 +491,9 @@ def main():
             )
         if not proceed:
             sys.exit()
+    
+    with open(lockfile, 'w') as f:
+        f.write(str(os.getpid()))
 
     try:
         options = collect_user_input()
