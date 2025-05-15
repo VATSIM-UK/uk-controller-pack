@@ -500,9 +500,10 @@ if __name__ == "__main__":
         main()
     finally:
         try:
-            for w in tk._default_root.children.values():
-                w.destroy()
-            tk._default_root.destroy()
+            if tk._default_root:
+                for w in tk._default_root.children.values():
+                    w.destroy()
+                tk._default_root.destroy()
         except Exception:
             pass
         if getattr(sys, 'frozen', False):
