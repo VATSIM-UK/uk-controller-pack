@@ -108,10 +108,9 @@ def ask_string(prompt, default=""):
     dialog.resizable(False, False)
     dialog.protocol("WM_DELETE_WINDOW", on_close)
 
-    tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
-
+    ttk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
     entry_var = tk.StringVar(value=default)
-    entry = tk.Entry(dialog, textvariable=entry_var, width=40)
+    entry = ttk.Entry(dialog, textvariable=entry_var, width=40)
     entry.pack(padx=20, pady=5)
     entry.focus_set()
 
@@ -123,10 +122,10 @@ def ask_string(prompt, default=""):
     def cancel(event=None):
         dialog.destroy()
 
-    button_frame = tk.Frame(dialog)
+    button_frame = ttk.Frame(dialog)
     button_frame.pack(pady=15)
-    tk.Button(button_frame, text="OK", width=10, command=submit).pack(side="left", padx=5)
-    tk.Button(button_frame, text="Cancel", width=10, command=cancel).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="OK", command=submit).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="Cancel", command=cancel).pack(side="left", padx=5)
 
     dialog.bind("<Return>", submit)
     dialog.bind("<Escape>", cancel)
@@ -146,7 +145,7 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.resizable(False, False)
 
-    tk.Label(dialog, text=prompt, wraplength=300, justify="left").pack(padx=20, pady=15)
+    ttk.Label(dialog, text=prompt, wraplength=300, justify="left").pack(padx=20, pady=15)
 
     def yes():
         nonlocal result
@@ -158,10 +157,10 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
         result = False
         dialog.destroy()
 
-    button_frame = tk.Frame(dialog)
+    button_frame = ttk.Frame(dialog)
     button_frame.pack(pady=10)
-    tk.Button(button_frame, text="Yes", width=10, command=yes).pack(side="left", padx=5)
-    tk.Button(button_frame, text="No", width=10, command=no).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="Yes", command=yes).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="No", command=no).pack(side="left", padx=5)
 
     dialog.bind("<Return>", lambda e: yes())
     dialog.bind("<Escape>", lambda e: no())
@@ -178,13 +177,14 @@ def ask_dropdown(prompt, options_list, current=None):
     def submit():
         dialog.quit()
         dialog.destroy()
+
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(prompt)
-    tk.Label(dialog, text=prompt).pack(pady=5)
-    dropdown = tk.OptionMenu(dialog, selected, *options_list)
+    ttk.Label(dialog, text=prompt).pack(pady=5)
+    dropdown = ttk.Combobox(dialog, textvariable=selected, values=options_list, state="readonly")
     dropdown.pack(pady=5)
-    tk.Button(dialog, text="OK", command=submit).pack()
+    ttk.Button(dialog, text="OK", command=submit).pack()
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     center_window(dialog)
     dialog.transient()
@@ -211,10 +211,10 @@ def ask_rating(current=None):
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.minsize(width=300, height=200)
     dialog.title("UK Controller Pack Configurator")
-    tk.Label(dialog, text="Select your rating:").pack(pady=5)
-    dropdown = tk.OptionMenu(dialog, selected, *ratings)
+    ttk.Label(dialog, text="Select your rating:").pack(pady=5)
+    dropdown = ttk.Combobox(dialog, textvariable=selected, values=ratings, state="readonly")
     dropdown.pack(pady=5)
-    tk.Button(dialog, text="OK", command=submit).pack()
+    ttk.Button(dialog, text="OK", command=submit).pack()
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     center_window(dialog)
     dialog.transient()
@@ -222,12 +222,11 @@ def ask_rating(current=None):
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
-
 def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
-    tk.Label(dialog, text=prompt).pack(pady=5)
+    ttk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
 
@@ -236,18 +235,18 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
         photo = ImageTk.PhotoImage(img)
         image_refs.append(photo)
 
-        frame = tk.Frame(dialog)
+        frame = ttk.Frame(dialog)
         frame.pack(pady=5, anchor="center")
 
-        tk.Radiobutton(frame, image=photo, variable=var, value=key, compound="top").pack()
+        ttk.Radiobutton(frame, image=photo, variable=var, value=key).pack()
         desc = descriptions_dict.get(key, f"Option {key}") if descriptions_dict else f"Option {key}"
-        tk.Label(frame, text=desc, wraplength=280, justify="left").pack()
+        ttk.Label(frame, text=desc, wraplength=280, justify="left").pack()
 
     def submit():
         dialog.quit()
         dialog.destroy()
 
-    tk.Button(dialog, text="OK", command=submit).pack(pady=10)
+    ttk.Button(dialog, text="OK", command=submit).pack(pady=10)
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     center_window(dialog)
     dialog.transient()
