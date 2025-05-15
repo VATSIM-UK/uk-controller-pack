@@ -23,7 +23,7 @@ jobs:
         with:
           filters: |
             build:
-              - './UK/LogonDetails.py'
+              - './workflows/logon-details/LogonDetails.py'
 
   build-exe:
     name: Build executable
@@ -48,15 +48,18 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install pyinstaller
+        run: |
+          pip install pyinstaller
+          pip install pillow
+
 
       - name: Compile executable
-        run: pyinstaller --distpath UK/ --onefile --icon=workflows/logon-details/logo.ico -n LogonDetails.exe UK/LogonDetails.py
+        run: pyinstaller --distpath UK/ workflows/logon-details/LogonDetails.spec
 
       - name: Commit executable
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
           git config --local user.name "VATSIM UK"
-          git add UK/LogonDetails.exe
-          git commit -m "Update LogonDetails.exe"
+          git add UK/Configurator.exe
+          git commit -m "Update Configurator.exe"
           git push
