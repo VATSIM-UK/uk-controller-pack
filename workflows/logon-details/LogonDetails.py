@@ -461,6 +461,10 @@ def apply_advanced_configuration(options):
                         line = f"m_CorrelationMode:{value}\n"
                         modified = True
                     new_lines.append(line)
+                if modified:
+                    with open(path, "w", encoding="utf-8") as f:
+                        f.writelines(new_lines)
+
 
 def main():
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
