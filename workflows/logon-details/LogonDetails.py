@@ -2,12 +2,24 @@ import os
 import sys
 import json
 import time
+import ctypes
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
 
 _original_init = simpledialog.Dialog.__init__
+
+def is_dark_theme_enabled():
+    try:
+        # Read from Windows registry: AppsUseLightTheme (0 = dark, 1 = light)
+        import winreg
+        registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
+        key = winreg.OpenKey(registry, r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize")
+        value, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
+        return value == 0
+    except Exception:
+        return False  # Default to light if detection fails
 
 def _custom_init(self, master, title=None):
     _original_init(self, master, title)
