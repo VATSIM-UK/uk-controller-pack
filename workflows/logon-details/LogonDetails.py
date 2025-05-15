@@ -130,7 +130,6 @@ def ask_string(prompt, default=""):
     entry_var = tk.StringVar(value=default)
     entry = ttk.Entry(dialog, textvariable=entry_var, width=40)
     entry.pack(padx=20, pady=5)
-    entry.focus_set()
 
     def submit(event=None):
         nonlocal result
@@ -153,6 +152,7 @@ def ask_string(prompt, default=""):
     dialog.attributes("-topmost", True)
     dialog.focus_force()
     center_window(dialog)
+    entry.focus_set()
     dialog.wait_window()
 
     return result
@@ -261,7 +261,7 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
-    ttk.Label(dialog, text=prompt).pack(pady=5)
+    ttk.Label(dialog, text=prompt, anchor="center", justify="center").pack(padx=20, pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
 
@@ -271,11 +271,11 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
         image_refs.append(photo)
 
         frame = ttk.Frame(dialog)
-        frame.pack(pady=5, anchor="center")
+        frame.pack(padx=20, pady=5, anchor="center")
 
         ttk.Radiobutton(frame, image=photo, variable=var, value=key).pack()
         desc = descriptions_dict.get(key, f"Option {key}") if descriptions_dict else f"Option {key}"
-        ttk.Label(frame, text=desc, wraplength=280, justify="left").pack()
+        ttk.Label(frame, text=desc, wraplength=320, justify="left").pack(padx=10)
 
     def submit():
         dialog.quit()
