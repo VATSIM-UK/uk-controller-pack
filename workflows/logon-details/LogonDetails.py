@@ -505,7 +505,7 @@ def apply_advanced_configuration(options):
                     new_lines.append(line)
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.endswith(".txt") and os.path.abspath(root).startswith(os.path.abspath("UK/Data/Settings")):
+            elif file.endswith(".txt") and os.path.normpath("Data/Settings") in os.path.normpath(root):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
                 new_lines = []
