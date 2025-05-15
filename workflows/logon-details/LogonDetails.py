@@ -29,7 +29,7 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
+OPTIONS_PATH = os.path.join(BASE_DIR, "controller_pack_config.json")
 
 # Resource path for bundled images
 if getattr(sys, 'frozen', False):
