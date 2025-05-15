@@ -127,11 +127,11 @@ def ask_string(prompt, default=""):
 
     return result
 
-def ask_yesno(prompt):
+def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     result = None
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title("UK Controller Pack Configurator")
+    dialog.title(title)
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.resizable(False, False)
 
@@ -199,7 +199,7 @@ def ask_rating(current=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.minsize(width=300, height=200)
-    dialog.title("Select Controller Rating")
+    dialog.title("UK Controller Pack Configurator")
     tk.Label(dialog, text="Select your rating:").pack(pady=5)
     dropdown = tk.OptionMenu(dialog, selected, *ratings)
     dropdown.pack(pady=5)
@@ -215,7 +215,7 @@ def ask_rating(current=None):
 def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title(title)
+    dialog.title("UK Controller Pack Configurator")
     tk.Label(dialog, text=prompt).pack(pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
@@ -481,12 +481,13 @@ def main():
     actual_dir = os.path.abspath(BASE_DIR)
 
     if not actual_dir.startswith(EXPECTED_ES_PARENT + os.sep):
-        proceed = messagebox.askyesno(
+        proceed = ask_yesno(
             "Unexpected Location",
-            f"This tool is not running from the expected folder:\n\n{EXPECTED_ES_PARENT}\\UK\n\n"
-            "This may cause the Controller Pack to not function correctly Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
-            "Do you want to continue anyway?"
-        )
+            f"The configurator is not running from the expected folder:\n\n{EXPECTED_ES_PARENT}\\UK\n\n"
+            "This may cause the Controller Pack to not function correctly. Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
+            "Do you want to continue anyway?",
+            title="Unexpected Location"
+            )
         if not proceed:
             sys.exit()
 
