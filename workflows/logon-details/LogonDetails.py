@@ -179,10 +179,19 @@ def ask_dropdown(prompt, options_list, current=None):
 
 def ask_rating(current=None):
     ratings = ['OBS', 'S1', 'S2', 'S3', 'C1', 'C2 (not used)', 'C3', 'I1', 'I2 (not used)', 'I3', 'SUP', 'ADM']
-    selected = tk.StringVar(value=ratings[int(current)] if current and current.isdigit() else ratings[0])
+    try:
+        index = int(current)
+        if index < 0 or index >= len(ratings):
+            index = 0
+    except (ValueError, TypeError):
+        index = 0
+
+    selected = tk.StringVar(value=ratings[index])
+
     def submit():
         dialog.quit()
         dialog.destroy()
+
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.minsize(width=300, height=200)
@@ -197,6 +206,7 @@ def ask_rating(current=None):
     dialog.grab_set()
     dialog.mainloop()
     return str(ratings.index(selected.get()))
+
 
 def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
