@@ -2,13 +2,45 @@ import os
 import sys
 import json
 import time
-import tempfile
+import winreg
 import tkinter as tk
-from tkinter import simpledialog, messagebox
+from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
 
 _original_init = simpledialog.Dialog.__init__
+
+def is_dark_theme_enabled():
+    try:
+        # Read from Windows registry: AppsUseLightTheme (0 = dark, 1 = light)
+        registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
+        key = winreg.OpenKey(registry, r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize")
+        value, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
+        return value == 0
+    except Exception:
+        return False  # Default to light if detection fails
+    
+def apply_azure_theme(root):
+    try:
+        style = ttk.Style()
+        theme_dir = resource_path("theme")
+
+        if "azure-light" not in style.theme_names():
+            root.tk.call("source", os.path.join(theme_dir, "light.tcl"))
+        if "azure-dark" not in style.theme_names():
+            root.tk.call("source", os.path.join(theme_dir, "dark.tcl"))
+        if "azure-light" not in style.theme_names():
+            root.tk.call("source", resource_path("azure.tcl"))
+            
+        print("Registry dark theme enabled:", is_dark_theme_enabled())
+
+        theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
+        print("Applying theme:", theme)
+        style.theme_use(theme)
+
+    except Exception as e:
+        messagebox.showwarning("Theme Load Failed", f"Could not load Azure theme:\n{e}")
+
 
 def _custom_init(self, master, title=None):
     _original_init(self, master, title)
@@ -30,13 +62,39 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-OPTIONS_PATH = os.path.join(BASE_DIR, "myOptions.json")
+# Expected correct/default location for UK folder
+EXPECTED_ES_PARENT = os.path.abspath(os.path.expandvars(r"%APPDATA%\EuroScope"))
+
+# Config JSON location/name
+OPTIONS_PATH = os.path.join(BASE_DIR, "controller_pack_config.json")
 
 # Resource path for bundled images
 if getattr(sys, 'frozen', False):
     IMAGE_DIR = sys._MEIPASS
 else:
     IMAGE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def center_window(win):
+    win.update_idletasks()
+    width = win.winfo_width()
+    height = win.winfo_height()
+    x = (win.winfo_screenwidth() // 2) - (width // 2)
+    y = (win.winfo_screenheight() // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
+def on_close():
+    try:
+        if tk._default_root:
+            for w in tk._default_root.children.values():
+                w.destroy()
+            tk._default_root.destroy()
+    except Exception:
+        pass
+    sys.exit()
+
+
+def is_valid_cid(cid):
+    return cid.isdigit() and 6 <= len(cid) <= 7
 
 DEFAULT_FIELDS = {
     "name": "",
@@ -70,13 +128,12 @@ def ask_string(prompt, default=""):
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title("UK Controller Pack Configurator")
     dialog.resizable(False, False)
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
 
-    tk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
-
+    ttk.Label(dialog, text=prompt).pack(padx=20, pady=(15, 5))
     entry_var = tk.StringVar(value=default)
-    entry = tk.Entry(dialog, textvariable=entry_var, width=40)
+    entry = ttk.Entry(dialog, textvariable=entry_var, width=40)
     entry.pack(padx=20, pady=5)
-    entry.focus_set()
 
     def submit(event=None):
         nonlocal result
@@ -86,63 +143,129 @@ def ask_string(prompt, default=""):
     def cancel(event=None):
         dialog.destroy()
 
-    button_frame = tk.Frame(dialog)
+    button_frame = ttk.Frame(dialog)
     button_frame.pack(pady=15)
-    tk.Button(button_frame, text="OK", width=10, command=submit).pack(side="left", padx=5)
-    tk.Button(button_frame, text="Cancel", width=10, command=cancel).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="OK", command=submit).pack(side="left", padx=5)
+    ttk.Button(button_frame, text="Cancel", command=cancel).pack(side="left", padx=5)
 
     dialog.bind("<Return>", submit)
     dialog.bind("<Escape>", cancel)
 
     dialog.transient()
     dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
+    center_window(dialog)
+    entry.focus_set()
     dialog.wait_window()
 
     return result
 
-def ask_yesno(prompt):
-    return messagebox.askyesno("Select", prompt)
+def ask_yesno(prompt, title="UK Controller Pack Configurator"):
+    result = None
+    dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.title(title)
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
+    dialog.resizable(False, False)
+
+    # Frame for clean layout
+    frame = ttk.Frame(dialog, padding=20)
+    frame.pack(fill="both", expand=True)
+
+    # Message label
+    ttk.Label(
+        frame,
+        text=prompt,
+        wraplength=350,
+        justify="left"
+    ).pack(pady=(0, 15))
+
+    def yes():
+        nonlocal result
+        result = True
+        dialog.destroy()
+
+    def no():
+        nonlocal result
+        result = False
+        dialog.destroy()
+
+    # Button frame
+    button_frame = ttk.Frame(frame)
+    button_frame.pack()
+    ttk.Button(button_frame, text="Yes", command=yes).pack(side="left", padx=10)
+    ttk.Button(button_frame, text="No", command=no).pack(side="left", padx=10)
+
+    dialog.bind("<Return>", lambda e: yes())
+    dialog.bind("<Escape>", lambda e: no())
+    dialog.transient()
+    dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
+    center_window(dialog)
+    dialog.wait_window()
+
+    return result
+
 
 def ask_dropdown(prompt, options_list, current=None):
     selected = tk.StringVar(value=current if current in options_list else options_list[0])
     def submit():
         dialog.quit()
         dialog.destroy()
+
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
     dialog.title(prompt)
-    tk.Label(dialog, text=prompt).pack(pady=5)
-    dropdown = tk.OptionMenu(dialog, selected, *options_list)
+    ttk.Label(dialog, text=prompt).pack(pady=5)
+    dropdown = ttk.Combobox(dialog, textvariable=selected, values=options_list, state="readonly")
     dropdown.pack(pady=5)
-    tk.Button(dialog, text="OK", command=submit).pack()
+    ttk.Button(dialog, text="OK", command=submit).pack()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.transient()
     dialog.grab_set()
     dialog.mainloop()
+    center_window(dialog)
     return selected.get()
 
 def ask_rating(current=None):
     ratings = ['OBS', 'S1', 'S2', 'S3', 'C1', 'C2 (not used)', 'C3', 'I1', 'I2 (not used)', 'I3', 'SUP', 'ADM']
-    selected = tk.StringVar(value=ratings[int(current)] if current and current.isdigit() else ratings[0])
+    try:
+        index = int(current)
+        if index < 0 or index >= len(ratings):
+            index = 0
+    except (ValueError, TypeError):
+        index = 0
+
+    selected = tk.StringVar(value=ratings[index])
+
     def submit():
         dialog.quit()
         dialog.destroy()
+
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title("Select Controller Rating")
-    tk.Label(dialog, text="Select your rating:").pack(pady=5)
-    dropdown = tk.OptionMenu(dialog, selected, *ratings)
+    dialog.minsize(width=300, height=200)
+    dialog.title("UK Controller Pack Configurator")
+    ttk.Label(dialog, text="Select your rating:").pack(pady=5)
+    dropdown = ttk.Combobox(dialog, textvariable=selected, values=ratings, state="readonly")
     dropdown.pack(pady=5)
-    tk.Button(dialog, text="OK", command=submit).pack()
+    ttk.Button(dialog, text="OK", command=submit).pack()
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.transient()
     dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
+    center_window(dialog)
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
 def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=None):
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title(title)
-    tk.Label(dialog, text=prompt).pack(pady=5)
+    dialog.title("UK Controller Pack Configurator")
+    ttk.Label(dialog, text=prompt, anchor="center", justify="center").pack(padx=20, pady=5)
     var = tk.StringVar(value=current_key if current_key in image_dict else "1")
     image_refs = []
 
@@ -151,20 +274,24 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
         photo = ImageTk.PhotoImage(img)
         image_refs.append(photo)
 
-        frame = tk.Frame(dialog)
-        frame.pack(pady=5, anchor="center")
+        frame = ttk.Frame(dialog)
+        frame.pack(padx=20, pady=5, anchor="center")
 
-        tk.Radiobutton(frame, image=photo, variable=var, value=key, compound="top").pack()
+        ttk.Radiobutton(frame, image=photo, variable=var, value=key).pack()
         desc = descriptions_dict.get(key, f"Option {key}") if descriptions_dict else f"Option {key}"
-        tk.Label(frame, text=desc, wraplength=280, justify="left").pack()
+        ttk.Label(frame, text=desc, wraplength=320, justify="left").pack(padx=10)
 
     def submit():
         dialog.quit()
         dialog.destroy()
 
-    tk.Button(dialog, text="OK", command=submit).pack(pady=10)
+    ttk.Button(dialog, text="OK", command=submit).pack(pady=10)
+    dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.transient()
     dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
+    center_window(dialog)
     dialog.mainloop()
     return var.get()
 
@@ -221,7 +348,14 @@ def prompt_for_field(key, current):
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
-        return ask_string(description, current)
+        while True:
+            response = ask_string(description, current)
+            if response is None:
+                sys.exit()
+            if key == "cid" and not is_valid_cid(response):
+                messagebox.showerror("Invalid CID", "CID must be a 6 or 7 digit number.")
+                continue
+            return response
 
 def collect_user_input():
     root = tk.Tk()
@@ -246,12 +380,7 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-    if ask_yesno("Would you like to configure advanced options?"):
-        for key in ADVANCED_FIELDS:
-            options[key] = prompt_for_field(key, options.get(key, ""))
-
     save_options(options)
-    root.destroy()
     return options
 
 
@@ -376,7 +505,7 @@ def apply_advanced_configuration(options):
                     new_lines.append(line)
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.endswith(".txt") and os.path.commonpath([os.path.abspath(root), os.path.abspath("UK/Data/Settings")]) == os.path.abspath("UK/Data/Settings"):
+            elif file.endswith(".txt") and os.path.normpath("Data/Settings") in os.path.normpath(root):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
                 new_lines = []
@@ -387,29 +516,69 @@ def apply_advanced_configuration(options):
                         line = f"m_CorrelationMode:{value}\n"
                         modified = True
                     new_lines.append(line)
+                if modified:
+                    with open(path, "w", encoding="utf-8") as f:
+                        f.writelines(new_lines)
 
 def main():
-    options = collect_user_input()
-    apply_basic_configuration(
-        name=options["name"],
-        initials=options["initials"],
-        cid=options["cid"],
-        rating=options["rating"],
-        password=options["password"],
-        cpdlc=options["cpdlc"]
-    )
-    apply_advanced_configuration(options)
-    messagebox.showinfo("Complete", "Profile Configuration Complete")
-    time.sleep(1.5)
+    if not tk._default_root:
+        root = tk.Tk()
+        root.withdraw()
+        tk._default_root = root
+        apply_azure_theme(root)  # ✅ Theme applied only once
+
+    lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
+    if os.path.exists(lockfile):
+        messagebox.showerror("Already Running", "Configurator is already running.")
+        sys.exit()
+
+    actual_dir = os.path.abspath(BASE_DIR)
+
+    if not actual_dir.startswith(EXPECTED_ES_PARENT + os.sep):
+        proceed = ask_yesno(
+            f"The configurator is not running from the expected folder:\n\n{EXPECTED_ES_PARENT}\\UK\n\n"
+            "This may cause the Controller Pack to not function correctly. Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
+            "Do you want to continue anyway?",
+            title="Unexpected Location"
+        )
+        if not proceed:
+            sys.exit()
+
+    with open(lockfile, 'w') as f:
+        f.write(str(os.getpid()))
+
+    try:
+        options = collect_user_input()
+        apply_basic_configuration(
+            name=options["name"],
+            initials=options["initials"],
+            cid=options["cid"],
+            rating=options["rating"],
+            password=options["password"],
+            cpdlc=options["cpdlc"]
+        )
+
+        if ask_yesno("Would you like to configure advanced options?"):
+            for key in ADVANCED_FIELDS:
+                options[key] = prompt_for_field(key, options.get(key, ""))
+            apply_advanced_configuration(options)
+
+        messagebox.showinfo("Complete", "Profile Configuration Complete")
+        time.sleep(1.5)
+
+    finally:
+        if os.path.exists(lockfile):
+            os.remove(lockfile)
 
 if __name__ == "__main__":
     try:
         main()
     finally:
         try:
-            for w in tk._default_root.children.values():
-                w.destroy()
-            tk._default_root.destroy()
+            if tk._default_root:
+                for w in tk._default_root.children.values():
+                    w.destroy()
+                tk._default_root.destroy()
         except Exception:
             pass
         if getattr(sys, 'frozen', False):
