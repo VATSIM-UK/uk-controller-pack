@@ -485,12 +485,14 @@ def main():
         root.withdraw()
         tk._default_root = root
 
-        # Load Azure theme from file
-        root.tk.call("source", resource_path("azure.tcl"))
-
-        # Apply dark or light theme based on system preference
-        theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
-        ttk.Style().theme_use(theme)
+        try:
+            azure_path = resource_path("azure.tcl")
+            print(f"Trying to load Azure theme from: {azure_path}")
+            root.tk.call("source", azure_path)
+            theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
+            ttk.Style().theme_use(theme)
+        except Exception as e:
+            messagebox.showwarning("Theme Load Failed", f"Could not load Azure theme:\n{e}")
 
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
     if os.path.exists(lockfile):
