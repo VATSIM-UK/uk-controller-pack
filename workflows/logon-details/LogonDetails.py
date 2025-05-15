@@ -133,6 +133,8 @@ def ask_string(prompt, default=""):
     dialog.transient()
     dialog.grab_set()
     center_window(dialog)
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
     dialog.wait_window()
 
     return result
@@ -145,7 +147,17 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     dialog.protocol("WM_DELETE_WINDOW", on_close)
     dialog.resizable(False, False)
 
-    ttk.Label(dialog, text=prompt, wraplength=300, justify="left").pack(padx=20, pady=15)
+    # Frame for clean layout
+    frame = ttk.Frame(dialog, padding=20)
+    frame.pack(fill="both", expand=True)
+
+    # Message label
+    ttk.Label(
+        frame,
+        text=prompt,
+        wraplength=350,
+        justify="left"
+    ).pack(pady=(0, 15))
 
     def yes():
         nonlocal result
@@ -157,20 +169,23 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
         result = False
         dialog.destroy()
 
-    button_frame = ttk.Frame(dialog)
-    button_frame.pack(pady=10)
-    ttk.Button(button_frame, text="Yes", command=yes).pack(side="left", padx=5)
-    ttk.Button(button_frame, text="No", command=no).pack(side="left", padx=5)
+    # Button frame
+    button_frame = ttk.Frame(frame)
+    button_frame.pack()
+    ttk.Button(button_frame, text="Yes", command=yes).pack(side="left", padx=10)
+    ttk.Button(button_frame, text="No", command=no).pack(side="left", padx=10)
 
     dialog.bind("<Return>", lambda e: yes())
     dialog.bind("<Escape>", lambda e: no())
-
     dialog.transient()
     dialog.grab_set()
     center_window(dialog)
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
     dialog.wait_window()
 
     return result
+
 
 def ask_dropdown(prompt, options_list, current=None):
     selected = tk.StringVar(value=current if current in options_list else options_list[0])
@@ -219,6 +234,8 @@ def ask_rating(current=None):
     center_window(dialog)
     dialog.transient()
     dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
@@ -251,6 +268,8 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
     center_window(dialog)
     dialog.transient()
     dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    dialog.focus_force()
     dialog.mainloop()
     return var.get()
 
