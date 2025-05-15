@@ -3201,6 +3201,12 @@ DISABLEZOOMING:0
 DisplayRotation:3.00000
 TAGFAMILY:Alternative
 WINDOWAREA:52.631253:0.502207:52.665973:0.610117
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
+PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
