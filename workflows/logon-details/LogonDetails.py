@@ -308,10 +308,6 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-    if ask_yesno("Would you like to configure advanced options?"):
-        for key in ADVANCED_FIELDS:
-            options[key] = prompt_for_field(key, options.get(key, ""))
-
     save_options(options)
     root.destroy()
     return options
