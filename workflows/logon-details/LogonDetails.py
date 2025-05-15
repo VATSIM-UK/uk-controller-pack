@@ -482,7 +482,6 @@ def main():
 
     if not actual_dir.startswith(EXPECTED_ES_PARENT + os.sep):
         proceed = ask_yesno(
-            "Unexpected Location",
             f"The configurator is not running from the expected folder:\n\n{EXPECTED_ES_PARENT}\\UK\n\n"
             "This may cause the Controller Pack to not function correctly. Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
             "Do you want to continue anyway?",
