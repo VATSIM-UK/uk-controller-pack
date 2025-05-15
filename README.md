@@ -6,6 +6,7 @@
 [![CDM](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/CDM.json)](https://github.com/rpuig2001/CDM/releases)
 [![VCH](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VCH.json)](https://github.com/DrFreas/VCH/releases)
 [![CCDS-R](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/CCDS-R.json)](https://github.com/quassbutreally/EuroScope-CCDS-R/releases)
+[![VFPC](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VFPC.json)](https://github.com/VFPC/VFPC/releases)
 [![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/TopSky.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 [![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/MAESTRO.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 
