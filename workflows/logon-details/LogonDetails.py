@@ -47,7 +47,15 @@ def center_window(win):
     win.geometry(f"{width}x{height}+{x}+{y}")
 
 def on_close():
+    try:
+        if tk._default_root:
+            for w in tk._default_root.children.values():
+                w.destroy()
+            tk._default_root.destroy()
+    except Exception:
+        pass
     sys.exit()
+
 
 def is_valid_cid(cid):
     return cid.isdigit() and 6 <= len(cid) <= 7
