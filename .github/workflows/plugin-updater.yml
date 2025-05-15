@@ -31,6 +31,7 @@ jobs:
             "rpuig2001/CDM"
             "DrFreas/VCH"
             "quassbutreally/EuroScope-CCDS-R"
+            "VFPC/VFPC"
           )
 
           VERSION_FILE=".github/dependency_versions.json"

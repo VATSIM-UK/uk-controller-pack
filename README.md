@@ -27,12 +27,16 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [TopSky Plugin](https://forum.vatsim-scandinavia.org/t/topsky) - thanks to Juha Holopainen
 
+[MAESTRO Plugin](https://forum.vatsim-scandinavia.org/t/MAESTRO) - thanks to Juha Holopainen
+
 [AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
 [Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [@VATSIMCanada](https://github.com/VATSIMCanada)
 
-[A-CDM Plugin](https://github.com/rpuig2001/CDM) - thanks to [@rpuig2001](https://github.com/rpuig2001)
+[CDM Plugin](https://github.com/rpuig2001/CDM) - thanks to [@rpuig2001](https://github.com/rpuig2001)
 
 [Virtual Controller Helper Plugin](https://github.com/DrFreas/VCH) - thanks to [@DrFreas](https://github.com/DrFreas)
+
+[UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@DrFreas](https://github.com/lennycolton)
 
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
