@@ -450,7 +450,7 @@ def apply_advanced_configuration(options):
                     new_lines.append(line)
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.endswith(".txt") and os.path.commonpath([os.path.abspath(root), os.path.abspath("UK/Data/Settings")]) == os.path.abspath("UK/Data/Settings"):
+            elif file.endswith(".txt") and os.path.abspath(root).startswith(os.path.abspath("UK/Data/Settings")):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
                 new_lines = []
@@ -464,7 +464,6 @@ def apply_advanced_configuration(options):
                 if modified:
                     with open(path, "w", encoding="utf-8") as f:
                         f.writelines(new_lines)
-
 
 def main():
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
