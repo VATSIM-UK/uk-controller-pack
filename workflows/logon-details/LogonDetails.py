@@ -29,6 +29,10 @@ if getattr(sys, 'frozen', False):
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# Expected correct/default location for UK folder
+EXPECTED_ES_PARENT = os.path.abspath(os.path.expandvars(r"%APPDATA%\EuroScope"))
+
+# Config JSON location/name
 OPTIONS_PATH = os.path.join(BASE_DIR, "controller_pack_config.json")
 
 # Resource path for bundled images
@@ -473,6 +477,18 @@ def main():
 
     with open(lockfile, 'w') as f:
         f.write(str(os.getpid()))
+
+    actual_dir = os.path.abspath(BASE_DIR)
+
+    if not actual_dir.startswith(EXPECTED_ES_PARENT + os.sep):
+        proceed = messagebox.askyesno(
+            "Unexpected Location",
+            f"This tool is not running from the expected folder:\n\n{EXPECTED_ES_PARENT}\\UK\n\n"
+            "This may cause the Controller Pack to not function correctly Refer to the EuroScope Setup Guide on the VATSIM UK Docs Site.\n\n"
+            "Do you want to continue anyway?"
+        )
+        if not proceed:
+            sys.exit()
 
     try:
         options = collect_user_input()
