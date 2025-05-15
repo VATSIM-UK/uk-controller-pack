@@ -22,10 +22,13 @@ def is_dark_theme_enabled():
     
 def apply_azure_theme(root):
     try:
-        azure_path = resource_path("azure.tcl")
-        root.tk.call("source", azure_path)
+        style = ttk.Style()
+        if "azure-light" not in style.theme_names():
+            azure_path = resource_path("azure.tcl")
+            root.tk.call("source", azure_path)
+
         theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
-        ttk.Style().theme_use(theme)
+        style.theme_use(theme)
     except Exception as e:
         messagebox.showwarning("Theme Load Failed", f"Could not load Azure theme:\n{e}")
 
