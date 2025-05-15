@@ -13,7 +13,7 @@ a = Analysis(
         ('land1.png', '.'),
         ('land2.png', '.'),
         ('land3.png', '.'),
-        ('logo.ico', '.')
+        ('logo.ico', '.'),
         ('azure.tcl', '.')
     ],
     hiddenimports=[],
