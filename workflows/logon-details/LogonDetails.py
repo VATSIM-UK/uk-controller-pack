@@ -455,23 +455,32 @@ def main():
     if os.path.exists(lockfile):
         messagebox.showerror("Already Running", "Configurator is already running.")
         sys.exit()
+
     with open(lockfile, 'w') as f:
         f.write(str(os.getpid()))
-    options = collect_user_input()
-    apply_basic_configuration(
-        name=options["name"],
-        initials=options["initials"],
-        cid=options["cid"],
-        rating=options["rating"],
-        password=options["password"],
-        cpdlc=options["cpdlc"]
-    )
-    apply_advanced_configuration(options)
-    if os.path.exists(lockfile):
-        os.remove(lockfile)
 
-    messagebox.showinfo("Complete", "Profile Configuration Complete")
-    time.sleep(1.5)
+    try:
+        options = collect_user_input()
+        apply_basic_configuration(
+            name=options["name"],
+            initials=options["initials"],
+            cid=options["cid"],
+            rating=options["rating"],
+            password=options["password"],
+            cpdlc=options["cpdlc"]
+        )
+        if ask_yesno("Would you like to configure advanced options?"):
+            for key in ADVANCED_FIELDS:
+                options[key] = prompt_for_field(key, options.get(key, ""))
+            apply_advanced_configuration(options)
+
+        messagebox.showinfo("Complete", "Profile Configuration Complete")
+        time.sleep(1.5)
+
+
+    finally:
+        if os.path.exists(lockfile):
+            os.remove(lockfile)
 
 if __name__ == "__main__":
     try:
