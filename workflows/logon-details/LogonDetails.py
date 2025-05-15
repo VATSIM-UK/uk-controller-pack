@@ -326,7 +326,6 @@ def collect_user_input():
             options[key] = prompt_for_field(key, "")
 
     save_options(options)
-    root.destroy()
     return options
 
 
