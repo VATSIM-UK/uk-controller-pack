@@ -14,6 +14,7 @@ a = Analysis(
         ('land2.png', '.'),
         ('land3.png', '.'),
         ('logo.ico', '.')
+        ('azure.tcl', '.')
     ],
     hiddenimports=[],
     hookspath=[],
