@@ -473,6 +473,7 @@ Fixes:BETAX:symbol
 Fixes:BETPO:symbol
 Fixes:BEVAM:symbol
 Fixes:BEVUP:symbol
+Fixes:BIBAX:symbol
 Fixes:BIBPE:symbol
 Fixes:BIDVA:symbol
 Fixes:BIFCU:symbol
@@ -555,6 +556,7 @@ Fixes:DIGMA:symbol
 Fixes:DIGSU:symbol
 Fixes:DIGUT:symbol
 Fixes:DIKVU:symbol
+Fixes:DIMAL:symbol
 Fixes:DIMLI:symbol
 Fixes:DINIM:symbol
 Fixes:DIPSO:symbol
@@ -1010,6 +1012,7 @@ Fixes:NIPIT:symbol
 Fixes:NIRIF:symbol
 Fixes:NISBI:symbol
 Fixes:NISKA:symbol
+Fixes:NITAR:symbol
 Fixes:NIVKO:symbol
 Fixes:NIVUN:symbol
 Fixes:NOBDO:symbol
@@ -1055,6 +1058,7 @@ Fixes:OGTAW:symbol
 Fixes:OGTUG:symbol
 Fixes:OKNOB:symbol
 Fixes:OKPAL:symbol
+Fixes:OKRUZ:symbol
 Fixes:OKSAW:symbol
 Fixes:OKTAD:symbol
 Fixes:OKVAP:symbol
@@ -1063,6 +1067,7 @@ Fixes:OLMOL:symbol
 Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
 Fixes:OMOKO:symbol
+Fixes:OPALE:symbol
 Fixes:ORIST:symbol
 Fixes:ORSUM:symbol
 Fixes:ORTAC:symbol
@@ -1122,6 +1127,7 @@ Fixes:PILIP:symbol
 Fixes:PIPAR:symbol
 Fixes:PIPEM:symbol
 Fixes:PIPIN:symbol
+Fixes:PIREG:symbol
 Fixes:PIXAM:symbol
 Fixes:PIXUP:symbol
 Fixes:POMAX:symbol
@@ -1361,6 +1367,7 @@ Fixes:UPNAL:symbol
 Fixes:UPTON:symbol
 Fixes:USEKA:symbol
 Fixes:UTAVA:symbol
+Fixes:UTFAV:symbol
 Fixes:UTOGU:symbol
 Fixes:UTUXA:symbol
 Fixes:UVAVU:symbol
@@ -1380,6 +1387,7 @@ Fixes:VAXIT:symbol
 Fixes:VEGAR:symbol
 Fixes:VEGUS:symbol
 Fixes:VELAG:symbol
+Fixes:VELOL:symbol
 Fixes:VENAS:symbol
 Fixes:VENER:symbol
 Fixes:VEREX:symbol

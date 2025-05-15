@@ -14,7 +14,7 @@ Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2025_04.sct
+Settings	sector	UK\Data\Sector\UK_2025_05.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Newquay\Newquay SMR.asr
@@ -26,7 +26,9 @@ Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
-Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin2	\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\Data\Plugin\CDM\CDM.dll

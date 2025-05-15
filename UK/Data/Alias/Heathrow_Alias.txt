@@ -91,6 +91,7 @@ Departure Clearance
 
 .pdc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD. 
 .pdcc .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB $temp. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. SLOT TIME $1. PDC READBACK NOT RQRD. 
+.pdccpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON DME 2.0 TURN RIGHT HDG 220 - CLIMB 6000 FT. NEXT FREQ $com. REPORT ACFT TYPE AND STAND NUMBER ON $com WHEN READY FOR PUSHBACK. PDC READBACK NOT RQRD.
 
 .sid Cleared to $arr, $sid departure, squawk $squawk, QNH $altim($dep)hPa
 .sidrw Cleared to $arr, $sid departure, Runway $deprwy($dep), squawk $squawk, QNH $altim($dep)hPa
@@ -104,8 +105,8 @@ Departure Clearance
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
 .27evtes GOGSI N612 EVTES then as filed
-.09mid MAXIT Y803 MID then as filed
-.27mid MODMI M185 MID then as filed
+.09mid MODMI M185 MID then as filed
+.27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
