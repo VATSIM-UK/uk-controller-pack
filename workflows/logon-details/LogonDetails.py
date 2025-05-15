@@ -132,9 +132,9 @@ def ask_string(prompt, default=""):
 
     dialog.transient()
     dialog.grab_set()
-    center_window(dialog)
     dialog.attributes("-topmost", True)
     dialog.focus_force()
+    center_window(dialog)
     dialog.wait_window()
 
     return result
@@ -179,9 +179,9 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     dialog.bind("<Escape>", lambda e: no())
     dialog.transient()
     dialog.grab_set()
-    center_window(dialog)
     dialog.attributes("-topmost", True)
     dialog.focus_force()
+    center_window(dialog)
     dialog.wait_window()
 
     return result
@@ -201,10 +201,10 @@ def ask_dropdown(prompt, options_list, current=None):
     dropdown.pack(pady=5)
     ttk.Button(dialog, text="OK", command=submit).pack()
     dialog.protocol("WM_DELETE_WINDOW", on_close)
-    center_window(dialog)
     dialog.transient()
     dialog.grab_set()
     dialog.mainloop()
+    center_window(dialog)
     return selected.get()
 
 def ask_rating(current=None):
@@ -231,11 +231,11 @@ def ask_rating(current=None):
     dropdown.pack(pady=5)
     ttk.Button(dialog, text="OK", command=submit).pack()
     dialog.protocol("WM_DELETE_WINDOW", on_close)
-    center_window(dialog)
     dialog.transient()
     dialog.grab_set()
     dialog.attributes("-topmost", True)
     dialog.focus_force()
+    center_window(dialog)
     dialog.mainloop()
     return str(ratings.index(selected.get()))
 
@@ -265,11 +265,11 @@ def ask_with_images(title, prompt, image_dict, current_key, descriptions_dict=No
 
     ttk.Button(dialog, text="OK", command=submit).pack(pady=10)
     dialog.protocol("WM_DELETE_WINDOW", on_close)
-    center_window(dialog)
     dialog.transient()
     dialog.grab_set()
     dialog.attributes("-topmost", True)
     dialog.focus_force()
+    center_window(dialog)
     dialog.mainloop()
     return var.get()
 
