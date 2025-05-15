@@ -2,9 +2,9 @@ import os
 import sys
 import json
 import time
-import ctypes
+import winreg
 import tkinter as tk
-from tkinter import simpledialog, messagebox
+from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
 
@@ -13,7 +13,6 @@ _original_init = simpledialog.Dialog.__init__
 def is_dark_theme_enabled():
     try:
         # Read from Windows registry: AppsUseLightTheme (0 = dark, 1 = light)
-        import winreg
         registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
         key = winreg.OpenKey(registry, r"Software\Microsoft\Windows\CurrentVersion\Themes\Personalize")
         value, _ = winreg.QueryValueEx(key, "AppsUseLightTheme")
@@ -486,6 +485,13 @@ def main():
         root = tk.Tk()
         root.withdraw()
         tk._default_root = root
+
+        # Load Azure theme from file
+        root.tk.call("source", resource_path("azure.tcl"))
+
+        # Apply dark or light theme based on system preference
+        theme = "azure-dark" if is_dark_theme_enabled() else "azure-light"
+        ttk.Style().theme_use(theme)
 
     lockfile = os.path.join(BASE_DIR, 'logondetails.lock')
     if os.path.exists(lockfile):
