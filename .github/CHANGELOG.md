@@ -2,6 +2,7 @@
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)
 3. AIRAC (2506) - Removed Inverness Approach (EGPE_A_APP) - thanks to @Liaely (Lily Unitt)
+4. AIRAC (2506) - Update Heathrow (EGLL) planner frequency for 8.33 kHz channels - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
