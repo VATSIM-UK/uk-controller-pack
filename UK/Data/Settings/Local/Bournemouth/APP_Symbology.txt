@@ -12,7 +12,7 @@ Sids:line:11248794:3.0:0:0:7
 Stars:line:0:3.0:0:0:7
 ARTCC high boundary:line:1315860:3.0:0:1:7
 ARTCC boundary:line:1976520:3.0:0:0:7
-ARTCC low boundary:line:1315860:3.0:0:1:7
+ARTCC low boundary:line:16777215:3.0:2:1:7
 Geo:line:11206655:3.0:0:0:7
 VORs:symbol:11248794:1.4:0:0:7
 VORs:name:6579300:3.2:0:0:2
@@ -76,7 +76,7 @@ Other:free of conflict:65280:3.5:0:2:7
 Other:conflict warning:65535:3.5:0:2:7
 Other:conflict detected:255:3.5:0:2:7
 Other:route annotation:16777215:3.0:0:1:7
-Other:freetext:2631720:3.5:0:0:7
+Other:freetext:2631720:3.5:0:0:0
 Other:range rings:1315860:5.0:2:0:2
 Other:off antenna range rings:255:5.0:0:0:2
 Other:plane range rings:10855845:5.0:0:0:2
