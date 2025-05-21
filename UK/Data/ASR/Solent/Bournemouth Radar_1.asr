@@ -384,7 +384,7 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NOVA 9000
-WINDOWAREA:53.285678:-3.547510:54.468697:0.192545
+WINDOWAREA:50.157497:-3.712528:51.402503:0.027528
 PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
@@ -409,8 +409,13 @@ PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:1
 PLUGIN:UK Controller Plugin:HistoryTrailFade:1
 PLUGIN:UK Controller Plugin:HistoryTrailLength:10
 PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
-PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:99999
 PLUGIN:UK Controller Plugin:HistoryTrailType:3
+PLUGIN:UK Controller Plugin:holdBIAMaxLevel:3000
+PLUGIN:UK Controller Plugin:holdBIAMinimised:0
+PLUGIN:UK Controller Plugin:holdBIAMinLevel:1500
+PLUGIN:UK Controller Plugin:holdBIAPositionX:1437
+PLUGIN:UK Controller Plugin:holdBIAPositionY:813
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
 PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
 PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
