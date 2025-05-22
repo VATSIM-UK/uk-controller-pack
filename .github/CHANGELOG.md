@@ -4,6 +4,7 @@
 3. AIRAC (2506) - Removed Inverness Approach (EGPE_A_APP) - thanks to @Liaely (Lily Unitt)
 4. Bug - Corrected vSMR settings for Gibraltar (LXGB) SMR - thanks to @Liaely (Lily Unitt)
 5. AIRAC (2506) - Update Heathrow (EGLL) planner frequency for 8.33 kHz channels - thanks to @Liaely (Lily Unitt)
+6. AIRAC (2506) - Removed Peterborough/Conington (EGSF) Radio voice and profile - thanks to @matthew4301 (Matthew Stothard)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
