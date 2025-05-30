@@ -1,4 +1,4 @@
-﻿name: Test Changes-Only ZIP (Latest vs Previous Release)
+name: Test Changes-Only ZIP (Latest vs Previous Release)
 
 on:
   workflow_dispatch:
@@ -42,7 +42,7 @@ jobs:
         echo "Comparing: $from_tag -> $to_tag"
         mkdir -p changes_only
 
-        # Fetch file list using GitHub API and map safely into array
+        # Fetch changed files and safely store in array
         mapfile -t file_list < <(curl -s -H "Authorization: token $GITHUB_TOKEN" \
           "https://api.github.com/repos/$repo/compare/$from_tag...$to_tag" \
           | jq -r '.files[] | select(.status != "removed") | .filename')
@@ -77,6 +77,7 @@ jobs:
           exit 0
         fi
 
+        # Zip only the contents, not the folder
         cd changes_only
         zip -r ../changes_only_test.zip .
         cd ..
