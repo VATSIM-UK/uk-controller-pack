@@ -1,3 +1,5 @@
+X. Enhancement - Added Bournemouth Profiles & Displays - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)
