@@ -202,8 +202,8 @@ jobs:
           git checkout -B uk-controller-pack
           rm -f "docs/General/Software Downloads/Files/uk_controller_pack_"*".zip"
           rm -f "docs/General/Software Downloads/Files/changes_only_"*".zip"
-          cp ../uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip "docs/General/Software Downloads/Files/"
-          cp ../changes_only_${{ steps.tags.outputs.latest_tag }}.zip "docs/General/Software Downloads/Files/"
+          cp ../uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip "docs/General/Software Downloads/Files/" || { echo "❌ Full ZIP missing"; exit 1; 
+          cp ../changes_only_${{ steps.tags.outputs.latest_tag }}.zip "docs/General/Software Downloads/Files/" || { echo "❌ Changes only ZIP missing"; exit 1; 
 
       - name: 🔄 [DOCS] Update Download Links
         run: |
