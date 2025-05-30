@@ -47,12 +47,12 @@ jobs:
         echo "📝 Changed files:"
         printf '%s\n' "${file_list[@]}"
 
-        # Always include README
+        # Always include README as renamed at root
         cp _docs/README.pdf changes_only/README.pdf 2>/dev/null || echo "⚠ README.pdf not found"
 
         for file in "${file_list[@]}"; do
           echo "::group::Checking $file"
-          if [[ "$file" == UK/* || "$file" == "_docs/README.pdf" ]]; then
+          if [[ "$file" == UK/* && "$file" != "_docs/README.pdf" ]]; then
             if [ -f "$file" ]; then
               echo "✔ Including: $file"
               mkdir -p "changes_only/$(dirname "$file")"
