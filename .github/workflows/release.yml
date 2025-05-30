@@ -21,11 +21,12 @@ jobs:
       - name: 🏷️ Get Release Tag
         id: get_release_tag
         run: |
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "::set-output name=tag::${{ github.event.inputs.release_tag }}"
-          else
-            echo "::set-output name=tag::${{ github.event.release.tag_name }}"
-          fi
+            if:  [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                echo "tag=${{ github.event.inputs.release_tag }}" >> $GITHUB_OUTPUT
+            else
+                echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
+            fi
+
 
       - name: 📦 Create Full Controller Pack ZIP
         run: |
@@ -153,11 +154,11 @@ jobs:
       - name: 🏷️ Get Release Tag
         id: get_release_tag
         run: |
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "::set-output name=tag::${{ github.event.inputs.release_tag }}"
-          else
-            echo "::set-output name=tag::${{ github.event.release.tag_name }}"
-          fi
+            if:  [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                echo "tag=${{ github.event.inputs.release_tag }}" >> $GITHUB_OUTPUT
+            else
+                echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
+            fi
 
       - name: 🏷️ Determine Latest and Previous Release Tags
         id: tags
