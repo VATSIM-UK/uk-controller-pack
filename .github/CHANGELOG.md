@@ -11,6 +11,7 @@
 10. AIRAC (2506) - Added danger areas EGD220A and B to TopSky - thanks to @Liaely (Lily Unitt)
 11. Enhancement - Added vSMR WIP areas from UK Military AIP - thanks to @Liaely (Lily Unitt)
 12. Enhancement - Added EGSC vSMR WIP area between L1 and L2 - thanks to @Liaely (Lily Unitt)
+x. Enhancement - Updated NODE realistic tags to remove line connecting target and datablock when unhovered - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
