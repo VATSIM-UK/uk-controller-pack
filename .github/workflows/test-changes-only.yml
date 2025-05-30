@@ -33,7 +33,7 @@ jobs:
         echo "latest_tag=${tags[0]}" >> $GITHUB_OUTPUT
         echo "previous_tag=${tags[1]}" >> $GITHUB_OUTPUT
 
-    - name: Compare releases and build ZIP
+    - name: Compare releases and gather changed files
       run: |
         from_tag="${{ steps.tags.outputs.previous_tag }}"
         to_tag="${{ steps.tags.outputs.latest_tag }}"
@@ -70,16 +70,12 @@ jobs:
         find changes_only -type f
 
         if [ -z "$(find changes_only -type f)" ]; then
-          echo "⚠ No files to include in ZIP."
+          echo "⚠ No files to include."
           exit 0
         fi
 
-        cd changes_only
-        zip -r ../changes_only.zip .
-        cd ..
-
-    - name: Upload changes-only ZIP
+    - name: Upload raw changed files as ZIP
       uses: actions/upload-artifact@v4
       with:
         name: changes_only
-        path: changes_only.zip
+        path: changes_only/*
