@@ -13,6 +13,6 @@ Setup_AutoSignIn=1
 //NODE colours
 Color_Background=0,0,0
 Color_Border=10,10,10
-Color_WM_Bg=169,109,99
+Color_WM_Bg=160,111,112
 Color_WM_Border=10,10,10
 Color_WM_Fg=255,255,255
