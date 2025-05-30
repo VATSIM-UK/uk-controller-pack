@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repo at latest release tag
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
+        fetch-depth: 0  # we need full history to support tags
 
     - name: Get latest and previous release tags
       id: tags
@@ -42,23 +42,18 @@ jobs:
         echo "Comparing: $from_tag -> $to_tag"
         mkdir -p changes_only
 
-        # Pull changed files via GitHub API
-        files=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+        # Fetch file list using GitHub API and map safely into array
+        mapfile -t file_list < <(curl -s -H "Authorization: token $GITHUB_TOKEN" \
           "https://api.github.com/repos/$repo/compare/$from_tag...$to_tag" \
           | jq -r '.files[] | select(.status != "removed") | .filename')
 
-        if [ -z "$files" ]; then
-          echo "No changed files detected."
-          exit 0
-        fi
+        echo "📝 Changed files:"
+        printf '%s\n' "${file_list[@]}"
 
         # Always try to include the README.pdf
         cp _docs/README.pdf changes_only/README.pdf 2>/dev/null || echo "⚠ README.pdf not found"
 
-        # Save to debug file
-        echo "$files" > changed_files.txt
-
-        while IFS= read -r file; do
+        for file in "${file_list[@]}"; do
           echo "::group::Checking $file"
           if [[ "$file" == UK/* || "$file" == "_docs/README.pdf" ]]; then
             if [ -f "$file" ]; then
@@ -66,15 +61,15 @@ jobs:
               mkdir -p "changes_only/$(dirname "$file")"
               cp "$file" "changes_only/$file"
             else
-              echo "⚠ File listed in diff but does not exist in HEAD: $file"
+              echo "⚠ Listed but missing in checkout: $file"
             fi
           else
-            echo "⏭ Not matched by filter: $file"
+            echo "⏭ Skipped (not matched by filter): $file"
           fi
           echo "::endgroup::"
-        done < changed_files.txt
+        done
 
-        echo "📦 Final ZIP contents:"
+        echo "📦 Final contents:"
         find changes_only -type f
 
         if [ -z "$(find changes_only -type f)" ]; then
