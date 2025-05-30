@@ -9,6 +9,7 @@
 8. AIRAC (2506) - Removed Peterborough/Conington (EGSF) Radio voice and profile - thanks to @matthew4301 (Matthew Stothard)
 9. Bug - Corrected vSMR settings for Birmingham (EGBB) and East Midlands (EGNX) in LTC profiles - thanks to @Liaely (Lily Unitt)
 10. AIRAC (2506) - Added danger areas EGD220A and B to TopSky - thanks to @Liaely (Lily Unitt)
+11. Enhancement - Added vSMR WIP areas from UK Military AIP - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
