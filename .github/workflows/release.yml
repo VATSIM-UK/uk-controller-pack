@@ -52,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           repo="${{ github.repository }}"
-          releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \ 
+          releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/repos/$repo/releases?per_page=10")
           tags=($(echo "$releases" | jq -r '.[].tag_name'))
           if [ "${#tags[@]}" -lt 2 ]; then
@@ -142,3 +142,78 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: changes_only_${{ steps.tags.outputs.latest_tag }}.zip
+
+  upload-to-docs:
+    needs: [create-full-zip,create-changes-only-zip]
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🏷️ Get Release Tag
+        id: get_release_tag
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "::set-output name=tag::${{ github.event.inputs.release_tag }}"
+          else
+            echo "::set-output name=tag::${{ github.event.release.tag_name }}"
+          fi
+
+      - name: 🏷️ Determine Latest and Previous Release Tags
+        id: tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          repo="${{ github.repository }}"
+          releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$repo/releases?per_page=10")
+          tags=($(echo "$releases" | jq -r '.[].tag_name'))
+          if [ "${#tags[@]}" -lt 2 ]; then
+            echo "❌ Not enough releases found."
+            exit 1
+          fi
+          echo "latest_tag=${tags[0]}" >> $GITHUB_OUTPUT
+          echo "previous_tag=${tags[1]}" >> $GITHUB_OUTPUT
+
+      - name: Get AIRAC
+        run: |
+          echo "AIRAC_DATE=$(echo ${GITHUB_REF#refs/*/} | sed 's/\//_/g')" >> $GITHUB_ENV
+          echo "AIRAC_SHORT=$(echo ${GITHUB_REF#refs/*/} | sed 's/\//_/g' | sed 's/20\([0-9][0-9]\)_\([0-9][0-9]\)/\1\2/g')" >> $GITHUB_ENV
+
+      - name: Setup Git
+        run: |
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name "VATSIM UK"
+
+      - name: Clone Docs Website
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "📥 Cloning Docs Website"
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/VATSIM-UK/atc-documentation.git atc-documentation || {
+            echo "❌ Failed to clone documentation repo"; exit 1;
+          }
+
+
+      - name: Upload Controller Pack
+        run: |  
+          cd atc-documentation
+          git checkout -B uk-controller-pack
+          rm -f "docs/General/Software Downloads/Files/uk_controller_pack_"*".zip"
+          rm -f "docs/General/Software Downloads/Files/changes_only_"*".zip"
+          cp ../uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip "docs/General/Software Downloads/Files/"
+          cp ../changes_only_${{ steps.tags.outputs.latest_tag }}.zip "docs/General/Software Downloads/Files/"
+
+      - name: Update Download Links
+        run: |
+          cd atc-documentation
+          LINK_FILE="docs/General/Software Downloads/Controller Pack & Sector File.md"
+          sed -i '/^## Controller Pack Downloads/c\## Controller Pack Downloads - AIRAC '"${AIRAC_SHORT}"'' "$LINK_FILE"
+          sed -i '/^- \[:link: UK Controller Pack\]/c\- [:link: UK Controller Pack](Files/uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip) - Latest version including all files' "$LINK_FILE"
+          sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](Files/changes_only_${{ steps.tags.outputs.latest_tag }}.zip) - Download only the latest changes' "$LINK_FILE"
+          
+      - name: Commit Changes
+        run: |
+          cd atc-documentation
+          git commit -am "Upload Controller Pack ${AIRAC_DATE}"
+          git push origin uk-controller-pack
