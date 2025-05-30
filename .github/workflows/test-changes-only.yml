@@ -1,0 +1,76 @@
+name: Test Changes-Only ZIP (Latest vs Previous Release)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-changes-zip:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # needed to ensure all tags/releases are available
+
+    - name: Get latest and previous release tags
+      id: tags
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        repo="${{ github.repository }}"
+
+        releases=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/$repo/releases?per_page=10")
+
+        tags=($(echo "$releases" | jq -r '.[].tag_name'))
+
+        if [ "${#tags[@]}" -lt 2 ]; then
+          echo "Not enough releases found to compare."
+          exit 1
+        fi
+
+        echo "latest_tag=${tags[0]}" >> $GITHUB_OUTPUT
+        echo "previous_tag=${tags[1]}" >> $GITHUB_OUTPUT
+
+    - name: Compare changes and create ZIP
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        repo="${{ github.repository }}"
+        from_tag="${{ steps.tags.outputs.previous_tag }}"
+        to_tag="${{ steps.tags.outputs.latest_tag }}"
+
+        echo "Comparing: $from_tag -> $to_tag"
+
+        files=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/$repo/compare/$from_tag...$to_tag" \
+          | jq -r '.files[] | select(.status != "removed") | .filename')
+
+        if [ -z "$files" ]; then
+          echo "No changed files found."
+          exit 0
+        fi
+
+        mkdir -p changes_only
+        cp _docs/README.pdf changes_only/README.pdf || true
+
+        while IFS= read -r file; do
+          if [[ "$file" == UK/* || "$file" == *_docs/README.pdf ]]; then
+            mkdir -p "changes_only/$(dirname "$file")"
+            cp "$file" "changes_only/$file" || echo "Warning: $file missing"
+          fi
+        done <<< "$files"
+
+        if [ -z "$(ls -A changes_only)" ]; then
+          echo "No relevant files to include in ZIP."
+          exit 0
+        fi
+
+        zip -r "changes_only_test.zip" changes_only
+
+    - name: Upload test ZIP
+      uses: actions/upload-artifact@v4
+      with:
+        name: changes-only-zip
+        path: changes_only_test.zip
