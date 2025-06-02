@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       release_sha: ${{ steps.set_release_sha.outputs.sha }}
+      full_tag: ${{ steps.get_release_tag.outputs.tag }}
     steps:
       - name: 👥 Checkout Repository
         uses: actions/checkout@v4
@@ -40,6 +41,12 @@ jobs:
           echo "${{ steps.set_release_sha.outputs.sha }}" >> UK/Data/Sector/pack_version.txt
           zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
 
+      - name: 📤 Upload Full Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}
+          path: uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+
       - name: 🚀 Upload Full ZIP to GitHub Release
         uses: softprops/action-gh-release@v1
         with:
@@ -49,6 +56,8 @@ jobs:
   create-changes-only-zip:
     needs: create-full-zip
     runs-on: ubuntu-latest
+    outputs:
+      changes_tag: ${{ steps.tags.outputs.latest_tag }}
     steps:
       - name: 👥 Checkout Repository with Full History
         uses: actions/checkout@v4
@@ -198,6 +207,18 @@ jobs:
           git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/VATSIM-UK/atc-documentation.git atc-documentation || {
             echo "❌ Failed to clone documentation repo"; exit 1;
           }
+
+      - name: 📩 [DOCS] Download Full Pack ZIP
+        uses: actions/download-artifact@v4
+        with:
+          name: uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}
+          path: .
+
+      - name: 📩 [DOCS] Download Changes-only ZIP
+        uses: actions/download-artifact@v4
+        with:
+          name: changes_only_${{ steps.tags.outputs.latest_tag }}
+          path: .
 
       - name: 🚀 [DOCS] Upload Controller Pack
         run: |
