@@ -38,6 +38,7 @@ jobs:
 
       - name: 📦 Create Full Controller Pack ZIP
         run: |
+          mkdir -p UK/Data/Sector
           echo "${{ steps.set_release_sha.outputs.sha }}" >> UK/Data/Sector/pack_version.txt
           zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
 
@@ -143,6 +144,7 @@ jobs:
         run: |
           tag="${{ steps.tags.outputs.latest_tag }}"
           cd changes_only
+          mkdir -p UK/Data/Sector
           echo "${{ needs.create-full-zip.outputs.release_sha }}" >> UK/Data/Sector/pack_version.txt
           zip -r "../changes_only_${tag}.zip" .
           cd ..
