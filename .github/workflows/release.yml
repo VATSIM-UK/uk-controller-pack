@@ -242,8 +242,8 @@ jobs:
       - name: 📂 [DOCS] Upload Pack Version File
         run: |
           cd atc-documentation
-          rm "docs/General/Software Downloads/pack_version.txt"
-          echo "${{ needs.create-full-zip.outputs.release_sha }}" >> "docs/General/Software Downloads/pack_version.txt"
+          rm "docs/General/Software Downloads/Files/pack_version.txt"
+          echo "${{ needs.create-full-zip.outputs.release_sha }}" >> "docs/General/Software Downloads/Files/pack_version.txt"
 
       - name: 📆 [DOCS] Commit Changes
         run: |
