@@ -114,6 +114,7 @@ Free Text:SCT2\211:freetext
 Free Text:SCT2\212:freetext
 Free Text:SCT2\213:freetext
 Free Text:SCT2\214:freetext
+Free Text:SCT2\215:freetext
 Free Text:SCT2\216:freetext
 Free Text:SCT2\217:freetext
 Free Text:SCT2\218:freetext
@@ -314,10 +315,8 @@ Free Text:SCT2\5:freetext
 Free Text:SCT2\50:freetext
 Free Text:SCT2\501:freetext
 Free Text:SCT2\502:freetext
-Free Text:SCT2\502C:freetext
 Free Text:SCT2\503:freetext
 Free Text:SCT2\504:freetext
-Free Text:SCT2\504C:freetext
 Free Text:SCT2\505:freetext
 Free Text:SCT2\506:freetext
 Free Text:SCT2\507:freetext
@@ -481,10 +480,7 @@ Free Text:SCT2\7L:freetext
 Free Text:SCT2\7N:freetext
 Free Text:SCT2\8:freetext
 Free Text:SCT2\80:freetext
-Free Text:SCT2\807:freetext
-Free Text:SCT2\809:freetext
 Free Text:SCT2\81:freetext
-Free Text:SCT2\811:freetext
 Free Text:SCT2\82:freetext
 Free Text:SCT2\83:freetext
 Free Text:SCT2\83C:freetext
@@ -806,15 +802,18 @@ Free Text:SCT2\N5W:freetext
 Free Text:SCT2\N6:freetext
 Free Text:SCT2\N7:freetext
 Free Text:SCT2\NA1:freetext
+Free Text:SCT2\NA2:freetext
 Free Text:SCT2\NB1:freetext
 Free Text:SCT2\NB10:freetext
 Free Text:SCT2\NB11:freetext
+Free Text:SCT2\NB2:freetext
 Free Text:SCT2\NB2E:freetext
 Free Text:SCT2\NB2W:freetext
 Free Text:SCT2\NB3:freetext
 Free Text:SCT2\NB8:freetext
-Free Text:SCT2\NC1:freetext
-Free Text:SCT2\NC2:freetext
+Free Text:SCT2\ND1:freetext
+Free Text:SCT2\ND2:freetext
+Free Text:SCT2\ND3:freetext
 Free Text:SCT2\NE:freetext
 Free Text:SCT2\NESSY:freetext
 Free Text:SCT2\NEVIS:freetext
@@ -1178,6 +1177,12 @@ DISABLEZOOMING:0
 DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:51.450269:-0.518209:51.486612:-0.403312
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
+PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200

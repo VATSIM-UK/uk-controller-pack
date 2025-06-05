@@ -1,5 +1,17 @@
 # Changes from release 2025/05 to 2025/06
-1. Bug - Rename EGPH GMC VCCS from GMP to GMC - thanks to @AdriTheDev (Callum Hicks)
+1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)
+3. AIRAC (2506) - Removed Inverness Approach (EGPE_A_APP) - thanks to @Liaely (Lily Unitt)
+4. Bug - Corrected vSMR settings for Gibraltar (LXGB) SMR - thanks to @Liaely (Lily Unitt)
+5. AIRAC (2506) - Update Heathrow (EGLL) planner frequency for 8.33 kHz channels - thanks to @Liaely (Lily Unitt)
+6. Procedure Change (2506) - Added LEDGO RFC Area TopSky Map
+7. AIRAC (2506) - Removed Peterborough/Conington (EGSF) ATZ from ASRs - thanks to @matthew4301 (Matthew Stothard)
+8. AIRAC (2506) - Removed Peterborough/Conington (EGSF) Radio voice and profile - thanks to @matthew4301 (Matthew Stothard)
+9. Bug - Corrected vSMR settings for Birmingham (EGBB) and East Midlands (EGNX) in LTC profiles - thanks to @Liaely (Lily Unitt)
+10. AIRAC (2506) - Added danger areas EGD220A and B to TopSky - thanks to @Liaely (Lily Unitt)
+11. Enhancement - Added vSMR WIP areas from UK Military AIP - thanks to @Liaely (Lily Unitt)
+12. Enhancement - Added EGSC vSMR WIP area between L1 and L2 - thanks to @Liaely (Lily Unitt)
+13. Bug - Rename EGPH GMC VCCS from GMP to GMC - thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
@@ -8,6 +20,14 @@
 4. Enhancement - Add PDC for Heathrow (EGLL) CPT 09R Departures - thanks to @hinshee (Will Hinshaw)
 5. Bug - Fixed duplicate .08benbo alias - thanks to @ThomasSaunders (Thomas Saunders)
 6. Bug - Swap LL MID truncations - thanks to @ThomasSaunders (Thomas Saunders)
+7. Added new RA(T) for SS Richard Montgomery - thanks to @quassbutreally
+8. Procedure Change (2504) - Updated fighter control positions - thanks to @Liaely (Lily Unitt)
+9. Procedure Change (2505) - Added Paris/Reims ACC VESAN Release Line (TopSky Map)
+10. Enhancement - Added additional French waypoints to ASRs
+11. Procedure Change (2505) - Updated French CPDLC position definitions to reflect new callsigns
+12. Enhancement - Updated RDF and replaced AFV-EuroScope Bridge Plugins - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Profile configurator improved significantly - thanks to @luke11brown (Luke Brown)
+14. Enhancement - NERC & NODE tags split into realistic & easy families - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/03 to 2025/04
 1. Bug - Fixed Biggin Hill Approach (EGKB_A_APP) logon callsign - thanks to @m4ksc (Maks Ciesielski)

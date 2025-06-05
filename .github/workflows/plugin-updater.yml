@@ -1,0 +1,58 @@
+name: Check Upstream Plugin Releases
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Detect new plugin releases and create issues
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        run: |
+          REPOS=(
+            "AliceFord/vSMR"
+            "KingfuChan/RDF"
+            "VATSIMCanada/Slots-Plugin"
+            "rpuig2001/CDM"
+            "DrFreas/VCH"
+            "quassbutreally/EuroScope-CCDS-R"
+            "VFPC/VFPC"
+          )
+
+          VERSION_FILE=".github/dependency_versions.json"
+          if [ ! -f "$VERSION_FILE" ]; then
+            echo "{}" > "$VERSION_FILE"
+          fi
+
+          for repo in "${REPOS[@]}"; do
+            key=$(echo "$repo" | cut -d/ -f2)
+            latest_tag=$(curl -s "https://api.github.com/repos/$repo/releases/latest" | jq -r '.tag_name // empty')
+            if [ -z "$latest_tag" ]; then
+              latest_tag="v0.0.0"
+            fi
+
+            prev_tag=$(jq -r --arg key "$key" '.[$key].message // "v0.0.0"' "$VERSION_FILE")
+
+            if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
+              echo "New release detected for $repo: $latest_tag"
+
+              gh issue create                 --title "Incorporate $repo $latest_tag"                 --template "plugin_update.md"                 --field plugin="$repo"                 --field version="$latest_tag"                 --label dependencies || echo "Issue may already exist"
+            else
+              echo "No update needed for $repo ($prev_tag)"
+            fi
+          done
