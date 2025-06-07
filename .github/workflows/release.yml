@@ -236,7 +236,7 @@ jobs:
           cd atc-documentation
           LINK_FILE="docs/General/Software Downloads/Controller Pack & Sector File.md"
           sed -i '/^## Controller Pack Downloads/c\## Controller Pack Downloads - AIRAC '"${AIRAC_SHORT}"'' "$LINK_FILE"
-          sed -i '/^- \[:link: UK Controller Pack\]/c\- [:link: UK Controller Pack](Files/uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip) - Latest version including all files' "$LINK_FILE"
+          sed -i '/^- \[:link: UK Controller Pack\]/c\- [:link: UK Controller Pack](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.get_release_tag.outputs.tag }}/uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip) - Latest version including all files' "$LINK_FILE"
           sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](Files/changes_only_${{ steps.tags.outputs.latest_tag }}.zip) - Download only the latest changes' "$LINK_FILE"
 
       - name: 📂 [DOCS] Upload Pack Version File
