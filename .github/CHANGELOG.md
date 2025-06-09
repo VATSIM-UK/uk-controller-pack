@@ -14,6 +14,7 @@
 13. Bug - Rename EGPH GMC VCCS from GMP to GMC - thanks to @AdriTheDev (Callum Hicks)
 14. Bug - Added missing .charts alias to Heathrow aliases - thanks to @Liaely (Lily Unitt)
 15. Enhancement - Updated NODE colours for better accuracy - thanks to @SamLefevre (Samuel Lefevre) & @cbyworth (Chad Byworth)
+16. Enhancement - Updated NODE-L and NERC tags to hide stalk when close to target - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
