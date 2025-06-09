@@ -1,5 +1,5 @@
 NAME:VATSIM-UK Euroscope Sector File Provider
-URL:http://www.vatsim.uk/VATSIM_UK_Sector_Provider.txt
+URL:http://docs.vatsim.uk/General/Software%20Downloads/Files/VATUK_Euroscope_files.txt
 LOCALFILE:UK\Data\Sector\VATUK_Euroscope_files.txt
 LASTDOWNLOAD:202203251200
 NEXTDOWNLOAD:202203261200
