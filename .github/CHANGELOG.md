@@ -11,7 +11,8 @@
 10. AIRAC (2506) - Added danger areas EGD220A and B to TopSky - thanks to @Liaely (Lily Unitt)
 11. Enhancement - Added vSMR WIP areas from UK Military AIP - thanks to @Liaely (Lily Unitt)
 12. Enhancement - Added EGSC vSMR WIP area between L1 and L2 - thanks to @Liaely (Lily Unitt)
-13. Bug - Added missing .charts alias to Heathrow aliases - thanks to @Liaely (Lily Unitt)
+13. Bug - Rename EGPH GMC VCCS from GMP to GMC - thanks to @AdriTheDev (Callum Hicks)
+14. Bug - Added missing .charts alias to Heathrow aliases - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
