@@ -304,7 +304,12 @@ def prompt_for_field(key, current):
         "rating": "Enter your current controller rating",
         "password": "Enter your VATSIM password",
         "cpdlc": "Enter your Hoppie CPDLC logon code (leave blank if you don't have one)",
-        "realistic_tags": "Select Yes if you want realistic aircraft datablocks. Select No if you want climb/descent arrows in aircraft datablocks",
+        "realistic_tags": (
+            "Apply realistic datablocks **only** for LAC and LTC (LTC, Heathrow, Gatwick, Essex):\n"
+            "- Yes: Use realistic tags (no climb/descent arrows)\n"
+            "- No: Add climb/descent arrows for improved clarity\n\n"
+            "Note: STC, MPC and others will remain unaffected."
+        ),
         "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion. Select No if not required (not recommended)",
         "coast_choice": "Select your preferred coastline colour",
         "land_choice": "Select your preferred land colour"
