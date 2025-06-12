@@ -1,0 +1,22 @@
+PROFILE
+PROFILE:EGHH_GND:20:3
+ATIS2:Bournemouth Ground
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGHH_TWR:50:4
+ATIS2:Bournemouth Tower
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGHH_APP:100:5
+ATIS2:Bournemouth Radar
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGHH_F_APP:100:5
+ATIS2:Bournemouth Director
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGHH_TWR:50:4
+ATIS2:Southampton Tower
+ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
+ATIS4:Submit feedback at vats.im/atcfb
+END
