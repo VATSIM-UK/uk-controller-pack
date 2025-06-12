@@ -51,7 +51,15 @@ jobs:
             if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
               echo "New release detected for $repo: $latest_tag"
 
-              gh issue create                 --title "Incorporate $repo $latest_tag"                 --template "plugin_update.md"                 --field plugin="$repo"                 --field version="$latest_tag"                 --label dependencies || echo "Issue may already exist"
+              gh issue create \
+                --title "Incorporate $repo $latest_tag" \
+                --label dependencies \
+                --body "**Plugin**: \`$repo\`  
+              **Version**: \`$latest_tag\`  
+  
+              Please update the DLL and modify \`.github/dependency_versions.json\` accordingly.  
+              [Release notes](https://github.com/$repo/releases/tag/$latest_tag)" || echo "Issue may already exist"
+
             else
               echo "No update needed for $repo ($prev_tag)"
             fi
