@@ -89,7 +89,6 @@ jobs:
           to_tag="${{ steps.tags.outputs.latest_tag }}"
 
           echo "📦 Comparing releases: $from_tag → $to_tag"
-
           echo "Using from_tag='$from_tag' and to_tag='$to_tag'"
           git log -1 "$from_tag"
           git log -1 "$to_tag"
@@ -110,40 +109,43 @@ jobs:
             echo "::group::Checking $file"
             echo "File exists? $( [ -f "$file" ] && echo yes || echo no )"
             if [[ "$file" == UK/* && "$file" != "_docs/README.pdf" ]]; then
-                if [ -f "$file" ]; then
-                    if [[ "$file" == *.prf ]]; then
-                        echo "Running git diff on $file"
-                        diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
-                        echo "git diff output:"
-                        echo "$diff_lines"
-                        # filter diff_lines as before...
-                        diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
-                        if [ -z "$diff_filtered" ]; then
-                            echo "⏭ Skipped: $file (only Settings\tsector\t line changed)"
-                            prf_skipped+=("$file")
-                            echo "::endgroup::"
-                            continue
-                        else
-                            prf_included+=("$file")
-                        fi
-                    fi
-                    # copy file as before
-                   else
-                    echo "⚠ Listed but not found: $file"
-                   fi
+              if [ -f "$file" ]; then
+                if [[ "$file" == *.prf ]]; then
+                  echo "Running git diff on $file"
+                  diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
+                  echo "git diff output:"
+                  echo "$diff_lines"
+                  diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
+                  if [ -z "$diff_filtered" ]; then
+                    echo "⏭ Skipped: $file (only Settings\tsector\t line changed)"
+                    prf_skipped+=("$file")
+                    echo "::endgroup::"
+                    continue
+                  else
+                    prf_included+=("$file")
+                    mkdir -p "changes_only/$(dirname "$file")"
+                    cp "$file" "changes_only/$file"
+                  fi
                 else
-                echo "⏭ Skipped: $file"
+                  mkdir -p "changes_only/$(dirname "$file")"
+                  cp "$file" "changes_only/$file"
+                fi
+              else
+                echo "⚠ Listed but not found: $file"
+              fi
+            else
+              echo "⏭ Skipped: $file"
             fi
             echo "::endgroup::"
-            done
+          done
 
-          echo "\n🚀 Included .prf files:"
+          echo -e "\n🚀 Included .prf files:"
           for f in "${prf_included[@]}"; do echo "- $f"; done
 
-          echo "\n🛑 Skipped .prf files (only Settings\tsector\t changed):"
+          echo -e "\n🛑 Skipped .prf files (only Settings\tsector\t changed):"
           for f in "${prf_skipped[@]}"; do echo "- $f"; done
 
-          echo "\n📦 Final contents:"
+          echo -e "\n📦 Final contents:"
           find changes_only -type f
 
           if [ -z "$(find changes_only -type f)" ]; then
