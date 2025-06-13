@@ -84,16 +84,12 @@ jobs:
           echo "previous_tag=${tags[1]}" >> $GITHUB_OUTPUT
 
       - name: 🧐 Analyze Changes Between Releases
+        id: analyze
         run: |
           from_tag="${{ steps.tags.outputs.previous_tag }}"
           to_tag="${{ steps.tags.outputs.latest_tag }}"
 
           echo "📦 Comparing releases: $from_tag → $to_tag"
-          echo "Using from_tag='$from_tag' and to_tag='$to_tag'"
-
-          git log -1 "$from_tag"
-          git log -1 "$to_tag"
-
           mkdir -p changes_only
 
           declare -a prf_included
@@ -101,51 +97,37 @@ jobs:
 
           mapfile -t file_list < <(git diff --name-only "$from_tag" "$to_tag")
 
-          echo "📍 Changed files:"
-          printf '%s\n' "${file_list[@]}"
-
+          # Always include the README.pdf
           cp _docs/README.pdf changes_only/README.pdf 2>/dev/null || echo "⚠ README.pdf not found"
 
           for file in "${file_list[@]}"; do
             echo "::group::Checking $file"
-            echo "File exists? $( [ -f "$file" ] && echo yes || echo no )"
             if [[ "$file" == UK/* && "$file" != "_docs/README.pdf" ]]; then
-                if [ -f "$file" ]; then
-                    if [[ "$file" == *.prf ]]; then
-                        echo "Running git diff on $file"
-                        diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
-                        echo "git diff output:"
-                        echo "$diff_lines"
-                        diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
-                        if [ -z "$diff_filtered" ]; then
-                            echo "⏭ Skipped: $file (only Settings\tsector\t line changed)"
-                            prf_skipped+=("$file")
-                            echo "::endgroup::"
-                            continue
-                        else
-                            prf_included+=("$file")
-                            dir_path="changes_only/$(dirname "$file")"
-                            echo "Creating directory $dir_path"
-                            mkdir -p "$dir_path"
-                            echo "Copying $file to $dir_path"
-                            if ! cp "$file" "$dir_path/"; then
-                              echo "⚠ Warning: Failed to copy $file but continuing."
-                            fi
-                        fi
-                    else
-                        dir_path="changes_only/$(dirname "$file")"
-                        echo "Creating directory $dir_path"
-                        mkdir -p "$dir_path"
-                        echo "Copying $file to $dir_path"
-                        if ! cp "$file" "$dir_path/"; then
-                          echo "⚠ Warning: Failed to copy $file but continuing."
-                        fi
-                    fi
+              if [ -f "$file" ]; then
+                if [[ "$file" == *.prf ]]; then
+                  diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
+                  diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
+                  if [ -z "$diff_filtered" ]; then
+                    echo "⏭ Skipped: $file (only Settings	sector	 line changed)"
+                    prf_skipped+=("$file")
+                    echo "::endgroup::"
+                    continue
+                  else
+                    prf_included+=("$file")
+                    dir_path="changes_only/$(dirname "$file")"
+                    mkdir -p "$dir_path"
+                    cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; }
+                  fi
                 else
-                    echo "⚠ Listed but not found: $file"
+                  dir_path="changes_only/$(dirname "$file")"
+                  mkdir -p "$dir_path"
+                  cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; }
                 fi
+              else
+                echo "⚠ Listed but not found: $file"
+              fi
             else
-                echo "⏭ Skipped: $file"
+              echo "⏭ Skipped: $file"
             fi
             echo "::endgroup::"
           done
@@ -153,18 +135,25 @@ jobs:
           echo -e "\n🚀 Included .prf files:"
           for f in "${prf_included[@]}"; do echo "- $f"; done
 
-          echo -e "\n🛑 Skipped .prf files (only Settings\tsector\t changed):"
+          echo -e "\n🛑 Skipped .prf files (only Settings	sector	 changed):"
           for f in "${prf_skipped[@]}"; do echo "- $f"; done
 
           echo -e "\n📦 Final contents:"
           find changes_only -type f
 
-          if [ -z "$(find changes_only -type f)" ]; then
+          # Check: did we include any .prf or any other file?
+          non_prf_files=$(find changes_only -type f ! -name '*.prf' ! -name 'README.pdf')
+          prf_files=$(find changes_only -type f -name '*.prf')
+          if [ -z "$non_prf_files" ] && [ -z "$prf_files" ]; then
             echo "⚠ No files to include."
+            echo "changes_exist=false" >> $GITHUB_OUTPUT
             exit 0
+          else
+            echo "changes_exist=true" >> $GITHUB_OUTPUT
           fi
 
       - name: 📦 Package Changes-only ZIP with Tag Name
+        if: steps.analyze.outputs.changes_exist == 'true'
         run: |
           tag="${{ steps.tags.outputs.latest_tag }}"
           cd changes_only
@@ -174,12 +163,14 @@ jobs:
           cd ..
 
       - name: 📤 Upload Changes-only ZIP Artifact
+        if: steps.analyze.outputs.changes_exist == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: changes_only_${{ steps.tags.outputs.latest_tag }}
           path: changes_only_${{ steps.tags.outputs.latest_tag }}.zip
 
       - name: 🚀 Upload Changes-only ZIP to GitHub Release
+        if: steps.analyze.outputs.changes_exist == 'true'
         uses: softprops/action-gh-release@v1
         with:
           files: changes_only_${{ steps.tags.outputs.latest_tag }}.zip
