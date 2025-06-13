@@ -116,12 +116,16 @@ jobs:
                     prf_included+=("$file")
                     dir_path="changes_only/$(dirname "$file")"
                     mkdir -p "$dir_path"
-                    cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; }
+                    if ! cp "$file" "$dir_path/"; then
+                      echo "⚠ Failed to copy $file"; }
+                      continue
                   fi
                 else
                   dir_path="changes_only/$(dirname "$file")"
                   mkdir -p "$dir_path"
-                  cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; }
+                  if ! cp "$file" "$dir_path/"; then
+                      echo "⚠ Failed to copy $file"; }
+                      continue
                 fi
               else
                 echo "⚠ Listed but not found: $file"
