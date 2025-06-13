@@ -90,6 +90,7 @@ jobs:
 
           echo "📦 Comparing releases: $from_tag → $to_tag"
           echo "Using from_tag='$from_tag' and to_tag='$to_tag'"
+
           git log -1 "$from_tag"
           git log -1 "$to_tag"
 
@@ -109,32 +110,38 @@ jobs:
             echo "::group::Checking $file"
             echo "File exists? $( [ -f "$file" ] && echo yes || echo no )"
             if [[ "$file" == UK/* && "$file" != "_docs/README.pdf" ]]; then
-              if [ -f "$file" ]; then
-                if [[ "$file" == *.prf ]]; then
-                  echo "Running git diff on $file"
-                  diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
-                  echo "git diff output:"
-                  echo "$diff_lines"
-                  diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
-                  if [ -z "$diff_filtered" ]; then
-                    echo "⏭ Skipped: $file (only Settings\tsector\t line changed)"
-                    prf_skipped+=("$file")
-                    echo "::endgroup::"
-                    continue
-                  else
-                    prf_included+=("$file")
-                    mkdir -p "changes_only/$(dirname "$file")"
-                    cp "$file" "changes_only/$file"
-                  fi
+                if [ -f "$file" ]; then
+                    if [[ "$file" == *.prf ]]; then
+                        echo "Running git diff on $file"
+                        diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
+                        echo "git diff output:"
+                        echo "$diff_lines"
+                        diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
+                        if [ -z "$diff_filtered" ]; then
+                            echo "⏭ Skipped: $file (only Settings\tsector\t line changed)"
+                            prf_skipped+=("$file")
+                            echo "::endgroup::"
+                            continue
+                        else
+                            prf_included+=("$file")
+                            dir_path="changes_only/$(dirname "$file")"
+                            echo "Creating directory $dir_path"
+                            mkdir -p "$dir_path"
+                            echo "Copying $file to $dir_path"
+                            cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; exit 1; }
+                        fi
+                    else
+                        dir_path="changes_only/$(dirname "$file")"
+                        echo "Creating directory $dir_path"
+                        mkdir -p "$dir_path"
+                        echo "Copying $file to $dir_path"
+                        cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; exit 1; }
+                    fi
                 else
-                  mkdir -p "changes_only/$(dirname "$file")"
-                  cp "$file" "changes_only/$file"
+                    echo "⚠ Listed but not found: $file"
                 fi
-              else
-                echo "⚠ Listed but not found: $file"
-              fi
             else
-              echo "⏭ Skipped: $file"
+                echo "⏭ Skipped: $file"
             fi
             echo "::endgroup::"
           done
