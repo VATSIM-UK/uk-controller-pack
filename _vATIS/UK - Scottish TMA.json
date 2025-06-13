@@ -48,7 +48,7 @@
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
       ],
-      "AtisFrequency": 29575,
+      "AtisFrequency": 29580,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"
