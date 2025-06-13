@@ -128,14 +128,18 @@ jobs:
                             echo "Creating directory $dir_path"
                             mkdir -p "$dir_path"
                             echo "Copying $file to $dir_path"
-                            cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; exit 1; }
+                            if ! cp "$file" "$dir_path/"; then
+                              echo "⚠ Warning: Failed to copy $file but continuing."
+                            fi
                         fi
                     else
                         dir_path="changes_only/$(dirname "$file")"
                         echo "Creating directory $dir_path"
                         mkdir -p "$dir_path"
                         echo "Copying $file to $dir_path"
-                        cp "$file" "$dir_path/" || { echo "⚠ Failed to copy $file"; exit 1; }
+                        if ! cp "$file" "$dir_path/"; then
+                          echo "⚠ Warning: Failed to copy $file but continuing."
+                        fi
                     fi
                 else
                     echo "⚠ Listed but not found: $file"
