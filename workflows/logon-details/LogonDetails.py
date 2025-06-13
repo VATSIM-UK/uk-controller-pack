@@ -501,7 +501,7 @@ def apply_advanced_configuration(options):
 
                 new_lines = []
                 for line in lines:
-                    if line.startswith("TAGFAMILY:") and ("NODE" in line or "NERC" in line):
+                    if line.startswith("TAGFAMILY:") and ("NODE" in line or "AC" in line):
                         if should_patch:
                             if options["realistic_tags"] == "n" and "-Easy" not in line:
                                 line = line.strip() + "-Easy\n"
