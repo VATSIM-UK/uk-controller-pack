@@ -43,6 +43,8 @@ jobs:
         run: |
           mkdir -p UK/Data/Sector
           echo "${{ steps.set_release_sha.outputs.sha }}" >> UK/Data/Sector/pack_version.txt
+          # Copy README.pdf to UK folder
+          cp _docs/README.pdf UK/README.pdf 2>/dev/null || echo "⚠ README.pdf not found"
           zip -r "uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip" UK/ -x "*.py"
 
       - name: 📤 Upload Full Pack Artifact
