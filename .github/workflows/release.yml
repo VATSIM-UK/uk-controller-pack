@@ -86,6 +86,7 @@ jobs:
       - name: 🧐 Analyze Changes Between Releases
         id: analyze
         run: |
+          set +e  # DON'T fail on first error!
           from_tag="${{ steps.tags.outputs.previous_tag }}"
           to_tag="${{ steps.tags.outputs.latest_tag }}"
 
@@ -96,6 +97,7 @@ jobs:
           declare -a prf_skipped
 
           mapfile -t file_list < <(git diff --name-only "$from_tag" "$to_tag")
+          echo "DEBUG: file_list = ${file_list[@]}"
 
           # Always include the README.pdf
           cp _docs/README.pdf changes_only/README.pdf 2>/dev/null || echo "⚠ README.pdf not found"
@@ -105,20 +107,25 @@ jobs:
             if [[ "$file" == UK/* && "$file" != "_docs/README.pdf" ]]; then
               if [ -f "$file" ]; then
                 if [[ "$file" == *.prf ]]; then
+                  echo "DEBUG: Running git diff on $file"
                   diff_lines=$(git diff "$from_tag" "$to_tag" -- "$file" 2>&1)
+                  git_status=$?
+                  if [ $git_status -ne 0 ]; then
+                    echo "❌ git diff failed for $file with code $git_status"
+                    echo "$diff_lines"
+                    echo "::endgroup::"
+                    continue
+                  fi
                   diff_filtered=$(echo "$diff_lines" | grep -vE '^[-+]{3} ' | grep -E '^[-+]' | grep -vP '^[+-]Settings\tsector\t')
                   if [ -z "$diff_filtered" ]; then
                     echo "⏭ Skipped: $file (only Settings	sector	 line changed)"
                     prf_skipped+=("$file")
-                    echo "::endgroup::"
-                    continue
                   else
                     prf_included+=("$file")
                     dir_path="changes_only/$(dirname "$file")"
                     mkdir -p "$dir_path"
                     if ! cp "$file" "$dir_path/"; then
                       echo "⚠ Failed to copy $file"
-                      continue
                     fi
                   fi
                 else
@@ -126,7 +133,6 @@ jobs:
                   mkdir -p "$dir_path"
                   if ! cp "$file" "$dir_path/"; then
                     echo "⚠ Failed to copy $file"
-                    continue
                   fi
                 fi
               else
