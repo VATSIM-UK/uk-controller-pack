@@ -84,7 +84,13 @@ jobs:
         run: |
           from_tag="${{ steps.tags.outputs.previous_tag }}"
           to_tag="${{ steps.tags.outputs.latest_tag }}"
+
           echo "📦 Comparing releases: $from_tag → $to_tag"
+
+          echo "Using from_tag='$from_tag' and to_tag='$to_tag'"
+          git log -1 "$from_tag"
+          git log -1 "$to_tag"
+
           mkdir -p changes_only
 
           declare -a prf_included
