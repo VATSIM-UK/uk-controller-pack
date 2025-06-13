@@ -54,8 +54,8 @@ jobs:
       - name: 🚀 Upload Full ZIP to GitHub Release
         uses: softprops/action-gh-release@v1
         with:
-          files: |
-            uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+          files: uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip
+          tag_name: ${{ steps.get_release_tag.outputs.tag }}
 
   create-changes-only-zip:
     needs: create-full-zip
@@ -168,6 +168,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: changes_only_${{ steps.tags.outputs.latest_tag }}.zip
+          tag_name: ${{ steps.tags.outputs.latest_tag }}
 
   upload-to-docs:
     needs: [create-full-zip, create-changes-only-zip]
