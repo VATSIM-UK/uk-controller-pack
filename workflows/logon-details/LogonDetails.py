@@ -304,7 +304,12 @@ def prompt_for_field(key, current):
         "rating": "Enter your current controller rating",
         "password": "Enter your VATSIM password",
         "cpdlc": "Enter your Hoppie CPDLC logon code (leave blank if you don't have one)",
-        "realistic_tags": "Select Yes if you want realistic aircraft datablocks. Select No if you want climb/descent arrows in aircraft datablocks",
+        "realistic_tags": (
+            "Apply realistic datablocks **only** for LAC and LTC (LTC, Heathrow, Gatwick, Essex):\n"
+            "- Yes: Use realistic tags (no climb/descent arrows)\n"
+            "- No: Add climb/descent arrows for improved clarity\n\n"
+            "Note: STC, MPC and others will remain unaffected."
+        ),
         "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion. Select No if not required (not recommended)",
         "coast_choice": "Select your preferred coastline colour",
         "land_choice": "Select your preferred land colour"
@@ -477,25 +482,41 @@ def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
 def apply_advanced_configuration(options):
     coast_colors = {"1": "9076039", "2": "5324604", "3": "32896"}
     land_colors = {"1": "3947580", "2": "1777181", "3": "8158332"}
+
     for root, _, files in os.walk("."):
         for file in files:
             path = os.path.join(root, file)
+
+            # --- Handle .asr files for realistic tags (LAC/LTC only) ---
             if file.endswith(".asr"):
+                rel_path = os.path.relpath(path, start="UK/Data/ASR").replace("\\", "/").lower()
+                top_folder = rel_path.split("/")[0] if "/" in rel_path else ""
+
+                is_lac = top_folder.startswith("ac_")
+                is_ltc = top_folder in ["ltc", "heathrow", "gatwick", "essex"]
+                should_patch = is_lac or is_ltc
+
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 for line in lines:
-                    if line.startswith("TAGFAMILY:NODE") or line.startswith("TAGFAMILY:AC"):
-                        if options["realistic_tags"] == "n" and "-Easy" not in line:
-                            line = line.strip() + "-Easy\n"
-                        elif options["realistic_tags"] == "y" and "-Easy" in line:
-                            line = line.replace("-Easy", "")
+                    if line.startswith("TAGFAMILY:") and ("NODE" in line or "AC" in line):
+                        if should_patch:
+                            if options["realistic_tags"] == "n" and "-Easy" not in line:
+                                line = line.strip() + "-Easy\n"
+                            elif options["realistic_tags"] == "y" and "-Easy" in line:
+                                line = line.replace("-Easy", "")
                     new_lines.append(line)
+
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.startswith("UK_") and file.endswith(".sct"):
+
+            # --- Handle UK_.sct coastline/land colour overrides ---
+            if file.startswith("UK_") and file.endswith(".sct"):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 for line in lines:
                     if line.startswith("#define coast "):
@@ -503,11 +524,19 @@ def apply_advanced_configuration(options):
                     elif line.startswith("#define land "):
                         line = f"#define land {land_colors[options['land_choice']]}\n"
                     new_lines.append(line)
+
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.endswith(".txt") and os.path.normpath("Data/Settings") in os.path.normpath(root):
+
+            # --- Handle correlation mode (skip *_SMR.txt files) ---
+            if (
+                file.endswith(".txt")
+                and not file.endswith("_SMR.txt")
+                and os.path.normpath("Data/Settings") in os.path.normpath(root)
+            ):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 modified = False
                 for line in lines:
@@ -516,9 +545,11 @@ def apply_advanced_configuration(options):
                         line = f"m_CorrelationMode:{value}\n"
                         modified = True
                     new_lines.append(line)
+
                 if modified:
                     with open(path, "w", encoding="utf-8") as f:
                         f.writelines(new_lines)
+
 
 def main():
     if not tk._default_root:
