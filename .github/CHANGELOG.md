@@ -16,6 +16,7 @@
 15. Enhancement - Updated NODE colours for better accuracy - thanks to @SamLefevre (Samuel Lefevre) & @cbyworth (Chad Byworth)
 16. Enhancement - Updated NODE-L and NERC tags to hide stalk when close to target - thanks to @SamLefevre (Samuel Lefevre)
 17. Enhancement - Updated vSMR (UK) to v1.6.3 - thanks to @BenWalker01 (Ben Walker) & @19wintersp (Patrick Winters)
+18. Bug - Configurator amended to apply tag changes to LAC/LTC only & SMR correlation mode excluded - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)
