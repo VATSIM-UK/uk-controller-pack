@@ -1,0 +1,43 @@
+name: TopSky Shared Data File Compilation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'UK/Data/TopSky Shared Data/**'
+      - '.github/workflows/TopSky File Worker.yml'
+      - 'workflows/TopSky/compiler.py'
+
+concurrency:
+  group: TopSky-Data-Compile
+  cancel-in-progress: true
+
+jobs:
+  Compile_TopSky_Data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      
+      - name: Run TopSky shared data files compiler
+        run: python workflows/TopSky/compiler.py 
+      
+      - name: Commit and push TopSky shared data file changes
+        run: |
+          git config --global user.name 'VATSIM UK'
+          git config --global user.email 'privileged-access@vatsim.uk'
+          
+          git add .
+          git commit -m 'Compile TopSky shared data files | ${{ github.event.head_commit.message }}
+
+          Co-authored-by: ${{ github.event.head_commit.author.name }} <${{ github.event.head_commit.author.email }}>'
+          git push
