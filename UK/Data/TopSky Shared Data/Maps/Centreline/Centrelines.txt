@@ -1,0 +1,4 @@
+MAP:All Centrelines
+FOLDER:Shortcuts
+COLOR:Active_Map_Type_5
+SCTFILEDATA:GEO\Extended centrelines

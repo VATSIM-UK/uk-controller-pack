@@ -1,0 +1,6 @@
+MAP:Southend Thames RMA Reminder
+FOLDER:RMAs
+COLOR:ThamesReminder
+FONTSIZE:*:1.5
+TEXT:N051.24.03.626:E000.52.00.389:TR
+ACTIVE:ID:MCR,MCL:*:*:*
