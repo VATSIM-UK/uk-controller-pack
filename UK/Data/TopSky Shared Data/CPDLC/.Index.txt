@@ -1,3 +1,4 @@
+//Hoppie Code.txt is dealt with individually
 DCL.txt
 Free Text.txt
 Stations/London.txt

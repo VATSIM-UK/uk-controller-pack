@@ -82,7 +82,7 @@ jobs:
       - name: Check if TopSkyCPDLChoppieCode.txt files have been edited
         run: |
           if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyCPDLChoppieCode\.txt$'; then
-            echo "TopSkyCPDLChoppieCode.txt has been edited. Please revert the change, and edit the relevant file in UK/Data/TopSky Shared Data/CPDLC/Hoppie Code.txt"
+            echo "TopSkyCPDLChoppieCode.txt has been edited. Please revert the change, and edit UK/Data/TopSky Shared Data/CPDLC/Hoppie Code.txt"
             exit 1
           fi
      
@@ -107,5 +107,5 @@ jobs:
             exit 1
           fi
       
-      - name: No TopSky shared file improperly edited
-        run: echo "No TopSky shared files have been improperly edited."
+      - name: No TopSky shared data file improperly edited
+        run: echo "No TopSky shared data files have been improperly edited."
