@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'UK/Data/TopSky Shared Data/**'
-      - '.github/workflows/TopSky File Worker.yml'
+      - '.github/workflows/TopSky-Compiler.yml'
       - 'workflows/TopSky/compiler.py'
 
 concurrency:
