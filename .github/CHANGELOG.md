@@ -1,3 +1,6 @@
+# Changes from release 2025/06 to 2025/07
+1. AIRAC (2506) - Updated position of the GBR TACAN - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)
