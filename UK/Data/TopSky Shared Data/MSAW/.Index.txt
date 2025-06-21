@@ -65,7 +65,7 @@ EGLF/Step Down.txt
 EGMC/Step Down.txt
 EGNJ/Step Down.txt
 EGNR/Step Down.txt
-ERNS/Step Down.txt
+EGNS/Step Down.txt
 EGNT/Step Down.txt
 EGNX/Step Down.txt
 EGPD/Step Down.txt
@@ -114,6 +114,7 @@ EGBJ/SMAA.txt
 EGCC/SMAA.txt
 EGCN/SMAA.txt
 EGFF/SMAA.txt
+EGGD/SMAA.txt
 EGGP/SMAA.txt
 EGHH/SMAA.txt
 EGHI/SMAA.txt

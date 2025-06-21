@@ -28,7 +28,7 @@ Danger/EGD008C.txt
 Danger/EGD009A.txt
 Danger/EGD009B.txt
 Danger/EGD011A.txt
-Danger/EDG011B.txt
+Danger/EGD011B.txt
 Danger/EGD011C.txt
 Danger/EGD012.txt
 Danger/EGD013.txt
@@ -68,7 +68,7 @@ Danger/EGD125-H24.txt
 Danger/EGD125-Weekdays.txt
 Danger/EGD126.txt
 Danger/EGD127-Night.txt
-Danger/EDG127-Day.txt
+Danger/EGD127-Day.txt
 Danger/EGD128.txt
 Danger/EGD129.txt
 Danger/EGD130.txt
@@ -105,7 +105,7 @@ Danger/EGD213.txt
 Danger/EGD215.txt
 Danger/EGD216.txt
 Danger/EGD217A.txt
-Danger/EGD271B.txt
+Danger/EGD217B.txt
 Danger/EGD217C.txt
 Danger/EGD217D.txt
 Danger/EGD217E.txt
@@ -176,8 +176,8 @@ Danger/EGD613A.txt
 Danger/EGD613B.txt
 Danger/EGD613C.txt
 Danger/EGD613D.txt
-Danger/EGD791A.txt
-Danger/EGD7001B.txt
+Danger/EGD701A.txt
+Danger/EGD701B.txt
 Danger/EGD701C.txt
 Danger/EGD701D.txt
 Danger/EGD701E.txt
@@ -190,7 +190,7 @@ Danger/EGD701K.txt
 Danger/EGD701L.txt
 Danger/EGD701M.txt
 Danger/EGD701N.txt
-Danger/EGD107O.txt
+Danger/EGD701O.txt
 Danger/EGD701P.txt
 Danger/EGD701Q.txt
 Danger/EGD701R.txt
@@ -206,14 +206,14 @@ Danger/EGD703.txt
 Danger/EGD704.txt
 Danger/EGD710.txt
 Danger/EGD712A.txt
-Danger/EGD7128.txt
+Danger/EGD712B.txt
 Danger/EGD712C.txt
 Danger/EGD712D.txt
 Danger/EGD713.txt
 Danger/EGD801.txt
 Danger/EGD802.txt
 Danger/EGD803.txt
-Danger/EGD908C.txt
+Danger/EGD809C.txt
 Danger/EGD809N.txt
 Danger/EGD809S.txt
 Danger/EGD901.txt
@@ -224,7 +224,7 @@ Danger/EGD902D.txt
 Danger/EGD902E.txt
 Danger/EGD902F.txt
 Danger/EGD902G.txt
-Danger/RGE902H.txt
+Danger/EGD902H.txt
 Prohibited/EGP611.txt
 Prohibited/EGP813.txt
 Restricted/EGR219.txt
@@ -232,7 +232,7 @@ Restricted/EGR610A.txt
 Restricted/EGR610B.txt
 Restricted/EGR610C.txt
 Restricted/EGR610D.txt
-Restricted/ERG704.txt
+Restricted/EGR704.txt
 Restricted/EGR SNESS.txt
 AARA/AARA 1.txt
 AARA/AARA 2.txt
