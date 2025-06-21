@@ -1,5 +1,5 @@
 # Changes from release 2025/06 to 2025/07
-1. Bug - Added Warton (EGNO) Positions to Military APC Profile
+1. Bug - Added Warton (EGNO) Frequencies to Military APC Profile
 
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
