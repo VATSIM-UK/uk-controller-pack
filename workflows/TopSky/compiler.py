@@ -7,7 +7,7 @@ iTEC_Path = 'UK/Data/Plugin/TopSky_iTEC/'
 NERC_Path = 'UK/Data/Plugin/TopSky_NERC/'
 NODE_Path = 'UK/Data/Plugin/TopSky_NODE/'
 NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
-Shared_Path = 'UK/Data/TopSky Shared Data/'
+Shared_Path = '.data/TopSky Shared/'
 
 def main():
     AircraftJSON()

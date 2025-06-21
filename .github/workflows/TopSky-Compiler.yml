@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'UK/Data/TopSky Shared Data/**'
+      - '.data/TopSky Shared/**'
       - '.github/workflows/TopSky-Compiler.yml'
       - 'workflows/TopSky/compiler.py'
 
