@@ -1,5 +1,5 @@
 # Changes from release 2025/06 to 2025/07
-1. AIRAC (2507) - Removed danger area EGD206 - thanks to @Liaely (Lily Unitt)
+1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
