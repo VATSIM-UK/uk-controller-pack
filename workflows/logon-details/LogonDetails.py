@@ -307,10 +307,10 @@ def prompt_for_field(key, current):
         "realistic_tags": (
             "Apply realistic datablocks **only** for LAC and LTC (LTC, Heathrow, Gatwick, Essex):\n"
             "- Yes: Use realistic tags (no climb/descent arrows)\n"
-            "- No: Add climb/descent arrows for improved clarity\n\n"
+            "- No (Default): Add climb/descent arrows for improved clarity \n\n"
             "Note: STC, MPC and others will remain unaffected."
         ),
-        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion. Select No if not required (not recommended)",
+        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion (Default).\nSelect No if not required",
         "coast_choice": "Select your preferred coastline colour",
         "land_choice": "Select your preferred land colour"
     }
