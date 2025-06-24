@@ -306,8 +306,8 @@ def prompt_for_field(key, current):
         "cpdlc": "Enter your Hoppie CPDLC logon code (leave blank if you don't have one)",
         "realistic_tags": (
             "Apply realistic datablocks **only** for LAC and LTC (LTC, Heathrow, Gatwick, Essex):\n"
-            "- Yes: Use realistic tags (no climb/descent arrows)\n"
-            "- No (default): Add climb/descent arrows for improved clarity \n\n"
+            "- Yes (default): Use realistic tags (no climb/descent arrows)\n"
+            "- No: Add climb/descent arrows for improved clarity \n\n"
             "Note: STC, MPC and others will remain unaffected."
         ),
         "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion (default).\nSelect No if not required",
