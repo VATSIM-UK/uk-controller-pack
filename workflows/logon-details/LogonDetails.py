@@ -310,7 +310,7 @@ def prompt_for_field(key, current):
             "- No: Add climb/descent arrows for improved clarity \n\n"
             "Note: STC, MPC and others will remain unaffected."
         ),
-        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion (default).\nSelect No if not required",
+        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion (default).\nSelect No if not required (not recommended)",
         "coast_choice": "Select your preferred coastline colour",
         "land_choice": "Select your preferred land colour"
     }
