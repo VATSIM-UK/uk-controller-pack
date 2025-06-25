@@ -1,0 +1,153 @@
+//File Order
+//constructed final app areas to prevent false activations
+//FAVA (AD2-5-1)
+//SMAA (AD2-5-1)
+//AMA (ENR6-81)
+EGAA/Runway.txt
+EGAC/Runway.txt
+EGBB/Runway.txt
+EGBJ/Runway.txt
+EGCC/Runway.txt
+EGCN/Runway.txt
+EGFF/Runway.txt
+EGGD/Runway.txt
+EGGP/Runway.txt
+EGGW/Runway.txt
+EGHH/Runway.txt
+EGHI/Runway.txt
+EGHQ/Runway.txt
+EGJA/Runway.txt
+EGJB/Runway.txt
+EGJJ/Runway.txt
+EGKB/Runway.txt
+EGKK/Runway.txt
+EGLC/Runway.txt
+EGLL/Runway.txt
+EGLF/Runway.txt
+EGMC/Runway.txt
+EGNJ/Runway.txt
+EGNM/Runway.txt
+EGNR/Runway.txt
+EGNS/Runway.txt
+EGNT/Runway.txt
+EGNV/Runway.txt
+EGNX/Runway.txt
+EGPB/Runway.txt
+EGPD/Runway.txt
+EGPE/Runway.txt
+EGPF/Runway.txt
+EGPH/Runway.txt
+EGPK/Runway.txt
+EGSC/Runway.txt
+EGSH/Runway.txt
+EGSS/Runway.txt
+EGSY/Runway.txt
+EGTE/Runway.txt
+EGTK/Runway.txt
+EGAA/Step Down.txt
+EGAC/Step Down.txt
+EGBB/Step Down.txt
+EGBJ/Step Down.txt
+EGCC/Step Down.txt
+EGCN/Step Down.txt
+EGFF/Step Down.txt
+EGGD/Step Down.txt
+EGGP/Step Down.txt
+EGGW/Step Down.txt
+EGHH/Step Down.txt
+EGHI/Step Down.txt
+EGHQ/Step Down.txt
+EGJJ/Step Down.txt
+EGKK/Step Down.txt
+EGLC/Step Down.txt
+EGLL/Step Down.txt
+EGLF/Step Down.txt
+EGMC/Step Down.txt
+EGNJ/Step Down.txt
+EGNR/Step Down.txt
+EGNS/Step Down.txt
+EGNT/Step Down.txt
+EGNX/Step Down.txt
+EGPD/Step Down.txt
+EGPE/Step Down.txt
+EGPF/Step Down.txt
+EGPH/Step Down.txt
+EGPK/Step Down.txt
+EGTE/Step Down.txt
+EGTK/Step Down.txt
+EGAA/FAVA.txt
+EGBB/FAVA.txt
+EGBJ/FAVA.txt
+EGCC/FAVA.txt
+EGCN/FAVA.txt
+EGFF/FAVA.txt
+EGGD/FAVA.txt
+EGGP/FAVA.txt
+EGGW/FAVA.txt
+EGHH/FAVA.txt
+EGHI/FAVA.txt
+EGHQ/FAVA.txt
+EGJJ/FAVA.txt
+EGLC/FAVA.txt
+EGLL/FAVA.txt
+EGLF/FAVA.txt
+EGMC/FAVA.txt
+EGNJ/FAVA.txt
+EGNR/FAVA.txt
+EGNS/FAVA.txt
+EGNT/FAVA.txt
+EGNV/FAVA.txt
+EGNX/FAVA.txt
+EGPD/FAVA.txt
+EGPF/FAVA.txt
+EGPH/FAVA.txt
+EGPK/FAVA.txt
+EGSC/FAVA.txt
+EGSS/FAVA.txt
+EGTE/FAVA.txt
+//Belfast area SMAA muddled up due to TopSky draw order
+EGAC/SMAA 1.txt
+EGAA/SMAA.txt
+EGAC/SMAA 2.txt
+EGBB/SMAA.txt
+EGBJ/SMAA.txt
+EGCC/SMAA.txt
+EGCN/SMAA.txt
+EGFF/SMAA.txt
+EGGD/SMAA.txt
+EGGP/SMAA.txt
+EGHH/SMAA.txt
+EGHI/SMAA.txt
+EGHQ/SMAA.txt
+//EGJA also holds EGJB SMAA
+EGJA/SMAA.txt
+EGJJ/SMAA.txt
+//EGKB also holds EGLC, and part of EGLL, SMAA
+EGKB/SMAA.txt
+EGKK/SMAA.txt
+EGLF/SMAA.txt
+EGLL/SMAA.txt
+EGMC/SMAA.txt
+EGNJ/SMAA.txt
+EGNM/SMAA.txt
+EGNR/SMAA.txt
+EGNS/SMAA.txt
+EGNT/SMAA.txt
+EGNV/SMAA.txt
+EGNX/SMAA.txt
+EGPB/SMAA.txt
+EGPD/SMAA.txt
+EGPE/SMAA.txt
+//Scottish TMA out of alphabetical order due to overlap/draw behaviour (smaller areas before bigger areas)
+EGPK/SMAA.txt
+EGPH/SMAA.txt
+EGPF/SMAA.txt
+EGSC/SMAA.txt
+EGSH/SMAA.txt
+EGSS/SMAA.txt
+//EGGW after EGSS due to the draw order
+EGGW/SMAA.txt
+EGTE/SMAA.txt
+EGTK/SMAA.txt
+AMA/Areas.txt
+AMA/Airspace.txt

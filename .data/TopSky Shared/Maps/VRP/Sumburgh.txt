@@ -1,0 +1,6 @@
+MAP:EGPB VRPs
+COLOR:Active_Map_Type_9
+FOLDER:VRPs
+SYMBOL:VRP:N059.59.49.000:W001.09.27.000
+SYMBOL:VRP:N059.58.22.000:W001.21.48.000
+//Not displayed on radar by default

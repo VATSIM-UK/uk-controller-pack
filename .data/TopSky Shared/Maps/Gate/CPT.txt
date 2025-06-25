@@ -1,0 +1,5 @@
+MAP:CPT Gate
+FOLDER:Radar Gates
+COLOR:Active_Map_Type_4
+STYLE:dot:1
+ACTIVE:ID:LLN,LLS:*:*:*

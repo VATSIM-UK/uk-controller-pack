@@ -1,0 +1,13 @@
+MAP:Berry Head CTA 2/4 Fixes
+//Fixes below drawn to deal with ES-TopSky draw order
+FONTSIZE:*:.7
+COLOR:Active_Map_Type_8
+//Fixes Without Labels
+ASRDATA:Fixes
+SYMBOL:Fix:BIGNO: :17:-5
+SYMBOL:Fix:NEXAN: :17:-5
+//Fixes With Labels
+ASRDATA:FixLabels
+SYMBOL:Fix:BIGNO:BIGNO:17:-5
+SYMBOL:Fix:NEXAN:NEXAN:17:-5
+ACTIVE:1

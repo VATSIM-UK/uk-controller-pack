@@ -1,0 +1,5 @@
+MAP:Airspace Bases
+FOLDER:Shortcuts
+COLOR:Active_Map_Type_3
+FONTSIZE:*:.75
+SCTFILEDATA:FREETEXT\Airspace Bases
