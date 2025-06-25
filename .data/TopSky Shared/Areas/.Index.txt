@@ -97,7 +97,6 @@ Danger/EGD202B.txt
 Danger/EGD202C.txt
 Danger/EGD202D.txt
 Danger/EGD203.txt
-Danger/EGD206.txt
 Danger/EGD207.txt
 Danger/EGD208.txt
 Danger/EGD211.txt
