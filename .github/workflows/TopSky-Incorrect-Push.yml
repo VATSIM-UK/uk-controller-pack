@@ -19,28 +19,28 @@ jobs:
       - name: Check if ICAO_Aircraft.json has been edited
         run: |
           if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Aircraft\.json$'; then
-            echo "ICAO_Aircraft.json has been edited. Please revert the change, and edit .data/TopSky Shared/Aircraft.json"
+            echo "ICAO_Aircraft.json has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Aircraft.json"
             exit 1
           fi
      
       - name: Check if ICAO_Aircraft.txt has been edited
         run: |
           if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Aircraft\.txt$'; then
-            echo "ICAO_Aircraft.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Aircraft.txt"
+            echo "ICAO_Aircraft.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Aircraft.txt"
             exit 1
           fi
      
       - name: Check if ICAO_Airlines.txt has been edited
         run: |
           if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Airlines\.txt$'; then
-            echo "ICAO_Airlines.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Airlines.txt"
+            echo "ICAO_Airlines.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Airlines.txt"
             exit 1
           fi
      
       - name: Check if ICAO_Airports.txt has been edited
         run: |
           if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Airports\.txt$'; then
-            echo "ICAO_Airports.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Airports.txt"
+            echo "ICAO_Airports.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Airports.txt"
             exit 1
           fi
      

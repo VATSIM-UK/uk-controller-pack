@@ -26,19 +26,19 @@ def main():
 #region Single-file copy-across and renaming
 def AircraftJSON():
     Remove('ICAO_Aircraft.json')
-    CopyAll('Aircraft.json', 'ICAO_Aircraft.json')
+    CopyAll('ICAO_Aircraft.json', 'ICAO_Aircraft.json')
 
 def AircraftText():
     Remove('ICAO_Aircraft.txt')
-    CopyAll('Aircraft.txt', 'ICAO_Aircraft.txt')
+    CopyAll('ICAO_Aircraft.txt', 'ICAO_Aircraft.txt')
 
 def Airlines():
     Remove('ICAO_Airlines.txt')
-    CopyAll('Airlines.txt', 'ICAO_Airlines.txt')
+    CopyAll('ICAO_Airlines.txt', 'ICAO_Airlines.txt')
 
 def Airports():
     Remove('ICAO_Airports.txt')
-    CopyAll('Airports.txt', 'ICAO_Airports.txt')
+    CopyAll('ICAO_Airports.txt', 'ICAO_Airports.txt')
 
 def Airspace():
     Remove('TopSkyAirspace.txt')
