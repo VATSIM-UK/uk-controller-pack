@@ -3,6 +3,7 @@
 2. AIRAC (2506) - Updated position of the GBR TACAN - thanks to @Liaely (Lily Unitt)
 3. Bug - Added Warton (EGNO) Frequencies to Military APC Profile
 4. Enhancement - Clarified default settings in configurator - thanks to @clc0609 (Coby Chapman)
+4. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
 
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
