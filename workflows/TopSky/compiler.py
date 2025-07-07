@@ -3,11 +3,14 @@ import shutil
 
 # Whilst all data changes are constructed, only when the data files are changed will the result be committed
 # When files need conjoining, iTEC is used as the working directory, and data files are copied across to NERC, NODE, and NOVA directories
+#region Constants
 iTEC_Path = 'UK/Data/Plugin/TopSky_iTEC/'
 NERC_Path = 'UK/Data/Plugin/TopSky_NERC/'
 NODE_Path = 'UK/Data/Plugin/TopSky_NODE/'
 NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
 Shared_Path = '.data/TopSky Shared/'
+Index_Name = '.Index.txt'
+#endregion
 
 def main():
     AircraftJSON()
@@ -112,7 +115,7 @@ def Construct(Folder, Files, Output):
 
 def ImportFileIndex(Folder):
     Files = []
-    with open(Shared_Path + Folder + '.Index.txt') as Index:
+    with open(Shared_Path + Folder + Index_Name) as Index:
         for Entry in Index:
             if '//' in Entry: # Remove comments
                 Entry = Entry.split('//')[0]
