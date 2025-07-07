@@ -53,7 +53,7 @@ def LocalCallsigns():
     CopyAll('Local Callsigns.txt', 'TopSkyCallsignsLocal.txt')
 #endregion
 
-#region Split datafile construction
+#region Compiled datafile construction
 def Areas():
     AreaFiles = ImportFileIndex('Areas/')
     Remove('TopSkyAreas.txt')
@@ -114,9 +114,9 @@ def ImportFileIndex(Folder):
     Files = []
     with open(Shared_Path + Folder + '.Index.txt') as Index:
         for Entry in Index:
-            if '//' in Entry: ## Remove comments
+            if '//' in Entry: # Remove comments
                 Entry = Entry.split('//')[0]
-            if not Entry.strip() == '' and '.' in Entry: ## Check needed when comment is taking full line and validates for a potential file extension
+            if not Entry.strip() == '' and '.' in Entry: # Check needed when comment is taking full line and validates for a potential file extension
                 Files.append(Entry.strip())
     return Files
 #endregion
