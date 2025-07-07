@@ -5,7 +5,7 @@
 4. Enhancement - Clarified default settings in configurator - thanks to @clc0609 (Coby Chapman)
 5. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
 6. Bug - Removed display of flight plan tracks on ATMs by default - thanks to @Liaely (Lily Unitt)
-7. Bug - Corrected FID default screen - thanks to @Liaely (Lily Unitt)
+7. Bug - Corrected FID default opening screen - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
