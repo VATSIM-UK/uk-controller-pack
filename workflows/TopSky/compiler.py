@@ -85,14 +85,14 @@ def Radars():
 
 #region Commom construction methods
 def Remove(FileName): # Removes specified file across iTEC, NERC, NODE, and NOVA (if it exists)
-    if os.path.exists(iTEC_Path + FileName):
-        os.remove(iTEC_Path + FileName)
-    if os.path.exists(NERC_Path + FileName):
-        os.remove(NERC_Path + FileName)
-    if os.path.exists(NODE_Path + FileName):
-        os.remove(NODE_Path + FileName)
-    if os.path.exists(NOVA_Path + FileName):
-        os.remove(NOVA_Path + FileName)
+    if os.path.exists(iTEC_Path + FileName): os.remove(iTEC_Path + FileName)
+    else: print('File ' + iTEC_Path + FileName + ' does not exist!')
+    if os.path.exists(NERC_Path + FileName): os.remove(NERC_Path + FileName)
+    else: print('File ' + NERC_Path + FileName + ' does not exist!')
+    if os.path.exists(NODE_Path + FileName): os.remove(NODE_Path + FileName)
+    else: print('File ' + NODE_Path + FileName + ' does not exist!')
+    if os.path.exists(NOVA_Path + FileName): os.remove(NOVA_Path + FileName)
+    else: print('File ' + NOVA_Path + FileName + ' does not exist!')
 
 def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared data (if it exists) to iTEC, NERC, NODE, and NOVA with the new filename
     if os.path.exists(Shared_Path + InputFileName):
@@ -100,6 +100,8 @@ def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared 
         shutil.copy(Shared_Path + InputFileName, NERC_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NODE_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NOVA_Path + OutputFileName)
+    else:
+        print('File ' + Shared_Path + InputFileName + ' does not exist!')
 
 def Construct(Folder, Files, Output):
     with open(iTEC_Path + Output, 'wb') as OutputFile: # Make output in iTEC
@@ -121,6 +123,8 @@ def ImportFileIndex(Folder):
                 Entry = Entry.split('//')[0]
             if not Entry.strip() == '' and '.' in Entry: # Check needed when comment is taking full line and validates for a potential file extension
                 Files.append(Entry.strip())
+            else:
+                print('Entry ' + Entry + ' in ' + Shared_Path + Folder + Index_Name + ' has been excluded!')
     return Files
 #endregion
 
