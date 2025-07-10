@@ -1,0 +1,30 @@
+//Daylight savings dates correct for Mar 2025/Oct 2025
+//Requires update before Mar 2026 replace :0329: :0330: :1026: :1027:
+
+SCTFILEPATH:..\..\Sector\UK_*
+
+SYMBOLDEF:Fix
+MOVETO:0:-2
+LINETO:0:3
+MOVETO:-2:0
+LINETO:3:0
+
+SYMBOLDEF:TRIVRP
+MOVETO:-4:3
+LINETO:0:-4
+LINETO:4:3
+LINETO:-4:3
+
+SYMBOLDEF:VRP
+MOVETO:0:-2
+LINETO:0:3
+MOVETO:-2:0
+LINETO:3:0
+ARC:0:0:4:0:360
+
+COLORDEF:ThamesReminder:255:255:128
+COLORDEF:SouthendBuffer:60:14:40
+COLORDEF:LFRoads:0:0:200
+COLORDEF:VOCentreline:196:196:255
+
+LINESTYLEDEF:largedash:solid:-:12,12
