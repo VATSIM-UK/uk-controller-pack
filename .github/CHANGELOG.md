@@ -1,6 +1,16 @@
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
 
+
+# Changes from release 2025/06 to 2025/07
+1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2506) - Updated position of the GBR TACAN - thanks to @Liaely (Lily Unitt)
+3. Bug - Added Warton (EGNO) Frequencies to Military APC Profile
+4. Enhancement - Clarified default settings in configurator - thanks to @clc0609 (Coby Chapman)
+5. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+6. Bug - Removed display of flight plan tracks on ATMs by default - thanks to @Liaely (Lily Unitt)
+7. Bug - Corrected FID default opening screen - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)

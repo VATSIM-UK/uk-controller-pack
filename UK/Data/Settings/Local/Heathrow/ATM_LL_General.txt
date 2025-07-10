@@ -75,8 +75,8 @@ m_ShowRectAroundFPTrack:0
 m_ShowRectAroundASEL:0
 m_VatsimStatusURL:http://status.vatsim.net/
 m_OverrideWhoIsOnlineURL:0
-m_ShowVFRFlightPlanTrack:1
-m_ShowIFRFlightPlanTrack:1
+m_ShowVFRFlightPlanTrack:0
+m_ShowIFRFlightPlanTrack:0
 m__AutoStartFlightPlanTracks:1
 m_UnicomFrequency:122.8
 m_MessageInfoLevel:1
