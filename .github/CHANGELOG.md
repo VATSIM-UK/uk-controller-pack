@@ -1,7 +1,6 @@
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
 
-
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated position of the GBR TACAN - thanks to @Liaely (Lily Unitt)
