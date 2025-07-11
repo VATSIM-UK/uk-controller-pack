@@ -414,7 +414,7 @@ def prompt_for_field(key, current):
         )
 
     elif key == "vccs_ptt_scan_code":
-        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPress ESC to cancel.")
+        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
