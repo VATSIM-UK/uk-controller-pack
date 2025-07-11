@@ -106,10 +106,11 @@ DEFAULT_FIELDS = {
     "realistic_tags": "n",
     "realistic_conversion": "n",
     "coast_choice": "1",
-    "land_choice": "1"
+    "land_choice": "1",
+    "vccs_ptt_scan_code": ""
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "vccs_ptt_scan_code"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
 
 def load_previous_options():
@@ -207,6 +208,48 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     dialog.wait_window()
 
     return result
+
+
+
+
+import keyboard  # Make sure keyboard is installed: pip install keyboard
+
+def ask_scan_code_key(prompt):
+    result = None
+
+    dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.title("Press a Key for VCCS PTT")
+    ttk.Label(dialog, text=prompt).pack(padx=20, pady=15)
+
+    def on_focus_in(event=None):
+        dialog.after(100, capture_key)
+
+    def capture_key():
+        nonlocal result
+        try:
+            event = keyboard.read_event()
+            if event.event_type == keyboard.KEY_DOWN:
+                scan_code = event.scan_code
+                result = str(int(hex(scan_code), 16) << 16)
+                dialog.destroy()
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to read key: {e}")
+            dialog.destroy()
+
+    def cancel(event=None):
+        dialog.destroy()
+
+    dialog.bind("<Escape>", cancel)
+    dialog.bind("<FocusIn>", on_focus_in)
+    dialog.transient()
+    dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    center_window(dialog)
+    dialog.focus_force()
+    dialog.wait_window()
+
+    return result if result is not None else ""
 
 
 def ask_dropdown(prompt, options_list, current=None):
@@ -350,6 +393,8 @@ def prompt_for_field(key, current):
             }
         )
 
+    elif key == "vccs_ptt_scan_code":
+        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPress ESC to cancel.")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -389,7 +434,7 @@ def collect_user_input():
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password):
+def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -398,7 +443,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         return
 
     lines = [l for l in lines if not (
-        l.startswith("TeamSpeakVccs\tTs3NickName") or
+        l.startswith("TeamSpeakVccs\tTs3NickName") or l.startswith("TeamSpeakVccs\tTs3G2APtt") or
         l.startswith("LastSession\trealname") or
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
@@ -408,6 +453,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
 
     new_lines = [
         f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
+        f"TeamSpeakVccs\tTs3G2APtt\t{vccs_ptt}\n",
         f"LastSession\trealname\t{name}\n",
         f"LastSession\tcertificate\t{cid}\n",
         f"LastSession\trating\t{rating}\n",
@@ -457,12 +503,12 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password)
+                patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -586,7 +632,8 @@ def main():
             cid=options["cid"],
             rating=options["rating"],
             password=options["password"],
-            cpdlc=options["cpdlc"]
+            cpdlc=options["cpdlc"],
+        vccs_ptt=options.get("vccs_ptt_scan_code", "")
         )
 
         if ask_yesno("Would you like to configure advanced options?"):
