@@ -214,6 +214,9 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
 
 import keyboard  # Make sure keyboard is installed: pip install keyboard
 
+
+import keyboard  # Make sure keyboard is installed: pip install keyboard
+
 def ask_scan_code_key(prompt):
     result = None
 
@@ -228,11 +231,28 @@ def ask_scan_code_key(prompt):
     def capture_key():
         nonlocal result
         try:
-            event = keyboard.read_event()
-            if event.event_type == keyboard.KEY_DOWN:
-                scan_code = event.scan_code
-                result = str(int(hex(scan_code), 16) << 16)
-                dialog.destroy()
+            while True:
+                event = keyboard.read_event()
+                if event.event_type == keyboard.KEY_DOWN:
+                    name = event.name
+                    scan_code = event.scan_code
+
+                    # Manual scan code overrides for modifier keys
+                    overrides = {
+                        "left shift": 42,
+                        "right shift": 54,
+                        "left ctrl": 29,
+                        "right ctrl": 29,
+                        "left alt": 56,
+                        "right alt": 56
+                    }
+
+                    if name in overrides:
+                        scan_code = overrides[name]
+
+                    result = str(int(hex(scan_code), 16) << 16)
+                    dialog.destroy()
+                    break
         except Exception as e:
             messagebox.showerror("Error", f"Failed to read key: {e}")
             dialog.destroy()
