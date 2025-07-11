@@ -1,5 +1,6 @@
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
+x. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
