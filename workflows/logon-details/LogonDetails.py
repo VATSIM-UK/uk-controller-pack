@@ -464,7 +464,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
 
     lines = [l for l in lines if not (
         l.startswith("TeamSpeakVccs\tTs3NickName") or
-        l.startswith("TeamSpeakVccs\tTs3G2APtt") or
+        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
         l.startswith("LastSession\trealname") or
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
@@ -474,7 +474,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
 
     new_lines = [
         f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
-        f"TeamSpeakVccs\tTs3G2APtt\t{vccs_ptt}\n",
+        f"TeamSpeakVccs\tTs3G2GPtt\t{vccs_ptt}\n",
         f"LastSession\trealname\t{name}\n",
         f"LastSession\tcertificate\t{cid}\n",
         f"LastSession\trating\t{rating}\n",
