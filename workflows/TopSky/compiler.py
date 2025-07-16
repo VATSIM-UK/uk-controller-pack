@@ -66,7 +66,7 @@ def CPDLC():
     CPDLCFiles = ImportFileIndex('CPDLC/')
     Remove('TopSkyCPDLC.txt')
     Construct('CPDLC/', CPDLCFiles, 'TopSkyCPDLC.txt')
-    CopyAll('Hoppie Code.txt', 'TopSkyCPDLChoppieCode.txt')
+    CopyAll('CPDLC/Hoppie Code.txt', 'TopSkyCPDLChoppieCode.txt')
 
 def Maps():
     MapsFiles = ImportFileIndex('Maps/')
