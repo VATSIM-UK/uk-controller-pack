@@ -3,6 +3,7 @@ import sys
 import json
 import time
 import winreg
+import keyboard
 import tkinter as tk
 from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
@@ -208,14 +209,6 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
     dialog.wait_window()
 
     return result
-
-
-
-
-import keyboard  # Make sure keyboard is installed: pip install keyboard
-
-
-import keyboard  # Make sure keyboard is installed: pip install keyboard
 
 def ask_scan_code_key(prompt):
     result = None
@@ -654,7 +647,7 @@ def main():
             rating=options["rating"],
             password=options["password"],
             cpdlc=options["cpdlc"],
-        vccs_ptt=options.get("vccs_ptt_scan_code", "")
+            vccs_ptt=options.get("vccs_ptt_scan_code", "")
         )
 
         if ask_yesno("Would you like to configure advanced options?"):
