@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'workflows/logon-details/**'
+      - '.github/workflows/logon-details.yml'
 
 jobs:
   changes:
