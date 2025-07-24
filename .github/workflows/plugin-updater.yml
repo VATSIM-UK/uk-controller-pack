@@ -57,7 +57,9 @@ jobs:
                 --body "**Plugin**: \`$repo\`  
               **Version**: \`$latest_tag\`  
   
-              Please update the DLL and modify \`.github/dependency_versions.json\` accordingly.  
+              Please update the DLL and modify the following files accordingly.  
+              \`.github/dependency_versions.json\`
+              \`.github/badges/[plugin].json\`
               [Release notes](https://github.com/$repo/releases/tag/$latest_tag)" || echo "Issue may already exist"
 
             else
