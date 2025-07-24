@@ -2,7 +2,8 @@
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2508) - Updated TopSky MSAW area definitions for Aberdeen (EGPD) - thanks to @Liaely (Lily Unitt)
 3. AIRAC (2508) - Updated TopSky MSAW altitudes for the Leeds Bradford (EGNM) SMA - thanks to @Liaely (Lily Unitt)
-3. AIRAC (2508) - Updated TopSky minimum altitudes in Edinburgh (EGPH) areas A and B - thanks to @clc0609 (Coby Chapman)
+4. AIRAC (2508) - Updated TopSky minimum altitudes in Edinburgh (EGPH) areas A and B - thanks to @clc0609 (Coby Chapman)
+5. Bug - Fixed improper TopSky definitions for danger areas EGD220A/B - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
