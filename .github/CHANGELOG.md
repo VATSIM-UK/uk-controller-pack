@@ -4,7 +4,8 @@
 3. AIRAC (2508) - Updated TopSky MSAW altitudes for the Leeds Bradford (EGNM) SMA - thanks to @Liaely (Lily Unitt)
 4. AIRAC (2508) - Updated TopSky minimum altitudes in Edinburgh (EGPH) areas A and B - thanks to @clc0609 (Coby Chapman)
 5. Bug - Fixed improper TopSky definitions for danger areas EGD220A/B - thanks to @Liaely (Lily Unitt)
-4. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
+6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
+7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)

@@ -20,7 +20,7 @@ ATIS2:City Tower
 ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLC_APP:50:5
-ATIS2:City Director
+ATIS2:Thames Director
 ATIS3:INITIAL CLIMB ALTITUDE 3000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGMC_TWR:50:4
