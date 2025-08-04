@@ -105,7 +105,7 @@ Color_Active_Sector=192,192,192
 Color_Active_Text_Map=139,0,0
 Color_AIW_Intrusion=255,142,0
 Color_Arm
-Color_Background=195,195,185
+Color_Background=195,195,195
 Color_Border
 Color_BottomShadow
 Color_CARD_Conflict_Number
