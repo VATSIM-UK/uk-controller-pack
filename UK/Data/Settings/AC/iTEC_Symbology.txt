@@ -25,9 +25,9 @@ Runways:extended centerline:8881798:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
 Datablock:non concerned:16448255:3.4:0:0:7
 Datablock:notified:16384000:3.4:0:0:7
-Datablock:assumed:0:3.4:0:0:7
+Datablock:assumed:6558566:3.4:0:0:7
 Datablock:transfer to me initiated:0:3.4:0:0:7
-Datablock:redundant:9051020:3.4:0:0:7
+Datablock:redundant:6558566:3.4:0:0:7
 Datablock:information:29670:3.4:0:0:7
 Datablock:even flight level:11974326:3.4:0:0:7
 Datablock:odd flight level:39835:3.4:0:0:7
@@ -97,7 +97,7 @@ Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
 Sector:line:7237230:4.0:0:0:7
 Sector:msaw:32768:2.0:0:2:7
-Sector:active sector background:12303291:3.5:0:0:7
+Sector:active sector background:11908533:3.5:0:0:7
 Sector:inactive sector background:12632256:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:MOVETO -3 -3
