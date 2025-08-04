@@ -2,6 +2,7 @@ name: Compile Controller-Pack-Updater.exe
 
 on:
   push:
+#change this
     paths:
       - 'workflows/build-updater/**'
       - '.github/workflows/build-updater.yml'
@@ -38,8 +39,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
-
+          token: ${{ secrets.GITHUB_TOKEN }}
+#change this
       - name: Pull latest changes
         run: git pull --ff-only
 
