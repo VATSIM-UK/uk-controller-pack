@@ -64,7 +64,7 @@ Color_Concerned=0,0,250
 Color_Coordination=0,0,250
 Color_Unconcerned=255,250,250
 Color_Unknown=239,224,42
-Color_Redundant=140,27,138
+Color_Redundant=102,19,100
 
 //Colour settings
 Color_ACF_Via_CFL
@@ -105,7 +105,7 @@ Color_Active_Sector=192,192,192
 Color_Active_Text_Map=139,0,0
 Color_AIW_Intrusion=255,142,0
 Color_Arm
-Color_Background=195,195,185
+Color_Background=195,195,195
 Color_Border
 Color_BottomShadow
 Color_CARD_Conflict_Number

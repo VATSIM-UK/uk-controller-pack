@@ -44,7 +44,7 @@ Datablock:ongoing requested by me:4015580:3.4:0:0:7
 Datablock:ongoing requested by other:4015580:3.4:0:0:7
 Datablock:ongoing accepted:2263842:3.4:0:0:7
 Datablock:ongoing refused:16734792:3.4:0:0:7
-Datablock:detailed background:14342874:3.4:0:0:7
+Datablock:detailed background:13756399:3.4:0:0:7
 Datablock:active item background:13816530:3.4:0:0:7
 Datablock:arrival background:1395241:3.4:0:0:7
 Datablock:departure background:4264977:3.4:0:0:7
@@ -89,7 +89,7 @@ Other:normal menu item:16777215:3.5:0:0:7
 Other:disabled menu item:8421504:3.5:0:0:7
 Transitions:transition grid:8881798:3.0:0:0:7
 Chat:text:0:3.5:0:0:7
-Chat:background:12174275:3.5:0:0:7
+Chat:background:12829635:3.5:0:0:7
 Chat:name normal:7237230:3.5:0:0:7
 Chat:name unread:16711680:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
@@ -97,7 +97,7 @@ Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
 Sector:line:7237230:4.0:0:0:7
 Sector:msaw:32768:2.0:0:2:7
-Sector:active sector background:12303291:3.5:0:0:7
+Sector:active sector background:11908533:3.5:0:0:7
 Sector:inactive sector background:12632256:3.5:0:0:7
 SYMBOL:0
 SYMBOLITEM:MOVETO -3 -3
