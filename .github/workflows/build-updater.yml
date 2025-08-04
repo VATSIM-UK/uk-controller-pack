@@ -2,8 +2,6 @@ name: Compile Controller-Pack-Updater.exe
 
 on:
   push:
-    branches:
-      - 'main'
     paths:
       - 'workflows/build-updater/**'
       - '.github/workflows/build-updater.yml'
