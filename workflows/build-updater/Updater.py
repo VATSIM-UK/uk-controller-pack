@@ -117,11 +117,13 @@ class UpdaterApp:
         response.raise_for_status()
 
         local_path = self.get_local_path(filepath)
-        os.makedirs(os.path.dirname(local_path), exist_ok=True)
+        dir_path = os.path.dirname(local_path)
+        if dir_path:
+            os.makedirs(dir_path, exist_ok=True)
 
         with open(local_path, "wb") as f:
             f.write(response.content)
-        self.log(f"Downloaded {local_path}")
+        self.log(f"Downloaded {filepath} → {local_path}")
 
     def delete_file(self, filepath):
         local_path = self.get_local_path(filepath)
