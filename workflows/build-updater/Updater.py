@@ -106,17 +106,22 @@ class UpdaterApp:
         return updated_files, removed_files, prf_modified
 
     def get_local_path(self, remote_path):
-            # Preserve full GitHub path exactly as it is
+        # Strip leading 'UK/' since we're already inside the UK/ directory
+        if remote_path.startswith("UK/"):
+            return remote_path[len("UK/"):]
         return remote_path
 
     def download_file(self, branch, filepath):
         url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{branch}/{filepath}"
         response = requests.get(url)
         response.raise_for_status()
+
         local_path = self.get_local_path(filepath)
         os.makedirs(os.path.dirname(local_path), exist_ok=True)
+
         with open(local_path, "wb") as f:
             f.write(response.content)
+        self.log(f"Downloaded {local_path}")
 
     def delete_file(self, filepath):
         local_path = self.get_local_path(filepath)
