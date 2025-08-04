@@ -58,8 +58,8 @@ class UpdaterApp:
             with open(LOCAL_VERSION_FILE) as f:
                 return f.read().strip()
         except FileNotFoundError:
-            self.log("version.txt not found. Assuming version 2021_01.")
-            return "2021_01"
+            self.log("version.txt not found. Assuming version 2024_01.")
+            return "2024_01"
 
     def set_local_version(self, ver):
         with open(LOCAL_VERSION_FILE, "w") as f:
