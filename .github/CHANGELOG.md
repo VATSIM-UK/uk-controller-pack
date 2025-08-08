@@ -1,3 +1,5 @@
+﻿X. Enhancement - Creation of a EXE to update the Controller Pack - thanks to @cpawley (Chris Pawley)
+
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2508) - Updated TopSky MSAW area definitions for Aberdeen (EGPD) - thanks to @Liaely (Lily Unitt)
