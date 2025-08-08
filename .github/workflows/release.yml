@@ -32,6 +32,12 @@ jobs:
             echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
           fi
 
+      - name: 📝 Update UK/version.txt with Release Tag
+        run: |
+          mkdir -p UK
+          echo "${{ steps.get_release_tag.outputs.tag }}" > UK/version.txt
+          echo "Updated UK/version.txt with ${{ steps.get_release_tag.outputs.tag }}"
+
       - name: 🔍 Get Release SHA
         id: set_release_sha
         run: |
