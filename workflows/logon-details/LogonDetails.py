@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import json
 import time
@@ -108,10 +109,11 @@ DEFAULT_FIELDS = {
     "realistic_conversion": "n",
     "coast_choice": "1",
     "land_choice": "1",
+    "discord_presence": "n",
     "vccs_ptt_scan_code": ""
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "vccs_ptt_scan_code"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
 
 def load_previous_options():
@@ -405,7 +407,9 @@ def prompt_for_field(key, current):
                 "3": "Light Grey"
             }
         )
-
+    
+    elif key == "discord_presence":
+        return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "vccs_ptt_scan_code":
         return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key in ["realistic_tags", "realistic_conversion"]:
@@ -442,6 +446,7 @@ def collect_user_input():
     for key in BASIC_FIELDS:
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
+
 
     save_options(options)
     return options
@@ -483,6 +488,36 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     except Exception as e:
         print(f"Failed to write to {file_path}: {e}")
 
+def patch_discord_plugin(file_path):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
+    
+    if any(r"DiscordEuroscope.dll" in line for line in lines):
+        return
+    
+    plugin_nums = []
+    for line in lines:
+        match = re.match(r"Plugins\tPlugin(\d+)\t", line)
+        if match:
+            try:
+                plugin_nums.append(int(match.group(1)))
+            except ValueError:
+                pass
+
+    next_num = (max(plugin_nums) + 1) if plugin_nums else 1
+
+    lines.append(f"Plugins\tPlugin{next_num}\t\\..\\Data\\Plugin\\DiscordEuroscope.dll\n")
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+    except Exception as e:
+        print(f"Failed to write {file_path}: {e}")
+
 
 def patch_plugins_file(file_path, cpdlc):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -517,12 +552,14 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt):
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt, discord_presence):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
                 patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
+                if discord_presence == "y":
+                    patch_discord_plugin(path)
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -647,7 +684,8 @@ def main():
             rating=options["rating"],
             password=options["password"],
             cpdlc=options["cpdlc"],
-            vccs_ptt=options.get("vccs_ptt_scan_code", "")
+            vccs_ptt=options.get("vccs_ptt_scan_code", ""),
+            discord_presence=options.get("discord_presence", "n")
         )
 
         if ask_yesno("Would you like to configure advanced options?"):
