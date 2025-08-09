@@ -32,6 +32,7 @@ jobs:
             "DrFreas/VCH"
             "quassbutreally/EuroScope-CCDS-R"
             "VFPC/VFPC"
+            "Kirollos/DiscordEuroscope"
           )
 
           VERSION_FILE=".github/dependency_versions.json"
