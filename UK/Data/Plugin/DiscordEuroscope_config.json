@@ -51,7 +51,17 @@
                 "state" : "Controlling ({current_tracked} of {total_inrange})",
                 "details" : "{rcallsign} {frequency}MHz",
                 "presence_small_image_text" : "Total tracks: {total_tracked}",
-                "presence_large_image_text" : "{callsign}"
+                "presence_large_image_text" : "{callsign}",
+                "buttons": [
+                    {
+                        "label": "Callsign stats",
+                        "url": "https://stats.vatsim.net/search/{callsign}"
+                    },
+                    {
+                        "label": "Airport information",
+                        "url": "https://www.vatsim.uk/airports"
+                    }
+                ]
             },
             
             "if_supervisor": {
@@ -64,16 +74,6 @@
             }
         }
     },
-    "buttons": [
-        {
-            "label": "Callsign stats",
-            "url": "https://stats.vatsim.net/search/{callsign}"
-        },
-        {
-            "label": "Airport information",
-            "url": "https://www.vatsim.uk/airports"
-        }
-    ],
     "radio_callsigns": {
         "config": {
             "load_from_ese": true,
