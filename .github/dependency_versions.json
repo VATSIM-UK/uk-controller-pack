@@ -52,5 +52,11 @@
         "label": "MAESTRO",
         "message": "v1.1",
         "color": "green"
+    },
+    "DiscordEuroscope": {
+        "schemaVersion": 1,
+        "label": "DiscordEuroscope",
+        "message": "v1.3.0-rc1",
+        "color": "green"
     }
 }
