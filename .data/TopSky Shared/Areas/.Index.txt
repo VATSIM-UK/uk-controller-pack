@@ -254,6 +254,11 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+Training/ATA Lakenheath North.txt
+Training/ATA Lakenheath South.txt
+Training/ATA Valley.txt
+Training/ATA Wash North.txt
+Training/ATA Wash South.txt
 TRA/TRA 001.txt
 TRA/TRA 002.txt
 TRA/TRA 003.txt
@@ -292,4 +297,6 @@ TRA/TRAG Welsh Lower E.txt
 TRA/TRAG Yorkshire Upper North.txt
 TRA/TRAG Yorkshire Lower North.txt
 TRA/TRAG Yorkshire Lower South.txt
+Other/ARA Boscombe Down.txt
+Other/ARA Warton.txt
 Other/Kirknewton.txt
