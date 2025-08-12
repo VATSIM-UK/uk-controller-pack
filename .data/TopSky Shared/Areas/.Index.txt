@@ -258,4 +258,5 @@ TRA/TRAG Aboyne.txt
 TRA/TRAG Northern Ireland.txt
 TRA/TRAG Northumbria North.txt
 TRA/TRAG Northumbria South.txt
+TRA/TRAG Portmoak.txt
 Other/Kirknewton.txt
