@@ -254,4 +254,16 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+Surveillance/Orbit Area 01.txt
+Surveillance/Orbit Area 02.txt
+Surveillance/Orbit Area 03.txt
+Surveillance/Orbit Area 05.txt
+Surveillance/Orbit Area 06.txt
+Surveillance/Orbit Area 07.txt
+Surveillance/Orbit Area 08.txt
+Surveillance/Orbit Area 09.txt
+Surveillance/Orbit Area 10.txt
+Surveillance/Orbit Area 11.txt
+Surveillance/Orbit Area 12.txt
+Surveillance/Orbit Area 13.txt
 Other/Kirknewton.txt
