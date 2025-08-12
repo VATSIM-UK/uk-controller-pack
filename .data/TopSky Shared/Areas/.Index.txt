@@ -254,4 +254,15 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+TRA/TRA 001.txt
+TRA/TRA 002.txt
+TRA/TRA 003.txt
+TRA/TRA 004.txt
+TRA/TRA 005.txt
+TRA/TRA 006.txt
+TRA/TRA 007A.txt
+TRA/TRA 007B.txt
+TRA/TRA 008A.txt
+TRA/TRA 008B.txt
+TRA/TRA 008C.txt
 Other/Kirknewton.txt
