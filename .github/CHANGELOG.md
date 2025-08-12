@@ -9,6 +9,7 @@
 8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
 9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
 10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
