@@ -254,4 +254,5 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+Other/ARA Boscombe Down.txt
 Other/Kirknewton.txt
