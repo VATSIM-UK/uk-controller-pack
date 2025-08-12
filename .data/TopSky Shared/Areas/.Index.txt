@@ -257,6 +257,8 @@ Training/EGMTNWSL.txt
 Training/ATA Lakenheath North.txt
 Training/ATA Lakenheath South.txt
 Training/ATA Valley.txt
+Training/ATA Wash North.txt
+Training/ATA Wash South.txt
 Other/ARA Boscombe Down.txt
 Other/ARA Warton.txt
 Other/Kirknewton.txt
