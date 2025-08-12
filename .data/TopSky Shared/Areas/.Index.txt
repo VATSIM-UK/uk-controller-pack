@@ -257,4 +257,5 @@ Training/EGMTNWSL.txt
 TRA/TRA 001.txt
 TRA/TRA 002.txt
 TRA/TRA 003.txt
+TRA/TRA 004.txt
 Other/Kirknewton.txt
