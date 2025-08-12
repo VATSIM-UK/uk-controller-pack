@@ -7,7 +7,10 @@
 6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
 7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
-X. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
+9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
+10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
+12. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
