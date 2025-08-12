@@ -7,6 +7,7 @@
 6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
 7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+X. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
