@@ -1,0 +1,187 @@
+﻿name: Build V-LARA GeoJSON
+
+on:
+  push:
+    paths:
+      - ".data/TopSky Shared/Areas/AARA/**/*.txt"
+      - ".data/TopSky Shared/Areas/Danger/**/*.txt"
+      - ".data/TopSky Shared/Areas/Training/**/*.txt"
+      - "workflows/TopSkyAreas to V-LARA.py"
+  pull_request:
+    paths:
+      - ".data/TopSky Shared/Areas/AARA/**/*.txt"
+      - ".data/TopSky Shared/Areas/Danger/**/*.txt"
+      - ".data/TopSky Shared/Areas/Training/**/*.txt"
+      - "workflows/TopSkyAreas to V-LARA.py"
+  workflow_dispatch: {}
+
+# Ensure only one run per ref is pushing at a time
+concurrency:
+  group: geojson-build-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  GEOJSON_OUT: data/airspace.geojson
+  INPUT_AARA: ".data/TopSky Shared/Areas/AARA"
+  INPUT_DANGER: ".data/TopSky Shared/Areas/Danger"
+  INPUT_TRAINING: ".data/TopSky Shared/Areas/Training"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 🧪 Pre-flight check (paths exist)
+        shell: bash
+        run: |
+          set -euo pipefail
+          for d in "$INPUT_AARA" "$INPUT_DANGER" "$INPUT_TRAINING"; do
+            if [ ! -d "$d" ]; then
+              echo "⚠️ Missing directory: $d" >&2
+            else
+              echo "✅ Found: $d"
+              find "$d" -type f -name '*.txt' | wc -l | xargs -I{} echo "   └─ {} files"
+            fi
+          done
+
+      - name: 🏗️ Build GeoJSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "workflows/TopSkyAreas to V-LARA.py" \
+            --input-dir "$INPUT_AARA" \
+            --input-dir "$INPUT_DANGER" \
+            --input-dir "$INPUT_TRAINING" \
+            --output "$GEOJSON_OUT" \
+            --debug
+
+      - name: ✅ Validate output
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, sys
+          p = "${GEOJSON_OUT}"
+          try:
+            with open(p, "r", encoding="utf-8") as f:
+              fc = json.load(f)
+          except Exception as e:
+            print(f"❌ Failed to read JSON: {e}", file=sys.stderr)
+            sys.exit(1)
+
+          if fc.get("type") != "FeatureCollection":
+            print("❌ Not a FeatureCollection", file=sys.stderr); sys.exit(1)
+
+          feats = fc.get("features", [])
+          if not isinstance(feats, list):
+            print("❌ features is not a list", file=sys.stderr); sys.exit(1)
+
+          bad = 0
+          for i, ft in enumerate(feats):
+            geom = ft.get("geometry", {})
+            if geom.get("type") != "Polygon":
+              print(f"❌ feature[{i}] geometry not Polygon", file=sys.stderr); bad += 1; continue
+            rings = geom.get("coordinates")
+            if not rings or not isinstance(rings, list) or not rings[0]:
+              print(f"❌ feature[{i}] has empty coordinates", file=sys.stderr); bad += 1; continue
+            ring = rings[0]
+            if ring[0] != ring[-1]:
+              print(f"❌ feature[{i}] ring not closed", file=sys.stderr); bad += 1
+
+          if bad:
+            print(f"❌ Validation failed: {bad} issue(s).", file=sys.stderr)
+            sys.exit(1)
+          print(f"✅ Validation OK: {len(feats)} feature(s).")
+          PY
+
+      - name: 📝 Summary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, math
+          from math import inf
+          p = "${GEOJSON_OUT}"
+          with open(p, "r", encoding="utf-8") as f:
+            fc = json.load(f)
+          n = len(fc.get("features", []))
+          minx=miny=inf; maxx=maxy=-inf
+          for ft in fc.get("features", []):
+            for x,y in ft["geometry"]["coordinates"][0]:
+              minx=min(minx,x); miny=min(miny,y); maxx=max(maxx,x); maxy=max(maxy,y)
+          print("## Airspace GeoJSON")
+          print(f"- File: `{p}`")
+          print(f"- Features: **{n}**")
+          if math.isfinite(minx):
+            print(f"- BBox: [{minx:.5f}, {miny:.5f}, {maxx:.5f}, {maxy:.5f}]")
+          PY
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          head -n 50 "$GEOJSON_OUT" >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 📦 Upload artifact (PRs only)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: airspace-geojson
+          path: ${{ env.GEOJSON_OUT }}
+          if-no-files-found: error
+
+      - name: 🔎 Detect change (push only)
+        if: github.event_name == 'push'
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -N "$GEOJSON_OUT" || true
+          if git diff --quiet -- "$GEOJSON_OUT"; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected."
+          fi
+
+      - name: ⬆️ Commit & push (safe, with rebase/retry)
+        if: github.event_name == 'push' && steps.changed.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$GEOJSON_OUT"
+          git commit -m "chore(geojson): rebuild combined V-LARA GeoJSON" || exit 0
+          BRANCH="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3; do
+            echo "Attempt $attempt: rebase & push…"
+            git pull --rebase origin "$BRANCH" || true
+            if git push origin "HEAD:$BRANCH"; then
+              echo "✅ Push succeeded."
+              exit 0
+            fi
+            echo "⚠️ Push failed. Retrying in 3s…"
+            sleep 3
+          done
+          echo "❌ Push failed after retries."
+          exit 1
+
+      - name: 🧾 Last commit (debug)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git --no-pager log -1 --stat || true
