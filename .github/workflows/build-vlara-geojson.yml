@@ -6,16 +6,18 @@ on:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
-      - "workflows/V-LARA/topskyareas_to_vlara.py"
+      - ".github/workflows/build-vlara-geojson.yml"
+      - "topskyareas_to_vlara.py"
   pull_request:
     paths:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
-      - "workflows/TopSkyAreas to V-LARA.py"
+      - ".github/workflows/build-vlara-geojson.yml"
+      - "topskyareas_to_vlara.py"
   workflow_dispatch: {}
 
-# Ensure only one run per ref is pushing at a time
+# one-at-a-time per ref to avoid push races
 concurrency:
   group: geojson-build-${{ github.ref }}
   cancel-in-progress: false
@@ -28,6 +30,7 @@ env:
   INPUT_AARA: ".data/TopSky Shared/Areas/AARA"
   INPUT_DANGER: ".data/TopSky Shared/Areas/Danger"
   INPUT_TRAINING: ".data/TopSky Shared/Areas/Training"
+  SCRIPT_PATH: "topskyareas_to_vlara.py"
 
 jobs:
   build:
@@ -44,7 +47,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: 🧪 Pre-flight check (paths exist)
+      - name: 🔎 Workspace sanity check
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Workspace: $GITHUB_WORKSPACE"
+          echo "Repo root contents:"
+          ls -la
+          if [ ! -f "$SCRIPT_PATH" ]; then
+            echo "❌ Script not found at: $SCRIPT_PATH" >&2
+            exit 1
+          fi
+          echo "✅ Found script: $SCRIPT_PATH"
+
+      - name: 🧪 Pre-flight (input dirs)
         shell: bash
         run: |
           set -euo pipefail
@@ -53,7 +69,8 @@ jobs:
               echo "⚠️ Missing directory: $d" >&2
             else
               echo "✅ Found: $d"
-              find "$d" -type f -name '*.txt' | wc -l | xargs -I{} echo "   └─ {} files"
+              count=$(find "$d" -type f -name '*.txt' | wc -l || echo 0)
+              echo "   └─ $count .txt file(s)"
             fi
           done
 
@@ -61,49 +78,55 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python "workflows/V-LARA/topskyareas_to_vlara.py" \
+          python "$SCRIPT_PATH" \
             --input-dir "$INPUT_AARA" \
             --input-dir "$INPUT_DANGER" \
             --input-dir "$INPUT_TRAINING" \
             --output "$GEOJSON_OUT" \
             --debug
 
+      - name: 🔍 Check output exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$GEOJSON_OUT" || { echo "❌ Missing output: $GEOJSON_OUT"; exit 1; }
+          ls -lh "$GEOJSON_OUT"
+
       - name: ✅ Validate output
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import json, sys
-          p = "${GEOJSON_OUT}"
+          import json, os, sys
+          p = os.environ.get("GEOJSON_OUT", "data/airspace.geojson")
           try:
-            with open(p, "r", encoding="utf-8") as f:
-              fc = json.load(f)
+              with open(p, "r", encoding="utf-8") as f:
+                  fc = json.load(f)
           except Exception as e:
-            print(f"❌ Failed to read JSON: {e}", file=sys.stderr)
-            sys.exit(1)
+              print(f"❌ Failed to read JSON {p}: {e}", file=sys.stderr)
+              sys.exit(1)
 
           if fc.get("type") != "FeatureCollection":
-            print("❌ Not a FeatureCollection", file=sys.stderr); sys.exit(1)
-
+              print("❌ Not a FeatureCollection", file=sys.stderr); sys.exit(1)
           feats = fc.get("features", [])
           if not isinstance(feats, list):
-            print("❌ features is not a list", file=sys.stderr); sys.exit(1)
+              print("❌ features is not a list", file=sys.stderr); sys.exit(1)
 
           bad = 0
           for i, ft in enumerate(feats):
-            geom = ft.get("geometry", {})
-            if geom.get("type") != "Polygon":
-              print(f"❌ feature[{i}] geometry not Polygon", file=sys.stderr); bad += 1; continue
-            rings = geom.get("coordinates")
-            if not rings or not isinstance(rings, list) or not rings[0]:
-              print(f"❌ feature[{i}] has empty coordinates", file=sys.stderr); bad += 1; continue
-            ring = rings[0]
-            if ring[0] != ring[-1]:
-              print(f"❌ feature[{i}] ring not closed", file=sys.stderr); bad += 1
+              geom = ft.get("geometry", {})
+              if geom.get("type") != "Polygon":
+                  print(f"❌ feature[{i}] geometry not Polygon", file=sys.stderr); bad += 1; continue
+              rings = geom.get("coordinates")
+              if not rings or not isinstance(rings, list) or not rings[0]:
+                  print(f"❌ feature[{i}] has empty coordinates", file=sys.stderr); bad += 1; continue
+              ring = rings[0]
+              if ring[0] != ring[-1]:
+                  print(f"❌ feature[{i}] ring not closed", file=sys.stderr); bad += 1
 
           if bad:
-            print(f"❌ Validation failed: {bad} issue(s).", file=sys.stderr)
-            sys.exit(1)
+              print(f"❌ Validation failed: {bad} issue(s).", file=sys.stderr)
+              sys.exit(1)
           print(f"✅ Validation OK: {len(feats)} feature(s).")
           PY
 
@@ -112,13 +135,12 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
-          import json, math
-          from math import inf
-          p = "${GEOJSON_OUT}"
+          import json, math, os
+          p = os.environ.get("GEOJSON_OUT", "data/airspace.geojson")
           with open(p, "r", encoding="utf-8") as f:
             fc = json.load(f)
           n = len(fc.get("features", []))
-          minx=miny=inf; maxx=maxy=-inf
+          minx=miny=float("inf"); maxx=maxy=float("-inf")
           for ft in fc.get("features", []):
             for x,y in ft["geometry"]["coordinates"][0]:
               minx=min(minx,x); miny=min(miny,y); maxx=max(maxx,x); maxy=max(maxy,y)
@@ -156,7 +178,7 @@ jobs:
             echo "Changes detected."
           fi
 
-      - name: ⬆️ Commit & push (safe, with rebase/retry)
+      - name: ⬆️ Commit & push (safe, rebase+retry)
         if: github.event_name == 'push' && steps.changed.outputs.changed == 'true'
         shell: bash
         run: |
