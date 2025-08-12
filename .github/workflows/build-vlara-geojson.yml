@@ -30,7 +30,7 @@ env:
   INPUT_AARA: ".data/TopSky Shared/Areas/AARA"
   INPUT_DANGER: ".data/TopSky Shared/Areas/Danger"
   INPUT_TRAINING: ".data/TopSky Shared/Areas/Training"
-  SCRIPT_PATH: "topskyareas_to_vlara.py"
+  SCRIPT_PATH: "workflows/V-LARA/topskyareas_to_vlara.py"
 
 jobs:
   build:
