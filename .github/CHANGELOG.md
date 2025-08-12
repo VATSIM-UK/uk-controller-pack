@@ -1,3 +1,5 @@
+x. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & South West Approaches MTAs as TopSky areas - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
 
