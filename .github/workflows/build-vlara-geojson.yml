@@ -6,7 +6,7 @@ on:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
-      - "workflows/TopSkyAreas to V-LARA.py"
+      - "workflows/topskyareas_to_vlara.py"
   pull_request:
     paths:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
@@ -61,7 +61,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python "workflows/TopSkyAreas to V-LARA.py" \
+          python "workflows/topskyareas_to_vlara.py" \
             --input-dir "$INPUT_AARA" \
             --input-dir "$INPUT_DANGER" \
             --input-dir "$INPUT_TRAINING" \
