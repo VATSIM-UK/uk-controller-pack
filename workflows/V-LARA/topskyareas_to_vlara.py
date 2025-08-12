@@ -93,8 +93,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
         "type": a_type,
         "lowerFL": lowerFL,
         "upperFL": upperFL,
-        "coords": coords,
-        "sourceFile": str(path)
+        "coords": coords
     }
 
 def collect_files(input_dirs: List[str]) -> List[Path]:
@@ -138,7 +137,6 @@ def main():
                 "type": area["type"],
                 "lowerFL": area["lowerFL"],
                 "upperFL": area["upperFL"],
-                "sourceFile": area["sourceFile"]
             },
             "geometry": {
                 "type": "Polygon",
