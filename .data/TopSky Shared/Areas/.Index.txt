@@ -273,4 +273,9 @@ TRA/TRAG Welsh Upper E.txt
 TRA/TRAG Welsh Upper F.txt
 TRA/TRAG Welsh Upper G.txt
 TRA/TRAG Welsh H.txt
+TRA/TRAG Welsh Lower A.txt
+TRA/TRAG Welsh Lower B.txt
+TRA/TRAG Welsh Lower C.txt
+TRA/TRAG Welsh Lower D.txt
+TRA/TRAG Welsh Lower E.txt
 Other/Kirknewton.txt
