@@ -254,4 +254,5 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+Training/ASAC.txt
 Other/Kirknewton.txt
