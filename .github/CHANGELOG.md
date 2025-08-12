@@ -11,6 +11,7 @@
 10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
 11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
 12. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
+13. Enhancement - Added Western Radar to Voice.txt - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
