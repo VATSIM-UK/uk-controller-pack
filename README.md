@@ -9,6 +9,7 @@
 [![VFPC](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VFPC.json)](https://github.com/VFPC/VFPC/releases)
 [![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/TopSky.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 [![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/MAESTRO.json)](https://forum.vatsim-scandinavia.org/t/plugins)
+[![DiscordEuroScope](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/DiscordEuroscope.json)](https://github.com/Kirollos/DiscordEuroscope)
 
 
 # Welcome
@@ -38,6 +39,9 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [Virtual Controller Helper Plugin](https://github.com/DrFreas/VCH) - thanks to [@DrFreas](https://github.com/DrFreas)
 
+[DiscordEuroscope Plugin](https://github.com/Kirollos/DiscordEuroscope) - thanks to [@Kirollos](https://github.com/Kirollos)
+
 [UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@lennycolton](https://github.com/lennycolton)
 
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
+
