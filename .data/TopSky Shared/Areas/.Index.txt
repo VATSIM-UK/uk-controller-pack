@@ -259,4 +259,5 @@ TRA/TRA 002.txt
 TRA/TRA 003.txt
 TRA/TRA 004.txt
 TRA/TRA 005.txt
+TRA/TRA 006.txt
 Other/Kirknewton.txt
