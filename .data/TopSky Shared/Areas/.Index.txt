@@ -265,5 +265,12 @@ TRA/TRAG Scottish Lower North.txt
 TRA/TRAG Scottish Lower South.txt
 TRA/TRAG Spadeadam Upper.txt
 TRA/TRAG Spadeadam Lower.txt
+TRA/TRAG Welsh Upper A.txt
+TRA/TRAG Welsh Upper B.txt
+TRA/TRAG Welsh Upper C.txt
+TRA/TRAG Welsh Upper D.txt
+TRA/TRAG Welsh Upper E.txt
+TRA/TRAG Welsh Upper F.txt
+TRA/TRAG Welsh Upper G.txt
 TRA/TRAG Welsh H.txt
 Other/Kirknewton.txt
