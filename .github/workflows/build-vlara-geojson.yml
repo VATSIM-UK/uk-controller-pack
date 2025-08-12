@@ -26,7 +26,7 @@ permissions:
   contents: write
 
 env:
-  GEOJSON_OUT: data/airspace.geojson
+  GEOJSON_OUT: .data/V-LARA/egxx.geojson
   INPUT_AARA: ".data/TopSky Shared/Areas/AARA"
   INPUT_DANGER: ".data/TopSky Shared/Areas/Danger"
   INPUT_TRAINING: ".data/TopSky Shared/Areas/Training"
