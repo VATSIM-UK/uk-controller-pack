@@ -263,4 +263,6 @@ TRA/TRAG Scottish Upper North.txt
 TRA/TRAG Scottish Upper South.txt
 TRA/TRAG Scottish Lower North.txt
 TRA/TRAG Scottish Lower South.txt
+TRA/TRAG Spadeadam Upper.txt
+TRA/TRAG Spadeadam Lower.txt
 Other/Kirknewton.txt
