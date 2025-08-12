@@ -8,6 +8,7 @@
 7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
 9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
+10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
