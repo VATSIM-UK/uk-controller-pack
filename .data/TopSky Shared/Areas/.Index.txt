@@ -278,4 +278,7 @@ TRA/TRAG Welsh Lower B.txt
 TRA/TRAG Welsh Lower C.txt
 TRA/TRAG Welsh Lower D.txt
 TRA/TRAG Welsh Lower E.txt
+TRA/TRAG Yorkshire Upper North.txt
+TRA/TRAG Yorkshire Lower North.txt
+TRA/TRAG Yorkshire Lower South.txt
 Other/Kirknewton.txt
