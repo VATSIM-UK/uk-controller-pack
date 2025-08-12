@@ -261,4 +261,6 @@ TRA/TRAG Northumbria South.txt
 TRA/TRAG Portmoak.txt
 TRA/TRAG Scottish Upper North.txt
 TRA/TRAG Scottish Upper South.txt
+TRA/TRAG Scottish Lower North.txt
+TRA/TRAG Scottish Lower South.txt
 Other/Kirknewton.txt
