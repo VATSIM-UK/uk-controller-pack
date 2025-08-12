@@ -255,4 +255,5 @@ Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
 TRA/TRAG Aboyne.txt
+TRA/TRAG Northern Ireland.txt
 Other/Kirknewton.txt
