@@ -7,8 +7,7 @@
         "name": "AARA 1",
         "type": "AARA",
         "lowerFL": 120,
-        "upperFL": 280,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 1.txt"
+        "upperFL": 280
       },
       "geometry": {
         "type": "Polygon",
@@ -44,8 +43,7 @@
         "name": "AARA 10E",
         "type": "AARA",
         "lowerFL": 80,
-        "upperFL": 260,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 10E.txt"
+        "upperFL": 260
       },
       "geometry": {
         "type": "Polygon",
@@ -81,8 +79,7 @@
         "name": "AARA 10W",
         "type": "AARA",
         "lowerFL": 80,
-        "upperFL": 260,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 10W.txt"
+        "upperFL": 260
       },
       "geometry": {
         "type": "Polygon",
@@ -118,8 +115,7 @@
         "name": "AARA 11",
         "type": "AARA",
         "lowerFL": 80,
-        "upperFL": 260,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 11.txt"
+        "upperFL": 260
       },
       "geometry": {
         "type": "Polygon",
@@ -155,8 +151,7 @@
         "name": "AARA 12",
         "type": "AARA",
         "lowerFL": 70,
-        "upperFL": 280,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 12.txt"
+        "upperFL": 280
       },
       "geometry": {
         "type": "Polygon",
@@ -200,8 +195,7 @@
         "name": "AARA 13",
         "type": "AARA",
         "lowerFL": 150,
-        "upperFL": 240,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 13.txt"
+        "upperFL": 240
       },
       "geometry": {
         "type": "Polygon",
@@ -237,8 +231,7 @@
         "name": "AARA 14",
         "type": "AARA",
         "lowerFL": 180,
-        "upperFL": 240,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 14.txt"
+        "upperFL": 240
       },
       "geometry": {
         "type": "Polygon",
@@ -274,8 +267,7 @@
         "name": "AARA 2",
         "type": "AARA",
         "lowerFL": 100,
-        "upperFL": 290,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 2.txt"
+        "upperFL": 290
       },
       "geometry": {
         "type": "Polygon",
@@ -311,8 +303,7 @@
         "name": "AARA 3",
         "type": "AARA",
         "lowerFL": 100,
-        "upperFL": 290,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 3.txt"
+        "upperFL": 290
       },
       "geometry": {
         "type": "Polygon",
@@ -348,8 +339,7 @@
         "name": "AARA 4",
         "type": "AARA",
         "lowerFL": 70,
-        "upperFL": 240,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 4.txt"
+        "upperFL": 240
       },
       "geometry": {
         "type": "Polygon",
@@ -385,8 +375,7 @@
         "name": "AARA 5",
         "type": "AARA",
         "lowerFL": 70,
-        "upperFL": 240,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 5.txt"
+        "upperFL": 240
       },
       "geometry": {
         "type": "Polygon",
@@ -422,8 +411,7 @@
         "name": "AARA 6",
         "type": "AARA",
         "lowerFL": 100,
-        "upperFL": 290,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 6.txt"
+        "upperFL": 290
       },
       "geometry": {
         "type": "Polygon",
@@ -459,8 +447,7 @@
         "name": "AARA 7",
         "type": "AARA",
         "lowerFL": 100,
-        "upperFL": 290,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 7.txt"
+        "upperFL": 290
       },
       "geometry": {
         "type": "Polygon",
@@ -496,8 +483,7 @@
         "name": "AARA 8",
         "type": "AARA",
         "lowerFL": 70,
-        "upperFL": 170,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 8.txt"
+        "upperFL": 170
       },
       "geometry": {
         "type": "Polygon",
@@ -533,8 +519,7 @@
         "name": "AARA 9",
         "type": "AARA",
         "lowerFL": 20,
-        "upperFL": 50,
-        "sourceFile": ".data/TopSky Shared/Areas/AARA/AARA 9.txt"
+        "upperFL": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -570,8 +555,7 @@
         "name": "EGD001",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 10,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD001.txt"
+        "upperFL": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -615,8 +599,7 @@
         "name": "EGD003",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD003.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -652,8 +635,7 @@
         "name": "EGD004",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD004.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -689,8 +671,7 @@
         "name": "EGD005A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 80,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD005A.txt"
+        "upperFL": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -998,8 +979,7 @@
         "name": "EGD005B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 80,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD005B.txt"
+        "upperFL": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -1175,8 +1155,7 @@
         "name": "EGD006A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD006A.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1212,8 +1191,7 @@
         "name": "EGD006B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 80,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD006B.txt"
+        "upperFL": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -1253,8 +1231,7 @@
         "name": "EGD006C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 80,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD006C.txt"
+        "upperFL": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -1290,8 +1267,7 @@
         "name": "EGD007A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD007A.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1335,8 +1311,7 @@
         "name": "EGD007B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD007B.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1372,8 +1347,7 @@
         "name": "EGD007C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD007C.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -1417,8 +1391,7 @@
         "name": "EGD008A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD008A.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1454,8 +1427,7 @@
         "name": "EGD008B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD008B.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1491,8 +1463,7 @@
         "name": "EGD008C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD008C.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1576,8 +1547,7 @@
         "name": "EGD009A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD009A.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1649,8 +1619,7 @@
         "name": "EGD009B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD009B.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -1826,8 +1795,7 @@
         "name": "EGD011A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD011A.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -1875,8 +1843,7 @@
         "name": "EGD011B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 45,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD011B.txt"
+        "upperFL": 45
       },
       "geometry": {
         "type": "Polygon",
@@ -1916,8 +1883,7 @@
         "name": "EGD011C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD011C.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -1965,8 +1931,7 @@
         "name": "EGD012",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 180,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD012.txt"
+        "upperFL": 180
       },
       "geometry": {
         "type": "Polygon",
@@ -2018,8 +1983,7 @@
         "name": "EGD013",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD013.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -2067,8 +2031,7 @@
         "name": "EGD014",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 50,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD014.txt"
+        "upperFL": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -2124,8 +2087,7 @@
         "name": "EGD015",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 36,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD015.txt"
+        "upperFL": 36
       },
       "geometry": {
         "type": "Polygon",
@@ -2429,8 +2391,7 @@
         "name": "EGD017",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD017.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -2466,8 +2427,7 @@
         "name": "EGD021",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 150,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD021.txt"
+        "upperFL": 150
       },
       "geometry": {
         "type": "Polygon",
@@ -2523,8 +2483,7 @@
         "name": "EGD023",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD023.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -2560,8 +2519,7 @@
         "name": "EGD026",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 150,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD026.txt"
+        "upperFL": 150
       },
       "geometry": {
         "type": "Polygon",
@@ -2649,8 +2607,7 @@
         "name": "EGD031",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 150,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD031.txt"
+        "upperFL": 150
       },
       "geometry": {
         "type": "Polygon",
@@ -2702,8 +2659,7 @@
         "name": "EGD036",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD036.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -2739,8 +2695,7 @@
         "name": "EGD037",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD037.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -2776,8 +2731,7 @@
         "name": "EGD038",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD038.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -2817,8 +2771,7 @@
         "name": "EGD039",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD039.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -2858,8 +2811,7 @@
         "name": "EGD040",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD040.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -2895,8 +2847,7 @@
         "name": "EGD044",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 40,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD044.txt"
+        "upperFL": 40
       },
       "geometry": {
         "type": "Polygon",
@@ -2944,8 +2895,7 @@
         "name": "EGD061",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 15,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD061.txt"
+        "upperFL": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -3249,8 +3199,7 @@
         "name": "EGD064A",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD064A.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -3302,8 +3251,7 @@
         "name": "EGD064B",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD064B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -3343,8 +3291,7 @@
         "name": "EGD064C",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD064C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -3396,8 +3343,7 @@
         "name": "EGD110",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD110.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -3441,8 +3387,7 @@
         "name": "EGD113A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 400,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD113A.txt"
+        "upperFL": 400
       },
       "geometry": {
         "type": "Polygon",
@@ -3538,8 +3483,7 @@
         "name": "EGD113B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 450,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD113B.txt"
+        "upperFL": 450
       },
       "geometry": {
         "type": "Polygon",
@@ -3623,8 +3567,7 @@
         "name": "EGD115A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 270,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD115A.txt"
+        "upperFL": 270
       },
       "geometry": {
         "type": "Polygon",
@@ -3788,8 +3731,7 @@
         "name": "EGD115B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 500,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD115B.txt"
+        "upperFL": 500
       },
       "geometry": {
         "type": "Polygon",
@@ -3921,8 +3863,7 @@
         "name": "EGD117",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD117.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -3966,8 +3907,7 @@
         "name": "EGD118",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 120,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD118.txt"
+        "upperFL": 120
       },
       "geometry": {
         "type": "Polygon",
@@ -4135,8 +4075,7 @@
         "name": "EGD119",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 50,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD119.txt"
+        "upperFL": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -4440,8 +4379,7 @@
         "name": "EGD120",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 25,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD120.txt"
+        "upperFL": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -4597,8 +4535,7 @@
         "name": "EGD122A",
         "type": "Danger",
         "lowerFL": 80,
-        "upperFL": 160,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD122A.txt"
+        "upperFL": 160
       },
       "geometry": {
         "type": "Polygon",
@@ -4642,8 +4579,7 @@
         "name": "EGD122B",
         "type": "Danger",
         "lowerFL": 80,
-        "upperFL": 160,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD122B.txt"
+        "upperFL": 160
       },
       "geometry": {
         "type": "Polygon",
@@ -4683,8 +4619,7 @@
         "name": "EGD122C",
         "type": "Danger",
         "lowerFL": 80,
-        "upperFL": 160,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD122C.txt"
+        "upperFL": 160
       },
       "geometry": {
         "type": "Polygon",
@@ -4732,8 +4667,7 @@
         "name": "EGD123 (H24)",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD123-H24.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -4789,8 +4723,7 @@
         "name": "EGD123 (Weekdays)",
         "type": "Danger",
         "lowerFL": 30,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD123-Weekdays.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -4846,8 +4779,7 @@
         "name": "EGD124",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD124.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -5151,8 +5083,7 @@
         "name": "EGD125 (H24)",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD125-H24.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -5200,8 +5131,7 @@
         "name": "EGD125 (Weekdays)",
         "type": "Danger",
         "lowerFL": 30,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD125-Weekdays.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -5249,8 +5179,7 @@
         "name": "EGD126",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 14,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD126.txt"
+        "upperFL": 14
       },
       "geometry": {
         "type": "Polygon",
@@ -5330,8 +5259,7 @@
         "name": "EGD127 (Day)",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 120,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD127-Day.txt"
+        "upperFL": 120
       },
       "geometry": {
         "type": "Polygon",
@@ -5379,8 +5307,7 @@
         "name": "EGD127 (Night)",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 80,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD127-Night.txt"
+        "upperFL": 80
       },
       "geometry": {
         "type": "Polygon",
@@ -5428,8 +5355,7 @@
         "name": "EGD128",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 14,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD128.txt"
+        "upperFL": 14
       },
       "geometry": {
         "type": "Polygon",
@@ -5497,8 +5423,7 @@
         "name": "EGD129",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 120,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD129.txt"
+        "upperFL": 120
       },
       "geometry": {
         "type": "Polygon",
@@ -5802,8 +5727,7 @@
         "name": "EGD130",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 18,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD130.txt"
+        "upperFL": 18
       },
       "geometry": {
         "type": "Polygon",
@@ -5839,8 +5763,7 @@
         "name": "EGD132",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 25,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD132.txt"
+        "upperFL": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -5888,8 +5811,7 @@
         "name": "EGD133A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 12,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD133A.txt"
+        "upperFL": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -5933,8 +5855,7 @@
         "name": "EGD133B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 12,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD133B.txt"
+        "upperFL": 12
       },
       "geometry": {
         "type": "Polygon",
@@ -5978,8 +5899,7 @@
         "name": "EGD136",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 130,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD136.txt"
+        "upperFL": 130
       },
       "geometry": {
         "type": "Polygon",
@@ -6011,8 +5931,7 @@
         "name": "EGD138A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD138A.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -6048,8 +5967,7 @@
         "name": "EGD138B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 50,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD138B.txt"
+        "upperFL": 50
       },
       "geometry": {
         "type": "Polygon",
@@ -6085,8 +6003,7 @@
         "name": "EGD138C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD138C.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -6122,8 +6039,7 @@
         "name": "EGD138D",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 130,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD138D.txt"
+        "upperFL": 130
       },
       "geometry": {
         "type": "Polygon",
@@ -6183,8 +6099,7 @@
         "name": "EGD139",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 15,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD139.txt"
+        "upperFL": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -6220,8 +6135,7 @@
         "name": "EGD141",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 32,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD141.txt"
+        "upperFL": 32
       },
       "geometry": {
         "type": "Polygon",
@@ -6261,8 +6175,7 @@
         "name": "EGD147",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD147.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -6566,8 +6479,7 @@
         "name": "EGD201A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 145,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201A.txt"
+        "upperFL": 145
       },
       "geometry": {
         "type": "Polygon",
@@ -6607,8 +6519,7 @@
         "name": "EGD201B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 145,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201B.txt"
+        "upperFL": 145
       },
       "geometry": {
         "type": "Polygon",
@@ -6656,8 +6567,7 @@
         "name": "EGD201C",
         "type": "Danger",
         "lowerFL": 145,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -6689,8 +6599,7 @@
         "name": "EGD201D",
         "type": "Danger",
         "lowerFL": 55,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -6722,8 +6631,7 @@
         "name": "EGD201F",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 145,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201F.txt"
+        "upperFL": 145
       },
       "geometry": {
         "type": "Polygon",
@@ -6767,8 +6675,7 @@
         "name": "EGD201G",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 145,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201G.txt"
+        "upperFL": 145
       },
       "geometry": {
         "type": "Polygon",
@@ -6816,8 +6723,7 @@
         "name": "EGD201H",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201H.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -6869,8 +6775,7 @@
         "name": "EGD201J",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201J.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -6922,8 +6827,7 @@
         "name": "EGD201K",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 145,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD201K.txt"
+        "upperFL": 145
       },
       "geometry": {
         "type": "Polygon",
@@ -6955,8 +6859,7 @@
         "name": "EGD202A",
         "type": "Danger",
         "lowerFL": 60,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD202A.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -6996,8 +6899,7 @@
         "name": "EGD202B",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 225,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD202B.txt"
+        "upperFL": 225
       },
       "geometry": {
         "type": "Polygon",
@@ -7037,8 +6939,7 @@
         "name": "EGD202C",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 225,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD202C.txt"
+        "upperFL": 225
       },
       "geometry": {
         "type": "Polygon",
@@ -7086,8 +6987,7 @@
         "name": "EGD202D",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 125,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD202D.txt"
+        "upperFL": 125
       },
       "geometry": {
         "type": "Polygon",
@@ -7171,8 +7071,7 @@
         "name": "EGD203",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD203.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -7236,8 +7135,7 @@
         "name": "EGD207",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD207.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -7361,8 +7259,7 @@
         "name": "EGD208",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 25,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD208.txt"
+        "upperFL": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -7418,8 +7315,7 @@
         "name": "EGD211",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 24,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD211.txt"
+        "upperFL": 24
       },
       "geometry": {
         "type": "Polygon",
@@ -7723,8 +7619,7 @@
         "name": "EGD213",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 24,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD213.txt"
+        "upperFL": 24
       },
       "geometry": {
         "type": "Polygon",
@@ -8028,8 +7923,7 @@
         "name": "EGD215",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 24,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD215.txt"
+        "upperFL": 24
       },
       "geometry": {
         "type": "Polygon",
@@ -8333,8 +8227,7 @@
         "name": "EGD216",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 23,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD216.txt"
+        "upperFL": 23
       },
       "geometry": {
         "type": "Polygon",
@@ -8638,8 +8531,7 @@
         "name": "EGD217A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217A.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -8751,8 +8643,7 @@
         "name": "EGD217B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217B.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -9056,8 +8947,7 @@
         "name": "EGD217C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217C.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -9221,8 +9111,7 @@
         "name": "EGD217D",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217D.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -9258,8 +9147,7 @@
         "name": "EGD217E",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217E.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -9399,8 +9287,7 @@
         "name": "EGD217F",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217F.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -9500,8 +9387,7 @@
         "name": "EGD217G",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217G.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -9613,8 +9499,7 @@
         "name": "EGD217H",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217H.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -9918,8 +9803,7 @@
         "name": "EGD217I",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217I.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -10083,8 +9967,7 @@
         "name": "EGD217J",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217J.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -10224,8 +10107,7 @@
         "name": "EGD217K",
         "type": "Danger",
         "lowerFL": 20,
-        "upperFL": 60,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD217K.txt"
+        "upperFL": 60
       },
       "geometry": {
         "type": "Polygon",
@@ -10325,8 +10207,7 @@
         "name": "EGD218A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 75,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD218A.txt"
+        "upperFL": 75
       },
       "geometry": {
         "type": "Polygon",
@@ -10366,8 +10247,7 @@
         "name": "EGD218B",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 240,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD218B.txt"
+        "upperFL": 240
       },
       "geometry": {
         "type": "Polygon",
@@ -10407,8 +10287,7 @@
         "name": "EGD218C",
         "type": "Danger",
         "lowerFL": 160,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD218C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -10448,8 +10327,7 @@
         "name": "EGD218D",
         "type": "Danger",
         "lowerFL": 200,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD218D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -10489,8 +10367,7 @@
         "name": "EGD304",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 35,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD304.txt"
+        "upperFL": 35
       },
       "geometry": {
         "type": "Polygon",
@@ -10794,8 +10671,7 @@
         "name": "EGD305",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 15,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD305.txt"
+        "upperFL": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -10835,8 +10711,7 @@
         "name": "EGD307",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 200,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD307.txt"
+        "upperFL": 200
       },
       "geometry": {
         "type": "Polygon",
@@ -11044,8 +10919,7 @@
         "name": "EGD314",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 29,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD314.txt"
+        "upperFL": 29
       },
       "geometry": {
         "type": "Polygon",
@@ -11349,8 +11223,7 @@
         "name": "EGD323A",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323A.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11390,8 +11263,7 @@
         "name": "EGD323B",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11427,8 +11299,7 @@
         "name": "EGD323C",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11464,8 +11335,7 @@
         "name": "EGD323D",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11509,8 +11379,7 @@
         "name": "EGD323E",
         "type": "Danger",
         "lowerFL": 50,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323E.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11550,8 +11419,7 @@
         "name": "EGD323F",
         "type": "Danger",
         "lowerFL": 150,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323F.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11595,8 +11463,7 @@
         "name": "EGD323G",
         "type": "Danger",
         "lowerFL": 150,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323G.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11628,8 +11495,7 @@
         "name": "EGD323H",
         "type": "Danger",
         "lowerFL": 150,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323H.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11665,8 +11531,7 @@
         "name": "EGD323J",
         "type": "Danger",
         "lowerFL": 150,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323J.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11702,8 +11567,7 @@
         "name": "EGD323K",
         "type": "Danger",
         "lowerFL": 150,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323K.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11739,8 +11603,7 @@
         "name": "EGD323L",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323L.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11776,8 +11639,7 @@
         "name": "EGD323M",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323M.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11813,8 +11675,7 @@
         "name": "EGD323N",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323N.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11850,8 +11711,7 @@
         "name": "EGD323P",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323P.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11887,8 +11747,7 @@
         "name": "EGD323Q",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323Q.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11928,8 +11787,7 @@
         "name": "EGD323R",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD323R.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -11961,8 +11819,7 @@
         "name": "EGD324A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 105,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD324A.txt"
+        "upperFL": 105
       },
       "geometry": {
         "type": "Polygon",
@@ -12270,8 +12127,7 @@
         "name": "EGD324B",
         "type": "Danger",
         "lowerFL": 105,
-        "upperFL": 195,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD324B.txt"
+        "upperFL": 195
       },
       "geometry": {
         "type": "Polygon",
@@ -12307,8 +12163,7 @@
         "name": "EGD401",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 32,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD401.txt"
+        "upperFL": 32
       },
       "geometry": {
         "type": "Polygon",
@@ -12352,8 +12207,7 @@
         "name": "EGD402A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD402A.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -12437,8 +12291,7 @@
         "name": "EGD402B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD402B.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -12474,8 +12327,7 @@
         "name": "EGD402C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 40,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD402C.txt"
+        "upperFL": 40
       },
       "geometry": {
         "type": "Polygon",
@@ -12779,8 +12631,7 @@
         "name": "EGD403A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD403A.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -12820,8 +12671,7 @@
         "name": "EGD403B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 350,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD403B.txt"
+        "upperFL": 350
       },
       "geometry": {
         "type": "Polygon",
@@ -12889,8 +12739,7 @@
         "name": "EGD405",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 150,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD405.txt"
+        "upperFL": 150
       },
       "geometry": {
         "type": "Polygon",
@@ -12946,8 +12795,7 @@
         "name": "EGD406A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 500,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD406A.txt"
+        "upperFL": 500
       },
       "geometry": {
         "type": "Polygon",
@@ -13167,8 +13015,7 @@
         "name": "EGD406B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 500,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD406B.txt"
+        "upperFL": 500
       },
       "geometry": {
         "type": "Polygon",
@@ -13248,8 +13095,7 @@
         "name": "EGD406C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 500,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD406C.txt"
+        "upperFL": 500
       },
       "geometry": {
         "type": "Polygon",
@@ -13337,8 +13183,7 @@
         "name": "EGD407",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD407.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -13390,8 +13235,7 @@
         "name": "EGD408",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD408.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -13439,8 +13283,7 @@
         "name": "EGD410",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 10,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD410.txt"
+        "upperFL": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -13744,8 +13587,7 @@
         "name": "EGD412",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD412.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -13785,8 +13627,7 @@
         "name": "EGD442",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD442.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -14090,8 +13931,7 @@
         "name": "EGD505",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 20,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD505.txt"
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
@@ -14135,8 +13975,7 @@
         "name": "EGD508",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 41,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD508.txt"
+        "upperFL": 41
       },
       "geometry": {
         "type": "Polygon",
@@ -14440,8 +14279,7 @@
         "name": "EGD509",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD509.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -14485,8 +14323,7 @@
         "name": "EGD510A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 55,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD510A.txt"
+        "upperFL": 55
       },
       "geometry": {
         "type": "Polygon",
@@ -14522,8 +14359,7 @@
         "name": "EGD510B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 55,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD510B.txt"
+        "upperFL": 55
       },
       "geometry": {
         "type": "Polygon",
@@ -14575,8 +14411,7 @@
         "name": "EGD510C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 55,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD510C.txt"
+        "upperFL": 55
       },
       "geometry": {
         "type": "Polygon",
@@ -15076,8 +14911,7 @@
         "name": "EGD512A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 220,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD512A.txt"
+        "upperFL": 220
       },
       "geometry": {
         "type": "Polygon",
@@ -15117,8 +14951,7 @@
         "name": "EGD512B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 180,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD512B.txt"
+        "upperFL": 180
       },
       "geometry": {
         "type": "Polygon",
@@ -15162,8 +14995,7 @@
         "name": "EGD513A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD513A.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -15199,8 +15031,7 @@
         "name": "EGD513B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 230,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD513B.txt"
+        "upperFL": 230
       },
       "geometry": {
         "type": "Polygon",
@@ -15244,8 +15075,7 @@
         "name": "EGD513C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD513C.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -15285,8 +15115,7 @@
         "name": "EGD514",
         "type": "Danger",
         "lowerFL": 85,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD514.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15386,8 +15215,7 @@
         "name": "EGD601",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 40,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD601.txt"
+        "upperFL": 40
       },
       "geometry": {
         "type": "Polygon",
@@ -15427,8 +15255,7 @@
         "name": "EGD604",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 15,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD604.txt"
+        "upperFL": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -15464,8 +15291,7 @@
         "name": "EGD613A",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD613A.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15501,8 +15327,7 @@
         "name": "EGD613B",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD613B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15534,8 +15359,7 @@
         "name": "EGD613C",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD613C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15567,8 +15391,7 @@
         "name": "EGD613D",
         "type": "Danger",
         "lowerFL": 100,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD613D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15604,8 +15427,7 @@
         "name": "EGD701A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701A.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15749,8 +15571,7 @@
         "name": "EGD701B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15894,8 +15715,7 @@
         "name": "EGD701C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15959,8 +15779,7 @@
         "name": "EGD701D",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -15996,8 +15815,7 @@
         "name": "EGD701E",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701E.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16049,8 +15867,7 @@
         "name": "EGD701F",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701F.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16094,8 +15911,7 @@
         "name": "EGD701G",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701G.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16143,8 +15959,7 @@
         "name": "EGD701H",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701H.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16180,8 +15995,7 @@
         "name": "EGD701I",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701I.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16225,8 +16039,7 @@
         "name": "EGD701J",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701J.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16266,8 +16079,7 @@
         "name": "EGD701K",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701K.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16307,8 +16119,7 @@
         "name": "EGD701L",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701L.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16340,8 +16151,7 @@
         "name": "EGD701M",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701M.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16389,8 +16199,7 @@
         "name": "EGD701N",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701N.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16426,8 +16235,7 @@
         "name": "EGD701O",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701O.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16467,8 +16275,7 @@
         "name": "EGD701P",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701P.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16508,8 +16315,7 @@
         "name": "EGD701Q",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701Q.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16545,8 +16351,7 @@
         "name": "EGD701R",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701R.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16582,8 +16387,7 @@
         "name": "EGD701S",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701S.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16619,8 +16423,7 @@
         "name": "EGD701T",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701T.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16656,8 +16459,7 @@
         "name": "EGD701U",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701U.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16693,8 +16495,7 @@
         "name": "EGD701V",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701V.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16730,8 +16531,7 @@
         "name": "EGD701W",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701W.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16767,8 +16567,7 @@
         "name": "EGD701X",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701X.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16800,8 +16599,7 @@
         "name": "EGD701Y",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD701Y.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -16853,8 +16651,7 @@
         "name": "EGD702",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 21,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD702.txt"
+        "upperFL": 21
       },
       "geometry": {
         "type": "Polygon",
@@ -16894,8 +16691,7 @@
         "name": "EGD703",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 150,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD703.txt"
+        "upperFL": 150
       },
       "geometry": {
         "type": "Polygon",
@@ -16951,8 +16747,7 @@
         "name": "EGD704",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 100,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD704.txt"
+        "upperFL": 100
       },
       "geometry": {
         "type": "Polygon",
@@ -16988,8 +16783,7 @@
         "name": "EGD710",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 15,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD710.txt"
+        "upperFL": 15
       },
       "geometry": {
         "type": "Polygon",
@@ -17041,8 +16835,7 @@
         "name": "EGD712A",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD712A.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17078,8 +16871,7 @@
         "name": "EGD712B",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD712B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17119,8 +16911,7 @@
         "name": "EGD712C",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD712C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17156,8 +16947,7 @@
         "name": "EGD712D",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD712D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17197,8 +16987,7 @@
         "name": "EGD713",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD713.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17246,8 +17035,7 @@
         "name": "EGD801",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD801.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -17283,8 +17071,7 @@
         "name": "EGD802",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD802.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -17340,8 +17127,7 @@
         "name": "EGD803",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 400,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD803.txt"
+        "upperFL": 400
       },
       "geometry": {
         "type": "Polygon",
@@ -17645,8 +17431,7 @@
         "name": "EGD809C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD809C.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -17682,8 +17467,7 @@
         "name": "EGD809N",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD809N.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -17727,8 +17511,7 @@
         "name": "EGD809S",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 550,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD809S.txt"
+        "upperFL": 550
       },
       "geometry": {
         "type": "Polygon",
@@ -17768,8 +17551,7 @@
         "name": "EGD901",
         "type": "Danger",
         "lowerFL": 245,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD901.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -17821,8 +17603,7 @@
         "name": "EGD902A",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 30,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902A.txt"
+        "upperFL": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -17986,8 +17767,7 @@
         "name": "EGD902B",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902B.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18023,8 +17803,7 @@
         "name": "EGD902C",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902C.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18060,8 +17839,7 @@
         "name": "EGD902D",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902D.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18097,8 +17875,7 @@
         "name": "EGD902E",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902E.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18134,8 +17911,7 @@
         "name": "EGD902F",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902F.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18167,8 +17943,7 @@
         "name": "EGD902G",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902G.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18200,8 +17975,7 @@
         "name": "EGD902H",
         "type": "Danger",
         "lowerFL": 0,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Danger/EGD902H.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18233,8 +18007,7 @@
         "name": "EGMTAEAL",
         "type": "MTA",
         "lowerFL": 245,
-        "upperFL": 285,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTAEAL.txt"
+        "upperFL": 285
       },
       "geometry": {
         "type": "Polygon",
@@ -18274,8 +18047,7 @@
         "name": "EGMTAEAU",
         "type": "MTA",
         "lowerFL": 285,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTAEAU.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18315,8 +18087,7 @@
         "name": "EGMTNWNL",
         "type": "MTA",
         "lowerFL": 195,
-        "upperFL": 245,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTNWNL.txt"
+        "upperFL": 245
       },
       "geometry": {
         "type": "Polygon",
@@ -18356,8 +18127,7 @@
         "name": "EGMTNWNU",
         "type": "MTA",
         "lowerFL": 285,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTNWNU.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
@@ -18397,8 +18167,7 @@
         "name": "EGMTNWSL",
         "type": "MTA",
         "lowerFL": 195,
-        "upperFL": 285,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTNWSL.txt"
+        "upperFL": 285
       },
       "geometry": {
         "type": "Polygon",
@@ -18446,8 +18215,7 @@
         "name": "EGMTNWSU",
         "type": "MTA",
         "lowerFL": 285,
-        "upperFL": 660,
-        "sourceFile": ".data/TopSky Shared/Areas/Training/EGMTNWSU.txt"
+        "upperFL": 660
       },
       "geometry": {
         "type": "Polygon",
