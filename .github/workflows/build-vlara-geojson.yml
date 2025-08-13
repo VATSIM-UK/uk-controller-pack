@@ -9,7 +9,7 @@ on:
       - ".github/workflows/build-vlara-geojson.yml"
       - "workflows/V-LARA/topskyareas_to_vlara.py"
       - "workflows/V-LARA/validate_geojson.py"
-      - "workflows/V-LARA/geojson_summary.py"
+      - "workflows/V-LARA/summarise_geojson.py"
   pull_request:
     paths:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
@@ -18,7 +18,7 @@ on:
       - ".github/workflows/build-vlara-geojson.yml"
       - "workflows/V-LARA/topskyareas_to_vlara.py"
       - "workflows/V-LARA/validate_geojson.py"
-      - "workflows/V-LARA/geojson_summary.py"
+      - "workflows/V-LARA/summarise_geojson.py"
   workflow_dispatch: {}
 
 concurrency:
@@ -39,6 +39,8 @@ env:
 jobs:
   build-vlara-GeoJSON:
     runs-on: ubuntu-latest
+    outputs:
+        changed: ${{ steps.changed.outputs.changed }}
     steps:
       - name: 🧰 Checkout
         uses: actions/checkout@v4
@@ -168,3 +170,66 @@ jobs:
         run: |
           set -euo pipefail
           git --no-pager log -1 --stat || true
+
+  submit-vlara-pr:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.build-vlara-GeoJSON == 'true'
+    needs: build-vlara-GeoJSON
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ secrets.LARA_DEPLOY_KEY }}
+      UPSTREAM: ottotuhkunen/virtual-lara-airspace-data
+      FORK: VATSIM-UK/virtual-lara-airspace-data
+      SOURCE_PATH: ${{ env.GEOJSON_OUT }}
+      DEST_PATH: data/egxx.geojson
+      BRANCH: auto/update-egxx-geojson
+    steps:
+      - name: 🧰 Checkout uk-controller-pack
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🔍 Verify GeoJSON exists
+        run: |
+          set -euo pipefail
+          if [ -f "$SOURCE_PATH" ]; then
+            ls -lh "$SOURCE_PATH"
+          else
+          echo "❌ Missing output: $SOURCE_PATH" >&2
+            exit 1
+          fi
+
+      - name: 🌱 Clone VATSIM-UK/virtual-lara-airspace-data fork
+        run: |
+          set -euo pipefail
+          gh repo clone "$FORK" fork -- --depth=1
+          cd fork
+          git remote add upstream "https://github.com/${UPSTREAM}.git"
+          git fetch upstream --depth=1
+          git checkout -B "$BRANCH" "upstream/main"
+          mkdir -p "$(dirname "$DEST_PATH")"
+          cp "../$SOURCE_PATH" "$DEST_PATH"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DEST_PATH"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."; exit 0
+          fi
+          git commit -m "Update EGXX GeoJSON from ${GITHUB_REPOSITORY}"
+          git push -u origin "$BRANCH" --force-with-lease
+
+      - name: 📬 Open or update PR to ottotuhkunen/virtual-lara-airspace-data
+        run: |
+          set -euo pipefail
+          if gh pr view --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" >/dev/null 2>&1; then
+            gh pr comment --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" \
+              --body "Automated update pushed from **${{ github.repository }}** on main."
+          else
+            gh pr create \
+              --repo "$UPSTREAM" \
+              --head "VATSIM-UK:${BRANCH}" \
+              --base "main" \
+              --title "Update EGXX GeoJSON" \
+              --body "Automated update of \`$DEST_PATH\` from **${{ github.repository }}** (main)."
