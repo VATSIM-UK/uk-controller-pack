@@ -110,7 +110,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python "workflows/V-LARA/geojson_summary.py" | tee -a "$GITHUB_STEP_SUMMARY"
+          python "workflows/V-LARA/summarise_geojson.py" | tee -a "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           head -n 50 "$GEOJSON_OUT" >> "$GITHUB_STEP_SUMMARY" || true
