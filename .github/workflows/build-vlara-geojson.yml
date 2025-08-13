@@ -37,7 +37,7 @@ env:
     .data/TopSky Shared/Areas/Training
 
 jobs:
-  build:
+  build-vlara-GeoJSON:
     runs-on: ubuntu-latest
     steps:
       - name: 🧰 Checkout
