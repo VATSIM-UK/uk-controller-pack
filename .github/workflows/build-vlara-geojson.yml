@@ -92,8 +92,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -f "$GEOJSON_OUT" || { echo "❌ Missing output: $GEOJSON_OUT"; exit 1; }
-          ls -lh "$GEOJSON_OUT"
+          if [ -f] "$GEOJSON_OUT" ]; then
+            ls -lh "$GEOJSON_OUT"
+          else
+            echo "❌ Missing output: $GEOJSON_OUT"
+            exit 1
+          fi
 
       - name: ✅ Validate output
         shell: bash
