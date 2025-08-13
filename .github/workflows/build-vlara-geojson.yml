@@ -28,9 +28,9 @@ permissions:
 env:
   GEOJSON_OUT: .data/V-LARA/egxx.geojson
   INPUT_DIRS: |
-    - .data/TopSky Shared/Areas/AARA
-    - .data/TopSky Shared/Areas/Danger
-    - .data/TopSky Shared/Areas/Training
+    .data/TopSky Shared/Areas/AARA
+    .data/TopSky Shared/Areas/Danger
+    .data/TopSky Shared/Areas/Training
   SCRIPT_PATH: "workflows/V-LARA/topskyareas_to_vlara.py"
 
 jobs:
