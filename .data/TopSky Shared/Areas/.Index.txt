@@ -259,6 +259,8 @@ Training/ATA Lakenheath South.txt
 Training/ATA Valley.txt
 Training/ATA Wash North.txt
 Training/ATA Wash South.txt
+Training/ASAC.txt
+Training/RN Nav Training South West Approaches.txt
 Surveillance/Orbit Area 01.txt
 Surveillance/Orbit Area 02.txt
 Surveillance/Orbit Area 03.txt
