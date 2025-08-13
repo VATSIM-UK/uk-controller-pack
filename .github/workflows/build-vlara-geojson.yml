@@ -103,60 +103,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
-          import json, os, sys
-          p = os.environ.get("GEOJSON_OUT", "data/airspace.geojson")
-          try:
-              with open(p, "r", encoding="utf-8") as f:
-                  fc = json.load(f)
-          except Exception as e:
-              print(f"❌ Failed to read JSON {p}: {e}", file=sys.stderr)
-              sys.exit(1)
-
-          if fc.get("type") != "FeatureCollection":
-              print("❌ Not a FeatureCollection", file=sys.stderr); sys.exit(1)
-          feats = fc.get("features", [])
-          if not isinstance(feats, list):
-              print("❌ features is not a list", file=sys.stderr); sys.exit(1)
-
-          bad = 0
-          for i, ft in enumerate(feats):
-              geom = ft.get("geometry", {})
-              if geom.get("type") != "Polygon":
-                  print(f"❌ feature[{i}] geometry not Polygon", file=sys.stderr); bad += 1; continue
-              rings = geom.get("coordinates")
-              if not rings or not isinstance(rings, list) or not rings[0]:
-                  print(f"❌ feature[{i}] has empty coordinates", file=sys.stderr); bad += 1; continue
-              ring = rings[0]
-              if ring[0] != ring[-1]:
-                  print(f"❌ feature[{i}] ring not closed", file=sys.stderr); bad += 1
-
-          if bad:
-              print(f"❌ Validation failed: {bad} issue(s).", file=sys.stderr)
-              sys.exit(1)
-          print(f"✅ Validation OK: {len(feats)} feature(s).")
-          PY
+          python "workflows/V-LARA/validate_geojson.py"
 
       - name: 📝 Summary
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
-          import json, math, os
-          p = os.environ.get("GEOJSON_OUT", "data/airspace.geojson")
-          with open(p, "r", encoding="utf-8") as f:
-            fc = json.load(f)
-          n = len(fc.get("features", []))
-          minx=miny=float("inf"); maxx=maxy=float("-inf")
-          for ft in fc.get("features", []):
-            for x,y in ft["geometry"]["coordinates"][0]:
-              minx=min(minx,x); miny=min(miny,y); maxx=max(maxx,x); maxy=max(maxy,y)
-          print("## Airspace GeoJSON")
-          print(f"- File: `{p}`")
-          print(f"- Features: **{n}**")
-          if math.isfinite(minx):
-            print(f"- BBox: [{minx:.5f}, {miny:.5f}, {maxx:.5f}, {maxy:.5f}]")
-          PY
+          python "workflows/V-LARA/geojson_summary.py" | tee a "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           head -n 50 "$GEOJSON_OUT" >> "$GITHUB_STEP_SUMMARY" || true
