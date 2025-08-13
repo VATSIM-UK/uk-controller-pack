@@ -182,7 +182,7 @@ jobs:
       GH_TOKEN: ${{ secrets.LARA_DEPLOY_KEY }}
       UPSTREAM: ottotuhkunen/virtual-lara-airspace-data
       FORK: VATSIM-UK/virtual-lara-airspace-data
-      SOURCE_PATH: ${{ env.GEOJSON_OUT }}
+      SOURCE_PATH: .data/V-LARA/egxx.geojson
       DEST_PATH: data/egxx.geojson
       BRANCH: auto/update-egxx-geojson
     steps:
