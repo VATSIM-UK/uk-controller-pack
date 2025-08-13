@@ -27,9 +27,10 @@ permissions:
 
 env:
   GEOJSON_OUT: .data/V-LARA/egxx.geojson
-  INPUT_AARA: ".data/TopSky Shared/Areas/AARA"
-  INPUT_DANGER: ".data/TopSky Shared/Areas/Danger"
-  INPUT_TRAINING: ".data/TopSky Shared/Areas/Training"
+  INPUT_DIRS: |
+    - .data/TopSky Shared/Areas/AARA
+    - .data/TopSky Shared/Areas/Danger
+    - .data/TopSky Shared/Areas/Training
   SCRIPT_PATH: "workflows/V-LARA/topskyareas_to_vlara.py"
 
 jobs:
@@ -64,7 +65,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for d in "$INPUT_AARA" "$INPUT_DANGER" "$INPUT_TRAINING"; do
+          while IFS= read -r d; do
+            [ -z "$d" ] && continue
             if [ ! -d "$d" ]; then
               echo "⚠️ Missing directory: $d" >&2
             else
@@ -72,18 +74,19 @@ jobs:
               count=$(find "$d" -type f -name '*.txt' | wc -l || echo 0)
               echo "   └─ $count .txt file(s)"
             fi
-          done
+          done <<< "$INPUT_DIRS"
 
       - name: 🏗️ Build GeoJSON
         shell: bash
         run: |
           set -euo pipefail
-          python "$SCRIPT_PATH" \
-            --input-dir "$INPUT_AARA" \
-            --input-dir "$INPUT_DANGER" \
-            --input-dir "$INPUT_TRAINING" \
-            --output "$GEOJSON_OUT" \
-            --debug
+          args=()
+          while IFS= read -r d; do
+            [ -z "$d" ] && continue
+            args+=( --input-dir "$d" )
+          done <<< "$INPUT_DIRS"
+          python "$SCRIPT_PATH"  "${args[@]}" --output "$GEOJSON_OUT" --debug
+            
 
       - name: 🔍 Check output exists
         shell: bash
