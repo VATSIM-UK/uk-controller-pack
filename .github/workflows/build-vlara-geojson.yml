@@ -14,7 +14,7 @@ on:
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
       - ".github/workflows/build-vlara-geojson.yml"
-      - "topskyareas_to_vlara.py"
+      - "workflows/V-LARA/topskyareas_to_vlara.py"
   workflow_dispatch: {}
 
 # one-at-a-time per ref to avoid push races
