@@ -255,4 +255,5 @@ Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
 Training/ASAC.txt
+Training/RN Nav Training South West Approaches.txt
 Other/Kirknewton.txt
