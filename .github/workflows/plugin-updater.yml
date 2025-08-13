@@ -59,8 +59,8 @@ jobs:
             fi
 
             if [[ -z "$latest_tag" ]]; then
-              latest_tag="$(curl -s "https://api.github.com/repos/$repo/tags" \
-                | jq -r '.[0].name // empty')"
+              latest_tag=$(curl -s "https://api.github.com/repos/$repo/tags" \
+                | jq -r 'if type=="array" and length>0 then .[0].name else empty end')
             fi
 
             if [[ -z "$latest_tag" ]]; then
@@ -77,7 +77,8 @@ jobs:
                 --state open \
                 --label dependencies \
                 --search "\"$repo\" \"$latest_tag\"" \
-                --json number --jq '.[0].number' 2>/dev/null || true)"
+                --json number 2>/dev/null \
+                   | jq -r 'if type=="array" and length>0 then .[0].number else empty end' || true)"
 
               if [[ -n "$existing_number" ]]; then
                 echo "Open issue #$existing_number already exists for $repo $latest_tag; skipping create"
