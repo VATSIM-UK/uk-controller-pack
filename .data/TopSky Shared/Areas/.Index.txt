@@ -266,4 +266,24 @@ Surveillance/Orbit Area 10.txt
 Surveillance/Orbit Area 11.txt
 Surveillance/Orbit Area 12.txt
 Surveillance/Orbit Area 13.txt
+Surveillance/Operating Area A1.txt
+Surveillance/Operating Area A2.txt
+Surveillance/Operating Area B1.txt
+Surveillance/Operating Area B2.txt
+Surveillance/Operating Area B3.txt
+Surveillance/Operating Area B4.txt
+Surveillance/Operating Area C1.txt
+Surveillance/Operating Area C2.txt
+Surveillance/Operating Area D1.txt
+Surveillance/Operating Area E1.txt
+Surveillance/Operating Area E2.txt
+Surveillance/Operating Area F1.txt
+Surveillance/Operating Area G1.txt
+Surveillance/Operating Area H1.txt
+Surveillance/Operating Area I1.txt
+Surveillance/Operating Area J1.txt
+Surveillance/Operating Area J2.txt
+Surveillance/Operating Area J3.txt
+Surveillance/Operating Area K1.txt
+Surveillance/Operating Area K2.txt
 Other/Kirknewton.txt
