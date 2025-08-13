@@ -1,4 +1,4 @@
-﻿name: Build V-LARA GeoJSON
+name: Build V-LARA GeoJSON
 
 on:
   push:
