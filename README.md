@@ -25,7 +25,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [vSMR Plugin](https://github.com/VATSIM-UK/vSMR) - thanks to [@Pierr3](https://github.com/pierr3) & VATSIM UK
 
-[RDF Plugin](https://github.com/chembergj/RDF) - thanks to [@chemberj](https://github.com/chembergj)
+[RDF Plugin](https://github.com/KingfuChan/RDF) - thanks to [@KingfuChan](https://github.com/KingfuChan)
 
 [TopSky Plugin](https://forum.vatsim-scandinavia.org/t/topsky) - thanks to Juha Holopainen
 
