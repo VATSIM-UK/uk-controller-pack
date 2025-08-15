@@ -31,8 +31,6 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [MAESTRO Plugin](https://forum.vatsim-scandinavia.org/t/MAESTRO) - thanks to Juha Holopainen
 
-[AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
-
 [Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [@VATSIMCanada](https://github.com/VATSIMCanada)
 
 [CDM Plugin](https://github.com/rpuig2001/CDM) - thanks to [@rpuig2001](https://github.com/rpuig2001)
