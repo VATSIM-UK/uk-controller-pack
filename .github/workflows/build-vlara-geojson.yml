@@ -172,7 +172,10 @@ jobs:
           git --no-pager log -1 --stat || true
 
   submit-vlara-pr:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && needs.build-vlara-GeoJSON == 'true'
+    if: >
+        github.event_name == 'push' &&
+        github.ref == 'refs/heads/main' &&
+        needs.build-vlara-GeoJSON.outputs.changed == 'true'
     needs: build-vlara-GeoJSON
     runs-on: ubuntu-latest
     permissions:
