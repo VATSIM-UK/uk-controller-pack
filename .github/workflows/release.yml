@@ -1,4 +1,4 @@
-﻿name: Build & Deploy UK Controller Pack
+﻿name: 📦 Build & Deploy UK Controller Pack
 
 on:
   release:

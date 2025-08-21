@@ -2,6 +2,7 @@ x. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & 
 
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+X. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)

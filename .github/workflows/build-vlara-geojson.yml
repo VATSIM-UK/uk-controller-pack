@@ -1,1 +1,238 @@
+name: 🌍 Build V-LARA GeoJSON
 
+on:
+  push:
+    paths:
+      - ".data/TopSky Shared/Areas/AARA/**/*.txt"
+      - ".data/TopSky Shared/Areas/Danger/**/*.txt"
+      - ".data/TopSky Shared/Areas/Training/**/*.txt"
+      - ".github/workflows/build-vlara-geojson.yml"
+      - "workflows/V-LARA/topskyareas_to_vlara.py"
+      - "workflows/V-LARA/validate_geojson.py"
+      - "workflows/V-LARA/summarise_geojson.py"
+  pull_request:
+    paths:
+      - ".data/TopSky Shared/Areas/AARA/**/*.txt"
+      - ".data/TopSky Shared/Areas/Danger/**/*.txt"
+      - ".data/TopSky Shared/Areas/Training/**/*.txt"
+      - ".github/workflows/build-vlara-geojson.yml"
+      - "workflows/V-LARA/topskyareas_to_vlara.py"
+      - "workflows/V-LARA/validate_geojson.py"
+      - "workflows/V-LARA/summarise_geojson.py"
+  workflow_dispatch: {}
+
+concurrency:
+  group: geojson-build-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  GEOJSON_OUT: .data/V-LARA/egxx.geojson
+  SCRIPT_PATH: "workflows/V-LARA/topskyareas_to_vlara.py"
+  INPUT_DIRS: |
+    .data/TopSky Shared/Areas/AARA
+    .data/TopSky Shared/Areas/Danger
+    .data/TopSky Shared/Areas/Training
+
+jobs:
+  build-vlara-GeoJSON:
+    runs-on: ubuntu-latest
+    outputs:
+        changed: ${{ steps.changed.outputs.changed }}
+    steps:
+      - name: 🧰 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 🔎 Workspace sanity check
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Workspace: $GITHUB_WORKSPACE"
+          ls -la
+          if [ ! -f "$SCRIPT_PATH" ]; then
+            echo "❌ Script not found at: $SCRIPT_PATH" >&2
+            exit 1
+          fi
+          echo "✅ Found script: $SCRIPT_PATH"
+
+      - name: 🧪 Pre-flight (input dirs)
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r d; do
+            [ -z "$d" ] && continue
+            if [ ! -d "$d" ]; then
+              echo "⚠️ Missing directory: $d" >&2
+            else
+              echo "✅ Found: $d"
+              count=$(find "$d" -type f -name '*.txt' | wc -l || echo 0)
+              echo "   └─ $count .txt file(s)"
+            fi
+          done <<< "$INPUT_DIRS"
+
+      - name: 🏗️ Build GeoJSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=()
+          while IFS= read -r d; do
+            [ -z "$d" ] && continue
+            args+=( --input-dir "$d" )
+          done <<< "$INPUT_DIRS"
+          python "$SCRIPT_PATH" "${args[@]}" --output "$GEOJSON_OUT" --debug
+
+      - name: 🔍 Check output exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f "$GEOJSON_OUT" ]; then
+            ls -lh "$GEOJSON_OUT"
+          else
+            echo "❌ Missing output: $GEOJSON_OUT"
+            exit 1
+          fi
+
+      - name: ✅ Validate output
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "workflows/V-LARA/validate_geojson.py"
+
+      - name: 📝 Summary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "workflows/V-LARA/summarise_geojson.py" | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          head -n 50 "$GEOJSON_OUT" >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: 📦 Upload artifact (PRs only)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: airspace-geojson
+          path: ${{ env.GEOJSON_OUT }}
+          if-no-files-found: error
+
+      - name: 🔎 Detect change (push only)
+        if: github.event_name == 'push'
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -N "$GEOJSON_OUT" || true
+          if git diff --quiet -- "$GEOJSON_OUT"; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected."
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected."
+          fi
+
+      - name: ⬆️ Commit & push (safe, rebase+retry)
+        if: github.event_name == 'push' && steps.changed.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$GEOJSON_OUT"
+          git commit -m "chore(geojson): rebuild combined V-LARA GeoJSON" || exit 0
+          BRANCH="${GITHUB_REF_NAME}"
+          for attempt in 1 2 3; do
+            echo "Attempt $attempt: rebase & push…"
+            git pull --rebase origin "$BRANCH" || true
+            if git push origin "HEAD:$BRANCH"; then
+              echo "✅ Push succeeded."
+              exit 0
+            fi
+            echo "⚠️ Push failed. Retrying in 3s…"
+            sleep 3
+          done
+          echo "❌ Push failed after retries."
+          exit 1
+
+      - name: 🧾 Last commit (debug)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git --no-pager log -1 --stat || true
+
+  submit-vlara-pr:
+    if: >
+        github.event_name == 'push' &&
+        github.ref == 'refs/heads/main' &&
+        needs.build-vlara-GeoJSON.outputs.changed == 'true'
+    needs: build-vlara-GeoJSON
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ secrets.LARA_DEPLOY_KEY }}
+      UPSTREAM: ottotuhkunen/virtual-lara-airspace-data
+      FORK: VATSIM-UK/virtual-lara-airspace-data
+      SOURCE_PATH: .data/V-LARA/egxx.geojson
+      DEST_PATH: data/egxx.geojson
+      BRANCH: auto/update-egxx-geojson
+    steps:
+      - name: 🧰 Checkout uk-controller-pack
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🔍 Verify GeoJSON exists
+        run: |
+          set -euo pipefail
+          if [ -f "$SOURCE_PATH" ]; then
+            ls -lh "$SOURCE_PATH"
+          else
+          echo "❌ Missing output: $SOURCE_PATH" >&2
+            exit 1
+          fi
+
+      - name: 🌱 Clone VATSIM-UK/virtual-lara-airspace-data fork
+        run: |
+          set -euo pipefail
+          gh repo clone "$FORK" fork -- --depth=1
+          cd fork
+          git remote add upstream "https://github.com/${UPSTREAM}.git"
+          git fetch upstream --depth=1
+          git checkout -B "$BRANCH" "upstream/main"
+          mkdir -p "$(dirname "$DEST_PATH")"
+          cp "../$SOURCE_PATH" "$DEST_PATH"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$DEST_PATH"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."; exit 0
+          fi
+          git commit -m "Update EGXX GeoJSON from ${GITHUB_REPOSITORY}"
+          git push -u origin "$BRANCH" --force-with-lease
+
+      - name: 📬 Open or update PR to ottotuhkunen/virtual-lara-airspace-data
+        run: |
+          set -euo pipefail
+          if gh pr view --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" >/dev/null 2>&1; then
+            gh pr comment --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" \
+              --body "Automated update pushed from **${{ github.repository }}** on main."
+          else
+            gh pr create \
+              --repo "$UPSTREAM" \
+              --head "VATSIM-UK:${BRANCH}" \
+              --base "main" \
+              --title "Update EGXX GeoJSON" \
+              --body "Automated update of \`$DEST_PATH\` from **${{ github.repository }}** (main)."
