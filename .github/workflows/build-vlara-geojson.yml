@@ -265,3 +265,4 @@ jobs:
               --base "main" \
               --title "Update EGXX GeoJSON" \
               --body "Automated update of \`$DEST_PATH\` from **${{ github.repository }}** (main)."
+          fi
