@@ -11,42 +11,42 @@
     "label": "RDF",
     "message": "1.4.2",
     "color": "blue",
-    "repo": "VATSIM-UK/RDF"
+    "repo": "KingfuChan/RDF"
   },
   "Slots-Plugin": {
     "schemaVersion": 1,
     "label": "Slots-Plugin",
     "message": "1.10",
     "color": "blue",
-    "repo": "VATSIM-UK/Slots-Plugin"
+    "repo": "VATSIMCanada/Slots-Plugin"
   },
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
     "message": "2.2.8.0",
     "color": "blue",
-    "repo": "VATSIM-UK/CDM"
+    "repo": "rpuig2001/CDM"
   },
   "VCH": {
     "schemaVersion": 1,
     "label": "VCH",
     "message": "0.8.6",
     "color": "blue",
-    "repo": "VATSIM-UK/VCH"
+    "repo": "DrFreas/VCH"
   },
   "EuroScope-CCDS-R": {
     "schemaVersion": 1,
     "label": "CCDS-R",
     "message": "1.1",
     "color": "blue",
-    "repo": "VATSIM-UK/EuroScope-CCDS-R"
+    "repo": "quassbutreally/EuroScope-CCDS-R"
   },
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
     "message": "3.6.4",
     "color": "blue",
-    "repo": "VATSIM-UK/VFPC"
+    "repo": "VFPC/VFPC"
   },
   "DiscordEuroscope": {
     "schemaVersion": 1,
