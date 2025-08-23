@@ -250,7 +250,19 @@ jobs:
             echo "No changes to commit."; exit 0
           fi
           git commit -m "Update EGXX GeoJSON from ${GITHUB_REPOSITORY}"
-          git push -u origin "$BRANCH" --force-with-lease
+          if git ls-remote --exit-code origin "refs/heads/${BRANCH}" >/dev/null 2>&1; then
+            git fetch origin "${BRANCH}" --depth=1 || true
+            git rebase "origin/${BRANCH}" || true
+          fi
+          for attempt in 1 2 3; do
+            if git push -u origin "$BRANCH" --force-with-lease; then
+              echo "✅ Push succeeded."; break
+            fi
+            echo "⚠️ Push failed (possibly newer remote). Refetching and retrying…"
+            git fetch origin "${BRANCH}" --depth=1 || true
+            git rebase "origin/${BRANCH}" || true
+            sleep 3
+          done
 
       - name: 📬 Open or update PR to ottotuhkunen/virtual-lara-airspace-data
         run: |
