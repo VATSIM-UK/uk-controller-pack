@@ -41,6 +41,9 @@ env:
   INPUT_DIRS: |
     .data/TopSky Shared/Areas/AARA
     .data/TopSky Shared/Areas/Danger
+    .data/TopSky Shared/Areas/Other
+    .data/TopSky Shared/Areas/Surveillance
+    .data/TopSky Shared/Areas/TRA
     .data/TopSky Shared/Areas/Training
 
 jobs:
