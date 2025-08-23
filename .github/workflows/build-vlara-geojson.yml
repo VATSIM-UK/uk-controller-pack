@@ -33,6 +33,7 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
 
 env:
   GEOJSON_OUT: .data/V-LARA/egxx.geojson
@@ -236,6 +237,7 @@ jobs:
           fi
           git fetch upstream --depth=1
           git checkout -B "$BRANCH" "upstream/main"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${FORK}.git"
       
           mkdir -p "$(dirname "$DEST_PATH")"
           cp "../$SOURCE_PATH" "$DEST_PATH"
