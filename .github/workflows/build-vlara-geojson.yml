@@ -41,6 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
         changed: ${{ steps.changed.outputs.changed }}
+        touched: ${{ steps.changed.outputs.touched }}
     steps:
       - name: 🧰 Checkout
         uses: actions/checkout@v4
@@ -141,6 +142,22 @@ jobs:
             echo "Changes detected."
           fi
 
+      - name: 📝 Was GeoJSON touched in this push? (push only)
+        if: github.event_name == 'push'
+        id: touched
+        shell: bash
+        run: |
+          set -euo pipefail
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          if git diff --name-only "$BEFORE" "$AFTER" | grep -Fx -- "$GEOJSON_OUT" >/dev/null 2>&1; then
+            echo "touched=true" >> "$GITHUB_OUTPUT"
+            echo "GeoJSON was touched in this push."
+          else
+            echo "touched=false" >> "$GITHUB_OUTPUT"
+            echo "GeoJSON not touched in this push."
+          fi
+
       - name: ⬆️ Commit & push (safe, rebase+retry)
         if: github.event_name == 'push' && steps.changed.outputs.changed == 'true'
         shell: bash
@@ -175,7 +192,10 @@ jobs:
     if: >
         github.event_name == 'push' &&
         github.ref == 'refs/heads/main' &&
-        needs.build-vlara-GeoJSON.outputs.changed == 'true'
+        (
+         needs.build-vlara-GeoJSON.outputs.changed == 'true' ||
+         needs.build-vlara-GeoJSON.outputs.touched == 'true'
+        )
     needs: build-vlara-GeoJSON
     runs-on: ubuntu-latest
     permissions:
