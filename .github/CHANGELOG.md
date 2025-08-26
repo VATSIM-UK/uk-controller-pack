@@ -1,3 +1,6 @@
+# Changes from release 2025/09 to 2025/10
+1. AIRAC (2510) - Added Shawbury (EGOS) ATIS - thanks to @clc0609 (Coby Chapman)
+
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
 2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
