@@ -62,8 +62,15 @@ jobs:
       - name: Commit executable
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
-          git config --local user.name "VATSIM UK"
+          git config --local user.name  "VATSIM UK"
+
           git add UK/Controller-Pack-Updater.exe
-          git diff --staged --quiet && echo "No changes to commit" && exit 0
+
+          git diff --staged --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No changes to commit"
+            exit 0
+          }
+
           git commit -m "Update Controller-Pack-Updater.exe"
           git push
