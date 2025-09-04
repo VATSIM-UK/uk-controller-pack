@@ -1,5 +1,4 @@
 import os
-from PyInstaller.utils.hooks import collect_data_files
 from PyInstaller.building.datastruct import Tree
 
 block_cipher = None
@@ -9,22 +8,20 @@ try:
 except NameError:
     SPEC_DIR = os.getcwd()
 
-PROJECT_ROOT = SPEC_DIR
-
 def R(*parts):
-    return os.path.join(PROJECT_ROOT, *parts)
+    return os.path.join(SPEC_DIR, *parts)
 
 datas = [
-    (R('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater'),
+    (R('azure.tcl'), 'workflows/build-updater'),
 ]
 
-theme_src = R('workflows', 'build-updater', 'theme')
+theme_src = R('theme')
 if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
 
 a = Analysis(
-    ['Updater.py'],
-    pathex=[project_root],
+    [R('Updater.py')],
+    pathex=[SPEC_DIR],
     binaries=[],
     datas=datas,
     hiddenimports=[],
@@ -51,9 +48,9 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=False,  # change to True if UPX is installed
+    upx=False,
     console=False,
-    icon=R('workflows', 'build-updater', 'logo.ico')
+    icon=R('logo.ico'),
 )
 
 coll = COLLECT(
@@ -64,5 +61,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     upx_exclude=[],
-    name='Updater'
+    name='Updater',
 )
