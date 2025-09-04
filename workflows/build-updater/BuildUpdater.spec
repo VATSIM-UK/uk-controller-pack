@@ -8,21 +8,26 @@ try:
 except NameError:
     SPEC_DIR = os.getcwd()
 
-def R(*parts):
-    return os.path.join(SPEC_DIR, *parts)
+if os.path.isdir(os.path.join(SPEC_DIR, 'workflows', 'build-updater')):
+    REPO_ROOT = SPEC_DIR
+else:
+    REPO_ROOT = os.path.dirname(SPEC_DIR)
 
-SCRIPT = R('Updater.py')
+def RR(*parts):
+    return os.path.join(REPO_ROOT, *parts)
+
+SCRIPT = RR('workflows', 'build-updater', 'Updater.py')
 if not os.path.isfile(SCRIPT):
-    raise SystemExit(f"[spec] Updater.py not found next to spec: {SCRIPT}")
+    raise SystemExit(f"[spec] Updater.py missing: {SCRIPT}")
 
-datas = [(R('azure.tcl'), 'workflows/build-updater')]
-theme_src = R('theme')
+datas = [(RR('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater')]
+theme_src = RR('workflows', 'build-updater', 'theme')
 if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
 
 a = Analysis(
     [SCRIPT],
-    pathex=[SPEC_DIR],
+    pathex=[os.path.dirname(SCRIPT)],
     binaries=[],
     datas=datas,
     hiddenimports=[],
@@ -46,7 +51,7 @@ exe = EXE(
     strip=False,
     upx=False,
     console=False,
-    icon=R('logo.ico'),
+    icon=RR('workflows', 'build-updater', 'logo.ico'),
 )
 
 coll = COLLECT(
