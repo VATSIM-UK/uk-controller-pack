@@ -277,6 +277,8 @@ Free Text:SCT2\416:freetext
 Free Text:SCT2\417:freetext
 Free Text:SCT2\419:freetext
 Free Text:SCT2\41C:freetext
+Free Text:SCT2\41L:freetext
+Free Text:SCT2\41R:freetext
 Free Text:SCT2\42:freetext
 Free Text:SCT2\420:freetext
 Free Text:SCT2\421:freetext
@@ -286,6 +288,8 @@ Free Text:SCT2\424:freetext
 Free Text:SCT2\425:freetext
 Free Text:SCT2\429:freetext
 Free Text:SCT2\42C:freetext
+Free Text:SCT2\42L:freetext
+Free Text:SCT2\42R:freetext
 Free Text:SCT2\43:freetext
 Free Text:SCT2\430:freetext
 Free Text:SCT2\431:freetext
@@ -369,6 +373,8 @@ Free Text:SCT2\547:freetext
 Free Text:SCT2\548:freetext
 Free Text:SCT2\54A:freetext
 Free Text:SCT2\54C:freetext
+Free Text:SCT2\54L:freetext
+Free Text:SCT2\54R:freetext
 Free Text:SCT2\55:freetext
 Free Text:SCT2\551:freetext
 Free Text:SCT2\552:freetext
@@ -394,6 +400,8 @@ Free Text:SCT2\567:freetext
 Free Text:SCT2\568:freetext
 Free Text:SCT2\569:freetext
 Free Text:SCT2\56C:freetext
+Free Text:SCT2\56L:freetext
+Free Text:SCT2\56R:freetext
 Free Text:SCT2\57:freetext
 Free Text:SCT2\570:freetext
 Free Text:SCT2\571:freetext
@@ -403,6 +411,8 @@ Free Text:SCT2\574:freetext
 Free Text:SCT2\575:freetext
 Free Text:SCT2\576:freetext
 Free Text:SCT2\57C:freetext
+Free Text:SCT2\57L:freetext
+Free Text:SCT2\57R:freetext
 Free Text:SCT2\58:freetext
 Free Text:SCT2\581:freetext
 Free Text:SCT2\582:freetext
@@ -496,8 +506,8 @@ Free Text:SCT2\85L:freetext
 Free Text:SCT2\85R:freetext
 Free Text:SCT2\86:freetext
 Free Text:SCT2\86C:freetext
-Free Text:SCT2\8C:freetext
-Free Text:SCT2\8L:freetext
+Free Text:SCT2\86L:freetext
+Free Text:SCT2\86R:freetext
 Free Text:SCT2\8R:freetext
 Free Text:SCT2\9:freetext
 Free Text:SCT2\90:freetext
@@ -551,9 +561,11 @@ Free Text:SCT2\A9W:freetext
 Free Text:SCT2\AB11:freetext
 Free Text:SCT2\AB12:freetext
 Free Text:SCT2\AB13:freetext
+Free Text:SCT2\ACS Aviation:freetext
 Free Text:SCT2\AE2:freetext
 Free Text:SCT2\AF1:freetext
 Free Text:SCT2\AG1:freetext
+Free Text:SCT2\Air Service Training:freetext
 Free Text:SCT2\Aircraft Parking:freetext
 Free Text:SCT2\AL1:freetext
 Free Text:SCT2\AL2:freetext
@@ -862,6 +874,8 @@ Free Text:SCT2\S7:freetext
 Free Text:SCT2\SAR:freetext
 Free Text:SCT2\SATUN:freetext
 Free Text:SCT2\SB3:freetext
+Free Text:SCT2\SCAA:freetext
+Free Text:SCT2\Scottish Aero Club:freetext
 Free Text:SCT2\SE:freetext
 Free Text:SCT2\SNAPA:freetext
 Free Text:SCT2\South Apron:freetext

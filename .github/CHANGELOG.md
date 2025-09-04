@@ -1,4 +1,11 @@
-﻿X. Enhancement - Creation of a EXE to update the Controller Pack - thanks to @cpawley (Chris Pawley)
+# Changes from release 2025/08 to 2025/09
+1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & South West Approaches MTAs as TopSky areas - thanks to @Liaely (Lily Unitt)
+4. Enhancement - IRL NOTAM area activations removed - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updated CDM to v2.8.8.15 - thanks to @Liaely (Lily Unitt)
+6. AIRAC (2509) - Added Shawbury (EGOS) ATIS - thanks to @clc0609 (Coby Chapman)
+7. Enhancement - Creation of a EXE to update the Controller Pack - thanks to @cpawley (Chris Pawley)
 
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
@@ -9,6 +16,11 @@
 6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
 7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
 8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
+10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
+12. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
+13. Enhancement - Added Western Radar to Voice.txt - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)

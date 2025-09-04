@@ -1,4 +1,4 @@
-﻿name: Build & Deploy UK Controller Pack
+﻿name: 📦 Build & Deploy UK Controller Pack
 
 on:
   release:
@@ -229,8 +229,8 @@ jobs:
 
       - name: 🗓 Get AIRAC
         run: |
-          echo "AIRAC_DATE=$(echo ${GITHUB_REF#refs/*/} | sed 's/\//_/g')" >> $GITHUB_ENV
-          echo "AIRAC_SHORT=$(echo ${GITHUB_REF#refs/*/} | sed 's/\//_/g' | sed -E 's/20([0-9]{2})_([0-9]{2}[a-zA-Z]*)/\1\2/')" >> $GITHUB_ENV
+          echo "AIRAC_DATE=${{ steps.get_release_tag.outputs.tag }}" >> $GITHUB_ENV
+          echo "AIRAC_SHORT=$(echo "${{ steps.get_release_tag.outputs.tag }}" | sed -E 's/^20([0-9]{2})_([0-9]{2}[A-Za-z]*)/\1\2/')" >> $GITHUB_ENV
 
       - name: 🗂 Setup Git
         run: |
@@ -249,7 +249,7 @@ jobs:
           ssh-add -l || echo "❌ No SSH keys loaded"
 
           echo "🐞 Testing SSH connection to GitHub"
-          ssh -T git@github.com || echo "❌ SSH auth to GitHub failed!"
+          ssh -T git@github.com || true
 
           echo "📥 Cloning Docs Website"
           git clone git@github.com:VATSIM-UK/atc-documentation.git atc-documentation || {
@@ -262,7 +262,7 @@ jobs:
           LINK_FILE="docs/General/Software Downloads/Controller Pack & Sector File.md"
           sed -i '/^## Controller Pack Downloads/c\## Controller Pack Downloads - AIRAC '"${AIRAC_SHORT}"'' "$LINK_FILE"
           sed -i '/^- \[:link: UK Controller Pack\]/c\- [:link: UK Controller Pack](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.get_release_tag.outputs.tag }}/uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip) - Latest version including all files' "$LINK_FILE"
-          sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](Files/changes_only_${{ steps.tags.outputs.latest_tag }}.zip) - Download only the latest changes' "$LINK_FILE"
+          sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.tags.outputs.latest_tag }}/chnages_only_${{ steps.get_release_tag.outputs.tag }}.zip) - Download only the latest changes' "$LINK_FILE"
 
       - name: 📂 [DOCS] Upload Pack Version File
         run: |
@@ -279,6 +279,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts    
 
           cd atc-documentation
+          git switch -c uk-controller-pack || git switch uk-controller-pack
           git add .
           git commit -m "Upload Controller Pack ${AIRAC_DATE}"
           git push origin uk-controller-pack

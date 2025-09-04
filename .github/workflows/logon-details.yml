@@ -1,4 +1,4 @@
-name: Compile LogonDetails.exe
+﻿name: ⚙️ Compile LogonDetails.exe
 
 on:
   push:
