@@ -49,6 +49,14 @@ Danger/EGD061.txt
 Danger/EGD064A.txt
 Danger/EGD064B.txt
 Danger/EGD064C.txt
+Danger/EGD098A.txt
+Danger/EGD098B.txt
+Danger/EGD098C.txt
+Danger/EGD098D.txt
+Danger/EGD098E.txt
+Danger/EGD098F.txt
+Danger/EGD098G.txt
+Danger/EGD098H.txt
 Danger/EGD110.txt
 Danger/EGD113A.txt
 Danger/EGD113B.txt
