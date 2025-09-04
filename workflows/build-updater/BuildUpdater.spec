@@ -11,10 +11,7 @@ except NameError:
 def R(*parts):
     return os.path.join(SPEC_DIR, *parts)
 
-datas = [
-    (R('azure.tcl'), 'workflows/build-updater'),
-]
-
+datas = [(R('azure.tcl'), 'workflows/build-updater')]
 theme_src = R('theme')
 if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
@@ -38,12 +35,7 @@ a = Analysis(
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 
 exe = EXE(
-    pyz,
-    a.scripts,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
-    [],
+    pyz, a.scripts, a.binaries, a.zipfiles, a.datas, [],
     name='Updater',
     debug=False,
     bootloader_ignore_signals=False,
@@ -54,12 +46,7 @@ exe = EXE(
 )
 
 coll = COLLECT(
-    exe,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
-    strip=False,
-    upx=False,
-    upx_exclude=[],
+    exe, a.binaries, a.zipfiles, a.datas,
+    strip=False, upx=False, upx_exclude=[],
     name='Updater',
 )
