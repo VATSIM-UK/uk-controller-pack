@@ -20,7 +20,7 @@ if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
 
 a = Analysis(
-    [R('Updater.py')],
+    [os.path.join(SPEC_DIR, 'Updater.py')],
     pathex=[SPEC_DIR],
     binaries=[],
     datas=datas,
