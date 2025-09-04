@@ -6,6 +6,7 @@
 2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & South West Approaches MTAs as TopSky areas - thanks to @Liaely (Lily Unitt)
 4. Enhancement - IRL NOTAM area activations removed - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updated CDM to v2.8.8.15 - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
