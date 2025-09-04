@@ -52,9 +52,3 @@ exe = EXE(
     console=False,
     icon=RR('workflows', 'build-updater', 'logo.ico'),
 )
-
-coll = COLLECT(
-    exe, a.binaries, a.zipfiles, a.datas,
-    strip=False, upx=False, upx_exclude=[],
-    name='Updater',
-)

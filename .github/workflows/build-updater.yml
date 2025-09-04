@@ -64,7 +64,7 @@ jobs:
           git config --local user.email "privileged-access@vatsim.uk"
           git config --local user.name  "VATSIM UK"
 
-          git add UK/Controller-Pack-Updater.exe
+          git add UK/Updater.exe
 
           git diff --staged --quiet
           if ($LASTEXITCODE -eq 0) {
@@ -72,5 +72,5 @@ jobs:
             exit 0
           }
 
-          git commit -m "Update Controller-Pack-Updater.exe"
+          git commit -m "Update Updater.exe"
           git push
