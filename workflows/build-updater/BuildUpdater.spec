@@ -4,13 +4,21 @@ from PyInstaller.building.datastruct import Tree
 
 block_cipher = None
 
-project_root = os.path.dirname(os.path.abspath(__file__))
+try:
+    SPEC_DIR = os.path.dirname(os.path.abspath(__file__))
+except NameError:
+    SPEC_DIR = os.getcwd()
+
+PROJECT_ROOT = SPEC_DIR
+
+def R(*parts):
+    return os.path.join(PROJECT_ROOT, *parts)
 
 datas = [
-    ('workflows/build-updater/azure.tcl', 'workflows/build-updater'),
+    (R('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater'),
 ]
 
-theme_src = os.path.join(project_root, 'workflows', 'build-updater', 'theme')
+theme_src = R('workflows', 'build-updater', 'theme')
 if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
 
@@ -45,7 +53,7 @@ exe = EXE(
     strip=False,
     upx=False,  # change to True if UPX is installed
     console=False,
-    icon='logo.ico'  # remove or change if no icon
+    icon=R('workflows', 'build-updater', 'logo.ico')
 )
 
 coll = COLLECT(
