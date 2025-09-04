@@ -27,12 +27,11 @@ def resource_path(rel):
 
 def use_azure_theme(root, mode='dark'):
     try:
-        root.tk.call('source', resource_path('azure/azure.tcl'))
+        root.tk.call('source', resource_path('workflows/build-updater/azure.tcl'))
         style = ttk.Style(root)
         style.theme_use('azure')
-        root.tk.call('set_theme', mode)  # 'dark' or 'light'
+        root.tk.call('set_theme', mode)
     except Exception:
-        # If theme assets are missing, fail gracefully
         pass
 
 def normalize_version(vstr):
