@@ -1,5 +1,4 @@
 import os
-from PyInstaller.building.datastruct import Tree
 
 block_cipher = None
 
@@ -23,7 +22,7 @@ if not os.path.isfile(SCRIPT):
 datas = [(RR('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater')]
 theme_src = RR('workflows', 'build-updater', 'theme')
 if os.path.isdir(theme_src):
-    datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
+    datas.append((theme_src, 'workflows/build-updater/theme'))
 
 a = Analysis(
     [SCRIPT],
