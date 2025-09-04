@@ -11,13 +11,17 @@ except NameError:
 def R(*parts):
     return os.path.join(SPEC_DIR, *parts)
 
+SCRIPT = R('Updater.py')
+if not os.path.isfile(SCRIPT):
+    raise SystemExit(f"[spec] Updater.py not found next to spec: {SCRIPT}")
+
 datas = [(R('azure.tcl'), 'workflows/build-updater')]
 theme_src = R('theme')
 if os.path.isdir(theme_src):
     datas.append(Tree(theme_src, prefix='workflows/build-updater/theme'))
 
 a = Analysis(
-    [os.path.join(SPEC_DIR, 'Updater.py')],
+    [SCRIPT],
     pathex=[SPEC_DIR],
     binaries=[],
     datas=datas,
