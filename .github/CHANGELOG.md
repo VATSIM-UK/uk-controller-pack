@@ -1,3 +1,6 @@
+# Changes from release 2025/09 to 2025/10
+1. Enhancement - Updated CDM to v2.8.8.17 - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
 2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
