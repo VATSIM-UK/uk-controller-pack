@@ -99,6 +99,9 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
     lowerFL = None
     upperFL = None
     coords: List[List[float]] = []
+    circle_coords: List[List[float]] = []
+    saw_coords = False
+    saw_circle = False
 
     try:
         with path.open('r', encoding='utf-8', errors='ignore') as f:
@@ -123,32 +126,36 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
                         upperFL = fl_value(parts[2])
 
                 elif line.startswith('COORD:'):
+                    if saw_circle:
+                        raise ValueError(f"{path}: mixed CIRCLE and COORD not allowed")
                     parts = line.split(':')
                     if len(parts) >= 3:
                         coords.append(parse_coord_pair(parts[1].strip(), parts[2].strip()))
+                        saw_coords = True
+
+                elif line.startswith('CIRCLE:'):
+                    if saw_coords:
+                        raise ValueError(f"{path}: mixed COORD and CIRCLE not allowed")
+                    circle_coords = parse_circle_line(line)
+                    saw_circle = True
+
     except Exception as e:
         print(f"⚠️ Error parsing {path}: {e}", file=sys.stderr)
         traceback.print_exc()
 
-    if not name:
-        name = path.stem
-    if a_type is None:
-        a_type = fallback_type
-    if lowerFL is None:
-        lowerFL = 0
-    if upperFL is None:
-        upperFL = 999
-
-    # Ensure valid GeoJSON polygon (closed ring)
-    if coords and coords[0] != coords[-1]:
-        coords.append(coords[0])
+    if saw_circle:
+        final_coords = circle_coords
+    else:
+        final_coords = coords
+        if final_coords and final_coords[0] != final_coords[-1]:
+            final_coords.append(final_coords[0])
 
     return {
-        "name": name,
-        "type": a_type,
-        "lowerFL": lowerFL,
-        "upperFL": upperFL,
-        "coords": coords
+        "name": name or path.stem,
+        "type": a_type or fallback_type,
+        "lowerFL": lowerFL if LowerFL is not None else 0,
+        "upperFL": upperFL if UpperFL is not None else 999,
+        "coords": final_coords
     }
 
 def collect_files(input_dirs: List[str]) -> List[Path]:
