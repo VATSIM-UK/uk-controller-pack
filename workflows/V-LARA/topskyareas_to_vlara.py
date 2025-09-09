@@ -153,8 +153,8 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
     return {
         "name": name or path.stem,
         "type": a_type or fallback_type,
-        "lowerFL": lowerFL if LowerFL is not None else 0,
-        "upperFL": upperFL if UpperFL is not None else 999,
+        "lowerFL": lowerFL if lowerFL is not None else 0,
+        "upperFL": upperFL if upperFL is not None else 999,
         "coords": final_coords
     }
 
