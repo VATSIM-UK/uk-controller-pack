@@ -102,6 +102,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
     circle_coords: List[List[float]] = []
     saw_coords = False
     saw_circle = False
+    activePermanent = False
 
     try:
         with path.open('r', encoding='utf-8', errors='ignore') as f:
@@ -139,6 +140,11 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
                     circle_coords = parse_circle_line(line)
                     saw_circle = True
 
+                elif line.startswith('ACTIVE:'):
+                    parts = line.split(':', 1)
+                    if len(parts) == 2 and parts[1].strip() == '1':
+                        activePermanent = True
+
     except Exception as e:
         print(f"⚠️ Error parsing {path}: {e}", file=sys.stderr)
         traceback.print_exc()
@@ -155,7 +161,8 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
         "type": a_type or fallback_type,
         "lowerFL": lowerFL if lowerFL is not None else 0,
         "upperFL": upperFL if upperFL is not None else 999,
-        "coords": final_coords
+        "coords": final_coords,
+        "activePermanent": activePermanent,
     }
 
 def collect_files(input_dirs: List[str]) -> List[Path]:
@@ -186,6 +193,11 @@ def main():
     for file_path in input_files:
         fallback_type = file_path.parent.name  # e.g., AARA, Danger, Training
         area = parse_area_file(file_path, fallback_type)
+
+        if area.get('activePermanent'):
+            if args.debug:
+                print(f"⏩ Skipping {file_path} (permanently active)")
+            continue
 
         if not area['coords']:
             if args.debug:
