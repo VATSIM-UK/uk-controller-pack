@@ -29,6 +29,60 @@ def parse_coord_pair(lat_token: str, lon_token: str) -> List[float]:
     """Return coordinate in [lon, lat] order for GeoJSON."""
     return [dms_to_decimal(lon_token), dms_to_decimal(lat_token)]
 
+# --- circle support helpers ---
+EARTH_RADIUS_NM = 3440.065  # mean Earth radius in nautical miles
+
+def _to_rad(d): return d * math.pi / 180.0
+def _to_deg(r): return r * 180.0 / math.pi
+
+def _dest_point(lat_deg: float, lon_deg: float, bearing_deg: float, dist_nm: float):
+    """Forward geodesic on a sphere (distance in NM, coords in deg)."""
+    lat1 = _to_rad(lat_deg); lon1 = _to_rad(lon_deg)
+    brg = _to_rad(bearing_deg); ang = dist_nm / EARTH_RADIUS_NM
+    sin1, cos1 = math.sin(lat1), math.cos(lat1)
+    sin_ang, cos_ang = math.sin(ang), math.cos(ang)
+    sin2 = sin1 * cos_ang + cos1 * sin_ang * math.cos(brg)
+    lat2 = math.asin(sin2)
+    y = math.sin(brg) * sin_ang * cos1
+    x = cos_ang - sin1 * sin2
+    lon2 = lon1 + math.atan2(y, x)
+    lon2 = (lon2 + math.pi) % (2 * math.pi) - math.pi
+    return _to_deg(lat2), _to_deg(lon2)
+
+def _parse_latlon_token(token: str, is_lat: bool):
+    """Try decimal first; otherwise fall back to DMS (TopSkyAreas format)."""
+    try:
+        return float(token)
+    except ValueError:
+        return dms_to_decimal(token)
+
+def _circle_ring(center_lat, center_lon, radius_nm, spacing_deg):
+    if not (0.1 <= radius_nm <= 9999.9):
+        raise ValueError(f"Radius out of bounds: {radius_nm}")
+    if not (0.1 <= spacing_deg <= 120.0):
+        raise ValueError(f"Spacing out of bounds: {spacing_deg}")
+    n = max(3, int(math.ceil(360.0 / spacing_deg)))
+    step = 360.0 / n
+    ring = []
+    b = 0.0
+    for _ in range(n):
+        lat, lon = _dest_point(center_lat, center_lon, b, radius_nm)
+        ring.append([lon, lat])
+        b += step
+    ring.append(ring[0])
+    return ring
+
+def parse_circle_line(line: str):
+    # CIRCLE:Lat:Lon:Radius:Spacing
+    parts = [p.strip() for p in line.split(':')]
+    if len(parts) != 5 or parts[0].upper() != 'CIRCLE':
+        raise ValueError(f"Invalid CIRCLE line: {line}")
+    lat = _parse_latlon_token(parts[1], True)
+    lon = _parse_latlon_token(parts[2], False)
+    radius_nm = float(parts[3]); spacing_deg = float(parts[4])
+    return _circle_ring(lat, lon, radius_nm, spacing_deg)
+# --- end circle support ---
+
 def fl_value(s: str) -> int:
     """Convert FL or SFC/UNL to numeric value."""
     s = s.strip().upper()
