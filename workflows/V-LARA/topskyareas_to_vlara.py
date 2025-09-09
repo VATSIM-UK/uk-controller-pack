@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 import sys
 import traceback
+import math
 
 # Match tokens like N057.17.30.423 or W004.48.01.020
 DMS_RE = re.compile(r'^([NSEW])(\d{1,3})\.(\d{1,2})\.(\d{1,2}(?:\.\d+)?)$')
