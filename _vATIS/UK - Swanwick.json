@@ -1,7 +1,7 @@
 {
   "Name": "UK - Swanwick",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - Swanwick.json",
-  "updateSerial": 2025040901,
+  "updateSerial": 2025090401,
   "stations": [
     {
       "Name": "Coningsby",
@@ -1049,6 +1049,146 @@
           "Notams": "",
           "ArbitraryText": null,
           "Template": "THIS IS NORTHOLT INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO FIVE. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF NORTHOLT INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [
+        {
+          "Ordinal": 4,
+          "Text": "COLOUR CODE BLUE",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 5,
+          "Text": "COLOUR CODE WHITE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "COLOUR CODE GREEN",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "COLOUR CODE YELLOW ONE",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "COLOUR CODE YELLOW TWO",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "COLOUR CODE AMBER",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "COLOUR CODE RED",
+          "Enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "CARRY FUEL FOR RADAR",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "INSTRUMENT RECOVERIES MANDATORY",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "INSTRUMENT LANDINGS MANDATORY",
+          "Enabled": false
+        }
+      ]
+    },
+    {
+      "Name": "Shawbury",
+      "Identifier": "EGOS",
+      "contractions": [
+        {
+          "String": "SHAWBURY",
+          "Spoken": "SHORE BURY"
+        }
+      ],
+      "AtisFrequency": 21990,
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Male"
+      },
+      "IDSEndpoint": null,
+      "useNotamPrefix": false,
+      "useDecimalTerminology": true,
+      "Presets": [
+        {
+          "Name": "18",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS SHAWBURY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ONE EIGHT.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF SHAWBURY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "36",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS SHAWBURY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE THREE SIX.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF SHAWBURY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "05",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS SHAWBURY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO FIVE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF SHAWBURY INFORMATION CODE [ATIS_CODE].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "23",
+          "AirportConditions": "",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "THIS IS SHAWBURY INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO THREE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF SHAWBURY INFORMATION CODE [ATIS_CODE].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,

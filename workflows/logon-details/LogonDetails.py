@@ -1,5 +1,6 @@
 import os
 import re
+from pathlib import Path
 import sys
 import json
 import time
@@ -488,15 +489,41 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     except Exception as e:
         print(f"Failed to write to {file_path}: {e}")
 
-def patch_discord_plugin(file_path):
+
+def _resolve_discord_relpath(file_path: str) -> str:
+    prf_dir = Path(file_path).parent
+
+    for root in [prf_dir] + list(prf_dir.parents):
+        plugin_dir = root / "Data" / "Plugin"
+
+        if plugin_dir.exists():
+            dll_abs = plugin_dir / "DiscordEuroscope.dll"
+            rel = os.path.relpath(dll_abs, start=prf_dir)
+
+            return rel.replace("/", "\\")
+
+    return r"..\Data\Plugin\DiscordEuroscope.dll"  # fallback
+
+
+def patch_discord_plugin(file_path: str, state: str = "present"):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+            raw = f.read()
     except Exception as e:
         print(f"Failed to read {file_path}: {e}")
         return
     
-    if any(r"DiscordEuroscope.dll" in line for line in lines):
+    text = raw.replace("\r\n", "\n").replace("\r", "\n")
+    lines = text.split("\n")
+
+    if state == "absent":
+        new_lines = [l for l in lines if "DiscordEuroscope.dll" not in l]
+        if new_lines != lines:  # only write if changed
+            with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+                f.write("\n".join(new_lines).rstrip("\n") + "\n")
+        return
+
+    if any("DiscordEuroscope.dll" in l for l in lines):
         return
     
     plugin_nums = []
@@ -510,11 +537,15 @@ def patch_discord_plugin(file_path):
 
     next_num = (max(plugin_nums) + 1) if plugin_nums else 1
 
-    lines.append(f"Plugins\tPlugin{next_num}\t\\..\\Data\\Plugin\\DiscordEuroscope.dll\n")
+    dll_rel = _resolve_discord_relpath(file_path)
+
+    if lines and lines[-1] != "":
+        lines.append("")
+    lines.append(f"Plugins\tPlugin{next_num}\t{dll_rel}")
 
     try:
-        with open(file_path, "w", encoding="utf-8") as f:
-            f.writelines(lines)
+        with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines).rstrip("\n") + "\n")
     except Exception as e:
         print(f"Failed to write {file_path}: {e}")
 
@@ -559,7 +590,9 @@ def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs
             if file.endswith(".prf"):
                 patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
                 if discord_presence == "y":
-                    patch_discord_plugin(path)
+                    patch_discord_plugin(path, state="present")
+                else:
+                    patch_discord_plugin(path, state="absent")
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):

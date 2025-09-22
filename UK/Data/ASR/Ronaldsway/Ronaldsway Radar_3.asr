@@ -1089,7 +1089,6 @@ Fixes:NUMPI:symbol
 Fixes:OBOXA:symbol
 Fixes:OBUBA:symbol
 Fixes:OBUNI:symbol
-Fixes:OCTIZ:symbol
 Fixes:ODIGI:symbol
 Fixes:ODMIX:symbol
 Fixes:ODMOS:symbol
@@ -1122,6 +1121,7 @@ Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
+Fixes:ORZEB:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
 Fixes:OSDEB:symbol

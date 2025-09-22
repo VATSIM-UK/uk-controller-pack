@@ -1,0 +1,76 @@
+name: Compile Controller-Pack-Updater.exe
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'workflows/build-updater/**'
+      - '.github/workflows/build-updater.yml'
+
+jobs:
+  changes:
+    name: Check for changes
+    runs-on: windows-latest
+    permissions:
+      pull-requests: read
+    outputs:
+      build: ${{ steps.filter.outputs.build }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check for changes
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            build:
+              - './workflows/build-updater/Updater.py'
+              - './workflows/build-updater/BuildUpdater.spec'
+              - './workflows/build-updater/azure.tcl'
+              - './workflows/build-updater/theme/**/*.tcl'
+
+  build-exe:
+    name: Build executable
+    runs-on: windows-latest
+    needs: changes
+    if: ${{ needs.changes.outputs.build == 'true' }}
+    concurrency:
+      group: uk-controller-pack-build-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install pyinstaller
+          pip install requests
+
+
+      - name: Compile executable
+        run: pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
+
+      - name: Commit executable
+        run: |
+          git config --local user.email "privileged-access@vatsim.uk"
+          git config --local user.name  "VATSIM UK"
+
+          git add UK/Updater.exe
+
+          git diff --staged --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No changes to commit"
+            exit 0
+          }
+
+          git commit -m "Update Updater.exe"
+          git push

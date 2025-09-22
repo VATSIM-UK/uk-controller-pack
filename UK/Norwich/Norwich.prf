@@ -11,7 +11,7 @@ Settings	SettingsfileSEL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Norwich\APP_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2025_08.sct
+Settings	sector	UK\Data\Sector\UK_2025_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 ASRFastKeys	1	\..\Data\ASR\Norwich\Norwich Radar_1.asr

@@ -25,13 +25,11 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [vSMR Plugin](https://github.com/VATSIM-UK/vSMR) - thanks to [@Pierr3](https://github.com/pierr3) & VATSIM UK
 
-[RDF Plugin](https://github.com/chembergj/RDF) - thanks to [@chemberj](https://github.com/chembergj)
+[RDF Plugin](https://github.com/KingfuChan/RDF) - thanks to [@KingfuChan](https://github.com/KingfuChan)
 
 [TopSky Plugin](https://forum.vatsim-scandinavia.org/t/topsky) - thanks to Juha Holopainen
 
 [MAESTRO Plugin](https://forum.vatsim-scandinavia.org/t/MAESTRO) - thanks to Juha Holopainen
-
-[AFV-EuroScope Bridge Plugin](https://github.com/AndyTWF/afv-euroscope-bridge) - thanks to [@AndyTWF](https://github.com/AndyTWF)
 
 [Slots Plugin](https://github.com/VATSIMCanada/Slots-Plugin) - thanks to [@VATSIMCanada](https://github.com/VATSIMCanada)
 

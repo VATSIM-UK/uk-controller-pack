@@ -26,7 +26,6 @@ Shortcut_Map_Target=4,Shortcuts\All Centrelines
 //System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
-Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
 Areas_PreActiveTime=1800
@@ -204,6 +203,7 @@ System_UseAUP=1
 Window_ASM=1
 
 //V-LARA Area Activation
+Areas_Remote_Activation=1
 HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/egxx.txt
 
 //Radio Direction Finder Settings
