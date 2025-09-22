@@ -2,6 +2,7 @@
 1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
 2. Bug - Fix configurator handling of sub folders - thanks to @luke11brown (Luke Brown)
 3. AIRAC (2510) - Revised Kirknewton VRP name and position - thanks to @pa-ulex
+4. AIRAC (2510) - Updated Area Minimum Altitude over Jersey - thanks to @clc0609 (Coby Chapman)
 
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
