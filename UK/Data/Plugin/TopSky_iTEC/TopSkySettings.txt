@@ -26,7 +26,6 @@ Shortcut_Map_Target=4,Shortcuts\All Centrelines
 //System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
-Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
 Areas_PreActiveTime=1800
@@ -64,7 +63,7 @@ Color_Concerned=0,0,250
 Color_Coordination=0,0,250
 Color_Unconcerned=255,250,250
 Color_Unknown=239,224,42
-Color_Redundant=140,27,138
+Color_Redundant=102,19,100
 
 //Colour settings
 Color_ACF_Via_CFL
@@ -105,7 +104,7 @@ Color_Active_Sector=192,192,192
 Color_Active_Text_Map=139,0,0
 Color_AIW_Intrusion=255,142,0
 Color_Arm
-Color_Background=195,195,185
+Color_Background=195,195,195
 Color_Border
 Color_BottomShadow
 Color_CARD_Conflict_Number
@@ -256,6 +255,10 @@ APW_Buffer_Lat_L_VFR=0
 HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
 System_UseAUP=1
 Window_ASM=1
+
+//V-LARA Area Activation
+Areas_Remote_Activation=1
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/egxx.txt
 
 //Radio Direction Finder Settings
 RDF_Mode=-1

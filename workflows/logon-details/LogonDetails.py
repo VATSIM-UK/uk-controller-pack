@@ -1,8 +1,11 @@
 import os
+import re
+from pathlib import Path
 import sys
 import json
 import time
 import winreg
+import keyboard
 import tkinter as tk
 from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
@@ -106,10 +109,12 @@ DEFAULT_FIELDS = {
     "realistic_tags": "n",
     "realistic_conversion": "n",
     "coast_choice": "1",
-    "land_choice": "1"
+    "land_choice": "1",
+    "discord_presence": "n",
+    "vccs_ptt_scan_code": ""
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
 
 def load_previous_options():
@@ -208,6 +213,60 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
 
     return result
 
+def ask_scan_code_key(prompt):
+    result = None
+
+    dialog = tk.Toplevel()
+    dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.title("Press a Key for VCCS PTT")
+    ttk.Label(dialog, text=prompt).pack(padx=20, pady=15)
+
+    def on_focus_in(event=None):
+        dialog.after(100, capture_key)
+
+    def capture_key():
+        nonlocal result
+        try:
+            while True:
+                event = keyboard.read_event()
+                if event.event_type == keyboard.KEY_DOWN:
+                    name = event.name
+                    scan_code = event.scan_code
+
+                    # Manual scan code overrides for modifier keys
+                    overrides = {
+                        "left shift": 42,
+                        "right shift": 54,
+                        "left ctrl": 29,
+                        "right ctrl": 29,
+                        "left alt": 56,
+                        "right alt": 56
+                    }
+
+                    if name in overrides:
+                        scan_code = overrides[name]
+
+                    result = str(int(hex(scan_code), 16) << 16)
+                    dialog.destroy()
+                    break
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to read key: {e}")
+            dialog.destroy()
+
+    def cancel(event=None):
+        dialog.destroy()
+
+    dialog.bind("<Escape>", cancel)
+    dialog.bind("<FocusIn>", on_focus_in)
+    dialog.transient()
+    dialog.grab_set()
+    dialog.attributes("-topmost", True)
+    center_window(dialog)
+    dialog.focus_force()
+    dialog.wait_window()
+
+    return result if result is not None else ""
+
 
 def ask_dropdown(prompt, options_list, current=None):
     selected = tk.StringVar(value=current if current in options_list else options_list[0])
@@ -304,8 +363,13 @@ def prompt_for_field(key, current):
         "rating": "Enter your current controller rating",
         "password": "Enter your VATSIM password",
         "cpdlc": "Enter your Hoppie CPDLC logon code (leave blank if you don't have one)",
-        "realistic_tags": "Select Yes if you want realistic aircraft datablocks. Select No if you want climb/descent arrows in aircraft datablocks",
-        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion. Select No if not required (not recommended)",
+        "realistic_tags": (
+            "Apply realistic datablocks **only** for LAC and LTC (LTC, Heathrow, Gatwick, Essex):\n"
+            "- Yes (default): Use realistic tags (no climb/descent arrows)\n"
+            "- No: Add climb/descent arrows for improved clarity \n\n"
+            "Note: STC, MPC and others will remain unaffected."
+        ),
+        "realistic_conversion": "Select Yes if you want to enable realistic code/callsign conversion (default).\nSelect No if not required (not recommended)",
         "coast_choice": "Select your preferred coastline colour",
         "land_choice": "Select your preferred land colour"
     }
@@ -344,7 +408,11 @@ def prompt_for_field(key, current):
                 "3": "Light Grey"
             }
         )
-
+    
+    elif key == "discord_presence":
+        return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
+    elif key == "vccs_ptt_scan_code":
+        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -380,11 +448,12 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
+
     save_options(options)
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password):
+def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -394,6 +463,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
 
     lines = [l for l in lines if not (
         l.startswith("TeamSpeakVccs\tTs3NickName") or
+        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
         l.startswith("LastSession\trealname") or
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
@@ -403,6 +473,7 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
 
     new_lines = [
         f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
+        f"TeamSpeakVccs\tTs3G2GPtt\t{vccs_ptt}\n",
         f"LastSession\trealname\t{name}\n",
         f"LastSession\tcertificate\t{cid}\n",
         f"LastSession\trating\t{rating}\n",
@@ -417,6 +488,66 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
             f.writelines(lines)
     except Exception as e:
         print(f"Failed to write to {file_path}: {e}")
+
+
+def _resolve_discord_relpath(file_path: str) -> str:
+    prf_dir = Path(file_path).parent
+
+    for root in [prf_dir] + list(prf_dir.parents):
+        plugin_dir = root / "Data" / "Plugin"
+
+        if plugin_dir.exists():
+            dll_abs = plugin_dir / "DiscordEuroscope.dll"
+            rel = os.path.relpath(dll_abs, start=prf_dir)
+
+            return rel.replace("/", "\\")
+
+    return r"..\Data\Plugin\DiscordEuroscope.dll"  # fallback
+
+
+def patch_discord_plugin(file_path: str, state: str = "present"):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            raw = f.read()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
+    
+    text = raw.replace("\r\n", "\n").replace("\r", "\n")
+    lines = text.split("\n")
+
+    if state == "absent":
+        new_lines = [l for l in lines if "DiscordEuroscope.dll" not in l]
+        if new_lines != lines:  # only write if changed
+            with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+                f.write("\n".join(new_lines).rstrip("\n") + "\n")
+        return
+
+    if any("DiscordEuroscope.dll" in l for l in lines):
+        return
+    
+    plugin_nums = []
+    for line in lines:
+        match = re.match(r"Plugins\tPlugin(\d+)\t", line)
+        if match:
+            try:
+                plugin_nums.append(int(match.group(1)))
+            except ValueError:
+                pass
+
+    next_num = (max(plugin_nums) + 1) if plugin_nums else 1
+
+    dll_rel = _resolve_discord_relpath(file_path)
+
+    if lines and lines[-1] != "":
+        lines.append("")
+    lines.append(f"Plugins\tPlugin{next_num}\t{dll_rel}")
+
+    try:
+        with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines).rstrip("\n") + "\n")
+    except Exception as e:
+        print(f"Failed to write {file_path}: {e}")
 
 
 def patch_plugins_file(file_path, cpdlc):
@@ -452,12 +583,16 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt, discord_presence):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password)
+                patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
+                if discord_presence == "y":
+                    patch_discord_plugin(path, state="present")
+                else:
+                    patch_discord_plugin(path, state="absent")
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -477,25 +612,41 @@ def apply_basic_configuration(name, initials, cid, rating, password, cpdlc):
 def apply_advanced_configuration(options):
     coast_colors = {"1": "9076039", "2": "5324604", "3": "32896"}
     land_colors = {"1": "3947580", "2": "1777181", "3": "8158332"}
+
     for root, _, files in os.walk("."):
         for file in files:
             path = os.path.join(root, file)
+
+            # --- Handle .asr files for realistic tags (LAC/LTC only) ---
             if file.endswith(".asr"):
+                rel_path = os.path.relpath(path, start="UK/Data/ASR").replace("\\", "/").lower()
+                top_folder = rel_path.split("/")[0] if "/" in rel_path else ""
+
+                is_lac = top_folder.startswith("ac_")
+                is_ltc = top_folder in ["ltc", "heathrow", "gatwick", "essex"]
+                should_patch = is_lac or is_ltc
+
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 for line in lines:
-                    if line.startswith("TAGFAMILY:NODE") or line.startswith("TAGFAMILY:AC"):
-                        if options["realistic_tags"] == "n" and "-Easy" not in line:
-                            line = line.strip() + "-Easy\n"
-                        elif options["realistic_tags"] == "y" and "-Easy" in line:
-                            line = line.replace("-Easy", "")
+                    if line.startswith("TAGFAMILY:") and ("NODE" in line or "AC" in line):
+                        if should_patch:
+                            if options["realistic_tags"] == "n" and "-Easy" not in line:
+                                line = line.strip() + "-Easy\n"
+                            elif options["realistic_tags"] == "y" and "-Easy" in line:
+                                line = line.replace("-Easy", "")
                     new_lines.append(line)
+
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.startswith("UK_") and file.endswith(".sct"):
+
+            # --- Handle UK_.sct coastline/land colour overrides ---
+            if file.startswith("UK_") and file.endswith(".sct"):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 for line in lines:
                     if line.startswith("#define coast "):
@@ -503,11 +654,19 @@ def apply_advanced_configuration(options):
                     elif line.startswith("#define land "):
                         line = f"#define land {land_colors[options['land_choice']]}\n"
                     new_lines.append(line)
+
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
-            elif file.endswith(".txt") and os.path.normpath("Data/Settings") in os.path.normpath(root):
+
+            # --- Handle correlation mode (skip *_SMR.txt files) ---
+            if (
+                file.endswith(".txt")
+                and not file.endswith("_SMR.txt")
+                and os.path.normpath("Data/Settings") in os.path.normpath(root)
+            ):
                 with open(path, "r", encoding="utf-8") as f:
                     lines = f.readlines()
+
                 new_lines = []
                 modified = False
                 for line in lines:
@@ -516,9 +675,11 @@ def apply_advanced_configuration(options):
                         line = f"m_CorrelationMode:{value}\n"
                         modified = True
                     new_lines.append(line)
+
                 if modified:
                     with open(path, "w", encoding="utf-8") as f:
                         f.writelines(new_lines)
+
 
 def main():
     if not tk._default_root:
@@ -555,7 +716,9 @@ def main():
             cid=options["cid"],
             rating=options["rating"],
             password=options["password"],
-            cpdlc=options["cpdlc"]
+            cpdlc=options["cpdlc"],
+            vccs_ptt=options.get("vccs_ptt_scan_code", ""),
+            discord_presence=options.get("discord_presence", "n")
         )
 
         if ask_yesno("Would you like to configure advanced options?"):

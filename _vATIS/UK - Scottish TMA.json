@@ -1,7 +1,7 @@
 {
   "Name": "UK - Scottish TMA",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - Scottish TMA.json",
-  "updateSerial": 2025040901,
+  "updateSerial": 2025061302,
   "stations": [
     {
       "Name": "Glasgow",
@@ -48,7 +48,7 @@
           "spoken": "SINGLE RUNWAY OPERATIONS"
         }
       ],
-      "AtisFrequency": 29575,
+      "AtisFrequency": 29580,
       "AtisVoice": {
         "UseTextToSpeech": true,
         "Voice": "UK Male"

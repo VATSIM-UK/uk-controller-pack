@@ -26,7 +26,6 @@ Shortcut_Map_Target=4,Shortcuts\All Centrelines
 //System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
-Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
 Areas_PreActiveTime=1800
@@ -82,7 +81,7 @@ Color_Active_Sector=28,28,28
 Color_Active_Text_Map=64,0,0
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
-Color_Assumed=90,216,63
+Color_Assumed=104,221,69
 Color_Background=73,80,85
 Color_Border=51,51,52
 Color_BottomShadow=70,70,70
@@ -91,8 +90,8 @@ Color_CARD_Mark_Own=255,125,125
 Color_CARD_Min_Sep=61,61,61
 Color_CARD_Symbol_Fg=9,10,11
 Color_CARD_Time_Vector=170,231,197
-Color_Concerned=50,145,30
-Color_Coordination=220,0,220
+Color_Concerned=103,180,33
+Color_Coordination=0,210,210
 Color_CPDLC_Controller_Late=170,78,39
 Color_CPDLC_Discarded=128,128,128
 Color_CPDLC_DM_Request=30,250,250
@@ -132,7 +131,7 @@ Color_Preactive_Text_Map=155,147,138
 Color_Predisplay_Map=175,130,130
 Color_Proposition=220,125,175
 Color_QDM=215,190,163
-Color_Redundant=50,145,30
+Color_Redundant=60,165,30
 Color_Runway=116,200,71
 Color_Rwy_App_Line_Inuse=82,190,115
 Color_Rwy_App_Line_Not_Inuse=135,135,70
@@ -160,7 +159,7 @@ Color_Trough=97,99,97
 Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=200,53,18
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=140,140,140
+Color_Unconcerned=60,165,30
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -202,6 +201,10 @@ APW_Buffer_Lat_L_VFR=0
 HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
 System_UseAUP=1
 Window_ASM=1
+
+//V-LARA Area Activation
+Areas_Remote_Activation=1
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/egxx.txt
 
 //Radio Direction Finder Settings
 RDF_Mode=-1

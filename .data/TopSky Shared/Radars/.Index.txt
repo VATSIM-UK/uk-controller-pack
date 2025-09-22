@@ -1,0 +1,23 @@
+// NERL sites (NATS En-route Ltd) in near alphabetical order
+Alanshill.txt
+Belfast.txt
+Bovingdon.txt
+Burrington.txt
+Claxby.txt
+Clee Hill.txt
+Cumbernauld.txt
+Cromer.txt
+Debden.txt
+Edinburgh.txt
+Glasgow.txt
+Heathrow 10cm.txt
+Gatwick.txt
+Great Dunn Fell.txt
+Kincardine.txt
+Lowther Hill.txt
+Manchester.txt
+Perwinnes.txt
+Pease Pottage.txt
+St Annes.txt
+Stansted.txt
+Tiree.txt

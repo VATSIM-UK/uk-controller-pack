@@ -1,5 +1,44 @@
 X. Enhancement - Added Bournemouth Profiles & Displays - thanks to @luke11brown (Luke Brown)
 
+# Changes from release 2025/09 to 2025/10
+1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
+2. Bug - Fix configurator handling of sub folders - thanks to @luke11brown (Luke Brown)
+3. AIRAC (2510) - Revised Kirknewton VRP name and position - thanks to @pa-ulex
+4. AIRAC (2510) - Updated Area Minimum Altitude over Jersey - thanks to @clc0609 (Coby Chapman)
+
+# Changes from release 2025/08 to 2025/09
+1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & South West Approaches MTAs as TopSky areas - thanks to @Liaely (Lily Unitt)
+4. Enhancement - IRL NOTAM area activations removed - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updated CDM to v2.8.8.15 - thanks to @Liaely (Lily Unitt)
+6. AIRAC (2509) - Added Shawbury (EGOS) ATIS - thanks to @clc0609 (Coby Chapman)
+7. Enhancement - Creation of a EXE to update the Controller Pack - thanks to @cpawley (Chris Pawley)
+
+# Changes from release 2025/07 to 2025/08
+1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2508) - Updated TopSky MSAW area definitions for Aberdeen (EGPD) - thanks to @Liaely (Lily Unitt)
+3. AIRAC (2508) - Updated TopSky MSAW altitudes for the Leeds Bradford (EGNM) SMA - thanks to @Liaely (Lily Unitt)
+4. AIRAC (2508) - Updated TopSky minimum altitudes in Edinburgh (EGPH) areas A and B - thanks to @clc0609 (Coby Chapman)
+5. Bug - Fixed improper TopSky definitions for danger areas EGD220A/B - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
+7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
+10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
+12. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
+13. Enhancement - Added Western Radar to Voice.txt - thanks to @Liaely (Lily Unitt)
+
+# Changes from release 2025/06 to 2025/07
+1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2506) - Updated position of the GBR TACAN - thanks to @Liaely (Lily Unitt)
+3. Bug - Added Warton (EGNO) Frequencies to Military APC Profile
+4. Enhancement - Clarified default settings in configurator - thanks to @clc0609 (Coby Chapman)
+5. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+6. Bug - Removed display of flight plan tracks on ATMs by default - thanks to @Liaely (Lily Unitt)
+7. Bug - Corrected FID default opening screen - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/05 to 2025/06
 1. AIRAC (2506) - Updated Glasgow (EGPF) radar and ATIS frequencies - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2506) - Updated Inverness (EGPE) TopSky minimum altitudes - thanks to @Liaely (Lily Unitt)
@@ -13,6 +52,12 @@ X. Enhancement - Added Bournemouth Profiles & Displays - thanks to @luke11brown 
 10. AIRAC (2506) - Added danger areas EGD220A and B to TopSky - thanks to @Liaely (Lily Unitt)
 11. Enhancement - Added vSMR WIP areas from UK Military AIP - thanks to @Liaely (Lily Unitt)
 12. Enhancement - Added EGSC vSMR WIP area between L1 and L2 - thanks to @Liaely (Lily Unitt)
+13. Bug - Rename EGPH GMC VCCS from GMP to GMC - thanks to @AdriTheDev (Callum Hicks)
+14. Bug - Added missing .charts alias to Heathrow aliases - thanks to @Liaely (Lily Unitt)
+15. Enhancement - Updated NODE colours for better accuracy - thanks to @SamLefevre (Samuel Lefevre) & @cbyworth (Chad Byworth)
+16. Enhancement - Updated NODE-L and NERC tags to hide stalk when close to target - thanks to @SamLefevre (Samuel Lefevre)
+17. Enhancement - Updated vSMR (UK) to v1.6.3 - thanks to @BenWalker01 (Ben Walker) & @19wintersp (Patrick Winters)
+18. Bug - Configurator amended to apply tag changes to LAC/LTC only & SMR correlation mode excluded - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/04 to 2025/05
 1. AIRAC (2504) - Updated Halton (EGWN) frequency - thanks to @Liaely (Lily Unitt)

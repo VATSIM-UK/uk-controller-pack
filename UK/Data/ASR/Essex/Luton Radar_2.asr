@@ -325,6 +325,7 @@ Fixes:ABGEP:symbol
 Fixes:ABKAT:symbol
 Fixes:ABKIM:symbol
 Fixes:ABLIN:symbol
+Fixes:ABLUC:symbol
 Fixes:ABNED:symbol
 Fixes:ABNUR:symbol
 Fixes:ABSAV:symbol
@@ -355,6 +356,7 @@ Fixes:AGORI:symbol
 Fixes:AGPED:symbol
 Fixes:AKIKI:symbol
 Fixes:AKIVO:symbol
+Fixes:AKODA:symbol
 Fixes:AKOKO:symbol
 Fixes:AKUPA:symbol
 Fixes:ALASO:symbol
@@ -478,7 +480,6 @@ Fixes:BLACA:symbol
 Fixes:BLIXY:symbol
 Fixes:BODSO:symbol
 Fixes:BOFUM:symbol
-Fixes:BOGMI:symbol
 Fixes:BOGNA:symbol
 Fixes:BOLBI:symbol
 Fixes:BOLRO:symbol
@@ -502,6 +503,7 @@ Fixes:BURNI:symbol
 Fixes:BUSTA:symbol
 Fixes:BUZAD:symbol
 Fixes:CALDA:symbol
+Fixes:CANZI:symbol
 Fixes:CARWI:symbol
 Fixes:CASEL:symbol
 Fixes:CAWZE:symbol
@@ -513,7 +515,6 @@ Fixes:COCCU:symbol
 Fixes:CONHA:symbol
 Fixes:CONKO:symbol
 Fixes:COWLY:symbol
-Fixes:COXPE:symbol
 Fixes:CREWE:symbol
 Fixes:CROFT:symbol
 Fixes:CUTEL:symbol
@@ -527,6 +528,7 @@ Fixes:DAWLY:symbol
 Fixes:DAYNE:symbol
 Fixes:DEGGE:symbol
 Fixes:DEGOS:symbol
+Fixes:DEJEM:symbol
 Fixes:DELBO:symbol
 Fixes:DENBY:symbol
 Fixes:DENOG:symbol
@@ -613,12 +615,12 @@ Fixes:ENDEQ:symbol
 Fixes:ENHAQ:symbol
 Fixes:ENHEL:symbol
 Fixes:ENIPI:symbol
-Fixes:ENITO:symbol
 Fixes:ENJEX:symbol
 Fixes:ENUKU:symbol
 Fixes:ENZEN:symbol
 Fixes:EPACE:symbol
 Fixes:EPATI:symbol
+Fixes:EPCAN:symbol
 Fixes:EPLEF:symbol
 Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
@@ -644,6 +646,7 @@ Fixes:ETSOM:symbol
 Fixes:ETVAX:symbol
 Fixes:EVATA:symbol
 Fixes:EVBEV:symbol
+Fixes:EVCOR:symbol
 Fixes:EVELI:symbol
 Fixes:EVEXU:symbol
 Fixes:EVKAL:symbol
@@ -664,6 +667,7 @@ Fixes:EXMOR:symbol
 Fixes:FACTU:symbol
 Fixes:FADZU:symbol
 Fixes:FANFE:symbol
+Fixes:FARJO:symbol
 Fixes:FEBWI:symbol
 Fixes:FELCA:symbol
 Fixes:FENIK:symbol
@@ -862,6 +866,7 @@ Fixes:LARLA:symbol
 Fixes:LASNO:symbol
 Fixes:LATMU:symbol
 Fixes:LAVRI:symbol
+Fixes:LAWJO:symbol
 Fixes:LEDGO:symbol
 Fixes:LEGRO:symbol
 Fixes:LEKCI:symbol
@@ -1027,7 +1032,6 @@ Fixes:NUMPI:symbol
 Fixes:OBOXA:symbol
 Fixes:OBUBA:symbol
 Fixes:OBUNI:symbol
-Fixes:OCTIZ:symbol
 Fixes:ODIGI:symbol
 Fixes:ODMIX:symbol
 Fixes:ODMOS:symbol
@@ -1043,7 +1047,6 @@ Fixes:OFJES:symbol
 Fixes:OFSOX:symbol
 Fixes:OGTAW:symbol
 Fixes:OGTUG:symbol
-Fixes:OKNOB:symbol
 Fixes:OKPAL:symbol
 Fixes:OKRUZ:symbol
 Fixes:OKSAW:symbol
@@ -1061,6 +1064,7 @@ Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
+Fixes:ORZEB:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
 Fixes:OSDEB:symbol
@@ -1077,10 +1081,12 @@ Fixes:OTLAB:symbol
 Fixes:OTMET:symbol
 Fixes:OTSID:symbol
 Fixes:OVDAN:symbol
+Fixes:OVZOG:symbol
 Fixes:OXCUD:symbol
 Fixes:OXDUF:symbol
 Fixes:OXLOW:symbol
 Fixes:OZBOC:symbol
+Fixes:OZRAT:symbol
 Fixes:OZZIL:symbol
 Fixes:OZZOT:symbol
 Fixes:PAAVO:symbol
@@ -1127,7 +1133,6 @@ Fixes:RAPIX:symbol
 Fixes:RAPUM:symbol
 Fixes:RATKA:symbol
 Fixes:RATLO:symbol
-Fixes:RATPU:symbol
 Fixes:RATSU:symbol
 Fixes:RATUK:symbol
 Fixes:RAVDI:symbol
@@ -1183,7 +1188,6 @@ Fixes:ROVNI:symbol
 Fixes:ROXAT:symbol
 Fixes:ROXOG:symbol
 Fixes:RUBEX:symbol
-Fixes:RUBMI:symbol
 Fixes:RUCAC:symbol
 Fixes:RUDMO:symbol
 Fixes:RUGER:symbol
@@ -1390,6 +1394,7 @@ Fixes:WAFIL:symbol
 Fixes:WECOW:symbol
 Fixes:WELIN:symbol
 Fixes:WESUL:symbol
+Fixes:WETFI:symbol
 Fixes:WEVBE:symbol
 Fixes:WIGGU:symbol
 Fixes:WILLO:symbol
@@ -1535,7 +1540,7 @@ PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailColour:232,163,0
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0

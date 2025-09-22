@@ -1,57 +1,101 @@
-name: Check Upstream Plugin Releases
+﻿name: 🔍 Check for Plugin Updates
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
-  check-releases:
+  check-updates:
     runs-on: ubuntu-latest
+    env:
+      VERSION_FILE: .github/dependency_versions.json
+
     steps:
-      - name: Checkout repository
+      - name: 🧰 Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Detect new plugin releases and create issues
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+      - name: 📦 Install jq & gh
         run: |
-          REPOS=(
-            "AliceFord/vSMR"
-            "KingfuChan/RDF"
-            "VATSIMCanada/Slots-Plugin"
-            "rpuig2001/CDM"
-            "DrFreas/VCH"
-            "quassbutreally/EuroScope-CCDS-R"
-            "VFPC/VFPC"
-          )
+          sudo apt-get update
+          sudo apt-get install -y jq
+          gh --version || sudo apt-get install -y gh
 
-          VERSION_FILE=".github/dependency_versions.json"
-          if [ ! -f "$VERSION_FILE" ]; then
-            echo "{}" > "$VERSION_FILE"
-          fi
+      - name: 🔍 Check for new releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
 
-          for repo in "${REPOS[@]}"; do
-            key=$(echo "$repo" | cut -d/ -f2)
-            latest_tag=$(curl -s "https://api.github.com/repos/$repo/releases/latest" | jq -r '.tag_name // empty')
-            if [ -z "$latest_tag" ]; then
+          mapfile -t ROWS < <(jq -r '
+            to_entries[]
+            | [
+                (.value.repo),
+                (.value.message // "v0.0.0"),
+                (.value.allow_prerelease // false)
+              ]
+            | @tsv
+          ' "$VERSION_FILE")
+
+          norm() { sed -E 's/^v//'; }
+
+          for row in "${ROWS[@]}"; do
+            repo="$(cut -f1 <<< "$row")"
+            prev_tag="$(cut -f2 <<< "$row")"
+            allow_pre_flag="$(cut -f3 <<< "$row")"
+
+            echo "🔎 Checking $repo (pinned: $prev_tag, allow_prerelease=$allow_pre_flag)"
+
+            if [[ "$allow_pre_flag" == "true" ]]; then
+              latest_tag="$(curl -s "https://api.github.com/repos/$repo/releases" \
+                | jq -r '[.[] | select(.draft==false) | .tag_name] | first // empty')"
+            else
+              latest_tag="$(curl -s "https://api.github.com/repos/$repo/releases/latest" \
+                | jq -r '.tag_name // empty')"
+            fi
+
+            if [[ -z "$latest_tag" ]]; then
+              latest_tag=$(curl -s "https://api.github.com/repos/$repo/tags" \
+                | jq -r 'if type=="array" and length>0 then .[0].name else empty end')
+            fi
+
+            if [[ -z "$latest_tag" ]]; then
               latest_tag="v0.0.0"
             fi
 
-            prev_tag=$(jq -r --arg key "$key" '.[$key].message // "v0.0.0"' "$VERSION_FILE")
+            prev_norm="$(printf '%s' "$prev_tag" | norm)"
+            latest_norm="$(printf '%s' "$latest_tag" | norm)"
 
-            if [ "$latest_tag" != "$prev_tag" ] && [ "$latest_tag" != "v0.0.0" ]; then
-              echo "New release detected for $repo: $latest_tag"
+            if [[ "$latest_norm" != "$prev_norm" && "$latest_tag" != "v0.0.0" ]]; then
+              echo "New release detected for $repo: $prev_tag → $latest_tag"
 
-              gh issue create                 --title "Incorporate $repo $latest_tag"                 --template "plugin_update.md"                 --field plugin="$repo"                 --field version="$latest_tag"                 --label dependencies || echo "Issue may already exist"
+              existing_number="$(gh issue list \
+                --state open \
+                --label dependencies \
+                --search "\"$repo\" \"$latest_tag\"" \
+                --json number 2>/dev/null \
+                   | jq -r 'if type=="array" and length>0 then .[0].number else empty end' || true)"
+
+              if [[ -n "$existing_number" ]]; then
+                echo "Open issue #$existing_number already exists for $repo $latest_tag; skipping create"
+                continue
+              fi
+
+              gh issue create \
+                --title "Incorporate $repo $latest_tag" \
+                --label dependencies \
+                --body "**Plugin**: \`$repo\`  
+                **Version**: \`$latest_tag\`  
+
+                Please update the DLL and modify the following files accordingly.  
+                \`.github/dependency_versions.json\`  
+                \`.github/badges/[plugin].json\`  
+
+                [Release notes](https://github.com/$repo/releases/tag/$latest_tag)"
             else
               echo "No update needed for $repo ($prev_tag)"
             fi

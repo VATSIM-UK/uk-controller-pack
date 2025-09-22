@@ -1,4 +1,4 @@
-name: Automatic AIRAC actions
+﻿name: ✈️ Automatic AIRAC actions
 
 on:
   repository_dispatch:
@@ -37,7 +37,7 @@ jobs:
       - name: Commit changes
         run: |
           git add .
-          git commit -m "Update sector file and GNG data"
+          git diff --cached --quiet || git commit -m "Update sector file and GNG data"
 
       - name: Update SMR labels
         run: |
@@ -46,7 +46,7 @@ jobs:
       - name: Commit SMR label changes
         run: |
           git add .
-          git commit -m "Update SMR labels"
+          git diff --cached --quiet || git commit -m "Update SMR labels"
       
       - name: Update radar fixes
         run: |
@@ -55,7 +55,7 @@ jobs:
       - name: Commit radar fixes changes
         run: |
           git add .
-          git commit -m "Update radar fixes"
+          git diff --cached --quiet || git commit -m "Update radar fixes"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5

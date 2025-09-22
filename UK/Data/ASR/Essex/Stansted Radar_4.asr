@@ -386,6 +386,8 @@ Fixes:ABKIM:name
 Fixes:ABKIM:symbol
 Fixes:ABLIN:name
 Fixes:ABLIN:symbol
+Fixes:ABLUC:name
+Fixes:ABLUC:symbol
 Fixes:ABNED:name
 Fixes:ABNED:symbol
 Fixes:ABNUR:name
@@ -446,6 +448,8 @@ Fixes:AKIKI:name
 Fixes:AKIKI:symbol
 Fixes:AKIVO:name
 Fixes:AKIVO:symbol
+Fixes:AKODA:name
+Fixes:AKODA:symbol
 Fixes:AKOKO:name
 Fixes:AKOKO:symbol
 Fixes:AKUPA:name
@@ -692,8 +696,6 @@ Fixes:BODSO:name
 Fixes:BODSO:symbol
 Fixes:BOFUM:name
 Fixes:BOFUM:symbol
-Fixes:BOGMI:name
-Fixes:BOGMI:symbol
 Fixes:BOGNA:name
 Fixes:BOGNA:symbol
 Fixes:BOLBI:name
@@ -740,6 +742,8 @@ Fixes:BUZAD:name
 Fixes:BUZAD:symbol
 Fixes:CALDA:name
 Fixes:CALDA:symbol
+Fixes:CANZI:name
+Fixes:CANZI:symbol
 Fixes:CARWI:name
 Fixes:CARWI:symbol
 Fixes:CASEL:name
@@ -762,8 +766,6 @@ Fixes:CONKO:name
 Fixes:CONKO:symbol
 Fixes:COWLY:name
 Fixes:COWLY:symbol
-Fixes:COXPE:name
-Fixes:COXPE:symbol
 Fixes:CREWE:name
 Fixes:CREWE:symbol
 Fixes:CROFT:name
@@ -790,6 +792,8 @@ Fixes:DEGGE:name
 Fixes:DEGGE:symbol
 Fixes:DEGOS:name
 Fixes:DEGOS:symbol
+Fixes:DEJEM:name
+Fixes:DEJEM:symbol
 Fixes:DELBO:name
 Fixes:DELBO:symbol
 Fixes:DENBY:name
@@ -962,8 +966,6 @@ Fixes:ENHEL:name
 Fixes:ENHEL:symbol
 Fixes:ENIPI:name
 Fixes:ENIPI:symbol
-Fixes:ENITO:name
-Fixes:ENITO:symbol
 Fixes:ENJEX:name
 Fixes:ENJEX:symbol
 Fixes:ENUKU:name
@@ -974,6 +976,8 @@ Fixes:EPACE:name
 Fixes:EPACE:symbol
 Fixes:EPATI:name
 Fixes:EPATI:symbol
+Fixes:EPCAN:name
+Fixes:EPCAN:symbol
 Fixes:EPLEF:name
 Fixes:EPLEF:symbol
 Fixes:EPOXI:name
@@ -1024,6 +1028,8 @@ Fixes:EVATA:name
 Fixes:EVATA:symbol
 Fixes:EVBEV:name
 Fixes:EVBEV:symbol
+Fixes:EVCOR:name
+Fixes:EVCOR:symbol
 Fixes:EVELI:name
 Fixes:EVELI:symbol
 Fixes:EVEXU:name
@@ -1064,6 +1070,8 @@ Fixes:FADZU:name
 Fixes:FADZU:symbol
 Fixes:FANFE:name
 Fixes:FANFE:symbol
+Fixes:FARJO:name
+Fixes:FARJO:symbol
 Fixes:FEBWI:name
 Fixes:FEBWI:symbol
 Fixes:FELCA:name
@@ -1460,6 +1468,8 @@ Fixes:LATMU:name
 Fixes:LATMU:symbol
 Fixes:LAVRI:name
 Fixes:LAVRI:symbol
+Fixes:LAWJO:name
+Fixes:LAWJO:symbol
 Fixes:LEDGO:name
 Fixes:LEDGO:symbol
 Fixes:LEGRO:name
@@ -1790,8 +1800,6 @@ Fixes:OBUBA:name
 Fixes:OBUBA:symbol
 Fixes:OBUNI:name
 Fixes:OBUNI:symbol
-Fixes:OCTIZ:name
-Fixes:OCTIZ:symbol
 Fixes:ODIGI:name
 Fixes:ODIGI:symbol
 Fixes:ODMIX:name
@@ -1822,8 +1830,6 @@ Fixes:OGTAW:name
 Fixes:OGTAW:symbol
 Fixes:OGTUG:name
 Fixes:OGTUG:symbol
-Fixes:OKNOB:name
-Fixes:OKNOB:symbol
 Fixes:OKPAL:name
 Fixes:OKPAL:symbol
 Fixes:OKRUZ:name
@@ -1858,6 +1864,8 @@ Fixes:ORVIK:name
 Fixes:ORVIK:symbol
 Fixes:ORVUL:name
 Fixes:ORVUL:symbol
+Fixes:ORZEB:name
+Fixes:ORZEB:symbol
 Fixes:OSBON:name
 Fixes:OSBON:symbol
 Fixes:OSBOX:name
@@ -1890,6 +1898,8 @@ Fixes:OTSID:name
 Fixes:OTSID:symbol
 Fixes:OVDAN:name
 Fixes:OVDAN:symbol
+Fixes:OVZOG:name
+Fixes:OVZOG:symbol
 Fixes:OXCUD:name
 Fixes:OXCUD:symbol
 Fixes:OXDUF:name
@@ -1898,6 +1908,8 @@ Fixes:OXLOW:name
 Fixes:OXLOW:symbol
 Fixes:OZBOC:name
 Fixes:OZBOC:symbol
+Fixes:OZRAT:name
+Fixes:OZRAT:symbol
 Fixes:OZZIL:name
 Fixes:OZZIL:symbol
 Fixes:OZZOT:name
@@ -1990,8 +2002,6 @@ Fixes:RATKA:name
 Fixes:RATKA:symbol
 Fixes:RATLO:name
 Fixes:RATLO:symbol
-Fixes:RATPU:name
-Fixes:RATPU:symbol
 Fixes:RATSU:name
 Fixes:RATSU:symbol
 Fixes:RATUK:name
@@ -2102,8 +2112,6 @@ Fixes:ROXOG:name
 Fixes:ROXOG:symbol
 Fixes:RUBEX:name
 Fixes:RUBEX:symbol
-Fixes:RUBMI:name
-Fixes:RUBMI:symbol
 Fixes:RUCAC:name
 Fixes:RUCAC:symbol
 Fixes:RUDMO:name
@@ -2516,6 +2524,8 @@ Fixes:WELIN:name
 Fixes:WELIN:symbol
 Fixes:WESUL:name
 Fixes:WESUL:symbol
+Fixes:WETFI:name
+Fixes:WETFI:symbol
 Fixes:WEVBE:name
 Fixes:WEVBE:symbol
 Fixes:WIGGU:name
@@ -2798,7 +2808,7 @@ PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
 PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
-PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailColour:232,163,0
 PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
 PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
 PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
