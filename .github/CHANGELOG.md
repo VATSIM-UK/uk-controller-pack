@@ -4,6 +4,7 @@
 3. AIRAC (2510) - Revised Kirknewton VRP name and position - thanks to @pa-ulex
 4. AIRAC (2510) - Updated Area Minimum Altitude over Jersey - thanks to @clc0609 (Coby Chapman)
 5. Bug - Fixed incorrect formatting for TopSky areas - thanks to @Liaely (Lily Unitt)
+6. Bug - Removed permanently active SUA from V-LARA reservation system - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
