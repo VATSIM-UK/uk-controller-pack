@@ -498,11 +498,14 @@ def _resolve_discord_relpath(file_path: str) -> str:
 
         if plugin_dir.exists():
             dll_abs = plugin_dir / "DiscordEuroscope.dll"
-            rel = os.path.relpath(dll_abs, start=prf_dir)
+            rel = os.path.relpath(dll_abs, start=prf_dir).replace("/", "\\")
 
-            return rel.replace("/", "\\")
+            if not rel.startswith("\\"):
+                rel = "\\" + rel
 
-    return r"..\Data\Plugin\DiscordEuroscope.dll"  # fallback
+            return rel
+
+    return r"\..\Data\Plugin\DiscordEuroscope.dll"  # fallback
 
 
 def patch_discord_plugin(file_path: str, state: str = "present"):
@@ -512,36 +515,43 @@ def patch_discord_plugin(file_path: str, state: str = "present"):
     except Exception as e:
         print(f"Failed to read {file_path}: {e}")
         return
-    
+
     text = raw.replace("\r\n", "\n").replace("\r", "\n")
     lines = text.split("\n")
 
     if state == "absent":
         new_lines = [l for l in lines if "DiscordEuroscope.dll" not in l]
-        if new_lines != lines:  # only write if changed
+        if new_lines != lines:
             with open(file_path, "w", encoding="utf-8", newline="\n") as f:
                 f.write("\n".join(new_lines).rstrip("\n") + "\n")
         return
 
     if any("DiscordEuroscope.dll" in l for l in lines):
         return
-    
-    plugin_nums = []
-    for line in lines:
-        match = re.match(r"Plugins\tPlugin(\d+)\t", line)
-        if match:
+
+    plugin_rx = re.compile(r"^Plugins\tPlugin(\d+)\t")
+    last_idx = -1
+    max_num = 0
+    for i, line in enumerate(lines):
+        m = plugin_rx.match(line)
+        if m:
+            last_idx = i
             try:
-                plugin_nums.append(int(match.group(1)))
+                max_num = max(max_num, int(m.group(1)))
             except ValueError:
                 pass
 
-    next_num = (max(plugin_nums) + 1) if plugin_nums else 1
-
+    next_num = max_num + 1 if max_num else 1
     dll_rel = _resolve_discord_relpath(file_path)
+    new_line = f"Plugins\tPlugin{next_num}\t{dll_rel}"
 
-    if lines and lines[-1] != "":
-        lines.append("")
-    lines.append(f"Plugins\tPlugin{next_num}\t{dll_rel}")
+    if last_idx >= 0:
+        insert_at = last_idx + 1
+        lines.insert(insert_at, new_line)
+    else:
+        if lines and lines[-1] != "":
+            lines.append("")
+        lines.append(new_line)
 
     try:
         with open(file_path, "w", encoding="utf-8", newline="\n") as f:
