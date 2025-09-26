@@ -1,5 +1,5 @@
-Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Solent\Plugins.txt
-Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Solent\Profiles.txt
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Bournemouth\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Bournemouth\Profiles.txt
 Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
 Settings	SettingsfileVOICE	\..\Data\Settings\Voice.txt
 Settings	Settingsfile	\..\Data\Settings\General_SMR.txt
@@ -14,7 +14,7 @@ Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_North.txt
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
 Settings	sector	UK\Data\Sector\UK_2025_09.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
