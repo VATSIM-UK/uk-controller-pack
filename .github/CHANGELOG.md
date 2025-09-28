@@ -6,6 +6,7 @@
 5. Bug - Fixed incorrect formatting for TopSky areas - thanks to @Liaely (Lily Unitt)
 6. Bug - Removed permanently active SUA from V-LARA reservation system - thanks to @luke11brown (Luke Brown)
 7. Enhancement - Defined the English Channel Danger Area complex (EGD098) - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Updated TopSky radar data for raw video depiction - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
