@@ -1,23 +1,51 @@
-// NERL sites (NATS En-route Ltd) in near alphabetical order
+// Radar sites in alphabetical order
 Alanshill.txt
+Belfast City.txt
+Belfast International.txt
 Belfast.txt
+Birmingham.txt
+Bournemouth.txt
 Bovingdon.txt
+Bristol.txt
 Burrington.txt
+Cambridge.txt
+Cardiff.txt
 Claxby.txt
 Clee Hill.txt
-Cumbernauld.txt
 Cromer.txt
+Cumbernauld.txt
 Debden.txt
+East Midlands.txt
 Edinburgh.txt
-Glasgow.txt
-Heathrow 10cm.txt
+Exeter.txt
+Farnborough.txt
 Gatwick.txt
+Glasgow.txt
 Great Dunn Fell.txt
+Guernsey.txt
+Hawarden.txt
+Heathrow.txt
+Hibaldstow.txt
+Humberside.txt
+Inverness.txt
+Jersey.txt
 Kincardine.txt
+Leeds.txt
+Liverpool.txt
 Lowther Hill.txt
 Manchester.txt
-Perwinnes.txt
+Newcastle.txt
+Newquay.txt
+Norwich.txt
+Oxford.txt
 Pease Pottage.txt
+Perwinnes Hill.txt
+Prestwick.txt
+Sandwick.txt
+Southampton.txt
+Southend.txt
 St Annes.txt
 Stansted.txt
+Sumburgh.txt
+Teesside.txt
 Tiree.txt
