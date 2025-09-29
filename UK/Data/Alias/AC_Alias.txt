@@ -171,6 +171,8 @@ Departure
 .ready Readback correct, report ready
 .readyq Readback correct, QNH $altim($dep), report ready
 
+.tobt Submit your TOBT (TARGET OFF BLOCK TIME) at vats.im/vdgs
+
 ========================================================
 Ground Movement
 ========================================================
