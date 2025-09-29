@@ -1,3 +1,5 @@
+X. Enhancement - Added Bournemouth Profiles & Displays - thanks to @luke11brown (Luke Brown)
+
 # Changes from release 2025/09 to 2025/10
 1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
 2. Bug - Fix configurator handling of sub folders - thanks to @luke11brown (Luke Brown)
