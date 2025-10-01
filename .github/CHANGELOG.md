@@ -1,5 +1,3 @@
-x. Added EGR610 complex to vLARA - thanks to @Liaely (Lily Unitt)
-
 # Changes from release 2025/09 to 2025/10
 1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
 2. Bug - Fix configurator handling of sub folders - thanks to @luke11brown (Luke Brown)
@@ -8,6 +6,7 @@ x. Added EGR610 complex to vLARA - thanks to @Liaely (Lily Unitt)
 5. Bug - Fixed incorrect formatting for TopSky areas - thanks to @Liaely (Lily Unitt)
 6. Bug - Removed permanently active SUA from V-LARA reservation system - thanks to @luke11brown (Luke Brown)
 7. Enhancement - Defined the English Channel Danger Area complex (EGD098) - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Added EGR610 complex to vLARA - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/08 to 2025/09
 1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
