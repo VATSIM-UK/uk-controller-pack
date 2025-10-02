@@ -6,6 +6,7 @@ on:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Other/**/*.txt"
+      - ".data/TopSky Shared/Areas/Restricted/**/*.txt"
       - ".data/TopSky Shared/Areas/Surveillance/**/*.txt"
       - ".data/TopSky Shared/Areas/TRA/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
@@ -18,6 +19,7 @@ on:
       - ".data/TopSky Shared/Areas/AARA/**/*.txt"
       - ".data/TopSky Shared/Areas/Danger/**/*.txt"
       - ".data/TopSky Shared/Areas/Other/**/*.txt"
+      - ".data/TopSky Shared/Areas/Restricted/**/*.txt"
       - ".data/TopSky Shared/Areas/Surveillance/**/*.txt"
       - ".data/TopSky Shared/Areas/TRA/**/*.txt"
       - ".data/TopSky Shared/Areas/Training/**/*.txt"
@@ -42,6 +44,7 @@ env:
     .data/TopSky Shared/Areas/AARA
     .data/TopSky Shared/Areas/Danger
     .data/TopSky Shared/Areas/Other
+    .data/TopSky Shared/Areas/Restricted
     .data/TopSky Shared/Areas/Surveillance
     .data/TopSky Shared/Areas/TRA
     .data/TopSky Shared/Areas/Training
