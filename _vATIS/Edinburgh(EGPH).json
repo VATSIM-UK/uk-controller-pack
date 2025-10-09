@@ -1,11 +1,9 @@
 {
   "name": "Edinburgh",
-  "id": "94cb2b64-31f2-4e72-83f0-36ad474fa064",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Edinburgh(EGPH).json",
   "updateSerial": 2025040901,
   "stations": [
     {
-      "id": "459b881b-b581-4ec3-b7d5-c9bd71f7fefe",
       "ordinal": 0,
       "identifier": "EGPH",
       "name": "Edinburgh",
@@ -257,7 +255,7 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT.",
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
             "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
           }
         }
@@ -273,7 +271,6 @@
       },
       "presets": [
         {
-          "id": "b847d3fc-4245-40d7-9354-7f527ade29ba",
           "name": "24",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^24.\r\n[TL].\r\nEXPECT RADAR VECTORING TO AN ILS APPROACH.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -287,7 +284,6 @@
           }
         },
         {
-          "id": "e6597db8-d3cb-48d0-bfeb-926fb7e9dffb",
           "name": "06",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^06.\r\n[TL].\r\nEXPECT RADAR VECTORING TO AN ILS APPROACH.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -306,16 +302,6 @@
           "variableName": "LVPS",
           "text": "LVPS",
           "voice": "L V PEES"
-        },
-        {
-          "variableName": "LOGON",
-          "text": "LOGON",
-          "voice": "LOG ON"
-        },
-        {
-          "variableName": "EGPH",
-          "text": "EGPH",
-          "voice": "ECHO GOLF PAPA HOTEL"
         },
         {
           "variableName": "DATALINK",
@@ -390,7 +376,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE. LOGON EGPH.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": false
         },

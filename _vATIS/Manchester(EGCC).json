@@ -1,11 +1,9 @@
 {
   "name": "Manchester",
-  "id": "fffe2b1f-6954-4580-a7c6-75cd17f69fc4",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Manchester(EGCC).json",
   "updateSerial": 2025040901,
   "stations": [
     {
-      "id": "2d7ec5bc-4a03-4c0d-9056-a92505454572",
       "ordinal": 0,
       "identifier": "EGCC",
       "name": "Manchester",
@@ -256,8 +254,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER APPROACH RADAR",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER APPROACH RADAR"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER"
           }
         }
       },
@@ -273,7 +271,6 @@
       },
       "presets": [
         {
-          "id": "28a00bff-9b87-47f2-8fc8-4bc9b676cf70",
           "name": "23R",
           "airportConditions": "",
           "notams": "",
@@ -289,7 +286,6 @@
           }
         },
         {
-          "id": "229f1355-372b-494d-b187-8212d8e0aadf",
           "name": "23 Duals",
           "notams": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 23R. DEP RWY 23L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
@@ -304,7 +300,6 @@
           }
         },
         {
-          "id": "f4c739aa-ff2e-49bf-997d-8bbde33971af",
           "name": "05L",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nDEP AND ARR RWY 05L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
           "externalGenerator": {
@@ -318,7 +313,6 @@
           }
         },
         {
-          "id": "95b4b589-d8a5-495d-b3a3-04ca2092cd31",
           "name": "05 Duals",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 05R. DEP RWY 05L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
           "externalGenerator": {
@@ -332,7 +326,6 @@
           }
         },
         {
-          "id": "69d89175-784e-40d0-b845-6110d38a5dd2",
           "name": "23L",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nDEP AND ARR RWY 23L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
           "externalGenerator": {
@@ -346,7 +339,6 @@
           }
         },
         {
-          "id": "28d75cb7-fe39-436b-a773-f94da84ef925",
           "name": "05R",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nDEP AND ARR RWY 05R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
           "externalGenerator": {
@@ -370,16 +362,6 @@
           "variableName": "LVPS",
           "text": "LVPS",
           "voice": "L V PEES"
-        },
-        {
-          "variableName": "LOGON",
-          "text": "LOGON",
-          "voice": "LOG ON"
-        },
-        {
-          "variableName": "EGCC",
-          "text": "EGCC",
-          "voice": "ECHO GOLF CHARLIE CHARLIE"
         },
         {
           "variableName": "DATALINK",
@@ -449,7 +431,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE. LOGON EGCC.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": true
         },

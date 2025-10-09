@@ -272,7 +272,6 @@
       },
       "presets": [
         {
-          "id": "9841c43e-dc48-4211-ac5a-93c50a41eee0",
           "name": "LANDING 27L",
           "airportConditions": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 27L. DEP RWY 27R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
@@ -287,7 +286,6 @@
           }
         },
         {
-          "id": "26e0d7f5-f0c1-4e94-80df-37c21396f895",
           "name": "LANDING 27R",
           "airportConditions": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 27R. DEP RWY 27L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
@@ -302,7 +300,6 @@
           }
         },
         {
-          "id": "b37acbe6-4212-4e8f-b2a2-13fc6c85245e",
           "name": "LANDING 09L",
           "airportConditions": "",
           "notams": "",
@@ -318,7 +315,6 @@
           }
         },
         {
-          "id": "6c879e4c-427a-44a5-a5c9-dc327964641e",
           "name": "SRO 27R",
           "airportConditions": "",
           "notams": "",
@@ -334,7 +330,6 @@
           }
         },
         {
-          "id": "801bcee9-ed0f-4ea4-953e-95c1d80d3e06",
           "name": "SRO 27L",
           "airportConditions": "",
           "notams": "",
@@ -350,7 +345,6 @@
           }
         },
         {
-          "id": "eaf5bd0e-f93f-44b3-ba64-277f885d9415",
           "name": "SRO 09R",
           "notams": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09R.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
@@ -365,7 +359,6 @@
           }
         },
         {
-          "id": "8d943b7c-0d7e-40b7-b0a0-383aebf4d298",
           "name": "SRO 09L",
           "notams": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09L.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
@@ -771,7 +764,6 @@
       },
       "presets": [
         {
-          "id": "bb79bc1c-1174-4d80-8738-f7fe05f536ec",
           "name": "RUNWAY 25",
           "airportConditions": "",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
@@ -786,7 +778,6 @@
           }
         },
         {
-          "id": "a6a79c04-f56c-428d-b135-c86192236c8c",
           "name": "RUNWAY 07",
           "airportConditions": "",
           "template": "",

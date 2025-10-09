@@ -1,11 +1,9 @@
 {
   "name": "Essex",
-  "id": "86048c36-0ce5-47d5-80e1-d26be3168df3",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Essex(EGSS & EGGW & EGSC).json",
   "updateSerial": 2025040901,
   "stations": [
     {
-      "id": "da85ee75-fd05-48c2-86a6-34402dc13e3a",
       "ordinal": 0,
       "identifier": "EGSS",
       "name": "Stansted",
@@ -267,7 +265,6 @@
       },
       "presets": [
         {
-          "id": "5fdd874b-f286-4e15-9230-ae0de537d746",
           "name": "22",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -281,7 +278,6 @@
           }
         },
         {
-          "id": "5621d704-ecab-4725-90c7-2cf177415c53",
           "name": "04",
           "template": "",
           "externalGenerator": {
@@ -300,16 +296,6 @@
           "variableName": "LVPS",
           "text": "LVPS",
           "voice": "L V PEES"
-        },
-        {
-          "variableName": "LOGON",
-          "text": "LOGON",
-          "voice": "LOG ON"
-        },
-        {
-          "variableName": "EGSS",
-          "text": "EGSS",
-          "voice": "ECHO GOLF SIERRA SIERRA"
         },
         {
           "variableName": "DATALINK",
@@ -384,7 +370,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE, LOGON EGSS.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": false
         },
@@ -407,7 +393,6 @@
       "notamDefinitions": []
     },
     {
-      "id": "e668c61b-bfdb-46b7-abb8-62baf474a222",
       "ordinal": 0,
       "identifier": "EGGW",
       "name": "Luton",
@@ -669,7 +654,6 @@
       },
       "presets": [
         {
-          "id": "1b313505-204c-4a94-ac5d-c3520d82cfd3",
           "name": "25",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -683,7 +667,6 @@
           }
         },
         {
-          "id": "48907b90-3ca6-4ecd-b924-093f36537b46",
           "name": "07",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -702,16 +685,6 @@
           "variableName": "LVPS",
           "text": "LVPS",
           "voice": "L V PEES"
-        },
-        {
-          "variableName": "LOGON",
-          "text": "LOGON",
-          "voice": "LOG ON"
-        },
-        {
-          "variableName": "EGGW",
-          "text": "EGGW",
-          "voice": "ECHO GOLF GOLF WHISKY"
         },
         {
           "variableName": "COM",
@@ -786,7 +759,7 @@
           "enabled": false
         },
         {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE, LOGON EGGW.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": false
         },
@@ -809,7 +782,6 @@
       "notamDefinitions": []
     },
     {
-      "id": "5aad0b38-027e-4e4a-8eb0-fd746d23e3dc",
       "ordinal": 0,
       "identifier": "EGSC",
       "name": "Cambridge",
@@ -1071,7 +1043,6 @@
       },
       "presets": [
         {
-          "id": "232c039c-6d93-4058-8202-1a722beb72b4",
           "name": "23",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -1085,7 +1056,6 @@
           }
         },
         {
-          "id": "55159a38-370a-4d68-bc37-f7ce8674c628",
           "name": "05",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
           "externalGenerator": {
@@ -1106,11 +1076,6 @@
           "voice": "L V PEES"
         },
         {
-          "variableName": "LOGON",
-          "text": "LOGON",
-          "voice": "LOG ON"
-        },
-        {
           "variableName": "COM",
           "text": "COM",
           "voice": ""
@@ -1119,16 +1084,6 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
-        },
-        {
-          "variableName": "EGSC",
-          "text": "EGSC",
-          "voice": "ECHO GOLF SIERRA CHARLIE"
-        },
-        {
-          "variableName": "DATALINK",
-          "text": "DATALINK",
-          "voice": "DAYTA LINK"
         }
       ],
       "airportConditionDefinitions": [
@@ -1170,16 +1125,6 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 125.905.",
           "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE, LOGON EGSC.",
-          "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.905 WHEN READY FOR START.",
-          "ordinal": 10,
           "enabled": false
         },
         {
