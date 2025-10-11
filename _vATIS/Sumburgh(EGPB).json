@@ -1,6 +1,6 @@
 {
   "name": "Sumburgh",
-  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Birmingham(EGBB).json",
+  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Sumburgh(EGPB).json",
   "updateSerial": 2025040901,
   "stations": [
     {
@@ -272,55 +272,19 @@
       "presets": [
         {
           "name": "09",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "27",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^27.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^27.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "15",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^15.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^15.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "33",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^33.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^33.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [

@@ -95,8 +95,8 @@
         },
         "recentWeather": {
           "template": {
-            "text": "RECENT WEATHER {weather}",
-            "voice": "RECENT WEATHER {weather}"
+            "text": "",
+            "voice": ""
           }
         },
         "clouds": {
@@ -274,82 +274,28 @@
           "name": "23R",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nDEP AND ARR RWY 23R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX].\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX].\r\n[ARPT_COND]\r\n[CLOSING]"
         },
         {
           "name": "23 Duals",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 23R. DEP RWY 23L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 23R. DEP RWY 23L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
         },
         {
           "name": "05L",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nDEP AND ARR RWY 05L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nRWY IN USE ^05L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
         },
         {
           "name": "05 Duals",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 05R. DEP RWY 05L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 05R. DEP RWY 05L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
         },
         {
           "name": "23L",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nDEP AND ARR RWY 23L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nRWY IN USE ^23L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
         },
         {
           "name": "05R",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nDEP AND ARR RWY 05R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
         }
       ],
       "contractions": [

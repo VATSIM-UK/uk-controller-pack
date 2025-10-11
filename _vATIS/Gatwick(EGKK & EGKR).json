@@ -275,227 +275,82 @@
           "name": "Runway 26L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26L (Delivery Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26L (Delivery and Ground Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26L (Delivery, Ground and Tower Closed)",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26L.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08R",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08R (Delivery Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08R (Delivery and Ground Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08R (Delivery, Ground and Tower Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08R.\r\n[TL].\r\nILS APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."        },
         {
           "name": "Runway 26R",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26R (Delivery Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26R (Delivery and Ground Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 26R (Delivery, Ground and Tower Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^26R.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08L",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nDEPARTURE FLIGHT CREWS MUST REPORT READY WITH GATWICK DELIVERY ON 121.955.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08L (Delivery Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08L (Delivery and Ground Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK TOWER 124.230.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 08L (Delivery, Ground and Tower Closed)",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08L.\r\nTHIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR.\r\n[TL].\r\nRNP APPROACH TO BE EXPECTED.\r\nGATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON GATWICK DIRECTOR 126.825.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -861,91 +716,37 @@
           "name": "Runway 07L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 25R",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 07R",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 25L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 18",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^18.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^18.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "Runway 36",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^36.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^36.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
