@@ -138,23 +138,29 @@ class UpdaterApp:
         url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/{base_tag}...{head_tag}"
         response = self.session.get(url, timeout=(5, 30))
         response.raise_for_status()
-        changed = response.json()["files"]
+        changed = response.json().get("files", []) or []
 
         updated_files = []
         removed_files = []
         prf_modified = False
 
         for f in changed:
-            path = f["filename"]
-            status = f["status"]
+            path = f.get("filename", "")
+            status = (f.get("status") or "").lower()
+            prev = f.get("previous_filename")
 
             if not path.startswith("UK/"):
                 continue
 
-            if status in ("added", "modified"):
+            if status in ("added", "modified", "renamed", "copied", "changed"):
                 updated_files.append(path)
+
+                if status == "renamed" and prev and prev.startswith("UK/"):
+                    removed_files.append(prev)
+
                 if path.endswith(".prf"):
                     prf_modified = True
+
             elif status == "removed":
                 removed_files.append(path)
 
