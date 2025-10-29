@@ -38,6 +38,16 @@ jobs:
           echo "${{ steps.get_release_tag.outputs.tag }}" > UK/version.txt
           echo "Updated UK/version.txt with ${{ steps.get_release_tag.outputs.tag }}"
 
+      - name: 🧩 Commit version.txt update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "privileged-access@vatsim.uk"
+          git config user.name "VATSIM UK Bot"
+          git add UK/version.txt
+          git commit -m "Update version.txt to ${{ steps.get_release_tag.outputs.tag }}" || echo "No changes to commit"
+          git push origin HEAD:${{ github.ref_name }}
+
       - name: 🔍 Get Release SHA
         id: set_release_sha
         run: |
