@@ -1,6 +1,7 @@
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2511) - Removed danger area EGD215 - thanks to @lyraongithub
+3. Bug - Fixed updater not downloading changed, renamed or copied files - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2025/09 to 2025/10
 1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
