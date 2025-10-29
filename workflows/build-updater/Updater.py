@@ -272,6 +272,7 @@ class UpdaterApp:
                 if prf_modified:
                     self.log("\n⚠️ One or more Profile Files were updated.")
                     self.root.after(0, self.prompt_run_configurator)
+                    self.root.after(0, self.offer_gng_prompt)
 
             except Exception as e:
                 self.log(f"Update failed: {e}")
@@ -312,56 +313,67 @@ class UpdaterApp:
     messagebox.showinfo("GNG Import", "GNG navdata import complete.")
     self.log("GNG: Import complete.")
 
-def import_gng_zip(self, zip_path):
-    self.log(f"GNG: Reading {zip_path}")
-    os.makedirs(DATAFILES_DIR, exist_ok=True)
-    os.makedirs(VSMR_DIR, exist_ok=True)
+    def import_gng_zip(self, zip_path):
+        self.log(f"GNG: Reading {zip_path}")
+        os.makedirs(DATAFILES_DIR, exist_ok=True)
+        os.makedirs(VSMR_DIR, exist_ok=True)
+    
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            names = zf.namelist()
+            # build a case-insensitive lookup by basename
+            lower_map = {}
+            for n in names:
+                base = os.path.basename(n).lower()
+                if base:
+                    lower_map.setdefault(base, []).append(n)
+    
+            extracted, missing = [], []
+    
+            for target_basename, accepted_set in GNG_REQUIRED.items():
+                found_fullname = None
+                for candidate in accepted_set:
+                    paths = lower_map.get(candidate)
+                    if paths:
+                        found_fullname = sorted(paths, key=len)[0]  # prefer shortest path
+                        break
+    
+                if not found_fullname:
+                    missing.append(target_basename)
+                    continue
+    
+                dst = os.path.join(DATAFILES_DIR, target_basename)
+                with zf.open(found_fullname) as src, open(dst, "wb") as out:
+                    out.write(src.read())
+                self.log(f"GNG: {found_fullname} → {dst}")
+                extracted.append(target_basename)
+    
+                # also copy airlines list to vSMR
+                if target_basename.lower() == "icao_airlines.txt":
+                    vsmr_dst = os.path.join(VSMR_DIR, "ICAO_Airlines.txt")
+                    try:
+                        with open(dst, "rb") as src, open(vsmr_dst, "wb") as out2:
+                            out2.write(src.read())
+                        self.log(f"GNG: Copied ICAO_Airlines.txt → {vSMR_DIR}")
+                    except Exception as e:
+                        self.log(f"GNG: Failed to copy ICAO_Airlines.txt to vSMR: {e}")
+    
+            if missing:
+                self.log(f"GNG: Missing expected files: {', '.join(missing)}")
+    
+            # sanity: make sure it looks like a proper package
+            if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
+                raise RuntimeError("ZIP does not look like a valid GNG navdata package (core files missing).")
 
-    with zipfile.ZipFile(zip_path, "r") as zf:
-        names = zf.namelist()
-        # build a case-insensitive lookup by basename
-        lower_map = {}
-        for n in names:
-            base = os.path.basename(n).lower()
-            if base:
-                lower_map.setdefault(base, []).append(n)
-
-        extracted, missing = [], []
-
-        for target_basename, accepted_set in GNG_REQUIRED.items():
-            found_fullname = None
-            for candidate in accepted_set:
-                paths = lower_map.get(candidate)
-                if paths:
-                    found_fullname = sorted(paths, key=len)[0]  # prefer shortest path
-                    break
-
-            if not found_fullname:
-                missing.append(target_basename)
-                continue
-
-            dst = os.path.join(DATAFILES_DIR, target_basename)
-            with zf.open(found_fullname) as src, open(dst, "wb") as out:
-                out.write(src.read())
-            self.log(f"GNG: {found_fullname} → {dst}")
-            extracted.append(target_basename)
-
-            # also copy airlines list to vSMR
-            if target_basename.lower() == "icao_airlines.txt":
-                vsmr_dst = os.path.join(VSMR_DIR, "ICAO_Airlines.txt")
-                try:
-                    with open(dst, "rb") as src, open(vsmr_dst, "wb") as out2:
-                        out2.write(src.read())
-                    self.log(f"GNG: Copied ICAO_Airlines.txt → {vSMR_DIR}")
-                except Exception as e:
-                    self.log(f"GNG: Failed to copy ICAO_Airlines.txt to vSMR: {e}")
-
-        if missing:
-            self.log(f"GNG: Missing expected files: {', '.join(missing)}")
-
-        # sanity: make sure it looks like a proper package
-        if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
-            raise RuntimeError("ZIP does not look like a valid GNG navdata package (core files missing).")
+    def offer_gng_prompt(self):
+    try:
+        if messagebox.askyesno(
+            "Navdata (GNG)",
+            "Do you also want to update navdata now?\n\nThis will open the Aeronav GNG page so you can sign in and download the ZIP, then I'll import it."
+        ):
+            # run the threaded version so the UI stays responsive
+            self.start_gng_flow()
+    except Exception as e:
+        self.log(f"GNG prompt failed: {e}")
 
 
 # --- Launch GUI ---
