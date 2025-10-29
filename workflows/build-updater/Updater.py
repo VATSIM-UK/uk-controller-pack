@@ -68,6 +68,15 @@ def normalize_version(vstr):
             norm.append(part.lower())
     return tuple(norm)
 
+def set_window_icon(root):
+    try:
+        icon_path = resource_path('workflows/build-updater/logo.ico')
+        if os.path.exists(icon_path):
+            root.iconbitmap(icon_path)
+    except Exception:
+        pass
+
+
 
 class UpdaterApp:
     def __init__(self, root):
@@ -84,11 +93,18 @@ class UpdaterApp:
         self.root.title("UK Controller Pack Updater")
         self.root.geometry("720x460")
         self.root.resizable(True, True)
+        set_window_icon(self.root)
 
         use_azure_theme(self.root, mode="dark")
-
-        self.log_box = ScrolledText(root, width=80, height=20, state='disabled', bg="#f4f4f4")
-        self.log_box.pack(padx=10, pady=10)
+        container = ttk.Frame(root)
+        container.pack(padx=10, pady=10, fill="both", expand=True)
+        
+        self.log_box = tk.Text(container, wrap="word", state="disabled", relief="flat", highlightthickness=0)
+        self.log_box.pack(side="left", fill="both", expand=True)
+        
+        sb = ttk.Scrollbar(container, orient="vertical", command=self.log_box.yview)
+        sb.pack(side="right", fill="y")
+        self.log_box.configure(yscrollcommand=sb.set)
 
         self.update_button = ttk.Button(root, text="Check for Updates", command=self.start_update)
         self.update_button.pack(pady=(0, 10))
@@ -274,11 +290,11 @@ class UpdaterApp:
                 # --- Update the Updater.exe first, if present ---
                 for p in updated_files:
                     if os.path.normcase(p) == os.path.normcase("UK/Updater.exe"):
-                    self.log("Updater.exe changed in this release — updating myself first.")
-                    url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{latest_ver}/{p}"
-                    tmp_new = self._download_to_temp(url, temp_name="Updater_new.exe")
-                    self._swap_running_updater(tmp_new)
-                    return  # old process exits; new Updater will continue the update
+                        self.log("Updater.exe changed in this release — updating myself first.")
+                        url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{latest_ver}/{p}"
+                        tmp_new = self._download_to_temp(url, temp_name="Updater_new.exe")
+                        self._swap_running_updater(tmp_new)
+                        return  # old process exits; new Updater will continue the update
 
 
                 for file in updated_files:
@@ -430,24 +446,24 @@ class UpdaterApp:
         bat_path = Path(tempfile.gettempdir()) / "ukcp_swap_updater.bat"
         current_exe = os.path.abspath(sys.argv[0])
         bat = rf"""
-    @echo off
-    setlocal
-    set CURR={current_exe}
-    set NEW={new_exe_path}
-    
-    echo Waiting for Updater to close...
-    :wait
-    ( >nul 2>&1 ( type "%CURR%" ) ) && ( timeout /t 1 /nobreak >nul & goto wait )
-    
-    copy /y "%NEW%" "%CURR%" >nul
-    if errorlevel 1 (
-      echo Copy failed.
-      exit /b 1
-    )
-    
-    start "" "%CURR%"
-    exit /b 0
-    """
+@echo off
+setlocal
+set CURR={current_exe}
+set NEW={new_exe_path}
+
+echo Waiting for Updater to close...
+:wait
+( >nul 2>&1 ( type "%CURR%" ) ) && ( timeout /t 1 /nobreak >nul & goto wait )
+
+copy /y "%NEW%" "%CURR%" >nul
+if errorlevel 1 (
+  echo Copy failed.
+  exit /b 1
+)
+
+start "" "%CURR%"
+exit /b 0
+"""
         bat_path.write_text(bat.strip() + "\n", encoding="utf-8")
         subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
         self.log("Updater replaced — restarting…")
