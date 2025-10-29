@@ -85,6 +85,8 @@ class UpdaterApp:
         self.root.geometry("720x460")
         self.root.resizable(True, True)
 
+        use_azure_theme(self.root, mode="dark")
+
         self.log_box = ScrolledText(root, width=80, height=20, state='disabled', bg="#f4f4f4")
         self.log_box.pack(padx=10, pady=10)
 
@@ -95,7 +97,6 @@ class UpdaterApp:
         self._q = queue.Queue()
         self.root.after(50, self._drain_log_queue)
         self.session = self._make_session()
-        use_azure_theme(self.root, mode="dark")
 
     def log(self, message):
         self._q.put(str(message))
