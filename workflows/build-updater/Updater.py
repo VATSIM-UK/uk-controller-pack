@@ -296,10 +296,15 @@ class UpdaterApp:
         except Exception as e:
             self.log(f"GNG: Failed to open browser: {e}")
 
+        # Try to open directly in the user's Downloads folder
+        downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
+
         zip_path = filedialog.askopenfilename(
+            initialdir=downloads_dir,
             title="Select the downloaded GNG navdata ZIP",
             filetypes=[("ZIP archives", "*.zip"), ("All files", "*.*")]
         )
+
         if not zip_path:
             self.log("GNG: No file selected.")
             return
