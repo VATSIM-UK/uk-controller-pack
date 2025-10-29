@@ -91,7 +91,7 @@ class UpdaterApp:
             pass
         self.root = root
         self.root.title("UK Controller Pack Updater")
-        self.root.geometry("720x460")
+        self.root.geometry("720x520")
         self.root.resizable(True, True)
         set_window_icon(self.root)
 

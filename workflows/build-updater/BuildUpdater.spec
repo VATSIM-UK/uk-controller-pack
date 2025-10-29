@@ -19,7 +19,9 @@ SCRIPT = RR('workflows', 'build-updater', 'Updater.py')
 if not os.path.isfile(SCRIPT):
     raise SystemExit(f"[spec] Updater.py missing: {SCRIPT}")
 
-datas = [(RR('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater')]
+datas = [(RR('workflows', 'build-updater', 'azure.tcl'), 'workflows/build-updater'),
+        (RR('workflows', 'build-updater', 'logo.ico'),  'workflows/build-updater'),
+]
 theme_src = RR('workflows', 'build-updater', 'theme')
 if os.path.isdir(theme_src):
     datas.append((theme_src, 'workflows/build-updater/theme'))
