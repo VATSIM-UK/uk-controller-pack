@@ -22,8 +22,8 @@ REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
 LOCAL_VERSION_FILE = "version.txt"
 AERONAV_URL = "https://files.aero-nav.com/EGXX"
-DATAFILES_DIR = os.path.join("UK", "Data", "Datafiles")
-VSMR_DIR = os.path.join("UK", "Data", "Plugin", "vSMR")
+DATAFILES_DIR = os.path.join("Data", "Datafiles")
+VSMR_DIR = os.path.join("Data", "Plugin", "vSMR")
 
 # target basename -> accepted source basenames (lowercased) found inside the ZIP
 GNG_REQUIRED = {
