@@ -269,10 +269,11 @@ class UpdaterApp:
                 self.set_local_version(latest_ver)
                 self.log(f"\nUpdate complete: now on {REPO_OWNER}/{REPO_NAME} version {latest_ver} (released {release_date})")
 
+                self.root.after(0, self.offer_gng_prompt)
+
                 if prf_modified:
                     self.log("\n⚠️ One or more Profile Files were updated.")
                     self.root.after(0, self.prompt_run_configurator)
-                    self.root.after(0, self.offer_gng_prompt)
 
             except Exception as e:
                 self.log(f"Update failed: {e}")
