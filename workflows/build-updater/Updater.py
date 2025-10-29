@@ -132,7 +132,7 @@ class UpdaterApp:
             total=5,
             backoff_factor=0.5,
             status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=None
+            allowed_methods={"GET", "HEAD", "OPTIONS"},
         )
         s.mount("https://", HTTPAdapter(max_retries=retry))
         return s
