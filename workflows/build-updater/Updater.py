@@ -281,37 +281,37 @@ class UpdaterApp:
 
 
     def gng_update_flow(self):
-    self.log("GNG: Do you want to update navdata (requires VATSIM SSO login)?")
-    if not messagebox.askyesno(
-        "GNG Navdata",
-        "Open Aeronav GNG download page?\n\nSign in, download the .zip, then select it."
-    ):
-        self.log("GNG: User cancelled.")
-        return
+        self.log("GNG: Do you want to update navdata (requires VATSIM SSO login)?")
+        if not messagebox.askyesno(
+            "GNG Navdata",
+            "Open Aeronav GNG download page?\n\nSign in, download the .zip, then select it."
+        ):
+            self.log("GNG: User cancelled.")
+            return
 
-    try:
-        webbrowser.open(AERONAV_URL, new=1)
-        self.log(f"GNG: Opened {AERONAV_URL}")
-    except Exception as e:
-        self.log(f"GNG: Failed to open browser: {e}")
+        try:
+            webbrowser.open(AERONAV_URL, new=1)
+            self.log(f"GNG: Opened {AERONAV_URL}")
+        except Exception as e:
+            self.log(f"GNG: Failed to open browser: {e}")
 
-    zip_path = filedialog.askopenfilename(
-        title="Select the downloaded GNG navdata ZIP",
-        filetypes=[("ZIP archives", "*.zip"), ("All files", "*.*")]
-    )
-    if not zip_path:
-        self.log("GNG: No file selected.")
-        return
+        zip_path = filedialog.askopenfilename(
+            title="Select the downloaded GNG navdata ZIP",
+            filetypes=[("ZIP archives", "*.zip"), ("All files", "*.*")]
+        )
+        if not zip_path:
+            self.log("GNG: No file selected.")
+            return
 
-    try:
-        self.import_gng_zip(zip_path)
-    except Exception as e:
-        self.log(f"GNG: Import failed: {e}")
-        messagebox.showerror("GNG Import", f"Import failed:\n{e}")
-        return
+        try:
+            self.import_gng_zip(zip_path)
+        except Exception as e:
+            self.log(f"GNG: Import failed: {e}")
+            messagebox.showerror("GNG Import", f"Import failed:\n{e}")
+            return
 
-    messagebox.showinfo("GNG Import", "GNG navdata import complete.")
-    self.log("GNG: Import complete.")
+        messagebox.showinfo("GNG Import", "GNG navdata import complete.")
+        self.log("GNG: Import complete.")
 
     def import_gng_zip(self, zip_path):
         self.log(f"GNG: Reading {zip_path}")
@@ -365,15 +365,15 @@ class UpdaterApp:
                 raise RuntimeError("ZIP does not look like a valid GNG navdata package (core files missing).")
 
     def offer_gng_prompt(self):
-    try:
-        if messagebox.askyesno(
-            "Navdata (GNG)",
-            "Do you also want to update navdata now?\n\nThis will open the Aeronav GNG page so you can sign in and download the ZIP, then I'll import it."
-        ):
-            # run the threaded version so the UI stays responsive
-            self.start_gng_flow()
-    except Exception as e:
-        self.log(f"GNG prompt failed: {e}")
+        try:
+            if messagebox.askyesno(
+                "Navdata (GNG)",
+                "Do you also want to update navdata now?\n\nThis will open the Aeronav GNG page so you can sign in and download the ZIP, then I'll import it."
+            ):
+                # run the threaded version so the UI stays responsive
+                self.start_gng_flow()
+        except Exception as e:
+            self.log(f"GNG prompt failed: {e}")
 
 
 # --- Launch GUI ---
