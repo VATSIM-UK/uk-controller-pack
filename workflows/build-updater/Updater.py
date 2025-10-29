@@ -15,6 +15,8 @@ import queue
 from urllib3.util.retry import Retry
 import webbrowser
 import zipfile
+import tempfile
+from pathlib import Path
 
 
 # --- Configuration ---
@@ -69,6 +71,15 @@ def normalize_version(vstr):
 
 class UpdaterApp:
     def __init__(self, root):
+        # cleanup any leftover swap artifacts
+        try:
+            tmp = Path(tempfile.gettempdir())
+            for f in ["Updater_new.exe", "ukcp_swap_updater.bat", "Updater_old.exe"]:
+                p = tmp / f
+                if p.exists():
+                    p.unlink()
+        except Exception:
+            pass
         self.root = root
         self.root.title("UK Controller Pack Updater")
         self.root.geometry("720x460")
@@ -259,6 +270,16 @@ class UpdaterApp:
             try:
                 updated_files, removed_files, prf_modified = self.get_changed_files(local_ver, latest_ver)
 
+                # --- Update the Updater.exe first, if present ---
+                for p in updated_files:
+                    if os.path.normcase(p) == os.path.normcase("UK/Updater.exe"):
+                    self.log("Updater.exe changed in this release — updating myself first.")
+                    url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{latest_ver}/{p}"
+                    tmp_new = self._download_to_temp(url, temp_name="Updater_new.exe")
+                    self._swap_running_updater(tmp_new)
+                    return  # old process exits; new Updater will continue the update
+
+
                 for file in updated_files:
                     self.log(f"Updating {file}")
                     self.download_file(latest_ver, file)
@@ -380,6 +401,56 @@ class UpdaterApp:
                 self.start_gng_flow()
         except Exception as e:
             self.log(f"GNG prompt failed: {e}")
+
+    def _download_to_temp(self, url: str, temp_name: str = "Updater_new.exe") -> str:
+        tmp_dir = Path(tempfile.gettempdir())
+        tmp = tmp_dir / temp_name
+
+        # Cleanup any previous temp artifacts
+        for f in ["Updater_new.exe", "ukcp_swap_updater.bat"]:
+            try:
+                p = tmp_dir / f
+                if p.exists():
+                    p.unlink()
+            except Exception:
+                pass
+
+        # Download new file
+        r = self.session.get(url, timeout=(10, 120))
+        r.raise_for_status()
+        with open(tmp, "wb") as f:
+            f.write(r.content)
+        self.log(f"Downloaded new Updater → {tmp}")
+        return str(tmp)
+
+    
+    def _swap_running_updater(self, new_exe_path: str):
+        """Wait for current EXE to close, copy new EXE over it, then relaunch."""
+        bat_path = Path(tempfile.gettempdir()) / "ukcp_swap_updater.bat"
+        current_exe = os.path.abspath(sys.argv[0])
+        bat = rf"""
+    @echo off
+    setlocal
+    set CURR={current_exe}
+    set NEW={new_exe_path}
+    
+    echo Waiting for Updater to close...
+    :wait
+    ( >nul 2>&1 ( type "%CURR%" ) ) && ( timeout /t 1 /nobreak >nul & goto wait )
+    
+    copy /y "%NEW%" "%CURR%" >nul
+    if errorlevel 1 (
+      echo Copy failed.
+      exit /b 1
+    )
+    
+    start "" "%CURR%"
+    exit /b 0
+    """
+        bat_path.write_text(bat.strip() + "\n", encoding="utf-8")
+        subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
+        self.log("Updater replaced — restarting…")
+        self.root.after(150, self.root.quit)
 
 
 # --- Launch GUI ---
