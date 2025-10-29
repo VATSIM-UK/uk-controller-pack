@@ -4,6 +4,7 @@
 3. Bug - Fixed updater not downloading changed, renamed or copied files - thanks to @luke11brown (Luke Brown)
 4. Enhancement - Updater now assists user in downloading/updating Aeronav GNG navdata - thanks to @luke11brown (Luke Brown)
 5. Enhancement - Updater is able to update itself - thanks to @luke11brown (Luke Brown)
+6. Enhancement - Updated vSMR to v1.6.5 (acknowledgements to PDC requests and responses) - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/09 to 2025/10
 1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
