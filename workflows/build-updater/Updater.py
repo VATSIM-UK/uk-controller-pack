@@ -397,7 +397,7 @@ class UpdaterApp:
                     try:
                         with open(dst, "rb") as src, open(vsmr_dst, "wb") as out2:
                             out2.write(src.read())
-                        self.log(f"GNG: Copied ICAO_Airlines.txt → {vSMR_DIR}")
+                        self.log(f"GNG: Copied ICAO_Airlines.txt → {VSMR_DIR}")
                     except Exception as e:
                         self.log(f"GNG: Failed to copy ICAO_Airlines.txt to vSMR: {e}")
     
@@ -442,18 +442,27 @@ class UpdaterApp:
 
     
     def _swap_running_updater(self, new_exe_path: str):
-        """Wait for current EXE to close, copy new EXE over it, then relaunch."""
+        import tempfile, os, subprocess
+        from pathlib import Path
+
         bat_path = Path(tempfile.gettempdir()) / "ukcp_swap_updater.bat"
         current_exe = os.path.abspath(sys.argv[0])
+        pid = os.getpid()
+
         bat = rf"""
 @echo off
 setlocal
 set CURR={current_exe}
 set NEW={new_exe_path}
+set PID={pid}
 
-echo Waiting for Updater to close...
+echo Waiting for Updater (PID %PID%) to exit...
 :wait
-( >nul 2>&1 ( type "%CURR%" ) ) && ( timeout /t 1 /nobreak >nul & goto wait )
+tasklist /FI "PID eq %PID%" | find "%PID%" >nul
+if %ERRORLEVEL%==0 (
+  timeout /t 1 /nobreak >nul
+  goto wait
+)
 
 copy /y "%NEW%" "%CURR%" >nul
 if errorlevel 1 (
@@ -465,9 +474,17 @@ start "" "%CURR%"
 exit /b 0
 """
         bat_path.write_text(bat.strip() + "\n", encoding="utf-8")
+
+        # Launch the swap script
         subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
-        self.log("Updater replaced — restarting…")
-        self.root.after(150, self.root.quit)
+
+        # Hard-exit the current process so the PID disappears immediately
+        try:
+            .root.quit()
+            self.root.destroy()
+        except Exception:
+            pass
+        os._exit(0)
 
 
 # --- Launch GUI ---
