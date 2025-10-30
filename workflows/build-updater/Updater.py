@@ -7,7 +7,6 @@ import subprocess
 import threading
 import tkinter as tk
 from tkinter import messagebox
-from tkinter.scrolledtext import ScrolledText
 from tkinter import ttk
 from tkinter import filedialog
 import re
@@ -113,6 +112,7 @@ class UpdaterApp:
         self._q = queue.Queue()
         self.root.after(50, self._drain_log_queue)
         self.session = self._make_session()
+        self.base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
     def log(self, message):
         self._q.put(str(message))
@@ -234,7 +234,8 @@ class UpdaterApp:
         response = self.session.get(url, timeout=(5, 30))
         response.raise_for_status()
 
-        local_path = self.get_local_path(filepath)
+        local_rel = self.get_local_path(filepath)
+        local_path = os.path.join(self.base_dir, local_rel)
         dir_path = os.path.dirname(local_path)
         if dir_path:
             os.makedirs(dir_path, exist_ok=True)
@@ -244,7 +245,8 @@ class UpdaterApp:
         self.log(f"Downloaded {filepath} → {local_path}")
 
     def delete_file(self, filepath):
-        local_path = self.get_local_path(filepath)
+        local_rel = self.get_local_path(filepath)
+        local_path = os.path.join(self.base_dir, local_rel)
         if os.path.exists(local_path):
             os.remove(local_path)
             self.log(f"Deleted {local_path}")
@@ -408,6 +410,7 @@ class UpdaterApp:
             if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
                 raise RuntimeError("ZIP does not look like a valid GNG navdata package (core files missing).")
 
+
     def offer_gng_prompt(self):
         try:
             if messagebox.askyesno(
@@ -419,53 +422,71 @@ class UpdaterApp:
         except Exception as e:
             self.log(f"GNG prompt failed: {e}")
 
+
     def _download_to_temp(self, url: str, temp_name: str = "Updater_new.exe") -> str:
         tmp_dir = Path(tempfile.gettempdir())
-        tmp = tmp_dir / temp_name
-
-        # Cleanup any previous temp artifacts
-        for f in ["Updater_new.exe", "ukcp_swap_updater.bat"]:
+        dst = tmp_dir / temp_name
+    
+        # Clean previous
+        for f in ("Updater_new.exe",):
+            p = tmp_dir / f
             try:
-                p = tmp_dir / f
                 if p.exists():
                     p.unlink()
             except Exception:
                 pass
-
-        # Download new file
-        r = self.session.get(url, timeout=(10, 120))
+    
+        # Stream download + content-length
+        r = self.session.get(url, timeout=(15, 180), stream=True)
         r.raise_for_status()
-        with open(tmp, "wb") as f:
-            f.write(r.content)
-        self.log(f"Downloaded new Updater → {tmp}")
-        return str(tmp)
+        expected = int(r.headers.get("Content-Length", "0") or "0")
+    
+        with open(dst, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 19):  # 512KB
+                if chunk:
+                    f.write(chunk)
+    
+        actual = dst.stat().st_size
+    
+        # Sanity: PyInstaller one-file EXEs are usually > 5 MB
+        if actual < 5_000_000:
+            raise RuntimeError(f"Updater download too small ({actual} bytes)")
+    
+        # If server provided Content-Length, make sure it matches
+        if expected and actual != expected:
+            raise RuntimeError(f"Updater download size mismatch: got {actual}, expected {expected}")
+    
+        self.log(f"Downloaded new Updater → {dst} ({actual} bytes)")
+        return str(dst)
 
     
     def _swap_running_updater(self, new_exe_path: str):
-    
         tmpdir = Path(tempfile.gettempdir())
         bat_path = tmpdir / "ukcp_swap_updater.bat"
         log_path = tmpdir / "ukcp_swap.log"
         current_exe = os.path.abspath(sys.argv[0])
         pid = os.getpid()
     
-        # Batch script — must start with no indentation
+        # Keep a backup in case launch fails repeatedly
+        backup_exe = tmpdir / "Updater_old.exe"
+    
         bat = rf"""@echo off
 setlocal EnableExtensions EnableDelayedExpansion
 set "LOG={log_path}"
 echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
 set "CURR={current_exe}"
 set "NEW={new_exe_path}"
+set "BACKUP={backup_exe}"
 set PID={pid}
 
-rem Resolve current exe directory for correct working directory
 for %%I in ("%CURR%") do set "CURRDIR=%%~dpI"
+
 echo CURR="%CURR%" >> "%LOG%"
 echo NEW ="%NEW%"  >> "%LOG%"
 echo CURRDIR="%CURRDIR%" >> "%LOG%"
 echo PID=%PID% >> "%LOG%"
 
-echo Waiting for Updater (PID %PID%) to exit... >> "%LOG%"
+rem Wait for the running process to exit
 :wait
 tasklist /FI "PID eq %PID%" | find "%PID%" >nul
 if %ERRORLEVEL%==0 (
@@ -473,7 +494,10 @@ if %ERRORLEVEL%==0 (
   goto wait
 )
 
-rem Retry copy (AV can still hold the file briefly)
+rem Best-effort backup
+copy /y "%CURR%" "%BACKUP%" >nul
+
+rem Retry copy (AV can hold the file briefly)
 set tries=0
 :copyloop
 set /a tries+=1
@@ -489,26 +513,46 @@ if errorlevel 1 (
 )
 echo Copy succeeded after !tries! tries >> "%LOG%"
 
-rem Launch with correct working directory
+rem Try to launch the new Updater a few times (AV may still be scanning)
+set ltries=0
+:launchloop
+set /a ltries+=1
 pushd "%CURRDIR%"
 start "" "%CURR%"
 popd
 
-echo Relaunched. >> "%LOG%"
-exit /b 0
+rem Wait a moment and check if any Updater.exe is running
+timeout /t 3 /nobreak >nul
+tasklist /FI "IMAGENAME eq Updater.exe" | find /I "Updater.exe" >nul
+if %ERRORLEVEL%==0 (
+  echo Relaunched successfully on try !ltries! >> "%LOG%"
+  exit /b 0
+) else (
+  if !ltries! lss 5 (
+    echo Launch failed (attempt !ltries!), retrying... >> "%LOG%"
+    timeout /t 2 /nobreak >nul
+    goto launchloop
+  ) else (
+    echo Launch failed after !ltries! attempts. Restoring backup... >> "%LOG%"
+    copy /y "%BACKUP%" "%CURR%" >nul
+    pushd "%CURRDIR%"
+    start "" "%CURR%"
+    popd
+    exit /b 1
+  )
+)
 """
-        # Write the BAT file to temp and run it
         bat_path.write_text(bat, encoding="utf-8")
     
+        # Run the swapper and terminate this process so the PID disappears immediately
         subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
-    
-        # Quit and terminate the current process cleanly
         try:
             self.root.quit()
             self.root.destroy()
         except Exception:
             pass
         os._exit(0)
+    
 
 
 # --- Launch GUI ---
