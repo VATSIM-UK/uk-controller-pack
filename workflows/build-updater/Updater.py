@@ -442,21 +442,24 @@ class UpdaterApp:
 
     
     def _swap_running_updater(self, new_exe_path: str):
-        bat_path = Path(tempfile.gettempdir()) / "ukcp_swap_updater.bat"
+    
+        tmpdir = Path(tempfile.gettempdir())
+        bat_path = tmpdir / "ukcp_swap_updater.bat"
+        log_path = tmpdir / "ukcp_swap.log"
         current_exe = os.path.abspath(sys.argv[0])
         pid = os.getpid()
-
-        bat = rf"""
-@echo off
+    
+        # Batch script — must start with no indentation
+        bat = rf"""@echo off
 setlocal EnableExtensions EnableDelayedExpansion
-set LOG={log_path}
+set "LOG={log_path}"
 echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
-set CURR={current_exe}
-set NEW={new_exe_path}
+set "CURR={current_exe}"
+set "NEW={new_exe_path}"
 set PID={pid}
 
 rem Resolve current exe directory for correct working directory
-for %%I in ("%CURR%") do set CURRDIR=%%~dpI
+for %%I in ("%CURR%") do set "CURRDIR=%%~dpI"
 echo CURR="%CURR%" >> "%LOG%"
 echo NEW ="%NEW%"  >> "%LOG%"
 echo CURRDIR="%CURRDIR%" >> "%LOG%"
@@ -470,13 +473,13 @@ if %ERRORLEVEL%==0 (
   goto wait
 )
 
-rem Retry copy
+rem Retry copy (AV can still hold the file briefly)
 set tries=0
 :copyloop
 set /a tries+=1
 copy /y "%NEW%" "%CURR%" >nul
 if errorlevel 1 (
-  if !tries! lss 10 (
+  if !tries! lss 20 (
     timeout /t 1 /nobreak >nul
     goto copyloop
   ) else (
@@ -494,10 +497,12 @@ popd
 echo Relaunched. >> "%LOG%"
 exit /b 0
 """
-        bat_path.write_text(bat.strip() + "\n", encoding="utf-8")
-
-        # Run the swapper and terminate this process so the PID disappears immediately
+        # Write the BAT file to temp and run it
+        bat_path.write_text(bat, encoding="utf-8")
+    
         subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
+    
+        # Quit and terminate the current process cleanly
         try:
             self.root.quit()
             self.root.destroy()
