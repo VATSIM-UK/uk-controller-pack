@@ -480,7 +480,7 @@ exit /b 0
 
         # Hard-exit the current process so the PID disappears immediately
         try:
-            .root.quit()
+            self.root.quit()
             self.root.destroy()
         except Exception:
             pass
