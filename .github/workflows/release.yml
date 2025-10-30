@@ -46,7 +46,7 @@ jobs:
           git config user.name "VATSIM UK Bot"
           git add UK/version.txt
           git commit -m "Update version.txt to ${{ steps.get_release_tag.outputs.tag }}" || echo "No changes to commit"
-          git push origin HEAD:${{ github.ref_name }}
+          git push origin HEAD:refs/heads/release-${{ steps.get_release_tag.outputs.tag }}
 
       - name: 🔍 Get Release SHA
         id: set_release_sha
