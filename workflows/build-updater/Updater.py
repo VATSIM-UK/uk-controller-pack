@@ -442,21 +442,27 @@ class UpdaterApp:
 
     
     def _swap_running_updater(self, new_exe_path: str):
-        import tempfile, os, subprocess
-        from pathlib import Path
-
         bat_path = Path(tempfile.gettempdir()) / "ukcp_swap_updater.bat"
         current_exe = os.path.abspath(sys.argv[0])
         pid = os.getpid()
 
         bat = rf"""
 @echo off
-setlocal
+setlocal EnableExtensions EnableDelayedExpansion
+set LOG={log_path}
+echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
 set CURR={current_exe}
 set NEW={new_exe_path}
 set PID={pid}
 
-echo Waiting for Updater (PID %PID%) to exit...
+rem Resolve current exe directory for correct working directory
+for %%I in ("%CURR%") do set CURRDIR=%%~dpI
+echo CURR="%CURR%" >> "%LOG%"
+echo NEW ="%NEW%"  >> "%LOG%"
+echo CURRDIR="%CURRDIR%" >> "%LOG%"
+echo PID=%PID% >> "%LOG%"
+
+echo Waiting for Updater (PID %PID%) to exit... >> "%LOG%"
 :wait
 tasklist /FI "PID eq %PID%" | find "%PID%" >nul
 if %ERRORLEVEL%==0 (
@@ -464,21 +470,34 @@ if %ERRORLEVEL%==0 (
   goto wait
 )
 
+rem Retry copy
+set tries=0
+:copyloop
+set /a tries+=1
 copy /y "%NEW%" "%CURR%" >nul
 if errorlevel 1 (
-  echo Copy failed.
-  exit /b 1
+  if !tries! lss 10 (
+    timeout /t 1 /nobreak >nul
+    goto copyloop
+  ) else (
+    echo Copy failed after !tries! tries >> "%LOG%"
+    exit /b 1
+  )
 )
+echo Copy succeeded after !tries! tries >> "%LOG%"
 
+rem Launch with correct working directory
+pushd "%CURRDIR%"
 start "" "%CURR%"
+popd
+
+echo Relaunched. >> "%LOG%"
 exit /b 0
 """
         bat_path.write_text(bat.strip() + "\n", encoding="utf-8")
 
-        # Launch the swap script
+        # Run the swapper and terminate this process so the PID disappears immediately
         subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
-
-        # Hard-exit the current process so the PID disappears immediately
         try:
             self.root.quit()
             self.root.destroy()
