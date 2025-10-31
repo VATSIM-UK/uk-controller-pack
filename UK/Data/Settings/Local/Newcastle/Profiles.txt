@@ -1,10 +1,10 @@
 PROFILE
 PROFILE:EGNT_GND:20:3
-ATIS2:Newcastle Ground
+ATIS2:Newcastle Ground | PDC [EGNT] GIRLI SID routes only
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNT_TWR:50:4
-ATIS2:Newcastle Tower
+ATIS2:Newcastle Tower | PDC [EGNT] GIRLI SID routes only
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGNT_APP:100:5
