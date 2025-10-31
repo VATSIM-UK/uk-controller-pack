@@ -1,14 +1,14 @@
 PROFILE
 PROFILE:EGSS_DEL:10:2
-ATIS2:Stansted Delivery
+ATIS2:Stansted Delivery | PDC [EGSS]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGSS
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGSS_GND:20:3
-ATIS2:Stansted Ground
+ATIS2:Stansted Ground | PDC [EGSS]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGSS
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGSS_TWR:50:4
-ATIS2:Stansted Tower
+ATIS2:Stansted Tower | PDC [EGSS]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGSS
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGSS_F_APP:100:5
