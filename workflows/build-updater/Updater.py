@@ -167,14 +167,16 @@ class UpdaterApp:
 
     def get_local_version(self):
         try:
-            with open(LOCAL_VERSION_FILE) as f:
+            path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
+            with open(path) as f:
                 return f.read().strip()
         except FileNotFoundError:
             self.log("version.txt not found. Assuming version 2025_01.")
             return "2025_01"
 
     def set_local_version(self, ver):
-        with open(LOCAL_VERSION_FILE, "w") as f:
+        path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
+        with open(path, "w") as f:
             f.write(ver)
 
     def get_latest_version(self):
@@ -246,6 +248,9 @@ class UpdaterApp:
 
     def delete_file(self, filepath):
         local_rel = self.get_local_path(filepath)
+        if os.path.normcase(local_rel) == os.path.normcase("Updater.exe"):
+            self.log("Skip delete: Updater.exe is running.")
+            return
         local_path = os.path.join(self.base_dir, local_rel)
         if os.path.exists(local_path):
             os.remove(local_path)
@@ -257,7 +262,7 @@ class UpdaterApp:
             message="One or more Profile Files were updated or added.\n\nDo you want to run the profile configuration tool now?"
         )
         if result:
-            configurator_path = os.path.join(os.path.dirname(sys.argv[0]), "Configurator.exe")
+            configurator_path = os.path.join(self.base_dir, "Configurator.exe")
             if os.path.exists(configurator_path):
                 try:
                     subprocess.Popen([configurator_path], shell=False)
@@ -361,8 +366,10 @@ class UpdaterApp:
 
     def import_gng_zip(self, zip_path):
         self.log(f"GNG: Reading {zip_path}")
-        os.makedirs(DATAFILES_DIR, exist_ok=True)
-        os.makedirs(VSMR_DIR, exist_ok=True)
+        datafiles_dir = os.path.join(self.base_dir, DATAFILES_DIR)
+        vsmr_dir      = os.path.join(self.base_dir, VSMR_DIR)
+        os.makedirs(datafiles_dir, exist_ok=True)
+        os.makedirs(vsmr_dir, exist_ok=True)
     
         with zipfile.ZipFile(zip_path, "r") as zf:
             names = zf.namelist()
@@ -387,7 +394,7 @@ class UpdaterApp:
                     missing.append(target_basename)
                     continue
     
-                dst = os.path.join(DATAFILES_DIR, target_basename)
+                dst = os.path.join(datafiles_dir, target_basename)
                 with zf.open(found_fullname) as src, open(dst, "wb") as out:
                     out.write(src.read())
                 self.log(f"GNG: {found_fullname} → {dst}")
@@ -395,7 +402,7 @@ class UpdaterApp:
     
                 # also copy airlines list to vSMR
                 if target_basename.lower() == "icao_airlines.txt":
-                    vsmr_dst = os.path.join(VSMR_DIR, "ICAO_Airlines.txt")
+                    vsmr_dst = os.path.join(vsmr_dir, "ICAO_Airlines.txt")
                     try:
                         with open(dst, "rb") as src, open(vsmr_dst, "wb") as out2:
                             out2.write(src.read())
@@ -467,17 +474,13 @@ class UpdaterApp:
         current_exe = os.path.abspath(sys.argv[0])
         pid = os.getpid()
     
-        # Keep a backup in case launch fails repeatedly
-        backup_exe = tmpdir / "Updater_old.exe"
-    
         bat = rf"""@echo off
 setlocal EnableExtensions EnableDelayedExpansion
 set "LOG={log_path}"
 echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
 set "CURR={current_exe}"
 set "NEW={new_exe_path}"
-set "BACKUP={backup_exe}"
-set PID={pid}
+set "PID={pid}"
 
 for %%I in ("%CURR%") do set "CURRDIR=%%~dpI"
 
@@ -493,9 +496,6 @@ if %ERRORLEVEL%==0 (
   timeout /t 1 /nobreak >nul
   goto wait
 )
-
-rem Best-effort backup
-copy /y "%CURR%" "%BACKUP%" >nul
 
 rem Retry copy (AV can hold the file briefly)
 set tries=0
@@ -513,45 +513,68 @@ if errorlevel 1 (
 )
 echo Copy succeeded after !tries! tries >> "%LOG%"
 
-rem Try to launch the new Updater a few times (AV may still be scanning)
-set ltries=0
-:launchloop
-set /a ltries+=1
-pushd "%CURRDIR%"
-start "" "%CURR%"
-popd
+rem Launch via PowerShell, capture new PID, and wait for it
+set "NEWPID_FILE=%TEMP%\ukcp_newpid.txt"
+del /f /q "%NEWPID_FILE%" >nul 2>&1
 
-rem Wait a moment and check if any Updater.exe is running
-timeout /t 3 /nobreak >nul
-tasklist /FI "IMAGENAME eq Updater.exe" | find /I "Updater.exe" >nul
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+  > "%NEWPID_FILE%" 2>> "%LOG%"
+
+set "NEWPID="
+for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+if not defined NEWPID (
+  echo Failed to obtain new PID >> "%LOG%"
+  goto launch_retry
+)
+
+echo New PID=%NEWPID% >> "%LOG%"
+
+set ltries=0
+:pid_wait
+set /a ltries+=1
+tasklist /FI "PID eq %NEWPID%" | find "%NEWPID%" >nul
 if %ERRORLEVEL%==0 (
   echo Relaunched successfully on try !ltries! >> "%LOG%"
   exit /b 0
 ) else (
-  if !ltries! lss 5 (
-    echo Launch failed (attempt !ltries!), retrying... >> "%LOG%"
+  if !ltries! lss 10 (
     timeout /t 2 /nobreak >nul
-    goto launchloop
+    goto pid_wait
   ) else (
-    echo Launch failed after !ltries! attempts. Restoring backup... >> "%LOG%"
-    copy /y "%BACKUP%" "%CURR%" >nul
-    pushd "%CURRDIR%"
-    start "" "%CURR%"
-    popd
+    echo Launch failed after !ltries! attempts >> "%LOG%"
     exit /b 1
   )
 )
+
+:launch_retry
+echo Launch failed (no PID), retrying a few times... >> "%LOG%"
+set ltries=0
+:retry_loop
+set /a ltries+=1
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+  > "%NEWPID_FILE%" 2>> "%LOG%"
+set "NEWPID="
+for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+if defined NEWPID goto pid_wait
+if !ltries! lss 5 (
+  timeout /t 2 /nobreak >nul
+  goto retry_loop
+)
+echo Launch failed after !ltries! manual attempts >> "%LOG%"
+exit /b 1
 """
-        bat_path.write_text(bat, encoding="utf-8")
-    
-        # Run the swapper and terminate this process so the PID disappears immediately
-        subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
-        try:
-            self.root.quit()
-            self.root.destroy()
-        except Exception:
-            pass
-        os._exit(0)
+    bat_path.write_text(bat, encoding="utf-8")
+
+    subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
+    try:
+        self.root.quit()
+        self.root.destroy()
+    except Exception:
+        pass
+    os._exit(0)
+
     
 
 
