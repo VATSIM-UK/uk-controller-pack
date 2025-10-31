@@ -530,19 +530,34 @@ if not defined NEWPID (
 
 echo New PID=%NEWPID% >> "%LOG%"
 
+rem --- verify the new process survives a few seconds ---
 set ltries=0
-:pid_wait
+:pid_survival_check
 set /a ltries+=1
+
+rem wait briefly, then check that PID still exists
+timeout /t 5 /nobreak >nul
 tasklist /FI "PID eq %NEWPID%" | find "%NEWPID%" >nul
 if %ERRORLEVEL%==0 (
-  echo Relaunched successfully on try !ltries! >> "%LOG%"
+  echo Relaunched successfully and still running (try !ltries!). >> "%LOG%"
   exit /b 0
 ) else (
-  if !ltries! lss 10 (
-    timeout /t 2 /nobreak >nul
-    goto pid_wait
+  if !ltries! lss 5 (
+    echo New process exited too soon (attempt !ltries!). Retrying launch... >> "%LOG%"
+    rem relaunch and recapture PID
+    set "NEWPID_FILE=%TEMP%\ukcp_newpid.txt"
+    del /f /q "%NEWPID_FILE%" >nul 2>&1
+    powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+      "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+      > "%NEWPID_FILE%" 2>> "%LOG%"
+    set "NEWPID="
+    for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+    if not defined NEWPID (
+      echo Failed to obtain new PID on retry. >> "%LOG%"
+    )
+    goto pid_survival_check
   ) else (
-    echo Launch failed after !ltries! attempts >> "%LOG%"
+    echo Launch failed repeatedly (process dies quickly). >> "%LOG%"
     exit /b 1
   )
 )
