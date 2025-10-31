@@ -8,15 +8,15 @@ ATIS2:Birmingham Radar
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGBB_TWR:30:4
-ATIS2:Birmingham Tower
+ATIS2:Birmingham Tower | PDC [EGBB]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGBB_GND:20:3
-ATIS2:Birmingham Ground
+ATIS2:Birmingham Ground | PDC [EGBB]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGBB_DEL:10:2
-ATIS2:Birmingham Delivery
+ATIS2:Birmingham Delivery | PDC [EGBB]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 END
