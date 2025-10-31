@@ -468,19 +468,19 @@ class UpdaterApp:
 
     
     def _swap_running_updater(self, new_exe_path: str):
-        tmpdir = Path(tempfile.gettempdir())
-        bat_path = tmpdir / "ukcp_swap_updater.bat"
-        log_path = tmpdir / "ukcp_swap.log"
-        current_exe = os.path.abspath(sys.argv[0])
-        pid = os.getpid()
+        tmpdir   = Path(tempfile.gettempdir())
+        bat_file = tmpdir / "ukcp_swap_updater.bat"
+        log_file = tmpdir / "ukcp_swap.log"
+        curr_exe = os.path.abspath(sys.argv[0])
+        curr_pid = os.getpid()
     
         bat = rf"""@echo off
 setlocal EnableExtensions EnableDelayedExpansion
-set "LOG={log_path}"
+set "LOG={log_file}"
 echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
-set "CURR={current_exe}"
+set "CURR={curr_exe}"
 set "NEW={new_exe_path}"
-set "PID={pid}"
+set "PID={curr_pid}"
 
 for %%I in ("%CURR%") do set "CURRDIR=%%~dpI"
 
@@ -565,17 +565,20 @@ if !ltries! lss 5 (
 echo Launch failed after !ltries! manual attempts >> "%LOG%"
 exit /b 1
 """
-    bat_path.write_text(bat, encoding="utf-8")
 
-    subprocess.Popen(["cmd", "/c", str(bat_path)], shell=False, close_fds=True)
-    try:
-        self.root.quit()
-        self.root.destroy()
-    except Exception:
-        pass
-    os._exit(0)
-
+        # Write the BAT file (Windows style newlines) and run it
+        with open(bat_file, "w", encoding="utf-8", newline="\r\n") as f:
+            f.write(bat)
     
+        subprocess.Popen(["cmd", "/c", str(bat_file)], shell=False, close_fds=True)
+    
+        # Terminate this process so the swapper can proceed
+        try:
+            self.root.quit()
+            self.root.destroy()
+        except Exception:
+            pass
+        os._exit(0)
 
 
 # --- Launch GUI ---
