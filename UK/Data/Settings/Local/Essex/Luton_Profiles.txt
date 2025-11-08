@@ -1,14 +1,14 @@
 PROFILE
 PROFILE:EGGW_TWR:50:4
-ATIS2:Luton Tower 
+ATIS2:Luton Tower | PDC [EGGW]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGGW
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGW_GND:20:3
-ATIS2:Luton Ground
+ATIS2:Luton Ground | PDC [EGGW]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGGW
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGW_DEL:20:2
-ATIS2:Luton Delivery
+ATIS2:Luton Delivery | PDC [EGGW]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGGW
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGGW_F_APP:100:5
