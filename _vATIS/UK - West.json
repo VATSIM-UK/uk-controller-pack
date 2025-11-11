@@ -337,7 +337,7 @@
       ]
     },
     {
-      "ordinal": 1,
+      "ordinal": 0,
       "identifier": "EGFF",
       "name": "Cardiff",
       "atisType": "Combined",
@@ -700,7 +700,7 @@
       ]
     },
     {
-      "ordinal": 2,
+      "ordinal": 0,
       "identifier": "EGTE",
       "name": "Exeter",
       "atisType": "Combined",
@@ -1038,7 +1038,7 @@
       ]
     },
     {
-      "ordinal": 3,
+      "ordinal": 0,
       "identifier": "EGJJ",
       "name": "Jersey",
       "atisType": "Combined",
@@ -1372,7 +1372,7 @@
       ]
     },
     {
-      "ordinal": 4,
+      "ordinal": 0,
       "identifier": "EGJB",
       "name": "Guernsey",
       "atisType": "Combined",
@@ -1706,7 +1706,7 @@
       ]
     },
     {
-      "ordinal": 5,
+      "ordinal": 0,
       "identifier": "EGBJ",
       "name": "Gloucestershire",
       "atisType": "Combined",
@@ -2111,7 +2111,7 @@
       ]
     },
     {
-      "ordinal": 6,
+      "ordinal": 0,
       "identifier": "EGGD",
       "name": "Bristol",
       "atisType": "Combined",
