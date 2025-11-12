@@ -4763,7 +4763,7 @@
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "enabled": "false"
+          "enabled": false
         },
         
         {
