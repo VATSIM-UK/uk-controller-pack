@@ -111,11 +111,12 @@ DEFAULT_FIELDS = {
     "coast_choice": "1",
     "land_choice": "1",
     "discord_presence": "n",
-    "vccs_ptt_scan_code": ""
+    "vccs_ptt_scan_code": "",
+    "rdf_enabled": "n"
 }
 
 BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
-ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
+ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "rdf_enabled"]
 
 def load_previous_options():
     if os.path.exists(OPTIONS_PATH):
@@ -411,6 +412,8 @@ def prompt_for_field(key, current):
     
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
+    elif key == "rdf_enabled":
+        return "y" if ask_yesno("Would you like to draw RDF circles?") else "n"
     elif key == "vccs_ptt_scan_code":
         return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key in ["realistic_tags", "realistic_conversion"]:
@@ -623,6 +626,8 @@ def apply_advanced_configuration(options):
     coast_colors = {"1": "9076039", "2": "5324604", "3": "32896"}
     land_colors = {"1": "3947580", "2": "1777181", "3": "8158332"}
 
+    rdf_enabled = options.get("rdf_enabled", "n") == "y"
+
     for root, _, files in os.walk("."):
         for file in files:
             path = os.path.join(root, file)
@@ -648,6 +653,9 @@ def apply_advanced_configuration(options):
                             elif options["realistic_tags"] == "y" and "-Easy" in line:
                                 line = line.replace("-Easy", "")
                     new_lines.append(line)
+
+                if rdf_enabled and not any("PLUGIN:RDF Plugin for Euroscope:EnableDraw:1" in l for l in new_lines):
+                    new_lines.append("PLUGIN:RDF Plugin for Euroscope:EnableDraw:1\n")
 
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
