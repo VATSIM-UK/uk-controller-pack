@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r workflows/airac/requirements.txt
 
-      - name: Update sector file and GNG data
+      - name: Update sector file
         env:
           REMOTE_KEY: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -37,7 +37,7 @@ jobs:
       - name: Commit changes
         run: |
           git add .
-          git diff --cached --quiet || git commit -m "Update sector file and GNG data"
+          git diff --cached --quiet || git commit -m "Update sector file"
 
       - name: Update SMR labels
         run: |

@@ -38,6 +38,16 @@ jobs:
           echo "${{ steps.get_release_tag.outputs.tag }}" > UK/version.txt
           echo "Updated UK/version.txt with ${{ steps.get_release_tag.outputs.tag }}"
 
+      - name: 🧩 Commit version.txt update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.email "privileged-access@vatsim.uk"
+          git config user.name "VATSIM UK Bot"
+          git add UK/version.txt
+          git commit -m "Update version.txt to ${{ steps.get_release_tag.outputs.tag }}" || echo "No changes to commit"
+          git push origin HEAD:refs/heads/release-${{ steps.get_release_tag.outputs.tag }}
+
       - name: 🔍 Get Release SHA
         id: set_release_sha
         run: |
@@ -262,7 +272,7 @@ jobs:
           LINK_FILE="docs/General/Software Downloads/Controller Pack & Sector File.md"
           sed -i '/^## Controller Pack Downloads/c\## Controller Pack Downloads - AIRAC '"${AIRAC_SHORT}"'' "$LINK_FILE"
           sed -i '/^- \[:link: UK Controller Pack\]/c\- [:link: UK Controller Pack](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.get_release_tag.outputs.tag }}/uk_controller_pack_${{ steps.get_release_tag.outputs.tag }}.zip) - Latest version including all files' "$LINK_FILE"
-          sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.tags.outputs.latest_tag }}/chnages_only_${{ steps.get_release_tag.outputs.tag }}.zip) - Download only the latest changes' "$LINK_FILE"
+          sed -i '/^- \[:link: UK Controller Pack Changes Only\]/c\- [:link: UK Controller Pack Changes Only](https://github.com/VATSIM-UK/uk-controller-pack/releases/download/${{ steps.tags.outputs.latest_tag }}/changes_only_${{ steps.get_release_tag.outputs.tag }}.zip) - Download only the latest changes' "$LINK_FILE"
 
       - name: 📂 [DOCS] Upload Pack Version File
         run: |
