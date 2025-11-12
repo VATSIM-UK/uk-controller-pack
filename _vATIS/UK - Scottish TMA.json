@@ -275,28 +275,28 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 23. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 05 (STC_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 05. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 23 (STC_W_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 23. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 05 (STC_W_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 05. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -617,28 +617,28 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 24. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^24.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 06 (STC_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^06.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 24 (STC_E_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 24. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^24.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 06 (STC_E_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^06.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -960,28 +960,28 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 25. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 07 (STC_A_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP OR VOR APPROACH TO RUNWAY 07. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO SEVEN. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 17 (STC_A_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 17. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^17.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 35 (STC_A_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT A VOR DME APPROACH TO RUNWAY 35. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 35. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^35.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -1293,14 +1293,14 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 22. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 04 (STC_A_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 04. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -1606,56 +1606,56 @@
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 30. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^30.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 12 (STC_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^12.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 20 (STC_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 20. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^20.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 02 (STC_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO TWO. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^02.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 30 (STC_W_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 30. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^30.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 12 (STC_W_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 12. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^12.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 20 (STC_W_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE 20. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^20.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 02 (STC_W_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY IN USE ZERO TWO. [TL]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^02.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
