@@ -1411,7 +1411,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 122680,
+      "frequency": 122680000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1791,7 +1791,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 136230,
+      "frequency": 136230000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2503,7 +2503,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 121880,
+      "frequency": 121880000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
