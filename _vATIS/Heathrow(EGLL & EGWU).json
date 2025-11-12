@@ -114,7 +114,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
           },
           "types": {
             "FEW": {
@@ -542,7 +542,7 @@
           },
           "automaticCbDetection": {
             "text": "//////CB",
-            "voice": "RADAR DETECTED C-B CLOUDS"
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
           },
           "types": {
             "FEW": {
