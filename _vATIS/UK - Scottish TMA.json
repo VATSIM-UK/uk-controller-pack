@@ -330,17 +330,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -672,17 +672,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1010,12 +1010,12 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1324,12 +1324,12 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1689,12 +1689,12 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]

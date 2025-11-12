@@ -331,32 +331,32 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
+          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
           "Enabled": false
         },
         {
           "Ordinal": 3,
-          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
+          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
           "Enabled": false
         },
         {
           "Ordinal": 4,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 5,
-          "text": ".PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
+          "text": "PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
           "enabled": false
         },
         {
           "ordinal": 6,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -650,28 +650,28 @@
         {
           "Name": "SRO 27R (LTC_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": ".SINGLE RUNWAY OPERATIONS.",
+          "Notams": "SINGLE RUNWAY OPERATIONS.",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 27R IN USE FOR DEPARTURE AND ARRIVAL. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE AND SERIES ON FIRST CONTACT WITH HEATHROW."
         },
         {
           "Name": "SRO 27L LTC_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": ".SINGLE RUNWAY OPERATIONS.",
+          "Notams": "SINGLE RUNWAY OPERATIONS.",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 27L IN USE FOR DEPARTURE AND ARRIVAL. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE AND SERIES ON FIRST CONTACT WITH HEATHROW."
         },
         {
           "Name": "SRO 09R (LTC_CTR)",
           "AirportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": ".SINGLE RUNWAY OPERATIONS.",
+          "Notams": "SINGLE RUNWAY OPERATIONS.",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09R IN USE FOR DEPARTURE AND ARRIVAL. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE AND SERIES ON FIRST CONTACT WITH HEATHROW."
         },
         {
           "Name": "SRO 09L (LTC_CTR)",
           "AirportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": ".SINGLE RUNWAY OPERATIONS.",
+          "Notams": "SINGLE RUNWAY OPERATIONS.",
           "ArbitraryText": null,
           "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. AUTOMATIC. RUNWAY 09L IN USE FOR DEPARTURE AND ARRIVAL. [TL]. [NOTAMS]. [ARPT_COND]. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE AND SERIES ON FIRST CONTACT WITH HEATHROW."
         }
@@ -717,32 +717,32 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
+          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
           "Enabled": false
         },
         {
           "Ordinal": 3,
-          "Text": ".PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
+          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
           "Enabled": false
         },
         {
           "Ordinal": 4,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 5,
-          "text": ".PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
+          "text": "PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
           "enabled": false
         },
         {
           "ordinal": 6,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1054,17 +1054,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1375,12 +1375,12 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 2,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -1692,17 +1692,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 2,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "enabled": true
         }
       ]
@@ -2009,17 +2009,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "ordinal": 2,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "enabled": false
         }
       ]
@@ -2329,22 +2329,22 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         },
         {
           "Ordinal": 4,
-          "Text": ".THE RNP YANKEE PROCEDURE IS NOT AVAILABLE.",
+          "Text": "THE RNP YANKEE PROCEDURE IS NOT AVAILABLE.",
           "Enabled": true
         }
       ]
@@ -2654,17 +2654,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": true
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
@@ -2964,17 +2964,17 @@
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": ".ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": ".DATALINK CLEARANCES ARE AVAILABLE.",
+          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "Enabled": false
         },
         {
           "ordinal": 3,
-          "text": ".WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "enabled": false
         }
       ]
