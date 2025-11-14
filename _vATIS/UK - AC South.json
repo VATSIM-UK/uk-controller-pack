@@ -46,7 +46,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -64,34 +64,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -100,85 +73,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -186,22 +90,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -435,42 +323,15 @@
             }
           },
           "calm": {
-            "calmWindSpeed": 3,
+            "calmWindSpeed": 2,
             "template": {
-              "text": "00000KT",
+              "text": "{wind}",
               "voice": "SURFACE WIND CALM"
             }
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": false,
-          "metersCutoff": 9000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility} METERS"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -479,85 +340,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": false,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "Clouds few at {altitude} feet"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "Clouds scattered {convective} at {altitude} feet"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "Clouds broken {convective} at {altitude} feet"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "Clouds overcast {convective} at {altitude} feet"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -565,22 +357,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -885,7 +661,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -903,34 +679,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -939,85 +688,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -1025,22 +705,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -1259,7 +923,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -1277,34 +941,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -1313,85 +950,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -1399,22 +967,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -1632,34 +1184,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -1668,85 +1193,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -1754,22 +1210,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -1968,7 +1408,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -1986,34 +1426,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -2022,85 +1435,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -2108,22 +1452,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -2346,34 +1674,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -2382,85 +1683,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -2468,22 +1700,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -2698,7 +1914,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -2716,34 +1932,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -2752,85 +1941,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -2838,22 +1958,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -3053,7 +2157,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -3071,34 +2175,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -3107,85 +2184,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -3193,22 +2201,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -3398,7 +2390,7 @@
           "variableGust": {
             "template": {
               "text": "VRB{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND VARIABLE AT {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variableDirection": {
@@ -3416,34 +2408,7 @@
           }
         },
         "visibility": {
-          "north": "to the north",
-          "northEast": "to the north-east",
-          "east": "to the east",
-          "southEast": "to the south-east",
-          "south": "to the south",
-          "southWest": "to the south-west",
-          "west": "to the west",
-          "northWest": "to the north-west",
-          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-          "unlimitedVisibilityText": "9999",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "template": {
-            "text": "{visibility}",
-            "voice": "VISIBILITY {visibility}"
-          }
-        },
-        "runwayVisualRange": {
-          "neutralTendency": "Neutral",
-          "goingUpTendency": "Going Up",
-          "goingDownTendency": "Going Down",
-          "template": {}
-        },
-        "presentWeather": {
-          "template": {
-            "text": "{weather}",
-            "voice": "{weather}"
-          }
+          "unlimitedVisibilityText": "9999"
         },
         "recentWeather": {
           "template": {
@@ -3452,85 +2417,16 @@
           }
         },
         "clouds": {
-          "identifyCeilingLayer": true,
-          "identifyCeilingLayerTextAtis": false,
-          "textAtisCeilingPrefix": "CIG",
-          "cloudCeilingLayerTypes": [
-            "BKN",
-            "OVC"
-          ],
-          "convertToMetric": false,
-          "isAltitudeInHundreds": false,
-          "undeterminedLayerAltitude": {
-            "text": "undetermined",
-            "voice": "undetermined"
-          },
           "automaticCbDetection": {
             "text": "//////CB",
             "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
-          },
-          "types": {
-            "FEW": {
-              "text": "FEW{altitude}",
-              "voice": "few clouds at {altitude}"
-            },
-            "SCT": {
-              "text": "SCT{altitude}{convective}",
-              "voice": "{altitude} scattered {convective}"
-            },
-            "BKN": {
-              "text": "BKN{altitude}{convective}",
-              "voice": "{altitude} broken {convective}"
-            },
-            "OVC": {
-              "text": "OVC{altitude}{convective}",
-              "voice": "{altitude} overcast {convective}"
-            },
-            "VV": {
-              "text": "VV{altitude}",
-              "voice": "indefinite ceiling {altitude}"
-            },
-            "NSC": {
-              "text": "NSC",
-              "voice": "no significant clouds"
-            },
-            "NCD": {
-              "text": "NCD",
-              "voice": "no clouds detected"
-            },
-            "CLR": {
-              "text": "CLR",
-              "voice": "sky clear below one-two thousand"
-            },
-            "SKC": {
-              "text": "SKC",
-              "voice": "sky clear"
-            }
-          },
-          "convectiveTypes": {
-            "CB": "cumulonimbus",
-            "TCU": "towering cumulus"
-          },
-          "template": {
-            "text": "{clouds}",
-            "voice": "{clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
-          }
+          "usePlusPrefix": true
         },
         "dewpoint": {
-          "usePlusPrefix": true,
-          "speakLeadingZero": false,
-          "template": {
-            "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
-          }
+          "usePlusPrefix": true
         },
         "altimeter": {
           "pronounceDecimal": false,
@@ -3538,22 +2434,6 @@
             "text": "Q{altimeter|hpa}",
             "voice": "QNH {altimeter|hpa}"
           }
-        },
-        "trend": {
-          "nosigText": "NOSIG",
-          "nosigVoice": "No Significant Changes",
-          "becomingText": "BECMG",
-          "becomingVoice": "Becoming",
-          "temporaryText": "TEMPO",
-          "temporaryVoice": "Temporary",
-          "template": {}
-        },
-        "windShear": {
-          "runwayText": "WS R{Runway}",
-          "runwayVoice": "Wind Shear Runway {Runway}",
-          "allRunwayText": "WS ALL RWY",
-          "allRunwayVoice": "Wind Shear All Runways",
-          "template": {}
         },
         "transitionLevel": {
           "values": [
