@@ -1,3 +1,6 @@
+# Changes from release 2025/12 to 2025/13
+1. AIRAC (2513) - Updated EGR219 lateral limits - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2025/11 to 2025/12
 1. Enhancement - Updated CDM to v2.2.8.20 - thanks to @Liaely (Lily Unitt)
 
