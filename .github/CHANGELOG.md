@@ -1,5 +1,5 @@
 # Changes from release 2025/11 to 2025/12
-1. Enhancement - Updated CDM to v2.2.8.20 - thanks to @Liaely (Lily Unitt)
+1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
