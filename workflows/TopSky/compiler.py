@@ -26,6 +26,7 @@ def main():
     Maps()
     MSAW()
     Radars()
+    ChangeMilDangerAreaDefinition()
 
 #region Single-file copy-across and renaming
 def AircraftJSON():
@@ -132,6 +133,22 @@ def ImportFileIndex(Folder):
                 print('Entry ' + Entry + ' in ' + Shared_Path + Folder + Index_Name + ' has been excluded!')
     return Files
 #endregion
+
+def ChangeMilDangerAreaDefinition():
+    with open(MIL_Path + 'TopSkyAreas.txt', 'r') as File:
+        Contents = File.readlines()
+    
+    with open(MIL_Path + 'TopSkyAreas.txt', 'w') as File:
+        for Line in Contents:
+            if Line.find('DANGER') > -1:
+                Elements = Line.split(':')
+                Elements[4] = '100'
+                Line = ':'.join(Elements)
+                File.write(Line)
+                return
+    
+    print('Mil active danger area fill settings not changed!')
+    return
 
 if __name__ == '__main__':
     main()
