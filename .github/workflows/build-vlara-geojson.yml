@@ -176,8 +176,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "privileged-access@vatsim.uk"
+          git config user.name "VATSIM UK Bot"
           git add "$GEOJSON_OUT"
           git commit -m "chore(geojson): rebuild combined V-LARA GeoJSON" || exit 0
           BRANCH="${GITHUB_REF_NAME}"
@@ -244,12 +244,19 @@ jobs:
           git fetch upstream --depth=1
           git checkout -B "$BRANCH" "upstream/main"
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${FORK}.git"
+          # Clean up the PR branch on the fork if it exists (ensures a fresh branch each run)
+          if git ls-remote --heads origin "${BRANCH}" | grep -q "${BRANCH}"; then
+            echo "Remote branch ${BRANCH} exists on ${FORK} -> deleting"
+            git push origin :${BRANCH}
+          else
+            echo "Remote branch ${BRANCH} does not exist on ${FORK}"
+          fi
       
           mkdir -p "$(dirname "$DEST_PATH")"
           cp "../$SOURCE_PATH" "$DEST_PATH"
       
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "privileged-access@vatsim.uk"
+          git config user.name "VATSIM UK Bot"
       
           git add "$DEST_PATH"
           if git diff --cached --quiet; then
@@ -273,6 +280,11 @@ jobs:
       - name: 📬 Open or update PR to ottotuhkunen/virtual-lara-airspace-data
         run: |
           set -euo pipefail
+          # If there is no remote branch on the fork, there's nothing to PR (e.g., no changes earlier)
+           if ! git ls-remote --exit-code "https://github.com/${FORK}.git" "refs/heads/${BRANCH}" >/dev/null 2>&1; then
+             echo "No remote branch ${BRANCH} on ${FORK}; skipping PR step."
+             exit 0
+           fi
           if gh pr view --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" >/dev/null 2>&1; then
             gh pr comment --repo "$UPSTREAM" --head "VATSIM-UK:${BRANCH}" \
               --body "Automated update pushed from **${{ github.repository }}** on main."
