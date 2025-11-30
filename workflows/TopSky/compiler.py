@@ -8,6 +8,7 @@ iTEC_Path = 'UK/Data/Plugin/TopSky_iTEC/'
 NERC_Path = 'UK/Data/Plugin/TopSky_NERC/'
 NODE_Path = 'UK/Data/Plugin/TopSky_NODE/'
 NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
+MIL_Path = 'UK/Data/Plugin/TopSky_MIL/'
 Shared_Path = '.data/TopSky Shared/'
 Index_Name = '.Index.txt'
 #endregion
@@ -93,6 +94,8 @@ def Remove(FileName): # Removes specified file across iTEC, NERC, NODE, and NOVA
     else: print('File ' + NODE_Path + FileName + ' does not exist!')
     if os.path.exists(NOVA_Path + FileName): os.remove(NOVA_Path + FileName)
     else: print('File ' + NOVA_Path + FileName + ' does not exist!')
+    if os.path.exists(MIL_Path + FileName): os.remove(MIL_Path + FileName)
+    else: print('File ' + MIL_Path + FileName + ' does not exist!')
 
 def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared data (if it exists) to iTEC, NERC, NODE, and NOVA with the new filename
     if os.path.exists(Shared_Path + InputFileName):
@@ -100,6 +103,7 @@ def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared 
         shutil.copy(Shared_Path + InputFileName, NERC_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NODE_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NOVA_Path + OutputFileName)
+        shutil.copy(Shared_Path + InputFileName, MIL_Path + OutputFileName)
     else:
         print('File ' + Shared_Path + InputFileName + ' does not exist!')
 
@@ -114,6 +118,7 @@ def Construct(Folder, Files, Output):
     shutil.copy(iTEC_Path + Output, NERC_Path + Output)
     shutil.copy(iTEC_Path + Output, NODE_Path + Output)
     shutil.copy(iTEC_Path + Output, NOVA_Path + Output)
+    shutil.copy(iTEC_Path + Output, MIL_Path + Output)
 
 def ImportFileIndex(Folder):
     Files = []

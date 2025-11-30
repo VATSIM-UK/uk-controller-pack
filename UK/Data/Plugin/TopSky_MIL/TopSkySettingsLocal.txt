@@ -1,0 +1,31 @@
+//Delete this file if you like the lighter grey.
+
+//Signs TopSky in on callsign change to determine colours and other settings.
+Setup_AutoSignIn=1
+
+//NOVA colours
+Color_Background=180,180,180
+Color_Border=150,150,150
+Color_CARD_Min_Sep=120,120,120
+Color_CPDLC_Controller_Late=212,128,44
+Color_CPDLC_Discarded
+Color_CPDLC_DM_Request=0,0,205
+Color_CPDLC_Failed=212,128,44
+Color_CPDLC_Pilot_Late=212,124,44
+Color_CPDLC_Standby=212,128,44
+Color_CPDLC_UM_Clearance=0,0,205
+Color_CPDLC_Unable=212,128,44
+Color_CPDLC_Urgency
+Color_Foreground=0,0,0
+Color_Inactive_Sector=100,100,100
+Color_WM_Active_Fg=255,255,255
+Color_WM_Bg=0,140,200
+Color_WM_Border=80,80,80
+Color_WM_Fg=230,230,230
+
+//Dark Grey
+//Color_Background=38,38,38
+//Color_Border=19,19,19
+//Color_WM_Bg=81,81,81
+//Color_WM_Border=54,54,54
+//Color_WM_Fg=200,200,200

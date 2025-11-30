@@ -1,0 +1,642 @@
+//For function of each setting, refer to the TopSky developer guide.
+
+//Scaling Settings, adjust these values to suit your screen and eyes!
+System_GUI_Scale_Windows=1
+System_GUI_Scale_Menus=1
+System_GUI_Scale_GlobalMenu=1
+System_GUI_Scale_Screen=1
+System_GUI_Font_Fixed_1=Consolas
+System_GUI_Font_Fixed_1_Size=11
+
+// Shortcuts
+
+Shortcut_Map_Xfr_Combo=1,0x12
+Shortcut_Map_Xfr_Key=1,0x44
+Shortcut_Map_Target=1,Shortcuts\Airspace Bases
+Shortcut_Map_Xfr_Combo=2,0x12
+Shortcut_Map_Xfr_Key=2,0x56
+Shortcut_Map_Target=2,Shortcuts\VRPs
+Shortcut_Map_Xfr_Combo=3,0x12
+Shortcut_Map_Xfr_Key=3,0x48
+Shortcut_Map_Target=3,Shortcuts\Heli Points
+Shortcut_Map_Xfr_Combo=4,0x12
+Shortcut_Map_Xfr_Key=4,0x54
+Shortcut_Map_Target=4,Shortcuts\All Centrelines
+
+//System wide settings
+Setup_COOPANS=1
+Airspace_ASSR_Type=0
+Areas_Label_Font=Arial
+Areas_Label_FontSize=9
+Areas_PreActiveTime=1800
+Track_HistoryDots=0
+System_MagModel_Type=2
+System_MagModel_Model=0
+System_MagModel_Year=2020
+System_RepHdg_Correction=2
+System_UseReportedGS=1
+System_RawVideo=0
+System_TransferConfirmation=0
+Label_Rev_Highlight_Delta_ETN=15
+Label_AHDG_HideDctIfCOPX=0
+Label_AHDG_ShowDct=2
+MTCD_Distance_Holding=30
+Label_CFL_DefaultValue=1
+Label_DAPs=1
+Menu_DAPs=1
+Window_HoldList_MaxListItems=20
+FlightLeg_AutoShow=0
+FlightLeg_AssumeTime=2
+RwyAppLines_Auto=0
+List_STCA=1700,700
+
+//Airspace Related Settings
+Airspace_C_Flag=
+Airspace_No_DUPE_Codes=7000,2000,2620,0440,7045,4255,3737,3660,2677,5060,7366,6170,4607,4572,0010,7350,3727,4517,0013,7013,3636,5077,4572,5050,0011,7011,7012,0012
+Airspace_SIGMET_Areas=EGTT,EGPX
+AIW=1
+AIW_FlightRules=1
+
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=180,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=240,230,90
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//OCAS infill
+Color_Active_Map_Type_6=187,187,187
+//Sector background infill
+Color_Active_Map_Type_7=187,187,187
+//VRPs
+Color_Active_Map_Type_9=200,200,200
+//FAVAs
+Color_Active_Map_Type_10=140,230,120
+Color_Active_RD_Infill_Map=90,90,90
+Color_Active_Sector=28,28,28
+Color_Active_Text_Map=180,0,0
+Color_AIW_Intrusion=255,152,0
+Color_Arm=97,97,97
+Color_Assumed=255,255,255
+Color_Background=73,80,85
+Color_Border=51,51,52
+Color_BottomShadow=70,70,70
+Color_CARD_Mark_All=255,125,125
+Color_CARD_Mark_Own=255,125,125
+Color_CARD_Min_Sep=61,61,61
+Color_CARD_Symbol_Fg=9,10,11
+Color_CARD_Time_Vector=170,231,197
+Color_Concerned=255,255,255
+Color_Coordination=164,255,255
+Color_CPDLC_Controller_Late=170,78,39
+Color_CPDLC_Discarded=128,128,128
+Color_CPDLC_DM_Request=30,250,250
+Color_CPDLC_Failed=170,78,39
+Color_CPDLC_Pilot_Late=170,78,39
+Color_CPDLC_Standby=170,78,39
+Color_CPDLC_UM_Clearance=30,250,250
+Color_CPDLC_Unable=170,78,39
+Color_CPDLC_Urgency=225,25,25
+Color_Datalink_Logged_On=145,145,145
+Color_Field_Highlight=255,255,255
+Color_Flight_Highlight=0,0,125
+Color_Flight_Leg=170,231,197
+Color_Foreground=255,255,255
+Color_Freq_Indicator=114,136,255
+Color_Global_Menu_Highlight=1,165,219
+Color_Heading_Vector=170,231,197
+Color_Inactive_Sector=28,28,28
+Color_Info_Coord=1,255,255
+Color_Information=40,210,40
+Color_Information_FL=41,245,41
+Color_Informed=175,125,175
+Color_Map_1=80,95,95
+Color_Map_2=44,44,44
+Color_Map_3=100,108,111
+Color_Map_4=52,58,62
+Color_Map_Border=134,134,135
+Color_Map_Hotspot=87,139,200
+Color_Map_Info=150,150,150
+Color_Map_Land=140,140,0
+Color_Map_Symbol=110,130,140
+Color_Overflown=82,105,146
+Color_Potential=41,40,216
+Color_Potential_FL=40,41,216
+Color_Preactive_Map=154,138,128
+Color_Preactive_Text_Map=155,147,138
+Color_Predisplay_Map=175,130,130
+Color_Proposition=220,125,175
+Color_QDM=215,190,163
+Color_Redundant=255,255,255
+Color_Runway=116,200,71
+Color_Rwy_App_Line_Inuse=82,190,115
+Color_Rwy_App_Line_Not_Inuse=135,135,70
+Color_Rwy_Locked=41,210,41
+Color_Selected=61,121,148
+Color_Selected_Period=255,255,41
+Color_SEP_Tool_1=153,217,234
+Color_SEP_Tool_2=255,153,184
+Color_SEP_Tool_3=255,209,143
+Color_SEP_Tool_4=197,64,212
+Color_SEP_Tool_5=140,140,255
+Color_Sid_Star_Allocation=15,185,15
+Color_Suite_Highlight=0,220,255
+Color_SMW_Level_Band=24,209,114
+Color_SMW_Overflight=254,152,1
+Color_SMW_Overlap=224,25,25
+Color_SMW_Overlap_Box=207,207,207
+Color_SMW_Overshoot=239,224,41
+Color_System_Calculated_TOC=170,231,197
+Color_System_Calculated_TOD=170,231,197
+Color_TopShadow=155,158,159
+Color_Track_Default=210,210,210
+Color_Track_Highlight=255,255,255
+Color_Trough=97,99,97
+Color_TSA_Active=93,138,195
+Color_TSA_Border_Highlight=200,53,18
+Color_TSA_Preactive=132,142,139
+Color_Unconcerned=144,144,144
+Color_Unknown=239,224,42
+Color_Urgency=225,25,25
+Color_Urgency_FL=225,25,25
+Color_VAW_Profile=152,202,172
+Color_VAW_Sector_Limits=145,95,30
+Color_VAW_Track_Position=219,219,219
+Color_Warning=255,100,50
+Color_Warning_FL=255,100,50
+Color_WM_Active_Fg=255,254,254
+Color_WM_Bg=100,100,105
+Color_WM_Border=88,95,99
+Color_WM_Fg=180,184,181
+Color_WM_Frame=88,95,99
+Color_Proposition_Accepted=0,160,0
+Color_Proposition_In=0,128,125
+Color_Proposition_Out=0,64,128
+Color_Weather_Map=207,128,238 
+
+//CPDLC System Settings
+CPDLC_MinLevel=195
+CPDLC_Transfer=1
+CPDLC_CFL=1
+CPDLC_DCT=1
+CPDLC_AHDG=1
+CPDLC_ASP=1
+Window_CPDLC_Current=0,1064,0
+
+//MSAW System Settings
+MSAW_Buffer_IFR=100
+
+//APW System Settings
+APW_Buffer_Lat_SepLevel=24500
+APW_Buffer_Lat_U=2.5
+APW_Buffer_Lat_L_IFR=1.5
+APW_Buffer_Lat_L_VFR=0
+
+//eAUP API URL (danger area activation)
+HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
+System_UseAUP=1
+Window_ASM=1
+
+//V-LARA Area Activation
+Areas_Remote_Activation=1
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/egxx.txt
+
+//Radio Direction Finder Settings
+RDF_Mode=-1
+RDF_Accuracy=5
+RDF_Floor=2500
+
+//Weather Radar Settings
+WXR_Latitude=54.5
+WXR_Latitude_Max=61
+WXR_Latitude_Min=48
+WXR_Longitude=-2.5
+WXR_Longitude_Max=5
+WXR_Longitude_Min=-10
+WXR_Brightness=20
+WXR_Gain=85
+WXR_Echo_dBZ_Hi=20
+WXR_Echo_dBZ_Med=15
+WXR_Echo_dBZ_Lo=12 
+
+// Wind Data Settings
+HTTP_GRIB_Latitude_Max=61
+HTTP_GRIB_Latitude_Min=48
+HTTP_GRIB_Longitude_Max=5
+HTTP_GRIB_Longitude_Min=-10
+
+[EGAA_]
+Setup_ScreenLat=EGAA
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=128,0,0
+Color_Active_Text_Map=128,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=24,99,103
+//Freetext
+Color_Active_Map_Type_3=160,160,160
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=150,150,150
+//Centrelines
+Color_Active_Map_Type_5=157,122,40
+
+[EGAC_]
+Setup_ScreenLat=EGAC
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=128,0,0
+Color_Active_Text_Map=128,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=24,99,103
+//Freetext
+Color_Active_Map_Type_3=160,160,160
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=150,150,150
+//Centrelines
+Color_Active_Map_Type_5=157,122,40
+
+[EGBB_]
+Setup_ScreenLat=EGBB
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=192,7,35
+Color_Active_Text_Map=192,7,35
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=210,210,210
+//Freetext
+Color_Active_Map_Type_3=120,120,120
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=210,210,210
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
+
+[EGGD_]
+Setup_ScreenLat=EGGD
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=198,115,113
+Color_Active_Text_Map=198,115,113
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=208,210,221
+//Freetext
+Color_Active_Map_Type_3=255,255,255
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=208,210,221
+//Centrelines
+Color_Active_Map_Type_5=125,189,189
+//VRPs
+Color_Active_Map_Type_9=125,189,189
+
+[EGFF_]
+Setup_ScreenLat=EGFF
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=90,20,10
+Color_Active_Text_Map=90,20,10
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=230,180,40
+//Freetext
+Color_Active_Map_Type_3=30,30,30
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=95,185,95
+//Centrelines
+Color_Active_Map_Type_5=230,180,40
+//VRPs
+Color_Active_Map_Type_9=230,180,40
+
+[EGLF_]
+Setup_ScreenLat=EGLF
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=128,0,0
+Color_Active_Text_Map=128,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=222,223,176
+//Freetext
+Color_Active_Map_Type_3=0,147,73
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=255,128,0
+//Centrelines
+Color_Active_Map_Type_5=0,128,255
+//VRPs
+Color_Active_Map_Type_9=0,147,73
+
+[EGNX_]
+Setup_ScreenLat=EGNX
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=130,26,26
+Color_Active_Text_Map=130,26,26
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=50,90,60
+//Freetext
+Color_Active_Map_Type_3=50,90,60
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=154,164,171
+//Centrelines
+Color_Active_Map_Type_5=50,90,60
+
+[EGSH_]
+Setup_ScreenLat=EGSH
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=180,0,0
+Color_Active_Text_Map=180,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=128,128,0
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,255,128
+//VRPs
+Color_Active_Map_Type_9=0,128,0
+
+[EGPD_]
+Setup_ScreenLat=EGPD
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=180,0,0
+Color_Active_Text_Map=180,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=240,230,90
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=240,230,90
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
+
+[EGPH_]
+Setup_ScreenLat=EGPH
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=255,100,55
+Color_Active_Text_Map=255,100,55
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=190,190,190
+//Freetext
+Color_Active_Map_Type_3=160,160,160
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=150,150,150
+//Centrelines
+Color_Active_Map_Type_5=255,255,190
+//FAVAs
+Color_Active_Map_Type_10=180,180,180
+
+[EGTE_]
+Setup_ScreenLat=EGTE
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=130,26,26
+Color_Active_Text_Map=130,26,26
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=50,90,60
+//Freetext
+Color_Active_Map_Type_3=50,90,60
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=154,164,171
+//Centrelines
+Color_Active_Map_Type_5=120,120,130
+
+[EGTK_]
+Setup_ScreenLat=EGTK
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=200,40,30
+Color_Active_Text_Map=200,40,30
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=128,128,128
+//Freetext
+Color_Active_Map_Type_3=75,75,75
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=154,164,171
+
+[EGPF_]
+Setup_ScreenLat=EGPF
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=0,180,180
+//Freetext
+Color_Active_Map_Type_3=90,90,90
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,255,255
+//Centrelines
+Color_Active_Map_Type_5=0,210,210
+//FAVAs
+Color_Active_Map_Type_10=0,180,180
+
+[EGNM_]
+Setup_ScreenLat=EGNM
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=200,40,30
+Color_Active_Text_Map=200,40,30
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=20,20,20
+//Freetext
+Color_Active_Map_Type_3=40,40,40
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,0,0
+//Centrelines
+Color_Active_Map_Type_5=154,164,171
+
+[EGGP_]
+Setup_ScreenLat=EGGP
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=120,24,41
+Color_Active_Text_Map=120,24,41
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=85,135,150
+//Freetext
+Color_Active_Map_Type_3=192,192,192
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=210,100,90
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=255,255,170
+
+[EGCC_]
+Setup_ScreenLat=EGCC
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=230,80,70
+Color_Active_Text_Map=230,80,70
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=110,110,110
+//Freetext
+Color_Active_Map_Type_3=95,95,95
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=160,160,160
+//Centrelines
+Color_Active_Map_Type_5=255,255,170
+//VRPs
+Color_Active_Map_Type_9=135,255,210
+
+[EGNT_]
+Setup_ScreenLat=EGNT
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=123,40,40
+Color_Active_Text_Map=123,40,40
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=128,128,0
+//Freetext
+Color_Active_Map_Type_3=105,105,105
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=128,128,0
+//VRPs
+Color_Active_Map_Type_9=128,128,0
+
+[EGNS_]
+Setup_ScreenLat=EGNS
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=123,40,40
+Color_Active_Text_Map=123,40,40
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=237,237,188
+//Freetext
+Color_Active_Map_Type_3=192,192,192
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=175,190,60
+//Centrelines
+Color_Active_Map_Type_5=255,169,128
+
+[SOLENT_]
+Setup_ScreenLat=EGHI
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=0,180,180
+//Freetext
+Color_Active_Map_Type_3=90,90,90
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,255,255
+//Centrelines
+Color_Active_Map_Type_5=0,210,210
+
+[EGHI_]
+Setup_ScreenLat=EGHI
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=0,180,180
+//Freetext
+Color_Active_Map_Type_3=90,90,90
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,255,255
+//Centrelines
+Color_Active_Map_Type_5=0,210,210
+
+[EGHH_]
+Setup_ScreenLat=EGHH
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=0,180,180
+//Freetext
+Color_Active_Map_Type_3=90,90,90
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,255,255
+//Centrelines
+Color_Active_Map_Type_5=0,210,210
+
+[EGHQ_]
+Setup_ScreenLat=EGHQ
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=0,180,180
+//Freetext
+Color_Active_Map_Type_3=128,128,128
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=0,255,255
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
+
+[EGMC_]
+Setup_ScreenLat=EGMC
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=120,24,41
+Color_Active_Text_Map=120,24,41
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=128,128,128
+//Freetext
+Color_Active_Map_Type_3=192,192,192
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=154,100,150
+//Centrelines
+Color_Active_Map_Type_5=192,192,192
+//VRPs
+Color_Active_Map_Type_9=192,192,192
+
+[EGJA_]
+Setup_ScreenLat=EGJA
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=198,115,113
+Color_Active_Text_Map=198,115,113
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=185,214,219
+//Freetext
+Color_Active_Map_Type_3=255,255,255
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=143,143,143
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
+
+[EGJB_]
+Setup_ScreenLat=EGJB
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=198,115,113
+Color_Active_Text_Map=198,115,113
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=185,214,219
+//Freetext
+Color_Active_Map_Type_3=255,255,255
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=143,143,143
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
+
+[EGJJ_]
+Setup_ScreenLat=EGJJ
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=198,115,113
+Color_Active_Text_Map=198,115,113
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=185,214,219
+//Freetext
+Color_Active_Map_Type_3=255,255,255
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=143,143,143
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
