@@ -150,7 +150,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 126130,
+      "frequency": 126130000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
       "atisVoice": {
@@ -404,7 +404,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 124580,
+      "frequency": 124580000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
       "atisVoice": {
@@ -496,4 +496,3 @@
   ],
   "version": 4
 }
-

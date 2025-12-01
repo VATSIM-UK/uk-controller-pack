@@ -150,7 +150,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 136355,
+      "frequency": 136355000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
       "atisVoice": {
@@ -235,7 +235,8 @@
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 118.080.",
           "ordinal": 9,
           "enabled": false
-        },{
+        },
+        {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": false
@@ -400,7 +401,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 135680,
+      "frequency": 135680000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
       "atisVoice": {
@@ -636,7 +637,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 136055,
+      "frequency": 136055000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
       "atisVoice": {
@@ -727,4 +728,3 @@
   ],
   "version": 4
 }
-

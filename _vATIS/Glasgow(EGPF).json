@@ -150,7 +150,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 129580,
+      "frequency": 129580000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -245,7 +245,6 @@
           "ordinal": 11,
           "enabled": false
         },
-        
         {
           "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
           "ordinal": 12,

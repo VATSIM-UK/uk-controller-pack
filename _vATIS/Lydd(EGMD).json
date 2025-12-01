@@ -150,7 +150,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 129230,
+      "frequency": 129230000,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,

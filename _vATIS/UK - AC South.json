@@ -862,7 +862,8 @@
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 118.080.",
           "ordinal": 9,
           "enabled": false
-        },{
+        },
+        {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
           "enabled": false
@@ -1280,12 +1281,12 @@
       "presets": [
         {
           "name": "02 (LON_S_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^02.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "20 (LON_S_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^20.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
@@ -1523,22 +1524,22 @@
       "presets": [
         {
           "name": "03 (LON_S_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^03.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "21 (LON_S_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 129.430.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^21.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "03 (LON_D_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.905.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.905.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^03.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "name": "21 (LON_D_CTR)",
-          "notams":"DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.905.",
+          "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.905.",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^21.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
@@ -1857,7 +1858,6 @@
           "ordinal": 11,
           "enabled": false
         },
-        
         {
           "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.815 WHEN READY FOR START.",
           "ordinal": 12,
