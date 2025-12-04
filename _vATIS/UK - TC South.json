@@ -143,8 +143,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
@@ -737,8 +737,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
@@ -1175,8 +1175,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
@@ -1623,8 +1623,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
@@ -1840,8 +1840,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
