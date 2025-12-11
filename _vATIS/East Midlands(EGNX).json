@@ -242,7 +242,7 @@
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "enabled": "false"
+          "enabled": false
         },
         {
           "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.905 WHEN READY FOR START.",
