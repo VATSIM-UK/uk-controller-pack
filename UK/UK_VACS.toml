@@ -1,0 +1,207 @@
+[stations]
+selected_profile = "Central_LAG"
+
+[stations.profiles.Swanwick_Military]
+include = [
+    "EGDR_*",
+    "EGDO_*",
+    "EGDI_*",
+    "EGDY_*",
+    "EGDM_*",
+    "EGVP_*",
+    "EGVO_*",
+    "EGUB_*",
+    "EGWU_*",
+    "EGVA_*",
+    "EGVN_*",
+    "EGUW_*",
+    "EGOS_*",
+    "EGOE_*",
+    "EGOV_*",
+    "EGOQ_*",
+    "EGNO_*",
+    "EGUL_*",
+    "EGUN_*",
+    "EGYM_*",
+    "EGXT_*",
+    "EGXC_*",
+    "EGYD_*",
+    "EGYE_*",
+    "EGXE_*",
+    "EGXZ_*",
+    "EGQL_*",
+    "EGQS_*",
+    "EGVV_*",
+    "MAN_*",
+    "LON_*",
+    "STC_*",
+    "SCO_*",
+    "LTC_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.Swanwick_Military.aliases]
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+
+[stations.profiles.Default.aliases]
+
+[stations.profiles.South_LAG]
+include = [
+    "EGHH_*",
+    "EGHI_*",
+    "EGKA_*",
+    "EGKK_*",
+    "EGLF_*",
+    "EGKB_*",
+    "EGMD_*",
+    "EGMC_*",
+    "EGLC_*",
+    "EGLL_*",
+    "LON_*",
+    "LTC_*",
+    "EGVV_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.South_LAG.aliases]
+
+[stations.profiles.Central_LAG]
+include = [
+    "EGSS_*",
+    "EGGW_*",
+    "EGSC_*",
+    "EGTK_*",
+    "EGTC_*",
+    "EGBB_*",
+    "EGNX_*",
+    "MAN_*",
+    "LON_*",
+    "LTC_*",
+    "EGVV_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.Central_LAG.aliases]
+
+[stations.profiles.UK_ALL]
+include = [
+    "EG*",
+    "LON_*",
+    "LTC_*",
+    "SCO_*",
+    "STC_*",
+    "MAN_*",
+    "UK_*",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+
+[stations.profiles.UK_ALL.aliases]
+
+[stations.profiles.West_LAG]
+include = [
+    "EGHE_*",
+    "EGHC_*",
+    "EGHG_*",
+    "EGHQ_*",
+    "EGTE_*",
+    "EGHQ_*",
+    "EGFF_*",
+    "EGSY_*",
+    "EGGD_*",
+    "EGBJ_*",
+    "EGBC_*",
+    "EGJB_*",
+    "EGJA_*",
+    "EGJJ_*",
+    "MAN_*",
+    "LON_*",
+    "LTC_*",
+    "EGVV_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.West_LAG.aliases]
+
+[stations.profiles.North_LAG]
+include = [
+    "EGCC_*",
+    "EGGP_*",
+    "EGNM_*",
+    "EGNJ_*",
+    "EGNT_*",
+    "EGNV_*",
+    "EGNS_*",
+    "EGNR_*",
+    "EGNH_*",
+    "EGSH_*",
+    "MAN_*",
+    "LON_*",
+    "STC_*",
+    "SCO_*",
+    "EGVV_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.North_LAG.aliases]
+
+[stations.profiles.Scottish]
+include = [
+    "EGAA_*",
+    "EGAC_*",
+    "EGAE_*",
+    "EGPH_*",
+    "EGPF_*",
+    "EGPK_*",
+    "EGPE_*",
+    "EGPD_*",
+    "EGPB_*",
+    "EGPO_*",
+    "EGPL_*",
+    "EGPC_*",
+    "EGPN_*",
+    "EGPA_*",
+    "MAN_*",
+    "LON_*",
+    "STC_*",
+    "SCO_*",
+    "EGVV_*",
+]
+exclude = []
+priority = []
+
+[stations.profiles.Scottish.aliases]
+
+
+[stations.profiles.AFIS_AGCS_Stations]
+
+include = [
+"EG**_I*",
+"EG**_R*",
+]
+
+exclude = []
+priority = []
