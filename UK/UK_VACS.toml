@@ -37,6 +37,7 @@ include = [
     "STC_*",
     "SCO_*",
     "LTC_*",
+    "LON_SC*",
 ]
 exclude = []
 priority = []
@@ -74,6 +75,8 @@ include = [
     "LON_C*",
     "LON_M*",
     "LON_E*",
+    "LON_SC*",
+    "LON_S*",
     "LTC_*",
     "EGVV_*",
 ]
@@ -94,6 +97,7 @@ include = [
     "EGNX_*",
     "MAN_*",
     "LON_S*",
+    "LON_SC*",
     "LON_D*",
     "LON_N*",
     "LON_W*",
@@ -175,6 +179,7 @@ include = [
     "EGSH_*",
     "MAN_*",
     "LON_C*",
+    "LON_SC*",
     "LON_E*",
     "LON_W*",
     "LTC_M*",
