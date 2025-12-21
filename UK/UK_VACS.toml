@@ -38,9 +38,19 @@ include = [
     "SCO_*",
     "LTC_*",
     "LON_SC*",
+    "*_FMP",
 ]
 exclude = []
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.Swanwick_Military.aliases]
 
@@ -79,11 +89,81 @@ include = [
     "LON_S*",
     "LTC_*",
     "EGVV_*",
+    "SOLENT*",
+    "THAMES*",
+    "*_FMP",
 ]
 exclude = []
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.South_LAG.aliases]
+
+"135.805" = "TC BBX"
+"119.730" = "LL INT N"
+"122.780" = "LF AIR"
+"120.230" = "SOLENT"
+"133.005" = "LFEE"
+"134.355" = "LF APC"
+"136.600" = "LFRR E"
+"124.230" = "KK AIR"
+"128.155" = "LFFF"
+"134.980" = "LL INT S"
+"125.605" = "HH AIR"
+"121.030" = "TC MIDS"
+"135.410" = "LFFF LOW"
+"129.430" = "AC WOR"
+"135.980" = "MAAS NIK"
+"121.280" = "TC NW"
+"122.730" = "HI RAD"
+"128.965" = "MC DIR"
+"120.025" = "AC DTY"
+"118.565" = "LFRR V"
+"118.825" = "TC NE"
+"119.780" = "TC N"
+"129.405" = "KB APP"
+"118.480" = "AC CLN"
+"128.805" = "BRU N"
+"118.080" = "LC AIR"
+"125.500" = "LFRR"
+"126.825" = "KK INT"
+"119.480" = "HH RAD"
+"126.480" = "LFQQ"
+"118.505" = "LL AIR S"
+"127.385" = "LFRR J"
+"121.230" = "TC EAST"
+"134.755" = "AC S23"
+"132.505" = "LFEE NOR"
+"126.080" = "AC WST"
+"120.530" = "TC SE"
+"132.700" = "TC TMS"
+"118.205" = "HI AIR"
+"133.180" = "TC SW"
+"127.730" = "MC AIR"
+"134.905" = "AC DVR"
+"129.505" = "LFRR W"
+"135.255" = "AC BCN"
+"129.575" = "BRU E"
+"128.025" = "LC DIR"
+"132.205" = "MAAS KOK"
+"127.830" = "AC BBX"
+"132.605" = "AC SC BBX"
+"125.980" = "MAAS BRU"
+"127.105" = "AC CEN"
+"128.815" = "AC BHD"
+"134.430" = "PC SE"
+"125.205" = "JJ CTL"
+"131.100" = "BRU W"
+"134.000" = "LFRN"
+"134.125" = "TC S"
 
 [stations.profiles.Central_LAG]
 include = [
@@ -103,11 +183,69 @@ include = [
     "LON_W*",
     "LTC_*",
     "EGVV_*",
+    "*_FMP",
 ]
 exclude = []
-priority = []
-
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 [stations.profiles.Central_LAG.aliases]
+
+"135.715" = "PC NE"
+"118.480" = "AC CLN"
+"118.080" = "LC AIR"
+"133.800" = "PC E"
+"132.205" = "MAAS KOK"
+"118.305" = "BB AIR"
+"129.550" = "GW INT"
+"120.530" = "TC SE"
+"127.730" = "MC AIR"
+"123.705" = "AMS WEST"
+"127.830" = "AC BBX"
+"124.005" = "NX AIR"
+"120.025" = "AC DTY"
+"120.625" = "SS INT"
+"135.580" = "AC LKS"
+"125.750" = "AMS LOW"
+"132.605" = "AC SC BBX"
+"132.555" = "GW AIR"
+"128.965" = "MC DIR"
+"119.730" = "LL INT N"
+"126.180" = "NX APC"
+"127.105" = "AC CEN"
+"135.805" = "TC BBX"
+"134.905" = "AC DVR"
+"134.430" = "PC SE"
+"135.980" = "MAAS NIK"
+"121.030" = "TC MIDS"
+"132.700" = "TC TMS"
+"121.230" = "TC EAST"
+"123.980" = "BB INT"
+"135.960" = "MAAS DELTA"
+"134.125" = "TC S"
+"133.180" = "TC SW"
+"133.200" = "MPC BBX"
+"129.575" = "BRU E"
+"121.280" = "TC NW"
+"128.805" = "BRU N"
+"129.430" = "AC WOR"
+"123.800" = "SS AIR"
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"134.375" = "AMS ALL"
+"131.100" = "BRU W"
+"128.025" = "LC DIR"
+"119.780" = "TC N"
+"125.980" = "MAAS BRU"
+"118.825" = "TC NE"
+
 
 [stations.profiles.UK_ALL]
 include = [
@@ -119,6 +257,7 @@ include = [
     "STC_*",
     "MAN_*",
     "UK_*",
+    "*_FMP",
 ]
 exclude = []
 priority = [
@@ -129,6 +268,8 @@ priority = [
     "*_GND",
     "*_DEL",
 ]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.UK_ALL.aliases]
 
@@ -154,6 +295,7 @@ include = [
     "EGVV_*",
     "NAT*",
     "EGGX*",
+    "*_FMP",
 ]
 exclude = 
 [
@@ -161,7 +303,16 @@ exclude =
     "LON_NE*",
 ]
 
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.West_LAG.aliases]
 
@@ -186,9 +337,19 @@ include = [
     "STC_*",
     "SCO_*",
     "EGVV_*",
+    "*_FMP",
 ]
 exclude = []
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.North_LAG.aliases]
 
@@ -215,9 +376,19 @@ include = [
     "EGVV_*",
     "NAT*",
     "EGGX*",
+    "*_FMP",
 ]
 exclude = []
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
 
 [stations.profiles.Scottish.aliases]
 
@@ -234,4 +405,13 @@ include = [
 ]
 
 exclude = []
-priority = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
