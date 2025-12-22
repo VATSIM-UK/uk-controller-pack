@@ -494,7 +494,7 @@ include = [
     "BIRD*",
     
     "EDWW_W*",
-    "EDYY*"
+    "EDYY*",
 
     "EHAA*",
     "EKDK_CTR",
@@ -503,8 +503,8 @@ include = [
     "EKDK_V*CTR",
     "EKDK_WE*",
     
-    "ENOR_CTR"
-    "ENOR__CTR"
+    "ENOR_CTR",
+    "ENOR__CTR",
     "ENOR_S*",
 
     "ENSV*CTR",
