@@ -215,6 +215,7 @@ priority = [
 ]
 frequencies = "HideAliased"
 grouping = "None"
+
 [stations.profiles.Central_LAG.aliases]
 
 "135.715" = "PC NE"
@@ -359,20 +360,27 @@ include = [
     "EGNR_*",
     "EGNH_*",
     "EGSH_*",
+
     "EDYY_D*",
     "EHAA_*",
+
     "EIDW_U*",
     "EIDW_L*",
     "EISN_E*",
+
     "MAN_*",
+
     "LON_C*",
     "LON_SC*",
     "LON_E*",
     "LON_W*",
+
     "LTC_M*",
     "LTC_E*",
+
     "STC_*",
     "SCO_*",
+
     "EGVV_*",
     "*_FMP",
 ]
@@ -395,23 +403,31 @@ grouping = "None"
 "121.355" = "CC FIN"
 "118.630" = "CC AIR 1"
 "119.405" = "CC AIR 2"
+
 "119.855" = "GP RAD 1"
 "118.455" = "GP FIN"
 "126.355" = "GP AIR"
+
 "134.580" = "NM RAD"
 "120.305" = "NM AIR"
+
 "119.130" = "NJ RAD"
 "124.905" = "NJ AIR"
+
 "124.380" = "NT RAD 1"
 "119.705" = "NT AIR"
+
 "119.005" = "NS ADC"
 "135.905" = "NS RAD 1"
 "120.855" = "NS RAD 2"
+
 "124.955" = "NR ADC"
 "120.055" = "NR RAD"
 "130.015" = "NR FIN"
+
 "119.955" = "NH APP"
 "118.405" = "NH ADC"
+
 "124.225" = "SH ADC"
 "119.355" = "SH RAD"
 "128.330" = "SH DIR"
@@ -459,6 +475,30 @@ include = [
     "EGPC_*",
     "EGPN_*",
     "EGPA_*",
+
+    "BIRD*",
+    
+    "EDWW_W*",
+    "EDYY*"
+
+    "EHAA*",
+    "EKDK_CTR",
+    "EKDK__CTR",
+    "EKDK_*N*CTR",
+    "EKDK_V*CTR",
+    "EKDK_WE*",
+    
+    "ENOR_CTR"
+    "ENOR__CTR"
+    "ENOR_S*",
+
+    "ENSV*CTR",
+
+
+    "EISN_E*",
+    "EISN_L*",
+    "EIDW_UN*",
+    "EIDW_LN*",
     "MAN_*",
     "LON_N*",
     "STC_*",
@@ -482,6 +522,41 @@ grouping = "None"
 
 [stations.profiles.Scottish.aliases]
 
+
+
+"118.255" = "PB ADC"
+"131.300" = "PB RAD"
+
+"118.105" = "PD AIR"
+"119.055" = "PD INT"
+"128.305" = "PD FIN"
+"134.100" = "PD HELS"
+
+"118.405" = "PE ADC"
+"122.605" = "PE RAD"
+
+"129.450" = "PK INT"
+"124.630" = "PK FIN"
+"118.150" = "PK AIR"
+
+"119.105" = "PF INT"
+"128.755" = "PF FIN"
+"118.805" = "PF AIR"
+
+"121.205" = "PH INT"
+"128.980" = "PH FIN"
+"118.705" = "PH AIR"
+
+"118.300" = "AA AIR"
+"133.125" = "AA INT"
+"120.905" = "AA FIN"
+
+"122.830" = "AC ADC"
+
+"123.625" = "AE APP"
+"134.155" = "AE AIR"
+
+
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
 "135.580" = "AC LKS"
@@ -504,6 +579,52 @@ grouping = "None"
 "130.975" = "STC E"
 "124.825" = "STC W"
 
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+"119.075" = "EISN LN"
+"124.700" = "EISN LS"
+
+"134.680" = "EKDK N"
+"136.555" = "EKDK UN"
+"135.565" = "EKDK V"
+"126.055" = "EKDK WE"
+"136.485" = "EKDK BBX"
+
+"123.705" = "AMS WEST"
+"125.750" = "AMS LOW"
+"134.375" = "AMS ALL"
+"123.850" = "AMS SOUTH"
+"124.880" = "AMS EAST"
+
+"129.735" = "MAAS JEV HI"
+"132.780" = "MAAS HOL HI"
+"136.465" = "MAAS JEV LO"
+
+"129.840" = "EDYY BB"
+"124.075" = "EDWW E"
+"126.325" = "EDWW A"
+"127.675" = "EDWW W"
+"133.725" = "EDWW BBX"
+"135.960" = "EDYY D"
+
+"136.280" = "ESNV W"
+"120.655" = "ENSV BBX"
+"124.705" = "ENSV N"
+"135.680" = "ENSV 16"
+"121.550" = "ENOR S"
+"134.515" = "ENOR SC"
+"134.500" = "ENOR BBX"
+
+"126.750" = "BIRD E1"
+"132.300" = "BIRD E2"
+"128.800" = "BIRD E3"
+"125.700" = "BIRD S1"
+"119.700" = "BIRD S2"
+"128.600" = "BIRD S3"
 
 [stations.profiles.AFIS_AGCS_Stations]
 
