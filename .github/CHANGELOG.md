@@ -1,3 +1,6 @@
+# Changes from release 2025/11 to 2026/01
+1. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
+
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
 
