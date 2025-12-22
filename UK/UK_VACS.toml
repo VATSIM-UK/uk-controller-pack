@@ -309,16 +309,29 @@ include = [
     "EGJB_*",
     "EGJA_*",
     "EGJJ_*",
-    "LON_N*",
+    
+    "EIDW_U*",
+    "EIDW_L*",
+    "EISN_E*",
+    "EISN_B*",
+
     "MAN_CTR",
     "MAN__CTR",
     "MAN_W*",
+
     "LON_C*",
     "LON_M*",
+    "LON_N*",
+
     "LTC_CTR",
     "LTC__CTR",
     "LTC_S*",
     "LTC_M*",
+
+    "LFRR*",
+    "LFRB_*APP",
+    
+
     "EGVV_*",
     "NAT*",
     "EGGX*",
@@ -353,6 +366,30 @@ grouping = "None"
 "134.125" = "TC S"
 "133.180" = "TC SW"
 "135.805" = "TC BBX"
+
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+"134.630" = "BANBA SUP"
+"127.130" = "BANBA UP"
+
+"129.505" = LFRR W"
+"125.500" = "LFRR BBX"
+"135.260" = "LFRR WI"
+"133.615" = "LFRR WU"
+"118.865" = "LFRR V"
+"124.775" = "LFRR VK"
+"LFRB_*APP" = "LFRB APP"
+
+
+"120.450" = "JJ SKERY"
+"125.205" = "JJ ORTAC"
+
+
+
 
 
 [stations.profiles.North_LAG]
