@@ -186,6 +186,7 @@ include = [
     "EGTC_*",
     "EGBB_*",
     "EGNX_*",
+    "EGLL_N*APP",
     "EGLC_*",
     "EGMC_*",
     "MAN_*",
@@ -315,11 +316,7 @@ include = [
     "EGGX*",
     "*_FMP",
 ]
-exclude = 
-[
-    "LON_E*",
-    "LON_NE*",
-]
+exclude = []
 
 priority = [
     "*_FMP",
@@ -376,6 +373,48 @@ frequencies = "HideAliased"
 grouping = "None"
 
 [stations.profiles.North_LAG.aliases]
+
+"118.580" = "CC INT S"
+"135.005" = "CC INT N"
+"121.355" = "CC FIN"
+"118.630" = "CC AIR 1"
+"119.405" = "CC AIR 2"
+"119.855" = "GP RAD 1"
+"118.455" = "GP FIN"
+"126.355" = "GP AIR"
+"134.580" = "NM RAD"
+"120.305" = "NM AIR"
+"119.130" = "NJ RAD"
+"124.905" = "NJ AIR"
+"124.380" = "NT RAD 1"
+"119.705" = "NT AIR"
+"119.005" = "NS ADC"
+"135.905" = "NS RAD 1"
+"120.855" = "NS RAD 2"
+"124.955" = "NR ADC"
+"120.055" = "NR RAD"
+"130.015" = "NR FIN"
+"119.955" = "NH APP"
+"118.405" = "NH ADC"
+"124.225" = "SH ADC"
+"119.355" = "SH RAD"
+"128.330" = "SH DIR"
+
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"135.580" = "AC LKS"
+
+"121.030" = "TC MIDS"
+
+"133.200" = "PC BBX"
+"133.800" = "PC E"
+"135.715" = "PC NE"
+"134.430" = "PC SE"
+"128.055" = "PC W"
+
+"129.100" = "ScAC Rat"
+"132.730" = "ScAc W"
+
 
 [stations.profiles.Scottish]
 include = [
