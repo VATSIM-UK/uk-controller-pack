@@ -459,6 +459,21 @@ grouping = "None"
 "130.975" = "STC E"
 "124.825" = "STC W"
 
+"123.705" = "AMS WEST"
+"125.750" = "AMS LOW"
+"134.375" = "AMS ALL"
+"123.850" = "AMS SOUTH"
+"124.880" = "AMS EAST"
+
+"135.960" = "EDYY D"
+
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+
 [stations.profiles.Scottish]
 include = [
     "EGAA_*",
