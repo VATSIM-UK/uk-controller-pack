@@ -69,7 +69,10 @@ priority = [
 [stations.profiles.Default.aliases]
 
 [stations.profiles.South_LAG]
-include = [
+include = [    
+    "SOLENT*",
+    "THAMES*",
+    "*_FMP",
     "EGHH_*",
     "EGHI_*",
     "EGKA_*",
@@ -87,11 +90,19 @@ include = [
     "LON_E*",
     "LON_SC*",
     "LON_S*",
+    "LON_23*",
     "LTC_*",
+    "EGJJ_*",
+    "EDYY_K*",
+    "EDYY_N*",
+    "EBBU_*",
+    "PAR_*",
+    "LFEE_*",
+    "LFRR_*",
+    "LFQQ_*APP",
+    "LFRN_*APP",
     "EGVV_*",
-    "SOLENT*",
-    "THAMES*",
-    "*_FMP",
+
 ]
 exclude = []
 priority = [
@@ -175,6 +186,8 @@ include = [
     "EGTC_*",
     "EGBB_*",
     "EGNX_*",
+    "EGLC_*",
+    "EGMC_*",
     "MAN_*",
     "LON_S*",
     "LON_SC*",
@@ -182,6 +195,11 @@ include = [
     "LON_N*",
     "LON_W*",
     "LTC_*",
+    "EDYY_D*",
+    "EDYY_K*",
+    "EDYY_N*",
+    "EBBU_*",
+    "EHAA_*",
     "EGVV_*",
     "*_FMP",
 ]
