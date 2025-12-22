@@ -331,6 +331,22 @@ grouping = "None"
 
 [stations.profiles.West_LAG.aliases]
 
+"133.200" = "PC BBX"
+"128.055" = "PC W"
+
+"133.705" = "AC NTH"
+"135.580" = "AC LKS"
+"120.025" = "AC DTY"
+"127.105" = "AC CEN"
+"132.605" = "AC SC BBX"
+"129.430" = "AC WOR"
+
+"121.030" = "TC MIDS"
+"134.125" = "TC S"
+"133.180" = "TC SW"
+"135.805" = "TC BBX"
+
+
 [stations.profiles.North_LAG]
 include = [
     "EGCC_*",
@@ -403,6 +419,9 @@ grouping = "None"
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
 "135.580" = "AC LKS"
+"120.025" = "AC DTY"
+"127.105" = "AC CEN"
+"132.605" = "AC SC BBX"
 
 "121.030" = "TC MIDS"
 
@@ -414,7 +433,15 @@ grouping = "None"
 
 "129.100" = "ScAC Rat"
 "132.730" = "ScAc W"
+"133.875" = "ScAc WD"
+"135.530" = "ScAc BBX"
+"134.775" = "ScAc S"
+"121.325" = "ScAc E"
 
+"126.300" = "STC BBX"
+"123.775" = "STC A"
+"130.975" = "STC E"
+"124.825" = "STC W"
 
 [stations.profiles.Scottish]
 include = [
@@ -454,6 +481,28 @@ frequencies = "HideAliased"
 grouping = "None"
 
 [stations.profiles.Scottish.aliases]
+
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"135.580" = "AC LKS"
+
+"133.200" = "PC BBX"
+"133.800" = "PC E"
+"135.715" = "PC NE"
+"134.430" = "PC SE"
+"128.055" = "PC W"
+
+"129.100" = "ScAC Rat"
+"132.730" = "ScAc W"
+"133.875" = "ScAc WD"
+"135.530" = "ScAc BBX"
+"134.775" = "ScAc S"
+"121.325" = "ScAc E"
+
+"126.300" = "STC BBX"
+"123.775" = "STC A"
+"130.975" = "STC E"
+"124.825" = "STC W"
 
 
 [stations.profiles.AFIS_AGCS_Stations]
