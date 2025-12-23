@@ -1,8 +1,9 @@
 # Changes from release 2025/11 to 2025/13
-1. Enhancement - Updated CDM to v2.2.8.20 - thanks to @Liaely (Lily Unitt)
+1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
 2. Enhancement - Revised D-ATIS formatting - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
 3. AIRAC (2511) - Audited VRP Digital Dataset - thanks to @clc0609 (Coby Chapman)
 4. AIRAC (2513) - Updated EGR219 lateral limits - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Updated vSMR to v1.7.1
 
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
