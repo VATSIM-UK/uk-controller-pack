@@ -704,6 +704,115 @@ grouping = "None"
 "119.700" = "BIRD S2"
 "128.600" = "BIRD S3"
 
+
+
+[stations.profiles.EGKK]
+include = [
+    "EGTT_*",
+    "UK_*",
+    "EGKK*",
+    "EGLL_*APP",
+    "LON_D*",
+    "LON_S*",
+    "LON_SC*",
+    "LON_CTR",
+    "LTC_S*",
+    "LTC_CTR",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.EGKK.aliases]
+"118.950" = "FIN"
+"134.125" = "TC S"
+"134.980" = "LL INT S"
+"129.430" = "AC WOR"
+"121.805" = "GMC"
+"135.805" = "TC BBX"
+"120.530" = "TC SE"
+"134.905" = "AC DVR"
+"119.730" = "LL INT N"
+"127.830" = "AC BBX"
+"124.230" = "AIR"
+"126.825" = "INT"
+"133.180" = "TC SW"
+"132.605" = "AC SC BBX"
+"121.955" = "GMP"
+
+
+
+[stations.profiles.EGLL]
+include = [
+    "EGTT_*",
+    "UK_*",
+    "EGLL*",
+    "EGKK_*APP",
+    "THAMES_*APP",
+    "LON_M*",
+    "LON_E*",
+    "LON_C*",
+    "LON_D*",
+    "LON_S*",
+    "LON_SC*",
+    "LON_CTR",
+    "LTC_N*",
+    "LTC_S*",
+    "LTC_E*",
+    "LTC_M*",
+    "LTC_CTR",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.EGLL.aliases]
+"126.825" = "KK INT"
+"118.505" = "AIR S"
+"129.430" = "AC WOR"
+"132.700" = "TC TMS"
+"118.705" = "AIR N"
+"134.980" = "INT S"
+"121.855" = "GMC 3"
+"127.830" = "AC BBX"
+"127.105" = "AC CEN"
+"134.125" = "TC S"
+"121.905" = "GMC 1"
+"121.280" = "TC NW"
+"120.025" = "AC DTY"
+"120.400" = "FIN"
+"120.530" = "TC SE"
+"135.805" = "TC BBX"
+"118.825" = "TC NE"
+"121.230" = "TC EAST"
+"119.780" = "TC N"
+"134.905" = "AC DVR"
+"121.705" = "GMC 2"
+"118.480" = "AC CLN"
+"121.980" = "GMP"
+"132.605" = "AC SC BBX"
+"124.480" = "GMP PLN"
+"121.030" = "TC MIDS"
+"119.730" = "INT N"
+"133.180" = "TC SW"
+
+
 [stations.profiles.AFIS_AGCS_Stations]
 
 include = [
