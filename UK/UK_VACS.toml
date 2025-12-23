@@ -352,6 +352,25 @@ grouping = "None"
 
 [stations.profiles.West_LAG.aliases]
 
+"120.255" = "HC ADC"
+"133.405" = "HQ INT"
+"127.930" = "HQ APP"
+"134.300" = "HQ AIR"
+"119.800" = "TE AIR"
+"128.975" = "TE RAD N"
+"123.575" = "TE RAD S"
+"120.300" = "JJ INT"
+"118.550" = "JJ FIN"
+"128.650" = "JB INT"
+"124.500" = "JB FIN"
+"128.555" = "BJ APP"
+"122.905" = "BJ AIR"
+"125.650" = "GD RAD"
+"136.080" = "GD DIR"
+"125.855" = "FF RAD 1"
+"119.155" = "FF RAD 2"
+"133.105" = "FF AIR"
+
 "133.200" = "PC BBX"
 "128.055" = "PC W"
 
