@@ -1,125 +1,94 @@
 {
-  "Name": "Severn",
+  "name": "Severn",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Severn(EGFF & EGGD & EGSY).json",
   "updateSerial": 2025040901,
   "stations": [
     {
-      "Name": "Cardiff",
-      "Identifier": "EGFF",
-      "contractions": [
-        {
-          "String": "LVPS",
-          "Spoken": "L V PEES"
-        },
-        {
-          "String": "LOGON",
-          "Spoken": "LOG ON"
-        },
-        {
-          "String": "EGFF",
-          "Spoken": "ECHO GOLF FOXTROT FOXTROT"
-        },
-        {
-          "String": "DATALINK",
-          "Spoken": "DAYTA LINK"
-        }
-      ],
-      "AtisFrequency": 32480,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
+      "ordinal": 0,
+      "identifier": "EGFF",
+      "name": "Cardiff",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
       },
-      "MagneticVariation": {
-        "Enabled": false,
-        "MagneticDegrees": 0
-      },
-      "AtisVoice": {
-        "UseTextToSpeech": true,
-        "Voice": "UK Male"
-      },
-      "IDSEndpoint": null,
-      "useNotamPrefix": false,
-      "useDecimalTerminology": true,
-      "Presets": [
-        {
-          "Name": "30",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "CARDIFF INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^30. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
-        {
-          "Name": "12",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "CARDIFF INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^12. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        }
-      ],
-      "AirportConditionDefinitions": [
-        {
-          "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 2,
-          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 4,
-          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 5,
-          "Text": "WINDSHEAR REPORTED.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 6,
-          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 7,
-          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT TOWER ON 133.105.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGFF.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 10,
-          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 133.105 WHEN READY FOR START.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 11,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "Enabled": false
-        }
-      ],
-      "notamDefinitions": [],
       "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "TIME {time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "unlimitedVisibilityText": "9999"
+        },
+        "recentWeather": {
+          "template": {
+            "text": "",
+            "voice": ""
+          }
+        },
+        "clouds": {
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true
+        },
+        "dewpoint": {
+          "usePlusPrefix": true
+        },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} ({altimeter|text})",
-            "voice": "QNH {altimeter}"
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "transitionLevel": {
@@ -161,137 +130,196 @@
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL {trl}",
-            "voice": "TRANSITION LEVEL {trl}"
+            "text": "TRANSITION-LEVEL FL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": false
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+          }
         }
-      }
-    },
-    {
-      "Name": "Bristol",
-      "Identifier": "EGGD",
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 132480000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male",
+        "speechRate": 170
+      },
+      "presets": [
+        {
+          "name": "12",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^12.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "name": "30",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^30.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        }
+      ],
       "contractions": [
         {
-          "String": "LVPS",
-          "Spoken": "L V PEES"
+          "variableName": "ATC",
+          "text": "ATC",
+          "voice": "AIR TRAFFIC CONTROL"
         },
         {
-          "String": "LOGON",
-          "Spoken": "LOG ON"
+          "variableName": "COM",
+          "text": "COM",
+          "voice": ""
         },
         {
-          "String": "EGGD",
-          "Spoken": "ECHO GOLF GOLF DELTA"
-        },
-        {
-          "String": "DATALINK",
-          "Spoken": "DAYTA LINK"
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "INFORMATION"
         }
       ],
-      "AtisFrequency": 26030,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
-      },
-      "MagneticVariation": {
-        "Enabled": false,
-        "MagneticDegrees": 0
-      },
-      "AtisVoice": {
-        "UseTextToSpeech": true,
-        "Voice": "UK Male"
-      },
-      "IDSEndpoint": null,
-      "useNotamPrefix": false,
-      "useDecimalTerminology": true,
-      "Presets": [
+      "airportConditionDefinitions": [
         {
-          "Name": "27",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "BRISTOL INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT, TIME [TIME] AUTOMATIC. RUNWAY IN USE ^27. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 601 FEET."
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
+          "ordinal": 1,
+          "enabled": false
         },
         {
-          "Name": "09",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "BRISTOL INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT, TIME [TIME] AUTOMATIC. RUNWAY IN USE ^09. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 601 FEET."
+          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "FOR CLEARANCE CONTACT TOWER ON 133.105.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "ordinal": 13,
+          "enabled": false
         }
       ],
-      "AirportConditionDefinitions": [
-        {
-          "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 2,
-          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 4,
-          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 5,
-          "Text": "WINDSHEAR REPORTED.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 6,
-          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 7,
-          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT DELIVERY ON 121.930.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "DELIVERY IS CLOSED, ATC CONTINUES WITH TOWER ON 133.850.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 10,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGGD.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 11,
-          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.930 WHEN READY FOR START.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 12,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "Enabled": false
-        }
-      ],
-      "notamDefinitions": [],
+      "notamDefinitions": []
+    },
+    {
+      "ordinal": 0,
+      "identifier": "EGGD",
+      "name": "Bristol",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
       "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "TIME {time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "unlimitedVisibilityText": "9999"
+        },
+        "recentWeather": {
+          "template": {
+            "text": "",
+            "voice": ""
+          }
+        },
+        "clouds": {
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true
+        },
+        "dewpoint": {
+          "usePlusPrefix": true
+        },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter} ({altimeter|text})",
-            "voice": "QNH {altimeter}"
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
           }
         },
         "transitionLevel": {
@@ -331,140 +359,373 @@
               "high": 1060,
               "altitude": 60
             }
-          ]
-        },
-        "closingStatement": {
-          "autoIncludeClosingStatement": false
-        }
-      }
-    },
-    {
-      "Name": "St. Athan",
-      "Identifier": "EGSY",
-      "Contractions": [
-        {
-          "String": "ST",
-          "Spoken": "SAINT"
-        },
-        {
-          "String": "LVPS",
-          "Spoken": "L V PEES"
-        },
-        {
-          "String": "LOGON",
-          "Spoken": "LOG ON"
-        },
-        {
-          "String": "EGSY",
-          "Spoken": "ECHO GOLF SIERRA YANKEE"
-        },
-        {
-          "String": "DATALINK",
-          "Spoken": "DAYTA LINK"
-        }
-      ],
-      "AtisFrequency": 30560,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
-      },
-      "MagneticVariation": {
-        "Enabled": false,
-        "MagneticDegrees": 0
-      },
-      "AtisVoice": {
-        "UseTextToSpeech": true,
-        "Voice": "UK Male"
-      },
-      "IDSEndpoint": null,
-      "useNotamPrefix": false,
-      "useDecimalTerminology": true,
-      "Presets": [
-        {
-          "Name": "25",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^25. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
-        {
-          "Name": "07",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^07. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        }
-      ],
-      "AirportConditionDefinitions": [
-        {
-          "Ordinal": 1,
-          "Text": "@LVPS IN FORCE. FLIGHT CREWS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 2,
-          "Text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 4,
-          "Text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 5,
-          "Text": "WINDSHEAR REPORTED.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 6,
-          "Text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 7,
-          "Text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT TOWER ON 122.865.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGSY.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 10,
-          "Text": "FLIGHT CREWS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.865 WHEN READY FOR START.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 11,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "Enabled": false
-        }
-      ],
-      "notamDefinitions": [],
-      "atisFormat": {
-        "altimeter": {
-          "pronounceDecimal": false,
+          ],
           "template": {
-            "text": "QNH {altimeter} ({altimeter|text})",
-            "voice": "QNH {altimeter}"
+            "text": "TRANSITION-LEVEL FL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": false
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+          }
         }
-      }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 126030000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male",
+        "speechRate": 170
+      },
+      "presets": [
+        {
+          "name": "09",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "name": "27",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^27.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "LVPS",
+          "text": "LVPS",
+          "voice": "L V PEES"
+        },
+        {
+          "variableName": "COM",
+          "text": "COM",
+          "voice": ""
+        },
+        {
+          "variableName": "DATALINK",
+          "text": "DATALINK",
+          "voice": "DAYTA LINK"
+        },
+        {
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "INFORMATION"
+        },
+        {
+          "variableName": "ATC",
+          "text": "ATC",
+          "voice": "AIR TRAFFIC CONTROL"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.930.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DELIVERY IS CLOSED. ATC CONTINUES WITH GROUND ON 121.930.",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "DELIVERY AND GROUND ARE CLOSED. ATC CONTINUES WITH TOWER ON 133.850.",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
+          "ordinal": 11,
+          "enabled": false
+        },
+        {
+          "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.930 WHEN READY FOR START.",
+          "ordinal": 12,
+          "enabled": false
+        },
+        {
+          "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "ordinal": 13,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
+    },
+    {
+      "ordinal": 0,
+      "identifier": "EGSY",
+      "name": "Saint Athan",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "TIME {time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "unlimitedVisibilityText": "9999"
+        },
+        "recentWeather": {
+          "template": {
+            "text": "",
+            "voice": ""
+          }
+        },
+        "clouds": {
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true
+        },
+        "dewpoint": {
+          "usePlusPrefix": true
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1013,
+              "altitude": 75
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ],
+          "template": {
+            "text": "TRANSITION-LEVEL FL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 130560000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male",
+        "speechRate": 170
+      },
+      "presets": [
+        {
+          "name": "07",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "name": "25",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "ATC",
+          "text": "ATC",
+          "voice": "AIR TRAFFIC CONTROL"
+        },
+        {
+          "variableName": "COM",
+          "text": "COM",
+          "voice": ""
+        },
+        {
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "INFORMATION"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "FOR CLEARANCE CONTACT TOWER ON 122.865.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "ordinal": 13,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
     }
-  ]
+  ],
+  "version": 4
 }
