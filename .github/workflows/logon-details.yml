@@ -1,9 +1,12 @@
-name: Compile LogonDetails.exe
+﻿name: ⚙️ Compile LogonDetails.exe
 
 on:
   push:
     branches:
       - 'main'
+    paths:
+      - 'workflows/logon-details/**'
+      - '.github/workflows/logon-details.yml'
 
 jobs:
   changes:
@@ -51,6 +54,7 @@ jobs:
         run: |
           pip install pyinstaller
           pip install pillow
+          pip install keyboard
 
 
       - name: Compile executable

@@ -49,6 +49,14 @@ Danger/EGD061.txt
 Danger/EGD064A.txt
 Danger/EGD064B.txt
 Danger/EGD064C.txt
+Danger/EGD098A.txt
+Danger/EGD098B.txt
+Danger/EGD098C.txt
+Danger/EGD098D.txt
+Danger/EGD098E.txt
+Danger/EGD098F.txt
+Danger/EGD098G.txt
+Danger/EGD098H.txt
 Danger/EGD110.txt
 Danger/EGD113A.txt
 Danger/EGD113B.txt
@@ -101,7 +109,6 @@ Danger/EGD207.txt
 Danger/EGD208.txt
 Danger/EGD211.txt
 Danger/EGD213.txt
-Danger/EGD215.txt
 Danger/EGD216.txt
 Danger/EGD217A.txt
 Danger/EGD217B.txt
@@ -254,4 +261,83 @@ Training/EGMTNWNU.txt
 Training/EGMTNWNL.txt
 Training/EGMTNWSU.txt
 Training/EGMTNWSL.txt
+Training/ATA Lakenheath North.txt
+Training/ATA Lakenheath South.txt
+Training/ATA Valley.txt
+Training/ATA Wash North.txt
+Training/ATA Wash South.txt
+Training/ASAC.txt
+Training/RN Nav Training South West Approaches.txt
+Surveillance/Orbit Area 01.txt
+Surveillance/Orbit Area 02.txt
+Surveillance/Orbit Area 03.txt
+Surveillance/Orbit Area 05.txt
+Surveillance/Orbit Area 06.txt
+Surveillance/Orbit Area 07.txt
+Surveillance/Orbit Area 08.txt
+Surveillance/Orbit Area 09.txt
+Surveillance/Orbit Area 10.txt
+Surveillance/Orbit Area 11.txt
+Surveillance/Orbit Area 12.txt
+Surveillance/Orbit Area 13.txt
+Surveillance/Operating Area A1.txt
+Surveillance/Operating Area A2.txt
+Surveillance/Operating Area B1.txt
+Surveillance/Operating Area B2.txt
+Surveillance/Operating Area B3.txt
+Surveillance/Operating Area B4.txt
+Surveillance/Operating Area C1.txt
+Surveillance/Operating Area C2.txt
+Surveillance/Operating Area D1.txt
+Surveillance/Operating Area E1.txt
+Surveillance/Operating Area E2.txt
+Surveillance/Operating Area F1.txt
+Surveillance/Operating Area G1.txt
+Surveillance/Operating Area H1.txt
+Surveillance/Operating Area I1.txt
+Surveillance/Operating Area J1.txt
+Surveillance/Operating Area J2.txt
+Surveillance/Operating Area J3.txt
+Surveillance/Operating Area K1.txt
+Surveillance/Operating Area K2.txt
+TRA/TRA 001.txt
+TRA/TRA 002.txt
+TRA/TRA 003.txt
+TRA/TRA 004.txt
+TRA/TRA 005.txt
+TRA/TRA 006.txt
+TRA/TRA 007A.txt
+TRA/TRA 007B.txt
+TRA/TRA 008A.txt
+TRA/TRA 008B.txt
+TRA/TRA 008C.txt
+TRA/TRAG Aboyne.txt
+TRA/TRAG Northern Ireland.txt
+TRA/TRAG Northumbria North.txt
+TRA/TRAG Northumbria South.txt
+TRA/TRAG Portmoak.txt
+TRA/TRAG Scottish Upper North.txt
+TRA/TRAG Scottish Upper South.txt
+TRA/TRAG Scottish Lower North.txt
+TRA/TRAG Scottish Lower South.txt
+TRA/TRAG Spadeadam Upper.txt
+TRA/TRAG Spadeadam Lower.txt
+TRA/TRAG Welsh Upper A.txt
+TRA/TRAG Welsh Upper B.txt
+TRA/TRAG Welsh Upper C.txt
+TRA/TRAG Welsh Upper D.txt
+TRA/TRAG Welsh Upper E.txt
+TRA/TRAG Welsh Upper F.txt
+TRA/TRAG Welsh Upper G.txt
+TRA/TRAG Welsh H.txt
+TRA/TRAG Welsh Lower A.txt
+TRA/TRAG Welsh Lower B.txt
+TRA/TRAG Welsh Lower C.txt
+TRA/TRAG Welsh Lower D.txt
+TRA/TRAG Welsh Lower E.txt
+TRA/TRAG Yorkshire Upper North.txt
+TRA/TRAG Yorkshire Lower North.txt
+TRA/TRAG Yorkshire Lower South.txt
+Other/ARA Boscombe Down.txt
+Other/ARA Warton.txt
 Other/Kirknewton.txt

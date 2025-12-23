@@ -1,8 +1,54 @@
 # Changes from release 2025/11 to 2025/13
-1. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
+1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
+2. Enhancement - Revised D-ATIS formatting - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+3. AIRAC (2511) - Audited VRP Digital Dataset - thanks to @clc0609 (Coby Chapman)
+4. AIRAC (2513) - Updated EGR219 lateral limits - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Updated vSMR to v1.7.1
+6. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
+
+# Changes from release 2025/10 to 2025/11
+1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2511) - Removed danger area EGD215 - thanks to @lyraongithub
+3. Bug - Fixed updater not downloading changed, renamed or copied files - thanks to @luke11brown (Luke Brown)
+4. Enhancement - Updater now assists user in downloading/updating Aeronav GNG navdata - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updater is able to update itself - thanks to @luke11brown (Luke Brown)
+6. Enhancement - Updated vSMR to v1.6.5 (acknowledgements to PDC requests and responses) - thanks to @Liaely (Lily Unitt)
+
+# Changes from release 2025/09 to 2025/10
+1. Enhancement - Updated CDM to v2.8.8.18 - thanks to @Liaely (Lily Unitt)
+2. Bug - Fix configurator handling of sub folders - thanks to @luke11brown (Luke Brown)
+3. AIRAC (2510) - Revised Kirknewton VRP name and position - thanks to @pa-ulex
+4. AIRAC (2510) - Updated Area Minimum Altitude over Jersey - thanks to @clc0609 (Coby Chapman)
+5. Bug - Fixed incorrect formatting for TopSky areas - thanks to @Liaely (Lily Unitt)
+6. Bug - Removed permanently active SUA from V-LARA reservation system - thanks to @luke11brown (Luke Brown)
+7. Enhancement - Defined the English Channel Danger Area complex (EGD098) - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Added EGR610 complex to vLARA - thanks to @Liaely (Lily Unitt)
+9. Enhancement - Added CDM webpage link to relevant delivery and planner positions' controller information - thanks to @heqagon (Ben Jones)
+10. Enhancement - Added .tobt alias - thanks to @heqagon (Ben Jones)
+
+# Changes from release 2025/08 to 2025/09
+1. Enhancement - Added DiscordEuroscope plugin to controller pack - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+2. Enhancement - V-LARA Military airspace reservation system integrated - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Defined TRAs, TRAGs, ATAs, ARAs, orbit/operating areas, ASAC & South West Approaches MTAs as TopSky areas - thanks to @Liaely (Lily Unitt)
+4. Enhancement - IRL NOTAM area activations removed - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Updated CDM to v2.8.8.15 - thanks to @Liaely (Lily Unitt)
+6. AIRAC (2509) - Added Shawbury (EGOS) ATIS - thanks to @clc0609 (Coby Chapman)
+7. Enhancement - Creation of a EXE to update the Controller Pack - thanks to @cpawley (Chris Pawley)
 
 # Changes from release 2025/07 to 2025/08
 1. Enhancement - Split TopSky shared data files into new compiled format - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2508) - Updated TopSky MSAW area definitions for Aberdeen (EGPD) - thanks to @Liaely (Lily Unitt)
+3. AIRAC (2508) - Updated TopSky MSAW altitudes for the Leeds Bradford (EGNM) SMA - thanks to @Liaely (Lily Unitt)
+4. AIRAC (2508) - Updated TopSky minimum altitudes in Edinburgh (EGPH) areas A and B - thanks to @clc0609 (Coby Chapman)
+5. Bug - Fixed improper TopSky definitions for danger areas EGD220A/B - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Update Configurator.exe to set VCCS PTT Key - thanks to @AdriTheDev (Callum Hicks) and @Lucak1011 (Luca Kulaga)
+7. Bug - Corrected EGLC_APP Position Callsign - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Updated CDM plugin to latest version - thanks to @clc0609 (Coby Chapman)
+9. Enhancement - Corrected Divergence and IDENT symbols on NERC - thanks to @SamLefevre (Samuel Lefevre)
+10. Enhancement - Improved iTEC colour accuracy - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fixed KOKSY Buffer Zone TopSky map display to LAG South sectors (was not displaying when TC online) and KOKSY Gate display to event splits
+12. Enhancement - Updated vSMR to 1.6.4 (WIP areas now drawn again, DCL reject message format, WIP areas state saving) - thanks to @BenWalker01 (Ben Walker)
+13. Enhancement - Added Western Radar to Voice.txt - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/06 to 2025/07
 1. AIRAC (2507) - Removed danger area EGD206 from TopSky - thanks to @Liaely (Lily Unitt)

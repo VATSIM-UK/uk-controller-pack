@@ -19,7 +19,7 @@ Settings	SettingsfileTAXIOUT	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Heathrow\ATM_LL_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
-Settings	sector	UK\Data\Sector\UK_2025_07.sct
+Settings	sector	UK\Data\Sector\UK_2025_11.sct
 Settings	alias	\..\Data\Alias\Heathrow_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\Data\ASR\Heathrow\Heathrow ATM.asr

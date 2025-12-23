@@ -1804,8 +1804,6 @@ Fixes:OBUBA:name
 Fixes:OBUBA:symbol
 Fixes:OBUNI:name
 Fixes:OBUNI:symbol
-Fixes:OCTIZ:name
-Fixes:OCTIZ:symbol
 Fixes:ODIGI:name
 Fixes:ODIGI:symbol
 Fixes:ODMIX:name
@@ -1870,6 +1868,8 @@ Fixes:ORVIK:name
 Fixes:ORVIK:symbol
 Fixes:ORVUL:name
 Fixes:ORVUL:symbol
+Fixes:ORZEB:name
+Fixes:ORZEB:symbol
 Fixes:OSBON:name
 Fixes:OSBON:symbol
 Fixes:OSBOX:name

@@ -1085,7 +1085,6 @@ Fixes:NUMPI:symbol
 Fixes:OBOXA:symbol
 Fixes:OBUBA:symbol
 Fixes:OBUNI:symbol
-Fixes:OCTIZ:symbol
 Fixes:ODIGI:symbol
 Fixes:ODMIX:symbol
 Fixes:ODMOS:symbol
@@ -1118,6 +1117,7 @@ Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
+Fixes:ORZEB:symbol
 Fixes:OSBON:symbol
 Fixes:OSBOX:symbol
 Fixes:OSDEB:symbol
@@ -1654,3 +1654,6 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_SCOTTISH;ASR_BELFAST;A
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0

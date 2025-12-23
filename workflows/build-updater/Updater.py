@@ -1,0 +1,603 @@
+import requests
+from requests.adapters import HTTPAdapter
+from datetime import datetime
+import os
+import sys
+import subprocess
+import threading
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import ttk
+from tkinter import filedialog
+import re
+import queue
+from urllib3.util.retry import Retry
+import webbrowser
+import zipfile
+import tempfile
+from pathlib import Path
+
+
+# --- Configuration ---
+REPO_OWNER = "VATSIM-UK"
+REPO_NAME = "UK-Controller-Pack"
+LOCAL_VERSION_FILE = "version.txt"
+AERONAV_URL = "https://files.aero-nav.com/EGXX"
+DATAFILES_DIR = os.path.join("Data", "Datafiles")
+VSMR_DIR = os.path.join("Data", "Plugin", "vSMR")
+
+# target basename -> accepted source basenames (lowercased) found inside the ZIP
+GNG_REQUIRED = {
+    "ICAO_Aircraft.txt": {"icao_aircraft.txt"},
+    "ICAO_Airlines.txt": {"icao_airlines.txt"},
+    "ICAO_Airports.txt": {"icao_airports.txt"},
+    "airway.txt": {"airway.txt"},
+    "icao.txt": {"icao.txt"},
+    "isec.txt": {"isec.txt"},
+}
+
+# --- Helper Functions ---
+
+def resource_path(rel):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, rel)
+    return os.path.join(os.path.dirname(__file__), rel)
+
+def use_azure_theme(root, mode='dark'):
+    try:
+        root.tk.call('source', resource_path('workflows/build-updater/azure.tcl'))
+        style = ttk.Style(root)
+        style.theme_use('azure')
+        root.tk.call('set_theme', mode)
+    except Exception:
+        pass
+
+def normalize_version(vstr):
+    """
+    Normalize version strings like '2022_09a' or '2023_10' into comparable tuples.
+    E.g., '2022_09a' -> (2022, 9, 'a')
+          '2023_10'  -> (2023, 10)
+    """
+    parts = re.split(r'[_\-.]', vstr)
+    norm = []
+    for part in parts:
+        if part.isdigit():
+            norm.append(int(part))
+        else:
+            norm.append(part.lower())
+    return tuple(norm)
+
+def set_window_icon(root):
+    try:
+        icon_path = resource_path('workflows/build-updater/logo.ico')
+        if os.path.exists(icon_path):
+            root.iconbitmap(icon_path)
+    except Exception:
+        pass
+
+
+
+class UpdaterApp:
+    def __init__(self, root):
+        # cleanup any leftover swap artifacts
+        try:
+            tmp = Path(tempfile.gettempdir())
+            for f in ["Updater_new.exe", "ukcp_swap_updater.bat", "Updater_old.exe"]:
+                p = tmp / f
+                if p.exists():
+                    p.unlink()
+        except Exception:
+            pass
+        self.root = root
+        self.root.title("UK Controller Pack Updater")
+        self.root.geometry("720x520")
+        self.root.resizable(True, True)
+        set_window_icon(self.root)
+
+        use_azure_theme(self.root, mode="dark")
+        container = ttk.Frame(root)
+        container.pack(padx=10, pady=10, fill="both", expand=True)
+        
+        self.log_box = tk.Text(container, wrap="word", state="disabled", relief="flat", highlightthickness=0)
+        self.log_box.pack(side="left", fill="both", expand=True)
+        
+        sb = ttk.Scrollbar(container, orient="vertical", command=self.log_box.yview)
+        sb.pack(side="right", fill="y")
+        self.log_box.configure(yscrollcommand=sb.set)
+
+        self.update_button = ttk.Button(root, text="Check for Updates", command=self.start_update)
+        self.update_button.pack(pady=(0, 10))
+        self.nav_button = ttk.Button(root, text="Update Navdata (GNG)…", command=self.start_gng_flow)
+        self.nav_button.pack(pady=(0, 10))
+        self._q = queue.Queue()
+        self.root.after(50, self._drain_log_queue)
+        self.session = self._make_session()
+        self.base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+
+    def log(self, message):
+        self._q.put(str(message))
+
+    def _drain_log_queue(self):
+        try:
+            while True:
+                msg = self._q.get_nowait()
+                self.log_box.config(state='normal')
+                self.log_box.insert(tk.END, msg + "\n")
+                self.log_box.see(tk.END)
+                self.log_box.config(state='disabled')
+        except queue.Empty:
+            pass
+        finally:
+            self.root.after(50, self._drain_log_queue)
+
+    def start_update(self):
+        self.update_button.config(state="disabled")
+        threading.Thread(target=self._run_update_safely, daemon=True).start()
+
+    def _run_update_safely(self):
+        try:
+            self.update_if_needed()
+        finally:
+            self.root.after(0, lambda: self.update_button.config(state="normal"))
+
+    def start_gng_flow(self):
+        self.nav_button.config(state="disabled")
+        threading.Thread(target=self._run_gng_flow_safely, daemon=True).start()
+
+    def _run_gng_flow_safely(self):
+        try:
+            self.gng_update_flow()
+        finally:
+            self.root.after(0, lambda: self.nav_button.config(state="normal"))
+
+    def _make_session(self):
+        s = requests.Session()
+        s.headers.update({"User-Agent": "UK-Controller-Pack-Updater/1.0"})
+        token = os.getenv("GITHUB_TOKEN")
+        if token:
+            s.headers.update({"Authorization": f"token {token}"})
+        retry = Retry(
+            total=5,
+            backoff_factor=0.5,
+            status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods={"GET", "HEAD", "OPTIONS"},
+        )
+        s.mount("https://", HTTPAdapter(max_retries=retry))
+        return s
+
+    def get_local_version(self):
+        try:
+            path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
+            with open(path) as f:
+                return f.read().strip()
+        except FileNotFoundError:
+            self.log("version.txt not found. Assuming version 2025_01.")
+            return "2025_01"
+
+    def set_local_version(self, ver):
+        path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
+        with open(path, "w") as f:
+            f.write(ver)
+
+    def get_latest_version(self):
+        url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/latest"
+        response = self.session.get(url, timeout=(5, 30))
+        response.raise_for_status()
+        data = response.json()
+        return {
+            "tag": data["tag_name"],
+            "published_at": data["published_at"]
+        }
+
+    def format_date(self, iso_date_str):
+        dt = datetime.fromisoformat(iso_date_str.rstrip("Z"))
+        return dt.strftime("%Y-%m-%d")
+
+    def get_changed_files(self, base_tag, head_tag):
+        url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/{base_tag}...{head_tag}"
+        response = self.session.get(url, timeout=(5, 30))
+        response.raise_for_status()
+        changed = response.json().get("files", []) or []
+
+        updated_files = []
+        removed_files = []
+        prf_modified = False
+
+        for f in changed:
+            path = f.get("filename", "")
+            status = (f.get("status") or "").lower()
+            prev = f.get("previous_filename")
+
+            if not path.startswith("UK/"):
+                continue
+
+            if status in ("added", "modified", "renamed", "copied", "changed"):
+                updated_files.append(path)
+
+                if status == "renamed" and prev and prev.startswith("UK/"):
+                    removed_files.append(prev)
+
+                if path.endswith(".prf"):
+                    prf_modified = True
+
+            elif status == "removed":
+                removed_files.append(path)
+
+        return updated_files, removed_files, prf_modified
+
+    def get_local_path(self, remote_path):
+        # Strip leading 'UK/' since we're already inside the UK/ directory
+        if remote_path.startswith("UK/"):
+            return remote_path[len("UK/"):]
+        return remote_path
+
+    def download_file(self, branch, filepath):
+        url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{branch}/{filepath}"
+        response = self.session.get(url, timeout=(5, 30))
+        response.raise_for_status()
+
+        local_rel = self.get_local_path(filepath)
+        local_path = os.path.join(self.base_dir, local_rel)
+        dir_path = os.path.dirname(local_path)
+        if dir_path:
+            os.makedirs(dir_path, exist_ok=True)
+
+        with open(local_path, "wb") as f:
+            f.write(response.content)
+        self.log(f"Downloaded {filepath} → {local_path}")
+
+    def delete_file(self, filepath):
+        local_rel = self.get_local_path(filepath)
+        if os.path.normcase(local_rel) == os.path.normcase("Updater.exe"):
+            self.log("Skip delete: Updater.exe is running.")
+            return
+        local_path = os.path.join(self.base_dir, local_rel)
+        if os.path.exists(local_path):
+            os.remove(local_path)
+            self.log(f"Deleted {local_path}")
+
+    def prompt_run_configurator(self):
+        result = messagebox.askyesno(
+            title="Profile Files Updated",
+            message="One or more Profile Files were updated or added.\n\nDo you want to run the profile configuration tool now?"
+        )
+        if result:
+            configurator_path = os.path.join(self.base_dir, "Configurator.exe")
+            if os.path.exists(configurator_path):
+                try:
+                    subprocess.Popen([configurator_path], shell=False)
+                    self.log("Configurator.exe launched.")
+                except Exception as e:
+                    self.log(f"Failed to launch Configurator.exe: {e}")
+            else:
+                self.log("Configurator.exe not found in script directory.")
+
+    def update_if_needed(self):
+        self.log("Checking for updates...")
+        local_ver = self.get_local_version()
+
+        try:
+            latest = self.get_latest_version()
+        except Exception as e:
+            self.log(f"Error checking latest version: {e}")
+            if "403" in str(e):
+                self.log("You may have exceeded the GitHub API rate limit. Consider setting a GITHUB_TOKEN environment variable.")
+            return
+
+        latest_ver = latest["tag"]
+        release_date = self.format_date(latest["published_at"])
+
+        # Use normalized version comparison instead of packaging.version
+        if normalize_version(latest_ver) > normalize_version(local_ver):
+            self.log(f"Updating {REPO_OWNER}/{REPO_NAME} to {latest_ver} (previously using {local_ver})")
+
+            try:
+                updated_files, removed_files, prf_modified = self.get_changed_files(local_ver, latest_ver)
+
+                # --- Update the Updater.exe first, if present ---
+                for p in updated_files:
+                    if os.path.normcase(p) == os.path.normcase("UK/Updater.exe"):
+                        self.log("Updater.exe changed in this release — updating myself first.")
+                        url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{latest_ver}/{p}"
+                        tmp_new = self._download_to_temp(url, temp_name="Updater_new.exe")
+                        self._swap_running_updater(tmp_new)
+                        return  # old process exits; new Updater will continue the update
+
+
+                for file in updated_files:
+                    self.log(f"Updating {file}")
+                    self.download_file(latest_ver, file)
+
+                for file in removed_files:
+                    self.delete_file(file)
+
+                self.set_local_version(latest_ver)
+                self.log(f"\nUpdate complete: now on {REPO_OWNER}/{REPO_NAME} version {latest_ver} (released {release_date})")
+
+                self.root.after(0, self.offer_gng_prompt)
+
+                if prf_modified:
+                    self.log("\n⚠️ One or more Profile Files were updated.")
+                    self.root.after(0, self.prompt_run_configurator)
+
+            except Exception as e:
+                self.log(f"Update failed: {e}")
+        else:
+            self.log(f"{REPO_OWNER}/{REPO_NAME} is up to date (version {local_ver})")
+
+
+    def gng_update_flow(self):
+        self.log("GNG: Do you want to update navdata (requires VATSIM SSO login)?")
+        if not messagebox.askyesno(
+            "GNG Navdata",
+            "Open Aeronav GNG download page?\n\nSign in, download the .zip, then select it."
+        ):
+            self.log("GNG: User cancelled.")
+            return
+
+        try:
+            webbrowser.open(AERONAV_URL, new=1)
+            self.log(f"GNG: Opened {AERONAV_URL}")
+        except Exception as e:
+            self.log(f"GNG: Failed to open browser: {e}")
+
+        # Try to open directly in the user's Downloads folder
+        downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
+
+        zip_path = filedialog.askopenfilename(
+            initialdir=downloads_dir,
+            title="Select the downloaded GNG navdata ZIP",
+            filetypes=[("ZIP archives", "*.zip"), ("All files", "*.*")]
+        )
+
+        if not zip_path:
+            self.log("GNG: No file selected.")
+            return
+
+        try:
+            self.import_gng_zip(zip_path)
+        except Exception as e:
+            self.log(f"GNG: Import failed: {e}")
+            messagebox.showerror("GNG Import", f"Import failed:\n{e}")
+            return
+
+        messagebox.showinfo("GNG Import", "GNG navdata import complete.")
+        self.log("GNG: Import complete.")
+
+    def import_gng_zip(self, zip_path):
+        self.log(f"GNG: Reading {zip_path}")
+        datafiles_dir = os.path.join(self.base_dir, DATAFILES_DIR)
+        vsmr_dir      = os.path.join(self.base_dir, VSMR_DIR)
+        os.makedirs(datafiles_dir, exist_ok=True)
+        os.makedirs(vsmr_dir, exist_ok=True)
+    
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            names = zf.namelist()
+            # build a case-insensitive lookup by basename
+            lower_map = {}
+            for n in names:
+                base = os.path.basename(n).lower()
+                if base:
+                    lower_map.setdefault(base, []).append(n)
+    
+            extracted, missing = [], []
+    
+            for target_basename, accepted_set in GNG_REQUIRED.items():
+                found_fullname = None
+                for candidate in accepted_set:
+                    paths = lower_map.get(candidate)
+                    if paths:
+                        found_fullname = sorted(paths, key=len)[0]  # prefer shortest path
+                        break
+    
+                if not found_fullname:
+                    missing.append(target_basename)
+                    continue
+    
+                dst = os.path.join(datafiles_dir, target_basename)
+                with zf.open(found_fullname) as src, open(dst, "wb") as out:
+                    out.write(src.read())
+                self.log(f"GNG: {found_fullname} → {dst}")
+                extracted.append(target_basename)
+    
+                # also copy airlines list to vSMR
+                if target_basename.lower() == "icao_airlines.txt":
+                    vsmr_dst = os.path.join(vsmr_dir, "ICAO_Airlines.txt")
+                    try:
+                        with open(dst, "rb") as src, open(vsmr_dst, "wb") as out2:
+                            out2.write(src.read())
+                        self.log(f"GNG: Copied ICAO_Airlines.txt → {VSMR_DIR}")
+                    except Exception as e:
+                        self.log(f"GNG: Failed to copy ICAO_Airlines.txt to vSMR: {e}")
+    
+            if missing:
+                self.log(f"GNG: Missing expected files: {', '.join(missing)}")
+    
+            # sanity: make sure it looks like a proper package
+            if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
+                raise RuntimeError("ZIP does not look like a valid GNG navdata package (core files missing).")
+
+
+    def offer_gng_prompt(self):
+        try:
+            if messagebox.askyesno(
+                "Navdata (GNG)",
+                "Do you also want to update navdata now?\n\nThis will open the Aeronav GNG page so you can sign in and download the ZIP, then I'll import it."
+            ):
+                # run the threaded version so the UI stays responsive
+                self.start_gng_flow()
+        except Exception as e:
+            self.log(f"GNG prompt failed: {e}")
+
+
+    def _download_to_temp(self, url: str, temp_name: str = "Updater_new.exe") -> str:
+        tmp_dir = Path(tempfile.gettempdir())
+        dst = tmp_dir / temp_name
+    
+        # Clean previous
+        for f in ("Updater_new.exe",):
+            p = tmp_dir / f
+            try:
+                if p.exists():
+                    p.unlink()
+            except Exception:
+                pass
+    
+        # Stream download + content-length
+        r = self.session.get(url, timeout=(15, 180), stream=True)
+        r.raise_for_status()
+        expected = int(r.headers.get("Content-Length", "0") or "0")
+    
+        with open(dst, "wb") as f:
+            for chunk in r.iter_content(chunk_size=1 << 19):  # 512KB
+                if chunk:
+                    f.write(chunk)
+    
+        actual = dst.stat().st_size
+    
+        # Sanity: PyInstaller one-file EXEs are usually > 5 MB
+        if actual < 5_000_000:
+            raise RuntimeError(f"Updater download too small ({actual} bytes)")
+    
+        # If server provided Content-Length, make sure it matches
+        if expected and actual != expected:
+            raise RuntimeError(f"Updater download size mismatch: got {actual}, expected {expected}")
+    
+        self.log(f"Downloaded new Updater → {dst} ({actual} bytes)")
+        return str(dst)
+
+    
+    def _swap_running_updater(self, new_exe_path: str):
+        tmpdir   = Path(tempfile.gettempdir())
+        bat_file = tmpdir / "ukcp_swap_updater.bat"
+        log_file = tmpdir / "ukcp_swap.log"
+        curr_exe = os.path.abspath(sys.argv[0])
+        curr_pid = os.getpid()
+    
+        bat = rf"""@echo off
+setlocal EnableExtensions EnableDelayedExpansion
+set "LOG={log_file}"
+echo ---- swap started %DATE% %TIME% ---- > "%LOG%"
+set "CURR={curr_exe}"
+set "NEW={new_exe_path}"
+set "PID={curr_pid}"
+
+for %%I in ("%CURR%") do set "CURRDIR=%%~dpI"
+
+echo CURR="%CURR%" >> "%LOG%"
+echo NEW ="%NEW%"  >> "%LOG%"
+echo CURRDIR="%CURRDIR%" >> "%LOG%"
+echo PID=%PID% >> "%LOG%"
+
+rem Wait for the running process to exit
+:wait
+tasklist /FI "PID eq %PID%" | find "%PID%" >nul
+if %ERRORLEVEL%==0 (
+  timeout /t 1 /nobreak >nul
+  goto wait
+)
+
+rem Retry copy (AV can hold the file briefly)
+set tries=0
+:copyloop
+set /a tries+=1
+copy /y "%NEW%" "%CURR%" >nul
+if errorlevel 1 (
+  if !tries! lss 20 (
+    timeout /t 1 /nobreak >nul
+    goto copyloop
+  ) else (
+    echo Copy failed after !tries! tries >> "%LOG%"
+    exit /b 1
+  )
+)
+echo Copy succeeded after !tries! tries >> "%LOG%"
+
+rem Launch via PowerShell, capture new PID, and wait for it
+set "NEWPID_FILE=%TEMP%\ukcp_newpid.txt"
+del /f /q "%NEWPID_FILE%" >nul 2>&1
+
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+  > "%NEWPID_FILE%" 2>> "%LOG%"
+
+set "NEWPID="
+for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+if not defined NEWPID (
+  echo Failed to obtain new PID >> "%LOG%"
+  goto launch_retry
+)
+
+echo New PID=%NEWPID% >> "%LOG%"
+
+rem --- verify the new process survives a few seconds ---
+set ltries=0
+:pid_survival_check
+set /a ltries+=1
+
+rem wait briefly, then check that PID still exists
+timeout /t 5 /nobreak >nul
+tasklist /FI "PID eq %NEWPID%" | find "%NEWPID%" >nul
+if %ERRORLEVEL%==0 (
+  echo Relaunched successfully and still running (try !ltries!). >> "%LOG%"
+  exit /b 0
+) else (
+  if !ltries! lss 5 (
+    echo New process exited too soon (attempt !ltries!). Retrying launch... >> "%LOG%"
+    rem relaunch and recapture PID
+    set "NEWPID_FILE=%TEMP%\ukcp_newpid.txt"
+    del /f /q "%NEWPID_FILE%" >nul 2>&1
+    powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+      "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+      > "%NEWPID_FILE%" 2>> "%LOG%"
+    set "NEWPID="
+    for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+    if not defined NEWPID (
+      echo Failed to obtain new PID on retry. >> "%LOG%"
+    )
+    goto pid_survival_check
+  ) else (
+    echo Launch failed repeatedly (process dies quickly). >> "%LOG%"
+    exit /b 1
+  )
+)
+
+:launch_retry
+echo Launch failed (no PID), retrying a few times... >> "%LOG%"
+set ltries=0
+:retry_loop
+set /a ltries+=1
+powershell -NoProfile -ExecutionPolicy Bypass -Command ^
+  "$p = Start-Process -FilePath '%CURR%' -WorkingDirectory '%CURRDIR%' -PassThru; $p.Id" ^
+  > "%NEWPID_FILE%" 2>> "%LOG%"
+set "NEWPID="
+for /f "usebackq delims=" %%P in ("%NEWPID_FILE%") do set NEWPID=%%P
+if defined NEWPID goto pid_wait
+if !ltries! lss 5 (
+  timeout /t 2 /nobreak >nul
+  goto retry_loop
+)
+echo Launch failed after !ltries! manual attempts >> "%LOG%"
+exit /b 1
+"""
+
+        # Write the BAT file (Windows style newlines) and run it
+        with open(bat_file, "w", encoding="utf-8", newline="\r\n") as f:
+            f.write(bat)
+    
+        subprocess.Popen(["cmd", "/c", str(bat_file)], shell=False, close_fds=True)
+    
+        # Terminate this process so the swapper can proceed
+        try:
+            self.root.quit()
+            self.root.destroy()
+        except Exception:
+            pass
+        os._exit(0)
+
+
+# --- Launch GUI ---
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = UpdaterApp(root)
+    root.mainloop()

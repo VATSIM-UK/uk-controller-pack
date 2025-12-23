@@ -1,4 +1,4 @@
-name: Check TopSky data edits
+﻿name: 📊 Check TopSky data edits
 
 on:
   pull_request:

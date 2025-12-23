@@ -66,7 +66,7 @@ def CPDLC():
     CPDLCFiles = ImportFileIndex('CPDLC/')
     Remove('TopSkyCPDLC.txt')
     Construct('CPDLC/', CPDLCFiles, 'TopSkyCPDLC.txt')
-    CopyAll('Hoppie Code.txt', 'TopSkyCPDLChoppieCode.txt')
+    CopyAll('CPDLC/Hoppie Code.txt', 'TopSkyCPDLChoppieCode.txt')
 
 def Maps():
     MapsFiles = ImportFileIndex('Maps/')
@@ -123,7 +123,7 @@ def ImportFileIndex(Folder):
                 Entry = Entry.split('//')[0]
             if not Entry.strip() == '' and '.' in Entry: # Check needed when comment is taking full line and validates for a potential file extension
                 Files.append(Entry.strip())
-            else:
+            elif not Entry.strip() == '':
                 print('Entry ' + Entry + ' in ' + Shared_Path + Folder + Index_Name + ' has been excluded!')
     return Files
 #endregion
