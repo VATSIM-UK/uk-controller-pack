@@ -1,7 +1,7 @@
 {
   "name": "Heathrow",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Heathrow(EGLL & EGWU).json",
-  "updateSerial": 2025061201,
+  "updateSerial": 2025122301,
   "stations": [
     {
       "identifier": "EGLL",

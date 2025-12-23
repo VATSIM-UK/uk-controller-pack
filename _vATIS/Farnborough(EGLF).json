@@ -1,7 +1,7 @@
 {
   "name": "Farnborough",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Farnborough(EGLF).json",
-  "updateSerial": 2025040901,
+  "updateSerial": 2025122301,
   "stations": [
     {
       "ordinal": 0,
