@@ -1,4 +1,4 @@
-# Changes from release 2025/11 to 2026/01
+# Changes from release 2025/11 to 2025/13
 1. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/07 to 2025/08
