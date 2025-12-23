@@ -1057,3 +1057,6 @@ PLUGIN:vSMR Vatsim UK:SRW1Rotation:47
 PLUGIN:vSMR Vatsim UK:SRW1Scale:15
 PLUGIN:vSMR Vatsim UK:SRW1TopLeftX:1005
 PLUGIN:vSMR Vatsim UK:SRW1TopLeftY:158
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0
