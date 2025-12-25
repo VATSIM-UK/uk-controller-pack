@@ -1,3 +1,6 @@
+# Changes from release 2025/12 to 2025/13
+1. Enhancement - Add VACS installer (V1.3) - thanks to @lucak1011 (Luca Kulaga)
+
 # Changes from release 2025/11 to 2025/12
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
 
