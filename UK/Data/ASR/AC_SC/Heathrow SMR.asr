@@ -1048,3 +1048,6 @@ PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR Vatsim UK:ActiveProfile:Heathrow (Realistic)
 PLUGIN:vSMR Vatsim UK:Airport:EGLL
 PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0

@@ -1216,3 +1216,6 @@ PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR Vatsim UK:Airport:EGLC
 PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0
