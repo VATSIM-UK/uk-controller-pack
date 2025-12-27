@@ -1,0 +1,837 @@
+[stations]
+selected_profile = "Central_LAG"
+
+[stations.profiles.Swanwick_Military]
+include = [
+    "EGDR_*",
+    "EGDO_*",
+    "EGDI_*",
+    "EGDY_*",
+    "EGDM_*",
+    "EGVP_*",
+    "EGVO_*",
+    "EGUB_*",
+    "EGWU_*",
+    "EGVA_*",
+    "EGVN_*",
+    "EGUW_*",
+    "EGOS_*",
+    "EGOE_*",
+    "EGOV_*",
+    "EGOQ_*",
+    "EGNO_*",
+    "EGUL_*",
+    "EGUN_*",
+    "EGYM_*",
+    "EGXT_*",
+    "EGXC_*",
+    "EGYD_*",
+    "EGYE_*",
+    "EGXE_*",
+    "EGXZ_*",
+    "EGQL_*",
+    "EGQS_*",
+    "EGVV_*",
+    "MAN_*",
+    "LON_*",
+    "STC_*",
+    "SCO_*",
+    "LTC_*",
+    "LON_SC*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.Swanwick_Military.aliases]
+
+[stations.profiles.Default]
+include = []
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+
+[stations.profiles.Default.aliases]
+
+[stations.profiles.South_LAG]
+include = [    
+    "SOLENT*",
+    "THAMES*",
+    "*_FMP",
+    "EGHH_*",
+    "EGHI_*",
+    "EGKA_*",
+    "EGKK_*",
+    "EGLF_*",
+    "EGKB_*",
+    "EGMD_*",
+    "EGMC_*",
+    "EGLC_*",
+    "EGLL_*",
+    "LON_D*",
+    "LON_W*",
+    "LON_C*",
+    "LON_M*",
+    "LON_E*",
+    "LON_SC*",
+    "LON_S*",
+    "LON_23*",
+    "LTC_*",
+    "EGJJ_*",
+    "EDYY_K*",
+    "EDYY_N*",
+    "EBBU_*",
+    "PAR_*",
+    "LFEE_*",
+    "LFRR_*",
+    "LFQQ_*APP",
+    "LFRN_*APP",
+    "EGVV_*",
+
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.South_LAG.aliases]
+
+"135.805" = "TC BBX"
+"119.730" = "LL INT N"
+"122.780" = "LF AIR"
+"120.230" = "SOLENT"
+"133.005" = "LFEE"
+"134.355" = "LF APC"
+"136.600" = "LFRR E"
+"124.230" = "KK AIR"
+"128.155" = "LFFF"
+"134.980" = "LL INT S"
+"125.605" = "HH AIR"
+"121.030" = "TC MIDS"
+"135.410" = "LFFF LOW"
+"129.430" = "AC WOR"
+"135.980" = "MAAS NIK"
+"121.280" = "TC NW"
+"122.730" = "HI RAD"
+"128.965" = "MC DIR"
+"120.025" = "AC DTY"
+"118.565" = "LFRR V"
+"118.825" = "TC NE"
+"119.780" = "TC N"
+"129.405" = "KB APP"
+"118.480" = "AC CLN"
+"128.805" = "BRU N"
+"118.080" = "LC AIR"
+"125.500" = "LFRR"
+"126.825" = "KK INT"
+"119.480" = "HH RAD"
+"126.480" = "LFQQ"
+"118.505" = "LL AIR S"
+"127.385" = "LFRR J"
+"121.230" = "TC EAST"
+"134.755" = "AC S23"
+"132.505" = "LFEE NOR"
+"126.080" = "AC WST"
+"120.530" = "TC SE"
+"132.700" = "TC TMS"
+"118.205" = "HI AIR"
+"133.180" = "TC SW"
+"127.730" = "MC AIR"
+"134.905" = "AC DVR"
+"129.505" = "LFRR W"
+"135.255" = "AC BCN"
+"129.575" = "BRU E"
+"128.025" = "LC DIR"
+"132.205" = "MAAS KOK"
+"127.830" = "AC BBX"
+"132.605" = "AC SC BBX"
+"125.980" = "MAAS BRU"
+"127.105" = "AC CEN"
+"128.815" = "AC BHD"
+"134.430" = "PC SE"
+"125.205" = "JJ CTL"
+"131.100" = "BRU W"
+"134.000" = "LFRN"
+"134.125" = "TC S"
+
+[stations.profiles.Central_LAG]
+include = [
+    "EGSS_*",
+    "EGGW_*",
+    "EGSC_*",
+    "ESSEX*",
+    "EGTK_*",
+    "EGTC_*",
+    "EGBB_*",
+    "EGNX_*",
+    "EGLL_N*APP",
+    "EGLC_*",
+    "EGMC_*",
+    "MAN_*",
+    "LON_S*",
+    "LON_SC*",
+    "LON_D*",
+    "LON_N*",
+    "LON_W*",
+    "LTC_*",
+    "EDYY_D*",
+    "EDYY_K*",
+    "EDYY_N*",
+    "EBBU_*",
+    "EHAA_*",
+    "EGVV_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.Central_LAG.aliases]
+
+"135.715" = "PC NE"
+"118.480" = "AC CLN"
+"118.080" = "LC AIR"
+"133.800" = "PC E"
+"132.205" = "MAAS KOK"
+"118.305" = "BB AIR"
+"129.550" = "GW INT"
+"120.530" = "TC SE"
+"127.730" = "MC AIR"
+"123.705" = "AMS WEST"
+"127.830" = "AC BBX"
+"124.005" = "NX AIR"
+"120.025" = "AC DTY"
+"120.625" = "SS INT"
+"135.580" = "AC LKS"
+"125.750" = "AMS LOW"
+"132.605" = "AC SC BBX"
+"132.555" = "GW AIR"
+"128.965" = "MC DIR"
+"119.730" = "LL INT N"
+"126.180" = "NX APC"
+"127.105" = "AC CEN"
+"135.805" = "TC BBX"
+"134.905" = "AC DVR"
+"134.430" = "PC SE"
+"135.980" = "MAAS NIK"
+"121.030" = "TC MIDS"
+"132.700" = "TC TMS"
+"121.230" = "TC EAST"
+"123.980" = "BB INT"
+"135.960" = "MAAS DELTA"
+"134.125" = "TC S"
+"133.180" = "TC SW"
+"133.200" = "MPC BBX"
+"129.575" = "BRU E"
+"121.280" = "TC NW"
+"128.805" = "BRU N"
+"129.430" = "AC WOR"
+"123.800" = "SS AIR"
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"134.375" = "AMS ALL"
+"131.100" = "BRU W"
+"128.025" = "LC DIR"
+"119.780" = "TC N"
+"125.980" = "MAAS BRU"
+"118.825" = "TC NE"
+
+
+[stations.profiles.UK_ALL]
+include = [
+    "EG*",
+    "NAT_*",
+    "LON_*",
+    "LTC_*",
+    "SCO_*",
+    "STC_*",
+    "MAN_*",
+    "UK_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.UK_ALL.aliases]
+
+[stations.profiles.West_LAG]
+include = [
+    "EGHE_*",
+    "EGHC_*",
+    "EGHG_*",
+    "EGHQ_*",
+    "EGTE_*",
+    "EGHQ_*",
+    "EGFF_*",
+    "EGSY_*",
+    "EGGD_*",
+    "EGBJ_*",
+    "EGBC_*",
+    "EGJB_*",
+    "EGJA_*",
+    "EGJJ_*",
+    
+    "EIDW_U*",
+    "EIDW_L*",
+    "EISN_E*",
+    "EISN_B*",
+
+    "MAN_CTR",
+    "MAN__CTR",
+    "MAN_W*",
+
+    "LON_C*",
+    "LON_M*",
+    "LON_N*",
+
+    "LTC_CTR",
+    "LTC__CTR",
+    "LTC_S*",
+    "LTC_M*",
+
+    "LFRR*",
+    "LFRB_*APP",
+    
+
+    "EGVV_*",
+    "NAT*",
+    "EGGX*",
+    "*_FMP",
+]
+exclude = []
+
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.West_LAG.aliases]
+
+"120.255" = "HC ADC"
+"133.405" = "HQ INT"
+"127.930" = "HQ APP"
+"134.300" = "HQ AIR"
+"119.800" = "TE AIR"
+"128.975" = "TE RAD N"
+"123.575" = "TE RAD S"
+"120.300" = "JJ INT"
+"118.550" = "JJ FIN"
+"128.650" = "JB INT"
+"124.500" = "JB FIN"
+"128.555" = "BJ APP"
+"122.905" = "BJ AIR"
+"125.650" = "GD RAD"
+"136.080" = "GD DIR"
+"125.855" = "FF RAD 1"
+"119.155" = "FF RAD 2"
+"133.105" = "FF AIR"
+
+"133.200" = "PC BBX"
+"128.055" = "PC W"
+
+"133.705" = "AC NTH"
+"135.580" = "AC LKS"
+"120.025" = "AC DTY"
+"127.105" = "AC CEN"
+"132.605" = "AC SC BBX"
+"129.430" = "AC WOR"
+
+"121.030" = "TC MIDS"
+"134.125" = "TC S"
+"133.180" = "TC SW"
+"135.805" = "TC BBX"
+
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+"134.630" = "BANBA SUP"
+"127.130" = "BANBA UP"
+
+"129.505" = "LFRR W"
+"125.500" = "LFRR BBX"
+"135.260" = "LFRR WI"
+"133.615" = "LFRR WU"
+"118.865" = "LFRR V"
+"124.775" = "LFRR VK"
+"LFRB_*APP" = "LFRB APP"
+
+
+"120.450" = "JJ SKERY"
+"125.205" = "JJ ORTAC"
+
+
+
+
+
+[stations.profiles.North_LAG]
+include = [
+    "EGCC_*",
+    "EGGP_*",
+    "EGNM_*",
+    "EGNJ_*",
+    "EGNT_*",
+    "EGNV_*",
+    "EGNS_*",
+    "EGNR_*",
+    "EGNH_*",
+    "EGSH_*",
+
+    "EDYY_D*",
+    "EHAA_*",
+
+    "EIDW_U*",
+    "EIDW_L*",
+    "EISN_E*",
+
+    "MAN_*",
+
+    "LON_C*",
+    "LON_SC*",
+    "LON_E*",
+    "LON_W*",
+
+    "LTC_M*",
+    "LTC_E*",
+
+    "STC_*",
+    "SCO_*",
+
+    "EGVV_*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.North_LAG.aliases]
+
+"118.580" = "CC INT S"
+"135.005" = "CC INT N"
+"121.355" = "CC FIN"
+"118.630" = "CC AIR 1"
+"119.405" = "CC AIR 2"
+
+"119.855" = "GP RAD 1"
+"118.455" = "GP FIN"
+"126.355" = "GP AIR"
+
+"134.580" = "NM RAD"
+"120.305" = "NM AIR"
+
+"119.130" = "NJ RAD"
+"124.905" = "NJ AIR"
+
+"124.380" = "NT RAD 1"
+"119.705" = "NT AIR"
+
+"119.005" = "NS ADC"
+"135.905" = "NS RAD 1"
+"120.855" = "NS RAD 2"
+
+"124.955" = "NR ADC"
+"120.055" = "NR RAD"
+"130.015" = "NR FIN"
+
+"119.955" = "NH APP"
+"118.405" = "NH ADC"
+
+"124.225" = "SH ADC"
+"119.355" = "SH RAD"
+"128.330" = "SH DIR"
+
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"135.580" = "AC LKS"
+"120.025" = "AC DTY"
+"127.105" = "AC CEN"
+"132.605" = "AC SC BBX"
+
+"121.030" = "TC MIDS"
+
+"133.200" = "PC BBX"
+"133.800" = "PC E"
+"135.715" = "PC NE"
+"134.430" = "PC SE"
+"128.055" = "PC W"
+
+"129.100" = "ScAC Rat"
+"132.730" = "ScAc W"
+"133.875" = "ScAc WD"
+"135.530" = "ScAc BBX"
+"134.775" = "ScAc S"
+"121.325" = "ScAc E"
+
+"126.300" = "STC BBX"
+"123.775" = "STC A"
+"130.975" = "STC E"
+"124.825" = "STC W"
+
+"123.705" = "AMS WEST"
+"125.750" = "AMS LOW"
+"134.375" = "AMS ALL"
+"123.850" = "AMS SOUTH"
+"124.880" = "AMS EAST"
+
+"135.960" = "EDYY D"
+
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+
+[stations.profiles.Scottish]
+include = [
+    "EGAA_*",
+    "EGAC_*",
+    "EGAE_*",
+    "EGPH_*",
+    "EGPF_*",
+    "EGPK_*",
+    "EGPE_*",
+    "EGPD_*",
+    "EGPB_*",
+    "EGPO_*",
+    "EGPL_*",
+    "EGPC_*",
+    "EGPN_*",
+    "EGPA_*",
+
+    "BIRD*",
+    
+    "EDWW_W*",
+    "EDYY*",
+
+    "EHAA*",
+    "EKDK_CTR",
+    "EKDK__CTR",
+    "EKDK_*N*CTR",
+    "EKDK_V*CTR",
+    "EKDK_WE*",
+    
+    "ENOR_CTR",
+    "ENOR__CTR",
+    "ENOR_S*",
+
+    "ENSV*CTR",
+
+
+    "EISN_E*",
+    "EISN_L*",
+    "EIDW_UN*",
+    "EIDW_LN*",
+    "MAN_*",
+    "LON_N*",
+    "STC_*",
+    "SCO_*",
+    "EGVV_*",
+    "NAT*",
+    "EGGX*",
+    "*_FMP",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.Scottish.aliases]
+
+
+
+"118.255" = "PB ADC"
+"131.300" = "PB RAD"
+
+"118.105" = "PD AIR"
+"119.055" = "PD INT"
+"128.305" = "PD FIN"
+"134.100" = "PD HELS"
+
+"118.405" = "PE ADC"
+"122.605" = "PE RAD"
+
+"129.450" = "PK INT"
+"124.630" = "PK FIN"
+"118.150" = "PK AIR"
+
+"119.105" = "PF INT"
+"128.755" = "PF FIN"
+"118.805" = "PF AIR"
+
+"121.205" = "PH INT"
+"128.980" = "PH FIN"
+"118.705" = "PH AIR"
+
+"118.300" = "AA AIR"
+"133.125" = "AA INT"
+"120.905" = "AA FIN"
+
+"122.830" = "AC ADC"
+
+"123.625" = "AE APP"
+"134.155" = "AE AIR"
+
+
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"135.580" = "AC LKS"
+
+"133.200" = "PC BBX"
+"133.800" = "PC E"
+"135.715" = "PC NE"
+"134.430" = "PC SE"
+"128.055" = "PC W"
+
+"129.100" = "ScAC Rat"
+"132.730" = "ScAc W"
+"133.875" = "ScAc WD"
+"135.530" = "ScAc BBX"
+"134.775" = "ScAc S"
+"121.325" = "ScAc E"
+
+"126.300" = "STC BBX"
+"123.775" = "STC A"
+"130.975" = "STC E"
+"124.825" = "STC W"
+
+"129.180" = "DUB UP NTH"
+"132.580" = "DUB LO NTH"
+
+"135.730" = "LIFFY SUP"
+"134.260" = "LIFFY UP"
+
+"119.075" = "EISN LN"
+"124.700" = "EISN LS"
+
+"134.680" = "EKDK N"
+"136.555" = "EKDK UN"
+"135.565" = "EKDK V"
+"126.055" = "EKDK WE"
+"136.485" = "EKDK BBX"
+
+"123.705" = "AMS WEST"
+"125.750" = "AMS LOW"
+"134.375" = "AMS ALL"
+"123.850" = "AMS SOUTH"
+"124.880" = "AMS EAST"
+
+"129.735" = "MAAS JEV HI"
+"132.780" = "MAAS HOL HI"
+"136.465" = "MAAS JEV LO"
+
+"129.840" = "EDYY BB"
+"124.075" = "EDWW E"
+"126.325" = "EDWW A"
+"127.675" = "EDWW W"
+"133.725" = "EDWW BBX"
+"135.960" = "EDYY D"
+
+"136.280" = "ESNV W"
+"120.655" = "ENSV BBX"
+"124.705" = "ENSV N"
+"135.680" = "ENSV 16"
+"121.550" = "ENOR S"
+"134.515" = "ENOR SC"
+"134.500" = "ENOR BBX"
+
+"126.750" = "BIRD E1"
+"132.300" = "BIRD E2"
+"128.800" = "BIRD E3"
+"125.700" = "BIRD S1"
+"119.700" = "BIRD S2"
+"128.600" = "BIRD S3"
+
+
+
+[stations.profiles.EGKK]
+include = [
+    "EGTT_*",
+    "UK_*",
+    "EGKK*",
+    "EGLL_*APP",
+    "LON_D*",
+    "LON_S*",
+    "LON_SC*",
+    "LON_CTR",
+    "LTC_S*",
+    "LTC_CTR",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.EGKK.aliases]
+"118.950" = "FIN"
+"134.125" = "TC S"
+"134.980" = "LL INT S"
+"129.430" = "AC WOR"
+"121.805" = "GMC"
+"135.805" = "TC BBX"
+"120.530" = "TC SE"
+"134.905" = "AC DVR"
+"119.730" = "LL INT N"
+"127.830" = "AC BBX"
+"124.230" = "AIR"
+"126.825" = "INT"
+"133.180" = "TC SW"
+"132.605" = "AC SC BBX"
+"121.955" = "GMP"
+
+
+
+[stations.profiles.EGLL]
+include = [
+    "EGTT_*",
+    "UK_*",
+    "EGLL*",
+    "EGKK_*APP",
+    "THAMES_*APP",
+    "LON_M*",
+    "LON_E*",
+    "LON_C*",
+    "LON_D*",
+    "LON_S*",
+    "LON_SC*",
+    "LON_CTR",
+    "LTC_N*",
+    "LTC_S*",
+    "LTC_E*",
+    "LTC_M*",
+    "LTC_CTR",
+]
+exclude = []
+priority = [
+    "*_FMP",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.EGLL.aliases]
+"126.825" = "KK INT"
+"118.505" = "AIR S"
+"129.430" = "AC WOR"
+"132.700" = "TC TMS"
+"118.705" = "AIR N"
+"134.980" = "INT S"
+"121.855" = "GMC 3"
+"127.830" = "AC BBX"
+"127.105" = "AC CEN"
+"134.125" = "TC S"
+"121.905" = "GMC 1"
+"121.280" = "TC NW"
+"120.025" = "AC DTY"
+"120.400" = "FIN"
+"120.530" = "TC SE"
+"135.805" = "TC BBX"
+"118.825" = "TC NE"
+"121.230" = "TC EAST"
+"119.780" = "TC N"
+"134.905" = "AC DVR"
+"121.705" = "GMC 2"
+"118.480" = "AC CLN"
+"121.980" = "GMP"
+"132.605" = "AC SC BBX"
+"124.480" = "GMP PLN"
+"121.030" = "TC MIDS"
+"119.730" = "INT N"
+"133.180" = "TC SW"
+
+
+[stations.profiles.AFIS_AGCS_Stations]
+
+include = [
+"EG**_I*",
+"EG**_R*",
+"LON*",
+"LTC*",
+"SCO*",
+"STC*",
+]
+
+exclude = []
+priority = [
+    "*_FMP",
+    "*_CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+]
+frequencies = "HideAliased"
+grouping = "None"
