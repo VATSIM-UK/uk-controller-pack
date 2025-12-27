@@ -4,7 +4,8 @@
 3. AIRAC (2511) - Audited VRP Digital Dataset - thanks to @clc0609 (Coby Chapman)
 4. AIRAC (2513) - Updated EGR219 lateral limits - thanks to @Liaely (Lily Unitt)
 5. Enhancement - Updated vSMR to v1.7.1
-6. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
+6. Bug - Fixed incorrect runway in use displayed on EGSS (Stansted) profiles in vATIS - thanks to @clc0609 (Coby Chapman)
+7. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
