@@ -8,15 +8,15 @@ ATIS2:Edinburgh Radar
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_TWR:30:4
-ATIS2:Edinburgh Tower
+ATIS2:Edinburgh Tower | PDC [EGPH]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_GND:10:3
-ATIS2:Edinburgh Ground
+ATIS2:Edinburgh Ground | PDC [EGPH]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGPH_DEL:10:2
-ATIS2:Edinburgh Delivery
+ATIS2:Edinburgh Delivery | PDC [EGPH]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 END
