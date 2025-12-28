@@ -1,3 +1,5 @@
+x. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
+
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2511) - Removed danger area EGD215 - thanks to @lyraongithub
