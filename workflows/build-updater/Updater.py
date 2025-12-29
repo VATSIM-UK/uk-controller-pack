@@ -518,7 +518,7 @@ class UpdaterApp:
 if __name__ == "__main__":
     if "--print-build" in sys.argv:
         print(UPDATER_BUILD)
-        raise SystemExit(0)"
+        raise SystemExit(0)
 
     root = tk.Tk()
     app = UpdaterApp(root)

@@ -8,12 +8,13 @@ on:
       - "workflows/build-updater/**"
       - ".github/workflows/build-updater.yml"
 
+permissions:
+  contents: write
+
 jobs:
   changes:
     name: Check for changes
     runs-on: windows-latest
-    permissions:
-      pull-requests: read
     outputs:
       build: ${{ steps.filter.outputs.build }}
     steps:
@@ -21,16 +22,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check for changes
-        uses: dorny/paths-filter@v2
+        uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: |
             build:
-              - './workflows/build-updater/Updater.py'
-              - './workflows/build-updater/BuildUpdater.spec'
-              - './workflows/build-updater/azure.tcl'
-              - './workflows/build-updater/logo.ico'
-              - './workflows/build-updater/theme/**/*.tcl'
+              - "workflows/build-updater/Updater.py"
+              - "workflows/build-updater/BuildUpdater.spec"
+              - "workflows/build-updater/azure.tcl"
+              - "workflows/build-updater/logo.ico"
+              - "workflows/build-updater/theme/**/*.tcl"
 
   build-exe:
     name: Build executable
@@ -40,6 +41,7 @@ jobs:
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -72,10 +74,10 @@ jobs:
           $dst = Join-Path $dstDir "Updater_build.py"
 
           if (-not (Test-Path $src)) { throw "Updater.py not found at $src" }
-
           New-Item -ItemType Directory -Force -Path $dstDir | Out-Null
 
           $content = Get-Content $src -Raw
+
           if ($content -notmatch '__GIT_COMMIT__') {
             throw "Placeholder __GIT_COMMIT__ not found in Updater.py"
           }
@@ -90,19 +92,33 @@ jobs:
 
           Write-Host "Prepared $dst with build hash $env:UPDATER_HASH"
 
+      - name: Sanity check temp file parses (fail fast on syntax errors)
+        shell: pwsh
+        run: |
+          python -m py_compile workflows/build-updater/_build/Updater_build.py
+
       - name: Compile executable
         shell: pwsh
         run: |
           pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
           if (-not (Test-Path "UK\Updater.exe")) { throw "Build failed: UK\Updater.exe not produced" }
 
+      - name: Verify built EXE prints expected build hash
+        shell: pwsh
+        run: |
+          $out = & "UK\Updater.exe" --print-build
+          $out = ($out | Out-String).Trim()
+          Write-Host "Updater.exe --print-build => [$out]"
+          if ($out -ne "$env:UPDATER_HASH") {
+            throw "EXE build hash mismatch. Expected $env:UPDATER_HASH but got [$out]"
+          }
+
       - name: Write updater version marker (remote-only)
         shell: pwsh
         run: |
-          $hash = "$env:UPDATER_HASH"
           New-Item -ItemType Directory -Force -Path ".data" | Out-Null
-          Set-Content -Path ".data/updater_version.txt" -Value $hash -NoNewline
-          Write-Host "Updater hash written to .data/updater_version.txt: $hash"
+          Set-Content -Path ".data/updater_version.txt" -Value "$env:UPDATER_HASH" -NoNewline
+          Write-Host "Updater hash written to .data/updater_version.txt: $env:UPDATER_HASH"
 
       - name: Commit executable + updater version marker
         shell: pwsh
