@@ -106,9 +106,18 @@ jobs:
       - name: Verify built EXE prints expected build hash
         shell: pwsh
         run: |
-          $out = & "UK\Updater.exe" --print-build
-          $out = ($out | Out-String).Trim()
-          Write-Host "Updater.exe --print-build => [$out]"
+          $tmp = Join-Path $env:RUNNER_TEMP "updater_build.txt"
+          if (Test-Path $tmp) { Remove-Item $tmp -Force }
+
+          & "UK\Updater.exe" --write-build $tmp
+
+          if (-not (Test-Path $tmp)) {
+            throw "Updater.exe did not create build marker file: $tmp"
+          }
+          
+          $out = (Get-Content $tmp -Raw).Trim()
+          Write-Host "Updater.exe --write-build => [$out]"
+
           if ($out -ne "$env:UPDATER_HASH") {
             throw "EXE build hash mismatch. Expected $env:UPDATER_HASH but got [$out]"
           }
