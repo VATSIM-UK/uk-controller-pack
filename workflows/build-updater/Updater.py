@@ -109,6 +109,8 @@ class UpdaterApp:
         self.root.title("UK Controller Pack Updater")
         self.root.geometry("720x520")
         self.root.resizable(True, True)
+        self.log(f"Updater path:  {os.path.abspath(sys.argv[0])}")
+        self.log(f"Updater build: {(UPDATER_BUILD or '').strip()!r}")
 
         set_window_icon(self.root)
         use_azure_theme(self.root, mode="dark")
@@ -220,6 +222,7 @@ class UpdaterApp:
             messagebox.showerror(
                 "Updater update required",
                 "This updater build ID is missing.\n\n"
+                f"Detected build id: [{local_hash}]\n\n"
                 "Please download the latest full Controller Pack and replace your UK folder contents.\n\n"
                 "No changes have been made.",
             )
