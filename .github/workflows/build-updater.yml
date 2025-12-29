@@ -55,9 +55,15 @@ jobs:
           pip install pyinstaller
           pip install requests
 
-
       - name: Compile executable
         run: pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
+
+      - name: Write updater_version.txt
+        shell: pwsh
+        run: |
+          $hash = (git rev-parse --short HEAD).Trim()
+          Set-Content -Path "UK/updater_version.txt" -Value $hash -NoNewline
+          Write-Host "Updater hash written to UK/updater_version.txt: $hash"
 
       - name: Commit executable
         run: |
@@ -65,6 +71,7 @@ jobs:
           git config --local user.name  "VATSIM UK"
 
           git add UK/Updater.exe
+          git add UK/updater_version.txt
 
           git diff --staged --quiet
           if ($LASTEXITCODE -eq 0) {
