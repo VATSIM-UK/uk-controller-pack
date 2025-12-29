@@ -17,7 +17,7 @@ import zipfile
 REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
 
-LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_11
+LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
