@@ -1,23 +1,5 @@
-import requests
-from requests.adapters import HTTPAdapter
-from datetime import datetime
 import os
 import sys
-import threading
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import ttk
-from tkinter import filedialog
-import re
-import queue
-from urllib3.util.retry import Retry
-import webbrowser
-import zipfile
-
-REPO_OWNER = "VATSIM-UK"
-REPO_NAME = "UK-Controller-Pack"
-
-LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
@@ -46,6 +28,25 @@ def _cli_early_exit() -> None:
         raise SystemExit(0)
 
 _cli_early_exit()
+
+import requests
+from requests.adapters import HTTPAdapter
+from datetime import datetime
+import threading
+import tkinter as tk
+from tkinter import messagebox
+from tkinter import ttk
+from tkinter import filedialog
+import re
+import queue
+from urllib3.util.retry import Retry
+import webbrowser
+import zipfile
+
+REPO_OWNER = "VATSIM-UK"
+REPO_NAME = "UK-Controller-Pack"
+
+LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 
 # Remote reference for latest updater build ID (short hash)
 UPDATER_VERSION_URL = (

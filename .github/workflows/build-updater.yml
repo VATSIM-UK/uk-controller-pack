@@ -103,18 +103,24 @@ jobs:
           pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
           if (-not (Test-Path "UK\Updater.exe")) { throw "Build failed: UK\Updater.exe not produced" }
 
-      - name: Verify built EXE prints expected build hash
+      - name: Verify embedded build hash (CLI)
         shell: pwsh
         run: |
           $tmp = Join-Path $env:RUNNER_TEMP "updater_build.txt"
           if (Test-Path $tmp) { Remove-Item $tmp -Force }
 
-          & "UK\Updater.exe" --write-build $tmp
+          $p = Start-Process -FilePath "UK\Updater.exe" -ArgumentList @("--write-build", $tmp) -Wait -PassThru
+
+          Write-Host "Updater.exe exit code: $($p.ExitCode)"
+
+          if ($p.ExitCode -ne 0) {
+            throw "Updater.exe CLI returned exit code $($p.ExitCode)"
+          }
 
           if (-not (Test-Path $tmp)) {
             throw "Updater.exe did not create build marker file: $tmp"
           }
-          
+
           $out = (Get-Content $tmp -Raw).Trim()
           Write-Host "Updater.exe --write-build => [$out]"
 
