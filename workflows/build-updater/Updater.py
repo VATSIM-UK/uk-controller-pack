@@ -23,12 +23,6 @@ LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 UPDATER_BUILD = "__GIT_COMMIT__"
 
 def _cli_early_exit() -> None:
-    """
-    CI + troubleshooting helpers.
-
-    The packaged EXE is built as windowed (console=False), so stdout is unreliable.
-    These flags let us fetch the embedded build ID without opening the GUI.
-    """
     args = sys.argv[1:]
 
     if "--write-build" in args:
@@ -43,10 +37,10 @@ def _cli_early_exit() -> None:
             os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
             with open(out_path, "w", encoding="utf-8", newline="\n") as f:
                 f.write(build)
-        finally:
-            raise SystemExit(0)
+            raise SystemExit(0)  # only after success
+        except Exception:
+            raise SystemExit(1)  # make CI fail properly
 
-    # Keep this for local debugging if you ever build console=True
     if "--print-build" in args:
         print((UPDATER_BUILD or "").strip())
         raise SystemExit(0)
