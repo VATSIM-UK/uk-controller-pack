@@ -55,23 +55,31 @@ jobs:
           pip install pyinstaller
           pip install requests
 
+      - name: Inject build hash into Updater.py
+        shell: pwsh
+        run: |
+          $hash = (git rev-parse --short=12 HEAD).Trim()
+          $path = "workflows/build-updater/Updater.py"
+          (Get-Content $path -Raw) -replace "__GIT_COMMIT__", $hash | Set-Content $path -NoNewline
+          Write-Host "Embedded UPDATER_BUILD=$hash into $path"
+
       - name: Compile executable
         run: pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
 
       - name: Write updater_version.txt
         shell: pwsh
         run: |
-          $hash = (git rev-parse --short HEAD).Trim()
-          Set-Content -Path "UK/updater_version.txt" -Value $hash -NoNewline
-          Write-Host "Updater hash written to UK/updater_version.txt: $hash"
+          $hash = (git rev-parse --short=12 HEAD).Trim()
+          Set-Content -Path ".data/updater_version.txt" -Value $hash -NoNewline
+          Write-Host "Updater hash written to .data/updater_version.txt: $hash"
 
       - name: Commit executable
+        shell: pwsh
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
           git config --local user.name  "VATSIM UK"
 
-          git add UK/Updater.exe
-          git add UK/updater_version.txt
+          git add UK/Updater.exe .data/updater_version.txt
 
           git diff --staged --quiet
           if ($LASTEXITCODE -eq 0) {
