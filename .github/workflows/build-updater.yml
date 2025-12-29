@@ -31,6 +31,7 @@ jobs:
               - './workflows/build-updater/azure.tcl'
               - './workflows/build-updater/logo.ico'
               - './workflows/build-updater/theme/**/*.tcl'
+              - '.github/workflows/build-updater.yml'
 
   build-exe:
     name: Build executable
@@ -64,28 +65,32 @@ jobs:
           "UPDATER_HASH=$hash" | Out-File -FilePath $env:GITHUB_ENV -Append
           Write-Host "UPDATER_HASH=$hash"
 
-      - name: Inject build hash into Updater.py
+      - name: Create injected build copy (do not modify repo source)
         shell: pwsh
         run: |
-          $path = "workflows/build-updater/Updater.py"
-          if (-not (Test-Path $path)) { throw "Updater.py not found at $path" }
+          $src = "workflows/build-updater/Updater.py"
+          $dir = "workflows/build-updater/_build"
+          $dst = "$dir/Updater_build.py"
 
-          $content = Get-Content $path -Raw
+          if (-not (Test-Path $src)) { throw "Source file not found: $src" }
+
+          New-Item -ItemType Directory -Force -Path $dir | Out-Null
+
+          $content = Get-Content $src -Raw
           $content = $content -replace "__GIT_COMMIT__", "$env:UPDATER_HASH"
-          [System.IO.File]::WriteAllText($path, $content, [System.Text.UTF8Encoding]::new($false))
+          [System.IO.File]::WriteAllText($dst, $content, [System.Text.UTF8Encoding]::new($false))
 
-          Write-Host "Embedded UPDATER_BUILD=$env:UPDATER_HASH into $path"
+          Write-Host "Wrote injected build copy: $dst"
 
-      - name: Verify embedded build hash (pre-build)
+      - name: Verify injected build copy
         shell: pwsh
         run: |
-          $path = "workflows/build-updater/Updater.py"
-          $line = Select-String -Path $path -Pattern "UPDATER_BUILD\s*=" | Select-Object -First 1
-          if (-not $line) { throw "UPDATER_BUILD line not found in $path" }
-
+          $dst = "workflows/build-updater/_build/Updater_build.py"
+          $line = Select-String -Path $dst -Pattern "UPDATER_BUILD\s*=" | Select-Object -First 1
+          if (-not $line) { throw "UPDATER_BUILD line not found in $dst" }
           Write-Host "Found: $($line.Line)"
-          if ($line.Line -match "__GIT_COMMIT__") { throw "Injection failed: __GIT_COMMIT__ still present in $path" }
-          if ($line.Line -notmatch $env:UPDATER_HASH) { throw "Injection failed: expected hash not present in UPDATER_BUILD line" }
+          if ($line.Line -match "__GIT_COMMIT__") { throw "Injection failed: placeholder still present in build copy" }
+          if ($line.Line -notmatch $env:UPDATER_HASH) { throw "Injection failed: expected hash not present in build copy" }
 
       - name: Compile executable
         shell: pwsh
@@ -93,20 +98,18 @@ jobs:
           pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
           if (-not (Test-Path "UK\Updater.exe")) { throw "Build failed: UK\Updater.exe not produced" }
 
-      - name: Verify built EXE contains embedded hash
+      - name: Verify built EXE reports embedded hash
         shell: pwsh
         run: |
           $exe = "UK\Updater.exe"
-          $bytes = [System.IO.File]::ReadAllBytes($exe)
-          $text  = [System.Text.Encoding]::ASCII.GetString($bytes)
-
-          if ($text -notmatch $env:UPDATER_HASH) {
-            throw "Built EXE does not contain expected hash $env:UPDATER_HASH"
+          $out = & $exe --print-build
+          $out = "$out".Trim()
+          Write-Host "Updater.exe --print-build => '$out'"
+          if ($out -ne "$env:UPDATER_HASH") {
+            throw "Built EXE reports '$out' but expected '$env:UPDATER_HASH'"
           }
 
-          Write-Host "EXE contains embedded hash: $env:UPDATER_HASH"
-
-      - name: Write updater_version.txt
+      - name: Write updater_version.txt (not downloaded by users)
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path ".data" | Out-Null
