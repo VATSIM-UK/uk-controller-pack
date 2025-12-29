@@ -17,7 +17,7 @@ def RR(*parts):
 
 SCRIPT = RR('workflows', 'build-updater', '_build', 'Updater_build.py')
 if not os.path.isfile(SCRIPT):
-    SCRIPT = RR('workflows', 'build-updater', 'Updater.py')
+    SCRIPT = RR('workflows', 'build-updater', '_build', 'Updater.py')
 
 if not os.path.isfile(SCRIPT):
     raise SystemExit(f"[spec] Updater.py missing: {SCRIPT}")

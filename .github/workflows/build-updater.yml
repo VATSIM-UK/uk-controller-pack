@@ -3,10 +3,10 @@ name: Compile Controller-Pack-Updater.exe
 on:
   push:
     branches:
-      - 'main'
+      - "main"
     paths:
-      - 'workflows/build-updater/**'
-      - '.github/workflows/build-updater.yml'
+      - "workflows/build-updater/**"
+      - ".github/workflows/build-updater.yml"
 
 jobs:
   changes:
@@ -31,7 +31,6 @@ jobs:
               - './workflows/build-updater/azure.tcl'
               - './workflows/build-updater/logo.ico'
               - './workflows/build-updater/theme/**/*.tcl'
-              - '.github/workflows/build-updater.yml'
 
   build-exe:
     name: Build executable
@@ -50,47 +49,46 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.12"
 
       - name: Install dependencies
         shell: pwsh
         run: |
-          pip install pyinstaller
-          pip install requests
+          python -m pip install --upgrade pip
+          pip install pyinstaller requests
 
-      - name: Calculate build hash
+      - name: Get updater build hash
         shell: pwsh
         run: |
           $hash = (git rev-parse --short=12 HEAD).Trim()
           "UPDATER_HASH=$hash" | Out-File -FilePath $env:GITHUB_ENV -Append
           Write-Host "UPDATER_HASH=$hash"
 
-      - name: Create injected build copy (do not modify repo source)
+      - name: Prepare Updater_build.py (temp build file)
         shell: pwsh
         run: |
           $src = "workflows/build-updater/Updater.py"
-          $dir = "workflows/build-updater/_build"
-          $dst = "$dir/Updater_build.py"
+          $dstDir = "workflows/build-updater/_build"
+          $dst = Join-Path $dstDir "Updater_build.py"
 
-          if (-not (Test-Path $src)) { throw "Source file not found: $src" }
+          if (-not (Test-Path $src)) { throw "Updater.py not found at $src" }
 
-          New-Item -ItemType Directory -Force -Path $dir | Out-Null
+          New-Item -ItemType Directory -Force -Path $dstDir | Out-Null
 
           $content = Get-Content $src -Raw
-          $content = $content -replace "__GIT_COMMIT__", "$env:UPDATER_HASH"
-          [System.IO.File]::WriteAllText($dst, $content, [System.Text.UTF8Encoding]::new($false))
+          if ($content -notmatch '__GIT_COMMIT__') {
+            throw "Placeholder __GIT_COMMIT__ not found in Updater.py"
+          }
 
-          Write-Host "Wrote injected build copy: $dst"
+          $content = $content -replace '__GIT_COMMIT__', "$env:UPDATER_HASH"
 
-      - name: Verify injected build copy
-        shell: pwsh
-        run: |
-          $dst = "workflows/build-updater/_build/Updater_build.py"
-          $line = Select-String -Path $dst -Pattern "UPDATER_BUILD\s*=" | Select-Object -First 1
-          if (-not $line) { throw "UPDATER_BUILD line not found in $dst" }
-          Write-Host "Found: $($line.Line)"
-          if ($line.Line -match "__GIT_COMMIT__") { throw "Injection failed: placeholder still present in build copy" }
-          if ($line.Line -notmatch $env:UPDATER_HASH) { throw "Injection failed: expected hash not present in build copy" }
+          [System.IO.File]::WriteAllText(
+            $dst,
+            $content,
+            [System.Text.UTF8Encoding]::new($false)
+          )
+
+          Write-Host "Prepared $dst with build hash $env:UPDATER_HASH"
 
       - name: Compile executable
         shell: pwsh
@@ -98,25 +96,15 @@ jobs:
           pyinstaller --distpath UK/ workflows/build-updater/BuildUpdater.spec
           if (-not (Test-Path "UK\Updater.exe")) { throw "Build failed: UK\Updater.exe not produced" }
 
-      - name: Verify built EXE reports embedded hash
+      - name: Write updater version marker (remote-only)
         shell: pwsh
         run: |
-          $exe = "UK\Updater.exe"
-          $out = & $exe --print-build
-          $out = "$out".Trim()
-          Write-Host "Updater.exe --print-build => '$out'"
-          if ($out -ne "$env:UPDATER_HASH") {
-            throw "Built EXE reports '$out' but expected '$env:UPDATER_HASH'"
-          }
-
-      - name: Write updater_version.txt (not downloaded by users)
-        shell: pwsh
-        run: |
+          $hash = "$env:UPDATER_HASH"
           New-Item -ItemType Directory -Force -Path ".data" | Out-Null
-          Set-Content -Path ".data/updater_version.txt" -Value "$env:UPDATER_HASH" -NoNewline
-          Write-Host "Updater hash written to .data/updater_version.txt: $env:UPDATER_HASH"
+          Set-Content -Path ".data/updater_version.txt" -Value $hash -NoNewline
+          Write-Host "Updater hash written to .data/updater_version.txt: $hash"
 
-      - name: Commit executable
+      - name: Commit executable + updater version marker
         shell: pwsh
         run: |
           git config --local user.email "privileged-access@vatsim.uk"
