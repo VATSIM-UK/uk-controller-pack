@@ -84,6 +84,10 @@ jobs:
 
           $content = $content -replace '__GIT_COMMIT__', "$env:UPDATER_HASH"
 
+          if ($content -match '__GIT_COMMIT__') {
+            throw "Placeholder still present after replacement"
+          }
+
           [System.IO.File]::WriteAllText(
             $dst,
             $content,

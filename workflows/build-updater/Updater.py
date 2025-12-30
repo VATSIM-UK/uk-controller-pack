@@ -115,7 +115,8 @@ class UpdaterApp:
         self.root.resizable(True, True)
 
         self.log(f"Updater path:  {os.path.abspath(sys.argv[0])}")
-        self.log(f"Updater build: {(UPDATER_BUILD or '').strip()!r}")
+        local_hash = (UPDATER_BUILD or "").strip()
+        self.log(f"Updater build (local): {local_hash!r}")
 
         set_window_icon(self.root)
         use_azure_theme(self.root, mode="dark")
@@ -227,11 +228,10 @@ class UpdaterApp:
         local_hash = (UPDATER_BUILD or "").strip()
 
         # If the workflow didn't inject the hash, we can't verify anything
-        if not local_hash or local_hash == "__GIT_COMMIT__":
+        if not local_hash:
             messagebox.showerror(
                 "Updater update required",
                 "This updater build ID is missing.\n\n"
-                f"Detected build id: [{local_hash}]\n\n"
                 "Please download the latest full Controller Pack and replace your UK folder contents.\n\n"
                 "No changes have been made.",
             )
@@ -554,10 +554,6 @@ class UpdaterApp:
 
 
 if __name__ == "__main__":
-    if "--print-build" in sys.argv:
-        print(UPDATER_BUILD)
-        raise SystemExit(0)
-
     root = tk.Tk()
     app = UpdaterApp(root)
     root.mainloop()
