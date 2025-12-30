@@ -1,3 +1,6 @@
+# Changes from release 2025/13 to 2026/01
+1. Enhancement - Added Aircraft Select (ASEL) key selection to Configurator - thanks to @hoffi-coffi (Chris Cox)
+
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
 2. Enhancement - Revised D-ATIS formatting - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
