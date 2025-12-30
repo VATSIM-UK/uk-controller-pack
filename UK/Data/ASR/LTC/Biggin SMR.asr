@@ -129,6 +129,7 @@ Free Text:SCT2\21A:freetext
 Free Text:SCT2\21B:freetext
 Free Text:SCT2\21C:freetext
 Free Text:SCT2\21E:freetext
+Free Text:SCT2\21R:freetext
 Free Text:SCT2\21W:freetext
 Free Text:SCT2\22:freetext
 Free Text:SCT2\220:freetext
@@ -785,6 +786,9 @@ Free Text:SCT2\L3:freetext
 Free Text:SCT2\L4:freetext
 Free Text:SCT2\L5:freetext
 Free Text:SCT2\L6:freetext
+Free Text:SCT2\Link 2:freetext
+Free Text:SCT2\Link 3:freetext
+Free Text:SCT2\Link 4:freetext
 Free Text:SCT2\LOKKI:freetext
 Free Text:SCT2\LOMAN:freetext
 Free Text:SCT2\Lower Apron:freetext
@@ -803,6 +807,8 @@ Free Text:SCT2\MA:freetext
 Free Text:SCT2\Main Apron:freetext
 Free Text:SCT2\Maverick:freetext
 Free Text:SCT2\MORRA:freetext
+Free Text:SCT2\MTN 1:freetext
+Free Text:SCT2\MTN 2:freetext
 Free Text:SCT2\N:freetext
 Free Text:SCT2\N1:freetext
 Free Text:SCT2\N2:freetext
@@ -846,7 +852,6 @@ Free Text:SCT2\Police Air Support:freetext
 Free Text:SCT2\PR:freetext
 Free Text:SCT2\Q:freetext
 Free Text:SCT2\Q1:freetext
-Free Text:SCT2\Q2:freetext
 Free Text:SCT2\Q3:freetext
 Free Text:SCT2\QR:freetext
 Free Text:SCT2\R:freetext
@@ -1161,3 +1166,6 @@ PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR Vatsim UK:Airport:EGKB
 PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0

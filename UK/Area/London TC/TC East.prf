@@ -16,7 +16,7 @@ Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\LTC\LTC_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS.txt
-Settings	sector	UK\Data\Sector\UK_2025_11.sct
+Settings	sector	UK\Data\Sector\UK_2025_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 RecentFiles	Recent1	\..\..\Data\ASR\LTC\TCE1.asr
@@ -25,7 +25,7 @@ RecentFiles	Recent3	\..\..\Data\ASR\LTC\TCE3.asr
 RecentFiles	Recent4	\..\..\Data\ASR\LTC\TCE4.asr
 RecentFiles	Recent5	\..\..\Data\ASR\LTC\Stansted SMR.asr
 RecentFiles	Recent6	\..\..\Data\ASR\LTC\TCE_Ground.asr
-Settings	sector	UK\Data\Sector\UK_2025_11.sct
+Settings	sector	UK\Data\Sector\UK_2025_13.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	airlines	\..\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\..\Data\Datafiles\ICAO_Airports.txt
