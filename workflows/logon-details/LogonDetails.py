@@ -115,7 +115,7 @@ DEFAULT_FIELDS = {
 }
 
 BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
-ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
+ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "asel_key"]
 
 def load_previous_options():
     if os.path.exists(OPTIONS_PATH):
@@ -213,12 +213,12 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
 
     return result
 
-def ask_scan_code_key(prompt):
+def ask_scan_code_key(prompt, title="Press a Key for VCCS PTT"):
     result = None
 
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title("Press a Key for VCCS PTT")
+    dialog.title(title)
     ttk.Label(dialog, text=prompt).pack(padx=20, pady=15)
 
     def on_focus_in(event=None):
@@ -413,6 +413,8 @@ def prompt_for_field(key, current):
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "vccs_ptt_scan_code":
         return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
+    elif key == "asel_key":
+        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.", "Press a key for ASEL")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -479,6 +481,28 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
         f"LastSession\trating\t{rating}\n",
         f"LastSession\tcallsign\t{initials}_OBS\n",
         f"LastSession\tpassword\t{password}\n"
+    ]
+
+    lines += ["\n"] + new_lines
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+    except Exception as e:
+        print(f"Failed to write to {file_path}: {e}")
+
+def patch_prf_file_with_asel(file_path, asel_key):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
+
+    lines = [l for l in lines if not l.startswith("Settings\tAselKey")]
+
+    new_lines = [
+        f"Settings\tAselKey\t{asel_key}\n"
     ]
 
     lines += ["\n"] + new_lines
@@ -689,6 +713,10 @@ def apply_advanced_configuration(options):
                 if modified:
                     with open(path, "w", encoding="utf-8") as f:
                         f.writelines(new_lines)
+
+            # --- Handle ASEL key (.prf files) ---
+            if file.endswith(".prf"):
+                patch_prf_file_with_asel(path, options["asel_key"])
 
 
 def main():
