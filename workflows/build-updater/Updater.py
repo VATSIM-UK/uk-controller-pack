@@ -106,9 +106,14 @@ def set_window_icon(root: tk.Tk) -> None:
 class UpdaterApp:
     def __init__(self, root: tk.Tk):
         self.root = root
+
+        self._q: queue.Queue[str] = queue.Queue()
+        self.root.after(50, self._drain_log_queue)
+
         self.root.title("UK Controller Pack Updater")
         self.root.geometry("720x520")
         self.root.resizable(True, True)
+
         self.log(f"Updater path:  {os.path.abspath(sys.argv[0])}")
         self.log(f"Updater build: {(UPDATER_BUILD or '').strip()!r}")
 
@@ -149,9 +154,6 @@ class UpdaterApp:
         )
         self.nav_button.pack(pady=(0, 10))
 
-        self._q: queue.Queue[str] = queue.Queue()
-        self.root.after(50, self._drain_log_queue)
-
         self.session = self._make_session()
 
         # This is the user's UK folder (Updater.exe lives here)
@@ -162,7 +164,14 @@ class UpdaterApp:
         return repo_path.startswith("UK/")
 
     def log(self, message: str) -> None:
-        self._q.put(str(message))
+        q = getattr(self, "_q", None)
+        if q is None:
+            try:
+                print(str(message), file=sys.stderr)
+            except Exception:
+                pass
+            return
+        q.put(str(message))
 
     def _drain_log_queue(self) -> None:
         try:
