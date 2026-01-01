@@ -119,6 +119,7 @@ grouping = "None"
 [stations.profiles.South_LAG.aliases]
 
 "135.805" = "TC BBX"
+"120.400" = "LL FIN"
 "119.730" = "LL INT N"
 "122.780" = "LF AIR"
 "120.230" = "SOLENT"
