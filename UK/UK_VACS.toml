@@ -273,6 +273,9 @@ grouping = "None"
 
 [stations.profiles.UK_ALL]
 include = [
+    "SOLENT*",
+    "THAMES*",
+    "ESSEX"*,
     "EG*",
     "NAT_*",
     "LON_*",
