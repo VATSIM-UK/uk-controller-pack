@@ -326,6 +326,10 @@ include = [
     "MAN__CTR",
     "MAN_W*",
 
+
+    "LON_S*",
+    "LON_H*"
+    "LON_O*"
     "LON_C*",
     "LON_M*",
     "LON_N*",
@@ -431,6 +435,9 @@ include = [
     "EGNH_*",
     "EGSH_*",
 
+
+    "EDYY_J*",
+    "EDDW_*",
     "EDYY_D*",
     "EHAA_*",
 
@@ -535,6 +542,16 @@ grouping = "None"
 "123.850" = "AMS SOUTH"
 "124.880" = "AMS EAST"
 
+"135.960" = "EDYY D"
+"129.735" = "MAAS JEV HI"
+"132.780" = "MAAS HOL HI"
+"136.465" = "MAAS JEV LO"
+
+"129.840" = "EDYY BB"
+"124.075" = "EDWW E"
+"126.325" = "EDWW A"
+"127.675" = "EDWW W"
+"133.725" = "EDWW BBX"
 "135.960" = "EDYY D"
 
 "129.180" = "DUB UP NTH"
@@ -722,6 +739,8 @@ include = [
     "LON_D*",
     "LON_S*",
     "LON_SC*",
+    "LON_H*",
+    "LON_O*",
     "LON_CTR",
     "LTC_S*",
     "LTC_CTR",
@@ -762,6 +781,9 @@ include = [
     "EGTT_*",
     "UK_*",
     "EGLL*",
+    "EGLC_*"
+    "LON_H*",
+    "LON_O*",
     "EGKK_*APP",
     "THAMES_*APP",
     "LON_M*",
