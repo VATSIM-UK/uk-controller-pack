@@ -275,7 +275,7 @@ grouping = "None"
 include = [
     "SOLENT*",
     "THAMES*",
-    "ESSEX"*,
+    "ESSEX*",
     "EG*",
     "NAT_*",
     "LON_*",
