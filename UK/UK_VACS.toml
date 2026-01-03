@@ -326,7 +326,7 @@ include = [
     "MAN__CTR",
     "MAN_W*",
 
-
+    "LON_D*",
     "LON_S*",
     "LON_H*",
     "LON_O*",
