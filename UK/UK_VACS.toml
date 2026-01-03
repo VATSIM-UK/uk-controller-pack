@@ -328,8 +328,8 @@ include = [
 
 
     "LON_S*",
-    "LON_H*"
-    "LON_O*"
+    "LON_H*",
+    "LON_O*",
     "LON_C*",
     "LON_M*",
     "LON_N*",
