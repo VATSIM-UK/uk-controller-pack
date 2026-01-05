@@ -445,7 +445,7 @@
         },
         {
           "Name": "LANDING 09L (LTC_S_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 09L. DEP RWY 09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
@@ -460,12 +460,12 @@
         },
         {
           "Name": "SRO 09R (LTC_S_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09R SROIF\r\nRWY IN USE ^09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 09L (LTC_S_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.125",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09L SROIF\r\nRWY IN USE ^09L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
@@ -480,7 +480,7 @@
         },
         {
           "Name": "LANDING 09L (LTC_SE_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530",
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 09L. DEP RWY 09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
@@ -495,12 +495,12 @@
         },
         {
           "Name": "SRO 09R (LTC_SE_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09R SROIF\r\nRWY IN USE ^09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 09L (LTC_SE_CTR)",
-          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530. DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 120.530",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09L SROIF\r\nRWY IN USE ^09L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
@@ -633,7 +633,13 @@
           "enabled": true
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
+          "Enabled": false
+        }
+      ]
     },
     {
       "ordinal": 0,
