@@ -859,7 +859,7 @@ priority = [
     "*_CTR",
 ]
 frequencies = "HideAliased"
-grouping = "None"
+grouping = "Icao"
 
 [stations.profiles.EGCC.aliases]
 "121.355" = "FIN"
