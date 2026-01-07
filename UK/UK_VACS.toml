@@ -833,6 +833,9 @@ include = [
     "EGBE_*",
     "EGNH*APP",
     "EGNO*APP",
+    "EGNS*APP",
+    "EGNJ*APP",
+    "EGNT*APP",
 
     "LON_CTR",
     "LON__CTR",
