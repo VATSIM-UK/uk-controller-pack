@@ -819,7 +819,9 @@ include = [
     "*_FMP",
     "*GS*CTR",
     "UK_*",
+
     "EGTT_*",
+    "EGVV_*",
 
     "EGCC_*",
 
