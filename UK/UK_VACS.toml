@@ -820,7 +820,7 @@ include = [
     "*GS*CTR",
     "UK_*",
     "EGTT_*",
-    
+
     "EGCC_*",
 
     "EGGP*APP",
@@ -833,6 +833,7 @@ include = [
     "EGNO*APP",
 
     "LON_CTR",
+    "LON__CTR",
     "LON_N*",
     "MAN_*",
 ]
