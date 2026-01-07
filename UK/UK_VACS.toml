@@ -837,6 +837,8 @@ include = [
     "LON_CTR",
     "LON__CTR",
     "LON_N*",
+    "LON_W_*",
+    "LON_WB*,
     "MAN_*",
 ]
 
@@ -870,6 +872,8 @@ grouping = "None"
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
 "135.580" = "AC LKS"
+"126.080" = "AC WST"
+"135.255" = "AC BCN"
 
 "133.200" = "PC BBx"
 "133.800" = "PC E"
