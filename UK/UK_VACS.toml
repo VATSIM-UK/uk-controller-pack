@@ -813,6 +813,73 @@ grouping = "None"
 "133.180" = "TC SW"
 
 
+
+[stations.profiles.EGCC]
+include = [
+    "*_FMP",
+    "*GS*CTR",
+    "UK_*",
+    "EGTT_*",
+    
+    "EGCC_*",
+
+    "EGGP*APP",
+    "EGNR*APP",
+    "EGNM*APP",
+    "EGNX*APP",
+    "EGBB*APP",
+    "EGBE_*",
+    "EGNH*APP",
+    "EGNO*APP",
+
+    "LON_CTR",
+    "LON_N*",
+    "MAN_*",
+]
+
+exclude = [
+    "EG!(CC)*F*APP",
+    "*P*APP",
+]
+priority = [
+    "*_FMP",
+    "*_GS*CTR",
+    "*_APP",
+    "*_TWR",
+    "*_GND",
+    "*_DEL",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.EGCC.aliases]
+"121.355" = "FIN"
+"135.005" = "INT N"
+"118.580" = "INT S"
+"118.630" = "AIR 1"
+"119.405" = "AIR 2"
+"121.855" = "GMC"
+"121.705" = "GMP"
+"128.180" = "PLN"
+
+"127.830" = "AC BBx"
+"133.705" = "AC NTH"
+"128.130" = "AC NOR"
+"135.580" = "AC LKS"
+
+"133.200" = "PC BBx"
+"133.800" = "PC E"
+"135.715" = "PC NE"
+"134.430" = "PC SE"
+"128.055" = "PC W"
+
+"133.050" = "PC IOM"
+"126.875" = "PC PEN"
+"125.950" = "PC WAL"
+
+
+
 [stations.profiles.AFIS_AGCS_Stations]
 
 include = [
