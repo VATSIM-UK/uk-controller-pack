@@ -840,9 +840,13 @@ include = [
 
     "LON_CTR",
     "LON__CTR",
+    "LON_SC*",
     "LON_N*",
     "LON_W_*",
     "LON_WB*,
+    "LON_C*",
+    "LON_M*",
+    "LTC_M*",
     "MAN_*",
 ]
 
@@ -873,12 +877,18 @@ grouping = "Icao"
 "128.180" = "PLN"
 
 "127.830" = "AC BBx"
+"132.605" = "AC LSC"
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
 "135.580" = "AC LKS"
 "126.080" = "AC WST"
 "135.255" = "AC BCN"
 "132.300" = "WST RAD"
+"127.105" = "AC CEN"
+"120.025" = "AC DTY"
+"121.030" = "TC MID"
+"130.925" = "TC WEL"
+"133.080" = "TC COW"
 
 "133.200" = "PC BBx"
 "133.800" = "PC E"
