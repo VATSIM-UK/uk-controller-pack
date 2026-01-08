@@ -835,6 +835,7 @@ include = [
     "EGNR_*",
     "EGNS_*",
     "EGNT_*",
+    "EGNV_*",
     "EGNX_*",
 
     "LON_CTR",
@@ -888,6 +889,36 @@ grouping = "Icao"
 "133.050" = "PC IOM"
 "126.875" = "PC PEN"
 "125.950" = "PC WAL"
+
+"123.830" = "BE INFO"
+"123.980" = "BB RAD"
+"118.305" = "BB AIR"
+"121.805" = "BB GMC"
+"121.930" = "BB GMP"
+"119.855" = "GP RAD 1"
+"126.355" = "GP AIR"
+"121.955" = "GP GMC"
+"119.995" = "NH APP"
+"118.405" = "NH ADC"
+"119.130" = "NJ RAD"
+"124.905" = "NJ ADC"
+"134.580" = "NM RAD"
+"120.305" = "NM AIR"
+"121.805" = "NM DEL"
+"129.530" = "NO RAD"
+"130.805" = "NO ADC"
+"120.055" = "NR RAD"
+"124.955" = "NR ADC"
+"135.905" = "NS RAD 1 / APP"
+"119.005" = "NS ADC"
+"124.380" = "NT RAD"
+"119.705" = "NT AIR"
+"121.730" = "NT GMC"
+"118.855" = "NV RAD"
+"119.805" = "NV ADC"
+"126.180" = "NX RAD 1"
+"124.005" = "NX AIR"
+"121.905" = "NX GMC"
 
 
 
