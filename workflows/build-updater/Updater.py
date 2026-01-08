@@ -309,32 +309,44 @@ class UpdaterApp:
         dt = datetime.fromisoformat(iso_date_str.rstrip("Z"))
         return dt.strftime("%Y-%m-%d")
 
-    def get_changed_files(self, base_tag: str, head_tag: str):
-        url = (
-            f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/"
-            f"{base_tag}...{head_tag}"
-        )
-        response = self.session.get(url, timeout=(5, 30))
-        response.raise_for_status()
-        changed = response.json().get("files", []) or []
+def get_changed_files(self, base_tag: str, head_tag: str):
+    url = (
+        f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/"
+        f"{base_tag}...{head_tag}"
+    )
+    response = self.session.get(url, timeout=(5, 30))
+    response.raise_for_status()
+    changed = response.json().get("files", []) or []
 
-        updated_files: list[str] = []
-        removed_files: list[str] = []
-        prf_modified = False
+    updated_files: list[str] = []
+    removed_files: list[str] = []
+    prf_modified = False
 
-        for f in changed:
-            filename = f.get("filename", "")
-            status = f.get("status", "")
+    for f in changed:
+        filename = f.get("filename", "")
+        status = f.get("status", "")
 
-            if status in ("added", "modified"):
-                updated_files.append(filename)
-            elif status == "removed":
-                removed_files.append(filename)
+        if status in ("added", "modified"):
+            updated_files.append(filename)
 
-            if filename.lower().endswith(".prf") and status in ("added", "modified"):
-                prf_modified = True
+        elif status == "removed":
+            removed_files.append(filename)
 
-        return updated_files, removed_files, prf_modified
+        elif status == "renamed":
+            # download the new path and remove the old one
+            updated_files.append(filename)
+            prev = f.get("previous_filename")
+            if prev:
+                removed_files.append(prev)
+
+        elif status == "copied":
+            updated_files.append(filename)
+
+        if filename.lower().endswith(".prf") and status in ("added", "modified", "renamed", "copied"):
+            prf_modified = True
+
+    return updated_files, removed_files, prf_modified
+
 
     def get_local_path(self, remote_path: str) -> str:
         if remote_path.startswith("UK/"):
