@@ -847,21 +847,27 @@ include = [
     "LTC_*",
     "EGTT_I_CTR",
     "EGVV_*",
+    "LON_CTR"
 ]
 exclude = []
-priority =[
+priority = [
     "EGLF_*",	# Farnborough stations first
+    "SOLENT_*", # Solent/HI RAD because we need releases
+    "EGHI*APP",
     "EGLK_*",	# Then local aerodromes
     "EGVO_*",
-    "EGTF_*",
-    "EGLM_*",
-    "EGHR_*",
     "THAMES_*",	# Thames as a likely co-ordination target
+    "EGKK*APP", # Gatwick as another
     "LTC_SW_*",	# TC/AC Sectors on top of us in order
     "LTC_S_*",
     "LTC_*",
     "LON_S_*",
     "LON_SC_*",
+    "EGTF_*", # More local aerodromes (but less likely to be spoken to)
+    "EGLM_*",
+    "EGHR_*",
+    "LON_H*",
+    "LON_O*",
     "*_FMP",
     "*_APP",
     "*_CTR",
