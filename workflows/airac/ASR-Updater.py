@@ -6,10 +6,16 @@ import requests
 # ------------------------------------------------------------------------------
 # 1. Define URLs
 # ------------------------------------------------------------------------------
-# UK fixes (all in one file):
-URL_UK_FIXES = (
-    "https://raw.githubusercontent.com/VATSIM-UK/UK-Sector-File/main/Navaids/FIXES_UK.txt"
+# UK fixes (multiple files, explicitly listed)
+BASE_UK_URL = (
+    "https://raw.githubusercontent.com/VATSIM-UK/UK-Sector-File/main/Navaids/"
 )
+
+UK_FILE_LIST = [
+    "FIXES_UK.txt",
+    "FIXES_CICZ.txt",
+    "FIXES_HMRI-Gates.txt",
+]
 
 # For non-UK fixes, there's a separate folder containing multiple .txt files:
 BASE_NON_UK_URL = (
@@ -87,13 +93,15 @@ def build_final_fixes():
     fixes_exclude = set(get_uncommented_lines(URL_FIXES_EXCLUDE))
     fixes_include = set(get_uncommented_lines(URL_FIXES_INCLUDE))
 
-    # Collect UK fixes
-    uk_lines = get_uncommented_lines(URL_UK_FIXES)
+    # Collect UK fixes from multiple UK files
     uk_fixes = []
-    for line in uk_lines:
-        fix_name = parse_fix_name(line)
-        if fix_name and is_valid_uk_fix(fix_name, fixes_exclude):
-            uk_fixes.append(fix_name)
+    for fname in UK_FILE_LIST:
+        file_url = BASE_UK_URL + fname
+        lines = get_uncommented_lines(file_url)
+        for line in lines:
+            fix_name = parse_fix_name(line)
+            if fix_name and is_valid_uk_fix(fix_name, fixes_exclude):
+                uk_fixes.append(fix_name)
 
     # Collect Non-UK fixes
     non_uk_fixes = []
