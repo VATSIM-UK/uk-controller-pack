@@ -4,6 +4,7 @@ import sys
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
 
+
 def _cli_early_exit() -> None:
     args = sys.argv[1:]
 
@@ -27,6 +28,7 @@ def _cli_early_exit() -> None:
         print((UPDATER_BUILD or "").strip())
         raise SystemExit(0)
 
+
 _cli_early_exit()
 
 import requests
@@ -49,8 +51,10 @@ REPO_NAME = "UK-Controller-Pack"
 LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 
 # Remote reference for latest updater build ID (short hash)
-UPDATER_VERSION_URL = (
-    f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
+UPDATER_VERSION_URL = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
+
+UPDATER_DOWNLOAD_URL = (
+    f"https://github.com/{REPO_OWNER}/{REPO_NAME}/blob/main/UK/Updater.exe"
 )
 
 AERONAV_URL = "https://files.aero-nav.com/EGXX"
@@ -232,21 +236,19 @@ class UpdaterApp:
             messagebox.showerror(
                 "Updater update required",
                 "This updater build ID is missing.\n\n"
-                "Please download the latest full Controller Pack and replace your UK folder contents.\n\n"
+                "Please download the latest Updater.exe from GitHub and replace your copy.\n\n"
                 "No changes have been made.",
             )
             try:
-                webbrowser.open(
-                    "https://docs.vatsim.uk/General/Software%20Downloads/Controller%20Pack%20%26%20Sector%20File/",
-                    new=1,
-                )
-                self.log("Opened Controller Pack download page.")
+                webbrowser.open(UPDATER_DOWNLOAD_URL, new=1)
+                self.log("Opened Updater.exe download page on GitHub.")
             except Exception as e:
                 self.log(f"Failed to open download page: {e}")
             return False
 
         try:
             remote_hash = self.get_remote_updater_version()
+            self.log(f"Updater build (remote): {remote_hash!r}")
         except Exception as e:
             self.log(f"Updater version check failed: {e}")
             messagebox.showerror(
@@ -274,15 +276,12 @@ class UpdaterApp:
                 "A newer updater is required before any files can be updated.\n\n"
                 f"Current updater build: {local_hash}\n"
                 f"Latest updater build:  {remote_hash}\n\n"
-                "Please download the latest full Controller Pack and replace your UK folder contents.\n\n"
+                "Please download the latest Updater.exe from GitHub and replace your copy.\n\n"
                 "No changes have been made.",
             )
             try:
-                webbrowser.open(
-                    "https://docs.vatsim.uk/General/Software%20Downloads/Controller%20Pack%20%26%20Sector%20File/",
-                    new=1,
-                )
-                self.log("Opened Controller Pack download page.")
+                webbrowser.open(UPDATER_DOWNLOAD_URL, new=1)
+                self.log("Opened Updater.exe download page on GitHub.")
             except Exception as e:
                 self.log(f"Failed to open download page: {e}")
             return False
@@ -321,10 +320,26 @@ class UpdaterApp:
 
             if status in ("added", "modified"):
                 updated_files.append(filename)
+
             elif status == "removed":
                 removed_files.append(filename)
 
-            if filename.lower().endswith(".prf") and status in ("added", "modified"):
+            elif status == "renamed":
+                # download the new path and remove the old one
+                updated_files.append(filename)
+                prev = f.get("previous_filename")
+                if prev:
+                    removed_files.append(prev)
+
+            elif status == "copied":
+                updated_files.append(filename)
+
+            if filename.lower().endswith(".prf") and status in (
+                "added",
+                "modified",
+                "renamed",
+                "copied",
+            ):
                 prf_modified = True
 
         return updated_files, removed_files, prf_modified
@@ -359,20 +374,33 @@ class UpdaterApp:
     def prompt_run_configurator(self) -> None:
         msg = (
             "One or more profile (.prf) files were updated.\n\n"
-            "It is strongly recommended that you run the UK Controller Pack Configurator "
-            "to review / apply any new settings.\n\n"
-            "Do you want to open the Configurator folder now?"
+            "It is recommended that you run the UK Controller Pack Configurator "
+            "to review or apply any new settings.\n\n"
+            "Do you want to run Configurator.exe now?"
         )
 
-        if messagebox.askyesno("Profile Files Updated", msg):
-            configurator_path = os.path.join(self.base_dir, "Configurator")
-            if os.path.isdir(configurator_path):
-                try:
-                    os.startfile(configurator_path)
-                except Exception as e:
-                    self.log(f"Failed to open Configurator folder: {e}")
-            else:
-                self.log("Configurator folder not found.")
+        if not messagebox.askyesno("Profile Files Updated", msg):
+            return
+
+        exe_path = os.path.join(self.base_dir, "Configurator.exe")
+
+        if os.path.isfile(exe_path):
+            try:
+                os.startfile(exe_path)
+                self.log("Launched Configurator.exe")
+            except Exception as e:
+                self.log(f"Failed to launch Configurator.exe: {e}")
+                messagebox.showerror(
+                    "Configurator launch failed",
+                    f"Could not start Configurator.exe.\n\n{e}",
+                )
+        else:
+            self.log("Configurator.exe not found.")
+            messagebox.showwarning(
+                "Configurator not found",
+                "Configurator.exe was not found in your UK folder.\n\n"
+                "If you have it elsewhere, please run it manually.",
+            )
 
     def start_update(self) -> None:
         self.update_button.config(state="disabled")
@@ -423,7 +451,9 @@ class UpdaterApp:
 
             for file in updated_files:
                 if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
-                    self.log("Note: Updater.exe changed, but it will not be auto-updated.")
+                    self.log(
+                        "Note: Updater.exe changed, but it will not be auto-updated."
+                    )
                     continue
 
                 self.log(f"Updating {file}")
@@ -462,6 +492,13 @@ class UpdaterApp:
             self.log(f"GNG: Opened {AERONAV_URL}")
         except Exception as e:
             self.log(f"GNG: Failed to open browser: {e}")
+
+        if not messagebox.askyesno(
+            "GNG Navdata",
+            "Have you downloaded the GNG ZIP already?\n\nClick Yes to select it now.",
+        ):
+            self.log("GNG: User not ready to select ZIP yet.")
+            return
 
         downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
 
@@ -540,7 +577,9 @@ class UpdaterApp:
                     main_dst = os.path.join(target_dir, "ICAO_Airlines.txt")
                     vsmr_dst = os.path.join(vsmr_dir, "ICAO_Airlines.txt")
                     try:
-                        with open(main_dst, "rb") as src_f, open(vsmr_dst, "wb") as out2:
+                        with open(main_dst, "rb") as src_f, open(
+                            vsmr_dst, "wb"
+                        ) as out2:
                             out2.write(src_f.read())
                         self.log(f"GNG: Copied ICAO_Airlines.txt → {VSMR_DIR}")
                     except Exception as e:
@@ -549,8 +588,23 @@ class UpdaterApp:
             if missing:
                 self.log(f"GNG: Missing expected files: {', '.join(missing)}")
 
-            if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
-                raise RuntimeError("ZIP does not look like a valid GNG navdata package.")
+            if not any(
+                x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}
+            ):
+                raise RuntimeError(
+                    "ZIP does not look like a valid GNG navdata package."
+                )
+
+        self.log("GNG: Navdata import complete.")
+
+        try:
+            if messagebox.askyesno(
+                "GNG Navdata", "Delete the downloaded ZIP file now?"
+            ):
+                os.remove(zip_path)
+                self.log("GNG: Deleted ZIP after import.")
+        except Exception as e:
+            self.log(f"GNG: Failed to delete ZIP: {e}")
 
 
 if __name__ == "__main__":
