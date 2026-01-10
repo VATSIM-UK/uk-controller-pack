@@ -843,7 +843,7 @@ include = [
     "LON_SC*",
     "LON_N*",
     "LON_W_*",
-    "LON_WB*,
+    "LON_WB*",
     "LON_C*",
     "LON_M*",
     "LTC_M*",
