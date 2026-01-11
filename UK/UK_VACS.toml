@@ -449,6 +449,7 @@ include = [
 
     "MAN_*",
 
+    "LON_N*",
     "LON_C*",
     "LON_SC*",
     "LON_E*",
