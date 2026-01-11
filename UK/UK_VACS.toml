@@ -119,6 +119,7 @@ grouping = "None"
 [stations.profiles.South_LAG.aliases]
 
 "135.805" = "TC BBX"
+"120.400" = "LL FIN"
 "119.730" = "LL INT N"
 "122.780" = "LF AIR"
 "120.230" = "SOLENT"
@@ -126,6 +127,7 @@ grouping = "None"
 "134.355" = "LF APC"
 "136.600" = "LFRR E"
 "124.230" = "KK AIR"
+"134.805" = "KB AIR"
 "128.155" = "LFFF"
 "134.980" = "LL INT S"
 "125.605" = "HH AIR"
@@ -192,6 +194,8 @@ include = [
     "MAN_*",
     "LON_S*",
     "LON_SC*",
+    "LON_M*",
+    "LON_E*",
     "LON_D*",
     "LON_N*",
     "LON_W*",
@@ -269,6 +273,9 @@ grouping = "None"
 
 [stations.profiles.UK_ALL]
 include = [
+    "SOLENT*",
+    "THAMES*",
+    "ESSEX*",
     "EG*",
     "NAT_*",
     "LON_*",
@@ -319,6 +326,10 @@ include = [
     "MAN__CTR",
     "MAN_W*",
 
+    "LON_D*",
+    "LON_S*",
+    "LON_H*",
+    "LON_O*",
     "LON_C*",
     "LON_M*",
     "LON_N*",
@@ -374,6 +385,8 @@ grouping = "None"
 "133.200" = "PC BBX"
 "128.055" = "PC W"
 
+
+"134.905" = "AC DVR"
 "133.705" = "AC NTH"
 "135.580" = "AC LKS"
 "120.025" = "AC DTY"
@@ -424,6 +437,9 @@ include = [
     "EGNH_*",
     "EGSH_*",
 
+
+    "EDYY_J*",
+    "EDDW_*CTR",
     "EDYY_D*",
     "EHAA_*",
 
@@ -433,6 +449,7 @@ include = [
 
     "MAN_*",
 
+    "LON_N*",
     "LON_C*",
     "LON_SC*",
     "LON_E*",
@@ -529,6 +546,15 @@ grouping = "None"
 "124.880" = "AMS EAST"
 
 "135.960" = "EDYY D"
+"129.735" = "MAAS JEV HI"
+"132.780" = "MAAS HOL HI"
+"136.465" = "MAAS JEV LO"
+
+"129.840" = "EDYY BB"
+"124.075" = "EDWW E"
+"126.325" = "EDWW A"
+"127.675" = "EDWW W"
+"133.725" = "EDWW BBX"
 
 "129.180" = "DUB UP NTH"
 "132.580" = "DUB LO NTH"
@@ -715,6 +741,8 @@ include = [
     "LON_D*",
     "LON_S*",
     "LON_SC*",
+    "LON_H*",
+    "LON_O*",
     "LON_CTR",
     "LTC_S*",
     "LTC_CTR",
@@ -755,6 +783,9 @@ include = [
     "EGTT_*",
     "UK_*",
     "EGLL*",
+    "EGLC_*",
+    "LON_H*",
+    "LON_O*",
     "EGKK_*APP",
     "THAMES_*APP",
     "LON_M*",
