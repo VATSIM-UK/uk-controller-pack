@@ -90,6 +90,7 @@ include = [
     "LON_E*",
     "LON_SC*",
     "LON_S*",
+    "LON_H*",
     "LON_23*",
     "LTC_*",
     "EGJJ_*",
@@ -133,7 +134,7 @@ grouping = "None"
 "125.605" = "HH AIR"
 "121.030" = "TC MIDS"
 "135.410" = "LFFF LOW"
-"129.430" = "AC WOR"
+"129.430" = "AC STH"
 "135.980" = "MAAS NIK"
 "121.280" = "TC NW"
 "122.730" = "HI RAD"
@@ -167,7 +168,7 @@ grouping = "None"
 "129.575" = "BRU E"
 "128.025" = "LC DIR"
 "132.205" = "MAAS KOK"
-"127.830" = "AC BBX"
+"127.430" = "AC BBX"
 "132.605" = "AC SC BBX"
 "125.980" = "MAAS BRU"
 "127.105" = "AC CEN"
@@ -177,6 +178,7 @@ grouping = "None"
 "131.100" = "BRU W"
 "134.000" = "LFRN"
 "134.125" = "TC S"
+"127.830" = "AC WOR"
 
 [stations.profiles.Central_LAG]
 include = [
@@ -193,6 +195,7 @@ include = [
     "EGMC_*",
     "MAN_*",
     "LON_S*",
+    "LON_H*",
     "LON_SC*",
     "LON_M*",
     "LON_E*",
@@ -232,7 +235,7 @@ grouping = "None"
 "120.530" = "TC SE"
 "127.730" = "MC AIR"
 "123.705" = "AMS WEST"
-"127.830" = "AC BBX"
+"127.430" = "AC BBX"
 "124.005" = "NX AIR"
 "120.025" = "AC DTY"
 "120.625" = "SS INT"
@@ -259,7 +262,8 @@ grouping = "None"
 "129.575" = "BRU E"
 "121.280" = "TC NW"
 "128.805" = "BRU N"
-"129.430" = "AC WOR"
+"129.430" = "AC STH"
+"127.830" = "AC WOR"
 "123.800" = "SS AIR"
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
@@ -392,7 +396,8 @@ grouping = "None"
 "120.025" = "AC DTY"
 "127.105" = "AC CEN"
 "132.605" = "AC SC BBX"
-"129.430" = "AC WOR"
+"129.430" = "AC STH"
+"127.830" = "AC WOR"
 
 "121.030" = "TC MIDS"
 "134.125" = "TC S"
@@ -763,18 +768,19 @@ grouping = "None"
 "118.950" = "FIN"
 "134.125" = "TC S"
 "134.980" = "LL INT S"
-"129.430" = "AC WOR"
+"129.430" = "AC STH"
 "121.805" = "GMC"
 "135.805" = "TC BBX"
 "120.530" = "TC SE"
 "134.905" = "AC DVR"
 "119.730" = "LL INT N"
-"127.830" = "AC BBX"
+"127.430" = "AC BBX"
 "124.230" = "AIR"
 "126.825" = "INT"
 "133.180" = "TC SW"
 "132.605" = "AC SC BBX"
 "121.955" = "GMP"
+"127.830" = "AC WOR"
 
 
 
@@ -784,7 +790,6 @@ include = [
     "UK_*",
     "EGLL*",
     "EGLC_*",
-    "LON_H*",
     "LON_O*",
     "EGKK_*APP",
     "THAMES_*APP",
@@ -793,6 +798,7 @@ include = [
     "LON_C*",
     "LON_D*",
     "LON_S*",
+    "LON_H*",
     "LON_SC*",
     "LON_CTR",
     "LTC_N*",
@@ -814,14 +820,15 @@ frequencies = "HideAliased"
 grouping = "None"
 
 [stations.profiles.EGLL.aliases]
+"127.830" = "AC WOR"
 "126.825" = "KK INT"
 "118.505" = "AIR S"
-"129.430" = "AC WOR"
+"129.430" = "AC STH"
 "132.700" = "TC TMS"
 "118.705" = "AIR N"
 "134.980" = "INT S"
 "121.855" = "GMC 3"
-"127.830" = "AC BBX"
+"127.430" = "AC BBX"
 "127.105" = "AC CEN"
 "134.125" = "TC S"
 "121.905" = "GMC 1"
