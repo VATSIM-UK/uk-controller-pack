@@ -1,7 +1,7 @@
 ;RAF Mount Pleasant Sector File
 ;Authors: Jack Edwards, Trevor Hannant, Lee Roberts, Scott Daniels.
 ;For use with Euroscope Only
-;Version 1.1
+;Version 1.2
 
 [POSITIONS]
 ISLAND_CTR:Island Radar:131.500:ISLND:R:EGYP:CTR:-:-:3030:3037:S051.49.21.644:W058.26.45.352::
