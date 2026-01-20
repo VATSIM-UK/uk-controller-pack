@@ -5,11 +5,11 @@ import sys
 import json
 import time
 import winreg
-import keyboard
 import tkinter as tk
 from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
+from ctypes import windll, c_uint
 
 _original_init = simpledialog.Dialog.__init__
 
@@ -221,43 +221,24 @@ def ask_scan_code_key(prompt, title="Press a Key for VCCS PTT"):
     dialog.title(title)
     ttk.Label(dialog, text=prompt).pack(padx=20, pady=15)
 
-    def on_focus_in(event=None):
-        dialog.after(100, capture_key)
-
-    def capture_key():
+    def capture_key_press(event):
         nonlocal result
-        try:
-            while True:
-                event = keyboard.read_event()
-                if event.event_type == keyboard.KEY_DOWN:
-                    name = event.name
-                    scan_code = event.scan_code
+        scan_code = windll.User32.MapVirtualKeyA(c_uint(event.keycode), c_uint(0))
 
-                    # Manual scan code overrides for modifier keys
-                    overrides = {
-                        "left shift": 42,
-                        "right shift": 54,
-                        "left ctrl": 29,
-                        "right ctrl": 29,
-                        "left alt": 56,
-                        "right alt": 56
-                    }
+        # Only set ASEL if the scan code mapping succeeded - if it fails (returns 0) it's likely due to an emulation issue on non-Windows.
+        # TODO: Some way to notify the user that their customisation failed and they've retained the default bind?
+        if scan_code != 0:
+            result = str(scan_code << 16)
 
-                    if name in overrides:
-                        scan_code = overrides[name]
-
-                    result = str(int(hex(scan_code), 16) << 16)
-                    dialog.destroy()
-                    break
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to read key: {e}")
-            dialog.destroy()
-
-    def cancel(event=None):
         dialog.destroy()
 
+    def cancel(_=None):
+        dialog.destroy()
+
+    ttk.Button(dialog, text="Skip", command=cancel).pack()
+
     dialog.bind("<Escape>", cancel)
-    dialog.bind("<FocusIn>", on_focus_in)
+    dialog.bind("<KeyPress>", capture_key_press)
     dialog.transient()
     dialog.grab_set()
     dialog.attributes("-topmost", True)
@@ -414,7 +395,7 @@ def prompt_for_field(key, current):
     elif key == "vccs_ptt_scan_code":
         return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key == "asel_key":
-        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.", "Press a key for ASEL")
+        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
