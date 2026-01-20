@@ -110,11 +110,10 @@ DEFAULT_FIELDS = {
     "realistic_conversion": "n",
     "coast_choice": "1",
     "land_choice": "1",
-    "discord_presence": "n",
-    "vccs_ptt_scan_code": ""
+    "discord_presence": "n"
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence"]
 ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "asel_key"]
 
 def load_previous_options():
@@ -213,7 +212,7 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
 
     return result
 
-def ask_scan_code_key(prompt, title="Press a Key for VCCS PTT"):
+def ask_scan_code_key(prompt, title="Press a Key"):
     result = None
 
     dialog = tk.Toplevel()
@@ -235,7 +234,7 @@ def ask_scan_code_key(prompt, title="Press a Key for VCCS PTT"):
     def cancel(_=None):
         dialog.destroy()
 
-    ttk.Button(dialog, text="Skip", command=cancel).pack()
+    ttk.Button(dialog, text="Skip", command=cancel).pack(pady=10)
 
     dialog.bind("<Escape>", cancel)
     dialog.bind("<KeyPress>", capture_key_press)
@@ -392,8 +391,6 @@ def prompt_for_field(key, current):
     
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
-    elif key == "vccs_ptt_scan_code":
-        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key == "asel_key":
         return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
     elif key in ["realistic_tags", "realistic_conversion"]:
@@ -445,8 +442,6 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
         return
 
     lines = [l for l in lines if not (
-        l.startswith("TeamSpeakVccs\tTs3NickName") or
-        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
         l.startswith("LastSession\trealname") or
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
@@ -455,8 +450,6 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     )]
 
     new_lines = [
-        f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
-        f"TeamSpeakVccs\tTs3G2GPtt\t{vccs_ptt}\n",
         f"LastSession\trealname\t{name}\n",
         f"LastSession\tcertificate\t{cid}\n",
         f"LastSession\trating\t{rating}\n",
@@ -736,7 +729,6 @@ def main():
             rating=options["rating"],
             password=options["password"],
             cpdlc=options["cpdlc"],
-            vccs_ptt=options.get("vccs_ptt_scan_code", ""),
             discord_presence=options.get("discord_presence", "n")
         )
 
