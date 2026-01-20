@@ -433,7 +433,7 @@ def collect_user_input():
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
+def patch_prf_file(file_path, name, initials, cid, rating, password):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -591,12 +591,12 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt, discord_presence):
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, discord_presence):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
+                patch_prf_file(path, name, initials, cid, rating, password)
                 if discord_presence == "y":
                     patch_discord_plugin(path, state="present")
                 else:
