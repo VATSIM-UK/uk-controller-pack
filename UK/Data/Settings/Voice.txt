@@ -1,7 +1,7 @@
 VOICE
 AG:Area - LAC South:129.430
 AG:Area - LAC Dover:134.905
-AG:Area - LAC Worthing:127.830
+AG:Area - LAC Worthing:134.440
 AG:Area - LAC Central:127.105
 AG:Area - LAC Daventry:120.025
 AG:Area - LAC Clacton:118.480
