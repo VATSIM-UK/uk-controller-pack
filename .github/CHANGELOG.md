@@ -9,7 +9,8 @@
 8. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
 9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
 10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
-X. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
+11. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
+12. Enhancement - VACS Profiles tidy up (mainly backend)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
