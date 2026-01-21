@@ -1,3 +1,7 @@
+# Chnages from releasem 2025/12 to 2026/01
+X. Procedure Change (2601) - Introduced 'Worthing-only' position (LON_H_CTR) - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+X. Procedure Change (2601) - Revised London AC Bandbox (LON_CTR) frequency - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+
 # Changes from release 2025/11 to 2025/12
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
 
