@@ -558,8 +558,8 @@ grouping = "None"
 "136.465" = "MAAS JEV LO"
 
 "129.840" = "EDYY BB"
-"124.075" = "EDWW E"
-"126.325" = "EDWW A"
+"124.075" = "EDWW EID"
+"126.325" = "EDWW ALR"
 "127.675" = "EDWW W"
 "133.725" = "EDWW BBX"
 
@@ -590,6 +590,8 @@ include = [
     "BIRD*",
     
     "EDWW_W*",
+    "EDWW_ALR*",
+    "EDWW_EID*",
     "EDYY*",
 
     "EHAA*",
@@ -716,8 +718,8 @@ grouping = "None"
 "136.465" = "MAAS JEV LO"
 
 "129.840" = "EDYY BB"
-"124.075" = "EDWW E"
-"126.325" = "EDWW A"
+"124.075" = "EDWW EID"
+"126.325" = "EDWW ALR"
 "127.675" = "EDWW W"
 "133.725" = "EDWW BBX"
 "135.960" = "EDYY D"
