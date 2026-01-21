@@ -1,5 +1,6 @@
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
+X. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
