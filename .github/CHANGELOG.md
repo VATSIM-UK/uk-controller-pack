@@ -3,7 +3,9 @@
 2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Updated Heathrow vATIS profile - thanks to @JYang365 (John Yang)
 4. AIRAC (2601) - Added dispersal area and apron labels to Mount Pleasant (EGYP) SMR - thanks to @Liaely (Lily Unitt)
-x. Bug - Fixed EGNV centreline not displaying when on EGNV TWR - thanks to @spacenano (Samuel Lefevre)
+5. Procedure Change (2601) - Introduced 'Worthing-only' position (LON_H_CTR) - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+6. Procedure Change (2601) - Revised London AC Bandbox (LON_CTR) frequency - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+7. Bug - Fixed EGNV centreline not displaying when on EGNV TWR - thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
