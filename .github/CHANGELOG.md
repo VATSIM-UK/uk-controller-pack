@@ -10,6 +10,7 @@
 9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
 10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
 X. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
+12. AIRAC (2601) - Defined danger areas EGD714A/B - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
