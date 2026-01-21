@@ -1,7 +1,7 @@
 {
   "Name": "UK - AC South",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - AC South.json",
-  "updateSerial": 2026011701,
+  "updateSerial": 2026012101,
   "stations": [
     {
       "ordinal": 0,
