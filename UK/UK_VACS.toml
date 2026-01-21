@@ -178,7 +178,7 @@ grouping = "None"
 "131.100" = "BRU W"
 "134.000" = "LFRN"
 "134.125" = "TC S"
-"127.830" = "AC WOR"
+"134.440" = "AC WOR"
 
 [stations.profiles.Central_LAG]
 include = [
@@ -263,7 +263,7 @@ grouping = "None"
 "121.280" = "TC NW"
 "128.805" = "BRU N"
 "129.430" = "AC STH"
-"127.830" = "AC WOR"
+"134.440" = "AC WOR"
 "123.800" = "SS AIR"
 "133.705" = "AC NTH"
 "128.130" = "AC NOR"
@@ -397,7 +397,7 @@ grouping = "None"
 "127.105" = "AC CEN"
 "132.605" = "AC SC BBX"
 "129.430" = "AC STH"
-"127.830" = "AC WOR"
+"134.440" = "AC WOR"
 
 "121.030" = "TC MIDS"
 "134.125" = "TC S"
@@ -780,7 +780,7 @@ grouping = "None"
 "133.180" = "TC SW"
 "132.605" = "AC SC BBX"
 "121.955" = "GMP"
-"127.830" = "AC WOR"
+"134.440" = "AC WOR"
 
 
 
@@ -820,7 +820,7 @@ frequencies = "HideAliased"
 grouping = "None"
 
 [stations.profiles.EGLL.aliases]
-"127.830" = "AC WOR"
+"134.440" = "AC WOR"
 "126.825" = "KK INT"
 "118.505" = "AIR S"
 "129.430" = "AC STH"
