@@ -8,6 +8,7 @@
 7. Bug - Fixed EGNV centreline not displaying when on EGNV TWR - thanks to @spacenano (Samuel Lefevre)
 8. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
 9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
+10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
