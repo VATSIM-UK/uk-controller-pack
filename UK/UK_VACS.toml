@@ -847,7 +847,8 @@ include = [
     "LTC_*",
     "EGTT_I_CTR",
     "EGVV_*",
-    "LON_CTR"
+    "LON_CTR",
+    "LON__CTR"
 ]
 exclude = []
 priority = [
@@ -957,11 +958,12 @@ grouping = "None"
 
 
 # AC
-"127.830" = "AC BBX"
+"127.430" = "AC BBX"
 "132.605" = "AC SC BBX"
 
 "134.905" = "AC DVR"
-"129.430" = "AC WOR"
+"134.440" = "AC WOR"
+"129.420" = "AC STH"
 
 "127.105" = "AC CEN"
 
