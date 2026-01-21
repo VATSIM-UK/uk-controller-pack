@@ -854,6 +854,168 @@ grouping = "None"
 "119.730" = "INT N"
 "133.180" = "TC SW"
 
+[stations.profiles.Farnborough]
+include = [
+    "EGHH_*",
+    "EGHI_*",
+    "EGKA_*",
+    "EGKK_*",
+    "EGKR_*",
+    "EGLK*",
+    "EGLF_*",
+    "EGHF_*",
+    "EGHR_*",
+    "EGKB_*",
+    "EGMD_*",
+    "EGMC_*",
+    "EGLC_*",
+    "EGLM_*",
+    "EGTF_*",
+    "EGTB_*",
+    "EGTR_*",
+    "EGTO_*",
+    "EGSG_*",
+    "EGKH_*",
+    "EGHR_*",
+    "EGVO_*",
+    "SOLENT_*",
+    "THAMES_*",
+    "ESSEX_*",
+    "EGGW*APP",
+    "EGSS*APP",
+    "*_FMP",
+    "LON_SC*",
+    "LON_S*",
+    "LTC_*",
+    "EGTT_I_CTR",
+    "EGVV_*",
+    "LON_CTR",
+    "LON__CTR"
+]
+exclude = []
+priority = [
+    "EGLF_*",	# Farnborough stations first
+    "SOLENT_*", # Solent/HI RAD because we need releases
+    "EGHI*APP",
+    "EGLK_*",	# Then local aerodromes
+    "EGVO_*",
+    "THAMES_*",	# Thames as a likely co-ordination target
+    "EGKK*APP", # Gatwick as another
+    "LTC_SW_*",	# TC/AC Sectors on top of us in order
+    "LTC_S_*",
+    "LTC_*",
+    "LON_S_*",
+    "LON_SC_*",
+    "EGTF_*", # More local aerodromes (but less likely to be spoken to)
+    "EGLM_*",
+    "EGHR_*",
+    "LON_H*",
+    "LON_O*",
+    "*_FMP",
+    "*_APP",
+    "*_CTR",
+]
+frequencies = "HideAliased"
+grouping = "None"
+
+[stations.profiles.Farnborough.aliases]
+
+# Farnborough
+"134.355" = "LF ZONE"
+"130.055" = "LF DIR"
+"125.250" = "LF LARS"
+
+"122.780" = "LF AIR"
+"121.185" = "LF GND"
+
+# Local Airfields
+"122.305" = "LK INF"
+
+"131.305" = "VO RAD"
+"119.230" = "VO AIR"
+
+"123.300" = "VP RAD"
+"124.280" = "VN RAD"
+"136.455" = "UB RAD"
+
+"123.155" = "KA APP"
+"123.405" = "KA AIR"
+
+"120.705" = "MD APP"
+"119.380" = "MD AIR"
+
+"130.730" = "LD INF"
+"122.605" = "LM RADIO"
+"122.405" = "TR INFO"
+"123.430" = "TF RADIO"
+"119.605" = "KR AIR"
+"122.455" = "HR INF"
+"118.930" = "HF INF"
+"126.555" = "TB RADIO"
+"122.255" = "TO INF"
+"122.805" = "SG RADIO"
+"122.210" = "HK RADIO"
+
+# Solent Clutch
+"120.230" = "SOLENT"
+"122.730" = "HI RAD"
+"119.480" = "HH RAD"
+"118.205" = "HI AIR"
+"125.605" = "HH AIR"
+
+# Thames Clutch
+"132.700" = "TC TMS"
+"128.025" = "LC DIR"
+"118.080" = "LC AIR"
+"129.405" = "KB APP"
+"128.965" = "MC DIR"
+"127.730" = "MC AIR"
+
+# Heathrow
+"119.730" = "LL INT N"
+"134.980" = "LL INT S"
+"120.400" = "LL FIN"
+"118.705" = "LL AIR N"
+"118.505" = "LL AIR S"
+
+# Gatwick
+"126.825" = "KK INT"
+"118.950" = "KK FIN"
+"124.230" = "KK AIR"
+
+# Essex
+"120.625" = "SS RAD"
+"129.550" = "GW RAD"
+
+# TC
+"135.805" = "TC BBX"
+"119.780" = "TC N"
+"121.280" = "TC NW"
+"118.825" = "TC NE"
+"134.125" = "TC S"
+"120.530" = "TC SE"
+"133.180" = "TC SW"
+"121.230" = "TC EAST"
+"121.030" = "TC MIDS"
+
+
+# AC
+"127.430" = "AC BBX"
+"132.605" = "AC SC BBX"
+
+"134.905" = "AC DVR"
+"134.440" = "AC WOR"
+"129.420" = "AC STH"
+
+"127.105" = "AC CEN"
+
+"126.080" = "AC WST"
+"135.255" = "AC BCN"
+
+"134.755" = "AC S23"
+
+"133.900" = "LON MIL"
+"124.600" = "EGTT INF"
 
 [stations.profiles.AFIS_AGCS_Stations]
 

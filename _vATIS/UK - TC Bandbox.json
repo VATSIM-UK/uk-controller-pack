@@ -1,7 +1,7 @@
 {
   "Name": "UK - TC Bandbox",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - TC Bandbox.json",
-  "updateSerial": 2025122301,
+  "updateSerial": 2026011701,
   "stations": [
     {
       "ordinal": 0,
@@ -407,49 +407,38 @@
       "Presets": [
         {
           "Name": "LANDING 27L (LTC_CTR)",
-          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "ArbitraryText": null,
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 27L. DEP RWY 27R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "LANDING 27R (LTC_CTR)",
-          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "ArbitraryText": null,
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 27R. DEP RWY 27L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "LANDING 09L (LTC_CTR)",
-          "AirportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805.",
-          "ArbitraryText": null,
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nARR RWY 09L. DEP RWY 09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 27R (LTC_CTR)",
-          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": "SINGLE RUNWAY OPERATIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^27R.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^27R SROIF\r\nRWY IN USE ^27R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 27L LTC_CTR)",
-          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": "SINGLE RUNWAY OPERATIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^27L.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^27L SROIF\r\nRWY IN USE ^27L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 09R (LTC_CTR)",
-          "AirportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": "SINGLE RUNWAY OPERATIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09R.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09R SROIF\r\nRWY IN USE ^09R.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "SRO 09L (LTC_CTR)",
-          "AirportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
-          "Notams": "SINGLE RUNWAY OPERATIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09L.\r\nSRO.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\n^09L SROIF\r\nRWY IN USE ^09L.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -479,6 +468,11 @@
           "voice": "SINGLE RUNWAY OPERATIONS"
         },
         {
+          "variableName": "SROIF",
+          "text": "SINGLE RUNWAY OPERATIONS IN FORCE",
+          "voice": "SINGLE RUNWAY OPERATIONS IN FORCE"
+        },
+        {
           "variableName": "COM",
           "text": "COM",
           "voice": ""
@@ -489,37 +483,93 @@
           "voice": "INFORMATION"
         }
       ],
-      "AirportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN FORCE. CAT 3 HOLDING POINTS IN USE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "PILOTS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "FOR START CLEARANCE CONTACT DELIVERY ON 121.980.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.705.",
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.905.",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.505.",
+          "ordinal": 11,
+          "enabled": false
+        },
+        {
+          "text": "FOR START & TAXI CONTACT DIRECTOR ON 119.730.",
+          "ordinal": 12,
+          "enabled": false
+        },
+        {
+          "text": "PILOTS ARE EXPECTED TO CHANGE TO RWY 27L FOR LANDING AT 15:00 HOURS.",
+          "ordinal": 13,
+          "enabled": false
+        },
+        {
+          "text": "PILOTS ARE EXPECTED TO CHANGE TO RWY 27R FOR LANDING AT 15:00 HOURS.",
+          "ordinal": 14,
+          "enabled": false
+        },
+        {
+          "text": "PILOTS SHOULD EXPECT SRO FROM 23:30 HOURS.",
+          "ordinal": 15,
+          "enabled": false
+        },
+        {
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
+          "ordinal": 16,
+          "enabled": true
+        }
+      ],
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
+          "Text": "DATALINK CLEARANCES NOT AVAILABLE FOR CPT DEPARTURES",
           "Enabled": false
-        },
-        {
-          "Ordinal": 2,
-          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL TIME.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "PILOTS TO EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL TIME.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 4,
-          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "Enabled": true
-        },
-        {
-          "ordinal": 5,
-          "text": "PILOTS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
-          "enabled": false
-        },
-        {
-          "ordinal": 6,
-          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
-          "enabled": false
         }
       ]
     },

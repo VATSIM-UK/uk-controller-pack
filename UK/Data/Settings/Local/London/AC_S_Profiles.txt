@@ -7,6 +7,10 @@ PROFILE:LON_D_CTR:250:6
 ATIS2:London Control | CPDLC/PDC [LOND]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:LON_H_CTR:250:6
+ATIS2:London Control | CPDLC/PDC [LONH]
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:LTC_CTR:150:6
 ATIS2:London Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland

@@ -10,6 +10,9 @@ Free Text:EGYP Taxiways\D:freetext
 Free Text:EGYP Taxiways\D:freetext
 Free Text:EGYP Taxiways\E:freetext
 Free Text:EGYP Taxiways\F:freetext
+Free Text:EGYP Taxiways\Golf Dispersal:freetext
+Free Text:EGYP Taxiways\Heli Apron:freetext
+Free Text:EGYP Taxiways\Hotel Dispersal:freetext
 Free Text:EGYP Taxiways\Main Apron:freetext
 Geo:Falkland Islands Coastline:
 Regions:EGYP - Mount Pleasant:polygon
