@@ -1,11 +1,9 @@
-# Changes from release 2026/01 to 2026/02
-x. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
-
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
 2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
 3. Enhancement - Updated Heathrow vATIS profile - thanks to @JYang365 (John Yang)
 4. AIRAC (2601) - Added dispersal area and apron labels to Mount Pleasant (EGYP) SMR - thanks to @Liaely (Lily Unitt)
+5. x. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
