@@ -179,6 +179,7 @@ grouping = "None"
 "134.000" = "LFRN"
 "134.125" = "TC S"
 "134.440" = "AC WOR"
+"126.980" = "BRU LOW"
 
 [stations.profiles.Central_LAG]
 include = [
@@ -273,6 +274,7 @@ grouping = "None"
 "119.780" = "TC N"
 "125.980" = "MAAS BRU"
 "118.825" = "TC NE"
+"126.980" = "BRU LOW"
 
 
 [stations.profiles.UK_ALL]
