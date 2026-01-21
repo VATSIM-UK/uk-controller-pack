@@ -4,6 +4,7 @@ import sys
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
 
+
 def _cli_early_exit() -> None:
     args = sys.argv[1:]
 
@@ -27,6 +28,7 @@ def _cli_early_exit() -> None:
         print((UPDATER_BUILD or "").strip())
         raise SystemExit(0)
 
+
 _cli_early_exit()
 
 import requests
@@ -49,9 +51,7 @@ REPO_NAME = "UK-Controller-Pack"
 LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 
 # Remote reference for latest updater build ID (short hash)
-UPDATER_VERSION_URL = (
-    f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
-)
+UPDATER_VERSION_URL = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
 
 UPDATER_DOWNLOAD_URL = (
     f"https://github.com/{REPO_OWNER}/{REPO_NAME}/blob/main/UK/Updater.exe"
@@ -240,12 +240,8 @@ class UpdaterApp:
                 "No changes have been made.",
             )
             try:
-                webbrowser.open(
-                    UPDATER_DOWNLOAD_URL, new=1
-                )
-                self.log(
-                    "Opened Updater.exe download page on GitHub."
-                )
+                webbrowser.open(UPDATER_DOWNLOAD_URL, new=1)
+                self.log("Opened Updater.exe download page on GitHub.")
             except Exception as e:
                 self.log(f"Failed to open download page: {e}")
             return False
@@ -284,12 +280,8 @@ class UpdaterApp:
                 "No changes have been made.",
             )
             try:
-                webbrowser.open(
-                    UPDATER_DOWNLOAD_URL, new=1
-                )
-                self.log(
-                    "Opened Updater.exe download page on GitHub."
-                )
+                webbrowser.open(UPDATER_DOWNLOAD_URL, new=1)
+                self.log("Opened Updater.exe download page on GitHub.")
             except Exception as e:
                 self.log(f"Failed to open download page: {e}")
             return False
@@ -328,10 +320,26 @@ class UpdaterApp:
 
             if status in ("added", "modified"):
                 updated_files.append(filename)
+
             elif status == "removed":
                 removed_files.append(filename)
 
-            if filename.lower().endswith(".prf") and status in ("added", "modified"):
+            elif status == "renamed":
+                # download the new path and remove the old one
+                updated_files.append(filename)
+                prev = f.get("previous_filename")
+                if prev:
+                    removed_files.append(prev)
+
+            elif status == "copied":
+                updated_files.append(filename)
+
+            if filename.lower().endswith(".prf") and status in (
+                "added",
+                "modified",
+                "renamed",
+                "copied",
+            ):
                 prf_modified = True
 
         return updated_files, removed_files, prf_modified
@@ -370,12 +378,12 @@ class UpdaterApp:
             "to review or apply any new settings.\n\n"
             "Do you want to run Configurator.exe now?"
         )
-    
+
         if not messagebox.askyesno("Profile Files Updated", msg):
             return
-    
+
         exe_path = os.path.join(self.base_dir, "Configurator.exe")
-    
+
         if os.path.isfile(exe_path):
             try:
                 os.startfile(exe_path)
@@ -443,7 +451,9 @@ class UpdaterApp:
 
             for file in updated_files:
                 if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
-                    self.log("Note: Updater.exe changed, but it will not be auto-updated.")
+                    self.log(
+                        "Note: Updater.exe changed, but it will not be auto-updated."
+                    )
                     continue
 
                 self.log(f"Updating {file}")
@@ -567,7 +577,9 @@ class UpdaterApp:
                     main_dst = os.path.join(target_dir, "ICAO_Airlines.txt")
                     vsmr_dst = os.path.join(vsmr_dir, "ICAO_Airlines.txt")
                     try:
-                        with open(main_dst, "rb") as src_f, open(vsmr_dst, "wb") as out2:
+                        with open(main_dst, "rb") as src_f, open(
+                            vsmr_dst, "wb"
+                        ) as out2:
                             out2.write(src_f.read())
                         self.log(f"GNG: Copied ICAO_Airlines.txt → {VSMR_DIR}")
                     except Exception as e:
@@ -576,13 +588,19 @@ class UpdaterApp:
             if missing:
                 self.log(f"GNG: Missing expected files: {', '.join(missing)}")
 
-            if not any(x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}):
-                raise RuntimeError("ZIP does not look like a valid GNG navdata package.")
+            if not any(
+                x in extracted for x in {"ICAO_Airports.txt", "airway.txt", "icao.txt"}
+            ):
+                raise RuntimeError(
+                    "ZIP does not look like a valid GNG navdata package."
+                )
 
         self.log("GNG: Navdata import complete.")
 
         try:
-            if messagebox.askyesno("GNG Navdata", "Delete the downloaded ZIP file now?"):
+            if messagebox.askyesno(
+                "GNG Navdata", "Delete the downloaded ZIP file now?"
+            ):
                 os.remove(zip_path)
                 self.log("GNG: Deleted ZIP after import.")
         except Exception as e:

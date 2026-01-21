@@ -1,6 +1,13 @@
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
-2. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
+2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Updated Heathrow vATIS profile - thanks to @JYang365 (John Yang)
+4. AIRAC (2601) - Added dispersal area and apron labels to Mount Pleasant (EGYP) SMR - thanks to @Liaely (Lily Unitt)
+5. Procedure Change (2601) - Introduced 'Worthing-only' position (LON_H_CTR) - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+6. Procedure Change (2601) - Revised London AC Bandbox (LON_CTR) frequency - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+7. Bug - Fixed EGNV centreline not displaying when on EGNV TWR - thanks to @spacenano (Samuel Lefevre)
+8. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
+9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
