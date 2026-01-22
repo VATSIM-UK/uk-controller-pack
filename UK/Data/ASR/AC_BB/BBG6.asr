@@ -334,6 +334,8 @@ Free Text:SCT2\506:freetext
 Free Text:SCT2\507:freetext
 Free Text:SCT2\508:freetext
 Free Text:SCT2\509:freetext
+Free Text:SCT2\50L:freetext
+Free Text:SCT2\50R:freetext
 Free Text:SCT2\51:freetext
 Free Text:SCT2\510:freetext
 Free Text:SCT2\511:freetext
@@ -345,6 +347,8 @@ Free Text:SCT2\516:freetext
 Free Text:SCT2\517:freetext
 Free Text:SCT2\518:freetext
 Free Text:SCT2\519:freetext
+Free Text:SCT2\51L:freetext
+Free Text:SCT2\51R:freetext
 Free Text:SCT2\52:freetext
 Free Text:SCT2\520:freetext
 Free Text:SCT2\521:freetext
@@ -355,6 +359,8 @@ Free Text:SCT2\525:freetext
 Free Text:SCT2\526:freetext
 Free Text:SCT2\527:freetext
 Free Text:SCT2\52A:freetext
+Free Text:SCT2\52L:freetext
+Free Text:SCT2\52R:freetext
 Free Text:SCT2\53:freetext
 Free Text:SCT2\531:freetext
 Free Text:SCT2\532:freetext
@@ -447,8 +453,14 @@ Free Text:SCT2\61:freetext
 Free Text:SCT2\614:freetext
 Free Text:SCT2\615:freetext
 Free Text:SCT2\616:freetext
+Free Text:SCT2\61L:freetext
+Free Text:SCT2\61R:freetext
 Free Text:SCT2\62:freetext
+Free Text:SCT2\62L:freetext
+Free Text:SCT2\62R:freetext
 Free Text:SCT2\63:freetext
+Free Text:SCT2\63L:freetext
+Free Text:SCT2\63R:freetext
 Free Text:SCT2\64:freetext
 Free Text:SCT2\64L:freetext
 Free Text:SCT2\64R:freetext
@@ -458,7 +470,16 @@ Free Text:SCT2\65R:freetext
 Free Text:SCT2\66:freetext
 Free Text:SCT2\67:freetext
 Free Text:SCT2\68:freetext
+Free Text:SCT2\681:freetext
+Free Text:SCT2\682:freetext
+Free Text:SCT2\683:freetext
+Free Text:SCT2\684:freetext
+Free Text:SCT2\685:freetext
+Free Text:SCT2\687:freetext
+Free Text:SCT2\688:freetext
+Free Text:SCT2\689:freetext
 Free Text:SCT2\69:freetext
+Free Text:SCT2\690:freetext
 Free Text:SCT2\6A:freetext
 Free Text:SCT2\6F:freetext
 Free Text:SCT2\7:freetext
@@ -749,6 +770,7 @@ Free Text:SCT2\Heli Hold Z:freetext
 Free Text:SCT2\Heli North:freetext
 Free Text:SCT2\Heli West:freetext
 Free Text:SCT2\Helicoper Hoversquare:freetext
+Free Text:SCT2\Helicopter Training Area 1:freetext
 Free Text:SCT2\Heliport:freetext
 Free Text:SCT2\HORKA:freetext
 Free Text:SCT2\Hot Cargo Pad:freetext
