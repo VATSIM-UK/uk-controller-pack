@@ -334,8 +334,6 @@ VRP/Farnborough.txt
 VRP/Heathrow.txt
 VRP/Southend.txt
 VRP/Southend LF.txt
-VRP/Lydd.txt
-VRP/Carlisle.txt
 VRP/Humberside.txt
 VRP/Leeds.txt
 VRP/Warton.txt

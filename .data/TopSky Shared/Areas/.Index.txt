@@ -216,6 +216,8 @@ Danger/EGD712B.txt
 Danger/EGD712C.txt
 Danger/EGD712D.txt
 Danger/EGD713.txt
+Danger/EGD714A.txt
+Danger/EGD714B.txt
 Danger/EGD801.txt
 Danger/EGD802.txt
 Danger/EGD803.txt
@@ -233,6 +235,7 @@ Danger/EGD902G.txt
 Danger/EGD902H.txt
 Prohibited/EGP611.txt
 Prohibited/EGP813.txt
+Restricted/EGR161.txt
 Restricted/EGR219.txt
 Restricted/EGR610A.txt
 Restricted/EGR610B.txt
