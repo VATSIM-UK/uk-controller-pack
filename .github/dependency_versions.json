@@ -2,7 +2,7 @@
   "vSMR": {
     "schemaVersion": 1,
     "label": "vSMR",
-    "message": "1.6.5",
+    "message": "1.8.0",
     "color": "blue",
     "repo": "VATSIM-UK/vSMR"
   },
@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.2.8.21",
+    "message": "2.2.8.23",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },

@@ -1,6 +1,32 @@
-# Changes from release 2025/11 to 2025/12
+x. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
+
+# Changes from release 2025/13 to 2026/01
+1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
+2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
+3. Enhancement - Updated Heathrow vATIS profile - thanks to @JYang365 (John Yang)
+4. AIRAC (2601) - Added dispersal area and apron labels to Mount Pleasant (EGYP) SMR - thanks to @Liaely (Lily Unitt)
+5. Procedure Change (2601) - Introduced 'Worthing-only' position (LON_H_CTR) - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+6. Procedure Change (2601) - Revised London AC Bandbox (LON_CTR) frequency - thanks to @ricky-gag38 (Riccardo Gagliardi) & @luke11brown (Luke Brown)
+7. Bug - Fixed EGNV centreline not displaying when on EGNV TWR - thanks to @spacenano (Samuel Lefevre)
+8. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
+9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
+10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
+11. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
+12. AIRAC (2601) - Updated lateral dimensions of the Daventry Radar Corridor - thanks to @Liaely (Lily Unitt)
+13. AIRAC (2601) - Defined restricted area EGR161 - thanks to @Liaely (Lily Unitt)
+14. AIRAC (2601) - Defined danger areas EGD714A/B - thanks to @Liaely (Lily Unitt)
+15. Enhancement - VACS Profiles tidy up (mainly backend)
+16. Procedure Change (2601) - Add split ATIS frequencies for Manchester & Heathrow (EGCC & EGLL) & reassign Manchester (EGCC) planner freq
+
+# Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
-2. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
+2. Enhancement - Revised D-ATIS formatting - thanks to @AdriTheDev (Callum Hicks) and @Liaely (Lily Unitt)
+3. AIRAC (2511) - Audited VRP Digital Dataset - thanks to @clc0609 (Coby Chapman)
+4. AIRAC (2513) - Updated EGR219 lateral limits - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Updated vSMR to v1.8.0
+6. Bug - Fixed incorrect runway in use displayed on EGSS (Stansted) profiles in vATIS - thanks to @clc0609 (Coby Chapman)
+7. Enhancement - Add VACS profiles - thanks to @lucak1011 (Luca Kulaga)
+8. Enhancement - Add VACS installer (V1.3) - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
