@@ -11,6 +11,7 @@
 10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
 11. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
 12. AIRAC (2601) - Updated lateral dimensions of the Daventry Radar Corridor - thanks to @Liaely (Lily Unitt)
+13. AIRAC (2601) - Defined restricted area EGR161 - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
