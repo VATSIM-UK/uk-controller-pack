@@ -235,6 +235,7 @@ Danger/EGD902G.txt
 Danger/EGD902H.txt
 Prohibited/EGP611.txt
 Prohibited/EGP813.txt
+Restricted/EGR161.txt
 Restricted/EGR219.txt
 Restricted/EGR610A.txt
 Restricted/EGR610B.txt
