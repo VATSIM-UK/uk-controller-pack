@@ -13,6 +13,7 @@
 12. AIRAC (2601) - Updated lateral dimensions of the Daventry Radar Corridor - thanks to @Liaely (Lily Unitt)
 13. AIRAC (2601) - Defined restricted area EGR161 - thanks to @Liaely (Lily Unitt)
 14. AIRAC (2601) - Defined danger areas EGD714A/B - thanks to @Liaely (Lily Unitt)
+15. Enhancement - VACS Profiles tidy up (mainly backend)
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
