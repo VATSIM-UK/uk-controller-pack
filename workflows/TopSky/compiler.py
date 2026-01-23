@@ -140,7 +140,7 @@ def ChangeMilDangerAreaDefinition():
     
     with open(MIL_Path + 'TopSkyAreas.txt', 'w') as File:
         for Line in Contents:
-            if Line.find('DANGER') > -1:
+            if Line.find('CATEGORYDEF:DANGER') > -1:
                 Elements = Line.split(':')
                 Elements[4] = '50' # 50 to be the closest to a proper overlay rather than anything else. Slightly obscures labels, but strikes the best balance.
                 Line = ':'.join(Elements)
