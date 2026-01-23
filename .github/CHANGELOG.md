@@ -1,4 +1,5 @@
 x. Enhancement - Added TopSky to Military APC profile - thanks to @Liaely (Lily Unitt)
+x. Bug - Corrected danger area EGD098H naming - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
