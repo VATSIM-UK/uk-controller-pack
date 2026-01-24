@@ -1002,6 +1002,8 @@ include = [
     "*_FMP",
     "LON_SC*",
     "LON_S*",
+    "LON_H*",
+    "LON_D*",
     "LTC_*",
     "EGTT_I_CTR",
     "EGVV_*",
@@ -1017,16 +1019,16 @@ priority = [
     "EGVO_*",
     "THAMES_*",	# Thames as a likely co-ordination target
     "EGKK*APP", # Gatwick as another
-    "LTC_SW_*",	# TC/AC Sectors on top of us in order
-    "LTC_S_*",
+    "LTC_SW*",	# TC/AC Sectors on top of us in order
+    "LTC_S*",
     "LTC_*",
-    "LON_S_*",
-    "LON_SC_*",
+    "LON_H*",
+    "LON_S*",
+    "LON_SC*",
     "EGTF_*", # More local aerodromes (but less likely to be spoken to)
     "EGLM_*",
     "EGHR_*",
-    "LON_H*",
-    "LON_O*",
+    "LON_D*",
     "*_FMP",
     "*_APP",
     "*_CTR",
