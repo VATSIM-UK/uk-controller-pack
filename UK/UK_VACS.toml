@@ -173,7 +173,7 @@ grouping = "None"
 "125.205" = "JJ ORTAC"
 
 # External
-"133.925" = "LFFF TP"
+"128.875" = "LFFF TP"
 "135.550" = "LFFF TN"
 "135.660" = "LFFF TNTB"
 "135.580" = "LFFF AENB"
@@ -1123,6 +1123,8 @@ include = [
     "EGSS*APP",
 
     "LON_SC*",
+    "LON_H*",
+    "LON_D*",
     "LON_S*",
     "LON_CTR",
     "LON__CTR",
@@ -1145,13 +1147,13 @@ priority = [
     "LTC_SW_*",	# TC/AC Sectors on top of us in order
     "LTC_S_*",
     "LTC_*",
-    "LON_S_*",
+    "LON_H*",
+    "LON_S*",
     "LON_SC_*",
     "EGTF_*", # More local aerodromes (but less likely to be spoken to)
     "EGLM_*",
     "EGHR_*",
-    "LON_H*",
-    "LON_O*",
+    "LON_D*",
     "*_FMP",
     "*_APP",
     "*_CTR"
