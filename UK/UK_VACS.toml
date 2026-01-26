@@ -1138,14 +1138,14 @@ include = [
 exclude = []
 priority = [
     "EGLF_*",	# Farnborough stations first
-    "SOLENT_*", # Solent/HI RAD because we need releases
+    "SOLENT*", # Solent/HI RAD because we need releases
     "EGHI_*",
     "EGLK_*",	# Then local aerodromes
     "EGVO_*",
-    "THAMES_*",	# Thames as a likely co-ordination target
+    "THAMES*",	# Thames as a likely co-ordination target
     "EGKK_*APP", # Gatwick as another
-    "LTC_SW_*",	# TC/AC Sectors on top of us in order
-    "LTC_S_*",
+    "LTC_SW*",	# TC/AC Sectors on top of us in order
+    "LTC_S*",
     "LTC_*",
     "LON_H*",
     "LON_S*",
