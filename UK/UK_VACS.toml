@@ -10,7 +10,7 @@ priority = [
     "*_APP",
     "*_TWR",
     "*_GND",
-    "*_DEL",
+    "*_DEL"
 ]
 
 [stations.profiles.Default.aliases]
@@ -21,15 +21,14 @@ include = [
     "SOLENT*",
     "THAMES*",
     "ESSEX*",
-    "EG*",
     "NAT_*",
     "LON_*",
     "LTC_*",
     "SCO_*",
     "STC_*",
     "MAN_*",
-    "UK_*",
-    "*_FMP",
+    "EG*_*",
+    "UK_*"
 ]
 exclude = []
 priority = [
@@ -38,7 +37,7 @@ priority = [
     "*_APP",
     "*_TWR",
     "*_GND",
-    "*_DEL",
+    "*_DEL"
 ]
 frequencies = "HideAliased"
 grouping = "None"
@@ -48,40 +47,51 @@ grouping = "None"
 
 [stations.profiles.South_LAG]
 include = [    
-    "SOLENT*",
+    "EGLL_*",
+    "EGKK_*",
     "THAMES*",
-    "*_FMP",
+    "EGLC_*",
+    "EGMC_*",
+    "EGKB_*",
+    "SOLENT*",
     "EGHH_*",
     "EGHI_*",
     "EGKA_*",
-    "EGKK_*",
+    "EGKR_*",
     "EGLF_*",
-    "EGKB_*",
     "EGMD_*",
-    "EGMC_*",
-    "EGLC_*",
-    "EGLL_*",
+    "LON_S*",
+    "LON_H*",
     "LON_D*",
-    "LON_W*",
     "LON_C*",
     "LON_M*",
     "LON_E*",
     "LON_SC*",
-    "LON_S*",
-    "LON_H*",
+    "LON_W*",
     "LON_23*",
+    "LON_CTR",
+    "LON__CTR",
     "LTC_*",
+    "EGVV_*",
+    "EGTT_*",
+    "UK_*",
     "EGJJ_*",
     "EDYY_K*",
     "EDYY_N*",
     "EBBU_*",
     "PAR_*",
-    "LFEE_*",
-    "LFRR_*",
+    "LFEE_HN*",
+    "LFEE_N*",
+    "LFEE_U*",
+    "LFRR_V*",
+    "LFRR_W*",
+    "LFRR_J*",
+    "LFRR_U*",
+    "LFRR_E*",
+    "LFRR_CTR",
+    "LFRR__CTR",
     "LFQQ_*APP",
-    "LFRN_*APP",
-    "EGVV_*",
-
+    "LFRN_*APP"
 ]
 exclude = []
 priority = [
@@ -103,6 +113,8 @@ grouping = "None"
 "129.430" = "AC STH"
 "134.440" = "AC WOR"
 "134.905" = "AC DVR"
+"132.840" = "AC LUS"
+"132.165" = "AC LMS"
 "127.105" = "AC CEN"
 "118.480" = "AC CLN"
 "120.025" = "AC DTY"
@@ -119,8 +131,11 @@ grouping = "None"
 "119.780" = "TC N"
 "118.825" = "TC NE"
 "121.280" = "TC NW"
+"123.905" = "TC LAM"
 "121.230" = "TC EAST"
+"129.605" = "TC SABER"
 "121.030" = "TC MIDS"
+"130.925" = "TC WELIN"
 
 # Mil and FIS
 "133.900" = "SWK MIL"
@@ -132,6 +147,7 @@ grouping = "None"
 "134.980" = "LL INT S"
 "120.400" = "LL FIN"
 "118.505" = "LL AIR S"
+"118.705" = "LL AIR N"
 
 "126.825" = "KK INT"
 "124.230" = "KK AIR"
@@ -159,14 +175,26 @@ grouping = "None"
 "125.205" = "JJ ORTAC"
 
 # External
+"128.875" = "LFFF TP"
+"135.550" = "LFFF TN"
+"135.660" = "LFFF TNTB"
+"135.580" = "LFFF AENB"
+"129.005" = "LFFF HPKZ"
+"127.305" = "LFFF OPKZ"
+"133.925" = "LFFF RPAW"
 "135.410" = "LFFF LOW"
-"128.155" = "LFFF"
+"128.275" = "LFFF"
 
-"132.505" = "LFEE NOR"
+"133.255" = "LFEE UN"
+"133.010" = "LFEE UB"
+"132.505" = "LFEE HN"
+"127.555" = "LFEE NOR"
 "133.005" = "LFEE"
 
-"136.600" = "LFRR E"
+"136.000" = "LFRR E"
+"130.235" = "LFRR UE"
 "118.565" = "LFRR V"
+"124.755" = "LFRR VK"
 "127.385" = "LFRR J"
 "129.505" = "LFRR W"
 "125.500" = "LFRR"
@@ -195,25 +223,35 @@ include = [
     "EGBB_*",
     "EGNX_*",
     "EGLL_N*APP",
+    "EGLL_*TWR",
+    "THAMES*",
     "EGLC_*",
     "EGMC_*",
-    "MAN_*",
-    "LON_S*",
-    "LON_H*",
+    "MAN_E*",
+    "MAN_NE*",
+    "MAN_S*",
+    "MAN_CTR",
+    "MAN__CTR",
+    "LON_CTR",
+    "LON__CTR",
     "LON_SC*",
+    "LON_C*",
     "LON_M*",
     "LON_E*",
+    "LON_S*",
+    "LON_H*",
     "LON_D*",
     "LON_N*",
     "LON_W*",
     "LTC_*",
+    "EGVV_*",
+    "EGTT_*",
+    "UK_*",
     "EDYY_D*",
     "EDYY_K*",
     "EDYY_N*",
     "EBBU_*",
-    "EHAA_*",
-    "EGVV_*",
-    "*_FMP",
+    "EHAA_*"
 ]
 exclude = []
 priority = [
@@ -222,7 +260,7 @@ priority = [
     "*_APP",
     "*_TWR",
     "*_GND",
-    "*_DEL",
+    "*_DEL"
 ]
 frequencies = "HideAliased"
 grouping = "None"
@@ -236,6 +274,8 @@ grouping = "None"
 "120.025" = "AC DTY"
 "118.480" = "AC CLN"
 "129.430" = "AC STH"
+"132.840" = "AC LUS"
+"132.165" = "AC LMS"
 "134.440" = "AC WOR"
 "134.905" = "AC DVR"
 "133.705" = "AC NTH"
@@ -249,13 +289,17 @@ grouping = "None"
 "133.180" = "TC SW"
 "119.780" = "TC N"
 "118.825" = "TC NE"
+"123.905" = "TC LAM"
 "121.280" = "TC NW"
 "121.230" = "TC EAST"
+"129.605" = "TC SABER"
+"133.525" = "TC REDFA"
 "121.030" = "TC MIDS"
+"130.925" = "TC WELIN"
 
 # PC
 "133.200" = "MPC BBX"
-"133.800" = "PC E"
+"133.800" = "PC EAST"
 "135.715" = "PC NE"
 "134.430" = "PC SE"
 "119.530" = "PC TNT"
@@ -286,6 +330,8 @@ grouping = "None"
 "127.730" = "MC AIR"
 
 "119.730" = "LL INT N"
+"118.705" = "LL AIR N"
+"118.505" = "LL AIR S"
 
 # External
 "135.960" = "MAAS DELTA"
@@ -316,7 +362,6 @@ include = [
     "EGNH_*",
     "EGSH_*",
 
-
     "EDYY_J*",
     "EDWW_*CTR",
     "EDYY_D*",
@@ -329,10 +374,15 @@ include = [
     "MAN_*",
 
     "LON_N*",
+    "LON_E*",
+    "LON_M*",
     "LON_C*",
     "LON_SC*",
-    "LON_E*",
-    "LON_W*",
+    "LON_W_*",
+    "LON_WB_*",
+    "LON_WL_*",
+    "LON_CTR",
+    "LON__CTR",
 
     "LTC_M*",
     "LTC_E*",
@@ -341,7 +391,9 @@ include = [
     "SCO_*",
 
     "EGVV_*",
-    "*_FMP",
+    "EGTT_*",
+    "EGPX_*",
+    "UK_*"
 ]
 exclude = []
 priority = [
@@ -350,7 +402,7 @@ priority = [
     "*_APP",
     "*_TWR",
     "*_GND",
-    "*_DEL",
+    "*_DEL"
 ]
 frequencies = "HideAliased"
 grouping = "None"
@@ -365,10 +417,15 @@ grouping = "None"
 "118.480" = "AC CLN"
 "120.025" = "AC DTY"
 "132.605" = "AC SC BBX"
+"135.255" = "AC BCN"
+"133.600" = "AC BCN LOW"
+"126.080" = "AC WST"
 "127.430" = "AC BBX"
 
 # TC
 "121.030" = "TC MIDS"
+"130.925" = "TC WELIN"
+"121.230" = "TC EAST"
 
 # MPC
 "133.200" = "PC BBX"
@@ -443,19 +500,22 @@ grouping = "None"
 "123.850" = "AMS SOUTH"
 "124.880" = "AMS EAST"
 
-"135.960" = "EDYY D"
+"135.960" = "MAAS DELTA"
+
 "129.735" = "MAAS JEV HI"
 "132.780" = "MAAS HOL HI"
 "136.465" = "MAAS JEV LO"
+"129.840" = "MAAS BB"
 
-"129.840" = "EDYY BB"
 "124.075" = "EDWW EID"
 "126.325" = "EDWW ALR"
 "127.675" = "EDWW W"
 "133.725" = "EDWW BBX"
 
 "129.180" = "DUB UP NTH"
+"135.655" = "DUB UP STH"
 "132.580" = "DUB LO NTH"
+"120.755" = "DUB LO STH"
 
 "135.730" = "EISN LIFFY SUP"
 "134.260" = "EISN LIFFY UP"
@@ -477,11 +537,13 @@ include = [
     "EGJB_*",
     "EGJA_*",
     "EGJJ_*",
+    "EGBB_*APP",
     
-    "EIDW_U*",
-    "EIDW_L*",
+    "EIDW_*CTR",
     "EISN_E*",
     "EISN_B*",
+    "EISN_CTR",
+    "EISN__CTR",
 
     "MAN_CTR",
     "MAN__CTR",
@@ -494,19 +556,25 @@ include = [
     "LON_C*",
     "LON_M*",
     "LON_N*",
+    "LON_CTR",
+    "LON__CTR",
 
     "LTC_CTR",
     "LTC__CTR",
     "LTC_S*",
     "LTC_M*",
 
-    "LFRR*",
+    "LFRR_W*",
+    "LFRR_V*",
+    "LFRR_CTR",
+    "LFRR__CTR",
     "LFRB_*APP",
 
     "EGVV_*",
+    "EGTT_*",
+    "UK_*",
     "NAT*",
-    "EGGX*",
-    "*_FMP",
+    "EGGX*"
 ]
 exclude = []
 
@@ -536,6 +604,9 @@ grouping = "None"
 "120.025" = "AC DTY"
 "129.430" = "AC STH"
 "134.440" = "AC WOR"
+"134.905" = "AC DVR"
+"132.840" = "AC LUS"
+"132.165" = "AC LMS"
 
 # TC
 "135.805" = "TC BBX"
@@ -582,9 +653,13 @@ grouping = "None"
 "119.155" = "FF RAD 2"
 "133.105" = "FF AIR"
 
+"123.980" = "BB RAD"
+
 # External
 "129.180" = "DUB UP NTH"
+"135.655" = "DUB UP STH"
 "132.580" = "DUB LO NTH"
+"120.755" = "DUB LO STH"
 
 "135.730" = "EISN LIFFY SUP"
 "134.260" = "EISN LIFFY UP"
@@ -621,15 +696,21 @@ include = [
     "EGPC_*",
     "EGPN_*",
     "EGPA_*",
+    "EGNT_*",
 
-    "BIRD*",
+    "BIRD_E*",
+    "BIRD_S*",
+    "BIRD_CTR",
     
+    "EDYY_J*",
+    "EDYY_HH*",
     "EDWW_W*",
     "EDWW_ALR*",
     "EDWW_EID*",
-    "EDYY*",
 
+    "EDYY_D*",
     "EHAA*",
+    
     "EKDK_CTR",
     "EKDK__CTR",
     "EKDK_*N*CTR",
@@ -642,21 +723,31 @@ include = [
 
     "ENSV*CTR",
 
-
     "EISN_E*",
     "EISN_L*",
     "EIDW_UN*",
     "EIDW_LN*",
+    
     "MAN_*",
+    
     "LON_N*",
+    "LON_CTR",
+    "LON__CTR",
+    
     "STC_*",
     "SCO_*",
-    "EGVV_*",
+    
     "NAT*",
     "EGGX*",
-    "*_FMP",
+    
+    "EGVV_*",
+    "EGTT_*",
+    "EGPX_*",
+    "UK_*"
 ]
-exclude = []
+exclude = [
+    "MAN_SE*"
+]
 priority = [
     "*_FMP",
     "*_CTR",
@@ -738,6 +829,9 @@ grouping = "None"
 "123.625" = "AE APP"
 "134.155" = "AE AIR"
 
+"124.380" = "NT RAD"
+"119.705" = "NT AIR"
+
 # External
 "129.180" = "DUB UP NTH"
 "132.580" = "DUB LO NTH"
@@ -760,16 +854,17 @@ grouping = "None"
 "123.850" = "AMS SOUTH"
 "124.880" = "AMS EAST"
 
+"135.960" = "MAAS DELTA"
+
 "129.735" = "MAAS JEV HI"
 "132.780" = "MAAS HOL HI"
 "136.465" = "MAAS JEV LO"
+"129.840" = "MAAS BB"
 
-"129.840" = "EDYY BB"
 "124.075" = "EDWW EID"
 "126.325" = "EDWW ALR"
 "127.675" = "EDWW W"
 "133.725" = "EDWW BBX"
-"135.960" = "EDYY D"
 
 "136.280" = "ESNV W"
 "120.655" = "ENSV BBX"
@@ -823,8 +918,9 @@ include = [
     "STC_*",
     "SCO_*",
     "LTC_*",
-    "LON_SC*",
-    "*_FMP",
+    "EGTT_*",
+    "EGPX_*",
+    "UK_*",
 ]
 exclude = []
 priority = [
@@ -842,19 +938,28 @@ grouping = "None"
 
 
 [stations.profiles.EGKK]
-include = [
-    "EGTT_*",
-    "UK_*",
+include = [ 
     "EGKK*",
-    "EGLL_*APP",
+    
+    "EGLL_N*APP",
+    "EGLL_S*APP",
+    "THAMES*",
+    "EGLF_*APP",
+    "EGKR_*",
+    
+    "LON_H*",
     "LON_D*",
     "LON_S*",
-    "LON_SC*",
-    "LON_H*",
     "LON_O*",
+    "LON_SC*",
     "LON_CTR",
+    "LON__CTR",
+    
     "LTC_S*",
     "LTC_CTR",
+    
+    "EGTT_*",
+    "UK_*"
 ]
 exclude = []
 priority = [
@@ -880,6 +985,10 @@ grouping = "None"
 # Local
 "119.730" = "LL INT N"
 "134.980" = "LL INT S"
+"132.700" = "TC TMS"
+"134.350" = "LF RAD"
+"125.250" = "LF LARS"
+"119.605" = "KR AIR"
 
 # TC
 "135.805" = "TC BBX"
@@ -897,28 +1006,38 @@ grouping = "None"
 
 [stations.profiles.EGLL]
 include = [
-    "EGTT_*",
-    "UK_*",
     "EGLL*",
-    "EGLC_*",
-    "LON_O*",
+    
     "EGKK_*APP",
-    "THAMES_*APP",
+    "THAMES*",
+    "EGLC_*",
+    "EGLF_*APP",
+    "EGLW*",
+    
     "LON_M*",
     "LON_E*",
     "LON_C*",
     "LON_D*",
-    "LON_S*",
     "LON_H*",
+    "LON_S*",
+    "LON_O*",
     "LON_SC*",
     "LON_CTR",
+    "LON__CTR",
+    
     "LTC_N*",
     "LTC_S*",
     "LTC_E*",
     "LTC_M*",
     "LTC_CTR",
+    "LTC__CTR",
+    
+    "EGTT_*",
+    "UK_*"
 ]
-exclude = []
+exclude = [
+    "EGLC_*GND"
+]
 priority = [
     "*_FMP",
     "*_APP",
@@ -947,6 +1066,11 @@ grouping = "None"
 # Local
 "126.825" = "KK INT"
 "132.700" = "TC TMS"
+"128.025" = "LC DIR"
+"118.080" = "LC AIR"
+"134.350" = "LF RAD"
+"125.250" = "LF LARS"
+"134.280" = "EGLW TWR"
 
 # TC
 "135.805" = "TC BBX"
@@ -972,19 +1096,15 @@ grouping = "None"
 
 [stations.profiles.EGLF]
 include = [
-    "EGHH_*",
-    "EGHI_*",
+    "EGLF_*",
+    
     "EGKA_*",
     "EGKK_*",
     "EGKR_*",
     "EGLK*",
-    "EGLF_*",
     "EGHF_*",
     "EGHR_*",
-    "EGKB_*",
     "EGMD_*",
-    "EGMC_*",
-    "EGLC_*",
     "EGLM_*",
     "EGTF_*",
     "EGTB_*",
@@ -995,41 +1115,51 @@ include = [
     "EGHR_*",
     "EGVO_*",
     "SOLENT_*",
+    "EGHH_*",
+    "EGHI_*",
     "THAMES_*",
+    "EGMC_*",
+    "EGLC_*",
+    "EGKB_*",
     "ESSEX_*",
     "EGGW*APP",
     "EGSS*APP",
-    "*_FMP",
+
     "LON_SC*",
+    "LON_H*",
+    "LON_D*",
     "LON_S*",
-    "LTC_*",
-    "EGTT_I_CTR",
-    "EGVV_*",
     "LON_CTR",
-    "LON__CTR"
+    "LON__CTR",
+    
+    "LTC_*",
+    
+    "EGVV_*",
+    "EGTT_I_CTR",
+    "UK_*"
 ]
 exclude = []
 priority = [
     "EGLF_*",	# Farnborough stations first
-    "SOLENT_*", # Solent/HI RAD because we need releases
-    "EGHI*APP",
+    "SOLENT*", # Solent/HI RAD because we need releases
+    "EGHI_*",
     "EGLK_*",	# Then local aerodromes
     "EGVO_*",
-    "THAMES_*",	# Thames as a likely co-ordination target
-    "EGKK*APP", # Gatwick as another
-    "LTC_SW_*",	# TC/AC Sectors on top of us in order
-    "LTC_S_*",
+    "THAMES*",	# Thames as a likely co-ordination target
+    "EGKK_*APP", # Gatwick as another
+    "LTC_SW*",	# TC/AC Sectors on top of us in order
+    "LTC_S*",
     "LTC_*",
-    "LON_S_*",
+    "LON_H*",
+    "LON_S*",
     "LON_SC_*",
     "EGTF_*", # More local aerodromes (but less likely to be spoken to)
     "EGLM_*",
     "EGHR_*",
-    "LON_H*",
-    "LON_O*",
+    "LON_D*",
     "*_FMP",
     "*_APP",
-    "*_CTR",
+    "*_CTR"
 ]
 frequencies = "HideAliased"
 grouping = "None"
@@ -1045,8 +1175,6 @@ grouping = "None"
 "121.185" = "LF GND"
 
 # Local Airfields
-"122.305" = "LK INF"
-
 "131.305" = "VO RAD"
 "119.230" = "VO AIR"
 
@@ -1060,17 +1188,18 @@ grouping = "None"
 "120.705" = "MD APP"
 "119.380" = "MD AIR"
 
-"130.730" = "LD INF"
-"122.605" = "LM RADIO"
-"122.405" = "TR INFO"
-"123.430" = "TF RADIO"
+"122.305" = "EGLK"
+"130.730" = "EGLD"
+"122.605" = "EGLM"
+"122.405" = "EGTR"
+"123.430" = "EGTF"
 "119.605" = "KR AIR"
-"122.455" = "HR INF"
-"118.930" = "HF INF"
-"126.555" = "TB RADIO"
-"122.255" = "TO INF"
-"122.805" = "SG RADIO"
-"122.210" = "HK RADIO"
+"122.455" = "EGHR"
+"118.930" = "EGHF"
+"126.555" = "EGTB"
+"122.255" = "EGTO"
+"122.805" = "EGSG"
+"122.210" = "EGHK"
 
 # Solent Group
 "120.230" = "SOLENT"
@@ -1100,8 +1229,8 @@ grouping = "None"
 "124.230" = "KK AIR"
 
 # Essex
-"120.625" = "SS RAD"
-"129.550" = "GW RAD"
+"120.625" = "SS INT"
+"129.550" = "GW INT"
 
 # TC
 "135.805" = "TC BBX"
@@ -1113,7 +1242,6 @@ grouping = "None"
 "133.180" = "TC SW"
 "121.230" = "TC EAST"
 "121.030" = "TC MIDS"
-
 
 # AC
 "127.430" = "AC BBX"
@@ -1137,12 +1265,13 @@ grouping = "None"
 [stations.profiles.AFIS_AGCS_Stations]
 
 include = [
-"EG**_I*",
-"EG**_R*",
-"LON*",
-"LTC*",
-"SCO*",
-"STC*",
+    "EG**_I*",
+    "EG**_R*",
+    "LON*",
+    "LTC*",
+    "MAN*",
+    "SCO*",
+    "STC*"
 ]
 
 exclude = []
@@ -1152,10 +1281,11 @@ priority = [
     "*_APP",
     "*_TWR",
     "*_GND",
-    "*_DEL",
+    "*_DEL"
 ]
 frequencies = "HideAliased"
 grouping = "None"
 
 [stations.profiles.AFIS_AGCS_Stations.aliases]
 "124.600" = "EGTT INFO"
+"119.875" = "EGPX INFO"
