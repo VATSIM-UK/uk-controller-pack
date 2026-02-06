@@ -1,3 +1,6 @@
+# Changes from release 2026/01 to 2026/02
+1. Enhancement - Amended radar track symbols on NERC (LAC) profiles
+
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
 2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
