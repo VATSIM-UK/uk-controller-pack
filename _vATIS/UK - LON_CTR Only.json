@@ -1,7 +1,7 @@
 {
   "Name": "UK - LON_CTR [BBX]",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - LON_CTR Only.json",
-  "updateSerial": 2026012101,
+  "updateSerial": 2026020701,
   "stations": [
     {
       "ordinal": 0,
@@ -1009,7 +1009,7 @@
         {
           "name": "04 (LON_CTR)",
           "notams": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 127.430.",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [

@@ -259,6 +259,10 @@ PROFILE:EGTB_R_TWR:50:4
 ATIS2:Wycombe Radio
 ATIS3:Charts at chartfox.org/egtb | *Not* an ATC service, find out more here - vats.im/ukafis
 ATIS4:Air/Ground radio service, call before entering ATZ
+PROFILE:EGDJ_I_TWR:50:4
+ATIS2:Salisbury Information
+ATIS3:Charts at chartfox.org/egdj | Covering EGDJ & Salisbury Plain Training Area 
+ATIS4:Flight information service, call before entering Salisbury Plain Training Area
 PROFILE:EGXX_A_APP:150:5
 ATIS2:X Approach
 ATIS3:Charts at chartfox.org/egxx
