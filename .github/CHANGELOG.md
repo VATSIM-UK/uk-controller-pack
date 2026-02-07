@@ -1,3 +1,5 @@
+x. AIRAC(2603) - Updated TopSky definitions for daylight savings time 2026 - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/01 to 2026/02
 1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
