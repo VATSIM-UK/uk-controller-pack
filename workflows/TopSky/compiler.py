@@ -11,10 +11,11 @@ NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
 Shared_Path = '.data/TopSky Shared/'
 Index_Name = '.Index.txt'
 
-UTCEnd = ""
-DaylightSavingsTimeStart = ""
-DaylightSavingsTimeEnd = ""
-UTCStart = ""
+# Daylight savings times correct for Mar/Oct 2026 - requires update before AIRAC 2027/03
+UTCEnd = "0328"
+DaylightSavingsTimeStart = "0329"
+DaylightSavingsTimeEnd = "1025"
+UTCStart = "1026"
 #endregion
 
 def main():
