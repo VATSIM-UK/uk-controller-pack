@@ -161,6 +161,55 @@ Centreline/EGCC 05R.txt
 Centreline/EGCC 05R Ticks.txt
 Centreline/EGCC 05L.txt
 Centreline/EGCC 05L Ticks.txt
+Centreline/EGDI 02.txt
+Centreline/EGDI 02 Ticks.txt
+Centreline/EGDI 08.txt
+Centreline/EGDI 08 Ticks.txt
+Centreline/EGDI 16.txt
+Centreline/EGDI 16 Ticks.txt
+Centreline/EGDI 20.txt
+Centreline/EGDI 20 Ticks.txt
+Centreline/EGDI 26.txt
+Centreline/EGDI 26 Ticks.txt
+Centreline/EGDI 34.txt
+Centreline/EGDI 34 Ticks.txt
+Centreline/EGDM 05.txt
+Centreline/EGDM 05 Ticks.txt
+Centreline/EGDM 23.txt
+Centreline/EGDM 23 Ticks.txt
+Centreline/EGDO 05.txt
+Centreline/EGDO 05 Ticks.txt
+Centreline/EGDO 09.txt
+Centreline/EGDO 13.txt
+Centreline/EGDO 13 Ticks.txt
+Centreline/EGDO 18.txt
+Centreline/EGDO 18 Ticks.txt
+Centreline/EGDO 23.txt
+Centreline/EGDO 23 Ticks.txt
+Centreline/EGDO 27.txt
+Centreline/EGDO 27 Ticks.txt
+Centreline/EGDO 36.txt
+Centreline/EGDO 36 Ticks.txt
+Centreline/EGDR 06.txt
+Centreline/EGDR 06 Ticks.txt
+Centreline/EGDR 11.txt
+Centreline/EGDR 11 Ticks.txt
+Centreline/EGDR 18.txt
+Centreline/EGDR 18 Ticks.txt
+Centreline/EGDR 24.txt
+Centreline/EGDR 24 Ticks.txt
+Centreline/EGDR 29.txt
+Centreline/EGDR 29 Ticks.txt
+Centreline/EGDR 36.txt
+Centreline/EGDR 36 Ticks.txt
+Centreline/EGDY 04.txt
+Centreline/EGDY 04 Ticks.txt
+Centreline/EGDY 08.txt
+Centreline/EGDY 08 Ticks.txt
+Centreline/EGDY 22.txt
+Centreline/EGDY 22 Ticks.txt
+Centreline/EGDY 26.txt
+Centreline/EGDY 26 Ticks.txt
 Centreline/EGFF 30.txt
 Centreline/EGFF 30 Ticks.txt
 Centreline/EGFF 12.txt
@@ -241,6 +290,10 @@ Centreline/EGNM 14.txt
 Centreline/EGNM 14 Ticks.txt
 Centreline/EGNM 32.txt
 Centreline/EGNM 32 Ticks.txt
+Centreline/EGNO 07.txt
+Centreline/EGNO 07 Ticks.txt
+Centreline/EGNO 25.txt
+Centreline/EGNO 25 Ticks.txt
 Centreline/EGNR 04.txt
 Centreline/EGNR 04 Ticks.txt
 Centreline/EGNR 22.txt
@@ -265,6 +318,42 @@ Centreline/EGNX 27.txt
 Centreline/EGNX 27 Ticks.txt
 Centreline/EGNX 09.txt
 Centreline/EGNX 09 Ticks.txt
+Centreline/EGNO 07.txt
+Centreline/EGNO 07 Ticks.txt
+Centreline/EGNO 25.txt
+Centreline/EGNO 25 Ticks.txt
+Centreline/EGOE 04.txt
+Centreline/EGOE 04 Ticks.txt
+Centreline/EGOE 10.txt
+Centreline/EGOE 10 Ticks.txt
+Centreline/EGOE 17.txt
+Centreline/EGOE 17 Ticks.txt
+Centreline/EGOE 22.txt
+Centreline/EGOE 22 Ticks.txt
+Centreline/EGOE 28.txt
+Centreline/EGOE 28 Ticks.txt
+Centreline/EGOE 35.txt
+Centreline/EGOE 35 Ticks.txt
+Centreline/EGOQ 04.txt
+Centreline/EGOQ 04 Ticks.txt
+Centreline/EGOQ 22.txt
+Centreline/EGOQ 22 Ticks.txt
+Centreline/EGOS 04.txt
+Centreline/EGOS 04 Ticks.txt
+Centreline/EGOS 18.txt
+Centreline/EGOS 18 Ticks.txt
+Centreline/EGOS 22.txt
+Centreline/EGOS 22 Ticks.txt
+Centreline/EGOS 36.txt
+Centreline/EGOS 36 Ticks.txt
+Centreline/EGOV 01.txt
+Centreline/EGOV 01 Ticks.txt
+Centreline/EGOV 13.txt
+Centreline/EGOV 13 Ticks.txt
+Centreline/EGOV 19.txt
+Centreline/EGOV 19 Ticks.txt
+Centreline/EGOV 31.txt
+Centreline/EGOV 31 Ticks.txt
 Centreline/EGPB 09.txt
 Centreline/EGPB 27.txt
 Centreline/EGPB 33.txt
@@ -289,6 +378,18 @@ Centreline/EGPK 12.txt
 Centreline/EGPK 12 Ticks.txt
 Centreline/EGPK 30.txt
 Centreline/EGPK 30 Ticks.txt
+Centreline/EGQL 08.txt
+Centreline/EGQL 08 Ticks.txt
+Centreline/EGQL 26.txt
+Centreline/EGQL 26 Ticks.txt
+Centreline/EGQS 05.txt
+Centreline/EGQS 05 Ticks.txt
+Centreline/EGQS 10.txt
+Centreline/EGQS 10 Ticks.txt
+Centreline/EGQS 23.txt
+Centreline/EGQS 23 Ticks.txt
+Centreline/EGQS 28.txt
+Centreline/EGQS 28 Ticks.txt
 Centreline/EGSC 05.txt
 Centreline/EGSC 05 Ticks.txt
 Centreline/EGSC 23.txt
@@ -305,13 +406,103 @@ Centreline/EGTE 08.txt
 Centreline/EGTE 08 Ticks.txt
 Centreline/EGTE 26.txt
 Centreline/EGTE 26 Ticks.txt
+Centreline/EGTK 01.txt
+Centreline/EGTK 01 Ticks.txt
 Centreline/EGTK 19.txt
 Centreline/EGTK 19 Ticks.txt
-Centreline/EGVO.txt
+Centreline/EGUB 01.txt
+Centreline/EGUB 01 Ticks.txt
+Centreline/EGUB 19.txt
+Centreline/EGUB 19 Ticks.txt
+Centreline/EGUL 05.txt
+Centreline/EGUL 05 Ticks.txt
+Centreline/EGUL 23.txt
+Centreline/EGUL 23 Ticks.txt
+Centreline/EGUN 10.txt
+Centreline/EGUN 10 Ticks.txt
+Centreline/EGUN 28.txt
+Centreline/EGUN 28 Ticks.txt
+Centreline/EGUW 05.txt
+Centreline/EGUW 05 Ticks.txt
+Centreline/EGUW 23.txt
+Centreline/EGUW 23 Ticks.txt
+Centreline/EGVA 09.txt
+Centreline/EGVA 09 Ticks.txt
+Centreline/EGVA 27.txt
+Centreline/EGVA 27 Ticks.txt
+Centreline/EGVN 07.txt
+Centreline/EGVN 07 Ticks.txt
+Centreline/EGVN 25.txt
+Centreline/EGVN 25 Ticks.txt
+Centreline/EGVO-EGLF.txt
+Centreline/EGVO 09.txt
+Centreline/EGVO 09 Ticks.txt
+Centreline/EGVO 27.txt
+Centreline/EGVO 27 Ticks.txt
 Centreline/EGWU 07.txt
 Centreline/EGWU 07 Ticks.txt
 Centreline/EGWU 25.txt
 Centreline/EGWU 25 Ticks.txt
+Centreline/EGXC 07.txt
+Centreline/EGXC 07 Ticks.txt
+Centreline/EGXC 25.txt
+Centreline/EGXC 25 Ticks.txt
+Centreline/EGXE 03.txt
+Centreline/EGXE 03 Ticks.txt
+Centreline/EGXE 16.txt
+Centreline/EGXE 16 Ticks.txt
+Centreline/EGXE 21.txt
+Centreline/EGXE 21 Ticks.txt
+Centreline/EGXE 34.txt
+Centreline/EGXE 34 Ticks.txt
+Centreline/EGXT 07.txt
+Centreline/EGXT 07 Ticks.txt
+Centreline/EGXT 25.txt
+Centreline/EGXT 25 Ticks.txt
+Centreline/EGXW 02.txt
+Centreline/EGXW 02 Ticks.txt
+Centreline/EGXW 20.txt
+Centreline/EGXW 20 Ticks.txt
+Centreline/EGXZ 02.txt
+Centreline/EGXZ 02 Ticks.txt
+Centreline/EGXZ 07.txt
+Centreline/EGXZ 07 Ticks.txt
+Centreline/EGXZ 13.txt
+Centreline/EGXZ 13 Ticks.txt
+Centreline/EGXZ 20.txt
+Centreline/EGXZ 20 Ticks.txt
+Centreline/EGXZ 25.txt
+Centreline/EGXZ 25 Ticks.txt
+Centreline/EGXZ 31.txt
+Centreline/EGXZ 31 Ticks.txt
+Centreline/EGYD 01.txt
+Centreline/EGYD 01 Ticks.txt
+Centreline/EGYD 08.txt
+Centreline/EGYD 08 Ticks.txt
+Centreline/EGYD 19.txt
+Centreline/EGYD 19 Ticks.txt
+Centreline/EGYD 26.txt
+Centreline/EGYD 26 Ticks.txt
+Centreline/EGYE 06.txt
+Centreline/EGYE 06 Ticks.txt
+Centreline/EGYE 10.txt
+Centreline/EGYE 10 Ticks.txt
+Centreline/EGYE 18.txt
+Centreline/EGYE 18 Ticks.txt
+Centreline/EGYE 24.txt
+Centreline/EGYE 24 Ticks.txt
+Centreline/EGYE 28.txt
+Centreline/EGYE 28 Ticks.txt
+Centreline/EGYE 36.txt
+Centreline/EGYE 36 Ticks.txt
+Centreline/EGYM 01.txt
+Centreline/EGYM 01 Ticks.txt
+Centreline/EGYM 05.txt
+Centreline/EGYM 05 Ticks.txt
+Centreline/EGYM 19.txt
+Centreline/EGYM 19 Ticks.txt
+Centreline/EGYM 23.txt
+Centreline/EGYM 23 Ticks.txt
 VRP/VRPs.txt
 VRP/Aldergrove.txt
 VRP/Birmingham.txt
