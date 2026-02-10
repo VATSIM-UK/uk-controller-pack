@@ -138,16 +138,24 @@ def ChangeMilDangerAreaDefinition():
     with open(MIL_Path + 'TopSkyAreas.txt', 'r') as File:
         Contents = File.readlines()
     
+    Replaced = False
+    
     with open(MIL_Path + 'TopSkyAreas.txt', 'w') as File:
         for Line in Contents:
-            if Line.find('CATEGORYDEF:DANGER') > -1:
-                Elements = Line.split(':')
-                Elements[4] = '50' # 50 to be the closest to a proper overlay rather than anything else. Slightly obscures labels, but strikes the best balance.
-                Line = ':'.join(Elements)
+            if (not Replaced): # Force boolean check first to hopefully reduce performance impact
+                if (Line.find('CATEGORYDEF:DANGER') > -1):
+                    Elements = Line.split(':')
+                    Elements[4] = '50' # 50 to be the closest to a proper overlay rather than anything else. Slightly obscures labels, but strikes the best balance.
+                    Line = ':'.join(Elements)
+                    File.write(Line)
+                    Replaced = True
+                else:
+                    File.write(Line)
+            else:
                 File.write(Line)
-                return
     
-    print('Mil active danger area fill settings not changed!')
+    if (not Replaced):
+        print('Mil active danger area fill settings not changed!')
     return
 
 if __name__ == '__main__':
