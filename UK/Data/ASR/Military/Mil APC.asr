@@ -453,41 +453,6 @@ ARTCC low boundary:LFRK Caen Carpiquet CTR:
 ARTCC low boundary:Solent CTA:
 Geo:Coastline (Medium Detail) GB Main Coastline:
 Regions:Uncontrolled airspace (Grey):polygon
-Runways:EGOV Valley 13-31:extended centerline 2
-Runways:EGOV Valley 13-31:extended centerline 2 left ticks
-Runways:EGOV Valley 13-31:extended centerline 2 right ticks
-Runways:EGQS Lossiemouth 05-23:extended centerline 2
-Runways:EGQS Lossiemouth 05-23:extended centerline 2 left ticks
-Runways:EGQS Lossiemouth 05-23:extended centerline 2 right ticks
-Runways:EGUB Benson 01-19:extended centerline 2
-Runways:EGUB Benson 01-19:extended centerline 2 left ticks
-Runways:EGUB Benson 01-19:extended centerline 2 right ticks
-Runways:EGUL Lakenheath 06-24:extended centerline 2
-Runways:EGUL Lakenheath 06-24:extended centerline 2 left ticks
-Runways:EGUL Lakenheath 06-24:extended centerline 2 right ticks
-Runways:EGUN Mildenhall 11-29:extended centerline 2
-Runways:EGUN Mildenhall 11-29:extended centerline 2 left ticks
-Runways:EGUN Mildenhall 11-29:extended centerline 2 right ticks
-Runways:EGVN Brize Norton 07-25:extended centerline 2
-Runways:EGVN Brize Norton 07-25:extended centerline 2 left ticks
-Runways:EGVN Brize Norton 07-25:extended centerline 2 right ticks
-Runways:EGXC Coningsby 07-25:extended centerline 2
-Runways:EGXC Coningsby 07-25:extended centerline 2 left ticks
-Runways:EGXC Coningsby 07-25:extended centerline 2 right ticks
-Runways:EGXE Leeming 16-34:extended centerline 2
-Runways:EGXE Leeming 16-34:extended centerline 2 left ticks
-Runways:EGXE Leeming 16-34:extended centerline 2 right ticks
-Runways:EGXT Wittering 07-25:extended centerline 2
-Runways:EGXT Wittering 07-25:extended centerline 2 left ticks
-Runways:EGXT Wittering 07-25:extended centerline 2 right ticks
-Runways:EGXW Waddington 02-20:extended centerline 2
-Runways:EGXW Waddington 02-20:extended centerline 2 left ticks
-Runways:EGXW Waddington 02-20:extended centerline 2 right ticks
-Runways:EGYD Cranwell 08-26:extended centerline 2
-Runways:EGYE Barkston Heath 06-24:extended centerline 2
-Runways:EGYM Marham 06-24:extended centerline 2
-Runways:EGYM Marham 06-24:extended centerline 2 left ticks
-Runways:EGYM Marham 06-24:extended centerline 2 right ticks
 Sids:Daventry RC FL100:
 Sids:Dean Cross RC FL190:
 Sids:Gamston RC FL190:
