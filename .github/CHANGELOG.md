@@ -1,4 +1,5 @@
 x. Enhancement - Added TopSky to Military APC profile - thanks to @Liaely (Lily Unitt)
+x. Enhancement - Removed real world TopSky SUA activations - thanks to @Liaely (Lily Unitt)
 x. Bug - Corrected danger area EGD098H naming - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/01 to 2026/02
