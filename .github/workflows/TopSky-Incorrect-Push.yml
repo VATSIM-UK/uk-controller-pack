@@ -18,91 +18,91 @@ jobs:
       
       - name: Check if ICAO_Aircraft.json has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Aircraft\.json$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/ICAO_Aircraft\.json$'; then
             echo "ICAO_Aircraft.json has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Aircraft.json"
             exit 1
           fi
      
       - name: Check if ICAO_Aircraft.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Aircraft\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/ICAO_Aircraft\.txt$'; then
             echo "ICAO_Aircraft.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Aircraft.txt"
             exit 1
           fi
      
       - name: Check if ICAO_Airlines.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Airlines\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/ICAO_Airlines\.txt$'; then
             echo "ICAO_Airlines.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Airlines.txt"
             exit 1
           fi
      
       - name: Check if ICAO_Airports.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/ICAO_Airports\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/ICAO_Airports\.txt$'; then
             echo "ICAO_Airports.txt has been edited. Please revert the change, and edit .data/TopSky Shared/ICAO_Airports.txt"
             exit 1
           fi
      
       - name: Check if TopSkyAirspace.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyAirspace\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyAirspace\.txt$'; then
             echo "TopSkyAirspace.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Airspace.txt"
             exit 1
           fi
      
       - name: Check if TopSkyCallsigns.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyCallsigns\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyCallsigns\.txt$'; then
             echo "TopSkyCallsigns.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Callsigns.txt"
             exit 1
           fi
      
       - name: Check if TopSkyCallsignsLocal.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyCallsignsLocal\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyCallsignsLocal\.txt$'; then
             echo "TopSkyCallsignsLocal.txt has been edited. Please revert the change, and edit .data/TopSky Shared/Local Callsigns.txt"
             exit 1
           fi
       
       - name: Check if TopSkyAreas.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyAreas\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyAreas\.txt$'; then
             echo "TopSkyAreas.txt has been edited. Please revert the change, and edit the relevant file in .data/TopSky Shared/Areas/"
             exit 1
           fi
      
       - name: Check if TopSkyCPDLC.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyCPDLC\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyCPDLC\.txt$'; then
             echo "TopSkyCPDLC.txt has been edited. Please revert the change, and edit the relevant file in .data/TopSky Shared/CPDLC/"
             exit 1
           fi
      
       - name: Check if TopSkyCPDLChoppieCode.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyCPDLChoppieCode\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyCPDLChoppieCode\.txt$'; then
             echo "TopSkyCPDLChoppieCode.txt has been edited. Please revert the change, and edit .data/TopSky Shared/CPDLC/Hoppie Code.txt"
             exit 1
           fi
      
       - name: Check if TopSkyMaps.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyMaps\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyMaps\.txt$'; then
             echo "TopSkyMaps.txt has been edited. Please revert the change, and edit the relevant file in .data/TopSky Shared/Maps/"
             exit 1
           fi
      
       - name: Check if TopSkyMSAW.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyMSAW\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyMSAW\.txt$'; then
             echo "TopSkyMSAW.txt has been edited. Please revert the change, and edit the relevant file in .data/TopSky Shared/MSAW/"
             exit 1
           fi
      
       - name: Check if TopSkyRadars.txt has been edited
         run: |
-          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC))/TopSkyRadars\.txt$'; then
+          if git diff --name-only origin/main...HEAD | grep -E -q '^UK/Data/Plugin/TopSky_((NERC)|(NODE)|(NOVA)|(iTEC)|(MIL))/TopSkyRadars\.txt$'; then
             echo "TopSkyRadars.txt has been edited. Please revert the change, and edit the relevant file in .data/TopSky Shared/Radars/"
             exit 1
           fi

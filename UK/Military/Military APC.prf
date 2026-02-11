@@ -42,6 +42,8 @@ Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
+Plugins	Plugin5	\..\Data\Plugin\TopSky_MIL\TopSky.dll
+Plugins	Plugin5Display0	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 TeamSpeakVccs	TsVccsMiniControlX	697
@@ -65,3 +67,4 @@ Sounds	Sound15	\..\Data\Sounds\new_atis.wav
 Sounds	Sound16	\..\Data\Sounds\handoff_refused.wav
 Sounds	Sound17	\..\Data\Sounds\pointout.wav
 Sounds	Sound18	\..\Data\Sounds\startup.wav
+LastSession	server	AUTOMATIC

@@ -198,7 +198,7 @@ APW_Buffer_Lat_L_VFR=0
 
 //eAUP API URL (danger area activation)
 HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
-System_UseAUP=1
+System_UseAUP=0
 Window_ASM=1
 
 //V-LARA Area Activation
