@@ -32,6 +32,9 @@
 8. Enhancement - Add VACS installer (V1.3) - thanks to @lucak1011 (Luca Kulaga)
 
 # Changes from release 2025/10 to 2025/11
+1. Enhancement - Added PDC logons to relevant airfields' controller information - thanks to @heqagon (Ben Jones)
+
+# Changes from release 2025/10 to 2025/11
 1. AIRAC (2511) - Updated TopSky MSAW altitude for EGNV (Teesside) - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2511) - Removed danger area EGD215 - thanks to @lyraongithub
 3. Bug - Fixed updater not downloading changed, renamed or copied files - thanks to @luke11brown (Luke Brown)
