@@ -1,4 +1,5 @@
 # Changes from release 2026/01 to 2026/02
+x. Enhancement - Added RNP Approach fix symbols to TC Approach posistions - Thanks to @spacenano (Samuel Lefevre)
 1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
 2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
 3. Enhancement - Amended radar track symbols on NERC (LAC) profiles
