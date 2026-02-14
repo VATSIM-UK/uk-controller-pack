@@ -1,0 +1,66 @@
+Settings	SettingsfilePLUGINS	\..\Data\Settings\Local\Inverness\Plugins.txt
+Settings	SettingsfilePROFILE	\..\Data\Settings\Local\Inverness\Profiles.txt
+Settings	SettingsfileSCREEN	\..\Data\Settings\Screen_SMR.txt
+Settings	SettingsfileVOICE	\..\Data\Settings\Voice_Scottish.txt
+Settings	Settingsfile	\..\Data\Settings\General_SMR.txt
+Settings	SettingsfileARR	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileCONFLICT	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileDEP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileFP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSEL	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSIL	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSTUP	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileTAXIOUT	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileTAKEOFF	\..\Data\Settings\Lists_SMR.txt
+Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Symbology_SMR.txt
+Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
+Settings	sector	UK\Data\Sector\UK_2026_01.sct
+Settings	alias	\..\Data\Alias\AC_Alias.txt
+Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
+RecentFiles	Recent1	\..\Data\ASR\Inverness\Inverness SMR.asr
+ASRFastKeys	1	\..\Data\ASR\Inverness\Inverness SMR.asr
+ASRFastKeys	2	\..\Data\ASR\Route Checker.asr
+RecentFiles	Recent2	\..\Data\ASR\Route Checker.asr
+Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
+Plugins	Plugin0Display0	SMR radar display
+Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
+Plugins	Plugin1Display0	Standard ES radar screen
+Plugins	Plugin1Display1	SMR radar display
+Plugins	Plugin2	\..\Data\Plugin\RDFPlugin.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin2Display1	SMR radar display
+Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\Data\Plugin\VCH.dll
+Plugins	Plugin5	\..\Data\Plugin\CDM\CDM.dll
+Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
+Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
+Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
+Settings	airportcoords	\..\Data\Datafiles\icao.txt
+Settings	airways	\..\Data\Datafiles\airway.txt
+Settings	performance	\..\Data\Datafiles\Performance.txt
+LastSession	server	AUTOMATIC
+LastSession	atis_url0	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&metar=$metar($atisairportA)
+LastSession	atis_url1	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&metar=$metar($atisairportB)
+LastSession	atis_url2	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportC)&dep=$deprwy($atisairportC)&metar=$metar($atisairportC)
+LastSession	atis_url3	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&metar=$metar($atisairportD)
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24
+Sounds	Sound0	\..\Data\Sounds\handoff_request.wav
+Sounds	Sound1	\..\Data\Sounds\handoff_accept.wav
+Sounds	Sound2	\..\Data\Sounds\conflict_alert.wav
+Sounds	Sound3	\..\Data\Sounds\radio_message.wav
+Sounds	Sound4	\..\Data\Sounds\private_message.wav
+Sounds	Sound5	\..\Data\Sounds\atc_message.wav
+Sounds	Sound6	\..\Data\Sounds\broadcast_message.wav
+Sounds	Sound7	\..\Data\Sounds\landline_request.wav
+Sounds	Sound8	\..\Data\Sounds\supervisor_message.wav
+Sounds	Sound9	\..\Data\Sounds\connected.wav
+Sounds	Sound10	\..\Data\Sounds\disconnected.wav
+Sounds	Sound11	\..\Data\Sounds\ongoing_request.wav
+Sounds	Sound12	\..\Data\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\..\Data\Sounds\ongoing_refused.wav
+Sounds	Sound14	\..\Data\Sounds\ongoing_manual.wav
+Sounds	Sound15	\..\Data\Sounds\new_atis.wav
+Sounds	Sound16	\..\Data\Sounds\handoff_refused.wav
+Sounds	Sound17	\..\Data\Sounds\pointout.wav
+Sounds	Sound18	\..\Data\Sounds\startup.wav
