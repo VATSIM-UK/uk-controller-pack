@@ -13,4 +13,3 @@ Stations/Shannon.txt
 Stations/Reykjavik.txt
 Stations/Polaris.txt
 Stations/Copenhagen.txt
-Stations/Eurocontrol.txt
