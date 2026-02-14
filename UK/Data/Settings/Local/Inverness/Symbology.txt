@@ -1,27 +1,27 @@
 SYMBOLOGY
 SYMBOLSIZE
 Airports:symbol:16777215:0.5:0:0:7
-Airports:name:13827975:3.2:0:0:2
+Airports:name:12632256:3.2:0:0:2
 Low airways:line:11184810:2.5:0:0:7
 Low airways:name:12632256:2.5:0:0:8
-High airways:line:16512:3.5:2:0:7
-High airways:name:2512998:3.5:0:0:8
+High airways:line:11184810:3.5:2:0:7
+High airways:name:12632256:3.5:0:0:8
 Fixes:symbol:16777215:1.0:0:0:7
-Fixes:name:5921370:3.2:0:0:14
+Fixes:name:12632256:3.2:0:0:14
 Sids:line:16758920:3.0:0:0:7
-Stars:line:16776960:3.0:1:0:7
+Stars:line:12632256:3.0:1:0:7
 ARTCC high boundary:line:12632256:3.0:0:1:7
 ARTCC boundary:line:210:3.0:0:0:7
 ARTCC low boundary:line:12632256:3.0:1:1:7
-Geo:line:13816320:3.0:0:0:7
-VORs:symbol:16776960:1.4:0:0:7
-VORs:name:6579300:3.2:0:0:2
-VORs:frequency:6579300:3.5:0:0:2
+Geo:line:16777215:3.0:0:0:7
+VORs:symbol:16777215:1.4:0:0:7
+VORs:name:12632256:3.2:0:0:2
+VORs:frequency:12632256:3.5:0:0:2
 NDBs:symbol:5957360:0.6:0:0:7
 NDBs:name:8421504:3.2:0:0:2
 NDBs:frequency:8421504:3.5:0:0:0
 Runways:centerline:12080205:3.5:0:0:7
-Runways:extended centerline:16776960:3.5:0:0:7
+Runways:extended centerline:16777215:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
 Datablock:non concerned:16777215:3.2:0:0:7
 Datablock:notified:16777215:3.2:0:0:7
@@ -65,7 +65,7 @@ Other:wait:16777215:3.5:0:0:7
 Other:distance line:14145495:3.5:2:0:7
 Other:distance values:14145495:4.0:0:0:7
 Other:distance annotation:14145495:3.5:0:0:7
-Other:separation leader:8224000:3.5:0:3:7
+Other:separation leader:16777215:3.5:0:3:7
 Other:separation leader2:16777215:3.5:0:1:7
 Other:find:14145495:3.5:2:0:7
 Other:valid airway:32768:3.5:0:2:7
@@ -95,7 +95,7 @@ Chat:name unread:13408767:3.5:0:0:7
 Ground Network:exit:16711680:3.5:0:3:7
 Ground Network:taxiway:65280:3.5:0:3:7
 Ground Network:terminal taxiway:255:3.5:0:3:7
-Sector:line:16776960:0.5:0:0:7
+Sector:line:16764074:0.5:0:0:7
 Sector:msaw:32768:2.0:0:2:7
 Sector:active sector background:10239007:3.5:0:0:7
 Sector:inactive sector background:10239007:3.5:0:0:7

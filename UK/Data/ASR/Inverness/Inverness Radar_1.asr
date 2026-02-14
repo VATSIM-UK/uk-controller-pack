@@ -1,0 +1,441 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+Airports:000A:symbol
+Airports:EBOS:symbol
+Airports:EGAA:symbol
+Airports:EGAB:symbol
+Airports:EGAC:symbol
+Airports:EGAD:symbol
+Airports:EGAE:symbol
+Airports:EGAL:symbol
+Airports:EGBB:symbol
+Airports:EGBD:symbol
+Airports:EGBE:symbol
+Airports:EGBF:symbol
+Airports:EGBG:symbol
+Airports:EGBJ:symbol
+Airports:EGBK:symbol
+Airports:EGBM:symbol
+Airports:EGBN:symbol
+Airports:EGBO:symbol
+Airports:EGBP:symbol
+Airports:EGBS:symbol
+Airports:EGBT:symbol
+Airports:EGBV:symbol
+Airports:EGBW:symbol
+Airports:EGCB:symbol
+Airports:EGCC:symbol
+Airports:EGCF:symbol
+Airports:EGCJ:symbol
+Airports:EGCK:symbol
+Airports:EGCL:symbol
+Airports:EGCM:symbol
+Airports:EGCN:symbol
+Airports:EGCS:symbol
+Airports:EGCT:symbol
+Airports:EGCV:symbol
+Airports:EGCW:symbol
+Airports:EGDI:symbol
+Airports:EGDJ:symbol
+Airports:EGDM:symbol
+Airports:EGDN:symbol
+Airports:EGDO:symbol
+Airports:EGDP:symbol
+Airports:EGDR:symbol
+Airports:EGDY:symbol
+Airports:EGEC:symbol
+Airports:EGED:symbol
+Airports:EGEF:symbol
+Airports:EGEG:symbol
+Airports:EGEL:symbol
+Airports:EGEN:symbol
+Airports:EGEO:symbol
+Airports:EGEP:symbol
+Airports:EGER:symbol
+Airports:EGES:symbol
+Airports:EGET:symbol
+Airports:EGEW:symbol
+Airports:EGEY:symbol
+Airports:EGFA:symbol
+Airports:EGFC:symbol
+Airports:EGFE:symbol
+Airports:EGFF:symbol
+Airports:EGFH:symbol
+Airports:EGFP:symbol
+Airports:EGGD:symbol
+Airports:EGGP:symbol
+Airports:EGGW:symbol
+Airports:EGHA:symbol
+Airports:EGHC:symbol
+Airports:EGHE:symbol
+Airports:EGHF:symbol
+Airports:EGHG:symbol
+Airports:EGHH:symbol
+Airports:EGHI:symbol
+Airports:EGHJ:symbol
+Airports:EGHK:symbol
+Airports:EGHL:symbol
+Airports:EGHN:symbol
+Airports:EGHO:symbol
+Airports:EGHP:symbol
+Airports:EGHQ:symbol
+Airports:EGHR:symbol
+Airports:EGHS:symbol
+Airports:EGHT:symbol
+Airports:EGHU:symbol
+Airports:EGHY:symbol
+Airports:EGJA:symbol
+Airports:EGJB:symbol
+Airports:EGJJ:symbol
+Airports:EGKA:symbol
+Airports:EGKB:symbol
+Airports:EGKC:symbol
+Airports:EGKE:symbol
+Airports:EGKG:symbol
+Airports:EGKH:symbol
+Airports:EGKK:symbol
+Airports:EGKN:symbol
+Airports:EGKR:symbol
+Airports:EGKT:symbol
+Airports:EGLA:symbol
+Airports:EGLC:symbol
+Airports:EGLD:symbol
+Airports:EGLF:symbol
+Airports:EGLJ:symbol
+Airports:EGLK:symbol
+Airports:EGLL:symbol
+Airports:EGLM:symbol
+Airports:EGLS:symbol
+Airports:EGLT:symbol
+Airports:EGLW:symbol
+Airports:EGMA:symbol
+Airports:EGMC:symbol
+Airports:EGMD:symbol
+Airports:EGMF:symbol
+Airports:EGMJ:symbol
+Airports:EGNC:symbol
+Airports:EGNE:symbol
+Airports:EGNF:symbol
+Airports:EGNH:symbol
+Airports:EGNI:symbol
+Airports:EGNJ:symbol
+Airports:EGNL:symbol
+Airports:EGNM:symbol
+Airports:EGNO:symbol
+Airports:EGNP:symbol
+Airports:EGNR:symbol
+Airports:EGNS:symbol
+Airports:EGNT:symbol
+Airports:EGNU:symbol
+Airports:EGNV:symbol
+Airports:EGNW:symbol
+Airports:EGNX:symbol
+Airports:EGNY:symbol
+Airports:EGOD:symbol
+Airports:EGOE:symbol
+Airports:EGOQ:symbol
+Airports:EGOS:symbol
+Airports:EGOV:symbol
+Airports:EGOW:symbol
+Airports:EGPA:symbol
+Airports:EGPB:symbol
+Airports:EGPC:symbol
+Airports:EGPD:symbol
+Airports:EGPE:symbol
+Airports:EGPF:symbol
+Airports:EGPG:symbol
+Airports:EGPH:symbol
+Airports:EGPI:symbol
+Airports:EGPJ:symbol
+Airports:EGPK:symbol
+Airports:EGPL:symbol
+Airports:EGPN:symbol
+Airports:EGPO:symbol
+Airports:EGPR:symbol
+Airports:EGPT:symbol
+Airports:EGPU:symbol
+Airports:EGPW:symbol
+Airports:EGQL:symbol
+Airports:EGQS:symbol
+Airports:EGRF:symbol
+Airports:EGRG:symbol
+Airports:EGRK:symbol
+Airports:EGRN:symbol
+Airports:EGRO:symbol
+Airports:EGSA:symbol
+Airports:EGSC:symbol
+Airports:EGSD:symbol
+Airports:EGSF:symbol
+Airports:EGSG:symbol
+Airports:EGSH:symbol
+Airports:EGSJ:symbol
+Airports:EGSL:symbol
+Airports:EGSM:symbol
+Airports:EGSO:symbol
+Airports:EGSP:symbol
+Airports:EGSQ:symbol
+Airports:EGSR:symbol
+Airports:EGSS:symbol
+Airports:EGST:symbol
+Airports:EGSU:symbol
+Airports:EGSV:symbol
+Airports:EGSW:symbol
+Airports:EGSX:symbol
+Airports:EGSY:symbol
+Airports:EGTB:symbol
+Airports:EGTC:symbol
+Airports:EGTD:symbol
+Airports:EGTE:symbol
+Airports:EGTF:symbol
+Airports:EGTH:symbol
+Airports:EGTK:symbol
+Airports:EGTO:symbol
+Airports:EGTP:symbol
+Airports:EGTR:symbol
+Airports:EGTU:symbol
+Airports:EGTW:symbol
+Airports:EGUB:symbol
+Airports:EGUC:symbol
+Airports:EGUL:symbol
+Airports:EGUN:symbol
+Airports:EGUW:symbol
+Airports:EGUY:symbol
+Airports:EGVA:symbol
+Airports:EGVF:symbol
+Airports:EGVH:symbol
+Airports:EGVL:symbol
+Airports:EGVN:symbol
+Airports:EGVO:symbol
+Airports:EGVP:symbol
+Airports:EGWC:symbol
+Airports:EGWN:symbol
+Airports:EGWU:symbol
+Airports:EGXC:symbol
+Airports:EGXD:symbol
+Airports:EGXE:symbol
+Airports:EGXH:symbol
+Airports:EGXT:symbol
+Airports:EGXW:symbol
+Airports:EGXY:symbol
+Airports:EGXZ:symbol
+Airports:EGYD:symbol
+Airports:EGYE:symbol
+Airports:EGYM:symbol
+Airports:EGYX:symbol
+Airports:EIDL:symbol
+Airports:EIDW:symbol
+Airports:LFAC:symbol
+Airports:LFAT:symbol
+ARTCC boundary:EGR002:
+ARTCC boundary:EGR063:
+ARTCC boundary:EGR095:
+ARTCC boundary:EGR101:
+ARTCC boundary:EGR104:
+ARTCC boundary:EGR105:
+ARTCC boundary:EGR107:
+ARTCC boundary:EGR153:
+ARTCC boundary:EGR154:
+ARTCC boundary:EGR155:
+ARTCC boundary:EGR156:
+ARTCC boundary:EGR157:
+ARTCC boundary:EGR158:
+ARTCC boundary:EGR159:
+ARTCC boundary:EGR160:
+ARTCC boundary:EGR204:
+ARTCC boundary:EGR212:
+ARTCC boundary:EGR214:
+ARTCC boundary:EGR217:
+ARTCC boundary:EGR220:
+ARTCC boundary:EGR311:
+ARTCC boundary:EGR312:
+ARTCC boundary:EGR315:
+ARTCC boundary:EGR319:
+ARTCC boundary:EGR321:
+ARTCC boundary:EGR322:
+ARTCC boundary:EGR323:
+ARTCC boundary:EGR413:
+ARTCC boundary:EGR431:
+ARTCC boundary:EGR432:
+ARTCC boundary:EGR444:
+ARTCC boundary:EGR445:
+ARTCC boundary:EGR446:
+ARTCC boundary:EGR504:
+ARTCC boundary:EGR515:
+ARTCC boundary:EGR516:
+ARTCC boundary:EGR603:
+ARTCC boundary:EGR705:
+ARTCC boundary:LFD82:
+ARTCC boundary:LFP26:
+ARTCC boundary:LFP27:
+ARTCC boundary:LFP28:
+ARTCC boundary:LFP32:
+ARTCC boundary:LFP33:
+ARTCC boundary:LFP6-1:
+ARTCC boundary:LFP6-2:
+ARTCC boundary:LFP7:
+ARTCC boundary:LFP81:
+ARTCC boundary:LFR10:
+ARTCC boundary:MASTS:
+ARTCC high boundary:Argyll CTA:
+ARTCC high boundary:Balder CTA:
+ARTCC high boundary:BANBA CTA:
+ARTCC high boundary:Belfast TMA:
+ARTCC high boundary:Berry Head CTA:
+ARTCC high boundary:Borders CTA:
+ARTCC high boundary:Channel Islands TMA:
+ARTCC high boundary:Clacton CTA:
+ARTCC high boundary:Cotswold CTA:
+ARTCC high boundary:Daventry CTA:
+ARTCC high boundary:Deauville TMA:
+ARTCC high boundary:EBBU Brussels FIR:
+ARTCC high boundary:EGGX Shanwick FIR:
+ARTCC high boundary:EGPX Scottish FIR:
+ARTCC high boundary:EGTT London FIR:
+ARTCC high boundary:EHAA ABNED Delegated:
+ARTCC high boundary:EHAA AMRIV Delegated:
+ARTCC high boundary:EHAA Amsterdam FIR:
+ARTCC high boundary:EHAA IBNOS Delegated:
+ARTCC high boundary:EHAA SASKI Delegated:
+ARTCC high boundary:EKDK North Sea High Area:
+ARTCC high boundary:Ekofisk CTA:
+ARTCC high boundary:Holyhead CTA:
+ARTCC high boundary:Irish Sea CTA:
+ARTCC high boundary:La Manche Delegated:
+ARTCC high boundary:Lille TMA:
+ARTCC high boundary:Lincolnshire CTA:
+ARTCC high boundary:London TMA:
+ARTCC high boundary:Manchester TMA:
+ARTCC high boundary:Moray CTA:
+ARTCC high boundary:North Sea CTA:
+ARTCC high boundary:PEPZE CTA:
+ARTCC high boundary:Portsmouth CTA:
+ARTCC high boundary:RATSU Triangle:
+ARTCC high boundary:Scottish TMA:
+ARTCC high boundary:Severn CTA:
+ARTCC high boundary:Southern CTA:
+ARTCC high boundary:Strangford CTA:
+ARTCC high boundary:Strumble CTA:
+ARTCC high boundary:Tay CTA:
+ARTCC high boundary:Wash CTA:
+ARTCC high boundary:Worthing CTA:
+ARTCC high boundary:Yorkshire CTA:
+ARTCC low boundary:Channel Islands CTA:
+ARTCC low boundary:EGAA Belfast CTR:
+ARTCC low boundary:EGAC Belfast City CTA:
+ARTCC low boundary:EGAE Londonderry/Eglinton CTA:
+ARTCC low boundary:EGBB Birmingham CTA:
+ARTCC low boundary:EGBJ Gloucestershire ATZ:
+ARTCC low boundary:EGCC Manchester CTA:
+ARTCC low boundary:EGDI Merryfield MATZ:
+ARTCC low boundary:EGDM Boscombe Down MATZ:
+ARTCC low boundary:EGDN Netheravon ATZ:
+ARTCC low boundary:EGFF Cardiff CTA:
+ARTCC low boundary:EGGD Bristol CTA:
+ARTCC low boundary:EGGP Liverpool CTA:
+ARTCC low boundary:EGGW London Luton CTA:
+ARTCC low boundary:EGHA Compton ATZ:
+ARTCC low boundary:EGHF Lee-on-Solent ATZ:
+ARTCC low boundary:EGHH Bournemouth CTR:
+ARTCC low boundary:EGHI Southampton CTR:
+ARTCC low boundary:EGHJ Bembridge ATZ:
+ARTCC low boundary:EGHN Sandown ATZ:
+ARTCC low boundary:EGHO Thruxton ATZ:
+ARTCC low boundary:EGHR Chichester ATZ:
+ARTCC low boundary:EGKA Shoreham ATZ:
+ARTCC low boundary:EGKH Lashenden ATZ:
+ARTCC low boundary:EGKK Gatwick CTA:
+ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGLC London City CTA:
+ARTCC low boundary:EGLK Blackbushe ATZ:
+ARTCC low boundary:EGLL London Heathrow CTR:
+ARTCC low boundary:EGLS Old Sarum ATZ:
+ARTCC low boundary:EGMC Southend CTA:
+ARTCC low boundary:EGMD Lydd ATZ:
+ARTCC low boundary:EGNM Leeds Bradford CTA:
+ARTCC low boundary:EGNS Isle of Man CTA:
+ARTCC low boundary:EGNT Newcastle CTA:
+ARTCC low boundary:EGNX East Midlands CTA:
+ARTCC low boundary:EGPB Sumburgh CTA:
+ARTCC low boundary:EGPD Aberdeen CTA:
+ARTCC low boundary:EGPE Inverness ATZ:
+ARTCC low boundary:EGPF Glasgow CTA:
+ARTCC low boundary:EGPH Edinburgh CTA:
+ARTCC low boundary:EGPK Prestwick CTA:
+ARTCC low boundary:EGQS Lossiemouth MATZ:
+ARTCC low boundary:EGSH Norwich CTA:
+ARTCC low boundary:EGSS London Stansted CTA:
+ARTCC low boundary:EGTO Rochester ATZ:
+ARTCC low boundary:EGUB Benson MATZ:
+ARTCC low boundary:EGUW Wattisham MATZ:
+ARTCC low boundary:EGVF Fleetlands ATZ:
+ARTCC low boundary:EGVN Brize Norton CTR:
+ARTCC low boundary:EGVO Odiham MATZ:
+ARTCC low boundary:EGVP Middle Wallop MATZ:
+ARTCC low boundary:EIDW Dublin CTA:
+ARTCC low boundary:LFAT Le Touquet CTR:
+ARTCC low boundary:LFOH Le Havre CTR:
+ARTCC low boundary:LFRC Cherbourg CTR:
+ARTCC low boundary:LFRK Caen Carpiquet CTR:
+ARTCC low boundary:Solent CTA:
+Low airways:N560:line
+Low airways:Y906:line
+Regions:A-Scottish:polygon
+Regions:A-ScottishIslands:polygon
+Sids:EGPE Inverness SMAA:
+SHOWC:1
+SHOWSB:0
+BELOW:200
+ABOVE:0
+LEADER:-1
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NOVA 9000
+WINDOWAREA:56.979579:-6.040422:58.105421:-2.054578
+PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:1
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:232,163,0
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:1
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1605
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:174
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:SelectedMinStack:airfield.EGPE
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_PORTREE;ASR_ORKNEY;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:0
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
