@@ -1,5 +1,8 @@
 import os
 import sys
+import shutil
+import subprocess
+import tempfile
 
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
@@ -294,55 +297,108 @@ class UpdaterApp:
         response = self.session.get(url, timeout=(5, 30))
         response.raise_for_status()
         data = response.json()
-        return {"tag": data["tag_name"], "published_at": data["published_at"]}
+        return {
+            "tag": data["tag_name"],
+            "published_at": data["published_at"],
+            "zipball_url": data["zipball_url"],
+        }
 
     @staticmethod
     def format_date(iso_date_str: str) -> str:
         dt = datetime.fromisoformat(iso_date_str.rstrip("Z"))
         return dt.strftime("%Y-%m-%d")
 
-    def get_changed_files(self, base_tag: str, head_tag: str):
-        url = (
-            f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/"
-            f"{base_tag}...{head_tag}"
-        )
-        response = self.session.get(url, timeout=(5, 30))
-        response.raise_for_status()
-        changed = response.json().get("files", []) or []
-
+    def get_changed_files(self, release_uk_dir: str):
         updated_files: list[str] = []
-        removed_files: list[str] = []
+        removed_files: list[str] = []  # local-only files are left untouched
         prf_modified = False
 
-        for f in changed:
-            filename = f.get("filename", "")
-            status = f.get("status", "")
+        for root, _, files in os.walk(release_uk_dir):
+            for name in files:
+                release_path = os.path.join(root, name)
+                rel = os.path.relpath(release_path, release_uk_dir).replace("\\", "/")
+                repo_path = f"UK/{rel}"
+                local_path = os.path.join(self.base_dir, rel)
 
-            if status in ("added", "modified"):
-                updated_files.append(filename)
+                if not os.path.exists(local_path):
+                    updated_files.append(repo_path)
+                    if repo_path.lower().endswith(".prf"):
+                        prf_modified = True
+                    continue
 
-            elif status == "removed":
-                removed_files.append(filename)
+                diff = subprocess.run(
+                    ["git", "diff", "--no-index", "--quiet", "--", release_path, local_path],
+                    check=False,
+                    capture_output=True,
+                    text=True,
+                )
 
-            elif status == "renamed":
-                # download the new path and remove the old one
-                updated_files.append(filename)
-                prev = f.get("previous_filename")
-                if prev:
-                    removed_files.append(prev)
+                if diff.returncode == 1:
+                    updated_files.append(repo_path)
+                    if repo_path.lower().endswith(".prf"):
+                        prf_modified = True
+                elif diff.returncode > 1:
+                    raise RuntimeError(
+                        f"git diff failed while comparing {repo_path}: {diff.stderr.strip()}"
+                    )
 
-            elif status == "copied":
-                updated_files.append(filename)
+        local_only_diff = subprocess.run(
+            [
+                "git",
+                "diff",
+                "--no-index",
+                "--name-status",
+                "--",
+                release_uk_dir,
+                self.base_dir,
+            ],
+            check=False,
+            capture_output=True,
+            text=True,
+        )
+        if local_only_diff.returncode > 1:
+            raise RuntimeError(
+                "git diff failed while checking local-only files: "
+                f"{local_only_diff.stderr.strip()}"
+            )
 
-            if filename.lower().endswith(".prf") and status in (
-                "added",
-                "modified",
-                "renamed",
-                "copied",
-            ):
-                prf_modified = True
+        local_only_files = []
+        for line in local_only_diff.stdout.splitlines():
+            parts = line.split("	")
+            if len(parts) >= 2 and parts[0] == "A":
+                rel = os.path.relpath(parts[1], self.base_dir).replace("\\", "/")
+                local_only_files.append(rel)
 
-        return updated_files, removed_files, prf_modified
+        if local_only_files:
+            self.log(
+                "Found local-only files not present in the latest release; "
+                "they were left untouched: "
+                + ", ".join(local_only_files[:10])
+                + ("..." if len(local_only_files) > 10 else "")
+            )
+
+        return sorted(set(updated_files)), removed_files, prf_modified
+
+    def download_release_snapshot(self, zipball_url: str) -> str:
+        temp_dir = tempfile.mkdtemp(prefix="ukcp-release-")
+        zip_path = os.path.join(temp_dir, "release.zip")
+
+        with self.session.get(zipball_url, timeout=(5, 60), stream=True) as response:
+            response.raise_for_status()
+            with open(zip_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=1024 * 256):
+                    if chunk:
+                        f.write(chunk)
+
+        with zipfile.ZipFile(zip_path, "r") as z:
+            z.extractall(temp_dir)
+
+        for entry in os.listdir(temp_dir):
+            candidate = os.path.join(temp_dir, entry, "UK")
+            if os.path.isdir(candidate):
+                return candidate
+
+        raise RuntimeError("Unable to locate UK/ in release snapshot ZIP")
 
     def get_local_path(self, remote_path: str) -> str:
         if remote_path.startswith("UK/"):
@@ -432,22 +488,29 @@ class UpdaterApp:
         latest_ver = latest["tag"]
         release_date = self.format_date(latest["published_at"])
 
-        if normalize_version(latest_ver) <= normalize_version(local_ver):
-            self.log(f"{REPO_OWNER}/{REPO_NAME} is up to date (version {local_ver})")
-            return
-
         self.log(
-            f"Updating {REPO_OWNER}/{REPO_NAME} to {latest_ver} "
-            f"(previously using {local_ver})"
+            f"Checking local files against {REPO_OWNER}/{REPO_NAME} {latest_ver} "
+            f"(local version marker: {local_ver})"
         )
 
+        release_uk_dir = None
         try:
+            release_uk_dir = self.download_release_snapshot(latest["zipball_url"])
             updated_files, removed_files, prf_modified = self.get_changed_files(
-                local_ver, latest_ver
+                release_uk_dir
             )
 
             updated_files = [p for p in updated_files if self.is_user_file(p)]
             removed_files = [p for p in removed_files if self.is_user_file(p)]
+
+            if not updated_files and not removed_files:
+                self.log(
+                    f"{REPO_OWNER}/{REPO_NAME} is up to date with latest release "
+                    f"{latest_ver}"
+                )
+                if normalize_version(latest_ver) > normalize_version(local_ver):
+                    self.set_local_version(latest_ver)
+                return
 
             for file in updated_files:
                 if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
@@ -476,6 +539,9 @@ class UpdaterApp:
 
         except Exception as e:
             self.log(f"Update failed: {e}")
+        finally:
+            if release_uk_dir:
+                shutil.rmtree(os.path.dirname(release_uk_dir), ignore_errors=True)
 
     def gng_update_flow(self) -> None:
         self.log("GNG: Do you want to update navdata (requires VATSIM SSO login)?")
