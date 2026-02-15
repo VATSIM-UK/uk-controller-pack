@@ -26,7 +26,7 @@ Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
-Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin3	\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\Data\Plugin\TopSky_NOVA\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen

@@ -43,7 +43,7 @@ Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin3Display0	Standard ES radar screen
 Plugins	Plugin3Display1	SMR radar display
-Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin5	\..\..\Data\Plugin\VCH.dll
 ASRFastKeys	1	\..\..\Data\ASR\AC_W\W1T.asr
 ASRFastKeys	2	\..\..\Data\ASR\AC_W\W2T.asr

@@ -44,7 +44,7 @@
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
-    "message": "3.6.4",
+    "message": "3.7.0",
     "color": "blue",
     "repo": "VFPC/VFPC"
   },

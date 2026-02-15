@@ -42,7 +42,7 @@ Plugins	Plugin2Display1	SMR radar display
 Plugins	Plugin3	\..\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin3Display0	Standard ES radar screen
 Plugins	Plugin3Display1	SMR radar display
-Plugins	Plugin4	\..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin4	\..\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin5	\..\..\Data\Plugin\VCH.dll
 RecentFiles	Recent1	\..\..\Data\ASR\AC_SC\SC2T.asr
 RecentFiles	Recent2	\..\..\Data\ASR\AC_SC\Heathrow SMR.asr
