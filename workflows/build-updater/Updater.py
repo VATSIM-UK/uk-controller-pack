@@ -1,7 +1,6 @@
 import os
 import sys
 import shutil
-import subprocess
 import tempfile
 
 # Replaced at build time by the GitHub workflow
@@ -47,6 +46,8 @@ import queue
 from urllib3.util.retry import Retry
 import webbrowser
 import zipfile
+
+from dulwich.objects import Blob
 
 REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
@@ -308,15 +309,24 @@ class UpdaterApp:
         dt = datetime.fromisoformat(iso_date_str.rstrip("Z"))
         return dt.strftime("%Y-%m-%d")
 
+    @staticmethod
+    def _blob_id(path: str) -> bytes:
+        with open(path, "rb") as f:
+            return Blob.from_string(f.read()).id
+
     def get_changed_files(self, release_uk_dir: str):
         updated_files: list[str] = []
         removed_files: list[str] = []  # local-only files are left untouched
         prf_modified = False
 
+        release_rel_paths: set[str] = set()
+
         for root, _, files in os.walk(release_uk_dir):
             for name in files:
                 release_path = os.path.join(root, name)
                 rel = os.path.relpath(release_path, release_uk_dir).replace("\\", "/")
+                release_rel_paths.add(rel)
+
                 repo_path = f"UK/{rel}"
                 local_path = os.path.join(self.base_dir, rel)
 
@@ -326,54 +336,24 @@ class UpdaterApp:
                         prf_modified = True
                     continue
 
-                diff = subprocess.run(
-                    ["git", "diff", "--no-index", "--quiet", "--", release_path, local_path],
-                    check=False,
-                    capture_output=True,
-                    text=True,
-                )
-
-                if diff.returncode == 1:
+                if self._blob_id(release_path) != self._blob_id(local_path):
                     updated_files.append(repo_path)
                     if repo_path.lower().endswith(".prf"):
                         prf_modified = True
-                elif diff.returncode > 1:
-                    raise RuntimeError(
-                        f"git diff failed while comparing {repo_path}: {diff.stderr.strip()}"
-                    )
 
-        local_only_diff = subprocess.run(
-            [
-                "git",
-                "diff",
-                "--no-index",
-                "--name-status",
-                "--",
-                release_uk_dir,
-                self.base_dir,
-            ],
-            check=False,
-            capture_output=True,
-            text=True,
-        )
-        if local_only_diff.returncode > 1:
-            raise RuntimeError(
-                "git diff failed while checking local-only files: "
-                f"{local_only_diff.stderr.strip()}"
-            )
-
-        local_only_files = []
-        for line in local_only_diff.stdout.splitlines():
-            parts = line.split("	")
-            if len(parts) >= 2 and parts[0] == "A":
-                rel = os.path.relpath(parts[1], self.base_dir).replace("\\", "/")
-                local_only_files.append(rel)
+        local_only_files: list[str] = []
+        for root, _, files in os.walk(self.base_dir):
+            for name in files:
+                local_path = os.path.join(root, name)
+                rel = os.path.relpath(local_path, self.base_dir).replace("\\", "/")
+                if rel not in release_rel_paths:
+                    local_only_files.append(rel)
 
         if local_only_files:
             self.log(
                 "Found local-only files not present in the latest release; "
                 "they were left untouched: "
-                + ", ".join(local_only_files[:10])
+                + ", ".join(sorted(local_only_files)[:10])
                 + ("..." if len(local_only_files) > 10 else "")
             )
 
