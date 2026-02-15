@@ -29,7 +29,7 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
+Plugins	Plugin3	\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin4	\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\Data\Plugin\CDM\CDM.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
