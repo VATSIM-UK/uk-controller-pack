@@ -1,263 +1,263 @@
 PROFILE
 PROFILE:EGSL_R_TWR:50:4
 ATIS2:Andrewsfield Radio
-ATIS3:Charts at chartfox.org/egsl | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsl | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGPR_I_TWR:50:4
 ATIS2:Barra Information
-ATIS3:Charts at chartfox.org/egpr | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egpr | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGBF_R_TWR:50:4
 ATIS2:Bedford Radio
-ATIS3:Charts at chartfox.org/egbf | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbf | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHJ_R_TWR:50:4
 ATIS2:Bembridge Radio
-ATIS3:Charts at chartfox.org/eghj | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eghj | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGLK_I_TWR:50:4
 ATIS2:Blackbushe Information
-ATIS3:Charts at chartfox.org/eglk | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eglk | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGLA_R_TWR:50:4
 ATIS2:Bodmin Radio
-ATIS3:Charts at chartfox.org/egla   *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egla   *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGCK_R_TWR:50:4
 ATIS2:Caernarfon Radio
-ATIS3:Charts at chartfox.org/egck | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egck | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGEC_I_TWR:50:4
 ATIS2:Campbeltown Information
-ATIS3:Charts at chartfox.org/egec | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egec | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGLJ_R_TWR:50:4
 ATIS2:Chalgrove Radio
-ATIS3:Charts at chartfox.org/eglj | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eglj | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHR_I_TWR:50:4
 ATIS2:Goodwood Information
-ATIS3:Charts at chartfox.org/eghr | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eghr | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGSQ_R_TWR:50:4
 ATIS2:Clacton Radio
-ATIS3:Charts at chartfox.org/egsq | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsq | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBE_I_TWR:50:4
 ATIS2:Coventry Information
-ATIS3:Charts at chartfox.org/egbe | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbe | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGPG_R_TWR:50:4
 ATIS2:Cumbernauld Radio
-ATIS3:Charts at chartfox.org/egpg | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egpg | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGLD_R_TWR:50:4
 ATIS2:Denham Radio
-ATIS3:Charts at chartfox.org/egld | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egld | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBD_R_TWR:50:4
 ATIS2:Derby Radio
-ATIS3:Charts at chartfox.org/egbd | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbd | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTU_R_TWR:50:4
 ATIS2:Dunkeswell Radio
-ATIS3:Charts at chartfox.org/egtu | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egtu | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGXX_R_TWR:50:4
 ATIS2:X Radio
-ATIS3:Charts at chartfox.org/egxx | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egxx | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGXX_I_TWR:50:4
 ATIS2:X Information
-ATIS3:Charts at chartfox.org/egxx | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egxx | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGSU_I_TWR:50:4
 ATIS2:Duxford Information
-ATIS3:Charts at chartfox.org/egsu | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsu | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGSR_R_TWR:50:4
 ATIS2:Earls Colne Radio
-ATIS3:Charts at chartfox.org/egsr | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsr | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTR_I_TWR:50:4
 ATIS2:Elstree Information
-ATIS3:Charts at chartfox.org/egtr | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egtr | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGAB_R_TWR:50:4
 ATIS2:Enniskillen Radio
-ATIS3:Charts at chartfox.org/egab | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egab | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGEF_R_TWR:50:4
 ATIS2:Fair Isle Radio
-ATIS3:Charts at chartfox.org/egef | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egef | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTF_R_TWR:50:4
 ATIS2:Fairoaks Radio
-ATIS3:Charts at chartfox.org/egtf | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egtf | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGCL_R_TWR:50:4
 ATIS2:Fenland Radio
-ATIS3:Charts at chartfox.org/egcl | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcl | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGNE_R_TWR:50:4
 ATIS2:Gamston Radio
-ATIS3:Charts at chartfox.org/egne | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egne | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGFE_R_TWR:50:4
 ATIS2:Haverfordwest Radio
-ATIS3:Charts at chartfox.org/egfe | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egfe | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGPI_I_TWR:50:4
 ATIS2:Islay Information
-ATIS3:Charts at chartfox.org/egpi | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egpi | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGBP_I_TWR:50:4
 ATIS2:Kemble Information
-ATIS3:Charts at chartfox.org/egbp | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbp | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGKH_R_TWR:50:4
 ATIS2:Headcorn Radio
-ATIS3:Charts at chartfox.org/egkh | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egkh | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHF_I_TWR:50:4
 ATIS2:Lee Information
-ATIS3:Charts at chartfox.org/eghf | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eghf | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCM_R_TWR:50:4
 ATIS2:Fenton Radio
-ATIS3:Charts at chartfox.org/egcm | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcm | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBG_R_TWR:50:4
 ATIS2:Leicester Radio
-ATIS3:Charts at chartfox.org/egbg | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbg | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGET_I_TWR:50:4
 ATIS2:Tingwall Information
-ATIS3:Charts at chartfox.org/eget | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eget | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCB_I_TWR:50:4
 ATIS2:Barton Information
-ATIS3:Charts at chartfox.org/egcb | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcb | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGNF_R_TWR:50:4
 ATIS2:Netherthorpe Radio
-ATIS3:Charts at chartfox.org/egnf | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egnf | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGAD_R_TWR:50:4
 ATIS2:Newtownards Radio
-ATIS3:Charts at chartfox.org/egad | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egad | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBK_R_TWR:50:4
 ATIS2:Sywell Radio
-ATIS3:Charts at chartfox.org/egbk | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbk | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBN_R_TWR:50:4
 ATIS2:Nottingham Radio
-ATIS3:Charts at chartfox.org/egbn | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbn | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGEO_I_TWR:50:4
 ATIS2:Oban Information
-ATIS3:Charts at chartfox.org/egeo | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egeo | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGSV_R_TWR:50:4
 ATIS2:Buckenham Radio
-ATIS3:Charts at chartfox.org/egsv | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsv | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGLS_R_TWR:50:4
 ATIS2:Old Sarum Radio
-ATIS3:Charts at chartfox.org/egls | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egls | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTH_I_TWR:50:4
 ATIS2:Old Warden Information
-ATIS3:Charts at chartfox.org/egth | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egth | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGHK_R_TWR:50:4
 ATIS2:Penzance Radio
-ATIS3:Charts at chartfox.org/eghk | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eghk | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGPT_R_TWR:50:4
 ATIS2:Perth Radio
-ATIS3:Charts at chartfox.org/egpt | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egpt | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGDP_R_TWR:50:4
 ATIS2:Portland Radio
-ATIS3:Charts at chartfox.org/egdp | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egdp | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGTO_I_TWR:50:4
 ATIS2:Rochester Information
-ATIS3:Charts at chartfox.org/egto | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egto | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCF_R_TWR:50:4
 ATIS2:Sandtoft Radio
-ATIS3:Charts at chartfox.org/egcf | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcf | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGCJ_R_TWR:50:4
 ATIS2:Sherburn Radio
-ATIS3:Charts at chartfox.org/egcj | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcj | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBS_I_TWR:50:4
 ATIS2:Shobdon Information
-ATIS3:Charts at chartfox.org/egbs | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbs | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCV_R_TWR:50:4
 ATIS2:Sleap Radio
-ATIS3:Charts at chartfox.org/egcv | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcv | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGSG_R_TWR:50:4
 ATIS2:Stapleford Radio
-ATIS3:Charts at chartfox.org/egsg | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egsg | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGFH_R_TWR:50:4
 ATIS2:Swansea Radio
-ATIS3:Charts at chartfox.org/egfh | *Not* an ATC service, find out more here - vats.im/ukafis 
+ATIS3:Charts at chartfox.org/egfh | *Not* an ATC service 
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBM_R_TWR:50:4
 ATIS2:Tatenhill Radio
-ATIS3:Charts at chartfox.org/egbm | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbm | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGHO_R_TWR:50:4
 ATIS2:Thruxton Radio
-ATIS3:Charts at chartfox.org/egho | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egho | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGPU_I_TWR:50:4
 ATIS2:Tiree Information
-ATIS3:Charts at chartfox.org/egpu | *Not* an ATC service, find out more here - vats.im/ukafis 
+ATIS3:Charts at chartfox.org/egpu | *Not* an ATC service 
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGHT_R_TWR:50:4
 ATIS2:Tresco Radio
-ATIS3:Charts at chartfox.org/eght | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eght | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGNL_I_TWR:50:4
 ATIS2:Walney Information
-ATIS3:Charts at chartfox.org/egnl | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egnl | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGBW_I_TWR:50:4
 ATIS2:Wellesbourne Information
-ATIS3:Charts at chartfox.org/egbw | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbw | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGCW_R_TWR:50:4
 ATIS2:Welshpool Radio
-ATIS3:Charts at chartfox.org/egcw | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egcw | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGFA_I_TWR:50:4
 ATIS2:West Wales Information
-ATIS3:Charts at chartfox.org/egfa | *Not* an ATC service, find out more here - vats.im/ukafis 
+ATIS3:Charts at chartfox.org/egfa | *Not* an ATC service 
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGLM_R_TWR:50:4
 ATIS2:Waltham Radio
-ATIS3:Charts at chartfox.org/eglm | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/eglm | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGNW_R_TWR:50:4
 ATIS2:Wickenby Radio
-ATIS3:Charts at chartfox.org/egnw | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egnw | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGBO_I_TWR:50:4
 ATIS2:Halfpenny Green Information
-ATIS3:Charts at chartfox.org/egbo | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egbo | *Not* an ATC service
 ATIS4:Aerodrome flight information service, call before entering ATZ
 PROFILE:EGTB_R_TWR:50:4
 ATIS2:Wycombe Radio
-ATIS3:Charts at chartfox.org/egtb | *Not* an ATC service, find out more here - vats.im/ukafis
+ATIS3:Charts at chartfox.org/egtb | *Not* an ATC service
 ATIS4:Air/Ground radio service, call before entering ATZ
 PROFILE:EGDJ_I_TWR:50:4
 ATIS2:Salisbury Information
@@ -322,9 +322,9 @@ ATIS4:Procedural approach unit | Radar unavailable
 PROFILE:EGTT_I_CTR:300:6
 ATIS2:London Information
 ATIS3:UK Flight Information Services (FIS) outside controlled airspace within the London (EGTT) FIR
-ATIS4:UKFIS information can be found here - vats.im/ukfis
+ATIS4:*Not* an ATC service
 PROFILE:EGPX_I_CTR:300:6
 ATIS2:Scottish Information
 ATIS3:UK Flight Information Services (FIS) outside controlled airspace within the Scottish (EGPX) FIR
-ATIS4:UKFIS information can be found here - vats.im/ukfis
+ATIS4:*Not* an ATC service
 END
