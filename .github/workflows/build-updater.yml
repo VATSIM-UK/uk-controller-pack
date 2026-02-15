@@ -57,7 +57,7 @@ jobs:
         shell: pwsh
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller requests
+          pip install pyinstaller requests dulwich
 
       - name: Get updater build hash
         shell: pwsh
