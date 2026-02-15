@@ -449,7 +449,6 @@ def collect_user_input():
             options[key] = prompt_for_field(key, "")
 
 
-    save_options(options)
     return options
 
 
@@ -720,6 +719,10 @@ def main():
 
     try:
         options = collect_user_input()
+
+        for key, value in DEFAULT_FIELDS.items():
+            options.setdefault(key, value)
+
         apply_basic_configuration(
             name=options["name"],
             initials=options["initials"],
@@ -731,10 +734,16 @@ def main():
             discord_presence=options.get("discord_presence", "n")
         )
 
-        if ask_yesno("Would you like to configure advanced options?"):
+        configure_advanced = ask_yesno("Would you like to configure advanced options?")
+        if configure_advanced:
             for key in ADVANCED_FIELDS:
                 options[key] = prompt_for_field(key, options.get(key, ""))
             apply_advanced_configuration(options)
+        else:
+            for key in ADVANCED_FIELDS:
+                options.setdefault(key, DEFAULT_FIELDS[key])
+
+        save_options({key: options.get(key, value) for key, value in DEFAULT_FIELDS.items()})
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)
@@ -758,4 +767,3 @@ if __name__ == "__main__":
             os._exit(0)
         else:
             sys.exit(0)
-
