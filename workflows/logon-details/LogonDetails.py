@@ -431,25 +431,32 @@ def collect_user_input():
     root.iconbitmap(resource_path("logo.ico"))
     root.withdraw()
     tk._default_root = root
+
     previous_options = load_previous_options()
     options = {}
+    loaded_previous_advanced = False
 
     if previous_options:
         use_previous = ask_yesno("Do you want to load your previous options?")
         if use_previous:
-            options.update(previous_options)
             for key in BASIC_FIELDS:
-                if key not in options:
-                    options[key] = prompt_for_field(key, "")
-        else:
-            options = {}
+                if key in previous_options:
+                    options[key] = previous_options[key]
+
+            has_previous_advanced = any(key in previous_options for key in ADVANCED_FIELDS)
+            if has_previous_advanced:
+                load_previous_advanced = ask_yesno("Do you want to load your previous advanced options?")
+                if load_previous_advanced:
+                    for key in ADVANCED_FIELDS:
+                        if key in previous_options:
+                            options[key] = previous_options[key]
+                    loaded_previous_advanced = True
 
     for key in BASIC_FIELDS:
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-
-    return options
+    return options, previous_options, loaded_previous_advanced
 
 
 def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
@@ -718,10 +725,10 @@ def main():
         f.write(str(os.getpid()))
 
     try:
-        options = collect_user_input()
+        options, previous_options, loaded_previous_advanced = collect_user_input()
 
-        for key, value in DEFAULT_FIELDS.items():
-            options.setdefault(key, value)
+        for key in BASIC_FIELDS:
+            options.setdefault(key, DEFAULT_FIELDS[key])
 
         apply_basic_configuration(
             name=options["name"],
@@ -735,15 +742,30 @@ def main():
         )
 
         configure_advanced = ask_yesno("Would you like to configure advanced options?")
+        applied_advanced = False
+
         if configure_advanced:
             for key in ADVANCED_FIELDS:
-                options[key] = prompt_for_field(key, options.get(key, ""))
+                options[key] = prompt_for_field(key, options.get(key, DEFAULT_FIELDS[key]))
             apply_advanced_configuration(options)
-        else:
+            applied_advanced = True
+        elif loaded_previous_advanced:
             for key in ADVANCED_FIELDS:
                 options.setdefault(key, DEFAULT_FIELDS[key])
+            apply_advanced_configuration(options)
+            applied_advanced = True
 
-        save_options({key: options.get(key, value) for key, value in DEFAULT_FIELDS.items()})
+        options_to_save = {key: options.get(key, DEFAULT_FIELDS[key]) for key in BASIC_FIELDS}
+
+        if applied_advanced:
+            for key in ADVANCED_FIELDS:
+                options_to_save[key] = options.get(key, DEFAULT_FIELDS[key])
+        else:
+            for key in ADVANCED_FIELDS:
+                if key in previous_options:
+                    options_to_save[key] = previous_options[key]
+
+        save_options(options_to_save)
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)
