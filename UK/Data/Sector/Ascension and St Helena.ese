@@ -11,6 +11,7 @@ FHAW_TWR:Wideawake Tower:126.200:AWT:T:FHAW:TWR:-:-:0120:0137:S007.58.11.000:W01
 
 SBAO_FSS:Atlantico Center:133.500:ATLNT::SBAO:FSS:::::
 GOOO_CTR:Dakar Control:120.500:DAKAR::GOOO:CTR:::::
+AFRC_FSS:Africa Central Control:129.075:AFRC:FSS:::::
 FNAN_CTR:Luanda Center:118.500:LUAND::FNAN:CTR:::::
 
 [FREETEXT]
