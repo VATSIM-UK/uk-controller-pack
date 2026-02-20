@@ -12,7 +12,7 @@ Sids:line:6579300:3.0:1:0:7
 Stars:line:6579300:3.0:1:0:7
 ARTCC high boundary:line:6579300:3.0:0:2:7
 ARTCC boundary:line:2295744:3.0:0:0:7
-ARTCC low boundary:line:31097:3.0:3:0:7
+ARTCC low boundary:line:31097:3.0:2:0:7
 Geo:line:956040:3.0:0:0:7
 VORs:symbol:47545:0.6:0:0:7
 VORs:name:6579300:3.5:0:0:14
