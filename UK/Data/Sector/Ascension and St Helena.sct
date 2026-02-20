@@ -1,7 +1,7 @@
 ;Ascension and St Helena Sector File
-;Author: Jack Edwards
+;Authors: Jack Edwards, Lily Unitt
 ;For use with Euroscope Only
-;Version 1.0
+;Version 2.0
 
 #define Black 0
 #define Maroon 00128

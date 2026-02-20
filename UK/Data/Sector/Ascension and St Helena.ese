@@ -1,7 +1,7 @@
 ;Ascension and St Helena Sector File
-;Author: Jack Edwards
+;Authors: Jack Edwards, Lily Unitt
 ;For use with Euroscope Only
-;Version 1.0
+;Version 2.0
 
 [POSITIONS]
 FHSH_APP:St Helena Approach:119.500:SHA:R:FHSH:APP:-:-:0120:0137:S015.57.33.000:W005.38.45.000::
