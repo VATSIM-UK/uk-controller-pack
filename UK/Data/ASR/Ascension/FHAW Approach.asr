@@ -9,8 +9,12 @@ Fixes:125D:name
 Fixes:125D:symbol
 Fixes:ANTIP:name
 Fixes:ANTIP:symbol
+Fixes:ATANI:name
+Fixes:ATANI:symbol
 Fixes:AVAKA:name
 Fixes:AVAKA:symbol
+Fixes:DAGAM:name
+Fixes:DAGAM:symbol
 Fixes:DUNLU:name
 Fixes:DUNLU:symbol
 Fixes:EGNAT:name
@@ -21,6 +25,8 @@ Fixes:HUPNO:name
 Fixes:HUPNO:symbol
 Fixes:IBRUK:name
 Fixes:IBRUK:symbol
+Fixes:LOKIM:name
+Fixes:LOKIM:symbol
 Fixes:MATHY:name
 Fixes:MATHY:symbol
 Fixes:NEXOP:name
@@ -35,6 +41,8 @@ Fixes:RATON:name
 Fixes:RATON:symbol
 Fixes:SOKAV:name
 Fixes:SOKAV:symbol
+Fixes:URAPI:name
+Fixes:URAPI:symbol
 Fixes:UTAPA:name
 Fixes:UTAPA:symbol
 Geo:Ascension Island Coast:
