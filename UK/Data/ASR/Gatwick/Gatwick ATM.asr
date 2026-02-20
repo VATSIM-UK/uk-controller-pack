@@ -1,17 +1,15 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+Airports:EGKR:symbol
 ARTCC low boundary:EGKK Gatwick CTA:
-ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGKR Redhill LFA:
 Fixes:TIMBA:symbol
 Fixes:WILLO:symbol
-Runways:EGKK Gatwick 08R-26L:centerline
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 1 left ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 1 right ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 2 left ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 2 right ticks
+Runways:EGKK London Gatwick 08R-26L:extended centerline 1
+Runways:EGKK London Gatwick 08R-26L:extended centerline 1 left ticks
+Runways:EGKK London Gatwick 08R-26L:extended centerline 2
+Runways:EGKK London Gatwick 08R-26L:extended centerline 2 right ticks
 VORs:MAY:symbol
 SHOWC:1
 SHOWSB:0
