@@ -1,5 +1,6 @@
 # Changes from release 2026/02a to 2026/XX
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
