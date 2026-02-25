@@ -5,7 +5,6 @@ x. Enhancement - Added additional nearby fix and airway definitions to Ascension
 x. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
 x. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
 x. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
-x. Bug - Added Ascension Ops (FHAW_A_APP) position from LOA definition to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/02a to 2026/XX
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
