@@ -1,6 +1,8 @@
+# Changes from release 2026/03 to 2026/04
+x. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
+
 # Changes from release 2026/02a to 2026/XX
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
-1. Bug - Fixed AMA in Jersey area - Thanks to @JYang365 (John Yang)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
