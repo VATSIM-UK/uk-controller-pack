@@ -1,7 +1,7 @@
 ========================================================
 Alias:          Heathrow
 Created:     	2016-03-31
-Last Updated:	2025-02-03
+Last Updated:	2026-02-27
 ========================================================
 
 ========================================================
@@ -104,7 +104,8 @@ Departure Clearance
 
 .llcpt You are cleared to $arr via CPT, then flight planned route. After departure Runway 09R climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft. Heathrow QNH $altim(egll)hPa. Squawk $squawk
 
-.dvr The Dover (DVR) SID is no longer used at Heathrow. Please change your route to DET DCT DVR and you will use a Detling (DET) departure
+.09dvr DET UL6 DVR then as filed
+.27dvr DET UL6 DVR then as filed
 .09sam GASGU N866 SAM then as filed
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
@@ -112,6 +113,7 @@ Departure Clearance
 .09mid MODMI M185 MID then as filed
 .27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
+.09buzad ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
 .rc Readback correct
