@@ -1211,6 +1211,7 @@ grouping = "None"
 "132.700" = "TC TMS"
 "128.025" = "LC DIR"
 "118.080" = "LC AIR"
+"134.805" = "KB AIR"
 "128.965" = "MC DIR"
 "127.730" = "MC AIR"
 
