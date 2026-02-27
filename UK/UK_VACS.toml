@@ -169,7 +169,6 @@ grouping = "None"
 "128.965" = "MC DIR"
 "127.730" = "MC AIR"
 
-"129.405" = "KB APP"
 "134.805" = "KB AIR"
 
 "125.205" = "JJ ORTAC"
@@ -1212,7 +1211,6 @@ grouping = "None"
 "132.700" = "TC TMS"
 "128.025" = "LC DIR"
 "118.080" = "LC AIR"
-"129.405" = "KB APP"
 "128.965" = "MC DIR"
 "127.730" = "MC AIR"
 

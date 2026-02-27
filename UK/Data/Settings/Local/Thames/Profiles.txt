@@ -7,10 +7,6 @@ PROFILE:EGKB_TWR:50:4
 ATIS2:Biggin Tower
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGKB_A_APP:50:5
-ATIS2:Biggin Approach
-ATIS3:Procedural Approach Service INITIAL CLIMB AS INSTRUCTED BY ATC
-ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:THAMES_APP:100:5
 ATIS2:Thames Director
 ATIS3:Radar and top-down cover for EGLC, EGMC and EGKB
