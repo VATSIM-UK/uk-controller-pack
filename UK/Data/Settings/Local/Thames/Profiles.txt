@@ -4,7 +4,7 @@ ATIS2:Biggin Ground
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGKB_TWR:50:4
-ATIS2:Biggin Tower
+ATIS2:Biggin
 ATIS3:INITIAL CLIMB AS INSTRUCTED BY ATC
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:THAMES_APP:100:5
