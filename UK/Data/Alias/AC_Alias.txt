@@ -41,6 +41,7 @@ Generic
 .rpa Report your passing altitude
 
 .qnh QNH $altim($1)
+.stand In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk before ToD
 
 ========================================================
 New Pilots
