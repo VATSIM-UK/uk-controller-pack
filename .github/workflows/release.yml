@@ -110,6 +110,9 @@ jobs:
                 break
               fi
             done
+          else
+            echo "❌ Latest tag '$latest_tag' does not match expected YYYY_MM format."
+            exit 1
           fi
 
           echo "latest_tag=$latest_tag" >> $GITHUB_OUTPUT
