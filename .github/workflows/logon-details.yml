@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
     permissions:
-      pull-requests: read
+      contents: read
     outputs:
       source: ${{ steps.filter.outputs.source }}
     steps:
