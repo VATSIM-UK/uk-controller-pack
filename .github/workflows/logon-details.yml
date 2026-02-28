@@ -52,10 +52,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pyinstaller
-          pip install pillow
-          pip install keyboard
-
+          pip install -r workflows/logon-details/requirements.txt
 
       - name: Compile executable
         run: pyinstaller --distpath UK/ workflows/logon-details/LogonDetails.spec
