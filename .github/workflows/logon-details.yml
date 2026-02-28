@@ -18,6 +18,7 @@ jobs:
   changes:
     name: Detect source changes
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     permissions:
       pull-requests: read
     outputs:
