@@ -393,7 +393,9 @@ def prompt_for_field(key, current):
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "asel_key":
-        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
+        result = ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
+        # If user skips (returns None or empty), preserve current value
+        return result if result else current
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
