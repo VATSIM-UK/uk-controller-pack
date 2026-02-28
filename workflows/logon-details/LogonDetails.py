@@ -11,6 +11,7 @@ import tkinter.simpledialog as simpledialog
 from PIL import Image, ImageTk
 from ctypes import windll, c_uint
 
+
 _original_init = simpledialog.Dialog.__init__
 
 def is_dark_theme_enabled():
