@@ -367,15 +367,3 @@ class TestConfigurationValidation:
                     f"Field '{field}' default '{DEFAULT_FIELDS[field]}' not in {valid_options}"
 
 
-class TestDataPersistenceWorkflow:
-    """Test configuration persistence and workflow"""
-
-
-
-
-class TestFieldValidationEdgeCases:
-    """Test edge cases in field validation"""
-
-
-
-
