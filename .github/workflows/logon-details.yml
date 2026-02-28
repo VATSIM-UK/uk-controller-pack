@@ -37,7 +37,7 @@ jobs:
   # Runs on PRs and pushes to main.
   test:
     name: Run tests
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -50,7 +50,7 @@ jobs:
       - name: Cache pip dependencies
         uses: actions/cache@v5
         with:
-          path: ~/.cache/pip
+          path: ~\AppData\Local\pip\Cache
           key: ${{ runner.os }}-pip-${{ hashFiles('workflows/logon-details/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
@@ -89,7 +89,7 @@ jobs:
       - name: Cache pip dependencies
         uses: actions/cache@v5
         with:
-          path: ~/.cache/pip
+          path: ~\AppData\Local\pip\Cache
           key: ${{ runner.os }}-pip-${{ hashFiles('workflows/logon-details/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-pip-
