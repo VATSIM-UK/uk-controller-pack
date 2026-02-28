@@ -401,12 +401,12 @@ def prompt_for_field(key, current):
         )
         # If the user skips (result is None/empty):
         #   - if we have a non-empty current value, preserve it
-        #   - if current is empty as well, signal "no change" with None so existing PRF binding is not overwritten
+        #   - if current is empty as well, return empty string so no files are modified
         if result:
             return result
         if current:
             return current
-        return None
+        return ""
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -480,6 +480,10 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         print(f"Failed to write to {file_path}: {e}")
 
 def patch_prf_file_with_asel(file_path, asel_key):
+    # Don't modify the file if no ASEL key was provided
+    if not asel_key:
+        return
+    
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
