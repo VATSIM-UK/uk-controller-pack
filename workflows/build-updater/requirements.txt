@@ -1,4 +1,4 @@
-pyinstaller
-requests
-dulwich
-pytest
+pyinstaller==6.19.0
+requests==2.32.3
+dulwich==1.1.0
+pytest==9.0.2
