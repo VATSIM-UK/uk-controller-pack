@@ -86,7 +86,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🏷️ Determine Latest and Major Baseline Release Tags
+      - name: 🏷️ Determine Tags for Latest and Last Release of Interest
         id: tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
