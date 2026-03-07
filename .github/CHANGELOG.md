@@ -1,5 +1,6 @@
-# Changes from release 2026/02a to 2026/XX
+# Changes from release 2026/02a to 2026/03
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+x. AIRAC - Aldergrove Radar (EGAA_APP) Frequency Updated - thanks to @MrAdder (Daniel Green)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
