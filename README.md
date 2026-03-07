@@ -10,7 +10,7 @@
 [![vSMR](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/vSMR.json)](https://github.com/VATSIM-UK/vSMR/releases)
 [![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/TopSky.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 [![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/MAESTRO.json)](https://forum.vatsim-scandinavia.org/t/plugins)
-
+[![VACS](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VACS.json)](https://github.com/vacs-project/vacs/releases)
 
 # Welcome
 The UK (EGTT and EGPX FIRs) controller pack provides the tools to VATSIM UK controllers to control realistically, efficiently and easily on the VATSIM network

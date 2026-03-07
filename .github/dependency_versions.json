@@ -69,5 +69,12 @@
     "message": "1.1",
     "color": "green",
     "repo": "VATSIM-UK/MAESTRO"
+  },
+  "VACS": {
+    "schemaVersion": 1,
+    "label": "VACS",
+    "message": "2.0.0",
+    "color": "green",
+    "repo": "vacs-project/vacs"
   }
 }
