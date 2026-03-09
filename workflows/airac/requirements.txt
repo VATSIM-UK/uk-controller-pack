@@ -1,3 +1,4 @@
 loguru==0.7.0
 py7zr==0.20.5
-Requests==2.32.2
+requests==2.32.2
+pytest==9.0.2
