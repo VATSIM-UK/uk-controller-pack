@@ -1,5 +1,6 @@
 # Changes from release 2026/02a to 2026/XX
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+1. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
