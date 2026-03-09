@@ -2909,6 +2909,13 @@ DisplayRotation:0.00000
 TAGFAMILY:NODE
 WINDOWAREA:50.964560:-0.692383:51.984890:2.533338
 PLUGIN:TopSky plugin:HideMapData:NERC,AirspaceBases,Fixes,FixLabels
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
+PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
+PLUGIN:RDF Plugin for Euroscope:EnableDraw:0
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
