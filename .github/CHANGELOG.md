@@ -1,5 +1,6 @@
 # Changes from release 2026/02a to 2026/XX
 x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
