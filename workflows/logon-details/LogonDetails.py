@@ -405,7 +405,7 @@ def prompt_for_field(key, current):
                 continue
             return response
 
-def collect_user_input():
+def collect_basic_config():
     root = tk.Tk()
     root.title("UK Controller Pack Configurator")
     root.iconbitmap(resource_path("logo.ico"))
@@ -428,8 +428,6 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-
-    save_options(options)
     return options
 
 
@@ -721,7 +719,7 @@ def main():
         f.write(str(os.getpid()))
 
     try:
-        options = collect_user_input()
+        options = collect_basic_config()
         apply_basic_configuration(
             name=options["name"],
             initials=options["initials"],
@@ -732,10 +730,26 @@ def main():
             discord_presence=options.get("discord_presence", "n")
         )
 
-        if ask_yesno("Would you like to configure advanced options?"):
-            for key in ADVANCED_FIELDS:
-                options[key] = prompt_for_field(key, options.get(key, ""))
-            apply_advanced_configuration(options)
+        if ("advanced_config" in options and options["advanced_config"]):
+            if ask_yesno("Do you want to load your previous advanced options?"):
+                for key in ADVANCED_FIELDS:
+                    if key not in options:
+                        options[key] = prompt_for_field(key, "")
+                apply_advanced_configuration(options)
+            else:
+                if ask_yesno("Would you like to reconfigure advanced options?"):
+                    options["advanced_config"] = True
+                    for key in ADVANCED_FIELDS:
+                        options[key] = prompt_for_field(key, options.get(key, ""))
+                    apply_advanced_configuration(options)
+        else:
+            if ask_yesno("Would you like to configure advanced options?"):
+                options["advanced_config"] = True
+                for key in ADVANCED_FIELDS:
+                    options[key] = prompt_for_field(key, options.get(key, ""))
+                apply_advanced_configuration(options)
+
+        save_options(options)
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)
