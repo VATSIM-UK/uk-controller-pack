@@ -5,6 +5,7 @@
 4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
 5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
 6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
+7. AIRAC - Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequency Updated - thanks to @MrAdder (Daniel Green)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
