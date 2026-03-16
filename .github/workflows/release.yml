@@ -86,7 +86,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🏷️ Determine Latest and Previous Release Tags
+      - name: 🏷️ Determine Tags for Latest and Last Release of Interest
         id: tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -98,8 +98,31 @@ jobs:
             echo "❌ Not enough releases found."
             exit 1
           fi
-          echo "latest_tag=${tags[0]}" >> $GITHUB_OUTPUT
-          echo "previous_tag=${tags[1]}" >> $GITHUB_OUTPUT
+
+          latest_tag="${tags[0]}"
+
+          if [[ "$latest_tag" =~ ^[0-9]{4}_[0-9]{2} ]]; then
+            latest_major_tag="${BASH_REMATCH[0]}"
+            # Find latest release of previous major cycle
+            for candidate in "${tags[@]:1}"; do
+              if [[ "$candidate" =~ ^[0-9]{4}_[0-9]{2} && "${BASH_REMATCH[0]}" < "$latest_major_tag" ]]; then
+                from_tag="$candidate"
+                break
+              fi
+            done
+
+            if [ -z "$from_tag" ]; then
+              echo "❌ Could not find an acceptable previous tag for release '$latest_tag'."
+              exit 1
+            fi
+          else
+            echo "❌ Latest tag '$latest_tag' does not match expected AIRAC formats (YYYY_MM...)."
+            exit 1
+          fi
+
+          echo "latest_tag=$latest_tag" >> $GITHUB_OUTPUT
+          echo "previous_tag=$from_tag" >> $GITHUB_OUTPUT
+          echo "Using changes-only range: $from_tag -> $latest_tag"
 
       - name: 🧐 Analyze Changes Between Releases
         id: analyze
