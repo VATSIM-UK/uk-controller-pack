@@ -1,7 +1,7 @@
 ========================================================
 Alias:          Heathrow
 Created:     	2016-03-31
-Last Updated:	2025-04-04
+Last Updated:	2026-02-27
 ========================================================
 
 ========================================================
@@ -31,7 +31,7 @@ Supervisor Calls
 .wb8 .wallop $aircraft is not able to comply with basic instructions such as flying headings, speeds and levels.
 .wmic .wallop $aircraft has a stuck mic and is not responding to messages.
 .wmayday .wallop $aircraft has called a MAYDAY but is refusing to resume normal flight or disconnect as I am not providing service to MAYDAYs at the moment.
-.wpaused .wallop $aircraft has pasued in my airspace which has added complexity and is conflicting with other traffic.
+.wpaused .wallop $aircraft has paused in my airspace which has added complexity and is conflicting with other traffic.
 
 ========================================================
 Generic
@@ -43,10 +43,9 @@ Generic
 .scenery Are you able to confirm which scenery for London Heathrow you are using?
 
 .nfp I have not yet received a flight plan from you - please file one now and then I can issue your clearance
-.ifp27 Your flight plan is invalid. Please refile using one of the Heathrow westerly SIDs (BPK, CPT, DET, MID, SAM, WOBUN)
-.ifp09 Your flight plan is invalid. Please refile using one of the Heathrow easterly SIDs (BPK, CPT, DET, MID, SAM, BUZAD)
+.ifp27 Your flight plan is invalid. Please refile using one of the Heathrow westerly SIDs (BPK, CPT, DET, MAXIT, GOGSI, UMLAT)
+.ifp09 Your flight plan is invalid. Please refile using one of the Heathrow easterly SIDs (BPK, CPT, DET, MODMI, GASGU, ULTIB)
 .fl Your flight level needs to be $1, would you like me to change it to FL$2 or FL$3?
-.dvr The Dover (DVR) SID is no longer used at Heathrow. Please change your route to DET DCT DVR and you will use a Detling (DET) departure
 
 .sq Squawk $squawk
 .sqwk Squawk $squawk
@@ -75,8 +74,10 @@ Generic
 
 .qnh QNH $altim($arr).
 
+.stand In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk before ToD
+
 ========================================================
-!!! CROSS THE POND !!
+Planner/CDM
 ========================================================
 
 .pdce .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $squawk. INITIAL CLIMB 6000FT. NEXT FREQ 124.480. CONTACT HEATHROW PLANNING -NOW- ON 124.480 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD. 
@@ -85,8 +86,8 @@ Generic
 .pdcecpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON 2 DME TURN RIGHT HDG 220 - CLIMB 6000FT. NEXT FREQ 124.480. CONTACT HEATHROW PLANNING -NOW- ON 124.480 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD.
 .pdcnecpt .msg $aircraft $dep PDC - $time - $aircraft CLRD TO $arr OFF 09R VIA CPT SQUAWK $squawk. AFTER DEP CLIMB STRAIGHT AHEAD - AT LON 2 DME TURN RIGHT HDG 220 - CLIMB 6000FT. NEXT FREQ 124.480. CONTACT HEATHROW PLANNING WHEN READY FOR PUSHBACK ON 124.480 AND REPORT ACFT TYPE AND STAND NUMBER. PDC READBACK NOT RQRD.
 
-.tobt Submit your TOBT (TARGET OFF BLOCK TIME) at vats.im/vdgs
-.tsat YOUR TTOT/CTOT (TARGET TAKEOFF / TAKEOFF SLOT) IS $1Z, EXPECT START AT TIME $2Z.
+.tsat YOUR TTOT/CTOT (TARGET TAKEOFF / TAKEOFF SLOT) IS $1Z, EXPECT START AT TIME $2 - visit vats.im/vdgs for updates - please do not call me for this information.
+.tobt Submit your TOBT (TARGET OFF BLOCK TIME) at vats.im/vdgs - here you can also see your planned pushback and takeoff time.
 
 ========================================================
 Departure Clearance
@@ -104,6 +105,8 @@ Departure Clearance
 
 .llcpt You are cleared to $arr via CPT, then flight planned route. After departure Runway 09R climb straight ahead to LON 2DME, then turn right heading 220 degrees. Climb to altitude 6000ft. Heathrow QNH $altim(egll)hPa. Squawk $squawk
 
+.09dvr DET UL6 DVR then as filed
+.27dvr DET UL6 DVR then as filed
 .09sam GASGU N866 SAM then as filed
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
@@ -111,6 +114,7 @@ Departure Clearance
 .09mid MODMI M185 MID then as filed
 .27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
+.09buzad ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
 .rc Readback correct
@@ -289,6 +293,16 @@ Hold and FIS
 .ds Deconfliction service
 .ctecas Cleared to enter controlled airspace, $1
 .ctlcasvd Cleared to leave controlled airspace by descent
+
+========================================================
+CTP
+========================================================
+
+.ctpe THANK YOU FOR CHOOSING TO FLY FROM THE UK! PLEASE NOTE THAT YOUR BOOKED SLOT TIME IS A TAKE OFF TIME. YOU MUST REPORT READY AT LEAST 20 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. PLEASE DO NOT CONTACT GROUND UNTIL INSTRUCTED TO DO SO
+.ctpne YOUR REQUEST HAS BEEN SENT TO THE EUROPEAN FLOW COORDINATOR. WE WILL UPDATE YOU WHEN A RESPONSE IS RECEIVED
+.ctpne2 YOU MUST REPORT READY AT LEAST $1 MINUTES PRIOR TO YOUR BOOKED SLOT TO ENSURE YOU ARE AIRBORNE ON TIME. IF YOU ARE LIKELY TO MISS YOUR SLOT BY MORE THAN -10 MINS, PLEASE REPLY TO THIS MESSAGE
+.ctpne1 YOUR RELEASE HAS BEEN RETURNED. ROUTE: $1. TRACK ID: $2 (TMI $3). EXPECT FL: $4. TAKE OFF TIME (UTC): $5
+
 
 ========================================================
 Auto-alias
