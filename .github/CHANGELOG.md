@@ -4,6 +4,7 @@
 3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
 4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
 5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
+6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
