@@ -1,5 +1,9 @@
-# Changes from release 2026/02 to 2026/03
-1. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
+# Changes from release 2026/02a to 2026/03
+1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
+
+# Changes from release 2026/02 to 2026/02a
+1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
 
 # Changes from release 2026/01 to 2026/02
 1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)

@@ -53,6 +53,7 @@ REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
 
 LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
+LOCAL_PACK_VERSION_FILE = os.path.join("Data", "Sector", "pack_version.txt")
 
 # Remote reference for latest updater build ID (short hash)
 UPDATER_VERSION_URL = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
@@ -302,7 +303,50 @@ class UpdaterApp:
             "tag": data["tag_name"],
             "published_at": data["published_at"],
             "zipball_url": data["zipball_url"],
+            "release_sha": self.get_release_sha(data["tag_name"]),
         }
+
+    def get_release_sha(self, tag_name: str) -> str:
+        ref_url = (
+            f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/ref/tags/{tag_name}"
+        )
+        response = self.session.get(ref_url, timeout=(5, 30))
+        response.raise_for_status()
+        ref_data = response.json()
+
+        obj = ref_data.get("object", {})
+        obj_type = obj.get("type")
+        obj_sha = (obj.get("sha") or "").strip()
+
+        if obj_type == "commit":
+            return obj_sha
+
+        if obj_type == "tag" and obj_sha:
+            tag_url = (
+                f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/tags/{obj_sha}"
+            )
+            tag_response = self.session.get(tag_url, timeout=(5, 30))
+            tag_response.raise_for_status()
+            tag_data = tag_response.json()
+            commit_sha = (tag_data.get("object", {}).get("sha") or "").strip()
+            if commit_sha:
+                return commit_sha
+
+        raise RuntimeError(f"Unable to resolve release SHA for tag {tag_name}")
+
+    def get_local_pack_version(self) -> str:
+        try:
+            path = os.path.join(self.base_dir, LOCAL_PACK_VERSION_FILE)
+            with open(path, "r", encoding="utf-8") as f:
+                return f.read().strip()
+        except FileNotFoundError:
+            return ""
+
+    def set_local_pack_version(self, sha: str) -> None:
+        path = os.path.join(self.base_dir, LOCAL_PACK_VERSION_FILE)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.write((sha or "").strip())
 
     @staticmethod
     def format_date(iso_date_str: str) -> str:
@@ -453,6 +497,7 @@ class UpdaterApp:
     def update_if_needed(self) -> None:
         self.log("Checking for updates...")
         local_ver = self.get_local_version()
+        local_pack_sha = self.get_local_pack_version()
 
         try:
             latest = self.get_latest_version()
@@ -467,10 +512,16 @@ class UpdaterApp:
 
         latest_ver = latest["tag"]
         release_date = self.format_date(latest["published_at"])
+        release_sha = (latest.get("release_sha") or "").strip()
 
         self.log(
             f"Checking local files against {REPO_OWNER}/{REPO_NAME} {latest_ver} "
             f"(local version marker: {local_ver})"
+        )
+        self.log(
+            "Pack version SHA "
+            f"(local): {local_pack_sha or '<missing>'} | "
+            f"(release): {release_sha or '<unknown>'}"
         )
 
         release_uk_dir = None
@@ -490,6 +541,9 @@ class UpdaterApp:
                 )
                 if normalize_version(latest_ver) > normalize_version(local_ver):
                     self.set_local_version(latest_ver)
+                if release_sha and local_pack_sha != release_sha:
+                    self.set_local_pack_version(release_sha)
+                    self.log("Updated local pack_version.txt SHA marker.")
                 return
 
             for file in updated_files:
@@ -506,6 +560,8 @@ class UpdaterApp:
                 self.delete_file(file)
 
             self.set_local_version(latest_ver)
+            if release_sha:
+                self.set_local_pack_version(release_sha)
             self.log(
                 f"\nUpdate complete: now on {REPO_OWNER}/{REPO_NAME} version "
                 f"{latest_ver} (released {release_date})"

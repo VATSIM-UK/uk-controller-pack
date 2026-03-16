@@ -45,7 +45,7 @@ grouping = "None"
 [stations.profiles.UK_ALL.aliases]
 
 
-[stations.profiles.!South_LAG]
+[stations.profiles."!South_LAG"]
 include = [    
     "EGLL_*",
     "EGKK_*",
@@ -105,7 +105,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!South_LAG.aliases]
+[stations.profiles."!South_LAG".aliases]
 
 # AC
 "127.430" = "AC BBX"
@@ -212,7 +212,7 @@ grouping = "None"
 "126.980" = "BRU LOW"
 
 
-[stations.profiles.!Central_LAG]
+[stations.profiles."!Central_LAG"]
 include = [
     "EGSS_*",
     "EGGW_*",
@@ -265,7 +265,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!Central_LAG.aliases]
+[stations.profiles."!Central_LAG".aliases]
 
 # AC
 "127.430" = "AC BBX"
@@ -349,7 +349,7 @@ grouping = "None"
 "125.750" = "AMS LOW"
 
 
-[stations.profiles.!North_LAG]
+[stations.profiles."!North_LAG"]
 include = [
     "EGCC_*",
     "EGGP_*",
@@ -407,7 +407,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!North_LAG.aliases]
+[stations.profiles."!North_LAG".aliases]
 
 # AC
 "133.705" = "AC NTH"
@@ -521,7 +521,7 @@ grouping = "None"
 "134.260" = "EISN LIFFY UP"
 
 
-[stations.profiles.!West_LAG]
+[stations.profiles."!West_LAG"]
 include = [
     "EGHE_*",
     "EGHC_*",
@@ -589,7 +589,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!West_LAG.aliases]
+[stations.profiles."!West_LAG".aliases]
 
 # AC
 "127.430" = "AC BBX"
@@ -680,7 +680,7 @@ grouping = "None"
 "125.205" = "JJ ORTAC"
 
 
-[stations.profiles.!Scottish]
+[stations.profiles."!Scottish"]
 include = [
     "EGAA_*",
     "EGAC_*",
@@ -759,7 +759,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!Scottish.aliases]
+[stations.profiles."!Scottish".aliases]
 
 # ScAC
 "135.530" = "ScAC BBX"
@@ -882,7 +882,7 @@ grouping = "None"
 "128.600" = "BIRD S3"
 
 
-[stations.profiles.!Swanwick_Military]
+[stations.profiles."!Swanwick_Military"]
 include = [
     "EGDR_*",
     "EGDO_*",
@@ -934,7 +934,7 @@ priority = [
 frequencies = "HideAliased"
 grouping = "None"
 
-[stations.profiles.!Swanwick_Military.aliases]
+[stations.profiles."!Swanwick_Military".aliases]
 
 
 [stations.profiles.EGKK]
