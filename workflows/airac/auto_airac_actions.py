@@ -57,57 +57,6 @@ class CurrentInstallation:
         self.remote_repo_owner = "VATSIM-UK"
         self.remote_repo_name = "UK-Sector-File"
 
-    def gng_data_update(self) -> None:
-        try:
-            webpage = requests.get("https://files.aero-nav.com/EGXX", timeout=30)
-        except requests.exceptions.ReadTimeout as error:
-            logger.warning(f"Unable to update to GNG data due to the following error: {error}")
-            return True
-
-        if webpage.status_code == 200:
-            list_zip_files = re.findall(
-                r"https\:\/\/files\.aero-nav\.com\/EGTT\/UK\-Datafiles\_[\d]{14}\-[\d]{6}\-[\d]{1,2}\.zip",
-                str(webpage.content)
-            )
-        else:
-            raise requests.HTTPError(f"URL not found - {webpage.url}")
-
-        logger.debug(f"Full list of found zip file urls: {list_zip_files}")
-        zip_file = list_zip_files[-1]
-        logger.info(f"Selected zip file url is {zip_file}")
-
-        headers = {
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "*/*",
-            "Referer": "https://files.aero-nav.com/EGXX",
-            "Connection": "close"
-        }
-        response = requests.get(zip_file, headers=headers, timeout=30)
-        logger.debug(f"Response Status = {response.status_code}")
-        if response.status_code == 200:
-            with open("navdata.zip", "wb") as file:
-                file.write(response.content)
-        else:
-            raise requests.HTTPError(f"URL not found - {response.url}")
-
-        with ZipFile("navdata.zip", "r") as zip_ref:
-            zip_ref.extractall("import/")
-        os.remove("navdata.zip")
-
-        list_of_files = [
-            "ICAO/ICAO_Aircraft.txt",
-            "ICAO/ICAO_Airlines.txt",
-            "ICAO/ICAO_Airports.txt",
-            "NavData/airway.txt",
-            "NavData/icao.txt",
-            "NavData/isec.txt"
-        ]
-        for file in list_of_files:
-            shutil.copy(f"import/EGTT/{file}", f"UK/Data/Datafiles/{file.split('/', 1)[-1]}")
-            if "ICAO_Airlines" in file:
-                shutil.copy(f"import/EGTT/{file}", f"UK/Data/Plugin/vSMR/{file.split('/', 1)[-1]}")
-        shutil.rmtree("import/")
-
     def apply_settings(self) -> bool:
         def iter_files(ext: str, file_mode: str):
             def decorator_func(func):
@@ -219,4 +168,3 @@ class CurrentInstallation:
 
 run = CurrentInstallation()
 run.apply_settings()
-run.gng_data_update()

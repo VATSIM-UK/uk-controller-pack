@@ -26,7 +26,6 @@ Shortcut_Map_Target=4,Shortcuts\All Centrelines
 //System wide settings
 Setup_COOPANS=1
 Airspace_ASSR_Type=0
-Areas_NOTAM_Activation=1
 Areas_Label_Font=Arial
 Areas_Label_FontSize=9
 Areas_PreActiveTime=1800
@@ -199,8 +198,12 @@ APW_Buffer_Lat_L_VFR=0
 
 //eAUP API URL (danger area activation)
 HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
-System_UseAUP=1
+System_UseAUP=0
 Window_ASM=1
+
+//V-LARA Area Activation
+Areas_Remote_Activation=1
+HTTP_Areas_Remote_URL=https://lara-backend.lusep.fi/topsky/egxx.txt
 
 //Radio Direction Finder Settings
 RDF_Mode=-1
@@ -633,6 +636,21 @@ Color_Active_Text_Map=198,115,113
 Color_Active_Map_Type_2=185,214,219
 //Freetext
 Color_Active_Map_Type_3=255,255,255
+//STARs (RMA Lines)
+Color_Active_Map_Type_4=143,143,143
+//Centrelines
+Color_Active_Map_Type_5=255,255,255
+
+[EGPE_]
+Setup_ScreenLat=EGPE
+//Colour settings
+//Danger area (red)
+Color_Active_Map_Type_1=210,0,0
+Color_Active_Text_Map=210,0,0
+//ARTCC High (Grey on NERC)
+Color_Active_Map_Type_2=192,192,192
+//Freetext
+Color_Active_Map_Type_3=192,192,192
 //STARs (RMA Lines)
 Color_Active_Map_Type_4=143,143,143
 //Centrelines

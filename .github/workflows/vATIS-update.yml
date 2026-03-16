@@ -1,9 +1,9 @@
-# Updates IDs of profiles
+﻿# Updates IDs of profiles
 #
 # Triggered by:
 # push to main (by a non bot)
 
-name: Update vATIS Serial
+name: 🌦️ Update vATIS Serial
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: TopSky Shared Data File Compilation
+﻿name: 🛰️ TopSky Shared Data File Compilation
 
 on:
   push:

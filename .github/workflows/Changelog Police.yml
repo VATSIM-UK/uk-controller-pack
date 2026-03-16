@@ -1,4 +1,4 @@
-name: Check Changelog has been updated
+﻿name: 📝 Check Changelog has been updated
 
 on:
   pull_request:

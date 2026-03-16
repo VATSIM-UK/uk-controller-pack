@@ -24,7 +24,7 @@ Runways:centerline:12080205:3.5:0:0:7
 Runways:extended centerline:8421504:3.5:0:0:7
 Runways:name:8421504:3.5:0:0:7
 Datablock:non concerned:16777215:3.2:0:0:7
-Datablock:notified:16777215:4.0:0:4:7
+Datablock:notified:16777215:4.0:0:0:7
 Datablock:assumed:4631635:3.2:0:0:7
 Datablock:transfer to me initiated:5483007:3.2:0:0:7
 Datablock:redundant:16777215:3.2:0:0:7

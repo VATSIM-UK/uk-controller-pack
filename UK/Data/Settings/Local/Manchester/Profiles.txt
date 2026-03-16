@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:EGCC_DEL:10:2
-ATIS2:Manchester Delivery
-ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
+ATIS2:Manchester Delivery | PDC [EGCC]
+ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET | Report your TOBT at vats.im/vdgs
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGCC_GND:20:3
-ATIS2:Manchester Ground
+ATIS2:Manchester Ground | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGCC_S_TWR:50:4
-ATIS2:Manchester Tower
+ATIS2:Manchester Tower | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGCC_N_TWR:50:4
-ATIS2:Manchester Tower
+ATIS2:Manchester Tower | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGCC_S_APP:100:5

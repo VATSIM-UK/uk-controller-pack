@@ -12,31 +12,31 @@ ATIS2:Heathrow Director
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_S_TWR:30:4
-ATIS2:Heathrow Tower
+ATIS2:Heathrow Tower | PDC [EGLL]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_N_TWR:30:4
-ATIS2:Heathrow Tower
+ATIS2:Heathrow Tower | PDC [EGLL]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_2_GND:20:3
-ATIS2:Heathrow Ground
+ATIS2:Heathrow Ground | PDC [EGLL]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_3_GND:20:3
-ATIS2:Heathrow Ground
+ATIS2:Heathrow Ground | PDC [EGLL]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_1_GND:20:3
-ATIS2:Heathrow Ground
+ATIS2:Heathrow Ground | PDC [EGLL]
 ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_P_GND:20:2
-ATIS2:Heathrow Planner
-ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
+ATIS2:Heathrow Planner | PDC [EGLL]
+ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET | Report your TOBT at vats.im/vdgs
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_DEL:20:2
 ATIS2:Heathrow Delivery | PDC [EGLL]
-ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
+ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET | Report your TOBT at vats.im/vdgs
 ATIS4:Submit feedback at vats.im/atcfb
 END

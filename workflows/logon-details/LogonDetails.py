@@ -1,13 +1,15 @@
 import os
+import re
+from pathlib import Path
 import sys
 import json
 import time
 import winreg
-import keyboard
 import tkinter as tk
 from tkinter import simpledialog, messagebox, ttk
 import tkinter.simpledialog as simpledialog 
 from PIL import Image, ImageTk
+from ctypes import windll, c_uint
 
 _original_init = simpledialog.Dialog.__init__
 
@@ -108,11 +110,11 @@ DEFAULT_FIELDS = {
     "realistic_conversion": "n",
     "coast_choice": "1",
     "land_choice": "1",
-    "vccs_ptt_scan_code": ""
+    "discord_presence": "n"
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "vccs_ptt_scan_code"]
-ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence"]
+ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "asel_key"]
 
 def load_previous_options():
     if os.path.exists(OPTIONS_PATH):
@@ -210,51 +212,32 @@ def ask_yesno(prompt, title="UK Controller Pack Configurator"):
 
     return result
 
-def ask_scan_code_key(prompt):
+def ask_scan_code_key(prompt, title="Press a Key"):
     result = None
 
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
-    dialog.title("Press a Key for VCCS PTT")
+    dialog.title(title)
     ttk.Label(dialog, text=prompt).pack(padx=20, pady=15)
 
-    def on_focus_in(event=None):
-        dialog.after(100, capture_key)
-
-    def capture_key():
+    def capture_key_press(event):
         nonlocal result
-        try:
-            while True:
-                event = keyboard.read_event()
-                if event.event_type == keyboard.KEY_DOWN:
-                    name = event.name
-                    scan_code = event.scan_code
+        scan_code = windll.User32.MapVirtualKeyA(c_uint(event.keycode), c_uint(0))
 
-                    # Manual scan code overrides for modifier keys
-                    overrides = {
-                        "left shift": 42,
-                        "right shift": 54,
-                        "left ctrl": 29,
-                        "right ctrl": 29,
-                        "left alt": 56,
-                        "right alt": 56
-                    }
+        # Only set ASEL if the scan code mapping succeeded - if it fails (returns 0) it's likely due to an emulation issue on non-Windows.
+        # TODO: Some way to notify the user that their customisation failed and they've retained the default bind?
+        if scan_code != 0:
+            result = str(scan_code << 16)
 
-                    if name in overrides:
-                        scan_code = overrides[name]
-
-                    result = str(int(hex(scan_code), 16) << 16)
-                    dialog.destroy()
-                    break
-        except Exception as e:
-            messagebox.showerror("Error", f"Failed to read key: {e}")
-            dialog.destroy()
-
-    def cancel(event=None):
         dialog.destroy()
 
+    def cancel(_=None):
+        dialog.destroy()
+
+    ttk.Button(dialog, text="Skip", command=cancel).pack(pady=10)
+
     dialog.bind("<Escape>", cancel)
-    dialog.bind("<FocusIn>", on_focus_in)
+    dialog.bind("<KeyPress>", capture_key_press)
     dialog.transient()
     dialog.grab_set()
     dialog.attributes("-topmost", True)
@@ -405,9 +388,11 @@ def prompt_for_field(key, current):
                 "3": "Light Grey"
             }
         )
-
-    elif key == "vccs_ptt_scan_code":
-        return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
+    
+    elif key == "discord_presence":
+        return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
+    elif key == "asel_key":
+        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -420,7 +405,7 @@ def prompt_for_field(key, current):
                 continue
             return response
 
-def collect_user_input():
+def collect_basic_config():
     root = tk.Tk()
     root.title("UK Controller Pack Configurator")
     root.iconbitmap(resource_path("logo.ico"))
@@ -443,11 +428,10 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-    save_options(options)
     return options
 
 
-def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
+def patch_prf_file(file_path, name, initials, cid, rating, password):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -456,8 +440,6 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
         return
 
     lines = [l for l in lines if not (
-        l.startswith("TeamSpeakVccs\tTs3NickName") or
-        l.startswith("TeamSpeakVccs\tTs3G2GPtt") or
         l.startswith("LastSession\trealname") or
         l.startswith("LastSession\tcertificate") or
         l.startswith("LastSession\trating") or
@@ -466,8 +448,6 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
     )]
 
     new_lines = [
-        f"TeamSpeakVccs\tTs3NickName\t{cid}\n",
-        f"TeamSpeakVccs\tTs3G2GPtt\t{vccs_ptt}\n",
         f"LastSession\trealname\t{name}\n",
         f"LastSession\tcertificate\t{cid}\n",
         f"LastSession\trating\t{rating}\n",
@@ -482,6 +462,98 @@ def patch_prf_file(file_path, name, initials, cid, rating, password, vccs_ptt):
             f.writelines(lines)
     except Exception as e:
         print(f"Failed to write to {file_path}: {e}")
+
+def patch_prf_file_with_asel(file_path, asel_key):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
+
+    lines = [l for l in lines if not l.startswith("Settings\tAselKey")]
+
+    new_lines = [
+        f"Settings\tAselKey\t{asel_key}\n"
+    ]
+
+    lines += ["\n"] + new_lines
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+    except Exception as e:
+        print(f"Failed to write to {file_path}: {e}")
+
+
+def _resolve_discord_relpath(file_path: str) -> str:
+    prf_dir = Path(file_path).parent
+
+    for root in [prf_dir] + list(prf_dir.parents):
+        plugin_dir = root / "Data" / "Plugin"
+
+        if plugin_dir.exists():
+            dll_abs = plugin_dir / "DiscordEuroscope.dll"
+            rel = os.path.relpath(dll_abs, start=prf_dir).replace("/", "\\")
+
+            if not rel.startswith("\\"):
+                rel = "\\" + rel
+
+            return rel
+
+    return r"\..\Data\Plugin\DiscordEuroscope.dll"  # fallback
+
+
+def patch_discord_plugin(file_path: str, state: str = "present"):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            raw = f.read()
+    except Exception as e:
+        print(f"Failed to read {file_path}: {e}")
+        return
+
+    text = raw.replace("\r\n", "\n").replace("\r", "\n")
+    lines = text.split("\n")
+
+    if state == "absent":
+        new_lines = [l for l in lines if "DiscordEuroscope.dll" not in l]
+        if new_lines != lines:
+            with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+                f.write("\n".join(new_lines).rstrip("\n") + "\n")
+        return
+
+    if any("DiscordEuroscope.dll" in l for l in lines):
+        return
+
+    plugin_rx = re.compile(r"^Plugins\tPlugin(\d+)\t")
+    last_idx = -1
+    max_num = 0
+    for i, line in enumerate(lines):
+        m = plugin_rx.match(line)
+        if m:
+            last_idx = i
+            try:
+                max_num = max(max_num, int(m.group(1)))
+            except ValueError:
+                pass
+
+    next_num = max_num + 1 if max_num else 1
+    dll_rel = _resolve_discord_relpath(file_path)
+    new_line = f"Plugins\tPlugin{next_num}\t{dll_rel}"
+
+    if last_idx >= 0:
+        insert_at = last_idx + 1
+        lines.insert(insert_at, new_line)
+    else:
+        if lines and lines[-1] != "":
+            lines.append("")
+        lines.append(new_line)
+
+    try:
+        with open(file_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines).rstrip("\n") + "\n")
+    except Exception as e:
+        print(f"Failed to write {file_path}: {e}")
 
 
 def patch_plugins_file(file_path, cpdlc):
@@ -517,12 +589,16 @@ def patch_profiles_file(file_path, cid):
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
-def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, vccs_ptt):
+def apply_basic_configuration(name, initials, cid, rating, password, cpdlc, discord_presence):
     for root, _, files in os.walk(os.getcwd()):
         for file in files:
             path = os.path.join(root, file)
             if file.endswith(".prf"):
-                patch_prf_file(path, name, initials, cid, rating, password, vccs_ptt)
+                patch_prf_file(path, name, initials, cid, rating, password)
+                if discord_presence == "y":
+                    patch_discord_plugin(path, state="present")
+                else:
+                    patch_discord_plugin(path, state="absent")
             elif file.endswith("Plugins.txt"):
                 patch_plugins_file(path, cpdlc)
             elif file.endswith(".ese") and file.startswith("UK"):
@@ -610,6 +686,10 @@ def apply_advanced_configuration(options):
                     with open(path, "w", encoding="utf-8") as f:
                         f.writelines(new_lines)
 
+            # --- Handle ASEL key (.prf files) ---
+            if file.endswith(".prf"):
+                patch_prf_file_with_asel(path, options["asel_key"])
+
 
 def main():
     if not tk._default_root:
@@ -639,7 +719,7 @@ def main():
         f.write(str(os.getpid()))
 
     try:
-        options = collect_user_input()
+        options = collect_basic_config()
         apply_basic_configuration(
             name=options["name"],
             initials=options["initials"],
@@ -647,13 +727,29 @@ def main():
             rating=options["rating"],
             password=options["password"],
             cpdlc=options["cpdlc"],
-            vccs_ptt=options.get("vccs_ptt_scan_code", "")
+            discord_presence=options.get("discord_presence", "n")
         )
 
-        if ask_yesno("Would you like to configure advanced options?"):
-            for key in ADVANCED_FIELDS:
-                options[key] = prompt_for_field(key, options.get(key, ""))
-            apply_advanced_configuration(options)
+        if ("advanced_config" in options and options["advanced_config"]):
+            if ask_yesno("Do you want to load your previous advanced options?"):
+                for key in ADVANCED_FIELDS:
+                    if key not in options:
+                        options[key] = prompt_for_field(key, "")
+                apply_advanced_configuration(options)
+            else:
+                if ask_yesno("Would you like to reconfigure advanced options?"):
+                    options["advanced_config"] = True
+                    for key in ADVANCED_FIELDS:
+                        options[key] = prompt_for_field(key, options.get(key, ""))
+                    apply_advanced_configuration(options)
+        else:
+            if ask_yesno("Would you like to configure advanced options?"):
+                options["advanced_config"] = True
+                for key in ADVANCED_FIELDS:
+                    options[key] = prompt_for_field(key, options.get(key, ""))
+                apply_advanced_configuration(options)
+
+        save_options(options)
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)

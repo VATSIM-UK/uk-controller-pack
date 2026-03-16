@@ -1,0 +1,1309 @@
+DisplayTypeName:SMR radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+Free Text:SCT2\ L :freetext
+Free Text:SCT2\ R :freetext
+Free Text:SCT2\06L:freetext
+Free Text:SCT2\06R:freetext
+Free Text:SCT2\07:freetext
+Free Text:SCT2\07W:freetext
+Free Text:SCT2\1:freetext
+Free Text:SCT2\10:freetext
+Free Text:SCT2\10 :freetext
+Free Text:SCT2\100:freetext
+Free Text:SCT2\101:freetext
+Free Text:SCT2\102:freetext
+Free Text:SCT2\102R:freetext
+Free Text:SCT2\103:freetext
+Free Text:SCT2\103R:freetext
+Free Text:SCT2\104:freetext
+Free Text:SCT2\105:freetext
+Free Text:SCT2\105L:freetext
+Free Text:SCT2\106:freetext
+Free Text:SCT2\107:freetext
+Free Text:SCT2\108:freetext
+Free Text:SCT2\109:freetext
+Free Text:SCT2\10A:freetext
+Free Text:SCT2\10L:freetext
+Free Text:SCT2\11:freetext
+Free Text:SCT2\110:freetext
+Free Text:SCT2\111:freetext
+Free Text:SCT2\112:freetext
+Free Text:SCT2\113:freetext
+Free Text:SCT2\114:freetext
+Free Text:SCT2\116:freetext
+Free Text:SCT2\11A:freetext
+Free Text:SCT2\12:freetext
+Free Text:SCT2\120:freetext
+Free Text:SCT2\121:freetext
+Free Text:SCT2\122:freetext
+Free Text:SCT2\123:freetext
+Free Text:SCT2\124:freetext
+Free Text:SCT2\124R:freetext
+Free Text:SCT2\125:freetext
+Free Text:SCT2\13:freetext
+Free Text:SCT2\130:freetext
+Free Text:SCT2\131:freetext
+Free Text:SCT2\132:freetext
+Free Text:SCT2\133:freetext
+Free Text:SCT2\134:freetext
+Free Text:SCT2\135:freetext
+Free Text:SCT2\136:freetext
+Free Text:SCT2\14:freetext
+Free Text:SCT2\140:freetext
+Free Text:SCT2\141:freetext
+Free Text:SCT2\142:freetext
+Free Text:SCT2\143:freetext
+Free Text:SCT2\144:freetext
+Free Text:SCT2\145:freetext
+Free Text:SCT2\15:freetext
+Free Text:SCT2\150:freetext
+Free Text:SCT2\151:freetext
+Free Text:SCT2\152:freetext
+Free Text:SCT2\153:freetext
+Free Text:SCT2\154:freetext
+Free Text:SCT2\158:freetext
+Free Text:SCT2\159:freetext
+Free Text:SCT2\16:freetext
+Free Text:SCT2\160:freetext
+Free Text:SCT2\161:freetext
+Free Text:SCT2\16A:freetext
+Free Text:SCT2\16L:freetext
+Free Text:SCT2\16R:freetext
+Free Text:SCT2\17:freetext
+Free Text:SCT2\170:freetext
+Free Text:SCT2\171:freetext
+Free Text:SCT2\172:freetext
+Free Text:SCT2\173:freetext
+Free Text:SCT2\174:freetext
+Free Text:SCT2\175:freetext
+Free Text:SCT2\176:freetext
+Free Text:SCT2\177:freetext
+Free Text:SCT2\178:freetext
+Free Text:SCT2\17A:freetext
+Free Text:SCT2\18:freetext
+Free Text:SCT2\180:freetext
+Free Text:SCT2\18L:freetext
+Free Text:SCT2\18R:freetext
+Free Text:SCT2\19:freetext
+Free Text:SCT2\1A:freetext
+Free Text:SCT2\1B:freetext
+Free Text:SCT2\1C:freetext
+Free Text:SCT2\1D:freetext
+Free Text:SCT2\1E:freetext
+Free Text:SCT2\1F:freetext
+Free Text:SCT2\1H:freetext
+Free Text:SCT2\1L:freetext
+Free Text:SCT2\1R:freetext
+Free Text:SCT2\2:freetext
+Free Text:SCT2\20:freetext
+Free Text:SCT2\200:freetext
+Free Text:SCT2\201:freetext
+Free Text:SCT2\201L:freetext
+Free Text:SCT2\201R:freetext
+Free Text:SCT2\202:freetext
+Free Text:SCT2\202L:freetext
+Free Text:SCT2\202R:freetext
+Free Text:SCT2\203:freetext
+Free Text:SCT2\203R:freetext
+Free Text:SCT2\204:freetext
+Free Text:SCT2\205:freetext
+Free Text:SCT2\206:freetext
+Free Text:SCT2\207:freetext
+Free Text:SCT2\208:freetext
+Free Text:SCT2\209:freetext
+Free Text:SCT2\20A:freetext
+Free Text:SCT2\20B:freetext
+Free Text:SCT2\21:freetext
+Free Text:SCT2\210:freetext
+Free Text:SCT2\211:freetext
+Free Text:SCT2\212:freetext
+Free Text:SCT2\213:freetext
+Free Text:SCT2\214:freetext
+Free Text:SCT2\215:freetext
+Free Text:SCT2\216:freetext
+Free Text:SCT2\217:freetext
+Free Text:SCT2\218:freetext
+Free Text:SCT2\219:freetext
+Free Text:SCT2\21A:freetext
+Free Text:SCT2\21B:freetext
+Free Text:SCT2\21C:freetext
+Free Text:SCT2\21E:freetext
+Free Text:SCT2\21R:freetext
+Free Text:SCT2\21W:freetext
+Free Text:SCT2\22:freetext
+Free Text:SCT2\220:freetext
+Free Text:SCT2\221:freetext
+Free Text:SCT2\223:freetext
+Free Text:SCT2\224:freetext
+Free Text:SCT2\225:freetext
+Free Text:SCT2\226:freetext
+Free Text:SCT2\23:freetext
+Free Text:SCT2\230:freetext
+Free Text:SCT2\231:freetext
+Free Text:SCT2\232:freetext
+Free Text:SCT2\233:freetext
+Free Text:SCT2\234:freetext
+Free Text:SCT2\235:freetext
+Free Text:SCT2\236:freetext
+Free Text:SCT2\237:freetext
+Free Text:SCT2\238:freetext
+Free Text:SCT2\239:freetext
+Free Text:SCT2\23L:freetext
+Free Text:SCT2\23R:freetext
+Free Text:SCT2\24:freetext
+Free Text:SCT2\241:freetext
+Free Text:SCT2\242:freetext
+Free Text:SCT2\243:freetext
+Free Text:SCT2\244:freetext
+Free Text:SCT2\246:freetext
+Free Text:SCT2\247:freetext
+Free Text:SCT2\248:freetext
+Free Text:SCT2\249:freetext
+Free Text:SCT2\24L:freetext
+Free Text:SCT2\24R:freetext
+Free Text:SCT2\25:freetext
+Free Text:SCT2\251:freetext
+Free Text:SCT2\252:freetext
+Free Text:SCT2\253:freetext
+Free Text:SCT2\254:freetext
+Free Text:SCT2\255:freetext
+Free Text:SCT2\256:freetext
+Free Text:SCT2\257:freetext
+Free Text:SCT2\258:freetext
+Free Text:SCT2\25A:freetext
+Free Text:SCT2\25B:freetext
+Free Text:SCT2\25L:freetext
+Free Text:SCT2\25R:freetext
+Free Text:SCT2\26:freetext
+Free Text:SCT2\26L:freetext
+Free Text:SCT2\26R:freetext
+Free Text:SCT2\27:freetext
+Free Text:SCT2\27A:freetext
+Free Text:SCT2\28:freetext
+Free Text:SCT2\28E:freetext
+Free Text:SCT2\28W:freetext
+Free Text:SCT2\29:freetext
+Free Text:SCT2\2A:freetext
+Free Text:SCT2\2B:freetext
+Free Text:SCT2\2C:freetext
+Free Text:SCT2\2D:freetext
+Free Text:SCT2\2E:freetext
+Free Text:SCT2\2F:freetext
+Free Text:SCT2\2G:freetext
+Free Text:SCT2\2H:freetext
+Free Text:SCT2\2N:freetext
+Free Text:SCT2\2R:freetext
+Free Text:SCT2\2S:freetext
+Free Text:SCT2\3:freetext
+Free Text:SCT2\30:freetext
+Free Text:SCT2\301:freetext
+Free Text:SCT2\302:freetext
+Free Text:SCT2\303:freetext
+Free Text:SCT2\304:freetext
+Free Text:SCT2\305:freetext
+Free Text:SCT2\306:freetext
+Free Text:SCT2\307:freetext
+Free Text:SCT2\308:freetext
+Free Text:SCT2\309:freetext
+Free Text:SCT2\31:freetext
+Free Text:SCT2\310:freetext
+Free Text:SCT2\311:freetext
+Free Text:SCT2\312:freetext
+Free Text:SCT2\313:freetext
+Free Text:SCT2\314:freetext
+Free Text:SCT2\315:freetext
+Free Text:SCT2\316:freetext
+Free Text:SCT2\317:freetext
+Free Text:SCT2\317A:freetext
+Free Text:SCT2\318:freetext
+Free Text:SCT2\319:freetext
+Free Text:SCT2\31E:freetext
+Free Text:SCT2\31W:freetext
+Free Text:SCT2\32:freetext
+Free Text:SCT2\320:freetext
+Free Text:SCT2\321:freetext
+Free Text:SCT2\322:freetext
+Free Text:SCT2\323:freetext
+Free Text:SCT2\325:freetext
+Free Text:SCT2\326:freetext
+Free Text:SCT2\327:freetext
+Free Text:SCT2\328:freetext
+Free Text:SCT2\329:freetext
+Free Text:SCT2\32C/R:freetext
+Free Text:SCT2\32L:freetext
+Free Text:SCT2\33:freetext
+Free Text:SCT2\330:freetext
+Free Text:SCT2\331:freetext
+Free Text:SCT2\332:freetext
+Free Text:SCT2\334:freetext
+Free Text:SCT2\335:freetext
+Free Text:SCT2\336:freetext
+Free Text:SCT2\33E:freetext
+Free Text:SCT2\33W:freetext
+Free Text:SCT2\34:freetext
+Free Text:SCT2\340:freetext
+Free Text:SCT2\342:freetext
+Free Text:SCT2\35:freetext
+Free Text:SCT2\351:freetext
+Free Text:SCT2\353:freetext
+Free Text:SCT2\355:freetext
+Free Text:SCT2\357:freetext
+Free Text:SCT2\36:freetext
+Free Text:SCT2\363:freetext
+Free Text:SCT2\364:freetext
+Free Text:SCT2\365:freetext
+Free Text:SCT2\37:freetext
+Free Text:SCT2\38:freetext
+Free Text:SCT2\39:freetext
+Free Text:SCT2\3A:freetext
+Free Text:SCT2\3F:freetext
+Free Text:SCT2\3N:freetext
+Free Text:SCT2\3R:freetext
+Free Text:SCT2\3S:freetext
+Free Text:SCT2\4:freetext
+Free Text:SCT2\40:freetext
+Free Text:SCT2\40 Bubble:freetext
+Free Text:SCT2\401:freetext
+Free Text:SCT2\402:freetext
+Free Text:SCT2\403:freetext
+Free Text:SCT2\405:freetext
+Free Text:SCT2\406:freetext
+Free Text:SCT2\407:freetext
+Free Text:SCT2\408:freetext
+Free Text:SCT2\409:freetext
+Free Text:SCT2\41:freetext
+Free Text:SCT2\410:freetext
+Free Text:SCT2\411:freetext
+Free Text:SCT2\412:freetext
+Free Text:SCT2\414:freetext
+Free Text:SCT2\415:freetext
+Free Text:SCT2\416:freetext
+Free Text:SCT2\417:freetext
+Free Text:SCT2\419:freetext
+Free Text:SCT2\41C:freetext
+Free Text:SCT2\41L:freetext
+Free Text:SCT2\41R:freetext
+Free Text:SCT2\42:freetext
+Free Text:SCT2\420:freetext
+Free Text:SCT2\421:freetext
+Free Text:SCT2\422:freetext
+Free Text:SCT2\423:freetext
+Free Text:SCT2\424:freetext
+Free Text:SCT2\425:freetext
+Free Text:SCT2\429:freetext
+Free Text:SCT2\42C:freetext
+Free Text:SCT2\42L:freetext
+Free Text:SCT2\42R:freetext
+Free Text:SCT2\43:freetext
+Free Text:SCT2\430:freetext
+Free Text:SCT2\431:freetext
+Free Text:SCT2\432:freetext
+Free Text:SCT2\44:freetext
+Free Text:SCT2\440:freetext
+Free Text:SCT2\441:freetext
+Free Text:SCT2\449:freetext
+Free Text:SCT2\45:freetext
+Free Text:SCT2\450:freetext
+Free Text:SCT2\451:freetext
+Free Text:SCT2\452:freetext
+Free Text:SCT2\453:freetext
+Free Text:SCT2\454:freetext
+Free Text:SCT2\455:freetext
+Free Text:SCT2\456:freetext
+Free Text:SCT2\457:freetext
+Free Text:SCT2\45L:freetext
+Free Text:SCT2\45R:freetext
+Free Text:SCT2\46:freetext
+Free Text:SCT2\461:freetext
+Free Text:SCT2\46A:freetext
+Free Text:SCT2\46B:freetext
+Free Text:SCT2\47:freetext
+Free Text:SCT2\48:freetext
+Free Text:SCT2\49:freetext
+Free Text:SCT2\4A:freetext
+Free Text:SCT2\4R:freetext
+Free Text:SCT2\5:freetext
+Free Text:SCT2\50:freetext
+Free Text:SCT2\501:freetext
+Free Text:SCT2\502:freetext
+Free Text:SCT2\503:freetext
+Free Text:SCT2\504:freetext
+Free Text:SCT2\505:freetext
+Free Text:SCT2\506:freetext
+Free Text:SCT2\507:freetext
+Free Text:SCT2\508:freetext
+Free Text:SCT2\509:freetext
+Free Text:SCT2\50L:freetext
+Free Text:SCT2\50R:freetext
+Free Text:SCT2\51:freetext
+Free Text:SCT2\510:freetext
+Free Text:SCT2\511:freetext
+Free Text:SCT2\512:freetext
+Free Text:SCT2\513:freetext
+Free Text:SCT2\514:freetext
+Free Text:SCT2\515:freetext
+Free Text:SCT2\516:freetext
+Free Text:SCT2\517:freetext
+Free Text:SCT2\518:freetext
+Free Text:SCT2\519:freetext
+Free Text:SCT2\51L:freetext
+Free Text:SCT2\51R:freetext
+Free Text:SCT2\52:freetext
+Free Text:SCT2\520:freetext
+Free Text:SCT2\521:freetext
+Free Text:SCT2\522:freetext
+Free Text:SCT2\523:freetext
+Free Text:SCT2\524:freetext
+Free Text:SCT2\525:freetext
+Free Text:SCT2\526:freetext
+Free Text:SCT2\527:freetext
+Free Text:SCT2\52A:freetext
+Free Text:SCT2\52L:freetext
+Free Text:SCT2\52R:freetext
+Free Text:SCT2\53:freetext
+Free Text:SCT2\531:freetext
+Free Text:SCT2\532:freetext
+Free Text:SCT2\533:freetext
+Free Text:SCT2\534:freetext
+Free Text:SCT2\535:freetext
+Free Text:SCT2\536:freetext
+Free Text:SCT2\537:freetext
+Free Text:SCT2\538:freetext
+Free Text:SCT2\539:freetext
+Free Text:SCT2\53L:freetext
+Free Text:SCT2\53R:freetext
+Free Text:SCT2\54:freetext
+Free Text:SCT2\541:freetext
+Free Text:SCT2\542:freetext
+Free Text:SCT2\543:freetext
+Free Text:SCT2\544:freetext
+Free Text:SCT2\545:freetext
+Free Text:SCT2\546:freetext
+Free Text:SCT2\547:freetext
+Free Text:SCT2\548:freetext
+Free Text:SCT2\54A:freetext
+Free Text:SCT2\54C:freetext
+Free Text:SCT2\54L:freetext
+Free Text:SCT2\54R:freetext
+Free Text:SCT2\55:freetext
+Free Text:SCT2\551:freetext
+Free Text:SCT2\552:freetext
+Free Text:SCT2\553:freetext
+Free Text:SCT2\554:freetext
+Free Text:SCT2\555:freetext
+Free Text:SCT2\556:freetext
+Free Text:SCT2\557:freetext
+Free Text:SCT2\558:freetext
+Free Text:SCT2\559:freetext
+Free Text:SCT2\55C:freetext
+Free Text:SCT2\55L:freetext
+Free Text:SCT2\55R:freetext
+Free Text:SCT2\56:freetext
+Free Text:SCT2\560:freetext
+Free Text:SCT2\561:freetext
+Free Text:SCT2\562:freetext
+Free Text:SCT2\563:freetext
+Free Text:SCT2\564:freetext
+Free Text:SCT2\565:freetext
+Free Text:SCT2\566:freetext
+Free Text:SCT2\567:freetext
+Free Text:SCT2\568:freetext
+Free Text:SCT2\569:freetext
+Free Text:SCT2\56C:freetext
+Free Text:SCT2\56L:freetext
+Free Text:SCT2\56R:freetext
+Free Text:SCT2\57:freetext
+Free Text:SCT2\570:freetext
+Free Text:SCT2\571:freetext
+Free Text:SCT2\572:freetext
+Free Text:SCT2\573:freetext
+Free Text:SCT2\574:freetext
+Free Text:SCT2\575:freetext
+Free Text:SCT2\576:freetext
+Free Text:SCT2\57C:freetext
+Free Text:SCT2\57L:freetext
+Free Text:SCT2\57R:freetext
+Free Text:SCT2\58:freetext
+Free Text:SCT2\581:freetext
+Free Text:SCT2\582:freetext
+Free Text:SCT2\583:freetext
+Free Text:SCT2\59:freetext
+Free Text:SCT2\590:freetext
+Free Text:SCT2\591:freetext
+Free Text:SCT2\592:freetext
+Free Text:SCT2\594:freetext
+Free Text:SCT2\595:freetext
+Free Text:SCT2\596:freetext
+Free Text:SCT2\5A:freetext
+Free Text:SCT2\5F:freetext
+Free Text:SCT2\5R:freetext
+Free Text:SCT2\6:freetext
+Free Text:SCT2\60:freetext
+Free Text:SCT2\601:freetext
+Free Text:SCT2\602:freetext
+Free Text:SCT2\603:freetext
+Free Text:SCT2\604:freetext
+Free Text:SCT2\605:freetext
+Free Text:SCT2\606:freetext
+Free Text:SCT2\607:freetext
+Free Text:SCT2\608:freetext
+Free Text:SCT2\609:freetext
+Free Text:SCT2\61:freetext
+Free Text:SCT2\614:freetext
+Free Text:SCT2\615:freetext
+Free Text:SCT2\616:freetext
+Free Text:SCT2\61L:freetext
+Free Text:SCT2\61R:freetext
+Free Text:SCT2\62:freetext
+Free Text:SCT2\62L:freetext
+Free Text:SCT2\62R:freetext
+Free Text:SCT2\63:freetext
+Free Text:SCT2\63L:freetext
+Free Text:SCT2\63R:freetext
+Free Text:SCT2\64:freetext
+Free Text:SCT2\64L:freetext
+Free Text:SCT2\64R:freetext
+Free Text:SCT2\65:freetext
+Free Text:SCT2\65L:freetext
+Free Text:SCT2\65R:freetext
+Free Text:SCT2\66:freetext
+Free Text:SCT2\67:freetext
+Free Text:SCT2\68:freetext
+Free Text:SCT2\681:freetext
+Free Text:SCT2\682:freetext
+Free Text:SCT2\683:freetext
+Free Text:SCT2\684:freetext
+Free Text:SCT2\685:freetext
+Free Text:SCT2\687:freetext
+Free Text:SCT2\688:freetext
+Free Text:SCT2\689:freetext
+Free Text:SCT2\69:freetext
+Free Text:SCT2\690:freetext
+Free Text:SCT2\6A:freetext
+Free Text:SCT2\6F:freetext
+Free Text:SCT2\7:freetext
+Free Text:SCT2\70:freetext
+Free Text:SCT2\70L:freetext
+Free Text:SCT2\70R:freetext
+Free Text:SCT2\71:freetext
+Free Text:SCT2\71X:freetext
+Free Text:SCT2\72:freetext
+Free Text:SCT2\73:freetext
+Free Text:SCT2\73L:freetext
+Free Text:SCT2\73X:freetext
+Free Text:SCT2\74:freetext
+Free Text:SCT2\74L:freetext
+Free Text:SCT2\75:freetext
+Free Text:SCT2\75L:freetext
+Free Text:SCT2\75R:freetext
+Free Text:SCT2\76:freetext
+Free Text:SCT2\76R:freetext
+Free Text:SCT2\77:freetext
+Free Text:SCT2\77L:freetext
+Free Text:SCT2\77R:freetext
+Free Text:SCT2\77X:freetext
+Free Text:SCT2\78:freetext
+Free Text:SCT2\78L:freetext
+Free Text:SCT2\78R:freetext
+Free Text:SCT2\79:freetext
+Free Text:SCT2\7A:freetext
+Free Text:SCT2\7L:freetext
+Free Text:SCT2\7N:freetext
+Free Text:SCT2\8:freetext
+Free Text:SCT2\80:freetext
+Free Text:SCT2\81:freetext
+Free Text:SCT2\82:freetext
+Free Text:SCT2\83:freetext
+Free Text:SCT2\83C:freetext
+Free Text:SCT2\83L:freetext
+Free Text:SCT2\83R:freetext
+Free Text:SCT2\84:freetext
+Free Text:SCT2\84C:freetext
+Free Text:SCT2\84L:freetext
+Free Text:SCT2\84R:freetext
+Free Text:SCT2\85:freetext
+Free Text:SCT2\85C:freetext
+Free Text:SCT2\85L:freetext
+Free Text:SCT2\85R:freetext
+Free Text:SCT2\86:freetext
+Free Text:SCT2\86C:freetext
+Free Text:SCT2\86L:freetext
+Free Text:SCT2\86R:freetext
+Free Text:SCT2\8R:freetext
+Free Text:SCT2\9:freetext
+Free Text:SCT2\90:freetext
+Free Text:SCT2\901:freetext
+Free Text:SCT2\903:freetext
+Free Text:SCT2\905:freetext
+Free Text:SCT2\907:freetext
+Free Text:SCT2\909:freetext
+Free Text:SCT2\91:freetext
+Free Text:SCT2\911:freetext
+Free Text:SCT2\913:freetext
+Free Text:SCT2\915:freetext
+Free Text:SCT2\917:freetext
+Free Text:SCT2\919:freetext
+Free Text:SCT2\92:freetext
+Free Text:SCT2\925:freetext
+Free Text:SCT2\927:freetext
+Free Text:SCT2\929:freetext
+Free Text:SCT2\93:freetext
+Free Text:SCT2\98:freetext
+Free Text:SCT2\99:freetext
+Free Text:SCT2\9A:freetext
+Free Text:SCT2\9L:freetext
+Free Text:SCT2\A:freetext
+Free Text:SCT2\A1:freetext
+Free Text:SCT2\A10:freetext
+Free Text:SCT2\A10E:freetext
+Free Text:SCT2\A10W:freetext
+Free Text:SCT2\A11:freetext
+Free Text:SCT2\A12:freetext
+Free Text:SCT2\A13:freetext
+Free Text:SCT2\A14:freetext
+Free Text:SCT2\A15:freetext
+Free Text:SCT2\A16:freetext
+Free Text:SCT2\A17:freetext
+Free Text:SCT2\A18:freetext
+Free Text:SCT2\A19:freetext
+Free Text:SCT2\A2:freetext
+Free Text:SCT2\A20:freetext
+Free Text:SCT2\A24:freetext
+Free Text:SCT2\A3:freetext
+Free Text:SCT2\A4:freetext
+Free Text:SCT2\A4E:freetext
+Free Text:SCT2\A4W:freetext
+Free Text:SCT2\A5:freetext
+Free Text:SCT2\A6:freetext
+Free Text:SCT2\A7:freetext
+Free Text:SCT2\A8:freetext
+Free Text:SCT2\A9:freetext
+Free Text:SCT2\A9E:freetext
+Free Text:SCT2\A9W:freetext
+Free Text:SCT2\AB11:freetext
+Free Text:SCT2\AB12:freetext
+Free Text:SCT2\AB13:freetext
+Free Text:SCT2\ACS Aviation:freetext
+Free Text:SCT2\AE2:freetext
+Free Text:SCT2\AF1:freetext
+Free Text:SCT2\AG1:freetext
+Free Text:SCT2\Air Service Training:freetext
+Free Text:SCT2\Aircraft Parking:freetext
+Free Text:SCT2\AL1:freetext
+Free Text:SCT2\AL2:freetext
+Free Text:SCT2\Apron:freetext
+Free Text:SCT2\Apron 1:freetext
+Free Text:SCT2\Apron 2:freetext
+Free Text:SCT2\Apron 3:freetext
+Free Text:SCT2\Apron 4:freetext
+Free Text:SCT2\Area West (N):freetext
+Free Text:SCT2\Area West (S):freetext
+Free Text:SCT2\ASP A:freetext
+Free Text:SCT2\ASP B:freetext
+Free Text:SCT2\AVROE:freetext
+Free Text:SCT2\AW2:freetext
+Free Text:SCT2\AX:freetext
+Free Text:SCT2\AY1:freetext
+Free Text:SCT2\AY10:freetext
+Free Text:SCT2\AY3:freetext
+Free Text:SCT2\AY4:freetext
+Free Text:SCT2\AY5:freetext
+Free Text:SCT2\B:freetext
+Free Text:SCT2\B1:freetext
+Free Text:SCT2\B2:freetext
+Free Text:SCT2\B24:freetext
+Free Text:SCT2\B3:freetext
+Free Text:SCT2\B4:freetext
+Free Text:SCT2\B5:freetext
+Free Text:SCT2\B6:freetext
+Free Text:SCT2\B7:freetext
+Free Text:SCT2\B747:freetext
+Free Text:SCT2\B8:freetext
+Free Text:SCT2\Bay 1:freetext
+Free Text:SCT2\Bay 10:freetext
+Free Text:SCT2\Bay 2:freetext
+Free Text:SCT2\Bay 3:freetext
+Free Text:SCT2\Bay 4:freetext
+Free Text:SCT2\Bay 5:freetext
+Free Text:SCT2\Bay 6:freetext
+Free Text:SCT2\Bay 7:freetext
+Free Text:SCT2\Bay 8:freetext
+Free Text:SCT2\Bay 9:freetext
+Free Text:SCT2\Belfast Apron:freetext
+Free Text:SCT2\BL1:freetext
+Free Text:SCT2\BL2:freetext
+Free Text:SCT2\BL3:freetext
+Free Text:SCT2\BQ1:freetext
+Free Text:SCT2\BQ2:freetext
+Free Text:SCT2\BX:freetext
+Free Text:SCT2\BY1:freetext
+Free Text:SCT2\BY2:freetext
+Free Text:SCT2\BZ1:freetext
+Free Text:SCT2\C:freetext
+Free Text:SCT2\C (North):freetext
+Free Text:SCT2\C (South):freetext
+Free Text:SCT2\C0:freetext
+Free Text:SCT2\C06:freetext
+Free Text:SCT2\C1:freetext
+Free Text:SCT2\C2:freetext
+Free Text:SCT2\C3:freetext
+Free Text:SCT2\C4:freetext
+Free Text:SCT2\CE:freetext
+Free Text:SCT2\COBRA:freetext
+Free Text:SCT2\CW:freetext
+Free Text:SCT2\CX:freetext
+Free Text:SCT2\D:freetext
+Free Text:SCT2\D-Site Apron:freetext
+Free Text:SCT2\D0:freetext
+Free Text:SCT2\D1:freetext
+Free Text:SCT2\D1A:freetext
+Free Text:SCT2\D2:freetext
+Free Text:SCT2\D3:freetext
+Free Text:SCT2\D4:freetext
+Free Text:SCT2\D5:freetext
+Free Text:SCT2\D6:freetext
+Free Text:SCT2\D7:freetext
+Free Text:SCT2\D8:freetext
+Free Text:SCT2\DA:freetext
+Free Text:SCT2\DASSO:freetext
+Free Text:SCT2\DINGO:freetext
+Free Text:SCT2\Disused:freetext
+Free Text:SCT2\DL1:freetext
+Free Text:SCT2\DL2:freetext
+Free Text:SCT2\DX:freetext
+Free Text:SCT2\DZ1:freetext
+Free Text:SCT2\E:freetext
+Free Text:SCT2\E1:freetext
+Free Text:SCT2\E10:freetext
+Free Text:SCT2\E2:freetext
+Free Text:SCT2\E2A:freetext
+Free Text:SCT2\E3:freetext
+Free Text:SCT2\E3A:freetext
+Free Text:SCT2\E4:freetext
+Free Text:SCT2\E5:freetext
+Free Text:SCT2\E6:freetext
+Free Text:SCT2\E7:freetext
+Free Text:SCT2\E8:freetext
+Free Text:SCT2\E9:freetext
+Free Text:SCT2\East Apron:freetext
+Free Text:SCT2\Eastern Apron:freetext
+Free Text:SCT2\EM:freetext
+Free Text:SCT2\EMG:freetext
+Free Text:SCT2\ER:freetext
+Free Text:SCT2\F:freetext
+Free Text:SCT2\F1:freetext
+Free Text:SCT2\F2:freetext
+Free Text:SCT2\F3:freetext
+Free Text:SCT2\F4:freetext
+Free Text:SCT2\F5:freetext
+Free Text:SCT2\FA1:freetext
+Free Text:SCT2\FR:freetext
+Free Text:SCT2\Fuel:freetext
+Free Text:SCT2\FX:freetext
+Free Text:SCT2\FZ1:freetext
+Free Text:SCT2\G:freetext
+Free Text:SCT2\G-Site Maint Area:freetext
+Free Text:SCT2\G1:freetext
+Free Text:SCT2\G2:freetext
+Free Text:SCT2\G3:freetext
+Free Text:SCT2\G4:freetext
+Free Text:SCT2\GA:freetext
+Free Text:SCT2\GA Apron:freetext
+Free Text:SCT2\Gaydon North:freetext
+Free Text:SCT2\Gaydon South:freetext
+Free Text:SCT2\GB:freetext
+Free Text:SCT2\Goose:freetext
+Free Text:SCT2\Grass Apron:freetext
+Free Text:SCT2\Grass Parking:freetext
+Free Text:SCT2\GX:freetext
+Free Text:SCT2\H:freetext
+Free Text:SCT2\H-East:freetext
+Free Text:SCT2\H-North:freetext
+Free Text:SCT2\H-South:freetext
+Free Text:SCT2\H-X:freetext
+Free Text:SCT2\H-Y:freetext
+Free Text:SCT2\H1:freetext
+Free Text:SCT2\H10:freetext
+Free Text:SCT2\H11:freetext
+Free Text:SCT2\H12:freetext
+Free Text:SCT2\H1N:freetext
+Free Text:SCT2\H1S:freetext
+Free Text:SCT2\H2:freetext
+Free Text:SCT2\H3:freetext
+Free Text:SCT2\H4:freetext
+Free Text:SCT2\H5:freetext
+Free Text:SCT2\H6:freetext
+Free Text:SCT2\H7:freetext
+Free Text:SCT2\H8:freetext
+Free Text:SCT2\H9:freetext
+Free Text:SCT2\Hangar 1:freetext
+Free Text:SCT2\Hangar 2:freetext
+Free Text:SCT2\HANLI:freetext
+Free Text:SCT2\HAP:freetext
+Free Text:SCT2\Heli 1:freetext
+Free Text:SCT2\Heli 10:freetext
+Free Text:SCT2\Heli 11:freetext
+Free Text:SCT2\Heli 2:freetext
+Free Text:SCT2\Heli 21:freetext
+Free Text:SCT2\Heli 22:freetext
+Free Text:SCT2\Heli 23:freetext
+Free Text:SCT2\Heli 24:freetext
+Free Text:SCT2\Heli 25:freetext
+Free Text:SCT2\Heli 26:freetext
+Free Text:SCT2\Heli 27:freetext
+Free Text:SCT2\Heli 28:freetext
+Free Text:SCT2\Heli 3:freetext
+Free Text:SCT2\Heli 4:freetext
+Free Text:SCT2\Heli 5:freetext
+Free Text:SCT2\Heli 6:freetext
+Free Text:SCT2\Heli 7:freetext
+Free Text:SCT2\Heli A:freetext
+Free Text:SCT2\Heli B:freetext
+Free Text:SCT2\Heli East:freetext
+Free Text:SCT2\Heli Hold E:freetext
+Free Text:SCT2\Heli Hold N:freetext
+Free Text:SCT2\Heli Hold S:freetext
+Free Text:SCT2\Heli Hold W:freetext
+Free Text:SCT2\Heli Hold Y:freetext
+Free Text:SCT2\Heli Hold Z:freetext
+Free Text:SCT2\Heli North:freetext
+Free Text:SCT2\Heli West:freetext
+Free Text:SCT2\Helicoper Hoversquare:freetext
+Free Text:SCT2\Helicopter Training Area 1:freetext
+Free Text:SCT2\Heliport:freetext
+Free Text:SCT2\HORKA:freetext
+Free Text:SCT2\Hot Cargo Pad:freetext
+Free Text:SCT2\HS1:freetext
+Free Text:SCT2\HS2:freetext
+Free Text:SCT2\HTA 1:freetext
+Free Text:SCT2\HTA 2:freetext
+Free Text:SCT2\HTA 3:freetext
+Free Text:SCT2\HTA 4:freetext
+Free Text:SCT2\HTA-N:freetext
+Free Text:SCT2\HX:freetext
+Free Text:SCT2\HZ1:freetext
+Free Text:SCT2\Iceman:freetext
+Free Text:SCT2\J:freetext
+Free Text:SCT2\J1:freetext
+Free Text:SCT2\J2:freetext
+Free Text:SCT2\J3:freetext
+Free Text:SCT2\J4:freetext
+Free Text:SCT2\J5:freetext
+Free Text:SCT2\J6:freetext
+Free Text:SCT2\J7:freetext
+Free Text:SCT2\J8:freetext
+Free Text:SCT2\JX:freetext
+Free Text:SCT2\K:freetext
+Free Text:SCT2\K1:freetext
+Free Text:SCT2\K2:freetext
+Free Text:SCT2\K3:freetext
+Free Text:SCT2\K4:freetext
+Free Text:SCT2\K4 Apron:freetext
+Free Text:SCT2\K5:freetext
+Free Text:SCT2\L:freetext
+Free Text:SCT2\L1:freetext
+Free Text:SCT2\L2:freetext
+Free Text:SCT2\L3:freetext
+Free Text:SCT2\L4:freetext
+Free Text:SCT2\L5:freetext
+Free Text:SCT2\L6:freetext
+Free Text:SCT2\Link 2:freetext
+Free Text:SCT2\Link 3:freetext
+Free Text:SCT2\Link 4:freetext
+Free Text:SCT2\LOKKI:freetext
+Free Text:SCT2\LOMAN:freetext
+Free Text:SCT2\Lower Apron:freetext
+Free Text:SCT2\LR:freetext
+Free Text:SCT2\M:freetext
+Free Text:SCT2\M1:freetext
+Free Text:SCT2\M2:freetext
+Free Text:SCT2\M3:freetext
+Free Text:SCT2\M4:freetext
+Free Text:SCT2\M5:freetext
+Free Text:SCT2\M6:freetext
+Free Text:SCT2\M7:freetext
+Free Text:SCT2\M8:freetext
+Free Text:SCT2\M9:freetext
+Free Text:SCT2\MA:freetext
+Free Text:SCT2\Main Apron:freetext
+Free Text:SCT2\Maverick:freetext
+Free Text:SCT2\MORRA:freetext
+Free Text:SCT2\MTN 1:freetext
+Free Text:SCT2\MTN 2:freetext
+Free Text:SCT2\N:freetext
+Free Text:SCT2\N1:freetext
+Free Text:SCT2\N2:freetext
+Free Text:SCT2\N3:freetext
+Free Text:SCT2\N4:freetext
+Free Text:SCT2\N4E:freetext
+Free Text:SCT2\N4W:freetext
+Free Text:SCT2\N5E:freetext
+Free Text:SCT2\N5W:freetext
+Free Text:SCT2\N6:freetext
+Free Text:SCT2\N7:freetext
+Free Text:SCT2\NA1:freetext
+Free Text:SCT2\NA2:freetext
+Free Text:SCT2\NB1:freetext
+Free Text:SCT2\NB10:freetext
+Free Text:SCT2\NB11:freetext
+Free Text:SCT2\NB2:freetext
+Free Text:SCT2\NB2E:freetext
+Free Text:SCT2\NB2W:freetext
+Free Text:SCT2\NB3:freetext
+Free Text:SCT2\NB8:freetext
+Free Text:SCT2\ND1:freetext
+Free Text:SCT2\ND2:freetext
+Free Text:SCT2\ND3:freetext
+Free Text:SCT2\NE:freetext
+Free Text:SCT2\NESSY:freetext
+Free Text:SCT2\NEVIS:freetext
+Free Text:SCT2\North Apron:freetext
+Free Text:SCT2\NPAS:freetext
+Free Text:SCT2\NR:freetext
+Free Text:SCT2\NW:freetext
+Free Text:SCT2\Offshore:freetext
+Free Text:SCT2\OSTER:freetext
+Free Text:SCT2\P:freetext
+Free Text:SCT2\P1:freetext
+Free Text:SCT2\P2:freetext
+Free Text:SCT2\P3:freetext
+Free Text:SCT2\P4:freetext
+Free Text:SCT2\PLUTO:freetext
+Free Text:SCT2\Police Air Support:freetext
+Free Text:SCT2\PR:freetext
+Free Text:SCT2\Q:freetext
+Free Text:SCT2\Q1:freetext
+Free Text:SCT2\Q3:freetext
+Free Text:SCT2\QR:freetext
+Free Text:SCT2\R:freetext
+Free Text:SCT2\R1:freetext
+Free Text:SCT2\R2:freetext
+Free Text:SCT2\R3:freetext
+Free Text:SCT2\R4:freetext
+Free Text:SCT2\R5:freetext
+Free Text:SCT2\R7:freetext
+Free Text:SCT2\R8:freetext
+Free Text:SCT2\RABIT:freetext
+Free Text:SCT2\Run up 18:freetext
+Free Text:SCT2\Run up 25:freetext
+Free Text:SCT2\S:freetext
+Free Text:SCT2\S1:freetext
+Free Text:SCT2\S11:freetext
+Free Text:SCT2\S2:freetext
+Free Text:SCT2\S3:freetext
+Free Text:SCT2\S4E:freetext
+Free Text:SCT2\S4W:freetext
+Free Text:SCT2\S5E:freetext
+Free Text:SCT2\S5W:freetext
+Free Text:SCT2\S6:freetext
+Free Text:SCT2\S7:freetext
+Free Text:SCT2\SAR:freetext
+Free Text:SCT2\SATUN:freetext
+Free Text:SCT2\SB3:freetext
+Free Text:SCT2\SCAA:freetext
+Free Text:SCT2\Scottish Aero Club:freetext
+Free Text:SCT2\SE:freetext
+Free Text:SCT2\SNAPA:freetext
+Free Text:SCT2\South Apron:freetext
+Free Text:SCT2\South Aprons:freetext
+Free Text:SCT2\SQ4:freetext
+Free Text:SCT2\SQ5:freetext
+Free Text:SCT2\SY4:freetext
+Free Text:SCT2\SY5:freetext
+Free Text:SCT2\SY6:freetext
+Free Text:SCT2\T:freetext
+Free Text:SCT2\T1:freetext
+Free Text:SCT2\T2:freetext
+Free Text:SCT2\T3:freetext
+Free Text:SCT2\T4:freetext
+Free Text:SCT2\T5:freetext
+Free Text:SCT2\T6:freetext
+Free Text:SCT2\T7:freetext
+Free Text:SCT2\T8:freetext
+Free Text:SCT2\T9:freetext
+Free Text:SCT2\Terminal:freetext
+Free Text:SCT2\TG:freetext
+Free Text:SCT2\TITAN:freetext
+Free Text:SCT2\Tower:freetext
+Free Text:SCT2\Tower Apron:freetext
+Free Text:SCT2\TP-D:freetext
+Free Text:SCT2\TP-E:freetext
+Free Text:SCT2\TP-L1:freetext
+Free Text:SCT2\TP-L2:freetext
+Free Text:SCT2\TP-L3:freetext
+Free Text:SCT2\TP-L4:freetext
+Free Text:SCT2\TP-L5:freetext
+Free Text:SCT2\TP-L6:freetext
+Free Text:SCT2\TP-L7:freetext
+Free Text:SCT2\TP-V:freetext
+Free Text:SCT2\TP-W:freetext
+Free Text:SCT2\TP-X:freetext
+Free Text:SCT2\TP-Y:freetext
+Free Text:SCT2\TP-Z:freetext
+Free Text:SCT2\Triangle:freetext
+Free Text:SCT2\TRP-10:freetext
+Free Text:SCT2\TRP-11:freetext
+Free Text:SCT2\TRP-12:freetext
+Free Text:SCT2\TRP-1D:freetext
+Free Text:SCT2\TRP-1J:freetext
+Free Text:SCT2\TRP-1N:freetext
+Free Text:SCT2\TRP-2:freetext
+Free Text:SCT2\TRP-2J:freetext
+Free Text:SCT2\TRP-2N:freetext
+Free Text:SCT2\TRP-3:freetext
+Free Text:SCT2\TRP-4:freetext
+Free Text:SCT2\TRP-5:freetext
+Free Text:SCT2\TRP-6:freetext
+Free Text:SCT2\TRP-7:freetext
+Free Text:SCT2\TRP-8:freetext
+Free Text:SCT2\TRP-9:freetext
+Free Text:SCT2\TULLA:freetext
+Free Text:SCT2\U:freetext
+Free Text:SCT2\U1:freetext
+Free Text:SCT2\U2:freetext
+Free Text:SCT2\V:freetext
+Free Text:SCT2\V1:freetext
+Free Text:SCT2\V2:freetext
+Free Text:SCT2\V3:freetext
+Free Text:SCT2\V4:freetext
+Free Text:SCT2\V5:freetext
+Free Text:SCT2\V6:freetext
+Free Text:SCT2\V7:freetext
+Free Text:SCT2\VA1:freetext
+Free Text:SCT2\VA2:freetext
+Free Text:SCT2\VB1:freetext
+Free Text:SCT2\VB2:freetext
+Free Text:SCT2\VC1:freetext
+Free Text:SCT2\VC2:freetext
+Free Text:SCT2\VD1:freetext
+Free Text:SCT2\VD2:freetext
+Free Text:SCT2\VIKAS:freetext
+Free Text:SCT2\Visitor:freetext
+Free Text:SCT2\VLP 1:freetext
+Free Text:SCT2\VLP 2:freetext
+Free Text:SCT2\VLP 3:freetext
+Free Text:SCT2\VN:freetext
+Free Text:SCT2\VOR Field:freetext
+Free Text:SCT2\VS:freetext
+Free Text:SCT2\W:freetext
+Free Text:SCT2\W1:freetext
+Free Text:SCT2\W2:freetext
+Free Text:SCT2\W3:freetext
+Free Text:SCT2\W4:freetext
+Free Text:SCT2\W5:freetext
+Free Text:SCT2\W6:freetext
+Free Text:SCT2\W7:freetext
+Free Text:SCT2\W8:freetext
+Free Text:SCT2\West Apron:freetext
+Free Text:SCT2\West Aprons:freetext
+Free Text:SCT2\Western Apron:freetext
+Free Text:SCT2\Woodside Apron:freetext
+Free Text:SCT2\X:freetext
+Free Text:SCT2\Y:freetext
+Free Text:SCT2\Y1:freetext
+Free Text:SCT2\Y2:freetext
+Free Text:SCT2\Y3:freetext
+Free Text:SCT2\Z:freetext
+Free Text:SCT2\Z1:freetext
+Free Text:SCT2\Z2:freetext
+Free Text:SCT2\Z3:freetext
+Free Text:SCT2\Z4:freetext
+Geo:EGAA Belfast Aldergrove:
+Geo:EGAC Belfast City:
+Geo:EGAE City of Derry:
+Geo:EGBB Birmingham:
+Geo:EGBE Coventry:
+Geo:EGBJ Gloucestershire:
+Geo:EGBK Sywell:
+Geo:EGBO Wolverhampton Halfpenny:
+Geo:EGBP Kemble:
+Geo:EGBS Shobdon:
+Geo:EGBW Wellesbourne:
+Geo:EGCB Barton:
+Geo:EGCC Manchester:
+Geo:EGCN Doncaster:
+Geo:EGDR Culdrose:
+Geo:EGDY Yeovilton:
+Geo:EGEO Oban:
+Geo:EGET Tingwall:
+Geo:EGFF Cardiff:
+Geo:EGFH Swansea:
+Geo:EGGD Bristol:
+Geo:EGGP Liverpool:
+Geo:EGGW London Luton:
+Geo:EGHC Land's End:
+Geo:EGHE Scilly Isles/St Mary's:
+Geo:EGHF Lee-on-Solent:
+Geo:EGHH Bournemouth:
+Geo:EGHH Stand Lines (New):
+Geo:EGHI Southampton:
+Geo:EGHJ Bembridge:
+Geo:EGHL Lasham:
+Geo:EGHO Thruxton:
+Geo:EGHQ Newquay:
+Geo:EGHR Goodwood:
+Geo:EGJA Alderney:
+Geo:EGJB Guernsey:
+Geo:EGJJ Jersey:
+Geo:EGKA Shoreham:
+Geo:EGKB Biggin Hill:
+Geo:EGKK Gatwick:
+Geo:EGKR Redhill:
+Geo:EGLC City:
+Geo:EGLF Farnborough:
+Geo:EGLK Blackbushe:
+Geo:EGLL Heathrow:
+Geo:EGLW London Heliport:
+Geo:EGMC Southend:
+Geo:EGMD Lydd:
+Geo:EGNC Carlisle:
+Geo:EGNE Retford Gamston:
+Geo:EGNH Blackpool:
+Geo:EGNJ Humberside:
+Geo:EGNL Walney:
+Geo:EGNM Leeds Bradford:
+Geo:EGNO Warton:
+Geo:EGNR Hawarden:
+Geo:EGNS Isle of Man:
+Geo:EGNT Newcastle:
+Geo:EGNV Teesside:
+Geo:EGNX East Midlands:
+Geo:EGOS Shawbury:
+Geo:EGOV Valley:
+Geo:EGPA Kirkwall:
+Geo:EGPB Sumburgh:
+Geo:EGPC Wick:
+Geo:EGPD Aberdeen:
+Geo:EGPE Inverness:
+Geo:EGPF Glasgow:
+Geo:EGPG Cumbernauld:
+Geo:EGPH Edinburgh:
+Geo:EGPK Prestwick:
+Geo:EGPL Benbecula:
+Geo:EGPN Dundee:
+Geo:EGPO Stornoway:
+Geo:EGQL Leuchars:
+Geo:EGQS Lossiemouth:
+Geo:EGSC Cambridge:
+Geo:EGSH Norwich:
+Geo:EGSS London Stansted:
+Geo:EGSU Duxford:
+Geo:EGSX North Weald:
+Geo:EGSY St Athan:
+Geo:EGTB Wycombe Air Park/Booker:
+Geo:EGTC Cranfield:
+Geo:EGTE Exeter:
+Geo:EGTF Fairoaks:
+Geo:EGTH Old Warden:
+Geo:EGTK Oxford:
+Geo:EGTR Elstree:
+Geo:EGVA Fairford:
+Geo:EGVN Brize Norton:
+Geo:EGWC Cosford:
+Geo:EGWU Northolt:
+Geo:EGXC Coningsby:
+Geo:EGXE Leeming:
+Geo:EGXW Waddington:
+Geo:EGYD Cranwell:
+Geo:EGYM Marham:
+Regions:Aberdeen Dyce:polygon
+Regions:Alderney:polygon
+Regions:Barton:polygon
+Regions:Belfast Aldergrove:polygon
+Regions:Belfast City:polygon
+Regions:Bembridge:polygon
+Regions:Biggin:polygon
+Regions:Birmingham:polygon
+Regions:Blackbushe:polygon
+Regions:Blackpool:polygon
+Regions:Bournemouth:polygon
+Regions:Bristol:polygon
+Regions:Brize Norton:polygon
+Regions:Cambridge:polygon
+Regions:Cardiff:polygon
+Regions:Carlise:polygon
+Regions:City:polygon
+Regions:City of Derry:polygon
+Regions:Coningsby:polygon
+Regions:Cosford:polygon
+Regions:Coventry:polygon
+Regions:Cranfield:polygon
+Regions:Cranwell:polygon
+Regions:Culdrose:polygon
+Regions:Cumbernauld:polygon
+Regions:Doncaster:polygon
+Regions:Dundee:polygon
+Regions:Duxford:polygon
+Regions:East Midlands:polygon
+Regions:Edinburgh:polygon
+Regions:Elstree:polygon
+Regions:Exeter:polygon
+Regions:Fairford:polygon
+Regions:Fairoaks:polygon
+Regions:Farnborough:polygon
+Regions:Gatwick:polygon
+Regions:Glasgow:polygon
+Regions:Gloucestershire:polygon
+Regions:Goodwood:polygon
+Regions:Guernsey:polygon
+Regions:Hawarden:polygon
+Regions:Heathrow:polygon
+Regions:Humberside:polygon
+Regions:Inverness:polygon
+Regions:Isle of Man:polygon
+Regions:Jersey:polygon
+Regions:Kemble:polygon
+Regions:Kirkwall:polygon
+Regions:Land's End:polygon
+Regions:Lee-on-Solent:polygon
+Regions:Leeds:polygon
+Regions:Leeming:polygon
+Regions:Lerwick/Tingwall:polygon
+Regions:Leuchars:polygon
+Regions:Liverpool:polygon
+Regions:London Heliport:polygon
+Regions:Lossiemouth:polygon
+Regions:Luton:polygon
+Regions:Lydd:polygon
+Regions:Manchester:polygon
+Regions:Marham:polygon
+Regions:Newcastle:polygon
+Regions:Newquay:polygon
+Regions:North Weald:polygon
+Regions:Northolt:polygon
+Regions:Norwich:polygon
+Regions:Oban:polygon
+Regions:Old Warden:polygon
+Regions:Oxford:polygon
+Regions:Prestwick:polygon
+Regions:Redhill:polygon
+Regions:Retford Gamston:polygon
+Regions:Rochester:polygon
+Regions:Sandown:polygon
+Regions:Scilly Isles/St Mary's:polygon
+Regions:Shawbury:polygon
+Regions:Shobdon:polygon
+Regions:Shoreham:polygon
+Regions:Southampton:polygon
+Regions:Southend:polygon
+Regions:St Athan:polygon
+Regions:Stansted:polygon
+Regions:Stornoway:polygon
+Regions:Sumburgh:polygon
+Regions:Swansea:polygon
+Regions:Sywell:polygon
+Regions:Teesside:polygon
+Regions:Thruxton:polygon
+Regions:Valley:polygon
+Regions:Waddington:polygon
+Regions:Walney:polygon
+Regions:Warton:polygon
+Regions:Wellesbourne:polygon
+Regions:Wick:polygon
+Regions:Wolverhampton:polygon
+Regions:Wycombe Air Park/Booker:polygon
+Regions:Yeovil-Westland:polygon
+Regions:Yeovilton:polygon
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:1000
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:2
+SIMULATION_MODE:4
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:0.00000
+TAGFAMILY:NODE
+WINDOWAREA:57.531177:-4.089898:57.555250:-4.006136
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
+PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
+PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
+PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
+PLUGIN:UK Controller Plugin:approachSequencerVisible:0
+PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
+PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
+PLUGIN:UK Controller Plugin:DisplayCountdown:1
+PLUGIN:UK Controller Plugin:DisplayMinStack:0
+PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
+PLUGIN:UK Controller Plugin:HistoryTrailAntiAlias:1
+PLUGIN:UK Controller Plugin:HistoryTrailColour:255,130,20
+PLUGIN:UK Controller Plugin:HistoryTrailDegrade:1
+PLUGIN:UK Controller Plugin:HistoryTrailDisplay:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotFill:0
+PLUGIN:UK Controller Plugin:HistoryTrailDotSize:4
+PLUGIN:UK Controller Plugin:HistoryTrailDotTotate:0
+PLUGIN:UK Controller Plugin:HistoryTrailFade:1
+PLUGIN:UK Controller Plugin:HistoryTrailLength:6
+PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:99999
+PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
+PLUGIN:UK Controller Plugin:HistoryTrailType:0
+PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:749
+PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
+PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1284
+PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:24
+PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
+PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
+PLUGIN:UK Controller Plugin:SelectedMinStack:tma.LTMA;tma.MTMA;tma.STMA
+PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON;ASR_SCOTTISH
+PLUGIN:UK Controller Plugin:wakeCalculatorCollapsed:1
+PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:1
+PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
+PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
+PLUGIN:vSMR Vatsim UK:ActiveProfile:Default
+PLUGIN:vSMR Vatsim UK:Afterglow:1
+PLUGIN:vSMR Vatsim UK:Airport:EGPE
+PLUGIN:vSMR Vatsim UK:AppTrailsDots:4
+PLUGIN:vSMR Vatsim UK:DepWindowColAcType:1
+PLUGIN:vSMR Vatsim UK:DepWindowColCallsign:1
+PLUGIN:vSMR Vatsim UK:DepWindowColDest:1
+PLUGIN:vSMR Vatsim UK:DepWindowColFreq:1
+PLUGIN:vSMR Vatsim UK:DepWindowColTime:1
+PLUGIN:vSMR Vatsim UK:DepWindowColWake:1
+PLUGIN:vSMR Vatsim UK:DepWindowDuration:180
+PLUGIN:vSMR Vatsim UK:DepWindowPosX:500
+PLUGIN:vSMR Vatsim UK:DepWindowPosY:300
+PLUGIN:vSMR Vatsim UK:DepWindowShow:1
+PLUGIN:vSMR Vatsim UK:FontSize:1
+PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:PredictedLine:0
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightX:1919
+PLUGIN:vSMR Vatsim UK:SRW1BottomRightY:942
+PLUGIN:vSMR Vatsim UK:SRW1Display:1
+PLUGIN:vSMR Vatsim UK:SRW1Filter:5500
+PLUGIN:vSMR Vatsim UK:SRW1OffsetX:0
+PLUGIN:vSMR Vatsim UK:SRW1OffsetY:0
+PLUGIN:vSMR Vatsim UK:SRW1Rotation:0
+PLUGIN:vSMR Vatsim UK:SRW1Scale:15
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftX:1519
+PLUGIN:vSMR Vatsim UK:SRW1TopLeftY:642
+PLUGIN:vSMR Vatsim UK:SRW2BottomRightX:600
+PLUGIN:vSMR Vatsim UK:SRW2BottomRightY:500
+PLUGIN:vSMR Vatsim UK:SRW2Display:0
+PLUGIN:vSMR Vatsim UK:SRW2Filter:5500
+PLUGIN:vSMR Vatsim UK:SRW2OffsetX:0
+PLUGIN:vSMR Vatsim UK:SRW2OffsetY:0
+PLUGIN:vSMR Vatsim UK:SRW2Rotation:0
+PLUGIN:vSMR Vatsim UK:SRW2Scale:15
+PLUGIN:vSMR Vatsim UK:SRW2TopLeftX:200
+PLUGIN:vSMR Vatsim UK:SRW2TopLeftY:200
+PLUGIN:vSMR Vatsim UK:WIPareas:1

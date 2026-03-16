@@ -1,0 +1,116 @@
+PLUGINS
+RDF Plugin for Euroscope:LogLevel:none
+RDF Plugin for Euroscope:Bridge:1
+RDF Plugin for Euroscope:Endpoint:127.0.0.1:49080
+RDF Plugin for Euroscope:EnableDraw:0
+RDF Plugin for Euroscope:RGB:255:255:255
+RDF Plugin for Euroscope:ConcurrentTransmissionRGB:255:0:0
+RDF Plugin for Euroscope:Radius:10
+RDF Plugin for Euroscope:Threshold:10
+RDF Plugin for Euroscope:Precision:10
+RDF Plugin for Euroscope:LowAltitude:2500
+RDF Plugin for Euroscope:HighAltitude:15000
+RDF Plugin for Euroscope:LowPrecision:10
+RDF Plugin for Euroscope:HighPrecision:5
+RDF Plugin for Euroscope:DrawControllers:0
+UK Controller Plugin:prenoteNotify:1
+UK Controller Plugin:sendPrenotesToChat:1
+UK Controller Plugin:autoAssignSquawks:1
+UK Controller Plugin:autoAssignInitialAltitudes:1
+UK Controller Plugin:autoAssignInitialHeadings:1
+UK Controller Plugin:notifyPressureChanges:1
+UK Controller Plugin:useBlankForUnknownTimes:0
+UK Controller Plugin:timer1Duration:30
+UK Controller Plugin:timer1Enabled:1
+UK Controller Plugin:timer2Duration:60
+UK Controller Plugin:timer2Enabled:1
+UK Controller Plugin:timer3Duration:90
+UK Controller Plugin:timer3Enabled:1
+UK Controller Plugin:timer4Duration:120
+UK Controller Plugin:timer4Enabled:1
+UK Controller Plugin:timer5Duration:180
+UK Controller Plugin:timer5Enabled:1
+UK Controller Plugin:missedApproachAudio:1
+UK Controller Plugin:missedApproachAudioCurrentUser:0
+UK Controller Plugin:missedApproachServiceProvision:28
+vSMR Vatsim UK:cpdlc_logon:EGPE
+vSMR Vatsim UK:cpdlc_sound:1
+TopSky plugin:ACList/HOLDING LIST/m_Visible:0
+TopSky plugin:ACList/HOLDING LIST/m_X:20
+TopSky plugin:ACList/HOLDING LIST/m_Y:20
+TopSky plugin:ACList/HOLDING LIST/m_LineNumber:1
+TopSky plugin:ACList/HOLDING LIST/m_Resizable:1
+TopSky plugin:ACList/HOLDING LIST/m_OrderingColumn:1
+TopSky plugin:ACList/HOLDING LIST/m_Column_0:Label:6:0:10051:67:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_1: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_2:AFL:4:0:10013:22:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/HOLDING LIST/m_Column_3:-:2:0:10027:0:0:1:TopSky plugin::
+TopSky plugin:ACList/HOLDING LIST/m_Column_4: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/HOLDING LIST/m_Column_5:HPT:6:0:10024:65:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/HOLDING LIST/m_Column_6:ETO:4:0:10036:0:0:1:TopSky plugin::
+TopSky plugin:ACList/LOAD/m_Visible:0
+TopSky plugin:ACList/LOAD/m_X:20
+TopSky plugin:ACList/LOAD/m_Y:20
+TopSky plugin:ACList/LOAD/m_LineNumber:1
+TopSky plugin:ACList/LOAD/m_Resizable:1
+TopSky plugin:ACList/LOAD/m_OrderingColumn:1
+TopSky plugin:ACList/LOAD/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/LOAD/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Sector List/m_Visible:0
+TopSky plugin:ACList/Sector List/m_X:20
+TopSky plugin:ACList/Sector List/m_Y:20
+TopSky plugin:ACList/Sector List/m_LineNumber:1
+TopSky plugin:ACList/Sector List/m_Resizable:1
+TopSky plugin:ACList/Sector List/m_OrderingColumn:1
+TopSky plugin:ACList/Sector List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Sector List/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Uncontrolled List 1/m_Visible:0
+TopSky plugin:ACList/Uncontrolled List 1/m_X:20
+TopSky plugin:ACList/Uncontrolled List 1/m_Y:20
+TopSky plugin:ACList/Uncontrolled List 1/m_LineNumber:1
+TopSky plugin:ACList/Uncontrolled List 1/m_Resizable:1
+TopSky plugin:ACList/Uncontrolled List 1/m_OrderingColumn:1
+TopSky plugin:ACList/Uncontrolled List 1/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Uncontrolled List 1/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Uncontrolled List 2/m_Visible:0
+TopSky plugin:ACList/Uncontrolled List 2/m_X:20
+TopSky plugin:ACList/Uncontrolled List 2/m_Y:20
+TopSky plugin:ACList/Uncontrolled List 2/m_LineNumber:1
+TopSky plugin:ACList/Uncontrolled List 2/m_Resizable:1
+TopSky plugin:ACList/Uncontrolled List 2/m_OrderingColumn:1
+TopSky plugin:ACList/Uncontrolled List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Uncontrolled List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/ETWR List/m_Visible:0
+TopSky plugin:ACList/ETWR List/m_X:20
+TopSky plugin:ACList/ETWR List/m_Y:20
+TopSky plugin:ACList/ETWR List/m_LineNumber:1
+TopSky plugin:ACList/ETWR List/m_Resizable:1
+TopSky plugin:ACList/ETWR List/m_OrderingColumn:1
+TopSky plugin:ACList/ETWR List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/ETWR List/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Resectorisation List/m_Visible:0
+TopSky plugin:ACList/Resectorisation List/m_X:20
+TopSky plugin:ACList/Resectorisation List/m_Y:20
+TopSky plugin:ACList/Resectorisation List/m_LineNumber:1
+TopSky plugin:ACList/Resectorisation List/m_Resizable:1
+TopSky plugin:ACList/Resectorisation List/m_OrderingColumn:1
+TopSky plugin:ACList/Resectorisation List/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Resectorisation List/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 1/m_Visible:0
+TopSky plugin:ACList/Traffic Management List 1/m_X:20
+TopSky plugin:ACList/Traffic Management List 1/m_Y:20
+TopSky plugin:ACList/Traffic Management List 1/m_LineNumber:1
+TopSky plugin:ACList/Traffic Management List 1/m_Resizable:1
+TopSky plugin:ACList/Traffic Management List 1/m_OrderingColumn:1
+TopSky plugin:ACList/Traffic Management List 1/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Traffic Management List 1/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+TopSky plugin:ACList/Traffic Management List 2/m_Visible:0
+TopSky plugin:ACList/Traffic Management List 2/m_X:20
+TopSky plugin:ACList/Traffic Management List 2/m_Y:20
+TopSky plugin:ACList/Traffic Management List 2/m_LineNumber:1
+TopSky plugin:ACList/Traffic Management List 2/m_Resizable:1
+TopSky plugin:ACList/Traffic Management List 2/m_OrderingColumn:1
+TopSky plugin:ACList/Traffic Management List 2/m_Column_0: Callsign:10:0:10021:6:0:1:TopSky plugin:TopSky plugin:
+TopSky plugin:ACList/Traffic Management List 2/m_Column_1: CFL:5:0:10002:12:99:1:TopSky plugin:TopSky plugin:TopSky plugin
+UK Controller Plugin:missedApproachAirfields:EGPE
+END

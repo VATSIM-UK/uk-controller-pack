@@ -8,8 +8,15 @@ iTEC_Path = 'UK/Data/Plugin/TopSky_iTEC/'
 NERC_Path = 'UK/Data/Plugin/TopSky_NERC/'
 NODE_Path = 'UK/Data/Plugin/TopSky_NODE/'
 NOVA_Path = 'UK/Data/Plugin/TopSky_NOVA/'
+MIL_Path = 'UK/Data/Plugin/TopSky_MIL/'
 Shared_Path = '.data/TopSky Shared/'
 Index_Name = '.Index.txt'
+
+# Daylight savings times correct for Mar/Oct 2026 - requires update before AIRAC 2027/03
+UTCEnd = "0328"
+DaylightSavingsTimeStart = "0329"
+DaylightSavingsTimeEnd = "1025"
+UTCStart = "1026"
 #endregion
 
 def main():
@@ -25,6 +32,7 @@ def main():
     Maps()
     MSAW()
     Radars()
+    ChangeMilDangerAreaDefinition()
 
 #region Single-file copy-across and renaming
 def AircraftJSON():
@@ -93,6 +101,8 @@ def Remove(FileName): # Removes specified file across iTEC, NERC, NODE, and NOVA
     else: print('File ' + NODE_Path + FileName + ' does not exist!')
     if os.path.exists(NOVA_Path + FileName): os.remove(NOVA_Path + FileName)
     else: print('File ' + NOVA_Path + FileName + ' does not exist!')
+    if os.path.exists(MIL_Path + FileName): os.remove(MIL_Path + FileName)
+    else: print('File ' + MIL_Path + FileName + ' does not exist!')
 
 def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared data (if it exists) to iTEC, NERC, NODE, and NOVA with the new filename
     if os.path.exists(Shared_Path + InputFileName):
@@ -100,6 +110,7 @@ def CopyAll(InputFileName, OutputFileName): # Copies specified file from shared 
         shutil.copy(Shared_Path + InputFileName, NERC_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NODE_Path + OutputFileName)
         shutil.copy(Shared_Path + InputFileName, NOVA_Path + OutputFileName)
+        shutil.copy(Shared_Path + InputFileName, MIL_Path + OutputFileName)
     else:
         print('File ' + Shared_Path + InputFileName + ' does not exist!')
 
@@ -110,10 +121,13 @@ def Construct(Folder, Files, Output):
                 shutil.copyfileobj(InputFile, OutputFile)
                 OutputFile.write(b'\n\n') # 2 new lines required to append a blank line at the end of each individual file
     
+    ApplyDaylightSavings(Folder + Output)
+    
     # Copy output from iTEC to NERC, NODE, and NOVA - more efficient
     shutil.copy(iTEC_Path + Output, NERC_Path + Output)
     shutil.copy(iTEC_Path + Output, NODE_Path + Output)
     shutil.copy(iTEC_Path + Output, NOVA_Path + Output)
+    shutil.copy(iTEC_Path + Output, MIL_Path + Output)
 
 def ImportFileIndex(Folder):
     Files = []
@@ -127,6 +141,44 @@ def ImportFileIndex(Folder):
                 print('Entry ' + Entry + ' in ' + Shared_Path + Folder + Index_Name + ' has been excluded!')
     return Files
 #endregion
+
+def ApplyDaylightSavings(Filename):
+    f = open(Filename,'r')
+    FileData = f.read()
+    f.close()
+    
+    FileData = FileData.replace("UTC(E)", UTCEnd)
+    FileData = FileData.replace("DST(S)", DaylightSavingsTimeStart)
+    FileData = FileData.replace("DST(E)", DaylightSavingsTimeEnd)
+    FileData = FileData.replace("UTC(E)", UTCStart)
+    
+    f = open(Filename,'w')
+    f.write(FileData)
+    f.close()
+
+def ChangeMilDangerAreaDefinition():
+    with open(MIL_Path + 'TopSkyAreas.txt', 'r') as File:
+        Contents = File.readlines()
+    
+    Replaced = False
+    
+    with open(MIL_Path + 'TopSkyAreas.txt', 'w') as File:
+        for Line in Contents:
+            if (not Replaced): # Force boolean check first to hopefully reduce performance impact
+                if (Line.find('CATEGORYDEF:DANGER') > -1):
+                    Elements = Line.split(':')
+                    Elements[4] = '50' # 50 to be the closest to a proper overlay rather than anything else. Slightly obscures labels, but strikes the best balance.
+                    Line = ':'.join(Elements)
+                    File.write(Line)
+                    Replaced = True
+                else:
+                    File.write(Line)
+            else:
+                File.write(Line)
+    
+    if (not Replaced):
+        print('Mil active danger area fill settings not changed!')
+    return
 
 if __name__ == '__main__':
     main()
