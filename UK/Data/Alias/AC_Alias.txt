@@ -17,6 +17,8 @@ Generic
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
 
+.audio Hi there. Please check your audio settings and restart your pilot client as it seems you are having audio issues.
+
 .sec You can check coverage at https://vatglasses.uk/ukireland/
 .cov You can check coverage at https://vatglasses.uk/ukireland/
 .charts Charts relevant to your flight can be found at https://chartfox.org/$1/
