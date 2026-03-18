@@ -155,11 +155,7 @@ class CurrentInstallation:
             sf_replace = sector_file.replace("/", "\\\\")
             chk = False
             for line in lines:
-                content = re.sub(
-                    r"^Settings\tsector\t.*\\UK.+",
-                    lambda _m: sf_replace,
-                    line,
-                )
+                content = re.sub(r"^Settings\tsector\t.*\\UK.+", sf_replace, line)
                 chk = True
                 file.write(content.replace("\\\\", "\\"))
             file.truncate()
@@ -170,10 +166,5 @@ class CurrentInstallation:
 
         prf_files()
 
-def main() -> None:
-    run = CurrentInstallation()
-    run.apply_settings()
-
-
-if __name__ == "__main__":
-    main()
+run = CurrentInstallation()
+run.apply_settings()

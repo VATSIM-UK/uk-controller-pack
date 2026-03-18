@@ -25,7 +25,7 @@ def update_files(files: list[str]) -> None:
 
     # Get the list of filenames from the command line arguments
 
-    print("Updating\n" + "\n".join(files) + "\n")
+    print(f"Updating\n{'\n'.join(files)}\n")
 
     # If no filenames are provided, update all JSON files in the input directory
     if not files:
