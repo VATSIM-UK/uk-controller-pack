@@ -58,6 +58,14 @@ def test_construct_writes_output_and_copies_to_all_profiles(tmp_path, monkeypatc
     monkeypatch.setattr(compiler, "NOVA_Path", _slash(nova))
     monkeypatch.setattr(compiler, "MIL_Path", _slash(mil))
 
+    original_apply_daylight_savings = compiler.ApplyDaylightSavings
+
+    def _apply_to_constructed_output(filename: str):
+        output_name = Path(filename).name
+        return original_apply_daylight_savings(str(i_tec / output_name))
+
+    monkeypatch.setattr(compiler, "ApplyDaylightSavings", _apply_to_constructed_output)
+
     compiler.Construct("Maps/", ["first.txt"], "TopSkyMaps.txt")
 
     for target in [i_tec, nerc, node, nova, mil]:

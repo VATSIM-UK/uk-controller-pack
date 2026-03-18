@@ -121,7 +121,7 @@ def Construct(Folder, Files, Output):
                 shutil.copyfileobj(InputFile, OutputFile)
                 OutputFile.write(b'\n\n') # 2 new lines required to append a blank line at the end of each individual file
     
-    ApplyDaylightSavings(iTEC_Path + Output)
+    ApplyDaylightSavings(Folder + Output)
     
     # Copy output from iTEC to NERC, NODE, and NOVA - more efficient
     shutil.copy(iTEC_Path + Output, NERC_Path + Output)
