@@ -8,6 +8,7 @@
 [![VCH](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VCH.json)](https://github.com/DrFreas/VCH/releases)
 [![VFPC](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VFPC.json)](https://github.com/VFPC/VFPC/releases)
 [![vSMR](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/vSMR.json)](https://github.com/VATSIM-UK/vSMR/releases)
+[![VACS](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VACS.json)](https://github.com/vacs-project/vacs/releases)
 [![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/TopSky.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 [![MAESTRO](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/MAESTRO.json)](https://forum.vatsim-scandinavia.org/t/plugins)
 
@@ -42,4 +43,6 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 [UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@lennycolton](https://github.com/lennycolton)
 
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
+
+[VACS](https://github.com/vacs-project/vacs) - thanks to [@vacs-project](https://github.com/vacs-project)
 
