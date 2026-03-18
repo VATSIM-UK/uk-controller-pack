@@ -13,6 +13,13 @@
 12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
 13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
 14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
+15. Procedure Change (unknown) - Added definitions for SBAO_FSS splits to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+16. Enhancement - Added FIR definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+17. Enhancement - Checked & amended Ascension/St Helena Sector File defined positions - thanks to @Liaely (Lily Unitt)
+18. Enhancement - Added additional nearby fix and airway definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+19. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
+20. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
+21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
