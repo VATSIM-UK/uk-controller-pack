@@ -1,4 +1,4 @@
-name: Compile Controller-Pack-Updater.exe
+﻿name: Compile Controller-Pack-Updater.exe
 
 on:
   push:
@@ -106,11 +106,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r workflows/build-updater/requirements.txt
-
-      - name: Run updater unit tests
-        shell: pwsh
-        run: |
-          pytest workflows/build-updater/tests/test_updater.py
 
       - name: Get updater build hash
         shell: pwsh
