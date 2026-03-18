@@ -9,7 +9,8 @@
 8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
 9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
 10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
-11. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh

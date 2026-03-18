@@ -150,7 +150,7 @@ def ApplyDaylightSavings(Filename):
     FileData = FileData.replace("UTC(E)", UTCEnd)
     FileData = FileData.replace("DST(S)", DaylightSavingsTimeStart)
     FileData = FileData.replace("DST(E)", DaylightSavingsTimeEnd)
-    FileData = FileData.replace("UTC(E)", UTCStart)
+    FileData = FileData.replace("UTC(S)", UTCStart)
     
     f = open(Filename,'w')
     f.write(FileData)
