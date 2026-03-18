@@ -42,8 +42,6 @@ LastSession	atis_url2	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisai
 LastSession	atis_url3	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportD)&dep=$deprwy($atisairportD)&metar=$metar($atisairportD)
 TeamSpeakVccs	TsVccsMiniControlX	697
 TeamSpeakVccs	TsVccsMiniControlY	24
-LastSession	atis_callsign0	EGKK_ATIS
-LastSession	atis_freq0	136525
 Sounds	Sound0	\..\Data\Sounds\handoff_request.wav
 Sounds	Sound1	\..\Data\Sounds\handoff_accept.wav
 Sounds	Sound2	\..\Data\Sounds\conflict_alert.wav
