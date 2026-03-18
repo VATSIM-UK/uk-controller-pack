@@ -44,7 +44,7 @@
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
-    "message": "3.7.0",
+    "message": "3.7.1.0",
     "color": "blue",
     "repo": "VFPC/VFPC"
   },
@@ -69,5 +69,12 @@
     "message": "1.1",
     "color": "green",
     "repo": "VATSIM-UK/MAESTRO"
+  },
+  "VACS": {
+    "schemaVersion": 1,
+    "label": "VACS",
+    "message": "vacs-client-v2.0.0",
+    "color": "blue",
+    "repo": "vacs-project/vacs"
   }
 }

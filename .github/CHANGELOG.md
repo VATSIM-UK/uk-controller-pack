@@ -1,7 +1,18 @@
-x. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
-
-# Changes from release 2026/02a to 2026/XX
-x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+# Changes from release 2026/02a to 2026/03
+1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
+3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
+4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
+5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
+6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
+7. AIRAC - Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequency Updated - thanks to @MrAdder (Daniel Green)
+8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
+9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
+10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
+13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
+14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
