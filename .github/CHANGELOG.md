@@ -22,6 +22,7 @@
 21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
 22. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
 23. Bug - Fixed ASEL key unbinding in configurator - thanks to @kristiankunc (Kristián Kunc)
+24. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
