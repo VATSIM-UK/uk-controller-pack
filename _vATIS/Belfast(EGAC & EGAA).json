@@ -1,7 +1,7 @@
 {
   "name": "Belfast",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Belfast(EGAC & EGAA).json",
-  "updateSerial": 2026031601,
+  "updateSerial": 2026031901,
   "stations": [
     {
       "ordinal": 0,
@@ -245,7 +245,7 @@
           "enabled": false
         },
         {
-          "text": "GROUND AND TOWER ARE CLOSED. ATC CONTINUES WITH RADAR ON 133.125.",
+          "text": "GROUND AND TOWER ARE CLOSED. ATC CONTINUES WITH RADAR ON 133.130.",
           "ordinal": 10,
           "enabled": false
         },

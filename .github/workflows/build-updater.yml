@@ -1,7 +1,14 @@
-name: Compile Controller-Pack-Updater.exe
+﻿name: Compile Controller-Pack-Updater.exe
 
 on:
   push:
+    branches:
+      - "main"
+    paths:
+      - "workflows/build-updater/**"
+      - ".github/workflows/build-updater.yml"
+
+  pull_request:
     branches:
       - "main"
     paths:
@@ -21,23 +28,56 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Check for changes
+      - name: Check for source changes
         uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: |
-            build:
+            source:
               - "workflows/build-updater/Updater.py"
               - "workflows/build-updater/BuildUpdater.spec"
               - "workflows/build-updater/azure.tcl"
               - "workflows/build-updater/logo.ico"
               - "workflows/build-updater/theme/**/*.tcl"
+              - "workflows/build-updater/requirements.txt"
+              - "workflows/build-updater/tests/**/*.py"
+
+  # Runs on PRs and pushes to main.
+  test:
+    name: Run tests
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-${{ hashFiles('workflows/build-updater/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install -r workflows/build-updater/requirements.txt
+
+      - name: Run tests
+        run: |
+          python -m pytest workflows/build-updater/tests/
+
+  # Runs only on pushes to main after tests pass when source changes.
 
   build-exe:
     name: Build executable
     runs-on: windows-latest
-    needs: changes
-    if: ${{ needs.changes.outputs.build == 'true' }}
+    needs: [changes, test]
+    if: ${{ needs.changes.outputs.source == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
@@ -51,13 +91,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.x"
+          
+      - name: Cache pip dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-${{ hashFiles('workflows/build-updater/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         shell: pwsh
         run: |
           python -m pip install --upgrade pip
-          pip install pyinstaller requests dulwich
+          pip install -r workflows/build-updater/requirements.txt
 
       - name: Get updater build hash
         shell: pwsh

@@ -5,7 +5,7 @@
 4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
 5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
 6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
-7. AIRAC - Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequency Updated - thanks to @MrAdder (Daniel Green)
+7. AIRAC (2603) - Amended Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequencies (8.33 conversion) - thanks to @MrAdder (Daniel Green)
 8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
 9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
 10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
@@ -20,7 +20,9 @@
 19. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
 20. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
 21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
-x. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
+22. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+23. Bug - Fixed ASEL key unbinding in configurator - thanks to @kristiankunc (Kristián Kunc)
+24. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
