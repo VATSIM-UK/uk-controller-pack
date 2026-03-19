@@ -2356,7 +2356,7 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
-Regions:Uncontrolled airspace (Grey):polygon
+Regions:Uncontrolled airspace (NERC):polygon
 Sids:London AC Daventry:
 Sids:London AC Dover:
 Sids:London AC Lakes:
