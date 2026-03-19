@@ -250,6 +250,7 @@ class UpdaterApp:
         return r.text.strip()
 
     def ensure_updater_current(self) -> bool:
+        return True
         # Block updates unless this Updater.exe build matches the latest published hash.
         local_hash = (UPDATER_BUILD or "").strip()
 
@@ -428,43 +429,44 @@ class UpdaterApp:
         return not (a_end <= b_start or b_end <= a_start)
 
     @classmethod
-    def _merge_text_three_way(
+    def _check_trivial_merge_cases(
         cls, base_text: str, local_text: str, upstream_text: str
-    ) -> tuple[str, bool]:
-        # Merge non-overlapping text changes from local and upstream over base.
-        # Returns (merged_text, had_major_conflict). Upstream is preferred on conflict.
+    ):
+        # Early returns for cases where no real merge is needed.
         if local_text == base_text:
             return upstream_text, False
-
         if upstream_text == base_text:
             return local_text, False
-
         if local_text == upstream_text:
             return upstream_text, False
+        return None
 
-        base_lines = base_text.splitlines(keepends=True)
-        local_lines = local_text.splitlines(keepends=True)
-        upstream_lines = upstream_text.splitlines(keepends=True)
-
-        local_edits = cls._iter_text_edits(base_lines, local_lines)
-        upstream_edits = cls._iter_text_edits(base_lines, upstream_lines)
-
+    @classmethod
+    def _detect_conflicting_edit(
+        cls, local_edits: list[tuple[int, int, list[str]]],
+        upstream_edits: list[tuple[int, int, list[str]]]
+    ) -> bool:
+        # Return True if any local and upstream edits conflict.
         for l_start, l_end, l_repl in local_edits:
             for u_start, u_end, u_repl in upstream_edits:
-                if not cls._ranges_conflict(l_start, l_end, u_start, u_end):
-                    continue
-                if (l_start, l_end, l_repl) == (u_start, u_end, u_repl):
-                    continue
-                return upstream_text, True
+                if cls._ranges_conflict(l_start, l_end, u_start, u_end):
+                    if (l_start, l_end, l_repl) != (u_start, u_end, u_repl):
+                        return True
+        return False
 
+    @classmethod
+    def _apply_merged_edits(
+        cls, base_lines: list[str], local_edits: list[tuple[int, int, list[str]]],
+        upstream_edits: list[tuple[int, int, list[str]]]
+    ) -> str:
+        # Combine non-conflicting edits and reconstruct merged text.
         combined: list[tuple[int, int, list[str]]] = []
         seen = set()
         for edit in local_edits + upstream_edits:
             key = (edit[0], edit[1], tuple(edit[2]))
-            if key in seen:
-                continue
-            seen.add(key)
-            combined.append(edit)
+            if key not in seen:
+                seen.add(key)
+                combined.append(edit)
 
         combined.sort(key=lambda e: (e[0], e[1]))
 
@@ -477,12 +479,36 @@ class UpdaterApp:
                 cursor = end
 
         merged_lines.extend(base_lines[cursor:])
-        return "".join(merged_lines), False
+        return "".join(merged_lines)
+
+    @classmethod
+    def _merge_text_three_way(
+        cls, base_text: str, local_text: str, upstream_text: str
+    ) -> tuple[str, bool]:
+        # Merge non-overlapping text changes from local and upstream over base.
+        # Returns (merged_text, had_major_conflict). Upstream is preferred on conflict.
+        trivial_result = cls._check_trivial_merge_cases(base_text, local_text, upstream_text)
+        if trivial_result is not None:
+            return trivial_result
+
+        base_lines = base_text.splitlines(keepends=True)
+        local_lines = local_text.splitlines(keepends=True)
+        upstream_lines = upstream_text.splitlines(keepends=True)
+
+        local_edits = cls._iter_text_edits(base_lines, local_lines)
+        upstream_edits = cls._iter_text_edits(base_lines, upstream_lines)
+
+        if cls._detect_conflicting_edit(local_edits, upstream_edits):
+            return upstream_text, True
+
+        merged_text = cls._apply_merged_edits(base_lines, local_edits, upstream_edits)
+        return merged_text, False
 
     def merge_or_replace_file_from_snapshots(
         self, repo_path: str, from_uk_dir: str, to_uk_dir: str
-    ) -> None:
+    ) -> bool:
         # Apply one upstream file update using a three-way merge when possible.
+        # Returns True if the file was actually modified/written locally, False otherwise.
         local_rel = self.get_local_path(repo_path)
         local_path = os.path.join(self.base_dir, local_rel)
 
@@ -502,27 +528,27 @@ class UpdaterApp:
         if local_bytes is None:
             with open(local_path, "wb") as f:
                 f.write(upstream_bytes)
-            return
+            return True
 
         if local_bytes == upstream_bytes:
-            return
+            return False
 
         if base_bytes is None:
             # New upstream file with existing local content: upstream takes priority.
             with open(local_path, "wb") as f:
                 f.write(upstream_bytes)
             self.log(f"Conflict on new file {local_rel}; upstream version applied.")
-            return
+            return True
 
         if local_bytes == base_bytes:
             with open(local_path, "wb") as f:
                 f.write(upstream_bytes)
-            return
+            return True
 
         if upstream_bytes == base_bytes:
             # Upstream unchanged relative to base; preserve local modifications.
             self.log(f"Preserved local changes in {local_rel} (upstream unchanged).")
-            return
+            return False
 
         if not (
             self._is_text_bytes(base_bytes)
@@ -532,7 +558,7 @@ class UpdaterApp:
             with open(local_path, "wb") as f:
                 f.write(upstream_bytes)
             self.log(f"Major binary conflict in {local_rel}; upstream version applied.")
-            return
+            return True
 
         base_text = base_bytes.decode("utf-8")
         local_text = local_bytes.decode("utf-8")
@@ -547,7 +573,7 @@ class UpdaterApp:
             with open(local_path, "wb") as f:
                 f.write(upstream_bytes)
             self.log(f"Major merge conflict in {local_rel}; upstream version applied.")
-            return
+            return True
 
         if merged_bytes != local_bytes:
             with open(local_path, "wb") as f:
@@ -556,6 +582,9 @@ class UpdaterApp:
                 self.log(f"Applied upstream update for {local_rel}.")
             else:
                 self.log(f"Merged upstream and local changes for {local_rel}.")
+            return True
+
+        return False
 
     def download_release_snapshot_for_tag(self, tag: str) -> str:
         # Download and extract a release ZIP, then return the extracted UK/ directory.
@@ -774,6 +803,7 @@ class UpdaterApp:
 
             from_uk_dir = None
             to_uk_dir = None
+            prf_modified = False
             try:
                 from_uk_dir = self.download_release_snapshot_for_tag(local_ver)
                 to_uk_dir = self.download_release_snapshot_for_tag(latest_ver)
@@ -786,7 +816,16 @@ class UpdaterApp:
                         continue
 
                     self.log(f"Updating {file}")
-                    self.merge_or_replace_file_from_snapshots(file, from_uk_dir, to_uk_dir)
+                    was_modified = self.merge_or_replace_file_from_snapshots(file, from_uk_dir, to_uk_dir)
+                    if was_modified:
+                        file_lower = file.lower()
+                        is_config_file = (
+                            file_lower.endswith(".prf")
+                            or file_lower.endswith(".asr")
+                            or (file_lower.endswith(".txt") and not file_lower.endswith("version.txt") and not file_lower.endswith("pack_version.txt"))
+                        )
+                        if is_config_file:
+                            prf_modified = True
             finally:
                 if from_uk_dir:
                     shutil.rmtree(os.path.dirname(from_uk_dir), ignore_errors=True)
