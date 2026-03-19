@@ -35,8 +35,6 @@ def _cli_early_exit() -> None:
 
 _cli_early_exit()
 
-import requests
-from requests.adapters import HTTPAdapter
 from datetime import datetime
 import threading
 import tkinter as tk
@@ -45,7 +43,7 @@ from tkinter import ttk
 from tkinter import filedialog
 import re
 import queue
-from urllib3.util.retry import Retry
+import subprocess
 import webbrowser
 import zipfile
 
@@ -206,8 +204,12 @@ class UpdaterApp:
         finally:
             self.root.after(50, self._drain_log_queue)
 
-    def _make_session(self) -> requests.Session:
+    def _make_session(self) -> object:
         # Create a resilient HTTP session with optional GitHub token and retries.
+        import requests
+        from requests.adapters import HTTPAdapter
+        from urllib3.util.retry import Retry
+
         s = requests.Session()
 
         # Token is optional; it helps with rate limiting on GitHub API calls
@@ -687,7 +689,7 @@ class UpdaterApp:
 
         if os.path.isfile(exe_path):
             try:
-                os.startfile(exe_path)
+                subprocess.Popen([exe_path])
                 self.log("Launched Configurator.exe")
             except Exception as e:
                 self.log(f"Failed to launch Configurator.exe: {e}")
