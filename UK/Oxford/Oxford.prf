@@ -36,6 +36,7 @@ Plugins	Plugin3	\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin4	\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin5	\..\Data\Plugin\VCH.dll
 Plugins	Plugin6	\..\Data\Plugin\CDM\CDM.dll
+Plugins	Plugin6Display0	SMR radar display
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
