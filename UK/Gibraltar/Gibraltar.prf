@@ -39,6 +39,7 @@ Plugins	Plugin3	\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin4	\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin5	\..\Data\Plugin\VCH.dll
 Plugins	Plugin6	\..\Data\Plugin\CDM\CDM.dll
+Plugins	Plugin6Display0	SMR radar display
 LastSession	server	AUTOMATIC
 LastSession	atis_url0	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportA)&dep=$deprwy($atisairportA)&metar=$metar($atisairportA)
 LastSession	atis_url1	https://www.vatatis.nz/gen?apptype=ILS&arr=$arrrwy($atisairportB)&dep=$deprwy($atisairportB)&metar=$metar($atisairportB)
