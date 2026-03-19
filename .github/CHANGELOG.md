@@ -20,6 +20,7 @@
 19. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
 20. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
 21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+x. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
