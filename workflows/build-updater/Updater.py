@@ -31,6 +31,7 @@ def _cli_early_exit() -> None:
         print((UPDATER_BUILD or "").strip())
         raise SystemExit(0)
 
+#Dummy line to trigger workflow
 
 _cli_early_exit()
 
