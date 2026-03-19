@@ -23,7 +23,7 @@ jobs:
     name: Check for changes
     runs-on: windows-latest
     outputs:
-      build: ${{ steps.filter.outputs.build }}
+      source: ${{ steps.filter.outputs.source }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
