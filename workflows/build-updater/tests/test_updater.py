@@ -111,6 +111,32 @@ def test_get_changed_files_between_tags_respects_uk_only_filter(updater_app, tmp
     assert not (tmp_path / "t").exists()
 
 
+def test_merge_text_three_way_merges_non_overlapping_changes(updater_module):
+    base = "line1\nline2\nline3\n"
+    local = "line1\nline2-local\nline3\n"
+    upstream = "line1\nline2\nline3-upstream\n"
+
+    merged, had_conflict = updater_module.UpdaterApp._merge_text_three_way(
+        base, local, upstream
+    )
+
+    assert had_conflict is False
+    assert merged == "line1\nline2-local\nline3-upstream\n"
+
+
+def test_merge_text_three_way_flags_major_conflict_and_prefers_upstream(updater_module):
+    base = "line1\nline2\nline3\n"
+    local = "line1\nline2-local\nline3\n"
+    upstream = "line1\nline2-upstream\nline3\n"
+
+    merged, had_conflict = updater_module.UpdaterApp._merge_text_three_way(
+        base, local, upstream
+    )
+
+    assert had_conflict is True
+    assert merged == upstream
+
+
 class _DummyButton:
     def __init__(self):
         self.states = []

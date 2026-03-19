@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 import tempfile
+import difflib
 
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
@@ -377,6 +378,183 @@ class UpdaterApp:
         with open(path, "rb") as f:
             return Blob.from_string(f.read()).id
 
+    @staticmethod
+    def _read_bytes_if_exists(path: str) -> bytes | None:
+        # Read file bytes when the path exists, otherwise return None.
+        if not os.path.isfile(path):
+            return None
+        with open(path, "rb") as f:
+            return f.read()
+
+    @staticmethod
+    def _is_text_bytes(data: bytes) -> bool:
+        # Determine whether content is text we can safely three-way merge.
+        if b"\x00" in data:
+            return False
+        try:
+            data.decode("utf-8")
+            return True
+        except UnicodeDecodeError:
+            return False
+
+    @staticmethod
+    def _iter_text_edits(base_lines: list[str], changed_lines: list[str]) -> list[tuple[int, int, list[str]]]:
+        # Build edit operations to transform base_lines into changed_lines.
+        sm = difflib.SequenceMatcher(a=base_lines, b=changed_lines)
+        edits: list[tuple[int, int, list[str]]] = []
+        for tag, i1, i2, j1, j2 in sm.get_opcodes():
+            if tag == "equal":
+                continue
+            edits.append((i1, i2, changed_lines[j1:j2]))
+        return edits
+
+    @staticmethod
+    def _ranges_conflict(a_start: int, a_end: int, b_start: int, b_end: int) -> bool:
+        # Decide whether two edit ranges overlap in a way that indicates conflict.
+        a_insert = a_start == a_end
+        b_insert = b_start == b_end
+
+        if a_insert and b_insert:
+            return a_start == b_start
+
+        if a_insert:
+            return b_start <= a_start < b_end
+
+        if b_insert:
+            return a_start <= b_start < a_end
+
+        return not (a_end <= b_start or b_end <= a_start)
+
+    @classmethod
+    def _merge_text_three_way(
+        cls, base_text: str, local_text: str, upstream_text: str
+    ) -> tuple[str, bool]:
+        # Merge non-overlapping text changes from local and upstream over base.
+        # Returns (merged_text, had_major_conflict). Upstream is preferred on conflict.
+        if local_text == base_text:
+            return upstream_text, False
+
+        if upstream_text == base_text:
+            return local_text, False
+
+        if local_text == upstream_text:
+            return upstream_text, False
+
+        base_lines = base_text.splitlines(keepends=True)
+        local_lines = local_text.splitlines(keepends=True)
+        upstream_lines = upstream_text.splitlines(keepends=True)
+
+        local_edits = cls._iter_text_edits(base_lines, local_lines)
+        upstream_edits = cls._iter_text_edits(base_lines, upstream_lines)
+
+        for l_start, l_end, l_repl in local_edits:
+            for u_start, u_end, u_repl in upstream_edits:
+                if not cls._ranges_conflict(l_start, l_end, u_start, u_end):
+                    continue
+                if (l_start, l_end, l_repl) == (u_start, u_end, u_repl):
+                    continue
+                return upstream_text, True
+
+        combined: list[tuple[int, int, list[str]]] = []
+        seen = set()
+        for edit in local_edits + upstream_edits:
+            key = (edit[0], edit[1], tuple(edit[2]))
+            if key in seen:
+                continue
+            seen.add(key)
+            combined.append(edit)
+
+        combined.sort(key=lambda e: (e[0], e[1]))
+
+        merged_lines: list[str] = []
+        cursor = 0
+        for start, end, replacement in combined:
+            if cursor <= start:
+                merged_lines.extend(base_lines[cursor:start])
+                merged_lines.extend(replacement)
+                cursor = end
+
+        merged_lines.extend(base_lines[cursor:])
+        return "".join(merged_lines), False
+
+    def merge_or_replace_file_from_snapshots(
+        self, repo_path: str, from_uk_dir: str, to_uk_dir: str
+    ) -> None:
+        # Apply one upstream file update using a three-way merge when possible.
+        local_rel = self.get_local_path(repo_path)
+        local_path = os.path.join(self.base_dir, local_rel)
+
+        relative_inside_uk = local_rel.replace("/", os.sep)
+        base_path = os.path.join(from_uk_dir, relative_inside_uk)
+        upstream_path = os.path.join(to_uk_dir, relative_inside_uk)
+
+        upstream_bytes = self._read_bytes_if_exists(upstream_path)
+        if upstream_bytes is None:
+            raise FileNotFoundError(f"Missing upstream file in snapshot: {repo_path}")
+
+        os.makedirs(os.path.dirname(local_path), exist_ok=True)
+
+        base_bytes = self._read_bytes_if_exists(base_path)
+        local_bytes = self._read_bytes_if_exists(local_path)
+
+        if local_bytes is None:
+            with open(local_path, "wb") as f:
+                f.write(upstream_bytes)
+            return
+
+        if local_bytes == upstream_bytes:
+            return
+
+        if base_bytes is None:
+            # New upstream file with existing local content: upstream takes priority.
+            with open(local_path, "wb") as f:
+                f.write(upstream_bytes)
+            self.log(f"Conflict on new file {local_rel}; upstream version applied.")
+            return
+
+        if local_bytes == base_bytes:
+            with open(local_path, "wb") as f:
+                f.write(upstream_bytes)
+            return
+
+        if upstream_bytes == base_bytes:
+            # Upstream unchanged relative to base; preserve local modifications.
+            self.log(f"Preserved local changes in {local_rel} (upstream unchanged).")
+            return
+
+        if not (
+            self._is_text_bytes(base_bytes)
+            and self._is_text_bytes(local_bytes)
+            and self._is_text_bytes(upstream_bytes)
+        ):
+            with open(local_path, "wb") as f:
+                f.write(upstream_bytes)
+            self.log(f"Major binary conflict in {local_rel}; upstream version applied.")
+            return
+
+        base_text = base_bytes.decode("utf-8")
+        local_text = local_bytes.decode("utf-8")
+        upstream_text = upstream_bytes.decode("utf-8")
+
+        merged_text, had_conflict = self._merge_text_three_way(
+            base_text, local_text, upstream_text
+        )
+        merged_bytes = merged_text.encode("utf-8")
+
+        if had_conflict:
+            with open(local_path, "wb") as f:
+                f.write(upstream_bytes)
+            self.log(f"Major merge conflict in {local_rel}; upstream version applied.")
+            return
+
+        if merged_bytes != local_bytes:
+            with open(local_path, "wb") as f:
+                f.write(merged_bytes)
+            if merged_bytes == upstream_bytes:
+                self.log(f"Applied upstream update for {local_rel}.")
+            else:
+                self.log(f"Merged upstream and local changes for {local_rel}.")
+
     def download_release_snapshot_for_tag(self, tag: str) -> str:
         # Download and extract a release ZIP, then return the extracted UK/ directory.
         # Download the release ZIP for this tag and return the extracted UK/ path.
@@ -592,15 +770,26 @@ class UpdaterApp:
                     self.log("Updated local pack_version.txt SHA marker.")
                 return
 
-            for file in updated_files:
-                if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
-                    self.log(
-                        "Note: Updater.exe changed, but it will not be auto-updated."
-                    )
-                    continue
+            from_uk_dir = None
+            to_uk_dir = None
+            try:
+                from_uk_dir = self.download_release_snapshot_for_tag(local_ver)
+                to_uk_dir = self.download_release_snapshot_for_tag(latest_ver)
 
-                self.log(f"Updating {file}")
-                self.download_file(latest_ver, file)
+                for file in updated_files:
+                    if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
+                        self.log(
+                            "Note: Updater.exe changed, but it will not be auto-updated."
+                        )
+                        continue
+
+                    self.log(f"Updating {file}")
+                    self.merge_or_replace_file_from_snapshots(file, from_uk_dir, to_uk_dir)
+            finally:
+                if from_uk_dir:
+                    shutil.rmtree(os.path.dirname(from_uk_dir), ignore_errors=True)
+                if to_uk_dir:
+                    shutil.rmtree(os.path.dirname(to_uk_dir), ignore_errors=True)
 
             for file in removed_files:
                 self.delete_file(file)
