@@ -77,7 +77,7 @@ Generic
 
 .qnh QNH $altim($arr).
 
-.stand In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk before ToD
+.standukcp In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk before ToD
 
 ========================================================
 Planner/CDM
