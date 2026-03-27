@@ -1024,13 +1024,14 @@ DISABLEPANNING:0
 DISABLEZOOMING:0
 DisplayRotation:357.00000
 TAGFAMILY:AC
-WINDOWAREA:51.499476:0.037367:51.509806:0.070024
-PLUGIN:RDF Plugin for Euroscope:Radius:20
-PLUGIN:RDF Plugin for Euroscope:Threshold:-1
-PLUGIN:RDF Plugin for Euroscope:Precision:0
+WINDOWAREA:51.497186:0.028720:51.513326:0.079748
+PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
+PLUGIN:RDF Plugin for Euroscope:EnableDraw:0
 PLUGIN:RDF Plugin for Euroscope:LowAltitude:0
 PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
-PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
+PLUGIN:RDF Plugin for Euroscope:Precision:0
+PLUGIN:RDF Plugin for Euroscope:Radius:20
+PLUGIN:RDF Plugin for Euroscope:Threshold:-1
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
@@ -1074,6 +1075,9 @@ PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:1542
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:928
 PLUGIN:vSMR Vatsim UK:Airport:EGLC
 PLUGIN:vSMR Vatsim UK:GndTrailsDots:0
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0
 PLUGIN:vSMR Vatsim UK:SRW1BottomRightX:1920
 PLUGIN:vSMR Vatsim UK:SRW1BottomRightY:928
 PLUGIN:vSMR Vatsim UK:SRW1Display:1
@@ -1084,6 +1088,3 @@ PLUGIN:vSMR Vatsim UK:SRW1Rotation:357
 PLUGIN:vSMR Vatsim UK:SRW1Scale:15
 PLUGIN:vSMR Vatsim UK:SRW1TopLeftX:1545
 PLUGIN:vSMR Vatsim UK:SRW1TopLeftY:629
-PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
-PLUGIN:vSMR Vatsim UK:ShowSID:0
-PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0
