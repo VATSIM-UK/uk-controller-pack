@@ -1,7 +1,12 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+ARTCC high boundary:St Helena CTR:
 ARTCC high boundary:St Helena TMA:
+ARTCC low boundary:ATLANTICO FIR SBAO:
+ARTCC low boundary:DAKAR OCEANIC FIR GOOO:
+ARTCC low boundary:JOHANNESBURG OCEANIC FIR FAJO:
+ARTCC low boundary:LUANDA FIR FNAN:
 Fixes:125D:name
 Fixes:125D:symbol
 Fixes:ANTIP:name

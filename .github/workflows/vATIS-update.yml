@@ -29,6 +29,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r workflows/vATIS/requirements.txt
+
+      - name: Run tests
+        run: python -m pytest workflows/vATIS/tests/
+
       - name: Get list of changed files
         id: changed_files
         run: |

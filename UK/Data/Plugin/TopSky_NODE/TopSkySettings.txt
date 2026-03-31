@@ -76,6 +76,8 @@ Color_Active_Map_Type_7=0,0,0
 Color_Active_Map_Type_8=0,128,128
 // VRPs
 Color_Active_Map_Type_9=0,128,128
+//FAVAs
+Color_Active_Map_Type_10=0,128,128
 Color_Active_RD_Infill_Map=90,90,90
 Color_Active_Sector=28,28,28
 Color_Active_Text_Map=64,0,0
@@ -199,7 +201,7 @@ APW_Buffer_Lat_L_VFR=0
 
 //eAUP API URL (danger area activation)
 HTTP_AUP_URL=https://eaup.vatsim.pt/api/v2/areas/
-System_UseAUP=1
+System_UseAUP=0
 Window_ASM=1
 
 //V-LARA Area Activation

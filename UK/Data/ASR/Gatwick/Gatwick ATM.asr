@@ -1,18 +1,24 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
+Airports:EGKR:symbol
+Airports:EGLF:symbol
+Airports:EGTD:symbol
 ARTCC low boundary:EGKK Gatwick CTA:
-ARTCC low boundary:EGKR Redhill ATZ:
+ARTCC low boundary:EGKR Redhill LFA:
 Fixes:TIMBA:symbol
 Fixes:WILLO:symbol
-Runways:EGKK Gatwick 08R-26L:centerline
-Runways:EGKK Gatwick 08R-26L:extended centerline 1
-Runways:EGKK Gatwick 08R-26L:extended centerline 1 left ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 1 right ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 2
-Runways:EGKK Gatwick 08R-26L:extended centerline 2 left ticks
-Runways:EGKK Gatwick 08R-26L:extended centerline 2 right ticks
+Geo:Coastline (Medium Detail) GB Main Coastline:
+NDBs:SHM:symbol
+Runways:EGKK London Gatwick 08R-26L:extended centerline 1
+Runways:EGKK London Gatwick 08R-26L:extended centerline 1 left ticks
+Runways:EGKK London Gatwick 08R-26L:extended centerline 2
+Runways:EGKK London Gatwick 08R-26L:extended centerline 2 right ticks
+VORs:BIG:symbol
 VORs:MAY:symbol
+VORs:MID:symbol
+VORs:OCK:symbol
+VORs:SFD:symbol
 SHOWC:1
 SHOWSB:0
 BELOW:100
@@ -20,11 +26,11 @@ ABOVE:14500
 LEADER:-1
 SHOWLEADER:0
 TURNLEADER:0
-HISTORY_DOTS:5
+HISTORY_DOTS:0
 SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
-DisplayRotation:11.00000
+DisplayRotation:180.00000
 TAGFAMILY:Traffic Monitor
 WINDOWAREA:50.880073:-0.928559:51.366983:0.610782
 PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
@@ -68,3 +74,6 @@ PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_LONDON
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0
 PLUGIN:UK Controller Plugin:wakeCalculatorXPosition:200
 PLUGIN:UK Controller Plugin:wakeCalculatorYPosition:200
+PLUGIN:vSMR Vatsim UK:ShowAircraftType:1
+PLUGIN:vSMR Vatsim UK:ShowSID:0
+PLUGIN:vSMR Vatsim UK:ShowWakeTurb:0

@@ -2,7 +2,7 @@
   "vSMR": {
     "schemaVersion": 1,
     "label": "vSMR",
-    "message": "1.6.5",
+    "message": "1.9.0",
     "color": "blue",
     "repo": "VATSIM-UK/vSMR"
   },
@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.2.8.20",
+    "message": "2.2.8.25",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -44,7 +44,7 @@
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
-    "message": "3.6.4",
+    "message": "3.7.1.0",
     "color": "blue",
     "repo": "VFPC/VFPC"
   },
@@ -69,5 +69,12 @@
     "message": "1.1",
     "color": "green",
     "repo": "VATSIM-UK/MAESTRO"
+  },
+  "VACS": {
+    "schemaVersion": 1,
+    "label": "VACS",
+    "message": "vacs-client-v2.0.0",
+    "color": "blue",
+    "repo": "vacs-project/vacs"
   }
 }

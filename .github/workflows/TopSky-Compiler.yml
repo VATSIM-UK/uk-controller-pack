@@ -27,6 +27,14 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r workflows/TopSky/requirements.txt
+
+      - name: Run tests
+        run: python -m pytest workflows/TopSky/tests/
       
       - name: Run TopSky shared data files compiler
         run: python workflows/TopSky/compiler.py 

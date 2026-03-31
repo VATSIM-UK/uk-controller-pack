@@ -22,4 +22,7 @@ UK Controller Plugin:missedApproachServiceProvision:28
 UK Controller Plugin:missedApproachAirfields:EGFF
 vSMR Vatsim UK:cpdlc_logon:EGFF
 vSMR Vatsim UK:cpdlc_sound:1
+CDM Plugin:CDMWindowPositionX:614
+CDM Plugin:CDMWindowPositionY:26
+CDM Plugin:CDMMinimized:1
 END
