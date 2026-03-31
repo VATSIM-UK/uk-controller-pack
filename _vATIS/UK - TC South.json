@@ -927,12 +927,6 @@
       "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
       "unlimitedVisibilityText": "9999"
     },
-    "runwayVisualRange": {
-      "neutralTendency": "NO TREND",
-      "goingUpTendency": "TRENDING UPWARD",
-      "goingDownTendency": "TRENDING DOWNWARD",
-      "template": {}
-    },
     "recentWeather": {
       "template": {
         "text": "",
@@ -961,22 +955,6 @@
         "text": "Q{altimeter|hpa}",
         "voice": "QNH {altimeter|hpa}"
       }
-    },
-    "trend": {
-      "nosigText": "NOSIG",
-      "nosigVoice": "No Significant Changes",
-      "becomingText": "BECMG",
-      "becomingVoice": "Becoming",
-      "temporaryText": "TEMPO",
-      "temporaryVoice": "Temporary",
-      "template": {}
-    },
-    "windShear": {
-      "runwayText": "WS R{Runway}",
-      "runwayVoice": "Wind Shear Runway {Runway}",
-      "allRunwayText": "WS ALL RWY",
-      "allRunwayVoice": "Wind Shear All Runways",
-      "template": {}
     },
     "transitionLevel": {
       "values": [
