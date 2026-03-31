@@ -1,3 +1,61 @@
+# Changes from release 2026/03 to 2026/04
+1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
+2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
+
+# Changes from release 2026/02a to 2026/03
+1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
+3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
+4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
+5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
+6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
+7. AIRAC (2603) - Amended Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequencies (8.33 conversion) - thanks to @MrAdder (Daniel Green)
+8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
+9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
+10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
+13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
+14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
+15. Procedure Change (unknown) - Added definitions for SBAO_FSS splits to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+16. Enhancement - Added FIR definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+17. Enhancement - Checked & amended Ascension/St Helena Sector File defined positions - thanks to @Liaely (Lily Unitt)
+18. Enhancement - Added additional nearby fix and airway definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+19. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
+20. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
+21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+22. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+23. Bug - Fixed ASEL key unbinding in configurator - thanks to @kristiankunc (Kristián Kunc)
+24. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
+25. Enhancement - Incorporated CDM 2.2.8.25 - thanks to @cpawley (Chris Pawley)
+
+# Changes from release 2026/02 to 2026/02a
+1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
+
+# Changes from release 2026/01 to 2026/02
+1. Enhancement - Implemented Salisbury Information - Thanks to @mid-archie (Archie Middlefell)
+2. Bug - Fixed incorrect runway in use for EGSS (Stansted) in vATIS area profiles
+3. Enhancement - Amended radar track symbols on NERC (LAC) profiles
+4. Procedure Change (2602) - Updated Polaris ENOR frequencies in VACS configuration
+5. Enhancement - Added TopSky to Military APC profile - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Removed real world TopSky SUA activations - thanks to @Liaely (Lily Unitt)
+7. Bug - Corrected danger area EGD098H naming - thanks to @Liaely (Lily Unitt)
+8. AIRAC (2602) - Updated Jersey Control (EGJJ_S_APP) frequency - thanks to @lyraongithub
+9. Bug/Enhancement - VACS Profile Improvements (added a number of useful missing positions and aliases)
+10. AIRAC (2602) - Update Southend (EGMC) SMAA altitudes
+11. Enhancement - Added missing aerodrome airspace bases - thanks to @spacenano (Samuel Lefevre)
+12. Enhancement - Added RNP Approach fix symbols to TC Approach posistions - Thanks to @spacenano (Samuel Lefevre)
+13. Enhancement - Incorporated Inverness (EGPE) Profiles and Displays - Thanks to @spacenano (Samuel Lefevre)
+14. Bug - Removed dead link from AFIS/AGCS controller infomation - thanks to @ricky-gag38 (Riccardo Gagliardi)
+15. Bug - Fixed updater not fully updating files, moved to git diff for better management - thanks to @MrAdder (Daniel Green)
+16. Enhancement - Updated VFPC to v3.7.0 - thanks to @MrAdder (Daniel Green)
+17. Enhancement - Updated CDM to v2.2.8.24 - thanks to @MrAdder (Daniel Green)
+18. AIRAC (2602) - Defined EGR162 and removed RA(T) SNESS - thanks to @Liaely (Lily Unitt)
+19. Procedure Change (2602) - Incorporate Biggin Hill ground - thanks to @lucak1011 (Luca Kulaga)
+20. Bug - Fixed missing Sector File Descriptor in the Farnborough (EGLF) profile - Thanks to @MrAdder (Daniel Green)
+21. AIRAC(2603) - Updated TopSky definitions for daylight savings time 2026 - thanks to @Liaely (Lily Unitt)
+22. Enhancement - Added Aircraft Select (ASEL) key selection to Configurator - thanks to @hoffi-coffi (Chris Cox)
+
 # Changes from release 2025/13 to 2026/01
 1. Bug - Added .tfp alias to Heathrow_Alias.txt - thanks to @lyraongithub
 2. Bug - Some UK fixes now included in ASR Updater script - thanks to @luke11brown (Luke Brown)
@@ -9,8 +67,12 @@
 8. Bug - Removed FAVA map enabling on Scottish Area positions apart from EGPF and fixed colouring - thanks to @spacenano (Samuel Lefevre)
 9. Enhancement - Added a Farnborough profile for vACS - thanks to @AJArkley (Adam Arkley)
 10. Enhancement - Updated various vACS profiles - thanks to @lucak1011 (Luca Kulaga)
-X. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
-12. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
+11. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
+12. AIRAC (2601) - Updated lateral dimensions of the Daventry Radar Corridor - thanks to @Liaely (Lily Unitt)
+13. AIRAC (2601) - Defined restricted area EGR161 - thanks to @Liaely (Lily Unitt)
+14. AIRAC (2601) - Defined danger areas EGD714A/B - thanks to @Liaely (Lily Unitt)
+15. Enhancement - VACS Profiles tidy up (mainly backend)
+16. Procedure Change (2601) - Add split ATIS frequencies for Manchester & Heathrow (EGCC & EGLL) & reassign Manchester (EGCC) planner freq
 
 # Changes from release 2025/11 to 2025/13
 1. Enhancement - Updated CDM to v2.2.8.21 - thanks to @Liaely (Lily Unitt)
@@ -589,4 +651,3 @@ X. Enhancement - Incorporated CDM 2.2.8.23 - thanks to @luke11brown (Luke Brown)
 20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown)
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
-
