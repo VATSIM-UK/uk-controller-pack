@@ -16,7 +16,7 @@
         "observationTime": {
           "template": {
             "text": "{time}Z",
-            "voice": "TIME {time} ZULU {special}"
+            "voice": "TIME {time}."
           }
         },
         "surfaceWind": {
@@ -143,8 +143,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND FOR DEPS ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT"
           }
         }
       },
@@ -160,11 +160,27 @@
       "presets": [
         {
           "name": "22",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "name": "22 (DEL CLOSED)",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\nDELIVERY IS CLOSED.\r\n[CLOSING]."
+        },
+        {
+          "name": "22 (DEL + GND CLOSED)",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\nGROUND IS CLOSED. DELIVERY IS CLOSED.\r\n[CLOSING]."
         },
         {
           "name": "04",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "name": "04 (DEL CLOSED)",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\nDELIVERY IS CLOSED.\r\n[CLOSING]."
+        },
+        {
+          "name": "04 (DEL + GND CLOSED)",
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[TL].\r\nWARNING. THE CLN DEPARTURE HAS A STEP CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\nGROUND IS CLOSED. DELIVERY IS CLOSED.\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -192,6 +208,16 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "AUTO",
+          "text": "AUTO",
+          "voice": "AUTOMATIC"
+        },
+        {
+          "variableName": "CLN",
+          "text": "CLN",
+          "voice": "CLACTON"
         }
       ],
       "airportConditionDefinitions": [
@@ -231,28 +257,8 @@
           "enabled": false
         },
         {
-          "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.955.",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.730.",
-          "ordinal": 9,
-          "enabled": false
-        },
-        {
-          "text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 123.805.",
-          "ordinal": 10,
-          "enabled": false
-        },
-        {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 11,
-          "enabled": false
-        },
-        {
-          "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
-          "ordinal": 12,
           "enabled": false
         },
         {
