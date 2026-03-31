@@ -112,7 +112,7 @@ DEFAULT_FIELDS = {
     "land_choice": "1",
     "discord_presence": "n",
     "vccs_ptt_scan_code": "",
-    "rdf_enabled": "n"
+    "rdf_enabled": "off"
 }
 
 BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence", "vccs_ptt_scan_code"]
@@ -277,6 +277,7 @@ def ask_dropdown(prompt, options_list, current=None):
 
     dialog = tk.Toplevel()
     dialog.iconbitmap(resource_path("logo.ico"))
+    dialog.minsize(width=300, height=200)
     dialog.title(prompt)
     ttk.Label(dialog, text=prompt).pack(pady=5)
     dropdown = ttk.Combobox(dialog, textvariable=selected, values=options_list, state="readonly")
@@ -413,7 +414,23 @@ def prompt_for_field(key, current):
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "rdf_enabled":
-        return "y" if ask_yesno("Would you like to draw RDF circles?") else "n"
+        choice = ask_dropdown(
+        "How would you like to use the RDF Plugin?",
+        [
+            "Completely off",
+            "Radar displays only",
+            "Completely on"
+        ],
+        current
+        )
+
+        mapping = {
+            "Completely off": "off",
+            "Radar displays only": "radar",
+            "Completely on": "on"
+        }
+
+        return mapping.get(choice, "off")
     elif key == "vccs_ptt_scan_code":
         return ask_scan_code_key("Press the key you want to assign as your TeamSpeak VCCS PTT key.\n\nPlease note: Some modifier keys like ALT or CTRL may not work.")
     elif key in ["realistic_tags", "realistic_conversion"]:
@@ -626,7 +643,7 @@ def apply_advanced_configuration(options):
     coast_colors = {"1": "9076039", "2": "5324604", "3": "32896"}
     land_colors = {"1": "3947580", "2": "1777181", "3": "8158332"}
 
-    rdf_enabled = options.get("rdf_enabled", "n") == "y"
+    rdf_mode = options.get("rdf_enabled", "off")
 
     for root, _, files in os.walk("."):
         for file in files:
@@ -654,8 +671,22 @@ def apply_advanced_configuration(options):
                                 line = line.replace("-Easy", "")
                     new_lines.append(line)
 
-                if rdf_enabled and not any("PLUGIN:RDF Plugin for Euroscope:EnableDraw:1" in l for l in new_lines):
-                    new_lines.append("PLUGIN:RDF Plugin for Euroscope:EnableDraw:1\n")
+                rdf_line = "PLUGIN:RDF Plugin for Euroscope:EnableDraw:1\n"
+                has_rdf_line = any(rdf_line.strip() in l for l in new_lines)
+
+                is_smr = any("DisplayTypeName:SMR" in l for l in new_lines)
+
+                if rdf_mode == "off":
+                    new_lines = [l for l in new_lines if rdf_line.strip() not in l]
+                elif rdf_mode == "radar":
+                    if is_smr:
+                        new_lines = [l for l in new_lines if rdf_line.strip() not in l]
+                    else:
+                        if not has_rdf_line:
+                            new_lines.append(rdf_line)
+                elif rdf_mode == "on":
+                    if not has_rdf_line:
+                        new_lines.append(rdf_line)
 
                 with open(path, "w", encoding="utf-8") as f:
                     f.writelines(new_lines)
