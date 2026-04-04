@@ -116,8 +116,8 @@ DEFAULT_FIELDS = {
     "rdf_enabled": "off"
 }
 
-BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc", "discord_presence"]
-ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "asel_key", "rdf_enabled"]
+BASIC_FIELDS = ["name", "initials", "cid", "rating", "password", "cpdlc",  "rdf_enabled", "discord_presence"]
+ADVANCED_FIELDS = ["realistic_tags", "realistic_conversion", "coast_choice", "land_choice", "asel_key"]
 
 def load_previous_options():
     if os.path.exists(OPTIONS_PATH):
@@ -399,17 +399,17 @@ def prompt_for_field(key, current):
         choice = ask_dropdown(
         "How would you like to use the RDF Plugin?",
         [
-            "Completely off",
-            "Radar displays only",
-            "Completely on"
+            "No RDF (default)",
+            "RDF on radar displays only",
+            "RDF completely on"
         ],
         current
         )
 
         mapping = {
-            "Completely off": "off",
-            "Radar displays only": "radar",
-            "Completely on": "on"
+            "No RDF (default)": "off",
+            "RDF on radar displays only": "radar",
+            "RDF completely on": "on"
         }
 
         return mapping.get(choice, "off")
