@@ -161,38 +161,36 @@
         {
           "Name": "RUNWAY 22 (LTC_N_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 119.780",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 04 (LTC_N_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 119.780",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 22 (LTC_NE_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 118.825",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 04 (LTC_NE_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 118.825",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 22 (LTC_E_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 121.230",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22. RWY ^22.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 04 (LTC_E_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 121.230",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04. RWY ^04.\r\n[ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -220,29 +218,165 @@
           "variableName": "ATIS",
           "text": "ATIS",
           "voice": "INFORMATION"
+        },
+        {
+          "variableName": "AUTO",
+          "text": "AUTO",
+          "voice": "AUTOMATIC"
+        },
+        {
+          "variableName": "CLN",
+          "text": "CLN",
+          "voice": "CLACTON"
+        },
+        {
+          "variableName": "6",
+          "text": "6",
+          "voice": "SIX."
+        },
+        {
+          "variableName": "5",
+          "text": "5",
+          "voice": "FIVE."
+        },
+        {
+          "variableName": "4",
+          "text": "4",
+          "voice": "FOUR."
+        },
+        {
+          "variableName": "3",
+          "text": "3",
+          "voice": "THREE."
+        },
+        {
+          "variableName": "2",
+          "text": "2",
+          "voice": "TWO."
+        },
+        {
+          "variableName": "1",
+          "text": "1",
+          "voice": "ONE."
+        },
+        {
+          "variableName": "CODES",
+          "text": "CODES",
+          "voice": "CODES."
+        },
+        {
+          "variableName": "DEPTH",
+          "text": "DEPTH",
+          "voice": "DEPTH."
+        },
+        {
+          "variableName": "COVERAGE",
+          "text": "COVERAGE",
+          "voice": "COVERAGE."
+        },
+        {
+          "variableName": "DRY",
+          "text": "DRY",
+          "voice": "DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "WET",
+          "voice": "WET."
+        },
+        {
+          "variableName": "NR",
+          "text": "NR",
+          "voice": "NOT REPORTED."
+        },
+        {
+          "variableName": "100",
+          "text": "100",
+          "voice": "ONE-HUNDRED PERCENT."
+        },
+        {
+          "variableName": "75",
+          "text": "75",
+          "voice": "SEVENTY-FIVE PERCENT"
+        },
+        {
+          "variableName": "50",
+          "text": "50",
+          "voice": "FIFTY PERCENT."
+        },
+        {
+          "variableName": "25",
+          "text": "25",
+          "voice": "TWENTY-FIVE PERCENT"
         }
       ],
-      "AirportConditionDefinitions": [],
-      "notamDefinitions": [
+      "AirportConditionDefinitions": [
         {
-          "Ordinal": 1,
-          "Text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
-          "Enabled": false
+          "text": "RUNWAY CONDITION CODES;6/6/6 DRY/DRY/DRY DEPTH;NR/NR/NR COVERAGE;NR/NR/NR",
+          "ordinal": 1,
+          "enabled": true
         },
         {
-          "Ordinal": 2,
-          "Text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "Enabled": true
-        },
-        {
-          "ordinal": 3,
-          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
+          "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
+          "ordinal": 2,
           "enabled": false
         },
         {
-          "Ordinal": 4,
-          "Text": "THE RNP YANKEE PROCEDURE IS NOT AVAILABLE.",
-          "Enabled": true
+          "text": "CHEMICALLY TREATED.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN OPERATION. CATERGORY THREE HOLDING POINTS IN USE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
+          "ordinal": 8,
+          "enabled": false
+        },
+        {
+          "text": "REPORT IF YOU ARE UNABLE TO USE THE EAST AND WEST TAXI LINES ON FIRST CONTACT.",
+          "ordinal": 10,
+          "enabled": true
+        },
+        {
+          "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "ordinal": 11,
+          "enabled": false
         }
       ]
     },
