@@ -3,36 +3,73 @@
 on:
   push:
     branches:
-      - 'main'
+      - "main"
     paths:
-      - 'workflows/logon-details/**'
-      - '.github/workflows/logon-details.yml'
+      - "workflows/logon-details/**"
+      - ".github/workflows/logon-details.yml"
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - "workflows/logon-details/**"
+      - ".github/workflows/logon-details.yml"
 
 jobs:
   changes:
-    name: Check for changes
+    name: Detect source changes
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
     permissions:
-      pull-requests: read
+      contents: read
     outputs:
-      build: ${{ steps.filter.outputs.build }}
+      source: ${{ steps.filter.outputs.source }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Check for changes
+      - name: Check for source changes
         uses: dorny/paths-filter@v2
         id: filter
         with:
           filters: |
-            build:
+            source:
               - './workflows/logon-details/LogonDetails.py'
 
+  # Runs on PRs and pushes to main.
+  test:
+    name: Run tests
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-${{ hashFiles('workflows/logon-details/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install -r workflows/logon-details/requirements.txt
+
+      - name: Run tests
+        run: |
+          python -m pytest workflows/logon-details/tests/
+
+  # Runs only on pushes to main after tests pass when source changes.
   build-exe:
     name: Build executable
     runs-on: windows-latest
-    needs: changes
-    if: ${{ needs.changes.outputs.build == 'true' }}
+    needs: [changes, test]
+    if: ${{ needs.changes.outputs.source == 'true' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     concurrency:
       group: uk-controller-pack-build-${{ github.ref }}
       cancel-in-progress: true
@@ -48,14 +85,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v5
+        with:
+          path: ~\AppData\Local\pip\Cache
+          key: ${{ runner.os }}-pip-${{ hashFiles('workflows/logon-details/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
         run: |
-          pip install pyinstaller
-          pip install pillow
-          pip install keyboard
-
+          pip install -r workflows/logon-details/requirements.txt
 
       - name: Compile executable
         run: pyinstaller --distpath UK/ workflows/logon-details/LogonDetails.spec

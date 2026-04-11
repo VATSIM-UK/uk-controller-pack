@@ -32,4 +32,7 @@ UK Controller Plugin:timer5Enabled:1
 UK Controller Plugin:missedApproachAudio:1
 UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
+CDM Plugin:CDMWindowPositionX:614
+CDM Plugin:CDMWindowPositionY:26
+CDM Plugin:CDMMinimized:1
 END

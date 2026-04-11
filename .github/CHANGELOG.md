@@ -1,8 +1,33 @@
 # Changes from release 2026/03 to 2026/04
-1. AIRAC (2604) - Removed Biggin Approach (EGKB_A_APP) - thanks to @Liaely (Lily Unitt)
+1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
+2. AIRAC (2604) - Removed Biggin Approach (EGKB_A_APP) - thanks to @Liaely (Lily Unitt)
 
-# Changes from release 2026/02a to 2026/XX
-x. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+# Changes from release 2026/02a to 2026/03
+1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
+3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
+4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
+5. Bug - Fixed history trails on Jersey.prf - Thanks to @JYang365 (John Yang)
+6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
+7. AIRAC (2603) - Amended Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequencies (8.33 conversion) - thanks to @MrAdder (Daniel Green)
+8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
+9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
+10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
+13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
+14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
+15. Procedure Change (unknown) - Added definitions for SBAO_FSS splits to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+16. Enhancement - Added FIR definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+17. Enhancement - Checked & amended Ascension/St Helena Sector File defined positions - thanks to @Liaely (Lily Unitt)
+18. Enhancement - Added additional nearby fix and airway definitions to Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+19. Bug - Corrected St Helena (FHSH) CTR definition - thanks to @Liaely (Lily Unitt)
+20. Bug - Corrected St Helena (FHSH) TMA lower boundary - thanks to @Liaely (Lily Unitt)
+21. Bug - Corrected Luanda Control (FNAN_CTR) frequency in Ascension/St Helena Sector File - thanks to @Liaely (Lily Unitt)
+22. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+23. Bug - Fixed ASEL key unbinding in configurator - thanks to @kristiankunc (Kristián Kunc)
+24. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
+25. Enhancement - Incorporated CDM 2.2.8.25 - thanks to @cpawley (Chris Pawley)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh

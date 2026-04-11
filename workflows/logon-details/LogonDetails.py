@@ -11,6 +11,8 @@ import tkinter.simpledialog as simpledialog
 from PIL import Image, ImageTk
 from ctypes import windll, c_uint
 
+# dummy line to trigger workflow
+
 _original_init = simpledialog.Dialog.__init__
 
 def is_dark_theme_enabled():
@@ -392,7 +394,20 @@ def prompt_for_field(key, current):
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "asel_key":
-        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
+        result = ask_scan_code_key(
+            "Press the key you want to assign as your Aircraft Select (ASEL) key.\n\n"
+            "The ASEL key is an advanced keybind for selecting aircraft based on text input.\n"
+            "Press \"Skip\" to retain the default (NUMPLUS) key.",
+            "Press a key for ASEL",
+        )
+        # If the user skips (result is None/empty):
+        #   - if we have a non-empty current value, preserve it
+        #   - if current is empty as well, return empty string so no files are modified
+        if result:
+            return result
+        if current:
+            return current
+        return ""
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -405,7 +420,7 @@ def prompt_for_field(key, current):
                 continue
             return response
 
-def collect_user_input():
+def collect_basic_config():
     root = tk.Tk()
     root.title("UK Controller Pack Configurator")
     root.iconbitmap(resource_path("logo.ico"))
@@ -428,8 +443,6 @@ def collect_user_input():
         if key not in options or not options[key]:
             options[key] = prompt_for_field(key, "")
 
-
-    save_options(options)
     return options
 
 
@@ -466,6 +479,10 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         print(f"Failed to write to {file_path}: {e}")
 
 def patch_prf_file_with_asel(file_path, asel_key):
+    # Don't modify the file if no ASEL key was provided
+    if not asel_key:
+        return
+    
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -721,7 +738,7 @@ def main():
         f.write(str(os.getpid()))
 
     try:
-        options = collect_user_input()
+        options = collect_basic_config()
         apply_basic_configuration(
             name=options["name"],
             initials=options["initials"],
@@ -732,10 +749,26 @@ def main():
             discord_presence=options.get("discord_presence", "n")
         )
 
-        if ask_yesno("Would you like to configure advanced options?"):
-            for key in ADVANCED_FIELDS:
-                options[key] = prompt_for_field(key, options.get(key, ""))
-            apply_advanced_configuration(options)
+        if ("advanced_config" in options and options["advanced_config"]):
+            if ask_yesno("Do you want to load your previous advanced options?"):
+                for key in ADVANCED_FIELDS:
+                    if key not in options:
+                        options[key] = prompt_for_field(key, "")
+                apply_advanced_configuration(options)
+            else:
+                if ask_yesno("Would you like to reconfigure advanced options?"):
+                    options["advanced_config"] = True
+                    for key in ADVANCED_FIELDS:
+                        options[key] = prompt_for_field(key, options.get(key, ""))
+                    apply_advanced_configuration(options)
+        else:
+            if ask_yesno("Would you like to configure advanced options?"):
+                options["advanced_config"] = True
+                for key in ADVANCED_FIELDS:
+                    options[key] = prompt_for_field(key, options.get(key, ""))
+                apply_advanced_configuration(options)
+
+        save_options(options)
 
         messagebox.showinfo("Complete", "Profile Configuration Complete")
         time.sleep(1.5)
