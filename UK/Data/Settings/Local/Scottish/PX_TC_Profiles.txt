@@ -1,17 +1,17 @@
 PROFILE
-PROFILE:STC_CTR:250:6
+PROFILE:SCL_TMA_CTR:250:6
 ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_E_CTR:250:6
+PROFILE:SCL_TLA_CTR:250:6
 ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_W_CTR:250:6
+PROFILE:SCL_GAL_CTR:250:6
 ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:STC_A_CTR:200:6
+PROFILE:SCL_ANT_CTR:200:6
 ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
