@@ -19,7 +19,7 @@ PROFILE:SCO_WB_CTR:400:6
 ATIS2:Scottish Control | CPDLC/PDC [SCWB]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:SCO_B_CTR:350:6
+PROFILE:SCO_BDS_CTR:350:6
 ATIS2:Scottish Control | CPDLC/PDC [SCOB]
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
@@ -44,6 +44,10 @@ ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:SCL_ANT_CTR:200:6
+ATIS2:Scottish Control
+ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:SCL_GTA_CTR:250:6
 ATIS2:Scottish Control
 ATIS3:Check top-down and coverage at vatglasses.uk/ukireland
 ATIS4:Submit feedback at vats.im/atcfb
