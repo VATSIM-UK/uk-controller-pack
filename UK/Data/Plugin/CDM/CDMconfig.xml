@@ -3,7 +3,7 @@
 	<rate ops="37" />
 	<rateLvo ops="15" />
 	<expiredCtot time="25" />
-	<realMode mode="false" />
+	<realMode mode="true" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
