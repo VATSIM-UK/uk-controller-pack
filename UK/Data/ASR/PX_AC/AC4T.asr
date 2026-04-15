@@ -310,6 +310,8 @@ Fixes:ARTEX:name
 Fixes:ARTEX:symbol
 Fixes:ARTIX:name
 Fixes:ARTIX:symbol
+Fixes:ASCOM:name
+Fixes:ASCOM:symbol
 Fixes:ASHUM:name
 Fixes:ASHUM:symbol
 Fixes:ASKAM:name
@@ -536,6 +538,8 @@ Fixes:BUSTA:name
 Fixes:BUSTA:symbol
 Fixes:BUZAD:name
 Fixes:BUZAD:symbol
+Fixes:BUZDE:name
+Fixes:BUZDE:symbol
 Fixes:CALDA:name
 Fixes:CALDA:symbol
 Fixes:CANZI:name
@@ -696,6 +700,8 @@ Fixes:EFMIH:name
 Fixes:EFMIH:symbol
 Fixes:EGRUF:name
 Fixes:EGRUF:symbol
+Fixes:EGTOC:name
+Fixes:EGTOC:symbol
 Fixes:EKLAD:name
 Fixes:EKLAD:symbol
 Fixes:EKNIV:name
@@ -788,6 +794,8 @@ Fixes:ERAKA:name
 Fixes:ERAKA:symbol
 Fixes:ERDOG:name
 Fixes:ERDOG:symbol
+Fixes:ERDOW:name
+Fixes:ERDOW:symbol
 Fixes:ERDUV:name
 Fixes:ERDUV:symbol
 Fixes:ERGAB:name
@@ -806,6 +814,8 @@ Fixes:ERNAN:name
 Fixes:ERNAN:symbol
 Fixes:ERSON:name
 Fixes:ERSON:symbol
+Fixes:ESHIN:name
+Fixes:ESHIN:symbol
 Fixes:ESKDO:name
 Fixes:ESKDO:symbol
 Fixes:ESTRY:name
@@ -850,8 +860,6 @@ Fixes:EVSEM:name
 Fixes:EVSEM:symbol
 Fixes:EVSON:name
 Fixes:EVSON:symbol
-Fixes:EVTAR:name
-Fixes:EVTAR:symbol
 Fixes:EVTES:name
 Fixes:EVTES:symbol
 Fixes:EVTOL:name
@@ -866,6 +874,8 @@ Fixes:EXKIC:name
 Fixes:EXKIC:symbol
 Fixes:EXMOR:name
 Fixes:EXMOR:symbol
+Fixes:EZTIM:name
+Fixes:EZTIM:symbol
 Fixes:FACTU:name
 Fixes:FACTU:symbol
 Fixes:FADZU:name
@@ -988,8 +998,6 @@ Fixes:GOKTU:name
 Fixes:GOKTU:symbol
 Fixes:GOLES:name
 Fixes:GOLES:symbol
-Fixes:GOLVO:name
-Fixes:GOLVO:symbol
 Fixes:GOMOT:name
 Fixes:GOMOT:symbol
 Fixes:GOMUP:name
@@ -1000,8 +1008,6 @@ Fixes:GOREV:name
 Fixes:GOREV:symbol
 Fixes:GOSAM:name
 Fixes:GOSAM:symbol
-Fixes:GOTGO:name
-Fixes:GOTGO:symbol
 Fixes:GOTNA:name
 Fixes:GOTNA:symbol
 Fixes:GOXUL:name
@@ -1124,8 +1130,6 @@ Fixes:INPUT:name
 Fixes:INPUT:symbol
 Fixes:INREV:name
 Fixes:INREV:symbol
-Fixes:INVON:name
-Fixes:INVON:symbol
 Fixes:IPDOR:name
 Fixes:IPDOR:symbol
 Fixes:IPKUS:name
@@ -1170,6 +1174,8 @@ Fixes:KARNO:name
 Fixes:KARNO:symbol
 Fixes:KATHY:name
 Fixes:KATHY:symbol
+Fixes:KEFTE:name
+Fixes:KEFTE:symbol
 Fixes:KEGIT:name
 Fixes:KEGIT:symbol
 Fixes:KEGUN:name
@@ -1280,6 +1286,8 @@ Fixes:LEDGO:name
 Fixes:LEDGO:symbol
 Fixes:LEGRO:name
 Fixes:LEGRO:symbol
+Fixes:LEHOC:name
+Fixes:LEHOC:symbol
 Fixes:LEKCI:name
 Fixes:LEKCI:symbol
 Fixes:LELDO:name
@@ -1406,6 +1414,8 @@ Fixes:MEDOG:name
 Fixes:MEDOG:symbol
 Fixes:MEGEL:name
 Fixes:MEGEL:symbol
+Fixes:MEJAC:name
+Fixes:MEJAC:symbol
 Fixes:MEZRE:name
 Fixes:MEZRE:symbol
 Fixes:MIDJO:name
@@ -1602,6 +1612,8 @@ Fixes:NUGBO:name
 Fixes:NUGBO:symbol
 Fixes:NUGRA:name
 Fixes:NUGRA:symbol
+Fixes:NUKPE:name
+Fixes:NUKPE:symbol
 Fixes:NULGU:name
 Fixes:NULGU:symbol
 Fixes:NUMPI:name
@@ -1618,8 +1630,6 @@ Fixes:ODMIX:name
 Fixes:ODMIX:symbol
 Fixes:ODMOS:name
 Fixes:ODMOS:symbol
-Fixes:ODNEK:name
-Fixes:ODNEK:symbol
 Fixes:ODPEX:name
 Fixes:ODPEX:symbol
 Fixes:ODREP:name
@@ -1660,6 +1670,8 @@ Fixes:OLNEY:name
 Fixes:OLNEY:symbol
 Fixes:OLPOP:name
 Fixes:OLPOP:symbol
+Fixes:OMENU:name
+Fixes:OMENU:symbol
 Fixes:OMOKO:name
 Fixes:OMOKO:symbol
 Fixes:OPALE:name
@@ -1706,8 +1718,6 @@ Fixes:OTBED:name
 Fixes:OTBED:symbol
 Fixes:OTBUN:name
 Fixes:OTBUN:symbol
-Fixes:OTLAB:name
-Fixes:OTLAB:symbol
 Fixes:OTMET:name
 Fixes:OTMET:symbol
 Fixes:OTSID:name
@@ -1926,8 +1936,6 @@ Fixes:ROTNO:name
 Fixes:ROTNO:symbol
 Fixes:ROVLA:name
 Fixes:ROVLA:symbol
-Fixes:ROVNI:name
-Fixes:ROVNI:symbol
 Fixes:ROXAT:name
 Fixes:ROXAT:symbol
 Fixes:ROXOG:name
@@ -1956,6 +1964,8 @@ Fixes:SABER:name
 Fixes:SABER:symbol
 Fixes:SALCO:name
 Fixes:SALCO:symbol
+Fixes:SAMHO:name
+Fixes:SAMHO:symbol
 Fixes:SAMON:name
 Fixes:SAMON:symbol
 Fixes:SANBA:name
@@ -2044,8 +2054,6 @@ Fixes:SOSIM:name
 Fixes:SOSIM:symbol
 Fixes:SOSUN:name
 Fixes:SOSUN:symbol
-Fixes:SOTUN:name
-Fixes:SOTUN:symbol
 Fixes:SOVAT:name
 Fixes:SOVAT:symbol
 Fixes:SOVED:name
@@ -2150,14 +2158,10 @@ Fixes:TIMIS:name
 Fixes:TIMIS:symbol
 Fixes:TIMPO:name
 Fixes:TIMPO:symbol
-Fixes:TIMUP:name
-Fixes:TIMUP:symbol
 Fixes:TINAC:name
 Fixes:TINAC:symbol
 Fixes:TINAN:name
 Fixes:TINAN:symbol
-Fixes:TINDI:name
-Fixes:TINDI:symbol
 Fixes:TIPAN:name
 Fixes:TIPAN:symbol
 Fixes:TIPIL:name
@@ -2332,8 +2336,6 @@ Fixes:VENAS:name
 Fixes:VENAS:symbol
 Fixes:VENER:name
 Fixes:VENER:symbol
-Fixes:VEREX:name
-Fixes:VEREX:symbol
 Fixes:VESAN:name
 Fixes:VESAN:symbol
 Fixes:VEULE:name

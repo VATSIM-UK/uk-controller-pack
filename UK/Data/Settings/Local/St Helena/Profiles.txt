@@ -2,9 +2,9 @@ PROFILE
 PROFILE:FHSH_APP:150:5
 ATIS2:"St Helena Approach"
 ATIS3:Feedback at vats.im/atcfb
-ATIS4:
+ATIS4:Charts at chartfox.org/FHSH
 PROFILE:FHSH_TWR:50:4
 ATIS2:"St Helena Tower"
 ATIS3:Feedback at vats.im/atcfb
-ATIS4:
+ATIS4:Charts at chartfox.org/FHSH
 END

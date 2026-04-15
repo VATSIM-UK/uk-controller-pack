@@ -11,6 +11,8 @@ import tkinter.simpledialog as simpledialog
 from PIL import Image, ImageTk
 from ctypes import windll, c_uint
 
+# dummy line to trigger workflow
+
 _original_init = simpledialog.Dialog.__init__
 
 def is_dark_theme_enabled():
@@ -392,7 +394,20 @@ def prompt_for_field(key, current):
     elif key == "discord_presence":
         return "y" if ask_yesno("Would you like to enable DiscordEuroscope plugin which will show where you're controlling on Discord?") else "n"
     elif key == "asel_key":
-        return ask_scan_code_key("Press the key you want to assign as your Aircraft Select (ASEL) key.\n\nThe ASEL key is an advanced keybind for selecting aircraft based on text input.\nPress \"Skip\" to retain the default (NUMPLUS) key.", "Press a key for ASEL")
+        result = ask_scan_code_key(
+            "Press the key you want to assign as your Aircraft Select (ASEL) key.\n\n"
+            "The ASEL key is an advanced keybind for selecting aircraft based on text input.\n"
+            "Press \"Skip\" to retain the default (NUMPLUS) key.",
+            "Press a key for ASEL",
+        )
+        # If the user skips (result is None/empty):
+        #   - if we have a non-empty current value, preserve it
+        #   - if current is empty as well, return empty string so no files are modified
+        if result:
+            return result
+        if current:
+            return current
+        return ""
     elif key in ["realistic_tags", "realistic_conversion"]:
         return "y" if ask_yesno(description) else "n"
     else:
@@ -464,6 +479,10 @@ def patch_prf_file(file_path, name, initials, cid, rating, password):
         print(f"Failed to write to {file_path}: {e}")
 
 def patch_prf_file_with_asel(file_path, asel_key):
+    # Don't modify the file if no ASEL key was provided
+    if not asel_key:
+        return
+    
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             lines = f.readlines()

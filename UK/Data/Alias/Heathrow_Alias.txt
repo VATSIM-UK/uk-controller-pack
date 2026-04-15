@@ -39,6 +39,9 @@ Generic
 
 .v Can you receive voice?
 
+.audio Hi there. Please check your audio settings and restart your pilot client as it seems you are having audio issues.
+.cptex .msg $aircraft Hi there. You have been given the non-standard Compton departure off of runway 09R. This clearance is **NOT** the same as the CPT5J Standard Instrument Departure, and you mustn't follow the CPT5J. You are required to read back the entire clearance given and follow it, and **NOT** the CPT5J SID.
+
 .pb Please visit the Heathrow Pilot Briefing Room (vats.im/lhrbrief) for more information on departing Heathrow and following the procedures correctly
 .scenery Are you able to confirm which scenery for London Heathrow you are using?
 

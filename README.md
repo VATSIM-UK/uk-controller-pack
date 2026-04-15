@@ -40,7 +40,7 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 
 [DiscordEuroscope Plugin](https://github.com/Kirollos/DiscordEuroscope) - thanks to [@Kirollos](https://github.com/Kirollos)
 
-[UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@lennycolton](https://github.com/lennycolton)
+[UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@lennycolton](https://github.com/lennycolton), [@oldenough](https://github.com/oldenough) & [@prichardson](https://github.com/prichardson)
 
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
 

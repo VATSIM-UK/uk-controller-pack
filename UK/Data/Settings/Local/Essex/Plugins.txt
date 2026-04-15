@@ -35,4 +35,7 @@ UK Controller Plugin:missedApproachAudioCurrentUser:0
 UK Controller Plugin:missedApproachServiceProvision:28
 vSMR Vatsim UK:cpdlc_logon:EGSS
 vSMR Vatsim UK:cpdlc_sound:1
+CDM Plugin:CDMWindowPositionX:614
+CDM Plugin:CDMWindowPositionY:26
+CDM Plugin:CDMMinimized:1
 END
