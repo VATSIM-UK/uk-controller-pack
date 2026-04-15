@@ -1,5 +1,6 @@
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
+2. Procedure Change (2604) - Scottish Resectorisation: affects logon profiles, voice settings, TopSky config and more
 
 # Changes from release 2026/02a to 2026/03
 1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
