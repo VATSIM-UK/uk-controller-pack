@@ -1,6 +1,7 @@
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
+3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - Thanks to @Kishore-Nair (Kishore Ravikumar)
 
 # Changes from release 2026/02a to 2026/03
 1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
