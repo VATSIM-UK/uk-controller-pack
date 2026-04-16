@@ -44,7 +44,7 @@ Generic
 
 .qnh QNH $altim($1)
 
-.standukcp In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk before ToD
+.standreq In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk at least 20 minutes prior to your arrival
 
 ========================================================
 New Pilots
