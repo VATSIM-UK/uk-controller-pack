@@ -6,6 +6,7 @@
 5. Procedure Change (2604) - Added Gatwick (EGKK) split GMC positions - thanks to @AdriTheDev (Callum Hicks)
 6. Procedure Change (2604) - Scottish Resectorisation: affects logon profiles, voice settings, TopSky config and more
 7. Enhancement - Updated VACS client to v2.2.0 - thanks to @Kishore-Nair (Kishore Ravikumar)
+8. Enhancement - Incorporated VFPC v3.7.2.0, CDM v2.27 and RDF v1.4.3
 
 # Changes from release 2026/02a to 2026/03
 1. Bug - Fixed updater version checking - thanks to @MrAdder (Daniel Green)
