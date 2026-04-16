@@ -185,6 +185,20 @@
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 23 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 05 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [

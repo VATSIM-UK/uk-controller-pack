@@ -1,4 +1,6 @@
-# Changes from release 2026/03 to 2026/04
+# Changes from release 2026/04 to 2026/05
+x. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
+
 1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
 3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - thanks to @Kishore-Nair (Kishore Ravikumar)
