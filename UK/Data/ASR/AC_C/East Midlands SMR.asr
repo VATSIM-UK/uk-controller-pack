@@ -515,7 +515,6 @@ Free Text:SCT2\80:freetext
 Free Text:SCT2\81:freetext
 Free Text:SCT2\82:freetext
 Free Text:SCT2\83:freetext
-Free Text:SCT2\83C:freetext
 Free Text:SCT2\83L:freetext
 Free Text:SCT2\83R:freetext
 Free Text:SCT2\84:freetext
@@ -572,10 +571,10 @@ Free Text:SCT2\A20:freetext
 Free Text:SCT2\A24:freetext
 Free Text:SCT2\A3:freetext
 Free Text:SCT2\A4:freetext
-Free Text:SCT2\A4E:freetext
-Free Text:SCT2\A4W:freetext
 Free Text:SCT2\A5:freetext
 Free Text:SCT2\A6:freetext
+Free Text:SCT2\A6E:freetext
+Free Text:SCT2\A6W:freetext
 Free Text:SCT2\A7:freetext
 Free Text:SCT2\A8:freetext
 Free Text:SCT2\A9:freetext
@@ -793,6 +792,7 @@ Free Text:SCT2\J5:freetext
 Free Text:SCT2\J6:freetext
 Free Text:SCT2\J7:freetext
 Free Text:SCT2\J8:freetext
+Free Text:SCT2\JACKA:freetext
 Free Text:SCT2\JX:freetext
 Free Text:SCT2\K:freetext
 Free Text:SCT2\K1:freetext
@@ -827,6 +827,7 @@ Free Text:SCT2\M8:freetext
 Free Text:SCT2\M9:freetext
 Free Text:SCT2\MA:freetext
 Free Text:SCT2\Main Apron:freetext
+Free Text:SCT2\MARLO:freetext
 Free Text:SCT2\Maverick:freetext
 Free Text:SCT2\MORRA:freetext
 Free Text:SCT2\MTN 1:freetext
@@ -874,6 +875,7 @@ Free Text:SCT2\Police Air Support:freetext
 Free Text:SCT2\PR:freetext
 Free Text:SCT2\Q:freetext
 Free Text:SCT2\Q1:freetext
+Free Text:SCT2\Q2:freetext
 Free Text:SCT2\Q3:freetext
 Free Text:SCT2\QR:freetext
 Free Text:SCT2\R:freetext
