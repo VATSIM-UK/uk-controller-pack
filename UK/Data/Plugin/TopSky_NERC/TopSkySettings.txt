@@ -71,7 +71,7 @@ Color_Active_Map_Type_4=120,120,120
 //Centrelines
 Color_Active_Map_Type_5=75,75,75
 //OCAS infill
-Color_Active_Map_Type_6=55,55,57
+Color_Active_Map_Type_6=20,20,20
 //Sector background infill
 Color_Active_Map_Type_7=28,28,28
 //Fixes

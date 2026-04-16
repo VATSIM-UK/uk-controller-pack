@@ -45,7 +45,7 @@ ARTCC high boundary:Tay CTA:
 ARTCC high boundary:Wash CTA:
 ARTCC high boundary:Worthing CTA:
 ARTCC high boundary:Yorkshire CTA:
-Regions:Uncontrolled airspace (Grey):polygon
+Regions:Uncontrolled airspace (NERC):polygon
 Sids:London AC Clacton:
 Sids:London AC Daventry:
 Sids:London AC Dover:
