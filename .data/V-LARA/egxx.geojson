@@ -9251,7 +9251,7 @@
         "name": "EGD218A",
         "type": "DANGER",
         "lowerFL": 0,
-        "upperFL": 75
+        "upperFL": 95
       },
       "geometry": {
         "type": "Polygon",
@@ -9330,7 +9330,7 @@
       "properties": {
         "name": "EGD218C",
         "type": "DANGER",
-        "lowerFL": 160,
+        "lowerFL": 180,
         "upperFL": 660
       },
       "geometry": {
