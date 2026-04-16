@@ -2358,7 +2358,7 @@ Fixes:ZOPHI:name
 Fixes:ZOPHI:symbol
 Fixes:ZORFE:name
 Fixes:ZORFE:symbol
-Regions:Uncontrolled airspace (Grey):polygon
+Regions:Uncontrolled airspace (NERC):polygon
 Sids:London AC Clacton:
 Sids:London AC Daventry:
 Sids:London AC Lakes:
@@ -2367,7 +2367,7 @@ Sids:London AC West:
 Sids:PC Northeast:
 Sids:PC West:
 Sids:Scottish AC South:
-Sids:Scottish Deancross:
+Sids:Scottish Borders:
 Sids:Scottish Rathlin:
 VORs:ABB:name
 VORs:ABB:symbol
