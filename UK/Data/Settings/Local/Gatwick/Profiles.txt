@@ -3,7 +3,11 @@ PROFILE:EGKK_DEL:10:2
 ATIS2:Gatwick Delivery | PDC [EGKK]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGKK | Report your TOBT at vats.im/vdgs
 ATIS4:Submit feedback at vats.im/atcfb
-PROFILE:EGKK_GND:20:3
+PROFILE:EGKK_S_GND:20:3
+ATIS2:Gatwick Ground
+ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGKK
+ATIS4:Submit feedback at vats.im/atcfb
+PROFILE:EGKK_N_GND:20:3
 ATIS2:Gatwick Ground | PDC [EGKK]
 ATIS3:INITIAL CLIMB AS CHARTED chartfox.org/EGKK
 ATIS4:Submit feedback at vats.im/atcfb
