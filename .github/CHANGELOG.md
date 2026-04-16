@@ -1,4 +1,6 @@
-﻿# Changes from release 2026/02a to 2026/03
+26. Bug - Fixed .stand duplicated alias - thanks to @JYang365 (John Yang)
+ 
+ # Changes from release 2026/02a to 2026/03
 1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
 2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
 3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
@@ -24,7 +26,6 @@
 23. Bug - Fixed ASEL key unbinding in configurator - thanks to @kristiankunc (Kristián Kunc)
 24. Bug - Fixed Northolt (EGWU) 07/25 centrelines not both displaying - thanks to @spacenano  (Samuel Lefevre)
 25. Enhancement - Incorporated CDM 2.2.8.25 - thanks to @cpawley (Chris Pawley)
-26. Bug - Fixed .stand duplicated alias - thanks to @JYang365 (John Yang)
 
 # Changes from release 2026/02 to 2026/02a
 1. Bug - Fixed UK VACS toml syntax unquoted table key names - Thanks to @lewishh
