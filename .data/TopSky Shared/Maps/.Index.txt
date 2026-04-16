@@ -92,7 +92,7 @@ Release/La Manche.txt
 Release/LEDGO.txt
 Release/Leeds.txt
 Release/LUVUM.txt
-Release/VESAM.txt
+Release/VESAN.txt
 Release/POL-LBA Line.txt
 Release/RAVSA-INLIM Line.txt
 Release/Reims.txt
