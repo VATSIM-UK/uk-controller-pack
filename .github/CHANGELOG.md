@@ -1,9 +1,12 @@
 # Changes from release 2026/03 to 2026/04
-1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
-2. Procedure Change (2604) - Added Gatwick (EGKK) split GMC positions - Thanks to @AdriTheDev (Callum Hicks)
+1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
+2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
+3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - thanks to @Kishore-Nair (Kishore Ravikumar)
+4. AIRAC (2604) - Updated Manchester (EGCC) SMAA - thanks to @Liaely (Lily Unitt)
+5. Procedure Change (2604) - Added Gatwick (EGKK) split GMC positions - thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2026/02a to 2026/03
-1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+1. Bug - Fixed updater version checking - thanks to @MrAdder (Daniel Green)
 2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
 3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
 4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
@@ -11,9 +14,9 @@
 6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
 7. AIRAC (2603) - Amended Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequencies (8.33 conversion) - thanks to @MrAdder (Daniel Green)
 8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
-9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
+9. Bug - Fixed RDF rings drawing by default on Thames profiles - thanks to @AdriTheDev (Callum Hicks)
 10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
-11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - thanks to @AdriTheDev (Callum Hicks)
 12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
 13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
 14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
