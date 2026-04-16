@@ -9,7 +9,7 @@
   "RDF": {
     "schemaVersion": 1,
     "label": "RDF",
-    "message": "1.4.2",
+    "message": "1.4.3",
     "color": "blue",
     "repo": "KingfuChan/RDF"
   },
@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.2.8.25",
+    "message": "2.27",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -44,7 +44,7 @@
   "VFPC": {
     "schemaVersion": 1,
     "label": "VFPC",
-    "message": "3.7.1.0",
+    "message": "3.7.2.0",
     "color": "blue",
     "repo": "VFPC/VFPC"
   },
