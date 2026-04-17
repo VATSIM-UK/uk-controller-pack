@@ -1,3 +1,6 @@
+# Changes from release 2026/04 to 2026/05
+1. Enhancement - Apply changes relating to Solent Identifier update - thanks to @cpawley (Chris Pawley)
+
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
@@ -658,4 +661,3 @@
 20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown)
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
-
