@@ -1,3 +1,5 @@
+.x Bug - Fixed Glasgow (EGPF) Centreline TopSky map ID's - thanks to @spacenano (Samuel Lefevre)
+
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
