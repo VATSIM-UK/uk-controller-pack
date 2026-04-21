@@ -8,7 +8,7 @@
 7. Enhancement - Updated VACS client to v2.2.0 - thanks to @Kishore-Nair (Kishore Ravikumar)
 8. Enhancement - Incorporated VFPC v3.7.2.0, CDM v2.27 and RDF v1.4.3
 9. Bug - Fixed .stand duplicated alias - thanks to @JYang365 (John Yang)
-10. Bug - Updated EGKK vATIS to reflect EGKK Ground Split Operations - thanks to @coleedwards
+10. Bug - Updated EGKK vATIS profile to reflect EGKK split ground operations - thanks to @coleedwards
 
 # Changes from release 2026/02a to 2026/03
 1. Bug - Fixed updater version checking - thanks to @MrAdder (Daniel Green)
