@@ -329,6 +329,11 @@
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "ordinal": 12,
           "enabled": false
+        },
+        {
+          "text": "GROUND OPERATIONS ARE SPLIT. DEPARTURES MAKE FIRST CONTACT WITH GATWICK GROUND USING THE PUBLISHED FREQUENCY FOR YOUR STAND.",
+          "ordinal": 13,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
