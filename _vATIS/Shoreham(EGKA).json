@@ -1,7 +1,7 @@
 {
   "name": "Shoreham",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Shoreham(EGKA).json",
-  "updateSerial": 2025040901,
+  "updateSerial": 2026042201,
   "stations": [
     {
       "id": "a62fad96-4889-4137-a6b4-e5f05638fd6e",

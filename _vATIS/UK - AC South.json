@@ -1,7 +1,7 @@
 {
   "Name": "UK - AC South",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - AC South.json",
-  "updateSerial": 2026012101,
+  "updateSerial": 2026042201,
   "stations": [
     {
       "ordinal": 0,
@@ -1166,284 +1166,284 @@
       "notamDefinitions": []
     },
     {
-  "ordinal": 0,
-  "identifier": "EGKA",
-  "name": "Shoreham",
-  "atisType": "Combined",
-  "codeRange": {
-    "low": "A",
-    "high": "Z"
-  },
-  "atisFormat": {
-    "observationTime": {
-      "template": {
-        "text": "{time}Z",
-        "voice": "{time}"
-      }
-    },
-    "surfaceWind": {
-      "speakLeadingZero": false,
-      "magneticVariation": {
-        "enabled": false,
-        "magneticDegrees": 0
+      "ordinal": 0,
+      "identifier": "EGKA",
+      "name": "Shoreham",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
       },
-      "standard": {
-        "template": {
-          "text": "{wind_dir}{wind_spd}KT",
-          "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 0,
+            "template": {
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "9999"
+        },
+        "recentWeather": {
+          "template": {
+            "text": "",
+            "voice": ""
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": true,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "Q{altimeter|hpa}",
+            "voice": "QNH {altimeter|hpa}"
+          }
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 940,
+              "high": 958,
+              "altitude": 90
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 85
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 80
+            },
+            {
+              "low": 995,
+              "high": 1012,
+              "altitude": 75
+            },
+            {
+              "low": 1013,
+              "high": 1031,
+              "altitude": 70
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 65
+            },
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 60
+            }
+          ],
+          "template": {
+            "text": "TRANSITION-LEVEL FL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}."
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}.",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
         }
       },
-      "standardGust": {
-        "template": {
-          "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-          "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
-        }
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 130980000,
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male",
+        "speechRate": 180
       },
-      "variable": {
-        "template": {
-          "text": "VRB{wind_spd}KT",
-          "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
-        }
-      },
-      "variableGust": {
-        "template": {
-          "text": "VRB{wind_spd}G{wind_gust}KT",
-          "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
-        }
-      },
-      "variableDirection": {
-        "template": {
-          "text": "{wind_vmin}V{wind_vmax}",
-          "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
-        }
-      },
-      "calm": {
-        "calmWindSpeed": 0,
-        "template": {
-          "text": "{wind}",
-          "voice": "SURFACE WIND CALM"
-        }
-      }
-    },
-    "visibility": {
-      "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
-      "unlimitedVisibilityText": "9999"
-    },
-    "recentWeather": {
-      "template": {
-        "text": "",
-        "voice": ""
-      }
-    },
-    "temperature": {
-      "usePlusPrefix": true,
-      "speakLeadingZero": false,
-      "template": {
-        "text": "{temp}",
-        "voice": "TEMPERATURE {temp}"
-      }
-    },
-    "dewpoint": {
-      "usePlusPrefix": true,
-      "speakLeadingZero": false,
-      "template": {
-        "text": "{dewpoint}",
-        "voice": "DEWPOINT {dewpoint}"
-      }
-    },
-    "altimeter": {
-      "pronounceDecimal": false,
-      "template": {
-        "text": "Q{altimeter|hpa}",
-        "voice": "QNH {altimeter|hpa}"
-      }
-    },
-    "transitionLevel": {
-      "values": [
+      "presets": [
         {
-          "low": 940,
-          "high": 958,
-          "altitude": 90
+          "id": "491b7fa5-e6b6-4dfe-a484-c75cb9de9224",
+          "name": "LON_S_CTR",
+          "airportConditions": "",
+          "notams": "",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT LONDON CONTROL FREQUENCY 129.430.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         },
         {
-          "low": 959,
-          "high": 976,
-          "altitude": 85
-        },
-        {
-          "low": 977,
-          "high": 994,
-          "altitude": 80
-        },
-        {
-          "low": 995,
-          "high": 1012,
-          "altitude": 75
-        },
-        {
-          "low": 1013,
-          "high": 1031,
-          "altitude": 70
-        },
-        {
-          "low": 1032,
-          "high": 1049,
-          "altitude": 65
-        },
-        {
-          "low": 1050,
-          "high": 1060,
-          "altitude": 60
+          "id": "ac2e19e8-0eeb-44d2-b5e9-97d98327f1a0",
+          "name": "LON_H_CTR",
+          "airportConditions": "",
+          "notams": "",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT LONDON CONTROL FREQUENCY 134.440.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
         }
       ],
-      "template": {
-        "text": "TRANSITION-LEVEL FL {trl}",
-        "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}."
-      }
+      "contractions": [
+        {
+          "variableName": "LVPS",
+          "text": "LVPS",
+          "voice": "L V PEES"
+        },
+        {
+          "variableName": "LOGON",
+          "text": "LOGON",
+          "voice": "LOG ON"
+        },
+        {
+          "variableName": "EGKA",
+          "text": "EGKA",
+          "voice": "SHOREHAM"
+        },
+        {
+          "variableName": "QNH",
+          "text": "QNH",
+          "voice": "Q. N. H."
+        },
+        {
+          "variableName": "QFE",
+          "text": "QFE",
+          "voice": "Q. F. E."
+        },
+        {
+          "variableName": "KT",
+          "text": "KT",
+          "voice": "KNOTS"
+        },
+        {
+          "variableName": "INFORMATION",
+          "text": "EGKA ATIS",
+          "voice": "THIS IS SHOREHAM ARRIVAL AND DEPARTURE INFORMATION"
+        },
+        {
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "INFORMATION"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "RUNWAY IN USE 02.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY IN USE 20.",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "RUNWAY IN USE 13.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY IN USE 31.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY IN USE 06.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY IN USE 24.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "LEFT HAND CIRCUIT.",
+          "ordinal": 7,
+          "enabled": true
+        },
+        {
+          "text": "RIGHT HAND CIRCUIT.",
+          "ordinal": 8,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
     },
-    "notams": {
-      "template": {
-        "text": "{notams}",
-        "voice": "{notams}"
-      }
-    },
-    "closingStatement": {
-      "autoIncludeClosingStatement": false,
-      "template": {
-        "text": "...ADVS YOU HAVE INFO {letter}.",
-        "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
-      }
-    }
-  },
-  "notamsBeforeFreeText": false,
-  "airportConditionsBeforeFreeText": false,
-  "frequency": 130980000,
-  "useDecimalTerminology": true,
-  "atisVoice": {
-    "useTextToSpeech": true,
-    "voice": "UK Male",
-    "speechRate": 180
-  },
-  "presets": [
-    {
-      "id": "491b7fa5-e6b6-4dfe-a484-c75cb9de9224",
-      "name": "LON_S_CTR",
-      "airportConditions": "",
-      "notams": "",
-      "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT LONDON CONTROL FREQUENCY 129.430.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
-      "externalGenerator": {
-        "enabled": false,
-        "textUrl": "",
-        "voiceUrl": "",
-        "arrival": "",
-        "departure": "",
-        "approaches": "",
-        "remarks": ""
-      }
-    },
-    {
-      "id": "ac2e19e8-0eeb-44d2-b5e9-97d98327f1a0",
-      "name": "LON_H_CTR",
-      "airportConditions": "",
-      "notams": "",
-      "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT LONDON CONTROL FREQUENCY 134.440.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
-      "externalGenerator": {
-        "enabled": false,
-        "textUrl": "",
-        "voiceUrl": "",
-        "arrival": "",
-        "departure": "",
-        "approaches": "",
-        "remarks": ""
-      }
-    }
-  ],
-  "contractions": [
-    {
-      "variableName": "LVPS",
-      "text": "LVPS",
-      "voice": "L V PEES"
-    },
-    {
-      "variableName": "LOGON",
-      "text": "LOGON",
-      "voice": "LOG ON"
-    },
-    {
-      "variableName": "EGKA",
-      "text": "EGKA",
-      "voice": "SHOREHAM"
-    },
-    {
-      "variableName": "QNH",
-      "text": "QNH",
-      "voice": "Q. N. H."
-    },
-    {
-      "variableName": "QFE",
-      "text": "QFE",
-      "voice": "Q. F. E."
-    },
-    {
-      "variableName": "KT",
-      "text": "KT",
-      "voice": "KNOTS"
-    },
-    {
-      "variableName": "INFORMATION",
-      "text": "EGKA ATIS",
-      "voice": "THIS IS SHOREHAM ARRIVAL AND DEPARTURE INFORMATION"
-    },
-    {
-      "variableName": "ATIS",
-      "text": "ATIS",
-      "voice": "INFORMATION"
-    }
-  ],
-  "airportConditionDefinitions": [
-    {
-      "text": "RUNWAY IN USE 02.",
-      "ordinal": 1,
-      "enabled": false
-    },
-    {
-      "text": "RUNWAY IN USE 20.",
-      "ordinal": 2,
-      "enabled": true
-    },
-    {
-      "text": "RUNWAY IN USE 13.",
-      "ordinal": 3,
-      "enabled": false
-    },
-    {
-      "text": "RUNWAY IN USE 31.",
-      "ordinal": 4,
-      "enabled": false
-    },
-    {
-      "text": "RUNWAY IN USE 06.",
-      "ordinal": 5,
-      "enabled": false
-    },
-    {
-      "text": "RUNWAY IN USE 24.",
-      "ordinal": 6,
-      "enabled": false
-    },
-    {
-      "text": "LEFT HAND CIRCUIT.",
-      "ordinal": 7,
-      "enabled": true
-    },
-    {
-      "text": "RIGHT HAND CIRCUIT.",
-      "ordinal": 8,
-      "enabled": false
-    }
-  ],
-  "notamDefinitions": []
-},
     {
       "ordinal": 0,
       "identifier": "EGKB",
