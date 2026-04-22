@@ -1,0 +1,64 @@
+ABJ	Blue Air	Alphajet
+ACH	Air-Child	Air-Child
+AEO	Aeolos Airlines	Aeolos
+AGJ	Air Greece	Air Greece
+AHN	Air Hungaria	Air Hungaria
+ANV	Aeronav Association	Aeronav
+ASE	Aegean Seagull	Seagull
+AWG	AirWeGo	Airwego
+AZT	Aztec Airways	Aztec
+BFA	Butterfly	Butterfly
+CAG	Capitalconnect	Capcon
+CSB	Cassubian	Cassubian
+CXD	Candan Air	Candan
+CYB	Cyber Air	Cyber
+DBX	Air Danubius	Danubius
+EUL	Euroline	Euroline
+FCY	Cyberavia	Cyberavia
+FEU	Flyeuro	Flyeuro
+FFG	Federated Flight Group	Federated Flight Group
+FFP	Primacharter	Flyingfish
+FFR	Fisher	Fisher
+FGY	Fly GA	Skyway
+FSV	Flysweden	Flyswede
+GAE	German Air Express	Express
+GAV	Go Air UK	Goair
+GEL	Germaneagle	German Eagle
+GEW	German Airways	Blueflight
+GHY	German SKY	German Sky
+GLW	Global Wings	Global Wings
+HLF	Hapag-Lloyd Flug	Hapag-Lloyd
+IFY	Interfly	Interfly
+IMP	Hellenic Imperial	Imperial
+INF	Infinity Air	Infinity
+INJ	Interjet	Interjet
+JFD	Jadefly	Jadefly
+JHI	Your Airways	Dorpat
+JHX	Your Exclusive	Shadow
+KSX	Smart Express	Smart Express
+LAZ	Balkan Bulgarian Airlines	Balkan
+LDI	Lauda Air Italy	Lauda Italy
+LHA	Leipzig Air	Leipzig Air
+LRF	Air Septimanie	Air Septimanie
+MAH	Malev Virtual	Malev
+MED	Meriterranea	Mediterranea
+PLC	Poland Cargo	Poland Cargo
+PUG	Rallyeair	Rallyair
+RQX	Swiss Wings	Swiss Wings
+RSW	Air Switzerland	Air Switzerland
+SAB	Sabena Airlines	Sabena
+SAV	Severnair	Severnair
+SBZ	Skybound Airways	Skybound
+SPE	Speedair	Speedair
+SIM	Simulator Verein Rhein-Neckar	Sim-Line
+STK	Starsky	Starsky
+STR	Starline Airways	Starline
+STV	Stevens Express	Stevens
+SWH	Swissair	Swissair
+UGA	United Global Airways	United Global
+UKV	UK Virtual	Skyways
+VAR	Virtuali Roma	Virtuali Roma
+VBA	V-Bird	Veebee
+VHR	Humanit'air	Humanitair
+VNC	Virtual NAC	VNC
+ZEA	Zonexecutive	Exec

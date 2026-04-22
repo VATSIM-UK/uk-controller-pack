@@ -1,8 +1,8 @@
-Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\Scottish\PX_TC_Plugins.txt
-Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\Scottish\PX_TC_Profiles.txt
+Settings	SettingsfilePLUGINS	\..\..\Data\Settings\Local\Scottish\SCL_Plugins.txt
+Settings	SettingsfilePROFILE	\..\..\Data\Settings\Local\Scottish\SCL_Profiles.txt
 Settings	SettingsfileSCREEN	\..\..\Data\Settings\Screen.txt
 Settings	SettingsfileVOICE	\..\..\Data\Settings\Voice_Scottish.txt
-Settings	Settingsfile	\..\..\Data\Settings\STC\STC_General.txt
+Settings	Settingsfile	\..\..\Data\Settings\SCL\SCL_General.txt
 Settings	SettingsfileARR	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileCONFLICT	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileDEP	\..\..\Data\Settings\Lists_Area.txt
@@ -13,30 +13,30 @@ Settings	SettingsfileSTUP	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileTAXIOUT	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileTAKEOFF	\..\..\Data\Settings\Lists_Area.txt
 Settings	SettingsfileTAXIIN	\..\..\Data\Settings\Lists_Area.txt
-Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\STC\STC_Symbology.txt
+Settings	SettingsfileSYMBOLOGY	\..\..\Data\Settings\SCL\SCL_Symbology.txt
 Settings	SettingsfileTAGS	\..\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\..\Data\Settings\VCCS_Scottish.txt
-Settings	sector	UK\Data\Sector\UK_2025_13.sct
+Settings	sector	UK\Data\Sector\UK_2026_04.sct
 Settings	alias	\..\..\Data\Alias\AC_Alias.txt
 Settings	SectorFileProviderDescriptor	\..\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
-RecentFiles	Recent1	\..\..\Data\ASR\STC\STC1.asr
-RecentFiles	Recent2	\..\..\Data\ASR\STC\STC2.asr
-RecentFiles	Recent3	\..\..\Data\ASR\STC\STC3.asr
-RecentFiles	Recent4	\..\..\Data\ASR\STC\STC4.asr
-RecentFiles	Recent5	\..\..\Data\ASR\STC\Edinburgh SMR.asr
-RecentFiles	Recent6	\..\..\Data\ASR\STC\Glasgow SMR.asr
-RecentFiles	Recent7	\..\..\Data\ASR\STC\Aldergrove SMR.asr
-RecentFiles	Recent8	\..\..\Data\ASR\STC\Belfast City SMR.asr
-RecentFiles	Recent9	\..\..\Data\ASR\STC\STC_Ground.asr
-ASRFastKeys	1	\..\..\Data\ASR\STC\STC1.asr
-ASRFastKeys	2	\..\..\Data\ASR\STC\STC2.asr
-ASRFastKeys	3	\..\..\Data\ASR\STC\STC3.asr
-ASRFastKeys	4	\..\..\Data\ASR\STC\STC4.asr
-ASRFastKeys	5	\..\..\Data\ASR\STC\Edinburgh SMR.asr
-ASRFastKeys	6	\..\..\Data\ASR\STC\Glasgow SMR.asr
-ASRFastKeys	7	\..\..\Data\ASR\STC\Aldergrove SMR.asr
-ASRFastKeys	8	\..\..\Data\ASR\STC\Belfast City SMR.asr
-ASRFastKeys	9	\..\..\Data\ASR\STC\STC_Ground.asr
+RecentFiles	Recent1	\..\..\Data\ASR\SCL\SCL1.asr
+RecentFiles	Recent2	\..\..\Data\ASR\SCL\SCL2.asr
+RecentFiles	Recent3	\..\..\Data\ASR\SCL\SCL3.asr
+RecentFiles	Recent4	\..\..\Data\ASR\SCL\SCL4.asr
+RecentFiles	Recent5	\..\..\Data\ASR\SCL\Edinburgh SMR.asr
+RecentFiles	Recent6	\..\..\Data\ASR\SCL\Glasgow SMR.asr
+RecentFiles	Recent7	\..\..\Data\ASR\SCL\Aldergrove SMR.asr
+RecentFiles	Recent8	\..\..\Data\ASR\SCL\Belfast City SMR.asr
+RecentFiles	Recent9	\..\..\Data\ASR\SCL\SCL_Ground.asr
+ASRFastKeys	1	\..\..\Data\ASR\SCL\SCL1.asr
+ASRFastKeys	2	\..\..\Data\ASR\SCL\SCL2.asr
+ASRFastKeys	3	\..\..\Data\ASR\SCL\SCL3.asr
+ASRFastKeys	4	\..\..\Data\ASR\SCL\SCL4.asr
+ASRFastKeys	5	\..\..\Data\ASR\SCL\Edinburgh SMR.asr
+ASRFastKeys	6	\..\..\Data\ASR\SCL\Glasgow SMR.asr
+ASRFastKeys	7	\..\..\Data\ASR\SCL\Aldergrove SMR.asr
+ASRFastKeys	8	\..\..\Data\ASR\SCL\Belfast City SMR.asr
+ASRFastKeys	9	\..\..\Data\ASR\SCL\SCL_Ground.asr
 Plugins	Plugin0	\..\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
 Plugins	Plugin1	\..\..\Data\Plugin\UKControllerPlugin.dll
@@ -45,7 +45,7 @@ Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\..\Data\Plugin\RDFPlugin.dll
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	SMR radar display
-Plugins	Plugin3	\..\..\Data\Plugin\VFPC.dll
+Plugins	Plugin3	\..\..\Data\Plugin\VFPC\VFPC.dll
 Plugins	Plugin4	\..\..\Data\Plugin\VCH.dll
 Plugins	Plugin5	\..\..\Data\Plugin\TopSky_NODE\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen

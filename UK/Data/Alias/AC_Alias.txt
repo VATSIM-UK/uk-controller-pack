@@ -1,6 +1,6 @@
 ========================================================
 Alias:    	    UK
-Last Updated:	2025-04-04
+Last Updated:	2026-02-27
 ========================================================
 
 ========================================================
@@ -16,6 +16,8 @@ Generic
 
 .v Can you receive voice?
 .std Check Standard Pressure is set (1013 hPa)
+
+.audio Hi there. Please check your audio settings and restart your pilot client as it seems you are having audio issues.
 
 .sec You can check coverage at https://vatglasses.uk/ukireland/
 .cov You can check coverage at https://vatglasses.uk/ukireland/
@@ -41,6 +43,8 @@ Generic
 .rpa Report your passing altitude
 
 .qnh QNH $altim($1)
+
+.standreq In future you can request your preferred stand when landing in the UK by visiting ukcp.vatsim.uk at least 20 minutes prior to your arrival
 
 ========================================================
 New Pilots
@@ -68,7 +72,7 @@ Supervisor Calls
 .wb8 .wallop $aircraft is not able to comply with basic instructions such as flying headings, speeds and levels.
 .wmic .wallop $aircraft has a stuck mic and is not responding to messages.
 .wmayday .wallop $aircraft has called a MAYDAY but is refusing to resume normal flight or disconnect as I am not providing service to MAYDAYs at the moment.
-.wpaused .wallop $aircraft has pasued in my airspace which has added complexity and is conflicting with other traffic.
+.wpaused .wallop $aircraft has paused in my airspace which has added complexity and is conflicting with other traffic.
 
 ========================================================
 Handoffs
@@ -149,6 +153,8 @@ Departure
 .23sanba SANBA N859 HON then as filed
 .listo LISTO L612 HON then as filed
 
+.09dvr DET UL6 DVR then as filed
+.27dvr DET UL6 DVR then as filed
 .09sam GASGU N866 SAM then as filed
 .27sam GOGSI N621 SAM then as filed
 .09evtes GASGU N514 EVTES then as filed
@@ -156,6 +162,7 @@ Departure
 .09mid MODMI M185 MID then as filed
 .27mid MAXIT Y803 MID then as filed
 .09welin ULTIB T420 then as filed
+.09buzad ULTIB T420 then as filed
 .27welin UMLAT T418 WELIN then as filed
 
 .hic Cleared to $arr via $1, initial climb to altitude 3000ft, squawk $squawk
@@ -171,7 +178,8 @@ Departure
 .ready Readback correct, report ready
 .readyq Readback correct, QNH $altim($dep), report ready
 
-.tobt Submit your TOBT (TARGET OFF BLOCK TIME) at vats.im/vdgs
+.tsat YOUR TTOT/CTOT (TARGET TAKEOFF / TAKEOFF SLOT) IS $1Z, EXPECT START AT TIME $2 - visit vats.im/vdgs for updates - please do not call me for this information.
+.tobt Submit your TOBT (TARGET OFF BLOCK TIME) at vats.im/vdgs - here you can also see your planned pushback and takeoff time.
 
 ========================================================
 Ground Movement
@@ -298,8 +306,6 @@ Flight Information Service
 .rcs Radar control
 .cteca Cleared to enter controlled airspace, $1
 .ctlcabd Cleared to leave controlled airspace by descent
-
-.ukfis If you would like more information about UK Flight Infomation Service, you can find out more here; https://vats.im/UKFIS
 
 .basic You have left controlled airspace. You are now receiving a basic service which offers you maximum autonomy. Airspace activity and traffic information is subject to controller workload. The avoidance of other traffic remains your responsibility.
 .traffic You have left controlled airspace. You are now receiving a traffic service which provides detailed traffic information on specific conflicting aircraft. I will not provide you with deconfliction advice regardless of your meteorological conditions.

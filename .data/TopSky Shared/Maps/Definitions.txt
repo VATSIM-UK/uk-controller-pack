@@ -1,6 +1,3 @@
-//Daylight savings dates correct for Mar 2025/Oct 2025
-//Requires update before Mar 2026 replace :0329: :0330: :1026: :1027:
-
 SCTFILEPATH:..\..\Sector\UK_*
 
 SYMBOLDEF:Fix
@@ -8,6 +5,12 @@ MOVETO:0:-2
 LINETO:0:3
 MOVETO:-2:0
 LINETO:3:0
+
+SYMBOLDEF:RNPApproachFix
+MOVETO:-3:-3
+LINETO:4:4
+MOVETO:3:-3
+LINETO:-4:4
 
 SYMBOLDEF:TRIVRP
 MOVETO:-4:3

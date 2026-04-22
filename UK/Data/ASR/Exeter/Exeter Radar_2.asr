@@ -394,6 +394,7 @@ Fixes:ADODO:symbol
 Fixes:ADRUD:symbol
 Fixes:ADVAS:symbol
 Fixes:ADVAT:symbol
+Fixes:AGANO:symbol
 Fixes:AGBOS:symbol
 Fixes:AGCAT:symbol
 Fixes:AGLIL:symbol
@@ -425,6 +426,8 @@ Fixes:AMTAP:symbol
 Fixes:AMTOD:symbol
 Fixes:AMVEL:symbol
 Fixes:AMWAB:symbol
+Fixes:ANGLA:symbol
+Fixes:ANGLO:symbol
 Fixes:ANJAK:symbol
 Fixes:ANMAZ:symbol
 Fixes:ANNET:symbol
@@ -438,6 +441,7 @@ Fixes:ARREK:symbol
 Fixes:ARSAT:symbol
 Fixes:ARTEX:symbol
 Fixes:ARTIX:symbol
+Fixes:ASCOM:symbol
 Fixes:ASHUM:symbol
 Fixes:ASKAM:symbol
 Fixes:ASLIB:symbol
@@ -463,6 +467,7 @@ Fixes:BADGA:symbol
 Fixes:BADIM:symbol
 Fixes:BADSI:symbol
 Fixes:BAGIT:symbol
+Fixes:BAGPA:symbol
 Fixes:BAGSO:symbol
 Fixes:BAJJA:symbol
 Fixes:BAKOX:symbol
@@ -497,6 +502,7 @@ Fixes:BEKMO:symbol
 Fixes:BELOX:symbol
 Fixes:BELZU:symbol
 Fixes:BENBO:symbol
+Fixes:BENIX:symbol
 Fixes:BENSU:symbol
 Fixes:BEPHE:symbol
 Fixes:BEREP:symbol
@@ -506,6 +512,7 @@ Fixes:BESGA:symbol
 Fixes:BETAX:symbol
 Fixes:BETPO:symbol
 Fixes:BEVAM:symbol
+Fixes:BEVAV:symbol
 Fixes:BEVUP:symbol
 Fixes:BIBAX:symbol
 Fixes:BIBPE:symbol
@@ -534,6 +541,7 @@ Fixes:BOXHE:symbol
 Fixes:BOYNE:symbol
 Fixes:BRAIN:symbol
 Fixes:BRASO:symbol
+Fixes:BRILL:symbol
 Fixes:BRIPO:symbol
 Fixes:BRUCE:symbol
 Fixes:BRUMI:symbol
@@ -547,6 +555,7 @@ Fixes:BULAM:symbol
 Fixes:BURNI:symbol
 Fixes:BUSTA:symbol
 Fixes:BUZAD:symbol
+Fixes:BUZDE:symbol
 Fixes:CALDA:symbol
 Fixes:CANZI:symbol
 Fixes:CARWI:symbol
@@ -555,6 +564,7 @@ Fixes:CAWZE:symbol
 Fixes:CESQA:symbol
 Fixes:CHASE:symbol
 Fixes:CHINN:symbol
+Fixes:CHUBB:symbol
 Fixes:CLYDE:symbol
 Fixes:COCCU:symbol
 Fixes:CONHA:symbol
@@ -589,6 +599,7 @@ Fixes:DIGBI:symbol
 Fixes:DIGMA:symbol
 Fixes:DIGSU:symbol
 Fixes:DIGUT:symbol
+Fixes:DIKRO:symbol
 Fixes:DIKVU:symbol
 Fixes:DIMAL:symbol
 Fixes:DIMLI:symbol
@@ -625,6 +636,7 @@ Fixes:EDONU:symbol
 Fixes:EDUXO:symbol
 Fixes:EFMIH:symbol
 Fixes:EGRUF:symbol
+Fixes:EGTOC:symbol
 Fixes:EKLAD:symbol
 Fixes:EKNIV:symbol
 Fixes:ELBOB:symbol
@@ -671,6 +683,7 @@ Fixes:EPOXI:symbol
 Fixes:EPUNA:symbol
 Fixes:ERAKA:symbol
 Fixes:ERDOG:symbol
+Fixes:ERDOW:symbol
 Fixes:ERDUV:symbol
 Fixes:ERGAB:symbol
 Fixes:ERGUM:symbol
@@ -680,6 +693,7 @@ Fixes:ERKIT:symbol
 Fixes:ERLOT:symbol
 Fixes:ERNAN:symbol
 Fixes:ERSON:symbol
+Fixes:ESHIN:symbol
 Fixes:ESKDO:symbol
 Fixes:ESTRY:symbol
 Fixes:ETARI:symbol
@@ -695,13 +709,13 @@ Fixes:EVCOR:symbol
 Fixes:EVELI:symbol
 Fixes:EVEXU:symbol
 Fixes:EVKAL:symbol
+Fixes:EVKEX:symbol
 Fixes:EVMEK:symbol
 Fixes:EVNAL:symbol
 Fixes:EVNAS:symbol
 Fixes:EVRIN:symbol
 Fixes:EVSEM:symbol
 Fixes:EVSON:symbol
-Fixes:EVTAR:symbol
 Fixes:EVTES:symbol
 Fixes:EVTOL:symbol
 Fixes:EXARO:symbol
@@ -709,6 +723,7 @@ Fixes:EXBUM:symbol
 Fixes:EXFOB:symbol
 Fixes:EXKIC:symbol
 Fixes:EXMOR:symbol
+Fixes:EZTIM:symbol
 Fixes:FACTU:symbol
 Fixes:FADZU:symbol
 Fixes:FANFE:symbol
@@ -770,18 +785,17 @@ Fixes:GODPA:symbol
 Fixes:GOGSI:symbol
 Fixes:GOKTU:symbol
 Fixes:GOLES:symbol
-Fixes:GOLVO:symbol
 Fixes:GOMOT:symbol
 Fixes:GOMUP:symbol
 Fixes:GONAN:symbol
 Fixes:GOREV:symbol
 Fixes:GOSAM:symbol
-Fixes:GOTGO:symbol
 Fixes:GOTNA:symbol
 Fixes:GOXUL:symbol
 Fixes:GRICE:symbol
 Fixes:GROVE:symbol
 Fixes:GUBJE:symbol
+Fixes:GULDA:symbol
 Fixes:GUNPA:symbol
 Fixes:GUNSO:symbol
 Fixes:GUNTU:symbol
@@ -837,7 +851,6 @@ Fixes:INNUF:symbol
 Fixes:INPIP:symbol
 Fixes:INPUT:symbol
 Fixes:INREV:symbol
-Fixes:INVON:symbol
 Fixes:IPDOR:symbol
 Fixes:IPKUS:symbol
 Fixes:IPNOX:symbol
@@ -860,6 +873,7 @@ Fixes:KAMJU:symbol
 Fixes:KAPEX:symbol
 Fixes:KARNO:symbol
 Fixes:KATHY:symbol
+Fixes:KEFTE:symbol
 Fixes:KEGIT:symbol
 Fixes:KEGUN:symbol
 Fixes:KELLY:symbol
@@ -879,6 +893,7 @@ Fixes:KOBBI:symbol
 Fixes:KOGAD:symbol
 Fixes:KOKAL:symbol
 Fixes:KOKIB:symbol
+Fixes:KOKOS:symbol
 Fixes:KOLID:symbol
 Fixes:KONAN:symbol
 Fixes:KOPUL:symbol
@@ -914,10 +929,12 @@ Fixes:LAVRI:symbol
 Fixes:LAWJO:symbol
 Fixes:LEDGO:symbol
 Fixes:LEGRO:symbol
+Fixes:LEHOC:symbol
 Fixes:LEKCI:symbol
 Fixes:LELDO:symbol
 Fixes:LELNA:symbol
 Fixes:LEMGU:symbol
+Fixes:LERAK:symbol
 Fixes:LESLU:symbol
 Fixes:LESNI:symbol
 Fixes:LESRA:symbol
@@ -949,6 +966,7 @@ Fixes:LUGIS:symbol
 Fixes:LULOX:symbol
 Fixes:LUMEN:symbol
 Fixes:LUSEN:symbol
+Fixes:LUSIT:symbol
 Fixes:LUSIV:symbol
 Fixes:LUSOD:symbol
 Fixes:LUSOR:symbol
@@ -975,11 +993,13 @@ Fixes:MAXIT:symbol
 Fixes:MAYLA:symbol
 Fixes:MEDOG:symbol
 Fixes:MEGEL:symbol
+Fixes:MEJAC:symbol
 Fixes:MEZRE:symbol
 Fixes:MIDJO:symbol
 Fixes:MIMFO:symbol
 Fixes:MIMKU:symbol
 Fixes:MIMVA:symbol
+Fixes:MINQI:symbol
 Fixes:MIPVO:symbol
 Fixes:MIRSI:symbol
 Fixes:MITSO:symbol
@@ -1072,6 +1092,7 @@ Fixes:NUCHU:symbol
 Fixes:NUDNA:symbol
 Fixes:NUGBO:symbol
 Fixes:NUGRA:symbol
+Fixes:NUKPE:symbol
 Fixes:NULGU:symbol
 Fixes:NUMPI:symbol
 Fixes:OBOXA:symbol
@@ -1080,7 +1101,6 @@ Fixes:OBUNI:symbol
 Fixes:ODIGI:symbol
 Fixes:ODMIX:symbol
 Fixes:ODMOS:symbol
-Fixes:ODNEK:symbol
 Fixes:ODPEX:symbol
 Fixes:ODREP:symbol
 Fixes:ODROB:symbol
@@ -1101,12 +1121,15 @@ Fixes:OLGUD:symbol
 Fixes:OLMOL:symbol
 Fixes:OLNEY:symbol
 Fixes:OLPOP:symbol
+Fixes:OMENU:symbol
 Fixes:OMOKO:symbol
 Fixes:OPALE:symbol
 Fixes:ORIST:symbol
+Fixes:ORMER:symbol
 Fixes:ORSUM:symbol
 Fixes:ORTAC:symbol
 Fixes:ORTAV:symbol
+Fixes:ORVAL:symbol
 Fixes:ORVIK:symbol
 Fixes:ORVUL:symbol
 Fixes:ORZEB:symbol
@@ -1122,7 +1145,6 @@ Fixes:OSSEP:symbol
 Fixes:OSWEZ:symbol
 Fixes:OTBED:symbol
 Fixes:OTBUN:symbol
-Fixes:OTLAB:symbol
 Fixes:OTMET:symbol
 Fixes:OTSID:symbol
 Fixes:OVDAN:symbol
@@ -1130,6 +1152,7 @@ Fixes:OVZOG:symbol
 Fixes:OXCUD:symbol
 Fixes:OXDUF:symbol
 Fixes:OXLOW:symbol
+Fixes:OYSTA:symbol
 Fixes:OZBOC:symbol
 Fixes:OZRAT:symbol
 Fixes:OZZIL:symbol
@@ -1153,6 +1176,7 @@ Fixes:PEPIS:symbol
 Fixes:PEPOD:symbol
 Fixes:PEPUL:symbol
 Fixes:PEPZE:symbol
+Fixes:PERCH:symbol
 Fixes:PERUP:symbol
 Fixes:PETAX:symbol
 Fixes:PETIL:symbol
@@ -1194,6 +1218,7 @@ Fixes:REVTU:symbol
 Fixes:REXAM:symbol
 Fixes:RIBEL:symbol
 Fixes:RIGVU:symbol
+Fixes:RIKPU:symbol
 Fixes:RIMOL:symbol
 Fixes:RIMTO:symbol
 Fixes:RIMUP:symbol
@@ -1229,7 +1254,6 @@ Fixes:ROSUN:symbol
 Fixes:ROTEV:symbol
 Fixes:ROTNO:symbol
 Fixes:ROVLA:symbol
-Fixes:ROVNI:symbol
 Fixes:ROXAT:symbol
 Fixes:ROXOG:symbol
 Fixes:RUBEX:symbol
@@ -1244,6 +1268,7 @@ Fixes:RUMKE:symbol
 Fixes:RUXIN:symbol
 Fixes:SABER:symbol
 Fixes:SALCO:symbol
+Fixes:SAMHO:symbol
 Fixes:SAMON:symbol
 Fixes:SANBA:symbol
 Fixes:SANDY:symbol
@@ -1252,8 +1277,10 @@ Fixes:SASKI:symbol
 Fixes:SAWPE:symbol
 Fixes:SAXBI:symbol
 Fixes:SEMMU:symbol
+Fixes:SENLO:symbol
 Fixes:SETEL:symbol
 Fixes:SHAPP:symbol
+Fixes:SHARK:symbol
 Fixes:SHIRI:symbol
 Fixes:SIDDI:symbol
 Fixes:SIDHO:symbol
@@ -1282,10 +1309,10 @@ Fixes:SOPEK:symbol
 Fixes:SOPIT:symbol
 Fixes:SOPTO:symbol
 Fixes:SOQQA:symbol
+Fixes:SORER:symbol
 Fixes:SOSAR:symbol
 Fixes:SOSIM:symbol
 Fixes:SOSUN:symbol
-Fixes:SOTUN:symbol
 Fixes:SOVAT:symbol
 Fixes:SOVED:symbol
 Fixes:SOXON:symbol
@@ -1338,10 +1365,8 @@ Fixes:TILNI:symbol
 Fixes:TIMBA:symbol
 Fixes:TIMIS:symbol
 Fixes:TIMPO:symbol
-Fixes:TIMUP:symbol
 Fixes:TINAC:symbol
 Fixes:TINAN:symbol
-Fixes:TINDI:symbol
 Fixes:TIPAN:symbol
 Fixes:TIPIL:symbol
 Fixes:TIPOD:symbol
@@ -1370,6 +1395,7 @@ Fixes:TUJAG:symbol
 Fixes:TULTA:symbol
 Fixes:TUMTI:symbol
 Fixes:TUNBY:symbol
+Fixes:TUNIT:symbol
 Fixes:TUNSO:symbol
 Fixes:TUPEM:symbol
 Fixes:TURLU:symbol
@@ -1399,6 +1425,7 @@ Fixes:UPCAB:symbol
 Fixes:UPDUK:symbol
 Fixes:UPGAS:symbol
 Fixes:UPGET:symbol
+Fixes:UPLIS:symbol
 Fixes:UPNAL:symbol
 Fixes:UPTON:symbol
 Fixes:USEKA:symbol
@@ -1420,13 +1447,13 @@ Fixes:VASUX:symbol
 Fixes:VATON:symbol
 Fixes:VATRY:symbol
 Fixes:VAXIT:symbol
+Fixes:VAXMA:symbol
 Fixes:VEGAR:symbol
 Fixes:VEGUS:symbol
 Fixes:VELAG:symbol
 Fixes:VELOL:symbol
 Fixes:VENAS:symbol
 Fixes:VENER:symbol
-Fixes:VEREX:symbol
 Fixes:VESAN:symbol
 Fixes:VEULE:symbol
 Fixes:VEXEN:symbol

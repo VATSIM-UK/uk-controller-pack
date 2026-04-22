@@ -3,7 +3,7 @@
 	<rate ops="37" />
 	<rateLvo ops="15" />
 	<expiredCtot time="25" />
-	<realMode mode="false" />
+	<realMode mode="true" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="true" />
 	<invalidateAtTsat mode="true" />
@@ -14,6 +14,7 @@
 	<sidInterval url="https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/UK/Data/Plugin/CDM/sidInterval.txt" />
 	<DefaultTaxiTime minutes="11" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
+	<DeIceRemTaxi rem1Name="REM1" rem1="10" rem2Name="REM2" rem2="10" rem3Name="REM3" rem3="10" rem4Name="REM4" rem4="10" rem5Name="REM5" rem5="10"/>
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
 	<FlowRestrictions url="" />

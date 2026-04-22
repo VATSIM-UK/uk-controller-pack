@@ -1,11 +1,14 @@
 import os
 import sys
+import shutil
+import tempfile
 
 # Replaced at build time by the GitHub workflow
 UPDATER_BUILD = "__GIT_COMMIT__"
 
 
 def _cli_early_exit() -> None:
+    # Handle helper CLI flags used by CI/build scripts and exit before GUI startup.
     args = sys.argv[1:]
 
     if "--write-build" in args:
@@ -45,10 +48,13 @@ from urllib3.util.retry import Retry
 import webbrowser
 import zipfile
 
+from dulwich.objects import Blob
+
 REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
 
 LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
+LOCAL_PACK_VERSION_FILE = os.path.join("Data", "Sector", "pack_version.txt")
 
 # Remote reference for latest updater build ID (short hash)
 UPDATER_VERSION_URL = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/main/.data/updater_version.txt"
@@ -72,12 +78,14 @@ GNG_REQUIRED = {
 
 
 def resource_path(rel: str) -> str:
+    # Resolve bundled resource paths for both PyInstaller and source runs.
     if hasattr(sys, "_MEIPASS"):
         return os.path.join(sys._MEIPASS, rel)
     return os.path.join(os.path.dirname(__file__), rel)
 
 
 def use_azure_theme(root: tk.Tk, mode: str = "dark") -> None:
+    # Apply the Azure Tk theme when available; fail quietly if theme files are missing.
     try:
         root.tk.call("source", resource_path("workflows/build-updater/azure.tcl"))
         style = ttk.Style(root)
@@ -88,6 +96,7 @@ def use_azure_theme(root: tk.Tk, mode: str = "dark") -> None:
 
 
 def normalize_version(vstr: str) -> str:
+    # Normalize tags like YYYY_M to YYYY_MM so lexical version comparisons are safe.
     if not vstr:
         return vstr
 
@@ -99,6 +108,7 @@ def normalize_version(vstr: str) -> str:
 
 
 def set_window_icon(root: tk.Tk) -> None:
+    # Set the application window icon when logo.ico is available.
     try:
         icon_path = resource_path("workflows/build-updater/logo.ico")
         if os.path.exists(icon_path):
@@ -109,6 +119,7 @@ def set_window_icon(root: tk.Tk) -> None:
 
 class UpdaterApp:
     def __init__(self, root: tk.Tk):
+        # Build the updater UI, initialize logging, and prepare network session state.
         self.root = root
 
         self._q: queue.Queue[str] = queue.Queue()
@@ -165,10 +176,12 @@ class UpdaterApp:
         self.base_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
     def is_user_file(self, repo_path: str) -> bool:
+        # Restrict updates to files under UK/ only.
         # Users should only ever receive UK/*
         return repo_path.startswith("UK/")
 
     def log(self, message: str) -> None:
+        # Queue log output for the UI thread, with stderr fallback during early startup.
         q = getattr(self, "_q", None)
         if q is None:
             try:
@@ -179,6 +192,7 @@ class UpdaterApp:
         q.put(str(message))
 
     def _drain_log_queue(self) -> None:
+        # Flush queued log messages into the textbox on the Tk main loop.
         try:
             while True:
                 msg = self._q.get_nowait()
@@ -192,6 +206,7 @@ class UpdaterApp:
             self.root.after(50, self._drain_log_queue)
 
     def _make_session(self) -> requests.Session:
+        # Create a resilient HTTP session with optional GitHub token and retries.
         s = requests.Session()
 
         # Token is optional; it helps with rate limiting on GitHub API calls
@@ -209,6 +224,7 @@ class UpdaterApp:
         return s
 
     def get_local_version(self) -> str:
+        # Read local AIRAC tag marker; use default baseline if missing.
         try:
             path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
             with open(path, "r", encoding="utf-8") as f:
@@ -218,17 +234,20 @@ class UpdaterApp:
             return "2025_01"
 
     def set_local_version(self, ver: str) -> None:
+        # Persist the installed AIRAC version tag to version.txt.
         path = os.path.join(self.base_dir, LOCAL_VERSION_FILE)
         with open(path, "w", encoding="utf-8") as f:
             f.write(ver)
 
     def get_remote_updater_version(self) -> str:
+        # Fetch the latest updater build hash marker from GitHub.
         self.log("Checking updater version...")
         r = self.session.get(UPDATER_VERSION_URL, timeout=(5, 15))
         r.raise_for_status()
         return r.text.strip()
 
     def ensure_updater_current(self) -> bool:
+        # Block updates unless this Updater.exe build matches the latest published hash.
         local_hash = (UPDATER_BUILD or "").strip()
 
         # If the workflow didn't inject the hash, we can't verify anything
@@ -290,66 +309,168 @@ class UpdaterApp:
         return True
 
     def get_latest_version(self) -> dict:
+        # Read latest release metadata and resolve its underlying commit SHA.
         url = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/releases/latest"
         response = self.session.get(url, timeout=(5, 30))
         response.raise_for_status()
         data = response.json()
-        return {"tag": data["tag_name"], "published_at": data["published_at"]}
+        return {
+            "tag": data["tag_name"],
+            "published_at": data["published_at"],
+            "release_sha": self.get_release_sha(data["tag_name"]),
+        }
+
+    def get_release_sha(self, tag_name: str) -> str:
+        # Resolve both lightweight and annotated tags to a concrete commit SHA.
+        ref_url = (
+            f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/ref/tags/{tag_name}"
+        )
+        response = self.session.get(ref_url, timeout=(5, 30))
+        response.raise_for_status()
+        ref_data = response.json()
+
+        obj = ref_data.get("object", {})
+        obj_type = obj.get("type")
+        obj_sha = (obj.get("sha") or "").strip()
+
+        if obj_type == "commit":
+            return obj_sha
+
+        if obj_type == "tag" and obj_sha:
+            tag_url = (
+                f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/tags/{obj_sha}"
+            )
+            tag_response = self.session.get(tag_url, timeout=(5, 30))
+            tag_response.raise_for_status()
+            tag_data = tag_response.json()
+            commit_sha = (tag_data.get("object", {}).get("sha") or "").strip()
+            if commit_sha:
+                return commit_sha
+
+        raise RuntimeError(f"Unable to resolve release SHA for tag {tag_name}")
+
+    def get_local_pack_version(self) -> str:
+        # Read the locally stored release commit marker used for change tracking.
+        try:
+            path = os.path.join(self.base_dir, LOCAL_PACK_VERSION_FILE)
+            with open(path, "r", encoding="utf-8") as f:
+                return f.read().strip()
+        except FileNotFoundError:
+            return ""
+
+    def set_local_pack_version(self, sha: str) -> None:
+        # Persist the release commit marker to Data/Sector/pack_version.txt.
+        path = os.path.join(self.base_dir, LOCAL_PACK_VERSION_FILE)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.write((sha or "").strip())
 
     @staticmethod
     def format_date(iso_date_str: str) -> str:
+        # Convert GitHub ISO timestamps into a short YYYY-MM-DD display format.
         dt = datetime.fromisoformat(iso_date_str.rstrip("Z"))
         return dt.strftime("%Y-%m-%d")
 
-    def get_changed_files(self, base_tag: str, head_tag: str):
-        url = (
-            f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/compare/"
-            f"{base_tag}...{head_tag}"
+    @staticmethod
+    def _blob_id(path: str) -> bytes:
+        # Compute a Git-compatible blob ID so file content comparisons are reliable.
+        with open(path, "rb") as f:
+            return Blob.from_string(f.read()).id
+
+    def download_release_snapshot_for_tag(self, tag: str) -> str:
+        # Download and extract a release ZIP, then return the extracted UK/ directory.
+        # Download the release ZIP for this tag and return the extracted UK/ path.
+        temp_dir = tempfile.mkdtemp(prefix=f"ukcp-release-{tag}-")
+        zip_path = os.path.join(temp_dir, "release.zip")
+        zip_url = (
+            f"https://codeload.github.com/{REPO_OWNER}/{REPO_NAME}/zip/refs/tags/{tag}"
         )
-        response = self.session.get(url, timeout=(5, 30))
-        response.raise_for_status()
-        changed = response.json().get("files", []) or []
 
-        updated_files: list[str] = []
-        removed_files: list[str] = []
-        prf_modified = False
+        with self.session.get(zip_url, timeout=(5, 60), stream=True) as response:
+            response.raise_for_status()
+            with open(zip_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=1024 * 256):
+                    if chunk:
+                        f.write(chunk)
 
-        for f in changed:
-            filename = f.get("filename", "")
-            status = f.get("status", "")
+        with zipfile.ZipFile(zip_path, "r") as z:
+            z.extractall(temp_dir)
 
-            if status in ("added", "modified"):
-                updated_files.append(filename)
+        for entry in os.listdir(temp_dir):
+            candidate = os.path.join(temp_dir, entry, "UK")
+            if os.path.isdir(candidate):
+                return candidate
 
-            elif status == "removed":
-                removed_files.append(filename)
+        raise RuntimeError(f"Unable to locate UK/ in release snapshot ZIP for tag {tag}")
 
-            elif status == "renamed":
-                # download the new path and remove the old one
-                updated_files.append(filename)
-                prev = f.get("previous_filename")
-                if prev:
-                    removed_files.append(prev)
+    def get_changed_files_between_tags(self, from_tag: str, to_tag: str):
+        # Compare two release snapshots and return updated files, removed files, and PRF status.
+        # Build incremental update data between two tags and track whether any .prf changed.
+        # Compare Git blob IDs so we detect true content changes, not just name/timestamp differences.
+        from_uk_dir = None
+        to_uk_dir = None
 
-            elif status == "copied":
-                updated_files.append(filename)
+        try:
+            from_uk_dir = self.download_release_snapshot_for_tag(from_tag)
+            to_uk_dir = self.download_release_snapshot_for_tag(to_tag)
 
-            if filename.lower().endswith(".prf") and status in (
-                "added",
-                "modified",
-                "renamed",
-                "copied",
-            ):
-                prf_modified = True
+            # Map repo-relative paths (e.g. UK/foo/bar.txt) to blob IDs for both tags.
+            from_files: dict[str, bytes] = {}
+            to_files: dict[str, bytes] = {}
 
-        return updated_files, removed_files, prf_modified
+            for root, _, files in os.walk(from_uk_dir):
+                for name in files:
+                    full = os.path.join(root, name)
+                    rel = os.path.relpath(full, from_uk_dir).replace("\\", "/")
+                    repo_path = f"UK/{rel}"
+                    if self.is_user_file(repo_path):
+                        from_files[repo_path] = self._blob_id(full)
+
+            for root, _, files in os.walk(to_uk_dir):
+                for name in files:
+                    full = os.path.join(root, name)
+                    rel = os.path.relpath(full, to_uk_dir).replace("\\", "/")
+                    repo_path = f"UK/{rel}"
+                    if self.is_user_file(repo_path):
+                        to_files[repo_path] = self._blob_id(full)
+
+            # updated_files includes both newly added files and modified existing files.
+            updated_files: list[str] = []
+            removed_files: list[str] = []
+            # If any profile changed, we can prompt users to rerun Configurator.
+            prf_modified = False
+
+            for path in sorted(to_files.keys() - from_files.keys()):
+                updated_files.append(path)
+                if path.lower().endswith(".prf"):
+                    prf_modified = True
+
+            for path in sorted(from_files.keys() - to_files.keys()):
+                removed_files.append(path)
+                if path.lower().endswith(".prf"):
+                    prf_modified = True
+
+            for path in sorted(to_files.keys() & from_files.keys()):
+                if to_files[path] != from_files[path]:
+                    updated_files.append(path)
+                    if path.lower().endswith(".prf"):
+                        prf_modified = True
+
+            return sorted(set(updated_files)), sorted(set(removed_files)), prf_modified
+        finally:
+            if from_uk_dir:
+                shutil.rmtree(os.path.dirname(from_uk_dir), ignore_errors=True)
+            if to_uk_dir:
+                shutil.rmtree(os.path.dirname(to_uk_dir), ignore_errors=True)
 
     def get_local_path(self, remote_path: str) -> str:
+        # Translate a repository path into the corresponding local filesystem path.
         if remote_path.startswith("UK/"):
             return remote_path[len("UK/") :]
         return remote_path
 
     def download_file(self, branch: str, filepath: str) -> None:
+        # Download one file from GitHub and write it into the local UK folder.
         url = f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{branch}/{filepath}"
         response = self.session.get(url, timeout=(5, 30))
         response.raise_for_status()
@@ -362,6 +483,7 @@ class UpdaterApp:
             f.write(response.content)
 
     def delete_file(self, filepath: str) -> None:
+        # Remove a local file that no longer exists in the target release.
         local_rel = self.get_local_path(filepath)
         local_path = os.path.join(self.base_dir, local_rel)
 
@@ -372,6 +494,7 @@ class UpdaterApp:
             self.log(f"File {local_rel} does not exist, skipping removal.")
 
     def prompt_run_configurator(self) -> None:
+        # Prompt to launch Configurator when profile files were changed by the update.
         msg = (
             "One or more profile (.prf) files were updated.\n\n"
             "It is recommended that you run the UK Controller Pack Configurator "
@@ -403,10 +526,12 @@ class UpdaterApp:
             )
 
     def start_update(self) -> None:
+        # Disable the update button and run update logic in a background thread.
         self.update_button.config(state="disabled")
         threading.Thread(target=self._run_update_safely, daemon=True).start()
 
     def _run_update_safely(self) -> None:
+        # Guard update execution so the UI button is always restored afterwards.
         try:
             if not self.ensure_updater_current():
                 return
@@ -415,8 +540,10 @@ class UpdaterApp:
             self.update_button.config(state="normal")
 
     def update_if_needed(self) -> None:
+        # Main updater workflow: detect differences, apply file changes, and report status.
         self.log("Checking for updates...")
         local_ver = self.get_local_version()
+        local_pack_sha = self.get_local_pack_version()
 
         try:
             latest = self.get_latest_version()
@@ -431,23 +558,39 @@ class UpdaterApp:
 
         latest_ver = latest["tag"]
         release_date = self.format_date(latest["published_at"])
-
-        if normalize_version(latest_ver) <= normalize_version(local_ver):
-            self.log(f"{REPO_OWNER}/{REPO_NAME} is up to date (version {local_ver})")
-            return
+        release_sha = (latest.get("release_sha") or "").strip()
 
         self.log(
-            f"Updating {REPO_OWNER}/{REPO_NAME} to {latest_ver} "
-            f"(previously using {local_ver})"
+            f"Checking local files against {REPO_OWNER}/{REPO_NAME} {latest_ver} "
+            f"(local version marker: {local_ver})"
+        )
+        self.log(
+            "Pack version SHA "
+            f"(local): {local_pack_sha or '<missing>'} | "
+            f"(release): {release_sha or '<unknown>'}"
         )
 
         try:
-            updated_files, removed_files, prf_modified = self.get_changed_files(
-                local_ver, latest_ver
-            )
+            if normalize_version(local_ver) >= normalize_version(latest_ver):
+                updated_files: list[str] = []
+                removed_files: list[str] = []
+                prf_modified = False
+            else:
+                updated_files, removed_files, prf_modified = (
+                    self.get_changed_files_between_tags(local_ver, latest_ver)
+                )
 
-            updated_files = [p for p in updated_files if self.is_user_file(p)]
-            removed_files = [p for p in removed_files if self.is_user_file(p)]
+            if not updated_files and not removed_files:
+                self.log(
+                    f"{REPO_OWNER}/{REPO_NAME} is up to date with latest release "
+                    f"{latest_ver}"
+                )
+                if normalize_version(latest_ver) > normalize_version(local_ver):
+                    self.set_local_version(latest_ver)
+                if release_sha and local_pack_sha != release_sha:
+                    self.set_local_pack_version(release_sha)
+                    self.log("Updated local pack_version.txt SHA marker.")
+                return
 
             for file in updated_files:
                 if os.path.normcase(file) == os.path.normcase("UK/Updater.exe"):
@@ -463,6 +606,8 @@ class UpdaterApp:
                 self.delete_file(file)
 
             self.set_local_version(latest_ver)
+            if release_sha:
+                self.set_local_pack_version(release_sha)
             self.log(
                 f"\nUpdate complete: now on {REPO_OWNER}/{REPO_NAME} version "
                 f"{latest_ver} (released {release_date})"
@@ -478,6 +623,7 @@ class UpdaterApp:
             self.log(f"Update failed: {e}")
 
     def gng_update_flow(self) -> None:
+        # Guide the user through downloading and importing Aeronav GNG navdata.
         self.log("GNG: Do you want to update navdata (requires VATSIM SSO login)?")
         if not messagebox.askyesno(
             "GNG Navdata",
@@ -518,9 +664,11 @@ class UpdaterApp:
             self.log(f"GNG: Import failed: {e}")
 
     def start_gng_flow(self) -> None:
+        # Start the GNG navdata flow on a background thread to keep UI responsive.
         threading.Thread(target=self.gng_update_flow, daemon=True).start()
 
     def offer_gng_prompt(self) -> None:
+        # Offer a post-update prompt to optionally import GNG navdata immediately.
         try:
             if messagebox.askyesno(
                 "Navdata (GNG)",
@@ -533,6 +681,7 @@ class UpdaterApp:
             self.log(f"GNG prompt failed: {e}")
 
     def import_gng_zip(self, zip_path: str) -> None:
+        # Import required navdata files from a selected GNG ZIP into local data folders.
         self.log(f"GNG: Importing {zip_path}")
         if not os.path.exists(zip_path):
             raise FileNotFoundError(f"GNG ZIP not found: {zip_path}")

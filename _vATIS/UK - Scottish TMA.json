@@ -1,7 +1,7 @@
 {
   "Name": "UK - Scottish TMA",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - Scottish TMA.json",
-  "updateSerial": 2025122301,
+  "updateSerial": 2026042201,
   "stations": [
     {
       "ordinal": 0,
@@ -159,29 +159,43 @@
       },
       "Presets": [
         {
-          "Name": "RUNWAY 23 (STC_CTR)",
+          "Name": "RUNWAY 23 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 05 (STC_CTR)",
+          "Name": "RUNWAY 05 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 23 (STC_W_CTR)",
+          "Name": "RUNWAY 23 (SCL_GAL_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 05 (STC_W_CTR)",
+          "Name": "RUNWAY 05 (SCL_GAL_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 23 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 05 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
@@ -389,28 +403,28 @@
       },
       "Presets": [
         {
-          "Name": "RUNWAY 24 (STC_CTR)",
+          "Name": "RUNWAY 24 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^24.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 06 (STC_CTR)",
+          "Name": "RUNWAY 06 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^06.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 24 (STC_E_CTR)",
+          "Name": "RUNWAY 24 (SCL_TLA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^24.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 06 (STC_E_CTR)",
+          "Name": "RUNWAY 06 (SCL_TLA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 130.975.",
           "Notams": null,
           "ArbitraryText": null,
@@ -620,29 +634,57 @@
       },
       "Presets": [
         {
-          "Name": "RUNWAY 25 (STC_A_CTR)",
+          "Name": "RUNWAY 25 (SCL_ANT_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 07 (STC_A_CTR)",
+          "Name": "RUNWAY 07 (SCL_ANT_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP OR VOR APPROACH TO RUNWAY 07. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 17 (STC_A_CTR)",
+          "Name": "RUNWAY 17 (SCL_ANT_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^17.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 35 (STC_A_CTR)",
+          "Name": "RUNWAY 35 (SCL_ANT_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT A VOR DME APPROACH TO RUNWAY 35. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^35.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 25 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^25.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 07 (SCL_GTA_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP OR VOR APPROACH TO RUNWAY 07. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^07.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 17 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^17.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 35 (SCL_GTA_CTR)",
+          "AirportConditions": "ARRIVING AIRCRAFT EXPECT A VOR DME APPROACH TO RUNWAY 35. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^35.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
@@ -841,15 +883,29 @@
       },
       "Presets": [
         {
-          "Name": "RUNWAY 22 (STC_A_CTR)",
+          "Name": "RUNWAY 22 (SCL_ANT_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 04 (STC_A_CTR)",
+          "Name": "RUNWAY 04 (SCL_ANT_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 123.775.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 22 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^22.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 04 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.930.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^04.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
@@ -1042,56 +1098,56 @@
       },
       "Presets": [
         {
-          "Name": "RUNWAY 30 (STC_CTR)",
+          "Name": "RUNWAY 30 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^30.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 12 (STC_CTR)",
+          "Name": "RUNWAY 12 (SCL_TMA_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^12.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 20 (STC_CTR)",
+          "Name": "RUNWAY 20 (SCL_TMA_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^20.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 02 (STC_CTR)",
+          "Name": "RUNWAY 02 (SCL_TMA_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 126.3.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^02.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 30 (STC_W_CTR)",
+          "Name": "RUNWAY 30 (SCL_GAL_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^30.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 12 (STC_W_CTR)",
+          "Name": "RUNWAY 12 (SCL_GAL_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^12.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 20 (STC_W_CTR)",
+          "Name": "RUNWAY 20 (SCL_GAL_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^20.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "Name": "RUNWAY 02 (STC_W_CTR)",
+          "Name": "RUNWAY 02 (SCL_GAL_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT A VISUAL APPROACH. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL 124.825.",
           "Notams": null,
           "ArbitraryText": null,
