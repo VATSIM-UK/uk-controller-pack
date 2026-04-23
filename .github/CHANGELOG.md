@@ -1,6 +1,7 @@
 # Changes from release 2026/04 to 2026/05
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
 2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
+3. Bug - Updated EGKK vATIS profile to reflect EGKK split ground operations - thanks to @coleedwards
 
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
