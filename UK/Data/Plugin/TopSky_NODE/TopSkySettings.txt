@@ -259,8 +259,11 @@ Setup_ScreenLat=LON
 [MAN_]
 Setup_ScreenLat=MCT
 
-[STC_]
+[SCL_]
 Setup_ScreenLat=TLA
+
+[SCL_ANT_]
+Setup_ScreenLat=BEL
 
 [_CTR]
 Window_CARD=0,100,750

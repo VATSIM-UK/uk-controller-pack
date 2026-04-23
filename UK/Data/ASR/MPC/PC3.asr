@@ -1885,9 +1885,17 @@ Free Text:Solent Airspace Bases\3000':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Free Text:Solent Airspace Bases\3500':freetext
 Geo:Coastline (Medium Detail) GB Main Coastline:
+Sids:London AC Daventry:
+Sids:London TC Midlands:
 Sids:PC Northeast:
 Sids:PC Southeast:
 Sids:PC West:
+Sids:Scottish AC South:
+Sids:Scottish Antrim:
+Sids:Scottish Borders:
+Sids:Scottish Rathlin:
+Sids:Scottish TMA Galloway:
+Sids:Scottish TMA Talla:
 Stars:DEXEN Buffer:
 Stars:HON Gate:
 Stars:Leeds Bradford Gates:
