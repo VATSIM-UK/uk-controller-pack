@@ -4,9 +4,10 @@
 3. Bug - Updated EGKK vATIS profile to reflect EGKK split ground operations - thanks to @coleedwards
 4. Bug - Fixed Aldergrove (EGAA), Belfast City (EGAC) and Glasgow (EGPF) Centreline TopSky map ID's - thanks to @spacenano (Samuel Lefevre)
 5. Enhancement - Apply changes relating to Solent Identifier update - thanks to @cpawley (Chris Pawley)
+6. Enhancement - Updated Stansted (EGSS) vATIS profile for extra realism - Thanks to @AdriTheDev (Callum Hicks)
 
 # Changes from release 2026/03 to 2026/04
-1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
+1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
 3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - thanks to @Kishore-Nair (Kishore Ravikumar)
 4. AIRAC (2604) - Updated Manchester (EGCC) SMAA - thanks to @Liaely (Lily Unitt)
