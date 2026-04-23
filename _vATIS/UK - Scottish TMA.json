@@ -1,7 +1,7 @@
 {
   "Name": "UK - Scottish TMA",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - Scottish TMA.json",
-  "updateSerial": 2026041601,
+  "updateSerial": 2026042201,
   "stations": [
     {
       "ordinal": 0,
@@ -182,6 +182,20 @@
         {
           "Name": "RUNWAY 05 (SCL_GAL_CTR)",
           "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.825.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 23 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+        },
+        {
+          "Name": "RUNWAY 05 (SCL_GTA_CTR)",
+          "AirportConditions": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH SCOTTISH CONTROL ON 124.930.",
           "Notams": null,
           "ArbitraryText": null,
           "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
