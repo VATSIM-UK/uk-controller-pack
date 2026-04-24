@@ -5,6 +5,7 @@
 4. Bug - Fixed Aldergrove (EGAA), Belfast City (EGAC) and Glasgow (EGPF) Centreline TopSky map ID's - thanks to @spacenano (Samuel Lefevre)
 5. Enhancement - Apply changes relating to Solent Identifier update - thanks to @cpawley (Chris Pawley)
 6. Enhancement - Updated Stansted (EGSS) vATIS profile for extra realism - Thanks to @AdriTheDev (Callum Hicks)
+7. Bug - Fixed Scottish voice settings for Humber event split frequency
 
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
