@@ -14,7 +14,7 @@ AG:Area - Antrim:123.775
 AG:Area - TMA and Antrim:124.930
 AG:X Area - Hebrides:133.680
 AG:X Area - Hebrides and Central:128.675
-AG:X Area - Humber:129.925
+AG:X Area - Humber:121.325
 AG:X Area - Central:127.275
 AG:X Area - ScAC Low:121.375
 AG:X Area - Grampian:132.490
