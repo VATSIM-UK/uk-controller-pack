@@ -7,6 +7,7 @@
 6. Enhancement - Updated Stansted (EGSS) vATIS profile for extra realism - Thanks to @AdriTheDev (Callum Hicks)
 7. Bug - Fixed Scottish voice settings for Humber event split frequency
 8. Enhancement - Incorporated CDM 2.28 - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2604) - Updated Changes in Bristol (8.33 kHz) - thanks to @kishore-nair (Kishore Ravikumar)
 
 # Changes from release 2026/03 to 2026/04
 1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
