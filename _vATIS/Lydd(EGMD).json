@@ -239,6 +239,16 @@
           "text": "CHALLOCK GLIDING SITE - ACTIVE.",
           "ordinal": 14,
           "enabled": false
+        },
+        {
+          "text": "DANGER AREA 044 - NOT ACTIVE.",
+          "ordinal": 15,
+          "enabled": true
+        },
+        {
+          "text": "DANGER AREA 141 - NOT ACTIVE.",
+          "ordinal": 16,
+          "enabled": true
         }
       ],
       "notamDefinitions": []
