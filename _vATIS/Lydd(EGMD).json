@@ -234,6 +234,11 @@
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "ordinal": 13,
           "enabled": false
+        },
+        {
+          "text": "CHALLOCK GLIDING SITE - ACTIVE.",
+          "ordinal": 14,
+          "enabled": false
         }
       ],
       "notamDefinitions": []
