@@ -160,11 +160,11 @@
       "presets": [
         {
           "name": "03",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^03.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^03.\r\n[TL].\r\n[WX].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[CLOSING]."
         },
         {
           "name": "21",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^21.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^21.\r\n[TL].\r\n[WX].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[CLOSING]."
         }
       ],
       "contractions": [
