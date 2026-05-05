@@ -1,3 +1,6 @@
+# Changes from release 2026/04a to 2026/05
+1. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
 2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
