@@ -9,6 +9,9 @@ Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileSTUP	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileTAXIOUT	\..\Data\Settings\ATM\ATM_Lists.txt
+Settings	SettingsfileTAKEOFF	\..\Data\Settings\ATM\ATM_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Essex\SS_ATM_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_Essex.txt
