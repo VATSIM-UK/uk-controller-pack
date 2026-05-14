@@ -178,6 +178,7 @@ Fixes:ABSUN:symbol
 Fixes:ABTOS:symbol
 Fixes:ABTUM:symbol
 Fixes:ABWIV:symbol
+Fixes:ACAGE:symbol
 Fixes:ACBAZ:symbol
 Fixes:ACCAQ:symbol
 Fixes:ACCOP:symbol
@@ -194,6 +195,7 @@ Fixes:ADODO:symbol
 Fixes:ADRUD:symbol
 Fixes:ADVAS:symbol
 Fixes:ADVAT:symbol
+Fixes:ADZOP:symbol
 Fixes:AGANO:symbol
 Fixes:AGBOS:symbol
 Fixes:AGCAT:symbol
@@ -204,6 +206,7 @@ Fixes:AKIKI:symbol
 Fixes:AKIVO:symbol
 Fixes:AKODA:symbol
 Fixes:AKOKO:symbol
+Fixes:AKOMU:symbol
 Fixes:AKUPA:symbol
 Fixes:ALASO:symbol
 Fixes:ALAVA:symbol
@@ -423,6 +426,7 @@ Fixes:DONAX:symbol
 Fixes:DONIB:symbol
 Fixes:DONNA:symbol
 Fixes:DOPEK:symbol
+Fixes:DORJA:symbol
 Fixes:DORKI:symbol
 Fixes:DOSUN:symbol
 Fixes:DRAKE:symbol
@@ -518,6 +522,7 @@ Fixes:EVSEM:symbol
 Fixes:EVSON:symbol
 Fixes:EVTES:symbol
 Fixes:EVTOL:symbol
+Fixes:EWOKE:symbol
 Fixes:EXARO:symbol
 Fixes:EXBUM:symbol
 Fixes:EXFOB:symbol
@@ -778,6 +783,7 @@ Fixes:LYNAS:symbol
 Fixes:MADAD:symbol
 Fixes:MAGEE:symbol
 Fixes:MAKUX:symbol
+Fixes:MAKZA:symbol
 Fixes:MALUD:symbol
 Fixes:MAMUL:symbol
 Fixes:MANGO:symbol
@@ -825,6 +831,7 @@ Fixes:MOREZ:symbol
 Fixes:MOSUN:symbol
 Fixes:MOTOX:symbol
 Fixes:MOVEN:symbol
+Fixes:MOXDE:symbol
 Fixes:MUCTE:symbol
 Fixes:MULYM:symbol
 Fixes:NAKID:symbol
@@ -1225,6 +1232,7 @@ Fixes:UPCAB:symbol
 Fixes:UPDUK:symbol
 Fixes:UPGAS:symbol
 Fixes:UPGET:symbol
+Fixes:UPJAX:symbol
 Fixes:UPLIS:symbol
 Fixes:UPNAL:symbol
 Fixes:UPTON:symbol
