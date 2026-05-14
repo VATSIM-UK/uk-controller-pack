@@ -6,6 +6,7 @@
 5. Bug - Fixed Southend (EGMC) runway 05 preset on TC BBX vATIS profile - thanks to @frazerxyz (Frazer Scully)
 6. AIRAC (2604) - Updated Bristol (EGGD) Radar and Tower frequencies (8.33 conversion) - thanks to @kishore-nair (Kishore Ravikumar)
 7. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Incorporated vSMR 1.9.1
 
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
