@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.27",
+    "message": "2.28",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -40,13 +40,6 @@
     "message": "1.1",
     "color": "blue",
     "repo": "quassbutreally/EuroScope-CCDS-R"
-  },
-  "VFPC": {
-    "schemaVersion": 1,
-    "label": "VFPC",
-    "message": "3.7.2.0",
-    "color": "blue",
-    "repo": "VFPC/VFPC"
   },
   "DiscordEuroscope": {
     "schemaVersion": 1,

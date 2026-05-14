@@ -1,11 +1,24 @@
-x. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
+# Changes from release 2026/04a to 2026/05
+1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
+2. Bug - Fixed history trails on Gatwick (EGKK) ATM - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Added vSMR acknowledged QNH item to ATM lists - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+5. Bug - Fixed Southend (EGMC) runway 05 preset on TC BBX vATIS profile - thanks to @frazerxyz (Frazer Scully)
+6. AIRAC (2604) - Updated Bristol (EGGD) Radar and Tower frequencies (8.33 conversion) - thanks to @kishore-nair (Kishore Ravikumar)
+7. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
 
-# Changes from release 2026/04 to 2026/05
+# Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
 2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
+3. Bug - Updated EGKK vATIS profile to reflect EGKK split ground operations - thanks to @coleedwards
+4. Bug - Fixed Aldergrove (EGAA), Belfast City (EGAC) and Glasgow (EGPF) Centreline TopSky map ID's - thanks to @spacenano (Samuel Lefevre)
+5. Enhancement - Apply changes relating to Solent Identifier update - thanks to @cpawley (Chris Pawley)
+6. Enhancement - Updated Stansted (EGSS) vATIS profile for extra realism - Thanks to @AdriTheDev (Callum Hicks)
+7. Bug - Fixed Scottish voice settings for Humber event split frequency
+8. Enhancement - Incorporated CDM 2.28 - thanks to @luke11brown (Luke Brown)
 
 # Changes from release 2026/03 to 2026/04
-1. AIRAC (2604) - Updated AMA in Jersey area - thanks to @JYang365 (John Yang)
+1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
 2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
 3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - thanks to @Kishore-Nair (Kishore Ravikumar)
 4. AIRAC (2604) - Updated Manchester (EGCC) SMAA - thanks to @Liaely (Lily Unitt)
