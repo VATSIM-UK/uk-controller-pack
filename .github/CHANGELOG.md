@@ -1,3 +1,6 @@
+# Changes from release 2026/04a to 2026/05
+1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
+
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
 2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
