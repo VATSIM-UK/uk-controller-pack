@@ -142,6 +142,8 @@ Fixes:ABTUM:name
 Fixes:ABTUM:symbol
 Fixes:ABWIV:name
 Fixes:ABWIV:symbol
+Fixes:ACAGE:name
+Fixes:ACAGE:symbol
 Fixes:ACBAZ:name
 Fixes:ACBAZ:symbol
 Fixes:ACCAQ:name
@@ -174,6 +176,8 @@ Fixes:ADVAS:name
 Fixes:ADVAS:symbol
 Fixes:ADVAT:name
 Fixes:ADVAT:symbol
+Fixes:ADZOP:name
+Fixes:ADZOP:symbol
 Fixes:AGANO:name
 Fixes:AGANO:symbol
 Fixes:AGBOS:name
@@ -194,6 +198,8 @@ Fixes:AKODA:name
 Fixes:AKODA:symbol
 Fixes:AKOKO:name
 Fixes:AKOKO:symbol
+Fixes:AKOMU:name
+Fixes:AKOMU:symbol
 Fixes:AKUPA:name
 Fixes:AKUPA:symbol
 Fixes:ALASO:name
@@ -632,6 +638,8 @@ Fixes:DONNA:name
 Fixes:DONNA:symbol
 Fixes:DOPEK:name
 Fixes:DOPEK:symbol
+Fixes:DORJA:name
+Fixes:DORJA:symbol
 Fixes:DORKI:name
 Fixes:DORKI:symbol
 Fixes:DOSUN:name
@@ -822,6 +830,8 @@ Fixes:EVTES:name
 Fixes:EVTES:symbol
 Fixes:EVTOL:name
 Fixes:EVTOL:symbol
+Fixes:EWOKE:name
+Fixes:EWOKE:symbol
 Fixes:EXARO:name
 Fixes:EXARO:symbol
 Fixes:EXBUM:name
@@ -1342,6 +1352,8 @@ Fixes:MAGEE:name
 Fixes:MAGEE:symbol
 Fixes:MAKUX:name
 Fixes:MAKUX:symbol
+Fixes:MAKZA:name
+Fixes:MAKZA:symbol
 Fixes:MALUD:name
 Fixes:MALUD:symbol
 Fixes:MAMUL:name
@@ -1436,6 +1448,8 @@ Fixes:MOTOX:name
 Fixes:MOTOX:symbol
 Fixes:MOVEN:name
 Fixes:MOVEN:symbol
+Fixes:MOXDE:name
+Fixes:MOXDE:symbol
 Fixes:MUCTE:name
 Fixes:MUCTE:symbol
 Fixes:MULYM:name
@@ -2236,6 +2250,8 @@ Fixes:UPGAS:name
 Fixes:UPGAS:symbol
 Fixes:UPGET:name
 Fixes:UPGET:symbol
+Fixes:UPJAX:name
+Fixes:UPJAX:symbol
 Fixes:UPLIS:name
 Fixes:UPLIS:symbol
 Fixes:UPNAL:name
