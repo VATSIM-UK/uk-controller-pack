@@ -9,6 +9,9 @@ Settings	SettingsfileDEP	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
 Settings	SettingsfileFP	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
 Settings	SettingsfileSEL	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
 Settings	SettingsfileSIL	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
+Settings	SettingsfileSTUP	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
+Settings	SettingsfileTAXIOUT	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
+Settings	SettingsfileTAKEOFF	\..\Data\Settings\ATM\ATM_Lists_RECAT.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\Local\Gatwick\KK_ATM_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Local\Gatwick\KK_ATM_Tags.txt
 Settings	SettingsfileVCCS	\..\Data\Settings\VCCS_South.txt
