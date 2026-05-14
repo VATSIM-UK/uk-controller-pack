@@ -42,4 +42,3 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
 
 [VACS](https://github.com/vacs-project/vacs) - thanks to [@vacs-project](https://github.com/vacs-project)
-
