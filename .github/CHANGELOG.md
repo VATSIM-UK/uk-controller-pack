@@ -1,5 +1,9 @@
 # Changes from release 2026/04a to 2026/05
-1. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
+2. Bug - Fixed history trails on Gatwick (EGKK) ATM - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Added vSMR acknowledged QNH item to ATM lists - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+5. Bug - Fixed Southend (EGMC) runway 05 preset on TC BBX vATIS profile - thanks to @frazerxyz (Frazer Scully)
 
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
