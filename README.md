@@ -6,7 +6,6 @@
 [![RDF](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/RDF.json)](https://github.com/KingfuChan/RDF/releases)
 [![Slots-Plugin](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/Slots-Plugin.json)](https://github.com/VATSIMCanada/Slots-Plugin/releases)
 [![VCH](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VCH.json)](https://github.com/DrFreas/VCH/releases)
-[![VFPC](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VFPC.json)](https://github.com/VFPC/VFPC/releases)
 [![vSMR](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/vSMR.json)](https://github.com/VATSIM-UK/vSMR/releases)
 [![VACS](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/VACS.json)](https://github.com/vacs-project/vacs/releases)
 [![TopSky](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/main/.github/badges/TopSky.json)](https://forum.vatsim-scandinavia.org/t/plugins)
@@ -39,8 +38,6 @@ If you wish to contribute, take a look at our [contribution guide.](https://gith
 [Virtual Controller Helper Plugin](https://github.com/DrFreas/VCH) - thanks to [@DrFreas](https://github.com/DrFreas)
 
 [DiscordEuroscope Plugin](https://github.com/Kirollos/DiscordEuroscope) - thanks to [@Kirollos](https://github.com/Kirollos)
-
-[UK VFPC](https://github.com/VFPC/VFPC) - thanks to [@lennycolton](https://github.com/lennycolton), [@oldenough](https://github.com/oldenough) & [@prichardson](https://github.com/prichardson)
 
 [CCDS-R](https://github.com/quassbutreally/EuroScope-CCDS-R) - thanks to [@quassbutreally](https://github.com/quassbutreally)
 
