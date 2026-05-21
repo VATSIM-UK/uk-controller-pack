@@ -19,6 +19,7 @@ concurrency:
 
 jobs:
   Compile_TopSky_Data:
+    if: ${{ ! contains(github.event.head_commit.message, 'Compile TopSky shared data files') }} # Checks last commit is not done by the bot, format required else it throws an error
     runs-on: ubuntu-latest
 
     steps:
