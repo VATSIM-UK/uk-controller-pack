@@ -46,7 +46,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           git add .
-          git commit -m 'Compile TopSky shared data files | ${{ github.event.head_commit.message }}
-
-          Co-authored-by: ${{ github.event.head_commit.author.name }} <${{ github.event.head_commit.author.email }}>'
+          git commit -m 'Chore: Compile TopSky shared data files'
           git push
