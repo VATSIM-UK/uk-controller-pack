@@ -2,8 +2,12 @@
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - '.data/TopSky Shared/**'
+      - '.github/workflows/TopSky-Compiler.yml'
+      - 'workflows/TopSky/compiler.py'
+  pull_request:
+    types: [opened, synchronize]
     paths:
       - '.data/TopSky Shared/**'
       - '.github/workflows/TopSky-Compiler.yml'
