@@ -21,7 +21,8 @@ jobs:
       - name: 🧰 Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.VATSIM_UK_GITHUB_TOKEN }}
+          fetch-depth: 0
+          persist-credentials: true
       
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
@@ -41,8 +42,8 @@ jobs:
       
       - name: ⬆️ Commit and push TopSky shared data file changes
         run: |
-          git config --global user.name 'VATSIM UK'
-          git config --global user.email 'privileged-access@vatsim.uk'
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           git add .
           git commit -m 'Compile TopSky shared data files | ${{ github.event.head_commit.message }}
