@@ -1,5 +1,5 @@
 # Changes from release 2026/05 to 2026/06
-x. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky Maps - thanks to @danielbutton (Daniel Button)
+x. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky areas - thanks to @danielbutton (Daniel Button)
 
 # Changes from release 2026/04a to 2026/05
 1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
