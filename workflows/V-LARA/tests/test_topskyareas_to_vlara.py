@@ -59,7 +59,7 @@ def test_collect_files_and_main(tmp_path, monkeypatch):
         "COORD:N057.00.00.0:W001.00.00.0\n"
         "COORD:N058.00.00.0:W001.00.00.0\n"
         "COORD:N058.00.00.0:W002.00.00.0\n"
-        "ACTIVE:AUP:Area One",
+        "ACTIVE:AUP:Area One\n",
         encoding="utf-8",
     )
 
