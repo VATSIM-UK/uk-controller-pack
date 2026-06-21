@@ -142,7 +142,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
                     saw_circle = True
 
                 elif line.startswith('ACTIVE:'):
-                    parts = line.split(':', 1)
+                    parts = line.split(':')
                     if len(parts) == 2 and parts[1].strip() == '1':
                         activePermanent = True
                     
