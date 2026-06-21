@@ -146,7 +146,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
                     if len(parts) == 2 and parts[1].strip() == '1':
                         activePermanent = True
                     
-                    if len(parts) >= 3 and parts[1].strip() == 'AUP':
+                    if parts[1].strip() == 'AUP' or parts[1].strip() == 'AUP_GROUP':
                         notBookableSUA = False
 
     except Exception as e:
