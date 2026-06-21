@@ -103,6 +103,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
     saw_coords = False
     saw_circle = False
     activePermanent = False
+    notBookableSUA = True
 
     try:
         with path.open('r', encoding='utf-8', errors='ignore') as f:
@@ -144,6 +145,9 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
                     parts = line.split(':', 1)
                     if len(parts) == 2 and parts[1].strip() == '1':
                         activePermanent = True
+                    
+                    if len(parts) >= 3 and parts[1].strip() == 'AUP':
+                        notBookableSUA = False
 
     except Exception as e:
         print(f"⚠️ Error parsing {path}: {e}", file=sys.stderr)
@@ -163,6 +167,7 @@ def parse_area_file(path: Path, fallback_type: str) -> Dict[str, Any]:
         "upperFL": upperFL if upperFL is not None else 999,
         "coords": final_coords,
         "activePermanent": activePermanent,
+        "notBookableSUA": notBookableSUA,
     }
 
 def collect_files(input_dirs: List[str]) -> List[Path]:
@@ -194,6 +199,11 @@ def main():
         fallback_type = file_path.parent.name  # e.g., AARA, Danger, Training
         area = parse_area_file(file_path, fallback_type)
 
+        if area.get('notBookableSUA'):
+            if args.debug:
+                print(f"⏩ Skipping {file_path} (not bookable via V-LARA)")
+            continue
+        
         if area.get('activePermanent'):
             if args.debug:
                 print(f"⏩ Skipping {file_path} (permanently active)")
