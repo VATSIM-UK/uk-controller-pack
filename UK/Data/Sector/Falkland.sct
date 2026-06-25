@@ -1,7 +1,7 @@
 ;RAF Mount Pleasant Sector File
 ;Authors: Jack Edwards, Trevor Hannant, Lee Roberts, Scott Daniels.
 ;For use with Euroscope Only
-;Version 1.2
+;Version 1.3
 
 #define Centrelines 16777215
 #define Coastline  13948116
