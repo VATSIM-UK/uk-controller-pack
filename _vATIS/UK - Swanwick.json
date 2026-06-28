@@ -790,27 +790,22 @@
     {
       "Name": "Fairford",
       "Identifier": "EGVA",
-      "contractions": [
-        {
-          "String": "MARHAM",
-          "Spoken": "MARR UM"
-        }
-      ],
+      "contractions": [],
       "AtisFrequency": 35455,
       "AtisVoice": {
         "UseTextToSpeech": true,
-        "Voice": "UK Male"
+        "Voice": "US Female"
       },
       "IDSEndpoint": null,
-      "useNotamPrefix": false,
-      "useDecimalTerminology": true,
+      "useNotamPrefix": true,
+      "useDecimalTerminology": false,
       "Presets": [
         {
           "Name": "09",
           "AirportConditions": "",
           "Notams": "",
           "ArbitraryText": null,
-          "Template": "THIS IS FAIRFORD INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE ZERO NINE.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF FAIRFORD INFORMATION CODE [ATIS_CODE].",
+          "Template": "RAF FAIRFORD INFORMATION [ATIS_CODE]. [OBS_TIME]. [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. RUNWAY ZERO NINER IN USE EXPECT ILS APCH. ADVS ON INITIAL CTC YOU HAVE INFORMATION [ATIS_CODE].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -820,11 +815,11 @@
           }
         },
         {
-          "Name": "27 RH",
+          "Name": "27",
           "AirportConditions": "",
           "Notams": "",
           "ArbitraryText": null,
-          "Template": "THIS IS FAIRFORD INFORMATION CODE [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE TWO SEVEN. RIGHT HAND.  [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. END OF FAIRFORD INFORMATION CODE [ATIS_CODE].",
+          "Template": "RAF FAIRFORD INFORMATION [ATIS_CODE]. [OBS_TIME]. [WIND]. [VIS]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. RUNWAY TWO SEVEN IN USE EXPECT ILS APCH. ADVS ON INITIAL CTC YOU HAVE INFORMATION [ATIS_CODE].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -834,68 +829,27 @@
           }
         }
       ],
-      "AirportConditionDefinitions": [
-        {
-          "Ordinal": 4,
-          "Text": "COLOUR CODE BLUE",
-          "Enabled": true
-        },
-        {
-          "Ordinal": 5,
-          "Text": "COLOUR CODE WHITE",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 6,
-          "Text": "COLOUR CODE GREEN",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 7,
-          "Text": "COLOUR CODE YELLOW ONE",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 8,
-          "Text": "COLOUR CODE YELLOW TWO",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "COLOUR CODE AMBER",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 10,
-          "Text": "COLOUR CODE RED",
-          "Enabled": false
-        }
-      ],
+      "AirportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "VISUAL RECOVERIES",
+          "Text": "FAIRFORD MATZ ACTIVE.",
           "Enabled": false
         },
         {
           "Ordinal": 2,
-          "Text": "RADAR TO VISUAL RECOVERIES",
+          "Text": "FAIRFORD DANGER AREAS 218 A TO D ACTIVE.",
           "Enabled": false
         },
         {
           "Ordinal": 3,
-          "Text": "CARRY FUEL FOR RADAR",
+          "Text": "FOR START CTC BRIZE APCH ON 127.255.",
           "Enabled": false
         },
         {
           "Ordinal": 4,
-          "Text": "INSTRUMENT RECOVERIES MANDATORY",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 5,
-          "Text": "INSTRUMENT LANDINGS MANDATORY",
-          "Enabled": false
+          "Text": "FAIRFORD MATZ AND TMZ ACTIVE.",
+          "Enabled": true
         }
       ]
     },
