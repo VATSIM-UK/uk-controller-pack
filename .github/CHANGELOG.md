@@ -7,7 +7,7 @@
 6. AIRAC (2604) - Updated Bristol (EGGD) Radar and Tower frequencies (8.33 conversion) - thanks to @kishore-nair (Kishore Ravikumar)
 7. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
 8. Enhancement - Incorporated vSMR 1.9.1
-9. AIRAC 2606 - Updated Belfast EGAC Approach frequencies 8.33 conversion - thanks to @Harshit-Lalwani (Harshit Lalwani)
+9. AIRAC 2606 - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
 
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
