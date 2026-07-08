@@ -1,3 +1,6 @@
+# Changes from release 2026/05 to 2026/07
+1. AIRAC (2607) - Updated Leuchars (EGQL) Approach positions - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/04a to 2026/05
 1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
 2. Bug - Fixed history trails on Gatwick (EGKK) ATM - thanks to @frazerxyz (Frazer Scully)
