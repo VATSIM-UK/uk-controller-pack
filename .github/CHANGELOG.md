@@ -4,6 +4,7 @@
 3. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky areas - thanks to @danielbutton (Daniel Button)
 4. AIRAC (2607) - Updated Falklands Onion Range vertical limits - thanks to @Liaely (Lily Unitt)
 5. Enhancement - Added Argentine Cemetery restricted area to Falklands profile - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Updated Fairford (EGVA) vATIS format - thanks to @danielbutton (Daniel Button)
 
 # Changes from release 2026/04a to 2026/05
 1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
