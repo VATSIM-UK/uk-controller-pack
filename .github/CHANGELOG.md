@@ -1,4 +1,4 @@
-# Changes from release 2026/05 to 2026/06
+# Changes from release 2026/05 to 2026/07
 x. AIRAC 2606 - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
 
 # Changes from release 2026/04a to 2026/05
