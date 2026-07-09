@@ -1,6 +1,7 @@
 # Changes from release 2026/05 to 2026/07
 1. AIRAC 2606 - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
 2. Amendment - Removed display and loading of CDM pending trials
+3. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky areas - thanks to @danielbutton (Daniel Button)
 
 # Changes from release 2026/04a to 2026/05
 1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
