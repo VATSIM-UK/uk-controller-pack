@@ -187,6 +187,22 @@
           }
         },
         {
+          "id": "66a145f6-7ffc-4384-869e-b7edcec2407f",
+          "name": "DEP 09L",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 09L\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "88386f27-6494-4303-b075-43099067393c",
           "name": "DEP 09R",
           "airportConditions": "",
