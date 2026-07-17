@@ -4,10 +4,11 @@
   "updateSerial": 2025122301,
   "stations": [
     {
+      "id": "f77c9ed3-9424-472a-ac49-9687e436ad02",
       "ordinal": 0,
       "identifier": "EGCC",
       "name": "Manchester",
-      "atisType": "Combined",
+      "atisType": "Departure",
       "codeRange": {
         "low": "A",
         "high": "Z"
@@ -16,7 +17,7 @@
         "observationTime": {
           "template": {
             "text": "{time}Z",
-            "voice": "TIME {time} ZULU {special}"
+            "voice": "AT TIME {time} ZULU {special}."
           }
         },
         "surfaceWind": {
@@ -28,13 +29,13 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
@@ -66,10 +67,16 @@
         "visibility": {
           "unlimitedVisibilityText": "9999"
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "recentWeather": {
           "template": {
-            "text": "",
-            "voice": ""
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
           }
         },
         "clouds": {
@@ -87,36 +94,32 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "Q{altimeter|hpa}",
-            "voice": "QNH {altimeter|hpa}"
+            "text": "Q{altimeter}",
+            "voice": "QNH {altimeter} HECTO-PASKALS"
           }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
         },
         "transitionLevel": {
           "values": [
             {
-              "low": 940,
-              "high": 958,
-              "altitude": 80
-            },
-            {
-              "low": 959,
-              "high": 976,
-              "altitude": 75
-            },
-            {
-              "low": 977,
-              "high": 994,
-              "altitude": 70
-            },
-            {
-              "low": 995,
-              "high": 1012,
-              "altitude": 65
-            },
-            {
-              "low": 1013,
-              "high": 1031,
-              "altitude": 60
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
             },
             {
               "low": 1032,
@@ -124,9 +127,24 @@
               "altitude": 55
             },
             {
-              "low": 1050,
-              "high": 1060,
-              "altitude": 50
+              "low": 1014,
+              "high": 1031,
+              "altitude": 60
+            },
+            {
+              "low": 995,
+              "high": 1013,
+              "altitude": 65
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 70
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 75
             }
           ],
           "template": {
@@ -141,14 +159,14 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
+          "autoIncludeClosingStatement": false,
           "template": {
-            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER",
-            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER"
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER"
           }
         }
       },
-      "notamsBeforeFreeText": true,
+      "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 121980000,
       "idsEndpoint": "",
@@ -160,129 +178,659 @@
       },
       "presets": [
         {
-          "name": "23R",
+          "id": "a1fb2683-b513-4766-b957-b074b7c1b6e0",
+          "name": "23 DUALS",
           "airportConditions": "",
-          "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^23R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX].\r\n[ARPT_COND]\r\n[CLOSING]"
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 23L.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "name": "23 Duals",
-          "notams": "",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 23R. DEP RWY 23L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
+          "id": "140f1212-4c02-4052-bb1c-04b369a9da98",
+          "name": "23R SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 23R.\r\nSINGLE RUNWAY OPERATIONS.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "name": "05L",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nRWY IN USE ^05L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
+          "id": "6a5ed6e5-6a58-47a9-970a-1b085a8a6728",
+          "name": "23L SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 23L.\r\nSINGLE RUNWAY OPERATIONS.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "name": "05 Duals",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nARR RWY 05R. DEP RWY 05L.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
+          "id": "aaa0f6e1-192a-4e41-b64c-e15c515f2763",
+          "name": "05 DUALS",
+          "airportConditions": "",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 05L.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "name": "23L",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME]\r\nRWY IN USE ^23L.\r\nSINGLE RWY OPERATIONS.\r\n[TL]\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
+          "id": "af111f5c-6d46-4372-ac78-fe634c994f29",
+          "name": "05L SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 05L.\r\nSINGLE RUNWAY OPERATIONS.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "name": "05R",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05R.\r\nSINGLE RWY OPERATIONS.\r\n[TL].\r\n[WX]\r\n[ARPT_COND]\r\n[CLOSING]"
+          "id": "eee58d90-1ddc-4b8e-963e-af4a9129e6ed",
+          "name": "05R SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RUNWAY 05R.\r\nSINGLE RUNWAY OPERATIONS.\r\n[ARPT_COND]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
         {
-          "variableName": "ATC",
-          "text": "ATC",
-          "voice": "AIR TRAFFIC CONTROL"
+          "variableName": "HPA",
+          "text": "HPA",
+          "voice": "HECTO-PASKALS"
         },
         {
-          "variableName": "LVPS",
-          "text": "LVPS",
-          "voice": "L V PEES"
+          "variableName": "CAVOK",
+          "text": "CAVOK",
+          "voice": "CAV-OH-KAY"
+        },
+        {
+          "variableName": "RWY",
+          "text": "RWY",
+          "voice": "RUNWAY"
+        },
+        {
+          "variableName": "RNAV",
+          "text": "RNAV",
+          "voice": "ARE-NAV"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "ARE-ENN-PEE"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "EYE-ELL-ESS"
+        },
+        {
+          "variableName": "WIP",
+          "text": "WIP",
+          "voice": "WORK-IN-PROGRESS"
+        },
+        {
+          "variableName": "ATC",
+          "text": "ATC",
+          "voice": "AY-TEE-SEE"
         },
         {
           "variableName": "DATALINK",
           "text": "DATALINK",
-          "voice": "DAYTA LINK"
+          "voice": "DATA-LINK"
         },
         {
-          "variableName": "ATIS",
-          "text": "ATIS",
-          "voice": "INFORMATION"
+          "variableName": "SRO",
+          "text": "SRO",
+          "voice": "SINGLE RUNWAY OPERATIONS.."
         },
         {
-          "variableName": "COM",
-          "text": "COM",
-          "voice": ""
+          "variableName": "AUTO",
+          "text": "AUTO",
+          "voice": "AUTOMATIC."
+        },
+        {
+          "variableName": "6",
+          "text": "6",
+          "voice": "SIX."
+        },
+        {
+          "variableName": "5",
+          "text": "5",
+          "voice": "FIVE."
+        },
+        {
+          "variableName": "4",
+          "text": "4",
+          "voice": "FOUR."
+        },
+        {
+          "variableName": "3",
+          "text": "3",
+          "voice": "THREE."
+        },
+        {
+          "variableName": "2",
+          "text": "2",
+          "voice": "TWO."
+        },
+        {
+          "variableName": "1",
+          "text": "1",
+          "voice": "ONE."
+        },
+        {
+          "variableName": "CODES",
+          "text": "CODES",
+          "voice": "CODES."
+        },
+        {
+          "variableName": "DEPTH",
+          "text": "DEPTH",
+          "voice": "DEPTH."
+        },
+        {
+          "variableName": "COVERAGE",
+          "text": "COVERAGE",
+          "voice": "COVERAGE."
+        },
+        {
+          "variableName": "DRY",
+          "text": "DRY",
+          "voice": "DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "WET",
+          "voice": "WET."
+        },
+        {
+          "variableName": "NR",
+          "text": "NR",
+          "voice": "NOT REPORTED."
+        },
+        {
+          "variableName": "100",
+          "text": "100",
+          "voice": "ONE-HUNDRED PERCENT."
+        },
+        {
+          "variableName": "75",
+          "text": "75",
+          "voice": "SEVENTY-FIVE PERCENT."
+        },
+        {
+          "variableName": "50",
+          "text": "50",
+          "voice": "FIFTY PERCENT."
+        },
+        {
+          "variableName": "25",
+          "text": "25",
+          "voice": "TWENTY-FIVE PERCENT."
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "ATC LOW VISBILITY PROCEDURES IN OPERATION. CATEGORY THREE HOLDING POINTS IN USE.",
+          "text": "RUNWAY CONDITION CODES;6/6/6 DRY/DRY/DRY DEPTH;NR/NR/NR COVERAGE;NR/NR/NR",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "INCREASED BIRD ACTIVITY WITHIN THE AERODROME BOUNDARY.",
+          "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "CHEMICALLY TREATED.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED ON DEPARTURE.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "LARGE FLOCKS OF BIRDS HAVE BEEN OBSERVED WITHIN THE VICINITY OF THE AERODROME.",
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
           "ordinal": 3,
           "enabled": false
         },
         {
-          "text": "TURBULENCE MAY BE ENCOUNTERED IN THE FINAL STAGES OF THE APPROACH.",
+          "text": "FLIGHT CREWS IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
           "ordinal": 4,
           "enabled": false
         },
         {
-          "text": "WINDSHEAR REPORTED.",
+          "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.855.",
           "ordinal": 5,
           "enabled": false
         },
         {
-          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.630.",
           "ordinal": 6,
           "enabled": false
         },
         {
-          "text": "FLIGHT CREWS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "text": "FOR START & TAXI CONTACT MANCHESTER RADAR ON 118.580.",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.705.",
+          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
           "ordinal": 8,
           "enabled": false
+        }
+      ]
+    },
+    {
+      "id": "41c5b255-49a4-4232-9fb2-7786d938399f",
+      "ordinal": 0,
+      "identifier": "EGCC",
+      "name": "Manchester",
+      "atisType": "Arrival",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "AT TIME {time} ZULU {special}."
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} KNOTS"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} KNOTS"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "SURFACE WIND VARIABLE {wind_spd} GUSTING {wind_gust} KNOTS"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "VARIABLE BETWEEN {wind_vmin} AND {wind_vmax} DEGREES"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "SURFACE WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "unlimitedVisibilityText": "9999"
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "automaticCbDetection": {
+            "text": "//////CB",
+            "voice": "RADAR DETECTED CUMULONIMBUS CLOUDS"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": true
+        },
+        "dewpoint": {
+          "usePlusPrefix": true
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "Q{altimeter}",
+            "voice": "QNH {altimeter} HECTO-PASKALS"
+          }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
+        "transitionLevel": {
+          "values": [
+            {
+              "low": 1050,
+              "high": 1060,
+              "altitude": 50
+            },
+            {
+              "low": 1032,
+              "high": 1049,
+              "altitude": 55
+            },
+            {
+              "low": 1014,
+              "high": 1031,
+              "altitude": 60
+            },
+            {
+              "low": 995,
+              "high": 1013,
+              "altitude": 65
+            },
+            {
+              "low": 977,
+              "high": 994,
+              "altitude": 70
+            },
+            {
+              "low": 959,
+              "high": 976,
+              "altitude": 75
+            }
+          ],
+          "template": {
+            "text": "TRANSITION-LEVEL FL {trl}",
+            "voice": "TRANSITION LEVEL. FLIGHT LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "{notams}",
+            "voice": "{notams}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": false,
+          "template": {
+            "text": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter} AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER APPPROACH RADAR",
+            "voice": "ACKNOWLEDGE RECEIPT OF INFORMATION {letter|word} AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH MANCHESTER APPPROACH RADAR"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 128180000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Male",
+        "speechRate": 170
+      },
+      "presets": [
+        {
+          "id": "470498fc-9e1d-429a-914e-df25ffb2f15e",
+          "name": "23 DUALS",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 23R.\r\n[ARPT_COND]\r\n[TL]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
         },
         {
-          "text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.855.",
-          "ordinal": 9,
+          "id": "6d96f5c1-60ba-4a9d-9561-db656f6df8ee",
+          "name": "23R SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 23R.\r\n[ARPT_COND]\r\n[TL]\r\nSINGLE RUNWAY OPERATIONS.\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "244bcf18-8ae8-4b4f-a2a5-c93000587dcd",
+          "name": "23L SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 23L.\r\n[ARPT_COND]\r\n[TL]\r\nSINGLE RUNWAY OPERATIONS.\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "f5ed141c-ac1a-46b6-8823-ea61773e69e4",
+          "name": "05 DUALS",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 05R.\r\n[ARPT_COND]\r\n[TL]\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "5994a6be-9110-457c-add4-3b918674b08b",
+          "name": "05L SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 05L.\r\n[ARPT_COND]\r\n[TL]\r\nSINGLE RUNWAY OPERATIONS.\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "92c9e36b-7b34-4f52-a1b4-cd200d6b2fd3",
+          "name": "05R SINGLE",
+          "airportConditions": "",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RUNWAY 05R.\r\n[ARPT_COND]\r\n[TL]\r\nSINGLE RUNWAY OPERATIONS.\r\nAUTO [WX]\r\n[NOTAMS]\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "HPA",
+          "text": "HPA",
+          "voice": "HECTO-PASKALS"
+        },
+        {
+          "variableName": "CAVOK",
+          "text": "CAVOK",
+          "voice": "CAV-OH-KAY"
+        },
+        {
+          "variableName": "RWY",
+          "text": "RWY",
+          "voice": "RUNWAY"
+        },
+        {
+          "variableName": "RNAV",
+          "text": "RNAV",
+          "voice": "ARE-NAV"
+        },
+        {
+          "variableName": "RNP",
+          "text": "RNP",
+          "voice": "ARE-ENN-PEE"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "EYE-ELL-ESS"
+        },
+        {
+          "variableName": "WIP",
+          "text": "WIP",
+          "voice": "WORK-IN-PROGRESS"
+        },
+        {
+          "variableName": "ATC",
+          "text": "ATC",
+          "voice": "AY-TEE-SEE"
+        },
+        {
+          "variableName": "DATALINK",
+          "text": "DATALINK",
+          "voice": "DATA-LINK"
+        },
+        {
+          "variableName": "SRO",
+          "text": "SRO",
+          "voice": "SINGLE RUNWAY OPERATIONS.."
+        },
+        {
+          "variableName": "AUTO",
+          "text": "AUTO",
+          "voice": "AUTOMATIC."
+        },
+        {
+          "variableName": "6",
+          "text": "6",
+          "voice": "SIX."
+        },
+        {
+          "variableName": "5",
+          "text": "5",
+          "voice": "FIVE."
+        },
+        {
+          "variableName": "4",
+          "text": "4",
+          "voice": "FOUR."
+        },
+        {
+          "variableName": "3",
+          "text": "3",
+          "voice": "THREE."
+        },
+        {
+          "variableName": "2",
+          "text": "2",
+          "voice": "TWO."
+        },
+        {
+          "variableName": "1",
+          "text": "1",
+          "voice": "ONE."
+        },
+        {
+          "variableName": "CODES",
+          "text": "CODES",
+          "voice": "CODES."
+        },
+        {
+          "variableName": "DEPTH",
+          "text": "DEPTH",
+          "voice": "DEPTH."
+        },
+        {
+          "variableName": "COVERAGE",
+          "text": "COVERAGE",
+          "voice": "COVERAGE."
+        },
+        {
+          "variableName": "DRY",
+          "text": "DRY",
+          "voice": "DRY."
+        },
+        {
+          "variableName": "WET",
+          "text": "WET",
+          "voice": "WET."
+        },
+        {
+          "variableName": "NR",
+          "text": "NR",
+          "voice": "NOT REPORTED."
+        },
+        {
+          "variableName": "100",
+          "text": "100",
+          "voice": "ONE-HUNDRED PERCENT."
+        },
+        {
+          "variableName": "75",
+          "text": "75",
+          "voice": "SEVENTY-FIVE PERCENT."
+        },
+        {
+          "variableName": "50",
+          "text": "50",
+          "voice": "FIFTY PERCENT."
+        },
+        {
+          "variableName": "25",
+          "text": "25",
+          "voice": "TWENTY-FIVE PERCENT."
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "RUNWAY CONDITION CODES;6/6/6 DRY/DRY/DRY DEPTH;NR/NR/NR COVERAGE;NR/NR/NR",
+          "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 118.630.",
-          "ordinal": 10,
-          "enabled": false
-        },
-        {
-          "text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "ordinal": 11,
+          "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
+          "ordinal": 2,
           "enabled": true
         },
         {
-          "text": "PILOTS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
-          "ordinal": 12,
-          "enabled": false
-        },
-        {
-          "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "ordinal": 13,
+          "text": "CHEMICALLY TREATED.",
+          "ordinal": 3,
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "WINDSHEAR REPORTED ON ARRIVAL.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BE ADVISED MODERATE MICRO-BURST FORECAST.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     }
   ],
-  "version": 4
+  "version": 67
 }
+
