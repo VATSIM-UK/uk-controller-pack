@@ -1,7 +1,5 @@
 {
   "name": "Heathrow",
-  "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Heathrow(EGLL & EGWU).json",
-  "updateSerial": 2026011701,
   "stations": [
     {
       "id": "ad70c102-ec1c-42c8-ac56-dcd07be242cf",
@@ -29,13 +27,13 @@
           "standard": {
             "template": {
               "text": "{wind_dir}{wind_spd}KT",
-              "voice": "SURFACE WIND {wind_dir} {wind_spd} KNOTS"
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} KNOTS"
             }
           },
           "standardGust": {
             "template": {
               "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
-              "voice": "SURFACE WIND {wind_dir} {wind_spd} GUSTING {wind_gust} KNOTS"
+              "voice": "SURFACE WIND {wind_dir} DEGREES {wind_spd} GUSTING {wind_gust} KNOTS"
             }
           },
           "variable": {
@@ -155,10 +153,11 @@
       },
       "presets": [
         {
-          "id": "e5abde32-678a-4cc1-a4d0-06e752e2b2d0",
-          "ordinal": 0,
-          "name": "DEPARTING 27L",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RWY 27L\r\n[ARPT_COND]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "id": "0c7b856c-43a8-469c-911c-5262b2320484",
+          "name": "DEP 27R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 27R\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -170,10 +169,11 @@
           }
         },
         {
-          "id": "4f897054-eba3-415a-b3bb-badc76555eb6",
-          "ordinal": 1,
-          "name": "DEPARTING 27R",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RWY 27R\r\n[ARPT_COND]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "id": "02534a67-36f1-45cd-8f6d-16a668a9de4d",
+          "name": "DEP 27L",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 27L\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -185,10 +185,11 @@
           }
         },
         {
-          "id": "8c4bf98b-5ad9-42a3-b7b4-8c6b1d47c425",
-          "ordinal": 2,
-          "name": "DEPARTING 09L",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RWY 09L\r\n[ARPT_COND]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "id": "88386f27-6494-4303-b075-43099067393c",
+          "name": "DEP 09R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 09R\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -200,10 +201,57 @@
           }
         },
         {
-          "id": "46f4dc4a-f8dc-4128-ab59-da71923c5d87",
-          "ordinal": 3,
-          "name": "DEPARTING 09R",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nDEPARTURE RWY 09R\r\n[ARPT_COND]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "id": "3a1da30c-96bf-4ae6-a596-21646a0dfb17",
+          "name": "SRO 27R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 27R\r\n[ARPT_COND]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 27R IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "b7fd1588-fb01-44d7-bd78-60b3b8fa31af",
+          "name": "SRO 27L",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 27L\r\n[ARPT_COND]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 27L IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d817e686-b1be-41c3-b8a9-d45c7c745174",
+          "name": "SRO 09R",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 09R\r\n[ARPT_COND]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 09R IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "b3664cb6-d3d2-4727-8c3a-fe37daad1830",
+          "name": "SRO 09L",
+          "notams": "",
+          "template": "EGLL DEP ATIS [ATIS_CODE]\r\n[TIME]\r\nDEPARTURE RWY 09L\r\n[ARPT_COND]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 09L IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE AND CURRENT QNH ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -355,6 +403,16 @@
           "variableName": "25",
           "text": "25",
           "voice": "TWENTY-FIVE PERCENT"
+        },
+        {
+          "variableName": "EGLL",
+          "text": "EGLL",
+          "voice": "Heathrow"
+        },
+        {
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "Information"
         }
       ],
       "airportConditionDefinitions": [
@@ -366,7 +424,7 @@
         {
           "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED.",
@@ -408,7 +466,7 @@
         {
           "text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.505.",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "FOR START & TAXI CONTACT DIRECTOR ON 119.730.",
@@ -600,7 +658,7 @@
           "name": "LANDING 27L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RWY 27L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 27L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -615,7 +673,7 @@
           "id": "7b142a0a-4ed6-4b22-97f6-020d399e5096",
           "name": "LANDING 27R",
           "airportConditions": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RWY 27R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 27R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -631,7 +689,7 @@
           "name": "LANDING 09L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RWY 09L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 09L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -645,9 +703,103 @@
         {
           "id": "03fd461b-3a13-4eea-bb67-1d58dfca5242",
           "name": "LANDING 09R",
-          "airportConditions": "PILOTS ARE REMINDED THAT DATALINK CLEARANCES ARE NOT AVAILABLE FOR CPT DEPARTURES.",
+          "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME]\r\nARRIVAL RWY 09R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nAUTO [WIND] [VIS] [RVR] [PRESENT_WX] [CLOUDS] [TEMP]/[DEW] [PRESSURE]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 09R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "831bda99-dc38-4841-9725-18870d2a9449",
+          "name": "SRO 27R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 27R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 27R IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "d0ba9ef5-ba26-47f1-b403-49cc27c52ad1",
+          "name": "SRO 27L",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 27L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 27L IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "5a05a824-c130-414e-8640-7855d61d838d",
+          "name": "SRO 09R",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 09R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 09R IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "45ab8196-22f1-4efa-956e-3c9d63991052",
+          "name": "SRO 09L",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY 09L\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\nSINGLE RUNWAY OPERATIONS RWY 09L IN FORCE\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "1705c4ac-029e-4f2d-b379-0c35e74f4c3f",
+          "name": "LANDING 27L & 27R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY27L & RWY27R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c83d1265-8611-4c88-b282-b6da0fd32f03",
+          "name": "LANDING 09L & 09R",
+          "airportConditions": "",
+          "notams": "",
+          "template": "EGLL ARR ATIS [ATIS_CODE]\r\n[TIME]\r\nLANDING RWY09L & RWY09R\r\n[ARPT_COND]\r\n[TL]\r\n[NOTAMS]\r\n[WX]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND REPORT AIRCRAFT TYPE ON FIRST CONTACT WITH HEATHROW",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -799,6 +951,16 @@
           "variableName": "25",
           "text": "25",
           "voice": "TWENTY-FIVE PERCENT"
+        },
+        {
+          "variableName": "EGLL",
+          "text": "EGLL",
+          "voice": "Heathrow"
+        },
+        {
+          "variableName": "ATIS",
+          "text": "ATIS",
+          "voice": "Information"
         }
       ],
       "airportConditionDefinitions": [
@@ -810,7 +972,7 @@
         {
           "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED.",
@@ -1236,8 +1398,12 @@
           "variableName": "50",
           "text": "50",
           "voice": "FIFTY PERCENT."
+        },
+        {
+          "variableName": "COM",
+          "text": "COM",
+          "voice": ""
         }
-
       ],
       "airportConditionDefinitions": [
         {
@@ -1248,7 +1414,7 @@
         {
           "text": "RUNWAY CONDITION CODES;5/5/5 WET/WET/WET DEPTH;NR/NR/NR COVERAGE;100%/100%/100%",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "CHEMICALLY TREATED.",
