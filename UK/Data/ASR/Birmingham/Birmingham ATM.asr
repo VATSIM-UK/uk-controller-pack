@@ -155,6 +155,10 @@ TAGFAMILY:Traffic Monitor
 WINDOWAREA:51.972582:-3.257593:52.935129:-0.238463
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:0
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:0
