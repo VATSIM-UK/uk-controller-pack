@@ -4,6 +4,7 @@
 3. Enhancement - Hid VCCS mini control - thanks to @frazerxyz (Frazer Scully)
 4. Enhancement - Enable departure coordination window for radars and disable it on SMRs - thanks to @frazerxyz (Frazer Scully)
 5. Bug - Stop frequencies from automatically priming when connecting - thanks to @frazerxyz (Frazer Scully)
+6. Bug - Fix Stanley Information in frequency selector dialog - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/05 to 2026/07
 1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
