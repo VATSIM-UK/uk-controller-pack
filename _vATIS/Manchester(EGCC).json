@@ -1,7 +1,7 @@
 {
   "name": "Manchester",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Manchester(EGCC).json",
-  "updateSerial": 2025122301,
+  "updateSerial": 2026072001,
   "stations": [
     {
       "id": "f77c9ed3-9424-472a-ac49-9687e436ad02",
@@ -833,4 +833,3 @@
   ],
   "version": 1
 }
-
