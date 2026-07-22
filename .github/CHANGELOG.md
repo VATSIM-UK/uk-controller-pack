@@ -1,3 +1,6 @@
+# Changes from release 2026/07a to 2026/08
+1. Bug - Fixed phraseology in .trils and .tlils aliases - thanks to @hoffi-coffi (Chris Cox)
+
 # Changes from release 2026/07 to 2026/07a
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
 2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)

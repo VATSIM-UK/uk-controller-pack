@@ -282,8 +282,8 @@ Approach Radar
 .tllgp Turn left heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
 .weldgp When established on the localiser runway $arrrwy($arr), descend on the glidepath
 
-.trils Turn right heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
-.tlils Turn left heading $1 degrees, when established on the localiser runway $arrrwy($arr), descend on the glidepath
+.trils Turn right heading $1 degrees, cleared ILS approach runway $arrrwy($arr)
+.tlils Turn left heading $1 degrees, cleared ILS approach runway $arrrwy($arr)
 .cils Cleared ILS approach runway $arrrwy($arr)
 .cva Cleared visual approach runway $arrrwy($arr)
 
