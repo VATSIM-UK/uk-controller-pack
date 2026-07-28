@@ -1,3 +1,32 @@
+# Changes from release 2026/07 to 2026/07a
+1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
+2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Hid VCCS mini control - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Enable departure coordination window for radars and disable it on SMRs - thanks to @frazerxyz (Frazer Scully)
+5. Bug - Stop frequencies from automatically priming when connecting - thanks to @frazerxyz (Frazer Scully)
+6. Enhancement - Implement dual vATIS profiles for Heathrow and Manchester - thanks to @frazerxyz (Frazer Scully)
+
+# Changes from release 2026/05 to 2026/07
+1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
+2. Amendment - Removed display and loading of CDM pending trials
+3. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky areas - thanks to @danielbutton (Daniel Button)
+4. AIRAC (2607) - Updated Falklands Onion Range vertical limits - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Added Argentine Cemetery restricted area to Falklands profile - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Updated Fairford (EGVA) vATIS format - thanks to @danielbutton (Daniel Button)
+7. Procedure Change (2607) - Updated Maastricht (EDYY) KOKSY CPDLC logon code - thanks to @Liaely (Lily Unitt)
+8. AIRAC (2607) - Updated Leuchars (EGQL) Approach positions - thanks to @Liaely (Lily Unitt)
+9. Bug - Fixed airport conditions not showing on Luton (EGGW) vATIS profile - thanks to @AdriTheDev (Callum Hicks)
+
+# Changes from release 2026/04a to 2026/05
+1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
+2. Bug - Fixed history trails on Gatwick (EGKK) ATM - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Added vSMR acknowledged QNH item to ATM lists - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+5. Bug - Fixed Southend (EGMC) runway 05 preset on TC BBX vATIS profile - thanks to @frazerxyz (Frazer Scully)
+6. AIRAC (2604) - Updated Bristol (EGGD) Radar and Tower frequencies (8.33 conversion) - thanks to @kishore-nair (Kishore Ravikumar)
+7. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Incorporated vSMR 1.9.1
+
 # Changes from release 2026/04 to 2026/04a
 1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
 2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)

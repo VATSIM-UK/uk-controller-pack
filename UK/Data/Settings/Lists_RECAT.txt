@@ -107,7 +107,6 @@ m_LineNumber:6
 m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0
-m_Column:CTL:3:1:640:650:0:0:VCH:VCH::0:0.0
 m_Column:H/S:5:1:440:444:0:0:VCH:VCH::0:0.0
 m_Column:REQ:3:1:540:548:0:0:VCH:VCH::0:0.0
 m_Column:RQT:3:1:544:548:0:0:VCH:VCH::0:0.0

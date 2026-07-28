@@ -1,7 +1,7 @@
 {
   "Name": "UK - TC Bandbox",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/UK - TC Bandbox.json",
-  "updateSerial": 2026042301,
+  "updateSerial": 2026051401,
   "stations": [
     {
       "ordinal": 0,
@@ -1422,7 +1422,7 @@
           "Name": "RUNWAY 05 (LTC_CTR)",
           "AirportConditions": "ILS APPROACH TO BE EXPECTED. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 135.805",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^06.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^05.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         }
       ],
       "contractions": [
