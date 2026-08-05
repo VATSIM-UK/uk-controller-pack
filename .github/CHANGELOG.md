@@ -1,3 +1,7 @@
+# Changes from relese 2026/07a to 2026/08
+1. AIRAC (2608) - Updated Prestwick (EGPK) tower frequency - thanks to @Liaely (Lily Unitt)
+2. Bug - Corrected Prestwick (EGPK) ATIS referring to delivery with PDC - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/07 to 2026/07a
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
 2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
