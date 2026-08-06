@@ -6,6 +6,7 @@
 5. Bug - Stop frequencies from automatically priming when connecting - thanks to @frazerxyz (Frazer Scully)
 6. Enhancement - Implement dual vATIS profiles for Heathrow and Manchester - thanks to @frazerxyz (Frazer Scully)
 7. Bug - Fix Stanley Information in frequency selector dialog - thanks to @Liaely (Lily Unitt)
+8. Bug - Fixed phraseology in .trils and .tlils aliases - thanks to @hoffi-coffi (Chris Cox)
 
 # Changes from release 2026/05 to 2026/07
 1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
