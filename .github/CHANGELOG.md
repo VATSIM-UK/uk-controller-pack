@@ -1,4 +1,4 @@
-# Changes from release 2026/07 to 2026/07a
+# Changes from release 2026/07 to 2026/08
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
 2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
 3. Enhancement - Hid VCCS mini control - thanks to @frazerxyz (Frazer Scully)
