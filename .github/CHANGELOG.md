@@ -13,6 +13,7 @@
 12. Bug - Corrected Prestwick (EGPK) ATIS referring to delivery with PDC - thanks to @Liaely (Lily Unitt)
 13. AIRAC (2608) - Updated Gloucester (EGBJ) runway designators - thanks to @Liaely (Lily Unitt)
 14. Bug - Corrected Gloucester (EGBJ) RWY 27 extended centreline - thanks to @Liaely (Lily Unitt)
+15. Enhancement - Updated VATCAN plugin to V1.1.11 & VACS to v2.5.1 - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/05 to 2026/07
 1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
