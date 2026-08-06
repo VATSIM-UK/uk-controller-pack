@@ -11,6 +11,8 @@
 10. AIRAC (2608) - Added Southern Mil - thanks to @danielbutton (Daniel Button)
 11. AIRAC (2608) - Updated Prestwick (EGPK) tower frequency - thanks to @Liaely (Lily Unitt)
 12. Bug - Corrected Prestwick (EGPK) ATIS referring to delivery with PDC - thanks to @Liaely (Lily Unitt)
+13. AIRAC (2608) - Updated Gloucester (EGBJ) runway designators - thanks to @Liaely (Lily Unitt)
+14. Bug - Corrected Gloucester (EGBJ) RWY 27 extended centreline - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/05 to 2026/07
 1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
