@@ -23,6 +23,10 @@ PROFILE:HTSPR_2_CTR:400:6
 ATIS2:Hotspur
 ATIS3:Fighter control for VSOA assets ONLY.
 ATIS4:
+PROFILE:STHRN_APP:150:5
+ATIS2:Southern Mil
+ATIS3:Top-down control for RAF Odiham (EGVO) and RAF Benson (EGUB).
+ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EG_APP:150:5
 ATIS2: Approach
 ATIS3:Submit feedback at vats.im/atcfb
