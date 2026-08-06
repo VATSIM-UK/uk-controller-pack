@@ -9,6 +9,8 @@
 8. Bug - Fixed phraseology in .trils and .tlils aliases - thanks to @hoffi-coffi (Chris Cox)
 9. Enhancement - Added Lands End (EGHQ) to AC West vATIS profile - thanks to @mid-archie (Archie Middlefell) & @Liaely (Lily Unitt)
 10. AIRAC (2608) - Added Southern Mil - thanks to @danielbutton (Daniel Button)
+11. AIRAC (2608) - Updated Prestwick (EGPK) tower frequency - thanks to @Liaely (Lily Unitt)
+12. Bug - Corrected Prestwick (EGPK) ATIS referring to delivery with PDC - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/05 to 2026/07
 1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
