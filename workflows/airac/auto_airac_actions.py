@@ -82,70 +82,83 @@ class CurrentInstallation:
                         sector_file.append(os.path.join(root, file_name))
                         sector_fn.append(file_name)
 
-            if len(sector_file) == 1 and len(sector_fn) == 1:
-                logger.info(f"Sector file found at {sector_file[0]}")
-                airac_format = str(self.airac.replace("/", "_"))
-                if airac_format not in sector_file[0]:
-                    logger.warning(f"Sector file appears out of date with the current {self.airac} release!")
-                    ext = ["ese", "rwy", "sct"]
-
-                    artifact_list = requests.get(
-                        f"https://api.github.com/repos/{self.remote_repo_owner}/{self.remote_repo_name}/actions/artifacts",
-                        timeout=30
-                    )
-                    if artifact_list.status_code != 200:
-                        raise requests.HTTPError(f"URL not found - {artifact_list.url}")
-
-                    al_json = artifact_list.json()
-                    logger.debug(f"Found artifacts: {[a['name'] for a in al_json['artifacts']]}")
-
-                    artifact_url = next(
-                        (artifact["archive_download_url"]
-                         for artifact in al_json["artifacts"]
-                         if artifact["name"] == "UK Sector File"
-                         and artifact["workflow_run"]["head_branch"].startswith(self.airac)),
-                        None
-                    )
-                    if artifact_url is None:
-                        raise ValueError("No artifact named 'UK Sector File' found.")
-
-                    logger.info(f"Downloading artifact from: {artifact_url}")
-                    headers = {
-                        'Accept': 'application/vnd.github+json',
-                        'Authorization': f'Bearer {os.environ["REMOTE_KEY"]}',
-                        'X-GitHub-Api-Version': '2022-11-28'
-                    }
-                    response = requests.get(artifact_url, headers=headers, timeout=30)
-                    if response.status_code != 200:
-                        raise requests.HTTPError(f"Failed to download sector artifact - {response.status_code}")
-
-                    with open("sector.zip", "wb") as file:
-                        file.write(response.content)
-
-                    with ZipFile("sector.zip", "r") as zip_ref:
-                        zip_ref.extractall(".")
-
-                        import glob
-                        extracted_files = glob.glob('**', recursive=True)
-                        logger.debug(f"Extracted files: {extracted_files}")
-
-                    os.remove("sector.zip")
-
-                    for e_type in ext:
-                        os.rename(
-                            f"UK.{e_type}",
-                            f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.{e_type}"
-                        )
-                    for e_type in ext:
-                        path_to_remove = f"{self.ukcp_location}/Data/Sector/{str(sector_fn[0]).split('.', 1)[0]}.{e_type}"
-                        os.remove(path_to_remove)
-
-                    return f"{self.ukcp_location}/Data/Sector/UK_{airac_format}.sct"
-                return str(sector_file[0])
-            else:
+            if len(sector_file) != 1 or len(sector_fn) != 1:
                 logger.error(f"Sector file search found {len(sector_file)} files. There should only be one!")
                 logger.debug(sector_file)
                 raise ValueError(f"{len(sector_file)} sector files were found when there should only be one")
+
+            logger.info(f"Sector file found at {sector_file[0]}")
+
+            airac_format = self.airac.replace("/", "_")
+            ext = ["ese", "rwy", "sct"]
+
+            artifact_list = requests.get(
+                f"https://api.github.com/repos/{self.remote_repo_owner}/{self.remote_repo_name}/actions/artifacts",
+                timeout=30
+            )
+            artifact_list.raise_for_status()
+
+            artifacts = artifact_list.json()["artifacts"]
+            logger.debug(f"Found artifacts: {[a['name'] for a in artifacts]}")
+
+            sector_artifacts = [
+                artifact for artifact in artifacts
+                if artifact["name"] == "UK Sector File"
+                and artifact["workflow_run"]["head_branch"].replace("/", "_").startswith(airac_format)
+            ]
+
+            if not sector_artifacts:
+                raise ValueError(f"No artifact named 'UK Sector File' found for AIRAC {self.airac}.")
+
+            sector_artifacts.sort(key=lambda artifact: artifact["created_at"], reverse=True)
+            latest_artifact = sector_artifacts[0]
+            latest_branch = latest_artifact["workflow_run"]["head_branch"].replace("/", "_")
+            expected_sct = f"{self.ukcp_location}/Data/Sector/UK_{latest_branch}.sct"
+
+            if os.path.normpath(sector_file[0]) == os.path.normpath(expected_sct):
+                logger.info(f"Sector file is already up to date: {sector_file[0]}")
+                return str(sector_file[0])
+
+            logger.warning(
+                f"Sector file is out of date. Current: {sector_file[0]}, latest: {expected_sct}"
+            )
+
+            artifact_url = latest_artifact["archive_download_url"]
+            logger.info(f"Downloading artifact from: {artifact_url}")
+            headers = {
+                'Accept': 'application/vnd.github+json',
+                'Authorization': f'Bearer {os.environ["REMOTE_KEY"]}',
+                'X-GitHub-Api-Version': '2022-11-28'
+            }
+            response = requests.get(artifact_url, headers=headers, timeout=30)
+            if response.status_code != 200:
+                raise requests.HTTPError(f"Failed to download sector artifact - {response.status_code}")
+
+            with open("sector.zip", "wb") as file:
+                file.write(response.content)
+
+            with ZipFile("sector.zip", "r") as zip_ref:
+                zip_ref.extractall(".")
+
+                import glob
+                extracted_files = glob.glob('**', recursive=True)
+                logger.debug(f"Extracted files: {extracted_files}")
+
+            os.remove("sector.zip")
+
+            for e_type in ext:
+                os.rename(
+                    f"UK.{e_type}",
+                    f"{self.ukcp_location}/Data/Sector/UK_{latest_branch}.{e_type}"
+                )
+
+            old_base = str(sector_fn[0]).split('.', 1)[0]
+            for e_type in ext:
+                path_to_remove = f"{self.ukcp_location}/Data/Sector/{old_base}.{e_type}"
+                if os.path.exists(path_to_remove):
+                    os.remove(path_to_remove)
+
+            return expected_sct
 
         sct_file = get_sector_file()
 

@@ -244,6 +244,7 @@ Restricted/EGR610B.txt
 Restricted/EGR610C.txt
 Restricted/EGR610D.txt
 Restricted/EGR704.txt
+Restricted/vRIAT RA(T).txt
 AARA/AARA 1.txt
 AARA/AARA 2.txt
 AARA/AARA 3.txt

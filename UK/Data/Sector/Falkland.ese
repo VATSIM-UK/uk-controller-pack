@@ -1,7 +1,7 @@
 ;RAF Mount Pleasant Sector File
 ;Authors: Jack Edwards, Trevor Hannant, Lee Roberts, Scott Daniels.
 ;For use with Euroscope Only
-;Version 1.2
+;Version 1.3
 
 [POSITIONS]
 ISLAND_CTR:Island Radar:131.500:ISLND:R:EGYP:CTR:-:-:3030:3037:S051.49.21.644:W058.26.45.352::
@@ -29,7 +29,7 @@ S051.49.20.198:W058.28.30.340:EGYP Taxiways:Heli Apron
 S051.48.52.681:W058.28.18.369:EGYP Taxiways:Golf Dispersal
 S051.48.59.965:W058.27.49.563:EGYP Taxiways:Hotel Dispersal
 
-S051.38.35.483:W058.35.00.133:Ranges:SFC-FL110
+S051.38.35.483:W058.35.00.133:Ranges:SFC-FL160
 S051.42.31.076:W059.31.45.108:Ranges:SFC-FL110
 S051.53.08.000:W058.53.31.000:Ranges:Arrow
 S051.42.24.000:W057.47.36.000:Ranges:SFC-2000

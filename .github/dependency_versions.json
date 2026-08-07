@@ -2,14 +2,14 @@
   "vSMR": {
     "schemaVersion": 1,
     "label": "vSMR",
-    "message": "1.9.0",
+    "message": "1.9.1",
     "color": "blue",
     "repo": "VATSIM-UK/vSMR"
   },
   "RDF": {
     "schemaVersion": 1,
     "label": "RDF",
-    "message": "1.4.2",
+    "message": "1.4.3",
     "color": "blue",
     "repo": "KingfuChan/RDF"
   },
@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.2.8.25",
+    "message": "2.28",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -40,13 +40,6 @@
     "message": "1.1",
     "color": "blue",
     "repo": "quassbutreally/EuroScope-CCDS-R"
-  },
-  "VFPC": {
-    "schemaVersion": 1,
-    "label": "VFPC",
-    "message": "3.7.1.0",
-    "color": "blue",
-    "repo": "VFPC/VFPC"
   },
   "DiscordEuroscope": {
     "schemaVersion": 1,
@@ -73,7 +66,7 @@
   "VACS": {
     "schemaVersion": 1,
     "label": "VACS",
-    "message": "vacs-client-v2.0.0",
+    "message": "vacs-client-v2.2.0",
     "color": "blue",
     "repo": "vacs-project/vacs"
   }

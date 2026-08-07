@@ -1,7 +1,7 @@
 {
   "name": "Prestwick",
   "updateUrl": "https://raw.githubusercontent.com/VATSIM-UK/uk-controller-pack/refs/heads/main/_vATIS/Prestwick(EGPK).json",
-  "updateSerial": 2025122301,
+  "updateSerial": 2026080601,
   "stations": [
     {
       "ordinal": 0,
@@ -239,7 +239,7 @@
           "enabled": false
         },
         {
-          "text": "FOR CLEARANCE CONTACT TOWER ON 118.150.",
+          "text": "FOR CLEARANCE CONTACT TOWER ON 118.155.",
           "ordinal": 8,
           "enabled": false
         },
@@ -254,7 +254,7 @@
           "enabled": false
         },
         {
-          "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 118.150 WHEN READY FOR START.",
+          "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.155 WHEN READY FOR START.",
           "ordinal": 12,
           "enabled": false
         },

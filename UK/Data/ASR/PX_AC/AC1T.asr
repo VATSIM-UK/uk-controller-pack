@@ -52,7 +52,7 @@ Sids:Maastricht UAC Delta:
 Sids:Maastricht UAC Jever:
 Sids:Scottish AC North:
 Sids:Scottish AC South:
-Sids:Scottish Deancross:
+Sids:Scottish Borders:
 Sids:Scottish Rathlin:
 Sids:Scottish West:
 SHOWC:1
@@ -78,7 +78,7 @@ PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
-PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:1
 PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
 PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1

@@ -58,13 +58,14 @@ Free Text:EGYP SMAA Bases QNH\3200:freetext
 Free Text:EGYP SMAA Bases QNH\3400:freetext
 Free Text:Ranges\Arrow:freetext
 Free Text:Ranges\SFC-FL110:freetext
-Free Text:Ranges\SFC-FL110:freetext
+Free Text:Ranges\SFC-FL160:freetext
 Geo:28 Centreline:
 Geo:28 SRA Ticks:
 Geo:Antartica 13948116:
 Geo:Argentina 13948116:
 Geo:Falkland Islands 13948116:
 Geo:South Sandwich Islands:
+Regions:Argentine Cemetery:polygon
 Regions:Onion Range:polygon
 Regions:Rookery Bay/Phillips Point:polygon
 Regions:Second Creek Range:polygon

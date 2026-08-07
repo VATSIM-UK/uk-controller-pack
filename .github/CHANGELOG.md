@@ -1,5 +1,64 @@
-﻿# Changes from release 2026/02a to 2026/03
-1. Bug - Fixed updater version checking - Thanks to @MrAdder (Daniel Green)
+# Changes from release 2026/07 to 2026/08
+1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
+2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Hid VCCS mini control - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Enable departure coordination window for radars and disable it on SMRs - thanks to @frazerxyz (Frazer Scully)
+5. Bug - Stop frequencies from automatically priming when connecting - thanks to @frazerxyz (Frazer Scully)
+6. Enhancement - Implement dual vATIS profiles for Heathrow and Manchester - thanks to @frazerxyz (Frazer Scully)
+7. Bug - Fix Stanley Information in frequency selector dialog - thanks to @Liaely (Lily Unitt)
+8. Bug - Fixed phraseology in .trils and .tlils aliases - thanks to @hoffi-coffi (Chris Cox)
+9. Enhancement - Added Lands End (EGHQ) to AC West vATIS profile - thanks to @mid-archie (Archie Middlefell) & @Liaely (Lily Unitt)
+10. AIRAC (2608) - Added Southern Mil - thanks to @danielbutton (Daniel Button)
+11. AIRAC (2608) - Updated Prestwick (EGPK) tower frequency - thanks to @Liaely (Lily Unitt)
+12. Bug - Corrected Prestwick (EGPK) ATIS referring to delivery with PDC - thanks to @Liaely (Lily Unitt)
+13. AIRAC (2608) - Updated Gloucester (EGBJ) runway designators - thanks to @Liaely (Lily Unitt)
+14. Bug - Corrected Gloucester (EGBJ) RWY 27 extended centreline - thanks to @Liaely (Lily Unitt)
+15. Enhancement - Updated VATCAN plugin to V1.1.11 & VACS to v2.5.1 - thanks to @Liaely (Lily Unitt)
+
+# Changes from release 2026/05 to 2026/07
+1. AIRAC (2606) - Updated Belfast EGAC Approach frequencies 8.33khz - thanks to @Harshit-Lalwani (Harshit Lalwani)
+2. Amendment - Removed display and loading of CDM pending trials
+3. Enhancement - Added Fairford (EGVA) vRIAT RA(T) TopSky areas - thanks to @danielbutton (Daniel Button)
+4. AIRAC (2607) - Updated Falklands Onion Range vertical limits - thanks to @Liaely (Lily Unitt)
+5. Enhancement - Added Argentine Cemetery restricted area to Falklands profile - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Updated Fairford (EGVA) vATIS format - thanks to @danielbutton (Daniel Button)
+7. Procedure Change (2607) - Updated Maastricht (EDYY) KOKSY CPDLC logon code - thanks to @Liaely (Lily Unitt)
+8. AIRAC (2607) - Updated Leuchars (EGQL) Approach positions - thanks to @Liaely (Lily Unitt)
+9. Bug - Fixed airport conditions not showing on Luton (EGGW) vATIS profile - thanks to @AdriTheDev (Callum Hicks)
+
+# Changes from release 2026/04a to 2026/05
+1. Amendment - Removed UK vFPC whilst allowing for simple loading by those who choose to do so
+2. Bug - Fixed history trails on Gatwick (EGKK) ATM - thanks to @frazerxyz (Frazer Scully)
+3. Enhancement - Added vSMR acknowledged QNH item to ATM lists - thanks to @frazerxyz (Frazer Scully)
+4. Enhancement - Updated Lydd (EGMD) vATIS profile for extra realism - thanks to @Liaely (Lily Unitt)
+5. Bug - Fixed Southend (EGMC) runway 05 preset on TC BBX vATIS profile - thanks to @frazerxyz (Frazer Scully)
+6. AIRAC (2604) - Updated Bristol (EGGD) Radar and Tower frequencies (8.33 conversion) - thanks to @kishore-nair (Kishore Ravikumar)
+7. AIRAC (2604) - Amended East Cove Military Harbour avoidance area boundary - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Incorporated vSMR 1.9.1
+
+# Changes from release 2026/04 to 2026/04a
+1. Bug - Added missing EGPF vATIS preset - thanks to @kye-taylor (Kye Taylor)
+2. Enhancement - Updated Shoreham vATIS profile - thanks to @frazerxyz (Frazer Scully)
+3. Bug - Updated EGKK vATIS profile to reflect EGKK split ground operations - thanks to @coleedwards
+4. Bug - Fixed Aldergrove (EGAA), Belfast City (EGAC) and Glasgow (EGPF) Centreline TopSky map ID's - thanks to @spacenano (Samuel Lefevre)
+5. Enhancement - Apply changes relating to Solent Identifier update - thanks to @cpawley (Chris Pawley)
+6. Enhancement - Updated Stansted (EGSS) vATIS profile for extra realism - Thanks to @AdriTheDev (Callum Hicks)
+7. Bug - Fixed Scottish voice settings for Humber event split frequency
+8. Enhancement - Incorporated CDM 2.28 - thanks to @luke11brown (Luke Brown)
+
+# Changes from release 2026/03 to 2026/04
+1. AIRAC (2604) - Updated AMA in Jersey area - Thanks to @JYang365 (John Yang)
+2. Enhancement - Updated NERC symbology to be more realistic - thanks to @spacenano (Samuel Lefevre)
+3. AIRAC (2603) - Updated EGD218A and EGD218C altitude limits - thanks to @Kishore-Nair (Kishore Ravikumar)
+4. AIRAC (2604) - Updated Manchester (EGCC) SMAA - thanks to @Liaely (Lily Unitt)
+5. Procedure Change (2604) - Added Gatwick (EGKK) split GMC positions - thanks to @AdriTheDev (Callum Hicks)
+6. Procedure Change (2604) - Scottish Resectorisation: affects logon profiles, voice settings, TopSky config and more
+7. Enhancement - Updated VACS client to v2.2.0 - thanks to @Kishore-Nair (Kishore Ravikumar)
+8. Enhancement - Incorporated VFPC v3.7.2.0, CDM v2.27 and RDF v1.4.3
+9. Bug - Fixed .stand duplicated alias - thanks to @JYang365 (John Yang)
+
+# Changes from release 2026/02a to 2026/03
+1. Bug - Fixed updater version checking - thanks to @MrAdder (Daniel Green)
 2. Procedure Change (2603) - Defined danger area EGD098L - thanks to @Liaely (Lily Unitt)
 3. Bug - Show all Inverness SMAA Base labels on ASR 3 - thanks to @PLM1995
 4. Enhancement - Configurator saves and reapplies advanced config options - thanks to @hoffi-coffi (Chris Cox)
@@ -7,9 +66,9 @@
 6. Enhandement - improved text ALIAS files - thanks to @cpawley (Chris Pawley)
 7. AIRAC (2603) - Amended Aldergrove Radar & Tower (EGAA_APP & EGAA_TWR) Frequencies (8.33 conversion) - thanks to @MrAdder (Daniel Green)
 8. Enhancement - Add VACS installer (V2.0) and removed UK_VACS.toml - thanks to @MrAdder (Daniel Green)
-9. Bug - Fixed RDF rings drawing by default on Thames profiles - Thanks to @AdriTheDev (Callum Hicks)
+9. Bug - Fixed RDF rings drawing by default on Thames profiles - thanks to @AdriTheDev (Callum Hicks)
 10. Bug - Gloucestershire Approach (EGBJ_A_APP) Frequency corrected - thanks to @MrAdder (Daniel Green)
-11. Enhancement - Added new aliases for audio and the CPT 09R departure - Thanks to @AdriTheDev (Callum Hicks)
+11. Enhancement - Added new aliases for audio and the CPT 09R departure - thanks to @AdriTheDev (Callum Hicks)
 12. Enhancement - Updated VFPC to v3.7.1.0 - thanks to @MrAdder (Daniel Green)
 13. Enhancement - Updated vSMR to v1.9.0 - thanks to @Liaely (Lily Unitt)
 14. Enhancement - Updated Gatwick (EGKK) ATM display for realism - thanks to @Liaely (Lily Unitt)
@@ -647,4 +706,3 @@
 20. Bug - Approach tag family compound warning item moved to correct position - thanks to @luke11brown (Luke Brown)
 21. Enhancement - Various Alias updates - thanks to @luke11brown (Luke Brown)
 22. Bug - Coventry Radio -> Coventry Information - thanks to @luke11brown (Luke Brown)
-

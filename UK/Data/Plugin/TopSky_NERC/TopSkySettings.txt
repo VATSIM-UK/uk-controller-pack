@@ -71,7 +71,7 @@ Color_Active_Map_Type_4=120,120,120
 //Centrelines
 Color_Active_Map_Type_5=75,75,75
 //OCAS infill
-Color_Active_Map_Type_6=55,55,57
+Color_Active_Map_Type_6=20,20,20
 //Sector background infill
 Color_Active_Map_Type_7=28,28,28
 //Fixes
@@ -273,25 +273,25 @@ Setup_ScreenLat=LON
 [MAN_]
 Setup_ScreenLat=MCT
 
-[STC_]
+[SCL_]
 Setup_ScreenLat=TLA
 
-[STC_A_]
+[SCL_ANT_]
 Setup_ScreenLat=BEL
 
 [SCO_]
 Setup_ScreenLat=ADN
 
-[SCO_WD_]
+[SCO_WB_]
 Setup_ScreenLat=TIR
 
 [SCO_W_]
 Setup_ScreenLat=TIR
 
-[SCO_R_]
+[SCO_RAT_]
 Setup_ScreenLat=MAC
 
-[SCO_D_]
+[SCO_BDS_]
 Setup_ScreenLat=TLA
 
 [SCO_E_]

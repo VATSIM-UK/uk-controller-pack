@@ -3209,6 +3209,10 @@ PLUGIN:RDF Plugin for Euroscope:LowPrecision:50
 PLUGIN:RDF Plugin for Euroscope:DrawControllers:0
 PLUGIN:UK Controller Plugin:CountdownScreenPosX:1416
 PLUGIN:UK Controller Plugin:CountdownScreenPosY:24
+PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:1
+PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:1106
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:928
 PLUGIN:UK Controller Plugin:departureReleaseRequestListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListVisible:0
 PLUGIN:UK Controller Plugin:departureReleaseRequestListXPosition:100

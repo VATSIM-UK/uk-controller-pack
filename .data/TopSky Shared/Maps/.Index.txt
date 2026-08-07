@@ -92,7 +92,7 @@ Release/La Manche.txt
 Release/LEDGO.txt
 Release/Leeds.txt
 Release/LUVUM.txt
-Release/VESAM.txt
+Release/VESAN.txt
 Release/POL-LBA Line.txt
 Release/RAVSA-INLIM Line.txt
 Release/Reims.txt
@@ -151,10 +151,10 @@ Centreline/EGBB 15.txt
 Centreline/EGBB 15 Ticks.txt
 Centreline/EGBB 33.txt
 Centreline/EGBB 33 Ticks.txt
-Centreline/EGBJ 09.txt
-Centreline/EGBJ 09 Ticks.txt
-Centreline/EGBJ 27.txt
-Centreline/EGBJ 27 Ticks.txt
+Centreline/EGBJ 08.txt
+Centreline/EGBJ 08 Ticks.txt
+Centreline/EGBJ 26.txt
+Centreline/EGBJ 26 Ticks.txt
 Centreline/EGCC 23R.txt
 Centreline/EGCC 23R Ticks.txt
 Centreline/EGCC 05R.txt
