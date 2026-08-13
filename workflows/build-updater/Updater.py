@@ -101,8 +101,10 @@ USER_OWNED_FILENAMES = {"topskycpdlchoppiecode.txt"}
 
 # Sector files are renamed every AIRAC cycle (UK_2026_07.sct -> UK_2026_08.sct),
 # so they always arrive as new files with no common ancestor to merge against.
-# Group 1 is the AIRAC tag, group 2 the extension.
-AIRAC_FILE_RE = re.compile(r"^UK_(\d{4}_\d{1,2})\.(sct|ese|rwy)$", re.IGNORECASE)
+# Group 1 is the AIRAC tag, group 2 the extension. The optional letter covers
+# mid-cycle releases (UK_2022_05a), which normalize_version already sorts after
+# the base cycle and before the next one.
+AIRAC_FILE_RE = re.compile(r"^UK_(\d{4}_\d{1,2}[a-z]?)\.(sct|ese|rwy)$", re.IGNORECASE)
 
 # Only these two carry user customisations worth moving to the new cycle.
 AIRAC_CUSTOMISED_SUFFIXES = (".sct", ".ese")
@@ -147,6 +149,7 @@ def resource_path(rel: str) -> str:
 
 
 def use_azure_theme(root: tk.Tk, mode: str = "dark") -> None:
+    # Apply the Azure Tk theme when available; fail quietly if theme files are missing.
     try:
         root.tk.call("source", resource_path("workflows/build-updater/azure.tcl"))
         style = ttk.Style(root)
