@@ -52,6 +52,7 @@ from dulwich.objects import Blob
 
 REPO_OWNER = "VATSIM-UK"
 REPO_NAME = "UK-Controller-Pack"
+PACK_ROOT_NAME = "UK"
 
 LOCAL_VERSION_FILE = "version.txt"  # AIRAC pack tag, e.g. 2025_10
 SECTOR_DIR = os.path.join("Data", "Sector")
@@ -240,6 +241,30 @@ class UpdaterApp:
     def is_user_file(self, repo_path: str) -> bool:
         # Users should only ever receive UK/*
         return repo_path.startswith("UK/")
+
+    def ensure_pack_folder_correct(self) -> bool:
+        # Refuse to update unless the install folder is still named "UK".
+        # Comparison is case-insensitive to match Windows path lookups.
+        folder_name = os.path.basename(self.base_dir.rstrip("\\/"))
+        if folder_name.lower() == PACK_ROOT_NAME.lower():
+            return True
+
+        self.log(
+            f'Pack folder is named "{folder_name}", not "{PACK_ROOT_NAME}". '
+            "Update blocked."
+        )
+        messagebox.showerror(
+            "Pack folder renamed",
+            f'This folder is named "{folder_name}", but the UK Controller Pack '
+            f'must be installed in a folder named "{PACK_ROOT_NAME}".\n\n'
+            "Profiles and sector files reference paths that assume this exact "
+            "folder name. Updating a renamed folder would break EuroScope's "
+            "ability to find them.\n\n"
+            f'Please rename this folder back to "{PACK_ROOT_NAME}", or reinstall '
+            "the pack into a folder with that name, then run the updater again."
+            "\n\nNo changes have been made.",
+        )
+        return False
 
     def log(self, message: str) -> None:
         # Queue log output for the UI thread, with stderr fallback during early startup.
@@ -1505,6 +1530,8 @@ class UpdaterApp:
 
     def _run_update_safely(self) -> None:
         try:
+            if not self.ensure_pack_folder_correct():
+                return
             if not self.ensure_updater_current():
                 return
             self.update_if_needed()

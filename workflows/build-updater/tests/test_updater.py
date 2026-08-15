@@ -866,6 +866,7 @@ def test_run_update_safely_reenables_button_when_updater_is_current(updater_app,
     updater_app.update_button = _DummyButton()
     calls = []
 
+    monkeypatch.setattr(updater_app, "ensure_pack_folder_correct", lambda: True)
     monkeypatch.setattr(updater_app, "ensure_updater_current", lambda: True)
     monkeypatch.setattr(updater_app, "update_if_needed", lambda: calls.append("updated"))
 
@@ -879,6 +880,7 @@ def test_run_update_safely_reenables_button_when_updater_check_fails(updater_app
     updater_app.update_button = _DummyButton()
     calls = []
 
+    monkeypatch.setattr(updater_app, "ensure_pack_folder_correct", lambda: True)
     monkeypatch.setattr(updater_app, "ensure_updater_current", lambda: False)
     monkeypatch.setattr(updater_app, "update_if_needed", lambda: calls.append("updated"))
 
@@ -886,6 +888,62 @@ def test_run_update_safely_reenables_button_when_updater_check_fails(updater_app
 
     assert calls == []
     assert updater_app.update_button.states == ["normal"]
+
+
+def test_run_update_safely_stops_before_network_when_folder_renamed(updater_app, monkeypatch):
+    # A renamed folder must be caught before the updater-currency check, which
+    # hits the network - so nothing should run at all.
+    updater_app.update_button = _DummyButton()
+    calls = []
+
+    monkeypatch.setattr(updater_app, "ensure_pack_folder_correct", lambda: False)
+    monkeypatch.setattr(
+        updater_app, "ensure_updater_current",
+        lambda: calls.append("network") or True,
+    )
+    monkeypatch.setattr(updater_app, "update_if_needed", lambda: calls.append("updated"))
+
+    updater_app._run_update_safely()
+
+    assert calls == []
+    assert updater_app.update_button.states == ["normal"]
+
+
+def test_ensure_pack_folder_correct_accepts_uk(updater_app):
+    updater_app.base_dir = r"C:\Users\pilot\AppData\Roaming\EuroScope\UK"
+
+    assert updater_app.ensure_pack_folder_correct() is True
+
+
+def test_ensure_pack_folder_correct_is_case_insensitive(updater_app):
+    updater_app.base_dir = r"C:\Users\pilot\AppData\Roaming\EuroScope\uk"
+
+    assert updater_app.ensure_pack_folder_correct() is True
+
+
+def test_ensure_pack_folder_correct_rejects_renamed_folder(updater_app, updater_module, monkeypatch):
+    updater_app.base_dir = r"C:\Users\pilot\AppData\Roaming\EuroScope\UK-Pack"
+    messages = []
+    updater_app.log = messages.append
+
+    shown = []
+    monkeypatch.setattr(
+        updater_module.messagebox, "showerror",
+        lambda title, msg: shown.append((title, msg)),
+    )
+
+    assert updater_app.ensure_pack_folder_correct() is False
+    assert len(shown) == 1
+    title, msg = shown[0]
+    assert "UK-Pack" in msg
+    assert "UK" in msg
+    assert any("UK-Pack" in m for m in messages)
+
+
+def test_ensure_pack_folder_correct_ignores_trailing_slash(updater_app):
+    updater_app.base_dir = r"C:\Users\pilot\AppData\Roaming\EuroScope\UK\\"
+
+    assert updater_app.ensure_pack_folder_correct() is True
 
 
 def test_start_gng_flow_starts_background_thread(updater_module, updater_app, monkeypatch):
