@@ -1,3 +1,6 @@
+# Changes from release 2026/08 to 2026/09
+1. Bug - Fixed transition level in Blackpool (EGNH) and Warton (EGNO) ATISes - thanks to @PLM1995
+
 # Changes from release 2026/07 to 2026/08
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
 2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
