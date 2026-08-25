@@ -3475,7 +3475,7 @@
         "name": "EGD098E",
         "type": "DANGER",
         "lowerFL": 0,
-        "upperFL": 15
+        "upperFL": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -3607,7 +3607,7 @@
         "name": "EGD098G",
         "type": "DANGER",
         "lowerFL": 0,
-        "upperFL": 15
+        "upperFL": 20
       },
       "geometry": {
         "type": "Polygon",
