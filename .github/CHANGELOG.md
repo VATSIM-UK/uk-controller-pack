@@ -1,3 +1,6 @@
+# Changes from release 2026/08 to 2026/09
+1. Bug - Updated EGD098E/G vertical limits - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/07 to 2026/08
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
 2. Enhancement - Added Lydd (EGMD) to AC South vATIS profile - thanks to @frazerxyz (Frazer Scully)
