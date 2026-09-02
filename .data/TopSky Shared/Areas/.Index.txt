@@ -65,7 +65,6 @@ Danger/EGD115A.txt
 Danger/EGD115B.txt
 Danger/EGD117.txt
 Danger/EGD118.txt
-Danger/EGD119.txt
 Danger/EGD120.txt
 Danger/EGD122A.txt
 Danger/EGD122B.txt
