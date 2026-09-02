@@ -1768,37 +1768,37 @@
             {
               "low": 940,
               "high": 958,
-              "altitude": 80
+              "altitude": 60
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 75
+              "altitude": 55
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 70
+              "altitude": 50
             },
             {
               "low": 995,
               "high": 1012,
-              "altitude": 65
+              "altitude": 45
             },
             {
               "low": 1013,
               "high": 1031,
-              "altitude": 60
+              "altitude": 40
             },
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 55
+              "altitude": 35
             },
             {
               "low": 1050,
               "high": 1060,
-              "altitude": 50
+              "altitude": 30
             }
           ],
           "template": {
@@ -1912,11 +1912,27 @@
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "ordinal": 13,
+          "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY 13 AVAILABLE ON REQUEST",
+          "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY 31 AVAILABLE ON REQUEST",
+          "ordinal": 11,
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "DIRECT ARRIVAL APPROACHES RWY 28 FROM VOR/DME POL NOT AVAILABLE",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "ordinal": 0,
