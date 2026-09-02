@@ -4,6 +4,7 @@
 3. Bug - Updated EGD098E/G vertical limits - thanks to @Liaely (Lily Unitt)
 4. AIRAC (2609) - Removed Danger Area EGD119 - thanks to @Liaely (Lily Unitt)
 5. AIRAC (2609) - Updated Bournemouth (EGHH) SMAA altitudes - thanks to @Liaely (Lily Unitt)
+6. Enhancement - Added Gatwick (EGKK) pilot breifing link to controller info - thanks to @lyraongithub
 
 # Changes from release 2026/07 to 2026/08
 1. Bug - Removed VCH CTL column to prevent conflict with UKCP stand allocation - thanks to @frazerxyz (Frazer Scully)
