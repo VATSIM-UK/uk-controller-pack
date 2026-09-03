@@ -27,6 +27,7 @@ Free Text:SCT2\108:freetext
 Free Text:SCT2\109:freetext
 Free Text:SCT2\10A:freetext
 Free Text:SCT2\10L:freetext
+Free Text:SCT2\10R:freetext
 Free Text:SCT2\11:freetext
 Free Text:SCT2\110:freetext
 Free Text:SCT2\111:freetext
@@ -35,6 +36,8 @@ Free Text:SCT2\113:freetext
 Free Text:SCT2\114:freetext
 Free Text:SCT2\116:freetext
 Free Text:SCT2\11A:freetext
+Free Text:SCT2\11L:freetext
+Free Text:SCT2\11R:freetext
 Free Text:SCT2\12:freetext
 Free Text:SCT2\120:freetext
 Free Text:SCT2\121:freetext
@@ -43,6 +46,7 @@ Free Text:SCT2\123:freetext
 Free Text:SCT2\124:freetext
 Free Text:SCT2\124R:freetext
 Free Text:SCT2\125:freetext
+Free Text:SCT2\12R:freetext
 Free Text:SCT2\13:freetext
 Free Text:SCT2\130:freetext
 Free Text:SCT2\131:freetext
@@ -51,6 +55,8 @@ Free Text:SCT2\133:freetext
 Free Text:SCT2\134:freetext
 Free Text:SCT2\135:freetext
 Free Text:SCT2\136:freetext
+Free Text:SCT2\13L:freetext
+Free Text:SCT2\13R:freetext
 Free Text:SCT2\14:freetext
 Free Text:SCT2\140:freetext
 Free Text:SCT2\141:freetext
@@ -58,6 +64,7 @@ Free Text:SCT2\142:freetext
 Free Text:SCT2\143:freetext
 Free Text:SCT2\144:freetext
 Free Text:SCT2\145:freetext
+Free Text:SCT2\14L:freetext
 Free Text:SCT2\15:freetext
 Free Text:SCT2\150:freetext
 Free Text:SCT2\151:freetext
@@ -66,6 +73,7 @@ Free Text:SCT2\153:freetext
 Free Text:SCT2\154:freetext
 Free Text:SCT2\158:freetext
 Free Text:SCT2\159:freetext
+Free Text:SCT2\15L:freetext
 Free Text:SCT2\16:freetext
 Free Text:SCT2\160:freetext
 Free Text:SCT2\161:freetext
@@ -127,9 +135,6 @@ Free Text:SCT2\216:freetext
 Free Text:SCT2\217:freetext
 Free Text:SCT2\218:freetext
 Free Text:SCT2\219:freetext
-Free Text:SCT2\21A:freetext
-Free Text:SCT2\21B:freetext
-Free Text:SCT2\21C:freetext
 Free Text:SCT2\21E:freetext
 Free Text:SCT2\21R:freetext
 Free Text:SCT2\21W:freetext
@@ -140,6 +145,8 @@ Free Text:SCT2\223:freetext
 Free Text:SCT2\224:freetext
 Free Text:SCT2\225:freetext
 Free Text:SCT2\226:freetext
+Free Text:SCT2\22A:freetext
+Free Text:SCT2\22B:freetext
 Free Text:SCT2\23:freetext
 Free Text:SCT2\230:freetext
 Free Text:SCT2\231:freetext
