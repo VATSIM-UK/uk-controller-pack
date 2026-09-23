@@ -1,3 +1,5 @@
+x. Updated VACS & CDM plugins - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/08 to 2026/09
 1. Enhancement - Updated VACS to v2.6.0 - thanks to @MrAdder (Daniel Green)
 2. Bug - Fixed transition level in Blackpool (EGNH) and Warton (EGNO) ATISes - thanks to @PLM1995
