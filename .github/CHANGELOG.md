@@ -1,3 +1,7 @@
+# Changes from release 2026/09 to 2026/10
+1. AIRAC (2610) - Updated LAC Sector 9 frequency - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2610) - Defined Colerne Radio (EGUO_R_TWR) - thanks to @Liaely (Lily Unitt)
+
 # Changes from release 2026/08 to 2026/09
 1. Enhancement - Updated VACS to v2.6.0 - thanks to @MrAdder (Daniel Green)
 2. Bug - Fixed transition level in Blackpool (EGNH) and Warton (EGNO) ATISes - thanks to @PLM1995
