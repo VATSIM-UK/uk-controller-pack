@@ -33,10 +33,10 @@ ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_P_GND:20:2
 ATIS2:Heathrow Planner | PDC [EGLL]
-ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET | Report your TOBT at vats.im/vdgs
+ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 PROFILE:EGLL_DEL:20:2
 ATIS2:Heathrow Delivery | PDC [EGLL]
-ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET | Report your TOBT at vats.im/vdgs
+ATIS3:INITIAL CLIMB ALTITUDE 6000 FEET
 ATIS4:Submit feedback at vats.im/atcfb
 END
