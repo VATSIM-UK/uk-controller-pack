@@ -37,7 +37,7 @@ AG:X Area - LAC West (Brecon Low):133.600
 AG:X Area - LAC West (Sector 23):134.755
 AG:X Area - LAC West (Sector 8):129.380
 AG:X Area - LAC West (Berry Head):128.815
-AG:X Area - LAC West (Sector 9):132.950
+AG:X Area - LAC West (Sector 9):132.955
 AG:X Area - LAC West (Exmoor):127.700
 AG:X Area - LTC COWLY:133.080
 AG:X Area - LTC WELIN:130.925
