@@ -23,7 +23,7 @@
   "CDM": {
     "schemaVersion": 1,
     "label": "CDM",
-    "message": "2.28",
+    "message": "2.29",
     "color": "blue",
     "repo": "rpuig2001/CDM"
   },
@@ -66,7 +66,7 @@
   "VACS": {
     "schemaVersion": 1,
     "label": "VACS",
-    "message": "vacs-client-v2.6.0",
+    "message": "vacs-client-v2.8.0",
     "color": "blue",
     "repo": "vacs-project/vacs"
   }
