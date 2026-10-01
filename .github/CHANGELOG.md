@@ -6,6 +6,7 @@
 5. Bug - Corrected Inverness (EGPE) vATIS frequencies to match Sector File - thanks to @PLM1995
 6. AIRAC (2610) - Defined Colerne Radio (EGUO_R_TWR) - thanks to @Liaely (Lily Unitt)
 7. AIRAC (2610) - Updated LAC Sector 9 frequency - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Added Heathrow (EGLL) pilot briefing link to controller info - thanks to @hippoprogrammer
 
 # Changes from release 2026/08 to 2026/09
 1. Enhancement - Updated VACS to v2.6.0 - thanks to @MrAdder (Daniel Green)
