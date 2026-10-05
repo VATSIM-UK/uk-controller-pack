@@ -279,6 +279,10 @@ PROFILE:EGHE_A_APP:150:5
 ATIS2:Scillies Approach
 ATIS3:Charts at chartfox.org/eghe
 ATIS4:Procedural approach unit | Radar unavailable
+PROFILE:EGKA_A_APP:150:5
+ATIS2:Shoreham Approach
+ATIS3:Charts at chartfox.org/egka
+ATIS4:Procedural approach unit | Radar unavailable
 PROFILE:EGMD_A_APP:150:5
 ATIS2:Lydd Approach
 ATIS3:Charts at chartfox.org/egmd
