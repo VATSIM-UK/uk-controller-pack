@@ -1,3 +1,6 @@
+# Changes from release 2026/10 to 2026/11
+1. Bug - Add version.txt to changes only zip
+
 # Changes from release 2026/09 to 2026/10
 1. Enhancement - Added Manchester (EGCC) vSMR profile with tag geofencing - thanks to @19wintersp
 2. Enhancement - Added Manchester (EGCC) pilot briefing link to controller info - thanks to @hippoprogrammer
