@@ -124,6 +124,12 @@ jobs:
           echo "previous_tag=$from_tag" >> $GITHUB_OUTPUT
           echo "Using changes-only range: $from_tag -> $latest_tag"
 
+      - name: 📝 Update UK/version.txt with Release Tag
+        run: |
+          mkdir -p UK
+          echo "${{ steps.tags.outputs.latest_tag }}" > UK/version.txt
+          echo "Updated UK/version.txt with ${{ steps.tags.outputs.latest_tag }}"
+
       - name: 🧐 Analyze Changes Between Releases
         id: analyze
         run: |
