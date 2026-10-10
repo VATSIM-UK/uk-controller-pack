@@ -65,6 +65,7 @@ New Pilots
 .runway You can not connect on a runway, please disconnect and re-connect at a stand.
 .ccpb Please visit the Manchester Pilot Guide (vats.im/EGCC-brief) for information on charts, scenery, procedures, and more at Manchester.
 .kkpb Please visit the Gatwick Pilot Guide (vats.im/EGKK-brief) for information on charts, scenery, procedures, and more at Gatwick.
+.llpb Please visit the Heathrow Pilot Guide (vats.im/EGLL-brief) for information on charts, scenery, procedures, and more at Heathrow.
 .pb Please visit the Pilot Guide for the UK (vats.im/UK-brief) for information on charts, scenery, procedures, and more for various airfields around the UK, as well as general information on flying within UK airspace.
 
 ========================================================
