@@ -1,5 +1,6 @@
 # Changes from release 2026/10 to 2026/11
 1. Enhancement - Added pilot briefing aliases for Manchester (EGCC), Gatwick (EGKK), and Heathrow (EGLL) - thanks to @AdriTheDev
+2. Bug - Fixed incorrect runway designation for Gloucestershire (EGBJ) vATIS profile - thanks to @AdriTheDev
 
 # Changes from release 2026/09 to 2026/10
 1. Enhancement - Added Manchester (EGCC) vSMR profile with tag geofencing - thanks to @19wintersp
