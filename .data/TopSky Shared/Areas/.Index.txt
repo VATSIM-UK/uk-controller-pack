@@ -125,6 +125,14 @@ Danger/EGD218A.txt
 Danger/EGD218B.txt
 Danger/EGD218C.txt
 Danger/EGD218D.txt
+Danger/EGD219A.txt
+Danger/EGD219B.txt
+Danger/EGD219C.txt
+Danger/EGD219D.txt
+Danger/EGD219E.txt
+Danger/EGD219F.txt
+Danger/EGD219G.txt
+Danger/EGD219H.txt
 Danger/EGD220A.txt
 Danger/EGD220B.txt
 Danger/EGD304.txt
