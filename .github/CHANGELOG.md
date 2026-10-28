@@ -1,4 +1,5 @@
 # Changes from release 2026/10 to 2026/11
+1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
 2. Bug - Fix runway designation for Gloucestershire (EGBJ) in vATIS - thanks to @AdriTheDev
 
 # Changes from release 2026/09 to 2026/10
