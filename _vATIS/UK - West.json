@@ -1388,7 +1388,7 @@
           "Name": "RUNWAY 08 (LON_23_CTR)",
           "AirportConditions": "ARRIVING AIRCRAFT EXPECT AN RNP APPROACH TO RUNWAY 08. DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LONDON CONTROL ON 134.755.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^09. LEFT HAND CIRCUIT.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
+          "Template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME].\r\nRWY IN USE ^08. LEFT HAND CIRCUIT.\r\n[TL].\r\n[ARPT_COND]\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
           "Name": "RUNWAY 21 (LON_23_CTR)",
