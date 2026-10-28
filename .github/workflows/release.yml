@@ -209,8 +209,10 @@ jobs:
         if: steps.analyze.outputs.changes_exist == 'true'
         run: |
           tag="${{ steps.tags.outputs.latest_tag }}"
+          release_tag="${{ needs.create-full-zip.outputs.full_tag }}"
           cd changes_only
           mkdir -p UK/Data/Sector
+          echo "$release_tag" > UK/version.txt
           echo "${{ needs.create-full-zip.outputs.release_sha }}" >> UK/Data/Sector/pack_version.txt
           zip -r "../changes_only_${tag}.zip" .
           cd ..

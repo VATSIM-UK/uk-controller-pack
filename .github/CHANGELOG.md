@@ -1,4 +1,10 @@
-1. AIRAC (2609) - Removed EGBE VRPs - thanks to @hippoprogrammer
+# Changes from release 2026/10 to 2026/11
+1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
+2. Bug - Fix runway designation for Gloucestershire (EGBJ) in vATIS - thanks to @AdriTheDev
+3. Enhancement - Added pilot briefing aliases for Manchester (EGCC), Gatwick (EGKK), and Heathrow (EGLL) - thanks to @AdriTheDev
+4. Enhancement - Updated Shoreham (EGKA) Approach logon information - thanks to @PLM1995
+5. Bug - Add version.txt to changes only zip
+6. AIRAC (2609) - Removed EGBE VRPs - thanks to @hippoprogrammer
 
 # Changes from release 2026/09 to 2026/10
 1. Enhancement - Added Manchester (EGCC) vSMR profile with tag geofencing - thanks to @19wintersp
