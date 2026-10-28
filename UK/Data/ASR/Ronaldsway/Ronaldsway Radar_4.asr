@@ -960,8 +960,6 @@ Fixes:ELNIF:name
 Fixes:ELNIF:symbol
 Fixes:ELNOD:name
 Fixes:ELNOD:symbol
-Fixes:ELREW:name
-Fixes:ELREW:symbol
 Fixes:ELRIP:name
 Fixes:ELRIP:symbol
 Fixes:ELSAN:name
@@ -1396,6 +1394,8 @@ Fixes:JETZI:name
 Fixes:JETZI:symbol
 Fixes:JOZMA:name
 Fixes:JOZMA:symbol
+Fixes:JUGSE:name
+Fixes:JUGSE:symbol
 Fixes:JUMZI:name
 Fixes:JUMZI:symbol
 Fixes:KAMJU:name

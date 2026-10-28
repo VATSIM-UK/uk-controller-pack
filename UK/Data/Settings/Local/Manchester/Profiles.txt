@@ -1,30 +1,30 @@
 PROFILE
 PROFILE:EGCC_DEL:10:2
 ATIS2:Manchester Delivery | PDC [EGCC]
-ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET | Report your TOBT at vats.im/vdgs
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_GND:20:3
 ATIS2:Manchester Ground | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_S_TWR:50:4
 ATIS2:Manchester Tower | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_N_TWR:50:4
 ATIS2:Manchester Tower | PDC [EGCC]
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_S_APP:100:5
 ATIS2:Manchester Radar
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_N_APP:100:5
 ATIS2:Manchester Radar
 ATIS3:INITIAL CLIMB ALTITUDE 5000 FEET
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 PROFILE:EGCC_F_APP:50:5
 ATIS2:Manchester Director
 ATIS3:Voice ATIS on 121.975
-ATIS4:Submit feedback at vats.im/atcfb
+ATIS4:Submit feedback at vats.im/atcfb | Pilot brief at vats.im/EGCC-brief
 END

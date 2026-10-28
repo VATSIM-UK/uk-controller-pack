@@ -1,5 +1,21 @@
+# Changes from release 2026/10 to 2026/11
+1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
+2. Bug - Fix runway designation for Gloucestershire (EGBJ) in vATIS - thanks to @AdriTheDev
+3. Enhancement - Added pilot briefing aliases for Manchester (EGCC), Gatwick (EGKK), and Heathrow (EGLL) - thanks to @AdriTheDev
+4. Enhancement - Updated Shoreham (EGKA) Approach logon information - thanks to @PLM1995
+5. Bug - Add version.txt to changes only zip
+6. AIRAC (2609) - Removed EGBE VRPs - thanks to @hippoprogrammer
+7. Enhancement - Add ability to open COPN/COPX coordination lists on NODE/NOVA - thanks to @spacenano (Samuel Lefevre)
+
 # Changes from release 2026/09 to 2026/10
-x. Enhancement - Add ability to open COPN/COPX coordination lists on NODE/NOVA - thanks to @spacenano (Samuel Lefevre)
+1. Enhancement - Added Manchester (EGCC) vSMR profile with tag geofencing - thanks to @19wintersp
+2. Enhancement - Added Manchester (EGCC) pilot briefing link to controller info - thanks to @hippoprogrammer
+3. Bug - Removed links to vACDM from Heathrow (EGLL), Gatwick (EGKK) and Manchester (EGCC) profiles - thanks to @hippoprogrammer
+4. Updated VACS & CDM plugins - thanks to @Liaely (Lily Unitt)
+5. Bug - Corrected Inverness (EGPE) vATIS frequencies to match Sector File - thanks to @PLM1995
+6. AIRAC (2610) - Defined Colerne Radio (EGUO_R_TWR) - thanks to @Liaely (Lily Unitt)
+7. AIRAC (2610) - Updated LAC Sector 9 frequency - thanks to @Liaely (Lily Unitt)
+8. Enhancement - Added Heathrow (EGLL) pilot briefing link to controller info - thanks to @hippoprogrammer
 
 # Changes from release 2026/08 to 2026/09
 1. Enhancement - Updated VACS to v2.6.0 - thanks to @MrAdder (Daniel Green)
