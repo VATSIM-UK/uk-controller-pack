@@ -1,3 +1,6 @@
+# Changes from release 2026/11 to 2026/12
+.x Enhancement - Updated NODE symbology for EGLL/EGKK RMA, added extended western edge of N57 for Heahtrow (EGLL) Westerly RMA and added A-B line to Gatwick (EGKK) RMA - thanks to @spacenano (Samuel Lefevre)
+
 # Changes from release 2026/10 to 2026/11
 1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
 2. Bug - Fix runway designation for Gloucestershire (EGBJ) in vATIS - thanks to @AdriTheDev
