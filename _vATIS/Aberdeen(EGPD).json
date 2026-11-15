@@ -228,12 +228,14 @@
         {
           "text": "FOR CLEARANCE CONTACT GROUND ON 121.705.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGPD_*GND",
+          "enabled": true
         },
         {
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 118.105.",
           "ordinal": 10,
-          "enabled": false
+          "onlineCondition": "EGPD_*TWR AND NOT EGPD_*GND",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

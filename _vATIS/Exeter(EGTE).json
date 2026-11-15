@@ -228,7 +228,8 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 119.805.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGTE_*TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

@@ -224,7 +224,8 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 133.105.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGFF_*TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
@@ -465,16 +466,19 @@
         {
           "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.930.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGGD_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY IS CLOSED. ATC CONTINUES WITH GROUND ON 121.930.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGGD_*GND AND NOT EGGD_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY AND GROUND ARE CLOSED. ATC CONTINUES WITH TOWER ON 133.855.",
           "ordinal": 10,
+          "onlineCondition": "EGGD_*TWR AND NOT (EGGD_*GND OR EGGD_*DEL)",
           "enabled": false
         },
         {
@@ -716,7 +720,8 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 122.865.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGSY_*TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

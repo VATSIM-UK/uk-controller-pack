@@ -233,17 +233,20 @@
         {
           "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.805.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGNM_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY IS CLOSED. ATC CONTINUES WITH TOWER ON 120.305.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGNM_*TWR AND NOT EGNM_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY AND TOWER ARE CLOSED. ATC CONTINUES WITH RADAR ON 134.580.",
           "ordinal": 10,
-          "enabled": false
+          "onlineCondition": "EGNM_*APP AND NOT (EGNM_*TWR OR EGNM_*DEL)",
+          "enabled": true
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",

@@ -405,22 +405,26 @@
         {
           "text": "FLIGHT CREWS IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
           "ordinal": 4,
+          "onlineCondition": "EGCC_*DEL",
           "enabled": false
         },
         {
           "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.855.",
           "ordinal": 5,
-          "enabled": false
+          "onlineCondition": "EGCC_*GND AND NOT EGCC_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.630.",
           "ordinal": 6,
-          "enabled": false
+          "onlineCondition": "EGCC_*N_*TWR AND NOT (EGCC_*GND OR EGCC_*DEL)",
+          "enabled": true
         },
         {
           "text": "FOR START & TAXI CONTACT MANCHESTER RADAR ON 118.580.",
           "ordinal": 7,
-          "enabled": false
+          "onlineCondition": "EGCC_*S_*APP AND NOT (EGCC_*TWR OR EGCC_*GND OR EGCC_*DEL)",
+          "enabled": true
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",

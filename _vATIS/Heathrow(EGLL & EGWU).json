@@ -469,27 +469,32 @@
         {
           "text": "FLIGHT CREWS IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
           "ordinal": 5,
-          "enabled": false
+          "onlineCondition": "EGLL_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.705.",
           "ordinal": 6,
-          "enabled": false
+          "onlineCondition": "EGLL_*2_*GND AND NOT EGLL_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY IS CLOSED, FOR START CLEARANCE CONTACT GROUND ON 121.905.",
           "ordinal": 6,
-          "enabled": false
+          "onlineCondition": "EGLL_*1_*GND AND NOT EGLL_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY AND GROUND CLOSED, FOR START & TAXI CONTACT TOWER ON 118.505.",
           "ordinal": 6,
-          "enabled": false
+          "onlineCondition": "EGLL_*S_*TWR AND NOT (EGLL_*_GND OR EGLL_*DEL)",
+          "enabled": true
         },
         {
           "text": "FOR START & TAXI CONTACT DIRECTOR ON 119.730.",
           "ordinal": 6,
-          "enabled": false
+          "onlineCondition": "EGLL_*N_*APP AND NOT (EGLL_*_GND OR EGLL_*DEL)",
+          "enabled": true
         },
         {
           "text": "FLIGHT CREWS SHOULD EXPECT SRO FROM 2330 LOCAL TIME.",
@@ -1474,6 +1479,7 @@
         {
           "text": "NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.730. ALL DEPARTURES REQUIRE CLEARANCE AND RELEASE BEFORE DEPARTURE FROM HEATHROW DIRECTOR 119.730.",
           "ordinal": 7,
+          "onlineCondition": "EGLL_*N_*APP AND NOT (EGWU_*TWR OR EGWU_*APP)",
           "enabled": true
         }
       ]

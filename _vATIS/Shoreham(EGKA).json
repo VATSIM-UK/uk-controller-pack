@@ -165,52 +165,28 @@
       },
       "presets": [
         {
-          "id": "491b7fa5-e6b6-4dfe-a484-c75cb9de9224",
-          "name": "TWR ONLY",
-          "airportConditions": "",
-          "notams": "",
-          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT SHOREHAM TOWER FREQUENCY 125.405.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "name": "02",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^02.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
         },
         {
-          "id": "070c1d8d-42b7-4d6d-a22c-ad4a2609ab7f",
-          "name": "APP ONLY",
-          "airportConditions": "",
-          "notams": "",
-          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nALL AIRCRAFT CONTACT SHOREHAM APPROACH FREQUENCY 123.155.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "name": "20",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^20.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
         },
         {
-          "id": "aaa02cef-310f-4ccc-addc-4d48b982c311",
-          "name": "TWR & APP",
-          "airportConditions": "",
-          "notams": "",
-          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\n[ARPT_COND]\r\n[WX].\r\nDEPARTING AIRCRAFT CONTACT SHOREHAM TOWER FREQUENCY 125.305.\r\nARRIVING AIRCRAFT CONTACT SHOREHAM APPROACH FREQUENCY 123.155.\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF ATIS [ATIS_CODE].",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
+          "name": "13",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^13.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
+        },
+        {
+          "name": "31",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^31.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
+        },
+        {
+          "name": "06",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^06.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
+        },
+        {
+          "name": "24",
+          "template": "INFORMATION [ATIS_CODE].\r\nTIME [TIME].\r\nRWY IN USE ^24.\r\n[ARPT_COND]\r\n[WX].\r\n[NOTAMS]\r\nACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE]."
         }
       ],
       "contractions": [
@@ -257,36 +233,6 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY IN USE 02.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY IN USE 20.",
-          "ordinal": 2,
-          "enabled": true
-        },
-        {
-          "text": "RUNWAY IN USE 13.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY IN USE 31.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY IN USE 06.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY IN USE 24.",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
           "text": "LEFT HAND CIRCUIT.",
           "ordinal": 7,
           "enabled": true
@@ -295,6 +241,24 @@
           "text": "RIGHT HAND CIRCUIT.",
           "ordinal": 8,
           "enabled": false
+        },
+        {
+          "text": "ALL AIRCRAFT CONTACT SHOREHAM TOWER FREQUENCY 125.405.",
+          "ordinal": 9,
+          "onlineCondition": "EGKA_*TWR AND NOT EGKA_*APP",
+          "enabled": true
+        },
+        {
+          "text": "ALL AIRCRAFT CONTACT SHOREHAM APPROACH FREQUENCY 123.155.",
+          "ordinal": 10,
+          "onlineCondition": "EGKA_*APP AND NOT EGKA_*TWR",
+          "enabled": true
+        },
+        {
+          "text": "DEPARTING AIRCRAFT CONTACT SHOREHAM TOWER FREQUENCY 125.305. ARRIVING AIRCRAFT CONTACT SHOREHAM APPROACH FREQUENCY 123.155.",
+          "ordinal": 11,
+          "onlineCondition": "EGKA_*APP AND EGKA_*TWR",
+          "enabled": true
         }
       ],
       "notamDefinitions": []

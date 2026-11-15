@@ -163,24 +163,8 @@
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22.\r\nRWY ^22. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
         },
         {
-          "name": "22 (DEL CLOSED)",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22.\r\nRWY ^22. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\nDELIVERY IS CLOSED.\r\n[CLOSING]."
-        },
-        {
-          "name": "22 (DEL + GND CLOSED)",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^22.\r\nRWY ^22. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\nGROUND IS CLOSED. DELIVERY IS CLOSED.\r\n[CLOSING]."
-        },
-        {
           "name": "04",
           "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04.\r\nRWY ^04. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\n[CLOSING]."
-        },
-        {
-          "name": "04 (DEL CLOSED)",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04.\r\nRWY ^04. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\nDELIVERY IS CLOSED.\r\n[CLOSING]."
-        },
-        {
-          "name": "04 (DEL + GND CLOSED)",
-          "template": "[FACILITY] COM ATIS [ATIS_CODE].\r\n[TIME] AUTO.\r\nEXPECT AN ILS APPROACH.\r\nRWY IN USE ^04.\r\nRWY ^04. [ARPT_COND]\r\n[TL].\r\nWARNING. THE CLN DEPARTURE IS A STEPPED CLIMB. ENSURE COMPLIANCE WITH THE CLIMB PROFILE.\r\n[NOTAMS]\r\n[WX].\r\nGROUND IS CLOSED. DELIVERY IS CLOSED.\r\n[CLOSING]."
         }
       ],
       "contractions": [
@@ -358,9 +342,10 @@
           "ordinal": 8,
           "enabled": false
         },
-        {
+         {
           "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
           "ordinal": 10,
+          "onlineCondition": "EGSS_*DEL",
           "enabled": false
         },
         {
@@ -372,6 +357,30 @@
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "ordinal": 12,
           "enabled": false
+        },
+        {
+          "text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.730.",
+          "ordinal": 13,
+          "onlineCondition": "EGSS_*GND AND NOT EGSS_*DEL",
+          "enabled": true
+        },
+        {
+          "text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 123.805.",
+          "ordinal": 14,
+          "onlineCondition": "EGSS_*TWR AND NOT (EGSS_*GND OR EGSS_*DEL)",
+          "enabled": true
+        },
+        {
+          "text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 123.805.",
+          "ordinal": 15,
+          "onlineCondition": "EGSS_*TWR AND NOT (EGSS_*GND OR EGSS_*DEL)",
+          "enabled": true
+        },
+        {
+          "text": "FOR START & TAXI CONTACT RADAR ON 120.625.",
+          "ordinal": 16,
+          "onlineCondition": "(EGSS_*APP OR ESSEX_*APP) AND NOT (EGSS_*TWR OR EGSS_*GND OR EGSS_*DEL)",
+          "enabled": true
         }
       ]
     },
@@ -605,36 +614,51 @@
         {
           "text": "FOR CLEARANCE CONTACT DELIVERY ON 121.885.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGGW_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY IS CLOSED, ATC CONTINUES WITH GROUND ON 121.755.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGGW_*GND AND NOT EGGW_*DEL",
+          "enabled": true
         },
         {
           "text": "DELIVERY AND GROUND ARE CLOSED, ATC CONTINUES WITH TOWER ON 132.555.",
           "ordinal": 10,
-          "enabled": false
+          "onlineCondition": "EGGW_*TWR AND NOT (EGGW_*GND OR EGGW_*DEL)",
+          "enabled": true
+        },
+        {
+          "text": "FOR START & TAXI CONTACT RADAR ON 129.550.",
+          "ordinal": 11,
+          "onlineCondition": "EGGW_*APP AND NOT (EGGW_*TWR OR EGGW_*GND OR EGGW_*DEL)",
+          "enabled": true
+        },
+        {
+          "text": "FOR START & TAXI CONTACT STANSTED RADAR ON 120.625.",
+          "ordinal": 12,
+          "onlineCondition": "ESSEX_*APP AND NOT (EGGW_*APP OR EGGW_*TWR OR EGGW_*GND OR EGGW_*DEL)",
+          "enabled": true
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
-          "ordinal": 11,
+          "ordinal": 13,
           "enabled": false
         },
         {
           "text": "FLIGHT CREWS THAT ARE IN RECEIPT OF DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.885 WHEN READY FOR START.",
-          "ordinal": 12,
+          "ordinal": 14,
           "enabled": false
         },
         {
           "text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
-          "ordinal": 13,
+          "ordinal": 15,
           "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
-          "ordinal": 14,
+          "ordinal": 16,
           "enabled": false
         }
       ],
@@ -860,7 +884,8 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 125.905.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGSC_*TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

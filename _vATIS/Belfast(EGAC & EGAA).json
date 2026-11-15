@@ -237,17 +237,20 @@
         {
           "text": "FOR CLEARANCE CONTACT GROUND ON 121.755.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGAA_*GND",
+          "enabled": true
         },
         {
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 118.305.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGAA_*TWR AND NOT EGAA_*GND",
+          "enabled": true
         },
         {
           "text": "GROUND AND TOWER ARE CLOSED. ATC CONTINUES WITH RADAR ON 133.130.",
           "ordinal": 10,
-          "enabled": false
+          "onlineCondition": "EGAA_*APP AND NOT (EGAA_*TWR OR EGAA_*GND)",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
@@ -478,12 +481,14 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 122.830.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGAC_TWR",
+          "enabled": true
         },
         {
           "text": "TOWER IS CLOSED. ATC CONTINUES WITH RADAR ON 134.805.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGAC_APP AND NOT EGAC_TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

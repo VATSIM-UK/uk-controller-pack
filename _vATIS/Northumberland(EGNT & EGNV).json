@@ -229,12 +229,14 @@
         {
           "text": "FOR CLEARANCE CONTACT GROUND ON 121.730.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGNT_*GND",
+          "enabled": true
         },
         {
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 119.705.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGNT_*TWR AND NOT EGNT_*GND",
+          "enabled": true
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
@@ -480,7 +482,8 @@
         {
           "text": "FOR CLEARANCE CONTACT TOWER ON 119.805.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGNV_*TWR",
+          "enabled": true
         },
         {
           "text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",

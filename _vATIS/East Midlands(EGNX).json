@@ -233,12 +233,14 @@
         {
           "text": "FOR CLEARANCE CONTACT GROUND ON 121.905.",
           "ordinal": 8,
-          "enabled": false
+          "onlineCondition": "EGNX_*GND",
+          "enabled": true
         },
         {
           "text": "GROUND IS CLOSED. ATC CONTINUES WITH TOWER ON 124.005.",
           "ordinal": 9,
-          "enabled": false
+          "onlineCondition": "EGNX_*TWR AND NOT EGNX_*GND",
+          "enabled": true
         },
         {
           "text": "DATALINK CLEARANCES ARE AVAILABLE.",
