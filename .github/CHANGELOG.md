@@ -1,4 +1,4 @@
-# Changes from release 2026/10 to 2026/11
+# Changes from release 2026/11 to 2026/12
 x. Bug - Clacton RMR map changed to also display on TC East - thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2026/10 to 2026/11
