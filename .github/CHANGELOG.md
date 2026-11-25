@@ -1,4 +1,4 @@
-x. Updated CDM to v2.30 & vacs to v3.0.1 - thanks to @Liaely (Lily Unitt)
+x. Updated CDM to & vacs to v3.0.1 - thanks to @Liaely (Lily Unitt)
 
 # Changes from release 2026/10 to 2026/11
 1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
