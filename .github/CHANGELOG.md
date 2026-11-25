@@ -1,6 +1,7 @@
-Changes from release 2026/11 to 2026/12
+# Changes from release 2026/11 to 2026/12
 1. AIRAC (2613) - Updated AMA near Norwich - thanks to @Liaely (Lily Unitt)
 2. AIRAC (2613) - Updated EGNS MSAW sectors - thanks to @Liaely (Lily Unitt)
+3. Enhancement - Updated Bristol (EGGD) to new symbology - thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2026/10 to 2026/11
 1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
