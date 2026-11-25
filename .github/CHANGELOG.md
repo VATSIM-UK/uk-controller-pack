@@ -1,5 +1,10 @@
 # Changes from release 2026/11 to 2026/12
-x. Bug - Clacton RMR map changed to also display on TC East - thanks to @spacenano (Samuel Lefevre)
+1. AIRAC (2613) - Updated AMA near Norwich - thanks to @Liaely (Lily Unitt)
+2. AIRAC (2613) - Updated EGNS MSAW sectors - thanks to @Liaely (Lily Unitt)
+3. Enhancement - Updated Bristol (EGGD) to new symbology - thanks to @spacenano (Samuel Lefevre)
+4. Enhancement - Updated NODE symbology for EGLL/EGKK RMA, added extended western edge of N57 for Heathrow (EGLL) Westerly RMA and added A-B line to Gatwick (EGKK) RMA - thanks to @spacenano (Samuel Lefevre)
+5. Bug - Removed erroneous EGAC_A_APP voice setting - thanks to @Liaely (Lily Unitt)
+6. Bug - Clacton RMR map changed to also display on TC East - thanks to @spacenano (Samuel Lefevre)
 
 # Changes from release 2026/10 to 2026/11
 1. Enhancement - Defined RPAS Transit Danger Areas (EDG219) - thanks to @Liaely (Lily Unitt)
