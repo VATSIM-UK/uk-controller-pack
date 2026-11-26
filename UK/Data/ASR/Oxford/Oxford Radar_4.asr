@@ -1602,6 +1602,8 @@ Fixes:ODVOD:name
 Fixes:ODVOD:symbol
 Fixes:OFCOT:name
 Fixes:OFCOT:symbol
+Fixes:OFGOM:name
+Fixes:OFGOM:symbol
 Fixes:OFJES:name
 Fixes:OFJES:symbol
 Fixes:OFSOX:name
@@ -1670,6 +1672,8 @@ Fixes:OSPOL:name
 Fixes:OSPOL:symbol
 Fixes:OSSEP:name
 Fixes:OSSEP:symbol
+Fixes:OSWAH:name
+Fixes:OSWAH:symbol
 Fixes:OSWEZ:name
 Fixes:OSWEZ:symbol
 Fixes:OTBED:name
@@ -1690,6 +1694,8 @@ Fixes:OXDUF:name
 Fixes:OXDUF:symbol
 Fixes:OXLOW:name
 Fixes:OXLOW:symbol
+Fixes:OXPAC:name
+Fixes:OXPAC:symbol
 Fixes:OYSTA:name
 Fixes:OYSTA:symbol
 Fixes:OZBOC:name
@@ -2324,6 +2330,8 @@ Fixes:WETFI:name
 Fixes:WETFI:symbol
 Fixes:WEVBE:name
 Fixes:WEVBE:symbol
+Fixes:WICEK:name
+Fixes:WICEK:symbol
 Fixes:WIGGU:name
 Fixes:WIGGU:symbol
 Fixes:WILLO:name
