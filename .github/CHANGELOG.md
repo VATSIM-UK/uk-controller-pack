@@ -13,6 +13,7 @@
 5. Bug - Add version.txt to changes only zip
 6. AIRAC (2609) - Removed EGBE VRPs - thanks to @hippoprogrammer
 7. Enhancement - Add ability to open COPN/COPX coordination lists on NODE/NOVA - thanks to @spacenano (Samuel Lefevre)
+X. Enhancement - Added Heathrow (EGLL) and Manchester (EGCC) dual ATIS stations to vATIS area profiles - thanks to @frazerxyz (Frazer Scully)
 
 # Changes from release 2026/09 to 2026/10
 1. Enhancement - Added Manchester (EGCC) vSMR profile with tag geofencing - thanks to @19wintersp
